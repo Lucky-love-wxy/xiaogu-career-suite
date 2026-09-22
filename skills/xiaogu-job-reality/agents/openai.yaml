@@ -1,0 +1,4 @@
+interface:
+  display_name: "小谷职业现实解码"
+  short_description: "把岗位名和 JD 翻译成真实工作、指标与成长风险"
+  default_prompt: "请用 $xiaogu-job-reality 解码这份岗位信息，给我一张容易理解、带证据边界的岗位现实卡。"

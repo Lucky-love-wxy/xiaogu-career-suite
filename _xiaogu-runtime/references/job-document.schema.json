@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xiaogu.local/schemas/job-document.json",
+  "title": "Xiaogu JobDocument",
+  "type": "object",
+  "required": ["schema_version", "id", "source", "retrieved_at", "position", "full_text", "status"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^job_[a-f0-9]{16}$"},
+    "source": {"type": "string"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "position": {
+      "type": "object",
+      "required": ["title", "company"],
+      "properties": {
+        "title": {"type": "string"},
+        "company": {"type": "string"},
+        "salary": {"type": "string"},
+        "city": {"type": "string"}
+      }
+    },
+    "full_text": {"type": "string"},
+    "status": {"const": "collected"}
+  }
+}

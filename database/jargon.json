@@ -1,0 +1,237 @@
+[
+  {
+    "term": "弹性工作",
+    "literal": "工作时间或到岗安排存在一定弹性。",
+    "hypothesis": "核心到岗时间、晚间响应和周末安排可能仍有限制，JD 本身不能证明具体工时。",
+    "verify": "平时、大促或项目高峰分别怎样安排工时，是否有核心到岗时间和周末值班？",
+    "fields": [
+      "working_hours",
+      "peak_schedule"
+    ]
+  },
+  {
+    "term": "结果导向",
+    "literal": "岗位评价更重视最终产出或业务指标。",
+    "hypothesis": "需要确认指标口径、周期、个人可控范围和可用资源，否则无法判断责任是否对等。",
+    "verify": "入职前三个月最重要的结果是什么，指标由谁制定，我能调动哪些资源？",
+    "fields": [
+      "success_metrics",
+      "resources",
+      "decision_rights"
+    ]
+  },
+  {
+    "term": "主人翁意识",
+    "literal": "希望员工主动发现问题并对结果负责。",
+    "hypothesis": "主动承担的边界、决策权和升级机制没有写明，不能据此推断一定需要无偿加班。",
+    "verify": "这个岗位可以独立决定哪些事项，哪些情况需要向直属负责人升级？",
+    "fields": [
+      "decision_rights",
+      "responsibility_boundary"
+    ]
+  },
+  {
+    "term": "抗压能力强",
+    "literal": "岗位可能存在高峰期、并行任务或较强结果压力。",
+    "hypothesis": "压力来源、频率和持续时间未知，需要区分偶发高峰与长期超负荷。",
+    "verify": "这个岗位最常见的压力来自哪里，高峰期大约多久一次、持续多久？",
+    "fields": [
+      "workload",
+      "peak_schedule"
+    ]
+  },
+  {
+    "term": "完成领导交办的其他任务",
+    "literal": "职责范围允许临时增加未逐项列明的工作。",
+    "hypothesis": "临时任务的类型、占比和与主目标的优先级没有说明。",
+    "verify": "过去三个月这个岗位常见的临时任务有哪些，大约占多少时间？",
+    "fields": [
+      "scope",
+      "priority_rules"
+    ]
+  },
+  {
+    "term": "独立负责",
+    "literal": "候选人需要对某一业务或项目承担主要责任。",
+    "hypothesis": "独立负责不等于没有团队支持，需要确认人员、预算、数据和审批资源。",
+    "verify": "我独立负责的边界是什么，会有哪些人员、预算、数据和审批支持？",
+    "fields": [
+      "ownership",
+      "resources"
+    ]
+  },
+  {
+    "term": "扁平化管理",
+    "literal": "组织层级较少，信息或决策链路较短。",
+    "hypothesis": "汇报对象、职责边界和晋升机制仍可能不清楚。",
+    "verify": "这个岗位向谁汇报，团队如何分工，绩效和晋升由谁评估？",
+    "fields": [
+      "reporting_line",
+      "team_structure",
+      "promotion"
+    ]
+  },
+  {
+    "term": "快速迭代",
+    "literal": "产品或业务以较短周期发布并根据反馈调整。",
+    "hypothesis": "迭代节奏、质量门槛和需求变更机制未知。",
+    "verify": "通常多久一个迭代，临时需求怎样进入排期，质量由什么标准验收？",
+    "fields": [
+      "cadence",
+      "quality_bar",
+      "priority_rules"
+    ]
+  },
+  {
+    "term": "从0到1",
+    "literal": "需要从尚未成形的状态建立新产品、业务或流程。",
+    "hypothesis": "目标定义、预算、团队配置和成功标准可能尚未明确。",
+    "verify": "当前已经具备哪些人和资源，六个月后用什么结果判断 0 到 1 成功？",
+    "fields": [
+      "stage",
+      "resources",
+      "success_metrics"
+    ]
+  },
+  {
+    "term": "数据驱动",
+    "literal": "决策希望以数据和实验结果为依据。",
+    "hypothesis": "是否有可用数据、埋点、分析支持和统一口径仍需确认。",
+    "verify": "目前有哪些可用数据和分析支持，团队如何统一关键指标口径？",
+    "fields": [
+      "data_access",
+      "metrics_definition"
+    ]
+  },
+  {
+    "term": "综合薪资",
+    "literal": "薪资数字可能由固定工资、绩效、补贴或奖金共同组成。",
+    "hypothesis": "稳定可得部分、浮动条件和发薪月数没有从这个词中确定。",
+    "verify": "综合薪资中固定月薪、绩效、补贴和奖金分别是多少，按什么条件发放？",
+    "fields": [
+      "fixed_pay",
+      "variable_pay",
+      "pay_months"
+    ]
+  },
+  {
+    "term": "薪资面议",
+    "literal": "招聘信息没有公开具体薪资区间。",
+    "hypothesis": "未披露不等于薪资一定偏低，但求职者无法据此判断预算是否匹配。",
+    "verify": "这个岗位当前批准的固定月薪和年度总包区间分别是多少？",
+    "fields": [
+      "fixed_pay",
+      "total_compensation"
+    ]
+  },
+  {
+    "term": "快速学习能力",
+    "aliases": [],
+    "literal": "能在较短时间掌握新知识并用于工作。",
+    "hypothesis": "岗位可能需要频繁接手陌生领域，但培训、资料和带教程度未知。",
+    "verify": "入职前两个月最需要补哪些知识，谁负责带教，怎样判断已经能独立工作？",
+    "fields": [
+      "onboarding",
+      "learning"
+    ]
+  },
+  {
+    "term": "沟通能力强",
+    "aliases": [],
+    "literal": "希望能把信息说清楚并推动不同角色配合。",
+    "hypothesis": "沟通问题可能来自目标、权限或流程，而不只是表达能力。",
+    "verify": "这个岗位最常见的协作对象是谁，遇到分歧由谁拍板？",
+    "fields": [
+      "collaboration",
+      "decision_rights"
+    ]
+  },
+  {
+    "term": "有较强的执行力",
+    "aliases": [],
+    "literal": "希望按约定把事情落地并及时反馈。",
+    "hypothesis": "可能有较多并行任务和明确时限，需要确认优先级是否稳定。",
+    "verify": "同时有多个任务时谁来排优先级，延期或资源不足怎样处理？",
+    "fields": [
+      "workload",
+      "priority_rules"
+    ]
+  },
+  {
+    "term": "灵活应变",
+    "aliases": [],
+    "literal": "需要根据业务变化调整做法。",
+    "hypothesis": "需求可能变化较快，变更原因、通知方式和返工成本未披露。",
+    "verify": "需求变更通常多久发生一次，返工如何计算和验收？",
+    "fields": [
+      "change_frequency",
+      "priority_rules"
+    ]
+  },
+  {
+    "term": "平台型产品",
+    "aliases": [],
+    "literal": "面向多个业务方提供统一能力、接口或工具的产品。",
+    "hypothesis": "需求来源可能多且优先级冲突，产品结果和平台使用率需要分开看。",
+    "verify": "平台服务哪些团队，谁决定通用能力和定制需求的边界？",
+    "fields": [
+      "stakeholders",
+      "metrics_definition"
+    ]
+  },
+  {
+    "term": "用户增长",
+    "aliases": [],
+    "literal": "通过渠道、产品和运营手段增加用户或使用行为。",
+    "hypothesis": "增长目标可能高度依赖投放预算、产品能力和外部流量。",
+    "verify": "岗位负责拉新、激活、留存还是付费，预算和可调资源有哪些？",
+    "fields": [
+      "growth_metrics",
+      "resources"
+    ]
+  },
+  {
+    "term": "全栈",
+    "aliases": [],
+    "literal": "一个人覆盖前端、后端或部署中的多段工作。",
+    "hypothesis": "工作范围可能很宽，需要确认主责深度和是否有专门团队支持。",
+    "verify": "前端、后端、部署各占多少时间，岗位最核心的主责是什么？",
+    "fields": [
+      "scope",
+      "team_structure"
+    ]
+  },
+  {
+    "term": "高并发",
+    "aliases": [],
+    "literal": "系统需要同时处理大量请求或用户操作。",
+    "hypothesis": "真实压力、峰值、延迟目标和现有架构未披露。",
+    "verify": "峰值请求量、延迟目标和目前最大的稳定性瓶颈分别是多少？",
+    "fields": [
+      "scale",
+      "metrics"
+    ]
+  },
+  {
+    "term": "参与架构设计",
+    "aliases": [],
+    "literal": "会参与系统模块、服务边界或技术方案的设计。",
+    "hypothesis": "参与可能只是评审意见，也可能承担方案主导和落地责任。",
+    "verify": "我能主导哪些设计，方案由谁评审，是否能看到上线后的运行数据？",
+    "fields": [
+      "decision_rights",
+      "ownership"
+    ]
+  },
+  {
+    "term": "负责闭环",
+    "aliases": [],
+    "literal": "从目标、执行、结果到复盘都承担责任。",
+    "hypothesis": "需要确认闭环中的权限、资源和失败后的改进机制。",
+    "verify": "岗位对结果负责的范围是什么，哪些资源和决策权与责任匹配？",
+    "fields": [
+      "ownership",
+      "resources"
+    ]
+  }
+]

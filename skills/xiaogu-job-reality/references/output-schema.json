@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "allowed_statement_statuses": ["jd_fact", "reference", "inference", "unknown", "conflict"],
+  "allowed_confidences": ["high", "medium", "low"],
+  "max_questions": 3,
+  "required_card_fields": [
+    "plain_language",
+    "occupation_inference",
+    "jd_facts",
+    "conflicts",
+    "keywords",
+    "daily_work",
+    "deliverables",
+    "metrics",
+    "growth",
+    "risks",
+    "questions",
+    "unknowns",
+    "unknown_fields",
+    "evidence"
+  ]
+}

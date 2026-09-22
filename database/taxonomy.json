@@ -1,0 +1,8 @@
+{
+  "engineer": {"name": "Engineer", "parent_id": null},
+  "software-engineer": {"name": "软件工程师", "parent_id": "engineer"},
+  "algorithm-engineer": {"name": "算法工程师", "parent_id": "engineer"},
+  "content-governance": {"name": "内容与平台治理", "parent_id": null},
+  "ecommerce-operations": {"name": "电商运营", "parent_id": null},
+  "product": {"name": "产品", "parent_id": null}
+}
