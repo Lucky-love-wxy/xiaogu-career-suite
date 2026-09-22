@@ -13,7 +13,10 @@ import json
 from pathlib import Path
 
 
-INDEX = Path(__file__).resolve().parents[3] / "database" / "occupations.json"
+SKILL_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_INDEX = Path(__file__).resolve().parents[3] / "database" / "occupations.json"
+BUNDLED_INDEX = SKILL_ROOT / "references" / "occupations.json"
+INDEX = BUNDLED_INDEX if BUNDLED_INDEX.exists() else PROJECT_INDEX
 
 
 def score(query: str, item: dict) -> dict:

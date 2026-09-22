@@ -12,7 +12,10 @@ from search_occupations import search
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TAXONOMY = json.loads((ROOT.parents[1] / "database" / "taxonomy.json").read_text(encoding="utf-8"))
+PROJECT_TAXONOMY = ROOT.parents[1] / "database" / "taxonomy.json"
+BUNDLED_TAXONOMY = ROOT / "references" / "taxonomy.json"
+TAXONOMY_PATH = BUNDLED_TAXONOMY if BUNDLED_TAXONOMY.exists() else PROJECT_TAXONOMY
+TAXONOMY = json.loads(TAXONOMY_PATH.read_text(encoding="utf-8"))
 
 
 FIELD_PATTERNS = {

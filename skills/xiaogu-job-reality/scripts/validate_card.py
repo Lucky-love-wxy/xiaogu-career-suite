@@ -13,7 +13,10 @@ from analyze_job import analyze
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT / "references" / "output-schema.json").read_text(encoding="utf-8"))
-OCCUPATIONS = json.loads((ROOT.parents[1] / "database" / "occupations.json").read_text(encoding="utf-8"))
+PROJECT_OCCUPATIONS = ROOT.parents[1] / "database" / "occupations.json"
+BUNDLED_OCCUPATIONS = ROOT / "references" / "occupations.json"
+OCCUPATIONS_PATH = BUNDLED_OCCUPATIONS if BUNDLED_OCCUPATIONS.exists() else PROJECT_OCCUPATIONS
+OCCUPATIONS = json.loads(OCCUPATIONS_PATH.read_text(encoding="utf-8"))
 OCCUPATION_BY_ID = {item["id"]: item for item in OCCUPATIONS}
 STATEMENT_LISTS = ("jd_facts", "conflicts", "keywords", "daily_work", "deliverables", "metrics", "growth", "risks", "unknowns")
 
