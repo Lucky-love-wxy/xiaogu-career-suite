@@ -1,0 +1,6 @@
+interface:
+  display_name: "小谷岗位理解核心"
+  short_description: "一句话看懂岗位、JD、行业黑话和需要核实的问题"
+  default_prompt: "请用 $xiaogu-career-suite 帮我看懂这个岗位，把事实、职业参考、推断和未知分开。"
+policy:
+  allow_implicit_invocation: true

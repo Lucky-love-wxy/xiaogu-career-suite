@@ -1,3 +1,6 @@
 interface:
-  display_name: "Xiaogu Career Master"
-  short_description: "Help with Xiaogu Career Master tasks"
+  display_name: "小谷求职总控"
+  short_description: "只说一句需求，自动调用合适的求职 Skill 并推进下一步"
+  default_prompt: "请用 $xiaogu-career-master 处理我的这句话，并自动调用需要的 Skill：帮我看看这个岗位值不值得继续了解。"
+policy:
+  allow_implicit_invocation: true
