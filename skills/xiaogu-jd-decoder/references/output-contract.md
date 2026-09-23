@@ -12,8 +12,12 @@ jargon:
   - term:
     source_quote:
     literal:
+    blunt:
     risk_hypothesis:
+    worst_case:
+    red_flags: []
     verification:
+    good_answer:
 work_model:
   tasks:
   deliverables:

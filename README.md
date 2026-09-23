@@ -30,12 +30,13 @@ Harness 会自动选择 `xiaogu-career-suite`、`xiaogu-resume`、`xiaogu-interv
 
 事实源在 `database/`：
 
-- `jargon.json`：行业黑话、字面含义、待核实假设、核实问题。
+- `jargon.json`：46 条高频招聘黑话，包含字面含义、露骨翻译、最坏情况、可观察的危险信号、核实问题和合格回答标准。
 - `occupations.json`：当前收集的 9 个职业卡，包括算法工程师、推荐算法工程师、数据工程师、嵌入式软件工程师、SRE、业务后端工程师、产品经理、亚马逊运营、内容审核员。
 - `taxonomy.json`：职业层级。
 
 ```bash
 python3 scripts/xiaogu_search.py jargon --query "结果导向、弹性工作"
+python3 scripts/validate_jargon.py
 python3 scripts/xiaogu_search.py occupation --query "推荐算法工程师，负责模型和线上实验"
 python3 scripts/xiaogu_search.py analyze --query "推荐算法工程师，结果导向，快速迭代"
 ```

@@ -3,7 +3,7 @@ from pathlib import Path
 import shutil
 import zipfile
 root=Path(__file__).resolve().parents[1]
-out=root/'dist'/'xiaogu-career-suite-v2.zip'
+out=root/'dist'/'xiaogu-career-suite-v2.1.zip'
 out.parent.mkdir(exist_ok=True)
 release_roots = {
     '_xiaogu-runtime', 'database', 'docs', 'examples', 'packages',
