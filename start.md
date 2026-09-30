@@ -15,3 +15,4 @@
 - 完成：新增 `skills/xiaogu-career-master/references/output-contract.md` 和 `scripts/render_response.py`，固定「结论、依据、仍需确认、下一步」的按需显示顺序；缺材料仅问一个问题，受阻保留已完成结果。修复单问“扁平化管理”“14 薪、团建”的路由。v2.3 包已生成。
 - 验证：`python3 -m unittest discover -s tests` 20 项通过；`git diff --check` 通过；v2.3 ZIP 包含渲染器和契约；手动渲染“扁平化管理”结果符合格式。此前 15 项测试只覆盖路由、词典与产物，未覆盖面向用户的格式；新增 5 项覆盖上述格式与路由。WorkBuddy GUI 实际输出仍未验证。
 - 复盘判断：现有 `xiaogu-interview-review` 以逐字稿逐题诊断为核心。用户提供的选岗、投递、笔试、面试、录用状态经验属于跨阶段求职过程复盘，宜在 Harness 增加跨阶段复盘能力，保留面试 Skill 的原话诊断范围；本轮只提出改进建议，尚未新增该能力。
+- GitHub 同步：用户于 2026-09-30 明确要求上传；v2.3 功能提交 `3d3aa231d16cbe40e4b25ace079ffdd7e45904ec` 已推送到 `origin/main`，当时核验远端 SHA 与本地一致。`dist/xiaogu-career-suite-v2.2.zip` 是未发布的本地中间包，未纳入提交。
