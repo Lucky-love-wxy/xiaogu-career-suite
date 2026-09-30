@@ -15,6 +15,7 @@ PATTERNS = {
     "resume": r"简历|项目经历|自我介绍|经历.{0,6}(改写|润色)|匹配.{0,6}经历",
     "jobs": r"找岗位|找工作|搜岗位|搜索岗位|职位推荐|岗位推荐|BOSS|Boss直聘|招聘机会",
     "job_understanding": r"JD|(?:岗位|职位|工程师|产品经理|运营|设计师).{0,12}(做什么|干什么|怎么样|值不值得)|行业黑话|招聘话术|结果导向|快速迭代|主人翁|薪资面议|核实问题",
+    "jargon": r"扁平化管理|弹性工作|14薪|13薪|年薪范围|带薪年假|调休|团建|公司旅游|全额五险一金|有竞争力的薪酬|绩效奖金|房补|餐补|黑话.{0,8}(什么意思|翻译)|(?:招聘话术|福利).{0,8}(什么意思|怎么算)",
     "next_step": r"下一步|怎么开始|带我求职|帮我求职|继续上次|现在该做什么|从头开始",
 }
 
@@ -50,7 +51,7 @@ def route(query: str, context: dict[str, Any] | None = None) -> dict:
     if matches("jobs", query):
         pipeline.append("xiaogu-boss-jobs")
         reasons.append("用户想发现或读取岗位")
-    if matches("job_understanding", query):
+    if matches("job_understanding", query) or matches("jargon", query):
         if "xiaogu-career-suite" not in pipeline:
             pipeline.append("xiaogu-career-suite")
         reasons.append("用户想理解岗位、JD、招聘话术或核实问题")
@@ -77,7 +78,7 @@ def route(query: str, context: dict[str, Any] | None = None) -> dict:
         }
 
     missing = []
-    if "xiaogu-career-suite" in pipeline and not has_material(query, "job", context) and not re.search(
+    if "xiaogu-career-suite" in pipeline and not matches("jargon", query) and not has_material(query, "job", context) and not re.search(
         r"(?:算法|数据|前端|后端|测试|运维|产品|运营|设计|销售|招聘).{0,8}(?:工程师|经理|专员|顾问|设计师)?",
         query,
         re.IGNORECASE,

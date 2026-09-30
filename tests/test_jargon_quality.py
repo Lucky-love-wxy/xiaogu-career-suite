@@ -21,7 +21,7 @@ class JargonQualityTests(unittest.TestCase):
 
     def test_schema_and_uniqueness(self):
         self.assertEqual(MODULE.validate(self.rows), [])
-        self.assertEqual(len(self.rows), 46)
+        self.assertEqual(len(self.rows), 61)
 
     def test_high_risk_recruiting_phrases_are_covered(self):
         for term in (
@@ -34,6 +34,13 @@ class JargonQualityTests(unittest.TestCase):
             "五险一金按Base缴纳",
             "期权激励",
             "末位淘汰",
+            "14薪",
+            "绩效奖金",
+            "带薪年假",
+            "调休",
+            "团建",
+            "公司旅游",
+            "全额五险一金",
         ):
             self.assertIn(term, self.by_term)
 
@@ -42,6 +49,13 @@ class JargonQualityTests(unittest.TestCase):
             self.assertTrue(row["blunt"])
             self.assertTrue(row["worst_case"])
             self.assertIn("不是对具体公司的事实判断", row["evidence_boundary"])
+            self.assertGreaterEqual(len(row["red_flags"]), 2)
+            self.assertIn("？", row["verify"])
+
+    def test_benefit_entries_ask_about_realization(self):
+        for term in ("13薪", "14薪", "带薪年假", "团建", "房补"):
+            row = self.by_term[term]
+            self.assertTrue(row["fields"])
             self.assertGreaterEqual(len(row["red_flags"]), 2)
             self.assertIn("？", row["verify"])
 

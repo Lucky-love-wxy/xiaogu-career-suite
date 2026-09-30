@@ -20,6 +20,7 @@ description: 小谷求职的唯一自然语言入口。用户只说一句“帮�
 
 3. 根据 `pipeline` 连续执行。不要让用户再次选择 Skill，也不要要求用户把同一份材料重复粘贴。
 4. 如果所需 Skill 没有安装，准确说明缺哪个 Skill；可以完成的前置步骤继续完成。
+5. 各 Skill 的结果先整理成 [references/output-contract.md](references/output-contract.md) 的结构，运行 `python3 scripts/render_response.py response.json` 校验并渲染；用户只看渲染后的文字。渲染失败时修正结构后再输出，不直接展示未校验的内部结果。
 
 详细路由和小白交互规则见 [references/harness-contract.md](references/harness-contract.md)。
 
@@ -36,10 +37,9 @@ description: 小谷求职的唯一自然语言入口。用户只说一句“帮�
 
 ## 面向用户的最简回答
 
-- 先直接给本轮结果，不展示内部路由过程。
-- 用一句话说明已经分析了什么。
-- 明确仍不知道的关键内容。
-- 最后只给用户一个下一步动作。
+- 按统一输出契约依次显示结论、可追溯依据、关键未知和一个下一步动作；没有证据或不需行动时不强填该段。
+- 缺材料时只发一个最短问题。
+- 不展示内部路由过程。
 
 只有用户询问实现细节时，才展示 Skill 名称、脚本、状态机和文件路径。
 

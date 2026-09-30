@@ -10,6 +10,8 @@
 | “帮我看懂这个 JD” | `xiaogu-career-suite` |
 | “这个岗位每天到底干什么” | `xiaogu-career-suite` |
 | “这段话有哪些招聘黑话” | `xiaogu-career-suite` |
+| “扁平化管理是什么意思” | `xiaogu-career-suite`，无 JD 时做一般解释并标明公司情况未知 |
+| “这家公司说 14 薪、带薪年假、团建，实际怎么算” | `xiaogu-career-suite`：逐项拆解兑现条件 |
 | “根据这份 JD 改简历” | `xiaogu-career-suite` → `xiaogu-resume` |
 | “复盘一下我刚才的面试” | `xiaogu-career-suite` → `xiaogu-interview-review` |
 | “去脉脉看看从业者怎么说这个岗位” | `web-access` → `xiaogu-career-suite` |
@@ -25,6 +27,7 @@
 5. 一个请求只能使用已安装、已发现的 Skill。缺少 Skill 时准确列出名称和安装位置，不能假装调用成功。
 6. Skill 返回 `index_miss`、`AUTH_REQUIRED` 或验证失败时，保留已有结果并停止依赖步骤。
 7. 外部调研只在用户明确要求时调用。`web-access` 不等于已经拥有脉脉登录态；访问失败后直接报告，并让用户提供链接、截图、导出或复制文本。
+8. 待遇问题先区分用户给出的公司承诺、词典核实方向和未证实的从业者分享；不把「14 薪」「团建」等词典解释当成公司事实。
 
 ## 面向小白的回答方式
 
@@ -36,7 +39,7 @@
 
 ## 统一结果外壳
 
-每次执行后，Harness 在内部保留：岗位、当前阶段、调用过的 Skill、输入来源、产物路径、未知和下一步。面向用户只显示：
+每次执行后，Harness 在内部保留：岗位、当前阶段、调用过的 Skill、输入来源、产物路径、未知和下一步。最终回答必须先按 [output-contract.md](output-contract.md) 校验并渲染。面向用户按需显示：
 
 1. 这次解决了什么
 2. 最重要的结果

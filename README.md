@@ -23,6 +23,7 @@
 - “我现在求职进行到哪一步，下一步做什么？”
 
 Harness 会自动选择 `xiaogu-career-suite`、`xiaogu-resume`、`xiaogu-interview-review` 或 `xiaogu-boss-jobs`。一句话包含多个任务时，它会按依赖顺序连续调用。
+用户可见结果按「结论 → 依据 → 仍需确认 → 下一步」输出；没有证据或无需行动时省略对应段落。缺材料时只问一个问题。具体规则见 [`skills/xiaogu-career-master/references/output-contract.md`](skills/xiaogu-career-master/references/output-contract.md)。
 
 完整的新手说明见 [`docs/workbuddy/一句话使用小谷.md`](docs/workbuddy/一句话使用小谷.md)。需要调研脉脉等外部页面时，另见 [`docs/optional-web-access.md`](docs/optional-web-access.md)。
 
@@ -30,7 +31,7 @@ Harness 会自动选择 `xiaogu-career-suite`、`xiaogu-resume`、`xiaogu-interv
 
 事实源在 `database/`：
 
-- `jargon.json`：46 条高频招聘黑话，包含字面含义、露骨翻译、最坏情况、可观察的危险信号、核实问题和合格回答标准。
+- `jargon.json`：61 条高频招聘黑话与待遇表达，包含薪酬、假期、团建、补贴、公积金等兑现条件，以及核实问题和合格回答标准。
 - `occupations.json`：当前收集的 9 个职业卡，包括算法工程师、推荐算法工程师、数据工程师、嵌入式软件工程师、SRE、业务后端工程师、产品经理、亚马逊运营、内容审核员。
 - `taxonomy.json`：职业层级。
 
