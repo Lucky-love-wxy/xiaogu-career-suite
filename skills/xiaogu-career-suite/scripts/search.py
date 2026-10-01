@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 
@@ -22,7 +23,7 @@ def search_jargon(query: str) -> dict:
     lower = query.lower()
     for entry in load(JARGON):
         terms = [entry.get("term", ""), *entry.get("aliases", [])]
-        hits = [term for term in terms if term and term.lower() in lower]
+        hits = [match.group(0) for term in terms if term and (match := re.search(r"\s*".join(re.escape(char) for char in term.replace(" ", "")), query, re.I))]
         if hits:
             rows.append({
                 "id": entry.get("id", entry["term"]),

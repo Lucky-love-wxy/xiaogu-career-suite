@@ -6,21 +6,30 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from pathlib import Path
 from typing import Any
 
 
 PATTERNS = {
     "external_research": r"脉脉|职场社区|从业者.{0,6}(评价|分享|怎么说)|公司口碑|真实员工|真实体验",
-    "interview": r"面试.{0,12}复盘|复盘.{0,12}面试|逐字稿|面试录音|面试记录|回答得怎么样|模拟面试",
+    "interview": r"面试.{0,20}(复盘|答|回忆|记录|刚|完|录音)|复盘.{0,12}面试|逐字稿|面试录音|面试记录|回答得怎么样|模拟面试",
     "resume": r"简历|项目经历|自我介绍|经历.{0,6}(改写|润色)|匹配.{0,6}经历",
     "jobs": r"找岗位|找工作|搜岗位|搜索岗位|职位推荐|岗位推荐|BOSS|Boss直聘|招聘机会",
-    "job_understanding": r"JD|(?:岗位|职位|工程师|产品经理|运营|设计师).{0,12}(做什么|干什么|怎么样|值不值得)|行业黑话|招聘话术|结果导向|快速迭代|主人翁|薪资面议|核实问题",
+    "job_understanding": r"JD|招聘说明|招聘信息|招聘广告|招聘要求|任职要求|(?:岗位|职位|这份工作|这工作|工程师|产品经理|运营|设计师).{0,12}(做什么|干什么|怎么样|值不值得|靠谱吗|适合|能做)|行业黑话|招聘话术|结果导向|快速迭代|主人翁|薪资面议|核实问题",
     "jargon": r"扁平化管理|弹性工作|14薪|13薪|年薪范围|带薪年假|调休|团建|公司旅游|全额五险一金|有竞争力的薪酬|绩效奖金|房补|餐补|黑话.{0,8}(什么意思|翻译)|(?:招聘话术|福利).{0,8}(什么意思|怎么算)",
     "next_step": r"下一步|怎么开始|带我求职|帮我求职|继续上次|现在该做什么|从头开始",
+    "onboarding": r"(?:没|没有|不)(?:用过|懂|会).{0,5}AI|第一次.{0,8}(AI|用|求职)|从哪开始|不知道.{0,6}(开始|怎么找工作)",
+    "application_feedback": r"(?:投|投递).{0,20}(没回|没有回|拒|失败|没消息|没动静)|面试通过.{0,8}(offer|录用)|审批中|口头offer|求职复盘",
 }
 
 
 def matches(name: str, query: str) -> bool:
+    if name == "jargon":
+        path = Path(__file__).resolve().parents[1] / "references" / "routing-jargon.json"
+        if path.exists():
+            compact = re.sub(r"\s+", "", query).lower()
+            if any(re.sub(r"\s+", "", term).lower() in compact for term in json.loads(path.read_text(encoding="utf-8"))):
+                return True
     return re.search(PATTERNS[name], query, re.IGNORECASE) is not None
 
 
@@ -34,16 +43,27 @@ def has_material(query: str, kind: str, context: dict[str, Any]) -> bool:
     if context.get(context_keys[kind]) is True:
         return True
     if kind == "job":
-        return len(query) >= 70 and bool(re.search(r"职责|要求|薪资|任职|工作内容|加班|双休|经验", query, re.I))
+        return bool(re.search(r"(?:招聘说明|招聘信息|JD|岗位描述)[：:].*(?:负责|要求|职责)", query, re.I | re.S)) or len(query) >= 70 and bool(re.search(r"职责|要求|薪资|任职|工作内容|加班|双休|经验", query, re.I))
     if kind == "experience":
         return len(query) >= 60 and bool(re.search(r"我(?:负责|做过|主导|参与)|提升|降低|完成|结果", query, re.I))
-    return len(query) >= 100 and bool(re.search(r"面试官|(?:^|\n)\s*[Q问答A][：:]|我回答", query, re.I))
+    return bool(re.search(r"面试官(?:问|[：:]).+?我回答[：:]?.+", query, re.S)) or len(query) >= 100 and bool(re.search(r"面试官|(?:^|\n)\s*[Q问答A][：:]|我回答", query, re.I))
 
 
 def route(query: str, context: dict[str, Any] | None = None) -> dict:
     context = context or {}
     pipeline: list[str] = []
     reasons: list[str] = []
+
+    concrete = any(matches(kind, query) for kind in ("job_understanding", "jargon", "resume", "interview"))
+    feedback_only = matches("application_feedback", query) and not any(matches(kind, query) for kind in ("job_understanding", "jargon", "interview", "external_research")) and not re.search(r"改|润色|优化|复盘面试", query)
+    if (matches("onboarding", query) and not concrete) or feedback_only:
+        return {
+            "status": "routed", "primary_skill": "xiaogu-career-master",
+            "pipeline": ["xiaogu-career-master"],
+            "reason": ["先引导首次使用或整理求职进度，再决定具体功能"],
+            "missing_inputs": [],
+            "next_action": "读取已提供的目标或进度；没有时只询问目前想解决的一个问题",
+        }
 
     if matches("external_research", query):
         pipeline.extend(["web-access", "xiaogu-career-suite"])
@@ -78,8 +98,8 @@ def route(query: str, context: dict[str, Any] | None = None) -> dict:
         }
 
     missing = []
-    if "xiaogu-career-suite" in pipeline and not matches("jargon", query) and not has_material(query, "job", context) and not re.search(
-        r"(?:算法|数据|前端|后端|测试|运维|产品|运营|设计|销售|招聘).{0,8}(?:工程师|经理|专员|顾问|设计师)?",
+    if "xiaogu-career-suite" in pipeline and "xiaogu-interview-review" not in pipeline and not matches("jargon", query) and not has_material(query, "job", context) and not re.search(
+        r"(?:算法|数据|前端|后端|测试|运维|产品|运营|设计|销售).{0,8}(?:工程师|经理|专员|顾问|设计师)?|招聘(?:经理|专员|顾问)",
         query,
         re.IGNORECASE,
     ):

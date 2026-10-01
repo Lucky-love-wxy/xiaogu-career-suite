@@ -2,6 +2,8 @@
 
 此契约是 Harness 最终输出的统一外壳，不替代各 Skill 的详细分析产物。当前自动化测试已经覆盖路由、JD 事实边界和复盘产物校验；此前没有用户可见格式测试，因此本契约只固定可验证的输出顺序和证据标签，不声称 WorkBuddy 界面已验证。
 
+最终消息逐字发送渲染器 stdout。不要把 stdout 当作草稿再次改写。对话中的欢迎话、解释和询问都须先写入结构再渲染。渲染器校验结构、标签和常见内部字段泄漏，不验证事实真假；事实仍需业务 Skill 核实。主机未接入输出拦截时，模型是否遵守逐字输出需要实际试用验证。
+
 ## 内部结构
 
 执行业务 Skill 后，Harness 整理为 JSON，再运行 `python3 scripts/render_response.py response.json`。只有命令成功时才发送其 Markdown 输出。结构：
@@ -19,6 +21,8 @@
 `kind` 只允许 `jd_fact`、`offer_fact`、`transcript_fact`、`candidate_confirmed`、`reference`、`external_report`、`inference`。证据项不得把匿名评价写成已核实的公司事实；`inference` 始终标为待核实。没有实际依据时 `evidence` 用空列表，不能凑来源。
 
 需要材料时：`{"status":"needs_input","question":"请粘贴……？"}`，只发这一个问题。执行受阻时还需 `blocker`，具体说明失败步骤和原因；已有结果仍放在 `answer`。`unknown` 必须是列表；`next_action` 只允许一行字符串或 `null`。
+
+问题必须是一个简短单行问题，不要同时索取城市、学历、简历、招聘说明等整套资料。面向新手用“招聘说明”解释 JD；证据 ID、校验文件和脚本由 Agent 在内部生成，不让用户手动编辑 JSON 或运行命令。
 
 ## 用户看到的格式
 

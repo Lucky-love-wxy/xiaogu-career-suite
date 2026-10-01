@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -27,6 +28,12 @@ LABELS = {
     "inference": "待核实推断",
 }
 
+INTERNAL = re.compile(r"primary_skill|missing_inputs|evidence_ids|_xiaogu-runtime|route_request\.py|render_response\.py|candidate_confirmed|transcript_fact|```(?:json|python|bash)", re.I)
+
+
+def visible_text_error(value: str) -> bool:
+    return bool(INTERNAL.search(value))
+
 
 def validate(payload: object) -> list[str]:
     if not isinstance(payload, dict):
@@ -38,6 +45,8 @@ def validate(payload: object) -> list[str]:
     if status == "needs_input":
         if not isinstance(payload.get("question"), str) or not payload["question"].strip():
             errors.append("needs_input requires one question")
+        elif "\n" in payload["question"] or len(payload["question"]) > 160 or len(re.findall(r"[？?]", payload["question"])) > 1 or visible_text_error(payload["question"]):
+            errors.append("question must be one short, plain-language question")
         if payload.get("next_action"):
             errors.append("needs_input cannot add a second action")
         return errors
@@ -59,6 +68,17 @@ def validate(payload: object) -> list[str]:
         errors.append("next_action must be one short line or null")
     if status == "blocked" and (not isinstance(payload.get("blocker"), str) or not payload["blocker"].strip()):
         errors.append("blocked requires blocker")
+    if isinstance(payload.get("answer"), str) and len(payload["answer"]) > 1200:
+        errors.append("answer too long; keep details in the saved artifact")
+    for key in ("answer", "blocker", "next_action"):
+        if isinstance(payload.get(key), str) and visible_text_error(payload[key]):
+            errors.append(f"{key} exposes internal implementation fields")
+    for text in payload.get("unknown", []) if isinstance(payload.get("unknown"), list) else []:
+        if isinstance(text, str) and visible_text_error(text):
+            errors.append("unknown exposes internal implementation fields")
+    for item in evidence if isinstance(evidence, list) else []:
+        if isinstance(item, dict) and isinstance(item.get("text"), str) and visible_text_error(item["text"]):
+            errors.append("evidence exposes internal implementation fields")
     return errors
 
 

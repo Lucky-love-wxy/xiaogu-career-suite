@@ -73,3 +73,7 @@ docs/                   架构与 WorkBuddy 教学
 examples/               可直接运行的示例
 tests/                  回归测试
 ```
+
+## 零基础使用验收
+
+2026-10-01：33 项本地测试、6 个真实 CLI Agent 场景通过；WorkBuddy 界面验收因系统错误未完成。详见 [验收报告](docs/testing/beginner-acceptance-2026-10-01.md)。v2.4 分发包位于 `dist/xiaogu-career-suite-v2.4.zip`。

@@ -12,7 +12,7 @@ def jargon(query):
     rows=[]
     for e in load(JARGON):
         terms=[e.get('term',''),*e.get('aliases',[])]
-        hits=[t for t in terms if t and t.lower() in query.lower()]
+        hits=[match.group(0) for t in terms if t and (match:=re.search(r'\s*'.join(re.escape(c) for c in t.replace(' ','')),query,re.I))]
         if hits:
             rows.append({'id':e.get('id',e['term']),'term':e['term'],'matched_text':max(hits,key=len),'entry':e,'source':'database/jargon.json','confidence':'exact_or_alias'})
     rows.sort(key=lambda x:(-len(x['matched_text']),x['term']))
