@@ -1,0 +1,239 @@
+{
+  "notice": "模拟数据，非真实帖子。全部内容为虚构，用于测试小谷在不同实时来源状态下的话术；待 Codex 按 notes/2026-10-03-codex-research-brief-live-sources.md 采集真实数据后替换。",
+  "fetched_at": "2026-10-03",
+  "posts": [
+    {
+      "id": "p1",
+      "mock": true,
+      "source": "nowcoder",
+      "source_name": "牛客",
+      "url": "mock://nowcoder/discuss/p1",
+      "posted_at": "2026-08",
+      "author_label": "2026届校招，推荐算法实习转正",
+      "scope": "same_role",
+      "claims": [
+        {
+          "topic": "time_split",
+          "paraphrase": "实习三个月里，大部分时间花在清洗日志、构造特征和排查数据问题上，真正改模型结构的时间不多。",
+          "quote": "调参的时间远少于查数据的时间"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "mock": true,
+      "source": "nowcoder",
+      "source_name": "牛客",
+      "url": "mock://nowcoder/discuss/p2",
+      "posted_at": "2026-07",
+      "author_label": "匿名，自称某中厂推荐组在职",
+      "scope": "same_role",
+      "claims": [
+        {
+          "topic": "overtime",
+          "paraphrase": "所在推荐组实行大小周，上线和大促前经常晚上十点后才走。",
+          "quote": "名义上不强制，实际大小周"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "mock": true,
+      "source": "maimai",
+      "source_name": "脉脉",
+      "url": "mock://maimai/gossip-detail/p3",
+      "posted_at": "2026-06",
+      "author_label": "认证在职，推荐算法工程师",
+      "scope": "same_role",
+      "claims": [
+        {
+          "topic": "metrics",
+          "paraphrase": "绩效主要看自己负责模块的线上实验是否带来点击率或时长提升，实验不显著的季度压力较大。",
+          "quote": "季度没涨点就很难解释"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "mock": true,
+      "source": "nowcoder",
+      "source_name": "牛客",
+      "url": "mock://nowcoder/discuss/p4",
+      "posted_at": "2022-03",
+      "author_label": "2022届校招",
+      "scope": "same_role",
+      "claims": [
+        {
+          "topic": "time_split",
+          "paraphrase": "新人前半年基本在维护已有特征和跑离线评估，很少独立负责新模块。",
+          "quote": "前半年都在打杂式维护"
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "mock": true,
+      "source": "maimai",
+      "source_name": "脉脉",
+      "url": "mock://maimai/gossip-detail/p5",
+      "posted_at": "2026-09",
+      "author_label": "匿名，未认证",
+      "scope": "unknown",
+      "claims": [
+        {
+          "topic": "overtime",
+          "paraphrase": "一条匿名帖说做推荐的“没有不加班的”，没有说明公司、团队或具体时长。",
+          "quote": "做推荐的没有不加班的"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "mock": true,
+      "source": "maimai",
+      "source_name": "脉脉",
+      "url": "mock://maimai/gossip-detail/p6",
+      "posted_at": "2026-05",
+      "author_label": "认证在职，搜索算法工程师",
+      "scope": "different_team",
+      "claims": [
+        {
+          "topic": "time_split",
+          "paraphrase": "搜索组的日常以相关性标注、离线评估和排查坏例为主，线上实验节奏比推荐慢。",
+          "quote": "大部分时间在看坏例"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "mock": true,
+      "source": "maimai",
+      "source_name": "脉脉",
+      "url": "mock://maimai/gossip-detail/p7",
+      "posted_at": "2026-09",
+      "author_label": "认证在职，示例智能科技推荐组",
+      "scope": "same_company",
+      "claims": [
+        {
+          "topic": "overtime",
+          "paraphrase": "自称示例智能科技推荐组在职，说组里实行大小周，周六上午固定开周会。",
+          "quote": "我们组是大小周"
+        }
+      ]
+    }
+  ],
+  "scenarios": {
+    "full": {
+      "host_agent": "ChatGPT-User",
+      "sources": {
+        "nowcoder": {
+          "status": "ok",
+          "posts": [
+            "p1",
+            "p2"
+          ]
+        },
+        "maimai": {
+          "status": "ok",
+          "posts": [
+            "p3"
+          ]
+        }
+      }
+    },
+    "stale_only": {
+      "host_agent": "ChatGPT-User",
+      "sources": {
+        "nowcoder": {
+          "status": "ok",
+          "posts": [
+            "p4"
+          ]
+        },
+        "maimai": {
+          "status": "no_results",
+          "posts": []
+        }
+      }
+    },
+    "single_anonymous": {
+      "host_agent": "ChatGPT-User",
+      "sources": {
+        "nowcoder": {
+          "status": "no_results",
+          "posts": []
+        },
+        "maimai": {
+          "status": "ok",
+          "posts": [
+            "p5"
+          ]
+        }
+      }
+    },
+    "different_team": {
+      "host_agent": "ChatGPT-User",
+      "sources": {
+        "nowcoder": {
+          "status": "no_results",
+          "posts": []
+        },
+        "maimai": {
+          "status": "ok",
+          "posts": [
+            "p6"
+          ]
+        }
+      }
+    },
+    "no_results": {
+      "host_agent": "ChatGPT-User",
+      "sources": {
+        "nowcoder": {
+          "status": "no_results",
+          "posts": []
+        },
+        "maimai": {
+          "status": "no_results",
+          "posts": []
+        }
+      }
+    },
+    "robots_blocked": {
+      "host_agent": "Claude-User",
+      "sources": {
+        "nowcoder": {
+          "status": "ok",
+          "posts": [
+            "p1"
+          ]
+        },
+        "maimai": {
+          "status": "skipped_robots",
+          "posts": []
+        }
+      }
+    },
+    "same_company_conflict": {
+      "host_agent": "ChatGPT-User",
+      "sources": {
+        "nowcoder": {
+          "status": "no_results",
+          "posts": []
+        },
+        "maimai": {
+          "status": "ok",
+          "posts": [
+            "p7"
+          ]
+        }
+      }
+    }
+  },
+  "scope_values": {
+    "same_company": "明确说的是这家公司",
+    "same_role": "同类岗位、其他公司或未说明公司",
+    "different_team": "相邻团队或岗位",
+    "unknown": "公司和团队都未说明"
+  }
+}

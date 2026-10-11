@@ -54,4 +54,4 @@ description: 一句话看懂岗位与 JD：先检索职业数据库和行业黑�
 
 ## 外部从业者信息
 
-用户明确要求查脉脉、职场社区或从业者分享时，读取 [references/external-research.md](references/external-research.md)。只有目标环境已经安装联网 Skill 并具备页面访问条件时才执行；联网 Skill 本身不提供账号、登录态或绕过平台风控的能力。
+理解岗位时，在 JD 和本地数据库之后默认补充牛客、脉脉等公开从业者说法，规则见 [references/external-research.md](references/external-research.md)。只问黑话、改简历、面试复盘时不默认联网。宿主没有联网工具、来源被 robots 禁止或读取失败时，静默跳过并在“仍需确认”说明从业者反馈缺失，不阻塞结论；联网工具本身不提供账号、登录态或绕过平台风控的能力。

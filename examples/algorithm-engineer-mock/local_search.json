@@ -1,0 +1,429 @@
+{
+  "query": "【模拟数据，虚构公司，非真实招聘】\n公司：示例智能科技（虚构）\n岗位：推荐算法工程师（校招）\n地点：杭州\n薪资：25-40K·15薪\n岗位职责：\n1. 负责信息流推荐系统的召回、排序模型的设计与优化，提升点击率与用户时长；\n2. 参与特征工程与样本构建，处理海量用户行为日志；\n3. 负责线上 A/B 实验的设计与效果分析，推动模型上线；\n4. 跟进业界前沿算法，独立负责模块从0到1落地；\n5. 完成领导交办的其他任务。\n任职要求：\n1. 2027届本科及以上，计算机、数学、统计相关专业；\n2. 熟悉 Python/C++，熟悉 PyTorch 或 TensorFlow；\n3. 有推荐、搜索、广告相关项目或实习经历者优先；\n4. 结果导向，抗压能力强，能适应快速迭代的工作节奏；\n5. 有顶会论文或竞赛获奖者优先。\n福利：弹性工作，不强制加班，免费晚餐，年终奖2-4个月，五险一金。",
+  "type": "analyze",
+  "jargon": {
+    "query": "【模拟数据，虚构公司，非真实招聘】\n公司：示例智能科技（虚构）\n岗位：推荐算法工程师（校招）\n地点：杭州\n薪资：25-40K·15薪\n岗位职责：\n1. 负责信息流推荐系统的召回、排序模型的设计与优化，提升点击率与用户时长；\n2. 参与特征工程与样本构建，处理海量用户行为日志；\n3. 负责线上 A/B 实验的设计与效果分析，推动模型上线；\n4. 跟进业界前沿算法，独立负责模块从0到1落地；\n5. 完成领导交办的其他任务。\n任职要求：\n1. 2027届本科及以上，计算机、数学、统计相关专业；\n2. 熟悉 Python/C++，熟悉 PyTorch 或 TensorFlow；\n3. 有推荐、搜索、广告相关项目或实习经历者优先；\n4. 结果导向，抗压能力强，能适应快速迭代的工作节奏；\n5. 有顶会论文或竞赛获奖者优先。\n福利：弹性工作，不强制加班，免费晚餐，年终奖2-4个月，五险一金。",
+    "type": "jargon",
+    "status": "matched",
+    "matches": [
+      {
+        "id": "完成领导交办的其他任务",
+        "term": "完成领导交办的其他任务",
+        "matched_text": "完成领导交办的其他任务",
+        "entry": {
+          "term": "完成领导交办的其他任务",
+          "literal": "职责范围允许临时增加未逐项列明的工作。",
+          "hypothesis": "临时任务的类型、占比和与主目标的优先级没有说明。",
+          "verify": "过去三个月这个岗位常见的临时任务有哪些，大约占多少时间？",
+          "fields": [
+            "scope",
+            "priority_rules"
+          ],
+          "blunt": "岗位边界可以被临时扩大，做什么由领导当时决定。",
+          "worst_case": "主业之外长期承担行政、销售、客服或私人事务，还影响原本绩效。",
+          "red_flags": [
+            "临时任务没有优先级规则",
+            "过去的临时任务无法举例"
+          ],
+          "good_answer": "能举出近三个月实例、平均占比，并说明与主目标冲突时谁排优先级。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "年终奖2-4个月",
+        "term": "年终奖2-4个月",
+        "matched_text": "年终奖2-4个月",
+        "entry": {
+          "term": "年终奖2-4个月",
+          "aliases": [],
+          "literal": "年终奖目标范围为两到四个月工资。",
+          "blunt": "这不是固定发放，需要确认基数、条件和实际分布。",
+          "hypothesis": "这不是固定发放，需要确认基数、条件和实际分布。",
+          "worst_case": "只有极少数人拿到四个月，大多数人低于两个月甚至没有。",
+          "red_flags": [
+            "只宣传上限",
+            "规则每年可临时调整且不追溯说明"
+          ],
+          "verify": "奖金按基本工资还是月薪计算，什么评级对应几个月，去年同团队实际分布如何？",
+          "good_answer": "能说明计算基数、评级映射、发放条件和实际分布。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。",
+          "fields": [
+            "variable_pay",
+            "pay_months"
+          ]
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "不强制加班",
+        "term": "不强制加班",
+        "matched_text": "不强制加班",
+        "entry": {
+          "term": "不强制加班",
+          "aliases": [],
+          "literal": "公司声称不会直接要求员工加班。",
+          "blunt": "没有书面命令不等于没有隐性压力，要看任务量和下班响应要求。",
+          "hypothesis": "没有书面命令不等于没有隐性压力，要看任务量和下班响应要求。",
+          "worst_case": "任务根本无法在正常工时完成，不加班的人被低评或边缘化。",
+          "red_flags": [
+            "只说看个人自觉",
+            "领导长期深夜派活并要求马上响应"
+          ],
+          "verify": "团队通常几点离开，不加班是否影响绩效，晚上和周末消息多久需要回复？",
+          "good_answer": "能给出真实离岗时间、响应规则和不加班员工的绩效实例。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。",
+          "fields": [
+            "working_hours",
+            "performance"
+          ]
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "抗压能力强",
+        "term": "抗压能力强",
+        "matched_text": "抗压能力强",
+        "entry": {
+          "term": "抗压能力强",
+          "literal": "岗位可能存在高峰期、并行任务或较强结果压力。",
+          "hypothesis": "压力来源、频率和持续时间未知，需要区分偶发高峰与长期超负荷。",
+          "verify": "这个岗位最常见的压力来自哪里，高峰期大约多久一次、持续多久？",
+          "fields": [
+            "workload",
+            "peak_schedule"
+          ],
+          "blunt": "这个岗位大概率有明确压力源，只是 JD 没直接说压力到底来自工时、指标还是冲突。",
+          "worst_case": "长期人手不足、频繁救火或不合理目标，被包装成个人抗压问题。",
+          "red_flags": [
+            "说年轻人就该抗压",
+            "无法举例压力高峰的频率和持续时间"
+          ],
+          "good_answer": "能具体说明压力来源、高峰频率、持续时间和团队如何分担。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "从0到1",
+        "term": "从0到1",
+        "matched_text": "从0到1",
+        "entry": {
+          "term": "从0到1",
+          "literal": "需要从尚未成形的状态建立新产品、业务或流程。",
+          "hypothesis": "目标定义、预算、团队配置和成功标准可能尚未明确。",
+          "verify": "当前已经具备哪些人和资源，六个月后用什么结果判断 0 到 1 成功？",
+          "fields": [
+            "stage",
+            "resources",
+            "success_metrics"
+          ],
+          "blunt": "很多基础东西还没有，你可能既要定方向，也要补流程和执行细节。",
+          "worst_case": "目标、用户、预算和团队都没定，却要求一个人对商业结果负责。",
+          "red_flags": [
+            "成功标准只有做出来",
+            "关键岗位和预算仍未批准"
+          ],
+          "good_answer": "能说清当前已有资产、确定的用户问题、六个月目标、预算和团队配置。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "免费晚餐",
+        "term": "免费晚餐",
+        "matched_text": "免费晚餐",
+        "entry": {
+          "term": "免费晚餐",
+          "aliases": [],
+          "literal": "公司提供免费晚餐。",
+          "blunt": "它可能是普通福利，也可能只在较晚下班时才能领取。",
+          "hypothesis": "它可能是普通福利，也可能只在较晚下班时才能领取。",
+          "worst_case": "用低成本餐食让长期晚下班显得合理。",
+          "red_flags": [
+            "晚餐时间明显晚于正常下班",
+            "把吃晚餐人数当作团队投入度"
+          ],
+          "verify": "晚餐几点提供，领取是否与加班绑定，团队一周通常有几天在公司吃晚餐？",
+          "good_answer": "能说明福利时间、是否自愿以及团队真实离岗时间。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。",
+          "fields": [
+            "benefits",
+            "working_hours"
+          ]
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "弹性工作",
+        "term": "弹性工作",
+        "matched_text": "弹性工作",
+        "entry": {
+          "term": "弹性工作",
+          "literal": "工作时间或到岗安排存在一定弹性。",
+          "hypothesis": "核心到岗时间、晚间响应和周末安排可能仍有限制，JD 本身不能证明具体工时。",
+          "verify": "平时、大促或项目高峰分别怎样安排工时，是否有核心到岗时间和周末值班？",
+          "fields": [
+            "working_hours",
+            "peak_schedule"
+          ],
+          "blunt": "公司想保留调整你上下班和响应时间的空间，但没有承诺你能自由安排。",
+          "worst_case": "表面弹性，实际可能是下班后继续回消息、项目高峰随叫随到。",
+          "red_flags": [
+            "只说弹性，不说核心到岗时间",
+            "不说明加班、值班和调休规则"
+          ],
+          "good_answer": "能分别说清平时、项目高峰和周末的安排，并说明加班补偿。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "快速迭代",
+        "term": "快速迭代",
+        "matched_text": "快速迭代",
+        "entry": {
+          "term": "快速迭代",
+          "literal": "产品或业务以较短周期发布并根据反馈调整。",
+          "hypothesis": "迭代节奏、质量门槛和需求变更机制未知。",
+          "verify": "通常多久一个迭代，临时需求怎样进入排期，质量由什么标准验收？",
+          "fields": [
+            "cadence",
+            "quality_bar",
+            "priority_rules"
+          ],
+          "blunt": "需求会频繁调整，关键是改动有没有排期、验收和止损规则。",
+          "worst_case": "天天插单、反复返工、没有质量门槛，延期责任仍由执行人承担。",
+          "red_flags": [
+            "没有固定迭代周期",
+            "临时需求可以绕过排期和验收"
+          ],
+          "good_answer": "能说明迭代周期、插单权限、返工统计、质量标准和延期处理。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "独立负责",
+        "term": "独立负责",
+        "matched_text": "独立负责",
+        "entry": {
+          "term": "独立负责",
+          "literal": "候选人需要对某一业务或项目承担主要责任。",
+          "hypothesis": "独立负责不等于没有团队支持，需要确认人员、预算、数据和审批资源。",
+          "verify": "我独立负责的边界是什么，会有哪些人员、预算、数据和审批支持？",
+          "fields": [
+            "ownership",
+            "resources"
+          ],
+          "blunt": "你是主要责任人，但“独立”没有说明是有决策权，还是没人帮。",
+          "worst_case": "一个人背完整结果，却没有预算、数据、人员或审批支持。",
+          "red_flags": [
+            "岗位同时覆盖多个专业角色",
+            "只强调负责，不说明协作人和审批链"
+          ],
+          "good_answer": "能列出你的决定范围、固定协作人、预算、数据和审批时限。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      },
+      {
+        "id": "结果导向",
+        "term": "结果导向",
+        "matched_text": "结果导向",
+        "entry": {
+          "term": "结果导向",
+          "literal": "岗位评价更重视最终产出或业务指标。",
+          "hypothesis": "需要确认指标口径、周期、个人可控范围和可用资源，否则无法判断责任是否对等。",
+          "verify": "入职前三个月最重要的结果是什么，指标由谁制定，我能调动哪些资源？",
+          "fields": [
+            "success_metrics",
+            "resources",
+            "decision_rights"
+          ],
+          "blunt": "公司主要看你最后交了什么，但过程中的资源、权限和目标变更可能仍由你承担。",
+          "worst_case": "指标由别人定、资源不给、目标频繁改变，最后只追究执行人的结果。",
+          "red_flags": [
+            "目标没有书面口径",
+            "责任明确但资源和决策权说不清"
+          ],
+          "good_answer": "能说出前三个月目标、计算口径、资源、复盘周期和目标变更机制。",
+          "evidence_boundary": "这是需要核实的招聘风险，不是对具体公司的事实判断。"
+        },
+        "source": "references/jargon.json",
+        "confidence": "exact_or_alias"
+      }
+    ]
+  },
+  "occupation": {
+    "query": "【模拟数据，虚构公司，非真实招聘】\n公司：示例智能科技（虚构）\n岗位：推荐算法工程师（校招）\n地点：杭州\n薪资：25-40K·15薪\n岗位职责：\n1. 负责信息流推荐系统的召回、排序模型的设计与优化，提升点击率与用户时长；\n2. 参与特征工程与样本构建，处理海量用户行为日志；\n3. 负责线上 A/B 实验的设计与效果分析，推动模型上线；\n4. 跟进业界前沿算法，独立负责模块从0到1落地；\n5. 完成领导交办的其他任务。\n任职要求：\n1. 2027届本科及以上，计算机、数学、统计相关专业；\n2. 熟悉 Python/C++，熟悉 PyTorch 或 TensorFlow；\n3. 有推荐、搜索、广告相关项目或实习经历者优先；\n4. 结果导向，抗压能力强，能适应快速迭代的工作节奏；\n5. 有顶会论文或竞赛获奖者优先。\n福利：弹性工作，不强制加班，免费晚餐，年终奖2-4个月，五险一金。",
+    "type": "occupation",
+    "status": "matched",
+    "matches": [
+      {
+        "id": "recommendation-algorithm-engineer",
+        "name": "推荐算法工程师",
+        "score": 60,
+        "confidence": "high",
+        "matched_terms": [
+          "推荐算法工程师",
+          "推荐算法",
+          "数据",
+          "特征",
+          "模型"
+        ],
+        "occupation": {
+          "id": "recommendation-algorithm-engineer",
+          "parent_id": "algorithm-engineer",
+          "name": "推荐算法工程师",
+          "aliases": [
+            "推荐算法",
+            "搜索推荐算法",
+            "广告算法工程师"
+          ],
+          "family": "Engineer",
+          "plain_language": "用数据和实验，让用户更容易看到可能喜欢的商品、内容或广告。",
+          "keywords": [
+            "数据",
+            "特征",
+            "模型",
+            "离线实验",
+            "线上实验"
+          ],
+          "daily_work": [
+            "阅读论文和行业方案",
+            "准备数据和特征",
+            "训练或调整模型",
+            "统计实验结果",
+            "上线并观察业务指标"
+          ],
+          "deliverables": [
+            "模型",
+            "特征",
+            "实验报告",
+            "线上策略"
+          ],
+          "metrics": [
+            "点击率",
+            "转化率",
+            "留存",
+            "收入",
+            "模型延迟"
+          ],
+          "growth": [
+            "机器学习",
+            "实验设计",
+            "数据工程",
+            "业务理解"
+          ],
+          "risks": [
+            "实际工作可能大量消耗在数据清洗、特征工程和系统接入，研究新模型只占较少部分"
+          ],
+          "questions": [
+            "数据、特征、模型和工程接入分别约占多少时间？",
+            "主要优化哪个线上指标？",
+            "算法团队是否能独立发起和分析线上实验？"
+          ],
+          "evidence": [
+            {
+              "type": "expert_interview",
+              "title": "推荐算法专家的职业进阶之路",
+              "url": "https://maimai.cn/article/detail?efid=8SbQp4J4-WyuknMAJeBO1g&fid=1706470812",
+              "scope": "推荐算法专家访谈"
+            }
+          ]
+        },
+        "source": "references/occupations.json"
+      },
+      {
+        "id": "algorithm-engineer",
+        "name": "算法工程师",
+        "score": 34,
+        "confidence": "high",
+        "matched_terms": [
+          "算法工程师",
+          "特征"
+        ],
+        "occupation": {
+          "id": "algorithm-engineer",
+          "parent_id": "engineer",
+          "name": "算法工程师",
+          "aliases": [
+            "机器学习工程师",
+            "AI算法工程师",
+            "算法开发"
+          ],
+          "family": "Engineer",
+          "plain_language": "利用数据和数学模型，让机器完成预测、排序、识别、生成或决策任务，并把效果稳定地运行到产品中。",
+          "keywords": [
+            "数据处理",
+            "特征",
+            "模型训练",
+            "实验评估",
+            "模型部署"
+          ],
+          "daily_work": [
+            "理解业务问题并定义可计算目标",
+            "准备和检查训练数据",
+            "训练、调整和比较模型",
+            "分析离线与线上实验结果",
+            "配合工程团队部署并监控模型"
+          ],
+          "deliverables": [
+            "可运行模型",
+            "数据或特征方案",
+            "实验报告",
+            "线上算法服务"
+          ],
+          "metrics": [
+            "模型效果指标",
+            "业务指标变化",
+            "推理延迟",
+            "稳定性",
+            "计算成本"
+          ],
+          "growth": [
+            "机器学习",
+            "实验设计",
+            "数据工程",
+            "工程部署",
+            "业务问题建模"
+          ],
+          "risks": [
+            "算法工程师是上位称呼；不同岗位可能偏研究、数据、工程部署或客户交付，名称本身不能说明实际工作比例",
+            "如果只能调参和清洗数据，不能定义目标、设计实验或参与上线，成长范围可能较窄"
+          ],
+          "questions": [
+            "这个岗位具体属于推荐、搜索、广告、视觉、语音、LLM还是工业算法？",
+            "数据处理、模型实验和工程部署分别约占多少时间？",
+            "最终考核模型指标、业务指标还是项目交付？"
+          ],
+          "evidence": [
+            {
+              "type": "expert_interview",
+              "title": "推荐算法专家的职业进阶之路",
+              "url": "https://maimai.cn/article/detail?efid=8SbQp4J4-WyuknMAJeBO1g&fid=1706470812",
+              "scope": "推荐算法方向的读论文、数据、模型、实验和上线循环"
+            },
+            {
+              "type": "first_person",
+              "title": "工作机会的选择",
+              "url": "https://maimai.cn/article/detail?efid=YKYjf47HQlD3QvvWn_wjpg&fid=1913855169",
+              "scope": "工业算法方向从采集、标注、训练到部署和售后的全链路经历"
+            }
+          ]
+        },
+        "source": "references/occupations.json"
+      }
+    ]
+  }
+}

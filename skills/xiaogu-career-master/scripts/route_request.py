@@ -14,7 +14,8 @@ PATTERNS = {
     "external_research": r"脉脉|职场社区|从业者.{0,6}(评价|分享|怎么说)|公司口碑|真实员工|真实体验",
     "interview": r"面试.{0,20}(复盘|答|回忆|记录|刚|完|录音)|复盘.{0,12}面试|逐字稿|面试录音|面试记录|回答得怎么样|模拟面试",
     "resume": r"简历|项目经历|自我介绍|经历.{0,6}(改写|润色)|匹配.{0,6}经历",
-    "jobs": r"找岗位|找工作|搜岗位|搜索岗位|职位推荐|岗位推荐|BOSS|Boss直聘|招聘机会",
+    # 只认“替我去搜/找具体岗位列表”；“现在找工作来得及吗”这类泛问不算
+    "jobs": r"(?:找|搜|搜索|推荐).{0,8}(?:岗位|职位|工作机会)|岗位推荐|职位推荐|BOSS|Boss直聘|招聘机会",
     "job_understanding": r"JD|招聘说明|招聘信息|招聘广告|招聘要求|任职要求|(?:岗位|职位|这份工作|这工作|工程师|产品经理|运营|设计师).{0,12}(做什么|干什么|怎么样|值不值得|靠谱吗|适合|能做)|行业黑话|招聘话术|结果导向|快速迭代|主人翁|薪资面议|核实问题",
     "jargon": r"扁平化管理|弹性工作|14薪|13薪|年薪范围|带薪年假|调休|团建|公司旅游|全额五险一金|有竞争力的薪酬|绩效奖金|房补|餐补|黑话.{0,8}(什么意思|翻译)|(?:招聘话术|福利).{0,8}(什么意思|怎么算)",
     "next_step": r"下一步|怎么开始|带我求职|帮我求职|继续上次|现在该做什么|从头开始",
@@ -49,6 +50,25 @@ def has_material(query: str, kind: str, context: dict[str, Any]) -> bool:
     return bool(re.search(r"面试官(?:问|[：:]).+?我回答[：:]?.+", query, re.S)) or len(query) >= 100 and bool(re.search(r"面试官|(?:^|\n)\s*[Q问答A][：:]|我回答", query, re.I))
 
 
+# 岗位理解默认附带的实时来源，按优先级排列。牛客在前：robots 对所有代理只禁 /search，
+# 校招面经贴合新手；脉脉只读 robots 放行的公开详情页。顺序待 Codex 调研（notes/2026-10-03）后校正。
+LIVE_SOURCES = ["nowcoder", "maimai"]
+
+
+def live_sources_for(query: str, pipeline: list[str]) -> list[str]:
+    """只给“理解岗位”配实时来源；单问黑话、改简历、面试复盘不默认联网。"""
+    if "xiaogu-resume" in pipeline or "xiaogu-interview-review" in pipeline:
+        return []
+    if matches("external_research", query):
+        return list(LIVE_SOURCES)
+    # “结果导向是什么意思”这类单问黑话也会命中岗位理解正则；没有岗位名词或 JD 时不联网
+    if matches("job_understanding", query) and (
+        re.search(r"工程师|经理|专员|顾问|设计师|分析师|运营|岗位|职位|这份工作|这工作|JD|招聘说明|招聘信息", query, re.I)
+    ):
+        return list(LIVE_SOURCES)
+    return []
+
+
 def route(query: str, context: dict[str, Any] | None = None) -> dict:
     context = context or {}
     pipeline: list[str] = []
@@ -62,6 +82,7 @@ def route(query: str, context: dict[str, Any] | None = None) -> dict:
             "pipeline": ["xiaogu-career-master"],
             "reason": ["先引导首次使用或整理求职进度，再决定具体功能"],
             "missing_inputs": [],
+            "live_sources": [],
             "next_action": "读取已提供的目标或进度；没有时只询问目前想解决的一个问题",
         }
 
@@ -94,12 +115,19 @@ def route(query: str, context: dict[str, Any] | None = None) -> dict:
             "status": "needs_clarification",
             "primary_skill": "xiaogu-career-master",
             "pipeline": [],
+            "live_sources": [],
             "question": "你现在最想解决哪件事：找岗位、看懂 JD、改简历，还是复盘面试？",
         }
 
     missing = []
-    if "xiaogu-career-suite" in pipeline and "xiaogu-interview-review" not in pipeline and not matches("jargon", query) and not has_material(query, "job", context) and not re.search(
-        r"(?:算法|数据|前端|后端|测试|运维|产品|运营|设计|销售).{0,8}(?:工程师|经理|专员|顾问|设计师)?|招聘(?:经理|专员|顾问)",
+    has_job = has_material(query, "job", context)
+    if "xiaogu-resume" in pipeline:
+        # 岗位版简历必须有招聘说明正文；岗位名称或“这份 JD”这类指代都不够
+        if not has_job:
+            missing.append("目标岗位的招聘说明")
+    elif "xiaogu-career-suite" in pipeline and "xiaogu-interview-review" not in pipeline and not matches("jargon", query) and not has_job and not re.search(
+        # 后缀必须出现：单独的“数据”“产品”“测试”不算岗位名称
+        r"(?:工程师|经理|专员|顾问|设计师|分析师|架构师|程序员|运营|审核员|产品经理)",
         query,
         re.IGNORECASE,
     ):
@@ -115,6 +143,7 @@ def route(query: str, context: dict[str, Any] | None = None) -> dict:
         "pipeline": pipeline,
         "reason": reasons,
         "missing_inputs": missing,
+        "live_sources": live_sources_for(query, pipeline),
         "next_action": "先索取最前面的缺失材料" if missing else "直接执行整条 pipeline",
     }
 

@@ -1,0 +1,7 @@
+# 每天备份两个环境的 SQLite（在线备份，不停服务），保留 14 天。
+[Unit]
+Description=Backup xiaogu databases
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'd=$(date +%%Y%%m%%d); mkdir -p /var/backups/xiaogu; for e in prod staging; do f=/var/lib/xiaogu/$e/xiaogu.db; [ -f "$f" ] && sqlite3 "$f" ".backup /var/backups/xiaogu/$e-$d.db"; done; find /var/backups/xiaogu -name "*.db" -mtime +14 -delete'

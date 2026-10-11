@@ -1,0 +1,131 @@
+{
+  "notice": "真实公开页面研究样本，身份自述未核验；两篇2024旧帖，一篇年份未知且含指导商业动机。目标推荐算法下感知为different_team，其余unknown。四主题仅定性覆盖，工时占比和绩效公式未知；不能替换为模拟full或生产证据认证。 scenarios.host_agent为拟定产品测试身份，不是此次请求实际UA；未测小谷服务器抓取。",
+  "fetched_at": "2026-10-05",
+  "posts": [
+    {
+      "id": "real-perception-20241021",
+      "mock": false,
+      "source": "nowcoder",
+      "source_name": "牛客",
+      "url": "https://www.nowcoder.com/discuss/677971054463053824",
+      "posted_at": "2024-10-21 20:14",
+      "author_label": "自称智驾感知算法实习1年9个月后转正式；页面标签智能驾驶系统工程师，身份未认证核验",
+      "scope": "different_team",
+      "claims": [
+        {
+          "topic": "time_split",
+          "paraphrase": "感知算法实习日常涉及业务数据训练评测、定位弱场景、反馈难例、实现接口并协助部署；未提供各项时间百分比。",
+          "quote": ""
+        },
+        {
+          "topic": "metrics",
+          "paraphrase": "作者称按OKR推进任务，评测弱场景/目标性能；没有披露数值门槛、个人绩效公式或业务转化指标。",
+          "quote": ""
+        },
+        {
+          "topic": "growth",
+          "paraphrase": "通过论文、技术报告和mentor讨论寻找思路，经周会评估后纳入后续任务；实习压力不能等同正式工。",
+          "quote": ""
+        }
+      ]
+    },
+    {
+      "id": "real-intern-20240524",
+      "mock": false,
+      "source": "nowcoder",
+      "source_name": "牛客",
+      "url": "https://www.nowcoder.com/feed/main/detail/d0cfcd0f756740069b64fe1956fc9b7f",
+      "posted_at": "2024-05-24 15:31",
+      "author_label": "正文自称算法岗实习两周，页面职业标签Java；公司未说明、标签矛盾、身份未核验",
+      "scope": "unknown",
+      "claims": [
+        {
+          "topic": "time_split",
+          "paraphrase": "自述前两周以调研学习可能在组内使用的算法为主，未提供时长占比。",
+          "quote": ""
+        },
+        {
+          "topic": "growth",
+          "paraphrase": "自述氛围较轻松，但担心提升有限；单个实习初期体验不代表岗位通常成长速度。",
+          "quote": ""
+        }
+      ]
+    },
+    {
+      "id": "real-daily-dateunknown",
+      "mock": false,
+      "source": "nowcoder",
+      "source_name": "牛客",
+      "url": "https://www.nowcoder.com/feed/main/detail/bd84598eaf9745bdb3611dba5435ff12",
+      "posted_at": "01-07 11:56（页面未显示年份，完整发表日期未知）",
+      "author_label": "页面自填算法工程师；自述熟悉该日常，含接指导业务，商业动机及在职身份未核验",
+      "scope": "unknown",
+      "claims": [
+        {
+          "topic": "overtime",
+          "paraphrase": "作者描述九点前到岗、晚间工作到约十点、周末查看实验；另提晚间接指导。工作和副业须区分，不能当团队考勤或行业典型工时。",
+          "quote": ""
+        },
+        {
+          "topic": "growth",
+          "paraphrase": "作者强调持续做实验与学习；属于带指导业务的个人分享，未提供可独立验证的团队证明。",
+          "quote": ""
+        }
+      ]
+    }
+  ],
+  "scenarios": {
+    "different_team": {
+      "host_agent": "XiaoguBot/0.1",
+      "sources": {
+        "nowcoder": {
+          "status": "ok",
+          "posts": [
+            "real-perception-20241021"
+          ]
+        },
+        "maimai": {
+          "status": "skipped_robots",
+          "posts": []
+        }
+      }
+    },
+    "stale_only": {
+      "host_agent": "XiaoguBot/0.1",
+      "sources": {
+        "nowcoder": {
+          "status": "ok",
+          "posts": [
+            "real-perception-20241021",
+            "real-intern-20240524"
+          ]
+        },
+        "maimai": {
+          "status": "skipped_robots",
+          "posts": []
+        }
+      }
+    },
+    "single_anonymous": {
+      "host_agent": "XiaoguBot/0.1",
+      "sources": {
+        "nowcoder": {
+          "status": "ok",
+          "posts": [
+            "real-daily-dateunknown"
+          ]
+        },
+        "maimai": {
+          "status": "skipped_robots",
+          "posts": []
+        }
+      }
+    }
+  },
+  "scope_values": {
+    "same_company": "明确说的是这家公司",
+    "same_role": "同类岗位、其他公司或未说明公司",
+    "different_team": "相邻团队或岗位",
+    "unknown": "公司和团队都未说明"
+  }
+}

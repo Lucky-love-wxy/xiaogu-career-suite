@@ -1,0 +1,42 @@
+{
+  "status": "预注册，尚未实测",
+  "engines": [
+    "百度",
+    "必应",
+    "搜狗",
+    "Google"
+  ],
+  "discovery_queries": [
+    "site:nowcoder.com 算法工程师 面经",
+    "site:maimai.cn 算法工程师"
+  ],
+  "api_candidates": [
+    "博查",
+    "百度千帆 AI 搜索",
+    "Tavily",
+    "SerpAPI"
+  ],
+  "api_queries": [
+    "site:nowcoder.com 推荐算法 面经",
+    "site:nowcoder.com 算法工程师 日常工作",
+    "site:nowcoder.com 算法工程师 加班",
+    "site:nowcoder.com 推荐算法 实习 指标",
+    "site:nowcoder.com 算法工程师 成长"
+  ],
+  "top_k": 10,
+  "record_fields": [
+    "rank",
+    "title",
+    "url",
+    "snippet",
+    "date_raw",
+    "detail_page",
+    "relevant",
+    "recency_known"
+  ],
+  "notes": [
+    "同一轮每个候选使用相同五条查询、相同top_k；不同引擎结果分别保存。",
+    "搜索结果估算总数与实际返回条数分开记录；不把摘要当原帖。",
+    "需API凭证或消耗额度时标未实测，不以网页搜索模拟API测试。"
+  ]
+}

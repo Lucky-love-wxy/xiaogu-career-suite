@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>小谷求职 · 第一次找工作的 AI 伙伴</title>
+<link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<meta name="description" content="小谷陪你看懂岗位、按岗位改简历、模拟面试。给第一次找工作的大学生。">
+<style>
+:root{
+  color-scheme:dark;
+  --paper:#0a0a0a; --paper-2:#151514; --ink:#f2f2ee; --ink-2:#a3a39e; --ink-3:#6b6b67; --rule:#3d3d3a;
+  --serif:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong",serif;
+  --sans:"PingFang SC","Noto Sans SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  --mono:"SF Mono","IBM Plex Mono",Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper); color:var(--ink); font:15px/1.9 var(--sans); overflow-x:hidden}
+a{color:inherit}
+
+/* 顶栏 */
+nav{position:sticky; top:0; z-index:10; display:flex; align-items:center; padding:16px 48px; background:rgba(10,10,10,.72); backdrop-filter:blur(10px)}
+.mark{display:flex; align-items:center}
+.mark .logo{height:32px; width:auto; display:block}
+.grow{flex:1}
+.btn{display:inline-flex; align-items:center; gap:8px; padding:9px 18px; border-radius:12px; text-decoration:none; font-size:14px;
+  border:1px solid var(--rule); transition:background .2s,transform .2s var(--ease),border-color .2s}
+.btn:hover{background:rgba(242,242,238,.08); border-color:var(--ink-3)}
+.btn:active{transform:scale(.97)}
+.btn.solid{background:var(--ink); color:var(--paper); border-color:var(--ink); padding:14px 30px; letter-spacing:.3em; font-weight:500}
+.btn.solid:hover{background:#fff; transform:translateY(-1px)}
+.btn.ghost{border-color:transparent; color:var(--ink-2)}
+.btn.ghost:hover{color:var(--ink); background:rgba(242,242,238,.06)}
+
+/* 首屏 */
+.hero{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.05fr); gap:40px; align-items:center;
+  max-width:1180px; margin:0 auto; padding:24px 48px 40px; min-height:calc(100vh - 68px)}
+.kicker{font:12px/1 var(--mono); letter-spacing:.35em; color:var(--ink-3)}
+h1{margin:18px 0 0; font:800 clamp(64px,9vw,112px)/1 var(--sans); letter-spacing:.02em}
+.en{margin-top:14px; font:600 clamp(20px,2.4vw,28px)/1 var(--sans); letter-spacing:.32em}
+.bar{width:40px; height:4px; border-radius:2px; background:var(--ink); margin:30px 0 26px}
+.slogan{font:500 clamp(22px,2.4vw,30px)/1.55 var(--serif); letter-spacing:.06em; margin:0}
+.lead{margin:22px 0 0; max-width:30em; color:var(--ink-2)}
+.tags{display:flex; flex-wrap:wrap; gap:8px; margin:24px 0 34px}
+.tags span{font-size:12px; padding:5px 12px; border:1px solid var(--rule); border-radius:999px; color:var(--ink-2)}
+.cta{display:flex; flex-wrap:wrap; gap:12px; align-items:center}
+.note{margin-top:14px; font-size:12px; color:var(--ink-3)}
+/* 淡入只在脚本接管后生效（html.js）；脚本没跑起来时内容照常显示 */
+.js .reveal{opacity:0; transform:translateY(16px); transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.js .reveal.in{opacity:1; transform:none}
+.d1{transition-delay:.08s} .d2{transition-delay:.16s} .d3{transition-delay:.24s} .d4{transition-delay:.32s}
+
+/* 吉祥物舞台：灰白光斑托住黑色角色，不让黑融进黑 */
+.stage{position:relative; aspect-ratio:1/1.02; display:grid; place-items:center; perspective:900px}
+.stage::before{content:""; position:absolute; inset:2% 4% 6%; border-radius:50%;
+  background:radial-gradient(closest-side, rgba(236,236,232,.92), rgba(190,190,186,.5) 55%, rgba(10,10,10,0) 100%); filter:blur(4px)}
+.stage::after{content:""; position:absolute; left:-10%; top:-20%; width:70%; height:140%; transform:rotate(-24deg);
+  background:linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.06), rgba(255,255,255,0)); pointer-events:none}
+.tilt{position:relative; width:min(78%,440px); transition:transform .35s var(--ease); transform-style:preserve-3d; cursor:pointer; outline:none}
+.mascot{width:100%; height:auto; display:block; overflow:visible; animation:float 4.2s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+.mascot .sprout{transform-box:fill-box; transform-origin:50% 100%; animation:sway 3.2s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(6deg)}}
+.tilt:hover .sprout{animation-duration:.9s}
+.mascot .eyes{transition:transform .12s linear}
+.mascot .eye{transform-box:fill-box; transform-origin:50% 50%; transition:transform .15s ease, opacity .15s ease}
+.mascot.blink .eye{transform:scaleY(.08)}
+.mascot .shadow{transform-box:fill-box; transform-origin:50% 50%; animation:shadow 4.2s ease-in-out infinite}
+@keyframes shadow{50%{transform:scaleX(.86); opacity:.6}}
+.mascot.pop{animation:pop .45s var(--ease), float 4.2s ease-in-out .45s infinite}
+@keyframes pop{0%{transform:scale(1)}35%{transform:scale(1.06) translateY(-6px)}100%{transform:scale(1)}}
+
+/* 表情：默认微笑；点击依次换成 开心 / 惊喜 / wink / 思考 / 疑问 */
+.f{opacity:0; transition:opacity .18s ease}
+.mascot[data-face="smile"] .f-smile,
+.mascot[data-face="happy"] .f-happy,
+.mascot[data-face="surprise"] .f-o,
+.mascot[data-face="wink"] .f-smile, .mascot[data-face="wink"] .f-wink,
+.mascot[data-face="think"] .f-flat, .mascot[data-face="think"] .f-dots,
+.mascot[data-face="question"] .f-wave, .mascot[data-face="question"] .f-q{opacity:1}
+.mascot[data-face="happy"] .eye{opacity:0}
+.mascot[data-face="wink"] .eye.l{opacity:0}
+.mascot[data-face="surprise"] .eye{transform:scale(1.22)}
+
+.bubble{position:absolute; top:4%; right:-2%; max-width:220px; padding:10px 16px; border-radius:14px; background:var(--ink); color:var(--paper);
+  font-size:14px; line-height:1.6; box-shadow:0 10px 30px rgba(0,0,0,.35); opacity:0; transform:translateY(6px) scale(.96); transform-origin:20% 100%;
+  transition:opacity .25s var(--ease),transform .25s var(--ease); pointer-events:none; z-index:2}
+.bubble::after{content:""; position:absolute; left:22px; bottom:-6px; width:12px; height:12px; background:var(--ink); transform:rotate(45deg); border-radius:2px}
+.bubble.on{opacity:1; transform:none}
+.hint{position:absolute; bottom:2%; left:50%; transform:translateX(-50%); font-size:12px; color:var(--ink-3); white-space:nowrap}
+
+/* 它能做什么 */
+.sec{max-width:1180px; margin:0 auto; padding:96px 48px}
+.sec-h{display:flex; align-items:baseline; gap:16px; border-bottom:1px solid var(--ink); padding-bottom:14px; margin-bottom:8px}
+.sec-h h2{margin:0; font:700 22px/1 var(--serif); letter-spacing:.24em}
+.sec-h span{font:12px/1 var(--mono); letter-spacing:.25em; color:var(--ink-3)}
+.feats{display:grid; grid-template-columns:repeat(3,1fr)}
+.feat{padding:30px 28px 34px 0; border-right:1px solid var(--rule)}
+.feat + .feat{padding-left:28px}
+.feat:last-child{border-right:0}
+.feat i{font:12px/1 var(--mono); font-style:normal; color:var(--ink-3)}
+.feat b{display:block; margin:14px 0 8px; font:700 20px/1.4 var(--serif); letter-spacing:.12em}
+.feat p{margin:0; color:var(--ink-2); font-size:14px}
+
+/* 品牌页 */
+.brand{display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1fr); gap:56px; align-items:center}
+.photo{position:relative; border-radius:24px; overflow:hidden; aspect-ratio:450/600; background:#ddd}
+.photo img{position:absolute; inset:-6% 0 auto; width:100%; height:112%; object-fit:cover; will-change:transform}
+.script{font:500 clamp(24px,3vw,36px)/1.6 var(--serif); letter-spacing:.06em; margin:0}
+.trio{margin:34px 0 0; display:flex; flex-direction:column; gap:2px}
+.trio span{font:700 clamp(28px,3.4vw,40px)/1.45 var(--sans); letter-spacing:.08em}
+.trio span:last-child{color:var(--ink-2)}
+.small{margin-top:30px; color:var(--ink-3); font-size:13px}
+
+.end{text-align:center; padding:72px 24px 96px}
+.end h3{font:700 clamp(24px,3vw,34px)/1.5 var(--serif); letter-spacing:.06em; margin:0 0 26px}
+footer{padding:18px 16px calc(18px + env(safe-area-inset-bottom)); text-align:center; font-size:11px; color:var(--ink-3); border-top:1px solid var(--rule)}
+footer a{color:var(--ink-3)}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important; transition:none!important}
+  .reveal{opacity:1; transform:none}
+}
+@media (max-width:860px){
+  nav{padding:14px 16px}
+  .hero{grid-template-columns:1fr; gap:8px; padding:8px 16px 32px; min-height:0}
+  .stage{order:-1; width:100%; max-width:380px; margin:0 auto}
+  .bubble{right:0; top:0; max-width:180px; font-size:13px}
+  .sec{padding:64px 16px}
+  .feats{grid-template-columns:1fr}
+  .feat,.feat + .feat{padding:24px 0; border-right:0; border-bottom:1px solid var(--rule)}
+  .brand{grid-template-columns:1fr; gap:32px}
+}
+</style>
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+<nav><span class="mark"><svg class="logo" role="img" aria-label="小谷" viewBox="0 0 152 100" fill="currentColor"><path transform="translate(0 25) scale(0.0739)" d="M661 286Q772 331 838.5 386.5Q905 442 935.5 498.0Q966 554 967.5 601.5Q969 649 949.0 679.0Q929 709 895.0 712.0Q861 715 820 682Q812 632 795.0 580.5Q778 529 755.5 478.5Q733 428 706.5 381.0Q680 334 651 292ZM204 270 398 347Q395 354 387.0 360.0Q379 366 360 366Q328 431 281.5 501.5Q235 572 171.5 636.0Q108 700 25 748L18 740Q56 690 86.5 630.5Q117 571 140.0 507.5Q163 444 179.0 383.0Q195 322 204 270ZM436 40 624 57Q623 68 614.5 75.5Q606 83 587 86V803Q587 853 573.5 888.0Q560 923 517.0 944.5Q474 966 386 974Q382 936 374.5 910.5Q367 885 349 867Q331 850 305.5 837.5Q280 825 227 815V803Q227 803 243.0 804.0Q259 805 283.0 806.0Q307 807 333.5 808.0Q360 809 381.5 810.0Q403 811 412 811Q426 811 431.0 806.5Q436 802 436 792Z"/><path transform="translate(76.86 25) scale(0.0739)" d="M549 294Q513 352 457.0 408.5Q401 465 330.5 514.5Q260 564 182.5 604.0Q105 644 25 670L19 659Q85 618 148.5 562.0Q212 506 265.0 443.5Q318 381 354.5 318.5Q391 256 404 203L618 257Q615 268 603.0 274.0Q591 280 564 282Q599 325 649.0 357.0Q699 389 757.5 411.0Q816 433 875.5 447.0Q935 461 988 470V486Q956 496 932.5 519.5Q909 543 895.0 573.0Q881 603 877 632Q802 597 737.5 550.0Q673 503 625.0 439.5Q577 376 549 294ZM572 43Q683 56 753.0 87.0Q823 118 859.0 156.5Q895 195 903.0 232.0Q911 269 897.0 296.5Q883 324 853.5 332.5Q824 341 785 321Q768 285 743.0 247.5Q718 210 688.0 174.5Q658 139 626.5 107.0Q595 75 564 50ZM429 110Q426 117 417.5 121.5Q409 126 391 125Q357 174 308.0 223.5Q259 273 197.5 315.5Q136 358 62 388L55 378Q105 331 145.0 269.5Q185 208 214.0 144.5Q243 81 258 27ZM732 856V884H281V856ZM626 574 693 500 830 605Q825 611 814.5 617.5Q804 624 787 628V937Q787 940 766.0 948.0Q745 956 716.0 963.0Q687 970 662 970H637V574ZM368 930Q368 937 349.5 947.5Q331 958 302.5 966.5Q274 975 244 975H223V574V516L375 574H726V602H368Z"/><g transform="translate(76.86 25) scale(1.1197) translate(-17 -29.92)"><path d="M50 28 q-1 -6 1.5 -11" stroke="currentColor" stroke-width="3.2" fill="none" stroke-linecap="round"/><ellipse cx="42" cy="17" rx="7" ry="4" transform="rotate(-28 42 17)"/><ellipse cx="60" cy="14.5" rx="8.6" ry="4.4" transform="rotate(22 60 14.5)"/></g></svg></span><span class="grow"></span><a class="btn" href="/login" id="navLink">登录</a></nav>
+
+<header class="hero">
+  <div>
+    <div class="kicker reveal">IDEA · FOCUS · CREATE</div>
+    <h1 class="reveal d1">小谷</h1>
+    <div class="en reveal d1">XIAO GU</div>
+    <div class="bar reveal d2"></div>
+    <p class="slogan reveal d2">用更纯粹的视角<br>看见更大的可能</p>
+    <p class="lead reveal d3">小谷是陪你第一次找工作的伙伴：先把招聘说明讲明白，再按岗位改简历，最后陪你练一场面试。只用你给的经历，不替你编。</p>
+    <div class="tags reveal d3"><span>专业</span><span>可信</span><span>友好</span><span>高效</span></div>
+    <div class="cta reveal d4">
+      <a class="btn solid" href="/app" id="cta">开始使用</a>
+      <a class="btn ghost" href="#what">它能做什么 ↓</a>
+    </div>
+    <p class="note reveal d4">内测中，凭邀请码注册，送 500 credits。</p>
+  </div>
+
+  <div class="stage reveal d2" id="stage">
+    <div class="tilt" id="tilt" role="button" tabindex="0" aria-label="和小谷打个招呼">
+      <div class="bubble" id="bubble"></div>
+      <!-- 按设定图正面造型重画：黑色兜帽、白脸、头顶两片小芽、手捧平板 -->
+      <svg class="mascot" id="mascot" data-face="smile" viewBox="0 0 300 350" aria-hidden="true">
+        <ellipse class="shadow" cx="150" cy="336" rx="74" ry="8" fill="rgba(0,0,0,.32)"/>
+        <ellipse cx="150" cy="276" rx="62" ry="46" fill="#131313"/>
+        <ellipse cx="116" cy="316" rx="30" ry="17" fill="#131313"/>
+        <ellipse cx="184" cy="316" rx="30" ry="17" fill="#131313"/>
+        <path d="M92 312 q24 -14 48 0" stroke="#f1f1ee" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M160 312 q24 -14 48 0" stroke="#f1f1ee" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <rect x="116" y="246" width="68" height="50" rx="8" fill="#e9e9e5" stroke="#cfcfca"/>
+        <path d="M150 283 v-10 M150 273 q-9 -9 -15 -2 q7 6 15 2 M150 273 q9 -10 16 -3 q-7 7 -16 3" stroke="#131313" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <ellipse cx="116" cy="272" rx="14" ry="13" fill="#1a1a1a"/>
+        <ellipse cx="184" cy="272" rx="14" ry="13" fill="#1a1a1a"/>
+        <g class="sprout">
+          <path d="M150 64 q-1 -12 2 -22" stroke="#131313" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <ellipse cx="134" cy="38" rx="15" ry="8.5" transform="rotate(-28 134 38)" fill="#131313"/>
+          <ellipse cx="170" cy="33" rx="19" ry="9.5" transform="rotate(22 170 33)" fill="#131313"/>
+        </g>
+        <ellipse cx="150" cy="150" rx="116" ry="104" fill="#131313"/>
+        <ellipse cx="150" cy="164" rx="94" ry="82" fill="#dcdcd7"/>
+        <ellipse cx="150" cy="168" rx="82" ry="70" fill="#f7f7f4"/>
+        <path d="M66 162 Q80 96 150 92 Q220 96 234 162 Q214 126 150 124 Q86 126 66 162 Z" fill="#131313"/>
+        <ellipse cx="104" cy="196" rx="11" ry="6.5" fill="#efb7b7" opacity=".5"/>
+        <ellipse cx="196" cy="196" rx="11" ry="6.5" fill="#efb7b7" opacity=".5"/>
+        <g class="eyes" id="eyes">
+          <g class="eye l"><ellipse cx="122" cy="170" rx="11.5" ry="16" fill="#111"/><circle cx="118" cy="163" r="3.6" fill="#fff"/></g>
+          <g class="eye r"><ellipse cx="178" cy="170" rx="11.5" ry="16" fill="#111"/><circle cx="174" cy="163" r="3.6" fill="#fff"/></g>
+        </g>
+        <path class="f f-happy" d="M110 172 q12 -14 24 0 M166 172 q12 -14 24 0" stroke="#111" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+        <path class="f f-wink" d="M110 172 q12 -12 24 0" stroke="#111" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+        <path class="f f-smile" d="M139 197 q11 10 22 0" stroke="#111" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+        <path class="f f-happy" d="M136 193 q14 18 28 0 z" fill="#111"/>
+        <ellipse class="f f-o" cx="150" cy="201" rx="6" ry="7.5" fill="#111"/>
+        <path class="f f-flat" d="M141 200 h18" stroke="#111" stroke-width="3.6" stroke-linecap="round"/>
+        <path class="f f-wave" d="M138 201 q6 -6 12 0 q6 6 12 0" stroke="#111" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+        <g class="f f-dots" fill="#131313"><circle cx="232" cy="52" r="5"/><circle cx="250" cy="40" r="6.5"/><circle cx="270" cy="26" r="8"/></g>
+        <text class="f f-q" x="238" y="62" font-size="46" font-weight="800" fill="#131313" font-family="sans-serif">?</text>
+      </svg>
+    </div>
+    <div class="hint">点一下小谷</div>
+  </div>
+</header>
+
+<section class="sec" id="what">
+  <div class="sec-h reveal"><h2>它能做什么</h2><span>WHAT XIAO GU DOES</span></div>
+  <div class="feats">
+    <div class="feat reveal d1"><i>01</i><b>看懂岗位</b><p>拆开招聘说明里的原句和黑话，说清写了什么、没写什么、该去问什么。</p></div>
+    <div class="feat reveal d2"><i>02</i><b>按岗位改简历</b><p>整理成单栏简历，按招聘说明换成对方的说法，新增的每一处都让你确认。</p></div>
+    <div class="feat reveal d3"><i>03</i><b>模拟面试</b><p>按岗位和你的简历出题，每题一次追问，结束后按四项打分并告诉你改哪里。</p></div>
+  </div>
+</section>
+
+<section class="sec brand">
+  <div class="photo reveal"><img src="/brand/mascot-hero.webp" alt="小谷坐在台阶上捧着平板" id="photo" loading="lazy"></div>
+  <div>
+    <p class="script reveal d1">和小谷一起，<br>把复杂的世界，变简单。</p>
+    <div class="trio reveal d2"><span>简单</span><span>专注</span><span>更大的可能</span></div>
+    <p class="small reveal d3">黑与白之间，是不限的想象。</p>
+  </div>
+</section>
+
+<section class="end">
+  <h3 class="reveal">第一次找工作，从看懂一个岗位开始。</h3>
+  <a class="btn solid reveal d1" href="/app">开始使用</a>
+</section>
+
+<footer id="footer">回答由 AI 生成，请自行核实</footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// 滚动到位时淡入。保险：观察器没回调（个别浏览器 / 后台标签页）时，按位置直接显示，首屏不会空白
+document.documentElement.classList.add("js");
+const reveals = [...document.querySelectorAll(".reveal")];
+const showInView = () => reveals.forEach(el => { if (el.getBoundingClientRect().top < innerHeight * .92) el.classList.add("in"); });
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), {threshold: .15});
+  reveals.forEach(el => io.observe(el));
+}
+setTimeout(showInView, 1200);
+addEventListener("scroll", showInView, {passive: true});
+
+// ---------------- 小谷的互动 ----------------
+const mascot = $("#mascot"), eyes = $("#eyes"), tilt = $("#tilt"), bubble = $("#bubble");
+const FACES = [
+  ["happy", "嗨，我是小谷！"],
+  ["surprise", "这份招聘说明里，藏了不少黑话"],
+  ["wink", "简历我陪你一起改"],
+  ["think", "先看懂岗位，再决定投不投"],
+  ["question", "要不要来练一场面试？"],
+];
+let faceIdx = -1, resetTimer = null, bubbleTimer = null;
+
+// 1. 眼睛跟着鼠标看；2. 整体朝鼠标方向轻微倾斜
+addEventListener("pointermove", e => {
+  if (reduce || mascot.dataset.face === "think") return;
+  const r = mascot.getBoundingClientRect();
+  const cx = r.left + r.width / 2, cy = r.top + r.height * .48;
+  const dx = e.clientX - cx, dy = e.clientY - cy, d = Math.hypot(dx, dy) || 1;
+  const k = Math.min(1, d / 260) * 7;
+  eyes.style.transform = `translate(${(dx / d * k).toFixed(2)}px, ${(dy / d * k * .8).toFixed(2)}px)`;
+  const nx = Math.max(-1, Math.min(1, dx / innerWidth * 2)), ny = Math.max(-1, Math.min(1, dy / innerHeight * 2));
+  tilt.style.transform = `rotateY(${(nx * 9).toFixed(2)}deg) rotateX(${(-ny * 6).toFixed(2)}deg)`;
+}, {passive: true});
+document.addEventListener("pointerleave", () => { eyes.style.transform = ""; tilt.style.transform = ""; });
+
+// 3. 不定时眨眼，偶尔连眨两下
+function blink(){
+  if (!reduce && mascot.dataset.face !== "happy") {
+    mascot.classList.add("blink");
+    setTimeout(() => mascot.classList.remove("blink"), 140);
+    if (Math.random() < .25) setTimeout(() => { mascot.classList.add("blink"); setTimeout(() => mascot.classList.remove("blink"), 120); }, 260);
+  }
+  setTimeout(blink, 2400 + Math.random() * 3200);
+}
+setTimeout(blink, 1800);
+
+// 4. 点击换表情，冒出一句话；3 秒没动作回到微笑
+function say(text){
+  bubble.textContent = text;
+  bubble.classList.add("on");
+  clearTimeout(bubbleTimer);
+  bubbleTimer = setTimeout(() => bubble.classList.remove("on"), 2600);
+}
+function poke(){
+  faceIdx = (faceIdx + 1) % FACES.length;
+  const [face, line] = FACES[faceIdx];
+  mascot.dataset.face = face;
+  if (face === "think") eyes.style.transform = "translate(-5px,-6px)";
+  mascot.classList.remove("pop"); void mascot.getBoundingClientRect(); mascot.classList.add("pop");
+  say(line);
+  clearTimeout(resetTimer);
+  resetTimer = setTimeout(() => { mascot.dataset.face = "smile"; eyes.style.transform = ""; }, 3000);
+}
+tilt.addEventListener("click", poke);
+tilt.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); poke(); } });
+setTimeout(() => say("嗨，我是小谷"), 900);
+
+// 品牌图随滚动轻微视差
+const photo = $("#photo");
+if (!reduce) addEventListener("scroll", () => {
+  const r = photo.parentElement.getBoundingClientRect();
+  const p = (r.top + r.height / 2 - innerHeight / 2) / innerHeight;
+  photo.style.transform = `translateY(${(p * -28).toFixed(1)}px)`;
+}, {passive: true});
+
+// 登录状态和页脚公示
+fetch("/api/me").then(r => { if (r.ok) { $("#navLink").textContent = "进入"; $("#navLink").href = "/app"; } });
+fetch("/api/meta").then(r => r.json()).then(m => {
+  const parts = [];
+  if (m.model_filing) parts.push(`生成式人工智能服务：DeepSeek · ${m.model_filing}`);
+  if (m.icp) parts.push(`<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">${m.icp}</a>`);
+  parts.push("回答由 AI 生成，请自行核实");
+  $("#footer").innerHTML = parts.join(" · ");
+});
+</script>
+</body>
+</html>

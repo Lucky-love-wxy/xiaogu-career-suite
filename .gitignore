@@ -13,3 +13,14 @@ evidence/inspect_hypefade.mjs
 
 # Local research evidence
 evidence/
+
+# 本地预览配置
+.claude/
+
+# Web Agent 本地运行日志（含用户原话）
+web/logs/
+
+# 上线平台：本地虚拟环境、数据库、部署密钥
+.venv/
+web/data/
+deploy/*.env

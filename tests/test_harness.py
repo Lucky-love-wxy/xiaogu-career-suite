@@ -107,6 +107,18 @@ class HarnessOutputTests(unittest.TestCase):
         })
         self.assertNotEqual(result.returncode, 0)
 
+    def test_chat_style_has_no_report_labels(self):
+        result = self.render({
+            "status": "complete", "style": "chat", "answer": "临床背景进企业有几条路。",
+            "evidence": [], "unknown": [], "next_action": "你更想面对医生还是消费者？",
+        })
+        self.assertEqual(result.returncode, 0)
+        self.assertEqual(result.stdout, "临床背景进企业有几条路。\n\n你更想面对医生还是消费者？\n")
+
+    def test_unknown_style_is_rejected(self):
+        result = self.render({"status": "complete", "style": "fancy", "answer": "x", "evidence": [], "unknown": [], "next_action": None})
+        self.assertNotEqual(result.returncode, 0)
+
     def test_blocker_is_visible_and_preserves_partial_result(self):
         result = self.render({
             "status": "blocked", "answer": "已整理岗位要求。",

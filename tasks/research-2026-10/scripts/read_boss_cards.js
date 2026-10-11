@@ -1,0 +1,1 @@
+JSON.stringify({url:location.href,title:document.title,cards:Array.from(document.querySelectorAll("a[href*='/job_detail/']"),a=>({url:a.href,title:a.innerText,card:a.closest("li")?.innerText||""})).filter(a=>a.title),links:Array.from(document.querySelectorAll("a[href]"),a=>({text:a.innerText,url:a.href})).filter(a=>a.text.includes("协议")||a.text.includes("规则"))})

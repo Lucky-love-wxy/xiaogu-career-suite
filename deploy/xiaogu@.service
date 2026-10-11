@@ -1,0 +1,26 @@
+# systemd 模板：xiaogu@staging、xiaogu@prod 各一个实例。
+# 安装：cp deploy/xiaogu@.service /etc/systemd/system/ && systemctl daemon-reload
+#       systemctl enable --now xiaogu@staging
+[Unit]
+Description=Xiaogu career agent (%i)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=xiaogu
+Group=xiaogu
+WorkingDirectory=/opt/xiaogu/%i
+EnvironmentFile=/etc/xiaogu/%i.env
+# 环境名由实例名决定（xiaogu@prod → prod），env 文件漏写或写错 XIAOGU_ENV 都不会让生产跑成 dev
+ExecStart=/usr/bin/env XIAOGU_ENV=%i /opt/xiaogu/%i/.venv/bin/python /opt/xiaogu/%i/web/app.py --host 127.0.0.1
+Restart=on-failure
+RestartSec=3
+# 最小权限：只允许写自己的数据目录
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/xiaogu/%i
+
+[Install]
+WantedBy=multi-user.target

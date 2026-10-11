@@ -21,7 +21,8 @@
   ↓
 xiaogu-career-master
   ├─ 找岗位 → xiaogu-boss-jobs
-  ├─ 看岗位 / JD / 黑话 → xiaogu-career-suite
+  ├─ 看岗位 / JD → xiaogu-career-suite（JD → 本地库 → 牛客/脉脉公开从业者说法，失败不阻塞）
+  ├─ 只问黑话 → xiaogu-career-suite（不联网）
   ├─ 改简历 → xiaogu-career-suite → xiaogu-resume
   ├─ 复盘面试 → xiaogu-career-suite → xiaogu-interview-review
   └─ 不知道下一步 → 读取工作区状态并选择当前动作
@@ -45,4 +46,8 @@ xiaogu-career-master
 
 ## 外部信息边界
 
-招聘网站和职场社区是外部来源。Harness 只有在目标环境同时具备联网工具、用户访问权限和可读取页面时才能取得信息。安装一个 Skill 不会自动提供浏览器、登录态或绕过平台风控的能力。外部读取失败时，保留本地流程，并让用户提供公开链接、合法导出、截图或复制文本。
+招聘网站和职场社区是外部来源。理解岗位时默认尝试牛客、脉脉公开详情页（路由字段 `live_sources`），只读 robots.txt 对当前抓取身份放行的公开页面，结果标为“从业者分享（未核实）”并附链接与日期。Harness 只有在目标环境同时具备联网工具和可读取页面时才能取得信息。安装一个 Skill 不会自动提供浏览器、登录态或绕过平台风控的能力。外部读取失败时，保留本地流程，并让用户提供公开链接、合法导出、截图或复制文本。
+
+## Web Agent 专有能力（2026-10-05）
+
+简历美化、按 JD 定制改写、题库模式模拟面试目前只在 `web/` 里实现，Skill 分发包（WorkBuddy）没有同步。三者都沿用“模型只写内容、数字和分数由代码算、输出先校验”的原则：覆盖率和面试总分由代码计算，改写后的简历要过新数字、新技能名、拔高说法、名称角色四项真实性检查。模拟面试的状态机在服务端，答题过程不调模型；同一套接口（`/api/interview/*`）留给以后的语音前端。详见 `web/README.md` 与 `notes/2026-10-05-resume-interview-modules.md`。
