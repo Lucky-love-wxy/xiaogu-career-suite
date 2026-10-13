@@ -63,7 +63,9 @@ class WebAgentHarnessTests(unittest.TestCase):
     def test_screenshot_sentences_reach_model_not_canned_menu(self):
         menu = "你现在最想解决哪件事"
         answer = json.dumps({"answer": "先聊聊你的情况。", "evidence_ids": [], "inferences": [], "unknown": [], "next_action": "你学的是什么专业？"}, ensure_ascii=False)
-        provider = ScriptedProvider([answer, answer], intent="direction", role=None)
+        # 第二轮换一个问题：同一项基础信息问过就不再问（notes/2026-10-13-画像提问.md），重复会被判不通过
+        answer2 = answer.replace("你学的是什么专业？", "你最想先弄清楚这个岗位的哪一点？")
+        provider = ScriptedProvider([answer, answer2], intent="direction", role=None)
         a = agent.Agent(provider)
         first = a.handle(None, "我不知道我应该做些什么")
         self.assertNotIn(menu, first["text"])

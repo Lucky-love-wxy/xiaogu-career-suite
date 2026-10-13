@@ -79,6 +79,8 @@ class Session:
     resume_data: dict | None = None  # 最近一次整理好的结构化简历
     artifacts: dict = field(default_factory=dict)  # 排版好的简历成品页：id → {"label", "html"}
     practice: dict | None = None  # 进行中的模拟面试状态；不为空时每条消息都当作回答
+    profile_asked: list = field(default_factory=list)  # 小谷已经问过的基础信息项；问过就不再提示，用户不想答也不追
+    profile_asked_turn: int = 0  # 上一次问基础信息是第几轮；问完隔一轮再提示下一项，避免连着追问
 
     def context(self) -> dict[str, bool]:
         return {
@@ -256,6 +258,7 @@ CHAT_VOICE = """说话方式：你在和一个第一次找工作的大学生聊�
 句式不要每轮一样；不要写“结论”“依据”“仍需确认”之类的标题，不要说“资料库”“证据”“系统”等内部词。
 <dialogue> 里“小谷说”是你之前已经讲过的内容：不要再讲一遍，也不要重复安慰同一件事，直接往前推进。
 answer 里不要提问；这一轮要问的问题只写在 next_action 里，而且是你直接对用户说的话（用“你”），不是写给自己的提示（不要写“问问对方……”）。
+next_action 只问一件事（“顺便说下 A、有没有 B”算两件）。<dialogue> 里你问过、用户没接的问题不要再问；用户已经说过的情况不要换个说法再问（例如说了“应届生”就别再问哪一届）。
 禁用说法：业内普遍、大家都说、据可靠消息、这家公司一定、基本可以确定、肯定会加班；以及任何录用概率、薪资预测。"""
 
 
@@ -288,10 +291,70 @@ answer 和 inferences 里不要自己写“结论”“依据”“待核实推�
   "inferences": ["待核实的推测，最多 2 条"],
   "unknown": ["材料没说明、需要用户或招聘方确认的关键点"],
   "next_action": "一个最有价值的下一步，单行；或 null",
-  "facts": {{"可选：本轮从用户话里新得到的信息，如 专业": "临床医学"}},
+  "facts": {{"可选：本轮从用户话里新得到的信息，键名优先用 专业 / 毕业时间 / 学历 / 经历 / 意向城市（“应届生”记在 毕业时间 下，学历只写本科、硕士这类），如 专业": "临床医学"}},
   "candidates": [{{"role": "仅 propose 任务需要", "reason": "一句话理由"}}]
 }}
 """
+
+
+# ---------------------------------------------------------------- 基础信息（画像）
+
+# 状态由代码记、措辞交给模型（设计见 notes/2026-10-13-画像提问.md）。
+# 每项：(认出已知用的词, 判断小谷问到它用的词, 为什么影响回答)
+# 认出已知：默认看 facts 的键和值；学历只看值——模型会把“应届生”写成“学历: 应届生”（10-13 回归 round7），只认真正的学历词
+PROFILE = {
+    "专业": (("专业",), ("专业",), "专业决定常见去向，也是很多岗位的门槛"),
+    "毕业时间": (("毕业", "年级", "届", "大一", "大二", "大三", "大四", "研一", "研二", "研三"),
+             ("毕业", "年级", "哪一届", "几届", "大几"), "校招按届别认定，决定能不能走校招、哪些岗位能投"),
+    "学历": (("本科", "硕士", "博士", "专科", "大专", "研究生"), ("学历", "本科", "硕士", "研究生", "专科"),
+           "不少招聘说明对学历有硬性要求"),
+    "经历": (("经历", "实习", "项目", "社团", "作品", "比赛"), ("经历", "实习", "项目", "做过"),
+           "判断匹配度、改简历都只能用用户真实做过的事"),
+    "意向城市": (("城市", "地点", "地区"), ("城市", "哪个城", "在哪工作", "哪里工作"), "岗位多少和类型因城市差很多"),
+}
+# 按任务只问对这件事有用的几项，按顺序挑第一个还缺的；不在表里的任务不提示
+PROFILE_ORDER = {
+    "jd": ("毕业时间", "学历", "专业", "经历"),  # 贴了 JD：能不能投要靠这几项
+    "direction": ("专业", "毕业时间", "经历", "意向城市"),
+    "chat": ("专业", "毕业时间"),
+}
+PROFILE_TASKS = {"suite": "chat", "jd_followup": "jd", "direction": "direction", "greeting": "chat", "master": "chat", "general": "chat"}
+
+
+def profile_known(session: "Session", slot: str) -> bool:
+    if slot == "经历" and (session.experience or session.resume):
+        return True
+    words = PROFILE[slot][0]
+    return any(w in (str(v) if slot == "学历" else f"{k}{v}") for k, v in session.facts.items() for w in words)
+
+
+def profile_gap(task: str, session: "Session | None", has_jd: bool) -> str | None:
+    """这一轮可以顺带问的一项基础信息；没有就返回 None。"""
+    if session is None or task not in PROFILE_TASKS:
+        return None
+    if session.profile_asked_turn and session.turns - session.profile_asked_turn < 2:
+        return None  # 上一轮刚问过一项：这一轮先只聊用户的问题
+    group = "jd" if has_jd and task in ("suite", "jd_followup") else PROFILE_TASKS[task]
+    for slot in PROFILE_ORDER[group]:
+        if slot not in session.profile_asked and not profile_known(session, slot):
+            return slot
+    return None
+
+
+def profile_asked_in(slot: str, text: str | None) -> bool:
+    return bool(text) and any(w in text for w in PROFILE[slot][1])
+
+
+def profile_reask(session: "Session", new_facts: dict, next_action: str | None) -> str | None:
+    """next_action 又去问已经问过、或已经知道（含这一轮刚说的）的那一项：返回该项，交给重写。
+    提示词里写了“别重复问”，模型照样一字不差地重问（10-13 回归 round9），所以由代码拦。"""
+    if not next_action:
+        return None
+    merged = Session(facts={**session.facts, **new_facts}, experience=session.experience, resume=session.resume)
+    for slot in PROFILE:
+        if profile_asked_in(slot, next_action) and (slot in session.profile_asked or profile_known(merged, slot)):
+            return slot
+    return None
 
 
 def dialogue_text(session: "Session | None") -> tuple[str, str]:
@@ -310,7 +373,7 @@ def dialogue_text(session: "Session | None") -> tuple[str, str]:
 
 
 def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: "Session | None" = None,
-                jd_known: bool = False) -> str:
+                jd_known: bool = False, gap: str | None = None) -> str:
     listed = "\n".join(f"{key}: {item['text']}" for key, item in pack.items()) or "（空）"
     known_jd = ""
     if jd_known and session is not None and session.jd:
@@ -323,6 +386,12 @@ def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: 
     elif not any(key.startswith("J") for key in pack):
         listed += "\n（用户没有提供招聘说明：不要描述或评价任何“招聘说明”的内容，公司实际情况一律算未知）"
     hint = "\n".join(f"- {h}" for h in hints) or "（无）"
+    if gap:
+        # 只给“可以顺带问”的一项，问不问、怎么问由模型按上下文判断；不强制，避免回到填表式追问
+        hint += (f"\n（小谷还不知道用户的「{gap}」：{PROFILE[gap][2]}。先回答用户这一轮的问题；如果 next_action 没有更要紧的问题、"
+                 f"而且问起来自然，就用 next_action 顺带问这一项，口语化。next_action 只能有一个问题：已经有别的问题就不要再加这一项；"
+                 f"用户这一轮已经说过的不要再问；answer 里不要提这一项还没说；不要预告之后还要问什么。"
+                 f"在知道之前，不要替用户假设这一项）")
     facts, dialogue = dialogue_text(session)
     return (f"<evidence_pack>\n{listed}\n</evidence_pack>\n\n<suggested_questions>\n{hint}\n</suggested_questions>\n\n"
             f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n<dialogue>\n{dialogue}\n</dialogue>\n\n"
@@ -1192,8 +1261,11 @@ class Agent:
         jd_known = task in CHAT_TASKS and session is not None and session.jd is not None
         # 报告格式只给“有招聘说明”的岗位分析；没贴 JD 的看懂岗位按聊天回答（2026-10-12 人机感排查第 3 项）
         chat = task in CHAT_TASKS or (task in ("suite", "jargon", "jargon_unlisted") and not any(k.startswith("J") for k in pack))
+        gap = profile_gap(task, session, any(k.startswith("J") for k in pack) or jd_known)
+        if gap:
+            trace["profile_gap"] = gap
         messages = [{"role": "system", "content": system_prompt(task, chat)},
-                    {"role": "user", "content": user_prompt(message, pack, hints, session, jd_known)}]
+                    {"role": "user", "content": user_prompt(message, pack, hints, session, jd_known, gap)}]
         attempts = []
         for attempt in range(1, MAX_ATTEMPTS + 1):
             self._stage("generate", "生成回答", f"{TASK_LABEL.get(task, task)} · 第 {attempt} 次" if attempt > 1 else TASK_LABEL.get(task, task))
@@ -1206,12 +1278,20 @@ class Agent:
                         "blocker": "回答模型没有响应。", "next_action": "过一会儿再发一次试试。"}
             trace.setdefault("_raw", []).append(raw)
             payload, errors, extras = assemble(raw, pack, extra_unknown, task, jd_known, chat)
+            reask = profile_reask(session, extras["facts"], payload.get("next_action")) \
+                if payload and session is not None and task in PROFILE_TASKS else None
+            if reask:
+                payload, errors = None, [f"next_action 又在问用户的「{reask}」，这一项已经问过或用户已经说过，换一个问题或不问"]
             attempts.append(errors)
             self._stage("check", "校验", "通过：依据、格式、措辞都符合规则" if payload else f"没通过（{plain_errors(errors)}），让模型重写")
             if payload:
                 trace["attempts"] = attempts
                 if session is not None:
                     session.facts.update(extras["facts"])
+                    if gap and profile_asked_in(gap, payload.get("next_action")):
+                        session.profile_asked.append(gap)
+                        session.profile_asked_turn = session.turns
+                        trace["profile_asked"] = gap
                     if extras["candidates"]:
                         session.candidates = extras["candidates"]
                 return payload
