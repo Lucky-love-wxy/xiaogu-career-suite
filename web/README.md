@@ -56,6 +56,10 @@ python3 /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/web/server.py 
 
 返回体：`{"session_id", "say": 可朗读纯文本, "status", "practice": {"active", "question", "total", "stage"}}`。`practice.active` 变成 false 即面试结束，此时 `say` 是打分结果。
 
+## 截图识别（2026-10-13）
+
+`POST /api/ocr` `{"image": "base64 或 data:image/...;base64,..."}` → `{"text"}`。要登录，不扣额度；只收 PNG / JPG / WebP，单张 ≤ 6MB。引擎 RapidOCR（`web/ocr.py`，延迟加载，模型随 pip 包自带，不联网）。图片不落盘、不写日志；识别结果只回填输入框，用户核对后自己发送，所以下游流程不区分文字是粘贴的还是识别的。前端入口：「+」菜单「从截图识别文字」、输入框粘贴图片、拖进输入框；一次最多 6 张，按顺序拼接。设计见 `notes/2026-10-13-图片识别.md`。
+
 ## 未做
 
 真实牛客/脉脉抓取、账号与持久化（简历成品页只存在内存里，重启服务就没了）、部署、简历文件上传（PDF/Word 解析）、语音前端本身、成品页“读回解析”自检（用解析器把成品读回来确认字段都识别对，调研文档 1.5 节建议的做法）。`scripts/package.py` 不打包本目录。

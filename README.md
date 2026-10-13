@@ -11,7 +11,7 @@
 - `xiaogu-resume`：根据已确认经历生成岗位版本，不编造数字和经历。
 - `xiaogu-interview-review`：根据真实逐字稿逐题复盘，生成下一次练习。
 - `xiaogu-career-master`：面向新手的唯一 Harness 入口，识别一句话意图、串起流程并管理岗位状态。
-- `web/`（自建 Web Agent，未进 Skill 分发包）：除以上流程外，还有整份简历美化与单栏排版、按 JD 定制改写（含关键词覆盖率）、题库模式模拟面试（预留语音接口）。见 [web/README.md](web/README.md)，第三方来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- `web/`（自建 Web Agent，未进 Skill 分发包）：除以上流程外，还有整份简历美化与单栏排版、按 JD 定制改写（含关键词覆盖率）、题库模式模拟面试（预留语音接口）。截图识别：招聘说明或简历截图在服务器本机用 RapidOCR 转成文字，回填输入框由用户核对后发送（`web/ocr.py`，`POST /api/ocr`）。见 [web/README.md](web/README.md)，第三方来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 一句话使用
 

@@ -13,6 +13,8 @@
 from __future__ import annotations
 
 import argparse
+import base64
+import binascii
 import dataclasses
 import inspect
 import json
@@ -33,6 +35,7 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import agent  # noqa: E402
+import ocr  # noqa: E402
 from auth import Auth, AuthError, ConsoleSender  # noqa: E402
 from store import FEATURES, Store, day_start, mask, now  # noqa: E402
 
@@ -594,6 +597,24 @@ def create_app(platform: Platform) -> FastAPI:
         q = practice["questions"][practice["i"]]
         return {"active": True, "question": practice["i"] + 1, "total": len(practice["questions"]),
                 "stage": practice["stage"], "say": q["question"] if practice["stage"] == "main" else q["follow_up"]}
+
+    @app.post("/api/ocr")
+    def ocr_image(request: Request, data: dict = Body(...)):
+        """截图 → 文字。只回填输入框由用户核对后发送，不进会话、不写日志、不扣额度（本机识别，不调模型）。"""
+        user = current_user(request)
+        platform.check_open(user, "chat")  # 对话关着时识别出来也发不出去
+        raw = str(data.get("image", ""))
+        try:
+            image = base64.b64decode(raw.split(",", 1)[-1], validate=True)  # 兼容 data:image/...;base64, 前缀
+        except (ValueError, binascii.Error):
+            raise HTTPException(400, "图片数据不完整，请重新选择") from None
+        try:
+            text = ocr.recognize(image)
+        except ocr.OcrError as exc:
+            raise HTTPException(400, str(exc)) from None
+        except ImportError:
+            raise HTTPException(503, "图片识别暂时不可用，请先把文字复制进来") from None
+        return {"text": text}
 
     # ------------------------------------------------------------ 后台
 

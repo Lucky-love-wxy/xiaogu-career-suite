@@ -44,7 +44,7 @@ def has_material(query: str, kind: str, context: dict[str, Any]) -> bool:
     if context.get(context_keys[kind]) is True:
         return True
     if kind == "job":
-        return bool(re.search(r"(?:招聘说明|招聘信息|JD|岗位描述)[：:].*(?:负责|要求|职责)", query, re.I | re.S)) or len(query) >= 70 and bool(re.search(r"职责|要求|薪资|任职|工作内容|加班|双休|经验", query, re.I))
+        return bool(re.search(r"(?:招聘说明|招聘信息|JD|岗位描述)[：:].*(?:负责|要求|职责)", query, re.I | re.S)) or len(query) >= 70 and bool(re.search(r"职责|要求|薪资|任职|工作内容|职位描述|岗位描述|职位详情|加班|双休|经验", query, re.I))
     if kind == "experience":
         return len(query) >= 60 and bool(re.search(r"我(?:负责|做过|主导|参与)|提升|降低|完成|结果", query, re.I))
     return bool(re.search(r"面试官(?:问|[：:]).+?我回答[：:]?.+", query, re.S)) or len(query) >= 100 and bool(re.search(r"面试官|(?:^|\n)\s*[Q问答A][：:]|我回答", query, re.I))
