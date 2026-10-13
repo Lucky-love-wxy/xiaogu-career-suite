@@ -46,6 +46,8 @@ BUTTONS = {"立即沟通", "继续沟通", "感兴趣", "投递简历", "立即�
 
 SENTENCE_END = tuple("。；;：:！!？?")
 WRAP_RATIO = 0.8  # 和本图最长一行比，长度达到八成才算“被屏幕折行”，标题、短句不受影响
+# 下一行是新条目的开头就不接（BOSS 条目、简历要点常不带句末标点）；OCR 常把小圆点识别成“。”
+ITEM_START = re.compile(r"^(?:\d+[.、．)）]|[（(][\d一二三四五六七八九十]+[)）]|[一二三四五六七八九十]+[、.．]|[-•·●◦。])")
 WRAP_MIN = 14  # 手机竖屏一行约 18–24 个汉字；整张图都是短行时（没有折行）不接
 
 
@@ -65,7 +67,8 @@ def clean(lines: list[str]) -> str:
     full = max(len(line) for line in kept)
     merged = [kept[0]]
     for prev, line in zip(kept, kept[1:]):  # 按上一行原始长度判断，不用接过之后的长度
-        if full >= WRAP_MIN and len(prev) >= full * WRAP_RATIO and not prev.endswith(SENTENCE_END):
+        if full >= WRAP_MIN and len(prev) >= full * WRAP_RATIO and not prev.endswith(SENTENCE_END) \
+                and not ITEM_START.match(line):
             merged[-1] += line
         else:
             merged.append(line)

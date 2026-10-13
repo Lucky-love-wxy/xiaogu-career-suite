@@ -75,6 +75,10 @@ class CleanTests(unittest.TestCase):
             "游戏策划", "任职要求：", "1. 学历专业：本科及以上学历，专业不限，计算机、数字媒体、设计等相关专业优先；",
             "2. 熟悉1-2款主流游戏的核心玩法、系统设计、用户生态等；"])
 
+    def test_does_not_glue_numbered_items_without_punctuation(self):
+        lines = ["1. 负责用户增长相关功能的需求调研与方案设计和落地", "2. 与研发设计协作推进项目上线并跟踪数据表现情况"]
+        self.assertEqual(ocr.clean(lines).splitlines(), lines)
+
     def test_status_bar_rule_only_applies_at_top(self):
         # 正文里单独一行的数字（如“2026”）不能被当成状态栏删掉
         lines = ["岗位", "职责", "要求", "说明", "2026"]
