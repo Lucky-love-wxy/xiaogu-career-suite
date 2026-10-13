@@ -24,8 +24,8 @@ JD_LINES = ["13:42", "5G 100", "产品经理（校招）", "15-25K", "职位描�
             "2. 与研发、设计协作推进项目上线；", "任职要求：本科及以上学历，2026届毕业生", "立即沟通"]
 
 
-def screenshot(lines: list[str]) -> bytes | None:
-    """现场画一张白底黑字的“手机截图”；没有 Pillow 或中文字体就返回 None。"""
+def screenshot(lines: list[str], wrap: bool = False) -> bytes | None:
+    """现场画一张白底黑字的“手机截图”；wrap=True 时像手机一样按像素宽度折行。没有 Pillow 或中文字体就返回 None。"""
     try:
         from PIL import Image, ImageDraw, ImageFont
     except ImportError:
@@ -34,6 +34,17 @@ def screenshot(lines: list[str]) -> bytes | None:
     if not font_path:
         return None
     font = ImageFont.truetype(font_path, 40)
+    if wrap:
+        probe, wrapped = ImageDraw.Draw(Image.new("RGB", (1, 1))), []
+        for line in lines:
+            cut = ""
+            for ch in line:
+                if probe.textlength(cut + ch, font=font) > 960:
+                    wrapped.append(cut)
+                    cut = ""
+                cut += ch
+            wrapped.append(cut)
+        lines = wrapped
     img = Image.new("RGB", (1080, 120 + 90 * len(lines)), "white")
     draw = ImageDraw.Draw(img)
     for i, line in enumerate(lines):
@@ -100,6 +111,21 @@ class RecognizeTests(unittest.TestCase):
         self.assertIn("job", session.absorb("帮我看看这个岗位：\n" + text))
 
 
+    def test_resume_screenshot_keeps_section_headings(self):
+        # 简历截图：要点不带句号且常写满一行，不能把下一个栏目标题接到上一行末尾，否则认不出整份简历
+        src = ["张三", "手机：13812345678  邮箱：zhangsan@example.com", "教育经历", "某某大学 统计学 本科 2022.09-2026.06",
+               "项目经历", "课程推荐项目：参与用 Python 清洗选课日志，用 LightGBM 做排序，离线 AUC 从 0.71 提升到 0.76",
+               "实习经历", "某公司 数据分析实习生 2025.07-2025.09：负责整理周报数据，用 SQL 取数"]
+        image = screenshot(src, wrap=True)
+        if image is None:
+            self.skipTest("没有 Pillow 或中文字体")
+        text = ocr.recognize(image)
+        for heading in ("教育经历", "项目经历", "实习经历"):
+            self.assertIn(heading, text.splitlines())
+        self.assertIn("2022.09-2026.06", text.replace(" ", ""))
+        self.assertEqual(agent.Session().absorb(text), ["resume"])
+
+
 @unittest.skipIf(PlatformCase is None, "缺少 web/requirements-dev.txt")
 class OcrApiTests(PlatformCase or unittest.TestCase):
     def test_requires_login(self):
@@ -119,6 +145,13 @@ class OcrApiTests(PlatformCase or unittest.TestCase):
         self.store.set_flag("maintenance", "1", "test")
         png = base64.b64encode(b"\x89PNG\r\n\x1a\n").decode()
         self.assertEqual(client.post("/api/ocr", json={"image": png}).status_code, 503)
+
+    def test_broken_ocr_environment_is_503_not_500(self):
+        from unittest import mock
+        client = self.login()
+        png = base64.b64encode(b"\x89PNG\r\n\x1a\n").decode()
+        with mock.patch.object(ocr.subprocess, "run", side_effect=OSError("no python")):
+            self.assertEqual(client.post("/api/ocr", json={"image": png}).status_code, 503)
 
     @unittest.skipUnless(has_engine(), "没装 rapidocr")
     def test_recognizes_without_charging(self):

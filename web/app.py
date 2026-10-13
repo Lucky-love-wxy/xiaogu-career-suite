@@ -612,7 +612,7 @@ def create_app(platform: Platform) -> FastAPI:
             text = ocr.recognize(image)
         except ocr.OcrError as exc:
             raise HTTPException(400, str(exc)) from None
-        except ImportError:
+        except ocr.OcrUnavailable:
             raise HTTPException(503, "图片识别暂时不可用，请先把文字复制进来") from None
         return {"text": text}
 
