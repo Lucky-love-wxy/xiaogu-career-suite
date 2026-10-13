@@ -1,0 +1,931 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_1e1b19b79c5b",
+  "node": "医疗健康 › 生物医药 › 药物合成",
+  "family": "医疗健康",
+  "parent_id": "医疗健康 › 生物医药",
+  "tier": "P1",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 13,
+  "upstream_sample_n": 13,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "医疗健康 › 生物医药 › 药物合成",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v885MLCzC",
+      "type": "recruitment_jd",
+      "title": "初级合成研究员",
+      "company": "山东轩硕医药科技有限公司",
+      "url": "https://campus.niuqizp.com/job-v885MLCzC.html",
+      "date": "2026-09-22",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1、从事药物合成相关工作，协助有机合成化合物的研发；2、按要求进行实验记录以及独立分析、解决实验问题；3、药物合成相关文件检索；4、完成公司研发项目及订单生产。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v885MLCzC.html",
+      "cache_sha256": "d8f0beac414caf5c35fe70122404d011530652434c6d2ece5267af24538f1a28"
+    },
+    {
+      "id": "v8l55MnzC",
+      "type": "recruitment_jd",
+      "title": "合成研究员",
+      "company": "北京强新制药有限公司",
+      "url": "https://campus.niuqizp.com/job-v8l55MnzC.html",
+      "date": "2025-10-20",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "10000元以上\n合成研究员\n北京强新制药有限公司\n发布时间：2025-10-15\n工作地域：北京市\n职位类别：科学研究人员\n学历要求：硕士\n招聘人数：2人\n专业要求：\n职位要求：\n1) 专业要求：药物化学、药学、有机化学、制药工程等化学类相关专业。\n2) 学历要求：硕士或海外留学博士，本科优秀者可考虑。\n3) 有核苷酸类产品、寡核苷酸类产品（Oligo、siRNA、核酸适配体等）和多肽类产品相关专业及研发经验的优先考虑。\n4) 有一定的后期项目经验的优先考虑。\n5) 具备国内外文献调研及分析能力。\n职位描述：\n职位描述：\n1) 能够独立对药物化合物进行路线设计、合成制备与纯化提取；\n2) 能够独立对药物物产品结构进行NMR、HPLC、UPLC-MS等谱图鉴定；\n3) 具有一定的工艺化学知识，能独立完成目标化合物的工艺优化和关键工艺参数的确定；\n4) 对基因靶向药物化学领域有较大兴趣，具有强烈的求知欲和一定的检索能力，能通过文献、专利调研等方式掌握RNA和DNA类药物领域的基本原理和技术进展；\n5) 熟练掌握RNA和DNA类药物的合成、纯化等基本技能；\n6) 具有良好的文件记录能力，可以及时、准确、合规的书写实验记录，工艺批生产记录和设备使用记录，对实验数据有一定的分析能力，能够对实验结果有一定的总结能力，快速撰写实验报告和技术文档；\n7) 为人诚实正直、工作努力，积极向上，有较好的团队沟通协作能力，能够与团队内部及跨部门团队密切合作，对项目有一定的管理能力，按时间线要求顺利推进项目；\n8) 能够独立负责或协助完成注册申报资料的撰写。",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8l55MnzC.html",
+      "cache_sha256": "e5a025c5986bc7a015c95f38ce63f03b0691cf61bc0e75509f2346f541a61d3b"
+    },
+    {
+      "id": "v8s5aanMt",
+      "type": "recruitment_jd",
+      "title": "药化合成研究员",
+      "company": "南京圣和药业股份有限公司",
+      "url": "https://campus.niuqizp.com/job-v8s5aanMt.html",
+      "date": "2026-09-05",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位目的：在规定时间内合成出结构明确的化合物。岗位任职要求：1、药物化学、有机合成等相关专业；2、具备设计全新化合物合成路线的能力；3、具备有机合成反应搭建、反应跟踪、后处理及纯化能力；4、具备波谱（核磁、质谱等）解析能力，能够完成化合物的结构鉴定；5、具备撰写专利技术交底书的能力。岗位学历要求：硕士\n公司介绍\n公司名称\n南京圣和药业股份有限公司\n所属行业\n机械制造/机电/重工\n公司性质\n民营企业\n公司规模\n1000-4999人\n江苏省南京市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8s5aanMt.html",
+      "cache_sha256": "524c4fb149d79fe20918f6e48d35a198e5f6f0b813691fd160086f079b201868"
+    },
+    {
+      "id": "vYr5MtLNL",
+      "type": "recruitment_jd",
+      "title": "合成研究员",
+      "company": "博瑞生物医药（苏州）股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vYr5MtLNL.html",
+      "date": "2026-09-23",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1.承担医药中间体或原料药项目的合成工艺开发、优化、中试及放大等相关实验工作；\n2.查阅文献和检索专利，设计和评估工艺合成路线；\n3.优化反应条件和工艺参数，优化反应后处理方式及结晶条件，确定工业化生产工艺；\n4.研究反应杂质来源及去除方法，确保产品质量；\n5.按照药品注册法规要求进行药物合成工艺开发及优化，撰写申报资料；\n6.整理和归档产品研发生产技术资料和数据。\n任职要求：\n1.博士学历，化工与制药类、化学类相关专业，有机化学、制药工程、药物化学等专业优先；\n2.精通液相（LPPS）/固相合成（SPPS）技术，熟悉长链多肽、短肽、环肽、修饰多肽（如脂质化、PEG化、偶联药物）的合成策略；\n3.能够熟练查阅专业文献和检索专利，具备合成路线设计与评估能力。\n公司介绍\n公司名称\n博瑞生物医药（苏州）股份有限公司\n公司性质\n外商独资/外企代表处",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYr5MtLNL.html",
+      "cache_sha256": "cd163e842386af958ba137a919516d6e4855ad3c1580757e7c68be478b7b9974"
+    },
+    {
+      "id": "vYy5aNNCN",
+      "type": "recruitment_jd",
+      "title": "药化合成研究员",
+      "company": "南京圣和药业股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vYy5aNNCN.html",
+      "date": "2026-08-27",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "药化合成研究员 16万元/年\n2026-08-27 15:14:16发布\n职位要求：\n职位性质：全职\n工作城市：上海市嘉定区\n招聘人数：7\n学历要求：硕士\n职位类别：科学研究人员\n需求专业：化工技术类\n职位描述：\n岗位职责\n在规定时间内合成出结构明确的化合物。\n任职资格\n1、药物化学、有机合成等相关专业；\n2、具备设计全新化合物合成路线的能力；\n3、具备有机合成反应搭建、反应跟踪、后处理及纯化能力；\n4、具备波谱（核磁、质谱等）解析能力，能够完成化合物的结构鉴定；\n5、具备撰写专利技术交底书的能力。\n薪资福利\n五险一金，周末双休，职业卫生体检。\n公司介绍：\n南京圣和药业股份有限公司始建于1996年，现有员工近1500人，大学以上学历的员工90%以上，博士、硕士近三百人，从事高新技术研究开发及产业化的专业科技研发人员近400人。公司营销网络遍布全国，占地100亩的制剂厂坐落在南京经济技术开发区，另有云南野生中药材GAP种植基地和占地120亩的原料药生产基地，建筑面积3.5万平方米的研发中心及总部已在麒麟高新技术产业开发区落成并于2016年正式投入使用，是一家集医药研究、药品生产和市场营销为一体的国家重点高新技术企业。公司是国内最早通过国家新版GMP认证的制药企业之一，目前拥有片剂、颗粒剂、胶囊剂、冻干粉针剂、粉针剂、软膏剂、大容量注射剂、小容量注射剂等十多种剂型生产线，多达30余种的药品行销国内市场，其中“圣诺安”、“圣诺灵”、“消癌平”“优诺安”等多个主导产品分别被国家、省、市认定为“高新技术产品”。\n公司基本信息\n南京圣和药业股份有限公司\n单位行业：医药制造业\n单位性质：其他企业（含民营企业等）\n单位规模：1000人以上\n单位标签：朝九晚五,环境好,双休,五险一金\n申请职位：\nnj***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYy5aNNCN.html",
+      "cache_sha256": "cd9eb074c9fd42152e37f5117593389c956e20504a0f24d9dc19270f1fc25244"
+    },
+    {
+      "id": "vlk5ztaN5",
+      "type": "recruitment_jd",
+      "title": "化学合成研究员",
+      "company": "上海复星医药（集团）股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vlk5ztaN5.html",
+      "date": "2026-06-02",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "化学合成研究员 17万元/年\n2026-06-01 17:54:26发布\n职位要求：\n职位性质：全职\n工作城市：上海市浦东新区\n招聘人数：3\n学历要求：硕士\n职位类别：科学研究人员\n语言能力：英语\n需求专业：化工技术类,药品与医疗器械类,药学类\n职位描述：\n岗位职责\n1. 文献调研与路线设计：根据研发项目需求，独立完成有机合成相关文献、专利的检索与梳理，分析合成路线可行性，协助团队完成初步实验方案设计，掌握基础路线优化思路。\n2. 实验操作与过程管控：规范完成有机合成实验全流程操作，包括反应搭建、后处理、产物纯化（重结晶、柱层析、蒸馏等）、结构鉴定等，严格遵循实验室SOP，保障实验安全与操作规范性。\n3. 数据记录与结果分析：及时、完整、准确填写实验原始记录，规范整理实验数据、图谱（HPLC、LC-MS、NMR、GC等），完成实验报告撰写，协助分析实验结果、排查实验异常问题。\n4. 项目配合与进度推进：配合研发主管及团队完成既定研发任务，跟进实验进度，及时反馈实验难点与进展，协助优化合成工艺，提升反应产率与产物纯度，降低合成成本。\n任职资格\n1. 2026届全日制硕士研究生，有机化学、药物化学、应用化学、制药工程、精细化工、材料合成化学等相关化学、药学类专业。\n2. 硕士阶段研究方向需与有机合成、药物合成相关，具备扎实的有机化学理论基础，熟练掌握有机反应机理、官能团转化、合成路线设计等核心知识。\n3. 具备熟练的有机合成实验动手能力，熟悉常规有机合成实验操作、纯化技术，能独立完成多步合成实验，具备基础实验问题排查能力。\n4. 能够识别、解析基础图谱数据（HPLC、LC-MS、NMR等），熟练使用常用化学绘图软件（如ChemDraw），具备基本的文献检索与英文文献阅读能力。\n5. 工作态度严谨细致、责任心强，具备良好的学习能力、团队协作意识与科研抗压能力，热爱有机合成研发工作，愿意深耕研发领域。\n6. 严格遵守实验室安全规范，具备较强的安全意识，无实验室安全违规记录。\n薪资福利\n基本工资，加交通补贴、通讯补贴、补充公积金、商业保险、年终奖和额外的项目奖金\n公司介绍：\n上海复星医药（集团）股份有限公司（简称“复星医药”，股票代码：600196.SH，02196.HK）成立于1994 年，是在中国拥有领先地位的医疗健康产业集团。复星医药以促进人类健康为使命，其业务覆盖医药健康全产业链，主要包括药品制造与研发、医疗服务、医疗器械与医学诊断、医药分销与零售。复星医药始终将自主创新作为企业发展的源动力，持续完善“仿创结合”的药品研发体系，在中国、美国、印度等建立了高效的国际化研发团队，形成全球联动的研发体系。复星医药拥有国家级企业技术中心，打造了高效的化学创新药平台、生物药平台、高价值仿制药平台及细胞免疫平台。复星医疗一贯坚持“重学科建设，塑品质医疗”的办医方针，目前已形成以珠三角大湾区、长三角、淮海经济区为医疗服务重点区域，专科和综合医院相结合的战略布局。\n公司基本信息\n上海复星医药（集团）股份有限公司\n单位行业：医药制造业\n单位性质：其他企业（含民营企业等）\n单位规模：1000人以上\n申请职位：\ncp***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vlk5ztaN5.html",
+      "cache_sha256": "6a6fba3055e59ab430577bdc40f4730ac75f4305bf9e2fbfbc0eeb7622171cc5"
+    },
+    {
+      "id": "vms55nnL5",
+      "type": "recruitment_jd",
+      "title": "药物合成工作人员",
+      "company": "中国科学院上海药物研究所",
+      "url": "https://campus.niuqizp.com/job-vms55nnL5.html",
+      "date": "2025-10-15",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "中国科学院上海药物研究所沈建华课题组2025年招聘药物合成工作人员\n共计1个岗位，招 若干人\n基本信息\n发布时间：2025-10-14\n截止日期：详见正文\n学历要求：本科及以上\n需求学科（供参考）：\n展开\n公告详情\n本课题组主要从事治疗代谢、肾病、神经精神等疾病的小分子药物研发，现因科研工作需要，需要招聘药物合成工作人员1-2名。具体要求如下：\n一、岗位职责\n1.查阅文献或专利，独立设计有机合成实验并实施，解决合成中遇到的问题，按时交付目标化合物；\n2.及时规范地完成实验记录撰写、化合物登记入库、工作进展汇报等；\n3.具有良好的实验室安全意识和知识产权保密意识；\n4.服从课题组项目安排和调配，积极主动开展工作。\n二、任职要求\n1.有机化学、药物化学等相关专业，本科或硕士研究生学历，具有三年以上有机合成经验或小分子药物研发项目经验者优先；\n2.工作勤奋踏实，好学上进，具有良好的团队协作精神；\n3.年龄三十五岁以下；\n4.能在课题组能稳定工作至少两年。\n三、待遇条件\n工资以及其他福利待遇将根据申请者的资历及单位相关规定办理。\n四、申请方式\n；\n3.通过面试确定最终人选。\n对符合要求者将尽快安排面试，应聘资料招聘单位将予以严格保密。\n信息来源于网络，如有变更请以原发布者为准。\n来源链接：\nsi***.cn[点击查看]\n附件/来源打开异常提示\n附件下载异常：因平台URL协议兼容性原因，公告正文附件材料可能存在无法下载情况，届时您可复制附件链接并新建页面打开查看。\n来源链接打开异常：若文中“来源链接XXX”无法正常打开，属内容来源网站异常情况，本平台无法监控处理，如有需求，可持续关注相应链接修复情况。\n[我要纠错]\n公告热度\n解锁详细分析\n该公告在同类公告中的热度为 ***，目前已有 *** 对其非常感兴趣\n欢迎扫描下方二维码关注官方微信（硕博QQ交流群：867372393 ，进微信群",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vms55nnL5.html",
+      "cache_sha256": "053a5ba5d5a18cc1fda4b7c2621aab2258c21b0cf9716bad128f25b15a51d64f"
+    },
+    {
+      "id": "vrY5Manna",
+      "type": "recruitment_jd",
+      "title": "药化合成研究员",
+      "company": "南京圣和药业股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vrY5Manna.html",
+      "date": "2026-09-26",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "在规定时间内合成出结构明确的化合物。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrY5Manna.html",
+      "cache_sha256": "ff361d4b6deb6d6a3cf3dba9d19bad77da5b3fcc7b560b8a62ec89d16a48db65"
+    },
+    {
+      "id": "vrY5aznzn",
+      "type": "recruitment_jd",
+      "title": "有机合成研究员",
+      "company": "天津法尔玛制药有限公司",
+      "url": "https://campus.niuqizp.com/job-vrY5aznzn.html",
+      "date": "2026-09-04",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1、使用固相合成仪进行寡核苷酸药物的合成，根据不同项目需求，优化合成工艺参数； 2、参与中试放大及工艺向GMP工厂的技术转移，撰写实验报告；3、对合成过程中的异常数据主动分析并提出优化建议； 4、操作及维护固相合成仪等核心设备。\n公司介绍\n公司名称\n天津法尔玛制药有限公司\n公司性质\n民营企业\n天津市市辖区开发区西区南大街285号",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrY5aznzn.html",
+      "cache_sha256": "c85dfc2bc6eee481f9af3258b768e187fa14aa8bdf4cedcba4e2f7c5729c9cf5"
+    },
+    {
+      "id": "vrs5NNZaZ",
+      "type": "recruitment_jd",
+      "title": "有机合成研究员",
+      "company": "六合宁远医药科技股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vrs5NNZaZ.html",
+      "date": "2025-10-31",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "10000元以上\n有机合成研究员\n北京六合宁远医药科技股份有限公司\n发布时间：2025-10-31\n工作地域：北京市\n职位类别：科学研究人员\n学历要求：硕士\n招聘人数： -\n专业要求：\n有机化学、药物化学\n职位描述：\n（1） 对目标化合物进行科研文献的检索调研查阅，为目标化合物设计合成实验路线；\n（2） 根据实验路线，领导项目组成员进行有机化合物的设计与合成，完成对应项目；\n（3） 根据实验进展进行检测分析，判断NMR，MS等图谱；\n（4） 根据订单需求，完成目标化合物小试、中试到放大的工艺路线；\n（5） 负责项目组成员及所辖实验区域的安全管理及环境保护与健康管理；\n（6） 负责协调各项目组所开展的各科研项目的实验进度以及关键步骤的指导；\n（7） 对项目组成员进行实验技能指导与业务能力提升的培训。",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrs5NNZaZ.html",
+      "cache_sha256": "03842e616f0ee5436f63e0c43fbfecbabc84656f96968d2019d2e91736b5dce7"
+    },
+    {
+      "id": "vsl5naCt5",
+      "type": "recruitment_jd",
+      "title": "合成研究员",
+      "company": "江苏吉贝尔药业股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vsl5naCt5.html",
+      "date": "2026-09-18",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "学历要求：硕士专业要求：药物化学、有机化学、制药工程",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vsl5naCt5.html",
+      "cache_sha256": "454e97b6d6e2c4607d1ffd41526d8ed044245c28f76d2090abaece56d8b2059c"
+    },
+    {
+      "id": "vsr5CatZZ",
+      "type": "recruitment_jd",
+      "title": "合成研究员",
+      "company": "浙江湃肽生物股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vsr5CatZZ.html",
+      "date": "2026-09-11",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责：1. 熟悉并掌握多肽原料药合成操作流程，并详细记录所有实验过程及实验数据；2. 按照实验方案、小试数据进行合成工艺路线开发，工艺参数优化；3. 进行工艺转移，协助工厂进行中试放大验证；4. 完成实验室日常工作及上级交办的其它工作。岗位要求：1、化学或者药学相关专业，本科及以上学历；2、具有化学合成、合成工艺，多肽合成经验优先；3、具有较强的动手操作能力，能够独立进行各项化学操作；4、有较强的责任心跟团队意识，具备良好的执行力和协作能力。\n公司介绍\n公司名称\n浙江湃肽生物股份有限公司\n所属行业\n学术/科研\n公司性质\n民营企业\n公司规模\n500-999人\n浙江省绍兴市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vsr5CatZZ.html",
+      "cache_sha256": "66aa5368e8ac0157d4ce77f2c2ce3960e7aabb527c150b3a4d6e3e9357fd0edc"
+    },
+    {
+      "id": "vws5MLaat",
+      "type": "recruitment_jd",
+      "title": "药物合成分析研究员",
+      "company": "深圳澳美制药技术开发有限公司D3",
+      "url": "https://campus.niuqizp.com/job-vws5MLaat.html",
+      "date": "2026-09-22",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位描述        1.  负责原料和制剂杂质研究及相关技术资料撰写，包括杂质谱研究、降解途径分析2.  独立进行或者联合CRO开展杂质化合物的制备分离纯化及未知结构的推测与解析3.  负责其他制剂相关质量研究工作：如方法开发，质量标准制订，审核原料药DMF文件等        岗位要求1.  硕士或以上學歷，药物化学、有机化学等合成类相關專業2.  具备扎实的药物合成和结构解析理论知识3.  具备一定的合成开发经验和分析方法开发经验4.  良好的英文读写和沟通能力",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vws5MLaat.html",
+      "cache_sha256": "c7b9390b835d86f1452a4af6985bd32122797137e3e215262bbb03b79b1175cb"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "药物合成",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "药物合成"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "合成研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l55MnzC",
+        "vYr5MtLNL",
+        "vsl5naCt5",
+        "vsr5CatZZ"
+      ],
+      "quotes": [],
+      "count": 4
+    },
+    {
+      "text": "药化合成研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8s5aanMt",
+        "vYy5aNNCN",
+        "vrY5Manna"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "有机合成研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrY5aznzn",
+        "vrs5NNZaZ"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "初级合成研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885MLCzC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "化学合成研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlk5ztaN5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "药物合成分析研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "药物合成工作人员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vms55nnL5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：完成公司研发项目及订单生产",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "v885MLCzC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885MLCzC",
+          "text": "完成公司研发项目及订单生产"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "完成公司研发项目及订单生产",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885MLCzC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885MLCzC",
+          "text": "完成公司研发项目及订单生产"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "整理和归档产品研发生产技术资料和数据",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYr5MtLNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYr5MtLNL",
+          "text": "整理和归档产品研发生产技术资料和数据"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据实验进展进行检测分析，判断NMR，MS等图谱",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrs5NNZaZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5NNZaZ",
+          "text": "根据实验进展进行检测分析，判断NMR，MS等图谱"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与中试放大及工艺向GMP工厂的技术转移，撰写实验报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrY5aznzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrY5aznzn",
+          "text": "参与中试放大及工艺向GMP工厂的技术转移，撰写实验报告"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据订单需求，完成目标化合物小试、中试到放大的工艺路线",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrs5NNZaZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5NNZaZ",
+          "text": "根据订单需求，完成目标化合物小试、中试到放大的工艺路线"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责项目组成员及所辖实验区域的安全管理及环境保护与健康管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrs5NNZaZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5NNZaZ",
+          "text": "负责项目组成员及所辖实验区域的安全管理及环境保护与健康管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责协调各项目组所开展的各科研项目的实验进度以及关键步骤的指导",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrs5NNZaZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5NNZaZ",
+          "text": "负责协调各项目组所开展的各科研项目的实验进度以及关键步骤的指导"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据实验路线，领导项目组成员进行有机化合物的设计与合成，完成对应项目",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrs5NNZaZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5NNZaZ",
+          "text": "根据实验路线，领导项目组成员进行有机化合物的设计与合成，完成对应项目"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "整理和归档产品研发生产技术资料和数据",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYr5MtLNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYr5MtLNL",
+          "text": "整理和归档产品研发生产技术资料和数据"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "文献调研与路线设计：根据研发项目需求，独立完成有机合成相关文献、专利的检索与梳理，分析合成路线可行性，协助团队完成初步实验方案设计，掌握基础路线优化思路",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlk5ztaN5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlk5ztaN5",
+          "text": "文献调研与路线设计：根据研发项目需求，独立完成有机合成相关文献、专利的检索与梳理，分析合成路线可行性，协助团队完成初步实验方案设计，掌握基础路线优化思路"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "参与中试放大及工艺向GMP工厂的技术转移，撰写实验报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrY5aznzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrY5aznzn",
+          "text": "参与中试放大及工艺向GMP工厂的技术转移，撰写实验报告"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "文献调研与路线设计：根据研发项目需求，独立完成有机合成相关文献、专利的检索与梳理，分析合成路线可行性，协助团队完成初步实验方案设计，掌握基础路线优化思路",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlk5ztaN5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlk5ztaN5",
+          "text": "文献调研与路线设计：根据研发项目需求，独立完成有机合成相关文献、专利的检索与梳理，分析合成路线可行性，协助团队完成初步实验方案设计，掌握基础路线优化思路"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "项目配合与进度推进：配合研发主管及团队完成既定研发任务，跟进实验进度，及时反馈实验难点与进展，协助优化合成工艺，提升反应产率与产物纯度，降低合成成本",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlk5ztaN5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlk5ztaN5",
+          "text": "项目配合与进度推进：配合研发主管及团队完成既定研发任务，跟进实验进度，及时反馈实验难点与进展，协助优化合成工艺，提升反应产率与产物纯度，降低合成成本"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "13份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 13,
+        "matched_ids": [
+          "vYr5MtLNL"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "v885MLCzC",
+          "vms55nnL5"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，10份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 10,
+        "denominator": 13,
+        "matched_ids": [
+          "v8l55MnzC",
+          "v8s5aanMt",
+          "vYy5aNNCN",
+          "vlk5ztaN5",
+          "vrY5Manna",
+          "vrY5aznzn",
+          "vrs5NNZaZ",
+          "vsl5naCt5",
+          "vsr5CatZZ",
+          "vws5MLaat"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "vrY5Manna",
+          "vrY5aznzn"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，1份专业类字段为“化学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化学类",
+        "n": 1,
+        "denominator": 13,
+        "matched_ids": [
+          "vrs5NNZaZ"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，3份专业类字段为“化工与制药类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化工与制药类",
+        "n": 3,
+        "denominator": 13,
+        "matched_ids": [
+          "v8l55MnzC",
+          "vYr5MtLNL",
+          "vYy5aNNCN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，1份专业类字段为“材料类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "材料类",
+        "n": 1,
+        "denominator": 13,
+        "matched_ids": [
+          "vsl5naCt5"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，6份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 6,
+        "denominator": 13,
+        "matched_ids": [
+          "v8s5aanMt",
+          "vYr5MtLNL",
+          "vlk5ztaN5",
+          "vms55nnL5",
+          "vrs5NNZaZ",
+          "vws5MLaat"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v885MLCzC",
+        "v8l55MnzC",
+        "v8s5aanMt",
+        "vYr5MtLNL",
+        "vYy5aNNCN",
+        "vlk5ztaN5",
+        "vms55nnL5",
+        "vrY5Manna",
+        "vrY5aznzn",
+        "vrs5NNZaZ",
+        "vsl5naCt5",
+        "vsr5CatZZ",
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "合成研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8l55MnzC",
+        "vYr5MtLNL",
+        "vsl5naCt5",
+        "vsr5CatZZ"
+      ],
+      "quotes": [],
+      "count": 4
+    },
+    {
+      "text": "药化合成研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8s5aanMt",
+        "vYy5aNNCN",
+        "vrY5Manna"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "有机合成研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrY5aznzn",
+        "vrs5NNZaZ"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "初级合成研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v885MLCzC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "化学合成研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vlk5ztaN5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "药物合成分析研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vws5MLaat"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "药物合成工作人员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vms55nnL5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

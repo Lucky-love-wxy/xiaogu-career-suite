@@ -1,0 +1,209 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_3c9e5999a97e",
+  "node": "生产制造 › 质量管理 › 实验室技术员",
+  "family": "生产制造",
+  "parent_id": "生产制造 › 质量管理",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "生产制造 › 质量管理 › 实验室技术员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vwl5NanMM",
+      "type": "recruitment_jd",
+      "title": "实验室技术员",
+      "company": "清华大学生命科学学院俞立实验室",
+      "url": "https://campus.niuqizp.com/job-vwl5NanMM.html",
+      "date": "2025-11-27",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "俞立课题组科研助理招聘\n2025-11-27 10:59:59\n实验室研究方向：\n迁移体生物学及新型细胞器\n招聘岗位：\n实验室技术员 1 名\n实验室研究内容简介：\n综合细胞生物学，遗传学，生物化学，分子生物学等研究方法，以不同模式生物为模型研究俞立实验室发现的新细胞器迁移体（Migrasome）的机制与功能。\n根据实验室工作需要，现招聘分子细胞培养技术员一名。\n岗位职责：\n1. 主要负责常规分子克隆以及细胞培养等有关实验；\n2. 承担常用公共试剂及实验材料的制备及管理。\n3. 协助博士生和博士后的研究工作。\n应聘要求：\n1. 动物学、 生物学或基础医学等领域本科及以上学历， 具有较好的生物学基础知识，有分子克隆或细胞操作等实验经验者优先。\n2. 具备踏实细致和爱岗敬业的品质，有很强的责任心和团队精神、沟通能力。\n3. 能稳定工作一年以上者优先考虑。\n岗位待遇：\n该岗位享受清华大学非事业编制人员待遇（包含五险一金），课题组会根据个人能力及贡献提供具有竞争力的薪酬及补贴，具体待遇面议。\n应聘方式：",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vwl5NanMM.html",
+      "cache_sha256": "0b4f2bd625754e367561d1b09870d3b12698ad78ccb8b1314e6177926067d1a8"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "实验室技术员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "实验室技术员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "实验室技术员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：协助博士生和博士后的研究工作",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwl5NanMM",
+          "text": "协助博士生和博士后的研究工作"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助博士生和博士后的研究工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwl5NanMM",
+          "text": "协助博士生和博士后的研究工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwl5NanMM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwl5NanMM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwl5NanMM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "实验室技术员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

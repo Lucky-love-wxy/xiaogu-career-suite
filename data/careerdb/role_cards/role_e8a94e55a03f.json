@@ -1,0 +1,179 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_e8a94e55a03f",
+  "node": "财务/审计/税务 › 其他财务岗位 › 风控",
+  "family": "财务/审计/税务",
+  "parent_id": "财务/审计/税务 › 其他财务岗位",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "财务/审计/税务 › 其他财务岗位 › 风控",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vrY55CMLN",
+      "type": "recruitment_jd",
+      "title": "风控岗",
+      "company": "中国中纺集团有限公司",
+      "url": "https://campus.niuqizp.com/job-vrY55CMLN.html",
+      "date": "2025-10-13",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "风控岗 16万元/年\n2025-10-12 00:51:53发布\n职位要求：\n职位性质：全职\n工作城市：北京市东城区\n招聘人数：1\n学历要求：硕士\n职位类别：经济业务人员\n需求专业：会计,金融,审计,审计\n职位描述：\n岗位职责\n1.落实集团和公司各项风险管理要求；\n2.风险管理日常工作：起草和修订各类风险管理制度，风险管理指标监控、报送及预警工作，风控合规检查，风险管理培训、指导、督办等工作。\n任职资格\n1.硕士研究生及以上学历，审计、财务、金融、国际贸易等管理类、经济类专业毕业；\n2.熟悉国家有关法规和政策、企业管理流程，全面的财务、金融、风险管理知识，良好的沟通协调、数据分析、公文写作能力；\n3.具备期货从业资格证书、FRM/CPA/CIA或风险管理职业资格证书优先。\n薪资福利\n税前年薪16万元人民币左右。\n公司介绍：\n中国中纺集团有限公司创建于1949年8月1日，前身为中国纺织品进出口总公司。中纺集团成立七十余年以来，坚持科学发展，不断开拓创新，逐步从一家传统的纺织外贸企业转型发展成在国内外享有良好品牌声誉，拥有完整纺织产业链布局的大型国有企业集团。公司业务范围涵盖纺织原料、纺织品研发与生产、印染面料、服装贸易与国内零售、海内外展览等。\n◇ 纺织原料进出口\n长期发挥棉花等纺织原料进出口主渠道作用，贸易伙伴遍及全球多个国家和地区，是中国位居前列的纺织原料贸易商，为推动国内纺织行业发展发挥积极作用。\n◇ 纺织品研发与生产\n拥有多项国家专利，是棉纺织领域相关标准起草者，专注于差异化纱线和功能性职业装面料的研发与生产，持续推动产品创新与升级。\n◇ 印染面料\n全球重要的针织面料生产商之一，在国内外多地拥有面料生产基地，印染产能位居亚洲前列，向全球市场提供针织、染色、印花、整理等高度垂直的综合服务。\n◇ 服装贸易\n向超过40个国家的品牌服装制造商和零售商提供成衣，职业装供货量居行业前列，具备从市场销售前沿到自有生产加工的完整产业布局。\n◇ 展览与出版\n拥有国内具有广泛影响力的两大时尚杂志：《时尚芭莎》《男人装》。\n2016年7月，经国务院批准，中纺集团整体并入中粮集团有限公司，成为其全资子企业。未来，中纺集团将继续坚持“巩固、升级、转型、稳定、突破”的发展思路，肩负起“智能、绿色、环保工厂的践行者”的重要历史使命，大力提升企业在行业的活力、影响力、控制力，加速打造具有全球竞争力的领先纺织企业。\n公司基本信息\n中国中纺集团有限公司\n单位行业：批发业\n单位性质：国有企业\n单位规模：1000人以上\n单位标签：500强,交通方便,年终奖,双休,五险一金\n申请职位：\nji***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrY55CMLN.html",
+      "cache_sha256": "90b6f0af0b8b3bdef71bb2a64eee8ce5144d52f32f45cd122ca79a6d6fed96ee"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "风控",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "风控"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "风控岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vrY55CMLN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vrY55CMLN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vrY55CMLN"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "风控岗",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrY55CMLN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

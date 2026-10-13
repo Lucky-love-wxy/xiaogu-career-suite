@@ -1,0 +1,145 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_a73ac2e72c39",
+  "node": "教育培训 › 教师 › 日语教师",
+  "family": "教育培训",
+  "parent_id": "教育培训 › 教师",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "教育培训 › 教师 › 日语教师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vYy5M5NMM",
+      "type": "recruitment_jd",
+      "title": "高中日语教师",
+      "company": "广州诚教科技信息咨询有限公司",
+      "url": "https://campus.niuqizp.com/job-vYy5M5NMM.html",
+      "date": "2026-09-21",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "广州诚教科技信息咨询有限公司\n职位名称:高中日语教师（广东省/带薪寒暑假）\n学历:本科,硕士\n需求人数:2\n需求专业:日语语言文学,日语\n工作地点:广东省\n职位描述:工作职责：一、工作内容：1、负责校区高考日语课程教学，实施教学计划。2、按时备案，批改作业，督促学生学习并答疑，定期组织测试。3、与学生、家长、学校三方保持良性沟通，建立良好教学工作环境。4、钻研高考日语教材特点，结合公司相关培训，编写高效的教学方案。5、及时向公司反馈教学情况，完成公司交代的其他相关任务。二、任职资格：1、教育背景：日语专业，日语通过N1/专八/J.TEST B，本科以上学历，有日语教学经验优先；2、有较强的表达沟通能力，工作认真负责，性格开朗；3、可以接受工作外派或出差。三、优厚福利1、高薪酬：综合工资6000~8000元、学期奖金、高考奖金、人才推荐奖2、住宿保障：包住宿（学校内教师公寓或独立套间）3、交通补助：每月提供交通往返报销补贴4、全保障：六险一金保障多5、各类给力福利：①年度体检、②带薪寒暑假、③生日礼金、④节日福利、⑤在职培训6、完善的岗前培训。四、晋升通道：初级教师——星级教师——教学组长——城市主管——大区总监期待你的加入~",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYy5M5NMM.html",
+      "cache_sha256": "7239bc45ba85f904e0ace83a5967f54c10ab07a9eda21f0063a88d2b366e3336"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "日语教师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "日语教师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "高中日语教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYy5M5NMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYy5M5NMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYy5M5NMM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYy5M5NMM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYy5M5NMM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYy5M5NMM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "高中日语教师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYy5M5NMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

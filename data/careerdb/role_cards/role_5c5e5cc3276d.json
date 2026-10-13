@@ -1,0 +1,237 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_5c5e5cc3276d",
+  "node": "销售 › 销售行政/商务 › 销售助理",
+  "family": "销售",
+  "parent_id": "销售 › 销售行政/商务",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 销售行政/商务 › 销售助理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vl85NtMLL",
+      "type": "recruitment_jd",
+      "title": "销售助理",
+      "company": "生工生物工程（上海）股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vl85NtMLL.html",
+      "date": "2025-11-08",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "销售助理 7万元/年\n2025-11-07 14:24:40发布\n职位要求：\n职位性质：全职\n工作城市：上海市徐汇区\n招聘人数：1\n学历要求：本科\n职位类别：其他人员\n需求专业：生物技术类\n职位描述：\n岗位职责\n工作职责：\n1、配合销售经理完成区域销售任务与回款工作，包括：负责销售区域部分货物、发票及时送达；\n2、做好客户、销售网点、总部的沟通工作；\n3、维护客户，观察和分析市场动态，及时向销售经理汇报沟通；\n4、配合销售网点员工完成各项销售工作；\n5、完成上级领导交办的其他事件。\n任职要求：\n1、大专及以上学历，生物相关专业优先。\n2、具有良好的沟通、表达能力，有团队协作能力。\n3、熟练运用office软件。\n任职资格\n任职要求：\n1、大专及以上学历，生物相关专业优先。\n2、具有良好的沟通、表达能力，有团队协作能力。\n3、熟练运用office软件。\n薪资福利\n5000-8000元/月\n公司介绍：\n企业理念与历史责任生工生物工程（上海）股份有限公司（简称：生工生物）成立于2003年。自成立以来，生工生物始终致力于提供生命科学产品与技术服务，生工生物与中国的生命科学事业共同发展， 我们的产品质量愈来愈好，种类愈来愈丰富。我们为广大研发人员提供了高性价比的生命科学实验解决方案，为中国的生命科学事业做出了自己的贡献。今天，中国的生命科学企业如雨后春笋般茁壮成长起来，形成百花争放的良好形势，生工生物不满足于现状，希望走出中国，走向世界，把生工生物建设成为一家国际化、全球化的世界级生命科学企业。BBI生命科学有限公司是生工生物工程（上海）股份有限公司及其附属公司的控股公司。产品与技术服务生工生物提供7大类近万种生命科学产品，8条生命科学实验技术服务。应用领域涵盖分子生物学、细胞生物学、蛋白质组学、免疫学、表观遗传学、动物学、植物学、农学、化学等各个方向。我们拥有南北两地数千平方米的仓储中心，常备现货库存达近万种。\n公司基本信息\n生工生物工程（上海）股份有限公司\n单位行业：化学原料和化学制品制造业\n单位性质：其他企业（含民营企业等）\n单位规模：1000人以上\n单位标签：管理规范,加班费,晋升快,五险一金\n申请职位：\njs***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vl85NtMLL.html",
+      "cache_sha256": "6bfffdee43a2a1d6b5c897edd978bdbdee1c282b6119ee898776b96f6792cc5f"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "销售助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "销售助理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "销售助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：配合销售网点员工完成各项销售工作",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NtMLL",
+          "text": "配合销售网点员工完成各项销售工作"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "配合销售网点员工完成各项销售工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NtMLL",
+          "text": "配合销售网点员工完成各项销售工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "维护客户，观察和分析市场动态，及时向销售经理汇报沟通",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NtMLL",
+          "text": "维护客户，观察和分析市场动态，及时向销售经理汇报沟通"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合销售经理完成区域销售任务与回款工作，包括：负责销售区域部分货物、发票及时送达",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NtMLL",
+          "text": "配合销售经理完成区域销售任务与回款工作，包括：负责销售区域部分货物、发票及时送达"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [
+    {
+      "text": "维护客户，观察和分析市场动态，及时向销售经理汇报沟通",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NtMLL",
+          "text": "维护客户，观察和分析市场动态，及时向销售经理汇报沟通"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vl85NtMLL"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vl85NtMLL"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "销售助理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vl85NtMLL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

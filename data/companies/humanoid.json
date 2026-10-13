@@ -1,0 +1,278 @@
+{
+  "type": "startup",
+  "display_name": "北京人形机器人创新中心",
+  "legal_name": {
+    "value": "北京人形机器人创新中心有限公司",
+    "status": "verified",
+    "source_ids": [
+      "h-id"
+    ]
+  },
+  "brand_names": {
+    "value": [
+      "北京人形",
+      "北京人形机器人创新中心"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "h-id",
+      "h-funding"
+    ]
+  },
+  "listing": {
+    "value": {
+      "status": "未上市（本轮未找到上市披露）",
+      "venues": []
+    },
+    "status": "provisional",
+    "source_ids": [
+      "h-funding"
+    ],
+    "note": "官网披露首轮市场化融资，未找到该主体证券代码；不能将股东优必选等上市状态转移到该公司。未取得官方负面证明。"
+  },
+  "main_business": [
+    {
+      "value": "研发具身智能机器人本体、控制/智能平台及应用方案，围绕“具身天工”和“慧思开物”开展产品研发与落地。",
+      "status": "verified",
+      "source_ids": [
+        "h-business"
+      ]
+    },
+    {
+      "value": "通过渠道伙伴拓展工业、物流、能源、商业服务和教育科研等场景；官网方案和招募对象不等于已成交客户或规模收入。",
+      "status": "verified",
+      "source_ids": [
+        "h-customers"
+      ]
+    }
+  ],
+  "revenue_mix": {
+    "value": "未找到",
+    "status": "not_found",
+    "source_ids": [],
+    "note": "未找到官方收入构成；融资和机器人竞赛成绩不能代替收入。"
+  },
+  "products_customers": {
+    "products": {
+      "value": [
+        "具身天工/天工3.0/Omni",
+        "天轶2.0",
+        "慧思开物平台"
+      ],
+      "status": "verified",
+      "source_ids": [
+        "h-products",
+        "h-business"
+      ]
+    },
+    "users": {
+      "value": "集成商、科研教育团队与各行业机器人使用/开发团队。",
+      "status": "interpretation",
+      "source_ids": [
+        "h-customers"
+      ]
+    },
+    "paying_customers": {
+      "value": "未找到",
+      "status": "not_found",
+      "source_ids": [],
+      "note": "官网可见采购/合作入口、渠道类型与场景，但未找到可确认的已付费终端客户名单或合同。"
+    }
+  },
+  "recent_events": [
+    {
+      "event_date": "2026-02-03",
+      "claim": {
+        "value": "官网宣布完成首轮超7亿元市场化融资，财新同期报道；不是销售收入。",
+        "status": "verified",
+        "source_ids": [
+          "h-funding",
+          "h-funding-media"
+        ]
+      }
+    },
+    {
+      "event_date": "2026-09-10",
+      "claim": {
+        "value": "官网招募渠道伙伴并展示天工3.0、天轶2.0等产品，显示在推进商业化渠道建设，尚不能证明成交规模。",
+        "status": "verified",
+        "source_ids": [
+          "h-products",
+          "h-customers"
+        ]
+      }
+    }
+  ],
+  "selection": {
+    "posting_ids": [
+      "vYl5azaaL",
+      "vlY5azazZ"
+    ],
+    "founded": {
+      "value": "2023-11",
+      "status": "verified",
+      "source_ids": [
+        "h-founded"
+      ]
+    },
+    "public_funding": {
+      "value": "2026-02-03首轮超7亿元市场化融资。",
+      "status": "verified",
+      "source_ids": [
+        "h-funding",
+        "h-funding-media"
+      ]
+    }
+  },
+  "event_search_boundary": "未找到合格近12月裁员/业务收缩消息；国资/产业方共建背景，不代表典型纯民营医疗AI初创。",
+  "id": "humanoid",
+  "schema_version": "company-check-pilot-v1",
+  "as_of": "2026-10-12",
+  "status": "partial_evidence",
+  "scope": "公司公开信息；不等于具体岗位/签约主体核验",
+  "source_levels": {
+    "type": [
+      "未找到/本地记录"
+    ],
+    "display_name": [
+      "未找到/本地记录"
+    ],
+    "legal_name": [
+      "公司官网"
+    ],
+    "brand_names": [
+      "公司官网"
+    ],
+    "listing": [
+      "公司官网"
+    ],
+    "main_business": [
+      "公司官网"
+    ],
+    "revenue_mix": [
+      "未找到/本地记录"
+    ],
+    "products_customers": [
+      "公司官网"
+    ],
+    "recent_events": [
+      "主流财经媒体原创报道",
+      "公司官网"
+    ],
+    "selection": [
+      "主流财经媒体原创报道",
+      "公司官网"
+    ],
+    "event_search_boundary": [
+      "未找到/本地记录"
+    ],
+    "id": [
+      "未找到/本地记录"
+    ],
+    "schema_version": [
+      "未找到/本地记录"
+    ],
+    "as_of": [
+      "未找到/本地记录"
+    ],
+    "status": [
+      "未找到/本地记录"
+    ],
+    "scope": [
+      "未找到/本地记录"
+    ]
+  },
+  "sources": {
+    "h-business": {
+      "title": "北京人形公司介绍",
+      "url": "https://www.x-humanoid.com/about.html",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "聚焦于具身智能机器人核心技术",
+      "locator": "官网公司简介",
+      "snapshot": "evidence/company-check-2026-10/humanoid-final-direct-3.html",
+      "sha256": "fc5f5e2ca6bbfaea8be96564cc6d1d1aa50af9964b1fdf180d8ba23fa3f339eb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-final-direct-3"
+    },
+    "h-customers": {
+      "title": "北京人形渠道招募公告",
+      "url": "https://www.x-humanoid.com/news-view-327.html",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "系统集成商 / 自动化工程商",
+      "locator": "招募对象与应用场景，非已成交清单",
+      "snapshot": "evidence/company-check-2026-10/humanoid-direct-0.html",
+      "sha256": "823e165bd16c9437d197d3a2f83825d64b411301cd7355cd32dcabecee2dd279",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-direct-0"
+    },
+    "h-founded": {
+      "title": "北京人形公司介绍",
+      "url": "https://www.x-humanoid.com/about.html",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "2023年11月",
+      "locator": "官网公司简介",
+      "snapshot": "evidence/company-check-2026-10/humanoid-final-direct-3.html",
+      "sha256": "fc5f5e2ca6bbfaea8be96564cc6d1d1aa50af9964b1fdf180d8ba23fa3f339eb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-final-direct-3"
+    },
+    "h-funding": {
+      "title": "北京人形首轮融资公告",
+      "url": "https://www.x-humanoid.com/news-view-246.html",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": "2026-02-03",
+      "excerpt": "亿元市场化融资",
+      "locator": "2026-02-03；金额超7亿元",
+      "snapshot": "evidence/company-check-2026-10/humanoid-funding-direct.html",
+      "sha256": "56e1321497c5078c576b61959bf56d8bd97e981c5c7c74a9065ab19819720ce4",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-funding-direct"
+    },
+    "h-funding-media": {
+      "title": "财新：北京人形首轮融资",
+      "url": "https://m.caixin.com/m/2026-02-03/102411100.html",
+      "level": "主流财经媒体原创报道",
+      "access_date": "2026-10-12",
+      "published_date": "2026-02-03",
+      "excerpt": "首轮超7亿元融资",
+      "locator": "2026-02-03正文",
+      "snapshot": "evidence/company-check-2026-10/humanoid-supp-direct-5.html",
+      "sha256": "fb4d3a4a6e6d8e82206583186f43ce2bfb04fd765e70ee989d7d13c773618176",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-supp-direct-5"
+    },
+    "h-id": {
+      "title": "北京人形公司介绍",
+      "url": "https://www.x-humanoid.com/about.html",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "北京人形机器人创新中心有限公司",
+      "locator": "官网公司简介",
+      "snapshot": "evidence/company-check-2026-10/humanoid-final-direct-3.html",
+      "sha256": "fc5f5e2ca6bbfaea8be96564cc6d1d1aa50af9964b1fdf180d8ba23fa3f339eb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-final-direct-3"
+    },
+    "h-products": {
+      "title": "北京人形渠道招募公告",
+      "url": "https://www.x-humanoid.com/news-view-327.html",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": "2026-09-10",
+      "excerpt": "天轶 2.0",
+      "locator": "2026-09-10；天工3.0/Omni、天轶2.0",
+      "snapshot": "evidence/company-check-2026-10/humanoid-direct-0.html",
+      "sha256": "823e165bd16c9437d197d3a2f83825d64b411301cd7355cd32dcabecee2dd279",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "humanoid-direct-0"
+    }
+  }
+}

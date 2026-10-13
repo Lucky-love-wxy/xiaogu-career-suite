@@ -1,7 +1,7 @@
 # A/B 实验三臂的系统提示词
 
 - 日期：2026-10-05
-- 对应设计：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/notes/2026-10-04-ab-test-design.md 第 3 节
+- 对应设计：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/notes/2026-10-04-ab-test-design.md 第 3 节
 - 三臂用同一个模型（当前 deepseek-v4-pro）、同温度 0.3、thinking 关闭、完整对话历史。
 - 用户 2026-10-05 在 DeepSeek 官网做的「无提示词」对话（/Users/lucky_wang/Desktop/AB v1——deepseek.md）记为 A0，只作定性参考：官网带默认提示词和 thinking，和 API 条件不同，不进入正式对比。
 - A2 必须镜像 B 当时的规则。B 的规则改了（例如方向推荐的改造），A2 同步改，并记录版本；否则比较的是新旧规则，而不是代码层有没有价值。

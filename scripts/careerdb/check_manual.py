@@ -7,8 +7,9 @@ ROOT = Path(__file__).resolve().parents[2]
 EXPECTED = {"医学编辑": "医学编辑", "临床研究协调员（CRC）": "临床协调员", "药物警戒专员": "药物警戒", "药物警戒校招实习": "药物警戒",
             "医学信息沟通专员（医药代表）": "医药代表", "医学理赔": "医学理赔/核保", "药品注册专员": "药品注册", "医学运营专员": "医学运营",
             "运营管理岗": "医疗机构运营管理", "运营管理管培生": "医疗机构运营管理", "学术编辑": "期刊/学术编辑",
-            "英文医学期刊编辑": "期刊/学术编辑", "期刊编辑/编务": "期刊/学术编辑"}
-rows = [json.loads(l) for l in (ROOT / "data/careerdb/postings_mapped.jsonl").read_text(encoding="utf-8").splitlines()]
+            "英文医学期刊编辑": "期刊/学术编辑", "期刊编辑/编务": "期刊/学术编辑",
+            "生物医学大模型研发": "医学AI/生物医学大模型"}
+rows = [json.loads(l) for l in (ROOT / "data/careerdb/postings_mapped.jsonl").read_text(encoding="utf-8").split("\n") if l.strip()]
 bad = [(r["role"], (r["node"] or "未归类").split(" › ")[-1]) for r in rows if r.get("manual")
        and (r["node"] or "").split(" › ")[-1] != EXPECTED.get(r["role"])]
 total = sum(1 for r in rows if r.get("manual"))

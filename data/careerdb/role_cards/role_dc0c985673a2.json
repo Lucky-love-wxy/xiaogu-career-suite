@@ -1,0 +1,341 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_dc0c985673a2",
+  "node": "人力/行政/法务 › 行政 › 经理助理",
+  "family": "人力/行政/法务",
+  "parent_id": "人力/行政/法务 › 行政",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "人力/行政/法务 › 行政 › 经理助理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vYs5ZZLCC",
+      "type": "recruitment_jd",
+      "title": "投资经理助理",
+      "company": "君信（上海）股权投资基金管理有限公司",
+      "url": "https://campus.niuqizp.com/job-vYs5ZZLCC.html",
+      "date": "2026-03-23",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "投资经理助理\n20000元以上\n君信（上海）股权投资基金管理有限公司\n工作地域：上海市\n职位类别：金融业务人员\n学历要求：硕士研究生\n招聘人数：2人\n发布时间：2026-03-23\n* 专业要求：\n专业要求：\n人工智能专业\n电子信息（人工智能专硕）专业\n* 职位描述：\n岗位职责：\n跟随投资经理访谈企业；\n协助投资经理进行行业研究，撰写行业研究报告；\n撰写项目尽调报告；\n撰写已投项目季度行业跟踪研究报告；\n其它公司/投资经理安排的工作。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYs5ZZLCC.html",
+      "cache_sha256": "6cf257248c6dfb87232a2f9a69fad64b729183d84f03db7351d82dc0d0f1a888"
+    },
+    {
+      "id": "vmrNLNtnC",
+      "type": "recruitment_jd",
+      "title": "2027年校招资管投资经理助理岗(J11246)",
+      "company": "首创集团2027",
+      "url": "https://campus.niuqizp.com/job-vmrNLNtnC.html",
+      "date": "2026-10-01",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "工作职责 1.协助投资经理开展市场研判并制定产品投资方案； 2.协助投资经理跟踪产品台账，统计并监控资管产品运作情况； 3.协助产品市场条线开展产品营销推动工作； 4.完成部门交办的其他工作。 任职资格 硕士研究生及以上学历，金融、会计、经济等相关专业；具备良好的数据处理能力，有良好的团队合作能力，工作责任感强；持有CFA、CPA等专业证书者优先；有资产管理相关实习经验者优先；通过证券从业、基金从业资格考试者优先。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vmrNLNtnC.html",
+      "cache_sha256": "70552e1aa08f64394c550651941d6245e5bbd4d04171e251692dff29189dc6cd"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "经理助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "经理助理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "2027年校招资管投资经理助理岗(J11246)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "投资经理助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：撰写项目尽调报告",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "撰写项目尽调报告"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "撰写项目尽调报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "撰写项目尽调报告"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "撰写已投项目季度行业跟踪研究报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "撰写已投项目季度行业跟踪研究报告"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助投资经理进行行业研究，撰写行业研究报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "协助投资经理进行行业研究，撰写行业研究报告"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "协助投资经理进行行业研究，撰写行业研究报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "协助投资经理进行行业研究，撰写行业研究报告"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "撰写项目尽调报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "撰写项目尽调报告"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "撰写已投项目季度行业跟踪研究报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYs5ZZLCC",
+          "text": "撰写已投项目季度行业跟踪研究报告"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，2份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "vYs5ZZLCC",
+          "vmrNLNtnC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vmrNLNtnC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vYs5ZZLCC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vmrNLNtnC"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYs5ZZLCC",
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "2027年校招资管投资经理助理岗(J11246)",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vmrNLNtnC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "投资经理助理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYs5ZZLCC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

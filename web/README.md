@@ -3,7 +3,7 @@
 `app.py` 是给真实用户用的服务：账号（邀请码 + 验证码）、额度（注册送 500 credits，1 credit = ¥0.01）、按每次模型调用计费、四层停止开关、埋点、后台看板 `/admin`。`server.py` 保留为本机模拟环境，两者共用 `agent.py`。
 
 ```bash
-cd /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch && XIAOGU_ENV=dev XIAOGU_PROVIDER=deepseek XIAOGU_BASE_URL=https://new.tornadorouter.com/v1 XIAOGU_KEYCHAIN=xiaogu-relay XIAOGU_ADMIN_TOKEN=dev-admin .venv/bin/python web/app.py --port 8781
+cd /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch && XIAOGU_ENV=dev XIAOGU_PROVIDER=deepseek XIAOGU_MODEL=deepseek-flash XIAOGU_ADMIN_TOKEN=dev-admin .venv/bin/python web/app.py --port 8781
 ```
 
 依赖：`web/requirements.txt`（运行）、`web/requirements-dev.txt`（测试）。环境变量见 `deploy/env.example`，上线步骤见 `deploy/RUNBOOK.md`，设计见 `notes/2026-10-05-launch-platform-design.md`。
@@ -15,7 +15,7 @@ cd /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch && XIAOGU_ENV=dev X
 服务端执行小谷 harness，DeepSeek 只负责在证据范围内写措辞。设计见 `notes/2026-10-03-web-agent-sim.md`。
 
 ```bash
-python3 /Users/lucky_wang/Documents/codex/xiaogu-career-suite/web/server.py --port 8780
+python3 /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/web/server.py --port 8780
 ```
 
 打开 http://127.0.0.1:8780 。只监听本机。本机 8765、8770 已被其他服务占用。

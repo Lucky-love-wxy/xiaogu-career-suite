@@ -1,0 +1,145 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_4b59d77750ec",
+  "node": "金融 › 投融资 › 投资助理",
+  "family": "金融",
+  "parent_id": "金融 › 投融资",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "金融 › 投融资 › 投资助理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vYs5ZnzzM",
+      "type": "recruitment_jd",
+      "title": "投资助理",
+      "company": "北京红峤投资管理有限公司",
+      "url": "https://campus.niuqizp.com/job-vYs5ZnzzM.html",
+      "date": "2026-04-17",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "投资助理\n20000元以上\n北京红峤投资管理有限公司\n工作地域：北京市\n职位类别：金融业务人员\n学历要求：硕士研究生\n招聘人数：1人\n发布时间：2026-04-17\n* 专业要求：\n经济/金融、财务/会计、法律/法学相关专业\n* 职位描述：\n在总经理/合伙人指导下，协助开展如下工作\n1、项目开发\n2、项目研究\n3、投资分析报告撰写\n4、交易结构设计与投资执行\n5、投后管理与增值服务\n6、其他投资相关工作",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYs5ZnzzM.html",
+      "cache_sha256": "9a086b5cdf5fea8f6699f6654252ebd03540ba20b21624e0b900187ee655008f"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "投资助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "投资助理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "投资助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYs5ZnzzM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "投资助理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

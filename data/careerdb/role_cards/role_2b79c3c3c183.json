@@ -1,0 +1,266 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_2b79c3c3c183",
+  "node": "人力/行政/法务 › 行政 › 行政经理/主管",
+  "family": "人力/行政/法务",
+  "parent_id": "人力/行政/法务 › 行政",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "人力/行政/法务 › 行政 › 行政经理/主管",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vk8NLLLLZ",
+      "type": "recruitment_jd",
+      "title": "行政主管",
+      "company": "上海丽雯国际旅行社有限公司",
+      "url": "https://campus.niuqizp.com/job-vk8NLLLLZ.html",
+      "date": "2026-09-30",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1、全面负责公司行政日常管理工作，制定、完善行政管理制度与流程，保障公司办公有序运转。2、统筹办公环境、固定资产、办公用品采购、登记、发放与盘点管理，控制行政成本。3、负责公司会议组织、会务安排、公文收发、档案整理归档、接待来访客户与合作单位。4、协调各部门之间工作对接，落实后勤保障、车辆管理、办公维保等后勤事务。5、负责公司各类证照资料保管，对接物业、供应商等外部合作方。6、协助人事相关基础工作，员工考勤统计、入职 / 离职手续协助，组织公司团建活动。7、完成上级领导交办的其他行政相关工作。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vk8NLLLLZ.html",
+      "cache_sha256": "3e84fee55b8435e1843f33c89ad00e5c3de468219de311f3813fd92e171b9356"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "行政经理/主管",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "行政经理/主管"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "行政主管",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责公司各类证照资料保管，对接物业、供应商等外部合作方",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责公司会议组织、会务安排、公文收发、档案整理归档、接待来访客户与合作单位",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "负责公司会议组织、会务安排、公文收发、档案整理归档、接待来访客户与合作单位"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助人事相关基础工作，员工考勤统计、入职 / 离职手续协助，组织公司团建活动",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "协助人事相关基础工作，员工考勤统计、入职 / 离职手续协助，组织公司团建活动"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "负责公司会议组织、会务安排、公文收发、档案整理归档、接待来访客户与合作单位",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "负责公司会议组织、会务安排、公文收发、档案整理归档、接待来访客户与合作单位"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk8NLLLLZ",
+          "text": "负责公司各类证照资料保管，对接物业、供应商等外部合作方"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vk8NLLLLZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vk8NLLLLZ"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "行政主管",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vk8NLLLLZ"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

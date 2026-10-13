@@ -2,12 +2,12 @@
 
 - 下发日期：2026-10-05
 - 设计方：Claude（顶层设计）；执行方：Codex
-- 上游文档：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/notes/2026-10-05-direction-guidance-redesign.md（第 1 节「证据缺口」、第 3 节方案第 1 条等你回填）
+- 上游文档：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/notes/2026-10-05-direction-guidance-redesign.md（第 1 节「证据缺口」、第 3 节方案第 1 条等你回填）
 - 交付落点：
-  - 报告：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/docs/research/major-destinations-2026-10.md
-  - 数据：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/data/directions/（下面三个 CSV）
-  - 原始证据：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/evidence/major-destinations-2026-10/（已在 .gitignore 范围内则沿用，不在则新建并确认不进仓库）
-  - 恢复入口：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/tasks/research-2026-10/start.md 追加一节
+  - 报告：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/docs/research/major-destinations-2026-10.md
+  - 数据：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/data/directions/（下面三个 CSV）
+  - 原始证据：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/major-destinations-2026-10/（已在 .gitignore 范围内则沿用，不在则新建并确认不进仓库）
+  - 恢复入口：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/tasks/research-2026-10/start.md 追加一节
 
 ## 背景（为什么要做）
 
@@ -93,7 +93,7 @@ role_family, role_name, occupation_code(大典编码或空), postings_n, fresh_o
 - [ ] Q4：编辑方向族细分，每个细分有招聘说明原句支撑
 - [ ] Q5：≥ 5 个产品，表格化，每格有来源或「未找到 / 需登录未测」
 - [ ] 提供离线复现脚本（不联网，从 evidence 生成三个 CSV 和统计），不读密钥、不调用模型
-- [ ] 结尾一节「对设计的影响」：逐条回应 /Users/lucky_wang/Documents/codex/xiaogu-career-suite/notes/2026-10-05-direction-guidance-redesign.md 第 3 节方案，哪些可行、哪些要改；特别回答「主推 3 + 次选 2–3」在数据上是否撑得住
+- [ ] 结尾一节「对设计的影响」：逐条回应 /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/notes/2026-10-05-direction-guidance-redesign.md 第 3 节方案，哪些可行、哪些要改；特别回答「主推 3 + 次选 2–3」在数据上是否撑得住
 - [ ] 部分完成时按「部分验收」交付，写清完成到哪、缺什么、为什么，不为凑数量放宽证据标准
 
 ## 不做

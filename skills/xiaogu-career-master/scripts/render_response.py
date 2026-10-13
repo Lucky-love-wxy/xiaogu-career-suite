@@ -102,10 +102,15 @@ def render(payload: dict) -> str:
         raise ValueError("; ".join(errors))
     if payload["status"] == "needs_input":
         return payload["question"].strip() + "\n"
-    # 对话样式：方向探索、一般建议等来回聊天，不套“结论/依据”报告框，正文后直接跟下一个问题
+    if payload["status"] == "blocked" and payload.get("style") == "chat":
+        # 对话里出错只说一句平常话，不套“结论/受阻原因/下一步”（2026-10-12 人机感排查第 7 项）
+        parts = [payload["answer"].strip(), payload["blocker"].strip(), (payload.get("next_action") or "").strip()]
+        return " ".join(p for p in parts if p) + "\n"
+    # 对话样式：方向探索、一般建议等来回聊天，不套“结论/依据”报告框，正文后直接跟下一个问题。
+    # 依据仍保留在结构里（可审计），但不在聊天正文里罗列，来源由界面标签说明
     chat = payload.get("style") == "chat" and payload["status"] == "complete"
     lines = [payload["answer"].strip()] if chat else [f"**结论** {payload['answer'].strip()}"]
-    if payload["evidence"]:
+    if payload["evidence"] and not chat:
         lines.extend(["", "**依据**"])
         for item in payload["evidence"]:
             line = f"- {LABELS[item['kind']]}：{item['text'].strip()}"

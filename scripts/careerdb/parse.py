@@ -59,6 +59,14 @@ def parse(jid: str, raw: str) -> dict:
     return rec
 
 
+def jsonl_line(rec: dict) -> str:
+    """一行一条记录。U+2028 等字符在 JSON 里合法，但 str.splitlines() 会把它当换行，下游按行读会切碎记录，所以转义。"""
+    line = json.dumps(rec, ensure_ascii=False)
+    for ch in "\u2028\u2029\x85\x0b\x0c\x1c\x1d\x1e":
+        line = line.replace(ch, f"\\u{ord(ch):04x}")
+    return line + "\n"
+
+
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     n = {"single": 0, "brochure": 0}
@@ -66,7 +74,7 @@ def main() -> None:
         for p in sorted(CACHE.glob("*.html")):
             rec = parse(p.stem, p.read_text(encoding="utf-8"))
             n[rec["kind"]] += 1
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            f.write(jsonl_line(rec))
     print(n, "→", OUT)
 
 

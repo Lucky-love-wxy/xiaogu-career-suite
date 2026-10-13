@@ -1,0 +1,244 @@
+{
+  "type": "private_large",
+  "display_name": "米哈游",
+  "legal_name": {
+    "value": "上海米哈游网络科技股份有限公司",
+    "status": "verified",
+    "source_ids": [
+      "m-id"
+    ],
+    "note": "集团代表主体；官网/游戏协议运营主体为上海米哈游影铁科技有限公司。具体JD签约主体须另核。"
+  },
+  "brand_names": {
+    "value": [
+      "米哈游",
+      "miHoYo"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "m-business"
+    ]
+  },
+  "listing": {
+    "value": {
+      "status": "未上市",
+      "venues": []
+    },
+    "status": "verified",
+    "source_ids": [
+      "m-unlisted"
+    ],
+    "note": "公司经记者确认的非上市股份公司回应；股权托管代码T00307不是证券交易所股票代码。"
+  },
+  "main_business": [
+    {
+      "value": "研发和运营《原神》《崩坏：星穹铁道》《绝区零》等游戏，并围绕原创IP推出动画、音乐和周边。",
+      "status": "verified",
+      "source_ids": [
+        "m-business",
+        "m-products"
+      ]
+    },
+    {
+      "value": "游戏协议允许通过收费游戏、虚拟物品使用权与增值服务收取费用；无法据此判断各项收入占比。",
+      "status": "verified",
+      "source_ids": [
+        "m-pay"
+      ]
+    }
+  ],
+  "revenue_mix": {
+    "value": "未找到",
+    "status": "not_found",
+    "source_ids": [],
+    "note": "未找到当期官方集团收入构成；不使用百科/媒体/游戏流水估计代替财务披露。"
+  },
+  "products_customers": {
+    "products": {
+      "value": [
+        "原神",
+        "崩坏：星穹铁道",
+        "绝区零",
+        "原创IP衍生内容/周边"
+      ],
+      "status": "verified",
+      "source_ids": [
+        "m-products",
+        "m-business"
+      ]
+    },
+    "users": {
+      "value": "游戏玩家及IP内容受众。",
+      "status": "interpretation",
+      "source_ids": [
+        "m-products",
+        "m-business"
+      ]
+    },
+    "paying_customers": {
+      "value": "购买游戏虚拟物品使用权或增值服务的玩家；衍生品收入占比未找到。",
+      "status": "verified",
+      "source_ids": [
+        "m-pay"
+      ]
+    }
+  },
+  "recent_events": [
+    {
+      "event_date": "2026-09-23",
+      "claim": {
+        "value": "办理股权托管登记；9月23-24日公司向媒体回应是非上市股份公司治理常规安排，目前没有上市融资计划。",
+        "status": "verified",
+        "source_ids": [
+          "m-id",
+          "m-unlisted"
+        ]
+      }
+    }
+  ],
+  "related_entities": {
+    "value": [
+      "上海米哈游影铁科技有限公司（官网及游戏服务协议主体）"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "m-operator"
+    ]
+  },
+  "event_search_boundary": "未找到合格的近12月裁员/业务收缩事件；不把其他游戏公司裁员新闻算入米哈游。",
+  "id": "mihoyo",
+  "schema_version": "company-check-pilot-v1",
+  "as_of": "2026-10-12",
+  "status": "partial_evidence",
+  "scope": "公司公开信息；不等于具体岗位/签约主体核验",
+  "source_levels": {
+    "type": [
+      "未找到/本地记录"
+    ],
+    "display_name": [
+      "未找到/本地记录"
+    ],
+    "legal_name": [
+      "主流财经媒体原创报道"
+    ],
+    "brand_names": [
+      "公司官网"
+    ],
+    "listing": [
+      "主流财经媒体原创报道"
+    ],
+    "main_business": [
+      "公司官网"
+    ],
+    "revenue_mix": [
+      "未找到/本地记录"
+    ],
+    "products_customers": [
+      "公司官网"
+    ],
+    "recent_events": [
+      "主流财经媒体原创报道"
+    ],
+    "related_entities": [
+      "公司官网"
+    ],
+    "event_search_boundary": [
+      "未找到/本地记录"
+    ],
+    "id": [
+      "未找到/本地记录"
+    ],
+    "schema_version": [
+      "未找到/本地记录"
+    ],
+    "as_of": [
+      "未找到/本地记录"
+    ],
+    "status": [
+      "未找到/本地记录"
+    ],
+    "scope": [
+      "未找到/本地记录"
+    ]
+  },
+  "sources": {
+    "m-business": {
+      "title": "米哈游官网",
+      "url": "https://www.mihoyo.com/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "并围绕原创IP打造了动画、音乐及周边等多元产品",
+      "locator": "关于米哈游",
+      "snapshot": "evidence/company-check-2026-10/mihoyo-cdp.json",
+      "sha256": "6d1351c00face07032ba5b88e57e97d98fa64c3dd8736877a35960dd80e8937f",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "mihoyo-cdp"
+    },
+    "m-id": {
+      "title": "新京报：米哈游回应股权托管登记",
+      "url": "https://m.bjnews.com.cn/detail/1790214607129180.html",
+      "level": "主流财经媒体原创报道",
+      "access_date": "2026-10-12",
+      "published_date": "2026-09-24",
+      "excerpt": "上海米哈游网络科技股份有限公司",
+      "locator": "记者韦英姿，2026-09-24",
+      "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-2.html",
+      "sha256": "f8239085c53d807a70c2cdcc0d45a3c11a168cf0786da2d6ab84b2a9673515a8",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "mihoyo-supp-direct-2"
+    },
+    "m-operator": {
+      "title": "米哈游游戏使用许可及服务协议",
+      "url": "https://fastcdn.mihoyo.com/static-resource-v2/2023/07/11/1f8ab139d4f242ccb6be673c437f0f29_465949158906749511.pdf",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "上海米哈游影铁科技有限公司",
+      "locator": "重要须知",
+      "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-1.pdf",
+      "sha256": "677cd70f9ada1215d2c505d8b59ec2334092c763ef48326ca69401455cc1993d",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "mihoyo-supp-direct-1"
+    },
+    "m-pay": {
+      "title": "米哈游游戏使用许可及服务协议",
+      "url": "https://fastcdn.mihoyo.com/static-resource-v2/2023/07/11/1f8ab139d4f242ccb6be673c437f0f29_465949158906749511.pdf",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "购买相关虚拟物品使用权",
+      "locator": "四：资费政策；2023版协议",
+      "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-1.pdf",
+      "sha256": "677cd70f9ada1215d2c505d8b59ec2334092c763ef48326ca69401455cc1993d",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "mihoyo-supp-direct-1"
+    },
+    "m-products": {
+      "title": "米哈游官网",
+      "url": "https://www.mihoyo.com/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "《原神》、《崩坏：星穹铁道》、《绝区零》",
+      "locator": "关于米哈游",
+      "snapshot": "evidence/company-check-2026-10/mihoyo-cdp.json",
+      "sha256": "6d1351c00face07032ba5b88e57e97d98fa64c3dd8736877a35960dd80e8937f",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "mihoyo-cdp"
+    },
+    "m-unlisted": {
+      "title": "财联社：米哈游回应股权托管登记",
+      "url": "https://www.cls.cn/detail/2491196",
+      "level": "主流财经媒体原创报道",
+      "access_date": "2026-10-12",
+      "published_date": "2026-09-23",
+      "excerpt": "公司目前没有上市融资计划",
+      "locator": "2026-09-23回应",
+      "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-3.html",
+      "sha256": "f590b30261f5efd49397848764a42ff825c09c2ddf8e0626014f1d22f15174da",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "mihoyo-supp-direct-3"
+    }
+  }
+}

@@ -290,7 +290,7 @@
 - 「¥5 能用多少轮」仍未知：需要真模型内测一周后，从后台「功能」的平均成本算。
 - 左侧栏还没有历史会话列表（接口 `/api/sessions` 已有，前端未接）；刷新页面后当前对话从界面上消失，但数据在库里。
 - 付款页、微信登录：二期。
-- 副本与原仓库 `/Users/lucky_wang/Documents/codex/xiaogu-career-suite` 已分叉；原仓库在被其他会话修改，合并时以本节「agent.py 只改两处」为准。
+- 副本与原仓库 `/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch` 已分叉；原仓库在被其他会话修改，合并时以本节「agent.py 只改两处」为准。
 
 ### 2026-10-06 补充
 

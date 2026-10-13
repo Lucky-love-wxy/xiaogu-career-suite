@@ -1,0 +1,222 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_97565a64824a",
+  "node": "电子/电气/通信 › 电气/自动化 › 电气工程师",
+  "family": "电子/电气/通信",
+  "parent_id": "电子/电气/通信 › 电气/自动化",
+  "tier": "P2",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "电子/电气/通信 › 电气/自动化 › 电气工程师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vUm5MZ5aM",
+      "type": "recruitment_jd",
+      "title": "电气工程师",
+      "company": "中国电子系统工程第三建设有限公司",
+      "url": "https://campus.niuqizp.com/job-vUm5MZ5aM.html",
+      "date": "2026-09-24",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位描述1、负责本专业现场管理相关工作；2、负责本专业的施工图纸审核、优化、统计工程量等工作；3、负责向采购部提供材料申请单并确认主要技术参数；4、协调和处理业主，监理和施工等各单位工作；5、负责施工材料，隐蔽工程和施工过程中品质和检查验收工作；6、做好与设计院或公司内设计部门的沟通协调工作；7、完成领导安排的其他工作。任职资格1、本科及以上学历，建筑环境与能源应用工程、能源与动力工程、供热通风与空调工程等相关专业；2、熟练掌握暖通动力等相关专业知识，有岗位相关实习经验优先考虑；3、有学生会、社团等校园组织干部经历优先考虑；4、了解并接受工程建设行业的工作性质，能跟随项目驻场出差；7、具有较强的责任心强、抗压能力、沟通交流能力、组织协调能力。\n公司介绍\n公司名称\n中国电子系统工程第三建设有限公司\n所属行业\n房地产/建筑/建材/工程\n公司性质\n国有企业\n公司规模\n1000-4999人\n四川省成都市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vUm5MZ5aM.html",
+      "cache_sha256": "94cfa0a0ca735b560e942717db514e4394b007a5111fa155aa13346bf99e6290"
+    },
+    {
+      "id": "vyU5MCM5N",
+      "type": "recruitment_jd",
+      "title": "电气工程师",
+      "company": "中国电建集团山东电力建设第一工程有限公司",
+      "url": "https://campus.niuqizp.com/job-vyU5MCM5N.html",
+      "date": "2026-09-28",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "详见简章",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vyU5MCM5N.html",
+      "cache_sha256": "1e06013c644868d36ba6941980a5caa2c0e38141b344777f35d5dc4dd16906bc"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前2份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "电气工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "电气工程师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "电气工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vUm5MZ5aM"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vyU5MCM5N"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“电气类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电气类",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "vUm5MZ5aM",
+          "vyU5MCM5N"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vUm5MZ5aM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "电气工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

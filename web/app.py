@@ -119,6 +119,9 @@ class Platform:
             os.environ["XIAOGU_PROVIDER"] = config.provider
         self.agent = agent.Agent(provider=provider)
         self.store = store or Store(config.db, env=config.env)
+        if str(config.db) != ":memory:":
+            # 库外黑话待审清单放在数据库旁（web/data/，不进 git）；只记用户问的那个说法，不记会话
+            self.agent.jargon_queue_dir = Path(config.db).parent
         self.auth = Auth(self.store, sender or ConsoleSender(), config.secret)
         self.locks: dict[str, threading.Lock] = {}
         self.locks_guard = threading.Lock()

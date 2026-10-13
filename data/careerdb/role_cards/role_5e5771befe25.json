@@ -1,0 +1,370 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_5e5771befe25",
+  "node": "生产制造 › 质量管理 › 体系工程师",
+  "family": "生产制造",
+  "parent_id": "生产制造 › 质量管理",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "生产制造 › 质量管理 › 体系工程师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vUy5nnZ5M",
+      "type": "recruitment_jd",
+      "title": "注册体系工程师",
+      "company": "微至（苏州）医疗科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vUy5nnZ5M.html",
+      "date": "2026-09-20",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "【岗位职责】\n1.负责组织编写、修改产品技术要求；\n2.负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进；\n3.负责组织注册申报相关资料的起草、翻译和校对工作；\n4.负责注册证和生产许可证的维护工作，如注册证的变更、延续，纠错、说明书备案等工作；\n5.负责送检计划的指定，按照计划完成检测样品的准备和送检，确保按时取得检测报告负责；\n6.根据药监管理部门的审评意见，制定工作计划并能够组织各职能部门开展工作，确保按时取得注册证；\n7.负责研究和了解国内国际的法律法规，为产品注册或认证提供基本的咨询建议；\n8.有序管理产品的注册资料文档，负责产品的资料归档；\n【任职资格】\n1.本科以上学历，医学、医学工程、机电、材料等专业优先；\n2.英语听说良好，读写熟练；\n3.良好的沟通能力、良好的文字编辑及撰写能力；\n4.工作认真细致，积极主动，责任心强，团队合作意识较好；\n5.优秀的应届毕业生且可以安排三个月实习者亦可；\n【薪资福利】\n具体薪资面议；提供食宿；节日福利·+五险一金+其他\n投递方式：\n1.微信投递\n微信关注“微至医疗”公众号，点击【关注微至】—【合作共赢】—【加入我们】，点击右上角三条杠，点击【前往校园招聘】—【2027校招岗】即可投递\n将简历发送至\n[email protected]\n，邮件以“姓名+学校+专业+毕业时间”为主题命名，正文注明应聘岗位。\n3.PC 端投递",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vUy5nnZ5M.html",
+      "cache_sha256": "5177e90cc5065d96261659b1965efb18a48e88551db806604d7439b8df65055a"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "体系工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "体系工程师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "注册体系工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责组织编写、修改产品技术要求",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责组织编写、修改产品技术要求"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责组织编写、修改产品技术要求",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责组织编写、修改产品技术要求"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责组织注册申报相关资料的起草、翻译和校对工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责组织注册申报相关资料的起草、翻译和校对工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责研究和了解国内国际的法律法规，为产品注册或认证提供基本的咨询建议",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责研究和了解国内国际的法律法规，为产品注册或认证提供基本的咨询建议"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责注册证和生产许可证的维护工作，如注册证的变更、延续，纠错、说明书备案等工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责注册证和生产许可证的维护工作，如注册证的变更、延续，纠错、说明书备案等工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责送检计划的指定，按照计划完成检测样品的准备和送检，确保按时取得检测报告负责",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责送检计划的指定，按照计划完成检测样品的准备和送检，确保按时取得检测报告负责"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据药监管理部门的审评意见，制定工作计划并能够组织各职能部门开展工作，确保按时取得注册证",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "根据药监管理部门的审评意见，制定工作计划并能够组织各职能部门开展工作，确保按时取得注册证"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "负责组织注册申报相关资料的起草、翻译和校对工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责组织注册申报相关资料的起草、翻译和校对工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "负责送检计划的指定，按照计划完成检测样品的准备和送检，确保按时取得检测报告负责",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责送检计划的指定，按照计划完成检测样品的准备和送检，确保按时取得检测报告负责"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "负责注册申报资料准备过程中与公司内部各职能部门的沟通跟进"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "根据药监管理部门的审评意见，制定工作计划并能够组织各职能部门开展工作，确保按时取得注册证",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUy5nnZ5M",
+          "text": "根据药监管理部门的审评意见，制定工作计划并能够组织各职能部门开展工作，确保按时取得注册证"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vUy5nnZ5M"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vUy5nnZ5M"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vUy5nnZ5M"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "注册体系工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vUy5nnZ5M"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

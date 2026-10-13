@@ -1,0 +1,262 @@
+{
+  "type": "listed",
+  "display_name": "BOSS直聘（看准）",
+  "legal_name": {
+    "value": "KANZHUN LIMITED（看準科技有限公司）",
+    "status": "verified",
+    "source_ids": [
+      "k-id"
+    ]
+  },
+  "brand_names": {
+    "value": [
+      "BOSS直聘",
+      "看准",
+      "Kanzhun"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "k-id",
+      "k-product"
+    ]
+  },
+  "listing": {
+    "value": {
+      "status": "上市",
+      "venues": [
+        {
+          "exchange": "HKEX",
+          "ticker": "2076"
+        },
+        {
+          "exchange": "Nasdaq",
+          "ticker": "BZ"
+        }
+      ]
+    },
+    "status": "verified",
+    "source_ids": [
+      "k-list"
+    ]
+  },
+  "main_business": [
+    {
+      "value": "经营BOSS直聘等在线招聘服务，让求职者与企业直接沟通，并主要向企业出售招聘服务与增值工具。",
+      "status": "verified",
+      "source_ids": [
+        "k-product",
+        "k-business"
+      ]
+    }
+  ],
+  "revenue_mix": [
+    {
+      "value": {
+        "period": "2025-01-01/2025-12-31",
+        "currency": "CNY",
+        "unit": "thousand",
+        "total": 8267518,
+        "audited": false,
+        "parts": [
+          {
+            "business": "企业客户在线招聘服务",
+            "amount": 8192714,
+            "percent": 99.1,
+            "percent_basis": "按官方金额计算"
+          },
+          {
+            "business": "其他（主要为求职者付费增值服务）",
+            "amount": 74804,
+            "percent": 0.9,
+            "percent_basis": "按官方金额计算"
+          }
+        ]
+      },
+      "status": "verified",
+      "source_ids": [
+        "k-revenue"
+      ],
+      "note": "本公告为未经审计年度结果，已获审计委员会审阅；占比为计算值。2026中期定向搜索未命中目标，不能称本卡为最新财务全覆盖。"
+    }
+  ],
+  "products_customers": {
+    "products": {
+      "value": [
+        "BOSS直聘",
+        "企业招聘/增值工具",
+        "求职者增值工具"
+      ],
+      "status": "verified",
+      "source_ids": [
+        "k-product",
+        "k-business"
+      ]
+    },
+    "users": {
+      "value": "招聘方和求职者，基础沟通有免费服务。",
+      "status": "verified",
+      "source_ids": [
+        "k-product"
+      ]
+    },
+    "paying_customers": {
+      "value": "企业客户是主要付费方；少量收入来自求职者购买增值工具。",
+      "status": "verified",
+      "source_ids": [
+        "k-business",
+        "k-revenue"
+      ]
+    }
+  },
+  "recent_events": [],
+  "recent_disclosures": [
+    {
+      "event_date": null,
+      "disclosed_on": "2026-03-18",
+      "event_period": "2025年度",
+      "claim": {
+        "value": "年度公告披露优化部分求职者增值功能，相关其他收入由85,651千元降至74,804千元。公告发布时间在窗口内，未给出优化动作的具体发生日，不能列为已确认窗口内事件。",
+        "status": "verified",
+        "source_ids": [
+          "k-optimize"
+        ]
+      }
+    }
+  ],
+  "event_search_boundary": "窗口2025-10-12至2026-10-12；动作发生日未精确披露，该项属于窗口内发布的业务调整披露，不证明动作发生在窗口内；未找到合格裁员/融资/新上市事件。",
+  "id": "kanzhun",
+  "schema_version": "company-check-pilot-v1",
+  "as_of": "2026-10-12",
+  "status": "partial_evidence",
+  "scope": "公司公开信息；不等于具体岗位/签约主体核验",
+  "source_levels": {
+    "type": [
+      "未找到/本地记录"
+    ],
+    "display_name": [
+      "未找到/本地记录"
+    ],
+    "legal_name": [
+      "交易所/监管披露"
+    ],
+    "brand_names": [
+      "交易所/监管披露"
+    ],
+    "listing": [
+      "交易所/监管披露"
+    ],
+    "main_business": [
+      "交易所/监管披露"
+    ],
+    "revenue_mix": [
+      "交易所/监管披露"
+    ],
+    "products_customers": [
+      "交易所/监管披露"
+    ],
+    "recent_events": [
+      "未找到/本地记录"
+    ],
+    "recent_disclosures": [
+      "交易所/监管披露"
+    ],
+    "event_search_boundary": [
+      "未找到/本地记录"
+    ],
+    "id": [
+      "未找到/本地记录"
+    ],
+    "schema_version": [
+      "未找到/本地记录"
+    ],
+    "as_of": [
+      "未找到/本地记录"
+    ],
+    "status": [
+      "未找到/本地记录"
+    ],
+    "scope": [
+      "未找到/本地记录"
+    ]
+  },
+  "sources": {
+    "k-business": {
+      "title": "看准2025年度业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "paid enterprise customers",
+      "locator": "PDF第9页",
+      "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf",
+      "sha256": "8608ff118620c25351e393f3d3bdf2ae7f69504c2450d2c2f7d8ff2d12055119",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "kanzhun-direct-0"
+    },
+    "k-id": {
+      "title": "看准2025年度业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "KANZHUN LIMITED",
+      "locator": "PDF第1页",
+      "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf",
+      "sha256": "8608ff118620c25351e393f3d3bdf2ae7f69504c2450d2c2f7d8ff2d12055119",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "kanzhun-direct-0"
+    },
+    "k-list": {
+      "title": "看准2025年度业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "Nasdaq Stock Ticker: BZ",
+      "locator": "PDF第1页，港股2076",
+      "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf",
+      "sha256": "8608ff118620c25351e393f3d3bdf2ae7f69504c2450d2c2f7d8ff2d12055119",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "kanzhun-direct-0"
+    },
+    "k-optimize": {
+      "title": "看准2025年度业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": "2026-03-18",
+      "excerpt": "optimization",
+      "locator": "PDF第9页，求职者增值工具优化",
+      "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf",
+      "sha256": "8608ff118620c25351e393f3d3bdf2ae7f69504c2450d2c2f7d8ff2d12055119",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "kanzhun-direct-0"
+    },
+    "k-product": {
+      "title": "看准2025年度业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "direct recruitment model",
+      "locator": "PDF第4-5页",
+      "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf",
+      "sha256": "8608ff118620c25351e393f3d3bdf2ae7f69504c2450d2c2f7d8ff2d12055119",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "kanzhun-direct-0"
+    },
+    "k-revenue": {
+      "title": "看准2025年度业绩公告",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "8,192,714",
+      "locator": "PDF第8页，金额千元人民币",
+      "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf",
+      "sha256": "8608ff118620c25351e393f3d3bdf2ae7f69504c2450d2c2f7d8ff2d12055119",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "kanzhun-direct-0"
+    }
+  }
+}

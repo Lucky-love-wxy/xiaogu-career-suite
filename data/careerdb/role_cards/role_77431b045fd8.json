@@ -1,0 +1,216 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_77431b045fd8",
+  "node": "教育培训 › 幼少儿教师 › 保育员",
+  "family": "教育培训",
+  "parent_id": "教育培训 › 幼少儿教师",
+  "tier": "P2",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "教育培训 › 幼少儿教师 › 保育员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vYl5nM5z5",
+      "type": "recruitment_jd",
+      "title": "幼儿园保育员",
+      "company": "北京天清启典教育科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vYl5nM5z5.html",
+      "date": "2026-09-20",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责：\n1、根据管理与卫生要求，负责班级内部的全面清洁与消毒工作；\n2、照顾幼儿每日生活起居，全面照顾幼儿饮食、睡眠、仪表等相关工作；\n3、协助班主任做好幼儿的课堂、游戏、休息的陪护工作；\n公司介绍\n公司名称\n北京天清启典教育科技有限公司\n所属行业\n教育/培训/院校\n公司性质\n其他\n公司规模\n50-99人\n北京市海淀区北京市海淀区恩济里小区27号楼二层A212室",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYl5nM5z5.html",
+      "cache_sha256": "171a8432072f8d5dfa221c764e614bf31fbf6dc52659b4b6c82e48c27be7cafe"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vrU5NCtNL",
+      "url": "https://campus.niuqizp.com/job-vrU5NCtNL.html",
+      "role": "保教主任|幼儿教师|保育员|保健医|财务人员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "保育员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "保育员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "幼儿园保育员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：协助班主任做好幼儿的课堂、游戏、休息的陪护工作",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5nM5z5",
+          "text": "协助班主任做好幼儿的课堂、游戏、休息的陪护工作"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助班主任做好幼儿的课堂、游戏、休息的陪护工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5nM5z5",
+          "text": "协助班主任做好幼儿的课堂、游戏、休息的陪护工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据管理与卫生要求，负责班级内部的全面清洁与消毒工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5nM5z5",
+          "text": "根据管理与卫生要求，负责班级内部的全面清洁与消毒工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYl5nM5z5"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“教育学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "教育学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYl5nM5z5"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "幼儿园保育员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYl5nM5z5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

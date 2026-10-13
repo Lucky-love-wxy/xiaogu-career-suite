@@ -1,9 +1,9 @@
 # 医学生非临床方向 · 招聘说明核实（补充调研）
 
 - 日期：2026-10-05；执行：Claude（用户指示，web-access + 用户 Chrome CDP，只读，未投递、未发消息）
-- 承接：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/docs/research/major-destinations-2026-10.md（Codex，医学编辑 3 份 + CRC 3 份）
-- 数据：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/data/directions/role_postings_2026-10-05_claude.csv（21 行）
-- 证据：/Users/lucky_wang/Documents/codex/xiaogu-career-suite/evidence/role-postings-2026-10-05/（每份职位的页面正文 source.json；BOSS 搜索快照两份）
+- 承接：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/docs/research/major-destinations-2026-10.md（Codex，医学编辑 3 份 + CRC 3 份）
+- 数据：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/data/directions/role_postings_2026-10-05_claude.csv（21 行）
+- 证据：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/role-postings-2026-10-05/（每份职位的页面正文 source.json；BOSS 搜索快照两份）
 
 ## 方法与限制
 

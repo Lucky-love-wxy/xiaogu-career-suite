@@ -1,0 +1,145 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_58d5b039c9ba",
+  "node": "教育培训 › 职业培训 › 培训师",
+  "family": "教育培训",
+  "parent_id": "教育培训 › 职业培训",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "教育培训 › 职业培训 › 培训师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vws5tL5n5",
+      "type": "recruitment_jd",
+      "title": "眼视光培训师",
+      "company": "江苏恒美光学眼镜有限公司",
+      "url": "https://campus.niuqizp.com/job-vws5tL5n5.html",
+      "date": "2025-12-26",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "江苏恒美光学眼镜有限公司\n眼视光培训师\n3K-7K/月 广州市 大专及以上\n模拟面试\n发布时间：2025年12月26日\n职位描述\n岗位职责：\n视光学专业知识类，学习能力强，需要较快熟悉产品知识，可以很好的配合市场推广培训主要。 2.能够完成公司安排的培训任务，根据市场和客户需求，及时开发新课程，擅长ppt制作。\n单位简介\n暂无数据\n提示：在微信扫描关注，可以直接投递简历哟\n江苏恒美光学眼镜有限公司\n领域：\n规模：",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vws5tL5n5.html",
+      "cache_sha256": "69a93c22b44a1c3524193d7bf81af07d1229322d000ed5711e523490e005232a"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "培训师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "培训师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "眼视光培训师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vws5tL5n5"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "眼视光培训师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

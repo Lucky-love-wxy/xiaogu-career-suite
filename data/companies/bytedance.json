@@ -1,0 +1,266 @@
+{
+  "type": "private_large",
+  "display_name": "字节跳动",
+  "legal_name": {
+    "value": "ByteDance Ltd.（字节跳动有限公司）",
+    "status": "provisional",
+    "source_ids": [
+      "b-id"
+    ],
+    "note": "本轮法定集团名只得到百科，未取得工商/官方注册文件；境内多个抖音/字跳主体不等于集团。"
+  },
+  "brand_names": {
+    "value": [
+      "字节跳动",
+      "ByteDance"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "b-id"
+    ]
+  },
+  "listing": {
+    "value": {
+      "status": "未上市",
+      "venues": []
+    },
+    "status": "provisional",
+    "source_ids": [
+      "b-unlisted"
+    ],
+    "note": "百科Private及本轮未找到集团上市披露；不是监管的负面证明。TikTok美国合资重组不是集团IPO。"
+  },
+  "main_business": [
+    {
+      "value": "向个人提供抖音、今日头条、TikTok等内容平台，另有Lark等企业协作产品；这是业务线目录，不代表收入排名。",
+      "status": "verified",
+      "source_ids": [
+        "b-products",
+        "b-lark"
+      ]
+    },
+    {
+      "value": "商业化路径包括广告营销和企业软件/云服务收费，必须按JD所属业务线解释，不能套用集团统一收入比例。",
+      "status": "verified",
+      "source_ids": [
+        "b-ads",
+        "b-saas",
+        "b-cloud"
+      ]
+    }
+  ],
+  "revenue_mix": {
+    "value": "未找到",
+    "status": "not_found",
+    "source_ids": [],
+    "note": "未找到公开官方集团分业务收入构成；不将匿名媒体财务数据或业务规模当官方占比。"
+  },
+  "products_customers": {
+    "products": {
+      "value": [
+        "抖音",
+        "今日头条",
+        "TikTok",
+        "Lark/飞书",
+        "巨量引擎",
+        "火山引擎"
+      ],
+      "status": "verified",
+      "source_ids": [
+        "b-products",
+        "b-lark",
+        "b-ads",
+        "b-saas",
+        "b-cloud"
+      ]
+    },
+    "users": {
+      "value": "内容消费者/创作者和企业员工等各产品使用者。",
+      "status": "interpretation",
+      "source_ids": [
+        "b-products",
+        "b-lark"
+      ]
+    },
+    "paying_customers": {
+      "value": "广告主，以及购买企业软件或云/模型服务的组织；飞书有免费和付费版本，不能把员工都当购买方。",
+      "status": "verified",
+      "source_ids": [
+        "b-ads",
+        "b-saas",
+        "b-cloud"
+      ]
+    }
+  },
+  "recent_events": [
+    {
+      "event_date": "2026-01-23",
+      "claim": {
+        "value": "TikTok公告美国USDS合资公司成立，ByteDance持有19.9%；只用于解释美国业务结构，不能推出集团上市或全球TikTok所有权全部转让。",
+        "status": "verified",
+        "source_ids": [
+          "b-jv"
+        ]
+      }
+    }
+  ],
+  "event_search_boundary": "未找到可核验的集团近12月裁员/融资原创正文；不纳入匿名估值推算。",
+  "id": "bytedance",
+  "schema_version": "company-check-pilot-v1",
+  "as_of": "2026-10-12",
+  "status": "partial_evidence",
+  "scope": "公司公开信息；不等于具体岗位/签约主体核验",
+  "source_levels": {
+    "type": [
+      "未找到/本地记录"
+    ],
+    "display_name": [
+      "未找到/本地记录"
+    ],
+    "legal_name": [
+      "百科"
+    ],
+    "brand_names": [
+      "百科"
+    ],
+    "listing": [
+      "百科"
+    ],
+    "main_business": [
+      "公司官网"
+    ],
+    "revenue_mix": [
+      "未找到/本地记录"
+    ],
+    "products_customers": [
+      "公司官网"
+    ],
+    "recent_events": [
+      "公司官网"
+    ],
+    "event_search_boundary": [
+      "未找到/本地记录"
+    ],
+    "id": [
+      "未找到/本地记录"
+    ],
+    "schema_version": [
+      "未找到/本地记录"
+    ],
+    "as_of": [
+      "未找到/本地记录"
+    ],
+    "status": [
+      "未找到/本地记录"
+    ],
+    "scope": [
+      "未找到/本地记录"
+    ]
+  },
+  "sources": {
+    "b-ads": {
+      "title": "巨量引擎营销资源",
+      "url": "https://m.oceanengine.com/help/yingxiaoziyuan",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "广告",
+      "locator": "官方帮助页；商业产品与广告主资源",
+      "snapshot": "evidence/company-check-2026-10/bytedance-final-direct-0.html",
+      "sha256": "6f4ff9029212bb571b9c093a5098545dab44e98d13eb3ffbbfd04f93e56f29c4",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-final-direct-0"
+    },
+    "b-cloud": {
+      "title": "火山方舟模型服务计费",
+      "url": "https://docs.volcengine.com/docs/ark/model-service-pricing?lang=zh",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "按 token 后付费",
+      "locator": "官方产品计费文档公开正文，页面显示登录/注册入口",
+      "snapshot": "evidence/company-check-2026-10/bytedance-cloud-cdp.json",
+      "sha256": "446ba4a8f4c121a4688361163d2299babeb2fa41ef3035f4cff2f0cb44339297",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "bytedance-cloud-cdp"
+    },
+    "b-id": {
+      "title": "ByteDance百科",
+      "url": "https://en.wikipedia.org/wiki/ByteDance",
+      "level": "百科",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "ByteDance Ltd.",
+      "locator": "信息框",
+      "snapshot": "evidence/company-check-2026-10/bytedance-supp-direct-6.html",
+      "sha256": "5fe2b310bc8c5a4a39a6bbc6525055962049e795f54c4ee17c024f0bd8e38673",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-supp-direct-6"
+    },
+    "b-jv": {
+      "title": "TikTok美国合资公司成立公告",
+      "url": "https://newsroom.tiktok.com/announcement-from-the-new-tiktok-usds-joint-venture-llc?lang=en",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": "2026-01-23",
+      "excerpt": "ByteDance retains 19.9%",
+      "locator": "2026-01-23",
+      "snapshot": "evidence/company-check-2026-10/bytedance-supp-direct-0.html",
+      "sha256": "343d2e67abbaaa606f25bfa6e926ddedc72187161d01dca6590d4ad32e418db0",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-supp-direct-0"
+    },
+    "b-lark": {
+      "title": "ByteDance产品页",
+      "url": "https://www.bytedance.com/en/products",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "Lark",
+      "locator": "官网产品目录",
+      "snapshot": "evidence/company-check-2026-10/bytedance-direct-2.html",
+      "sha256": "bff8275c6708e643cf0a8f16885217940e74df94b7fed02d8992edcbf6c000b6",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-direct-2"
+    },
+    "b-products": {
+      "title": "ByteDance产品页",
+      "url": "https://www.bytedance.com/en/products",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "Douyin",
+      "locator": "官网产品目录",
+      "snapshot": "evidence/company-check-2026-10/bytedance-direct-2.html",
+      "sha256": "bff8275c6708e643cf0a8f16885217940e74df94b7fed02d8992edcbf6c000b6",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-direct-2"
+    },
+    "b-saas": {
+      "title": "飞书定价版本介绍",
+      "url": "https://www.feishu.cn/hc/zh-CN/articles/360049067600-%E9%A3%9E%E4%B9%A6%E5%9F%BA%E7%A1%80%E7%89%88-%E5%95%86%E4%B8%9A%E7%89%88-%E4%BC%81%E4%B8%9A%E7%89%88%E4%BB%8B%E7%BB%8D",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "商业版和企业版需要另外购买",
+      "locator": "未带Cookie的静态HTML meta description；公开文档摘要",
+      "snapshot": "evidence/company-check-2026-10/bytedance-final-direct-1.html",
+      "sha256": "bdcdd94de528361b3f8b002149e47c914439aa2d0b9c92dd591a3796d993423b",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-final-direct-1"
+    },
+    "b-unlisted": {
+      "title": "ByteDance百科",
+      "url": "https://en.wikipedia.org/wiki/ByteDance",
+      "level": "百科",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "Private",
+      "locator": "信息框，非证券监管负面证明",
+      "snapshot": "evidence/company-check-2026-10/bytedance-supp-direct-6.html",
+      "sha256": "5fe2b310bc8c5a4a39a6bbc6525055962049e795f54c4ee17c024f0bd8e38673",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "bytedance-supp-direct-6"
+    }
+  }
+}

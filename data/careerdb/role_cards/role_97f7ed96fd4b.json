@@ -1,0 +1,272 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_97f7ed96fd4b",
+  "node": "互联网/AI › 数据 › 数据采集",
+  "family": "互联网/AI",
+  "parent_id": "互联网/AI › 数据",
+  "tier": "P2",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 3,
+  "upstream_sample_n": 4,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "互联网/AI › 数据 › 数据采集",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vkUNL5tCM",
+      "type": "recruitment_jd",
+      "title": "具身AI数据采集",
+      "company": "泰盈科技集团股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vkUNL5tCM.html",
+      "date": "2026-10-01",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "携带具身采集设备（头戴式摄像头）根据要求录制采集工作场景用于机器人的培训养成",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vkUNL5tCM.html",
+      "cache_sha256": "183302fe6a705ce0a80a510fcd08198c11d5e9c6fee9bc1b8dc0b36cf340fcd8"
+    },
+    {
+      "id": "vrl5ztLtn",
+      "type": "recruitment_jd",
+      "title": "数据采集师",
+      "company": "河北省智引产教融合研究中心",
+      "url": "https://campus.niuqizp.com/job-vrl5ztLtn.html",
+      "date": "2026-05-27",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "河北省智引产教融合研究中心\n数据采集师\n4K-6K/月 北京 北京市 本科及以上\n模拟面试\n职位诱惑：岗前培训 绩效奖金 免费班车\n发布时间：2026年5月26日\n职位描述\n岗位职责：\n主要负责信息的录入和采集等工作\n岗位要求：\n认真负责 要求计算机相关专业的学生\n投递说明：\n提交简历初试\n面试\n上岗\n单位简介\n主要技术开发技术服务等\n提示：在微信扫描关注，可以直接投递简历哟\n河北省智引产教融合研究中心\n领域：科学研究和技术服务业\n规模：50-150人",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrl5ztLtn.html",
+      "cache_sha256": "1906d25d2d98c8927870117c1bae6ae91b8751bd25dfbab6b66d131d4eefd7c1"
+    },
+    {
+      "id": "vsU5nNzCC",
+      "type": "recruitment_jd",
+      "title": "数据采集师",
+      "company": "贵州具身宝信息技术有限公司",
+      "url": "https://campus.niuqizp.com/job-vsU5nNzCC.html",
+      "date": "2026-09-15",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "数据采集师\n公司介绍\n公司名称\n贵州具身宝信息技术有限公司",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vsU5nNzCC.html",
+      "cache_sha256": "d6f5cf63aa015490fa524b54c210d341f549a9e1088f4204bf20f003c28dff49"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vsU5ZaZtC",
+      "url": "https://campus.niuqizp.com/job-vsU5ZaZtC.html",
+      "role": "具身智能数据采集员|数据质检员|数据处理员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "数据采集",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "数据采集"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "数据采集师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "具身AI数据采集",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkUNL5tCM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkUNL5tCM",
+          "vsU5nNzCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vrl5ztLtn"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkUNL5tCM",
+          "vsU5nNzCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vrl5ztLtn"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "数据采集师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "具身AI数据采集",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vkUNL5tCM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

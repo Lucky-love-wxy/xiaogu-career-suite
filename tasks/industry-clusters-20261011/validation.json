@@ -1,0 +1,4817 @@
+{
+  "status": "PASS",
+  "source_units": 20,
+  "entries": 545,
+  "p1_roles": 50,
+  "successful_links": 387,
+  "unmapped_roles": 22,
+  "spot_checks": [
+    {
+      "source_unit": "L01",
+      "no": 5,
+      "page": 1,
+      "name": "南京市软件和信息服务集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2022.pdf",
+      "sha256": "0587e2d1fc24a6bfdd5590a8511f831d6dcd1d31b671f986f78e2284ba67d194",
+      "match": true
+    },
+    {
+      "source_unit": "L01",
+      "no": 37,
+      "page": 2,
+      "name": "上海市张江生物医药集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2022.pdf",
+      "sha256": "0587e2d1fc24a6bfdd5590a8511f831d6dcd1d31b671f986f78e2284ba67d194",
+      "match": true
+    },
+    {
+      "source_unit": "L01",
+      "no": 38,
+      "page": 2,
+      "name": "深圳市、广州市高端医疗器械集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2022.pdf",
+      "sha256": "0587e2d1fc24a6bfdd5590a8511f831d6dcd1d31b671f986f78e2284ba67d194",
+      "match": true
+    },
+    {
+      "source_unit": "L01",
+      "no": 39,
+      "page": 2,
+      "name": "苏州市生物医药及高端医疗器械集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2022.pdf",
+      "sha256": "0587e2d1fc24a6bfdd5590a8511f831d6dcd1d31b671f986f78e2284ba67d194",
+      "match": true
+    },
+    {
+      "source_unit": "L01",
+      "no": 40,
+      "page": 2,
+      "name": "泰州市、连云港市、无锡市生物医药集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2022.pdf",
+      "sha256": "0587e2d1fc24a6bfdd5590a8511f831d6dcd1d31b671f986f78e2284ba67d194",
+      "match": true
+    },
+    {
+      "source_unit": "L02",
+      "no": 19,
+      "page": 2,
+      "name": "北京海淀人工智能集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2024.pdf",
+      "sha256": "353545f117d2359c1bf5fdd17faae918e0756064f3bf998a5bef607c797fc09b",
+      "match": true
+    },
+    {
+      "source_unit": "L02",
+      "no": 30,
+      "page": 2,
+      "name": "成渝地区生物医药集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/advanced-2024.pdf",
+      "sha256": "353545f117d2359c1bf5fdd17faae918e0756064f3bf998a5bef607c797fc09b",
+      "match": true
+    },
+    {
+      "source_unit": "L03",
+      "no": 2,
+      "page": 1,
+      "name": "北京市大兴区医疗器械产业集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/sme-2023.pdf",
+      "sha256": "5fca6a6e4a9cd4f3b3b0881e0f1e1110aa47dac35364ac4ce8955271034bc840",
+      "match": true
+    },
+    {
+      "source_unit": "L03",
+      "no": 7,
+      "page": 1,
+      "name": "天津市滨海新区生物医药外包服务产业集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/sme-2023.pdf",
+      "sha256": "5fca6a6e4a9cd4f3b3b0881e0f1e1110aa47dac35364ac4ce8955271034bc840",
+      "match": true
+    },
+    {
+      "source_unit": "L04",
+      "no": 75,
+      "page": 4,
+      "name": "广东省东莞市石排镇潮流玩具产业集群",
+      "source_file": "/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/evidence/industry-clusters-2026-10/national/sme-2025.pdf",
+      "sha256": "697e604f3e067882ed56bfba096324dc5334b95af3fdced017f4acfaad51c7c3",
+      "match": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "L01 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L01 complete source unit",
+      "pass_": true,
+      "detail": 45
+    },
+    {
+      "check": "L01 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L01 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L02 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L02 complete source unit",
+      "pass_": true,
+      "detail": 35
+    },
+    {
+      "check": "L02 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L02 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L03 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L03 complete source unit",
+      "pass_": true,
+      "detail": 100
+    },
+    {
+      "check": "L03 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L03 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L04 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L04 complete source unit",
+      "pass_": true,
+      "detail": 100
+    },
+    {
+      "check": "L04 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L04 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L05 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L05 complete source unit",
+      "pass_": true,
+      "detail": 21
+    },
+    {
+      "check": "L05 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L05 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L06 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L06 complete source unit",
+      "pass_": true,
+      "detail": 10
+    },
+    {
+      "check": "L06 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L06 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L07 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L07 complete source unit",
+      "pass_": true,
+      "detail": 6
+    },
+    {
+      "check": "L07 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L07 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L08 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L08 complete source unit",
+      "pass_": true,
+      "detail": 7
+    },
+    {
+      "check": "L08 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L08 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L09 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L09 complete source unit",
+      "pass_": true,
+      "detail": 5
+    },
+    {
+      "check": "L09 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L09 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L10 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L10 complete source unit",
+      "pass_": true,
+      "detail": 2
+    },
+    {
+      "check": "L10 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L10 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L11 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L11 complete source unit",
+      "pass_": true,
+      "detail": 18
+    },
+    {
+      "check": "L11 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L11 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L12 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L12 complete source unit",
+      "pass_": true,
+      "detail": 57
+    },
+    {
+      "check": "L12 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L12 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L13 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L13 complete source unit",
+      "pass_": true,
+      "detail": 40
+    },
+    {
+      "check": "L13 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L13 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L14 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L14 complete source unit",
+      "pass_": true,
+      "detail": 35
+    },
+    {
+      "check": "L14 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L14 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L15 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L15 complete source unit",
+      "pass_": true,
+      "detail": 53
+    },
+    {
+      "check": "L15 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L15 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L16 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L16 complete source unit",
+      "pass_": true,
+      "detail": 5
+    },
+    {
+      "check": "L16 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L16 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L17 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L17 complete source unit",
+      "pass_": true,
+      "detail": 3
+    },
+    {
+      "check": "L17 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L17 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L18 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L18 complete source unit",
+      "pass_": true,
+      "detail": 1
+    },
+    {
+      "check": "L18 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L18 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L19 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L19 complete source unit",
+      "pass_": true,
+      "detail": 1
+    },
+    {
+      "check": "L19 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L19 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L20 source hash",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L20 complete source unit",
+      "pass_": true,
+      "detail": 1
+    },
+    {
+      "check": "L20 unique no",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "L20 quote length",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "source unit count and total",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "all 50 roles",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 科研岗（博士后/研究助理）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:38 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:2 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L08:3 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗产品技术支持",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学事务/医学信息",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物分析",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 临床协调员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药代表",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 临床监查员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 针灸推拿",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医学理赔/核保",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 产品经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 健康顾问",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物合成",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 营养师/健康管理师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 制剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 康复治疗师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药物警戒",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物信息工程师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 数据标注/AI训练师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医学编辑",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 保险理赔",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学AI/生物医学大模型",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 理疗师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药理毒理研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 大模型算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床医学经理/专员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 公共卫生/疾控",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 期刊/学术编辑",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:38 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:2 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L08:3 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械销售",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医疗机构运营管理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 生物学研究人员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医学运营",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 药品生产",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 心理咨询师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医美咨询",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 英语翻译",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:38 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:2 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L08:3 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 试剂研发",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医保/医院管理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 临床数据管理/生物统计",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 药店店员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 算法研究员",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 医务管理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药项目经理",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:5 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:10 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L02:19 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L10:1 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页25 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页27 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页29 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页31 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举1 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举2 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举3 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举4 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L16:正文列举5 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举1 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举2 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L17:正文列举3 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L18:一 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L19:一 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L20:一 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 图像算法",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医学写作",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:38 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:2 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L08:3 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医疗器械注册",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 执业药师/驻店药师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "unmapped reason 口腔咨询师",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:37 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:39 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L01:40 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:7 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:29 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:66 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L03:79 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页11 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页13 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页15 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页17 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页19 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页21 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "link lineage L15:印刷页23 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "role inference marked 医药市场（产品/品牌）",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "original spot L01:5",
+      "pass_": true,
+      "detail": "南京市软件和信息服务集群"
+    },
+    {
+      "check": "original spot L01:37",
+      "pass_": true,
+      "detail": "上海市张江生物医药集群"
+    },
+    {
+      "check": "original spot L01:38",
+      "pass_": true,
+      "detail": "深圳市、广州市高端医疗器械集群"
+    },
+    {
+      "check": "original spot L01:39",
+      "pass_": true,
+      "detail": "苏州市生物医药及高端医疗器械集群"
+    },
+    {
+      "check": "original spot L01:40",
+      "pass_": true,
+      "detail": "泰州市、连云港市、无锡市生物医药集群"
+    },
+    {
+      "check": "original spot L02:19",
+      "pass_": true,
+      "detail": "北京海淀人工智能集群"
+    },
+    {
+      "check": "original spot L02:30",
+      "pass_": true,
+      "detail": "成渝地区生物医药集群"
+    },
+    {
+      "check": "original spot L03:2",
+      "pass_": true,
+      "detail": "北京市大兴区医疗器械产业集群"
+    },
+    {
+      "check": "original spot L03:7",
+      "pass_": true,
+      "detail": "天津市滨海新区生物医药外包服务产业集群"
+    },
+    {
+      "check": "original spot L04:75",
+      "pass_": true,
+      "detail": "广东省东莞市石排镇潮流玩具产业集群"
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/advanced-2022.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/advanced-2024.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/sme-2023.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/sme-2025.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/mof_outsource_2015.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/mof_outsource_2016.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/mofcom_outsource_2021.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/beijing-2024.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/beijing-2025.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/beijing-2026.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/zhejiang-2025-parks.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/sichuan-2025.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/shanghai-2022.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/ai-pilot-2021.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/ai-pilot-2022.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/ai-trial-zhengzhou.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/ai-trial-shenyang.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/ai-trial-harbin.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/advanced-2022-gov.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/innovation-confirm-2022.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/national/sme-2025-hebei.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/ndrc_strategy_2021.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/ndrc_strategy_66.png",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/ndrc_bio_2023.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/mofcom_platform_2026.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_econ_2023_index.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_region_2024.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/mofcom_outsource_2021.pdf",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_econ_contents.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_econ_copyright.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_province_industry_units.jpg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_province_industry_employment.jpg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/copyright_law_ncac.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/ndrc_hightech_definition_2009.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/alternatives/stats_copyright.jpg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/shanghai-catalog.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/guangdong-policy.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/beijing-2025.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/hightech-2025.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/beijing-2026.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/shanghai-catalog.jpeg",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/beijing-clusters.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/jiangsu-biomed-plan.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/zhejiang-carriers.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/sichuan-answer.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/ai-guide.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/regional/hightech-2024.html",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/software/notice-web-extract.txt",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "registry source hash evidence/industry-clusters-2026-10/examples/toy-shantou-web-result.txt",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "sample all 50",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "sample grain",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "sample input frozen research_queue.csv",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "sample input frozen postings_mapped.jsonl",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "sample input frozen postings.jsonl",
+      "pass_": true,
+      "detail": ""
+    },
+    {
+      "check": "report required sections",
+      "pass_": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_b76200fd9423",
+  "node": "销售 › 销售 › 客户经理",
+  "family": "销售",
+  "parent_id": "销售 › 销售",
+  "tier": "P2",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 3,
+  "upstream_sample_n": 3,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 销售 › 客户经理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vYU5nzMCC",
+      "type": "recruitment_jd",
+      "title": "客户经理",
+      "company": "中国工商银行股份有限公司上饶分行",
+      "url": "https://campus.niuqizp.com/job-vYU5nzMCC.html",
+      "date": "2026-09-18",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "由于系统设置问题，详细见公告和职位表。\n公司介绍\n公司名称\n中国工商银行股份有限公司上饶分行\n所属行业\n投资/基金/证券/期货\n公司性质\n国有企业\n公司规模\n5000以上\n江西省上饶市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYU5nzMCC.html",
+      "cache_sha256": "7161cb08c9db7dcf106cf795e25584f352248380b11f50815a8042be4608fe2d"
+    },
+    {
+      "id": "vlr5aMnaM",
+      "type": "recruitment_jd",
+      "title": "客户经理",
+      "company": "中国工商银行股份有限公司温州分行",
+      "url": "https://campus.niuqizp.com/job-vlr5aMnaM.html",
+      "date": "2026-09-07",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "主要为零售与对公金融营销岗位引进适用性人才。\n公司介绍\n公司名称\n中国工商银行股份有限公司温州分行\n所属行业\n投资/基金/证券/期货\n公司性质\n国有企业\n公司规模\n1000-4999人\n浙江省温州市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vlr5aMnaM.html",
+      "cache_sha256": "d22b5d45e6f162aa9652919da957f73c7e098a77331a215496b8f66b05230e91"
+    },
+    {
+      "id": "vm85C5nMa",
+      "type": "recruitment_jd",
+      "title": "数字化营销客户经理（不限专业）",
+      "company": "广州酷乐电子商务有限公司",
+      "url": "https://campus.niuqizp.com/job-vm85C5nMa.html",
+      "date": "2026-09-08",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "【工资待遇】\n底薪+专享福利+五险一金+各项激励+愉悦的工作氛围，只要你够努力，你想要的这里都能实现。\n【我们有的】\n1.愉悦的工作氛围，年轻态的工作伙伴，95后伙伴居多。\n2.各种娱乐活动，如果你喜欢运动、游戏，这里就是你的天堂。\n3.入职既买五险一金，转正后享受过节费、高低温奖、生日津贴等。\n4.无需外出，无需自己找客户，公司提供高质量客户资源\n公司介绍\n公司名称\n广州酷乐电子商务有限公司\n所属行业\n贸易/进出口\n公司性质\n民营企业\n公司规模\n500-999人\n广东省韶关市广州市\n公司官网",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vm85C5nMa.html",
+      "cache_sha256": "a1298bf356389449514a389d82e73fc13f24be5de282d744fb8cb9a8ef4fd9a0"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "客户经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "客户经理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "客户经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "数字化营销客户经理（不限专业）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vm85C5nMa"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC",
+          "vlr5aMnaM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vm85C5nMa"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vlr5aMnaM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“数学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "数学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“经济与贸易类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济与贸易类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vlr5aMnaM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC",
+          "vlr5aMnaM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "客户经理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "数字化营销客户经理（不限专业）",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

@@ -109,7 +109,9 @@ class WebAgentHarnessTests(unittest.TestCase):
         provider = ScriptedProvider(["", "not json", good(["Z1"])])
         result = agent.Agent(provider).handle(None, "帮我看看这个岗位：\n" + JD)
         self.assertEqual(result["status"], "blocked")
-        self.assertIn("**受阻原因**", result["text"])
+        # 2026-10-12：对话里出错说一句平常话，仍要说清原因，不再套“受阻原因”报告标题
+        self.assertIn("没通过核对", result["text"])
+        self.assertNotIn("**", result["text"])
 
     def test_injection_in_pasted_text_stays_inside_data_block(self):
         provider = ScriptedProvider([good(["J1"])])
@@ -190,6 +192,42 @@ class WebAgentHarnessTests(unittest.TestCase):
     def test_job_search_is_blocked_in_sim(self):
         result = agent.Agent(agent.MockProvider()).handle(None, "帮我在BOSS直聘找上海的算法岗位")
         self.assertEqual(result["status"], "blocked")
+
+    # 2026-10-11 回归：贴过 JD 后追问“半年该怎么准备”，聊天任务的提示词却写“用户没有提供招聘说明”
+    OPS_JD = ("【产品运营实习生】\n岗位职责：\n1. 负责用户社群的日常运营，拉新促活，提升用户粘性；\n2. 协助策划线上活动，跟进活动数据并复盘；\n"
+              "3. 对接设计、研发同学，推动需求落地；\n任职要求：\n1. 本科及以上在读，每周到岗 4 天以上，可实习 6 个月；\n"
+              "2. 抗压能力强，能适应快节奏，有 owner 意识；\n3. 有自驱力，结果导向，拥抱变化。")
+    FOLLOWUP = "我是大三学生，想往这个方向走，接下来半年该怎么准备？"
+
+    def test_followup_chat_after_jd_keeps_jd_and_open_questions(self):
+        analysis = json.dumps({"answer": "这是产品运营实习。", "evidence_ids": ["J1"], "inferences": [],
+                               "unknown": ["“抗压能力强”具体指什么压力", "从业者的实际说法：当前环境不能联网，以上判断只基于招聘说明和资料库"],
+                               "next_action": None}, ensure_ascii=False)
+        for intent in ("direction", "general_advice", "progress"):
+            with self.subTest(intent=intent):
+                provider = ScriptedProvider([analysis, self.chat("好的。")], intent=intent, role=None)
+                a = agent.Agent(provider)
+                sid = a.handle(None, self.OPS_JD)["session_id"]
+                a.handle(sid, self.FOLLOWUP)
+                prompt = provider.prompts[-1]
+                self.assertNotIn("（用户没有提供招聘说明：", prompt)
+                self.assertIn("<job_description>\n【产品运营实习生】", prompt)  # 完整 JD 单独成块，不靠 300 字截断的对话记录
+                self.assertIn("“抗压能力强”具体指什么压力", prompt)
+                self.assertNotIn("从业者的实际说法", prompt)  # 服务端追加的来源状态句不算 JD 的开放问题
+
+    def test_chat_without_jd_still_says_no_jd(self):
+        provider = ScriptedProvider([self.chat("好的。")], intent="general_advice", role=None)
+        agent.Agent(provider).handle(None, self.FOLLOWUP)
+        self.assertIn("（用户没有提供招聘说明：", provider.prompts[-1])
+
+    def test_chat_mentioning_jd_is_not_rejected_when_jd_known(self):
+        analysis = json.dumps({"answer": "这是产品运营实习。", "evidence_ids": ["J1"], "inferences": [], "unknown": [], "next_action": None}, ensure_ascii=False)
+        provider = ScriptedProvider([analysis, self.chat("这份招聘说明里一般要求的社群运营，可以先从校园社群做起。")], intent="general_advice", role=None)
+        a = agent.Agent(provider)
+        sid = a.handle(None, self.OPS_JD)["session_id"]
+        result = a.handle(sid, self.FOLLOWUP)
+        self.assertEqual(result["status"], "complete")
+        self.assertEqual(provider.calls, 2)  # 一次通过，没有因“没贴 JD”被打回重写
 
 
 class StubDeepSeek(BaseHTTPRequestHandler):
@@ -289,3 +327,167 @@ class ProcessStreamTests(unittest.TestCase):
             self.assertIn("**结论**", events[-1]["text"])
         finally:
             httpd.shutdown()
+
+
+class ConversationFeelTests(unittest.TestCase):
+    """2026-10-12 人机感排查（notes/2026-10-12-对话人机感-debug.md）修复后的行为，防止退回。"""
+
+    def test_classifier_resolves_shorthand_pick_of_candidate(self):
+        # “互联网PM”字面上对不上“互联网产品经理（通用方向）”，由分类器给出序号
+        class Picker(ScriptedProvider):
+            def complete(self, messages):
+                if "意图分类器" in messages[0]["content"]:
+                    self.classified += 1
+                    self.system = messages[0]["content"]
+                    return json.dumps({"intent": "direction", "role": None, "pick": 2})
+                return super().complete(messages)
+        provider = Picker([good([])])
+        a = agent.Agent(provider)
+        session = a.session(None)
+        session.candidates = ["医疗健康产品经理", "互联网产品经理（通用方向）", "医疗信息化实施助理"]
+        result = a.handle(session.id, "互联网PM")
+        self.assertEqual(result["trace"]["route_by"], "candidate")
+        self.assertEqual(result["trace"]["role"], "互联网产品经理（通用方向）")
+        self.assertIn("2. 互联网产品经理（通用方向）", provider.system)
+
+    def test_out_of_range_pick_is_ignored(self):
+        class BadPick(ScriptedProvider):
+            def complete(self, messages):
+                if "意图分类器" in messages[0]["content"]:
+                    return json.dumps({"intent": "direction", "role": None, "pick": 9})
+                return super().complete(messages)
+        a = agent.Agent(BadPick([json.dumps({"answer": "好的，换个方向看看。", "evidence_ids": [], "next_action": "你更想先了解哪一个？",
+                                             "candidates": [{"role": "A岗", "reason": "x"}, {"role": "B岗", "reason": "y"}]})]))
+        session = a.session(None)
+        session.candidates = ["A岗", "B岗"]
+        result = a.handle(session.id, "都不太想")
+        self.assertNotEqual(result["trace"]["route_by"], "candidate")
+
+    def test_greeting_is_chat_without_disclaimer(self):
+        provider = ScriptedProvider([json.dumps({"answer": "你好呀，我是小谷。", "evidence_ids": [], "next_action": "你现在在找工作的哪一步？"})],
+                                    intent="greeting", role=None)
+        result = agent.Agent(provider).handle(None, "你好")
+        self.assertEqual(result["trace"]["route"]["task"], "greeting")
+        self.assertEqual(result["style"], "chat")
+        self.assertNotIn("一般性建议", result["text"])
+        self.assertNotIn("**", result["text"])
+
+    def test_general_advice_note_is_a_label_not_body_text(self):
+        provider = ScriptedProvider([json.dumps({"answer": "谈薪时先问清固定部分。", "evidence_ids": [], "next_action": None})],
+                                    intent="general_advice", role=None)
+        result = agent.Agent(provider).handle(None, "offer 怎么谈薪？")
+        self.assertEqual(result["note"], agent.GENERAL_NOTE)
+        self.assertNotIn("不来自小谷", result["text"])
+        self.assertNotIn("不来自小谷", provider.prompts[0] + "")  # 提示词也不再要求写免责句
+
+    def test_role_without_jd_is_chat_not_report(self):
+        provider = ScriptedProvider([good([])], intent="job_understanding", role="产品经理")
+        result = agent.Agent(provider).handle(None, "产品经理每天做什么")
+        self.assertEqual(result["style"], "chat")
+        self.assertNotIn("**结论**", result["text"])
+        self.assertNotIn("仍需确认", result["text"])
+
+    def test_mentioning_this_company_without_jd_is_rejected(self):
+        bad = json.dumps({"answer": "这家公司的产品经理主要写需求。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)
+        provider = ScriptedProvider([bad, good([])], intent="job_understanding", role="产品经理")
+        result = agent.Agent(provider).handle(None, "产品经理每天做什么")
+        self.assertEqual(result["status"], "complete")
+        self.assertEqual(len(result["trace"]["attempts"]), 2)
+
+
+class ConversationFeelRound2Tests(unittest.TestCase):
+    """2026-10-12 真实接口回归第一轮暴露的问题（evals/dialogue/2026-10-12-round1.md）。"""
+
+    def test_followup_on_analyzed_jd_does_not_redo_full_report(self):
+        provider = ScriptedProvider([good(["J1"]), json.dumps({"answer": "招聘说明写的是“2年以上APP产品经验”，应届可以先问有没有校招通道。",
+                                                               "evidence_ids": [], "next_action": None}, ensure_ascii=False)])
+        a = agent.Agent(provider)
+        first = a.handle(None, "帮我看看这个岗位：\n" + JD)
+        self.assertIn("**结论**", first["text"])
+        second = a.handle(first["session_id"], "我是应届生，这个能投吗")
+        self.assertEqual(second["trace"]["route"]["task"], "jd_followup")
+        self.assertEqual(second["style"], "chat")
+        self.assertIn("<job_description>", provider.prompts[-1])
+
+    def test_self_note_next_action_is_rejected(self):
+        bad = json.dumps({"answer": "第一次找工作不知道投什么很正常。", "evidence_ids": [], "next_action": "问问对方的专业和年级"}, ensure_ascii=False)
+        ok = json.dumps({"answer": "第一次找工作不知道投什么很正常。", "evidence_ids": [], "next_action": "你是什么专业、现在大几？"}, ensure_ascii=False)
+        result = agent.Agent(ScriptedProvider([bad, ok], intent="direction", role=None)).handle(None, "我不知道投什么")
+        self.assertEqual(len(result["trace"]["attempts"]), 2)
+        self.assertNotIn("问问对方", result["text"])
+
+    def test_question_only_once_when_answer_already_asks(self):
+        out = json.dumps({"answer": "很正常。你是什么专业？", "evidence_ids": [], "next_action": "你是什么专业、现在大几？"}, ensure_ascii=False)
+        result = agent.Agent(ScriptedProvider([out], intent="direction", role=None)).handle(None, "我不知道投什么")
+        self.assertEqual(result["text"].count("？"), 1)
+
+    def test_dialogue_memory_includes_what_xiaogu_said(self):
+        first = json.dumps({"answer": "产品经理主要是想清楚做什么并推动上线。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)
+        second = json.dumps({"answer": "一般不用写代码。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)
+        provider = ScriptedProvider([first, second], intent="general_advice", role=None)
+        a = agent.Agent(provider)
+        r = a.handle(None, "产品经理干啥")
+        a.handle(r["session_id"], "要会写代码吗")
+        self.assertIn("小谷说（节选）：产品经理主要是想清楚做什么并推动上线。", provider.prompts[-1])
+
+
+class ConversationFeelRound3Tests(unittest.TestCase):
+    """2026-10-12 回归第二轮（evals/dialogue/2026-10-12-round2.md）。"""
+
+    def test_regex_routed_followup_on_analyzed_jd_is_followup(self):
+        provider = ScriptedProvider([good(["J1"]), json.dumps({"answer": "可以先问有没有校招通道。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)])
+        a = agent.Agent(provider)
+        first = a.handle(None, "帮我看看这个岗位：\n" + JD)
+        second = a.handle(first["session_id"], "这个岗位应届生能投吗")
+        self.assertEqual(second["trace"]["route"]["task"], "jd_followup")
+
+    def test_evidence_ids_are_removed_from_chat_text(self):
+        out = json.dumps({"answer": "新人更多是在传话、催进度（R2）。真正做得好的人能推动落地（R1、R3）。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)
+        result = agent.Agent(ScriptedProvider([out], intent="general_advice", role=None)).handle(None, "产品经理干啥")
+        self.assertNotRegex(result["text"], r"[（(]R\d")
+
+    def test_near_duplicate_closing_line_is_dropped(self):
+        out = json.dumps({"answer": "先别急。\n\n现在最值得做的一件事：把你投过的岗位按对口程度分个类，挑出最对口的3个，我们一起来看看。",
+                          "evidence_ids": [], "next_action": "把你投过的岗位按对口程度分个类，挑出最想去的3个，我们一起看看。"}, ensure_ascii=False)
+        result = agent.Agent(ScriptedProvider([out], intent="progress", role=None)).handle(None, "投了50份没回音")
+        self.assertEqual(result["text"].count("对口程度"), 1)
+
+
+class FollowupRoleGuardTests(unittest.TestCase):
+    def test_inferred_role_name_does_not_break_followup(self):
+        provider = ScriptedProvider([good(["J1"]), json.dumps({"answer": "可以先问有没有校招通道。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)],
+                                    intent="job_understanding", role="推荐算法实习生")
+        a = agent.Agent(provider)
+        first = a.handle(None, "帮我看看这个岗位：\n" + JD)
+        second = a.handle(first["session_id"], "我是应届生，这个能投吗")
+        self.assertEqual(second["trace"]["route"]["task"], "jd_followup")
+
+    def test_explicitly_named_new_role_is_analyzed_fresh(self):
+        provider = ScriptedProvider([good(["J1"]), good([])], intent="job_understanding", role="会计")
+        a = agent.Agent(provider)
+        first = a.handle(None, "帮我看看这个岗位：\n" + JD)
+        second = a.handle(first["session_id"], "那会计每天做什么")
+        self.assertNotEqual(second["trace"]["route"]["task"], "jd_followup")
+
+
+class HeavyIntentGuardTests(unittest.TestCase):
+    """分类器把普通的话判成重型功能时，代码降级（2026-10-12 回归第 5 轮）。"""
+
+    def test_plain_answer_misclassified_as_resume_is_downgraded(self):
+        provider = ScriptedProvider([json.dumps({"answer": "汉语言文学能投的方向挺多。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)],
+                                    intent="resume_for_job", role=None)
+        result = agent.Agent(provider).handle(None, "我是汉语言文学专业的")
+        self.assertEqual(result["status"], "complete")
+        self.assertEqual(result["trace"]["intent_guard"], "resume_for_job→general_advice")
+
+    def test_asking_what_to_ask_in_interview_does_not_start_practice(self):
+        provider = ScriptedProvider([good(["J1"]), json.dumps({"answer": "可以问核心指标是什么。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)])
+        a = agent.Agent(provider)
+        first = a.handle(None, "帮我看看这个岗位：\n" + JD)
+        provider.intent, provider.role = "interview_practice", None
+        second = a.handle(first["session_id"], "面试的时候我该问他们什么")
+        self.assertFalse(second["practice"]["active"])
+        self.assertEqual(second["trace"]["route"]["task"], "jd_followup")
+
+    def test_explicit_practice_request_still_works(self):
+        self.assertEqual(agent.guard_heavy_intent("interview_practice", "帮我模拟一下面试", agent.Session()), "interview_practice")

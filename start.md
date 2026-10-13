@@ -1,6 +1,6 @@
 # 小谷求职 Skill 群
 
-- 任务目录：`/Users/lucky_wang/Documents/codex/xiaogu-career-suite`
+- 任务目录：`/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch`
 - 原始目标：完成可打包给用户的基础求职 Skill 群，行业黑话和职业信息优先走确定性检索，并为 WorkBuddy 初始用户补充详细使用提示词。
 - 已完成：新增自包含核心 Skill `xiaogu-career-suite`；将 `xiaogu-career-master` 升级为一句话 Harness，配有确定性意图路由、小白交互契约和独立状态脚本；核心 Skill 已加入 JD 原句、否定、冲突、未知与防篡改校验；黑话库现为 61 条，其中本次新增 15 条薪资、假期、团建等福利表达，均含可观察信号、核实问题和合格回答标准；生成发布白名单包 `dist/xiaogu-career-suite-v2.2.zip`；WorkBuddy 教学原文件与分发副本此前已加入 v2 安装方式和“一句话使用小谷”指南；飞书文档此前已新增仅面向用户的简单使用说明（revision 102）；HypeFade 本地前端核验见 `docs/research/hypefade-reverse-2026-09-23.md`。本次 GitHub 开源筛选见 `docs/research/jargon-open-source-2026-09-30.md`。
 - 已验证：2026-09-30 `python3 -m unittest discover -s tests` 共 15 项通过；黑话库 Schema、唯一性、风险措辞和待遇表达覆盖通过；独立 Skill 查询可命中扁平化管理、14 薪、带薪年假、团建；v2.2 ZIP 已包含更新后的词典和解释契约。职业现实 26 项行为检查、Skill quick validation 为此前证据。

@@ -1,0 +1,428 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_c3737ae6f0e0",
+  "node": "销售 › 教培销售 › 课程顾问",
+  "family": "销售",
+  "parent_id": "销售 › 教培销售",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 3,
+  "upstream_sample_n": 4,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 教培销售 › 课程顾问",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8r5aZnzN",
+      "type": "recruitment_jd",
+      "title": "十堰课程顾问（本科）",
+      "company": "武汉市创优知学文化发展有限公司",
+      "url": "https://campus.niuqizp.com/job-v8r5aZnzN.html",
+      "date": "2026-09-03",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责（包含但不限于）：1、负责有效组织并实施校区周边的学校、社区、商圈等场所的宣传和增粉工作；2、通过微信运营、电销等方式完成线上咨询、线下咨询的相关工作，根据客户需求，提供专业的解答，推荐合适的课程；3、根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责。\n公司介绍\n公司名称\n武汉市创优知学文化发展有限公司\n所属行业\n教育/培训/院校\n公司性质\n民营企业\n公司规模\n50-99人\n湖北省武汉市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8r5aZnzN.html",
+      "cache_sha256": "368cf9caf301084adc4d7ede83da0358d5bd6f52d6c7e51bf0c29ffb410426f4"
+    },
+    {
+      "id": "vUk5aaMLN",
+      "type": "recruitment_jd",
+      "title": "武汉课程顾问（本科）",
+      "company": "武汉市创优知学文化发展有限公司",
+      "url": "https://campus.niuqizp.com/job-vUk5aaMLN.html",
+      "date": "2026-09-05",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责（包含但不限于）：1、负责有效组织并实施校区周边的学校、社区、商圈等场所的宣传和增粉工作；2、通过微信运营、电销等方式完成线上咨询、线下咨询的相关工作，根据客户需求，提供专业的解答，推荐合适的课程；3、根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责。\n公司介绍\n公司名称\n武汉市创优知学文化发展有限公司\n所属行业\n教育/培训/院校\n公司性质\n民营企业\n公司规模\n50-99人\n湖北省武汉市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vUk5aaMLN.html",
+      "cache_sha256": "e6c045a80ec89c14c5b1e170db1c51681159b359d255dbee5f17bdb8a6afde05"
+    },
+    {
+      "id": "vYy5aZNnt",
+      "type": "recruitment_jd",
+      "title": "九江课程顾问（本科）",
+      "company": "武汉市创优知学文化发展有限公司",
+      "url": "https://campus.niuqizp.com/job-vYy5aZNnt.html",
+      "date": "2026-09-02",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责（包含但不限于）：1、负责有效组织并实施校区周边的学校、社区、商圈等场所的宣传和增粉工作；2、通过微信运营、电销等方式完成线上咨询、线下咨询的相关工作，根据客户需求，提供专业的解答，推荐合适的课程；3、根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责。\n公司介绍\n公司名称\n武汉市创优知学文化发展有限公司\n所属行业\n教育/培训/院校\n公司性质\n民营企业\n公司规模\n50-99人\n湖北省武汉市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYy5aZNnt.html",
+      "cache_sha256": "303954f1eced0c3ad0b6959ade3f48610461a8a75b2b063d7e6ce2371e2fa76a"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vrl5natZC",
+      "url": "https://campus.niuqizp.com/job-vrl5natZC.html",
+      "role": "课程顾问、市场营销",
+      "reasons": [
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "课程顾问",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "课程顾问"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "九江课程顾问（本科）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "十堰课程顾问（本科）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8r5aZnzN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "武汉课程顾问（本科）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUk5aaMLN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8r5aZnzN",
+          "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责"
+        },
+        {
+          "evidence_id": "vUk5aaMLN",
+          "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责"
+        },
+        {
+          "evidence_id": "vYy5aZNnt",
+          "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8r5aZnzN",
+          "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责"
+        },
+        {
+          "evidence_id": "vUk5aaMLN",
+          "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责"
+        },
+        {
+          "evidence_id": "vYy5aZNnt",
+          "text": "根据组织下达的业绩目标，制定并执行年度/季度/月度工作计划，对结果负责"
+        }
+      ],
+      "count": 3,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "3份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“体育学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "体育学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“哲学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "哲学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“教育学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "教育学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“法学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "法学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "v8r5aZnzN",
+          "vUk5aaMLN",
+          "vYy5aZNnt"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8r5aZnzN",
+        "vUk5aaMLN",
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "九江课程顾问（本科）",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYy5aZNnt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "十堰课程顾问（本科）",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8r5aZnzN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "武汉课程顾问（本科）",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vUk5aaMLN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

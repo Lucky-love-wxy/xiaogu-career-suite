@@ -1,0 +1,353 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_0bf0a0ca7626",
+  "node": "生产制造 › 质量管理 › 质检员",
+  "family": "生产制造",
+  "parent_id": "生产制造 › 质量管理",
+  "tier": "P2",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "生产制造 › 质量管理 › 质检员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v885nCnZM",
+      "type": "recruitment_jd",
+      "title": "食品质检员",
+      "company": "东莞市太粮米业有限公司",
+      "url": "https://campus.niuqizp.com/job-v885nCnZM.html",
+      "date": "2026-09-19",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "u【岗位职责】1、负责大米/粮油原料及成品检验，包括水分、杂质、碎米率、色泽等指标检测。2、按标准完成理化检验与化验操作，如实填写检验记录与台账。3、负责检验设备的日常维护与校准，确保检测数据准确。4、对不合格品进行标识、隔离并上报，跟踪处理结果。5、配合质量管理体系运行，参与质量记录与文档整理。 u【任职要求】1、大专及以上学历，食品检验、粮食工程、食品质量与安全等相关专业优先。2、熟悉粮油/食品检验标准与化验流程，有相关实习或工作经验者优先。3、持食品检验相关证书者优先。4、工作认真细致，责任心强，能吃苦耐劳。5、具备良好的沟通与团队协作能力。\n公司介绍\n公司名称\n东莞市太粮米业有限公司\n所属行业\n农/林/牧/渔\n公司性质\n民营企业\n公司规模\n1000-4999人\n广东省东莞市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v885nCnZM.html",
+      "cache_sha256": "7ab890dd2712452ba5172196366949216de9a5cfcac8a67347d20076af4f9524"
+    },
+    {
+      "id": "vrk5CZC5z",
+      "type": "recruitment_jd",
+      "title": "食品质检员",
+      "company": "湖北博奥食品股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vrk5CZC5z.html",
+      "date": "2026-09-10",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位要求：\n1、食品科学与工程‌相关专业；\n2、熟悉水产品加工流程及质量标准；能独立分析质量异常原因并提出解决方案；\n3、熟练使用办公软件，有良好的文字表达能力，会基础质检设备（智能双温区消解仪，智能双温区消解仪等设备）。\n岗位职责：\n1、质量检验：独立完成原料、半成品、成品检验，准确记录数据，发现问题并及时上报跟踪。\n2、过程监控：开展生产现场巡检，对不合格品进行标识、隔离及上报分析。\n3、质量文件：建立检验台账、标签模板，整理并归档各类质量记录。\n4、体系支持：配合质量管理体系运行，协助完成内外审及客户验厂。\n5、质量改进：处理退货检验与客诉，参与质量事故调查，提出改进建议并跟踪落实。\n公司介绍\n公司名称\n湖北博奥食品股份有限公司\n所属行业\n农/林/牧/渔\n公司性质\n民营企业\n公司规模\n500-999人\n湖北省十堰市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrk5CZC5z.html",
+      "cache_sha256": "03a98af4377b35d1f4b2145f2b6c44ff1c612750cbadbc75c2a0ecf85ed1e6a0"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "质检员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "质检员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "食品质检员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：体系支持：配合质量管理体系运行，协助完成内外审及客户验厂",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "体系支持：配合质量管理体系运行，协助完成内外审及客户验厂"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "体系支持：配合质量管理体系运行，协助完成内外审及客户验厂",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "体系支持：配合质量管理体系运行，协助完成内外审及客户验厂"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "质量文件：建立检验台账、标签模板，整理并归档各类质量记录",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "质量文件：建立检验台账、标签模板，整理并归档各类质量记录"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "过程监控：开展生产现场巡检，对不合格品进行标识、隔离及上报分析",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "过程监控：开展生产现场巡检，对不合格品进行标识、隔离及上报分析"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "质量改进：处理退货检验与客诉，参与质量事故调查，提出改进建议并跟踪落实",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "质量改进：处理退货检验与客诉，参与质量事故调查，提出改进建议并跟踪落实"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "质量检验：独立完成原料、半成品、成品检验，准确记录数据，发现问题并及时上报跟踪",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "质量检验：独立完成原料、半成品、成品检验，准确记录数据，发现问题并及时上报跟踪"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "质量检验：独立完成原料、半成品、成品检验，准确记录数据，发现问题并及时上报跟踪",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "质量检验：独立完成原料、半成品、成品检验，准确记录数据，发现问题并及时上报跟踪"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "质量文件：建立检验台账、标签模板，整理并归档各类质量记录",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "质量文件：建立检验台账、标签模板，整理并归档各类质量记录"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "体系支持：配合质量管理体系运行，协助完成内外审及客户验厂",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "体系支持：配合质量管理体系运行，协助完成内外审及客户验厂"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [
+    {
+      "text": "过程监控：开展生产现场巡检，对不合格品进行标识、隔离及上报分析",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5CZC5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5CZC5z",
+          "text": "过程监控：开展生产现场巡检，对不合格品进行标识、隔离及上报分析"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v885nCnZM",
+          "vrk5CZC5z"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“食品科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "食品科学与工程类",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v885nCnZM",
+          "vrk5CZC5z"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "v885nCnZM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "食品质检员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v885nCnZM",
+        "vrk5CZC5z"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

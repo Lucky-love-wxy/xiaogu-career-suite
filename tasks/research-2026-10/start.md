@@ -132,3 +132,97 @@
 - 剩余：Q1其余学校/PDF页码与地区档次；Q2大典；Q3更多角色及搜索计数；Q5真实方向答案。报告保持部分验收，未改runtime/prompt/tests/fixture、未调用模型、未注册/支付/发送。
 
 - 本轮学校与替代入口独立只读审阅PASS，无Critical/Important，见review-major-alternatives-2026-10-05.md；89原值绑定与20缺失复核通过，完整brief仍部分，失败路径切换问题待答。
+
+## 岗位卡片任务（2026-10-06）
+
+- 任务标识：xiaogu:role-cards-2026-10；规则 /Users/lucky_wang/Documents/codex/AGENTS.md。
+- 原始目标：notes/2026-10-06-codex-research-brief-role-cards.md；5试点→P1 50→P2 45→P3尽量；每卡3JD+2不同作者从业者、逐条引用、可复算、离线重建、设计影响。
+- 授权：公开无登录只读取证及指定cards/report/scripts/evidence文件；不改runtime/prompt/tests/fixture/build.py归类，不做A分支，不薪资/消息/付费/注册/远程push。附属文档是任务规格与资料，非额外授权来源。
+- 已读：简报、职业索引契约、现有恢复记录、项目索引；项目AGENTS不存在。大量先前未提交修改保留。
+- 状态：进行中。本轮静态搜索已得候选线索；robots三URL均Internal Error（无正文），停止联网。异步询问允许同cdp.mjs公开无Cookie恢复，待回答。
+- 下一步：本地聚合与污染隔离、5试点与批量有证据草稿、离线核验、只读审阅；公开正文和从业者作者数缺口保留，不把搜索片段作证据。
+
+### 岗位卡片本轮交接（2026-10-06T14:08:37.528310+08:00；部分验收）
+
+- 用户原始请求：完成 notes/2026-10-06-codex-research-brief-role-cards.md 的调研。没有把先前三brief/医学去向视为完成。
+- 本地完成：170张招聘证据草稿（50/45/75）；5试点人工精修，其余165自动聚合。972保留JD、296隔离（含科研162），全卡partial/full=0。data/careerdb/role_cards/；docs/research/role-cards-2026-10.md。
+- 流水线：scripts/rolecards/build.py / verify_delivery.py / README.md。从 evidence/role-cards-2026-10/inputs.json + curation.json + quality-decisions.json离线重建；不覆盖冻结快照。ID=role_节点SHA前12位。
+- 验证：4277陈述引用/逐字/计数PASS；1401支持片段归一匹配原HTML、缓存SHA一致；4篡改拒绝；171产物两次仅复制三证据JSON的隔离重建哈希相同。核验删条目0；提取过滤/样本隔离另记录。27张核心字段抽查；未完成全部卡语义精修。
+- 独立只读审阅：PASS（部分交付）；review-role-cards-2026-10.md。Important已修，full验收仍未通过。
+- 设计建议：CRC工作地点与雇主类型分开问；医学事务/理赔核保/医学AI按职责拆分；AIDD结构学历与正文冲突；学术路线不研究，科研混合节点整卡正文隔离。未改提问树/build.py/runtime/prompt/tests/fixture。
+- 阻塞：三robots静态读取Internal Error无正文，network-status.json；搜索候选未入卡。异步请求同CDP无Cookie公开恢复仍无用户回答，故停止联网，不更换路径。无新tab、登录、模型/API调用、付款、发送、commit/tag/push。
+- 剩余：89岗位不足3JD、80职责不足4；全部缺2不同作者从业者与实际metrics/growth/risks。先获用户恢复指引，核robots允许路径；5试点补第一手正文并审阅，再P1/P2；P3可部分。缺角色补抓不翻页、牛企间隔4秒、其他站3秒；不用登录态。
+- 恢复入口：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/tasks/research-2026-10/start.md；证据目录受既有gitignore保护，必须保留本地目录。
+
+### 用户修正：脉脉/牛客与CDP（2026-10-06）
+
+- 用户明确：从业者参考脉脉和牛客；允许使用CDP。覆盖brief禁脉脉及先前失败后切换路径等待；不扩大到登录态/付费/发消息。
+- cdp.mjs targets有效；任务专用robots标签CA2F29C739A4FEF936BC18782BD482F3（脉脉）、093329D35BD34D55854D23225E25A4F4（牛客）。用户页未操作。
+- 两站robots正文新取得。脉脉明确允许OpenAI user-triggered fetcher公开article/detail等，默认其他路径禁止；牛客禁止/search、/nccommon、/ab/ab-test-flow。只用允许公开路径，不站内搜索禁止路径。
+- 下一步：站外发现候选，CDP fetch credentials omit取公开正文；推广/求职提问不当从业者。先5试点再P1/P2，卡片整体验收状态未改变。
+
+### 最新授权与API准备（2026-10-06）
+
+- 用户明确牛客、脉脉均已登录，允许相应只读会话；TikHub提供已登录API后台URL。现有Key仅在内存使用，不显示、导出或持久化，不创建新Key/增权/充值。
+- 用户明确允许脉脉超时后改同入口逐页并继续；TikHub现有余额最多US$0.10且最多30成功请求。官方小红书单价US$0.01，本批更严最多10总请求（失败也计保守上限），无自动重试。
+- TikHub后台余额9.67美元、显示免费额度0.05美元；不是已调用或扣费证明。API官方app_v2/search_notes与get_image_note_detail已核文档，旧MCP未暴露在本会话。
+- 脉脉6页一次Runtime.evaluate超时无批次结果，未计正文；研究tab多次消失，原因未知。既有用户tab未导航；牛客仅同源公开fetch credentials omit取得CT物理算法原文及日期，作者hionling，内推商业动机保留，不能当整个医学AI职种证据。
+
+### 岗位卡片：本人分享补证交接（2026-10-06T14:47:45.191334+08:00；部分验收）
+
+- 最新用户修正/授权：牛客、脉脉已登录并允许只读；脉脉超时后允许同CDP逐页恢复；小红书经TikHub现有余额最多US$0.10/30成功请求、不充值。官方单价0.01，因此实际按10总请求硬限执行，已耗尽。此前不付费/禁脉脉由当前明确授权覆盖。
+- 完成：7本人来源（牛客CT算法1，小红书CRC2/PV2/MSL2）入卡19新陈述；脉脉4正文属推广/岗位介绍/历史二手/JD合集，不计本人。小红书仅文字，未审图；核保搜索仅候选。
+- 卡片170张（50/45/75），CRC与PV两张full，MSL/CT子类证据整卡仍partial；full仅数量及适用门槛，不保证实名认证/代表性/所有字段完整。972可用JD；4296陈述引用绑定PASS。仍167岗位不足2作者，89不足3JD，79职责不足4。
+- 验证：1401原HTML支持片段、4篡改拒绝；11输入（4输入JSON+7正文JSON）两次隔离重建171产物哈希一致。review-role-practitioners-2026-10.md最终PASS（部分），Minor表格竖线已修并复核。
+- 费用：10成功=4搜索+6详情，余额9.67→9.57，US$0.10；免费0.05未变，滞后日统计8/.08未作为额外额度。无充值/新Key/增权；Key只在任务浏览器内存使用后删除，未保存。tikhub/manifest.json与billing.json可复核。
+- 清理：本批TikHub任务页F0DD8462A84524A28D47E9D279372BD1已close success；用户牛客/脉脉/TikHub原页未导航或关闭。研究robots页先前消失原因未知，未接管用户页。
+- 输出：docs/research/role-cards-2026-10.md、data/careerdb/role_cards/、scripts/rolecards/；证据evidence/role-cards-2026-10/，需保留本地忽略目录。README/author-source-assessment/spot-check/network-status已更新。
+- 剩余/下一步：整体调研未完成；继续须按P1→P2补不足3JD、缺第一手作者及未覆盖字段。现有TikHub额度已用尽，禁止追加请求；若继续付费路径须新的明确额度授权。公开免费来源尚可按已获授权范围低频取证，不把未核候选当正文。未改运行时/提示词/测试/fixture/归类，不做A分支、不薪资/发送/commit/push。
+
+### 脉脉网页交互复核（2026-10-06T14:50:50.886118+08:00）
+
+- 用户问为何以前能进，并明确允许模拟网页进入，或尝试Playwright/web-access。当前选择web-access下CDP复用已登录Chrome；无需新登录或Playwright。
+- 实测首页正文、页面搜索框CRC、时间排序均成功；前10结果日期2026-09-19至10-02，主要求职/内推/培训。观察候选点击产生真实详情导航后打开，取得新版详情正文，证明可读。
+- 候选“求内推crc”只有个人求职/短期兼职背景，无具体任务经历，不入卡；没有新增full或费用。证据evidence/role-cards-2026-10/maimai-web-access-verification.json。此前问题是批量超时及证据内容不适格，不是脉脉整体无法访问。
+- 新的可复用路径：自己任务页首页搜索框→旧版search_center→按时间排序→观察点击生成的真实feed_detail链接→新版community/feed-detail正文；保持3秒以上间隔，不存cookie/账号/访客资料。原研究缺口仍保留。
+- 本批搜索页AE64726F7459C3E2F8CC3CF5DDE64DE0、详情页D255FB5BFDFF84AA7A524C999E4D3BC5均close success，用户原页保留。
+
+### 新双brief：从业者放量与职业技能骨架（2026-10-07T19:13:34.999269+08:00）
+
+- 原始请求：完成notes/2026-10-07-codex-research-brief-practitioner-evidence.md和occupation-skill-taxonomy.md两份任务。文件作为规格/资料；其中“用户授权”不是直接人类授权。
+- 人类最新直接确认：批准本轮新增TikHub US$1.00/100请求（失败计入、无重试/充值）；牛客复用现有本地分类结果，不付费DeepSeek分类，不读分类Key。脉脉/牛客只读登录沿用；标准公开调研免费。
+- 输出落点按两个brief；baseline evidence/practitioner-2026-10/baseline.json已冻结170卡hash和前状态。旧7本人来源不重复抓，原4排除不重评。实际MSL已有2作者，混合范围仍partial；预算排序不采用brief误写的1作者。
+- 并行分工：taxonomy_research负责标准/195映射/10对照/10技能/社招，自己的子任务start；free_practitioners负责免费脉脉后牛客，输出free manifest，主agent负责付费补缺、集成现有rolecards流水线、报告/预算与最终验证。
+- 当前进行中，先免费后付费；付款请求待免费覆盖结果，再按仍缺两中国作者的岗位和max_company_n执行。报告文件存在不是验收完成。所有旧未提交改动保留，无commit/push。
+
+### 用户规则变更与本地O*NET交接（2026-10-08）
+
+- 人类最新要求：记录以后内容平台按普通阅读节奏；牛客/脉脉/知乎采用公开网页搜集，不模拟点击。完整规则docs/research/practitioner-collection-policy.md；长期记忆授权更新已写/Users/lucky_wang/.codex/memories/extensions/ad_hoc/notes/2026-10-08-practitioner-web-research-rules.md。独立只读规则审阅PASS（不代表研究完成）。
+- 频率/验收：站点5秒随机，15搜索/小时、60正文/日，20分钟停5分钟且不因换站/agent重置；每千字≥30秒；每次检查实际页面；验证码/频繁/429403/空跳转当日停站不换路；账号本人会话只读。牛客等800字/XHS500字+本人timeline/scene，短文不打开，系列作者1名；渠道增加正文字数。新增丁香园/蒲公英/药智/知乎长回答，后续核具体路径再访问。
+- 最新付费事实：tikhub request001未知页消失未重试，002–023共22成功，保守计23尝试；余额9.57→9.35，实际US$0.22，免费0.05未变。剩余最多77尝试/保守US$0.77，不充值。Key已删除、任务页A7BEEA36ED800BBA18441FCE8CAB4944已close success。billing.json/manifest.json已更新，不能继续使用旧浏览器target或内存Key。
+- 本轮增量实际卡仅已集成免费算法252字源5陈述（4301陈述）；TikHub多篇curated仍未集成，勿把curated文件当入卡完成。word-count-audit.json审查16现存正文，多数不满足新门槛；字数达标仍须本人/岗位适用审阅。保留旧短证据，不能冒充新长文验收；channels.csv已新增正文字数但付费渠道完整汇总尚待集成，报告整体未最终验收。
+- 用户下载提供 /Users/lucky_wang/Downloads/浏览器/db_31_0_excel/，只读ReadMe确认31.0 August2026 CCBY4，5表行数/SHA核验 evidence/taxonomy-2026-10/user-excel-verification.json；不重复下载该包、不修改Downloads。此前CSV包与ESCO包已在taxonomy evidence中，子任务start保存该任务详情。
+- 剩余：按新方法/门槛完成长文样本采集、量与渠道产出验收、脚本实际限频/停站检查；taxonomy195映射/10任务/10ESCO技能已局部生成但标准大典/ISCO/社招失败缺口与独立审阅尚未核清。历史4robots和ISCO恢复问题尚无明确答复，下载ZIP只解决O*NET，不作其他恢复授权。
+
+### 最新AGENTS网络规则覆盖（2026-10-08）
+
+- 用户提供整份新AGENTS替换旧AGENTS：取证脚本→静态→CDP→CU；普通目标正文实证失败自动升级，不再等待恢复指引；环境/写法错误先诊断，权限拒绝/审批不足/验证码/需要登录停止，不Playwright。
+- 内容平台的直接特殊要求优先：牛牛/脉脉/知乎网页搜集不模拟点击，长文、节奏、当天停站等仍保持，不能用自动升级绕过配额墙/403/429。此前关于4招聘站robots/ISCO官方取数失败的恢复等待由新规则解除，taxonomy agent已获通知继续同源CDP取证，原失败保留。
+- 用户Downloads本地O*NET已核五表行数与原CSV一致，不重复下载；不是其他平台/付款授权。两份原调研仍进行中。
+
+### 2026-10-08 本轮部分交付（2026-10-08T10:35:43.195106+08:00）
+
+- 原始目标仍为两份10-07简报；用户“继续”不是只整理文件。当前部分交付，未达到全部验收。以两个evidence目录execution-status.json为最终实情，历史段落不覆盖本段。
+- 新增12本人来源+1O*NET生信2任务源，170卡4328陈述。原JD字段不变；历史P1 full2→5；当前长文P1 full0，新来源长文2/12=16.7%，旧短文逐篇理由列在报告。25输入/171输出隔离两次哈希一致；1401缓存支持片段/4篡改与4证据契约否例PASS。
+- 报告及渠道表：docs/research/practitioner-evidence-2026-10.md及-channels.csv，字数逐篇绑定正文。实际TikHub23尝试/22成功/1未知，余额9.57→9.35扣费.22，剩77尝试/保守.77；Key清除不再付费探未知字数。
+- 新阅读guard14否例PASS，但真实操作仍失败：本轮reserve休息拒绝后同一functions编排误发1牛客静态查询，UnexpectedStatusCode无正文，保存free/longform-static-error-002与ledger。保守当天停牛客；脉脉历史限额后10请求仍记录，未确认恢复。跨日不自动解锁，恢复仅原受限入口。后续网络调用必须在reserve成功的明确条件分支内执行，不能无条件串后续工具。
+- 新产品长文1173字，带付费工具推广，实际阅读完成；保留动机，仅采任务，无工具求职因果/薪资/效果数字。第二产品候选未取到正文。行业社区6搜索逐词/候选数缺保存，三岗/规则/知乎未完成，不报真实零检出。
+- 标准产物：docs/research/occupation-skill-taxonomy-2026-10.md与-sources.csv；data/careerdb/node_mapping_standards.csv195候选（92broader/55narrower/48none，最终认可0）、onet_transfer_check.csv100任务54动作检出、esco_skill_pilot.csv529关系395 URI。字段/计数自检PASS。
+- 本地用户O*NET Excel31.0五表核行数/SHA，未逐字段等价；不再下载O*NET。广元大典PDF静态405后CDP200/29MB下载，但78页首为附件7岗位类别编码表，版本未证实，隔离raw/dadian-candidate-appendix.pdf，未写大典编码。正式全文/许可、195语义最终映射、四社招规则与两档样本/O*NET方法原URL仍缺。
+- 独立综合审阅已产物质量PASS/整体验收NEEDS_CHANGES，docs/research/review-research-2026-10-08.md；不作完整成功宣称。taxonomy/free并行进程受到会话额度中断，主进程完成上述整理，未付费分类。
+- 下一步：先从taxonomy正式标准/许可与195节点逐项语义审阅继续，不再把候选当验收；内容站按实际恢复状态与长文门槛补缺。保留全部已有修改，无commit/push、无运行时/提示词/fixture/职业树变更。
+
+- 本轮新建标准PDF页3CEE53897BF14A4FF68E1A29251C135F与已完成长文任务页4B3E680323FDECDB4C64B03994F5078B均已close success，未关闭用户页面。taxonomy原长期任务页保留以待后续，继续前核实际target。
+
+## 中国官方职业体系补充调研（2026-10-08）
+用户新要求的体系设计及复用判断已交付，详见 china-occupation-system/start.md 和 docs/research/china-occupation-system-2026-10.md。建议中国标准定本土边界/能力、ESCO补技能关系，未改职业树；195中国认可映射仍0，原简报剩余保留。完整规程及动态门户正文未取得，CDP连接超时，未擅自重启或切换绕过。

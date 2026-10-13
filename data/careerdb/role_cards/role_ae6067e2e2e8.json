@@ -1,0 +1,292 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_ae6067e2e2e8",
+  "node": "零售/生活服务 › 其他服务业职位 › 花艺师",
+  "family": "零售/生活服务",
+  "parent_id": "零售/生活服务 › 其他服务业职位",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "零售/生活服务 › 其他服务业职位 › 花艺师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vUYNLNtLa",
+      "type": "recruitment_jd",
+      "title": "园艺师 绿化工 花卉工 植保员 花艺师",
+      "company": "青岛奉艳园林有限公司",
+      "url": "https://campus.niuqizp.com/job-vUYNLNtLa.html",
+      "date": "2026-09-28",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责​\n1.现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效；​\n2.养护技术实操：制定四季养护计划（修剪、施肥、病虫害防治），运用 AI 图像识别工具快速诊断植物病害，现场修剪、灌溉等实操技能；​\n3.数字化提效：用 AI 工具生成施工日志、养护月报及技术交底文档，建立苗木电子台账，通过数字化工具监控苗木成活率与生长数据；​\n4.资源与协调：参与苗木号苗、验收，判断苗木长势与土球质量；协调施工班组、供应商，高效处理现场突发问题；​\n5.技术创新：探索 AI 在施工工艺检索、养护方案优化中的应用，带动团队提升工作效率。​\n四、任职要求​\n（一）硬性条件​\n1.专业要求：园林技术、园艺、林学、风景园林（偏工程方向）等相关专业（2026 届应届生、有实习经历者优先）；​\n2.专业功底：熟悉本地常见园林植物（乔灌草花）的习性、种植要求，精通绿化施工全流程与后期养护技术（病虫害防治、修剪整形等）；​\n3.实操能力：能适应户外驻场工作，吃苦耐劳，会操作或指导使用绿篱机、割草机等园林机械，具备动手示范能力；​\n加分项：持有 C1 驾照并熟练驾驶、有施工现场实习经历、掌握基础苗木台账管理方法者优先。​\n（二）AI 工具应用能力（核心赋能项）​\n文档高效：能用豆包、文心一言、Kimi 等大模型生成工作文档，减少文书耗时；\n学习检索：善于用 AI 搜索施工工艺视频、新型材料及养护难点解决方案；​\n数据管理：了解用 AI 小程序或简单工具统计养护数据、管理苗木库存者优先。​\n成长支持：师徒一对一带教、专业技能培训（园林机械操作、AI 工具进阶）、行业证书补贴（二建、花卉园艺师等）；​\n休假制度：月休4天，超长15天年假。\n公司介绍\n公司名称\n青岛奉艳园林有限公司\n所属行业\n房地产/建筑/建材/工程\n公司性质\n民营企业\n公司规模\n1-49人\n山东省青岛市青岛市崂山区松岭路",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vUYNLNtLa.html",
+      "cache_sha256": "c1bfebd69715b709cbed2259b39feeea6ba39097b374fdb297956e4a8f2f376f"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vsr55MnNZ",
+      "url": "https://campus.niuqizp.com/job-vsr55MnNZ.html",
+      "role": "园艺师|花艺师|园林师|农艺师",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "花艺师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "花艺师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "园艺师 绿化工 花卉工 植保员 花艺师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：资源与协调：参与苗木号苗、验收，判断苗木长势与土球质量",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "资源与协调：参与苗木号苗、验收，判断苗木长势与土球质量"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "资源与协调：参与苗木号苗、验收，判断苗木长势与土球质量",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "资源与协调：参与苗木号苗、验收，判断苗木长势与土球质量"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "养护技术实操：制定四季养护计划（修剪、施肥、病虫害防治），运用 AI 图像识别工具快速诊断植物病害，现场修剪、灌溉等实操技能",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "养护技术实操：制定四季养护计划（修剪、施肥、病虫害防治），运用 AI 图像识别工具快速诊断植物病害，现场修剪、灌溉等实操技能"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [],
+  "work_setting": [
+    {
+      "text": "现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "现场施工落地：负责绿化项目地形整理、苗木栽植、支撑固定、园路铺装等全流程技术指导，把控种植质量与施工规范，确保设计方案落地见效"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "养护技术实操：制定四季养护计划（修剪、施肥、病虫害防治），运用 AI 图像识别工具快速诊断植物病害，现场修剪、灌溉等实操技能",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUYNLNtLa",
+          "text": "养护技术实操：制定四季养护计划（修剪、施肥、病虫害防治），运用 AI 图像识别工具快速诊断植物病害，现场修剪、灌溉等实操技能"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vUYNLNtLa"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vUYNLNtLa"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vUYNLNtLa"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "园艺师 绿化工 花卉工 植保员 花艺师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vUYNLNtLa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

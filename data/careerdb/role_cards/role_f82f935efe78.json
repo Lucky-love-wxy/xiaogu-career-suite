@@ -1,0 +1,209 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_f82f935efe78",
+  "node": "技工/普工 › 机械加工 › 车工",
+  "family": "技工/普工",
+  "parent_id": "技工/普工 › 机械加工",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "技工/普工 › 机械加工 › 车工",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vlm5nN5LN",
+      "type": "recruitment_jd",
+      "title": "车工",
+      "company": "湖南高创翔宇科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vlm5nN5LN.html",
+      "date": "2026-09-15",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责：\n1．按照生产作业指令计划，保质保量完成车床加工生产任务，严格执行工艺规程及质量要求；\n2．负责车床设备的日常维护保养，按操作规程正确使用设备；做好工具柜、零件架的清理整顿，保持作业现场整洁有序；\n3．严格遵守公司安全生产管理制度和考勤管理制度，服从工作安排，及时完成领导交办的其他工作任务。\n任职要求：\n1．学历专业：大专及以上学历，机械制造、数控技术等相关专业；\n2．专业能力：能够看懂图纸及工艺文件；\n3．综合能力：工作认真负责，服从安排，具备良好的执行力和团队协作意识。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vlm5nN5LN.html",
+      "cache_sha256": "ad11ce7d1966c485f8c140a2433f920d73b31b44923c3aef9e6e13130f535d5f"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "车工",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "车工"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "车工",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责车床设备的日常维护保养，按操作规程正确使用设备",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlm5nN5LN",
+          "text": "负责车床设备的日常维护保养，按操作规程正确使用设备"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责车床设备的日常维护保养，按操作规程正确使用设备",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlm5nN5LN",
+          "text": "负责车床设备的日常维护保养，按操作规程正确使用设备"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vlm5nN5LN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vlm5nN5LN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“设计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "设计学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vlm5nN5LN"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "车工",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vlm5nN5LN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}
