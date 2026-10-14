@@ -20,7 +20,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import agent  # noqa: E402
 
-STATIC = HERE / "static"
+STATIC = HERE.parent / "platform" / "static"  # 页面已随平台层移到 platform/（2026-10-14）
 TYPES = {".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8"}
 MAX_BODY = 200_000
 

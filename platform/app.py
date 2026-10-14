@@ -6,7 +6,7 @@
 - 会话按用户归属存进数据库，重启不丢，别人拿到会话号也读不到。
 - 每次模型调用按 DeepSeek 返回的 usage 记成本；每轮先预扣额度、结束后按实际成本结算。
 
-启动（本机）：python3 web/app.py --port 8781
+启动（本机）：python3 platform/app.py --port 8781
 环境变量见 deploy/env.example。
 """
 
@@ -33,6 +33,8 @@ from fastapi import Body, FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response, StreamingResponse
 
 HERE = Path(__file__).resolve().parent
+# 平台层（本目录）和小谷 agent 核心（../web）分开放（2026-10-14 用户要求平台独立成目录）；平台调用核心
+sys.path.insert(0, str(HERE.parent / "web"))
 sys.path.insert(0, str(HERE))
 import agent  # noqa: E402
 import ocr  # noqa: E402
@@ -773,7 +775,7 @@ def create_app(platform: Platform) -> FastAPI:
 
 
 def start_background(platform: Platform) -> None:
-    """每 5 分钟查一次 DeepSeek 余额；每天清理一次超过 6 个月的已删除对话。"""
+    """每 5 分钟查一次 DeepSeek 余额；每天清理一次超过 6 个月的已删除对话的运行记录（对话内容在删除时已清除）。"""
     def loop():
         last_purge = 0.0
         while True:

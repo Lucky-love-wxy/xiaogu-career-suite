@@ -16,6 +16,9 @@ import subprocess
 import sys
 import threading
 import unicodedata
+
+# resume_tools 在小谷 agent 核心目录（../web）；识别子进程是直接运行本文件的，也要能找到它
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parents[1] / "web"))
 from pathlib import Path
 
 from resume_tools import SECTION_HEADING  # 简历栏目标题（教育经历、项目经历……）必须单独成行，否则认不出整份简历

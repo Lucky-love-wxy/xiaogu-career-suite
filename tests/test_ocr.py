@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "web"))
+sys.path.insert(0, str(ROOT / "platform"))
 sys.path.insert(0, str(ROOT / "tests"))
 import agent  # noqa: E402
 import ocr  # noqa: E402

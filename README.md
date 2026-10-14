@@ -11,7 +11,9 @@
 - `xiaogu-resume`：根据已确认经历生成岗位版本，不编造数字和经历。
 - `xiaogu-interview-review`：根据真实逐字稿逐题复盘，生成下一次练习。
 - `xiaogu-career-master`：面向新手的唯一 Harness 入口，识别一句话意图、串起流程并管理岗位状态。
-- `web/`（自建 Web Agent，未进 Skill 分发包）：除以上流程外，还有整份简历美化与单栏排版、按 JD 定制改写（含关键词覆盖率）、题库模式模拟面试（预留语音接口）。截图识别：招聘说明或简历截图在服务器本机用 RapidOCR 转成文字，回填输入框由用户核对后发送（`web/ocr.py`，`POST /api/ocr`）。见 [web/README.md](web/README.md)，第三方来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- `web/`（自建 Web Agent 的核心，未进 Skill 分发包）：服务端执行 harness（路由、证据包、校验、渲染）、按 JD 定制改写、简历美化、题库模拟面试、用户记忆、城市产业资料。见 [web/README.md](web/README.md)。
+- `platform/`（上线平台，2026-10-14 起独立成目录）：账号与阿里云短信验证码、额度计费、后台看板、截图识别、页面和部署脚本。见 [platform/README.md](platform/README.md)，第三方来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- `related/`：仓库外的小谷相关文件的快照（动效页、Codex 任务交接、笔记、演示视频），见 [related/README.md](related/README.md)。
 
 ## 一句话使用
 
@@ -71,7 +73,8 @@ database/               可审计的 JSON 事实源
 _xiaogu-runtime/        JobDocument、工作区和确定性处理器
 scripts/                统一检索与打包脚本
 docs/                   架构与 WorkBuddy 教学
-web/                    自建 Web Agent（服务端执行 harness，DeepSeek 写措辞）
+web/                    小谷 agent 核心（服务端执行 harness，DeepSeek 写措辞）
+platform/               上线平台：账号、额度、后台、页面、部署
 examples/               可直接运行的示例
 tests/                  回归测试
 ```

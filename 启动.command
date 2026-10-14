@@ -8,4 +8,4 @@ OLD=$(lsof -ti tcp:$PORT -sTCP:LISTEN)
 (sleep 3 && open "http://127.0.0.1:$PORT/") &
 XIAOGU_ENV=dev XIAOGU_PROVIDER=deepseek XIAOGU_MODEL=deepseek-flash \
 XIAOGU_ADMIN_TOKEN=dev-admin \
-exec .venv/bin/python web/app.py --port $PORT
+exec .venv/bin/python platform/app.py --port $PORT

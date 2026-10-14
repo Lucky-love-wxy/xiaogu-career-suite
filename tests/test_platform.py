@@ -12,6 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "web"))
+sys.path.insert(0, str(ROOT / "platform"))
 import agent  # noqa: E402
 
 try:
@@ -209,6 +210,20 @@ class IsolationTests(PlatformCase):
         self.assertEqual(a.delete(f"/api/sessions/{sid}", headers={"content-type": "application/json"}).status_code, 200)
         self.assertEqual(a.get("/api/sessions").json()["sessions"], [])
         self.assertEqual(self.chat(a, "继续", session_id=sid).status_code, 404)
+
+    def test_delete_clears_content_but_keeps_billing_record(self):
+        # 2026-10-14：删除即清除对话内容，只留不含内容的运行记录（计费核对、安全排查），6 个月后连记录一起删
+        a = self.login()
+        sid = self.chat(a, "我的秘密经历：在某公司实习").json()["session_id"]
+        a.delete(f"/api/sessions/{sid}", headers={"content-type": "application/json"})
+        with self.store.conn() as c:
+            session = c.execute("SELECT state, title, deleted_at FROM chat_sessions WHERE id=?", (sid,)).fetchone()
+            turns = c.execute("SELECT user_message, final_text, cost_cny, feature FROM turns WHERE session_id=?", (sid,)).fetchall()
+        self.assertEqual((session["state"], session["title"]), ("{}", ""))
+        self.assertIsNotNone(session["deleted_at"])
+        self.assertTrue(turns)
+        self.assertTrue(all(t["user_message"] is None and t["final_text"] is None for t in turns))
+        self.assertTrue(all(t["feature"] for t in turns))
 
 
 class SwitchTests(PlatformCase):

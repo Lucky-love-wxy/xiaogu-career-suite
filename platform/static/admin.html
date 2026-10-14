@@ -488,7 +488,7 @@ async function openTurns(id) {
   const t = await api(`/api/admin/users/${id}/turns`);
   $("#drawer").innerHTML = `<button class="link" id="closeDrawer" style="float:right">关闭</button>
     <h3>${esc(t.user.contact)}</h3>
-    <div class="sub">剩余 ${cr(t.user.balance)} credits · 联系方式与证件号已打码 · 灰色为用户已删除、仍在 6 个月留存期内</div>
+    <div class="sub">剩余 ${cr(t.user.balance)} credits · 联系方式与证件号已打码 · 灰色为用户已删除：内容已清除，只剩运行记录，6 个月后删除</div>
     ${t.turns.map(x => `<div class="turn ${x.deleted_at ? "deleted" : ""}">
       <div class="row"><span>${new Date(x.created_at * 1000).toLocaleString("zh-CN", {hour12: false})}</span>
       <span class="tag">${FEATURE[x.feature] || x.feature}</span><span class="tag ${x.status === "blocked" || x.status === "error" ? "solid" : ""}">${STATUS[x.status] || x.status}</span>

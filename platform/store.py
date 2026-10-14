@@ -453,11 +453,14 @@ class Store:
                          "ORDER BY updated_at DESC LIMIT 50", (user_id,))
 
     def delete_session(self, user_id: str, session_id: str) -> bool:
-        """用户删除对话：逻辑删除，界面和后台都不再展示；物理清除由 purge() 在 6 个月后做。"""
+        """用户删除对话：对话内容立即清除（会话状态、标题、每轮的原话和回答），只留不含内容的运行记录
+        （时间、功能、状态、耗时、额度和成本）供计费核对与安全排查，purge() 在 6 个月后连记录一起删。
+        2026-10-14 改：网络安全法第 23 条要求留存的是网络日志，不是全部对话正文；个人信息保护法第 19 条要求最短必要期限。"""
         with self._write, self.conn() as c:
-            cur = c.execute("UPDATE chat_sessions SET deleted_at=? WHERE id=? AND user_id=? AND deleted_at IS NULL",
+            cur = c.execute("UPDATE chat_sessions SET deleted_at=?, state='{}', title='' WHERE id=? AND user_id=? AND deleted_at IS NULL",
                             (now(), session_id, user_id))
-            c.execute("UPDATE turns SET deleted_at=? WHERE session_id=? AND user_id=?", (now(), session_id, user_id))
+            c.execute("UPDATE turns SET deleted_at=?, user_message=NULL, final_text=NULL WHERE session_id=? AND user_id=?",
+                      (now(), session_id, user_id))
         return cur.rowcount > 0
 
     def purge(self, older_than_days: int = 183) -> int:

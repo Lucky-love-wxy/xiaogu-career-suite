@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # 小谷发布脚本。在本机运行，通过 ssh 操作服务器（需要该账号有 sudo）。
 #
-#   deploy/deploy.sh bootstrap user@host   首次：建用户、目录、装依赖、装 systemd 和备份定时器
-#   deploy/deploy.sh staging   user@host   本机跑测试 → 同步代码到测试环境 → 重启 → 自检
-#   deploy/deploy.sh prod      user@host   把服务器上测试环境当前这一版原样复制到生产 → 重启 → 自检
+#   platform/deploy/deploy.sh bootstrap user@host   首次：建用户、目录、装依赖、装 systemd 和备份定时器
+#   platform/deploy/deploy.sh staging   user@host   本机跑测试 → 同步代码到测试环境 → 重启 → 自检
+#   platform/deploy/deploy.sh prod      user@host   把服务器上测试环境当前这一版原样复制到生产 → 重启 → 自检
 #
 # 生产只接受“测试环境里已经跑着的那一版”，不直接从本机推生产。
 # 未在真实服务器上执行过（2026-10-05 编写时本机没有 Linux 环境），首次使用请逐步看输出。
 set -euo pipefail
 
 MODE="${1:-}"; HOST="${2:-}"
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"  # 本脚本在 platform/deploy/，仓库根在上两级
 PIP_INDEX="${PIP_INDEX:-https://mirrors.aliyun.com/pypi/simple/}"  # 国内服务器访问 PyPI 慢，默认用阿里云镜像
 
 [ -n "$MODE" ] && [ -n "$HOST" ] || { sed -n '2,9p' "$0"; exit 1; }
@@ -25,7 +25,7 @@ health() {  # 服务起来后查 /api/meta，确认环境和模型
 
 install_env() {  # 在服务器上为某个环境建虚拟环境、装依赖
   local env="$1"
-  remote "sudo -u xiaogu sh -c 'cd /opt/xiaogu/$env && ( [ -x .venv/bin/python ] || python3 -m venv .venv ) && .venv/bin/pip install -q -i $PIP_INDEX -r web/requirements.txt'"
+  remote "sudo -u xiaogu sh -c 'cd /opt/xiaogu/$env && ( [ -x .venv/bin/python ] || python3 -m venv .venv ) && .venv/bin/pip install -q -i $PIP_INDEX -r platform/requirements.txt'"
 }
 
 case "$MODE" in
@@ -38,9 +38,9 @@ case "$MODE" in
       chown -R xiaogu:xiaogu /opt/xiaogu /var/lib/xiaogu
       chmod 700 /etc/xiaogu
     '"
-    scp "$ROOT/deploy/xiaogu@.service" "$ROOT/deploy/xiaogu-backup.service" "$ROOT/deploy/xiaogu-backup.timer" "$HOST:/tmp/"
+    scp "$ROOT/platform/deploy/xiaogu@.service" "$ROOT/platform/deploy/xiaogu-backup.service" "$ROOT/platform/deploy/xiaogu-backup.timer" "$HOST:/tmp/"
     remote "sudo mv /tmp/xiaogu@.service /tmp/xiaogu-backup.service /tmp/xiaogu-backup.timer /etc/systemd/system/ && sudo systemctl daemon-reload && sudo systemctl enable --now xiaogu-backup.timer"
-    echo "下一步：按 deploy/env.example 在服务器写 /etc/xiaogu/staging.env 和 /etc/xiaogu/prod.env（chmod 600），配置 nginx（deploy/nginx.conf），然后 deploy.sh staging。"
+    echo "下一步：按 platform/deploy/env.example 在服务器写 /etc/xiaogu/staging.env 和 /etc/xiaogu/prod.env（chmod 600），配置 nginx（platform/deploy/nginx.conf），然后 deploy.sh staging。"
     ;;
 
   staging)
@@ -48,8 +48,8 @@ case "$MODE" in
     (cd "$ROOT" && .venv/bin/python -m pytest -q -p no:warnings)
     echo "== 同步代码到测试环境"
     rsync -az --delete --rsync-path="sudo -u xiaogu rsync" \
-      --exclude .git --exclude .venv --exclude __pycache__ --exclude 'web/data/' --exclude 'web/logs/' \
-      --exclude dist --exclude evidence --exclude .claude --exclude 'deploy/*.env' \
+      --exclude .git --exclude .venv --exclude __pycache__ --exclude 'web/data/' --exclude 'web/logs/' --exclude 'platform/data/' --exclude 'platform/logs/' \
+      --exclude dist --exclude evidence --exclude related --exclude .claude --exclude 'platform/deploy/*.env' \
       "$ROOT/" "$HOST:/opt/xiaogu/staging/"
     release="$(date +%Y%m%d-%H%M%S)-$(cd "$ROOT" && git rev-parse --short HEAD 2>/dev/null || echo nogit)"
     remote "echo $release | sudo -u xiaogu tee /opt/xiaogu/staging/RELEASE >/dev/null"

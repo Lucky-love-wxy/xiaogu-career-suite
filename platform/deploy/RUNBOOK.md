@@ -25,31 +25,31 @@ B1、B4 是硬前提；B2、B3 由代码强制检查；B5、B6 需要你做决�
 3. 在云厂商控制台提交 ICP 备案（个人备案即可开始；收费上线要企业主体）。一般 1–3 周。备案期间网站不能对外访问，但服务器可以先部署、用 IP + 端口转发自己看。
 4. DeepSeek 后台：删除旧 key，新建两把：prod 一把；staging 一把并在后台设低额度（如果 DeepSeek 后台支持单 key 限额；不支持就只给 staging 用模拟模型）。
 5. 生成两个密钥：`openssl rand -hex 32`（XIAOGU_SECRET）、`openssl rand -base64 24`（后台口令），存进密码管理器。
-6. 决定登录验证码服务：阿里云 / 腾讯云短信（个人能否申请签名待核实），或企业邮箱 SMTP。告诉我选哪个，我接 `web/auth.py` 的 Sender。
-7. 通读 `web/static/legal-terms.html`、`legal-privacy.html`，填好方括号，删掉 `<!-- DRAFT` 那一行。
+6. 决定登录验证码服务：阿里云 / 腾讯云短信（个人能否申请签名待核实），或企业邮箱 SMTP。告诉我选哪个，我接 `platform/auth.py` 的 Sender。
+7. 通读 `platform/static/legal-terms.html`、`legal-privacy.html`，填好方括号，删掉 `<!-- DRAFT` 那一行。
 
 ## 2. 部署（我可以陪你做，命令都在本机运行）
 
 ```bash
-/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/deploy/deploy.sh bootstrap ubuntu@你的服务器IP
+/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/platform/deploy/deploy.sh bootstrap ubuntu@你的服务器IP
 ```
 
 然后在服务器上：
 
-1. 按 `deploy/env.example` 写 `/etc/xiaogu/staging.env`（PORT=8102，不写 XIAOGU_PROVIDER 即用模拟模型）和 `/etc/xiaogu/prod.env`（PORT=8101、XIAOGU_ENV=prod、DEEPSEEK_API_KEY、XIAOGU_ICP_NO 等），`chmod 600`。
-2. 把 `deploy/nginx.conf` 放到 `/etc/nginx/conf.d/xiaogu.conf`，替换域名和证书路径；`htpasswd -c /etc/nginx/xiaogu-staging.htpasswd 用户名` 给测试环境加口令；`nginx -t && systemctl reload nginx`。
+1. 按 `platform/deploy/env.example` 写 `/etc/xiaogu/staging.env`（PORT=8102，不写 XIAOGU_PROVIDER 即用模拟模型）和 `/etc/xiaogu/prod.env`（PORT=8101、XIAOGU_ENV=prod、DEEPSEEK_API_KEY、XIAOGU_ICP_NO 等），`chmod 600`。
+2. 把 `platform/deploy/nginx.conf` 放到 `/etc/nginx/conf.d/xiaogu.conf`，替换域名和证书路径；`htpasswd -c /etc/nginx/xiaogu-staging.htpasswd 用户名` 给测试环境加口令；`nginx -t && systemctl reload nginx`。
 3. 证书：云厂商控制台申请免费 DV 证书，下载 nginx 格式放到 `/etc/nginx/certs/`。
 
 发布：
 
 ```bash
-/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/deploy/deploy.sh staging ubuntu@你的服务器IP
+/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/platform/deploy/deploy.sh staging ubuntu@你的服务器IP
 ```
 
 到 `https://staging.你的域名` 手动走一遍（第 4 节清单），没问题再：
 
 ```bash
-/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/deploy/deploy.sh prod ubuntu@你的服务器IP
+/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/platform/deploy/deploy.sh prod ubuntu@你的服务器IP
 ```
 
 生产只会复制测试环境里正在跑的那一版。
@@ -80,7 +80,7 @@ B1、B4 是硬前提；B2、B3 由代码强制检查；B5、B6 需要你做决�
 - 本机开发：
 
 ```bash
-cd /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch && XIAOGU_ENV=dev XIAOGU_PROVIDER=deepseek XIAOGU_BASE_URL=https://new.tornadorouter.com/v1 XIAOGU_ADMIN_TOKEN=dev-admin .venv/bin/python web/app.py --port 8781
+cd /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch && XIAOGU_ENV=dev XIAOGU_PROVIDER=deepseek XIAOGU_BASE_URL=https://new.tornadorouter.com/v1 XIAOGU_ADMIN_TOKEN=dev-admin .venv/bin/python platform/app.py --port 8781
 ```
 
 然后打开 http://127.0.0.1:8781 （后台 /admin，口令 dev-admin；开发环境验证码会直接显示在登录页上）。
