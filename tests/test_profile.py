@@ -102,6 +102,17 @@ class ProfileFlowTests(unittest.TestCase):
         self.assertIn("又在问用户的「毕业时间」", result["trace"]["attempts"][0][0])
         self.assertIn("哪件事", result["text"])
 
+    def test_last_question_is_named_and_repeats_are_rewritten(self):
+        ask = "你手上还有这个岗位的完整招聘说明吗？发我看看，我帮你把里面其他话术也一起拆一下。"
+        p = ScriptedProvider([chat_out(ask), chat_out("你手上这个岗位的招聘说明还在吗？发我看看，我帮你把里面其他话术也一起拆一下。"),
+                              chat_out("你最近在看哪一类岗位？")], intent="general_advice", role=None)
+        a = agent.Agent(p)
+        first = a.handle(None, "群面一般怎么准备")
+        second = a.handle(first["session_id"], "那无领导小组讨论呢")
+        self.assertIn(f"上一轮你最后对用户说的是：“{ask}”", p.prompts[1])
+        self.assertIn("几乎一样", second["trace"]["attempts"][0][0])
+        self.assertIn("哪一类岗位", second["text"])
+
     def test_pasted_jd_offers_graduation_year(self):
         a = agent.Agent(agent.MockProvider())
         result = a.handle(None, "帮我看看这个岗位：\n" + JD)

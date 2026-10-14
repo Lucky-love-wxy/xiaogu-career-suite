@@ -386,6 +386,10 @@ def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: 
     elif not any(key.startswith("J") for key in pack):
         listed += "\n（用户没有提供招聘说明：不要描述或评价任何“招聘说明”的内容，公司实际情况一律算未知）"
     hint = "\n".join(f"- {h}" for h in hints) or "（无）"
+    if session is not None and session.last_asked:
+        # 泛泛写“别重复问”压不住（10-13 round10：同一件事换个说法连问两轮），点名上一轮那句话
+        hint += (f"\n（上一轮你最后对用户说的是：“{session.last_asked}”。如果用户这一轮没有接这句话，"
+                 f"不要再问同一个意思的问题，换个方向往前推进，或者这一轮不问）")
     if gap:
         # 只给“可以顺带问”的一项，问不问、怎么问由模型按上下文判断；不强制，避免回到填表式追问
         hint += (f"\n（小谷还不知道用户的「{gap}」：{PROFILE[gap][2]}。先回答用户这一轮的问题；如果 next_action 没有更要紧的问题、"
@@ -740,7 +744,8 @@ class MockProvider:
             return json.dumps({"answer": "（模拟模型）这些是一般性建议。", "evidence_ids": [], "next_action": "你对哪一个最感兴趣？",
                                "candidates": [{"role": "示例岗位甲", "reason": "模拟理由"}, {"role": "示例岗位乙", "reason": "模拟理由"}]},
                               ensure_ascii=False)
-        pack = re.search(r"<evidence_pack>\n(.*?)\n</evidence_pack>", messages[-1]["content"], re.S).group(1)
+        # 被打回重写时最后一条是纠错消息，证据包在第一条用户消息里
+        pack = re.search(r"<evidence_pack>\n(.*?)\n</evidence_pack>", messages[1]["content"], re.S).group(1)
         ids = re.findall(r"^([JRPCT]\d+):", pack, re.M)
         pick = [i for i in ids if i[0] == "J"][:2] + [i for i in ids if i[0] == "R"][:2] + \
                [i for i in ids if i[0] in "PCT"][:3]
@@ -749,7 +754,8 @@ class MockProvider:
             "evidence_ids": pick,
             "inferences": [],
             "unknown": ["团队的实际工作分配（招聘说明没写）"],
-            "next_action": "问招聘方：这个岗位的工作时间大概怎么分配？",
+            # 被打回（例如和上一轮问的一样）时不再问，和真模型一样换个做法，而不是原样重发
+            "next_action": None if len(messages) > 2 else "问招聘方：这个岗位的工作时间大概怎么分配？",
         }, ensure_ascii=False)
 
 
@@ -1282,6 +1288,9 @@ class Agent:
                 if payload and session is not None and task in PROFILE_TASKS else None
             if reask:
                 payload, errors = None, [f"next_action 又在问用户的「{reask}」，这一项已经问过或用户已经说过，换一个问题或不问"]
+            elif payload and session is not None and session.last_asked and payload.get("next_action") \
+                    and near_duplicate(payload["next_action"], session.last_asked):
+                payload, errors = None, ["next_action 和上一轮最后问用户的话几乎一样，不要重复，换个方向推进或不问"]
             attempts.append(errors)
             self._stage("check", "校验", "通过：依据、格式、措辞都符合规则" if payload else f"没通过（{plain_errors(errors)}），让模型重写")
             if payload:
