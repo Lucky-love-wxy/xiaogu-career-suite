@@ -12,8 +12,8 @@ sys.path.insert(0, str(ROOT / "tests"))
 import agent  # noqa: E402
 from test_web_agent import JD, ScriptedProvider  # noqa: E402
 
-CARD = {"学校": "某某大学", "学历": "本科", "专业": "汉语言文学", "毕业时间": "2026届", "城市偏好": ["新一线"],
-        "单位类型": ["中小公司"], "期望月薪": "5千-8千", "经历": "在校报社写过 20 篇稿子"}
+CARD = {"学校": "某某大学", "学校层级": "普通一本", "学历": "本科", "专业": "汉语言文学", "毕业时间": "2026届", "工作意愿": ["校招"],
+        "意向城市": "杭州", "城市偏好": ["新一线"], "公司规模": ["中型公司"], "期望月薪": "5千-8千", "实习经历": "在校报社写过 20 篇稿子"}
 
 
 def chat_out(next_action, facts=None, candidates=None):
@@ -24,17 +24,18 @@ def chat_out(next_action, facts=None, candidates=None):
     return json.dumps(body, ensure_ascii=False)
 
 
-CANDS = [{"role": "新媒体编辑", "reason": "在校报社写过稿"}, {"role": "内容运营", "reason": "文字功底"}]
+CANDS = [{"role": "新媒体编辑", "reason": "在校报社写过稿"}, {"role": "内容运营", "reason": "文字功底"},
+         {"role": "编辑助理", "reason": "入门跳板"}]
 
 
 class CardRulesTests(unittest.TestCase):
     def test_clean_card_keeps_only_known_fields_and_choices(self):
         out = agent.clean_card({"专业": "  汉语言文学 ", "学历": "小学", "城市偏好": ["一线", "火星"], "期望月薪": "5千-8千",
-                                "经历": "写" * 2000, "身份证号": "110"})
+                                "实习经历": "写" * 2000, "身份证号": "110"})
         self.assertEqual(out["专业"], "汉语言文学")
         self.assertNotIn("学历", out)  # 不在可选值里
         self.assertEqual(out["城市偏好"], ["一线"])
-        self.assertEqual(len(out["经历"]), 1500)
+        self.assertEqual(len(out["实习经历"]), 1500)
         self.assertNotIn("身份证号", out)
         self.assertEqual(agent.clean_card({"专业": " "}), {})
 

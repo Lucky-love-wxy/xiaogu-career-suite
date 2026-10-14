@@ -390,7 +390,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
   <header>
     <h2 id="cardTitle">基本情况</h2>
     <button class="tb icon x" id="cardClose" type="button" aria-label="关闭"><svg class="i"><use href="#i-x"/></svg></button>
-    <p>填一次就行，随时可以回来改。小谷按它给你几批方向建议，也用它判断某个岗位你能不能投。只有专业和届别必填。</p>
+    <p>填一次就行，随时可以回来改。小谷按它给你 3 到 5 个方向，也用它判断某个岗位你能不能投。标了「必填」的都要填，学校名称和感兴趣的方向可以不填。</p>
   </header>
   <form class="fields" id="cardFields" method="dialog"></form>
   <footer>
@@ -583,9 +583,6 @@ async function send(text){
     }
     if (final.trace?.beta) {
       xg.insertAdjacentHTML("afterbegin", '<p class="betatag"><span class="beta">beta</span>这项功能还没有经过真实用户测试，结果请自己核对</p>');
-    }
-    if (final.action === "profile_card") {
-      xg.insertAdjacentHTML("beforeend", '<button class="artifact cardbtn" type="button">填写基本情况</button>');
     }
     if (final.artifact && /^\/resume\/[0-9a-f]+$/.test(final.artifact.url)) {
       xg.insertAdjacentHTML("beforeend", `<a class="artifact" href="${esc(final.artifact.url)}" target="_blank" rel="noopener">${esc(final.artifact.label)}</a>`);
@@ -825,11 +822,11 @@ box.addEventListener("dragleave", () => box.classList.remove("drop"));
 box.addEventListener("drop", e => { box.classList.remove("drop"); if (e.dataTransfer.files.length) { e.preventDefault(); ocrFiles(e.dataTransfer.files); } });
 
 // 基本情况卡片：字段、可选值、必填项都从接口拿；保存后可直接发那句固定的话，服务端按卡片给第一批方向
-const CARD_GROUPS = [["一", "学业", ["学校", "学历", "专业", "毕业时间"]],
-                     ["二", "意向", ["意向城市", "城市偏好", "单位类型", "期望月薪", "感兴趣的方向"]],
-                     ["三", "经历", ["经历"]]];
+const CARD_GROUPS = [["一", "学业", ["学校", "学校层级", "学历", "专业", "毕业时间"]],
+                     ["二", "意向", ["工作意愿", "意向城市", "城市偏好", "公司规模", "期望月薪", "感兴趣的方向"]],
+                     ["三", "经历", ["实习经历"]]];
 const CARD_HINT = {学校: "例如：某某大学", 专业: "例如：汉语言文学", 意向城市: "例如：杭州，或者家乡附近",
-                   感兴趣的方向: "没想好可以不填", 经历: "实习、项目、社团、比赛、作品都算，几句话就行"};
+                   感兴趣的方向: "没想好可以不填", 实习经历: "在哪家公司或什么行业、做了什么；项目、社团、比赛、作品也算；没有就写「暂无」"};
 let cardMeta = null;
 async function openCard(from){
   closeMenus();
@@ -846,7 +843,7 @@ async function openCard(from){
           `<div class="opts" data-name="${esc(n)}" data-multi="${f.multi ? 1 : 0}">` +
           f.choices.map(c => `<button type="button" aria-pressed="${on(c)}">${esc(c)}</button>`).join("") + "</div></div>";
       }
-      const tag = n === "经历" ? "textarea" : "input";
+      const tag = n === "实习经历" ? "textarea" : "input";
       const val = esc(v || "");
       return `<label class="row"><span class="lab">${esc(n)}${need}</span>` + (tag === "textarea"
         ? `<textarea name="${esc(n)}" maxlength="${f.max}" placeholder="${esc(CARD_HINT[n] || "")}">${val}</textarea>`
@@ -890,7 +887,6 @@ $("#cardClear").onclick = async () => {
 };
 $("#cardPick").onclick = () => openCard("plus");
 $("#cardClose").onclick = () => $("#card").close();  // 手机上没有 Esc 键
-document.addEventListener("click", e => { if (e.target.closest(".cardbtn")) openCard("answer"); });
 
 // 打开简历成品页（对话里的按钮或侧栏「我的简历」）记为一次导出
 document.addEventListener("click", e => {

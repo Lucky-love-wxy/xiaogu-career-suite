@@ -64,7 +64,8 @@ class WebAgentHarnessTests(unittest.TestCase):
     def test_screenshot_sentences_reach_model_not_canned_menu(self):
         menu = "你现在最想解决哪件事"
         answer = self.chat("结合你填的情况，可以先看看这几个方向。", "你想先了解哪一个？",
-                           candidates=[{"role": "产品助理", "reason": "模拟理由"}, {"role": "用户运营", "reason": "模拟理由"}])
+                           candidates=[{"role": "产品助理", "reason": "模拟理由"}, {"role": "用户运营", "reason": "模拟理由"},
+                                       {"role": "内容运营", "reason": "模拟理由"}])
         answer2 = json.dumps({"answer": "先聊聊这个岗位。", "evidence_ids": [], "inferences": [], "unknown": [], "next_action": "你最想先弄清楚这个岗位的哪一点？"}, ensure_ascii=False)
         provider = ScriptedProvider([answer, answer2], intent="direction", role=None)
         a = agent.Agent(provider)
@@ -152,7 +153,8 @@ class WebAgentHarnessTests(unittest.TestCase):
 
     def test_medical_dialogue_keeps_all_earlier_facts(self):
         turns = ["我是一位医学大学生，没有工作经历，我第一份工作应该怎么选", "我想进企业单位，我是临床", "我喜欢和人打交道", "面对消费者", "健康消费品", "答疑", "自己判断"]
-        cands = [{"role": "消费者健康医学答疑专员", "reason": "临床背景加愿意自己判断"}, {"role": "健康消费品医学支持", "reason": "面向消费者"}]
+        cands = [{"role": "消费者健康医学答疑专员", "reason": "临床背景加愿意自己判断"}, {"role": "健康消费品医学支持", "reason": "面向消费者"},
+                 {"role": "医学内容审核", "reason": "临床知识"}]
         provider = ScriptedProvider([self.chat("好的。", candidates=cands) for _ in turns], intent="direction", role=None)
         a = agent.Agent(provider)
         sid = None
@@ -163,7 +165,8 @@ class WebAgentHarnessTests(unittest.TestCase):
             self.assertIn(fact, last, fact)
 
     def test_direction_converges_to_candidates_then_pick_routes_to_job_understanding(self):
-        cands = [{"role": "医学答疑专员", "reason": "临床背景"}, {"role": "健康科普编辑", "reason": "面向消费者"}]
+        cands = [{"role": "医学答疑专员", "reason": "临床背景"}, {"role": "健康科普编辑", "reason": "面向消费者"},
+                 {"role": "医学内容审核", "reason": "临床知识"}]
         outputs = [self.chat("根据你说的情况，可以考虑这些。", "你对哪个最感兴趣？", candidates=cands),
                    json.dumps({"answer": "这个岗位主要做答疑。", "evidence_ids": [], "inferences": [], "unknown": [], "next_action": None}, ensure_ascii=False)]
         provider = ScriptedProvider(outputs, intent="direction", role=None)
@@ -360,7 +363,8 @@ class ConversationFeelTests(unittest.TestCase):
                     return json.dumps({"intent": "direction", "role": None, "pick": 9})
                 return super().complete(messages)
         a = agent.Agent(BadPick([json.dumps({"answer": "好的，换个方向看看。", "evidence_ids": [], "next_action": "你更想先了解哪一个？",
-                                             "candidates": [{"role": "A岗", "reason": "x"}, {"role": "B岗", "reason": "y"}]})]))
+                                             "candidates": [{"role": "A岗", "reason": "x"}, {"role": "B岗", "reason": "y"},
+                                                            {"role": "C岗", "reason": "z"}]})]))
         session = a.session(None)
         session.candidates = ["A岗", "B岗"]
         result = a.handle(session.id, "都不太想")

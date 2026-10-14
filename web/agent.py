@@ -243,13 +243,13 @@ TASKS = {
     "suite": "帮用户看懂这个岗位：第一句用大白话说岗位在做什么。有 J 编号时，第二句说招聘说明写清了什么、没写什么。没有 J 编号时，用户还没给任何具体招聘说明：像聊天一样讲这个岗位一般每天做什么、和谁打交道、新人容易误解什么（无 R 编号支撑的内容属于一般知识，用“一般来说”表述），绝不提“招聘说明”“这家公司”，不要罗列“仍需确认”。有从业者分享时用一句话概括最重要的发现。answer 里不要写“下一步”，下一步只放 next_action。",
     "jargon": "用户只想弄懂招聘话术。解释字面意思、实际可能意味着什么、该怎么问招聘方；没有具体公司材料时要说明公司实际情况未知。再补一两句：如果招聘方不正面回答、只说“来了面聊”，这本身可能说明什么，面试时可以怎么换个具体的问法再确认。",
     "jd_followup": "用户在追问本会话里已经分析过的那份招聘说明（见 <job_description>）。直接回答用户这一问：需要时引用招聘说明里的原句（加引号），说清它写了什么、没写什么、对用户意味着什么；不要把整份岗位重新分析一遍，不要重复你在 <dialogue> 里已经说过的内容。不给薪资、录用概率等数字。",
-    "greeting": "用户在打招呼或问你是谁、能做什么。像朋友见面一样自然回应，然后按三种情况说清小谷能帮什么，每种一行、口语化：还不知道自己要干什么的，先填一下「基本情况」，小谷按它给几批方向，一起慢慢聊出一个结果；已经有方向的，小谷帮你看懂招聘说明（JD），再按它改简历；定了方向但不知道这个岗位具体干什么的，小谷给你看内部资料库里整理的这个岗位的资料。不要提模拟面试和面试复盘，不要写任何声明。next_action 用轻松的口吻问对方现在是哪一种情况。",
+    "greeting": "用户在打招呼或问你是谁、能做什么。像朋友见面一样自然回应，然后按三种情况说清小谷能帮什么，每种一行、口语化：还不知道自己要干什么的，点输入框左边的「+」、选「基本情况」，把信息一次性填完，小谷按它给 3 到 5 个方向，一起慢慢聊出一个结果（要说清这个位置）；已经有方向的，小谷帮你看懂招聘说明（JD），再按它改简历；定了方向但不知道这个岗位具体干什么的，小谷给你看内部资料库里整理的这个岗位的资料。不要提模拟面试和面试复盘，不要写任何声明。next_action 用轻松的口吻问对方现在是哪一种情况。",
     "jargon_unlisted": "用户问的招聘话术不在小谷的黑话库里，没有任何 R 编号可引用。只写三样：answer 写字面意思；它在招聘里可能意味着什么写进 inferences（每条一句，不写成确定事实）；next_action 给一句可以直接问招聘方的话。answer 末尾补一两句：如果招聘方不正面回答、只说“来了面聊”，这本身可能说明什么、面试时怎么换个具体问法再确认。不判断任何具体公司的实际情况，不给数字。answer 里不要写“模型解释”之类的标签，服务端会加。",
     "resume": "根据用户确认过的经历（C 编号）和目标岗位（J 编号），岗位情况最多用一句话带过，重点在 answer 里写 3 到 5 条岗位版简历要点，每条以“- ”开头。只用 C 编号里有的事实，不补数字、结果和职责；缺的写进 unknown。",
     "interview": "根据面试记录（T 编号）逐题复盘：在 answer 里列出最该改的不超过 3 个问题，每个问题写“原话问题 → 怎么改”。回忆的记录要说明是本人回忆。示范回答只能使用记录和经历里已有的事实；用户没做过的事（例如上线、做过某项分析）只能写成“可以补做……”或“如果有机会，我会……”，绝不能写成让用户声称已经做过；未知数字用“X”占位并提醒用户填真实值。",
     "master": "用户在说求职进展或第一次使用。先回应用户说的情况，不擅自认定原因（例如投递没回复不等于简历差），然后给一个最有用的下一步。不要复述 <known_facts> 里已有的信息。",
     "direction": "用户在找求职方向。读 <known_facts> 和 <dialogue>：已经知道的事绝不再问，不要在开头复述用户说过的情况。像一个懂行的学长学姐在聊天：先接住用户这一轮说的具体内容（可以给出你的看法、指出其中有价值的点），再往前推进一步，一般 2 到 4 句。不列职业清单，不给薪资、就业率、前景之类的数字，不要描述“招聘说明通常写什么”。next_action 问一个新的、最能缩小方向的问题，问法贴着上下文、口语化，不要用“用一句话告诉我”“一句话讲清”这类填表式说法。把用户这一轮透露的新信息写进 facts。",
-    "propose": "根据 <known_facts> 和 <dialogue>，给出 2 到 3 个可选的具体岗位方向，写进 candidates，每个包含 role（具体岗位名称）和 reason（一句话，说明和用户已知情况的对应关系）。answer 先用一两句回应用户这一轮刚说的具体内容（说出你从中看到了什么），再自然过渡到“结合这些，可以先看看这几个方向”；不要写“这是一般性建议、不来自资料库”之类的声明（界面会单独标注），不要在 answer 里罗列候选（服务端会排版）。如果用户这一轮补充了新偏好，候选必须优先满足它，不再沿用上一轮不符合新偏好的候选。<known_facts> 里有「基本情况」卡片时，候选要对得上卡片里的城市和单位类型偏好；经历不多（没有实习、项目或作品）时，第一批先放能入门的岗位，reason 里说清它能作为跳板、往后可以往哪走（先入门，再一步步往上走）。期望月薪只用来理解偏好，不复述数字。不给数字。next_action 用口语问用户更想先了解哪一个。",
+    "propose": "根据 <known_facts> 和 <dialogue>，给出 3 到 5 个可选的具体岗位方向，写进 candidates，每个包含 role（具体岗位名称）和 reason（一句话，说明和用户已知情况的对应关系）。answer 先用一两句回应用户这一轮刚说的具体内容（说出你从中看到了什么），再自然过渡到“结合这些，可以先看看这几个方向”；不要写“这是一般性建议、不来自资料库”之类的声明（界面会单独标注），不要在 answer 里罗列候选（服务端会排版）。如果用户这一轮补充了新偏好，候选必须优先满足它，不再沿用上一轮不符合新偏好的候选。<known_facts> 里有「基本情况」卡片时按卡片出候选：工作意愿（校招、社招、事业编、国央企）、城市和公司规模都要对得上；学校层级一般时优先不卡学校的岗位，学校层级好时用足学校优势（例如偏好名校的校招、管培）。有实习经历时，候选从三个角度出：延伸同一个行业、同类岗位往更高层次的公司走、从经历里抽象出能力换到新领域；reason 里说清是哪个角度、对应经历里的哪件事。经历不多（暂无实习、项目或作品）时，第一批先放能入门的岗位，reason 里说清它能作为跳板、往后可以往哪走（先入门，再一步步往上走）。期望月薪只用来理解偏好，不复述数字。不给数字。next_action 用口语问用户更想先了解哪一个。",
     "general": "不要复述 <known_facts> 里已有的信息，结合 <dialogue> 接着聊。这个问题小谷没有专门的资料库支撑（例如 offer 选择、谈薪、国企、校招流程、群面、笔试、面试准备、简历通用写法，或与求职无关的问题）。像懂行的朋友一样直接回答，不要写“这是一般性建议、不来自资料库”之类的声明（界面会单独标注）；不给任何数字、薪资范围、录用概率；涉及具体公司或行业的说法用“可能”“需要确认”的口吻；与求职无关的问题，礼貌说明小谷只帮求职。next_action 在合适时引导到小谷能做的事（看懂具体岗位的招聘说明、按招聘说明改简历、复盘已经发生的面试），并且不要和 answer 里已经说过的话重复。",
 }
 
@@ -260,6 +260,7 @@ CHAT_VOICE = """说话方式：你在和一个第一次找工作的大学生聊�
 answer 里不要提问；这一轮要问的问题只写在 next_action 里，而且是你直接对用户说的话（用“你”），不是写给自己的提示（不要写“问问对方……”）。
 分段写：每段不超过三句话；全篇最重要的那一句单独成一段并加粗（**这样**），最多加粗一处。
 next_action 只问一件事（“顺便说下 A、有没有 B”算两件）。<dialogue> 里你问过、用户没接的问题不要再问；用户已经说过的情况不要换个说法再问（例如说了“应届生”就别再问哪一届）。
+不要对某个城市的产业、哪类岗位多或少、好不好找下判断：小谷还没有城市产业资料，提到城市只复述用户自己的选择。
 禁用说法：业内普遍、大家都说、据可靠消息、这家公司一定、基本可以确定、肯定会加班；以及任何录用概率、薪资预测。"""
 
 
@@ -317,21 +318,26 @@ PROFILE_TASKS = {"suite", "jd_followup", "direction", "master", "general"}  # �
 # 基本情况卡片（notes/2026-10-14-基本情况卡片与对话标注修复.md）：小谷定位是工具，用户一次填完、随时可改。
 # 卡片只存在 user_profile 表里，每轮由平台层放进请求上下文，不写进会话状态——否则每个对话都留一份副本，清空卡片清不干净
 CARD = contextvars.ContextVar("xiaogu_card", default=None)
-CARD_FIELDS = {  # 字段名: (最长字数, 可选值；None 为自由填写；多选用 list)
+CARD_FIELDS = {  # 字段名: (最长字数, 可选值；None 为自由填写；多选用 list)。字段按用户 10-14 给的信息树（学校层级/实习经历/工作意愿/城市/公司规模/工资）
     "学校": (40, None),
+    "学校层级": (10, ("985", "211", "双一流", "普通一本", "普通二本", "民办或三本", "专科", "海外院校")),
     "学历": (4, ("大专", "本科", "硕士", "博士")),
     "专业": (40, None),
     "毕业时间": (10, ("2025届及更早", "2026届", "2027届", "2028届", "2029届及以后")),
+    "工作意愿": (40, ["校招", "社招", "事业编", "国央企"]),
     "意向城市": (60, None),
     "城市偏好": (40, ["一线", "新一线", "二线及以下", "家乡附近", "都可以"]),
-    "单位类型": (60, ["大公司", "中小公司", "初创公司", "国企央企", "事业单位", "外企", "都可以"]),
+    "公司规模": (40, ["大公司", "中型公司", "小公司或初创", "都可以"]),
     "期望月薪": (10, ("不确定", "5千以下", "5千-8千", "8千-1.2万", "1.2万-2万", "2万以上")),
-    "经历": (1500, None),
+    "实习经历": (1500, None),
     "感兴趣的方向": (100, None),
 }
-CARD_REQUIRED = ("专业", "毕业时间")
+# 卡片保存时必填：用户 10-14 要求信息树上的每一项都要给全（实习经历没有就写“暂无”）
+CARD_REQUIRED = ("学校层级", "专业", "毕业时间", "工作意愿", "意向城市", "公司规模", "期望月薪", "实习经历")
+CARD_GATE = ("专业", "毕业时间")  # 给方向的最低门槛：不填卡、在聊天里说清这两项的用户不挡
 CARD_DONE = "我填好了基本情况，帮我看看能往哪些方向走"  # 卡片提交后前端自动发的那句，由规则直接路由到给候选
-CARD_ASK = "先花半分钟填一下「基本情况」卡片吧：学校、专业、届别、想去的城市和单位、做过的事，填一次就行，之后我直接按它给你几批方向建议"
+CARD_ASK = ("这些信息可以一次性填完：点输入框左边的「+」，选「基本情况」，把学校层级、专业、届别、实习经历，"
+            "想走校招、社招还是编制，想去的城市、公司规模和期望工资填进去，大概一分钟。填好我直接按它给你 3 到 5 个方向")
 
 
 def clean_card(data: dict) -> dict:
@@ -359,7 +365,7 @@ def card_text(card: dict | None) -> str:
 
 def profile_known(session: "Session", slot: str) -> bool:
     card = CARD.get() or {}
-    if card.get(slot) or (slot == "意向城市" and card.get("城市偏好")):
+    if card.get("实习经历" if slot == "经历" else slot) or (slot == "意向城市" and card.get("城市偏好")):
         return True
     if slot == "经历" and (session.experience or session.resume):
         return True
@@ -370,7 +376,7 @@ def profile_known(session: "Session", slot: str) -> bool:
 def card_ready(session: "Session", message: str = "") -> bool:
     """给方向的门槛：卡片加上聊天里说过的（含这一轮原话），专业和毕业时间都知道。不填卡、在聊天里说清的用户不挡。
     路由时模型还没从这一轮抽取 facts，所以这一轮原话按同样的词直接认。"""
-    return all(profile_known(session, slot) or any(w in message for w in PROFILE[slot][0]) for slot in CARD_REQUIRED)
+    return all(profile_known(session, slot) or any(w in message for w in PROFILE[slot][0]) for slot in CARD_GATE)
 
 
 def profile_gap(task: str, session: "Session | None", has_jd: bool) -> str | None:
@@ -434,9 +440,9 @@ def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: 
                  f"不要再问同一个意思的问题，换个方向往前推进，或者这一轮不问）")
     if gap:
         # 只引导一次、不强制：时机不自然就不提，避免回到填表式追问
-        hint += ("\n（用户还没填「基本情况」卡片（学校、专业、届别、城市、单位类型、经历），小谷靠它给方向和判断能不能投。"
-                 "先回答用户这一轮的问题；如果 next_action 没有更要紧的问题，就用 next_action 请用户点输入框左边的「+」填一下「基本情况」，"
-                 "一句话说清填了有什么用。不要在聊天里逐项问这些信息；在知道之前，不要替用户假设专业、届别、经历）")
+        hint += ("\n（用户还没填「基本情况」卡片（学校层级、专业、届别、实习经历、工作意愿、城市、公司规模、期望工资），小谷靠它给方向和判断能不能投。"
+                 "先回答用户这一轮的问题；如果 next_action 没有更要紧的问题，就用 next_action 告诉用户可以点输入框左边的「+」、选「基本情况」，"
+                 "把这些信息一次性填完，一句话说清填了有什么用。不要在聊天里逐项问这些信息；在知道之前，不要替用户假设专业、届别、经历）")
     facts, dialogue = dialogue_text(session)
     return (f"<evidence_pack>\n{listed}\n</evidence_pack>\n\n<suggested_questions>\n{hint}\n</suggested_questions>\n\n"
             f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n<dialogue>\n{dialogue}\n</dialogue>\n\n"
@@ -636,8 +642,8 @@ def assemble(raw: str, pack: dict[str, dict], extra_unknown: list[str], task: st
     if task == "propose":
         cands = out.get("candidates")
         valid = [c for c in cands if isinstance(c, dict) and str(c.get("role", "")).strip() and str(c.get("reason", "")).strip()] if isinstance(cands, list) else []
-        if not 2 <= len(valid) <= 3:
-            errors.append("propose requires 2 to 3 candidates with role and reason")
+        if not 3 <= len(valid) <= 5:  # 每批 3 到 5 个（10-14 用户定；参照 FSU 职业决策指南“收窄到 3 到 5 个”）
+            errors.append("propose requires 3 to 5 candidates with role and reason")
         else:
             extras["candidates"] = [str(c["role"]).strip() for c in valid]
             # 候选由服务端排版成有序列表，模型只给内容
@@ -781,9 +787,10 @@ class MockProvider:
             return json.dumps({"items": [{"n": i, "accuracy": 60, "completeness": 60, "depth": 60, "expression": 60,
                                           "feedback": "（模拟模型）示例点评"} for i in range(1, n + 1)],
                                "top_fixes": ["（模拟模型）示例建议"]}, ensure_ascii=False)
-        if "给出 2 到 3 个可选" in system:
+        if "给出 3 到 5 个可选" in system:
             return json.dumps({"answer": "（模拟模型）这些是一般性建议。", "evidence_ids": [], "next_action": "你对哪一个最感兴趣？",
-                               "candidates": [{"role": "示例岗位甲", "reason": "模拟理由"}, {"role": "示例岗位乙", "reason": "模拟理由"}]},
+                               "candidates": [{"role": "示例岗位甲", "reason": "模拟理由"}, {"role": "示例岗位乙", "reason": "模拟理由"},
+                                              {"role": "示例岗位丙", "reason": "模拟理由"}]},
                               ensure_ascii=False)
         # 被打回重写时最后一条是纠错消息，证据包在第一条用户消息里
         pack = re.search(r"<evidence_pack>\n(.*?)\n</evidence_pack>", messages[1]["content"], re.S).group(1)
@@ -861,7 +868,7 @@ def practice_role(message: str) -> str | None:
     return hit.group(0) if hit else None
 
 
-ORDINAL = {"一": 0, "1": 0, "二": 1, "2": 1, "三": 2, "3": 2}
+ORDINAL = {"一": 0, "1": 0, "二": 1, "2": 1, "三": 2, "3": 2, "四": 3, "4": 3, "五": 4, "5": 4}
 
 
 def pick_candidate(message: str, candidates: list[str]) -> str | None:
@@ -871,7 +878,7 @@ def pick_candidate(message: str, candidates: list[str]) -> str | None:
         compact = re.sub(r"\s+", "", role)
         if compact and (compact in text or (len(text) >= 2 and text in compact)):
             return role
-    hit = re.search(r"第?([一二三123])(?:个|种|条)?", text)
+    hit = re.search(r"第?([一二三四五12345])(?:个|种|条)?", text)
     if hit and len(text) <= 12 and ORDINAL[hit.group(1)] < len(candidates):
         return candidates[ORDINAL[hit.group(1)]]
     return None
@@ -1018,7 +1025,8 @@ class Agent:
         self._log(session, message, payload, text, trace, raw)
         practice = session.practice
         return {"session_id": session.id, "text": text, "status": payload["status"], "note": payload.get("note"),
-                "action": payload.get("action"),  # 例如 profile_card：界面在回答下放打开卡片的按钮；不放 trace（生产环境会删）
+                # 例如 profile_card：标记这一轮请用户填了卡（回归检查按它数次数）。界面不放按钮，位置由回答文字说清（10-14 用户要求）
+                "action": payload.get("action"),
                 "style": payload.get("style", "report"), "trace": trace, "artifact": payload.get("artifact"),
                 # 语音端和前端用：是否在面试中、第几题；say 是可直接朗读的纯文本
                 "practice": {"active": True, "question": practice["i"] + 1, "total": len(practice["questions"]),
