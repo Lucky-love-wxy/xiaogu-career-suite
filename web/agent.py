@@ -79,8 +79,8 @@ class Session:
     resume_data: dict | None = None  # 最近一次整理好的结构化简历
     artifacts: dict = field(default_factory=dict)  # 排版好的简历成品页：id → {"label", "html"}
     practice: dict | None = None  # 进行中的模拟面试状态；不为空时每条消息都当作回答
+    proposed: bool = False  # 这个会话里是否已经给过一批候选方向；卡片已填时第一次进找方向就直接给
     profile_asked: list = field(default_factory=list)  # 小谷已经问过的基础信息项；问过就不再提示，用户不想答也不追
-    profile_asked_turn: int = 0  # 上一次问基础信息是第几轮；问完隔一轮再提示下一项，避免连着追问
 
     def context(self) -> dict[str, bool]:
         return {
@@ -300,45 +300,83 @@ answer 和 inferences 里不要自己写“结论”“依据”“待核实推�
 # ---------------------------------------------------------------- 基础信息（画像）
 
 # 状态由代码记、措辞交给模型（设计见 notes/2026-10-13-画像提问.md）。
-# 每项：(认出已知用的词, 判断小谷问到它用的词, 为什么影响回答)
+# 每项：(认出已知用的词, 判断小谷问到它用的词)
 # 认出已知：默认看 facts 的键和值；学历只看值——模型会把“应届生”写成“学历: 应届生”（10-13 回归 round7），只认真正的学历词
 PROFILE = {
-    "专业": (("专业",), ("专业",), "专业决定常见去向，也是很多岗位的门槛"),
+    "专业": (("专业",), ("专业",)),
     "毕业时间": (("毕业", "年级", "届", "大一", "大二", "大三", "大四", "研一", "研二", "研三"),
-             ("毕业", "年级", "哪一届", "几届", "大几"), "校招按届别认定，决定能不能走校招、哪些岗位能投"),
-    "学历": (("本科", "硕士", "博士", "专科", "大专", "研究生"), ("学历", "本科", "硕士", "研究生", "专科"),
-           "不少招聘说明对学历有硬性要求"),
-    "经历": (("经历", "实习", "项目", "社团", "作品", "比赛"), ("经历", "实习", "项目", "做过"),
-           "判断匹配度、改简历都只能用用户真实做过的事"),
-    "意向城市": (("城市", "地点", "地区"), ("城市", "哪个城", "在哪工作", "哪里工作"), "岗位多少和类型因城市差很多"),
+             ("毕业", "年级", "哪一届", "几届", "大几")),
+    "学历": (("本科", "硕士", "博士", "专科", "大专", "研究生"), ("学历", "本科", "硕士", "研究生", "专科")),
+    "经历": (("经历", "实习", "项目", "社团", "作品", "比赛"), ("经历", "实习", "项目", "做过")),
+    "意向城市": (("城市", "地点", "地区"), ("城市", "哪个城", "在哪工作", "哪里工作")),
 }
-# 按任务只问对这件事有用的几项，按顺序挑第一个还缺的；不在表里的任务不提示
-PROFILE_ORDER = {
-    "jd": ("毕业时间", "学历", "专业", "经历"),  # 贴了 JD：能不能投要靠这几项
-    "direction": ("专业", "毕业时间", "经历", "意向城市"),
-    "chat": ("专业", "毕业时间"),
+# 会引导用户填卡片的任务；给候选、黑话、改简历、面试不插这句
+PROFILE_TASKS = {"suite", "jd_followup", "direction", "greeting", "master", "general"}
+
+# 基本情况卡片（notes/2026-10-14-基本情况卡片与对话标注修复.md）：小谷定位是工具，用户一次填完、随时可改。
+# 卡片只存在 user_profile 表里，每轮由平台层放进请求上下文，不写进会话状态——否则每个对话都留一份副本，清空卡片清不干净
+CARD = contextvars.ContextVar("xiaogu_card", default=None)
+CARD_FIELDS = {  # 字段名: (最长字数, 可选值；None 为自由填写；多选用 list)
+    "学校": (40, None),
+    "学历": (4, ("大专", "本科", "硕士", "博士")),
+    "专业": (40, None),
+    "毕业时间": (10, ("2025届及更早", "2026届", "2027届", "2028届", "2029届及以后")),
+    "意向城市": (60, None),
+    "城市偏好": (40, ["一线", "新一线", "二线及以下", "家乡附近", "都可以"]),
+    "单位类型": (60, ["大公司", "中小公司", "初创公司", "国企央企", "事业单位", "外企", "都可以"]),
+    "期望月薪": (10, ("不确定", "5千以下", "5千-8千", "8千-1.2万", "1.2万-2万", "2万以上")),
+    "经历": (1500, None),
+    "感兴趣的方向": (100, None),
 }
-PROFILE_TASKS = {"suite": "chat", "jd_followup": "jd", "direction": "direction", "greeting": "chat", "master": "chat", "general": "chat"}
+CARD_REQUIRED = ("专业", "毕业时间")
+CARD_DONE = "我填好了基本情况，帮我看看能往哪些方向走"  # 卡片提交后前端自动发的那句，由规则直接路由到给候选
+CARD_ASK = "先花半分钟填一下「基本情况」卡片吧：学校、专业、届别、想去的城市和单位、做过的事，填一次就行，之后我直接按它给你几批方向建议"
+
+
+def clean_card(data: dict) -> dict:
+    """只收卡片字段；选项必须在可选值里，文本截断。空值不存。"""
+    out = {}
+    for name, (limit, choices) in CARD_FIELDS.items():
+        value = data.get(name)
+        if isinstance(choices, list):
+            picked = [v for v in (value if isinstance(value, list) else []) if v in choices]
+            if picked:
+                out[name] = picked
+        elif choices is not None:
+            if value in choices:
+                out[name] = value
+        elif isinstance(value, str) and value.strip():
+            out[name] = value.strip()[:limit]
+    return out
+
+
+def card_text(card: dict | None) -> str:
+    if not card:
+        return "（用户还没填）"
+    return "\n".join(f"- {k}：{'、'.join(v) if isinstance(v, list) else v}" for k, v in card.items())
 
 
 def profile_known(session: "Session", slot: str) -> bool:
+    card = CARD.get() or {}
+    if card.get(slot) or (slot == "意向城市" and card.get("城市偏好")):
+        return True
     if slot == "经历" and (session.experience or session.resume):
         return True
     words = PROFILE[slot][0]
     return any(w in (str(v) if slot == "学历" else f"{k}{v}") for k, v in session.facts.items() for w in words)
 
 
+def card_ready(session: "Session", message: str = "") -> bool:
+    """给方向的门槛：卡片加上聊天里说过的（含这一轮原话），专业和毕业时间都知道。不填卡、在聊天里说清的用户不挡。
+    路由时模型还没从这一轮抽取 facts，所以这一轮原话按同样的词直接认。"""
+    return all(profile_known(session, slot) or any(w in message for w in PROFILE[slot][0]) for slot in CARD_REQUIRED)
+
+
 def profile_gap(task: str, session: "Session | None", has_jd: bool) -> str | None:
-    """这一轮可以顺带问的一项基础信息；没有就返回 None。"""
-    if session is None or task not in PROFILE_TASKS:
+    """只留一条收集路径：没填卡时引导填卡片，每个会话只引导一次；填了卡就不在聊天里逐项追问。"""
+    if session is None or task not in PROFILE_TASKS or CARD.get() or "卡片" in session.profile_asked:
         return None
-    if session.profile_asked_turn and session.turns - session.profile_asked_turn < 2:
-        return None  # 上一轮刚问过一项：这一轮先只聊用户的问题
-    group = "jd" if has_jd and task in ("suite", "jd_followup") else PROFILE_TASKS[task]
-    for slot in PROFILE_ORDER[group]:
-        if slot not in session.profile_asked and not profile_known(session, slot):
-            return slot
-    return None
+    return "卡片"
 
 
 def profile_asked_in(slot: str, text: str | None) -> bool:
@@ -352,7 +390,7 @@ def profile_reask(session: "Session", new_facts: dict, next_action: str | None) 
         return None
     merged = Session(facts={**session.facts, **new_facts}, experience=session.experience, resume=session.resume)
     for slot in PROFILE:
-        if profile_asked_in(slot, next_action) and (slot in session.profile_asked or profile_known(merged, slot)):
+        if profile_asked_in(slot, next_action) and profile_known(merged, slot):
             return slot
     return None
 
@@ -362,6 +400,9 @@ def dialogue_text(session: "Session | None") -> tuple[str, str]:
     if session is None:
         return "（无）", "（无）"
     facts = "\n".join(f"- {k}：{v}" for k, v in session.facts.items()) or "（无）"
+    if CARD.get():
+        facts = "用户在「基本情况」卡片里填的（本人填写的事实；期望月薪只用来理解偏好，回答里不要复述薪资数字）：\n" + card_text(CARD.get()) \
+            + "\n聊天里说过的：\n" + facts
     lines = []
     for turn in session.history[-12:]:
         lines.append(f"用户：{turn['user']}")
@@ -391,11 +432,10 @@ def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: 
         hint += (f"\n（上一轮你最后对用户说的是：“{session.last_asked}”。如果用户这一轮没有接这句话，"
                  f"不要再问同一个意思的问题，换个方向往前推进，或者这一轮不问）")
     if gap:
-        # 只给“可以顺带问”的一项，问不问、怎么问由模型按上下文判断；不强制，避免回到填表式追问
-        hint += (f"\n（小谷还不知道用户的「{gap}」：{PROFILE[gap][2]}。先回答用户这一轮的问题；如果 next_action 没有更要紧的问题、"
-                 f"而且问起来自然，就用 next_action 顺带问这一项，口语化。next_action 只能有一个问题：已经有别的问题就不要再加这一项；"
-                 f"用户这一轮已经说过的不要再问；answer 里不要提这一项还没说；不要预告之后还要问什么。"
-                 f"在知道之前，不要替用户假设这一项）")
+        # 只引导一次、不强制：时机不自然就不提，避免回到填表式追问
+        hint += ("\n（用户还没填「基本情况」卡片（学校、专业、届别、城市、单位类型、经历），小谷靠它给方向和判断能不能投。"
+                 "先回答用户这一轮的问题；如果 next_action 没有更要紧的问题，就用 next_action 请用户点输入框左边的「+」填一下「基本情况」，"
+                 "一句话说清填了有什么用。不要在聊天里逐项问这些信息；在知道之前，不要替用户假设专业、届别、经历）")
     facts, dialogue = dialogue_text(session)
     return (f"<evidence_pack>\n{listed}\n</evidence_pack>\n\n<suggested_questions>\n{hint}\n</suggested_questions>\n\n"
             f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n<dialogue>\n{dialogue}\n</dialogue>\n\n"
@@ -780,6 +820,7 @@ MISSING_QUESTIONS = {
     "逐字稿或完整面试问答": "请把面试官的问题和你的回答尽量原样贴过来，凭回忆写的也可以。",
     "整份简历": "请把你现在的简历整份粘贴过来（文字就行），我帮你整理排版。",
     "想练的岗位": "你想练哪个岗位的面试？说岗位名称，或者把招聘说明贴过来都可以。",
+    "基本情况卡片": CARD_ASK,
 }
 
 
@@ -855,11 +896,14 @@ class Agent:
         self.sessions[created.id] = created
         return created
 
-    def handle(self, session_id: str | None, message: str, scenario: str | None = None, emit=None) -> dict[str, Any]:
+    def handle(self, session_id: str | None, message: str, scenario: str | None = None, emit=None,
+               card: dict | None = None) -> dict[str, Any]:
         token = EMIT.set(emit)  # 挂在请求上下文而不是实例上：去掉全局锁后，并发请求不会互推过程事件
+        card_token = CARD.set(card or None)  # 基本情况卡片同样只放请求上下文，不进会话状态
         try:
             return self._handle(session_id, message, scenario)
         finally:
+            CARD.reset(card_token)
             EMIT.reset(token)
 
     def _handle(self, session_id: str | None, message: str, scenario: str | None = None) -> dict[str, Any]:
@@ -883,6 +927,10 @@ class Agent:
             role = message.strip()[:20] if role_reply else practice_role(message)
             route = route_from_intent("interview_practice", role, message, session)
             trace["route_by"], trace["intent"], trace["role"] = "regex", "interview_practice", role
+        elif message.strip() == CARD_DONE:
+            # 卡片刚提交：不经过分类器（可能被判成打招呼），直接按卡片给第一批候选
+            route = {"status": "routed", "pipeline": ["xiaogu-career-master"], "missing_inputs": [], "live_sources": [], "task": "propose"}
+            trace["route_by"], trace["intent"] = "regex", "direction"
         elif "resume" in stored:
             # 贴了整份简历：已有招聘说明就按它定制，没有就做通用美化
             task = "tailor" if session.jd else "polish"
@@ -925,6 +973,12 @@ class Agent:
             route["task"], route["live_sources"], route["missing_inputs"] = "jd_followup", [], []
         if route.get("task") == "direction" and session.candidates:
             route["task"] = "propose"  # 候选还在桌上、用户补了新偏好：按新信息重新给候选，而不是又开始追问
+        elif route.get("task") == "direction" and not card_ready(session, message):
+            route["missing_inputs"] = ["基本情况卡片"]  # 工具定位：先把基本情况一次给全，再给方向（10-14 用户标注）
+        elif route.get("task") == "direction" and not session.proposed and not session.jd:
+            # 基本情况已经齐了：第一次进找方向就直接给第一批，不再逐项追问。
+            # 正在聊某份 JD 时（“这个适合我吗”被判成找方向）不另起一批候选，按原来的聊天接话
+            route["task"] = "propose"
         elif route.get("task") == "direction":
             session.direction_turns += 1
             if session.direction_turns >= PROPOSE_AFTER:
@@ -948,6 +1002,8 @@ class Agent:
 
     def _finish(self, session: Session, message: str, payload: dict, trace: dict, started: float) -> dict:
         text = renderer.render(payload)
+        if text.endswith("。"):
+            text = text[:-1]  # 产品约定：整段回答最后一句不带句号（10-14 用户标注）
         asked = payload.get("question") if payload["status"] == "needs_input" else payload.get("next_action")
         session.last_question = payload["question"] if payload["status"] == "needs_input" else None
         session.last_asked = asked
@@ -959,6 +1015,7 @@ class Agent:
         self._log(session, message, payload, text, trace, raw)
         practice = session.practice
         return {"session_id": session.id, "text": text, "status": payload["status"], "note": payload.get("note"),
+                "action": payload.get("action"),  # 例如 profile_card：界面在回答下放打开卡片的按钮；不放 trace（生产环境会删）
                 "style": payload.get("style", "report"), "trace": trace, "artifact": payload.get("artifact"),
                 # 语音端和前端用：是否在面试中、第几题；say 是可直接朗读的纯文本
                 "practice": {"active": True, "question": practice["i"] + 1, "total": len(practice["questions"]),
@@ -985,7 +1042,12 @@ class Agent:
         if route.get("missing_inputs"):
             first = route["missing_inputs"][0]
             self._stage("ask", "先补一样材料", f"缺：{first}（不调用模型，直接问你）")
-            return {"status": "needs_input", "question": MISSING_QUESTIONS.get(first, f"请补充：{first}")}
+            payload = {"status": "needs_input", "question": MISSING_QUESTIONS.get(first, f"请补充：{first}")}
+            if first == "基本情况卡片":
+                payload["action"] = "profile_card"
+                if "卡片" not in session.profile_asked:
+                    session.profile_asked.append("卡片")
+            return payload
         pipeline = route["pipeline"]
         if "xiaogu-boss-jobs" in pipeline:
             return {"status": "blocked", "answer": "我可以帮你看懂岗位、改简历和复盘面试，但这个版本还不能直接去招聘网站搜岗位。",
@@ -1297,12 +1359,15 @@ class Agent:
                 trace["attempts"] = attempts
                 if session is not None:
                     session.facts.update(extras["facts"])
-                    if gap and profile_asked_in(gap, payload.get("next_action")):
-                        session.profile_asked.append(gap)
-                        session.profile_asked_turn = session.turns
-                        trace["profile_asked"] = gap
+                    if "基本情况" in (payload.get("next_action") or ""):
+                        # 小谷请用户填卡：界面在这条回答下放一个打开卡片的按钮；同一会话不再引导
+                        payload["action"] = "profile_card"
+                        if "卡片" not in session.profile_asked:
+                            session.profile_asked.append("卡片")
+                            trace["profile_asked"] = "卡片"
                     if extras["candidates"]:
                         session.candidates = extras["candidates"]
+                        session.proposed = True
                 return payload
             messages += [{"role": "assistant", "content": raw or "（空）"},
                          {"role": "user", "content": "上一次输出没有通过校验：" + "；".join(errors) + "。请修正后只输出 json。"}]

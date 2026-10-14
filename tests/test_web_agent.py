@@ -62,14 +62,14 @@ class WebAgentHarnessTests(unittest.TestCase):
 
     def test_screenshot_sentences_reach_model_not_canned_menu(self):
         menu = "你现在最想解决哪件事"
-        answer = json.dumps({"answer": "先聊聊你的情况。", "evidence_ids": [], "inferences": [], "unknown": [], "next_action": "你学的是什么专业？"}, ensure_ascii=False)
-        # 第二轮换一个问题：同一项基础信息问过就不再问（notes/2026-10-13-画像提问.md），重复会被判不通过
-        answer2 = answer.replace("你学的是什么专业？", "你最想先弄清楚这个岗位的哪一点？")
+        answer = self.chat("结合你填的情况，可以先看看这几个方向。", "你想先了解哪一个？",
+                           candidates=[{"role": "产品助理", "reason": "模拟理由"}, {"role": "用户运营", "reason": "模拟理由"}])
+        answer2 = json.dumps({"answer": "先聊聊这个岗位。", "evidence_ids": [], "inferences": [], "unknown": [], "next_action": "你最想先弄清楚这个岗位的哪一点？"}, ensure_ascii=False)
         provider = ScriptedProvider([answer, answer2], intent="direction", role=None)
         a = agent.Agent(provider)
-        first = a.handle(None, "我不知道我应该做些什么")
+        first = a.handle(None, "我不知道我应该做些什么", card={"专业": "工商管理", "毕业时间": "2026届"})
         self.assertNotIn(menu, first["text"])
-        self.assertEqual(first["trace"]["route"]["task"], "direction")
+        self.assertEqual(first["trace"]["route"]["task"], "propose")
         provider.intent, provider.role = "job_understanding", "职业经理人"
         second = a.handle(first["session_id"], "我想要应聘 职业经理人")
         self.assertEqual(second["trace"]["route"]["pipeline"], ["xiaogu-career-suite"])
@@ -163,16 +163,15 @@ class WebAgentHarnessTests(unittest.TestCase):
 
     def test_direction_converges_to_candidates_then_pick_routes_to_job_understanding(self):
         cands = [{"role": "医学答疑专员", "reason": "临床背景"}, {"role": "健康科普编辑", "reason": "面向消费者"}]
-        outputs = [self.chat("了解。"), self.chat("明白。"), self.chat("根据你说的情况，可以考虑这些。", "你对哪个最感兴趣？", candidates=cands),
+        outputs = [self.chat("根据你说的情况，可以考虑这些。", "你对哪个最感兴趣？", candidates=cands),
                    json.dumps({"answer": "这个岗位主要做答疑。", "evidence_ids": [], "inferences": [], "unknown": [], "next_action": None}, ensure_ascii=False)]
         provider = ScriptedProvider(outputs, intent="direction", role=None)
         a = agent.Agent(provider)
-        r1 = a.handle(None, "我不知道做什么")
-        r2 = a.handle(r1["session_id"], "我是临床专业")
-        r3 = a.handle(r1["session_id"], "喜欢和人打交道")
-        self.assertEqual(r3["trace"]["route"]["task"], "propose")
-        self.assertIn("1. 医学答疑专员：临床背景", r3["text"])
-        self.assertNotIn("**结论**", r3["text"])
+        # 10-14 起：基本情况卡片已填时，第一次进找方向就直接给候选，不再追问三轮
+        r1 = a.handle(None, "我不知道做什么", card={"专业": "临床医学", "毕业时间": "2026届"})
+        self.assertEqual(r1["trace"]["route"]["task"], "propose")
+        self.assertIn("1. 医学答疑专员：临床背景", r1["text"])
+        self.assertNotIn("**结论**", r1["text"])
         r4 = a.handle(r1["session_id"], "第一个")
         self.assertEqual(r4["trace"]["route_by"], "candidate")
         self.assertEqual(r4["trace"]["role"], "医学答疑专员")
@@ -209,8 +208,9 @@ class WebAgentHarnessTests(unittest.TestCase):
             with self.subTest(intent=intent):
                 provider = ScriptedProvider([analysis, self.chat("好的。")], intent=intent, role=None)
                 a = agent.Agent(provider)
-                sid = a.handle(None, self.OPS_JD)["session_id"]
-                a.handle(sid, self.FOLLOWUP)
+                card = {"专业": "市场营销", "毕业时间": "2026届"}  # 找方向类追问需要基本情况，否则先请用户填卡
+                sid = a.handle(None, self.OPS_JD, card=card)["session_id"]
+                a.handle(sid, self.FOLLOWUP, card=card)
                 prompt = provider.prompts[-1]
                 self.assertNotIn("（用户没有提供招聘说明：", prompt)
                 self.assertIn("<job_description>\n【产品运营实习生】", prompt)  # 完整 JD 单独成块，不靠 300 字截断的对话记录
@@ -414,13 +414,13 @@ class ConversationFeelRound2Tests(unittest.TestCase):
     def test_self_note_next_action_is_rejected(self):
         bad = json.dumps({"answer": "第一次找工作不知道投什么很正常。", "evidence_ids": [], "next_action": "问问对方的专业和年级"}, ensure_ascii=False)
         ok = json.dumps({"answer": "第一次找工作不知道投什么很正常。", "evidence_ids": [], "next_action": "你是什么专业、现在大几？"}, ensure_ascii=False)
-        result = agent.Agent(ScriptedProvider([bad, ok], intent="direction", role=None)).handle(None, "我不知道投什么")
+        result = agent.Agent(ScriptedProvider([bad, ok], intent="general_advice", role=None)).handle(None, "我不知道投什么")
         self.assertEqual(len(result["trace"]["attempts"]), 2)
         self.assertNotIn("问问对方", result["text"])
 
     def test_question_only_once_when_answer_already_asks(self):
         out = json.dumps({"answer": "很正常。你是什么专业？", "evidence_ids": [], "next_action": "你是什么专业、现在大几？"}, ensure_ascii=False)
-        result = agent.Agent(ScriptedProvider([out], intent="direction", role=None)).handle(None, "我不知道投什么")
+        result = agent.Agent(ScriptedProvider([out], intent="general_advice", role=None)).handle(None, "我不知道投什么")
         self.assertEqual(result["text"].count("？"), 1)
 
     def test_dialogue_memory_includes_what_xiaogu_said(self):

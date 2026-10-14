@@ -393,3 +393,41 @@ class MaskTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ProfileCardTests(PlatformCase):
+    """基本情况卡片（notes/2026-10-14-基本情况卡片与对话标注修复.md）：按用户保存、可清空、每轮现读、不复制进会话状态。"""
+    CARD = {"专业": "汉语言文学", "毕业时间": "2026届", "城市偏好": ["新一线"], "经历": "在校报社写过 20 篇稿子"}
+
+    def test_save_validate_clear(self):
+        client = self.login()
+        meta = client.get("/api/me/profile").json()
+        self.assertEqual(meta["profile"], {})
+        self.assertIn("城市偏好", meta["fields"])
+        self.assertTrue(meta["fields"]["城市偏好"]["multi"])
+        bad = client.post("/api/me/profile", json={"profile": {"学校": "某某大学"}})
+        self.assertEqual(bad.status_code, 400)  # 必填项缺了不保存
+        self.assertEqual(client.post("/api/me/profile", json={"profile": self.CARD}).status_code, 200)
+        self.assertEqual(client.get("/api/me/profile").json()["profile"]["专业"], "汉语言文学")
+        client.post("/api/me/profile", json={"profile": {}})
+        self.assertEqual(client.get("/api/me/profile").json()["profile"], {})
+
+    def test_other_user_cannot_see_card(self):
+        self.login().post("/api/me/profile", json={"profile": self.CARD})
+        other = self.login(contact="13800002222")
+        self.assertEqual(other.get("/api/me/profile").json()["profile"], {})
+
+    def test_card_drives_direction_and_never_lands_in_session_state(self):
+        client = self.login()
+        first = self.chat(client, "我不知道该投什么岗位").json()
+        self.assertEqual(first["status"], "needs_input")
+        self.assertEqual(first["action"], "profile_card")
+        client.post("/api/me/profile", json={"profile": self.CARD})
+        meta = client.get("/api/me/profile").json()
+        done = self.chat(client, meta["done_message"], first["session_id"]).json()
+        self.assertEqual(done["trace"]["route"]["task"], "propose")
+        client.post("/api/me/profile", json={"profile": {}})  # 清空后，数据库里的会话不能还留着卡片内容
+        with self.store.conn() as c:
+            states = [r["state"] for r in c.execute("SELECT state FROM chat_sessions")]
+        self.assertTrue(states)
+        self.assertFalse(any("在校报社写过 20 篇稿子" in s for s in states))

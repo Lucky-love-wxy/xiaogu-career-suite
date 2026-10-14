@@ -64,6 +64,12 @@ CREATE TABLE IF NOT EXISTS credit_ledger (
   created_at REAL NOT NULL
 );
 CREATE INDEX IF NOT EXISTS ix_ledger_user ON credit_ledger(user_id);
+-- 基本情况卡片：每个用户一份，用户本人填写、随时可改可清空；不复制进会话状态（notes/2026-10-14-基本情况卡片与对话标注修复.md）
+CREATE TABLE IF NOT EXISTS user_profile (
+  user_id TEXT PRIMARY KEY,
+  data TEXT NOT NULL,      -- JSON：字段见 agent.CARD_FIELDS
+  updated_at REAL NOT NULL
+);
 CREATE TABLE IF NOT EXISTS chat_sessions (
   id TEXT PRIMARY KEY,
   user_id TEXT NOT NULL,
@@ -384,6 +390,20 @@ class Store:
     def load_session(self, session_id: str) -> dict | None:
         row = self.one("SELECT state FROM chat_sessions WHERE id=? AND deleted_at IS NULL", (session_id,))
         return json.loads(row["state"]) if row else None
+
+    def get_profile(self, user_id: str) -> dict:
+        row = self.one("SELECT data FROM user_profile WHERE user_id=?", (user_id,))
+        return json.loads(row["data"]) if row else {}
+
+    def set_profile(self, user_id: str, data: dict) -> None:
+        """空卡片即清空：直接删行，不留旧内容。"""
+        with self._write, self.conn() as c:
+            if data:
+                c.execute("INSERT INTO user_profile(user_id, data, updated_at) VALUES (?,?,?) "
+                          "ON CONFLICT(user_id) DO UPDATE SET data=excluded.data, updated_at=excluded.updated_at",
+                          (user_id, json.dumps(data, ensure_ascii=False), now()))
+            else:
+                c.execute("DELETE FROM user_profile WHERE user_id=?", (user_id,))
 
     def save_session(self, session_id: str, user_id: str, state: dict, title: str) -> None:
         with self._write, self.conn() as c:

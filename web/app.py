@@ -301,7 +301,9 @@ class Platform:
         try:
             if lock:
                 lock.acquire()
-            result = self.agent.handle(session.id if session else None, message.strip(), scenario, emit=emit)
+            # 基本情况卡片每轮现读：用户改了马上生效，清空后也不会残留在会话里
+            result = self.agent.handle(session.id if session else None, message.strip(), scenario, emit=emit,
+                                       card=self.store.get_profile(user["id"]))
             status = result["status"]
         finally:
             if lock:
@@ -482,6 +484,26 @@ def create_app(platform: Platform) -> FastAPI:
         with store.conn() as c:
             c.execute("UPDATE users SET theme=? WHERE id=?", (theme, user["id"]))
         return {"ok": True}
+
+    @app.get("/api/me/profile")
+    def get_profile(request: Request):
+        """基本情况卡片：字段和可选值一起给前端，前端不写死第二份。"""
+        user = current_user(request)
+        fields = {k: {"max": n, "choices": c if isinstance(c, list) else (list(c) if c else None), "multi": isinstance(c, list)}
+                  for k, (n, c) in agent.CARD_FIELDS.items()}
+        return {"profile": store.get_profile(user["id"]), "fields": fields, "required": list(agent.CARD_REQUIRED),
+                "done_message": agent.CARD_DONE}
+
+    @app.post("/api/me/profile")
+    def set_profile(request: Request, data: dict = Body(...)):
+        """保存卡片；提交空卡片即清空（直接删行）。必填项缺了不保存，避免存一张给不出建议的卡。"""
+        user = current_user(request)
+        card = agent.clean_card(data.get("profile") if isinstance(data.get("profile"), dict) else {})
+        missing = [k for k in agent.CARD_REQUIRED if k not in card]
+        if card and missing:
+            raise HTTPException(400, "请先填：" + "、".join(missing))
+        store.set_profile(user["id"], card)
+        return {"profile": card}
 
     # ------------------------------------------------------------ 会话
 
