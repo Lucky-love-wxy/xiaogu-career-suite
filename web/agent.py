@@ -312,7 +312,7 @@ PROFILE = {
     "意向城市": (("城市", "地点", "地区"), ("城市", "哪个城", "在哪工作", "哪里工作")),
 }
 # 会引导用户填卡片的任务；给候选、黑话、改简历、面试不插这句
-PROFILE_TASKS = {"suite", "jd_followup", "direction", "greeting", "master", "general"}
+PROFILE_TASKS = {"suite", "jd_followup", "direction", "master", "general"}  # 开场白正文已经介绍了卡片，不再叠一句（round13：一轮问了两件事）
 
 # 基本情况卡片（notes/2026-10-14-基本情况卡片与对话标注修复.md）：小谷定位是工具，用户一次填完、随时可改。
 # 卡片只存在 user_profile 表里，每轮由平台层放进请求上下文，不写进会话状态——否则每个对话都留一份副本，清空卡片清不干净
@@ -974,9 +974,11 @@ class Agent:
             route["task"], route["live_sources"], route["missing_inputs"] = "jd_followup", [], []
         if route.get("task") == "direction" and session.candidates:
             route["task"] = "propose"  # 候选还在桌上、用户补了新偏好：按新信息重新给候选，而不是又开始追问
-        elif route.get("task") == "direction" and not card_ready(session, message):
-            route["missing_inputs"] = ["基本情况卡片"]  # 工具定位：先把基本情况一次给全，再给方向（10-14 用户标注）
-        elif route.get("task") == "direction" and not session.proposed and not session.jd:
+        elif route.get("task") == "direction" and not card_ready(session, message) and "卡片" not in session.profile_asked:
+            # 工具定位：先把基本情况一次给全，再给方向（10-14 用户标注）。每个对话只请一次：
+            # 用户没填、接着聊，就按原来的找方向聊天接话，不反复催（round13：同一对话请了两次）
+            route["missing_inputs"] = ["基本情况卡片"]
+        elif route.get("task") == "direction" and not session.proposed and not session.jd and card_ready(session, message):
             # 基本情况已经齐了：第一次进找方向就直接给第一批，不再逐项追问。
             # 正在聊某份 JD 时（“这个适合我吗”被判成找方向）不另起一批候选，按原来的聊天接话
             route["task"] = "propose"
@@ -1002,7 +1004,7 @@ class Agent:
         return self._finish(session, message, payload, trace, started)
 
     def _finish(self, session: Session, message: str, payload: dict, trace: dict, started: float) -> dict:
-        text = renderer.render(payload)
+        text = renderer.render(payload).rstrip()  # 渲染器输出末尾带换行，先去掉再判断句号
         if text.endswith("。"):
             text = text[:-1]  # 产品约定：整段回答最后一句不带句号（10-14 用户标注）
         asked = payload.get("question") if payload["status"] == "needs_input" else payload.get("next_action")

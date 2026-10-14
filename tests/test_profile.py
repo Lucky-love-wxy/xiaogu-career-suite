@@ -78,13 +78,28 @@ class CardFlowTests(unittest.TestCase):
         self.assertIn("基本情况", result["text"])
 
     def test_never_filling_the_card_does_not_loop(self):
-        # 同一句“先填卡”不连发两次：第二次交给模型按上下文接话（repeat_guard）
+        # 用户不填卡、接着说：不再请填卡，也不在没有基本情况时硬给候选，按原来的找方向聊天接话
         p = ScriptedProvider([chat_out("你最近有在看哪类岗位吗？")], intent="direction", role=None)
         a = agent.Agent(p)
         first = a.handle(None, "我不知道该投什么岗位")
         second = a.handle(first["session_id"], "就是不知道")
-        self.assertTrue(second["trace"].get("repeat_guard"))
+        self.assertEqual(second["trace"]["route"]["task"], "direction")
         self.assertEqual(second["status"], "complete")
+
+    def test_card_is_requested_at_most_once_per_conversation(self):
+        p = ScriptedProvider([chat_out("说说你最近在看什么？"), chat_out("你更在意哪一点？")], intent="direction", role=None)
+        a = agent.Agent(p)
+        first = a.handle(None, "我不知道该投什么岗位")
+        self.assertEqual(first["action"], "profile_card")
+        p.intent = "general_advice"
+        a.handle(first["session_id"], "群面一般怎么准备")
+        p.intent = "direction"
+        third = a.handle(first["session_id"], "还是不知道投什么")
+        self.assertNotEqual(third["status"], "needs_input")  # 中间隔了一轮也不再请填卡
+        self.assertEqual(third["trace"]["route"]["task"], "direction")
+
+    def test_greeting_does_not_add_card_hint(self):
+        self.assertIsNone(agent.profile_gap("greeting", agent.Session(), False))
 
     def test_card_done_goes_straight_to_candidates(self):
         # 分类器即使判成打招呼，提交卡片那句也直接给候选
@@ -155,7 +170,7 @@ class EndingTests(unittest.TestCase):
     def test_reply_never_ends_with_a_full_stop(self):
         out = json.dumps({"answer": "先别急，慢慢来。", "evidence_ids": [], "next_action": None}, ensure_ascii=False)
         result = agent.Agent(ScriptedProvider([out], intent="general_advice", role=None)).handle(None, "好焦虑", card=CARD)
-        self.assertFalse(result["text"].endswith("。"))
+        self.assertFalse(result["text"].rstrip().endswith("。"))
 
     def test_pasted_jd_report_still_works_without_card(self):
         result = agent.Agent(agent.MockProvider()).handle(None, "帮我看看这个岗位：\n" + JD)

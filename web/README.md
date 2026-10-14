@@ -60,6 +60,10 @@ python3 /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/web/server.py 
 
 `POST /api/ocr` `{"image": "base64 或 data:image/...;base64,..."}` → `{"text"}`。要登录，不扣额度；只收 PNG / JPG / WebP，单张 ≤ 6MB。引擎 RapidOCR（`web/ocr.py`，模型随 pip 包自带，不联网）。每张图在一个用完即退的子进程里识别（峰值约 650MB，退出即还；常驻会只涨不退），同一时间只跑一个，每张约 1.2 秒。图片不落盘、不写日志；识别结果只回填输入框，用户核对后自己发送，所以下游流程不区分文字是粘贴的还是识别的。前端入口：「+」菜单「从截图识别文字」、输入框粘贴图片、拖进输入框；一次最多 6 张，按顺序拼接。设计见 `notes/2026-10-13-图片识别.md`。
 
+## 基本情况卡片（2026-10-14）
+
+`GET /api/me/profile` → `{profile, fields, required, done_message}`：字段、可选值、必填项都由服务端给，前端不写死第二份。`POST /api/me/profile` `{"profile": {...}}` 保存（只收 `agent.CARD_FIELDS` 里的字段和可选值；必填项缺了返回 400）；提交空对象即清空（删行）。卡片存在 `user_profile` 表，每轮由 `Platform.run` 现读后传给 `agent.handle(card=...)`，放在请求上下文里，不写进会话状态。回答里带 `action: "profile_card"` 时，前端在回答下放「填写基本情况」按钮。设计见 `notes/2026-10-14-基本情况卡片与对话标注修复.md`。
+
 ## 未做
 
 真实牛客/脉脉抓取、账号与持久化（简历成品页只存在内存里，重启服务就没了）、部署、简历文件上传（PDF/Word 解析）、语音前端本身、成品页“读回解析”自检（用解析器把成品读回来确认字段都识别对，调研文档 1.5 节建议的做法）。`scripts/package.py` 不打包本目录。

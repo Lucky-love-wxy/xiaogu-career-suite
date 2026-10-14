@@ -52,7 +52,8 @@ class WebAgentHarnessTests(unittest.TestCase):
         provider = ScriptedProvider([], intent="resume_for_job", role=None)
         result = agent.Agent(provider).handle(None, "我想做全栈，帮我改简历")
         self.assertEqual(result["status"], "needs_input")
-        self.assertEqual(result["text"].strip(), agent.MISSING_QUESTIONS["目标岗位的招聘说明"])
+        # 最后一句不带句号是产品约定（10-14），比较时去掉模板末尾的句号
+        self.assertEqual(result["text"].strip(), agent.MISSING_QUESTIONS["目标岗位的招聘说明"].rstrip("。"))
         self.assertEqual(provider.calls, 0)  # 只做了分类，没有让模型写追问
 
     def test_pasted_material_takes_regex_path_without_classifier(self):
