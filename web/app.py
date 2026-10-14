@@ -49,6 +49,9 @@ EVENT_NAMES = {"page_view", "feature_open", "resume_export", "interview_start", 
                "credits_exhausted", "pay_open", "feedback_submit", "theme_change", "login_view"}
 
 
+SENDERS = {"console": ConsoleSender}  # 已实现的验证码发送器；接入短信 / 邮件服务后在这里登记，Platform 按配置选用
+
+
 class Config:
     def __init__(self, env: dict | None = None):
         e = env if env is not None else os.environ
@@ -83,6 +86,9 @@ class Config:
             if self.sender == "console":
                 # 控制台验证码只打印在服务器日志里，真实用户收不到：生产环境必须先接短信或邮件服务
                 raise SystemExit("生产环境不能用 console 验证码发送器；先接入短信 / 邮件服务（设计文档第 6 节问题 1）")
+            if self.sender not in SENDERS:
+                # 以前随便写一个非 console 的值就能通过这道检查，但实际仍用控制台发送，真实用户收不到验证码（10-14 上线前检查发现）
+                raise SystemExit(f"验证码发送器 {self.sender} 还没实现（已实现：{', '.join(SENDERS)}）；接好短信 / 邮件服务再上生产")
             drafts = [p.name for p in STATIC.glob("legal-*.html") if "<!-- DRAFT" in p.read_text(encoding="utf-8")]
             if drafts:
                 raise SystemExit(f"用户协议 / 隐私政策还是草稿（{', '.join(drafts)}），确认内容并删掉 DRAFT 标记后才能上生产")
@@ -126,7 +132,7 @@ class Platform:
         if str(config.db) != ":memory:":
             # 库外黑话待审清单放在数据库旁（web/data/，不进 git）；只记用户问的那个说法，不记会话
             self.agent.jargon_queue_dir = Path(config.db).parent
-        self.auth = Auth(self.store, sender or ConsoleSender(), config.secret)
+        self.auth = Auth(self.store, sender or SENDERS.get(config.sender, ConsoleSender)(), config.secret)
         self.locks: dict[str, threading.Lock] = {}
         self.locks_guard = threading.Lock()
         self.owners: dict[str, str] = {}      # 内存里的会话 → 用户，避免每轮查库

@@ -493,3 +493,12 @@ class MemoryDocTests(PlatformCase):
         client = self.login()
         texts = [self.chat(client, "你好").json()["text"] for _ in range(10)]
         self.assertFalse(any("清理记忆" in t for t in texts))
+
+
+class SenderGateTests(unittest.TestCase):
+    def test_prod_rejects_unimplemented_sender_name(self):
+        # 写一个不存在的发送器名字不能骗过上线检查
+        env = {"XIAOGU_ENV": "prod", "XIAOGU_SECRET": "s" * 32, "XIAOGU_ADMIN_TOKEN": "a" * 24, "XIAOGU_LOGIN_SENDER": "sms"}
+        with self.assertRaises(SystemExit) as caught:
+            webapp.Config(env)
+        self.assertTrue("sms" in str(caught.exception) or "模拟数据" in str(caught.exception))
