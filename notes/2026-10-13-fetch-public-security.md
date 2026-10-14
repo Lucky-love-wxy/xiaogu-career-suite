@@ -43,3 +43,7 @@
 - 8 条恶意 manifest（file://、ftp://、空 host、`../` 穿越、绝对路径 ×2、`examples/../../`、`.`）全部 rejected_url / rejected_path；evidence/ 下无新文件，越界位置无文件；代理指向死端口，未发生网络请求。
 - 直接调用 `SafeRedirect.redirect_request`：ftp:// 与 file:// 被拦，https 放行；opener 已用 SafeRedirect 替换默认重定向处理器。
 - 未覆盖：重定向到同 scheme 的内网主机（http://127.0.0.1 等）仍会跟随，跨主机重定向也不再查 robots；`resp.read()` 无上限。脚本只吃自己写的政府站 manifest，暂不处理。
+
+## 后续（2026-10-13，用户确认后）
+- 两个 manifest 的 path 去掉 `xiaogu-career-suite/evidence/industry-clusters-2026-10/` 前缀，改为相对 evidence 目录；software 重跑命中 cached。examples 两条当时 403 未下载，本就无文件。旁边的 .results.json 是历史记录，未改。
+- state-employer 的 collect.py 同样加 scheme 白名单 + SafeRedirect；supplement / extra_entries / collect_identity 通过 exec 复用 fetch，一并生效。离线测 file:// / ftp:// / 空 host 均 rejected_url，snapshots 目录数不变。

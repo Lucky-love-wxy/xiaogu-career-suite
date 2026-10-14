@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-04",
+  "endpoint": "navigate",
+  "target": "E720249C4DEBF9F1A7409D37CFAED01A",
+  "intended_url": "https://www.sogou.com/robots.txt",
+  "exit_code": 1,
+  "error": "CDP_CONNECT_TIMEOUT: Chrome 调试连接在 20 秒内未获响应；检查授权提示，后续请求可重新连接。",
+  "source_pages_added": 11,
+  "network_retry": false,
+  "state": "等待用户提供Chrome授权提示情况"
+}

@@ -22,8 +22,15 @@ class Parser(HTMLParser):
  def handle_data(self,d):
   if not self.skip:self.text.append(d.strip())
   if self.href:self.label.append(d)
+# 只许 http/https（含重定向目标）：清单和 supplement 抓到的链接都不当可信输入，防 file:// 读本机、ftp 等
+class SafeRedirect(urllib.request.HTTPRedirectHandler):
+ def redirect_request(self,req,fp,code,msg,headers,newurl):
+  if urllib.parse.urlsplit(newurl).scheme not in ('http','https'):raise urllib.error.HTTPError(newurl,code,'redirect scheme not allowed',headers,fp)
+  return super().redirect_request(req,fp,code,msg,headers,newurl)
+opener=urllib.request.build_opener(SafeRedirect)
 def fetch(url,kind):
  h=urllib.parse.urlsplit(url).netloc.lower()
+ if urllib.parse.urlsplit(url).scheme not in ('http','https') or not h:return {'url':url,'status':'rejected_url'}
  if any(x in h for x in ['zhipin.com','maimai.cn']):return {'url':url,'status':'scope_excluded'}
  key=hashlib.sha256(url.encode()).hexdigest()[:20]; d=OUT/'snapshots'/h/key;d.mkdir(parents=True,exist_ok=True);mf=d/'meta.json'
  if mf.exists():return json.loads(mf.read_text())
@@ -33,7 +40,7 @@ def fetch(url,kind):
   time.sleep(max(0,5.2-(time.monotonic()-last.get(h,0))));last[h]=time.monotonic()
   m={'url':url,'kind':kind,'accessed':'2026-10-11 Asia/Shanghai','started_epoch':time.time(),'ua':UA,'cookies_sent':False,'path':str(d.relative_to(ROOT))}
   try:
-   req=urllib.request.Request(url,headers={'User-Agent':UA});res=urllib.request.urlopen(req,timeout=22);b=res.read(3000000)
+   req=urllib.request.Request(url,headers={'User-Agent':UA});res=opener.open(req,timeout=22);b=res.read(3000000)
    m.update(status=res.status,final_url=res.url,headers=dict(res.headers),bytes=len(b))
    (d/'raw.bin').write_bytes(b)
    charset=res.headers.get_content_charset();txt=''

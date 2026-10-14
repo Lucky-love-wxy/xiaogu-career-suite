@@ -1,0 +1,8 @@
+{
+  "accessed_at": "2026-10-05",
+  "url": "https://bbs.yingjiesheng.com/",
+  "step": "parse eval output",
+  "error": "Unterminated string in JSON at position 45960",
+  "classification": "local_output_truncation_not_network_failure",
+  "remedy": "reduce DOM text/tail/link bounds before evaluating again"
+}

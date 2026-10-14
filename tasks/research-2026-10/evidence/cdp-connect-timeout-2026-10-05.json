@@ -1,0 +1,7 @@
+{
+  "time": "2026-10-05T02:11:15.481980+08:00",
+  "command": "node /Users/lucky_wang/.agents/skills/web-access/scripts/cdp.mjs navigate target=0D3246E282A37DA1FBE31DC192A0C75B url=https://xzjobs.cn/products/job-board",
+  "exit_code": 1,
+  "error": "CDP_CONNECT_TIMEOUT: Chrome 调试连接在 20 秒内未获响应；检查授权提示，后续请求可重新连接。",
+  "consequence": "停止联网；未重试、未切路。保留本任务标签页，不关闭用户页。原因未确定。"
+}
