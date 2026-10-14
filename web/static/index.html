@@ -158,6 +158,7 @@ body.fresh .chips{display:flex}
 .xg ol li::before{display:none}
 .xg p{margin:0 0 14px}
 .xg strong{font:700 13px/1 var(--serif); letter-spacing:.2em; display:inline-block; margin-right:10px; color:var(--ink)}
+.xg p.key{font:600 17px/1.8 var(--serif); color:var(--ink); border-left:2px solid var(--ink-2); padding-left:14px; margin:18px 0}
 .xg .sec{border-top:1px solid var(--rule); padding-top:14px; margin-top:18px}
 .xg .ask{font:500 16px/1.8 var(--serif); margin-top:16px}
 .xg ul{margin:6px 0 0; padding:0; list-style:none}
@@ -171,6 +172,42 @@ body.fresh .chips{display:flex}
 .xg .artifact{display:inline-block; margin:4px 0 6px; padding:9px 18px; border:1px solid var(--rule); border-radius:var(--r); color:var(--ink);
   text-decoration:none; font:500 14px/1.4 var(--sans); transition:background .15s,transform .15s}
 .xg .artifact:hover{background:var(--hover); transform:translateY(-1px)}
+/* 基本情况卡片：原生 dialog，衬线标题 + 细线分节，选项沿用 chip 语言，选中反白；不新加颜色 */
+.card{width:min(560px, calc(100vw - 32px)); max-height:min(86vh, 86dvh); padding:0; border:1px solid var(--rule); border-radius:16px;
+  background:var(--pop); color:var(--ink); box-shadow:0 24px 70px rgba(0,0,0,.45); overflow:hidden}
+.card[open]{display:flex; flex-direction:column; animation:rise .28s var(--ease) both}
+.card::backdrop{background:var(--scrim); animation:fadein .2s ease both}
+.card header{padding:26px 28px 18px; border-bottom:1px solid var(--rule)}
+.card h2{margin:0; font:600 22px/1.3 var(--serif); letter-spacing:.18em}
+.card header p{margin:10px 0 0; font-size:13px; line-height:1.7; color:var(--ink-2)}
+.card .fields{flex:1; overflow-y:auto; padding:6px 28px 8px; overscroll-behavior:contain}
+.card section{padding:18px 0 6px}
+.card section + section{border-top:1px solid var(--rule)}
+.card .sec{display:flex; align-items:baseline; gap:10px; margin:0 0 14px; font:500 11px/1 var(--mono); letter-spacing:.24em; color:var(--ink-3)}
+.card .sec b{font:600 15px/1 var(--serif); letter-spacing:.12em; color:var(--ink)}
+.card .row{display:block; margin:0 0 20px}  /* label 默认是行内元素，margin 不生效 */
+.card .lab{display:block; margin:0 0 8px; font-size:13px; color:var(--ink-2)}
+.card .lab em{font-style:normal; margin-left:6px; font:500 10px/1 var(--mono); color:var(--ink-3); letter-spacing:.06em}
+.card input[type=text], .card textarea{width:100%; box-sizing:border-box; font:16px/1.6 var(--sans); color:var(--ink); background:transparent;
+  border:0; border-bottom:1px solid var(--rule); border-radius:0; padding:6px 2px; outline:none; transition:border-color .15s}
+.card textarea{min-height:92px; resize:vertical; border:1px solid var(--rule); border-radius:var(--r-sm); padding:10px 12px}
+.card input[type=text]:focus, .card textarea:focus{border-color:var(--ink-2)}
+.card input::placeholder, .card textarea::placeholder{color:var(--ink-3)}
+.card .opts{display:flex; flex-wrap:wrap; gap:8px}
+.card .opts button{all:unset; cursor:pointer; padding:7px 13px; border:1px solid var(--rule); border-radius:var(--r); font-size:13px; color:var(--ink-2);
+  transition:background .15s,color .15s,border-color .15s}
+.card .opts button:hover{background:var(--hover); color:var(--ink)}
+.card .opts button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--paper)}
+.card .opts button:focus-visible{outline:1px solid var(--ink-2); outline-offset:2px}
+.card footer{display:flex; align-items:center; gap:8px; padding:14px 20px calc(14px + env(safe-area-inset-bottom)); border-top:1px solid var(--rule)}
+.card footer .err{flex:1; min-width:0; font-size:12px; color:var(--shu)}
+.card footer .primary{all:unset; cursor:pointer; padding:9px 16px; border-radius:var(--r); background:var(--ink); color:var(--paper); font:500 14px/1.4 var(--sans);
+  transition:opacity .15s,transform .15s}
+.card footer .primary:hover{transform:translateY(-1px)}
+.card footer .primary:disabled{opacity:.35; cursor:default; transform:none}
+.card header{position:relative}
+.card .x{position:absolute; top:18px; right:16px}
+@media (max-width:520px){ .card header{padding:22px 20px 14px} .card .fields{padding:4px 20px 8px} .card footer{padding-left:12px; padding-right:12px; gap:4px} }
 .xg .pq{margin:2px 0 0; font-size:12px; letter-spacing:.1em; color:var(--ink-3)}
 .xg .betatag{display:flex; align-items:center; gap:8px; margin:0 0 10px; font-size:12px; color:var(--ink-3)}
 /* 正在处理：三个跳动的点 + 当前阶段 */
@@ -248,6 +285,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
   <symbol id="i-mic" viewBox="0 0 24 24"><path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
   <symbol id="i-back" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v4h4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="10" r="1.8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m4 18 5-5 4 4 3-3 4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="11" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5.8 16.2c.7-1.5 1.9-2.2 3.2-2.2s2.5.7 3.2 2.2M14.5 10h4M14.5 13.5h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
   <symbol id="i-sample" viewBox="0 0 24 24"><path d="M5 4h10l4 4v12H5Z M9 11h6M9 15h6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
   <symbol id="i-theme" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18Z" fill="currentColor"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
   <symbol id="i-file" viewBox="0 0 24 24"><path d="M7 3h10v18l-5-3-5 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
@@ -297,6 +335,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
 
 <!-- 输入框 + 菜单：功能入口都在这里 -->
 <div class="menu-pop" id="plusMenu" role="menu">
+  <button class="mi" id="cardPick" role="menuitem"><svg class="i"><use href="#i-card"/></svg><span>基本情况<span class="d">填一次，小谷按它给方向建议</span></span></button>
   <button class="mi" data-q="我想看懂一个岗位" role="menuitem"><svg class="i"><use href="#i-job"/></svg><span>看懂岗位<span class="d">拆招聘说明里的原句和黑话</span></span></button>
   <button class="mi" data-q="帮我美化一下简历" role="menuitem"><svg class="i"><use href="#i-doc"/></svg><span>美化简历<span class="d">整理成单栏、可打印的简历</span></span><span class="r beta">beta</span></button>
   <button class="mi" data-q="帮我按岗位改简历" role="menuitem"><svg class="i"><use href="#i-target"/></svg><span>按岗位改简历<span class="d">换成招聘说明的说法</span></span><span class="r beta">beta</span></button>
@@ -347,6 +386,21 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
   </div>
 </main>
 
+<dialog class="card" id="card" aria-labelledby="cardTitle">
+  <header>
+    <h2 id="cardTitle">基本情况</h2>
+    <button class="tb icon x" id="cardClose" type="button" aria-label="关闭"><svg class="i"><use href="#i-x"/></svg></button>
+    <p>填一次就行，随时可以回来改。小谷按它给你几批方向建议，也用它判断某个岗位你能不能投。只有专业和届别必填。</p>
+  </header>
+  <form class="fields" id="cardFields" method="dialog"></form>
+  <footer>
+    <span class="err" id="cardErr" role="alert"></span>
+    <button class="tb clear" id="cardClear" type="button">清空</button>
+    <button class="tb" id="cardSave" type="button">只保存</button>
+    <button class="primary" id="cardGo" type="button">保存，给我方向建议</button>
+  </footer>
+</dialog>
+
 <aside class="trace" id="trace"><div class="in"><h3>运行记录</h3><div id="traceItems"><div class="t-item">发送消息后，这里显示路由、检索、来源和校验次数。</div></div></div></aside>
 
 <script>
@@ -393,7 +447,12 @@ function blockHtml(lines){
       const tag = ul ? "ul" : "ol";
       if (list !== tag) { close(); html += `<${tag}>`; list = tag; }
       html += `<li>${inline((ul || ol)[1])}</li>`;
-    } else { close(); html += `<p>${inline(line)}</p>`; }
+    } else {
+      close();
+      // 整行加粗＝聊天回答里“最重要的那一句”，单独强调；不能走 strong 的节标题样式（那是给报告“结论”用的）
+      const key = line.match(/^\*\*([^*]+)\*\*[。.]?$/);
+      html += key ? `<p class="key">${inline(key[1])}</p>` : `<p>${inline(line)}</p>`;
+    }
   }
   close();
   return html;
@@ -524,6 +583,9 @@ async function send(text){
     }
     if (final.trace?.beta) {
       xg.insertAdjacentHTML("afterbegin", '<p class="betatag"><span class="beta">beta</span>这项功能还没有经过真实用户测试，结果请自己核对</p>');
+    }
+    if (final.action === "profile_card") {
+      xg.insertAdjacentHTML("beforeend", '<button class="artifact cardbtn" type="button">填写基本情况</button>');
     }
     if (final.artifact && /^\/resume\/[0-9a-f]+$/.test(final.artifact.url)) {
       xg.insertAdjacentHTML("beforeend", `<a class="artifact" href="${esc(final.artifact.url)}" target="_blank" rel="noopener">${esc(final.artifact.label)}</a>`);
@@ -703,7 +765,7 @@ $("#newchat").onclick = newChat;
 $("#newchatRail").onclick = newChat;
 // 功能入口（+ 菜单和首页快捷按钮）只发起手句，缺什么材料由服务端判断后追问，前端不做第二套路由
 const featureOf = q => /面试/.test(q) ? "interview" : /简历/.test(q) ? "resume" : "chat";
-document.querySelectorAll("#plusMenu .mi:not(#ocrPick), #chips button").forEach(b => b.onclick = () => {
+document.querySelectorAll("#plusMenu .mi:not(#ocrPick):not(#cardPick), #chips button").forEach(b => b.onclick = () => {
   closeMenus();
   const entry = b.dataset.sample ? "示例招聘说明" : b.textContent.trim().split(/\s/)[0];
   track("feature_open", {feature: b.dataset.sample ? "chat" : featureOf(b.dataset.q), entry, from: b.closest("#chips") ? "chips" : "plus"});
@@ -761,6 +823,74 @@ const box = $(".compose .box");
 box.addEventListener("dragover", e => { if ([...e.dataTransfer.items].some(i => i.type.startsWith("image/"))) { e.preventDefault(); box.classList.add("drop"); } });
 box.addEventListener("dragleave", () => box.classList.remove("drop"));
 box.addEventListener("drop", e => { box.classList.remove("drop"); if (e.dataTransfer.files.length) { e.preventDefault(); ocrFiles(e.dataTransfer.files); } });
+
+// 基本情况卡片：字段、可选值、必填项都从接口拿；保存后可直接发那句固定的话，服务端按卡片给第一批方向
+const CARD_GROUPS = [["一", "学业", ["学校", "学历", "专业", "毕业时间"]],
+                     ["二", "意向", ["意向城市", "城市偏好", "单位类型", "期望月薪", "感兴趣的方向"]],
+                     ["三", "经历", ["经历"]]];
+const CARD_HINT = {学校: "例如：某某大学", 专业: "例如：汉语言文学", 意向城市: "例如：杭州，或者家乡附近",
+                   感兴趣的方向: "没想好可以不填", 经历: "实习、项目、社团、比赛、作品都算，几句话就行"};
+let cardMeta = null;
+async function openCard(from){
+  closeMenus();
+  const res = await fetch("/api/me/profile");
+  if (res.status === 401) { location.href = "/login"; return; }
+  cardMeta = await res.json();
+  const {fields, required, profile} = cardMeta;
+  $("#cardFields").innerHTML = CARD_GROUPS.map(([no, title, names]) => `<section><p class="sec">${no}<b>${title}</b></p>` +
+    names.filter(n => fields[n]).map(n => {
+      const f = fields[n], v = profile[n], need = required.includes(n) ? "<em>必填</em>" : "";
+      if (f.choices) {
+        const on = c => (f.multi ? (v || []).includes(c) : v === c);
+        return `<div class="row" role="group" aria-label="${esc(n)}"><span class="lab">${esc(n)}${f.multi ? "<em>可多选</em>" : ""}${need}</span>` +
+          `<div class="opts" data-name="${esc(n)}" data-multi="${f.multi ? 1 : 0}">` +
+          f.choices.map(c => `<button type="button" aria-pressed="${on(c)}">${esc(c)}</button>`).join("") + "</div></div>";
+      }
+      const tag = n === "经历" ? "textarea" : "input";
+      const val = esc(v || "");
+      return `<label class="row"><span class="lab">${esc(n)}${need}</span>` + (tag === "textarea"
+        ? `<textarea name="${esc(n)}" maxlength="${f.max}" placeholder="${esc(CARD_HINT[n] || "")}">${val}</textarea>`
+        : `<input type="text" name="${esc(n)}" maxlength="${f.max}" value="${val}" placeholder="${esc(CARD_HINT[n] || "")}">`) + "</label>";
+    }).join("") + "</section>").join("");
+  $("#cardErr").textContent = "";
+  $("#card").showModal();
+  track("feature_open", {feature: "chat", entry: "基本情况", from});
+}
+$("#cardFields").addEventListener("click", e => {
+  const b = e.target.closest(".opts button");
+  if (!b) return;
+  const box = b.parentElement, multi = box.dataset.multi === "1", pick = b.getAttribute("aria-pressed") !== "true";
+  if (!multi || b.textContent === "都可以") box.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", "false"));
+  else box.querySelectorAll("button").forEach(x => { if (x.textContent === "都可以") x.setAttribute("aria-pressed", "false"); });
+  b.setAttribute("aria-pressed", String(pick));
+});
+function readCard(){
+  const out = {};
+  $("#cardFields").querySelectorAll("input[name], textarea[name]").forEach(i => { if (i.value.trim()) out[i.name] = i.value.trim(); });
+  $("#cardFields").querySelectorAll(".opts").forEach(box => {
+    const on = [...box.querySelectorAll('button[aria-pressed="true"]')].map(b => b.textContent);
+    if (on.length) out[box.dataset.name] = box.dataset.multi === "1" ? on : on[0];
+  });
+  return out;
+}
+async function saveCard(profile){
+  const res = await post("/api/me/profile", {profile});
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) { $("#cardErr").textContent = data.error || "没保存上，请再试一次"; return false; }
+  return true;
+}
+$("#cardSave").onclick = async () => { if (await saveCard(readCard())) $("#card").close(); };
+$("#cardGo").onclick = async () => {
+  if (state.busy) { $("#cardErr").textContent = "小谷还在回答上一句，稍等一下"; return; }
+  if (await saveCard(readCard())) { $("#card").close(); send(cardMeta.done_message); }
+};
+$("#cardClear").onclick = async () => {
+  if (!confirm("清空后小谷就不记得这些了，确定吗？")) return;
+  if (await saveCard({})) $("#card").close();
+};
+$("#cardPick").onclick = () => openCard("plus");
+$("#cardClose").onclick = () => $("#card").close();  // 手机上没有 Esc 键
+document.addEventListener("click", e => { if (e.target.closest(".cardbtn")) openCard("answer"); });
 
 // 打开简历成品页（对话里的按钮或侧栏「我的简历」）记为一次导出
 document.addEventListener("click", e => {
