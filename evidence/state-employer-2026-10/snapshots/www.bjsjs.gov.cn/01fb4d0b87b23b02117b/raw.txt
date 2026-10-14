@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			法律声明
+		</title>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<link rel="bookmark" href="/favicon.ico" />
+<link rel="shortcut icon" href="/favicon.ico">
+<script language="javascript" src="/resources/js/jquery-3.6.0.min.js"></script>
+<script language="javascript" src="/resources/js/zh.js"></script>
+		<meta name="SiteName" content="北京市石景山区人民政府">
+<meta name="SiteDomain" content="www.bjsjs.gov.cn">
+<meta name="SiteIDCode" content="1101070001">
+<link rel="bookmark" href="//www.bjsjs.gov.cn/gongkai/images/favicon.ico" />
+		<meta name="ColumnName" content="法律声明">
+<meta name="ColumnDescription" content="法律声明">
+<meta name="ColumnKeywords" content="法律声明">
+<meta name="ColumnType" content="法律声明">
+		<link href="/resources/css/common_2020.css" rel="stylesheet" type="text/css" />
+		<link href="/resources/css/css_2019.css" rel="stylesheet" type="text/css" />
+		<script src="/resources/js/commentarticle.js" type="text/javascript"></script>
+	</head>
+	<body bgcolor="#f5f6f8">
+		<script>
+    (function() {
+        var urlCode = location.search.substring(1).split('&');
+
+	var params = {};
+	var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+	var browser = navigator.userAgent.toLowerCase();
+	var isMobile = false;
+	for(var i = 0; i<urlCode.length; i++){
+		params[urlCode[i].split('=')[0]] = urlCode[i].split('=')[1]
+	}
+        if (params.type !== 'computer') {
+            for (var i = 0; i < mobileAgent.length; i++) {
+                if (browser.indexOf(mobileAgent[i]) != -1) {
+                    isMobile = true;
+                    location.href = "index_m.shtml";
+                    break;
+                }
+            }
+        }
+    })();
+</script>
+		<!-- topBox -->
+		<style>
+.top_in .logo{
+padding:27px 21px 0px 0px;
+}
+.links{
+width:313px;
+padding:34px 0px 0px 11px;
+}
+.m_search{width:394px;}
+</style>
+<div>
+	<script type="text/javascript" src="/resources/js/init.js"></script>
+	<div class="top">
+		<div class="top_in">
+			<div class="logo"><a href="/"><img src="/resources/images/sjs_logo_2020_1.png" /></a></div>
+			<script type="text/javascript">
+				var _vaq = _vaq || [];
+				_vaq.push(["setCookieDomain", "auto"]);
+				_vaq.push(['setPingTime', 3000]);
+				_vaq.push(['enableHeat']);
+				_vaq.push(['trackPageView']);
+				(function() {
+				    _vaq.push(['setSiteId', 5052]);
+				    var d = document,
+				        g = d.createElement('script'),
+				        s = d.getElementsByTagName('script')[0];
+				    g.type = 'text/javascript';
+				    g.defer = true;
+				    g.async = true;
+				    g.src = '//yhxw.tj.beijing.gov.cn/vas.js';
+				    s.parentNode.insertBefore(g, s);
+				})();
+
+				function hello() {
+				    var query = document.searchform.qt.value;
+				    if (query == '请输入关键词') {
+				        alert('请输入您要搜索的内容!');
+				        return false;
+				    } else {
+				        _vaq.push(['trackSiteSearch', query, 'search', '1']);
+				        return true;
+				    }
+				}
+
+
+				function hello1() {
+				    var query = document.form1.qt.value;
+				    if (query == '请输入关键词') {
+				        alert('请输入您要搜索的内容!');
+				        return false;
+				    } else {
+				        var qt = encodeURI(query);
+				        var siteCode = document.form1.siteCode.value;
+				        var strHref = 'http://www.beijing.gov.cn/so/s?qt=' + qt + '&siteCode=' + siteCode;
+				        _vaq.push(['trackSiteSearch', query, 'tongcha', '1']);
+				        window.open(strHref);
+				        return false;
+				    }
+				}
+
+				$(function() {
+				    $(".sskmbs .sl1").click(function() {
+				        $(".sskmbs .sl2").slideToggle();
+
+				    })
+				    $(".sskmbs .sl2").click(function() {
+				        var text = $(this).text();
+				        var text1 = $(".sskmbs .sl1").text();
+				        $(this).text(text1);
+				        $(".sskmbs .sl1").text(text);
+				        $(".sl2").hide();
+				        if ($(this).text() == "一网通查") {
+				            $(".form1").hide();
+				            $(".form0").show();
+				        }
+				        if ($(this).text() == "搜本网") {
+				            $(".form1").show();
+				            $(".form0").hide();
+				        }
+
+				    })
+
+				})
+			</script>
+			<div class="m_search">
+				<dl class="sskmbs">
+					<dd class="sl1">搜本网</dd>
+					<dt class="sl2" style="overflow: hidden; display: none;">一网通查</dt>
+				</dl>
+
+				<form action="//www.bjsjs.gov.cn/so/s" class="form0" method="get" name="searchform" target="_blank" style="display: block;">
+					<input autocomplete="off" class="sear fl" id="q1" name="qt" onblur="if(this.value==''){this.value='请输入关键词'}" onfocus="if(this.value=='请输入关键词') {this.value='';this.focus();}" type="text" value="请输入关键词" />
+					<input id="token" name="token" type="hidden" />
+					<input id="siteCode" name="siteCode" type="hidden" value="1101070001" />
+					<input class="sub" onclick="return hello()" type="submit" value="" />
+				</form>
+
+				<form action="//www.beijing.gov.cn/so/s" class="form1 bjsss" id="form1" method="get" name="form1" target="_blank" style="display: none;">
+					<input autocomplete="off" id="qt" name="qt" onblur="if(this.value==''){this.value='请输入关键词'}" onfocus="if(this.value=='请输入关键词') {this.value='';this.focus();}" size="50" type="text" value="请输入关键词" />
+					<input id="sourceCode" name="sourceCode" type="hidden" value="1101070001" />
+					<input id="button" onclick="return hello1()" type="submit" value="" />
+				</form>
+			</div>
+
+			<div class="links">
+				<div class="sdzc_pic">
+					<a href="http://www.beijing.gov.cn" target="_blank">
+						<img height="58" src="/resources/images/sjs_2020_3.png" width="56" />
+					</a>
+				</div>
+<div class="login_box"><span id="userInfos"><a href="https://bjt.beijing.gov.cn/renzheng/open/login/goUserLogin?client_id=100100001058&amp;redirect_uri=https://banshi.beijing.gov.cn/bjspacenew/web/login/sso/person/in&amp;response_type=code&amp;scope=user_info&amp;state=" target="_blank" title="访问我的专属空间">访问我的专属空间</a></span>&nbsp;|&nbsp;<a href="http://znwenda.bjsjs.gov.cn/aicc/im/text/shijingshanqu.html?comeType=pcurl&amp;orgi=ukewo" target="_blank">智能问答</a>&nbsp;|&nbsp;<a href="javascript:zh_tran('t');">繁体</a> &nbsp;|&nbsp;<a href="javascript:zh_tran('s');" id="simple">简体</a></div>
+
+
+				<div class="function">
+					<a href="javascript:void(0);" id="toolbarSwitch" title="无障碍浏览">无障碍</a>
+					&nbsp;|&nbsp;
+					<a href="http://www.bjsjs.gov.cn/gongkai/slh/" target="_blank">适老化</a>
+					&nbsp;| &nbsp;
+					<a href="/sjssy/mobile/" target="_blank">移动版</a>
+					&nbsp;| &nbsp;<a href="http://english.bjsjs.gov.cn" target="_blank" title="ENGLISH">ENGLISH</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<!-- topNav -->
+		<style>
+	.m-nav-secondary .u-nav-zmhd {
+		width: 864px;
+	}
+
+	.m-nav-secondary .menu_zwfw {
+		width: 440px;
+	}
+
+	.u-nav-zcdy {
+		width: 544px;
+	}
+
+	.u-nav-zwgk li {
+		padding: 0 22.8px;
+	}
+
+	.menu>ul>li {
+		margin: 0 48px;
+	}
+
+	.menu .g-nav * {
+		box-sizing: content-box
+	}
+</style>
+<div class="menu">
+	<ul class="g-nav f-clear">
+		<li><a class="u-nav-links" href="/ywdt/">要闻动态</a>
+
+			<div class="m-nav-secondary" style="display: none;">
+				<ul class="u-nav-ywdt f-clear">
+					<li><a href="https://www.beijing.gov.cn/ywdt/dzyjs/index.html" target="_blank">党中央精神</a></li>
+					<li><a href="https://www.beijing.gov.cn/ywdt/yaowen/" target="_blank">北京要闻</a></li>
+					<li><a href="/ywdt/sjsdt/" target="_blank">石景山动态</a></li>
+
+					<li><a href="/ywdt/mtbd/" target="_blank">媒体报道</a></li>
+
+
+				</ul>
+			</div>
+		</li>
+		<li><a class="u-nav-links" href="/gongkai/" target="_blank">政务公开</a>
+			<div class="m-nav-secondary" style="display: none;">
+				<ul class="u-nav-zwgk f-clear">
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ldjs_1946/zfbm_1951/" target="_blank">领导班子</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/jgzn_1953/zfbm_1955/" target="_blank">机构职能</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zdly_1960/rsxx_1961/" target="_blank">人事信息</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/" target="_blank">政策文件</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/zcjd25/" target="_blank">政策解读</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/tzgg_1933/" target="_blank">通知公告</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/jcgk/jcml/" target="_blank" title="决策公开">决策公开</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zdly_1960/sjgk_1981/" target="_blank">审计公开</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zfgzbg_1959/" target="_blank">政府报告</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a class="u-nav-links" href="/zwfw/" target="_blank">政务服务</a>
+			<div class="m-nav-secondary" style="display: none;">
+				<ul class="menu_zwfw">
+					<li><a href="http://banshi.beijing.gov.cn/pubtask/grhot.html?locationCode=110107000000" target="_blank">个人服务</a></li>
+					<li><a href="http://banshi.beijing.gov.cn/pubtask/frhot.html?locationCode=110107000000" target="_blank">法人服务</a></li>
+					<li><a href="http://banshi.beijing.gov.cn/pubtask/bmfw.html?locationCode=110107000000" target="_blank">部门服务</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a class="u-nav-links" href="javascript:;">政策兑现</a>
+			<div class="m-nav-secondary" style="display: none;">
+				<ul class="u-nav-zcdy">
+					<li><a href="https://zhengce.beijing.gov.cn/#/declare" target="_blank" title="项目申报">项目申报</a></li>
+					<li><a href="https://zhengce.beijing.gov.cn/#/other1/declare-application" target="_blank" title="直达快享">直达快享</a></li>
+					<li><a href="https://zhengce.beijing.gov.cn/#/announcement/notice" target="_blank" title="通知公告">通知公告</a></li>
+					<!--<li><a href="https://zhengce.beijing.gov.cn/#/public/publicitycustom" target="_blank" title="公示公开">公示公开</a></li>-->
+				</ul>
+			</div>
+		</li>
+		<li><a class="u-nav-links" href="/zmhd/" target="_blank">政民互动</a>
+			<div class="m-nav-secondary" style="display: none;">
+				<ul class="u-nav-zmhd f-clear">
+					<li><a href="/zmhd/zxlxdh/" target="_blank">咨询联系电话</a></li>
+					<li><a href="http://sjswd.bjsjs.gov.cn/hudong/xinxiang/bjsjs/sindex/xx-bjsjs.html" target="_blank">来信选登</a></li>
+					<li><a href="https://wsxf.xfb.beijing.gov.cn/wsxf/action/index.html" target="_blank">网上信访</a></li>
+					<li><a href="/zmhd/dczj/" target="_blank">调查征集</a></li>
+					<li><a href="https://www.bjsjs.gov.cn/gongkai/zsk/mldh/" target="_blank">问答知识库</a></li>
+					<li><a href="/zmhd/zxft/" target="_blank">在线访谈</a></li>
+
+				</ul>
+			</div>
+		</li>
+		<li><a class="u-nav-links" href="/sjsfc/" target="_blank">人文石景山</a><!--sjsview-->
+			<div class="m-nav-secondary" style="display: none;">
+				<ul class="u-nav-sjsfc f-clear">
+					<li><a href="/sjsfc/qqgk/" target="_blank">区情概况</a></li>
+					<li><a href="/sjsfc/sjslycx/" target="_blank">石景山旅游出行</a></li>
+					<li><a href="/sjsfc/sjsmsfc/" target="_blank">石景山民俗风采</a></li>
+					<li><a href="/sjsfc/sjswwjd/" target="_blank">石景山文物景点</a></li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+	<script type="text/javascript">
+		$(function() {
+		    //顶通banner
+		    $(".u-top-close").on("click", function() {
+		        $(".g-top-banner").hide();
+		    })
+
+
+		    //导航
+            var time
+            $(".g-nav li").on("mouseover", function () {
+                clearTimeout(time);
+                var i = $(".g-nav li").index(this);
+                $(".g-nav li .m-nav-secondary").hide();
+                $(".g-nav li .u-nav-links").removeClass("u-nav-select");
+                $(".g-nav li").eq(i).find(".m-nav-secondary").show();
+                $(".g-nav li").eq(i).find(".u-nav-links").addClass("u-nav-select");
+            });
+            $(".g-nav li").on("mouseout", function () {
+                var i = $(".g-nav li").index(this);
+                time = setTimeout(function () {
+                    $(".g-nav li").eq(i).find(".m-nav-secondary").hide();
+                    $(".g-nav li").eq(i).find(".u-nav-links").removeClass("u-nav-select");
+                },1000)
+
+                
+            });
+
+		    // 首屏要闻tab切换
+		    $(".m-one-news_nav li").on("mouseover", function() {
+		        var i = $(".m-one-news_nav li").index(this);
+		        $(".m-one-news_nav a").eq(i).addClass("f-select").parent().siblings().find("a").removeClass(
+		            "f-select");
+		        $(".m-one-news ul").eq(i).addClass("f-show").siblings().removeClass("f-show");
+		    });
+
+		    // 首屏公开tab切换
+		    $(".m-one-news_nav2 li").on("mouseover", function() {
+		        var i = $(".m-one-news_nav2 li").index(this);
+		        $(".m-one-news_nav2 a").eq(i).addClass("f-select").parent().siblings().find("a").removeClass(
+		            "f-select");
+		        $(".m-one-news2 ul").eq(i).addClass("f-show").siblings().removeClass("f-show");
+		    });
+		    //公开-政策版块
+		    $(".zcSearch_title li").click(function() {
+		        $(this).addClass("on").siblings("li").removeClass("on");
+		        $(".m-zcSearch .zcSearch_con").eq($(this).index()).show().siblings("div").hide();
+		    });
+		    var numChoice1 = 1,
+		        numChoice2 = 1,
+		        numChoice3 = 1,
+		        numChoice4 = 1;
+
+		    function changeFun(docU, docD, Num) {
+		        docU.on("click", function() {
+		            var _top = $(this).parent().find("ul").css("top");
+		            if (_top < "0px") {
+		                $(this).parent().find("ul").stop().animate({
+		                    top: "+=34px"
+		                }, 100);
+		            }
+		            Num--;
+		            // console.log(Num);
+		            if (Num <= 1) {
+		                Num = 1;
+		                $(this).addClass("disabled");
+		            } else {
+		                $(this).removeClass("disabled");
+		            }
+
+		            var valueTxt = $(this).siblings(".woshi_Box").find("li").eq(Num).html();
+		            // console.log(valueTxt);
+		            if (valueTxt == "全部") {
+		                $(this).siblings(".woshi_Box").find("input").val("");
+		            } else {
+		                $(this).siblings(".woshi_Box").find("input").val(valueTxt);
+		            }
+		        });
+		        docD.on("click", function() {
+		            var _topNum = Math.abs(parseInt($(this).parent().find("ul").css("top")));
+		            var _height = $(this).parent().find("ul").height();
+		            var Dvalue = _height - _topNum;
+		            if (Dvalue > 102) {
+		                $(this).parent().find("ul").stop().animate({
+		                    top: "-=34px"
+		                }, 100);
+		                Num++;
+		            }
+		            // console.log(Num);
+		            if (Num > 0) {
+		                $(".zc_up_btn").removeClass("disabled");
+		            }
+		            var valueTxt = $(this).siblings(".woshi_Box").find("li").eq(Num).html();
+		            $(this).siblings(".woshi_Box").find("input").val(valueTxt);
+		        });
+		    }
+		    changeFun($("#zc_up_btn1"), $("#zc_down_btn1"), numChoice1);
+		    changeFun($("#zc_up_btn2"), $("#zc_down_btn2"), numChoice2);
+		    changeFun($("#zc_up_btn3"), $("#zc_down_btn3"), numChoice3);
+		    changeFun($("#zc_up_btn4"), $("#zc_down_btn4"), numChoice4);
+
+
+		    // 首屏三张图
+		    var _one_imgs = $(".m-one-photo-box img").length;
+		    switch (_one_imgs) {
+		    case 1:
+		        $(".m-one-photo-box img").css({
+		            "width": "1160px"
+		        });
+		        break;
+		    case 3:
+		        $(".m-one-photo-box img").css({
+		            "width": "376px"
+		        });
+		        break;
+		    default:
+		        return false;
+		    }
+
+		});
+	</script>
+</div>
+
+		<div class="main">
+			<div class="location">当前位置：<a href="../../" title="首页" class="CurrChnlCls">首页</a>>><a href="../" title="石景山首页" class="CurrChnlCls">石景山首页</a>>><a href="./" title="法律声明" class="CurrChnlCls">法律声明</a>
+			</div>
+			<div class="article">
+				
+					<div class="title">
+						北京市石景山区人民政府网站版权说明
+					</div>
+		                   
+					<div class="time">发布日期：2026-01-07
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;来源：
+						石景山区政府
+					</div>
+		                   
+				
+				<link href="/resources/css/share.css" rel="stylesheet" type="text/css" />
+				<style type="text/css">
+					#othermessage #fontSize a.on {
+						color: #000;
+					}
+
+					.qrcode {
+						box-sizing: content-box;
+						position: absolute;
+						top: 36px;
+						border: 1px solid #ccc;
+						padding: 5px;
+						width: 100px;
+						height: 100px;
+						left: -200%;
+						z-index: 11;
+						display: none;
+					}
+				</style>
+				<div id="othermessage">
+					<div id="prolasim">
+						<font>分享:</font>
+						<div class="shareList bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1583738645547"><a
+								class="bds_weixin share-wechat" style="position:relative" title="分享到微信">
+								<sapn class="bg-code"><!--在连接里面--></sapn> <span class="qrcode"><!--在连接里面--></span> <span
+									class="close-btn"><!--在连接里面--></span>
+							</a> <a class="bds_tsina share-weibo" title="分享到新浪微博"><!-- data-cmd="tsina"--></a> <a
+								class="bds_qzone share-qqzone" title="分享到QQ空间"><!-- data-cmd="qzone"--></a></div>
+						<script>
+							window._bd_share_config = {
+								"common": {
+									"bdSnsKey": {},
+									"bdText": "",
+									"bdMini": "2",
+									"bdPic": "",
+									"bdStyle": "0",
+									"bdSize": "16"
+								},
+								"share": {}
+							};
+							with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src =
+								'//www.bjsjs.gov.cn/gongkai/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+						</script>
+						<script type="text/javascript" src="/resources/js/jquery.qrcode.min.js"></script>
+						<script>
+							//分享
+							var title = "【" + $.trim(document.title) + "】";
+							var description = $.trim($('meta[name="description"]').attr('content'));
+							var portalUrl = window.location.href;
+
+							function generateQRCode(rendermethod, picwidth, picheight, url) {
+							    $(".qrcode").qrcode({
+							        render: rendermethod, // 渲染方式有table方式（IE兼容）和canvas方式
+							        width: picwidth, //宽度
+							        height: picheight, //高度
+							        text: utf16to8(url), //内容
+							        typeNumber: -1, //计算模式
+							        correctLevel: 2, //二维码纠错级别
+							        background: "#ffffff", //背景颜色
+							        foreground: "#000000" //二维码颜色
+
+							    });
+							}
+							canvas_table = !!document.createElement('canvas').getContext ? 'canvas' : 'table';
+
+							function init() {
+							    //generateQRCode(canvas_table, 100, 100, window.location.href);  
+							    var Url = window.location.href;
+							    var mUrl = Url.substring(0, Url.indexOf('.shtml')) + "_m.shtml";
+							    $.ajax({
+							        type: "GET",
+							        dataType: "jsonp", //跨域采用jsonp方式  
+							        cache: false,
+							        url: Url,
+							        data: "",
+							        timeout: 1500,
+							        async: false,
+							        complete: function(xhr) {
+							            if (xhr.status == 200) {
+							                generateQRCode(canvas_table, 100, 100, Url);
+							            } else if (xhr.status == 404) {
+							                generateQRCode(canvas_table, 100, 100, Url);
+							            }
+							        }
+							    });
+							}
+
+
+							//中文编码格式转换
+							function utf16to8(str) {
+							    var out, i, len, c;
+							    out = "";
+							    len = str.length;
+							    for (i = 0; i < len; i++) {
+							        c = str.charCodeAt(i);
+							        if ((c >= 0x0001) && (c <= 0x007F)) {
+							            out += str.charAt(i);
+							        } else if (c > 0x07FF) {
+							            out += String.fromCharCode(0xE0 | ((c >> 12) & 0x0F));
+							            out += String.fromCharCode(0x80 | ((c >> 6) & 0x3F));
+							            out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+							        } else {
+							            out += String.fromCharCode(0xC0 | ((c >> 6) & 0x1F));
+							            out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+							        }
+							    }
+							    return out;
+							}
+							init();
+							$(".share-wechat").on("click", function() {
+							    $(".bg-code,.qrcode").toggle();
+							});
+
+							function showToQzone() {
+							    var _desc = description;
+							    var _title = title;
+							    var _url = portalUrl;
+							    var _shareUrl = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?';
+							    _shareUrl += 'url=' + encodeURIComponent(_url); //参数url设置分享的内容链接|默认当前页location
+							    _shareUrl += '&title=' + encodeURIComponent(_title); //参数title设置分享标题，可选参数
+							    window.open(_shareUrl, '',
+							        'width=700,height=680,top=0,left=0,toolbar=no,menubar=no,scrollbars=no,resizable=1,location=yes,status=0'
+							    );
+							}
+
+							function showToSina(title, portalUrl, desc) {
+							    var _desc = desc;
+							    var _t = title + " " + _desc;
+							    var _url = portalUrl;
+							    var _appkey = "2806082167"; //你从微薄获得的appkey
+							    var _site = ''; //你的网站地址
+							    var _ralateUid = "";
+							    var _u = 'http://service.weibo.com/share/share.php?url=' + _url + '&appkey=' + _appkey + '&title=' + _t +
+									'&ralateUid=' + _ralateUid + '&searchPic=false';
+							    window.open(_u, '',
+							        'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no'
+							    );
+							}
+
+							$('.share-qqzone').on('click', function() {
+							    showToQzone(title, portalUrl, description);
+							});
+							$('.share-weibo').on('click', function() {
+							    showToSina(title, portalUrl, description);
+							});
+						</script>
+					</div>
+
+					<dl class="fr" id="fontSize">
+
+						<dd>字号：&nbsp;&nbsp; <a href="javascript:changeSize(18)">大</a>&nbsp;&nbsp; <a class="on"
+								href="javascript:changeSize(16)">中</a>&nbsp;&nbsp; <a
+								href="javascript:changeSize(14)">小</a></dd>
+					</dl>
+				</div>
+						<script language="JavaScript" type="text/javascript">
+							function changeSize(size) {
+							    document.getElementById('mainText').style.fontSize = size + 'px'
+
+							}
+
+        var oDl = document.getElementById('fontSize');
+        var aA = oDl.getElementsByTagName('a');
+
+        for(var i = 0;i<aA.length;i++){
+            aA[i].index  = i;
+            aA[i].onclick = function(){
+                for(var i = 0;i<aA.length;i++){
+                    aA[i].className = '';
+                }
+                this.className = 'on';
+            };
+        }
+
+						</script>
+				<div class="txt" id="mainText">
+					
+						<div class="view TRS_UEDITOR trs_paper_default trs_external trs_web"><p style="text-indent: 2em; text-align: justify;">北京市石景山区人民政府门户网站（https://www.bjsjs.gov.cn/以下简称“本网站”）由北京市石景山区人民政府办公室主办，北京市石景山区政务服务和数据管理局承办。</p><p style="text-indent: 2em; text-align: justify;">北京市石景山区人民政府门户网站的主要任务是宣传党和政府的方针、政策，展示石景山形象，发布各类政务信息、提供网上服务和实现公众参与。</p><p style="text-indent: 2em; text-align: justify;">请用户使用本网站前仔细阅读本法律声明。您一旦使用本网站则表明您已明知并接受这些条款。用户必须按照法律法规的规定和本声明的要求使用本网站的信息和服务，否则本网站将依法追究有关当事人的法律责任。</p><p style="text-indent: 2em; text-align: justify;">一、知识产权</p><p style="text-indent: 2em; text-align: justify;">域名、专有名称</p><p style="text-indent: 2em; text-align: justify;">本网站所使用的域名及专有名称均受相关法律保护，未经同意，任何单位及个人均不得将上述域名及专有名称进行容易引起混淆或歧义的使用。本网站所使用的网站中英文名称为石景山区政府门户网站专有标识，未经网站所有者许可，任何人不得使用。</p><p style="text-indent: 2em; text-align: justify;">版权</p><p style="text-indent: 2em; text-align: justify;">本网站包含的所有内容（包括但不限于：文本、图形、图片、视像及声音内容、版面设计，专栏目录与名称、内容分类）的所有权归北京市石景山区人民政府所有。</p><p style="text-indent: 2em; text-align: justify;">本网站的内容和软件均受《中华人民共和国著作权法》及其它相关法律的保护。任何单位或个人将本网站提供的内容与服务用于商业、盈利、广告性等目的时，需征得北京市石景山区政府办公室或相关权利人的书面许可；将本网站提供的内容与服务用于非商业用途时，应遵守著作权法以及其他相关法律的规定，不得侵犯网站所有者及相关权利人的权益。</p><p style="text-indent: 2em; text-align: justify;">版权异议</p><p style="text-indent: 2em; text-align: justify;">如权利人认为本网站内容中所涉及的文字作品、图片和音视频资料（以下简称“作品”），侵犯其著作权的，请及时书面通知本网站，本网站将依法删除被指侵权的作品或断开相应的链接；但权利人不能出示有效身份证明、著作权权属证明及侵权情况证明的，视为未提出异议。因权利人的通知导致本网站错误删除作品，或者错误断开与作品的链接的，本网站不承担任何责任。</p><p style="text-indent: 2em; text-align: justify;">转载</p><p style="text-indent: 2em; text-align: justify;">本网站内容中凡注明“来源为我区相关部门的所有文字、图片和音视频资料等，版权均属本网站所有，任何媒体、网站或个人转载或引用本网站内容必须是以新闻性或资料性公共免费信息为使用目的的合理、善意使用，不得对本网站内容原意进行曲解、修改，并注明“来源：北京市石景山区人民政府”或“北京石景山”。违者本网站将依法追究责任。</p><p style="text-indent: 2em; text-align: justify;">本网站摘录或转载的属于第三方的信息将注明具体的来源。任何媒体、网站或个人从本网站下载使用，必须保留本网注明的信息来源，并自行承担版权等法律责任。</p><p style="text-indent: 2em; text-align: justify;">二、网站使用规定</p><p style="text-indent: 2em; text-align: justify;">本网站属于政府网站，未经北京市石景山区人民政府许可，任何商业性网站不得建立与本网站及其内容的链接。未经网站所有者的授权，任何人不得建立本网站的镜像（包括全部和局部镜像）。</p><p style="text-indent: 2em; text-align: justify;">任何组织和个人不得非法复制、抄袭，或为任何未经允许的商业目的使用本网站及其内容。如果本网站所有者确定用户行为违法或有损网站利益，则将保留采取相关法律行为的权利。</p><p style="text-indent: 2em; text-align: justify;">本网站努力确保本网站自身发布的政务信息、资料等内容的真实性和准确性，本网站内发布的法律、法规、政策等规范性法律文件以纸质文本为准。</p><p style="text-indent: 2em; text-align: justify;">本网站可能通过网页上的链接向用户提供来自其它网站的内容及服务。本网站对这些网站及其内容不进行控制，也不负任何责任。请用户在使用该类网站所提供的服务时注意浏览这些网站的相关规定，并自行判断可能带来的结果和风险，以决定是否使用这些网站提供的内容或服务。</p><p style="text-indent: 2em; text-align: justify;">三、免责</p><p style="text-indent: 2em; text-align: justify;">本网站对本网站上所有由第三方提供的信息、内容和服务，不提供明示或暗示的担保。本网站对使用上述信息、内容和服务所造成的任何损失不承担责任，包括直接损失和间接损失。</p></div>
+					
+					<p
+						style="text-align:center;font-size:14px;margin-top:20px; text-indent:0em; line-height:auto; padding-bottom:0px">
+						扫一扫在手机打开当前页</p>
+
+					<div class="qrcode1" id="qrcode" style="width:150px;height:150px;margin:10px auto 50px;">
+						<!--space-->
+					</div>
+					<script>
+						$("#qrcode").qrcode({
+						    render: canvas_table, // 渲染方式有table方式（IE兼容）和canvas方式
+						    width: 150, //宽度
+						    height: 150, //高度
+						    text: utf16to8(window.location.href), //内容
+						    typeNumber: -1, //计算模式
+						    correctLevel: 2, //二维码纠错级别
+						    background: "#ffffff", //背景颜色
+						    foreground: "#000000" //二维码颜色
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<style>
+	.organization {
+		width: 228px;
+		padding: 75px 0px 0px 65px;
+	}
+
+	#_ideConac {
+		float: left;
+	}
+
+	#_span_jiucuo {
+		float: left;
+		margin: 10px 0 0 10px;
+	}
+</style>
+<div class="bottom">
+	<div class="bottom_t">
+		<div class="bottom_t_in">
+			<div class="organization">
+				<span id="_ideConac">
+					<a href="https://bszs.conac.cn/sitename?method=show&amp;id=5316B7DF80897C66E053012819AC0190" target="_blank">
+						<img id="imgConac" vspace="0" hspace="0" border="0" src="https://dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" />
+					</a>
+				</span>
+				<script id="_jiucuo_" sitecode='1101070001' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+			</div>
+
+			<div class="d_infor_1">
+				<ul>
+					<li><a href="/sjssy/gywm/" target="_blank">关于我们</a></li>
+					<li><a href="/sjssy/jyyj/" target="_blank">建议意见</a></li>
+					<li><a href="/sjssy/map/" target="_blank">站点地图</a></li>
+					<li><a href="/sjssy/flsm/" target="_blank">法律声明</a></li>
+				</ul>
+			</div>
+
+			<div class="d_infor_2"><span>客服信箱：sjsxxgkb@bjsjs.gov.cn</span> <span>政务服务热线：12345</span></div>
+
+			<div class="d_infor_3">
+				<p>
+					<img height="85" src="/resources/images/sjs_2020_1.jpg" width="85" alt="家园石景山" /><br />石景山12345接诉即办
+				</p>
+
+				<p>
+					<img height="85" src="/resources/images/sjs_2020_2.jpg" width="85" alt="北京石景山" /><br />北京石景山
+				</p>
+			</div>
+
+			<div class="d_infor_4"><b>主办：北京市石景山区人民政府办公室</b>承办：北京市石景山区政务服务和数据管理局</div>
+		</div>
+	</div>
+
+	<div class="bottom_b">
+		<div class="bottom_b_in">
+			<div class="d_infor_5">
+
+				<a href="https://beian.miit.gov.cn" target="_blank">京ICP备17033189号-1</a>
+				<a class="bottom_ga" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010702000001"
+					target="_blank">京公网安备
+					11010702000001号</a><span>政府网站标识码 1101070001</span>
+			</div>
+
+			<div class="d_infor_6">建议您使用IE7.0以上版本浏览本站</div>
+		</div>
+	</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a2b654806f55aa18909a2a36d19e5bb8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!------跳转外链效果开始  放置网站代码尾部 --->
+<style type="text/css">.dialog_other_link {
+			width: 576px;
+			height: 270px;
+			background: #FFF;
+			padding: 0 60px;
+			overflow: hidden;
+			position: absolute;
+			left: 50%;
+			top: -270px;
+			margin: 0 0 0 -300px;
+			z-index: 99999999;
+		}
+		.dialog_other_link .close {
+			width: 20px;
+			height: 20px;
+			background-color: #ababab;
+			color: #FFF;
+			line-height: 20px;
+			text-align: center;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			z-index: 9;
+			cursor: pointer;
+		}
+		.dialog_other_link .content {
+			margin-top: 50px;
+			font-size: 20px;
+			text-align: center;
+			padding-bottom: 30px;
+			border-bottom: solid 1px #EDEDED;
+		}
+		.dialog_other_link .btn_box {
+			text-align: center;
+			margin-top: 30px;
+		}
+		.dialog_other_link .btn_box .btn_jxfw {
+			display: inline-block;
+			vertical-align: top;
+			width: 120px;
+			height: 40px;
+			border: solid 1px #EEE;
+			border-radius: 10px;
+			font-size: 20px;
+			color: #aa0000;
+			line-height: 40px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.dialog_other_link .btn_box .btn_fq {
+			font-size: 20px;
+			color: #aa0000;
+			margin-left: 20px;
+			line-height: 40px;
+			cursor: pointer;
+		}
+		.dialog_mask {
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity: .5;
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+                        z-index:999;
+		}
+</style>
+<div class="dialog_other_link">
+<div class="close">X</div>
+
+<div class="content">
+<p>您访问的链接即将离开&ldquo;北京石景山区政府&rdquo;门户网站</p>
+
+<p>是否继续？</p>
+</div>
+
+<div class="btn_box"><span class="btn_jxfw">继续访问</span> <span class="btn_fq">放弃</span></div>
+</div>
+
+<div class="dialog_mask">&nbsp;</div>
+<script type="text/javascript">
+			let locationHref = ''
+		$(function(){
+
+			$('a').click(function(e){
+				// 判断点击的是否是A标签
+				if(e.target.nodeName === 'A'){
+					locationHref = e.target.href
+				}else{
+					locationHref = $(e.target).parents('a').attr('href')
+				}
+				if (locationHref && (locationHref.indexOf('http://www.bjsjs.gov.cn/')===-1) && locationHref.indexOf('.gov.cn')===-1) {
+					if (locationHref.indexOf('http://')!==-1 || locationHref.indexOf('https://')!==-1) {
+						// 阻止默认事件
+						e.preventDefault()
+						// 阻止冒泡
+						e.stopPropagation()
+						// 保存外链地址
+						//locationHref = e.target.href
+						// 获取滚动条距顶部的距离
+						const winTop = $(window).scrollTop()
+						// 显示遮罩
+						$('.dialog_mask').css({
+							'top':winTop+'px'
+						}).show()
+						// 禁止页面滚动
+						$('body').css({
+							overflow: 'hidden'
+						})
+						// 显示弹窗
+						$('.dialog_other_link').stop().animate({
+							top: 100+winTop+'px'
+						},300)
+					}
+				}
+			})
+			// 关闭按钮
+			$('.btn_fq,.dialog_other_link .close,.dialog_mask').click(function(){
+				$('.dialog_other_link').stop().animate({
+					top:'-270px'
+				},300)
+				$('.dialog_mask').hide()
+				$('body').css({
+					overflow: 'auto'
+				})
+			})
+			// 继续访问
+			$('.btn_jxfw').click(function(){
+				//window.location.href = locationHref
+                                  window.open(locationHref)
+                                $('.dialog_other_link').stop().animate({
+					top:'-270px'
+				},300)
+				$('.dialog_mask').hide()
+				$('body').css({
+					overflow: 'auto'
+				})   
+			})
+			
+		});
+
+
+		
+	</script>
+	</body>
+	<script type="text/javascript" src="//new.gswfh.org.cn/wzaPublicArticle.js"></script>
+</html>

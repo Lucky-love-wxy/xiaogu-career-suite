@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.274,
+  "access_date": "2026-10-12",
+  "sha256": "519c6132fe1b699a125a843d4dd165e14357d2aca372bece2682b7f0012acbff",
+  "blocked": null,
+  "id": "humanoid-official-search",
+  "company": "humanoid",
+  "query": "北京人形机器人创新中心 天工 慧思开物 客户 销售",
+  "include_domains": [
+    "x-humanoid.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/humanoid-official-search.json"
+}

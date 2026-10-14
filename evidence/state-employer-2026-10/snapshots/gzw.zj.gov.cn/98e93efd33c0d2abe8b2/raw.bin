@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<link rel="stylesheet" type="text/css" href="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/hanweb.css">
+	<link rel="stylesheet" type="text/css" href="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/swiperIe8.css">
+	<link rel="stylesheet" type="text/css" href="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/zjgzw.css">
+	<link rel="stylesheet" type="text/css" href="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/zjgzw_wap.css">
+	<script typet="text/javascript" src="http://gzw.zj.gov.cn/images/39145/jquery-1.8.3.min.js "></script>
+
+	<script>
+		getRem(750, 100)
+		window.onresize = function () {
+			getRem(750, 100)
+		}
+
+		function getRem(pwidth, prem) {
+			var html = document.getElementsByTagName("html")[0];
+			var oWidth = document.documentElement.clientWidth || document.body.clientWidth;
+			if (oWidth <= 768) {
+				html.style.fontSize = oWidth / pwidth * prem + "px";
+			}
+		}
+	</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script src="/cms_files/default/script/jslib/jquery.js"></script>
+ <script src="/cms_files/default/script/jslib/jquery.cookie.js"></script>
+ <script src="/cms_files/default/script/layui/layui.all.js"></script>
+ <script src="/cms_files/default/script/layui/layer/layer.js"></script>
+ <script src="/script/webglobal.js"></script>
+ <script src="/plugins/libs/require.js"></script>
+ <script src="/plugins/libs/load.js"></script>
+ <script src="/script/webgray.js"></script>
+ <script src="/script/webgray_9kTcS0IoK73P26brASQbH.js"></script>
+ <link rel="stylesheet" href="/cms_files/default/css/iconfont.css" />
+<link rel="stylesheet" href="/cms_files/default/script/layui/css/layui.css" />
+<title>首页</title>
+<meta name="ColId" content="9kTcS0IoK73P26brASQbH">
+<meta name="SiteName" content="浙江省人民政府国有资产监督管理委员会">
+<meta name="SiteDomain" content="gzw.zj.gov.cn">
+<meta name="SiteIDCode" content="3300000010">
+<meta name="server" content="gzw.zj.gov.cn/index.html">
+<meta id="pagetype" content="0">
+</head>
+
+<body><div id='barrierfree_container' pageTimestamp= '1791536295579'>
+
+	<!-- 通用头部开始 -->
+<script src="/cms_files/jcms1/web3729/site/script/1100/2011091450351626.js"></script>
+
+
+<style>
+	.g_top {
+		height: 40px;
+		line-height: 40pxl;
+	}
+</style>
+	<!-- 通用头部结束 -->
+
+	<!-- 主体内容开始 -->
+	<div class="g_main">
+		<div class="g_container">
+			<!-- section1开始 -->
+			<div class="section1">
+<script>
+var authorizedReadUnitId = "a7e08ccd13fc457ba0ab1299261b6f2d";
+</script><script id="a7e08ccd13fc457ba0ab1299261b6f2d" src="/cms_files/default/script/AuthorizedRead/unitbuild.js?v=4.5.12.1-ZJSJYH-U50" webId="3729" parseType="bulidstatic" url="/api-gateway/jpaas-publish-server/front/page/build/unit" queryData="{'parseType':'bulidstatic','webId':'3729','tplSetId':'JvChtfoeSRgwDriF6ZxkH','pageType':'channel','tagId':'大标题','editType':'null','pageId':'9kTcS0IoK73P26brASQbH'}"></script>
+			</div>
+			<!-- section1结束 -->
+
+			<!-- section2开始 -->
+			<div class="section2 cf">
+				<div class="swiper-container my-swiper">
+
+
+<style>
+    * {
+        margin: 0PX;
+        padding: 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    body {
+        font-family: "微软雅黑";
+        color: #333333;
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .clearfix {
+        zoom: 1;
+    }
+
+    .clearfix:after {
+        content: "020";
+        height: 0px;
+        display: block;
+        overflow: hidden;
+        clear: both;
+    }
+
+    .margin_auto {
+        margin: 0 auto;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    .box {
+        width: 554px;
+        height: 380px;
+        /* background-color: cyan; */
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* 图片li */
+    .sideshow li {
+        float: left;
+        width: 554px;
+        height: 380px;
+    }
+
+    /* 小方块 */
+    .sideshow_dian {
+        position: absolute;
+        right: 10px;
+        bottom: 18px;
+        z-index: 10;
+    }
+
+    .sideshow_dian li {
+        float: left;
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+
+    .box .sideshow_dian .active {
+        background-color: #4174cc;
+    }
+
+    /* 左右按钮 */
+    .btns {
+        width: 29px;
+        height: 51px;
+        position: absolute;
+        top: 50%;
+        margin-top: -21px;
+        display: none;
+    }
+
+    .box:hover .btns {
+        display: block;
+    }
+
+    .prev {
+        background: url(/cms_files/jcms1/web3729/site/picture/0/2012231714221329333.png?0.5349624513093376) no-repeat;
+        left: 0px;
+    }
+
+    .next {
+        background: url(/cms_files/jcms1/web3729/site/picture/0/2012231714221874980.png?0.19003615546445896) no-repeat;
+        right: 0px;
+    }
+
+    /* 文字描述 */
+    .text_description {
+        height: 50px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        line-height: 50px;
+        background: rgba(0, 0, 0, 0.5);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, endColorstr=#7f000000);
+        /* IE8支持 rgba */
+    }
+
+    .text_description p {
+        width: 554px;
+        float: left;
+    }
+
+    .text_description a {
+        padding-left: 10px;
+        box-sizing: border-box;
+        width: 75%;
+        height: 50px;
+        display: block;
+        color: #ffffff !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    @media (max-width: 768px){
+		.box{
+			width: 100%;
+			height: 4.25rem;
+		}
+		.text_description p{
+
+		}
+		.text_description a{
+			font-size: .32rem;
+		}
+	}
+</style>
+<div class="box margin_auto">
+    <ul class="sideshow clearfix">
+        
+        
+
+
+        <li><a href="/col/col1229430728/art/2026/art_23e43be49e0c4179abac8c40ac546d14.html" target="_blank"><img src="/cms_files/filemanager/1573803/picture/20269/3c2090dd5acb49318b1903a974eb3605.png" alt="省国资委召开党委理论学习中心组（扩大）学习会暨省属企业负责人述规划会议" srcset="" /></a></li>
+        
+
+
+        <li><a href="/col/col1229430728/art/2026/art_de3d1709860c4c69957b1fc3bb437d9d.html" target="_blank"><img src="/cms_files/filemanager/1573803/picture/20269/9b1987885e47413e9360a7fca6d75343.png" alt="省级结对帮扶缙云团组工作推进会召开" srcset="" /></a></li>
+        
+
+
+        <li><a href="/col/col1229430728/art/2026/art_f4557040136b44d5998c91243680e69d.html" target="_blank"><img src="/cms_files/filemanager/1573803/picture/20269/3ee6fb5721ce4dc1a824cac62095939c.png" alt="省国资委举办全省国资系统领导干部研讨班" srcset="" /></a></li>
+        
+
+
+        <li><a href="/col/col1229430728/art/2026/art_ac46b1dcc69c48b8a4e0546e7e9eec31.html" target="_blank"><img src="/cms_files/filemanager/1573803/picture/20268/03045393fe594b0c8f1d5282a4becebf.png" alt="张雁云副省长一行赴安邦护卫集团调研" srcset="" /></a></li>
+        
+
+
+        <li><a href="/col/col1229430728/art/2026/art_1c4c63a882304421a9825575ee18cd0e.html" target="_blank"><img src="/cms_files/filemanager/1573803/picture/20268/25d99a30ba8b418bae9387c98422272d.png" alt="浙江日报专访省国资委党委书记、主任董旭斌：以创新国企之进助力创新浙江建设全面成势" srcset="" /></a></li>
+        
+  
+    </ul>
+    
+    
+    <ul class="sideshow_dian clearfix"></ul>
+    
+    <div class="text_description clearfix">
+        
+
+
+        <p>
+            <a href="/col/col1229430728/art/2026/art_23e43be49e0c4179abac8c40ac546d14.html" title="省国资委召开党委理论学习中心组（扩大）学习会暨省属企业负责人述规划会议" target="_blank">省国资委召开党委理论学习中心组（扩大）学习会暨省属企业负责人述规划会议</a>
+        </p>
+        
+
+
+        <p>
+            <a href="/col/col1229430728/art/2026/art_de3d1709860c4c69957b1fc3bb437d9d.html" title="省级结对帮扶缙云团组工作推进会召开" target="_blank">省级结对帮扶缙云团组工作推进会召开</a>
+        </p>
+        
+
+
+        <p>
+            <a href="/col/col1229430728/art/2026/art_f4557040136b44d5998c91243680e69d.html" title="省国资委举办全省国资系统领导干部研讨班" target="_blank">省国资委举办全省国资系统领导干部研讨班</a>
+        </p>
+        
+
+
+        <p>
+            <a href="/col/col1229430728/art/2026/art_ac46b1dcc69c48b8a4e0546e7e9eec31.html" title="张雁云副省长一行赴安邦护卫集团调研" target="_blank">张雁云副省长一行赴安邦护卫集团调研</a>
+        </p>
+        
+
+
+        <p>
+            <a href="/col/col1229430728/art/2026/art_1c4c63a882304421a9825575ee18cd0e.html" title="浙江日报专访省国资委党委书记、主任董旭斌：以创新国企之进助力创新浙江建设全面成势" target="_blank">浙江日报专访省国资委党委书记、主任董旭斌：以创新国企之进助力创新浙江建设全面成势</a>
+        </p>
+        
+
+    </div>
+    
+    <div class="prev btns"></div>
+    <div class="next btns"></div>
+</div>
+<script src="/cms_files/jcms1/web3729/site/script/0/2012231708124133.js"></script>
+
+				</div>
+				<div class="s2_right fr">
+					<div class="s2r_title cf">
+						<h4 class="active">
+国资要闻
+
+						</h4>
+						<h4>
+时政要闻
+						</h4>
+
+<a class="s2r_more" href="/col/col1229430728/index.html" style="padding-left: 12px;font-size: 16px;color: #666;background-color: #fff;">更多...</a>
+
+<a class="s2r_more hide" href="/col/col1229430735/index.html" style="padding-left: 12px;font-size: 16px;color: #666;background-color: #fff;">更多...</a>
+
+					</div>
+					<div class="s2r_newsLists">
+						<ul class="s2r_part">
+
+<li><a href="/col/col1229430728/art/2026/art_44b05cc50ad745cd896337dfe029599b.html" title="省国资委主任董旭斌赴浙大控股集团调研" target="_blank">省国资委主任董旭斌赴浙大控股集团调研<span>2026-09-28</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_ab67d8f6f7924cd5b9a7123c749561ac.html" title="省国资委传达学习贯彻省委书记王浩在省属企业董事长总经理研修班开班式上的讲话精神" target="_blank">省国资委传达学习贯彻省委书记王浩在省属企业董事长总...<span>2026-09-28</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_62adf216f24b4dff9d29f5078745ec9e.html" title="省级结对帮扶缙云团组工作现场会召开" target="_blank">省级结对帮扶缙云团组工作现场会召开<span>2026-09-28</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_01314ca837314647b9b576e61c5253a4.html" title="省国资委主任董旭斌赴省建设集团调研" target="_blank">省国资委主任董旭斌赴省建设集团调研<span>2026-09-28</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_f9baaf1defc348ef8bbcb4a3e83bff53.html" title="省国资委主任董旭斌赴衢州市国资委调研" target="_blank">省国资委主任董旭斌赴衢州市国资委调研<span>2026-09-28</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_23e43be49e0c4179abac8c40ac546d14.html" title="省国资委召开党委理论学习中心组（扩大）学习会暨省属企业负责人述规划会议" target="_blank">省国资委召开党委理论学习中心组（扩大）学习会暨省属...<span>2026-09-10</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_ddac7fa6f3024a00a51ec8f83dbf73bf.html" title="省国资委党委召开会议传达学习习近平总书记重要指示精神  研究贯彻落实意见" target="_blank">省国资委党委召开会议传达学习习近平总书记重要指示精...<span>2026-09-07</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_1493a7663e0742279be5378afd4def36.html" title="省国资委主任董旭斌赴巨化集团调研" target="_blank">省国资委主任董旭斌赴巨化集团调研<span>2026-09-07</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_de3d1709860c4c69957b1fc3bb437d9d.html" title="省级结对帮扶缙云团组工作推进会召开" target="_blank">省级结对帮扶缙云团组工作推进会召开<span>2026-09-07</span></a></li>
+
+<li><a href="/col/col1229430728/art/2026/art_9c42394e8dca4c0281c1fa6d614d9718.html" title="省国资委主任董旭斌赴省旅投集团调研" target="_blank">省国资委主任董旭斌赴省旅投集团调研<span>2026-09-07</span></a></li>
+
+						</ul>
+						<ul class="s2r_part hide">
+<script>
+var authorizedReadUnitId = "75e9de61fbc44f4eb00352e28047e7a9";
+</script><script id="75e9de61fbc44f4eb00352e28047e7a9" src="/cms_files/default/script/AuthorizedRead/unitbuild.js?v=4.5.12.1-ZJSJYH-U50" webId="3729" parseType="bulidstatic" url="/api-gateway/jpaas-publish-server/front/page/build/unit" queryData="{'parseType':'bulidstatic','webId':'3729','tplSetId':'JvChtfoeSRgwDriF6ZxkH','pageType':'channel','tagId':'时政要闻list','editType':'null','pageId':'9kTcS0IoK73P26brASQbH'}"></script>
+						</ul>
+
+					</div>
+
+				</div>
+			</div>
+			<!-- section2结束 -->
+
+			<!-- section3开始 -->
+			<div class="section3 cf">
+				<div class="s4_title" style="width: 100%;height: 30px;line-height: 30px;margin-bottom: 20px;">
+					<h4>专题专栏</h4>
+<a href="/col/col1229460871/index.html">更多>>></a>
+
+				</div>
+<div style="display: flex;width: 100%;margin: 0 auto;">    <div class="imgoutbox">
+        <a href="/col/col1229693633/index.html"><img width="173px" height="80px" src="/cms_files/jcms1/web3729/site/picture/1809/2304251628525657183.jpg?0.27803694208916885" /></a>
+    </div>
+    
+    <div class="imgoutbox">
+        <a href="https://www.zj.gov.cn/col/col1229577560/index.html"><img width="173px" height="80px" src="/cms_files/jcms1/web3729/site/picture/0/2412061151051673360.png" /></a>
+    </div>
+    <div class="imgoutbox">
+        <a href="https://guoqi.zjol.com.cn/
+                    " target="_blank"><img width="173px" height="80px" src="/cms_files/jcms1/web3729/site/picture/1809/2307191019251905971.png?0.9175056230408329" /></a>
+    </div>
+    <div class="imgoutbox">
+        <a href="http://gzw.zj.gov.cn/col/col1229430753/index.html"><img width="173px" height="80px" src="/cms_files/jcms1/web3729/site/picture/1809/2307191019251054504.jpg?0.6468931220811851" /></a>
+    </div>
+    <div class="imgoutbox">
+        <a href="/col/col1229837663/index.html"><img width="173px" height="80px" src="/cms_files/jcms1/web3729/site/picture/0/2412061151051036811.png" /></a>
+    </div>
+    <div class="imgoutbox">
+        <a href="https://mapi.zjzwfw.gov.cn/web/mgop/gov-open/zj/2002402216/reserved/index.html"><img width="173px" height="80px" src="/cms_files/jcms1/web3729/site/picture/0/2409271555454363476.jpg" /></a>
+    </div>
+
+</div>
+
+<style>
+    .imgoutbox{
+        margin: 5px 10px;
+    }
+
+</style>
+
+
+
+				
+					</div>
+			</div>
+			<!-- section3结束 -->
+
+			<!-- section4开始 -->
+			<div class="section4">
+				<div class="s4_part cf">
+					<div class="fl" style="margin-right: 30px;">
+						<div class="s4_title">
+							<h4>
+国资监管
+
+							</h4>
+<a href="/col/col1229430638/index.html">更多...</a>
+
+						</div>
+						<div class="s4_newsContent">
+							<ul class="s4_newsList">
+
+<li><a href="/col/col1229430932/art/2026/art_7109bae867604218b8eaef2d4f39f3c5.html" target="_blank">2026年1-8月省属企业经营情况<span>2026-09-22</span></a></li>
+
+<li><a href="/col/col1229430932/art/2026/art_250b9d612742473fb7bf784d33352766.html" target="_blank">2026年1-7月省属企业经营情况<span>2026-08-20</span></a></li>
+
+<li><a href="/col/col1229430932/art/2026/art_08f7391c25094fe09ee2eb8c0a70c908.html" target="_blank">2026年1-6月省属企业经营情况<span>2026-07-21</span></a></li>
+
+<li><a href="/col/col1229430932/art/2026/art_609651ebeb8747ad9fa06e18e69feb14.html" target="_blank">2026年1-5月省属企业经营情况<span>2026-06-18</span></a></li>
+
+<li><a href="/col/col1229430932/art/2026/art_2885b18963fe430f9bac34ea8339f762.html" target="_blank">2026年1-4月省属企业经营情况<span>2026-05-19</span></a></li>
+
+							</ul>
+						</div>
+					</div>
+
+					<div class="fl">
+						<div class="s4_title">
+							<h4>
+国企党建
+
+							</h4>
+<a href="/col/col1229452078/index.html">更多...</a>
+
+						</div>
+						<div class="s4_newsContent">
+							<ul class="s4_newsList">
+
+<li><a href="https://mp.weixin.qq.com/s/IuqxT2_7j3bWwKLsniKP_Q" target="_blank">《今日浙江》刊发省国资委党委书记、主任董旭斌署名文章：强化国有资本推动共同富裕战略功能<span>2026-10-09</span></a></li>
+
+<li><a href="https://mp.weixin.qq.com/s/OxXv1bx-rvkZGMdtHRYCKQ" target="_blank">廉洁过节，纪律红线不能碰！<span>2026-10-09</span></a></li>
+
+<li><a href="https://mp.weixin.qq.com/s/aEV6EmfJtNQo9lNKp9S7mQ" target="_blank">省直机关工委常务副书记陆发桃到省国资委调研指导机关党建工作<span>2026-10-09</span></a></li>
+
+<li><a href="https://mp.weixin.qq.com/s/ay-JvOS8mF2lPcqj75G5_Q" target="_blank">寻找“出海”新故事！2026中国企业国际形象建设案例征集启动<span>2026-10-09</span></a></li>
+
+<li><a href="https://mp.weixin.qq.com/s/k62KlKW_bP-wUhizwFZZjw" target="_blank">助力缩小“三大差距”！国资国企3项入选<span>2026-10-09</span></a></li>
+
+							</ul>
+						</div>
+					</div>
+
+
+				</div>
+				<!-- <div class="s4_part s4_part_bg cf">
+
+					<div class="fl">
+						<div class="s4_title">
+							<h4>
+
+							</h4>
+
+						</div>
+						<div class="s4_newsContent">
+							<ul class="s4_newsList">
+
+							</ul>
+						</div>
+					</div>
+					<div class="fr">
+						<div class="s4_title">
+							<h4>
+
+							</h4>
+
+						</div>
+						<div class="s4_newsContent">
+							<ul class="s4_newsList">
+
+							</ul>
+						</div>
+					</div>
+
+
+				</div> -->
+
+				<div class="s4_part cf">
+
+
+					<div class="fl">
+						<div class="s4_title">
+							<h4>
+媒体关注
+
+							</h4>
+<a href="/col/col1229430652/index.html">更多...</a>
+
+						</div>
+						<div class="s4_newsContent">
+							<ul class="s4_newsList">
+
+<li><a href="https://mp.weixin.qq.com/s/hS6iV07WI4CbnvZq4jFoKA" title="企观国资：一图读懂｜浙江国资国企2025年工作和“十四五”成绩单" target="_blank">企观国资：一图读懂｜浙江国资国企2025年工作和“...<span>2026-01-26</span></a></li>
+
+<li><a href="https://www.cneo.com.cn/detail93576.html" title="企业观察报：一图读懂｜浙江国资国企“十五五”时期工作总体思路和2026年重点工作" target="_blank">企业观察报：一图读懂｜浙江国资国企“十五五”时期工...<span>2026-01-26</span></a></li>
+
+<li><a href="https://www.cneo.com.cn/detail93546.html" title="企业观察报：一图读懂｜浙江国资国企2025年工作和“十四五”成绩单" target="_blank">企业观察报：一图读懂｜浙江国资国企2025年工作和...<span>2026-01-26</span></a></li>
+
+<li><a href="https://guoqi.zjol.com.cn/yw/202601/t20260123_31471328.shtml" title="浙江在线：浙江国资国企如何开新局？坚持新质提质、强化监督监管" target="_blank">浙江在线：浙江国资国企如何开新局？坚持新质提质、强...<span>2026-01-26</span></a></li>
+
+<li><a href="https://tidenews.com.cn/news.html?id=3354824&source=weixin" title="潮新闻：“十四五”时期研发累计投入509亿元 浙江省属企业新质生产力发展积厚成势" target="_blank">潮新闻：“十四五”时期研发累计投入509亿元 浙江...<span>2026-01-26</span></a></li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="fr">
+						<div class="s4_title">
+							<h4>
+通知公告
+
+							</h4>
+<a href="/col/col1229430732/index.html">更多...</a>
+
+						</div>
+						<div class="s4_newsContent">
+							<ul class="s4_newsList">
+
+<li><a href="/col/col1229430732/art/2026/art_de97282599a144f69b8d2a7f39b58b19.html" title="浙江大学控股集团有限公司清产核资审计项目中标结果公告" target="_blank">浙江大学控股集团有限公司清产核资审计项目中标结果公...<span>2026-08-04</span></a></li>
+
+<li><a href="/col/col1229430732/art/2026/art_accacd29106646629d8089c432368463.html" title="浙江大学控股集团有限公司清产核资审计项目中标候选人公示" target="_blank">浙江大学控股集团有限公司清产核资审计项目中标候选人...<span>2026-07-29</span></a></li>
+
+<li><a href="/col/col1229430732/art/2026/art_826dcd7594b24c49ad3401ddb3503099.html" title="浙江大学控股集团有限公司清产核资审计项目招标公告" target="_blank">浙江大学控股集团有限公司清产核资审计项目招标公告<span>2026-07-20</span></a></li>
+
+<li><a href="/col/col1229430732/art/2026/art_3c734596cfbd4c238d23135ac1b52da3.html" title="关于浙江省国有企业“两优一先”拟表彰对象的公示" target="_blank">关于浙江省国有企业“两优一先”拟表彰对象的公示<span>2026-06-18</span></a></li>
+
+<li><a href="/col/col1229430732/art/2026/art_b6d805fc62da45e1b648960f8f4ddbce.html" title="浙江省机电集团有限公司与浙江省二轻集团有限责任公司战略性重组资产评估项目中标结果公告" target="_blank">浙江省机电集团有限公司与浙江省二轻集团有限责任公司...<span>2026-06-17</span></a></li>
+
+							</ul>
+						</div>
+					</div>
+
+
+				</div>
+
+
+			</div>
+			<!-- section4结束 -->
+
+			<!-- section5开始 -->
+			<div class="section5">
+				<div class="s4_title">
+					<h4>政府信息公开</h4>
+				</div>
+				<ul class="s5_part cf">
+					<li>
+						<img src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/home_icon_2.png" alt="">
+<a href="/col/col1229430913/index.html">政府信息公开指南</a>
+
+					</li>
+					<li>
+						<img src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/home_icon_3.png" alt="">
+<a href="/col/col1229430905/index.html">政府信息公开制度</a>
+
+					</li>
+					<li>
+						<img src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/home_icon_4.png" alt="">
+<a href="http://gzw.zj.gov.cn/col/col1229430915/index.html?number=D001">法定主动公开内容</a>
+
+					</li>
+					<li>
+						<img src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/home_icon_5.png" alt="">
+<a href="/col/col1229430914/index.html">政府信息公开年报</a>
+
+					</li>
+					<li>
+						<img src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/home_icon_6.png" alt="">
+<a href="https://mapi.zjzwfw.gov.cn/web/mgop/gov-open/zj/2002446329/reserved/index.html#/?areaCode=33000" target="_blank">申请公开政府信息</a>
+
+					</li>
+
+					<li class="mr0">
+						<img src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/home_icon_7.png" alt="">
+<a href="/col/col1229488633/index.html" target="_blank">网站年度工作报表</a>
+
+					</li>
+				</ul>
+			</div>
+			<!-- section5结束 -->
+
+			<!-- section6开始 -->
+			<div class="section6 cf">
+				<div class="s4_title" style="width: 100%;">
+					<h4>
+互动交流
+					</h4>
+<a href="" target="_blank"></a>
+				</div>
+				<div class="fl">
+
+					<ul class="s6_interaction cf">
+<li>  <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/advice?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_02&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154"><img src="/cms_files/jcms1/web3729/site/picture/0/2408221503119425599.png" alt="我要咨询" /></a>
+  <p>
+    <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/advice?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_02&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154">我要咨询</a>
+  </p>
+</li>
+<li>
+  <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/appeal?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_01&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="我要反映"><img src="/cms_files/jcms1/web3729/site/picture/0/2408221503117393359.png" alt="我要反映" /></a>
+  <p>
+    <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/appeal?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_01&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="我要反映">我要反映</a>
+  </p>
+</li>
+<li>
+  <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/suggest?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_03&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="我要建议"><img src="/cms_files/jcms1/web3729/site/picture/0/2408221503118442449.png" alt="我要建议" /></a>
+  <p>
+    <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/suggest?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_03&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="_blank">我要建议</a>
+  </p>
+</li>
+<li>
+  <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/petition?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_01&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="我要信访"><img src="/cms_files/jcms1/web3729/site/picture/0/2504091138064103267.png" alt="我要信访" /></a>
+  <p>
+    <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/leader?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_04&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="领导信箱">我要信访</a>
+  </p>
+</li>
+<li>
+  <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/leader?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_04&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="领导信箱"><img src="/cms_files/jcms1/web3729/site/picture/0/2408221503116258298.png" alt="领导信箱" /></a>
+  <p>
+    <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/leader?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_04&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="领导信箱">领导信箱</a>
+  </p>
+</li>
+<li>
+  <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/search?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_05&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="查询评价"><img src="/cms_files/jcms1/web3729/site/picture/0/2408221503115839193.png" alt="查询评价" /></a>
+  <p>
+    <a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index/search?areacode=330000&lybj=pc_cgm_GO_f3b6fcdd0ddf40c3979bb27449acbb0b_623891_05&orgName=浙江省政府国有资产监督管理委员会&orgId=1534961388378673154" target="查询评价">查询评价</a>
+  </p>
+</li>
+
+
+<style>
+  .s6_interaction li {
+    // height: 97px !important;
+    width: 16% !important;
+  }
+</style>
+
+					</ul>
+
+				</div>
+				<div class="fr" style="padding-top:10px;">
+					<div class="s6_msg">
+<img src="/cms_files/jcms1/web3729/site/images/39145/1223_03.png" alt="" srcset="" />
+					</div>
+				</div>
+			</div>
+			<!-- section6结束 -->
+			<div class="section8">
+				<ul class="cf">
+
+<li class="fl"><a href="http://zxts.zjzwfw.gov.cn/sun/satisfaction?city=&area=&page=xjgk&areacode=330100&cxbz=1&gkbz=1&bt=" target="_blank"><img src="/cms_files/jcms1/web3729/site/images/39145/1223_07.png" width="555" height="69" alt="" /></a></li>						<li class="fr"><a href="/col/col1229463447/index.html"><img src="/cms_files/jcms1/web3729/site/images/39145/1223_09.png" width="555" height="69" alt="" /></a></li>
+				</ul>
+			</div>
+
+			
+	
+			<!-- section7开始 -->
+			<div class="section7">
+				<div class="s4_title">
+					<h4>友情链接</h4>
+				</div>
+				<div class="s7_warp cf">
+					<!-- <div class="swiper-container s7_swiper cf">
+                        <div class="swiper-wrapper s7_part cf"> -->
+					<!-- </div>
+                    </div>
+                    <div class="s7_btn s7_leftBtn"></div>
+                    <div class="s7_btn s7_rightBtn"></div> -->
+					<div class="s7w_links">
+省级部门
+
+					</div>
+					<div class="s7w_links">
+省属企业
+
+					</div>
+					<div class="s7w_links">
+市国资委
+
+					</div>
+					<div class="s7w_links mr0">
+外省国资委
+
+					</div>
+					<div class="s72_linkList cf">
+<ul>	
+
+
+	<li><a href="http://fzggw.zj.gov.cn/" target="_blank">省发展改革委</a></li>
+	
+
+
+	<li><a href="http://jxt.zj.gov.cn/" target="_blank">省经信厅</a></li>
+	
+
+
+	<li><a href="http://jyt.zj.gov.cn/" target="_blank">省教育厅</a></li>
+	
+
+
+	<li><a href="http://kjt.zj.gov.cn/" target="_blank">省科技厅</a></li>
+	
+
+
+	<li><a href="http://mzw.zj.gov.cn/" target="_blank">省民宗委</a></li>
+	
+
+
+	<li><a href="http://gat.zj.gov.cn/" target="_blank">省公安厅</a></li>
+	
+
+
+	<li><a href="http://mzt.zj.gov.cn/" target="_blank">省民政厅</a></li>
+	
+
+
+	<li><a href="http://sft.zj.gov.cn/" target="_blank">省司法厅</a></li>
+	
+
+
+	<li><a href="http://czt.zj.gov.cn/" target="_blank">省财政厅</a></li>
+	
+
+
+	<li><a href="http://rlsbt.zj.gov.cn/" target="_blank">省人力社保厅</a></li>
+	
+
+
+	<li><a href="http://zrzyt.zj.gov.cn/" target="_blank">省自然资源厅</a></li>
+	
+
+
+	<li><a href="http://sthjt.zj.gov.cn/" target="_blank">省生态环境厅</a></li>
+	
+
+
+	<li><a href="http://jst.zj.gov.cn/" target="_blank">省建设厅</a></li>
+	
+
+
+	<li><a href="http://jtyst.zj.gov.cn/" target="_blank">省交通运输厅</a></li>
+	
+
+
+	<li><a href="http://slt.zj.gov.cn/" target="_blank">省水利厅</a></li>
+	
+
+
+	<li><a href="http://nynct.zj.gov.cn/" target="_blank">省农业农村厅</a></li>
+	
+
+
+	<li><a href="http://zcom.zj.gov.cn/" target="_blank">省商务厅</a></li>
+	
+
+
+	<li><a href="http://ct.zj.gov.cn/" target="_blank">省文化和旅游厅</a></li>
+	
+
+
+	<li><a href="http://wsjkw.zj.gov.cn/" target="_blank">省卫生健康委</a></li>
+	
+
+
+	<li><a href="http://tyjrswt.zj.gov.cn" target="_blank">省退役军人事务厅</a></li>
+	
+
+
+	<li><a href="http://yjt.zj.gov.cn/" target="_blank">省应急管理厅</a></li>
+	
+
+
+	<li><a href="http://sjt.zj.gov.cn/" target="_blank">省审计厅</a></li>
+	
+
+
+	<li><a href="http://fad.zj.gov.cn/" target="_blank">省外办</a></li>
+	
+
+
+	<li><a href="http://gzw.zj.gov.cn/" target="_blank">省国资委</a></li>
+	
+
+
+	<li><a href="http://zjamr.zj.gov.cn/" target="_blank">省市场监管局</a></li>
+	
+
+
+	<li><a href="http://sjrb.zj.gov.cn/" target="_blank">省地方金融监管局</a></li>
+	
+
+
+	<li><a href="http://tyj.zj.gov.cn/" target="_blank">省体育局</a></li>
+	
+
+
+	<li><a href="http://tjj.zj.gov.cn/" target="_blank">省统计局</a></li>
+	
+
+
+	<li><a href="http://lswzj.zj.gov.cn" target="_blank">省粮食物资局</a></li>
+	
+
+
+	<li><a href="http://ybj.zj.gov.cn" target="_blank">省医保局</a></li>
+	
+
+
+	<li><a href="http://jgswj.zj.gov.cn/" target="_blank">省机关事务局</a></li>
+	
+
+
+	<li><a href="http://gdb.zj.gov.cn/" target="_blank">省国动办</a></li>
+	
+
+
+	<li><a href="http://gxs.zj.gov.cn/" target="_blank">省供销社</a></li>
+	
+
+
+	<li><a href="http://zxw.zj.gov.cn/" target="_blank">省咨询委办公室</a></li>
+	
+
+
+	<li><a href="http://jyglj.zj.gov.cn/" target="_blank">省监狱管理局</a></li>
+	
+
+
+	<li><a href="http://lyj.zj.gov.cn/" target="_blank">省林业局</a></li>
+	
+
+
+	<li><a href="http://wwj.zj.gov.cn" target="_blank">省文物局</a></li>
+	
+
+
+	<li><a href="http://mpa.zj.gov.cn/" target="_blank">省药监局</a></li>
+	
+
+
+	<li><a href="http://jtyst.zj.gov.cn/col/col1229221393/index.html" target="_blank">省运管局</a></li>
+	
+
+</ul>
+					</div>
+					<div class="s72_linkList cf">
+<ul>	
+
+
+	<li><a href="https://www.zjzsco.com/" target="_blank">浙江省国有资本运营有限公司</a></li>
+	
+
+
+	<li><a href="https://www.wzgroup.cn/" target="_blank">物产中大集团股份有限公司</a></li>
+	
+
+
+	<li><a href="http://www.cnzgc.com" target="_blank">浙江省建设投资集团股份有限公司</a></li>
+	
+
+
+	<li><a href="https://www.zjmegroup.cn/" target="_blank">浙江省机电集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.zibchina.com/" target="_blank">浙江省国际贸易集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.chinaztg.com/" target="_blank">浙江省旅游投资集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.hzsteel.com" target="_blank">杭州钢铁集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.juhua.com.cn" target="_blank">巨化集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.cncico.com/" target="_blank">浙江省交通投资集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.zjadgroup.com/" target="_blank">浙江省农村发展集团有限公司</a></li>
+	
+
+
+	<li><a href="http://www.zjsairport.com/" target="_blank">浙江省机场集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.zjseaport.com/" target="_blank">浙江省海港投资运营集团有限公司</a></li>
+	
+
+
+	<li><a href="http://www.zjeq.com" target="_blank">浙江省二轻集团有限责任公司</a></li>
+	
+
+
+	<li><a href="https://www.zjabhw.com" target="_blank">安邦护卫集团股份有限公司</a></li>
+	
+
+
+	<li><a href="http://www.kggs.zju.edu.cn/" target="_blank">浙江大学控股集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.zjnrg.com/" target="_blank">浙江省自然资源集团有限公司</a></li>
+	
+
+
+	<li><a href="https://www.zjenergy.com.cn/" target="_blank">浙江省能源集团有限公司</a></li>
+	
+
+</ul>
+					</div>
+					<div class="s72_linkList cf">
+<ul>	
+
+
+	<li><a href="http://gzw.hangzhou.gov.cn/" target="_blank">杭州市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.ningbo.gov.cn/" target="_blank">宁波市国资委</a></li>
+	
+
+
+	<li><a href="http://wzgzw.wenzhou.gov.cn/" target="_blank">温州市国资委</a></li>
+	
+
+
+	<li><a href="http://zjhzgzw.huzhou.gov.cn/" target="_blank">湖州市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.jiaxing.gov.cn/" target="_blank">嘉兴市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.sx.gov.cn/" target="_blank">绍兴市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.jinhua.gov.cn/" target="_blank">金华市国资委</a></li>
+	
+
+
+	<li><a href="http://www.qz.gov.cn/col/col1229041159/index.html" target="_blank">衢州市国资委</a></li>
+	
+
+
+	<li><a href="http://zscz.zhoushan.gov.cn/" target="_blank">舟山市财政局</a></li>
+	
+
+
+	<li><a href="http://gzw.zjtz.gov.cn/" target="_blank">台州市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.lishui.gov.cn/" target="_blank">丽水市国资委</a></li>
+	
+
+</ul>
+					</div>
+					<div class="s72_linkList cf">
+<ul>	
+
+
+	<li><a href="http://gzw.hlj.gov.cn/" target="_blank">黑龙江省国资委</a></li>
+	
+
+
+	<li><a href="http://sxgz.shaanxi.gov.cn/" target="_blank">陕西省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.cq.gov.cn/" target="_blank">重庆市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.ln.gov.cn/" target="_blank">辽宁省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.guizhou.gov.cn/" target="_blank">贵州省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.fujian.gov.cn/" target="_blank">福建省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.gansu.gov.cn/" target="_blank">甘肃省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.hunan.gov.cn/" target="_blank">湖南省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.hubei.gov.cn/" target="_blank">湖北省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.hainan.gov.cn/" target="_blank">海南省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.henan.gov.cn/" target="_blank">河南省国资委</a></li>
+	
+
+
+	<li><a href="http://hbsa.hebei.gov.cn/" target="_blank">河北省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.jiangxi.gov.cn/" target="_blank">江西省国资委</a></li>
+	
+
+
+	<li><a href="http://jsgzw.jiangsu.gov.cn/index.html" target="_blank">江苏省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.xinjiang.gov.cn/" target="_blank">新疆维吾尔自治区国资委</a></li>
+	
+
+
+	<li><a href="http://gyzc.xjbt.gov.cn" target="_blank">新疆生产建设兵团国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.gxzf.gov.cn/" target="_blank">广西壮族自治区国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.gd.gov.cn/" target="_blank">广东省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.shanxi.gov.cn/" target="_blank">山西省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.shandong.gov.cn/" target="_blank">山东省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.ah.gov.cn/" target="_blank">安徽省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.nx.gov.cn/" target="_blank">宁夏回族自治区国资委</a></li>
+	
+
+
+	<li><a href="http://sasac.tj.gov.cn/" target="_blank">天津市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.sc.gov.cn/" target="_blank">四川省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.jl.gov.cn/" target="_blank">吉林省国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.beijing.gov.cn/" target="_blank">北京市国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.nmg.gov.cn/" target="_blank">内蒙古自治区国资委</a></li>
+	
+
+
+	<li><a href="http://gzw.yn.gov.cn/" target="_blank">云南省国资委</a></li>
+	
+
+
+	<li><a href="https://www.gzw.sh.gov.cn/" target="_blank">上海市国资委</a></li>
+	
+
+</ul>
+					</div>
+				</div>
+			</div>
+			<!-- section7结束 -->
+
+			<!-- 侧边导航开始 -->
+			<div class="side_nav" style="top: 1527px;">
+				<ul>
+					<li><a href="/col/col1229430728/index.html">要闻</a></li>
+					<li><a href="/col/col1229430638/index.html">监管</a></li>
+					<li><a href="">省企</a></li>
+					<li><a href="/col/col1229430661/index.html">公开</a></li>
+					<li><a href="https://zxts.zjzwfw.gov.cn/zwmhww/#/home/index?areacode=330000" target="_blank">互动</a>
+					</li>
+					<li><a href="/col/col1229430704/index.html">专题</a></li>
+				</ul>
+			</div>
+
+			<!-- 侧边导航结束 -->
+
+			<!-- 右边微信开始 -->
+
+			<!-- 右边微信结束 -->
+		</div>
+	
+	<!-- 主体内容结束 -->
+
+	<!-- 通用底部开始 -->
+<script src="/cms_files/jcms1/web3729/site/script/1100/2011091450358792.js"></script>
+	<!-- 通用底部结束 -->
+	<script type="text/javascript" src="/cms_files/webzhejiangshengrenminzhengfuguoyouzichanjianduguanliweiyuanhui/pubtplobject/defaultSet/747809/images/zjgzw.js"></script>
+<script src="/cms_files/filemanager/1573803/script/juba/jubascript.js?v=4.5.12.1-ZJSJYH-U50"></script>
+ </div></body>
+
+
+</html>
+
+		<style>
+			.pcs {
+				margin: 20px auto;
+				display: flex;
+				display: none;
+			}
+		
+			.pcs div {
+				float: left;
+			}
+		
+			.pcs img {
+				display: inline-block;
+				margin: 0 3px;
+			}
+
+			.section4,.section5,.section6,.section7,.section8{
+				width: 1200px !important;
+				margin: 0 auto !important;
+			}
+		</style>

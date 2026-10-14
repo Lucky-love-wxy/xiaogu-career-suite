@@ -1,0 +1,107 @@
+{
+  "name": [
+    {
+      "text": "电气工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "电气工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vUm5MZ5aM"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vyU5MCM5N"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“电气类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电气类",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "vUm5MZ5aM",
+          "vyU5MCM5N"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vUm5MZ5aM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "电气工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUm5MZ5aM",
+        "vyU5MCM5N"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ]
+}

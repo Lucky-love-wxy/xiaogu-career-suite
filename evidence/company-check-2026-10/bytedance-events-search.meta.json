@@ -1,0 +1,24 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 5.097,
+  "access_date": "2026-10-12",
+  "sha256": "d4622c73672b48587fdca90b33b4eec31ba6c41eb0daff0d06e9c9d2ed0b95fb",
+  "blocked": null,
+  "id": "bytedance-events-search",
+  "company": "bytedance",
+  "query": "字节跳动 2026 2025 裁员 收缩 融资 上市 业务 调整",
+  "include_domains": [
+    "cls.cn",
+    "caixin.com",
+    "yicai.com",
+    "reuters.com",
+    "stcn.com",
+    "21jingji.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-events-search.json"
+}

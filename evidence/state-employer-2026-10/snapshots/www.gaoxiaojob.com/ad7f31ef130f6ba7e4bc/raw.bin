@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="//img.gaoxiaojob.com/uploads/static/favicon.ico" type="image/x-icon" />
+        <title>免责声明-高校人才网|高才网</title>
+        <script>
+            if (/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i.test(navigator.userAgent)) {
+                const url = window.location.href
+                if (url.includes('www.gaoxiaojob.com')) {
+                    window.location.href = url.replace('www', 'm')
+                }
+            }
+        </script>
+        <link rel="stylesheet" href="./lib/normalize/normalize.min.css" />
+        <link rel="stylesheet" href="./css/disclaimers.css" />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="page-container">
+                <div class="bg-picture disclaimers"></div>
+
+                <div class="header-container view-width">
+                    <header class="header">
+                        <div class="logo">
+                            <a href="/" target="_blank" class="logo-link"></a>
+                        </div>
+
+                        <nav>
+                            <a href="/" target="_blank" class="nav-link">首页</a>
+                            <a href="/job" target="_blank" class="nav-link">职位</a>
+                            <a href="/company" target="_blank" class="nav-link">单位</a>
+                            <a href="/column/10.html" target="_blank" class="nav-link">资讯</a>
+                            <a href="/member/person/login" target="_blank" class="nav-link">登录/注册</a>
+                        </nav>
+                    </header>
+
+                    <div class="propaganda is-propaganda">
+                        <h2 class="title is-title">免责声明</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-container">
+                <div class="tab view-width">
+                    <a href="./index.html" class="tab-link">关于我们</a>
+                    <a href="./productService.html" class="tab-link">产品服务</a>
+                    <a href="./mediaMatrix.html" class="tab-link">媒体矩阵</a>
+                    <a href="./joinUs.html" class="tab-link">加入高才</a>
+                    <a href="./contactUs.html" class="tab-link">联系我们</a>
+                    <a href="./disclaimers.html" class="tab-link active">免责声明</a>
+                </div>
+            </div>
+
+            <div class="disclaimers-container view-width">
+                <div class="statement-content">
+                    <span class="number">1</span>
+                    <span class="tips">本站刊登的招聘信息，其最终解释权归招聘单位，如求职者对招聘具体情况有疑问，请直接与招聘单位联系。</span>
+                </div>
+
+                <div class="statement-content">
+                    <span class="number">2</span>
+                    <span class="tips">本站部分信息来源于网络，其版权归原作者所有，本站转载该信息仅出于让求职者周知目的，如有侵权，请与本站联系，本站将尽快处理。</span>
+                </div>
+
+                <div class="statement-content">
+                    <span class="number">3</span>
+                    <span class="tips"
+                        >由于网络虚假招聘信息泛滥，本站虽已竭尽所能对信息的真实性进行审核，但仍不能保证所有信息100%的真实性。<br />若您在浏览本站过程中发现有可疑信息，请与本站联系，本站将迅速进行甄别处理。</span
+                    >
+                </div>
+            </div>
+
+            <div class="fair-footer">
+                <div class="footer-content-box">
+                    <div class="footer-left">
+                        <ul class="footer-nav">
+                            <li><a href="./index.html">关于我们</a></li>
+                            <li><a href="./productService.html">产品服务</a></li>
+                            <li><a href="./mediaMatrix.html">媒体矩阵</a></li>
+                            <li><a href="./joinUs.html">加入我们</a></li>
+                            <li><a href="./contactUs.html">联系我们</a></li>
+                            <li><a href="./disclaimers.html">免责声明</a></li>
+                        </ul>
+                        <p class="num-one">Copyright © 2007-2026 高校人才网 粤ICP备13048400号-2 粤公网安备：44010602004138号 本站由广州高才信息科技有限公司运营</p>
+                        <p>中华人民共和国增值电信业务经营许可证：粤B2-20180648 人力资源服务许可证编号：(粤)人服证字(2022) 第0106114823 企业统一社会信用代码：91440106MA59BTXW56</p>
+                        <p>
+                            高校人才网——国内访问量、信息量排名前列的高层次人才需求信息平台<span class="sp" id="busuanzi_container_page_pv"> -SP-<b id="busuanzi_value_page_pv"></b></span>
+                        </p>
+                    </div>
+                    <div class="footer-right"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="/static/js/tongji.js"></script>
+</html>

@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 4.897,
+  "access_date": "2026-10-12",
+  "sha256": "e6792cb4215904e34f9a07ca817f2f4264ff3f0fd7fe2a9f24f99b737b005ce5",
+  "blocked": null,
+  "id": "bytedance-cloud-search",
+  "company": "bytedance",
+  "query": "火山引擎 计费 按量付费 云 服务",
+  "include_domains": [
+    "volcengine.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-cloud-search.json"
+}

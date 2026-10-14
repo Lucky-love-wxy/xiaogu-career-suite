@@ -1,0 +1,204 @@
+{
+  "name": [
+    {
+      "text": "公共卫生/疾控",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "公共卫生/疾控"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [
+    {
+      "id": "vYl5tZLZz",
+      "url": "https://campus.niuqizp.com/job-vYl5tZLZz.html",
+      "role": "公共卫生研究中级岗|公共卫生研究初级岗|公共卫生医师初级岗|公共卫生检验检测初级岗",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责辐射检测仪器、剂量测读系统维护、校准、期间核查",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYk5antNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYk5antNn",
+          "text": "负责辐射检测仪器、剂量测读系统维护、校准、期间核查"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "开展放射卫生现场检测：放射诊疗设备性能、工作场所辐射防护检测，完成现场采样、原始记录",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYk5antNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYk5antNn",
+          "text": "开展放射卫生现场检测：放射诊疗设备性能、工作场所辐射防护检测，完成现场采样、原始记录"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责个人剂量计（剂量牌）编号、发放、回收、测读、数据处理，编制个人剂量监测报告，建立维护放射工作人员个人剂量档案，按规范处置异常剂量结果",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYk5antNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYk5antNn",
+          "text": "负责个人剂量计（剂量牌）编号、发放、回收、测读、数据处理，编制个人剂量监测报告，建立维护放射工作人员个人剂量档案，按规范处置异常剂量结果"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5antNn",
+        "vwk5aMzna",
+        "vys5Nzn55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYk5antNn"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5antNn",
+        "vwk5aMzna",
+        "vys5Nzn55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vwk5aMzna",
+          "vys5Nzn55"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5antNn",
+        "vwk5aMzna",
+        "vys5Nzn55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYk5antNn"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“公共卫生与预防医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5antNn",
+        "vwk5aMzna",
+        "vys5Nzn55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共卫生与预防医学类",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vwk5aMzna",
+          "vys5Nzn55"
+        ]
+      }
+    },
+    {
+      "text": "3份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5antNn",
+        "vwk5aMzna",
+        "vys5Nzn55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vwk5aMzna",
+          "vys5Nzn55"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "公共卫生专业人员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYk5antNn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "公共卫生医师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vys5Nzn55"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "公共卫生医师-2027届高校毕业生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwk5aMzna"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

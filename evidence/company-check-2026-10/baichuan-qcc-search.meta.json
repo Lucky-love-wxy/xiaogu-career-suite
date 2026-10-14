@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 5.329,
+  "access_date": "2026-10-12",
+  "sha256": "f60ab1b5e511eec41917fe8251175fb02a53de988b8eaecf764435d26b9de29b",
+  "blocked": null,
+  "id": "baichuan-qcc-search",
+  "company": "baichuan",
+  "query": "百川智能科技有限公司 企业 成立日期",
+  "include_domains": [
+    "qcc.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/baichuan-qcc-search.json"
+}

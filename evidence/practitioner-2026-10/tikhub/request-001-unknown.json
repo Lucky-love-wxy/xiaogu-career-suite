@@ -1,0 +1,21 @@
+{
+  "role": "图像算法",
+  "endpoint": "search_notes",
+  "params": {
+    "keyword": "图像算法 工程师 日常",
+    "page": 1,
+    "sort_type": "general",
+    "note_type": "普通笔记",
+    "time_filter": "不限"
+  },
+  "attempt_n": 1,
+  "result": "UNKNOWN",
+  "cdp_exit_code": 0,
+  "cdp_output": "newline only",
+  "parse_error": "Unexpected end of JSON input",
+  "fee_conservative_usd": 0.01,
+  "charge_verified": false,
+  "auto_retry": false,
+  "next": "不重复该搜索；新建同授权后台任务页核余额，再按最多99次剩余请求执行其他缺口。旧1次保守计入，实际扣费待余额回读。",
+  "observed_followup": "同CDP targets可读，但所有TikHub标签已不存在；任务页内存结果不可恢复，原因未知"
+}

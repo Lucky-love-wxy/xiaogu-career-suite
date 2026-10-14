@@ -1,0 +1,53 @@
+{
+  "api_calls": 45,
+  "search_calls": 42,
+  "last_request": {
+    "api.tavily.com": 1791778284.224946,
+    "www1.hkexnews.hk": 1791777539.917522,
+    "www.hkexnews.hk": 1791777536.727427,
+    "ys.mihoyo.com": 1791777547.5938401,
+    "www.mihoyo.com": 1791777551.0270689,
+    "www.bytedance.com": 1791777554.253268,
+    "www.baichuan-ai.com": 1791777560.7949052,
+    "platform.baichuan-ai.com": 1791777564.117426,
+    "www.x-humanoid.com": 1791777980.366143,
+    "www.yicai.com": 1791777579.0027142,
+    "ir.zhihu.com": 1791777582.493829,
+    "ir.zhipin.com": 1791777583.32974,
+    "www.gsxt.gov.cn": 1791777584.573073,
+    "m.qcc.com": 1791777659.915414,
+    "www.tianyancha.com": 1791777680.714428,
+    "www.qcc.com": 1791777677.98602,
+    "pinpai.qcc.com": 1791777670.445353,
+    "top.qcc.com": 1791777674.087564,
+    "newsroom.tiktok.com": 1791777867.741581,
+    "fastcdn.mihoyo.com": 1791777872.378685,
+    "m.bjnews.com.cn": 1791777876.1761549,
+    "www.cls.cn": 1791777882.5459452,
+    "m.caixin.com": 1791777886.006196,
+    "en.wikipedia.org": 1791777892.57022,
+    "zh-classical.wikipedia.org": 1791777898.051889,
+    "m.oceanengine.com": 1791777971.310961,
+    "www.feishu.cn": 1791777974.927888,
+    "www.volcengine.com": 1791777978.458863,
+    "www.lanjinger.com": 1791777983.8260338
+  },
+  "stopped": {
+    "ir.zhipin.com": {
+      "date": "2026-10-12",
+      "reason": "HTTP 403 robots"
+    },
+    "qcc.com": {
+      "date": "2026-10-12",
+      "reason": "retrospective: HTTP 567 and JS challenge"
+    },
+    "gsxt.gov.cn": {
+      "date": "2026-10-12",
+      "reason": "HTTP 521"
+    },
+    "tianyancha.com": {
+      "date": "2026-10-12",
+      "reason": "login_required_generic_shell: retrospective offline body review"
+    }
+  }
+}

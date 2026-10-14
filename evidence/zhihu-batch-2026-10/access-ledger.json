@@ -1,0 +1,452 @@
+{
+  "started_at": "2026-10-11T12:11:50.148Z",
+  "updated_at": "2026-10-11T13:19:01.883641+00:00",
+  "status": "STOPPED_ZHIHU_TODAY_PENDING_REVIEW",
+  "entries": [
+    {
+      "sequence": 1,
+      "site": "baidu",
+      "kind": "search",
+      "role": "制剂研发",
+      "query": "知乎 制剂研发 2025 2026 入职",
+      "opened_at": "2026-10-11T12:11:50.148Z",
+      "checked_at": "2026-10-11T12:12:03.335Z",
+      "state": "SEARCH_LOADED",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%88%B6%E5%89%82%E7%A0%94%E5%8F%91%202025%202026%20%E5%85%A5%E8%81%8C",
+      "evidence_file": "search-001.json",
+      "transport": "browser_navigation"
+    },
+    {
+      "sequence": 2,
+      "site": "baidu",
+      "kind": "search",
+      "role": "制剂研发",
+      "query": "知乎 制剂研发 入职一年 工作三年 转正",
+      "opened_at": "2026-10-11T12:12:40.925Z",
+      "checked_at": "2026-10-11T12:12:42.269Z",
+      "state": "SEARCH_LOADED",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%88%B6%E5%89%82%E7%A0%94%E5%8F%91%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E5%B7%A5%E4%BD%9C%E4%B8%89%E5%B9%B4%20%E8%BD%AC%E6%AD%A3",
+      "evidence_file": "search-002.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 3,
+      "site": "baidu",
+      "kind": "search",
+      "role": "制剂研发",
+      "query": "知乎 制剂研发 转行 离职 日常",
+      "opened_at": "2026-10-11T12:12:50.925Z",
+      "checked_at": "2026-10-11T12:12:52.092Z",
+      "state": "SEARCH_LOADED",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%88%B6%E5%89%82%E7%A0%94%E5%8F%91%20%E8%BD%AC%E8%A1%8C%20%E7%A6%BB%E8%81%8C%20%E6%97%A5%E5%B8%B8",
+      "evidence_file": "search-003.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 4,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "制剂研发",
+      "url": "https://www.zhihu.com/question/477517258/answer/2926204368",
+      "opened_at": "2026-10-11T12:37:02.648897+00:00",
+      "state": "LOADED_ANSWERS",
+      "evidence_file": "page-001.json"
+    },
+    {
+      "sequence": 5,
+      "site": "zhihu",
+      "kind": "view_all_navigation",
+      "role": "制剂研发",
+      "url": "https://www.zhihu.com/question/477517258",
+      "opened_at": null,
+      "state": "LOADED_ANSWERS",
+      "timing_note": "点击前时间未精确记录；不填估计时间冒充观测，只保留操作顺序、状态及页面证据"
+    },
+    {
+      "sequence": 6,
+      "site": "zhihu",
+      "kind": "time_sort_navigation",
+      "role": "制剂研发",
+      "url": "https://www.zhihu.com/question/477517258/answers/updated",
+      "opened_at": null,
+      "checked_at": "2026-10-11T12:39:22.226Z",
+      "state": "LOADED_ANSWERS",
+      "evidence_file": "page-002.json",
+      "timing_note": "点击前时间未精确记录；不填估计时间冒充观测，只保留操作顺序、状态及页面证据"
+    },
+    {
+      "sequence": 7,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医药代表",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%202025%20%E5%85%A5%E8%81%8C",
+      "opened_at": "2026-10-11T12:41:31.549598+00:00",
+      "state": "SEARCH_LOADED",
+      "checked_at": "2026-10-11T12:41:51.986Z",
+      "evidence_file": "search-004.json",
+      "query": "知乎 医药代表 2025 入职"
+    },
+    {
+      "sequence": 8,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医药代表",
+      "url": "https://www.zhihu.com/question/2060271953856950506/answer/2072602664383276077",
+      "opened_at": "2026-10-11T12:42:19.520317+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:42:29.068Z",
+      "evidence_file": "page-003.json"
+    },
+    {
+      "sequence": 9,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医药代表",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%20%E5%B7%A5%E4%BD%9C%E4%B8%80%E5%B9%B4%20%E6%97%A5%E5%B8%B8",
+      "opened_at": "2026-10-11T12:43:14.803608+00:00",
+      "state": "SEARCH_LOADED",
+      "checked_at": "2026-10-11T12:43:26.524Z",
+      "evidence_file": "search-005.json",
+      "query": "知乎 医药代表 工作一年 日常"
+    },
+    {
+      "sequence": 10,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医药代表",
+      "url": "https://www.zhihu.com/question/339381703/answer/2845028792",
+      "opened_at": "2026-10-11T12:43:42.919731+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:43:59.511Z",
+      "evidence_file": "page-004.json"
+    },
+    {
+      "sequence": 11,
+      "site": "zhihu",
+      "kind": "view_all_navigation",
+      "role": "医药代表",
+      "url": "https://www.zhihu.com/question/339381703",
+      "opened_at": "2026-10-11T12:45:02.415065+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:45:04.958Z",
+      "evidence_file": "control-005.json"
+    },
+    {
+      "sequence": 12,
+      "site": "zhihu",
+      "kind": "time_sort_navigation",
+      "role": "医药代表",
+      "url": "https://www.zhihu.com/question/339381703",
+      "opened_at": "2026-10-11T12:45:37.462746+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:45:40.335Z",
+      "evidence_file": "page-005.json"
+    },
+    {
+      "sequence": 13,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医药代表",
+      "url": "https://www.zhihu.com/question/31549004",
+      "opened_at": "2026-10-11T12:46:19.990422+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:46:22.944Z",
+      "evidence_file": "page-006.json"
+    },
+    {
+      "sequence": 14,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医疗器械销售",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E9%94%80%E5%94%AE%20%E6%97%A5%E5%B8%B8%20%E5%B7%A5%E4%BD%9C%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:48:17.973921+00:00",
+      "state": "SEARCH_LOADED",
+      "checked_at": "2026-10-11T12:48:21.109Z",
+      "evidence_file": "search-006.json",
+      "query": "知乎 医疗器械销售 日常 工作体验"
+    },
+    {
+      "sequence": 15,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医药商务拓展（BD）",
+      "query": "知乎 医药BD 工作 日常 体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E8%8D%AFBD%20%E5%B7%A5%E4%BD%9C%20%E6%97%A5%E5%B8%B8%20%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:48:27.948Z",
+      "checked_at": "2026-10-11T12:48:29.101Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-007.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 16,
+      "site": "baidu",
+      "kind": "search",
+      "role": "药物合成",
+      "query": "知乎 药物合成 研发 工作体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E8%8D%AF%E7%89%A9%E5%90%88%E6%88%90%20%E7%A0%94%E5%8F%91%20%E5%B7%A5%E4%BD%9C%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:48:34.949Z",
+      "checked_at": "2026-10-11T12:48:36.136Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-008.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 17,
+      "site": "baidu",
+      "kind": "search",
+      "role": "药物分析",
+      "query": "知乎 药物分析 工作体验 入职",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E8%8D%AF%E7%89%A9%E5%88%86%E6%9E%90%20%E5%B7%A5%E4%BD%9C%E4%BD%93%E9%AA%8C%20%E5%85%A5%E8%81%8C",
+      "opened_at": "2026-10-11T12:48:44.945Z",
+      "checked_at": "2026-10-11T12:48:46.164Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-009.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 18,
+      "site": "baidu",
+      "kind": "search",
+      "role": "生物药研发",
+      "query": "知乎 生物药研发 入职 工作 日常 体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E7%94%9F%E7%89%A9%E8%8D%AF%E7%A0%94%E5%8F%91%20%E5%85%A5%E8%81%8C%20%E5%B7%A5%E4%BD%9C%20%E6%97%A5%E5%B8%B8%20%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:49:32.029Z",
+      "checked_at": "2026-10-11T12:49:33.235Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-010.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 19,
+      "site": "baidu",
+      "kind": "search",
+      "role": "临床监查员（CRA）",
+      "query": "知乎 CRA 入职一年 工作 日常 体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20CRA%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E5%B7%A5%E4%BD%9C%20%E6%97%A5%E5%B8%B8%20%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:49:40.946Z",
+      "checked_at": "2026-10-11T12:49:42.155Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-011.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 20,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医学写作",
+      "query": "知乎 medical writer 医学写作 工作 日常 体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20medical%20writer%20%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C%20%E5%B7%A5%E4%BD%9C%20%E6%97%A5%E5%B8%B8%20%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:49:49.945Z",
+      "checked_at": "2026-10-11T12:49:51.046Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-012.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 21,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医疗器械注册",
+      "query": "知乎 医疗器械注册 工作一年 日常 体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%B3%A8%E5%86%8C%20%E5%B7%A5%E4%BD%9C%E4%B8%80%E5%B9%B4%20%E6%97%A5%E5%B8%B8%20%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:50:41.944Z",
+      "checked_at": "2026-10-11T12:50:43.083Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-013.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 22,
+      "site": "baidu",
+      "kind": "search",
+      "role": "生物药研发",
+      "query": "知乎 生物制药 研发 工作 体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E7%94%9F%E7%89%A9%E5%88%B6%E8%8D%AF%20%E7%A0%94%E5%8F%91%20%E5%B7%A5%E4%BD%9C%20%E4%BD%93%E9%AA%8C",
+      "opened_at": "2026-10-11T12:50:49.945Z",
+      "checked_at": "2026-10-11T12:50:51.274Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-014.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 23,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医学写作",
+      "query": "知乎 医学撰写 入职一年 medical writer",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E5%AD%A6%E6%92%B0%E5%86%99%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20medical%20writer",
+      "opened_at": "2026-10-11T12:51:00.944Z",
+      "checked_at": "2026-10-11T12:51:02.097Z",
+      "state": "SEARCH_LOADED",
+      "evidence_file": "search-015.json",
+      "transport": "browser_fetch"
+    },
+    {
+      "sequence": 24,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医疗器械销售",
+      "url": "https://www.zhihu.com/question/339381686/answer/2327467846",
+      "opened_at": "2026-10-11T12:51:46.771862+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:51:48.985Z",
+      "evidence_file": "page-007.json"
+    },
+    {
+      "sequence": 25,
+      "site": "zhihu",
+      "kind": "view_all_navigation",
+      "role": "医疗器械销售",
+      "url": "https://www.zhihu.com/question/339381686",
+      "opened_at": "2026-10-11T12:53:19.870756+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:53:22.615Z",
+      "evidence_file": "control-008.json"
+    },
+    {
+      "sequence": 26,
+      "site": "zhihu",
+      "kind": "time_sort_navigation",
+      "role": "医疗器械销售",
+      "url": "https://www.zhihu.com/question/339381686",
+      "opened_at": "2026-10-11T12:53:28.607223+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:53:31.202Z",
+      "evidence_file": "page-008.json"
+    },
+    {
+      "sequence": 27,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医疗器械销售",
+      "url": "https://www.zhihu.com/question/299457070/answer/1127859545",
+      "opened_at": "2026-10-11T12:54:12.167331+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:54:13.854Z",
+      "evidence_file": "page-009.json"
+    },
+    {
+      "sequence": 28,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医药商务拓展（BD）",
+      "url": "https://www.zhihu.com/question/341517634/answer/11276023426",
+      "opened_at": "2026-10-11T12:54:44.270177+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:54:45.907Z",
+      "evidence_file": "page-010.json"
+    },
+    {
+      "sequence": 29,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "药物合成",
+      "url": "https://www.zhihu.com/question/40603392/answer/2078071142095512602",
+      "opened_at": "2026-10-11T12:55:07.831835+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:55:09.967Z",
+      "evidence_file": "page-011.json"
+    },
+    {
+      "sequence": 30,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "临床监查员（CRA）",
+      "url": "https://www2.zhihu.com/question/35251387",
+      "opened_at": "2026-10-11T12:55:34.865947+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:55:38.301Z",
+      "evidence_file": "page-012.json"
+    },
+    {
+      "sequence": 31,
+      "site": "zhihu",
+      "kind": "time_sort_navigation",
+      "role": "临床监查员（CRA）",
+      "url": "https://www2.zhihu.com/question/35251387",
+      "opened_at": "2026-10-11T12:57:07.327549+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:57:10.206Z",
+      "evidence_file": "page-013.json"
+    },
+    {
+      "sequence": 32,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医疗器械注册",
+      "url": "https://www.zhihu.com/question/24601189/answer/3015874496",
+      "opened_at": "2026-10-11T12:57:52.588812+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T12:57:54.942Z",
+      "evidence_file": "page-014.json"
+    },
+    {
+      "sequence": 33,
+      "site": "zhihu",
+      "kind": "body_page_open",
+      "role": "医药商务拓展（BD）",
+      "url": "https://www.zhihu.com/question/319881541",
+      "opened_at": "2026-10-11T13:04:57.298444+00:00",
+      "state": "LOADED_ANSWERS",
+      "checked_at": "2026-10-11T13:05:00.394Z",
+      "evidence_file": "page-015.json"
+    }
+  ],
+  "counts": {
+    "baidu_search": 15,
+    "zhihu_body_page_open": 18,
+    "zhihu_account_check_navigation": 1,
+    "read_answers": 48
+  },
+  "prior_pilot": {
+    "ledger": "../zhihu-pilot-2026-10/access-ledger.json",
+    "baidu_search": 11,
+    "zhihu_page_open": 5,
+    "note": "旧搜索16:27-16:38，本轮20:12，不占当前滚动小时；当日知乎页仍累计"
+  },
+  "limits": {
+    "baidu_batch_max": 40,
+    "baidu_per_rolling_hour": 15,
+    "zhihu_batch_max": 100,
+    "zhihu_daily_max": 60,
+    "navigation_gap_seconds": [
+      5,
+      9
+    ]
+  },
+  "account_check": "account-check.json",
+  "stop_events": [
+    {
+      "site": "zhihu",
+      "sequence": 26,
+      "state": "STOP_EMPTY_BODY_RETROSPECTIVE",
+      "evidence_file": "page-008.json",
+      "observed_at": "2026-10-11T12:53:31.202Z",
+      "reason": "唯一未排除回答正文为空且折叠；原脚本错误标LOADED；不推断平台限流",
+      "requests_after_stop": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    }
+  ],
+  "task_tab": "D8A8CC4E9561FBF21587D099EE808B38",
+  "recovery_note": "中断前2次fetch已完成，直接保存工具输出恢复；没有重发请求，没有发出知乎正文请求。",
+  "protocol_deviations": [
+    "查看全部与排序导航未精确记调用前时间；按分钟界限记录，不伪造秒级",
+    "序号26目标正文为空未停止，随后误发7次知乎请求；停止点之后27篇只保留审计，不作为合规候选。原快照不改写。"
+  ],
+  "breaks": [
+    {
+      "started_at": "2026-10-11T13:05:37.252317+00:00",
+      "minimum_seconds": 300,
+      "reason": "20:36恢复后的连续操作已接近30分钟；停止网络采集，期间仅做本地整理",
+      "ended_at": null
+    }
+  ]
+}

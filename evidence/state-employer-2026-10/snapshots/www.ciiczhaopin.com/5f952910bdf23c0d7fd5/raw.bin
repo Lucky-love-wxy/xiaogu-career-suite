@@ -1,0 +1,2574 @@
+<!-- 公共顶部 -->
+
+<!-- 公共底部 -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>中智招聘网-央国企招聘，求职找工作</title>
+        <meta name="keywords" content="招聘网，人才网，职位，招聘会，招聘活动，公司，求职，找工作" />
+        <meta name="description" content="中智招聘网是专业、权威的招聘平台，提供央企，国企，名企的人才招聘信息，求职就业找工作！" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" type='text/css' href="/styles/reset.css" />
+<link rel="stylesheet" type='text/css' href="/styles/elementCss.css">
+<link rel="stylesheet" type='text/css' href="/styles/iconfont/iconfont.css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<!-- 百度统计，需要的页面必须引入该baseLayout -->
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?cb4c4521d49263342e73d79ad06a754f";
+		var s = document.getElementsByTagName("script")[0]; 
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
+        <link rel="stylesheet" type='text/css' href="/styles/header.css" />
+    </head>
+
+    <body>
+<div class="browser-suggest" id="browserSuggest">
+    为保证正常显示效果，建议使用以下浏览器 <br/>最新版 谷歌浏览器（Chrome），火狐浏览器（Firefox），360浏览器
+</div>
+
+<script>
+        var u = window.navigator.userAgent.toLocaleLowerCase(),
+            edge = /(edg)\/([\d.]+)/,
+            msie = /(msie) ([\d.]+)/,
+            chrome = /(chrome)\/([\d.]+)/,
+            firefox = /(firefox)\/([\d.]+)/,
+            safari = /(safari)\/([\d.]+)/,
+            opera = /(opera)\/([\d.]+)/,
+            ie11 = /(trident)\/([\d.]+)/,
+            b = u.match(edge)||u.match(msie)||u.match(chrome)||u.match(firefox)||u.match(safari)||u.match(opera)||u.match(ie11);
+
+        var browserInfo = {};
+        if (b && b.length > 2) {
+            browserInfo = {NAME: b[1], VERSION: parseInt(b[2])};
+        } else {
+            browserInfo = {NAME: '', VERSION: 0};
+        }
+
+        var showIgnor = false;
+        if (browserInfo.NAME != 'chrome' && browserInfo.NAME != 'firefox' && browserInfo.NAME != 'edg') {
+            showIgnor = true;
+        } else if (browserInfo.NAME == 'chrome' && browserInfo.VERSION < 80) {
+            showIgnor = true;
+        } else if (browserInfo.NAME != 'edg' && browserInfo.VERSION < 100) {
+            showIgnor = true;
+        } else if (browserInfo.NAME == 'safari') {
+            showIgnor = true;
+        }
+
+        var browserSuggest = document.getElementById('browserSuggest');
+        if (!showIgnor) {
+            browserSuggest.style.display = 'none';
+        }
+        if(typeof browserSuggest.addEventListener == 'function') {
+            browserSuggest.addEventListener('click', function() {
+                browserSuggest.style.display = 'none';
+            });
+        } else {
+            browserSuggest.style.display = 'block';
+            browserSuggest.attachEvent('onclick', function() {
+                browserSuggest.style.display = 'none';
+            });
+        }
+</script>
+
+<style>
+    .browser-suggest {
+        width: 100%;
+        height: 128px;
+        background: #2652A0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 44px;
+        box-sizing: border-box;
+    }
+</style><script type="text/javascript" src="/styles/iconfont/iconfont.js"></script>
+<script type="text/javascript" src="/common/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" src="/common/vue.js"></script>
+<script type="text/javascript" src="/common/element.js"></script>
+<script type="text/javascript" src="/common/axios.js"></script>
+<script type="text/javascript" src="/common/axiosConfig.js"></script>
+<script type="text/javascript" src="/common/xss.js"></script>
+<script type="text/javascript" src="/common/sso.js"></script>
+<script type="text/javascript" src="/common/utils.js"></script>
+<script type="text/javascript" src="/data/dictKey.js"></script>
+<!-- 引入 http-vue-loader -->
+<script type="text/javascript" src="/common/http-vue-loader.js"></script>
+<script>
+    Vue.use(httpVueLoader); // 引入 http-vue-loader
+
+    let infoSource = getQueryString('infoSource');
+    let infoSourceId = getQueryString('infoSourceId');
+    let registerSource = getQueryString('registerSource');
+    let registerSourceId = getQueryString('registerSourceId');
+    // let registerPlatform = PLATFORM;
+
+    function openPage(url, isNew = true, infoS = infoSource, infoSId = infoSourceId, rs = registerSource, rsId = registerSourceId) {
+        let str = url;
+        if (infoS) {
+            if (str.includes('?')) {
+                str += '&infoSource=' + infoS
+            } else {
+                str += '?infoSource=' + infoS
+            }
+        }
+        if (infoSId) {
+            if (str.includes('?')) {
+                str += '&infoSourceId=' + infoSId
+            } else {
+                str += '?infoSourceId=' + infoSId
+            }
+        }
+        if (rs) {
+            if (str.includes('?')) {
+                str += '&registerSource=' + rs
+            } else {
+                str += '?registerSource=' + rs
+            }
+        }
+        if (rsId) {
+            if (str.includes('?')) {
+                str += '&registerSourceId=' + rsId
+            } else {
+                str += '?registerSourceId=' + rsId
+            }
+        }
+        if (isNew) {
+            window.open(str);
+        } else {
+            window.location.href = str;
+        }
+    }
+</script><script>
+  // document.addEventListener(NOTOKEN, function() {
+  //   console.log('NOTOKEN');
+  // });
+  // document.addEventListener(TOKEN_CHANGE, function() {
+  //   console.log('TOKEN_CHANGE');
+  // });
+  // document.addEventListener(REFRESH, function() {
+  //   console.log('REFRESH');
+  // });
+
+  // 读取各端host并保存1天
+  window.config = window.config || localStorageGet('config');
+  if (!config) {
+    Axios.get('/api/common/getUrls').then(res => {
+      if (res.code == 0) {
+        localStorageSet('config', res.result, 1);
+        config = res.result;
+        sso.init(res.result.ssoCandidatePcUrl.split('/jstlogin')[0], SITE);
+        console.log('sso init')
+      }
+    })
+  } else {
+      setTimeout(() => {
+          sso.init(config.ssoCandidatePcUrl.split('/jstlogin')[0], SITE);
+          console.log('sso init')
+      }, 500);
+  }
+</script>
+
+<div style="height:80px;width:100%;"></div>
+<div id="appHeader" v-cloak>
+  <div class="language-switching">
+    <div class="language-switching-content">
+      <div>
+        <span class="welcome">欢迎来到中智招聘</span>
+        <span class="phone">客服 400-884-7868</span>
+      </div>
+      <div class="right" style="color:#FFFFFF;display: flex;align-items: center;">
+        <div style="display: flex;margin-right:33px;align-items: center;">
+        <!--游客状态：-->
+        <template v-if="!isLogin">
+          <div class="job-seek"><i class="iconfont">&#xe6d6;</i><span @click="login" class="underline">我是求职者</span></div>
+          <div class="company-enter"><i class="iconfont">&#xe6d6;</i><span @click="companylogin" class="underline">我是招聘方</span></div>
+          
+        </template>
+
+
+        <!-- 企业登录状态： -->
+        <!-- <span>切换求职</span><span>退出企业</span> -->
+
+        <!-- 个人登录状态： -->
+        <template v-if="isLogin && userInfoReady">
+          <el-dropdown @command="handleCommand">
+            <div class="el-dropdown-link">
+              <p>{{name ? name : mobile}}</p>
+              <img :src="avatar" v-if="avatar" />
+              <!-- <div v-if="avatar" :style="'margin: 0 8px 0 10px;border-radius: 50%;height:32px;width:32px;background:url('+ avatar+') center/contain no-repeat'"></div> -->
+              <img src="/images/default1-nv.svg" v-else-if="gender == '女'" />
+              <img src="/images/default1-nan.svg" v-else />
+            </div>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item v-for="item in personArr" :command="item">{{item}}</el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
+          <span @click="companylogin" style="font-weight: 400;font-size: 14px;">切换企业</span>
+        </template>
+        </div>
+         <div class="language"><el-popover popper-class="header-popover" placement="left" width="100px" trigger="click"
+        content="Coming Soon"><span slot="reference">ENGLISH</span></el-popover> | 中文 </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-layout">
+  <div class="header">
+    <div class="left">
+      <img src="/images/logo.svg" />
+      <el-button class="cs-entry"
+                 :class="active == '机构站点' ? 'active' : ''"
+                 @click="gotoPage('/area/changeSite')">
+        <i class="iconfont icon-quanguojigouzhandian2"></i>全国机构站点
+      </el-button>
+      <div class="menu">
+        <span :class="active == '首页' ? 'active' : ''" @click="gotoPage('/index')">首页</span>
+        <span :class="active == '职位' ? 'active' : ''" @click="gotoPage('/position/list')">职位</span>
+        <span :class="active == '公司' ? 'active' : ''" @click="gotoPage('/company/index')">公司</span>
+        <span :class="active == '招聘会' ? 'active' : ''" @click="gotoPage('/jobfair/index')">
+          招聘会<i class="badge-dot iconfont icon-title-hotjiaobiao"></i>
+        </span>
+         <span :class="active == '直播间' ? 'active' : ''" @click="gotoPage('/live/index')">直播间
+             <img  style="width: 26px;height: 12px;margin-bottom: 12px" src="/images/live.png" />
+         </span>
+         <span :class="active == '空中宣讲' ? 'active' : ''" @click="gotoPage('/oct/index')">空中宣讲</span>
+          <!--  <span :class="active == '校园招聘' ? 'active' : ''" class="pop-menu" @click="gotoPage('/campus/index')">
+            校园
+            <i class="triangle"></i>
+            <div class="menu-pop" v-if="subMenu.length > 0">
+              <div class="menu-pop-body">
+                <p v-for="(child, i) in subMenu" :title="child.name" :key="i" @click.stop="openPage(child.url)">{{child.name}}</p>
+              </div>
+            </div>
+        </span> -->
+        <span :class="active == '资讯' ? 'active' : ''" @click="gotoPage('/information/index')">资讯</span>
+      </div>
+    
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script>
+  var menu = "首页";
+  let appHeader = new Vue({
+    el: '#appHeader',
+    data: function () {
+      return {
+        isLogin: false,
+        mobile: '',
+        name: '',
+        gender: '男',
+        avatar: '',
+        userInfoReady: false,
+        cityArr: ['上海', '广州', '深圳'],
+        personArr: [
+          '个人中心', '我的简历', '我的申请', '账号设置', '退出登录'
+        ],
+        active: menu,
+        subMenu: [{name: '空宣', url: '/oct/index'}]
+      }
+    },
+    created() {
+      window.addEventListener("updateUserInfo", () => {
+        localStorageSet('userInfo', null);
+        this.getMyUserInfo();
+      });
+    },
+    beforeDestroy() {
+      window.removeEventListener("updateUserInfo");
+    },
+    mounted() {
+      let that = this;
+      document.addEventListener(NOTOKEN, function() {
+        that.isLogin = false;
+      });
+      document.addEventListener(TOKEN_CHANGE, function() {
+        that.isLogin = true;
+        that.getMyUserInfo();
+      });
+      document.addEventListener('updateHeader', function() {
+        that.getMyUserInfo();
+      });
+    },
+    methods: {
+      getMyUserInfo() {
+        if (this.isLogin) {
+          Axios.get('/api/person/getMyUserInfo').then(res => {
+            // console.log('UserInfo', res)
+            if (res.code == 401) {
+              this.login();
+              return;
+            }
+            localStorageSet('userInfo', res.result);
+            this.mobile = res.result.mobile;
+            this.name = res.result.name;
+            this.gender = res.result.gender;
+            this.avatar = res.result.avatar;
+            this.userInfoReady = true;
+          });
+        }
+      },
+      login() {
+        if (config) {
+            if (location.href.toLowerCase().indexOf('jobfair') >= 0) {
+                window.location.href = config.ssoCandidatePcUrl + '?backurl=' + encodeURIComponent(window.location.href) + '&registerPlatform=' + PLATFORM + '&registerSource=' + JFSOURCE;
+            } else {
+                window.location.href = config.ssoCandidatePcUrl + '?backurl=' + encodeURIComponent(window.location.href) + '&registerPlatform=' + PLATFORM +
+                        '&registerSource=' + (registerSource || SOURCE) + '&registerSourceId=' + registerSourceId;
+            }
+        }
+      },
+      companylogin() {
+        if (config){
+            window.location.href = config.ssoCompanyUrl + '?registerPlatform=' + COMPANY_PLATFORM +
+                    '&registerSource=' + (registerSource || SOURCE) + '&registerSourceId=' + registerSourceId;
+        }
+      },
+      gotoPage(url) {
+        if (menu == '机构站点' && url == '/area/changeSite') {
+          return;
+        }
+        // openPage(url, false);
+        openPage(url);
+      },
+      openPage(url) {
+        openPage(url);
+      },
+      handleCommand(item) {
+        if (item == '退出登录') {
+          sso.logout();
+          window.location.href = '/';
+        } else if (item == '个人中心') {
+          openPage('/personal/index', false);
+        } else if (item == '我的简历') {
+          openPage('/personal/resume-edit', false);
+        } else if (item == '我的申请') {
+          openPage('/personal/myapplied', false);
+        } else if (item == '账号设置') {
+          openPage('/personal/account', false);
+        }
+      }
+    }
+  })
+</script>
+
+<div id="sideBar" class="side-bar">
+    <div><i class="iconfont icon-huidingbu" id="goTop"></i></div>
+    <div class="qr-code">
+        <i slot="reference" class="iconfont icon-guanzhuwomen"></i>
+        <div class="qr-code-popover">
+            <img src='/images/qrcode.png' />
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var timer = null;
+    document.getElementById('goTop').addEventListener('click', function(){
+        cancelAnimationFrame(timer);
+        timer = requestAnimationFrame(function fn(){
+            var oTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if(oTop > 0){
+                scrollTo(0,oTop-50);
+                timer = requestAnimationFrame(fn);
+            }else{
+                cancelAnimationFrame(timer);
+            }
+        });
+    });
+</script>
+
+<style>
+    .side-bar {
+        width: 56px;
+        height: 160px;
+        background: #FFFFFF;
+        box-shadow: -2px 0px 4px 1px rgba(0,0,0,0.11);
+        opacity: 1;
+        filter: blur(0px);
+        position: fixed;
+        right: 20px;
+        bottom: 200px;
+        z-index: 90;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .side-bar div {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        position: relative;
+    }
+    .side-bar .qr-code:hover .qr-code-popover {
+        display: block;
+    }
+    .side-bar .qr-code-popover {
+        display: none;
+        width: 160px;
+        height: 160px;
+        padding: 10px;
+        position: absolute;
+        left: -170px;
+        top: -58px;
+    }
+    .side-bar .qr-code-popover img {
+        width: 150px;
+        height: 150px;
+    }
+</style><link rel="stylesheet" href="/styles/index.css">
+    <style>
+        .zpzx .zpzx-title {
+            height: 44px;
+            line-height: 44px;
+            border-bottom: solid 1px #ECEDEF;
+            font-size: 17px;
+            font-weight: 500;
+            color: rgba(23, 35, 64, 0.85);
+            padding: 0 20px;
+        }
+
+        .zpzx .item-list {
+            padding: 4px 0;
+            height: 198px;
+        }
+
+        .zpzx .item-list .item {
+            display: flex;
+            line-height: 20px;
+            padding: 4px 0;
+            height: 30px;
+            cursor: pointer;
+            align-items: center;
+        }
+
+        .zpzx .item-list .item .circle {
+            margin: 6px 10px;
+            width: 8px;
+            height: 8px;
+            background: #2652A0;
+            border-radius: 8px 8px 8px 8px;
+        }
+
+        .zpzx .item-list .item .txt {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(23, 35, 64, 0.85);
+            width: 176px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .zpzx .item-list .item .time-date {
+            width: 68px;
+            margin-left: 4px;
+        }
+
+        .zpzx .more {
+            padding: 0 20px;
+            text-align: right;
+        }
+
+        .zpzx .more a {
+            font-size: 14px;
+            font-weight: 400;
+            color: #2652A0;
+            line-height: 40px;
+            cursor: pointer;
+        }
+    </style>
+
+
+<link rel="stylesheet" href="/styles/position.css">
+<div id="appIndex" v-cloak @scroll="scrollEvent" ref="home" style="display: flex; flex-direction: column;">
+    <div class="swiper-login">
+        <div class="swiper">
+            <el-carousel :indicator-position="bannerList.length > 1 ? 'inside' : 'none'" trigger="click" height="400px"  interval="2000"
+                         :autoplay="true" :arrow="bannerList.length > 1 ? 'hover' : 'never'" v-if="bannerReady">
+                <div v-if="bannerList.length">
+                    <el-carousel-item v-for="(item,index) in bannerList">
+                        <a v-if="!item.URL" style="width: 100%; height: 100%; text-decoration: none; display: inline-block;"
+                           href="javascript:void(0);"
+                           @click="homeBannerClick(item)">
+                            <el-image class="carousel-img"  :src="item.picture"></el-image>
+                        </a>
+                        <a v-else
+                           :href="item.URL.indexOf('http') != -1 ? item.URL : ('https://' + item.URL)"
+                           style="width: 100%; height: 100%; text-decoration: none; display: inline-block;" target="_blank"
+                           @click="homeBannerClick(item)"
+                           target="_blank">
+                            <el-image class="carousel-img"  :src="item.picture"></el-image>
+                        </a>
+                    </el-carousel-item>
+                </div>
+                <div v-else>
+                    <el-carousel-item>
+                        <img src="/images/home/default_blank.png" style="width: 100%; height: 100%"/>
+                    </el-carousel-item>
+                </div>
+            </el-carousel>
+        </div>
+       
+    </div>
+<div class="appindex-layout">
+
+    <div class="section">
+        <div ref="homeSearch" class="searchBox">
+            <el-form :inline="true" :model="formInline" class="demo-form-inline">
+              <!-- <img style="width: 114px; height: 21px; margin-right: 30px" src="/img/logo1.svg" v-if="headerFixed"/> -->
+                <el-form-item class="select-area">
+                    <el-select class="select-iptcss" suffix-icon=""  v-model="formInline.zwnature"
+                               @change="changeArea">
+                        <el-option v-for="item in jobTypeList" :key="item.codeId" :label="item.name" :value="item.codeId">
+                        </el-option>
+                    </el-select>
+                </el-form-item>
+                <el-form-item class="input-search">
+                    <el-input class="ipt" style="" clearable v-model.trim="formInline.keyword"
+                              placeholder="请输入关键词进行搜索，如公司、职位名…">
+                    </el-input>
+                </el-form-item>
+                <el-form-item class="button-search">
+                    <el-button class="button" style="border-radius: 0px" type="primary"
+                               @click="onSubmit(formInline)"><i class="iconfont" style="margin-right:3px">&#xe69a;</i>搜索
+                    </el-button>
+                </el-form-item>
+            </el-form>
+        </div>
+    </div>
+
+    <!-- <div class="swiper-login"> -->
+        <!-- <div class="menu-index">
+            <div style="width: 220px;height: 350px;background-color: #fff;">
+                <category :categorydata="categoryData" @toprofession="toProfession"></category>
+            </div>
+            <p class="all-category" @click="allProfession">显示全部职位</p>
+        </div> -->
+        <!-- <div class="swiper">
+            <el-carousel :indicator-position="bannerList.length > 1 ? 'inside' : 'none'" trigger="click" height="400px" style="" interval="2000"
+                         :autoplay="true" :arrow="bannerList.length > 1 ? 'hover' : 'never'" v-if="bannerReady">
+                <div v-if="bannerList.length">
+                    <el-carousel-item v-for="(item,index) in bannerList">
+                        <a v-if="!item.URL" style="width: 100%; height: 100%; text-decoration: none; display: inline-block;"
+                           href="javascript:void(0);"
+                           @click="homeBannerClick(item)">
+                            <el-image class="carousel-img" fit="fill" :src="item.picture"></el-image>
+                        </a>
+                        <a v-else
+                           :href="item.URL.indexOf('http') != -1 ? item.URL : ('https://' + item.URL)"
+                           style="width: 100%; height: 100%; text-decoration: none; display: inline-block;" target="_blank"
+                           @click="homeBannerClick(item)"
+                           target="_blank">
+                            <el-image class="carousel-img" fit="fill" :src="item.picture"></el-image>
+                        </a>
+                    </el-carousel-item>
+                </div>
+                <div v-else>
+                    <el-carousel-item>
+                        <img src="/images/home/default_blank.png" style="width: 100%; height: 100%"/>
+                    </el-carousel-item>
+                </div>
+            </el-carousel>
+        </div> -->
+       
+    <!-- </div> -->
+
+    <!--职位-->
+    <!-- <div class="home-post-label">
+        <div class="home-post-tab">
+            <template>
+                <el-tabs v-model="compName1" @tab-click="handleClick1">
+                    <el-tab-pane v-for="(item, index) in tabList1" :label="item.label" :name="item.name" :key="index">
+                        <div v-if="item.name === 'hotPosts'">
+                            <div class="hot-posts-container">
+                                <div class="hot-posts">
+                                </div>
+                                <a class="more" href="javascript:void(0);" @click="window.openPage('/position/list', false)">查看更多</a>
+                            </div>
+                        </div>
+                        <div v-if="item.name === 'newPosts'">
+                            <div class="hot-posts-container">
+                                <div class="hot-posts">
+                                </div>
+                                <a class="more" href="javascript:void(0);" @click="window.openPage('/position/list', false)">查看更多</a>
+                            </div>
+                        </div>
+                    </el-tab-pane>
+                </el-tabs>
+            </template>
+        </div>
+        
+    </div> -->
+    <div style="display: flex;max-width:1200px;margin:0 auto 40px;" id="zplbAppIndex">
+        <div>
+            <div class="tabs-warp">
+                <div class="tabs">
+                    <span :class="{
+                        'active': item.active
+                    }" v-for="item in tabList" @click="positionTab(item)">{{item.label}}</span>
+                </div>
+                <span class="more-position" @click="window.openPage('/position/list', true)">更多职位</span>
+            </div>
+            <div class="city-warp">
+                <div class="city-tab">
+                    <span :class="{
+                        'active': item.active
+                    }" v-for="item in citysList" @click="selectCity(item)">{{item.label}}</span>
+                </div>
+                <span class="more-position" @click="window.openPage('/position/list', true)">更多城市></span>
+           </div>
+            <div class="position-list-ctnr zplb-content">
+                <div class="content-ctnr" style="width: 890px;">
+                  <div class="ctnr-left" >
+                    <div class="main-inner-container">
+                      <ul class="position-info-list" v-if="zplbList&&zplbList.length>0">
+                        <li class="position-info-item" v-for="item in zplbList" :key="item.uuid">
+                          <div class="info-primary">
+                          
+                            <div class="primary-wrapper" @click="gotoPcLink(item)">
+                            <div class="job-title">
+                                <h3 class="job-name ellipsis">
+                                    <a href="javascript:void(0);" :title="item.jobname_show" >{{item.jobname_show}}</a>
+                                </h3>
+                                <!-- <span class="job-status isTop" v-if="item.istop">置顶</span> -->
+                                <span class="job-status isHot" v-if="item.ishot">热门</span>
+                                <span class="job-status isJx" v-if="item.postwholenature === '见习'">见习</span>
+                                <span class="job-status isXz" v-else-if="item.worknature === '校招'">校招</span>
+                                <span class="publish-time">{{item.publishtime|filterTime}}</span>
+                            </div>
+                            <div class="job-limit">
+                                <span class="job-salary ellipsis" v-if="item.ifface_show && item.ifface_show == '1'">
+                                    <span>面议</span>
+                                </span>
+        
+                                <span class="job-salary ellipsis"v-else-if="item.sallow_show && item.salup_show && item.salunit_show && item.salunit_show == '日薪'"  :title="(item.sallow_show || '')+'-'+(item.salup_show || '')+'元/天'"> {{ item.sallow_show || '' }}-{{ item.salup_show || '' }}元/天</span>
+
+                                <span class="job-salary ellipsis" v-else-if="item.sallow_show && item.salup_show && item.salunit_show && item.salunit_show == '月薪'"  title="">{{ item.sallow_show || '' }}-{{ item.salup_show || '' }}</span>
+
+                                <span class="job-salary ellipsis" v-else-if="item.sallow_show" title="以上">{{item.sallow_show}}以上</span>
+        
+                                <span class="job-salary ellipsis" v-else-if="item.salup_show" title="以下">{{item.salup_show}}以下</span>
+                               
+                                <i class="vline" v-if="item.workplace_show"></i>
+                                <span class="job-address ellipsis"  :title="item.workplace_show|filterCity">
+                                    {{item.workplace_show|filterCity}}
+                                </span>
+        
+                                <i class="vline" v-if="item.workexp_show"></i>
+                                <span class="job-years ellipsis" :title="item.workexp_show">
+                                    {{item.workexp_show}}
+                                </span>
+        
+        
+                                <i class="vline" v-if="item.education_show"></i>
+                                <span :title="item.education_show" class="job-education ellipsis" title="">
+                                    {{item.education_show}}
+                                </span>
+        
+        
+                                <i class="vline"></i>
+                                <span class="job-recruitment-number ellipsis" :title="'招聘'+item.recnum_show+'人'">
+                                招聘{{item.recnum_show}}人
+                                </span>
+        
+                            </div>
+                            </div>
+          
+                            <div class="info-company"  @click="window.openPage('/company/companyDetail?companyUUid=' + (item.companyUUid ? item.companyUUid : item.orgid))">
+
+                                <div class="company-text">
+                                    <h3>
+                                        <a class="ellipsis" :title="item.orgname_show?item.orgname_show:'未知'" href="javascript:void(0);">{{item.orgname_show?item.orgname_show:'未知'}}</a>
+                                    </h3>
+                                    <p>
+                                    <span class="ellipsis" :title="item.industry" style="max-width: 118px;">{{item.industry}}</span>
+                                    <i class="vline" v-if="item.qualitative"></i>
+                                    <span :title="item.qualitative" class="ellipsis" style="max-width: 92px;">
+                                        {{item.qualitative}}
+                                    </span>
+                                    <i class="vline" v-if="item.scale"></i>
+                                    <span class="ellipsis" :title="item.scale" style="max-width: 84px;">
+                                        {{item.scale}}
+                                    </span>
+            
+                                    </p>
+                                </div>
+                                <div class="company-logo-container">
+                                    <a href="javascript:void(0);">
+            
+                                    <img v-if="item.orglogo_show" class="carousel-img" :src="item.orglogo_show" alt="logo" />
+            
+                                    <img v-else src="/images/home/emptyImg.svg" alt="logo" />
+            
+                                    </a>
+                            </div>
+                            </div>
+                          
+                          </div>
+                          <div class="info-append">
+                            <div class="tags">
+                                <template v-for="hlsItem in item.highlights_show">
+                                    <span class="zqj-light" v-if="hlsItem == '藏青疆专招'">藏青疆专招</span>
+                                    <span class="disability-light" v-else-if="hlsItem == '残疾人专招'">残疾人专招</span>
+                                    <span class="hxhd-light" v-else-if="hlsItem == '海峡专招'">海峡专招</span>
+                                    <span v-else>{{hlsItem}}</span>
+                                </template>
+                                <span v-if="item.isEllipsis">...</span>
+                                <!-- <div class="highlightPop">
+                                    <span></span>
+                                </div> -->
+                          
+                            </div>
+                            <div class="info-desc">
+                              <div class="inner-info-desc" v-if="item.attr === 'dlzp'" >
+                                <span class="welfareItem-text"><span style="color: #2185ff;">委托代招：{{item.clientname}}</span></span>
+                              </div>
+                              <div class="inner-info-desc" v-else>
+                                <span class="welfareItem-text" title="">{{item.livelihoodwelfare_show}}</span>
+                              </div>
+                            </div>
+          
+                            <div class="btns-container">
+                              <div class="applyPost-btn">
+                                <el-button class="primary-btn" @click="gotoPcLink(item)">申请职位</el-button>
+                                <!-- <el-button class="disabled-btn" disabled style="display: none;">已申请</el-button> -->
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="noData" v-else>
+                        <img src="/images/position/搜索为空.png" alt="empty" style="width: 150px; height: 96px;" />
+                        <span style="font-size: 14px;">暂时没有符合该搜索条件的职位</span>
+                        <span style="font-size: 12px;margin-top: 5px;">请重新修改搜索条件后再进行搜索</span>
+                    </div>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div>
+            <div style="width: 294px;  margin-left: 16px;">
+    <div class="zpzx">
+        <div class="zpzx-title">招聘资讯<a style="font-size: 14px;font-weight: 400;color: #2652A0;line-height: 40px;cursor: pointer;text-decoration: underline;"  href="/information/index" target="_blank">更多</a>
+        </div>
+        <div class="item-list">
+            <div class="item">
+                <div class="circle"></div>
+                <div>
+                    <a class="txt" href="/information/detail?consultId=2108745661080240129" title="政府投资基金2026年社会招聘公告" target="_blank">政府投资基金2026年社会招聘公告</a>
+                </div>
+                    <span class="time-date">2026-10-10</span>
+            </div>
+            <div class="item">
+                <div class="circle"></div>
+                <div>
+                    <a class="txt" href="https://mp.weixin.qq.com/s/q161GI8j00VmdmUXP1LUIA" title="中国中煤关于面向社会公开招聘总部工作人员的公告" target="_blank">中国中煤关于面向社会公开招聘总部工作人员的公告</a>
+                </div>
+                    <span class="time-date">2026-10-09</span>
+            </div>
+            <div class="item">
+                <div class="circle"></div>
+                <div>
+                    <a class="txt" href="https://mp.weixin.qq.com/s/CPJnyrgTlvTRD19tKpfD2g" title="北京建筑大学2027届毕业生秋季校园双选会暨宏志助航计划专场邀请函" target="_blank">北京建筑大学2027届毕业生秋季校园双选会暨宏志助航计划专场邀请函</a>
+                </div>
+                    <span class="time-date">2026-10-09</span>
+            </div>
+            <div class="item">
+                <div class="circle"></div>
+                <div>
+                    <a class="txt" href="/information/detail?consultId=2105221577599229953" title="雄安友信公司成熟人才招聘" target="_blank">雄安友信公司成熟人才招聘</a>
+                </div>
+                    <span class="time-date">2026-09-30</span>
+            </div>
+            <div class="item">
+                <div class="circle"></div>
+                <div>
+                    <a class="txt" href="https://mp.weixin.qq.com/s/CPJnyrgTlvTRD19tKpfD2g" title="北京建筑大学2027届毕业生秋季校园双选会暨宏志助航计划专场邀请函" target="_blank">北京建筑大学2027届毕业生秋季校园双选会暨宏志助航计划专场邀请函</a>
+                </div>
+                    <span class="time-date">2026-09-24</span>
+            </div>
+            <div class="item">
+        </div>
+    </div>
+    <div class="zpzx">
+        <div class="zpzx-title">HR百科<a style="font-size: 14px;font-weight: 400;color: #2652A0;line-height: 40px;cursor: pointer;text-decoration: underline;"  href="/information/index?type=1" target="_blank">更多</a>
+        </div>
+        <div class="item-list">
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/yz-nRrDVZp7KpP7Xh0EwqQ" title="中智《2025年企业福利策略和管理趋势调研报告》发布！（文末可申领）" target="_blank">中智《2025年企业福利策略和管理趋势调研报告》发布！（文末可申领）</a>
+                    </div>
+                        <span class="time-date">2025-06-20</span>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/Lkh355O2WeaS_tQWAofkvg" title="薪酬优化流程方案.PPT" target="_blank">薪酬优化流程方案.PPT</a>
+                    </div>
+                        <span class="time-date">2025-06-20</span>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/fopqlkdeQBEBxN2vpGIUXg" title="深化“三能机制”，如何破解“下、出、减”执行难题？" target="_blank">深化“三能机制”，如何破解“下、出、减”执行难题？</a>
+                    </div>
+                        <span class="time-date">2025-06-13</span>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/gSeDvZQgVpyJg7dGrPOlEQ" title="中智国略洞察：国有企业发展战新业务的典型孵化模式" target="_blank">中智国略洞察：国有企业发展战新业务的典型孵化模式</a>
+                    </div>
+                        <span class="time-date">2025-06-13</span>
+                </div>
+        </div>
+    </div>
+    <div class="zpzx">
+        <div class="zpzx-title">求职干货<a style="font-size: 14px;font-weight: 400;color: #2652A0;line-height: 40px;cursor: pointer;text-decoration: underline;"  href="/information/index?type=2" target="_blank">更多</a>
+        </div>
+        <div class="item-list">
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/yTbxdPUKVWhYHWdRmDmFWg" title="@打工人，关于“劳动合同”的这些事儿，你知道吗？" target="_blank">@打工人，关于“劳动合同”的这些事儿，你知道吗？</a>
+                    </div>
+                        <span class="time-date">2025-06-20</span>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/xCfyGjZo79cAFo016IzOJQ" title="如果公司不按规定发放高温津贴怎么办？" target="_blank">如果公司不按规定发放高温津贴怎么办？</a>
+                    </div>
+                        <span class="time-date">2025-06-20</span>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/h91FtwPZ3EMGT0_iMzsvDw" title="权威解答丨请事假会影响年休假吗？" target="_blank">权威解答丨请事假会影响年休假吗？</a>
+                    </div>
+                        <span class="time-date">2025-06-13</span>
+                </div>
+                <div class="item">
+                    <div class="circle"></div>
+                    <div>
+                            <a class="txt" href="https://mp.weixin.qq.com/s/PJbbLrvmp5KxKU-yuoRC5w" title="办理攻略丨在上海个人怎么缴纳公积金？" target="_blank">办理攻略丨在上海个人怎么缴纳公积金？</a>
+                    </div>
+                        <span class="time-date">2025-06-13</span>
+                </div>
+        </div>
+    </div>
+            </div>
+            <div style="width: 294px;">
+                <div class="zpzx">
+                    <div class="zpzx-title">通知公示 <a style="font-size: 14px;font-weight: 400;color: #2652A0;line-height: 40px;cursor: pointer;text-decoration: underline;" href="/information/index?type=9" target="_blank">更多</a></div>
+                    <div class="item-list">
+                        <div class="item" v-for="itemNlt in noticeList">
+                            <div class="circle"></div>
+                            <div>
+                                <a v-if="itemNlt.outsideChain" :title="itemNlt.title" class="txt" style="cursor:pointer;"  :href="itemNlt.outsideChain"  target="_blank">{{itemNlt.title}}</a>
+                                <a v-else class="txt" :title="itemNlt.title" :href="'/information/detail?consultId=' + itemNlt.id" target="_blank">{{itemNlt.title}}</a>
+                            </div>
+                            <span class="time-date">{{itemNlt.onlineTime}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    
+    <advertisement :addata="adData.slice(0, 3)" v-if="adData.length > 0"></advertisement>
+    <specialad :specialaddata="specialAdData.slice(0, 2)" v-if="specialAdData.length > 0"></specialad>
+    <advertisement :addata="adData.slice(3, 6)" v-if="adData.length > 3"></advertisement>
+    <specialad :specialaddata="specialAdData.slice(2, 4)" v-if="specialAdData.length > 2"></specialad>
+    <advertisement :addata="adData.slice(6, 9)" v-if="adData.length > 6"></advertisement>
+    <specialad :specialaddata="specialAdData.slice(4, 6)" v-if="specialAdData.length > 4"></specialad>
+    <advertisement :addata="adData.slice(9, 12)" v-if="adData.length > 9"></advertisement>
+    <specialad :specialaddata="specialAdData.slice(6, 8)" v-if="specialAdData.length > 6"></specialad>
+
+    <!--企业-->
+    <div class="home-post-label special">
+        <div class="home-post-tab enterprise">
+            <template>
+                <el-tabs v-model="compName2" @tab-click="handleClick2">
+                    <el-tab-pane v-for="(item, index) in tabList2" :label="item.label" :name="item.name" :key="index">
+                        <div v-if="item.name === 'hotCompanies'">
+                            <!-- 热门企业 -->
+                            <div class="hot-company">
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('ecf2a50c80fc4a7d87e7e7b2e1230878')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/f4d15ae42c194fde95b95257be2d6b78.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="安徽省通信产业服务有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">安徽省通信产业服务有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    计算机/互联网/通信/电子|通讯技术
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">54</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('7dccab37e7b64b2db95fc4b2c17bfcb6')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="威尼斯人澳门股份有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">威尼斯人澳门股份有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    其他服务业
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    上市公司
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">18</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('c9f0bf0689524a3792bf63c85cc7bd37')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/7df453c9f1b848de848156fa77be14b5.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="上海启胜物业管理服务有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">上海启胜物业管理服务有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    房地产/建筑/工程|物业管理/商业中心
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中外合资
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">10</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('591f0b32e5da4c8e8d619ca0cddecd18')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/24340b848b8f4408b31bbc78b6b8aac8.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="深圳格兰云天酒店管理有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">深圳格兰云天酒店管理有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    服务业|旅游/酒店/民宿
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">8</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('d24dbd21ef4d4c1085a7311dbd2a0803')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/46016c7264634bef857ebc76e4b0297c.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="中国水利水电第十四工程局有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">中国水利水电第十四工程局有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    房地产/建筑/工程
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">7</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('f3ac7eea60fb402e97cb03becc700456')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/a4da9e00ae2d43efa961ed36c96ff925.jpg">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="上海飞机试飞工程有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">上海飞机试飞工程有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    制造业|船舶/航空/航天/火车制造
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">7</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('6904987463514c95ac1dc9774888dda7')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/c65dc28184934ed392adf67faa325003.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="招商局重工（江苏）有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">招商局重工（江苏）有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    制造业
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">6</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('78b4be1e4f014dbd9693c33c0d1a5d5b')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/5ffad72f0d244be5b4f2b6b1e7cedd48.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="中国核工业第五建设有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">中国核工业第五建设有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    房地产/建筑/工程
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">5</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('f50c75bab5a911f18319080058000005')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="上海维音信息技术股份有限公司广州分公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">上海维音信息技术股份有限公司广州分公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    计算机/互联网/通信/电子
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    股份制企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">3</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('31b25d45aee3446daa0b1d1c0cb35f08')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="陕西京东信成供应链科技有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">陕西京东信成供应链科技有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    物流/运输
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    上市公司
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">3</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('cfc746b5c4fe452ca09fa1930fbaf0a5')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="阿坝州平安守护押运有限责任公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">阿坝州平安守护押运有限责任公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    服务业|其他服务业
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">3</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('f50aa2c8b5a911f18319080058000005')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="深圳德威国际货运代理有限公司广州分公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">深圳德威国际货运代理有限公司广州分公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    制造业|日化/食品生产制造
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    上市公司
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">2</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('92379c83abfc40509e739cabaae774e2')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/294514a5b158491f850a47df0846312f.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="高创（苏州）电子有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">高创（苏州）电子有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    计算机/互联网/通信/电子|计算机软件
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    国有企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('85b8055fd3ba4cf69a993a6b1c576cd7')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/b569f206efcf4269961732ecef658852.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="上海卫星装备研究所"
+                                                                        placement="top-end">
+                                                                <p class="company-title">上海卫星装备研究所</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    物流/运输|航天/航空
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    事业单位
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('f70e1132f0694a5d90a10faad88e5f2e')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="中国大地保险股份有限公司海南分公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">中国大地保险股份有限公司海南分公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    会计/金融/银行/保险
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    国有企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('4b55b6d7a4a04d4c9d548d05d129b951')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/1840dec48d1e4e708711f6d83ab4d17e.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="中国电信股份有限公司上海分公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">中国电信股份有限公司上海分公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    计算机/互联网/通信/电子|通讯技术
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('f50839f5b5a911f18319080058000005')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="安徽宁银消费金融股份有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">安徽宁银消费金融股份有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    会计/金融/银行/保险
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    股份制企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('13f8446ad3574b3e96caf7bfecb3c164')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/d6408582cab34ee8a38e3fa817c9deb2.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="上海民用航空机电系统有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">上海民用航空机电系统有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    制造业|船舶/航空/航天/火车制造
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    中央企业
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('664d4e56f00b4d9e97e4abf8bbe68385')">
+                                                <div class="company-top">
+                                                        <el-image class="company-img"
+                                                                  fit="contain"
+                                                                  src="https://cdn.ciiczhaopin.com/organization/attachment/b39f7ef11e934a618685097f872fb1ed.png">
+                                                            <img slot="error" src="/images/home/emptyImg.svg" class="company-img"/>
+                                                        </el-image>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="广东华特气体股份有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">广东华特气体股份有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    能源/环保/化工|原材料和加工
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    上市公司
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="company-item" :key="index">
+                                            <a style="width: 100%; height: 100%; text-decoration: none"
+                                               href="javascript:void(0);"
+                                               @click="onCompanyClick('f5080a7ab5a911f18319080058000005')">
+                                                <div class="company-top">
+                                                        <img src="/images/home/emptyImg.svg" class="company-img"/>
+                                                    <div class="company-info">
+                                                            <el-tooltip class="item" effect="dark"
+                                                                        content="四会市国耀铝业有限公司"
+                                                                        placement="top-end">
+                                                                <p class="company-title">四会市国耀铝业有限公司</p>
+                                                            </el-tooltip>
+                                                        <div class="info-container">
+                                                                <div class="company-info-title">
+                                                                    制造业|日化/食品生产制造
+                                                                </div>
+                                                                <div class="company-line"></div>
+                                                                <div class="company-category">
+                                                                    外企独资
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="company-bottom">
+                                                    <p><span class="postTotal">1</span>个热招职位</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                            </div>
+                        </div>
+                    </el-tab-pane>
+                </el-tabs>
+            </template>
+        </div>
+        <a class="more" href="javascript:void(0);" @click="window.openPage('/company/index', false)">查看更多</a>
+    </div>
+
+
+
+    <warningdialog :link="link" :visible.sync="warningDialogVisible" @close="warningDialogVisible = false"></warningdialog>
+</div>
+    <!--    <qzfuandqyfw></qzfuandqyfw>-->
+</div>
+
+    <div class="footer">
+<style>
+    .footer-link {
+        width: 100%;
+        height: auto;
+        background: #fff;
+    }
+    .footer-link .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .footer-link .footer-wrap {
+        z-index: 999;
+        background: #1e2b47;
+        padding: 20px 0;
+    }
+    .footer-link .footer-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-link .content-top {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    .footer-link .conpany-message {
+        display: flex;
+        width: 88%;
+        justify-content: space-around;
+    }
+    .footer-link .message-item {
+        width: 25%;
+    }
+    .footer-link .message-name {
+        font-size: 16px;
+        line-height: 46px;
+        color: #fff;
+        letter-spacing: 1.14px;
+    }
+    .footer-link .message-name-item {
+        font-size: 14px;
+        display: flex;
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .footer-link a {
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #2185ff;
+    }
+    .footer-link .qrCode {
+        width: 10%;
+        margin-top: 15px;
+    }
+    .footer-link .qrCodeImg {
+        display: block;
+        width: 122px;
+        height: 122px;
+    }
+    .footer-link .account {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.65);
+        text-align: center;
+        font-weight: 400;
+    }
+    .footer-link .line {
+        width: 100%;
+        height: 1px;
+        background: rgba(255,255,255,0.20);
+        margin-bottom: 35px;
+    }
+    .footer-link .content-bottom {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-link .license {
+        display: flex;
+        font-size: 14px;
+        margin-bottom: 18px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .footer-link .license-item {
+        margin-right: 2.1%;
+        display: flex;
+        cursor: pointer;
+    }
+    .footer-link .img-style {
+        display: block;
+        width: 17px;
+        height: 17px;
+        margin-right: 3px;
+    }
+    .footer-link .img-style1 {
+        width: 44px;
+        height: 16px;
+        margin-right: 3px;
+        margin-top: 3px;
+    }
+    .footer-link .img-style2 {
+        display: block;
+        width: 17px;
+        height: 17px;
+        margin-right: 3px;
+        margin-top: 3px;
+    }
+    .footer-link .license-item:hover {
+        color: #2185ff;
+    }
+    .footer-link .telephone {
+        display: flex;
+        font-size: 14px;
+        margin-bottom: 0.8%;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .footer-link .telephone-item {
+        margin-right: 2.1%;
+        font-size: 14px;
+    }
+    .footer-link .telephone-item:hover {
+        color: #2185ff;
+    }
+
+    /*友情链接*/
+    .footer-link .link-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: centeflex-startr;
+    }
+    .link-wrap .link-content {
+        width: 92%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .link-wrap .link-item {
+        width: 20%;
+        line-height: 26px;
+        font-size: 12px;
+        color: rgba(23, 35, 64, 0.45);
+        padding: 0 0 15px;
+        font-weight: 400;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    .link-wrap .link-item>a {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-decoration: none!important;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(23,35,64,0.85);
+    }
+    .link-wrap .link-item:hover {
+        color:#2652A0;
+    }
+    .link-wrap .link-btn {
+        width: 5%;
+        cursor: pointer;
+        font-size: 14px;
+        display: flex;
+    }
+    .link-wrap .down-icon {
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+    }
+    .link-wrap .up-icon {
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+    .link-wrap .spread {
+        font-size: 12px;
+        color: rgba(23, 35, 64, 0.85);
+        font-weight: 400;
+    }
+    .link-wrap .spread:hover {
+        color:#2652A0;
+    }
+    .footer-link .el-tabs__item,
+    .footer-link .el-tabs__item.is-active,
+    .footer-link .el-tabs__item:hover {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(23,35,64,0.85);
+        cursor: default;
+    }
+    .footer-link .el-tabs__active-bar {
+        background-color: rgba(23, 35, 64, 0.85);
+    }
+</style>
+
+<div id="link" class="footer-link" v-cloak>
+    <div class="footer-container">
+        <div class="home-link-label">
+            <div class="home-link-tab">
+                <template>
+                    <el-tabs v-model="activeLinkName" @tab-click="handleLinkClick">
+                        <el-tab-pane
+                            v-for="(item, index) in linksTab"
+                            :label="item.label"
+                            :name="item.name"
+                            :key="index">
+                            <div v-if="item.name === 'betterLink'">
+                                <div class="link-wrap">
+                                    <div class="link-content" ref="linkItem">
+                                        <div class="link-item" v-for="(item, index) in showList" :key="index">
+                                            <el-tooltip class="item" effect="dark" :content="item.tenantName" placement="top">
+                                                <a target="_blank"
+                                                   :href="item.link && item.link[0] !== 'h' ? ('https://' + item.link) : item.link">{{ item.tenantName }}</a>
+                                            </el-tooltip>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </el-tab-pane>
+                    </el-tabs>
+                </template>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/data/friendlyLink.js"></script>
+
+<script>
+    new Vue({
+        el: '#link',
+        data: function () {
+            return {
+                linksTab: [
+                    { label: "友情链接", name: "betterLink" },
+                    // { label: "热门职位", name: "hotPosition" },
+                    // { label: "热招企业", name: "hotEnterprise" },
+                ],
+                activeLinkName: 'betterLink',
+                showAll: false,
+                isRedirect: true,
+                linkData: []
+            }
+        },
+        computed: {
+            showList: function () {
+                if (this.showAll == false) {
+                    //不显示全部数据
+                    var showList = []; //空数组
+                    if (this.linkData.length > 10) {
+                        //只显示10条
+                        for (var i = 0; i < 10; i++) {
+                            showList.push(this.linkData[i]); //将数组的前10条存放到showList数组中
+                        }
+                    } else {
+                        showList = this.linkData; //个数足够显示，不需要在截取
+                    }
+                    return showList;
+                } else {
+                    //显示全部数据
+                    return this.linkData;
+                }
+            },
+            word: function () {
+                //点击显示部分
+                if (this.showAll == false) {
+                    this.isRedirect = true;
+                    return "展开";
+                } else {
+                    this.isRedirect = false;
+                    return "收起";
+                }
+            }
+        },
+        mounted() {
+            this.linkData = friendlyLink;
+        },
+        methods: {
+            handleLinkClick() {
+
+            }
+        }
+    })
+</script>
+
+<style>
+    .footer-wrap {
+        z-index: 999;
+        background: #1e2b47;
+        padding: 20px 0;
+    }
+    .footer-wrap .footer-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-wrap .content-top {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    .footer-wrap .conpany-message {
+        display: flex;
+        width: 88%;
+        justify-content: space-around;
+    }
+    .footer-wrap .message-item {
+        width: 25%;
+    }
+    .footer-wrap .message-name {
+        font-size: 16px;
+        line-height: 46px;
+        color: #fff;
+        letter-spacing: 1.14px;
+    }
+    .footer-wrap .message-name-item {
+        font-size: 14px;
+        display: flex;
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .footer-wrap .message-name-item a {
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    .footer-wrap .message-name-item a:hover {
+        color: #2185ff;
+    }
+    .footer-wrap .qrCode {
+        width: 10%;
+        margin-top: 15px;
+    }
+    .footer-wrap .qrCodeImg {
+        display: block;
+        width: 122px;
+        height: 122px;
+    }
+    .footer-wrap .account {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.65);
+        text-align: center;
+        font-weight: 400;
+    }
+    .footer-wrap .line {
+        width: 100%;
+        height: 1px;
+        background: rgba(255,255,255,0.20);
+        margin-bottom: 35px;
+    }
+    .footer-wrap .content-bottom {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-wrap .license {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 18px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .footer-wrap .license-item {
+        margin-right: 2.1%;
+        display: flex;
+        cursor: pointer;
+    }
+    .footer-wrap .img-style {
+        display: block;
+        width: 17px;
+        height: 17px;
+        margin-right: 3px;
+    }
+    .footer-wrap .img-style1 {
+        width: 44px;
+        height: 16px;
+        margin-right: 3px;
+        margin-top: 3px;
+    }
+    .footer-wrap .img-style2 {
+        display: block;
+        width: 17px;
+        height: 17px;
+        margin-right: 3px;
+        margin-top: 3px;
+    }
+    .footer-wrap .license-item:hover {
+        color: #2185ff;
+    }
+    .footer-wrap .telephone {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        margin-bottom: 0.8%;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    .footer-wrap .telephone .telephone-line {
+        width: 1px;
+        height: 12px;
+        background: rgba(224,224,224,0.3);
+        margin-top: 4px;
+        margin-right: 2.1%;
+    }
+    .footer-wrap .telephone-item {
+        margin-right: 2.1%;
+        font-size: 14px;
+    }
+    .footer-wrap .telephone-item:hover {
+        color: #2185ff;
+    }
+</style>
+
+<div id="homeFooter" v-cloak style="overflow: hidden">
+    <div class="footer-wrap">
+        <div class="footer-content">
+            <div class="content-top">
+                <div class="conpany-message">
+                    <!-- 关于中智 -->
+                    <div class="message-item">
+                        <p class="message-name">关于我们</p>
+                        <div class="message-name-item">
+                            <a href="https://www.ciicsh.com/"
+                               rel="nofollow"
+                               style="color: rgba(255, 255, 255, 0.65);"
+                               target="_blank">
+                                关于中智
+                            </a>
+                        </div>
+                        <div class="message-name-item">
+                            <a href="javascript:void(0);"
+                               rel="nofollow"
+                               style="color: rgba(255, 255, 255, 0.65);"
+                               @click="ptjjClick">
+                                平台简介
+                            </a>
+                        </div>
+                        <div class="message-name-item">
+                            <a href="javascript:void(0);"
+                               rel="nofollow"
+                               style="color: rgba(255, 255, 255, 0.65);"
+                               @click="ryzzClick">
+                                荣誉资质
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 企业服务 -->
+                    <div class="message-item">
+                        <p class="message-name">使用与帮助</p>
+                        <div class="message-name-item">
+                            <span @click="agreeClick" style="cursor:pointer">用户协议</span>
+                        </div>
+                        <div class="message-name-item">
+                            <span @click="privacyClick" style="cursor:pointer">隐私政策</span>
+                        </div>
+                        <div class="message-name-item">
+                            <span @click="zwgfClick" style="cursor:pointer">职位规范</span>
+                        </div>
+                    </div>
+                    <!-- 企业服务 -->
+                    <!-- 联系我们 -->
+                    <div class="message-item">
+                        <p class="message-name">联系我们</p>
+                        <div class="message-name-item">
+                            <span>客服电话：400-884-7868</span>
+                        </div>
+                        <div class="message-name-item">
+                            <span>邮箱：inform@ciicsh.com</span>
+                        </div>
+                        <div class="message-name-item">
+                            <span>工作日：9:00-17:30</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qrCode">
+                    <p class="account">客服微信</p>
+                    <img src="/images/home/footer-qrcode.png" class="qrCodeImg"/>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="content-bottom">
+                <div class="license">
+                    <p class="license-item">
+                        <span style="cursor:auto;">版权所有：Copyright © 2023 中智招聘版权所有</span>
+                    </p>
+                    <p class="license-item">
+                        <img src="/images/home/security.png" class="img-style"/>
+                        <span style="cursor:auto;">沪公网安备 31010402007137号</span>
+                    </p>
+                    <p class="license-item">
+                        <span style="cursor:auto;">沪ICP备08111593号-58</span>
+                    </p>
+                </div>
+                <div class="telephone">
+                    <p class="license-item">
+                        <span class="license-span" @click="personClick">人力资源服务许可证</span>
+                    </p>
+                    <p class="telephone-line"></p>
+                    <p class="license-item">
+                        <span class="license-span" @click="lisenceClick">电子营业执照</span>
+                    </p>
+                    <p class="telephone-line"></p>
+                    <p class="license-item">
+                        <img src="/images/home/举报专区.png" class="img-style1" />
+                        <a href="https://www.12377.cn/"
+                           style="text-decoration: none;color:rgba(255, 255, 255, 0.65);"
+                           target="_blank">网上有害信息举报专区</a>
+                    </p>
+                    <p class="telephone-line"></p>
+                    <p class="license-item">
+                        <img src="/images/home/编组.png" class="img-style2"/>
+                        <a href="https://www.shjbzx.cn/"
+                           style="text-decoration: none;color:rgba(255, 255, 255, 0.65);"
+                           target="_blank">上海市互联网违法和不良信息举报中心</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <el-dialog
+        title="查看营业执照"
+        :visible.sync="licenseDialogVisible"
+        custom-class="view-license-dialog"
+        width="50%">
+        <div class="license-img">
+            <img src="/images/home/license.png?v=2024" style="display:block;width:600px;height:auto;margin:0 auto;"/>
+        </div>
+        <span slot="footer" class="dialog-footer">
+            <el-button type="primary" @click="licenseDialogVisible = false">确 定</el-button>
+        </span>
+    </el-dialog>
+    <el-dialog
+        title="查看人力资源许可证"
+        :visible.sync="personDialogVisible"
+        custom-class="view-license-dialog"
+        width="50%">
+        <div class="license-img">
+            <img src="/images/home/HRlisence.png?v=2024" style="display:block;width:600px;height:auto;margin:0 auto;"/>
+        </div>
+        <span slot="footer" class="dialog-footer">
+            <el-button type="primary" @click="personDialogVisible = false">确 定</el-button>
+        </span>
+    </el-dialog>
+</div>
+
+<script>
+    new Vue({
+        el: '#homeFooter',
+        data: function () {
+            return {
+                licenseDialogVisible: false,
+                personDialogVisible: false
+            }
+        },
+        mounted() {
+
+        },
+        methods: {
+            lisenceClick(){ // 电子营业执照
+                this.licenseDialogVisible = true
+            },
+            personClick(){ // 人力资源许可证
+                this.personDialogVisible = true
+            },
+            agreeClick() { // 用户服务协议
+                window.open(config.ssoCandidatePcUrl.split('/jstlogin')[0] + '/serviceagreement')
+            },
+            privacyClick(){ // 隐私政策
+                window.open(config.ssoCandidatePcUrl.split('/jstlogin')[0] + '/privacypolicy2024V1')
+            },
+            zwgfClick() { // 职位规范
+                window.open(config.ssoCandidatePcUrl.split('/jstlogin')[0] + '/JobSpecification')
+            },
+            ptjjClick() { // 平台简介
+                window.open(config.ssoCandidatePcUrl.split('/jstlogin')[0] + '/IntroductionAndHonor')
+            },
+            ryzzClick() {
+                window.open(config.ssoCandidatePcUrl.split('/jstlogin')[0] + '/IntroductionAndHonor')
+            },
+            helpClick(){ // 使用帮助
+                // this.$router.push({
+                //     path:'/help'
+                // })
+            }
+        }
+    })
+</script>
+
+    </div>
+    </body>
+</html>
+<!--<script type="text/javascript" src="/data/category.js"></script>-->
+
+<script>
+    var app = new Vue({
+        el: '#appIndex',
+        components: { // 标签全小写，变量和事件全小写
+            'category': httpVueLoader('/components/category.vue'),
+            'advertisement': httpVueLoader('/components/advertisement.vue'),
+            'specialad': httpVueLoader('/components/specialAdvertisement.vue'),
+            'warningdialog': httpVueLoader('/components/outsideWarningDialog.vue')
+            // 'qzfuandqyfw': httpVueLoader('/components/qzfuAndqyfw.vue')
+        },
+        data() {
+            return {
+                noticeList: [],
+                currTabName: '热招职位',
+                cityValue: '',
+                propModifyName:{
+                    isTop: 'istop',
+                    publishTime: 'publishtime',
+                    jobName:'jobname_show',
+                    organizationName:'orgname_show',
+                    livelihoodWelfare:'livelihoodwelfare_show',
+                    education:'education_show',
+                    workPlace:'workplace_show',
+                    workExp:'workexp_show',
+                    recruitmentNum:'recnum_show',
+                    highlights:'highlights_show',
+                    salUp:'salup_show',
+                    salLow:'sallow_show',
+                    industry:'industry_show',
+                    scale:'scale_show',
+                    logoFileId:'orglogo_show',
+                    ifFace:'ifface_show',
+                    uuid:'id',
+                    isToJumpShow: 'istojump_show',
+                    pcLinkShow:'pclink_show',
+                    salUnit:'salunit_show',
+                    clientName:'clientname',
+                    isHot: 'ishot',
+                    isTop:'istop',
+                    '校招':'worknature',
+
+                },
+                zplbList: [],
+                tabList:[
+                    {
+                        label:'热招',
+                        active:true,
+                    },
+                    {
+                        label:'最新',
+                        active:false,
+                    },
+                    {
+                        label:'社招',
+                        active:false,
+                        value: '社招|全职,社招|兼职'
+                    },
+                    {
+                        label:'校招',
+                        active:false,
+                        value: '校招|全职,校招|兼职,校招|实习,校招|见习',
+                        prop: 'nature'
+                    },
+                    {
+                        label:'灵活用工',
+                        active:false,
+                        value: ''
+                    },
+                    {
+                        label:'境外就业',
+                        active:false,
+                        value: '海外',
+                        prop:'workplace'
+                    },
+                    {
+                        label:'企业（央国企）自招',
+                        active:false,
+                        value: '中央企业,国有企业',
+                        prop:'qualitative'
+                    },
+                ],
+                citysList: [
+                {
+                    label: '境外',
+                    active:false,
+                    value:'海外'
+                },
+                {
+                    label: '北京',
+                    active:false,
+                    value:'北京'
+                },
+                {
+                    label: '上海',
+                    active:false,
+                    value: '上海'
+                },
+                {
+                    label: '广州',
+                    active:false,
+                    value: '广州'
+                },
+                {
+                    label: '深圳',
+                    active:false,
+                    value: '深圳'
+                },
+                {
+                    label: '成都',
+                    active:false,
+                    value: '成都'
+                },
+                {
+                    label: '西安',
+                    active:false,
+                    value: '西安'
+                },
+                {
+                    label: '南京',
+                    active:false,
+                    value: '南京'
+                },
+                {
+                    label: '沈阳',
+                    active:false,
+                    value: '沈阳'
+                },
+                {
+                    label: '杭州',
+                    active:false,
+                    value: '杭州'
+                },
+                ],
+                isLogin: false,
+                mobile: '',
+                formInline: {
+                    keyword: "",
+                    zwnature: "",
+                },
+                // 判断是否吸顶
+                headerFixed: 0,
+                jobTypeList: [
+                    {codeId: '', name: "全部职位"},
+                    {codeId: '社招', name: "社招职位"},
+                    {codeId: '校招', name: "校招职位"}
+                ],
+                // hotJobList: [
+                //     {id: 20001, name: "法务"},
+                //     {id: 20002, name: "IOS"},
+                //     {id: 20003, name: "产品经理"},
+                //     {id: 20004, name: "大数据"}
+                // ],
+                categoryData: [],
+                bannerList: [], // 轮播图
+                bannerReady: false,
+                adData: [], // 广告
+                specialAdData: [], // 专题广告
+                tabList1: [
+                    {label: "热招职位", name: "hotPosts"},
+                    {label: "最新职位", name: "newPosts"}
+                ],
+                tabList2: [
+                    {label: "热门公司", name: "hotCompanies"},
+                    // {label: "央国企", name: "centralStateOwnedEnterprises"}
+                ],
+                compName1: "hotPosts",
+                compName2: "hotCompanies",
+                link: '',
+                warningDialogVisible: false
+            }
+        },
+        async mounted() {
+            const category = await getDictByKey(CIIC_DICT_KEY.职位类别);
+            this.categoryData = arrayToTree(category, "ZWLB");
+            this.getAdvertise();
+            this.getHotJob();
+            this.getQueryByTypeTZGS();
+        },
+        filters: {
+            filterTime(time) {
+                return time?new Date(time).Format("yyyy-MM-dd"):''
+            },
+            filterCity(city) {
+                return city? city.replace(/-/g, '|'):'';
+            }
+        },
+        methods: {
+            getQueryByTypeTZGS() {
+                // 获取通知公示
+                Axios.get('/api/consult/getQueryByTypeTZGS?channel=0').then((res) => {
+                    if (res.code == 0) {
+                        this.noticeList = res.result.slice(0, 5);
+                    }
+                })
+            },
+            selectCity(item) {
+                this.citysList.map((value) => {
+                    value.active = false
+                })
+                this.cityValue = item.value
+                item.active = true
+                if (this.currTabName === '热招') {
+                    this.getHotJob()
+                } else if (this.currTabName === '最新') {
+                    this.getNewJob()
+                } else {
+                   this.getSearch() 
+                }
+            },
+            positionTab(item) {
+                this.tabList.map((value) => {
+                    value.active = false;
+                })
+                this.citysList.map((cvalue) => {
+                    cvalue.active = false;
+                })
+                this.cityValue = '';
+                item.active = true;
+                this.currTabName = item.label;
+                this.currTabValue = item.value;
+                if (item.label === '热招') {
+                    this.getHotJob()
+                } else if (item.label === '最新') {
+                    this.getNewJob()
+                } else if (item.label === '灵活用工') {
+                    this.zplbList = []
+                } else {
+                   this.getSearch() 
+                }
+            },
+            getSearch() {
+                let nature, qualitative;
+                let workplace = this.cityValue;
+                if (['社招','校招'].includes(this.currTabName)) {
+                    nature = this.currTabValue;
+                    qualitative = '';
+                } else if (['企业（央国企）自招'].includes(this.currTabName)) {
+                    nature = '';
+                    qualitative = this.currTabValue;
+                } else if (['境外就业'].includes(this.currTabName)) {
+                    if (this.cityValue)
+                        workplace = this.cityValue + ',' + this.currTabValue;
+                    else
+                        workplace = this.currTabValue;
+                }
+                Axios.post('/api/position/search',{"page":1,"size":6,"keyword":"","workplace":workplace,"industry":"","jobcate":"","qualitative":qualitative,"education":"","salary":"","scale":"","workexp":"","attr":"","disability":"","nature":nature,"toppingcity":"","id":"","orgid":"","orgcity_or":null,"workplace_or":null}).then((res) => {
+                    if (res.code == 0) {
+                        res.result.result.map((item) => {
+                            item.tempHls = item.highlights_show?item.highlights_show.split(','):[]
+                            item.highlights_show = item.highlights_show?item.highlights_show.split(',').splice(0,3):[]
+                            item.isEllipsis = item.tempHls.length>3?true:false
+                        })
+                        this.zplbList = res.result.result;
+                    }
+                    
+                })
+            },
+            gotoPcLink(item) {
+                if (item.istojump_show == '1'&&item.pclink_show) {
+                    this.link = item.pclink_show;
+                    this.warningDialogVisible = true;
+                } else {
+                    window.openPage('/position/detail?uuid='+item.id)
+                }
+            },
+            getNewJob() {
+                Axios.get("/api/recruit/getNewJob?city="+this.cityValue).then(res => {
+                    if (res.code == 0 && res.result) {
+                    res.result.map((item) => {
+                        Object.keys(this.propModifyName).map((itemC) => {
+                            if (this.propModifyName[itemC] === 'highlights_show') {
+                                item.tempHls = item[itemC]?item[itemC].split(','):[]
+                                item[this.propModifyName[itemC]] = item[itemC]?item[itemC].split(',').splice(0,3):[]
+                                item.isEllipsis = item.tempHls.length>3?true:false
+                            } else {
+                                item[this.propModifyName[itemC]] = item[itemC]
+                            }
+                           
+                        })
+                    })
+                    this.zplbList = res.result&&res.result.length>1?res.result.splice(0,6):[];
+                }
+                }).catch(err => {
+                    console.error("获取热门职位失败", err);
+                })
+            },
+            getHotJob() {
+                Axios.get("/api/recruit/getHotJob?city="+this.cityValue).then(res => {
+                    if (res.code == 0 && res.result) {
+                    res.result.map((item) => {
+                        Object.keys(this.propModifyName).map((itemC) => {
+                            if (this.propModifyName[itemC] === 'highlights_show') {
+                                item.tempHls = item[itemC]?item[itemC].split(','):[]
+                                item[this.propModifyName[itemC]] = item[itemC]?item[itemC].split(',').splice(0,3):[]
+                                item.isEllipsis = item.tempHls.length>3?true:false
+                            } else {
+                                item[this.propModifyName[itemC]] = item[itemC]
+                            }
+                           
+                        })
+                    })
+                    this.zplbList = res.result&&res.result.length>1?res.result.splice(0,6):[];
+                }
+                }).catch(err => {
+                    console.error("获取热门职位失败", err);
+                })
+            },
+          
+            scrollEvent() {
+                // 获取吸顶元素的dom
+                const menu = this.$refs.homeSearch;
+                const home = this.$refs.home;
+                // 吸顶元素到top的距离
+                this.offsetTop = menu.offsetTop;
+                // 元素自身的高度
+                this.offsetHeight = menu.offsetHeight;
+                // 获取页面滚动的距离 兼容写法
+                const scrollTop = home.scrollTop;
+                // 判断页面的滚动距离是否大于吸顶元素的位置
+                this.headerFixed =
+                    scrollTop <= 0 ? false : scrollTop > this.offsetTop - this.offsetHeight;
+            },
+            //选择区域
+            changeArea(val) {
+                this.formInline.region = val;
+            },
+            //搜索
+            onSubmit(value) {
+                openPage('/position/list?keyword=' + encodeURIComponent(value.keyword) +
+                    '&worknature=' + encodeURIComponent(value.zwnature), false);
+            },
+            //点击职职位跳转职位列表
+            toProfession(val) {
+                openPage('/position/list?jobcate=' + encodeURIComponent(val), false);
+            },
+            //全部职类跳转
+            allProfession() {
+                openPage('/position/list', false);
+            },
+            homeBannerClick(item) {
+                // zhugeEventTrack('首页-顶部banner', {
+                //     '主题名称': item.themeName,
+                //     '广告位ID': item.id,
+                // })
+            },
+            //热门企业 央国企 切换
+            handleClick2(tab, event) {
+                this.compName2 = tab.name;
+                console.log('this.compName2', this.compName2);
+            },
+            // hotJobItemClick(item) {
+                // zhugeEventTrack('首页-推荐企业', {
+                //     '企业类型': '热门企业',
+                //     '企业ID': item.tenantId,
+                //     '企业名称': item.tenantName
+                // })
+            // },
+            // tenantNameClick() {
+            //
+            // },
+            //热招职位，最新职位切换
+            handleClick1(tab, event) {
+                this.compName1 = tab.name;
+            },
+            postNameClick(uuid, isToJumpShow, pcLinkShow) {
+                if (isToJumpShow == '1' && pcLinkShow) {
+                    this.link = pcLinkShow;
+                    this.warningDialogVisible = true;
+                } else {
+                    openPage('/position/detail?uuid=' + uuid, false);
+                }
+            },
+            getAdvertise() {
+                Axios.get('/api/content/pageInfoCache?pageNo=homepagePC').then(res => {
+                    // console.log('pageNo=/index', res)
+                    if (res.code == 0 && res.result && res.result.areaInfoMap) {
+                        // 头部banner
+                        if (res.result.areaInfoMap['focuspicturepc01']) {
+                            let tmpList = [];
+                            res.result.areaInfoMap['focuspicturepc01'].blankInfos.map(item => {
+                                if (item.propertyMap) {
+                                    let banner = item.propertyMap;
+                                    tmpList.push(banner);
+                                }
+                            });
+                            this.bannerList = tmpList;
+                            this.bannerReady = true;
+                        }
+
+                        // 腰部广告
+                        if (res.result.areaInfoMap['bannerpc02pc06']) {
+                            let tmpList2 = [];
+                            res.result.areaInfoMap['bannerpc02pc06'].blankInfos.map(item => {
+                                if (item.propertyMap) {
+                                    let ad = item.propertyMap;
+                                    tmpList2.push(ad);
+                                } else {
+                                    tmpList2.push({});
+                                }
+                            });
+                            this.adData = tmpList2.filter((item, i) => {return i<=2 || (i>=5 && i<=7) || (i>=10 && i<=12) || (i>=15 && i<=17);});
+                            this.specialAdData = tmpList2.filter((item, i) => {return i==3 || i==4 || i==8 || i==9 || i==13 || i==14 || i==18 || i==19;});
+                        }
+                        // console.log(this.adData);
+                        // console.log(this.specialAdData);
+                    }
+                })
+            },
+            onCompanyClick(uuid) {
+                if (uuid) {
+                    openPage('/company/companyDetail?companyUUid=' + uuid, false);
+                }
+            }
+        }
+    })
+</script>
+
+
+

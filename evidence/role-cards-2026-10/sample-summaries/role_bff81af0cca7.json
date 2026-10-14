@@ -1,0 +1,555 @@
+{
+  "name": [
+    {
+      "text": "实验室/检测技术员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "实验室/检测技术员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 13,
+  "excluded": [
+    {
+      "id": "v8m5ZNzNN",
+      "url": "https://campus.niuqizp.com/job-v8m5ZNzNN.html",
+      "role": "有源医疗器械检验员|食品业务员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vYr5M5LMM",
+      "url": "https://campus.niuqizp.com/job-vYr5M5LMM.html",
+      "role": "生物学检验员|新材料及医疗器械业务员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vlr5tZCzM",
+      "url": "https://campus.niuqizp.com/job-vlr5tZCzM.html",
+      "role": "研究人员|实验技术员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "流程管理：参与SOP执行与优化，提升检测效率与运营质量",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8Y5nLatt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8Y5nLatt",
+          "text": "流程管理：参与SOP执行与优化，提升检测效率与运营质量"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "13份保留的校招平台样本中，2份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "v8k5anNLL",
+          "vlk5CnLna"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，3份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 3,
+        "denominator": 13,
+        "matched_ids": [
+          "v8y5zzLMN",
+          "vwY5tNCNM",
+          "vwk5naLZC"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，5份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 5,
+        "denominator": 13,
+        "matched_ids": [
+          "v8U5aZ5tN",
+          "v8Y5nLatt",
+          "vYY5atLZa",
+          "vYr5MLnMM",
+          "vsk5MtzzN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，3份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 3,
+        "denominator": 13,
+        "matched_ids": [
+          "vlm5nM5tN",
+          "vr85tNzZZ",
+          "vwU5nn5LN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "v8k5anNLL",
+          "vYr5MLnMM"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，2份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "v8Y5nLatt",
+          "vwY5tNCNM"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，1份专业类字段为“土木类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "土木类",
+        "n": 1,
+        "denominator": 13,
+        "matched_ids": [
+          "v8y5zzLMN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 13,
+        "matched_ids": [
+          "vwY5tNCNM"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，1份专业类字段为“生物工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物工程类",
+        "n": 1,
+        "denominator": 13,
+        "matched_ids": [
+          "vsk5MtzzN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，5份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 5,
+        "denominator": 13,
+        "matched_ids": [
+          "v8U5aZ5tN",
+          "vlm5nM5tN",
+          "vr85tNzZZ",
+          "vsk5MtzzN",
+          "vwU5nn5LN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，2份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "vlm5nM5tN",
+          "vwY5tNCNM"
+        ]
+      }
+    },
+    {
+      "text": "13份保留样本中，4份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 4,
+        "denominator": 13,
+        "matched_ids": [
+          "vYr5MLnMM",
+          "vlk5CnLna",
+          "vlm5nM5tN",
+          "vwU5nn5LN"
+        ]
+      }
+    },
+    {
+      "text": "13份保留样本中，2份明确出现经验不限/无经验字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5aZ5tN",
+        "v8Y5nLatt",
+        "v8k5anNLL",
+        "v8y5zzLMN",
+        "vYY5atLZa",
+        "vYr5MLnMM",
+        "vlk5CnLna",
+        "vlm5nM5tN",
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwU5nn5LN",
+        "vwY5tNCNM",
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "经验不限|无需.*经验|无经验|无工作经验",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "vwU5nn5LN",
+          "vwk5naLZC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "实验技术员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vr85tNzZZ",
+        "vsk5MtzzN",
+        "vwY5tNCNM"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "细胞培养实验员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlm5nM5tN",
+        "vwU5nn5LN"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "27届实验室运营培训生(J15293)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8Y5nLatt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "光学检验员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwk5naLZC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "化学分析技术员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlk5CnLna"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "实验员助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8y5zzLMN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "毒理实验员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYY5atLZa"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "生物技术实验员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8k5anNLL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "细胞生物实验员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8U5aZ5tN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "食品检验员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYr5MLnMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

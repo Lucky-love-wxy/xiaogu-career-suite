@@ -1,0 +1,129 @@
+{
+  "name": [
+    {
+      "text": "数学教师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "数学教师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [
+    {
+      "id": "vmk5znzNa",
+      "url": "https://campus.niuqizp.com/job-vmk5znzNa.html",
+      "role": "初中语文|数学教师",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "参与教研活动，分享教学经验，协助优化教学体系与课程资料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vl85NCMZN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NCMZN",
+          "text": "参与教研活动，分享教学经验，协助优化教学体系与课程资料"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责初高中数学课程线下教学，根据学生学情制定个性化教学方案，保障教学质量",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vl85NCMZN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vl85NCMZN",
+          "text": "负责初高中数学课程线下教学，根据学生学情制定个性化教学方案，保障教学质量"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vl85NCMZN",
+        "vlU5CMzzZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vl85NCMZN"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vl85NCMZN",
+        "vlU5CMzzZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vlU5CMzzZ"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vl85NCMZN",
+        "vlU5CMzzZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "vl85NCMZN",
+          "vlU5CMzzZ"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "数学教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vl85NCMZN",
+        "vlU5CMzzZ"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ]
+}

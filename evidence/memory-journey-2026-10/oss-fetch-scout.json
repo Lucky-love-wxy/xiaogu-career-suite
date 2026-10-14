@@ -1,0 +1,156 @@
+[
+  {
+    "id": "oss-robots-api",
+    "url": "https://api.github.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-api.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "edbd0367cec893df36f67acb56c3aa23810be28850977c35e0fedaf64aad286b",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-robots-raw",
+    "url": "https://raw.githubusercontent.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-raw.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-commit",
+    "url": "https://api.github.com/repos/mem0ai/mem0/commits/HEAD",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-commit.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "70fac8c87928ffc91babc96fb99796d034caff003ba520ea45d300ce74f243c6",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-tree",
+    "url": "https://api.github.com/repos/mem0ai/mem0/git/trees/d26ba5e4518cef7fff3c66d4f715b21adf9feabe?recursive=1",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-tree.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "40cb2e9ee49aaa6c9a04d39c78e712d10094aa6f5ac5c496f0f0fa917d76ec9e",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-readme",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/README.md",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-readme.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "7509347d34a767a2ef37ceb6cf6c714de9e8d84fe66ad5eea92bbae824a8fbeb",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-commit",
+    "url": "https://api.github.com/repos/letta-ai/letta/commits/HEAD",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-commit.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "851639c7f23c5b7d19dee5e5fdf391233a9147d21978e163e019b81df2a3d4b2",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-tree",
+    "url": "https://api.github.com/repos/letta-ai/letta/git/trees/5bcdd177d70fa2b31a754cfcd801e77b2e1ab16a?recursive=1",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-tree.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "ecd7efb4391f1def3f55cb148e4d4b27039c79c1341485affb10cb73c2947728",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-readme",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta/5bcdd177d70fa2b31a754cfcd801e77b2e1ab16a/README.md",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-readme.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "1d624e8fd383c1198c8d42da87b055d591a5760e19607692eb46bbbfe2a58f03",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-langgraph-commit",
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/commits/HEAD",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-langgraph-commit.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "511d7b86390da568fa86dd4278da1a0587228a7f3b599cdca0c729d6cecfe922",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-langgraph-tree",
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/git/trees/a6731f436700c7d46a9224ccd3a0e0ce3a5bfdb5?recursive=1",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-langgraph-tree.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "9a7888ac7e87524adf6dce5a833dbcf1bc74a2566a788b580fda1409bf634cc9",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-langgraph-readme",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/a6731f436700c7d46a9224ccd3a0e0ce3a5bfdb5/README.md",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-langgraph-readme.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "3a13e257af1216962d53d72414a7f44ac1fc5cea34d994bdff60ea2a3b045933",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-commit",
+    "url": "https://api.github.com/repos/getzep/graphiti/commits/HEAD",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-commit.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d39154c1e972c3dded2f201c0f7bd846a2c336643b59f54212f39cec920bdeb4",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-tree",
+    "url": "https://api.github.com/repos/getzep/graphiti/git/trees/8d8a12a22452cbef9335792afb73b8cbfe6a79fa?recursive=1",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-tree.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "a5c91b071cefd81c0581b0fea103adf40478ec067e8536de8129f2742299ff59",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-readme",
+    "url": "https://raw.githubusercontent.com/getzep/graphiti/8d8a12a22452cbef9335792afb73b8cbfe6a79fa/README.md",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-readme.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "e0beb0d34b53e25e72c22d68bd951c34a1dfdc1b4454fd821ecc29f3552708de",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  }
+]

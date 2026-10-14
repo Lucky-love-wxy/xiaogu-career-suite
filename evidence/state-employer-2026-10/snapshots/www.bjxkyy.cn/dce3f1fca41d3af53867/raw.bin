@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="baidu-site-verification" content="slZW4Jbg4g" />
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+     <meta property="og:image" content="https://www.bjxkyy.cn/Content/Areas/Common/images/logo/wxShare.jpg" />
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="applicable-device" content="pc,mobile" />
+<title>
+引导页-首都医科大学附属北京胸科医院
+</title>
+<meta name="keywords" content="-首都医科大学附属北京胸科医院" />
+<meta name="description" content="北京市结核病胸部肿瘤研究所、首都医科大学附属北京胸科医院创建于1955年，原名为“中央直属结核病研究所、中央直属结核病医院”。新中国成立之初，国家百废待兴，然而，结核病却肆虐大地。为了控制结核病疫情，在党和政府的支持下，以何穆教授为首的一大批优秀的结核病领域专家，汇聚到京东大运河畔，组建了结核病研究所，高高举起了结核病攻坚克难的大旗。几十年过去了，裘祖源、范秉哲、田武昌、严碧涯等等，一代又一代的专家学者在这里潜心钻研、深耕奉献，为祖国的结核病和胸部疾病的诊疗防治事业做出了突出的贡献。" />
+
+ <link href="/Content/Areas/Common/css/common.css" rel="stylesheet" type="text/css" />
+ 
+
+ 
+
+ <link href="/Content/Areas/Hospitals/css/Boot.css" rel="stylesheet" type="text/css" />
+
+
+ <script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+ 
+ 
+ 
+<script src="/Scripts/Common/control.js" type="text/javascript"></script>
+ <!-- IE响应式 -->
+ <!--[if lt IE 9]>
+<script src="/Content/Areas/Common/scripts/respond.js" type="text/javascript"></script>
+ <![endif]-->
+ 
+
+ 
+
+</head>
+<body> 
+    <img src="https://www.bjxkyy.cn/Content/Areas/Common/images/logo/wxShare.jpg" width="0" height="0" style="display: none" />
+        <script type="text/javascript">
+            var urlStr = window.location.href;
+            $(document).ready(function () {
+                var ua = window.navigator.userAgent.toLowerCase();
+                if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+                    $.ajax({
+                        url: "/Mobile/Common/WxShare",
+                        type: "POST",
+                        datatype: "JSON",
+                        data: { url: encodeURIComponent(urlStr) },
+                        success: function (data) {
+                            if (data.status == 1) {
+                                $.getScript("https://res.wx.qq.com/open/js/jweixin-1.6.0.js", function () {
+                                    var appId = data.appId;
+                                    var timestamp = data.timestamp;
+                                    var nonceStr = data.noncestr;
+                                    var signature = data.signature;
+                                    var title = '引导页'; // 分享标题
+                                    var desc = '北京市结核病胸部肿瘤研究所、首都医科大学附属北京胸科医院创建于1955年，原名为“中央直属结核病研究所、中央直属结核病医院”。新中国成立之初，国家百废待兴，然而，结核病却肆虐大地。为了控制结核病疫情，在党和政府的支持下，以何穆教授为首的一大批优秀的结核病领域专家，汇聚到京东大运河畔，组建了结核病研究所，高高举起了结核病攻坚克难的大旗。几十年过去了，裘祖源、范秉哲、田武昌、严碧涯等等，一代又一代的专家学者在这里潜心钻研、深耕奉献，为祖国的结核病和胸部疾病的诊疗防治事业做出了突出的贡献。'; // 分享描述
+                                    var link = urlStr; // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                                    var imgUrl = 'https://www.bjxkyy.cn/Content/Areas/Common/images/logo/wxShare.jpg'; // 分享图标
+                                    wx.config({
+                                        debug: false,
+                                        appId: appId,
+                                        timestamp: timestamp,
+                                        nonceStr: nonceStr,
+                                        signature: signature,
+                                        jsApiList: [
+                                            'checkJsApi',
+                                            'onMenuShareTimeline',
+                                            'onMenuShareAppMessage',
+                                            'onMenuShareQQ',
+                                            'onMenuShareWeibo',
+                                            'hideMenuItems',
+                                            'showMenuItems',
+                                            'hideAllNonBaseMenuItem',
+                                            'showAllNonBaseMenuItem',
+                                            'translateVoice',
+                                            'startRecord',
+                                            'stopRecord',
+                                            'onRecordEnd',
+                                            'playVoice',
+                                            'pauseVoice',
+                                            'stopVoice',
+                                            'uploadVoice',
+                                            'downloadVoice',
+                                            'chooseImage',
+                                            'previewImage',
+                                            'uploadImage',
+                                            'downloadImage',
+                                            'getNetworkType',
+                                            'openLocation',
+                                            'getLocation',
+                                            'hideOptionMenu',
+                                            'showOptionMenu',
+                                            'closeWindow',
+                                            'scanQRCode',
+                                            'chooseWXPay',
+                                            'openProductSpecificView',
+                                            'addCard',
+                                            'chooseCard',
+                                            'openCard',
+                                            'updateAppMessageShareData',
+                                            'updateTimelineShareData'
+                                        ]
+                                    });
+                                    wx.ready(function () {
+                                        //自定义“分享给朋友”及“分享到QQ”按钮的分享内容
+                                        wx.updateAppMessageShareData({
+                                            title: title, // 分享标题
+                                            desc: desc, // 分享描述
+                                            link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                                            imgUrl:imgUrl, // 分享图标
+                                            success: function () {
+                                            // 设置成功
+                                            }
+                                        });
+                                         //自定义“分享到朋友圈”及“分享到QQ空间”按钮的分享内容
+                                        wx.updateTimelineShareData({
+                                            title: title, // 分享标题
+                                            desc: desc, // 分享描述
+                                            link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                                            imgUrl:imgUrl, // 分享图标
+                                            success: function () {
+                                            // 设置成功
+                                            }
+                                        });
+                                    });
+                                });
+                            }
+                        },
+                        error: function () {
+                        }
+                    });
+                }
+            });
+
+        </script>
+        <!-- 54Doctor -->
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setCookieDomain", "*.bjxkyy.cn"]);
+        _paq.push(["setDomains", ["*.bjxkyy.cn"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "https://tongji.54doctor.net/";
+            _paq.push(['setTrackerUrl', u + '54doctor.php']);
+            _paq.push(['setSiteId', 107]);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + '54doctor.js'; s.parentNode.insertBefore(g, s);
+        })();
+        </script>
+        <noscript><p><img src="https://tongji.54doctor.net/54doctor.php?idsite=107" style="border:0;" alt="" /></p></noscript>
+        <!-- End 54Doctor Code -->
+
+
+
+	<div class="wrap">
+		<div class="mainBg">
+		 	
+<div class="boot_content">
+ <div class="boot_left">
+ <ul class="enter_list">
+ <li class="enter_item">
+    <a href="/Html/News/Columns/12/Index.html">
+    <div class="transition enter_div">
+   <div class="enter_img">
+ <img class="transition" src="/Content/Areas/Hospitals/images/Boot/guahao.png">
+  </div>
+ <p class="enter_tit transition">预约挂号</p>
+    </div>
+    </a>
+ </li>
+   <li class="enter_item">
+    <a href="">
+ <div class="transition enter_div">
+  <div class="enter_img">
+ <img class="transition" src="/Content/Areas/Hospitals/images/Boot/wechat.png">
+ </div>
+ <p class="enter_tit transition">微信</p>
+ </div>
+ <div class="hover_showbox">
+ <img src="/Content/Areas/Hospitals/images/Main/weixin.jpg">
+ </div>  
+    </a>
+ </li>
+ <li class="enter_item">
+    <a href="">
+ <div class="transition enter_div">
+ <div class="enter_img">
+ <img class="transition" src="/Content/Areas/Hospitals/images/Boot/weibo-5.png">
+ </div>
+ <p class="enter_tit transition">微博</p>
+ </div>
+   <div class="hover_showbox">
+ <img src="/Content/Areas/Hospitals/images/Main/weibo.jpg">
+ </div>  
+    </a>
+ </li>
+  <li class="enter_item">
+    <a href="javascript:;">
+  <div class="transition enter_div">
+   <div class="enter_img">
+ <img class="transition" src="/Content/Areas/Hospitals/images/Boot/zhaopin.png">
+ </div>
+ <p class="enter_tit transition">人才招聘</p>
+  </div>
+    </a>
+ </li>
+   <li class="enter_item">
+    <a href="#">
+ <div class="transition enter_div">
+    <div class="enter_img">
+ <img class="transition" src="/Content/Areas/Hospitals/images/Boot/wangluo-2.png">
+ </div>
+ <p class="enter_tit transition">网络诊疗</p>
+ </div>
+    </a>
+ </li>
+   <li class="enter_item">
+    <a href="/Hospitals/Main/Location" class="transition">
+ <div class="transition enter_div">
+   <div class="enter_img">
+ <img class="transition" src="/Content/Areas/Hospitals/images/Boot/weizhi-3.png">
+ </div>
+ <p class="enter_tit transition">地理位置</p>
+ </div>
+    </a>
+ </li>
+ </ul>
+ </div>
+ <div class="boot_right">
+ <ul class="pro_list">
+ <li class="pro_item">
+ <a href="/Html/Index.html">
+ <div class="flex">
+ <div class="pro_item_content">
+    <div class="show transition">
+  <div class="item_img transition">
+ <img src="/Content/Areas/Hospitals/images/Boot/icon1.png">
+ </div>
+ <div class="item_tit ">
+ <p class="big_tit transition">大众版</p>  
+ <p class="small_tit">Popular editions</p>  
+ </div>
+    </div>
+  <div class="hover_show transition">
+ <div class="item_tit ">
+ <p class="big_tit">大众版</p>  
+ <p class="small_tit transition">Popular editions</p>  
+ </div>
+  <div class="item_img transition">
+ <img src="/Content/Areas/Hospitals/images/Boot/icon1.png">
+ </div>
+    </div>
+ </div>
+ </div>
+ <div class="angle_list">
+ <div class="top_left angle "></div>
+ <div class="top_right angle "></div>
+ <div class="bottom_left angle "></div>
+ <div class="bottom_right angle "></div>
+ </div>
+ </a>
+ </li>
+ <li class="pro_item">
+ <a href="/Html/News/Main/108.html">
+ <div class="flex">
+ <div class="pro_item_content">
+    <div class="show transition">
+  <div class="item_img transition">
+ <img src="/Content/Areas/Hospitals/images/Boot/icon2.png">
+ </div>
+ <div class="item_tit ">
+ <p class="big_tit transition">专业版</p>  
+ <p class="small_tit">Professional edition</p>  
+ </div>
+    </div>
+  <div class="hover_show transition">
+ <div class="item_tit ">
+ <p class="big_tit">专业版</p>  
+ <p class="small_tit transition">Professional edition</p>  
+ </div>
+  <div class="item_img transition">
+ <img src="/Content/Areas/Hospitals/images/Boot/icon2.png">
+ </div>
+    </div>
+ </div>
+ </div>
+ <div class="angle_list">
+ <div class="top_left angle "></div>
+ <div class="top_right angle "></div>
+ <div class="bottom_left angle "></div>
+ <div class="bottom_right angle "></div>
+ </div>
+ </a>
+ </li>
+ <li class="pro_item">
+ <a href="/Html/News/Main/145.html">
+ <div class="flex">
+ <div class="pro_item_content">
+    <div class="show transition">
+  <div class="item_img transition">
+ <img src="/Content/Areas/Hospitals/images/Boot/icon3.png">
+ </div>
+ <div class="item_tit ">
+ <p class="big_tit transition">ENGLISH</p>  
+ <p class="small_tit">英文</p>  
+ </div>
+    </div>
+  <div class="hover_show transition">
+ <div class="item_tit ">
+ <p class="big_tit">ENGLISH</p>  
+ <p class="small_tit transition">英文</p>  
+ </div>
+  <div class="item_img transition">
+ <img src="/Content/Areas/Hospitals/images/Boot/icon3.png">
+ </div>
+    </div>
+ </div>
+ </div>
+ <div class="angle_list">
+ <div class="top_left angle "></div>
+ <div class="top_right angle "></div>
+ <div class="bottom_left angle "></div>
+ <div class="bottom_right angle "></div>
+ </div>
+ </a>
+ </li>
+ <div class="clearit"></div>
+ </ul>
+ </div>
+ <div class="boot_phone">
+ <div class="bPitem bPitem_1">
+ <a href="/Html/Index.html">
+ <img src="/Sites/Uploaded/UserUpLoad/20210602/20210602155246.png" alt="">
+ <h2>
+ <p>大众版</p>
+ <span>POPULAR EDITIONS</span>
+ </h2>
+ <img class="posi" src="/Sites/Uploaded/UserUpLoad/20210602/20210602162800.png" alt="">
+ </a>
+ </div>
+ <div class="bPitem bPitem_2">
+ <a href="/Html/News/Main/108.html">
+ <img src="/Sites/Uploaded/UserUpLoad/20210602/20210602155256.png" alt="">
+ <h2>
+ <p>专业版</p>
+ <span>PROFESSIONAL EDITIONS</span>
+ </h2>
+ <img class="posi" src="/Sites/Uploaded/UserUpLoad/20210602/20210602162844.png" alt="">
+ </a>
+ </div>
+ <div class="bPitem bPitem_3">
+ <a href="/Html/News/Main/145.html">
+ <img src="/Sites/Uploaded/UserUpLoad/20210602/20210602155232.png" alt="">
+ <h2>
+ <p>English</p>
+ <span>英文版</span>
+ </h2>
+ <img class="posi" src="/Sites/Uploaded/UserUpLoad/20210602/20210602162900.png" alt="">
+ </a>
+ </div>
+ </div>
+</div>  
+    
+		</div>
+		<div class="clearit"></div>
+	</div>
+</body>
+</html>   

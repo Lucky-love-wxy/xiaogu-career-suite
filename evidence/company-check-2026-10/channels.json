@@ -1,0 +1,1202 @@
+[
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "tavily",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "URL/主体候选及聚合正文；经复核后才能用",
+    "request_count": 5,
+    "mean_response_seconds": 3.817,
+    "timed_total_seconds": 19.085,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 5.106,
+        "snapshot": "evidence/company-check-2026-10/zhihu-events-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.672,
+        "snapshot": "evidence/company-check-2026-10/zhihu-qcc-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.569,
+        "snapshot": "evidence/company-check-2026-10/zhihu-official-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.257,
+        "snapshot": "evidence/company-check-2026-10/zhihu-tianyancha-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.481,
+        "snapshot": "evidence/company-check-2026-10/zhihu-identity.json"
+      }
+    ]
+  },
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "exchange",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "主体/上市/主营/收入/业务调整",
+    "request_count": 3,
+    "mean_response_seconds": 1.886,
+    "timed_total_seconds": 5.659,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600406.pdf",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 1.208,
+        "snapshot": "evidence/company-check-2026-10/zhihu-direct-2.pdf"
+      },
+      {
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041700682.pdf",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.184,
+        "snapshot": "evidence/company-check-2026-10/zhihu-direct-4.pdf"
+      },
+      {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500617.pdf",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 1.267,
+        "snapshot": "evidence/company-check-2026-10/zhihu-direct-0.pdf"
+      }
+    ]
+  },
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "official",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "产品/业务/使用方；部分收费规则与事件",
+    "request_count": 1,
+    "mean_response_seconds": 0.834,
+    "timed_total_seconds": 0.834,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://ir.zhihu.com/cn/corporate-information/",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.834,
+        "snapshot": "evidence/company-check-2026-10/zhihu-ir.html"
+      }
+    ]
+  },
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "gsxt",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "未取得企业正文",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "robots521停止；未进入查询",
+    "observations": [],
+    "shared_preflight": "gsxt-entry.meta.json；一次共享预检，未逐公司请求"
+  },
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "qcc",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "不计合规成功；风控/入口/非目标主体",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "风控后停止；付费边界未实测",
+    "observations": [
+      {
+        "url": "https://m.qcc.com/firm/1d98b81c83b86adcc570d447158ab4b6.html",
+        "status": "not_fetched",
+        "reason": "robots_unknown_http_567",
+        "elapsed_seconds": null,
+        "snapshot": null
+      }
+    ]
+  },
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "tianyancha",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "仅登录壳；未取得企业正文",
+    "request_count": 1,
+    "mean_response_seconds": 0.381,
+    "timed_total_seconds": 0.381,
+    "login_or_payment": "登录壳可见；具体字段/付费墙未实测",
+    "observations": [
+      {
+        "url": "https://www.tianyancha.com/company/33934422",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.381,
+        "snapshot": "evidence/company-check-2026-10/zhihu-tianyancha-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "zhihu",
+    "type": "listed",
+    "channel": "supplement",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "百科身份/媒体事件与融资，须看单条等级",
+    "request_count": 1,
+    "mean_response_seconds": 2.276,
+    "timed_total_seconds": 2.276,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://zh-classical.wikipedia.org/wiki/%E7%9F%A5%E4%B9%8E",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.276,
+        "snapshot": "evidence/company-check-2026-10/zhihu-supp-direct-8.html"
+      }
+    ]
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "tavily",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "URL/主体候选及聚合正文；经复核后才能用",
+    "request_count": 6,
+    "mean_response_seconds": 4.144,
+    "timed_total_seconds": 24.867,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.229,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-identity.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.966,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-tianyancha-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.46,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-qcc-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 5.181,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-official-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.938,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-events-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 6.093,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-interim-search.json"
+      }
+    ]
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "exchange",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "主体/上市/主营/收入/业务调整",
+    "request_count": 1,
+    "mean_response_seconds": 1.467,
+    "timed_total_seconds": 1.467,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0318/2026031801424.pdf",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 1.467,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-direct-0.pdf"
+      }
+    ]
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "official",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "产品/业务/使用方；部分收费规则与事件",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://ir.zhipin.com/zh-hans",
+        "status": "not_fetched",
+        "reason": "robots_site_blocked",
+        "elapsed_seconds": null,
+        "snapshot": null
+      }
+    ]
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "gsxt",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "未取得企业正文",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "robots521停止；未进入查询",
+    "observations": [],
+    "shared_preflight": "gsxt-entry.meta.json；一次共享预检，未逐公司请求"
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "qcc",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "不计合规成功；风控/入口/非目标主体",
+    "request_count": 1,
+    "mean_response_seconds": 0.176,
+    "timed_total_seconds": 0.176,
+    "login_or_payment": "风控后停止；付费边界未实测",
+    "observations": [
+      {
+        "url": "https://www.qcc.com/firm/65d43f5ef4f93f00083c098693e59cb2.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.176,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-qcc-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "tianyancha",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "仅登录壳；未取得企业正文",
+    "request_count": 1,
+    "mean_response_seconds": 0.41,
+    "timed_total_seconds": 0.41,
+    "login_or_payment": "登录壳可见；具体字段/付费墙未实测",
+    "observations": [
+      {
+        "url": "https://www.tianyancha.com/company/24563437",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.41,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-tianyancha-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "kanzhun",
+    "type": "listed",
+    "channel": "supplement",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "百科身份/媒体事件与融资，须看单条等级",
+    "request_count": 1,
+    "mean_response_seconds": 2.372,
+    "timed_total_seconds": 2.372,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boss_Zhipin",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.372,
+        "snapshot": "evidence/company-check-2026-10/kanzhun-supp-direct-7.html"
+      }
+    ]
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "tavily",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "URL/主体候选及聚合正文；经复核后才能用",
+    "request_count": 7,
+    "mean_response_seconds": 4.139,
+    "timed_total_seconds": 28.974,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.315,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-payment-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 5.232,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-events-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.588,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-qcc-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 5.692,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-tianyancha-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.964,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-event-original.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.212,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-identity.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.971,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-official-search.json"
+      }
+    ]
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "exchange",
+    "applicable": false,
+    "usable_body": false,
+    "fields": "主体/上市/主营/收入/业务调整",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "不适用",
+    "observations": []
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "official",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "产品/业务/使用方；部分收费规则与事件",
+    "request_count": 4,
+    "mean_response_seconds": 0.358,
+    "timed_total_seconds": 1.434,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://fastcdn.mihoyo.com/static-resource-v2/2023/07/11/1f8ab139d4f242ccb6be673c437f0f29_465949158906749511.pdf",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.689,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-1.pdf"
+      },
+      {
+        "url": "https://ys.mihoyo.com/cloud",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.328,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-direct-4.html"
+      },
+      {
+        "url": "https://www.mihoyo.com",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.122,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-direct-5.html"
+      },
+      {
+        "url": "https://www.mihoyo.com/",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": null,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-cdp.json"
+      },
+      {
+        "url": "https://ys.mihoyo.com/main/company/privacy",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.295,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-direct-0.html"
+      }
+    ]
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "gsxt",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "未取得企业正文",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "robots521停止；未进入查询",
+    "observations": [],
+    "shared_preflight": "gsxt-entry.meta.json；一次共享预检，未逐公司请求"
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "qcc",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "不计合规成功；风控/入口/非目标主体",
+    "request_count": 1,
+    "mean_response_seconds": 0.121,
+    "timed_total_seconds": 0.121,
+    "login_or_payment": "风控后停止；付费边界未实测",
+    "observations": [
+      {
+        "url": "https://pinpai.qcc.com/own/6c7108d628fc21216e5bc48bb035b61c.html",
+        "status": 405,
+        "reason": null,
+        "elapsed_seconds": 0.121,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-qcc-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "tianyancha",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "仅登录壳；未取得企业正文",
+    "request_count": 1,
+    "mean_response_seconds": 0.409,
+    "timed_total_seconds": 0.409,
+    "login_or_payment": "登录壳可见；具体字段/付费墙未实测",
+    "observations": [
+      {
+        "url": "https://www.tianyancha.com/company/2347945472",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.409,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-tianyancha-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "mihoyo",
+    "type": "private_large",
+    "channel": "supplement",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "百科身份/媒体事件与融资，须看单条等级",
+    "request_count": 2,
+    "mean_response_seconds": 0.223,
+    "timed_total_seconds": 0.447,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://www.cls.cn/detail/2491196",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.291,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-3.html"
+      },
+      {
+        "url": "https://m.bjnews.com.cn/detail/1790214607129180.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.156,
+        "snapshot": "evidence/company-check-2026-10/mihoyo-supp-direct-2.html"
+      }
+    ]
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "tavily",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "URL/主体候选及聚合正文；经复核后才能用",
+    "request_count": 11,
+    "mean_response_seconds": 4.055,
+    "timed_total_seconds": 44.602,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.897,
+        "snapshot": "evidence/company-check-2026-10/bytedance-cloud-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.471,
+        "snapshot": "evidence/company-check-2026-10/bytedance-tiktok-event.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.459,
+        "snapshot": "evidence/company-check-2026-10/bytedance-saas-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.502,
+        "snapshot": "evidence/company-check-2026-10/bytedance-legal-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.611,
+        "snapshot": "evidence/company-check-2026-10/bytedance-ads-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.437,
+        "snapshot": "evidence/company-check-2026-10/bytedance-commercial-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.715,
+        "snapshot": "evidence/company-check-2026-10/bytedance-tianyancha-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.41,
+        "snapshot": "evidence/company-check-2026-10/bytedance-qcc-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 5.097,
+        "snapshot": "evidence/company-check-2026-10/bytedance-events-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.477,
+        "snapshot": "evidence/company-check-2026-10/bytedance-official-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.526,
+        "snapshot": "evidence/company-check-2026-10/bytedance-identity.json"
+      }
+    ]
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "exchange",
+    "applicable": false,
+    "usable_body": false,
+    "fields": "主体/上市/主营/收入/业务调整",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "不适用",
+    "observations": []
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "official",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "产品/业务/使用方；部分收费规则与事件",
+    "request_count": 5,
+    "mean_response_seconds": 0.939,
+    "timed_total_seconds": 4.697,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://m.oceanengine.com/help/yingxiaoziyuan",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.508,
+        "snapshot": "evidence/company-check-2026-10/bytedance-final-direct-0.html"
+      },
+      {
+        "url": "https://docs.volcengine.com/docs/ark/model-service-pricing?lang=zh",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": null,
+        "snapshot": "evidence/company-check-2026-10/bytedance-cloud-cdp.json"
+      },
+      {
+        "url": "https://www.bytedance.com/en/products",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.332,
+        "snapshot": "evidence/company-check-2026-10/bytedance-direct-2.html"
+      },
+      {
+        "url": "https://www.feishu.cn/hc/zh-CN/articles/360049067600-%E9%A3%9E%E4%B9%A6%E5%9F%BA%E7%A1%80%E7%89%88-%E5%95%86%E4%B8%9A%E7%89%88-%E4%BC%81%E4%B8%9A%E7%89%88%E4%BB%8B%E7%BB%8D",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.426,
+        "snapshot": "evidence/company-check-2026-10/bytedance-final-direct-1.html"
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-service-pricing",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 1.9,
+        "snapshot": "evidence/company-check-2026-10/bytedance-final-direct-2.html"
+      },
+      {
+        "url": "https://newsroom.tiktok.com/announcement-from-the-new-tiktok-usds-joint-venture-llc?lang=en",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 1.531,
+        "snapshot": "evidence/company-check-2026-10/bytedance-supp-direct-0.html"
+      }
+    ]
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "gsxt",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "未取得企业正文",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "robots521停止；未进入查询",
+    "observations": [],
+    "shared_preflight": "gsxt-entry.meta.json；一次共享预检，未逐公司请求"
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "qcc",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "不计合规成功；风控/入口/非目标主体",
+    "request_count": 1,
+    "mean_response_seconds": 0.415,
+    "timed_total_seconds": 0.415,
+    "login_or_payment": "风控后停止；付费边界未实测",
+    "observations": [
+      {
+        "url": "https://top.qcc.com/tc/0be052e70708.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.415,
+        "snapshot": "evidence/company-check-2026-10/bytedance-qcc-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "tianyancha",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "仅登录壳；未取得企业正文",
+    "request_count": 1,
+    "mean_response_seconds": 0.416,
+    "timed_total_seconds": 0.416,
+    "login_or_payment": "登录壳可见；具体字段/付费墙未实测",
+    "observations": [
+      {
+        "url": "https://www.tianyancha.com/company/2352987806",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.416,
+        "snapshot": "evidence/company-check-2026-10/bytedance-tianyancha-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "bytedance",
+    "type": "private_large",
+    "channel": "supplement",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "百科身份/媒体事件与融资，须看单条等级",
+    "request_count": 1,
+    "mean_response_seconds": 2.36,
+    "timed_total_seconds": 2.36,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ByteDance",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.36,
+        "snapshot": "evidence/company-check-2026-10/bytedance-supp-direct-6.html"
+      }
+    ]
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "tavily",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "URL/主体候选及聚合正文；经复核后才能用",
+    "request_count": 7,
+    "mean_response_seconds": 3.73,
+    "timed_total_seconds": 26.111,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.968,
+        "snapshot": "evidence/company-check-2026-10/baichuan-identity.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.432,
+        "snapshot": "evidence/company-check-2026-10/baichuan-tianyancha-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.496,
+        "snapshot": "evidence/company-check-2026-10/baichuan-events-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.843,
+        "snapshot": "evidence/company-check-2026-10/baichuan-official-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.137,
+        "snapshot": "evidence/company-check-2026-10/baichuan-unlisted-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 5.329,
+        "snapshot": "evidence/company-check-2026-10/baichuan-qcc-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.906,
+        "snapshot": "evidence/company-check-2026-10/baichuan-event-refine.json"
+      }
+    ]
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "exchange",
+    "applicable": false,
+    "usable_body": false,
+    "fields": "主体/上市/主营/收入/业务调整",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "不适用",
+    "observations": []
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "official",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "产品/业务/使用方；部分收费规则与事件",
+    "request_count": 3,
+    "mean_response_seconds": 0.255,
+    "timed_total_seconds": 0.766,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://www.baichuan-ai.com",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.215,
+        "snapshot": "evidence/company-check-2026-10/baichuan-direct-1.html"
+      },
+      {
+        "url": "https://www.baichuan-ai.com/",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": null,
+        "snapshot": "evidence/company-check-2026-10/baichuan-cdp.json"
+      },
+      {
+        "url": "https://www.baichuan-ai.com/article/baichuan-m4",
+        "status": 404,
+        "reason": null,
+        "elapsed_seconds": 0.225,
+        "snapshot": "evidence/company-check-2026-10/baichuan-direct-0.html"
+      },
+      {
+        "url": "https://platform.baichuan-ai.com/docs/medical-model",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.326,
+        "snapshot": "evidence/company-check-2026-10/baichuan-direct-2.html"
+      }
+    ]
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "gsxt",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "未取得企业正文",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "robots521停止；未进入查询",
+    "observations": [],
+    "shared_preflight": "gsxt-entry.meta.json；一次共享预检，未逐公司请求"
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "qcc",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "不计合规成功；风控/入口/非目标主体",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "风控后停止；付费边界未实测",
+    "observations": [
+      {
+        "url": "https://m.qcc.com/firm/c4910b4c17614a91ef68ed7ef5205149.html",
+        "status": "not_fetched",
+        "reason": "robots_unknown_http_567",
+        "elapsed_seconds": null,
+        "snapshot": null
+      }
+    ]
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "tianyancha",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "仅登录壳；未取得企业正文",
+    "request_count": 1,
+    "mean_response_seconds": 0.369,
+    "timed_total_seconds": 0.369,
+    "login_or_payment": "登录壳可见；具体字段/付费墙未实测",
+    "observations": [
+      {
+        "url": "https://www.tianyancha.com/company/6005364573",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.369,
+        "snapshot": "evidence/company-check-2026-10/baichuan-tianyancha-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "baichuan",
+    "type": "startup",
+    "channel": "supplement",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "百科身份/媒体事件与融资，须看单条等级",
+    "request_count": 3,
+    "mean_response_seconds": 0.389,
+    "timed_total_seconds": 1.166,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://www.lanjinger.com/d/1768352405202337182",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.434,
+        "snapshot": "evidence/company-check-2026-10/baichuan-final-direct-4.html"
+      },
+      {
+        "url": "https://www.yicai.com/news/102205958.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.378,
+        "snapshot": "evidence/company-check-2026-10/baichuan-funding-direct.html"
+      },
+      {
+        "url": "https://www.cls.cn/detail/2253797",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.354,
+        "snapshot": "evidence/company-check-2026-10/baichuan-supp-direct-4.html"
+      }
+    ]
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "tavily",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "URL/主体候选及聚合正文；经复核后才能用",
+    "request_count": 6,
+    "mean_response_seconds": 3.56,
+    "timed_total_seconds": 21.36,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.319,
+        "snapshot": "evidence/company-check-2026-10/humanoid-tianyancha-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.829,
+        "snapshot": "evidence/company-check-2026-10/humanoid-events-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 4.404,
+        "snapshot": "evidence/company-check-2026-10/humanoid-qcc-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.032,
+        "snapshot": "evidence/company-check-2026-10/humanoid-identity.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.502,
+        "snapshot": "evidence/company-check-2026-10/humanoid-unlisted-search.json"
+      },
+      {
+        "url": "https://api.tavily.com/search",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 3.274,
+        "snapshot": "evidence/company-check-2026-10/humanoid-official-search.json"
+      }
+    ]
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "exchange",
+    "applicable": false,
+    "usable_body": false,
+    "fields": "主体/上市/主营/收入/业务调整",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "不适用",
+    "observations": []
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "official",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "产品/业务/使用方；部分收费规则与事件",
+    "request_count": 4,
+    "mean_response_seconds": 0.837,
+    "timed_total_seconds": 3.346,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://www.x-humanoid.com/news-view-346.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.315,
+        "snapshot": "evidence/company-check-2026-10/humanoid-direct-2.html"
+      },
+      {
+        "url": "https://www.x-humanoid.com/about.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.352,
+        "snapshot": "evidence/company-check-2026-10/humanoid-final-direct-3.html"
+      },
+      {
+        "url": "https://www.x-humanoid.com/news-view-327.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.546,
+        "snapshot": "evidence/company-check-2026-10/humanoid-direct-0.html"
+      },
+      {
+        "url": "https://www.x-humanoid.com/news-view-246.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 2.133,
+        "snapshot": "evidence/company-check-2026-10/humanoid-funding-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "gsxt",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "未取得企业正文",
+    "request_count": 0,
+    "mean_response_seconds": null,
+    "timed_total_seconds": null,
+    "login_or_payment": "robots521停止；未进入查询",
+    "observations": [],
+    "shared_preflight": "gsxt-entry.meta.json；一次共享预检，未逐公司请求"
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "qcc",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "不计合规成功；风控/入口/非目标主体",
+    "request_count": 1,
+    "mean_response_seconds": 0.133,
+    "timed_total_seconds": 0.133,
+    "login_or_payment": "风控后停止；付费边界未实测",
+    "observations": [
+      {
+        "url": "https://www.qcc.com/firm/ca3bf16633fe466568fb8e4b16269280.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.133,
+        "snapshot": "evidence/company-check-2026-10/humanoid-qcc-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "tianyancha",
+    "applicable": true,
+    "usable_body": false,
+    "fields": "仅登录壳；未取得企业正文",
+    "request_count": 1,
+    "mean_response_seconds": 0.415,
+    "timed_total_seconds": 0.415,
+    "login_or_payment": "登录壳可见；具体字段/付费墙未实测",
+    "observations": [
+      {
+        "url": "https://www.tianyancha.com/company/6611513661",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.415,
+        "snapshot": "evidence/company-check-2026-10/humanoid-tianyancha-direct.html"
+      }
+    ]
+  },
+  {
+    "company": "humanoid",
+    "type": "startup",
+    "channel": "supplement",
+    "applicable": true,
+    "usable_body": true,
+    "fields": "百科身份/媒体事件与融资，须看单条等级",
+    "request_count": 1,
+    "mean_response_seconds": 0.355,
+    "timed_total_seconds": 0.355,
+    "login_or_payment": "本轮使用不需登录/付费",
+    "observations": [
+      {
+        "url": "https://m.caixin.com/m/2026-02-03/102411100.html",
+        "status": 200,
+        "reason": null,
+        "elapsed_seconds": 0.355,
+        "snapshot": "evidence/company-check-2026-10/humanoid-supp-direct-5.html"
+      }
+    ]
+  }
+]

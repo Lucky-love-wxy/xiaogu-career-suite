@@ -1,0 +1,1751 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="force-rendering" content="webkit"/>
+<meta name="renderer" content="webkit"/>
+<!-- 栏目标签 -->
+<meta name="SiteName" content="吉林省卫生健康委员会"/>
+<meta name="SiteDomain" content="http://wsjkw.jl.gov.cn"/>
+<meta name="SiteIDCode" content="2200000009"/>
+<meta name="ColumnName" content=" "/>
+<meta name="ColumnType" content=" "/>
+<meta name="ArticleTitle" content=""/>
+<meta name="PubDate" content=""/>
+<meta name="ContentSource" content="" />
+<meta name="Url" content=""/>
+<!-- 栏目标签 -->
+<title>吉林省卫生健康委员会</title>
+ 
+<link rel="icon" href="./kzgn/t/images/P020210113324433970062.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="./images/zly_20201209.css" />
+<script src="./images/jquery-1.11.3.min.js"></script>
+<script src="./images/jquery.SuperSlide.2.1.1_dzj_mxr_20200413.js"></script>
+<script src="./images/tabbedContent_dzj_mxr_20200413.js"></script>
+<script src="./images/jquery.tabso_yeso.js"></script>
+<script type="text/javascript">
+$(document).ready(function($){
+
+	
+
+	//上下滑动选项卡切换
+
+	$("#move-animate-top").tabso({
+
+		cntSelect:"#topcon",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"move-animate",
+
+		direction : "top"
+
+	});
+
+	
+
+	//左右滑动选项卡切换
+
+	$("#move-animate-left").tabso({
+
+		cntSelect:"#leftcon",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"move-animate",
+
+		direction : "left"
+
+	});
+
+	
+
+	//淡隐淡现选项卡切换
+
+	$("#fadetab").tabso({
+
+		cntSelect:"#fadecon",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"fade"
+
+	});
+
+	//淡隐淡现选项卡切换
+
+	$("#fadetab1").tabso({
+
+		cntSelect:"#fadecon1",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"fade"
+
+	});
+//淡隐淡现选项卡切换
+
+	$("#fadetab2").tabso({
+
+		cntSelect:"#fadecon2",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"fade"
+
+	});
+ 
+
+
+	//默认选项卡切换
+
+	$("#normaltab").tabso({
+
+		cntSelect:"#normalcon",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"normal"
+
+	});
+
+	$("#normaltab1").tabso({
+
+		cntSelect:"#normalcon1",
+
+		tabEvent:"mouseover",
+
+		tabStyle:"normal"
+
+	});
+
+
+});
+
+
+
+</script>
+<!--时间-->
+ 
+	<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="./images/zly_20201209ie.css" />
+        <script src="./images/selectivizr.js"></script>
+        <script src="./images/html5shiv.min.js"></script>
+        <script src="./images/respond.js"></script>
+    <![endif]-->
+</head>
+<!--是否手机JS-->
+<script type="text/javascript">
+var mobileAgent = new Array("iphone", "ipod", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+var browser = navigator.userAgent.toLowerCase();
+var isMobile = false;
+   var href=window.location.href;
+   //href=getLasturl(href);
+   var host=window.location.host;
+for (var i=0; i<mobileAgent.length; i++){ 
+if (browser.indexOf(mobileAgent[i])!=-1){ 
+isMobile = true;location.href = href + 'wap.html' ;break; 
+}
+}
+//获取第一个反斜杠后的内容
+function getLasturl(value){
+   const str = value.split("http://");
+   const index = str[1].indexOf("/")+1;
+   return str[1].substring(index);
+}
+</script>
+<!--全省政府搜索-->
+<script>
+ $(function(){
+  $(".yws").click(function (e) { 
+        var ywsval=$(".ss1").val();
+                      if(ywsval != ''){
+                      window.open("https://intellsearch.jl.gov.cn/search/index.html?a=jl2&q="+ywsval);}
+                      else{alert("搜索框不能为空，请输入关键词")}
+  })
+ })
+</script> 
+<!--无障碍JS--> <!--<script src="./images/userInfo_4.js"></script>-->
+<script type="text/javascript" src="https://jl.gov.cn/images/07030userInfo_4.js"></script>
+<!--<script src="/wza/bwscript/esd_wza_Script_wsjkw.js"></script>-->
+<script>
+function openToolbar(){ /*打开无障碍辅助工具*/
+	if(window.location==top.location){
+		var str_location = window.location.href;
+		window.location.href = "/wza/?wcaUrl=" +  str_location;
+	}
+}
+</script>
+<style>
+.pz_slides_3 .next,.pz_slides_3 .prev{display:none}
+
+.tpxw_bt {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    height: 46px;
+    width: 100%;
+    line-height: 46px;
+    text-align: left;
+    border-radius: 0;
+}
+.tpxw_bt a{padding-left:10px;}
+.pz_slides_3 ._pic li a{color:#fff;display:inline-block;}
+.pz_slides_3 ._btn {bottom: -30px;
+    right: 0;
+    height: 60px;}
+
+.pz_slides_3 ._btn ul li {
+    width: 10px;
+    height: 10px;
+  background:none; border: #fff 1px solid;
+    border-radius: 50%;
+}
+.pz_slides_3 ._btn ul li.on{background:url(./images/ty_h20260309.png) no-repeat; background-size:100% 100%; width:12px; height:12px; border:none}
+
+
+
+
+.acss, .bcss{    padding: 9px 0 10px 0;}
+.zwfw a{font-weight:bold;}
+.nbzbcg{    background: #005292;}
+.nbzbcg2026{    background: #005292; line-height: 32px;}
+.nbzbcg2026 a{    background: #005292;}
+.lingd span{font-size:13px;}
+body {
+  
+  font-family: "微软雅黑","microsoft yahei";}
+.zlimg {
+    margin: 5px auto 1px auto;
+    width: 287px;
+    height: 44px;
+    border: #dcdcdc 1px solid;
+    overflow: hidden;
+}
+.zlimg img {
+    width: 100%;
+    height: 44px;
+}
+body{background:none}
+.sbtn{
+*padding:2px 6px;
+}
+.btn_search{
+*padding:2px 6px;
+}
+.w80 A{
+*width:70%;
+}
+.ss_f{
+*width:600px;
+}
+BODY{*overflow-x:hidden;
+}
+.ss UL LI{
+*float:left;
+}
+.ss UL{
+*float:right;
+}
+.w30{
+*width:30%!important;
+}
+.w48{
+width:48%!important;
+margin-left:2%;
+}
+.login img{
+width:20px;
+}
+.spxx{
+height:247px;
+}
+.hd{
+margin-bottom:7px;
+line-height: 36px;
+}
+.jgwj{
+margin-top:10px;
+}
+.zlimg img{
+width:100%;
+}
+h2 a{
+font-weight: bold;
+}
+.tabPanel ul li a{
+font-weight: bold;
+}
+.tabPanel1 ul li a{
+font-weight: bold;
+}
+.tabbtn .active a{
+font-weight: bold;
+}
+.tabPanel2 ul li a{
+font-weight: bold;
+}
+.tabPanel2021 ul li{
+    border-radius: 3px;
+    background: #f9f9f9;
+    display: inline-block;
+    width: auto;
+    margin: 5px 0;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: #dcdcdc 1px solid;
+    line-height: 30px;
+    text-align: center;
+}
+}
+.tabPanel2021 ul li a{
+ 
+    padding: 0;
+}
+.tabPanel2021 .tabbtn .active{
+background: #1c7aad;
+}
+.tabPanel2021 .tabbtn .active a{
+font-weight:normal;
+color:#fff;
+}
+.xxl:before{
+top:6px;
+}
+.xx_gk {
+    text-align: center;
+    width: 75px;
+    height: 98px;
+    border: #dcdcdc 1px solid;
+    background: #f2f2f2;
+    border-radius: 3px;
+    float: left;
+    margin: 10px 0 0 8px;
+}
+.xx_gk a {
+    display: block;
+    float: none;
+    font-size: 14px;
+    margin-top: 0;
+    margin-right: 0;
+    color: #333;
+    text-align: center;
+}
+.xx_gk:hover img{
+ margin: 10px; 
+}
+.xx_gk img{    height: 26px;
+    width: 26px;
+    margin: 12px 0 10px 0;}
+.zwfw{
+background:none;
+}
+.lingd a:hover{
+    color: #2f77c9;
+}
+.w283 img {
+height: 48px;
+    width: auto;
+    margin-left: -50px;
+}
+.xxl{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.yyxt{
+line-height:72px;
+}
+.yyxt a{
+    font-weight: bold;
+}
+input[type="button"]{
+outline: 0px;
+    -webkit-appearance: none;
+}
+.ss ul li{ margin-left:0;}
+.ss ul li a{ margin-left:16px;}
+#searchform1{
+float:left;
+}
+.ss{width:auto;}
+.gg{    position: relative;}
+.kyxf{
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.gg:hover .kyxf{
+    color: #fff;
+    z-index: 9999;
+    opacity: 1;
+    text-decoration: underline;
+}
+.zlymt8{ margin-top:8px;}
+.w80 a{ width:78%;}
+.tabbtn .active a{ color: #1c7aad;}
+.xzspdd{    margin-right: 11px;
+width:118px;     height: 85px;     margin-bottom: 10px
+}
+.xz_bg1 span{    background-position: 45px 10px;}
+.xzspdd a{    font-size: 15px;}
+
+.xzspdd span{
+height:45px;
+}
+.xz_bg2 span {
+    background-position: -48px 9px;
+}
+
+.xz_bg3 span {
+    background-position: -140px 12px;
+}
+.xz_bg4 span {
+       background-position: 40px -80px;
+}
+.xz_bg5 span {
+    background-position: -48px -80px;
+}
+.xz_bg6 span {
+    background-position: -140px -85px;
+}
+.xz_bg7 span {
+    background-position: 40px -170px;
+}
+.xz_bg8 span {
+    background-position: -48px -165px;
+}
+.p-50 span { height: 53px; }
+.w283{ height:47px;}
+.lingd{
+margin-bottom:5px;
+}
+.pstyle{ padding-left: 0!important; margin-bottom: 18px;}
+.pstyle span{width: 55px;     margin-left: 0;
+    height: 22px;
+    background: #ffa873;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 3px;}
+.pstyle:before{display:none;}
+.pstyle a{
+width: 83%;
+    white-space: inherit;
+    text-overflow: ellipsis;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+.xjtj{
+height: 29px;
+    display: block;
+    border: #b1d9fa 1px solid;
+    background: #f5fcff;
+    line-height: 29px;
+    font-size: 14px;
+    text-align: center;
+    color: #6eb9f5;
+    margin-bottom: 13px;
+}
+.xjtj em{
+color:#f00
+}
+.yjs{     background: #bec2c7 ;}
+.xz_bg9 span{ background:url( ./images/wsjsw_spaq_20210820.png) no-repeat center 10px;}
+.xz_bg10 span{ background:url(./zwfw/381124/images/P020210825621664074569.png) no-repeat center 10px;     background-size: 30px;}
+
+.xz_bg11 span{ background:url( ./zwfw/381125/images/P020210825621723917348.png) no-repeat center 10px;     background-size: 30px;}
+.xz_bg12 span{ background:url( ./zwfw/381126/images/P020210825621784660994.png) no-repeat center 10px;     background-size: 30px;}
+.xz_bg13 span{ background:url( ./zwfw/bjyp/images/P020230522529955902195.png) no-repeat center 10px;     background-size: 30px;}
+.gg {
+    float: left;
+    margin: 28px auto;
+    width: 959px;
+    height: 131px;
+    overflow: hidden;}
+.gg1{
+margin: 28px auto;
+    margin-left: 20px;
+    width: 218px;
+    float: left;
+    border-radius: 5px;
+}
+.gg1 img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.zn_bgtxt2022{
+margin-top:-28px
+}
+.rsxx_bg{background: url(./rsxx/images/P020250704605146055668.png) no-repeat 0 10px !important; background-size: 20px auto!important;}
+.h280 {
+    height: 230px !important;
+}
+</style>
+<body>
+    
+<!--飘窗开始-->
+<div id="fgw_indexpc" class="fgw_indexpc">
+    <div>
+        <span>×</span>
+    
+   <p>
+
+<a href="http://www.xinhuanet.com/politics/xxjxs/index.htm"><img src="./kzgn/sypc/202201/W020220129382483416714.png" alt="微信图片_20220129103709.png"/></a>
+
+    </p>
+    </div>
+</div>
+
+<style>
+.fgw_indexpc{width:348px;height:auto;z-index:100;left:10px;top:10px;position:absolute;}
+.fgw_indexpc div{position:relative;}
+.fgw_indexpc span{position:absolute;width:20px;height:20px; font-size:14px;cursor:pointer;background:#fff;right:0;top:0; line-height:20px;text-align:center;}
+.fgw_indexpc p{width:348px;height:auto;}
+.fgw_indexpc img{display:block;width:348px;height:auto;}
+</style>
+<script>
+function addEvent(obj,evtType,func,cap){ 
+cap=cap||false; 
+if(obj.addEventListener){ 
+obj.addEventListener(evtType,func,cap); 
+return true; 
+}else if(obj.attachEvent){ 
+if(cap){ 
+obj.setCapture(); 
+return true; 
+}else{ 
+return obj.attachEvent("on" + evtType,func); 
+} 
+}else{ 
+return false; 
+} 
+} 
+function getPageScroll(){ 
+var xScroll,yScroll; 
+if (self.pageXOffset) { 
+xScroll = self.pageXOffset; 
+} else if (document.documentElement && document.documentElement.scrollLeft){ 
+xScroll = document.documentElement.scrollLeft; 
+} else if (document.body) { 
+xScroll = document.body.scrollLeft; 
+} 
+if (self.pageYOffset) { 
+yScroll = self.pageYOffset; 
+} else if (document.documentElement && document.documentElement.scrollTop){ 
+yScroll = document.documentElement.scrollTop; 
+} else if (document.body) { 
+yScroll = document.body.scrollTop; 
+} 
+arrayPageScroll = new Array(xScroll,yScroll); 
+return arrayPageScroll; 
+} 
+function GetPageSize(){ 
+var xScroll, yScroll; 
+if (window.innerHeight && window.scrollMaxY) { 
+xScroll = document.body.scrollWidth; 
+yScroll = window.innerHeight + window.scrollMaxY; 
+} else if (document.body.scrollHeight > document.body.offsetHeight){ 
+xScroll = document.body.scrollWidth; 
+yScroll = document.body.scrollHeight; 
+} else { 
+xScroll = document.body.offsetWidth; 
+yScroll = document.body.offsetHeight; 
+} 
+var windowWidth, windowHeight; 
+if (self.innerHeight) { 
+windowWidth = self.innerWidth; 
+windowHeight = self.innerHeight; 
+} else if (document.documentElement && document.documentElement.clientHeight) { 
+windowWidth = document.documentElement.clientWidth; 
+windowHeight = document.documentElement.clientHeight; 
+} else if (document.body) { 
+windowWidth = document.body.clientWidth; 
+windowHeight = document.body.clientHeight; 
+} 
+if(yScroll < windowHeight){ 
+pageHeight = windowHeight; 
+} else { 
+pageHeight = yScroll; 
+} 
+if(xScroll < windowWidth){ 
+pageWidth = windowWidth; 
+} else { 
+pageWidth = xScroll; 
+} 
+arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+return arrayPageSize; 
+} 
+
+var AdMoveConfig=new Object(); 
+AdMoveConfig.IsInitialized=false; 
+AdMoveConfig.ScrollX=0; 
+AdMoveConfig.ScrollY=0; 
+AdMoveConfig.MoveWidth=0; 
+AdMoveConfig.MoveHeight=0; 
+AdMoveConfig.Resize=function(){ 
+var winsize=GetPageSize(); 
+AdMoveConfig.MoveWidth=winsize[2]; 
+AdMoveConfig.MoveHeight=winsize[3]; 
+AdMoveConfig.Scroll(); 
+} 
+AdMoveConfig.Scroll=function(){ 
+var winscroll=getPageScroll(); 
+AdMoveConfig.ScrollX=winscroll[0]; 
+AdMoveConfig.ScrollY=winscroll[1]; 
+} 
+addEvent(window,"resize",AdMoveConfig.Resize); 
+addEvent(window,"scroll",AdMoveConfig.Scroll); 
+function AdMove(id){ 
+if(!AdMoveConfig.IsInitialized){ 
+AdMoveConfig.Resize(); 
+AdMoveConfig.IsInitialized=true; 
+} 
+var obj=document.getElementById(id); 
+obj.style.position="absolute"; 
+var W=AdMoveConfig.MoveWidth-obj.offsetWidth; 
+var H=AdMoveConfig.MoveHeight-obj.offsetHeight; 
+var x = W*Math.random(),y = H*Math.random(); 
+var rad=(Math.random()+1)*Math.PI/6; 
+var kx=Math.sin(rad),ky=Math.cos(rad); 
+var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1); 
+var step = 1; 
+var interval; 
+this.SetLocation=function(vx,vy){x=vx;y=vy;} 
+this.SetDirection=function(vx,vy){dirx=vx;diry=vy;} 
+obj.CustomMethod=function(){ 
+obj.style.left = (x + AdMoveConfig.ScrollX) + "px"; 
+obj.style.top = (y + AdMoveConfig.ScrollY) + "px"; 
+rad=(Math.random()+1)*Math.PI/6; 
+W=AdMoveConfig.MoveWidth-obj.offsetWidth; 
+H=AdMoveConfig.MoveHeight-obj.offsetHeight; 
+x = x + step*kx*dirx; 
+if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);} 
+y = y + step*ky*diry; 
+if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);} 
+} 
+this.Run=function(){ 
+var delay = 10; 
+interval=setInterval(obj.CustomMethod,delay); 
+obj.onmouseover=function(){clearInterval(interval);} 
+obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);} 
+} 
+} 
+
+var fgw_indexpc=new AdMove("fgw_indexpc"); 
+fgw_indexpc.Run();
+
+$(".fgw_indexpc span").click(function(){
+            $(".fgw_indexpc").hide();
+                });
+	var fgw_indexpc=new AdMove("fgw_indexpc1"); 
+fgw_indexpc.Run();
+
+$(".fgw_indexpc1 span").click(function(){
+            $(".fgw_indexpc1").hide();
+                });	
+</script>
+<!--飘窗结束-->
+	<!--top-->
+	<div class="top">
+		<div class="w1200">
+			<h1><A href="/"><img src="./images/zly_wjw_20201208logo1.png" /></A></h1>
+			<div class="ss">
+				<ul class="login">
+
+					<li><a href="https://weibo.com/jlswst"><img src='./kzgn/wb/images/P020210127467806384689.png'/>&nbsp;&nbsp;微博</a></li>
+
+
+					<li><a href="./kzgn/wx/201809/t20180921_7872754.html"><img src='./kzgn/wb/images/P020210127468107109452.png'/>&nbsp;&nbsp;微信</a></li>
+
+					<li class="wza"><a href="javascript:void(0);" id="toolbarSwitch" onclick="EsdInit.openClickFunc();" onkeydown="EsdInit.openKeydownFunc(event);" title="无障碍浏览"><img src='./kzgn/wb/images/P020210127467995783421.png'/>&nbsp;&nbsp;无障碍</a></li>
+					<li><a href="javascript:void(0)" id="loginBtn">登录</a></li><li ><a href="javascript:void(0)" id="tcBtn" style="display:none">退出登录</a></li><li><a href="javascript:void(0)" id="zcBtn">注册</a></li>
+              <div style="display: none;">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let protocol = window.location.protocol === "http:" ? "http://" : "https://";
+      let iframeHost = window.location.host.indexOf("www") !== -1 ? "www." : "";
+      let iframe = document.createElement("iframe");
+      iframe.src = "https://user.jl.gov.cn/v1/apigw/none/user/authentication/checklogin?appId=575ecd1d2d70450ea4c5a6b468c50c7f&version=1.0.0&format=json&charset=utf-8&timestamp=2019-08-10%2016:46:13&backUrl=" + protocol + iframeHost + "wsjkw.jl.gov.cn/kzgn/dl/";
+      iframe.id = "gjdl";
+      iframe.style.display = "none"
+      document.body.appendChild(iframe); // 将 iframe 插入到页面中
+  });
+</script>
+          </div>    
+					<li><a><script type="text/javascript" src="./images/wjw2017_date.js"></script></a></li>
+				</ul>
+				<div class="ss_f">
+
+				<form id="searchform1" name="searchform1" method="get" action="//was.jl.gov.cn/was5/web/search" target="_blank">
+				<input type="hidden" name="presearchword" value="" />
+                <input type="hidden" name="channelid" class="txtinput" value="206195" />
+                <input type="hidden" name="StringEncoding" value="UTF-8" />
+				<input name="searchword" type="text" onblur="if(this.value==''){this.value='请输入您要查找的内容';}" onfocus="if(this.value=='请输入您要查找的内容')this.value='';" value="" class="search ss1 inp_search" id="keyword" onclick="this.value=''" title="请输入您要查找的内容" placeholder="请输入您要查找的内容" />
+        	    <input type="submit" name="button" id="button" value="搜本站" class="btn_search" onclick="submitSearch()" title="提交按钮" />
+     		 </form><input name="" type="button" value="搜全省政府网站" class="sbtn yws" />
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//top-->
+	 <!--首页头部banner-->
+<style>
+.sytb_20251118{    width: 1200px;
+    margin: 0 auto;}
+.sytb_20251118 a{    display: inline-block;
+    margin: 0 auto 10px auto;
+    overflow: hidden;
+    width: 100%;}
+.sytb_20251118 a img{ width: 100%; border-radius: 5px; height: 64px;}
+</style>
+
+<div class="sytb_20251118"> 
+<a href="https://www.nhc.gov.cn/xcs/jjlhel/elnlh.shtml"><img src="./kzgn/sytb/202603/W020260309334937254874.png" alt="13bf8b80f2d04287876798f5fbf06527.png"/></a>
+
+<a href="https://www.nhc.gov.cn/xcs/xxdszqh/esjsizqh.shtml"><img src="./kzgn/sytb/202511/W020251118592444569353.jpg" alt="2.jpg"/></a>
+
+<a href="https://www.nhc.gov.cn/xcs/jkzglszb/new_list.shtml"><img src="./kzgn/sytb/202511/W020251118584374856678.png" alt="4f534816f1f842aeab7c9c0285fbfe98.png"/></a>
+
+</div>
+<!--首页头部banner-->
+	<!--menu-->
+	<div class="menu">
+	 <dl class="tabs" id="tabs1">
+  <dt>
+   <a class="acss " href="#panel-1" onClick="window.open('/');"><span class="home">首页</span></a>
+   <a class="bcss " href="#panel-2"  onClick="window.open('./jggk/');"><span class="jg">机构概况</span></a>
+   <a class="bcss " href="#panel-3"  onClick="window.open('./xwzx/');"><span class="xw">新闻中心</span></a> 
+   <a class="bcss " href="#panel-4"  onClick="window.open('./zdzt/');"><span class="zt">重点专题</span></a>
+  </dt>
+		 <!--首页-->
+  <dd id="panel-1">
+	<!--图片新闻-->
+		 
+		<div class="tpxw">
+        <div class="pz_slides_3"> 
+			<div class="_btn"><ul>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+</ul></div>
+            <div class="_pic">
+                <ul>
+                  
+                    
+
+                    <li style="display: none;">
+                        <a href="https://www.gov.cn/home/toutu/202609/content_7082512.htm"><img src="./xwzx/tpxw/202610/W020261008417166118914.jpg" alt="1.jpg"/></a>
+                        <div class="tpxw_bt">
+                           <a href="https://www.gov.cn/home/toutu/202609/content_7082512.htm" target="_blank" title="习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会">习近平等党和国家领导人出席庆祝中华人民共和国成立77周年...</a>   
+                        </div>
+                    </li>
+          
+                    <li style="display: none;">
+                        <a href="http://www.jl.gov.cn/yaowen/202610/t20261008_3673674.html"><img src="./xwzx/tpxw/202610/W020261008417768655236.png" alt="2.png"/></a>
+                        <div class="tpxw_bt">
+                           <a href="http://www.jl.gov.cn/yaowen/202610/t20261008_3673674.html" target="_blank" title="黄强在吉林网络名人座谈会上强调 弘扬主旋律 传播正能量 激发吉林全面振兴的强大力量">黄强在吉林网络名人座谈会上强调 弘扬主旋律 传播正能量 激...</a>   
+                        </div>
+                    </li>
+          
+                    <li style="display: none;">
+                        <a href="./xwzx/tpxw/202607/t20260714_9664422.html"><img src="./xwzx/tpxw/202607/W020260714357016517838.png" alt="图片3.png"/></a>
+                        <div class="tpxw_bt">
+                           <a href="./xwzx/tpxw/202607/t20260714_9664422.html" target="_blank" title="省卫生健康委召开“两优一先”表彰大会">省卫生健康委召开“两优一先”表彰大会</a>   
+                        </div>
+                    </li>
+          
+                    <li style="display: none;">
+                        <a href="https://www.nhc.gov.cn/wjw/c100365/hdjl_xwfbh_detail.shtml?id=fd03bf341169404c9ea92e4c6be38e27"><img src="./xwzx/tpxw/202609/W020260924449261794629.jpg" alt="1111.jpg"/></a>
+                        <div class="tpxw_bt">
+                           <a href="https://www.nhc.gov.cn/wjw/c100365/hdjl_xwfbh_detail.shtml?id=fd03bf341169404c9ea92e4c6be38e27" target="_blank" title="国家卫生健康委2026年9月23日新闻发布会介绍时令节气与健康（秋分）有关情况">国家卫生健康委2026年9月23日新闻发布会介绍时令节气与健康...</a>   
+                        </div>
+                    </li>
+          
+         
+                    <li style="display: list-item; ">
+                        <a href="https://liuyan.www.gov.cn/2024wwzfgzbgtjy/bmdf.html?q=jl"><img src="./xwzx/tpxw/202312/W020240311576771061732.jpg" alt="1100-610.jpg"/></a>
+                        <div class="tpxw_bt">
+                           <a href="https://liuyan.www.gov.cn/2024wwzfgzbgtjy/bmdf.html?q=jl" target="_blank" title="@国务院 我来说">@国务院 我来说</a>   
+                        </div>
+                    </li>
+
+                    
+                   
+                </ul>
+				
+            </div>
+            <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+            <a href="#" class="photo_news"></a>
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+        </div>
+       
+    </div>
+		
+	
+		<!--图片新闻-->	
+	   <!--新闻中心-->
+	  <div class="xwzx">
+	  <h2 class="xwzx_bg"><a href="./xwzx/xwzx/">新闻中心</a></h2>
+		  <div class="xx topnewslv">
+
+
+		  	<div class="xxl xxl_n"><a href="./xwzx/xwzx/202610/t20261009_9727255.html" target="_blank" title="省卫生健康委直属单位第一届“仁心杯”职工篮球赛开赛">省卫生健康委直属单位第一届“仁心杯”职工篮球赛开赛</a>   <span>10-09</span></div>
+		
+		  	<div class="xxl xxl_n"><a href="./xwzx/xwzx/202609/t20260929_9724999.html" target="_blank" title="省卫生健康委组织开展吉林省慢性病防治大型健康义诊活动">省卫生健康委组织开展吉林省慢性病防治大型健康义诊活动</a>   <span>09-29</span></div>
+		
+	   
+			  <div class="xxl  " style="margin-bottom:13px;"><a href="./xwzx/xwzx/202609/t20260924_9722789.html" target="_blank" title="2026年度“好家风 健康行”家庭健康主题推进活动基层行延吉专场活动成功举办">2026年度“好家风 健康行”家庭健康主题推进活动基层行延吉专场活动成功举办</a>   <span>09-24</span></div>
+			 	   
+			  <div class="xxl  " style="margin-bottom:13px;"><a href="https://mp.weixin.qq.com/s/9QRlsNUCoXYAfQmpWZY56g" target="_blank" title="吉林省发布《关于深化“健康吉人家”家庭健康促进行动的倡议书》">吉林省发布《关于深化“健康吉人家”家庭健康促进行动的倡议书》</a>   <span>09-24</span></div>
+			 	   
+			  <div class="xxl  " style="margin-bottom:13px;"><a href="./xwzx/xwzx/202609/t20260923_9721308.html" target="_blank" title="筑牢边境生命安全防线 全省重点地区急救知识普及宣传培训在集安启动">筑牢边境生命安全防线 全省重点地区急救知识普及宣传培训在集安启动</a>   <span>09-23</span></div>
+			 	   
+			  <div class="xxl  " style="margin-bottom:13px;"><a href="./xwzx/xwzx/202609/t20260921_9719351.html" target="_blank" title="中华医学会基层卫生公益培训班在吉林省白城市开班">中华医学会基层卫生公益培训班在吉林省白城市开班</a>   <span>09-18</span></div>
+			 
+ 
+		  </div>
+	  </div>
+ <script>
+        $(function() {
+            // 1. 获取容器.xx的高度（可视高度）
+            var containerHeight = 330;
+ 
+            // 初始化已占用高度
+            var usedHeight = 0;
+
+            // 2. 遍历所有.xxl元素
+            $('.topnewslv .xxl').each(function(index, element) {
+                // 获取当前.xxl元素的高度（包含margin）
+                var currentHeight = $(this).outerHeight(true);
+                
+                // 3. 判断累加后是否超出容器高度
+                if (usedHeight + currentHeight > containerHeight) {
+                    // 超出则隐藏当前及后续的.xxl
+                    $(this).hide();
+                } else {
+                    // 未超出则累加高度
+                    usedHeight += currentHeight;
+                }
+            });
+        });
+    </script>
+	  <!--新闻中心-->
+  </dd>
+		 <!--首页-->
+		 <!--机构概况-->
+  <dd id="panel-2" style="display:none;">
+	  <!--委领导-->
+	  <div class="wld" style="width:288px">
+	  	<h2><a href="./jggk/wld/">委领导</a> </h2>
+
+		  <div class="lingd "><a href="./jggk/wld/xxh/">徐晓红</a><span>吉林省卫生健康委员会党组书记、主任</span></div>
+
+
+		  <div class="lingd "><a href="./jggk/wld/xc_214060/">张ㅤ艳</a><span>吉林省卫生健康委员会党组成员、副主任（兼），吉林省疾病预防控制局党组书记、局长</span></div>
+
+		  <div class="lingd "><a href="./jggk/wld/wjh/">王静慧</a><span>吉林省卫生健康委员会副主任</span></div>
+
+		  <div class="lingd "><a href="./jggk/wld/hj/">赫ㅤ军</a><span>吉林省卫生健康委员会党组成员、省纪委监委驻省卫生健康委纪检监察组组长</span></div>
+
+		  <div class="lingd "><a href="./jggk/wld/zyw/">张余威</a><span>吉林省卫生健康委员会党组成员、副主任（兼），吉林省中医药管理局党组书记、局长</span></div>
+
+		  <div class="lingd "><a href="./jggk/wld/wgq/">王国庆</a><span>吉林省卫生健康委员会党组成员、副主任</span></div>
+
+		  <div class="lingd "><a href="./jggk/wld/dlq/">邓立权</a><span>吉林省卫生健康委员会党组成员、副主任</span></div>
+
+		  <div class="lingd "><a href="./jggk/wld/wsf/">王树锋</a><span>吉林省卫生健康委员会党组成员、副主任</span></div>
+
+		   
+	  </div>
+	  <!--//委领导-->
+	   <!--机构职能-->
+	  <div class="wld w210" style="margin-left:10px;">
+	  	<h2><a href="./jggk/jgzn/">机构职能</a></h2>
+		 <div class="zn_bg"><div class="zn_bgtxt2022"><br/>　　省卫生健康委贯彻落实党中央和省委关于卫生健康工作的方针政策和决策部署，在履行职责过程中坚持和加强党对卫生健康工作的集中统一领导。主要职责是：省卫生健康委贯彻落实党中央和省委关于卫生健康工作的方针政策和决策部署，在...<A href="./jggk/jgzn/202207/t20220727_8523907.html">更多</A></div>
+		  </div>
+	  </div>
+	   <!--//机构职能-->
+	  <!--直属单位-->
+	  <div class="zsdw">
+
+    <div class="tabPanel">
+		<ul class="tabbtn" id="fadetab2">
+			<li class="active"><a href="./jggk/wncs/">委内处室</a></li>
+			<li ><a href="./jggk/zsdw/">直属单位</a></li>
+			
+		</ul>
+		<div class="panes tabcon" id="fadecon2">
+			<!--委内处室-->
+			<div class="pane sublist" style="display: none;">
+
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/bgs/">办公室（外事办公室）</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/rsgl/">人事处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/ghxx/">规划发展与信息化处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/cwgl/">财务处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/fzjs/">法规处（行政审批办公室）</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/tzgg/">体制改革处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/yzyg/">医政处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/jcws/">基层卫生健康处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/wsyj/">医疗应急与监督处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/kjjy/">科技教育处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/yzgl/">药物政策与基本药物制度处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/spaq/">食品安全标准与监测评估处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/spaq_137245/">老龄健康处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/fyjk/">妇幼健康处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/spaq_137249/">职业健康处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/jtfz/">人口监测与家庭发展处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/xwxc/">宣传处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/bjc/">保健处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/aqsc/">安全生产监督管理处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/ltgl/">老干部处</a> </div>
+		
+			    <div class="xxl xl w30 zlymt8"><a href="./jggk/wncs/jgdw/">机关党委</a> </div>
+				 
+				 
+			</div>
+			<!--委内处室-->
+			<!--直属单位-->
+			<div class="pane sublist" style="display: block;    margin-top: 8px;
+    height: 330px;
+    overflow: hidden;">
+
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw/">吉林省人民医院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80008/">吉林省肿瘤医院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_81139/">吉林省肿瘤防治研究所（省肿瘤防治办公室）</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80012/">吉林省神经精神病医院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80020/">吉林省前卫医院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_136816/">吉林省一汽总医院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80048/">吉林省妇幼保健院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_81155/">吉林省人口生命科学技术研究院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80044/">吉林省职业病防治院</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_81151/">吉林省化学中毒医疗救治基地</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80024/">吉林省中医药科学院（省中医药科学院第一临床医院）</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80052/">吉林省卫生健康综合监督保障中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80064/">吉林省临床检验中心（省医疗机构质量监测评价中心）</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80096/">吉林省健康教育中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80092/">吉林省医学会秘书处</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80076/">吉林省医学期刊社</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80104/">吉林省卫生健康信息中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80084/">吉林省卫生健康委员会国际交流与合作中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80080/">中共吉林省委保健委员会办公室</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80060/">吉林省社区卫生服务管理中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80068/">吉林省突发公共卫生事件处置服务中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80112/">吉林省人口计划考核站</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80100/">吉林省卫生健康委员会宣传中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80116/">吉林省卫生健康委员会药具管理中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80120/">吉林省流动人口计划生育管理站</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80088/">吉林省计划生育协会</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80072/">吉林省医疗急救指挥中心</a> </div>
+		
+			    <div class="xxl xl w30 "><a href="./jggk/zsdw/dw_80124/">吉林省卫生健康委员会项目资金监管服务中心</a> </div>
+		
+</div>
+			<!--直属单位-->
+		</div>
+    </div>
+
+</div>
+	  <!--//直属单位-->
+  </dd>
+		 <!--//机构概况-->
+		  <!--新闻中心-->
+  <dd id="panel-3" style="display:none;">
+	   <!--机关动态-->
+	  <div class="wld w48">
+	  <h2 ><a href="./xwzx/gzdt/jgdt/">机关动态</a></h2>
+		  <div class="xx">
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jgdt/202610/t20261001_9726309.html" target="_blank" title="吉林省护理技能大赛（护士）决赛成功举办">吉林省护理技能大赛（护士）决赛成功举办</a> <span>10-01</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jgdt/202609/t20260923_9721669.html" target="_blank" title="省卫生健康委举办2026年吉林省县医院服务能力培训班">省卫生健康委举办2026年吉林省县医院...</a> <span>09-23</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jgdt/202609/t20260922_9720401.html" target="_blank" title="我省启动老年期痴呆全病程服务协作网">我省启动老年期痴呆全病程服务协作网</a> <span>09-22</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jgdt/202609/t20260921_9719070.html" target="_blank" title="吉林省举办老龄健康工作培训班赋能老年健康事业高质量发展">吉林省举办老龄健康工作培训班赋能老...</a> <span>09-21</span></div>
+ 			  
+		  </div>
+<h2 class="mt20"><a href="./xwzx/gzdt/jcgz/">市州动态</a></h2>
+		  <div class="xx">
+		  	
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jcgz/202609/t20260922_9720126.html" target="_blank" title="吉林省卫生健康系统先进事迹巡讲举办四平专场">吉林省卫生健康系统先进事迹巡讲举办...</a> <span>09-18</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jcgz/202609/t20260921_9719293.html" target="_blank" title="梅河新区启动2026年基本公共卫生服务进社区巡回宣传活动">梅河新区启动2026年基本公共卫生服务...</a> <span>09-17</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jcgz/202609/t20260914_9710400.html" target="_blank" title="四平市多措并举破解照护服务难题">四平市多措并举破解照护服务难题</a> <span>09-14</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/jcgz/202608/t20260828_9690892.html" target="_blank" title="辽源市巧做审批服务“加减法”推动惠企便民再提速">辽源市巧做审批服务“加减法”推动惠...</a> <span>08-28</span></div>
+ 
+		  </div>
+		  </div>
+	   <!--//机关动态-->
+	    <!--委直单位-->
+	  <div class="wld w48 ">
+	  <h2 ><a href="./xwzx/gzdt/wzdw/">省级动态</a></h2>
+		  <div class="xx">
+		  	
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/wzdw/202610/t20261011_9728019.html" target="_blank" title="省人民医院承办吉林省2026年“住培第一课”活动">省人民医院承办吉林省2026年“住培第...</a> <span>09-30</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/wzdw/202609/t20260930_9725675.html" target="_blank" title="省肿瘤医院赴省廉政教育基地开展廉政警示教育学习">省肿瘤医院赴省廉政教育基地开展廉政...</a> <span>09-30</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/wzdw/202609/t20260924_9722816.html" target="_blank" title="省一汽总医院举办“医心聚力 乐享同行”庆国庆、迎中秋趣味运动会">省一汽总医院举办“医心聚力 乐享同行...</a> <span>09-24</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./xwzx/gzdt/wzdw/202609/t20260924_9722798.html" target="_blank" title="我省发布首届“健康吉人家”健康家庭风采展示案例汇编">我省发布首届“健康吉人家”健康家庭...</a> <span>09-24</span></div>
+ 
+		  </div>
+<h2 class="mt20"><a href="./xwzx/gzdt/jgdt_424038/">基层动态</a></h2>
+		  <div class="xx">
+		  	
+		  	<div class="xxl w80 xl"><a href="https://jkbshare.183read.cc/article/6779294/5.html" target="_blank" title="双向转诊铺就诊疗“快车道”">双向转诊铺就诊疗“快车道”</a> <span>09-01</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://jlrbapp.cailianxinwen.com/app/template/displayTemplate/news/newsDetail/952/10152929.html" target="_blank" title="岐黄烟火暖宁江，中医夜市惠民生">岐黄烟火暖宁江，中医夜市惠民生</a> <span>08-29</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://jkbshare.183read.cc/article/20400/1.html" target="_blank" title="长春急救中心调度指挥中心开展职业微体验活动">长春急救中心调度指挥中心开展职业微...</a> <span>08-28</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/GmX97ZuNw0Jo4vRXkEfqNQ" target="_blank" title="再创佳绩！吉大一院获批81项国家自然科学基金项目">再创佳绩！吉大一院获批81项国家自然...</a> <span>08-27</span></div>
+ 
+		  </div>
+		  </div>
+	   <!--//委直单位-->
+	    <!--基层工作-->
+	  <div class="wld w30 ml35">
+	  
+		  </div>
+	   <!--//基层工作-->
+</dd>
+ <!--//新闻中心-->
+ 
+		 <!--重点专题--> 
+  <dd id="panel-4" style="display:none;">
+	<!--专题列表--> 
+	  <div class="ztlb fl">
+	   <h2 ><a href="./zdzt/bwcxljsm/">树立和践行正确政绩观学习教育</a></h2>
+		  <div class="xx w45 fl">
+		  	
+		  	<div class="xxl w80 xl"><a href="./zdzt/bwcxljsm/hddt/202609/t20260920_9717618.html" target="_blank" title="省卫生健康委乒乓球代表队取得2026年省直机关职工乒乓球赛优异成绩">省卫生健康委乒乓球代表队取得2026年...</a> <span>09-20</span></div>
+
+		  	<div class="xxl w80 xl"><a href="./zdzt/bwcxljsm/hddt/202609/t20260914_9710666.html" target="_blank" title="省卫生健康委开展“党建引领强技能·急救守护保平安”主题党日暨应急急救技能宣传培训活动">省卫生健康委开展“党建引领强技能·...</a> <span>09-14</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://www.12371.cn/2026/05/18/ARTI1779102179030620.shtml" target="_blank" title="中共中央办公厅印发《中国共产党发展党员工作细则》_共产党员网">中共中央办公厅印发《中国共产党发展...</a> <span>05-19</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://www.12371.cn/2026/05/18/ARTI1779104451894432.shtml" target="_blank" title="高标准高质量做好发展党员工作——中央组织部负责人就修订颁布《中国共产党发展党员工作细则》答记者问_共产党员网">高标准高质量做好发展党员工作——中...</a> <span>05-19</span></div>
+ 
+			  
+			 </div>
+		  <div class="xx w45 rl">
+		  	
+		  	<div class="xxl w80 xl"><a href="https://www.ccps.gov.cn/zl/slhjxzqzjg/202604/t20260405_170575.html" target="_blank" title="“正确政绩观”的历史唯物主义阐释">“正确政绩观”的历史唯物主义阐释</a> <span>04-07</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://www.ccps.gov.cn/zl/slhjxzqzjg/202604/t20260403_170564.html" target="_blank" title="诚实守信是党员干部立言立德的起码要求">诚实守信是党员干部立言立德的起码要求</a> <span>04-03</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://www.ccps.gov.cn/zl/slhjxzqzjg/202604/t20260401_170547.html" target="_blank" title="深刻理解正确政绩观的科学内涵和实践要求">深刻理解正确政绩观的科学内涵和实践要求</a> <span>04-01</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://www.ccps.gov.cn/zl/slhjxzqzjg/202603/t20260331_170510.html" target="_blank" title="坚持求真务实，确保取得实效——论扎实开展树立和践行正确政绩观学习教育">坚持求真务实，确保取得实效——论扎...</a> <span>03-31</span></div>
+ 
+			  
+			 </div>
+		   <div class="xx w45 fl mt20">
+			   <h2 ><a href="./zdzt/jkkp/">健康科普</a></h2>
+		  	
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/AUmpN9zFOhfCHHws7jpEnw" target="_blank" title="这几个快速缓解焦虑的简单小技巧，不妨试一试！">这几个快速缓解焦虑的简单小技巧，不...</a> <span>08-31</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/9jhERBIh1pEr9x9pO6NPBw" target="_blank" title="警惕！这些常见做法，可能暗藏健康隐患！">警惕！这些常见做法，可能暗藏健康隐患！</a> <span>08-29</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/PRBHYvYvunc-jgBrvjm4Vw" target="_blank" title="靠高颜值吸管杯督促多喝水？小心喝进去的是细菌！">靠高颜值吸管杯督促多喝水？小心喝进...</a> <span>08-28</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/LTU6mphCALqMgnt4uLyHDg" target="_blank" title="一觉醒来突发“面瘫”！诱因很多人都忽视了">一觉醒来突发“面瘫”！诱因很多人都...</a> <span>08-27</span></div>
+ 
+			  
+			 </div>
+		  <div class="xx w45 rl" style="margin-top:60px">
+		  	
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/tsNk1X5iMscITp35HYHwAg" target="_blank" title="暑假收尾护眼攻略，简单2招帮孩子稳住视力">暑假收尾护眼攻略，简单2招帮孩子稳住...</a> <span>08-26</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/qAjBg4KpMy5CkxNQIA2KQA" target="_blank" title="碎片化运动必须高强度？避开这些误区，才能动得健康">碎片化运动必须高强度？避开这些误区...</a> <span>08-25</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/qm2fIYjNzEEBBLsu3xcp1w" target="_blank" title="堪称“秋燥健脾第一果”！苹果最养生的吃法，你知道吗？">堪称“秋燥健脾第一果”！苹果最养生...</a> <span>08-24</span></div>
+
+		  	<div class="xxl w80 xl"><a href="https://mp.weixin.qq.com/s/5501Q5j4q3XBxc9EvgHWEQ" target="_blank" title="饭后肚子胀不一定是“吃多了”，三个动作帮你“消气”">饭后肚子胀不一定是“吃多了”，三个...</a> <span>08-22</span></div>
+ 
+			  
+			 </div>
+	  </div>
+	  
+	  <!--专题图-->
+	  <div class="w30 rl">
+
+	  	<div class="zlimg"><a href="http://wsjkw.jl.gov.cn/zdzt/bwcxljsm/"><img src="./zdzt/202504/W020260331390124023087.jpg" alt="222222.jpg"/></a></div>
+	
+	  	<div class="zlimg"><a href="/zdzt/jybgsylfwxdjh/"><img src="./zdzt/201705/W020231027557552093506.jpg" alt="1.jpg"/></a></div>
+	
+	  	<div class="zlimg"><a href="/zdzt/shylwstzgg/"><img src="./zdzt/201705/W020231027560358409855.jpg" alt="4.jpg"/></a></div>
+	
+	  	<div class="zlimg"><a href="http://wsjkw.jl.gov.cn/zdzt/zyjk/"><img src="./zdzt/202101/W020210127306471478804.png" alt="zy.png"/></a></div>
+	
+	  	<div class="zlimg"><a href="/zdzt/jkkp/"><img src="./zdzt/201907/W020260922319033551621.png" alt="read_image1.png"/></a></div>
+	
+	  	<div class="zlimg"><a href="http://wsjkw.jl.gov.cn/zdzt/aqsc/"><img src="./zdzt/202306/W020230614372633373775.jpg" alt="read_image.jpg"/></a></div>
+	
+	  	<div class="zlimg"><a href="http://wsjkw.jl.gov.cn/jlskjyqxfrwsjzs/"><img src="./zdzt/202311/W020231116531077631943.jpg" alt="W020210127306471321728.jpg"/></a></div>
+	 	  
+	  </div>
+	  <!--专题图-->
+  </dd>
+		 <!--//重点专题-->
+ </dl> 
+		</div>
+		
+	<!--//menu-->
+<!--二十大专题-->
+<div class="zt_zl" style="display:none">
+	<a target='_blank' href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm"><img style="width:100%; height:auto; margin-top:30px;" src="./416100/images/P020221015416382972471.png" /></a>
+</div>          
+<!--二十大专题-->   
+<!--专题-->
+	<div class="zt_zl">
+
+		<div class="zlgd"><a href="http://wsjkw.jl.gov.cn/zdzt/bwcxljsm/"><img src="./zdzt/202504/W020260331390123827980.jpg" alt="222222.jpg"/></a></div>
+		
+		<div class="zlgd"><a href="/zdzt/jybgsylfwxdjh/"><img src="./zdzt/201705/W020231027557551865745.jpg" alt="1.jpg"/></a></div>
+		 
+
+		<div class="zlgd mr0"><a href="/zdzt/shylwstzgg/"><img src="./zdzt/201705/W020231027560358175457.jpg" alt="4.jpg"/></a></div>
+	 
+
+<div class="zlgd"><a href="http://wsjkw.jl.gov.cn/zdzt/zyjk/"><img src="./zdzt/202101/W020210127306471321728.png" alt="zy.png"/></a></div>
+		<!--<div class="zlgd w283"><a href="http://wsjkw.jl.gov.cn/zdzt/zyjk/"><img src="./zdzt/202101/W020210127306471478804.png" alt="zy.png"/></a></div>-->
+	
+<div class="zlgd"><a href="/zdzt/jkkp/"><img src="./zdzt/201907/W020260922319033293058.png" alt="read_image1.png"/></a></div>
+		<!--<div class="zlgd w283"><a href="/zdzt/jkkp/"><img src="./zdzt/201907/W020260922319033551621.png" alt="read_image1.png"/></a></div>-->
+	
+
+<div class="zlgd mr0"><a href="http://wsjkw.jl.gov.cn/zdzt/aqsc/"><img src="./zdzt/202306/W020230614372633156452.jpg" alt="read_image.jpg"/></a></div>	 
+		<!--<div class="zlgd w283 mr0"><a href="http://wsjkw.jl.gov.cn/zdzt/aqsc/"><img src="./zdzt/202306/W020230614372633373775.jpg" alt="read_image.jpg"/></a></div>-->
+
+	</div>
+<!--//专题-->
+	<!--c-->
+	<div class="c mt30">
+		<div class="l">
+		<!--重要政策转载-->
+	 <div class="tabPanel1 w431 fl">
+		<ul class="tabbtn" id="fadetab">
+			<li class=""><a href="http://jl.gov.cn/szyw/zyyw/">国家要闻</a></li>
+			 
+			<li class="active"><a href="http://jl.gov.cn/szyw/jlyw/">吉林要闻</a></li>
+			
+		</ul>
+
+		<div class="tabcon" id="fadecon">
+			<!--国务院信息-->
+			<div class="sublist" style="display: none;">
+			    <iframe src="./gwyxxszfdt/gwy/sygwy/" width="100%" height="230" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+			</div>
+			<!--国务院信息-->
+			<!--省政府信息-->
+			<div class="sublist" style="display: block;">
+			  <iframe src="./gwyxxszfdt/szf/syszf/" width="100%" height="230" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+			</div>
+			<!--省政府信息-->
+		</div>
+
+    </div>
+		<!--//重要政策转载-->
+		<!--规范性文件-->
+		<div class="w431 fl ml35">
+			 <h2 class="xwzx_bg gfxw_bg"><a href="./zfxxgk/">政府信息公开</a></h2>
+<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk1.png" /><a href="./zfxxgk/zfwj/">政府文件</a></div>
+	<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk2.png" /><a href="./zfxxgk/zfxxgkzn/">政府信息公开指南</a></div>
+	<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk3.png" /><a href="./zfxxgk/zfxxgkzd/">政府信息公开制度</a></div>
+<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk4.png" /><a href="./zfxxgk/fdzdgknr/">法定主动公开内容</a></div>
+	<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk5.png" /><a href="./zfxxgk/zfxxgknb/">政府信息公开年报</a></div>
+	 
+	<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk6.png" /><a href="./zfxxgk/ysqgk/">依申请公开</a></div>
+<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk7.png" /><a href="./zfxxgk/zfwj/zcjd/">政策解读</a></div>
+<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk8.png" /><a href="http://jkj.jl.gov.cn/ztzl/yqtb/index.html" target="_blank">疫情通报</a></div>
+<div class="xx_gk"><img src="./images/zly_wjw_20201208xx_gk9.png" /><a href="./zfxxgk/qt/">其他</a></div>
+		</div>
+		<!--//规范性文件-->
+			<!--公示公告 人事信息-->
+	 <div class="tabPanel2 w431 fl">
+		<ul class="tabbtn" id="normaltab">
+			<li class="active"><a href="./gsgg/">公示公告</a></li>
+			 
+			
+			
+		</ul>
+		<div  class="tabcon" id="normalcon">
+			<!--公示公告-->
+			<div class="sublist" style="display:block;">
+
+			   <div class="xxl xl"><a href="./gsgg/202609/t20260920_9717961.html" target="_blank" title="关于吉林省肿瘤医院通过医疗机构校验的通知">关于吉林省肿瘤医院通过医疗机构校验的通知</a><span>09-20</span></div>
+		
+			   <div class="xxl xl"><a href="./gsgg/202609/t20260910_9705770.html" target="_blank" title="2026年吉林省省直事业单位公开招聘工作人员公告（11号）笔试公告">2026年吉林省省直事业单位公开招聘工作人员公告（11号）笔试公告</a><span>09-10</span></div>
+		
+			   <div class="xxl xl"><a href="./gsgg/202608/t20260824_9686958.html" target="_blank" title="关于“吉林省引才平台载体资助”拟推荐项目公示">关于“吉林省引才平台载体资助”拟推荐项目公示</a><span>08-24</span></div>
+		
+			   <div class="xxl xl"><a href="./gsgg/202608/t20260824_9686956.html" target="_blank" title="关于“吉林省人才培养基地（第八批）”拟推荐项目公示">关于“吉林省人才培养基地（第八批）”拟推荐项目公示</a><span>08-24</span></div>
+		
+			   <div class="xxl xl"><a href="https://hrss.jl.gov.cn/gg/202608/t20260821_9685989.html" target="_blank" title="2026年吉林省基层卫生专业技术人员“县聘乡用”“乡聘村用”专项招聘公告">2026年吉林省基层卫生专业技术人员“县聘乡用”“乡聘村用”专项招聘公告</a><span>08-24</span></div>
+		
+			   <div class="xxl xl"><a href="./gsgg/202608/t20260818_9683825.html" target="_blank" title="关于评选李路平等10名同志为2026年吉林省“最美乡村医生”的通知">关于评选李路平等10名同志为2026年吉林省“最美乡村医生”的通知</a><span>08-18</span></div>
+		
+			   <div class="xxl xl"><a href="https://hrss.jl.gov.cn/gg/202608/t20260806_9677623.html" target="_blank" title="2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校毕业生）公告（11号）">2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校毕业生）公告（11号）</a><span>08-06</span></div>
+		 	  
+			   	
+			</div>
+			<!--公示公告-->
+			
+		</div>
+    </div>
+		<!--//公示公告 人事信息-->
+			<!--人事信息-->
+		<div class="w431 fl ml35 ">
+			 <h2 class="xwzx_bg gfxw_bg"><a href="./zfxxgk/zfwj/gfxwj/">规范性文件及解读</a></h2>
+
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202608/t20260831_9693320.html" target="_blank" title="省卫生健康委2026年废止的行政规范性文件目录">省卫生健康委2026年废止的行政规范性文件目录</a><span>08-31</span></div>
+			  
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202606/t20260617_9649977.html" target="_blank" title="《关于印发〈吉林省食品安全地方标准管理办法〉的通知》政策解读">《关于印发〈吉林省食品安全地方标准管理办法〉的通知》政...</a><span>06-17</span></div>
+			  
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202606/t20260617_9649976.html" target="_blank" title="关于印发《吉林省食品安全地方标准管理办法》的通知">关于印发《吉林省食品安全地方标准管理办法》的通知</a><span>06-17</span></div>
+			  
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202606/t20260602_9643152.html" target="_blank" title="《关于印发吉林省提升家庭医生签约服务感受度实施方案的通知》政策解读">《关于印发吉林省提升家庭医生签约服务感受度实施方案的通...</a><span>05-20</span></div>
+			  
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202605/t20260520_9620967.html" target="_blank" title="关于印发吉林省提升家庭医生签约服务感受度实施方案的通知">关于印发吉林省提升家庭医生签约服务感受度实施方案的通知</a><span>05-20</span></div>
+			  
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202512/t20251211_9370423.html" target="_blank" title="省卫生健康委废止的行政规范性文件目录">省卫生健康委废止的行政规范性文件目录</a><span>12-11</span></div>
+			  
+		  	<div class="xxl xl"><a href="./zfxxgk/zfwj/gfxwj/202507/t20250730_9291660.html" target="_blank" title="2025年规范性文件目录">2025年规范性文件目录</a><span>07-30</span></div>
+			   
+			 
+ 	  
+			 
+		</div>
+		<!--//人事信息-->
+			<!--应用系统-->
+		<div class="w431 fl ">
+			 <h2 class="xwzx_bg yyxt_bg"><a href="./hdjl/">互动交流</a></h2>
+ <div class="tabPanel2021 w431 fl">
+		<ul class="tabbtn" id="normaltab1">
+			<li class=""><a href="./hdjl/yjzj/">意见征集</a></li>
+			 
+			<li class="active"><a href="./hdjl/tjzxx/">厅局长信箱</a></li>
+			
+		</ul>
+		<div  class="tabcon" id="normalcon1">
+			<!--意见征集-->
+			<div class="sublist" style="display: none;">
+
+			   <div class="xxl xl pstyle"><span  class='yjs jssj'>2026-8-24</span>
+<a href="./hdjl/yjzj/202607/t20260723_9669543.html" target="_blank" title="关于征求《食品安全地方标准 虎眼万年青》（征求意见稿）意见的政策解读">关于征求《食品安全地方标准 虎眼万年青》（征求意见稿）意见的政策解读</a></div>
+
+		
+			   <div class="xxl xl pstyle"><span  class='yjs jssj'>2026-8-24</span>
+<a href="./hdjl/yjzj/202607/t20260723_9669542.html" target="_blank" title="关于征求《食品安全地方标准 虎眼万年青》（征求意见稿）意见的函">关于征求《食品安全地方标准 虎眼万年青》（征求意见稿）意见的函</a></div>
+
+		
+			   <div class="xxl xl pstyle"><span  class='yjs jssj'>2026-5-15</span>
+<a href="./hdjl/yjzj/202606/t20260601_9641846.html" target="_blank" title="“关于征集2026年度食品安全地方标准立项建议的函”结果公示">“关于征集2026年度食品安全地方标准立项建议的函”结果公示</a></div>
+
+		 	  
+			<script>
+ 
+window.onload = function(){
+var jssj = document.getElementsByClassName("jssj");
+            var nowDate = new Date;
+        
+            for (let i = 0; i < jssj.length; i++) {
+            
+                if (new Date(jssj[i].innerText) >= nowDate) {
+                    jssj[i].innerText = "征集中";
+                     jssj[i].style.color="#ffffff";
+ jssj[i].style.background="#1c7aad";
+                } else {
+                    jssj[i].innerText = "已结束";
+                    jssj[i].style.color="#ffffff";
+ jssj[i].style.background="#b5b5b5";
+                }
+            }
+}
+    </script>  
+			</div>
+			<!--意见征集-->
+			<!--在线咨询-->
+			<div class="sublist" style="display: block;">
+
+			   <div class="tjz">
+<script>
+	$(document).ready(function() {
+		tableInfoPage();
+		//bmClick()
+	})
+	 var jumpPath = "hdjl/tjzxx/lyxd/lyxdct";//跳转页面的名称
+	var siteId = 117;
+    var appId = 96;
+    var pageIndex = 1;
+    var pageSize = 6;    //默认是5
+    var order = 1;
+    var groupId=178;
+	var contextPath ="https://haiyun.jl.gov.cn/IGI"	;					
+    function tableInfoPage() {
+        var tabAllPage;
+        $.ajax({
+            type: "GET",
+            url: contextPath + "/nbhd/openGovmsgbox.do?method=listGovmsgboxs&siteId=" + siteId + "&order=" + order + "&appId=" + appId + "&pageIndex=" + pageIndex + "&pageSize=" + pageSize+ "&groupId=" + groupId,
+            async: false,//同步
+            dataType: "json",
+            success: function (data) {
+                if (data.datas.data) {
+                    attrsTable(data);
+                    tabAllPage = data
+                } else {
+                    $(".sublist").empty();
+                    $(".sublist").append("<li>暂无数据...</li>")
+                }
+            },
+           
+        });
+        return tabAllPage
+    }
+    function attrsTable(data) {
+        $(".tjz ul").empty();
+        // 表头
+        var cloneArr = [];
+        var status = "";
+        for (var i = 0; i < data.datas.data.length; i++) {
+       
+			 var www=window.screen.width;
+			 var hdnr = data.datas.data[i].CONTENT;
+			 var hdnr_length = hdnr.length;
+		     console.log(hdnr_length );
+		   if(hdnr_length > 24){
+					   hdnr = hdnr.substring(0,24)+"..."
+			}
+			 var str = "<div class='xxl xl '>" +
+				         "<a target='_blank' href='../" + jumpPath + ".html?id=" + data.datas.data[i].METADATAID + "&siteId=" + siteId + "' class='ckqb'>" + data.datas.data[i].TITLE + "</a>" +
+						
+				         "<span class='date'>" + $.myTime.UnixToDate(data.datas.data[i].SUBMITTIME, false) + "</span>" +
+						"</div>";
+            cloneArr.push(str);
+        }
+            $(".tjz").append(cloneArr);
+    }
+
+(function($) {
+    $.extend({
+        myTime: {
+            /**
+             * 当前时间戳
+             * @return <int>    unix时间戳(秒) 
+             */
+            CurTime: function() {
+                return Date.parse(new Date()) / 1000;
+            },
+
+            /**       
+             * 时间戳转换日期       
+             * @param <int> unixTime  待时间戳(秒)       
+             * @param <bool> isFull  返回完整时间(Y-m-d 或者 Y-m-d H:i:s)       
+             * @param <int> timeZone  时区//暂时不用，时间都取中国本地时间       
+             */
+            UnixToDate: function(unixTime, isFull, timeZone) {
+                // if (typeof (timeZone) == 'number')
+                // {
+                //   unixTime = parseInt(unixTime) + parseInt(timeZone) * 60 * 60;
+                // }
+                var time = new Date(unixTime * 1);
+                var ymdhis = "";
+                
+                ymdhis += (time.getMonth() + 1) > 9 ? (time.getMonth() + 1) + "-" : "0" + (time.getMonth() + 1) + "-";
+                ymdhis += time.getDate() > 9 ? time.getDate() : "0" + time.getDate();
+                if (isFull === true) {
+                    var ht = time.getHours();
+                    if (ht < 10) {
+                        ymdhis += " 0" + ht + ":";
+                    } else {
+                        ymdhis += " " + ht + ":";
+                    }
+                    if (time.getUTCMinutes() < 10) {
+                        ymdhis += "0" + time.getUTCMinutes();
+                    } else {
+                        ymdhis += time.getUTCMinutes();
+                    }
+
+
+                    // ymdhis += time.getUTCSeconds();
+                }
+                return ymdhis;
+            }
+        }
+    });
+})(jQuery);
+</script>
+
+
+
+
+</div>
+
+			  
+			</div>
+			<!--在线咨询-->
+		</div>
+    </div>
+		</div>
+		<!--//应用系统-->
+			<!--视频新闻-->
+		<div class="w431 fl ml35">
+			 <h2 class="xwzx_bg spxw_bg"><a href="./xwzx/spzq/">视频专区</a></h2>
+
+		  	<div class="spxx"><a href="https://mp.weixin.qq.com/s/q05zhKmYf1tHEnaUhecEwA">
+				<div class="spxx_tit">中国共产党国际形象网宣片《CPC》</div>
+			<img src="./xwzx/spzq/202210/W020221019612441361126.png" alt="微信截图_20221019170402.png"/></a>
+			</div>
+			 
+		</div>
+		<!--//视频新闻-->
+			</div>
+		<div class="r">
+			<div class="zwfw"><a href="./zwfw/">政务服务</a></div>
+			 
+			<!--办事-->
+			<div class="xzsp">
+<div class="xzspdd xz_bg8 p-50"><a href="./zwfw/xzsp/"><span ></span>行政审批</a></div>
+				<div class="xzspdd xz_bg1 p-50"><a href="./zwfw/zxbs/"><span  ></span>在线办事</a></div>
+				<div class="xzspdd xz_bg2"><a href="./zwfw/xzxkbszn/"><span ></span>行政许可<br>
+办理指南</a></div>
+
+				<div class="xzspdd xz_bg3 p-50"><a href="./zwfw/spgs/"><span></span>审批公示</a></div>
+				<div class="xzspdd xz_bg4 p-50"><a href="./zwfw/bgxz/"><span></span>表格下载</a></div>
+				<!--<div class="xzspdd xz_bg5"><a href="./zwfw/jhsybsfwdt/"><span></span>计划生育办事<br>
+服务大厅</a></div>-->
+				<div class="xzspdd xz_bg6"><a href="./zwfw/zyzlyscx/"><span></span>&nbsp;执业（助理）<br>
+医师查询</a></div>
+				<div class="xzspdd xz_bg7"><a href="./zwfw/zchscx/"><span></span>  注册护士<br>
+查询</a></div>
+<div class="xzspdd xz_bg10"><a href="http://zwfw.jl.gov.cn/jlszwfw/yzhd/"><span></span> 义诊活动<br>
+备案</a></div>
+<div class="xzspdd xz_bg11"><a href="http://zwfw.jl.gov.cn/jlszwfw/ylggsc/"><span></span>  医疗广告<br>
+审查</a></div>
+<div class="xzspdd xz_bg12"><a href="https://credit.jdzx.net.cn:5110/xdcp/loginPage.do"><span></span>  消毒产品<br>
+备案</a></div>
+
+
+<div class="xzspdd xz_bg9"><a href="https://www.jlfsstd.net/"><span></span>食品安全标准</a></div>
+
+ 		<div class="xzspdd xz_bg13"><a href="./zwfw/bjyp/"><span></span>保健用品</a></div>	</div>
+			<!--办事-->
+			<!--内部招标-->
+<div class="nbzbcg nbzbcg2026"><a href="./zwfw/sydwzpcjcx/">事业单位公开招聘考试成绩查询</a></div>
+<div class="nbzbcg"><a href="./zdzt/sqxzjczl/">涉企行政检查公示专栏</a></div>
+			<div class="nbzbcg"><a href="./nbzczl/">内部招采专栏</a></div>
+ 
+			<!--内部招标-->
+			<!--互动交流-->
+			 
+		</div>
+		<style>
+.tabPanel3 ul li{
+margin-right:0;
+}
+.zlyxxlj{
+overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+        border-top: #1c7aad 2px solid;
+    border-bottom: #ddd 1px solid;
+}
+.zlyxxlj li{
+          float: left;
+    line-height: 36px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.zlyxxlj li b{
+font-weight: bold;
+}
+</style>
+<div class="c">
+<ul class="zlyxxlj">
+<li class="active"><b>相关链接：</b> </li>
+
+
+<li class="active"><a href="http://www.gov.cn/">中华人民共和国</a> </li>
+
+
+<li class="active"><a href="http://www.nhc.gov.cn/">国家卫生健康委</a> </li>
+
+
+<li class="active"><a href="http://www.natcm.gov.cn/">国家中医药管理局</a> </li>
+
+
+<li class="active"><a href="http://jl.gov.cn/">吉林省人民政府</a> </li>
+	
+</ul>
+</div>
+<div class="c">
+<!--底部链接-->
+		<div class="tabPanel3 w431 fl h300">
+		<ul class="tabbtn" id="fadetab1">
+
+
+<li class="active"><a href="./xglj/gswsjswwz/">各省卫生健康委网站</a> </li>
+	
+
+			<li class=""><a href="./xglj/dfwsjsxzbm/">地方卫生健康行政部门</a> </li>
+		
+			<li class=""><a href="./xglj/wzgdw/">委直各单位</a> </li>
+		
+			<li class=""><a href="./xglj/yqlj/">中省直医疗机构</a> </li>
+		
+			 
+		</ul>
+		<div class="tabcon panes3" id="fadecon1">
+			<!-- -->
+			<div class="sublist pane" style="display: block;">
+
+
+			 <a href="http://wjw.beijing.gov.cn/" target="_blank" title="北京市卫生健康委员会">北京市卫生健康委员会</a>   
+			
+			 <a href="http://wsjk.tj.gov.cn/" target="_blank" title="天津市卫生健康委员会">天津市卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.hebei.gov.cn/" target="_blank" title="河北省卫生健康委员会">河北省卫生健康委员会</a>   
+			
+			 <a href="http://wjw.shanxi.gov.cn/" target="_blank" title="山西省卫生健康委员会">山西省卫生健康委员会</a>   
+			
+			 <a href="http://wsjk.ln.gov.cn/" target="_blank" title="辽宁省卫生健康委员会">辽宁省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.hlj.gov.cn/" target="_blank" title="黑龙江省卫生健康委员会">黑龙江省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.sh.gov.cn" target="_blank" title="上海市卫生健康委员会">上海市卫生健康委员会</a>   
+			
+			 <a href="http://wjw.jiangsu.gov.cn/" target="_blank" title="江苏省卫生健康委员会">江苏省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.zj.gov.cn/" target="_blank" title="浙江省卫生健康委员会">浙江省卫生健康委员会</a>   
+			
+			 <a href="http://wjw.ah.gov.cn/index.html" target="_blank" title="安徽省卫生健康委员会">安徽省卫生健康委员会</a>   
+			
+			 <a href="http://wjw.fujian.gov.cn/" target="_blank" title="福建省卫生健康委员会">福建省卫生健康委员会</a>   
+			
+			 <a href="http://hc.jiangxi.gov.cn" target="_blank" title="江西省卫生健康委员会">江西省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.shandong.gov.cn" target="_blank" title="山东省卫生健康委员会">山东省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.henan.gov.cn/" target="_blank" title="河南省卫生健康委员会">河南省卫生健康委员会</a>   
+			
+			 <a href="http://wjw.hubei.gov.cn/" target="_blank" title="湖北省卫生健康委员会">湖北省卫生健康委员会</a>   
+			
+			 <a href="http://wjw.hunan.gov.cn/" target="_blank" title="湖南省卫生健康委员会">湖南省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.gd.gov.cn" target="_blank" title="广东省卫生健康委员会">广东省卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.gxzf.gov.cn" target="_blank" title="广西壮族自治区卫生健康委员会">广西壮族自治区卫生健...</a>   
+			
+			 <a href="http://wst.hainan.gov.cn/" target="_blank" title="海南省卫生健康委员会">海南省卫生健康委员会</a>   
+			
+			 <a href="http://wsj.xjbt.gov.cn/" target="_blank" title="新疆生产建设兵团卫生健康委员会">新疆生产建设兵团卫生...</a>   
+			
+			 <a href="http://wsjkw.cq.gov.cn" target="_blank" title="重庆市卫生健康委员会">重庆市卫生健康委员会</a>   
+			
+			 <a href="http://wsjkw.sc.gov.cn" target="_blank" title="四川省卫生健康委员会">四川省卫生健康委员会</a>   
+			
+			 <a href="http://ynswsjkw.yn.gov.cn/wjwWebsite/web/index" target="_blank" title="云南省卫生健康委员会">云南省卫生健康委员会</a>   
+			
+			 <a href="http://sxwjw.shaanxi.gov.cn/" target="_blank" title="陕西省卫生健康委员会">陕西省卫生健康委员会</a>   
+			
+			 <a href="http://wsjk.gansu.gov.cn/" target="_blank" title="甘肃省卫生健康委员会">甘肃省卫生健康委员会</a>   
+			
+			 <a href="https://wsjkw.qinghai.gov.cn/" target="_blank" title="青海省卫生健康委员会">青海省卫生健康委员会</a>   
+			
+			 <a href="http://wjw.xizang.gov.cn/" target="_blank" title="西藏自治区卫生健康委员会">西藏自治区卫生健康委员会</a>   
+			
+	 
+			  
+			</div>
+			<!-- -->
+
+			<!-- -->
+			<div class="sublist pane" style="display: none;">
+			  
+			 <a href="http://www.jlcity.gov.cn/bmwz/wjw/" target="_blank" title="吉林市卫生健康委">吉林市卫生健康委</a>   
+			
+			 <a href="http://wjw.siping.gov.cn/" target="_blank" title="四平市卫生健康委">四平市卫生健康委</a>   
+			
+			 <a href="http://www.tonghua.gov.cn/wjw/" target="_blank" title="通化市卫生健康委">通化市卫生健康委</a>   
+			
+			 <a href="http://wsjkw.cbs.gov.cn" target="_blank" title="白山市卫生健康委">白山市卫生健康委</a>   
+			
+			 <a href="http://wsjkw.jlsy.gov.cn" target="_blank" title="松原市卫生健康委">松原市卫生健康委</a>   
+			
+			 <a href="http://www.jlbc.gov.cn/ztzl_3381/bcswsjkwyh/" target="_blank" title="白城市卫生健康委">白城市卫生健康委</a>   
+			
+			 <a href="http://www.mhk.gov.cn/jyhpt/wjj/" target="_blank" title="梅河口市卫生健康局">梅河口市卫生健康局</a>   
+			
+			  
+			</div>
+			<!-- -->
+		
+			<!-- -->
+			<div class="sublist pane" style="display: none;">
+			  
+			 <a href="https://www.jilinsrmyy.cn/" target="_blank" title="吉林省人民医院">吉林省人民医院</a>   
+			
+			 <a href="http://www.jlszlyy.com/" target="_blank" title="吉林省肿瘤医院">吉林省肿瘤医院</a>   
+			
+			 <a href="http://www.jlsnk.cn" target="_blank" title="吉林省神经精神病医院">吉林省神经精神病医院</a>   
+			
+			 <a href="http://www.jlsjhbyy.cn/" target="_blank" title="吉林省结核病医院">吉林省结核病医院</a>   
+			
+			 <a href="http://www.jlsqwyy.com.cn/" target="_blank" title="吉林省前卫医院">吉林省前卫医院</a>   
+			
+			 <a href="https://jlyqzyy.cn/" target="_blank" title="吉林省一汽总医院">吉林省一汽总医院</a>   
+			
+			 <a href="http://www.jlszyy.cn/" target="_blank" title="吉林省中医药科学院">吉林省中医药科学院</a>   
+			
+			 <a href="http://www.jlwch.net/" target="_blank" title="吉林省妇幼保健院">吉林省妇幼保健院</a>   
+			
+			 <a href="https://qmjksjzx.com/" target="_blank" title="吉林省卫生健康信息中心">吉林省卫生健康信息中心</a>   
+			
+			  
+			</div>
+			<!-- -->
+		
+			<!-- -->
+			<div class="sublist pane" style="display: none;">
+			  
+			 <a href="http://www.jdyy.cn/" target="_blank" title="吉林大学白求恩第一医院">吉林大学白求恩第一医院</a>   
+			
+			 <a href="https://www.jdey.com.cn/" target="_blank" title="吉林大学白求恩第二医院">吉林大学白求恩第二医院</a>   
+			
+			 <a href="http://www.zrlyyy.com/" target="_blank" title="吉林大学中日联谊医院">吉林大学中日联谊医院</a>   
+			
+			 <a href="http://jdkq.jlu.edu.cn/index.htm" target="_blank" title="吉林大学口腔医院">吉林大学口腔医院</a>   
+			
+			 <a href="https://www.jlhtcm.com/" target="_blank" title="长春中医药大学附属医院">长春中医药大学附属医院</a>   
+			
+			 <a href="http://www.czdsfy.com/" target="_blank" title="长春中医药大学附属第三临床医院">长春中医药大学附属第...</a>   
+			
+			 <a href="https://www.bhdxfsyy.com/" target="_blank" title="北华大学附属医院">北华大学附属医院</a>   
+			
+			 <a href="https://www.yanbianhospital.cn/" target="_blank" title="延边大学附属医院（延边医院）">延边大学附属医院（延...</a>   
+			
+			  
+			</div>
+			<!-- -->
+			 	 
+		</div>
+    </div>
+		<!--底部链接-->
+		
+</div></div>
+	<!--db-->
+	<div class="foot">
+
+		<div class="foottxt">主办单位：吉林省卫生健康委员会  | <a href="./kzgn/wzdt/">网站地图</a>     地址：长春人民大街1485号省政府2号楼   邮编：130051<br/>
+电话：0431-88905570   <a>网站标识码：2200000009</a><br/>
+   <a href="https://beian.miit.gov.cn/" target="_blank" >吉ICP备05001602号</a>        <a class="gwab" target="_blank"  href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=22000002000009">吉公网安备 22000002000009号</a></div>
+<div class="foot_dzjg"><a href="https://bszs.conac.cn/sitename?method=show&id=06B5B13F840C7B29E053022819AC1D99"><img src="./images/footer_dzjg_Xu191031.png" /></a><script id="_jiucuo_" sitecode="2200000009" src="./images/jiucuo20220714.js"></script></div>
+<div class="foot_dzjg"> </div>
+	</div>
+	<!--db-->
+ <script src='https://auth.mangren.com/boots/wsjkw.jl.gov.cn/esdToolsInit.js' charset='UTF-8'></script>
+	<script>
+		
+			
+		var lis = $('.xzspdd');
+$.each(lis,function(index,li){
+    if(index%2===1) {
+       lis.eq(index).addClass('mr0') 
+    }
+})
+			
+			</script>
+
+	
+<script src="./images/tab.js"></script>
+<script type="text/javascript">
+  $("#tabs1").Tabs(); //默认鼠标滑入切换
+  $("#tabs2").Tabs({model:"click"}); //设置为点击切换
+ </script>
+	<script>
+            var s_count = $(".pz_slides_3 ._pic img").length;
+            var s_li = "";
+          for (j = 1; j <= s_count; j++) {
+              s_li += "<li></li>";
+          }
+          $(".pz_slides_3 > ._btn").html("<ul>" + s_li + "</ul>");
+            var btn = 570 - $(".pz_slides_3 ._btn").width();
+            var btnl = btn / 2;
+            $(".pz_slides_3 ._btn").css("left", btnl + "px");
+            jQuery(".pz_slides_3").slide({
+                titCell: "._btn li",
+                mainCell: "._pic ul",
+                effect: "fade",
+                autoPlay: true,
+                delayTime: 1000,
+                interTime: 4000
+            });
+        </script>
+
+</body>
+</html>

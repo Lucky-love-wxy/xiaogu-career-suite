@@ -1,0 +1,67 @@
+{
+  "name": [
+    {
+      "text": "安检员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "安检员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5at5MM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5at5MM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "安检员 （护卫队员）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

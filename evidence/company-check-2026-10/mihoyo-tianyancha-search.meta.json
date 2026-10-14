@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 5.692,
+  "access_date": "2026-10-12",
+  "sha256": "5e6cc2b98bd9402c57aac1d176eb9cdb0a30458dfbbbeab1de0166fdf3578d2f",
+  "blocked": null,
+  "id": "mihoyo-tianyancha-search",
+  "company": "mihoyo",
+  "query": "上海米哈游网络科技股份有限公司 企业 成立日期",
+  "include_domains": [
+    "tianyancha.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/mihoyo-tianyancha-search.json"
+}

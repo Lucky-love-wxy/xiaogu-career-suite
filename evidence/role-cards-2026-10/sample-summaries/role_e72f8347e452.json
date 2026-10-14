@@ -1,0 +1,310 @@
+{
+  "name": [
+    {
+      "text": "英语翻译",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "英语翻译"
+        }
+      ]
+    }
+  ],
+  "sample_n": 6,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "处理外籍病人及家属往来邮件及口译工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUl5ztNLN",
+        "vsl5nzzZn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUl5ztNLN",
+          "text": "处理外籍病人及家属往来邮件及口译工作"
+        },
+        {
+          "evidence_id": "vsl5nzzZn",
+          "text": "处理外籍病人及家属往来邮件及口译工作"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责产品的外文翻译介绍",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUm5N5tnn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUm5N5tnn",
+          "text": "负责产品的外文翻译介绍"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助跟进海外采购订单进度，协调解决问题",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5NNNZt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5NNNZt",
+          "text": "协助跟进海外采购订单进度，协调解决问题"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "审核采购团队对外发送的英文邮件、函件等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5NNNZt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5NNNZt",
+          "text": "审核采购团队对外发送的英文邮件、函件等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合采购团队参与海外会议，提供实时口译服务",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5NNNZt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5NNNZt",
+          "text": "配合采购团队参与海外会议，提供实时口译服务"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责采购相关文件（合同、订单、技术规格书等）的笔译",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5NNNZt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5NNNZt",
+          "text": "负责采购相关文件（合同、订单、技术规格书等）的笔译"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "接待国际客户，口译内容真实、准确，语法规范，层次清楚",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUm5N5tnn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUm5N5tnn",
+          "text": "接待国际客户，口译内容真实、准确，语法规范，层次清楚"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责公司外文来电、来函及各类文件的翻译工作，译稿内容准确并及时呈报领导",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUm5N5tnn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUm5N5tnn",
+          "text": "负责公司外文来电、来函及各类文件的翻译工作，译稿内容准确并及时呈报领导"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "6份保留的校招平台样本中，3份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmY5CCLnN",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 3,
+        "denominator": 6,
+        "matched_ids": [
+          "vUl5ztNLN",
+          "vmm5NNNZt",
+          "vsl5nzzZn"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmY5CCLnN",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 6,
+        "matched_ids": [
+          "vUYNLZaNC",
+          "vUm5N5tnn",
+          "vmY5CCLnN"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmY5CCLnN",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vmY5CCLnN"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，2份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmY5CCLnN",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 2,
+        "denominator": 6,
+        "matched_ids": [
+          "vUl5ztNLN",
+          "vsl5nzzZn"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，1份专业类字段为“外国语言文学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmY5CCLnN",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "外国语言文学类",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vUYNLZaNC"
+        ]
+      }
+    },
+    {
+      "text": "6份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmY5CCLnN",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 6,
+        "matched_ids": [
+          "vUl5ztNLN",
+          "vmY5CCLnN"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "英语翻译",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUYNLZaNC",
+        "vUl5ztNLN",
+        "vUm5N5tnn",
+        "vmm5NNNZt",
+        "vsl5nzzZn"
+      ],
+      "quotes": [],
+      "count": 5
+    },
+    {
+      "text": "网站英语翻译实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmY5CCLnN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

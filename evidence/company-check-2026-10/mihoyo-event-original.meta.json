@@ -1,0 +1,20 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.964,
+  "access_date": "2026-10-12",
+  "sha256": "ef2e9033811995cc8d0f1cc179dd4684273474979415c7f90daf2c4df9552369",
+  "blocked": null,
+  "id": "mihoyo-event-original",
+  "company": "mihoyo",
+  "query": "米哈游 股权托管 2026 9月23日 上市",
+  "include_domains": [
+    "cls.cn",
+    "bjnews.com.cn"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/mihoyo-event-original.json"
+}

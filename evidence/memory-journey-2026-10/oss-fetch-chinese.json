@@ -1,0 +1,68 @@
+[
+  {
+    "id": "oss-robots-api",
+    "url": "https://api.github.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-api.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "edbd0367cec893df36f67acb56c3aa23810be28850977c35e0fedaf64aad286b",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-robots-raw",
+    "url": "https://raw.githubusercontent.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-raw.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-chinese-search",
+    "url": "https://api.github.com/search/issues?q=repo%3Amem0ai/mem0%20Chinese%20in%3Atitle%2Cbody&per_page=5",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-chinese-search.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "40d6ab67c1a16f045b94695c3344ef753c3b25965192ff28c6dfe97573f107c2",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-chinese-search",
+    "url": "https://api.github.com/search/issues?q=repo%3Aletta-ai/letta-code%20Chinese%20in%3Atitle%2Cbody&per_page=5",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-chinese-search.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "f3376492c6fb556705f8a5eec292743f254344ff44e1b7dc66026b655f96f605",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-langgraph-chinese-search",
+    "url": "https://api.github.com/search/issues?q=repo%3Alangchain-ai/langgraph%20Chinese%20in%3Atitle%2Cbody&per_page=5",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-langgraph-chinese-search.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "393eb7efe4743df342f2b47f7b6b6483340a3740aa217411ecc9901b535c0f57",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-chinese-search",
+    "url": "https://api.github.com/search/issues?q=repo%3Agetzep/graphiti%20Chinese%20in%3Atitle%2Cbody&per_page=5",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-chinese-search.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "5d480a0828cd18864904a7d749cd0989af2a361be3ddee0ea27204990243203d",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  }
+]

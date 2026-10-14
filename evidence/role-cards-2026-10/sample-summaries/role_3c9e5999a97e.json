@@ -1,0 +1,100 @@
+{
+  "name": [
+    {
+      "text": "实验室技术员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "实验室技术员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "协助博士生和博士后的研究工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwl5NanMM",
+          "text": "协助博士生和博士后的研究工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwl5NanMM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwl5NanMM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwl5NanMM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "实验室技术员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwl5NanMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

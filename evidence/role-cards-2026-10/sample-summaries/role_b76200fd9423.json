@@ -1,0 +1,216 @@
+{
+  "name": [
+    {
+      "text": "客户经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "客户经理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vm85C5nMa"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC",
+          "vlr5aMnaM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vm85C5nMa"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vlr5aMnaM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“数学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "数学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“经济与贸易类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济与贸易类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vlr5aMnaM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM",
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vYU5nzMCC",
+          "vlr5aMnaM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "客户经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYU5nzMCC",
+        "vlr5aMnaM"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "数字化营销客户经理（不限专业）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vm85C5nMa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

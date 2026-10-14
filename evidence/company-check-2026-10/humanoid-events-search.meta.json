@@ -1,0 +1,24 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.829,
+  "access_date": "2026-10-12",
+  "sha256": "099f542a138f9314797a417000e051b3570b31d71ae0c233c03d7e417961fa25",
+  "blocked": null,
+  "id": "humanoid-events-search",
+  "company": "humanoid",
+  "query": "北京人形机器人创新中心 2026 2025 裁员 收缩 融资 上市 业务 调整",
+  "include_domains": [
+    "cls.cn",
+    "caixin.com",
+    "yicai.com",
+    "reuters.com",
+    "stcn.com",
+    "21jingji.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/humanoid-events-search.json"
+}

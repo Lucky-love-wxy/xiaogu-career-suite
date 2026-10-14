@@ -1,0 +1,20 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.471,
+  "access_date": "2026-10-12",
+  "sha256": "dbc5fca2409c0b1e5cde54e1045d9f7fadc8fc0d13656a34058162d92a5694d4",
+  "blocked": null,
+  "id": "bytedance-tiktok-event",
+  "company": "bytedance",
+  "query": "ByteDance TikTok January 2026 joint venture deal",
+  "include_domains": [
+    "reuters.com",
+    "newsroom.tiktok.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-tiktok-event.json"
+}

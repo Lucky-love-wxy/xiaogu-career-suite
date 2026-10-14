@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8" /><script language="javascript" src="/module/jslib/jquery/jquery.js"></script>
+<script language="javascript" src="/module/jslib/urite/urite.min.js"></script>
+<meta name='WebId' content='39'>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/images/3011/hanweb.css" />
+  <link rel="stylesheet" type="text/css" href="/images/3011/index.css" />
+  <link href="/images/3011/swiper.css" rel="stylesheet" > 
+  <script src="/images/3011/require.js"> </script>
+  <style>
+    /* 两会首页套蓝开始 */
+    .logoLianghui {
+      width: 1230px;
+      margin: 0 auto;
+      text-align: right;
+      padding: 14px 0;
+    }
+
+    .logoLianghui a {
+      display: inline-block;
+      height: 70px;
+      padding-right: 20px;
+    }
+
+    .fireman930-title,
+    .fireman930-box-bg-in {
+      width: 1230px;
+      margin: 0 auto;
+    }
+
+    .fireman930-box-bg-in {
+      background-color: #FFF;
+    }
+
+    .fireman930-title {
+      height: 25px;
+      overflow: hidden;
+    }
+
+    .fireman930-title .enzt_btn {
+      float: right;
+    }
+
+    .fireman930-bg {
+      background-image: url(/images/3011/ershidasybg.jpg);
+      background-position: center 0;
+      background-repeat: no-repeat;
+      background-color: ##f2f2f2;
+      width: 100%;
+      z-index: 0;
+
+    }
+  </style>
+  <title>江苏省国资委</title>
+<meta name='Maketime' content='2026-10-10 15:48:56'>
+
+<meta name="SiteName" content="江苏省国资委">
+<meta name="SiteDomain"  content="jsgzw.jiangsu.gov.cn">
+<meta name="SiteIDCode"  content="">
+<meta name="siteurl"  content="http://jsgzw.jiangsu.gov.cn/index.html">
+<meta name="guild"    content="">
+<meta name="district"    content="">
+<meta name="sitecatalog"    content="">
+
+
+</head>
+
+<body style="min-width:1230px;" id="page_type" alt="综合页">
+  <div id="barrierfree_container" style="overflow: hidden;">
+    <script src="/script/112/2310111200149784.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".nav ul li").eq(0).find("a").addClass("navActive");
+$(".nav ul li").eq(0).find("div").removeClass("hide");
+})
+</script>
+
+<script type="text/javascript" language="javascript">
+    function wap() {
+        var regex_match = /(nokia|iphone|android|motorola|^mot-|softbank|foma|docomo|kddi|up.browser|up.link|htc|dopod|blazer|netfront|helio|hosin|huawei|novarra|CoolPad|webos|techfaith|palmsource|blackberry|alcatel|amoi|ktouch|nexian|samsung|^sam-|s[cg]h|^lge|ericsson|philips|sagem|wellcom|bunjalloo|maui|symbian|smartphone|midp|wap|phone|windows ce|iemobile|^spice|^bird|^zte-|longcos|pantech|gionee|^sie-|portalmmm|jigs browser|hiptop|^benq|haier|^lct|operas*mobi|opera*mini|320x320|240x320|176x220)/i;
+        var u = navigator.userAgent;
+        if (null == u) {
+            return true;
+        }
+        var result = regex_match.exec(u);
+        if (null == result) {
+            return false
+        } else {
+            return true
+        }
+    }
+    if (wap()) {
+        document.location.href= 'http://jsgzw.jiangsu.gov.cn/col/col61357/index.html';
+    }
+</script>
+
+    <div class='nav' >
+      <ul class='cf' id='nav' ergodic="navigation" barrierfree_zone_dsc="导航区,当前为网页顶部主导航区，有首页、国资监管、省属企业、政务公开、市县国资、互动交流等栏目。">
+        <li class='fl'><a href='/'>首页<div class='hide'></div></a></li>
+        <li class='fl' b-tab>
+          <a href='/col/col11767/index.html'  b-header>国资监管<div class='hide'></div></a>
+           <!--导航下拉之国资监管-->
+          <div class="navDown gzjgNav hide" b-panel >
+            <ul class="cf">
+              <style>
+.gzjgNav li{margin-left: 70px;}
+</style>
+<li class="fl gzjgNav01"><a href="/col/col11769/index.html">法治建设</a></li>
+<li class="fl gzjgNav02"><a href="/col/col11768/index.html">运营监测</a></li>
+<li class="fl gzjgNav03"><a href="/col/col11777/index.html">产权管理</a></li>
+<li class="fl gzjgNav04"><a href="/col/col11776/index.html">发展改革</a></li>
+<li class="fl gzjgNav05"><a href="/col/col11775/index.html">考核分配</a></li>
+<li class="fl gzjgNav07"><a href="/col/col11773/index.html">领导班子和<br/>人才建设</a></li>
+<li class="fl gzjgNav08"><a href="/col/col11772/index.html">党建工作</a></li>
+<li class="fl gzjgNav09"><a href="/col/col11771/index.html">宣传工作</a></li>
+<li class="fl gzjgNav10"><a href="/col/col11770/index.html">督查监察</a></li>
+<li class="fl gzjgNav11"><a href="/col/col11778/index.html">机关建设</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class='fl' b-tab>
+          <a href='/col/col11779/index.html' b-header>省属企业<div class='hide'></div></a>
+           <!--导航下拉之省属企业-->
+          <div class="navDown ssqyNav hide" b-panel >
+            <ul class="cf">
+              <div style="height:330px; overflow:auto;padding-bottom:30px;">
+    <li class="fl"><a href="/col/col11788/index.html" readlabel='国信集团'>国信集团>></a></li>
+    <li class="fl"><a href="/col/col11787/index.html" readlabel='交通控股'>交通控股>></a></li>
+    <li class="fl"><a href="/col/col11790/index.html" readlabel='东部机场'>东部机场>></a></li>   
+    <li class="fl"><a href="/col/col11792/index.html" readlabel='苏豪控股'>苏豪控股>></a></li>
+    <li class="fl"><a href="/col/col11791/index.html" readlabel='中江集团'>中江集团>></a></li>
+    <li class="fl"><a href="/col/col11782/index.html" readlabel='江苏农垦'>江苏农垦>></a></li>
+    <li class="fl"><a href="/col/col11781/index.html" readlabel='徐矿集团'>徐矿集团>></a></li>
+    <li class="fl"><a href="/col/col11784/index.html" readlabel='沿海集团'>沿海集团>></a></li>
+    <li class="fl"><a href="/col/col11804/index.html" readlabel='港口集团'>港口集团>></a></li>
+    <li class="fl"><a href="/col/col63902/index.html" readlabel='铁路集团'>铁路集团>></a></li>
+    <li class="fl"><a href="/col/col78882/index.html" readlabel='环保集团'>环保集团>></a></li>
+    <li class="fl"><a href="/col/col11785/index.html" readlabel='苏盐集团'>苏盐集团>></a></li>
+    <li class="fl"><a href="/col/col11794/index.html" readlabel='苏粮集团'>苏粮集团>></a></li>
+    <li class="fl"><a href="/col/col11795/index.html" readlabel='江苏高投'>江苏高投>></a></li>
+    <li class="fl"><a href="/col/col11796/index.html" readlabel='金陵饭店'>金陵饭店>></a></li>
+    <li class="fl"><a href="/col/col11797/index.html" readlabel='钟山宾馆'>钟山宾馆>></a></li>
+    <li class="fl"><a href="/col/col11799/index.html" readlabel='江苏水源'>江苏水源>></a></li>
+    <li class="fl"><a href="/col/col11793/index.html" readlabel='体产集团'>体产集团>></a></li>
+    <li class="fl"><a href="/col/col79061/index.html" readlabel='国投集团'>国投集团>></a></li>
+    <li class="fl"><a href="/col/col80301/index.html" readlabel='规划设计'>规划设计>></a></li>
+    <li class="fl"><a href="/col/col75066/index.html" readlabel='数据集团'>数据集团>></a></li>
+    </div>
+            </ul>
+          </div>
+        </li>
+        <li class='fl' b-tab>
+          <a href='/col/col11701/index.html' b-header>市县国资<div class='hide'></div></a>
+           <!--导航下拉之市县国资-->
+          <div class="navDown sxgzNav hide" b-panel >
+            <ul class="cf" >
+              <li class="fl sxgzNav01"><a href="/col/col11704/index.html">南京市</a></li>
+<li class="fl sxgzNav02"><a href="/col/col11703/index.html">无锡市</a></li>
+<li class="fl sxgzNav03"><a href="/col/col11702/index.html">徐州市</a></li>
+<li class="fl sxgzNav04"><a href="/col/col11708/index.html">常州市</a></li>
+<li class="fl sxgzNav05"><a href="/col/col11707/index.html">苏州市</a></li>
+<li class="fl sxgzNav06"><a href="/col/col11706/index.html">南通市</a></li>
+<li class="fl sxgzNav07"><a href="/col/col11705/index.html">连云港市</a></li>
+<li class="fl sxgzNav08"><a href="/col/col11711/index.html">淮安市</a></li>
+<li class="fl sxgzNav09"><a href="/col/col11712/index.html">盐城市</a></li>
+<li class="fl sxgzNav10"><a href="/col/col11713/index.html">扬州市</a></li>
+<li class="fl sxgzNav11"><a href="/col/col11714/index.html">镇江市</a></li>
+<li class="fl sxgzNav12"><a href="/col/col11709/index.html">泰州市</a></li>
+<li class="fl sxgzNav13"><a href="/col/col11710/index.html">宿迁市</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class='fl' b-tab>
+          <a href='/col/col85608/index.html' target='_blank' b-header>政务公开<div class='hide'></div></a>
+          
+          <!--导航下拉之政务公开-->
+          <div class="navDown zwgkNav hide cf" b-panel>
+            <div class="fl zwgkNavLeft" >
+              <ul>
+                <li><a href="http://jsgzw.jiangsu.gov.cn/col/col85608/index.html">政府信息公开指南</a></li>
+<li><a href="http://www.jiangsu.gov.cn/col/col59348/index.html" target="_blank"  title="江苏省政府信息公开申请须知">江苏省政府信息公开申请...</a></li>
+<li><a href="http://jsgzw.jiangsu.gov.cn/col/col85609/index.html">政府信息公开制度</a></li>
+<li><a href="http://www.jiangsu.gov.cn/ysqgk/front/main.do?sysid=2&groupid=30" target="_blank">政府信息公开申请</a></li>
+<li><a href="http://jsgzw.jiangsu.gov.cn/col/col85611/index.html">政府信息公开年报</a></li>
+              </ul>
+            </div>
+            <div class="fr zwgkNavRight">
+              <div class="cf zwgkNavRightTop">
+                <div class="zwgkNavRightTopLeft fl gzwxxqh" b-tab >
+                  <ul class="titleBox02 cf" b-header>
+                    <li class="title02 titleOn02 fl">
+                      <span>政策文件</span>
+                      <div></div>
+                    </li>
+                    <li class="title02 fl">
+                      <span>政策解读</span>
+                      <div class="hide"></div>
+                    </li>
+                 
+                  </ul>
+                  <div class="movenew2">
+                     <a href="/col/col85683/index.html" readlabel="更多">更多>></a>
+                    <a href="/col/col85618/index.html?number=10" class="hide" readlabel="更多">更多>></a>
+                  </div>
+                  <div b-panel class="xxlbcon">
+                    <ul class="list02">
+                      <li class="cf"><span class="fr" readLabel="2025-12-11">12-11</span><a href="/art/2025/12/11/art_85683_11689068.html" target="_blank" title="省国资委关于印发《江苏省省属企业发展规划管理办法》的通知">省国资委关于印发《江苏省省属企业发展规划管理办法》的通知</a></li><li class="cf"><span class="fr" readLabel="2025-05-28">05-28</span><a href="/art/2025/5/28/art_85683_11572624.html" target="_blank" title="省国资委关于印发《江苏省省属企业主责主业管理办法》的通知">省国资委关于印发《江苏省省属企业主责主业管理办法》的通知</a></li><li class="cf"><span class="fr" readLabel="2024-12-23">12-23</span><a href="/art/2024/12/23/art_85683_11453708.html" target="_blank" title="关于推进省属企业司库体系建设进一步提升资金管理水平的通知">关于推进省属企业司库体系建设进一步提升资金管理水平的通知</a></li><li class="cf"><span class="fr" readLabel="2024-08-13">08-13</span><a href="/art/2024/8/13/art_85683_11322658.html" target="_blank" title="省国资委关于印发《关于进一步加强省属企业内部控制体系建设与监督工作的实施意见》的通知">省国资委关于印发《关于进一步加强省属企业内部控制体系建设与监督工作的实施意见》的通知</a></li><li class="cf"><span class="fr" readLabel="2024-08-12">08-12</span><a href="/art/2024/8/12/art_85683_11322032.html" target="_blank" title="省国资委关于印发省属企业安全生产监督管理办法的通知">省国资委关于印发省属企业安全生产监督管理办法的通知</a></li><li class="cf"><span class="fr" readLabel="2024-07-30">07-30</span><a href="/art/2024/7/30/art_85683_11321661.html" target="_blank" title="关于加强省属企业金融业务管理和风险防范的指导意见">关于加强省属企业金融业务管理和风险防范的指导意见</a></li>
+                    </ul>
+                    <ul class="list02 hide">
+                      <li  class="cf"><span class="fr" readLabel="2025-12-11">12-11</span><a href="/art/2025/12/11/art_85618_11689070.html" target="_blank" title="《江苏省省属企业发展规划管理办法》政策解读">《江苏省省属企业发展规划管理办法》政策解读</a></li><li  class="cf"><span class="fr" readLabel="2025-05-28">05-28</span><a href="/art/2025/5/28/art_85618_11572635.html" target="_blank" title="《江苏省省属企业主责主业管理办法》政策解读">《江苏省省属企业主责主业管理办法》政策解读</a></li><li  class="cf"><span class="fr" readLabel="2024-12-23">12-23</span><a href="/art/2024/12/23/art_85618_11453713.html" target="_blank" title="《省国资委关于推进省属企业司库体系建设进一步提升资金管理水平的通知》政策解读">《省国资委关于推进省属企业司库体系建设进一步提升资金管理水平的通知》政策解读</a></li><li  class="cf"><span class="fr" readLabel="2024-08-13">08-13</span><a href="/art/2024/8/13/art_85618_11322662.html" target="_blank" title="关于进一步加强省属企业内部控制体系建设与监督工作的实施意见的制定说明">关于进一步加强省属企业内部控制体系建设与监督工作的实施意见的制定说明</a></li><li  class="cf"><span class="fr" readLabel="2024-08-12">08-12</span><a href="/art/2024/8/12/art_85618_11322035.html" target="_blank" title="省国资委关于省属企业安全生产监督管理办法的政策解读">省国资委关于省属企业安全生产监督管理办法的政策解读</a></li><li  class="cf"><span class="fr" readLabel="2024-07-30">07-30</span><a href="/art/2024/7/30/art_85618_11321665.html" target="_blank" title="关于加强省属企业金融业务管理和风险防范的指导意见的制定说明">关于加强省属企业金融业务管理和风险防范的指导意见的制定说明</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="fr zwgkNavRightTopRight gzwxxqh" b-tab >
+                  <ul class="titleBox02 cf" b-header>
+                    <li class="title02 titleOn02 fl">
+                      <span>规章制度</span>
+                      <div></div>
+                    </li>
+                    <li class="title02 fl">
+                      <span>公告公示</span>
+                      <div class="hide"></div>
+                    </li>
+                  </ul>
+                  <div class="movenew2">
+                     <a href="/col/col85617/index.html" readlabel="更多">更多>></a>
+                  <a href="/col/col85624/index.html" class="hide" readlabel="更多">更多>></a>
+                 </div>
+                  <div b-panel class="xxlbcon">
+                    <ul class="list02">
+                      <table width='100%' cellspacing='0' cellpadding='0' border='0'>
+<tr>
+<td style=''><li class="cf"><span class="fr" readLabel="2025-04-03">04-03</span><a href="/art/2025/4/3/art_85617_11532554.html" target="_blank" title="关于印发《企业国有资产交易操作规则》的通知">关于印发《企业国有资产交易操作规则》的通知</a></li></td></tr>
+<tr>
+<td style=''><li class="cf"><span class="fr" readLabel="2023-09-25">09-25</span><a href="/art/2023/9/25/art_85617_11025592.html" target="_blank" title="江苏省行政事业性国有资产管理办法（新）">江苏省行政事业性国有资产管理办法（新）</a></li></td></tr>
+<tr>
+<td style=''><li class="cf"><span class="fr" readLabel="2023-09-25">09-25</span><a href="/art/2023/9/25/art_85617_11025591.html" target="_blank" title="江苏省产品质量监督办法（新）">江苏省产品质量监督办法（新）</a></li></td></tr>
+<tr>
+<td style=''><li class="cf"><span class="fr" readLabel="2023-09-25">09-25</span><a href="/art/2023/9/25/art_85617_11025588.html" target="_blank" title="江苏省劳动模范和先进工作者评选管理工作办法（新）">江苏省劳动模范和先进工作者评选管理工作办法（新）</a></li></td></tr>
+<tr>
+<td style=''><li class="cf"><span class="fr" readLabel="2023-04-14">04-14</span><a href="/art/2023/4/14/art_85617_10863449.html" target="_blank" title="中央企业违规经营投资责任追究实施办法（试行)">中央企业违规经营投资责任追究实施办法（试行)</a></li></td></tr>
+<tr>
+<td style=''><li class="cf"><span class="fr" readLabel="2023-04-14">04-14</span><a href="/art/2023/4/14/art_85617_10863434.html" target="_blank" title="企业国有资产交易监督管理办法">企业国有资产交易监督管理办法</a></li></td>
+</tr></table>
+                    </ul>
+                    <ul class="list02 hide">
+                      <li  class="cf"><span class="fr" readLabel="2026-01-20">01-20</span><a href="/art/2026/1/20/art_85624_11719327.html" target="_blank" title="江苏省政府国有资产监督管理委员会门户网站工作年度报表（2025年度）">江苏省政府国有资产监督管理委员会门户网站工作年度报表（2025年度）</a></li><li  class="cf"><span class="fr" readLabel="2025-01-26">01-26</span><a href="/art/2025/1/26/art_85624_11480710.html" target="_blank" title="江苏省政府国有资产监督管理委员会门户网站工作年度报表（2024年度）">江苏省政府国有资产监督管理委员会门户网站工作年度报表（2024年度）</a></li><li  class="cf"><span class="fr" readLabel="2024-01-18">01-18</span><a href="/art/2024/1/18/art_85624_11129029.html" target="_blank" title="江苏省国资委网站2023年度工作报表">江苏省国资委网站2023年度工作报表</a></li><li  class="cf"><span class="fr" readLabel="2023-01-19">01-19</span><a href="/art/2023/1/19/art_85624_10869959.html" target="_blank" title="政府网站工作年度报表">政府网站工作年度报表</a></li><li  class="cf"><span class="fr" readLabel="2022-01-21">01-21</span><a href="/art/2022/1/21/art_85624_10869917.html" target="_blank" title="2021年度网站工作报表">2021年度网站工作报表</a></li><li  class="cf"><span class="fr" readLabel="2021-01-28">01-28</span><a href="/art/2021/1/28/art_85624_10869903.html" target="_blank" title="省国资委2020年度政府网站工作年度报表">省国资委2020年度政府网站工作年度报表</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="zwgkNavRightBot">
+                <ul class="cf" >
+                  <li class="fl zwgkNavRightBot01"><a href="/col/col89417/index.html"><span>领导<br/>简介</span></a></li>
+<li class="fl zwgkNavRightBot02"><a href="http://jsgzw.jiangsu.gov.cn/col/col85622/index.html"><span>人事<br/>任免</span></a></li>
+<li class="fl zwgkNavRightBot03"><a href="http://jsgzw.jiangsu.gov.cn/col/col85615/index.html"><span>内设<br/>机构</span></a></li>
+<li class="fl zwgkNavRightBot04"><a href="http://jsgzw.jiangsu.gov.cn/col/col85621/index.html"><span>数据<br/>报告</span></a></li>
+<li class="fl zwgkNavRightBot05"><a href="http://jsgzw.jiangsu.gov.cn/col/col85623/index.html"><span>预算<br/>决算</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class='fl' b-tab>
+          <a href='/col/col61478/index.html'  b-header>办事服务<div class='hide'></div></a>
+           <!--导航下拉之办事服务-->
+          <div class="navDown bsfwNav hide cf" b-panel>
+            <div class="fl bsfwNavLeft gzwxxqh" b-tab >
+              <ul class="titleBox02 cf" b-header>
+                <li class="title02 titleOn02 fl">
+                  <span>办事指南</span>
+                  <div></div>
+                </li>
+                <li class="title02 fl">
+                  <span>权责清单</span>
+                  <div class="hide"></div>
+                </li>
+              </ul>
+              <div class="movenew2">
+                <a href="/col/col61499/index.html" readlabel="更多">更多>></a>
+               <a href="/col/col11908/index.html" class="hide" readlabel="更多">更多>></a>
+             </div>
+              <div b-panel class="xxlbcon">
+                <ul class="list02">
+                  <li  class="cf"><span class="fr" readLabel="2019-05-07">05-07</span><a href="/art/2019/5/7/art_61499_8329750.html" target="_blank" title="企业特别监管类投资项目履行出资人审核把关程序">企业特别监管类投资项目履行出资人审核把关程序</a></li><li  class="cf"><span class="fr" readLabel="2019-05-07">05-07</span><a href="/art/2019/5/7/art_61499_8329633.html" target="_blank" title="省属企业负责人薪酬水平审核">省属企业负责人薪酬水平审核</a></li><li  class="cf"><span class="fr" readLabel="2019-05-06">05-06</span><a href="/art/2019/5/6/art_61499_8329197.html" target="_blank" title="省属企业股权激励、分红权激励方案审批">省属企业股权激励、分红权激励方案审批</a></li>
+                </ul>
+                <ul class="list02 hide">
+                  <li  class="cf"><span class="fr" readLabel="2020-06-11">06-11</span><a href="/art/2020/6/11/art_11908_7608282.html" target="_blank" title="关于公布江苏省国资委审批事项清单（2020年版）的通知">关于公布江苏省国资委审批事项清单（2020年版）的通知</a></li>
+                </ul>
+              </div>
+			  <!--<a href="http://www.js96777.com " target="_blank"><img
+        src="/picture/176/1804030943274604461.png"/></a>-->
+<a href="http://www.njiairport.com/" target="_blank" ><img style="margin-top:20px"
+        src="/picture/176/1804030943273055429.png"/></a>
+			  
+            </div>
+            <div class="fl bsfwNavMid gzwxxqh" b-tab >
+              <ul class="titleBox02 cf" b-header>
+                <li class="title02 titleOn02 fl">
+                  <span>资料下载</span>
+                  <div></div>
+                </li>
+              </ul>
+              <div class="movenew2">
+               <a href="/col/col11844/index.html" readlabel="更多">更多>></a>
+             </div>
+              <div b-panel class="xxlbcon">
+                <ul class="list02">
+                  <li  class="cf"><span class="fr" readLabel="2023-09-11">09-11</span><a href="/art/2023/9/11/art_11844_11011661.html" target="_blank" title="全省国资系统通讯录(模板）">全省国资系统通讯录(模板）</a></li><li  class="cf"><span class="fr" readLabel="2022-09-14">09-14</span><a href="/art/2022/9/14/art_11844_10604911.html" target="_blank" title="省属企业外派财务监督专员选聘报名表">省属企业外派财务监督专员选聘报名表</a></li><li  class="cf"><span class="fr" readLabel="2022-09-14">09-14</span><a href="/art/2022/9/14/art_11844_10604906.html" target="_blank" title="工作业绩采集表">工作业绩采集表</a></li><li  class="cf"><span class="fr" readLabel="2019-01-17">01-17</span><a href="/art/2019/1/17/art_11844_8063109.html" target="_blank" title="江苏省2018年度企业报表处理软件">江苏省2018年度企业报表处理软件</a></li><li  class="cf"><span class="fr" readLabel="2018-10-26">10-26</span><a href="/art/2018/10/26/art_11844_7853089.html" target="_blank" title="关于进一步规范和改进省属企业工资总额预算管理等有关收入分配事项有关业务操作指南(相关表格)">关于进一步规范和改进省属企业工资总额预算管理等有关收入分配事项有关业务操作指南(相关表格)</a></li><li  class="cf"><span class="fr" readLabel="2018-10-26">10-26</span><a href="/art/2018/10/26/art_11844_7852960.html" target="_blank" title="省属国有企业外聘法律顾问服务合同（示范文本）（备注：本合同条款中的加粗字体部分为必备条款 注意查看文件原文：苏国资【2018】122号）">省属国有企业外聘法律顾问服务合同（示范文本）（备注：本合同条款中的加粗字体部分为必备条款 注意查看文件原文：苏国资【2018】122号）</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="fr bsfwNavRight">
+              <div class="cf bsfwNavMidBot" style="margin-top:0;text-align:right;" >
+                 <a target="_blank" href="https://data.jszwfw.gov.cn:8118/extranet/openportal/pages/resource/resourcelist.html?depart=9d3e68a4-ec46-48b6-9814-2f511a29f1f9"><img src="/picture/0/2310182018294773869.png" /></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class='fl navWidthSpl' b-tab>
+          <a href='/col/col88456/index.html' target='_blank'  b-header>互动交流<div class='hide'></div></a>
+           <!--互动交流之导航下拉-->
+          <div class="navDown hdjlNav hide cf" b-panel>
+            <div class="hdjlNavLeft fl gzwxxqh" b-tab style="width:525px;">  
+<ul class="titleBox02 cf" b-header>
+                <li class="title02 titleOn02 fl">
+                  <span>在线调查</span>
+                  <div></div>
+                </li>
+              </ul>
+               <div class="movenew2">
+                 <a href="/col/col88456/index.html" readlabel="更多">更多>></a>
+             </div>
+              <div b-panel class="xxlbcon">
+                <ul class="list02 hdjlNavMidList">
+                  <li  class="cf"><span class="fr" readLabel="2025-10-16">10-16</span><a href="/module/web/survey/que_survey_htmlform.jsp?formid=613" target="_blank" title="2025年省国资委门户网站和微信公众号网民满意度调查问卷">2025年省国资委门户网站和微信公众号网民满意度调查问卷</a></li><li  class="cf"><span class="fr" readLabel="2025-07-02">07-02</span><a href="/module/web/survey/que_survey_htmlform.jsp?formid=606" target="_blank" title="江苏省国资委门户网站建设调查问卷">江苏省国资委门户网站建设调查问卷</a></li><li  class="cf"><span class="fr" readLabel="2025-04-02">04-02</span><a href="/module/web/survey/que_survey_htmlform.jsp?formid=603" target="_blank" title="江苏省国资委门户网站建设调查问卷">江苏省国资委门户网站建设调查问卷</a></li><li  class="cf"><span class="fr" readLabel="2023-10-20">10-20</span><a href="/module/web/survey/que_survey_htmlform.jsp?formid=590" target="_blank" title="江苏省国资国企改革发展相关情况调查问卷">江苏省国资国企改革发展相关情况调查问卷</a></li><li  class="cf"><span class="fr" readLabel="2023-10-12">10-12</span><a href="/module/web/survey/que_survey_htmlform.jsp?formid=589" target="_blank" title="江苏省国资委门户网站建设调查问卷">江苏省国资委门户网站建设调查问卷</a></li><li  class="cf"><span class="fr" readLabel="2023-05-16">05-16</span><a href="http://jsgzw.jiangsu.gov.cn/module/web/survey/que_survey_htmlform.jsp?formid=574" target="_blank" title="您对省国资委网站2023年一季度发布的信息质量是否满意？">您对省国资委网站2023年一季度发布的信息质量是否满意？</a></li><li  class="cf"><span class="fr" readLabel="2023-01-31">01-31</span><a href="http://jsgzw.jiangsu.gov.cn/module/web/survey/que_survey_htmlform.jsp?formid=573" target="_blank" title="关于网站首页发布的新闻内容是否满意？">关于网站首页发布的新闻内容是否满意？</a></li><li  class="cf"><span class="fr" readLabel="2023-10-31">10-31</span><a href="http://jsgzw.jiangsu.gov.cn/module/web/survey/que_survey_htmlform.jsp?formid=572" target="_blank" title="您对省国资委网站的设置和内容是否满意。">您对省国资委网站的设置和内容是否满意。</a></li><li  class="cf"><span class="fr" readLabel="2023-05-31">05-31</span><a href="http://jsgzw.jiangsu.gov.cn/module/web/survey/que_survey_htmlform.jsp?formid=565" target="_blank" title="您对省国资委网站发布的信息质量是否满意。">您对省国资委网站发布的信息质量是否满意。</a></li>
+                </ul>
+              </div>
+              <div class="">
+              </div>                                      
+            </div>
+            <div class="hdjlNavRight fl" style="margin-left:40px;">
+<h1>
+                信访与举报
+              </h1>
+              <ul class="cf">
+                <li class="hdjlNavRight01 fl"><a href="/col/col57001/index.html" target="_blank">信访方式</a></li>
+<li class="hdjlNavRight02 fl"><a href="/col/col57002/index.html" target="_blank">机关作风<br/>投诉</a></li>
+<li class="hdjlNavRight03 fl"><a href="/col/col11859/index.html" target="_blank">派驻纪检组举报方式</a></li>
+              </ul>              
+            </div>
+<div class="hdjlNavRight fl" style="margin-left:40px;">            
+              <div style="margin-top:0">
+                <a href="http://jsgzw.jiangsu.gov.cn/jact/front/main.do?sysid=59" target="_blank"><span>政务咨询</span></a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--内容块-->
+    <div class="container">
+      <!--内容块1开始-->
+      <div class="container01 cf">
+        <div class="container01Left fl" ergodic="view" barrierfree_zone_dsc="视窗区,当前包括图片轮播列表">
+          <div class="slide">
+            <div class="swiper-container">
+              <ul class="swiper-wrapper clearfix">
+                 <li class="swiper-slide"> <a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=js" target="_blank" title="@国务院 我来说"><img src="/picture/0/s_5786ac41884c46f5937b61e488f56256.jpg" alt=""></a>
+                  <div class="slideTxt"><a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=js" target="_blank" title="@国务院 我来说" style="color:#fff;"><span>@国务院 我来说</span></a></div>
+                </li><li class="swiper-slide"> <a href="/art/2026/8/26/art_11716_11820974.html" target="_blank" title="信长星在江苏交控和省农垦集团调研"><img src="/picture/0/s_925e407e3fde420494a0a31a5203a301.jpg" alt=""></a>
+                  <div class="slideTxt"><a href="/art/2026/8/26/art_11716_11820974.html" target="_blank" title="信长星在江苏交控和省农垦集团调研" style="color:#fff;"><span>信长星在江苏交控和省农垦集团调研</span></a></div>
+                </li><li class="swiper-slide"> <a href="/art/2026/7/22/art_11716_11806910.html" target="_blank" title="信长星在省国信集团高投集团调研"><img src="/picture/0/s_16a9422e2a384e1ba7b6bfea72de15df.jpg" alt=""></a>
+                  <div class="slideTxt"><a href="/art/2026/7/22/art_11716_11806910.html" target="_blank" title="信长星在省国信集团高投集团调研" style="color:#fff;"><span>信长星在省国信集团高投集团调研</span></a></div>
+                </li><li class="swiper-slide"> <a href="/art/2026/9/14/art_11716_11829591.html" target="_blank" title="省委组织部、省国资委举办江苏国有企业大讲堂第2期人工智能专题研讨班"><img src="/picture/0/s_78fc4d8d0b0d4af2809d99f6244ec99a.jpg" alt=""></a>
+                  <div class="slideTxt"><a href="/art/2026/9/14/art_11716_11829591.html" target="_blank" title="省委组织部、省国资委举办江苏国有企业大讲堂第2期人工智能专题研讨班" style="color:#fff;"><span>省委组织部、省国资委举办江苏国有企业大讲堂第2期人工智能...</span></a></div>
+                </li><li class="swiper-slide"> <a href="/art/2026/7/28/art_11716_11809361.html" target="_blank" title="南京市与省属国资国企举行战略合作暨项目签约活动周红波沈剑荣出席并讲话 李忠军主持"><img src="/picture/0/88e0c160f2f64e29bd25c96b441e8705.png" alt=""></a>
+                  <div class="slideTxt"><a href="/art/2026/7/28/art_11716_11809361.html" target="_blank" title="南京市与省属国资国企举行战略合作暨项目签约活动周红波沈剑荣出席并讲话 李忠军主持" style="color:#fff;"><span>南京市与省属国资国企举行战略合作暨项目签约活动周红波沈剑...</span></a></div>
+                </li>
+
+ 
+              </ul>
+            </div>
+            <div class="swiper-pagination">
+              
+            </div>
+          </div>
+        </div>
+        <div class="container01Right gzwxxqh fr" b-tab="" ergodic="view" barrierfree_zone_dsc="视窗区，有国资要闻、视频要闻信息列表">
+          <ul class="titleBox01 cf" b-header="">
+            <li class="title01 fl titleOn01">
+              <span>时政要闻</span></!--for-->
+
+
+            </li>
+            <li class="title01 fl">
+              <span>国资要闻</span>
+
+
+            </li>
+          </ul>
+          <div class="movenew1">
+            <a href="/col/col11717/index.html" readlabel="更多">更多>></a>
+
+            <a href="/col/col61527/index.html" class="hide" readlabel="更多">更多>></a>
+
+          </div>
+          <div b-panel="" class="lbqhcon">
+            <div class='qiehuan'>
+              <div class="theme01">
+                <h1><a href="/art/2026/10/10/art_11717_11840245.html" target="_blank" title="以创新赢未来——习近平经济思想引领中国加快发展新质生产力">以创新赢未来——习近平经济思想引领中...</a></h1><p>新华社北京10月9日电 题：以创新赢未来——习近平经济思想引领中国加快发展新质生产力新华...<a href="/art/2026/10/10/art_11717_11840245.html" target="_blank">[详情]</a></p>
+              </div>
+              <ul class="list01">
+                <li class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11717_11839782.html" target="_blank" title="“探索浩瀚宇宙，发展航天事业”——习近平总书记重要论述引领加快建设航天强国">“探索浩瀚宇宙，发展航天事业”——习近平总书记重要论述引领加快建设航天强国</a></li><li class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_11717_11838841.html" target="_blank" title="铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐">铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐</a></li><li class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_11717_11837747.html" target="_blank" title="烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席">烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席</a></li><li class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_11717_11837739.html" target="_blank" title="《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》">《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》</a></li><li class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_11717_11836917.html" target="_blank" title="习近平就建设更高水平平安中国作出重要指示">习近平就建设更高水平平安中国作出重要指示</a></li>
+              </ul>
+            </div>
+            <div class="qiehuan hide">
+              <div class="theme01">
+                <h1><a href="/art/2026/10/10/art_61527_11840248.html" target="_blank"title="国务院国资委与中国科学院举行2026年度合作会商强化任务协同资源共享优势互补 共同打造国家战略科技力量">国务院国资委与中国科学院举行2026...</a></h1><p>国务院国资委与中国科学院举行2026年度合作会商强化任务协同资源共享优势互补 共同打造国家战略科技力量<a href="/art/2026/10/10/art_61527_11840248.html" target="_blank">[详情]</a></p>
+              </div>
+              <ul class="list01">
+                <li  class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_61527_11838839.html" target="_blank" title="国务院国资委党委传达学习中央政治局会议精神和习近平总书记近期重要讲话重要贺信精神">国务院国资委党委传达学习中央政治局会议精神和习近平总书记近期重要讲话重要贺信精神</a></li><li  class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_61527_11837737.html" target="_blank" title="省国资委公务员履职能力（国有企业高质量发展）专题培训班在宁举办">省国资委公务员履职能力（国有企业高质量发展）专题培训班在宁举办</a></li><li  class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_61527_11837734.html" target="_blank" title="国务院国资委召开中央企业安全生产工作视频会议从严从实建强企业安全管理体系 以高水平安全保障高质量发展">国务院国资委召开中央企业安全生产工作视频会议从严从实建强企业安全管理体系 以高水平安全保障高质量发展</a></li><li  class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_61527_11837730.html" target="_blank" title="国务院国资委出席国务院新闻办新闻发布会介绍落实“十五五”规划推动中央企业高质量发展情况">国务院国资委出席国务院新闻办新闻发布会介绍落实“十五五”规划推动中央企业高质量发展情况</a></li><li  class="cf"><span class="fr" readLabel="2026-09-30">09-30</span><a href="/art/2026/9/30/art_61527_11836901.html" target="_blank" title="省国资委领导班子成员调研督导省属企业安全生产工作">省国资委领导班子成员调研督导省属企业安全生产工作</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--内容块1结束-->
+	  
+	  <!--内容块3开始-->
+	  <div class="container03" ergodic="view" barrierfree_zone_dsc="视窗区,当前包括专题专栏">
+	    <div class="container03Pos01"></div>
+	    <div class="container03Pos02"></div>
+	    <div class="container03Pos03">
+	      专<br/>题<br/>专<br/>栏
+	    </div>
+	    <div class="pic_tx cf">
+	      <style>
+.pic_tx .pl {width:300px;float:left;ma;margin: 0 30px;}
+.pic_tx .pl img{display:block;width: 300px;height: 74px;}
+.old_type .pic_tx .pic_tx_box{ width:1062px;}
+.old_type .LeftBotton,.old_type .RightBotton{ margin-top:40px}
+</style>
+<a class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseup="ISL_StopUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" onfocus="this.blur();"></a>
+<div class="pic_tx_box" id="ISL_Cont_1">
+    <div class="ScrCont">
+        <div id="List1_1"><a class="pl" href="/col/col93006/index.html" title="学习贯彻党的二十届四中全会精神"><img width="300" src="/picture/0/2d788aae879b4275852c60fe62f3f3fa.jpg"/></a><a class="pl" href="/col/col92289/index.html" title="国企招聘"><img width="300" src="/picture/0/1bb0e196fc5a4d1e85e14cb1633049f4.png"/></a><a class="pl" href="https://wjk.jsrd.gov.cn:8004/#/home" title="江苏省法规规章规范性文件数据库"><img width="300" src="/picture/0/fcd452aea5b14fd0b384e74b67f7301c.png"/></a><a class="pl" href="/col/col88219/index.html" title="党的创新理论宣讲精品课库"><img width="300" src="/picture/0/4a7a1d8301ad41ddb4c94a244d188871.jpg"/></a><a class="pl" href="http://jsgzw.jiangsu.gov.cn/col/col11772/index.html" title="国企党建"><img width="300" src="/picture/0/f3865feb3670416c8b0c8c159da3f22c.png"/></a><a class="pl" href="/col/col90773/index.html" title="省属企业安全生产治本攻坚三年行动"><img width="300" src="/picture/0/9455e3dcf5d3428b982828b0d738f5cb.jpg"/></a></div>
+        <div id="List2_1"></div>
+    </div>
+</div>
+<a class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseup="ISL_StopDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" onfocus="this.blur();"></a>
+<script type="text/javascript">
+	//今日高淳图片特效
+var Speed_1 = 10; //速度(毫秒)
+var Space_1 =20; //每次移动(px)
+var PageWidth_1 = 360; //翻页宽度
+var interval_1 = 5000; //翻页间隔时间
+var fill_1 = 0; //整体移位
+var MoveLock_1 = false;
+var MoveTimeObj_1;
+var MoveWay_1="right";
+var Comp_1 = 0;
+var AutoPlayObj_1=null;
+function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+AutoPlay_1()}
+function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+AutoPlay_1()}
+function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+function picrun_ini(){
+GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+AutoPlay_1();
+}
+picrun_ini();
+</script>
+	    </div>
+	  </div>
+	  <!--内容块3结束-->
+	  
+      <!--内容块2开始-->
+      <div class="container02 cf">
+        <div class="container02Left fl gzwxxqh" b-tab="" ergodic="view" barrierfree_zone_dsc="视窗区，有国务院要闻、江苏要闻信息列表">
+          <ul class="titleBox02 cf" b-header="">
+            <li class="title02 titleOn02 fl">
+              <span>中国政府网信息</span>
+              <div></div>
+            </li>
+            <li class="title02 fl">
+              <span>江苏要闻</span>
+              <div class="hide"></div>
+            </li>
+          </ul>
+          <div class="movenew2">
+            <a href="http://www.gov.cn/" target="_blank" readlabel="更多">更多>></a>
+            <a href="/col/col61475/index.html" class="hide" readlabel="更多">更多>></a>
+          </div>
+          <div class="xxlbcon" b-panel="">
+            <ul class="list02">
+              <style type="text/css">
+      .govpushinfo150203 li a{float:left;display:block;width:260px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+      .govpushinfo150203 li span{float:right;}
+      </style>
+      <script language="javascript" src="//www.gov.cn/pushinfo/v150203/pushinfo.js"></script>
+      <script type="text/javascript">
+      $(function(){
+          var arr = new Array();	
+          var lis = $('ul.govpushinfo150203>li');
+          var reg = /\d{4}\-(\d{1,2})\-(\d{1,2})/g;
+          for(var i=0;i<lis.length;i++){	
+              arr[i] = new Object();
+              arr[i].date = lis.eq(i).children('span').text().replace(reg,"$1-$2");
+              arr[i].title = lis.eq(i).children('a').text();
+              arr[i].href = lis.eq(i).children('a').attr('href');
+              arr.push(arr[i]);
+              }
+$('.govpushinfo150203').html('');
+          for(var i=0;i<8;i++){
+              $('.govpushinfo150203').append('<li class="cf"><a href="'+arr[i].href+'" target="_blank" title="'+arr[i].title+'">'+arr[i].title+'</a><span  readLabel="2023-'+arr[i].date+'">'+arr[i].date+'</span></li>')
+              }
+      
+      })
+      </script>
+            </ul>
+            <ul class="list02 hide">
+              <li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_61475_11840006.html" target="_blank" title="江苏“一企来办”平台统一上线19张“明白卡” 十部门惠企政策实现“一卡尽览”">江苏“一企来办”平台统一上线19张“明白卡” 十部门惠企政策实现“一卡尽览”</a></li><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_61475_11840000.html" target="_blank" title="江苏出台新政进一步支持人工智能创新发展 三张补贴券为AI研发“精准加油”">江苏出台新政进一步支持人工智能创新发展 三张补贴券为AI研发“精准加油”</a></li><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_61475_11839349.html" target="_blank" title="南京市—南京大学共建上海（长三角）国际科技创新中心南京关键支点暨紫金山创新带工作推进会举行 刘小涛出席">南京市—南京大学共建上海（长三角）国际科技创新中心南京关键支点暨紫金山创新带工作推进会举行 刘小涛出席</a></li><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_61475_11839344.html" target="_blank" title="信长星主持召开省委全面深化改革委员会会议 着眼全局加强谋划 聚焦重点深化攻坚 扎扎实实推动各项改革部署落地见效 刘小涛张义珍出席">信长星主持召开省委全面深化改革委员会会议 着眼全局加强谋划 聚焦重点深化攻坚 扎扎实实推动各项改革部署落地见效 刘小涛张义珍出席</a></li><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_61475_11839339.html" target="_blank" title="省委常委会召开会议学习贯彻习近平总书记近期重要讲话重要指示精神 更好统筹发展和安全 加快建设更高水平平安江苏 信长星主持并讲话">省委常委会召开会议学习贯彻习近平总书记近期重要讲话重要指示精神 更好统筹发展和安全 加快建设更高水平平安江苏 信长星主持并讲话</a></li><li  class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_61475_11838683.html" target="_blank" title="省政府召开国庆假期返程交通安全保畅调度会议 刘小涛主持并讲话">省政府召开国庆假期返程交通安全保畅调度会议 刘小涛主持并讲话</a></li><li  class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_61475_11838679.html" target="_blank" title="在这里，“土特产”做成大产业——活力中国的江苏答卷正落笔生花（下）">在这里，“土特产”做成大产业——活力中国的江苏答卷正落笔生花（下）</a></li><li  class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_61475_11838675.html" target="_blank" title="从需要变成想要，从购物变成体验——91亿元热度背后的江苏假日消费新变化">从需要变成想要，从购物变成体验——91亿元热度背后的江苏假日消费新变化</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container02Mid fl gzwxxqh" b-tab="" ergodic="view" barrierfree_zone_dsc="视窗区，有省属企业、市县国资信息列表">
+          <ul class="titleBox02 cf " b-header="">
+            <li class="title02 titleOn02 fl">
+              <span>省属企业</span>
+              <div></div>
+            </li>
+            <li class="title02 fl">
+              <span>市县国资</span>
+
+<style>
+.old_type .container02Mid .list02 li{width:1140px!important;}
+</style>
+              <div class="hide"></div>
+            </li>
+          </ul>
+          <div class="movenew2">
+            <a href="/col/col11779/index.html" readlabel="更多">更多>></a>
+            <a href="/col/col11701/index.html" class="hide" readlabel="更多">更多>></a>
+          </div>
+          <div class="xxlbcon" b-panel="">
+            <ul class="list02">
+              <table width='100%' cellspacing='0' cellpadding='0' border='0'>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839483.html" target="_blank" title="通行宝更名数智集团，加快布局交通数字产业新赛道">通行宝更名数智集团，加快布局交通数字产业新赛道</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839481.html" target="_blank" title="江苏高速服务区“好物”热销国庆假期">江苏高速服务区“好物”热销国庆假期</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839478.html" target="_blank" title="2026江苏“创青春”AI+交通大赛加速营在南京开营">2026江苏“创青春”AI+交通大赛加速营在南京开营</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839477.html" target="_blank" title="云杉资本参与投资企业百瑞吉成功上市">云杉资本参与投资企业百瑞吉成功上市</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839476.html" target="_blank" title="江苏如皋港东首个无亭化收费站开通运营">江苏如皋港东首个无亭化收费站开通运营</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839475.html" target="_blank" title="中交集团会谈交流并签署战略深化协议">中交集团会谈交流并签署战略深化协议</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11787_11839473.html" target="_blank" title="交控云平台企业管控AI智能体门户正式上线">交控云平台企业管控AI智能体门户正式上线</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_78882_11839206.html" target="_blank" title="省环保集团：从“人机协作”到“无人值守”，加快生态环境监测智能化">省环保集团：从“人机协作”到“无人值守”，加快生态环境监测智能化</a></li></td>
+</tr></table>
+            </ul>
+            <ul class="list02 hide">
+              <table width='100%' cellspacing='0' cellpadding='0' border='0'>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_11709_11840210.html" target="_blank" title="泰州早茶集团当选为江苏省餐饮行业协会早茶产业委员会主任单位">泰州早茶集团当选为江苏省餐饮行业协会早茶产业委员会主任单位</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_11709_11840209.html" target="_blank" title="市交通集团全力护航国庆假期出行">市交通集团全力护航国庆假期出行</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_11709_11840207.html" target="_blank" title="市城投集团构建共有产权住房综合服务体系">市城投集团构建共有产权住房综合服务体系</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_11709_11840206.html" target="_blank" title="留芳茶社上线 “交易即开票”，泰州文旅集团依托司库 2.0 探索经营管理数字化新实践">留芳茶社上线 “交易即开票”，泰州文旅集团依托司库 2.0 探索经营管理数字化新实践</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_11709_11840205.html" target="_blank" title="靖江国企成功落地泰州首单共有产权住房办证业务">靖江国企成功落地泰州首单共有产权住房办证业务</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-10">10-10</span><a href="/art/2026/10/10/art_11708_11840184.html" target="_blank" title="国庆长假常州双地标激发龙城活力 文商旅共生融合持续出圈">国庆长假常州双地标激发龙城活力 文商旅共生融合持续出圈</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-09">10-09</span><a href="/art/2026/10/9/art_11713_11839336.html" target="_blank" title="扬农集团两个项目在中国创新方法大赛获奖">扬农集团两个项目在中国创新方法大赛获奖</a></li></td></tr>
+<tr>
+<td style=''><li  class="cf"><span class="fr" readLabel="2026-10-08">10-08</span><a href="/art/2026/10/8/art_11703_11839033.html" target="_blank" title="无锡市医疗健康集团“AI+全域康养产业融合发展试验区”落地新吴区江溪街道">无锡市医疗健康集团“AI+全域康养产业融合发展试验区”落地新吴区江溪街道</a></li></td>
+</tr></table>
+            </ul>
+          </div>
+        </div>
+        <div class="container02Right fr gzwxxqh" b-tab=""  ergodic="view" barrierfree_zone_dsc="视窗区，有通知公告、网上公示信息列表">
+          <ul class="titleBox02 cf" b-header="">
+            <li class="title02 titleOn02 fl">
+              <span>公告公示</span>
+              <div></div>
+            </li>
+            <li class="title02 fl">
+              <span>数据报告</span>
+              <div class="hide"></div>
+          </ul>
+          <div class="movenew2">
+             <a href="/col/col85624/index.html" readlabel="更多">更多>></a>
+            <a href="/col/col85621/index.html" class="hide" readlabel="更多">更多>></a>
+          </div>
+          <div class="xxlbcon" b-panel="">
+            <ul class="list02">
+              <li class="cf"><span class="fr" readLabel="2026-01-20">01-20</span><a href="/art/2026/1/20/art_85624_11719327.html" target="_blank" title="江苏省政府国有资产监督管理委员会门户网站工作年度报表（2025年度）">江苏省政府国有资产监督管理委员会门户网站工作年度报表（2025年度）</a></li><li class="cf"><span class="fr" readLabel="2025-01-26">01-26</span><a href="/art/2025/1/26/art_85624_11480710.html" target="_blank" title="江苏省政府国有资产监督管理委员会门户网站工作年度报表（2024年度）">江苏省政府国有资产监督管理委员会门户网站工作年度报表（2024年度）</a></li><li class="cf"><span class="fr" readLabel="2024-01-18">01-18</span><a href="/art/2024/1/18/art_85624_11129029.html" target="_blank" title="江苏省国资委网站2023年度工作报表">江苏省国资委网站2023年度工作报表</a></li><li class="cf"><span class="fr" readLabel="2023-01-19">01-19</span><a href="/art/2023/1/19/art_85624_10869959.html" target="_blank" title="政府网站工作年度报表">政府网站工作年度报表</a></li><li class="cf"><span class="fr" readLabel="2022-01-21">01-21</span><a href="/art/2022/1/21/art_85624_10869917.html" target="_blank" title="2021年度网站工作报表">2021年度网站工作报表</a></li><li class="cf"><span class="fr" readLabel="2021-01-28">01-28</span><a href="/art/2021/1/28/art_85624_10869903.html" target="_blank" title="省国资委2020年度政府网站工作年度报表">省国资委2020年度政府网站工作年度报表</a></li><li class="cf"><span class="fr" readLabel="2020-01-15">01-15</span><a href="/art/2020/1/15/art_85624_10869884.html" target="_blank" title="政府网站工作年度报表(2019年度)">政府网站工作年度报表(2019年度)</a></li>
+            </ul>
+            <ul class="list02 hide">
+              <li  class="cf"><span class="fr" readLabel="2026-09-23">09-23</span><a href="/art/2026/9/23/art_85621_11834827.html" target="_blank" title="2026年1-8月份省、设区市国资委监管企业主要财务指标完成情况">2026年1-8月份省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-08-20">08-20</span><a href="/art/2026/8/20/art_85621_11820053.html" target="_blank" title="2026年1-7月份省、设区市国资委监管企业主要财务指标完成情况">2026年1-7月份省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-07-14">07-14</span><a href="/art/2026/7/14/art_85621_11803886.html" target="_blank" title="2026年1-6月份省、设区市国资委监管企业主要财务指标完成情况">2026年1-6月份省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-06-30">06-30</span><a href="/art/2026/6/30/art_85621_11800561.html" target="_blank" title="2026年1-5月份省、设区市国资委监管企业主要财务指标完成情况">2026年1-5月份省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-05-27">05-27</span><a href="/art/2026/5/27/art_85621_11777345.html" target="_blank" title="2026年1-4月份省、设区市国资委监管企业主要财务指标完成情况">2026年1-4月份省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-04-20">04-20</span><a href="/art/2026/4/20/art_85621_11759994.html" target="_blank" title="2026年一季度省、设区市国资委监管企业主要财务指标完成情况">2026年一季度省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-03-16">03-16</span><a href="/art/2026/3/16/art_85621_11759993.html" target="_blank" title="2026年1-2月份省、设区市国资委监管企业主要财务指标完成情况">2026年1-2月份省、设区市国资委监管企业主要财务指标完成情况</a></li><li  class="cf"><span class="fr" readLabel="2026-02-27">02-27</span><a href="/art/2026/2/27/art_85621_11733159.html" target="_blank" title="2026年1月份省、设区市国资委监管企业主要财务指标完成情况">2026年1月份省、设区市国资委监管企业主要财务指标完成情况</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--内容块2结束-->
+
+      
+      <!--内容块4开始-->
+      <div class="container04" ergodic="view" barrierfree_zone_dsc="视窗区,当前包括友情链接">
+        <ul class="cf">
+          <li class="fl bottomLink01" style="margin-left:10px;"><a href="http://www.gov.cn/" target="_blank" title="中华人民共和国中央人民政府"><img
+      src="/picture/176/1804021721030936264.png" /></a></li>
+<li class="fl bottomLink02"><a href="http://www.js.gov.cn/" target="_blank"  title="江苏省人民政府"><img
+      src="/picture/176/1804021721033138253.png" /></a></li>
+<li class="fl bottomLink03"><a href="http://www.sasac.gov.cn/" target="_blank"  title="国务院国有资产监督管理委员会"><img
+      src="/picture/0/314084f2f79843908efd361444f66444.png" /></a></li>
+          <li class="fl bottomLink05">
+            <a href="/col/col11928/index.html" title="省内各市国资委栏目"><img  src="/picture/0/1805021144454687362.jpg"></a>
+          </li>
+          <li class="fl bottomLink06">
+            <a target="_blank" href="https://221.226.28.250:16828/"><img height="35" src="/picture/0/2312111428043853402.png"></a>
+          </li>
+        </ul>
+      </div>
+      <!--内容块4结束-->
+    </div>
+    <div class="heightShadow"></div>
+    <!--底部-->
+    <script src="/script/112/2310111032033837.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.swiper-wrapper .slideTxt').attr({tabindex:'-1',readexclude:''})
+    $('.swiper-pagination').attr({tabindex:'-1',readexclude:''})
+    $('.swiper-pagination span').attr({tabindex:'-1',readexclude:''})
+  })
+</script>
+
+<style>
+.container02Mid .list02 li{width:369px;}
+.old_type .container02Mid .list02 li{width:100%;}
+.navDown{z-index:9999;}
+</style>
+
+    <!--侧边栏-->
+    <script src="/script/69/1804021627077111.js"></script>
+
+  </div>
+  <div id="winpop" style="height:0px;">
+    <div class="title"><span id="kg" class="winpop_close" onclick="tips_pop()">×</span></div>
+    <div class="con">
+<a href="https://mp.weixin.qq.com/s/cjHjYN43iRV3r64n_0k81w" target="_blank"><img width="200" src="/picture/0/2405311012536203321.png"></a>
+      <a href="https://liuyan.www.gov.cn/2024wwzfgzbgtjy/bmdf.html?q=js" target="_blank"><img width="200" height="200" src="/picture/0/2403111041373887318.jpg">
+    </a>
+	<a href="/art/2024/1/18/art_85624_11129029.html" target="_blank"><img width="200" height="130" src="/picture/0/2304022305357876287.jpg" style="display:none;">
+</a>
+    </div>
+  </div>
+  <style>
+    #winpop {
+      width: 200px;
+      height: 0px;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+      overflow: hidden;
+      display: none;
+    }
+
+    #winpop .title {
+      width: 100%;
+      height: 22px;
+      line-height: 20px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    #winpop .con {
+      width: 100%;
+      font-size: 14px;
+      color: #FFF;
+      text-align: center
+    }
+
+    .winpop_close {
+      float: right;
+      font-size: 14px;
+      cursor: pointer;
+      color: #bfbfbf;
+      width: 20px;
+      height: 20px
+    }
+
+    #winpop .con a {
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "微软雅黑";
+      color: #fff;
+      margin-top: 8px;
+    }
+
+    #winpop_in1,
+    #winpop_in2 {
+      overflow: hidden;
+    }
+  </style>
+  <script type="text/javascript">
+    function tips_pop() {
+      var MsgPop = document.getElementById("winpop");
+      var kg = document.getElementById("kg");
+      var popH = parseInt(MsgPop.style.height);
+      if (popH == 0) {
+        MsgPop.style.display = "block";
+        show = setInterval("changeH('up')", 10);
+      } else {
+        hide = setInterval("changeH('down')", 10);
+      }
+    }
+
+    function changeH(str) {
+      var MsgPop = document.getElementById("winpop");
+      var popH = parseInt(MsgPop.style.height);
+      var conHeight = $('.con').height() + 30;
+      if (str == "up") {
+        if (popH <= conHeight) {
+          MsgPop.style.height = (popH + 3).toString() + "px";
+        } else {
+          clearInterval(show);
+        }
+      }
+      if (str == "down") {
+        if (popH >= 24) {
+          MsgPop.style.height = (popH - 3).toString() + "px";
+        } else {
+          clearInterval(hide);
+        }
+      }
+    }
+    $(document).ready(function () {
+      tips_pop();
+    });
+  </script>
+  <!--<div class="overBox"></div>
+<div class="overBoxLeft"></div>-->
+  <script type="text/javascript" src="/images/3011/jquery.js"></script>
+  <script type="text/javascript" src="/images/3011/SuperSlide.js"></script>
+  <script type="text/javascript">
+    $(function () {
+    require.config({
+        paths: {
+            "Swiper": "/images/3011/swiper"
+        }
+    })
+     require(["Swiper"], function (Swiper) {
+        var serve = new Swiper('.slide .swiper-container', {
+            slidesPerView: 'auto',
+            autoplay: true,
+            loop: true,
+            autoplay: {
+                disableOnInteraction: false, 
+                //点击元素后不会停止轮播并且重新启动autoplay
+                delay: 3000 
+                //自动轮播间隔时间  
+            },
+            observer: true,
+             //启动动态检查器(OB/观众/观看者)，当改变swiper的样式（例如隐藏/显示）或者修改swiper的子元素时，自动初始化swiper。               
+            observeParents: true,
+            observeSlideChildren: true,
+            pagination: {
+                //加小点点                          
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                  return '<span class="' + className + '">' + (index + 1) + "</span>";
+                }
+            },
+        });
+        $(".slide").on("mouseenter", function () {
+            serve.autoplay.stop(); //鼠标悬浮停止自动播放                  
+        }).on("mouseleave", function () {
+            serve.autoplay.start(); //鼠标离开开启自动播放          
+        })
+    })
+})
+  </script>
+<script type="text/javascript" src="/images/3011/index.js"></script>
+  <!-- 新增小轮播 -->
+<script type="text/javascript">
+  jQuery(".slideBox1").slide({
+    mainCell: ".bd ul",
+    effect: "left",
+    autoPlay: true
+  });
+  jQuery(".slideBox2").slide({
+    mainCell: ".bd2 ul",
+    effect: "left",
+    autoPlay: true
+  });
+</script>
+<style>
+  .old_type .navDown .movenew2{top:-15px;}
+</style>
+<script>
+//首页第一块右侧列表
+$(function(){
+	$(".title01").mouseover(function(){
+		$(this).addClass("titleOn01").siblings(".title01").removeClass("titleOn01");
+		var titleIndex01= $(".title01").index(this);
+		$(".movenew1 a").eq(titleIndex01).removeClass("hide").siblings("").addClass("hide");
+		// console.log(titleIndex01);
+		$(".qiehuan").eq(titleIndex01).removeClass("hide").siblings(".qiehuan").addClass("hide");
+	})
+	
+	$(".title02").mouseover(function(){
+		$(this).addClass("titleOn02").siblings(".title02").removeClass("titleOn02");
+		$(this).siblings(".title02").find("div").addClass("hide");
+		$(this).find("div").removeClass("hide");
+		var titleIndex02= $(this).index();
+		// console.log(titleIndex02);
+		$(this).parents("ul").siblings(".movenew2").children("a").eq(titleIndex02).removeClass("hide").siblings("").addClass("hide");
+		$(this).parents("ul").siblings(".xxlbcon").children(".list02").eq(titleIndex02).removeClass("hide").siblings(".list02").addClass("hide");
+	})
+})
+
+//导航下拉
+$(function(){
+	var bodyH = $("body").outerHeight();
+	var bodyW = (document.body.clientWidth-1200)/2;
+	$(".overBox,.overBoxLeft").width(bodyW);
+	$(".overBox,.overBoxLeft").height(bodyH);
+	// $("#nav>li>a").mouseover(function(event){
+	// 	var i = $("#nav>li>a").index(this)-1;
+	// 	$(".navDown").addClass("hide");
+	// 	$(".navDown").eq(i).removeClass("hide");		
+	// })
+	// $(".banner,.sideBar,.container,.overBox,.overBoxLeft").mouseover(function(){
+	// 	$(".navDown").addClass("hide");	
+	// })
+	// $("#nav li:first-child a").mouseover(function(){
+	// 	$(".navDown").addClass("hide");
+	// })
+   $("#nav>li>a").mouseover(function(event){
+      var i = $("#nav>li>a").index(this)-1;
+      if(i>=0){
+        $(".navDown").addClass("hide");
+        $(".navDown").eq(i).removeClass("hide");		
+      }else{
+        $(".navDown").addClass("hide");
+      }
+  })
+  $("#nav").mouseleave(function(){
+     $(".navDown").addClass("hide");
+  })
+})  
+</script>
+</div><script type="text/javascript" src="/module/web/advertise/que_showadv.jsp?id=356"></script>
+<!-- visitcount Begin --><iframe src='./module/visitcount/visit.jsp?type=1&i_webid=39&i_columnid=11700' name="vishidden" id="vishidden" frameborder="0" style="width:0; height:0; display:none"></iframe><!-- visitcount End -->
+<script language="javascript" src='/script/web_front.js'></script>
+</body>
+
+</html>

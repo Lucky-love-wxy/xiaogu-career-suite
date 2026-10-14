@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.46,
+  "access_date": "2026-10-12",
+  "sha256": "c2f0a21ab34966f89c0db6647e43859c0007def131371ac609f290ce997cbb77",
+  "blocked": null,
+  "id": "kanzhun-qcc-search",
+  "company": "kanzhun",
+  "query": "BOSS直聘 北京华品博睿网络技术有限公司 企业 成立日期",
+  "include_domains": [
+    "qcc.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/kanzhun-qcc-search.json"
+}

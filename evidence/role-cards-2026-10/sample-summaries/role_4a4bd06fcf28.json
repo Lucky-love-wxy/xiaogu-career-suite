@@ -1,0 +1,382 @@
+{
+  "name": [
+    {
+      "text": "项目专员/助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "项目专员/助理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 5,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "根据实验项目要求进行相关试剂耗材等采购工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkU5ZLLCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkU5ZLLCL",
+          "text": "根据实验项目要求进行相关试剂耗材等采购工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责定期了解知悉实验室的实验进程汇报给客户",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkU5ZLLCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkU5ZLLCL",
+          "text": "负责定期了解知悉实验室的实验进程汇报给客户"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责协助销售部门如开票，实验报告，出库单等等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkU5ZLLCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkU5ZLLCL",
+          "text": "负责协助销售部门如开票，实验报告，出库单等等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责市场部合约的管理，项目的启动，立项单的管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkU5ZLLCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkU5ZLLCL",
+          "text": "负责市场部合约的管理，项目的启动，立项单的管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合设计师完成项目工作，协助撰写项目阶段汇报材料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsl5zz5LC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsl5zz5LC",
+          "text": "配合设计师完成项目工作，协助撰写项目阶段汇报材料"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助编写、执行和持续改进测试用例，整理测试结果与问题清单",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885nLnzM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885nLnzM",
+          "text": "协助编写、执行和持续改进测试用例，整理测试结果与问题清单"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助完成新型生物治疗产品（细胞治疗产品、基因治疗产品等）临床前评价",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrr5zMNNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zMNNn",
+          "text": "协助完成新型生物治疗产品（细胞治疗产品、基因治疗产品等）临床前评价"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责院内部办公事务支持，包括办公用品管理、差旅安排、接待协助等日常行政工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsl5zz5LC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsl5zz5LC",
+          "text": "负责院内部办公事务支持，包括办公用品管理、差旅安排、接待协助等日常行政工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "5份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vlU5zZMNM",
+          "vrr5zMNNn"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "v885nLnzM",
+          "vkU5ZLLCL"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vsl5zz5LC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "v885nLnzM"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vlU5zZMNM"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“生物工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物工程类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vkU5ZLLCL"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vrr5zMNNn"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vsl5zz5LC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nLnzM",
+        "vkU5ZLLCL",
+        "vlU5zZMNM",
+        "vrr5zMNNn",
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "v885nLnzM",
+          "vsl5zz5LC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "临床转化项目助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrr5zMNNn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "市场项目专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkU5ZLLCL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "投资部项目助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsl5zz5LC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "项目专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlU5zZMNM"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "项目助理实习生（项目测试）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885nLnzM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": [
+    {
+      "text": "技术经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "技术经理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "支持产品注册资料编制、产品变更、工艺验证及合规沟通等相关工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYk5ZtntN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYk5ZtntN",
+          "text": "支持产品注册资料编制、产品变更、工艺验证及合规沟通等相关工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5ZtntN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYk5ZtntN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“生物工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5ZtntN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物工程类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYk5ZtntN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5ZtntN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYk5ZtntN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5ZtntN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYk5ZtntN"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "生物药技术经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYk5ZtntN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

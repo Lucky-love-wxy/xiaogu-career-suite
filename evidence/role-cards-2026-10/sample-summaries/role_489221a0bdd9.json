@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "text": "医学编辑",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学编辑"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [
+    {
+      "id": "vmm5ZzZMZ",
+      "url": "https://campus.niuqizp.com/job-vmm5ZzZMZ.html",
+      "role": "医学出版中心负责人,医学编辑,综合编辑,发行部负责人,实习生,新媒体实习生",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vmy5NNMta",
+      "url": "https://campus.niuqizp.com/job-vmy5NNMta.html",
+      "role": "医学编辑|生物医学编辑",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vsU5N5nzN",
+      "url": "https://campus.niuqizp.com/job-vsU5N5nzN.html",
+      "role": "生产监查员|医学编辑",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vw85C5LMt",
+      "url": "https://campus.niuqizp.com/job-vw85C5LMt.html",
+      "role": "药学方向医学编辑|医学编辑",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "manual-role_postings-1",
+      "url": "https://www.zhipin.com/job_detail/5b5dc51d229485a50nV43Nu8FFZV.html",
+      "role": "医学编辑",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings-2",
+      "url": "https://www.zhipin.com/job_detail/2c403d608814813903Jy2t-4FFRT.html",
+      "role": "医学编辑",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings-3",
+      "url": "https://www.zhipin.com/job_detail/c44b1b77680781b403B72di5GFRT.html",
+      "role": "医学编辑",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vrU5MaaLa"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vsl5ntZNC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vrU5MaaLa"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vsl5ntZNC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医学编辑",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ]
+}

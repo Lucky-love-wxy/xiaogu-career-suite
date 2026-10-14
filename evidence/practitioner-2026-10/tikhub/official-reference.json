@@ -1,0 +1,24 @@
+{
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "url": "https://tikhub.io/xiaohongshu-api",
+      "title": "Rednote API",
+      "observation": "官方正文App V2 billed at $0.01 per request；重复请求独立计费；cache_url是24小时内同一响应恢复，不是再次抓取。"
+    },
+    {
+      "url": "https://docs.tikhub.io/420136398e0",
+      "title": "搜索笔记/Search notes",
+      "modified": "2026-07-31",
+      "endpoint": "/api/v1/xiaohongshu/app_v2/search_notes",
+      "parameters": [
+        "keyword",
+        "page",
+        "sort_type",
+        "note_type",
+        "time_filter"
+      ]
+    }
+  ],
+  "boundary": "价格与接口以官方正文核实；不采用非官方SDK旧版表。"
+}

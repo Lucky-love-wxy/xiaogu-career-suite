@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 6.093,
+  "access_date": "2026-10-12",
+  "sha256": "584acac4e4505bd5ab61a8dedb394ba82e0a97708ffe3982544538db21b4090e",
+  "blocked": null,
+  "id": "kanzhun-interim-search",
+  "company": "kanzhun",
+  "query": "KANZHUN LIMITED 2076 2026 interim results revenue",
+  "include_domains": [
+    "hkexnews.hk"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/kanzhun-interim-search.json"
+}

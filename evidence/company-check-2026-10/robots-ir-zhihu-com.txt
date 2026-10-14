@@ -1,0 +1,12 @@
+User-agent: *
+Crawl-Delay: 20
+Disallow: /App_Plugins/
+Disallow: /bin/
+Disallow: /images/
+Disallow: /obj/
+Disallow: /umbraco/
+Disallow: /wwwroot/
+Disallow: /appsettings.json
+Disallow: /web.config
+
+Sitemap: https://ir.zhihu.com/sitemap.xml

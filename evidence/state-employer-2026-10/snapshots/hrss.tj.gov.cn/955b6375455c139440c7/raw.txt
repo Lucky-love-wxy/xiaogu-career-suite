@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="SiteName" content='天津市人力资源和社会保障局' />
+<meta name="SiteDomain" content="https://hrss.tj.gov.cn" />
+<meta name="SiteIDCode" content="1200000022" />
+<meta name="ColumnName" content='人事考试网'/>
+<meta name="ColumnDescription" content='人事考试网'/>
+<meta name="ColumnKeywords" content='局属单位,人事考试网'/>
+<meta name="ColumnType" content='信息发布'/>
+<meta name="PubTime" content="2026-10-09 14:07:40" random="" />
+  <meta charset="UTF-8">
+ <meta name="viewport"
+    content="width=device-width, initial-scale=0.5,minimum-scale=0.5, maximum-scale=0.5, user-scalable=no, target-densitydpi=device-dpi">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon">
+  <title>
+    人事考试网_天津市人力资源和社会保障局
+  </title>
+  <link rel="stylesheet" type="text/css" href="../../images/conmon.css" />
+<link rel="stylesheet" type="text/css" href="../../images/mobile.css" />
+<script type="text/javascript" src="../../images/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../../images/jquery-migrate-3.4.0.min.js"></script>
+<script type="text/javascript" src="../../images/jquery.SuperSlide.2.1.3.js"></script>
+<script type="text/javascript" src="../../images/conmon.js"></script>
+<script type="text/javascript" src="../../images/mobile.js"></script>
+
+<style>
+.personnel-z-card{
+    margin-bottom: 34px;
+}
+.personnel-z ul li a{
+height: 63px;
+}
+.personnel-z ul li a img{
+padding-top: 14px;
+}
+.personnel-z ul li a p{
+line-height: 63px;
+}
+.personnel-z ul li a p.ejjzs {
+line-height: 18px;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.personnel-z ul li {
+    margin-bottom: 8px;
+}
+@media screen and (max-width: 1200px){
+.personnel-z ul li a p.ejjzs {
+    font-size: 0.16rem;
+}
+}
+</style>
+</head>
+
+<body>
+  <style>
+  .fldate{
+       height: 25px;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      float: left;
+      margin-top: 18px;
+      position: relative;
+  
+  }
+  #zzmsbtn {
+		background: rgb(244, 186, 47);
+		padding: 5px 10px;
+		height: auto;
+		border-radius: 9px;
+		margin: 0 10px;
+		font-size: 14px;
+		color: #fff;
+
+	}
+	#zzmsbtn span,
+	.gablink span {
+		padding: 0 5px;
+	}
+	.gablink {
+		border-left: none;
+		background: rgb(244, 186, 47);
+		padding: 5px 10px;
+		height: auto;
+		border-radius: 9px;
+		margin-right: 10px;
+		font-size: 14px;
+		color: #fff!important;
+	}
+	.wza-img {
+		vertical-align: middle;
+	}
+.header .jf {
+			display: flex;
+width:auto;
+		}
+.zwym-logo{
+margin-left:115px;
+}
+
+body.useOldFixed .header .gg-top {
+			display: block;
+		}
+.useOldFixed .fldate{
+display:none;
+}
+.useOldFixed .zwym-logo{
+text-align:right;
+margin-left:0;
+}
+
+	@media screen and (max-width: 1200px) {
+		body .gg-top {
+			display: block;
+		}
+
+		body .gg-top .gg-right {
+			display: none;
+		}
+
+		body .gg-top .gg-right.gabox {
+			display: block;
+position: relative;
+    z-index: 999;
+		}
+	.gablink {
+		font-size: 28px;
+	}
+.zwym-logo{
+text-align:right;
+margin-left:0;
+}
+  }
+  </style>
+  <div class="header overflow">
+         <div class="fldate"><span id="currentNow"></span></div>
+    <!-- 简体，繁体 -->
+    <div class="jf gg-top">
+      <span class="gg-right">
+        <span><a id="simplifiedLink" href="javascript:translatePage(1);">简体</a></span>
+        <span>|</span>
+        <span><a id="translateLink" href="javascript:translatePage(2);">繁体</a></span>
+        <span>|</span> 
+        <!-- <span><a onclick="openToolbar();" id="toolbarCtrl" href="javascript:void(0)">无障碍访问</a></span> -->
+
+          <a href="javascript:void(0);" id="toolbarSwitch" onclick="EsdToolbarInit.openClickFunc();"
+          onkeydown="EsdToolbarInit.openKeydownFunc(event);" style="cursor:pointer">无障碍访问</a>
+        </span>
+        <span>
+          <a href="javascript:void(0);" id="zzmsbtn"><img class="wza-img" src="https://hrss.tj.gov.cn/images/zzmslogo.png" /><span>长者模式</span></a>
+        </span>
+      </span>
+      <span class="gg-right gabox">
+        <a href="https://hrss.tj.gov.cn/shouye/gabsycs/ "
+          class="gablink"
+          target="_blank"><img class="wza-img" src="https://hrss.tj.gov.cn/images/gablogo.png" /><span>关爱版</span></a>
+      </span>
+<span  class="gg-right">
+        <span>|</span>
+        <span><a href="javascript:void(0);"><img src="https://hrss.tj.gov.cn/GLLLM/qdfy/tytb/202008/W020200824338745885619.jpg" class="APPDiv" alt="" /></a></span>
+        <span>|</span>
+        <span><a href="https://weibo.com/TJRLSBJ?is_all=1" target="_blank"><img src="https://hrss.tj.gov.cn/GLLLM/qdfy/tytb/202008/W020200824338745815678.png" alt="" /></a></span>
+        <span>|</span>
+        <span><a href="javascript:void(0);"><img src="https://hrss.tj.gov.cn/GLLLM/qdfy/tytb/202008/W020200824338745705080.png" class="WEIXINDiv" alt="" /></a></span>
+        <span>
+<span>
+      <div class="APPimg01">
+        <img alt="" />
+      </div>
+      <div class="WEIXINimg02">
+      <img alt="" />
+    </div>
+    </div>
+    <!-- title-logo -->
+    <div class="title-logo">
+      <a href='https://hrss.tj.gov.cn/'><img src="https://hrss.tj.gov.cn/shouye/images/P020200824362570512851.png" alt="" /></a>
+     <a href='http://www.tj.gov.cn/'  class="phoneIndexHead" target="_blank" class="titleLogoL"><img src="https://hrss.tj.gov.cn/shouye/images/P020200828667247454324.png" alt="" /></a>
+    </div>
+<div class="zwym-logo">
+<a href='javascript:void(0);'><img src="https://hrss.tj.gov.cn/shouye/images/P020251104310696956717.png" alt="" /></a>
+</div>
+    <!-- search -->
+    <div class="search">
+      <input class="text" type="text" name="" id="search-input" placeholder="请输入关键词搜索" />
+      <button class="btnnew" type="btn" onclick="jumpToSearch()"></button>
+    </div>
+    </div>
+    
+    <script>
+    
+     // 判断是否是手机端
+  function ismobile () {
+    var mobileArry = ["iPhone", "iPad", "Android", "Windows Phone", "BB10; Touch", "BB10; Touch", "PlayBook", "Nokia"];
+    var ua = navigator.userAgent;
+    var res = [];
+    for (var i = 0; i < mobileArry.length; i++) {
+      if (mobileArry[i] && ua.indexOf(mobileArry[i]) > 0) {
+        res.push(mobileArry[i]);
+      }
+    }
+    return res.length > 0;
+  }
+    //搜索功能
+    $("#search-input").keyup(function (event) {
+      if (event.keyCode === 13) {
+      jumpToSearch();
+      }
+    });
+    
+    function jumpToSearch() {
+      var searchText = $('#search-input').val();
+      if ($.trim(searchText) != '') {
+          
+  var search_page_url = '/searchsite/tjsrlzyhshbzj_215/search.html?siteId=56&searchWord=' + (encodeURIComponent(searchText));
+      window.open(search_page_url, '_blank');
+  
+  
+      } else {
+      alert('请输入搜索关键词');
+      }
+    }
+    // 鼠标移入右上角微信图片
+    $(".APPDiv").mouseover(function(){
+              $(".APPimg01 img").attr('src','https://hrss.tj.gov.cn/GLLLM/qdfy/tytb/202008/W020200930347377127362.png');
+              $(".APPimg01 img").show();
+    });
+    $(".APPDiv").mouseleave(function(){
+                $(".APPimg01 img").attr('src','');
+                $(".APPimg01 img").hide();
+    });
+    $(".WEIXINDiv").mouseover(function(){
+                  $(".WEIXINimg02 img").attr('src','https://hrss.tj.gov.cn/GLLLM/qdfy/tytb/202008/W020200909497299938094.png');
+      $(".WEIXINimg02 img").show();
+    });
+    $(".WEIXINDiv").mouseleave(function(){
+                   $(".WEIXINimg02 img").attr('src','');
+      $(".WEIXINimg02 img").hide();
+    });
+  function now(){ 
+    var date = new Date();
+    var year = date.getFullYear();
+    var mouth = date.getMonth() + 1;
+    var day = date.getDate();
+    
+    if(mouth < 10) {
+      mouth = "0" + mouth;
+    }
+    if(day < 10) {
+      day = "0" + day;
+    }
+    
+    var str= '星期'+'日一二三四五六'.charAt(new Date().getDay());
+    var nowDate = year + "年" + mouth + "月" + day + "日</span>" + " " + str;
+    
+    return nowDate;	
+  }
+  $('#currentNow').html("今天是："+now());
+  if(ismobile()){
+  $('#currentNow').hide();
+  
+  }
+    </script>
+    <style>
+    .title-logo a{display:inline-block;}
+    .titleLogoL{margin-left:30px;}
+    .APPimg01{position: absolute;top: 35px;right: 20px;}
+    .APPimg01 img{width:150px;height:150px;display:none;}
+    .WEIXINimg02{position: absolute;top: 35px;right: 0;}
+    .WEIXINimg02 img{width:150px;height:150px;display:none;}
+    </style>
+
+<script type="text/javascript" src="../../images/tw_cn.js"></script>
+  <div class="content">
+    <div class="common-box common-box-mobile rsjcurrency-bg">
+      <!-- 导航 -->
+      <div class="nav">
+	<ul class="overflow">
+	  <li>
+		<a href='https://hrss.tj.gov.cn/'>
+		  <img src="https://hrss.tj.gov.cn/shouye/images/P020200824333991739158.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/shouye/images/P020200824362143370454.png" class="index-navImg2" alt="" />
+		  首页
+		</a>
+	  </li>
+	  <li>
+		<a href='https://hrss.tj.gov.cn/xinwenzixun/'>
+		  <img src="https://hrss.tj.gov.cn/xinwenzixun/images/P020200824361721892572.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/xinwenzixun/images/P020200824361803222442.png" class="index-navImg2" alt="" />
+		  信息发布
+		</a>
+	  </li>
+	  <li>
+		<a href='https://hrss.tj.gov.cn/zhengwugongkai/'>
+		  <img src="https://hrss.tj.gov.cn/zhengwugongkai/images/P020200824364381680352.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/zhengwugongkai/images/P020200824364449799259.png" class="index-navImg2" alt="" />
+		  政务公开
+		</a>
+	  </li>
+	  <li>
+		<a href='http://publicservices.hrss.tj.gov.cn/ecdomain/framework/zcydt/gmolmaiebcekbbojlcddkiifcodopkpl.jsp' target="_blank">
+		  <img src="https://hrss.tj.gov.cn/zcydt/images/P020200824364680012042.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/zcydt/images/P020200824364760328886.png" class="index-navImg2" alt="" />
+		  政策一点通
+		</a>
+	  </li>
+	  <li>
+		<a href='https://hrss.tj.gov.cn/gongzhongfuwu/'>
+		  <img src="https://hrss.tj.gov.cn/gongzhongfuwu/images/P020200824364876686003.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/gongzhongfuwu/images/P020200824364965868491.png" class="index-navImg2" alt="" />
+		  公众服务
+		</a>
+	  </li>
+	  <li>
+		<a href='https://hrss.tj.gov.cn/zhengminhudong/'>
+		  <img src="https://hrss.tj.gov.cn/zhengminhudong/images/P020200824365121762928.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/zhengminhudong/images/P020200824365290083567.png" class="index-navImg2" alt="" />
+		  政民互动
+		</a>
+	  </li>
+	  <li>
+		<a href='https://hrss.tj.gov.cn/ztzl/'>
+		  <img src="https://hrss.tj.gov.cn/ztzl/images/P020200824367372127061.png" class="index-navImg1" alt="" />
+		  <img src="https://hrss.tj.gov.cn/ztzl/images/P020200824367442340588.png" class="index-navImg2" alt="" />
+		  专题专栏
+		</a>
+	  </li>
+	</ul>
+  </div>
+  
+  <script>
+  $(function(){
+  $(".fmultimedia-z ul li").each(function(){
+	 if ($(this).find('a').text().trim() === qdChannel) {
+		$(this).addClass('active').siblings().removeClass('active');
+	  }
+  })
+  
+      //为导航上的 当前栏目 ，添加类名
+	  var chnl = '通用头部导航';
+    var pChnl = '前端复用';
+    var ppChnl = '管理类栏目';
+
+    $(".common-box .nav li").each(function () {
+             if ($(this).children("a").text().replace(/(^\s*)|(\s*$)/g, "") == chnl || $(this).children("a").text().replace(/(^\s*)|(\s*$)/g, "") == pChnl || $(this).children("a").text().replace(/(^\s*)|(\s*$)/g, "") == ppChnl) {
+        $(this).addClass('active').siblings().removeClass('active');
+      }
+      });
+
+  })
+  
+  </script>
+
+<script>
+  
+  var currentChannel = '局属单位';
+  var qdChannel = '人事考试网';
+  $('.nav .overflow li').each(function (index) {
+    // 当前栏目是站点，默认选中首页
+    if (currentChannel === '' && index === 0) {
+      $(this).addClass('active').siblings().removeClass('active');
+      return false;
+    }
+
+    if ($(this).find('a').text().replace(/(^\s*)|(\s*$)/g, "") === currentChannel) {
+      $(this).addClass('active').siblings().removeClass('active');
+    }
+
+  });
+
+</script>
+      <!-- 当前位置 -->
+      <div class="current-location">
+  <i></i>
+  当前位置：
+  
+  
+    <span><a href="../../" title="首页" class="tagcolor">首页</a>&nbsp;&gt;&nbsp;<a href="./" title="人事考试网" class="tagcolor">人事考试网</a></span>
+  
+</div>
+
+      <div class="personnel">
+        <div class="conmon-box conmon-box-mobile">
+          <div class="personnel">
+            <div class="personnel-z fl">
+              <ul>
+                <li><a href="https://gklx.hrss.tj.gov.cn" title="公务员考试" target="_blank"><img src="../../images/rsks-z-1.png" alt="" />
+                    <p>公务员考试</p>
+                  </a></li>
+                <li><a href="http://tianjin.cptae.com:8129/tip/stdrg.do?method=queryExamAndNotice" title="事业单位考试"  target="_blank"><img src="../../images/rsks-z-2.png" alt="" />
+                    <p>事业单位考试</p>
+                  </a></li>
+                <li><a href="https://gklx.hrss.tj.gov.cn" title="选调生考试"  target="_blank"><img src="../../images/rsks-z-3.png" alt="" />
+                    <p>选调生考试</p>
+                  </a></li>
+                <li><a href="https://gklx.hrss.tj.gov.cn/" title="遴选、选调考试"  target="_blank"><img src="../../images/rsks-z-4.png" alt="" />
+                    <p>遴选、选调考试</p>
+                  </a></li>
+                <li><a href="http://www.cpta.com.cn/" title="全国专业技术 人员资格考试"  target="_blank"><img src="../../images/rsks-z-5.png" alt="" />
+                    <p class="personnel-z-p-t">全国专业技术<br>人员资格考试</p>
+                  </a></li>
+                <li><a href="http://47.99.242.51/tip" title="天津市专业技术人员资格考试"  target="_blank"><img src="../../images/rsks-z-7.png" alt="" />
+                    <p class="personnel-z-p-t">天津市专业技术人员资格考试</p>
+                  </a></li>
+                <li><a href="https://gjsksbm.cirea.org.cn:9001" title="房地产估价师职业资格考试"  target="_blank"><img src="../../images/rsks-z-8.png" alt="rsks-z-8.png" title="rsks-z-8.png" />
+                    <p class="personnel-z-p-t">房地产估价师<br>职业资格考试</p>
+                  </a></li>
+                <li><a href="http://tianjin.cptae.com:8129/tip/stdrg.do?method=queryExamAndNotice" title="社会化委托考试"  target="_blank"><img src="../../images/rsks-z-9.png" alt="" />
+                    <p>社会化委托考试</p>
+                  </a></li>
+              </ul>
+            </div>
+            <div class="personnel-y fr">
+              <div class="personnel-box">
+                <div class="personnel-z-card fl">
+                  <div class="personnel-z-card-title">
+                    <img src="../../images/rsks-card-title.png" alt="" />
+                    <a href='./tzgg4/'  target="_blank">通知公告</a>
+                    <span class="fr"></span>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="personnel-z-card-list">
+                    <ul>
+                      
+                        <li><a href='./tzgg4/202610/t20261009_7390233.html' target="_blank" title='关于2026年度我市统计资格证书（不含高级统计合格证明）的邮寄通知'><img src="../../images/rsks-card-list-dian.png" alt="" />关于2026年度我市统计资格证书（不含高级统计...</a><span>[10-09]</span>
+                        </li>
+                      
+                        <li><a href='./tzgg4/202610/t20261008_7387411.html' target="_blank" title='天津市体育局所属事业单位2026年公开招聘工作人员公示公告（递补）'><img src="../../images/rsks-card-list-dian.png" alt="" />天津市体育局所属事业单位2026年公开招聘工作...</a><span>[10-08]</span>
+                        </li>
+                      
+                        <li><a href='./tzgg4/202609/t20260921_7378923.html' target="_blank" title='关于2026年度我市翻译专业资格（水平）合格证书（含笔译、口译）的邮寄通知'><img src="../../images/rsks-card-list-dian.png" alt="" />关于2026年度我市翻译专业资格（水平）合格证...</a><span>[09-21]</span>
+                        </li>
+                      
+                        <li><a href='./tzgg4/202609/t20260917_7376259.html' target="_blank" title='关于2026年度我市二级建造师资格证书（含合格证明）的邮寄通知'><img src="../../images/rsks-card-list-dian.png" alt="" />关于2026年度我市二级建造师资格证书（含合格...</a><span>[09-17]</span>
+                        </li>
+                      
+                        <li><a href='./tzgg4/202609/t20260915_7374851.html' target="_blank" title='天津市2026年9月19日四种资格考试温馨提示'><img src="../../images/rsks-card-list-dian.png" alt="" />天津市2026年9月19日四种资格考试温馨提示</a><span>[09-16]</span>
+                        </li>
+                      
+                        <li><a href='./tzgg4/202609/t20260909_7369963.html' target="_blank" title='关于2026年度我市环境影响评价工程师资格证书及一、二级注册计量师资格证书的邮寄通知'><img src="../../images/rsks-card-list-dian.png" alt="" />关于2026年度我市环境影响评价工程师资格证书...</a><span>[09-09]</span>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                <div class="personnel-y-card fr">
+                  <div class="personnel-y-pcimg">
+                    <a href='./gywm/' target="_blank"><img src="../../images/rsks-y-boximg.png" alt="" />
+                      <span>
+                        <p>天津市人才考评中心简介</p>
+                      </span></a>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="personnel-box">
+                <div class="personnel-z-card fl">
+                  <div class="personnel-z-card-title">
+                    <img src="../../images/rsks-card-title.png" alt="" />
+                    <a href='./dongtazixun4/'  target="_blank">动态资讯</a>
+                    <span class="fr"></span>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="personnel-z-card-list">
+                    <ul>
+                      
+                        <li><a href='./dongtazixun4/202609/t20260911_7372215.html' target="_blank" title='2026年国家网络安全宣传周'><img src="../../images/rsks-card-list-dian.png" alt="" />2026年国家网络安全宣传周</a><span>[09-14]</span>
+                        </li>
+                      
+                        <li><a href='./dongtazixun4/202608/t20260818_7354347.html' target="_blank" title='高墙电网敲警钟 以案为鉴守初心 ——考评中心开展警示教育活动'><img src="../../images/rsks-card-list-dian.png" alt="" />高墙电网敲警钟 以案为鉴守初心 ——考评中心开展...</a><span>[08-18]</span>
+                        </li>
+                      
+                        <li><a href='./dongtazixun4/202608/t20260817_7353651.html' target="_blank" title='天津市人事考试劳务费实现社会保障卡发放'><img src="../../images/rsks-card-list-dian.png" alt="" />天津市人事考试劳务费实现社会保障卡发放</a><span>[08-13]</span>
+                        </li>
+                      
+                        <li><a href='./dongtazixun4/202608/t20260817_7353687.html' target="_blank" title='天津考区2026年度翻译专业资格（水平）考试顺利结束'><img src="../../images/rsks-card-list-dian.png" alt="" />天津考区2026年度翻译专业资格（水平）考试顺利结束</a><span>[06-29]</span>
+                        </li>
+                      
+                        <li><a href='./dongtazixun4/202608/t20260817_7353680.html' target="_blank" title='天津考区2026年度高级经济师考试顺利结束'><img src="../../images/rsks-card-list-dian.png" alt="" />天津考区2026年度高级经济师考试顺利结束</a><span>[06-01]</span>
+                        </li>
+                      
+                        <li><a href='./dongtazixun4/202608/t20260817_7353672.html' target="_blank" title='天津考区2026年度社会工作者职业资格考试顺利结束'><img src="../../images/rsks-card-list-dian.png" alt="" />天津考区2026年度社会工作者职业资格考试顺利结束</a><span>[05-25]</span>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                <div class="personnel-y-card fr">
+                  <div class="personnel-bluebox">
+                    <div class="personnel-bluebox-long fl">
+                      <a href="./zyjskszgsh/" title="职称评审" target="_blank"><img src="../../images/zcpsrsksw.png" alt="zcpsrsksw.png" title="zcpsrsksw.png" /></a>
+                    </div>
+                    <div class="personnel-bluebox-small fr">
+                      <a href='./bashifwu4/' title='' target="_blank"><img src="../../images/rsks-linerblue-2.png" alt="办事服务" /></a>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="personnel-bluebox">
+                    <div class="personnel-bluebox-small fl">
+                      <a href='./zhengcewenjian4/' title='政策文件' target="_blank"><img src="../../images/rsks-linerblue-3.png" alt="" /></a>
+                    </div>
+                    <div class="personnel-bluebox-long fr">
+                      <a href='./wsblzsyj/202401/t20240108_6502640.html' title='网上办理证书邮寄' target="_blank"><img src="../../images/rsks-linerblue-4.png" alt="" /></a>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+             
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+  <div class="common-footer">
+    <!-- 底部图 -->
+    <div class="footer-img">
+      <ul>
+        <li>
+          <a href='https://hrss.tj.gov.cn/GLLLM/dblj/lxwm/202008/t20200810_3441017.html'
+             title='联系我们'
+             target="_blank">
+            <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020201201359515135053.png' alt="" />
+
+            <p>
+              联系我们
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href='https://hrss.tj.gov.cn/GLLLM/dblj/bqsm/202008/t20200810_3441018.html'
+             title='版权申明'
+             target="_blank">
+            <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020201201359515198561.png' alt="" />
+            <p>
+              版权申明
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href='https://hrss.tj.gov.cn/GLLLM/dblj/sybz/202008/t20200810_3441020.html'
+             title='使用帮助'
+             target="_blank">
+            <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020201201359515276245.png' alt="" />
+            <p>
+              使用帮助
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href='https://hrss.tj.gov.cn/GLLLM/dblj/wzdt/'
+             title='网站地图'
+             target="_blank">
+            <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020201201359515319449.png' alt="" />
+            <p>
+              网站地图
+            </p>
+          </a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      <div class="footer-img2">
+        <a href='http://www.tjjw.gov.cn/'
+           title='廉韵津沽'
+           target="_blank" class="commonImg1">
+          <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020200824383476627194.png' alt="" />
+        </a>
+        <a href='http://bszs.conac.cn/sitename?method=show&id=08BE0690422303ACE053012819ACEE72'
+           title='党政机关'
+           target="_blank" class="commonImg2">
+          <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020200902545833890702.png' alt="" />
+        </a>
+        <a><script id="_jiucuo_" sitecode='1200000022' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script></a>
+        <!--<a href='https://zfwzgl.www.gov.cn/boxpro/custom/pucha'
+           title='政府网站找错'
+           target="_blank">
+          <img src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020200902545833959105.jpg' alt="" />
+        </a>-->
+      </div>
+    </div>
+    <!-- 文字 -->
+    <div class="footer-text">
+      <p>主办单位：天津市人力资源和社会保障局</p>
+      <p>
+        网站标识码：1200000022
+        <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010102000421'
+           title='津公网安备'
+           target="_blank">
+          <img class="phoneFootImg03" src='https://hrss.tj.gov.cn/GLLLM/qdfy/tydb/202008/W020200824383476820536.png' alt="" />
+        </a>
+        <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010102000421'
+           title='津公网安备'
+           target="_blank">
+          津公网安备 12010102000421号
+        </a>
+        <a href='http://beian.miit.gov.cn/'
+           title='ICP备案号'
+           target="_blank">津ICP备19006985号
+        </a>
+<a href='http://beian.miit.gov.cn/'
+           title='ICP备案号'
+           target="_blank">津ICP备19006985号-39
+        </a>
+
+
+      </p>
+    </div>
+  </div>
+</div>
+<style>
+  #zzmsMobileBtn {
+    display: none;
+    /*background-color: #4a82b0c7;*/
+    height: 90px;
+
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    z-index: 1000;
+    width: 140px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(https://hrss.tj.gov.cn/images/mobile_zzms.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .ghbClose {
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin: 5px 5px 0 0;
+    display: none;
+    cursor: pointer;
+  }
+
+  .ghbBtn {
+    height: 40px;
+    width: 140px;
+    float: right;
+    margin: 0px 5px 0 0;
+    display: none;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 1200px) {
+    #zzmsbtn {
+      display: none;
+    }
+
+    #zzmsMobileBtn {
+      display: block;
+    }
+
+    .ghbClose,
+    .ghbBtn {
+      display: block;
+    }
+
+
+    .footer {
+        padding: 0.2rem 0 0.5rem;
+
+    }
+
+  }
+</style>
+<script>
+var tpldClass=["#zoom .TRS_UEDITOR",".detail-article .TRS_UEDITOR",".article_content .view.TRS_UEDITOR",".xw-txt .view.TRS_UEDITOR",".zw .view.TRS_UEDITOR",".yjzjdetail .view.TRS_UEDITOR"];
+  $.each(tpldClass,function(n,value){
+      if($(value).length != 0){
+          window.esdArOption = {contentDom: value};
+          return true 
+      }
+  })
+ </script>
+  <div id="zzmsMobileBtn"><div class="ghbClose"></div><div class="ghbBtn"></div></div>
+
+<script src="https://jyhpt.tj.gov.cn/images/ta_Info.js" async="async" defer="defer"></script>
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/articleReader.js"></script>
+<script type="text/javascript" src="https://hrss.tj.gov.cn/images/RoleSetInit.js"></script>
+<script type="text/javascript" src="https://hrss.tj.gov.cn/images/esdToolsInit.js"></script>
+<script type="text/javascript" src="https://hrss.tj.gov.cn/images/ElderModelTool.js"></script>
+<link rel="stylesheet" type="text/css" href="https://hrss.tj.gov.cn/images/ZZMS_change.css">
+<!--非党政机关链接跳转提示脚本-->	 
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/offSiteLinkRedirectionPrompt.js" charset="UTF-8" defer="defer"></script>
+<script>
+ 
+  // 判断是否是手机端
+  function ismobile() {
+    var mobileArry = ["iPhone", "iPad", "Android", "Windows Phone", "BB10; Touch", "BB10; Touch", "PlayBook", "Nokia"];
+    var ua = navigator.userAgent;
+    var res = [];
+    for (var i = 0; i < mobileArry.length; i++) {
+      if (mobileArry[i] && ua.indexOf(mobileArry[i]) > 0) {
+        res.push(mobileArry[i]);
+      }
+    }
+    return res.length > 0;
+  }
+  // 把纠错标签从pc端的dom移到移动端
+  $(function () {
+    if (ismobile()) {
+      let str = $('.find-error-box').html()
+      $('.find-error-mbox').html(str)
+    }
+  })
+  //关闭移动端按钮
+  $('.ghbClose').click(function () {
+    $("#zzmsMobileBtn").hide();
+  })
+
+
+  /*长者模式s*/
+  $(function () {
+    var zzmsword = getCookie('TjElderModelFlag');
+    //切换长者模式按钮
+    if (zzmsword !== "2") {
+      $('#zzmsbtn span').text("长者模式");
+    } else {
+      $('#zzmsbtn span').text("退出长者模式");
+
+    }
+    //切换长者模式按钮
+    $('#zzmsbtn').click(function () {
+      var zzmsword = getCookie('TjElderModelFlag');
+      if (zzmsword !== "2") {//如果当前不是长者模式，打开工具条，进入长者模式 
+        addCookie('wzalsOn', 'true', 0);
+        $('body').addClass("useOldFixed");
+       if(typeof(EsdToolbarInit.openClickFunc)=='function'){
+				 EsdToolbarInit.openClickFunc();
+			 }
+if(typeof(EsdToolbar)=="object"&&EsdToolbar.isOpen){
+	jq_t("#toolbar_Div").css("overflow","hidden");
+	jq_t("body").css("padding-top", "98px");
+	if(EsdToolbar.defalt.browser.mozilla){
+		jq_t("body")[0].style.setProperty("transform","unset","important");
+		jq_t("body")[0].style.setProperty("transform-origin","unset","important");
+		jq_t("#toolbar_Div").css({"-moz-transform":"scale(1.5)","-moz-transform-origin":"center -64px 0px"});
+		jq_t("#toolbarHtml").css({"-moz-transform":"scale(1)","-moz-transform-origin":"top"});
+	}
+	
+	jq_t("#toolbarHtml").show("fast",function(){
+		if(!EsdToolbar.defalt.browser.msie){
+			jq_t("#toolbarHtml").css("zoom","0.67");
+			jq_t("body").css({"max-width":"100%","min-width":"100%","padding-top":"65px"});
+		}else{
+			jq_t("#toolbarHtml").css("left","0");
+			jq_t("body").css({"max-width":"100%","padding-top":"65px"});
+		}
+		if(EsdToolbar.pageZoom.zoom>=1.3){
+			jq_t("body").css({"max-width": "170%", "min-width": "170%"});
+		}
+		jq_t("#toolbarPage2").hide();
+		jq_t("#toolbar").show();
+		//jq_t("body").css({"max-width":"100%","min-width":"100%","padding-top":"65px"});
+		jq_t("#toolbar_Div").css({"width":"750px","margin":"0 auto"});
+		setTimeout(function(){jq_t("#toolbar").show();},500);
+	});
+}
+	
+        $('#zzmsbtn span').text("退出长者模式");
+        let str = $('.find-error-box').html()
+        $('.find-error-mbox').html(str)
+          if (IEVersion()) {
+              $("body").css({
+                  transform: "scale(1.5)",
+                  "-moz-transform": "scale(1.5)",
+                  "-ms-filter": "scale(1.5)",
+                  "transform-origin": "center top",
+                  "-ms-transform-origin": "center top",
+              });
+              $("body").css("zoom", "1");
+              }
+      } else {//如果当前是长者模式，关闭工具条，退出长者模式
+        addCookie('wzalsOn', 'false', 0);
+        $('body').removeClass("useOldFixed");
+        $('#zzmsbtn span').text("长者模式");
+        try {
+          EsdToolbar.close();
+        } catch (error) {
+          // console.log("捕获异常");
+        }
+      }
+      ElderModeTool.changeElderMode();
+    });
+    //关闭工具条按钮
+    $('#toolbar_exit').bind("click", function () {
+      //关闭工具条，判断当前是否处于长者模式，如果是则退出长者模式
+      var zzmsword = getCookie("TjElderModelFlag");
+      if (zzmsword === "2") {
+        addCookie("TjElderModelFlag", "1", 0);
+      }
+      if (getCookie('TjElderMobileFlag') === "2") {
+        addCookie('TjElderMobileFlag', "1", 0);
+        addCookie('wzalsOn', 'false', 0);
+        try {
+          EsdToolbar.close();
+        } catch (error) {
+          // console.log("捕获异常");
+        }
+
+
+      }
+    });
+    // 进入关怀版
+    var MzjGhbFlag = getCookie('TjElderMobileFlag');
+    if (ismobile() && zzmsword != 2) {
+      if (MzjGhbFlag === "2") {
+        var cssFileUrl = "https://hrss.tj.gov.cn/images/SetMobileElder.css";
+        if (cssFileUrl) {
+          $("<link>").attr({
+            rel: "stylesheet",
+            type: "text/css",
+            href: cssFileUrl,
+          }).appendTo("head");
+        }
+        $("#zzmsMobileBtn").css("display", "none");
+
+
+      } else {
+        removejscssfile("SetMobileElder", "css");
+
+        $("#zzmsMobileBtn").css("display", "block");
+      }
+    }
+    //移动端关怀版切换
+    $("#zzmsMobileBtn .ghbBtn").click(function () {
+      if (getCookie('TjElderMobileFlag') === "2") {
+        addCookie('TjElderMobileFlag', "1", 0);
+        addCookie('wzalsOn', 'false', 0);
+        try {
+          EsdToolbar.close();
+        } catch (error) {
+          // console.log("捕获异常");
+        }
+        $("#zzmsMobileBtn").css("display", "block");
+      } else {
+        addCookie('TjElderMobileFlag', "2", 0);
+        addCookie('wzalsOn', 'true', 0);
+        if (typeof (EsdToolbarInit.openClickFunc) == 'function') {
+          EsdToolbarInit.openClickFunc();
+        }
+        $("#zzmsMobileBtn").css("display", "none");
+      }
+      location.reload();
+    })
+
+
+
+  });
+
+</script>
+<style>
+  .useOldFixed.person_Content .osta-list-activeBody{
+height:auto;}
+#otherBtns .readDiv{
+line-height: normal;
+}
+</style>
+<!-- 移动端导航 S -->
+<header>
+  <a id="cd-menu-trigger" href="javascript:void(0);"><span class="cd-menu-text"></span><span class="cd-menu-icon"></span>
+<span class="navName">导航</span></a>
+</header>
+<main class="cd-main-content">
+  <!-- put your content here -->
+
+</main> <!-- cd-main-content -->
+<nav id="cd-lateral-nav">
+  <ul class="cd-navigation">
+    
+      <li class="item-has-children">
+        <a href='https://hrss.tj.gov.cn/shouye/'
+           title='首页'
+           target='_self'>
+          首页
+        </a>
+      </li>
+    
+      <li class="item-has-children">
+        <a href='https://hrss.tj.gov.cn/xinwenzixun/'
+           title='信息发布'
+           target='_self'>
+          信息发布
+        </a>
+      </li>
+    
+      <li class="item-has-children">
+        <a href='https://hrss.tj.gov.cn/zhengwugongkai/'
+           title='政务公开'
+           target='_self'>
+          政务公开
+        </a>
+      </li>
+    
+      <li class="item-has-children">
+        <a href='http://publicservices.hrss.tj.gov.cn/ecdomain/framework/zcydt/gmolmaiebcekbbojlcddkiifcodopkpl.jsp'
+           title='政策一点通'
+           target='_blank'>
+          政策一点通
+        </a>
+      </li>
+    
+      <li class="item-has-children">
+        <a href='https://hrss.tj.gov.cn/gongzhongfuwu/'
+           title='公众服务'
+           target='_self'>
+          公众服务
+        </a>
+      </li>
+    
+      <li class="item-has-children">
+        <a href='https://hrss.tj.gov.cn/zhengminhudong/'
+           title='政民互动'
+           target='_self'>
+          政民互动
+        </a>
+      </li>
+    
+  </ul> <!-- cd-navigation -->
+</nav>
+<!-- 移动端导航 E -->
+  <!-- 移动端导航 s -->
+
+  <!-- 移动端导航 S -->
+
+<!-- 移动端导航 E -->
+  <!-- 移动端导航 E -->
+
+  <script src="../../images/page.js"></script>
+  <script>
+    var pager_options = {
+      currentPage: parseInt('0') + 1,
+      countPage: parseInt('1}'),
+      PAGE_NAME: 'index',
+      PAGE_EXT: 'html'
+    };
+  </script>
+  </script>
+  </script>
+</body>
+
+</html>

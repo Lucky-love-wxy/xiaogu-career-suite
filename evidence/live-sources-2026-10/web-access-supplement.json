@@ -1,0 +1,89 @@
+{
+  "accessed_at": "2026-10-05",
+  "method": "web-access WebSearch/WebFetch = tools.web__run；公开静态读取，非CDP互动/非四引擎对比/非候选API实测；页面有缓存抓取日，访问日不等于抓取日",
+  "employee_sources": [
+    {
+      "url": "https://www.nowcoder.com/discuss/677971054463053824",
+      "posted_at": "2024-10-21 20:14",
+      "author_label": "自称智驾感知算法实习1年9个月后转正式；页面标签智能驾驶系统工程师，身份未认证核验",
+      "paraphrases": [
+        {
+          "topic": "time_split",
+          "paraphrase": "感知算法实习日常涉及业务数据训练评测、定位弱场景、反馈难例、实现接口并协助部署；未提供各项时间百分比。",
+          "quote": ""
+        },
+        {
+          "topic": "metrics",
+          "paraphrase": "作者称按OKR推进任务，评测弱场景/目标性能；没有披露数值门槛、个人绩效公式或业务转化指标。",
+          "quote": ""
+        },
+        {
+          "topic": "growth",
+          "paraphrase": "通过论文、技术报告和mentor讨论寻找思路，经周会评估后纳入后续任务；实习压力不能等同正式工。",
+          "quote": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d0cfcd0f756740069b64fe1956fc9b7f",
+      "posted_at": "2024-05-24 15:31",
+      "author_label": "正文自称算法岗实习两周，页面职业标签Java；公司未说明、标签矛盾、身份未核验",
+      "paraphrases": [
+        {
+          "topic": "time_split",
+          "paraphrase": "自述前两周以调研学习可能在组内使用的算法为主，未提供时长占比。",
+          "quote": ""
+        },
+        {
+          "topic": "growth",
+          "paraphrase": "自述氛围较轻松，但担心提升有限；单个实习初期体验不代表岗位通常成长速度。",
+          "quote": ""
+        }
+      ]
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/bd84598eaf9745bdb3611dba5435ff12",
+      "posted_at": "01-07 11:56（页面未显示年份，完整发表日期未知）",
+      "author_label": "页面自填算法工程师；自述熟悉该日常，含接指导业务，商业动机及在职身份未核验",
+      "paraphrases": [
+        {
+          "topic": "overtime",
+          "paraphrase": "作者描述九点前到岗、晚间工作到约十点、周末查看实验；另提晚间接指导。工作和副业须区分，不能当团队考勤或行业典型工时。",
+          "quote": ""
+        },
+        {
+          "topic": "growth",
+          "paraphrase": "作者强调持续做实验与学习；属于带指导业务的个人分享，未提供可独立验证的团队证明。",
+          "quote": ""
+        }
+      ]
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.tavily.com/terms",
+      "updated": "2026-05-04",
+      "sections": "1.2 / 2 / 3.2(x) / 6.5",
+      "findings": "允许按服务/订单集成Customer Applications（包括AI Tools），个人或实体可签约；性能分析对第三方披露有限制；AI功能输入输出可能用于服务商训练。不是无条件转载许可。",
+      "evidence": "静态正文行47、57、68之后及164；无账号调用"
+    },
+    {
+      "url": "https://api-dashboard.search.brave.com/documentation/resources/terms-of-service",
+      "updated": "2026-09-01",
+      "findings": "一般条款限制非暂态保存及用结果评估/训练/benchmark模型或服务；须核定特殊订单许可；营销AI定位不替代条款"
+    },
+    {
+      "url": "https://brave.com/search/api/",
+      "findings": "存储权必须由计划明确授予；第三方内容权不转移"
+    },
+    {
+      "url": "https://serpapi.com/faq",
+      "findings": "厂商美国Legal Shield覆盖合法采集，非用户后续违法用途；Production及以上最多200万美元，自述保障不是法院判决或源站授权"
+    },
+    {
+      "url": "https://github.com/BochaAI/bocha-search-mcp/blob/master/README.md",
+      "findings": "官方README query/freshness/count1–50；输出标题链接摘要发布时间网站名；未找到include参数。1c7镜像非官方未当证据"
+    }
+  ],
+  "short_excerpts_path": "evidence/live-sources-2026-10/web-access-short-excerpts.json"
+}

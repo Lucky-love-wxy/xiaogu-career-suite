@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href="images/favicon.gif" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/jquery.min.js"></script>
+  <title>内蒙古自治区卫生健康委员会</title>
+  <style>
+  .sxz_baocuo_box {
+  height: 100vh;
+  width: 100vw;
+}
+.sxz_baocuo_box img {
+  height: 481px;
+  display: block;
+  margin: 0 auto 74px;
+  padding-top: 92px;
+}
+.sxz_baocuo_title {
+  font-size: 40px;
+  color: #848e96;
+  text-align: center;
+}
+.sxz_baocuo_font {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #848e95;
+  text-align: center;
+}
+.sxz_baocuo_font i {
+  color: #0671fe;
+}
+.sxz_baocuo_font a {
+  color: #0671fe;
+  text-decoration: underline;
+}
+.sxz_baocuo_button {
+  margin-top: 65px;
+  padding: 0 42%;
+}
+.sxz_baocuo_button_l {
+  height: 45px;
+  width: 131px;
+  border-radius: 22px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #0671fe;
+}
+.sxz_baocuo_button_l a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.sxz_baocuo_button_l a:hover {
+  color: #fff;
+}
+</style>
+</head>
+
+<body>
+  <div class="sxz_baocuo_box">
+    <img src="./images/sxz_404.png" alt="">
+    <p class="sxz_baocuo_title">很抱歉，您所访问的页面不存在！</p>
+    <p class="sxz_baocuo_font">
+      系统将在<i id="count_down">5</i> 秒内为您跳转，如不能跳转<a href="http://wjw.nmg.gov.cn">点击这里>></a>
+    </p>
+    <div class="sxz_baocuo_button clearfix">
+      <div class="sxz_baocuo_button_l l">
+        <a href="http://tj.nmg.gov.cn">
+          返回首页
+        </a>
+      </div>
+      <div class="sxz_baocuo_button_l r">
+        <a href="javascript:void(0)" id="pre">
+          返回上一级
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  $(document).ready(function () {
+    console.log('kklll')
+    let num = 5
+    setInterval(function () {
+      if (num <= 0) {
+        window.location.href = "http://wjw.nmg.gov.cn"
+      }
+      $('#count_down').text(num)
+      --num
+    }, 1000)
+    $('#pre').click(function () {
+      console.log('kkk')
+      window.history.go(-1)
+    })
+  })
+</script>
+
+</html>

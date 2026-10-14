@@ -1,0 +1,316 @@
+{
+  "status": "blocked_maimai_search_access_limit",
+  "successful_searches": 36,
+  "failed_searches": 11,
+  "requests_confirmed_in_search_snapshots": 107,
+  "setup_navigation_requests": 3,
+  "interrupted_initial_query_requests_uncertain": {
+    "role": "医学理赔/核保",
+    "maximum": 2,
+    "note": "Initial adapter stopped between navigation/sort and snapshot; no success readback. Not counted as confirmed requests."
+  },
+  "post_limit_overshoot": {
+    "count": 10,
+    "cause": "HTTP/CDP success checked but redirect body was not; corrected status to failed discovery, not zero candidates"
+  },
+  "unexecuted_queries": [
+    {
+      "index": 27,
+      "node": "医疗健康 › 其他医疗健康职位 › 公共卫生/疾控",
+      "role": "公共卫生/疾控",
+      "query": "公共卫生 入职"
+    },
+    {
+      "index": 28,
+      "node": "影视/传媒 › 采编/写作/出版 › 期刊/学术编辑",
+      "role": "期刊/学术编辑",
+      "query": "期刊 日常"
+    },
+    {
+      "index": 28,
+      "node": "影视/传媒 › 采编/写作/出版 › 期刊/学术编辑",
+      "role": "期刊/学术编辑",
+      "query": "期刊 入职"
+    },
+    {
+      "index": 29,
+      "node": "医疗健康 › 医疗销售 › 医疗器械销售",
+      "role": "医疗器械销售",
+      "query": "医疗器械销售 日常"
+    },
+    {
+      "index": 29,
+      "node": "医疗健康 › 医疗销售 › 医疗器械销售",
+      "role": "医疗器械销售",
+      "query": "医疗器械销售 入职"
+    },
+    {
+      "index": 30,
+      "node": "医疗健康 › 其他医疗健康职位 › 医疗机构运营管理",
+      "role": "医疗机构运营管理",
+      "query": "医疗机构运营管理 日常"
+    },
+    {
+      "index": 30,
+      "node": "医疗健康 › 其他医疗健康职位 › 医疗机构运营管理",
+      "role": "医疗机构运营管理",
+      "query": "医疗机构运营管理 入职"
+    },
+    {
+      "index": 31,
+      "node": "医疗健康 › 生物医药 › 生物学研究人员",
+      "role": "生物学研究人员",
+      "query": "生物学研究人员 日常"
+    },
+    {
+      "index": 31,
+      "node": "医疗健康 › 生物医药 › 生物学研究人员",
+      "role": "生物学研究人员",
+      "query": "生物学研究人员 入职"
+    },
+    {
+      "index": 32,
+      "node": "客服/运营 › 业务运营 › 医学运营",
+      "role": "医学运营",
+      "query": "医学运营 日常"
+    },
+    {
+      "index": 32,
+      "node": "客服/运营 › 业务运营 › 医学运营",
+      "role": "医学运营",
+      "query": "医学运营 入职"
+    },
+    {
+      "index": 33,
+      "node": "医疗健康 › 生物医药 › 药品生产",
+      "role": "药品生产",
+      "query": "药品生产 日常"
+    },
+    {
+      "index": 33,
+      "node": "医疗健康 › 生物医药 › 药品生产",
+      "role": "药品生产",
+      "query": "药品生产 入职"
+    },
+    {
+      "index": 34,
+      "node": "医疗健康 › 理疗保健 › 心理咨询师",
+      "role": "心理咨询师",
+      "query": "心理咨询师 日常"
+    },
+    {
+      "index": 34,
+      "node": "医疗健康 › 理疗保健 › 心理咨询师",
+      "role": "心理咨询师",
+      "query": "心理咨询师 入职"
+    },
+    {
+      "index": 35,
+      "node": "医疗健康 › 医疗销售 › 医美咨询",
+      "role": "医美咨询",
+      "query": "医美咨询 日常"
+    },
+    {
+      "index": 35,
+      "node": "医疗健康 › 医疗销售 › 医美咨询",
+      "role": "医美咨询",
+      "query": "医美咨询 入职"
+    },
+    {
+      "index": 36,
+      "node": "咨询/翻译/法律 › 翻译 › 英语翻译",
+      "role": "英语翻译",
+      "query": "英语翻译 日常"
+    },
+    {
+      "index": 36,
+      "node": "咨询/翻译/法律 › 翻译 › 英语翻译",
+      "role": "英语翻译",
+      "query": "英语翻译 入职"
+    },
+    {
+      "index": 37,
+      "node": "医疗健康 › 医疗器械 › 试剂研发",
+      "role": "试剂研发",
+      "query": "试剂研发 日常"
+    },
+    {
+      "index": 37,
+      "node": "医疗健康 › 医疗器械 › 试剂研发",
+      "role": "试剂研发",
+      "query": "试剂研发 入职"
+    },
+    {
+      "index": 38,
+      "node": "医疗健康 › 医生/医技 › 医保/医院管理",
+      "role": "医保/医院管理",
+      "query": "医保 日常"
+    },
+    {
+      "index": 38,
+      "node": "医疗健康 › 医生/医技 › 医保/医院管理",
+      "role": "医保/医院管理",
+      "query": "医保 入职"
+    },
+    {
+      "index": 39,
+      "node": "医疗健康 › 临床试验 › 临床数据管理/生物统计",
+      "role": "临床数据管理/生物统计",
+      "query": "临床数据管理 日常"
+    },
+    {
+      "index": 39,
+      "node": "医疗健康 › 临床试验 › 临床数据管理/生物统计",
+      "role": "临床数据管理/生物统计",
+      "query": "临床数据管理 入职"
+    },
+    {
+      "index": 40,
+      "node": "医疗健康 › 药店 › 药店店员",
+      "role": "药店店员",
+      "query": "药店店员 日常"
+    },
+    {
+      "index": 40,
+      "node": "医疗健康 › 药店 › 药店店员",
+      "role": "药店店员",
+      "query": "药店店员 入职"
+    },
+    {
+      "index": 41,
+      "node": "互联网/AI › 人工智能 › 算法研究员",
+      "role": "算法研究员",
+      "query": "算法研究员 日常"
+    },
+    {
+      "index": 41,
+      "node": "互联网/AI › 人工智能 › 算法研究员",
+      "role": "算法研究员",
+      "query": "算法研究员 入职"
+    },
+    {
+      "index": 42,
+      "node": "医疗健康 › 医生/医技 › 医务管理",
+      "role": "医务管理",
+      "query": "医务管理 日常"
+    },
+    {
+      "index": 42,
+      "node": "医疗健康 › 医生/医技 › 医务管理",
+      "role": "医务管理",
+      "query": "医务管理 入职"
+    },
+    {
+      "index": 43,
+      "node": "医疗健康 › 生物医药 › 医药项目经理",
+      "role": "医药项目经理",
+      "query": "医药项目经理 日常"
+    },
+    {
+      "index": 43,
+      "node": "医疗健康 › 生物医药 › 医药项目经理",
+      "role": "医药项目经理",
+      "query": "医药项目经理 入职"
+    },
+    {
+      "index": 44,
+      "node": "互联网/AI › 人工智能 › 图像算法",
+      "role": "图像算法",
+      "query": "图像算法 日常"
+    },
+    {
+      "index": 44,
+      "node": "互联网/AI › 人工智能 › 图像算法",
+      "role": "图像算法",
+      "query": "图像算法 入职"
+    },
+    {
+      "index": 45,
+      "node": "医疗健康 › 临床试验 › 医学写作",
+      "role": "医学写作",
+      "query": "医学写作 日常"
+    },
+    {
+      "index": 45,
+      "node": "医疗健康 › 临床试验 › 医学写作",
+      "role": "医学写作",
+      "query": "医学写作 入职"
+    },
+    {
+      "index": 46,
+      "node": "医疗健康 › 医疗器械 › 医疗器械注册",
+      "role": "医疗器械注册",
+      "query": "医疗器械注册 日常"
+    },
+    {
+      "index": 46,
+      "node": "医疗健康 › 医疗器械 › 医疗器械注册",
+      "role": "医疗器械注册",
+      "query": "医疗器械注册 入职"
+    },
+    {
+      "index": 47,
+      "node": "医疗健康 › 药店 › 执业药师/驻店药师",
+      "role": "执业药师/驻店药师",
+      "query": "执业药师 日常"
+    },
+    {
+      "index": 47,
+      "node": "医疗健康 › 药店 › 执业药师/驻店药师",
+      "role": "执业药师/驻店药师",
+      "query": "执业药师 入职"
+    },
+    {
+      "index": 48,
+      "node": "医疗健康 › 医疗销售 › 口腔咨询师",
+      "role": "口腔咨询师",
+      "query": "口腔咨询师 日常"
+    },
+    {
+      "index": 48,
+      "node": "医疗健康 › 医疗销售 › 口腔咨询师",
+      "role": "口腔咨询师",
+      "query": "口腔咨询师 入职"
+    },
+    {
+      "index": 49,
+      "node": "医疗健康 › 医疗销售 › 医药市场（产品/品牌）",
+      "role": "医药市场（产品/品牌）",
+      "query": "医药市场（产品 日常"
+    },
+    {
+      "index": 49,
+      "node": "医疗健康 › 医疗销售 › 医药市场（产品/品牌）",
+      "role": "医药市场（产品/品牌）",
+      "query": "医药市场（产品 入职"
+    }
+  ],
+  "accepted_sources": [],
+  "pending_detail_candidates": [
+    {
+      "role": "算法工程师",
+      "search_file": "maimai-search-000.json",
+      "index": 5,
+      "nickname": "李威"
+    },
+    {
+      "role": "算法工程师",
+      "search_file": "maimai-search-000.json",
+      "index": 8,
+      "nickname": "袁石泽"
+    },
+    {
+      "role": "产品经理",
+      "search_file": "maimai-search-015.json",
+      "index": 9,
+      "nickname": "Estela"
+    },
+    {
+      "role": "营养师/健康管理师",
+      "search_file": "maimai-search-022.json",
+      "index": 3,
+      "nickname": "孟畹政"
+    }
+  ],
+  "network_recovery": "User direction required before any Maimai retry; do not switch tool or buy membership."
+}

@@ -1,0 +1,661 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页 福建省人事考试网</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="SiteName" content="福建省人事考试网" />
+    <meta name="SiteDomain" content="www.fjpta.com" />
+    <meta name="SiteIDCode" content="3500000072" />
+    <meta name="keywords" content="福建省 人事 考试 报名" />
+    <meta name="description" content="福建省人事考试网" />
+
+    <link href="/portal/Content/FJPTA/style.css?a=20240429" rel="stylesheet" type="text/css" />
+    
+
+    <style type="text/css">
+        .pop_banner {
+            height: 238px;
+            width: 314px;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .pop_banner ul {
+                padding: 0;
+                margin: 0;
+            }
+
+                .pop_banner ul li {
+                    top: 0;
+                    left: 0;
+                    list-style: none;
+                    position: absolute;
+                }
+
+                    .pop_banner ul li span {
+                        display: block;
+                        width: 314px;
+                        padding: 3px 6px;
+                        line-height: 20px;
+                        height: 20px;
+                        word-wrap: break-word;
+                        overflow: hidden;
+                        color: white;
+                        background: rgba(100,100,100,0.6);
+                        top: 0;
+                        left: 0;
+                        list-style: none;
+                        position: absolute;
+                        font-size: 12px;
+                        font-weight:bold;
+                    }
+
+                    .pop_banner ul li img {
+                        height: 238px;
+                        width: 314px;
+                        display: block;
+                        border:none;
+                    }
+
+        .ban-btn {
+            width: 100%;
+            position: absolute;
+            top: 80px;
+            z-index: 2;
+        }
+
+            .ban-btn a {
+                display: inline-block;
+                height: 60px;
+                width: 35px;
+                background: rgba(180,180,180,0.5);
+                font-size: 25px;
+                text-align: center;
+                line-height: 60px;
+                color: #fff;
+                text-decoration: none;
+            }
+
+        .next-btn {
+            float: right;
+        }
+
+        .prev-btn {
+            float: left;
+        }
+
+        .ban-btn a:hover {
+            background: rgba(100,100,100,0.5);
+        }
+
+        .indicator {
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            bottom: 15px;
+            z-index: 2;
+        }
+
+            .indicator a {
+                display: inline-block;
+                width: 20px;
+                height: 5px;
+                margin: 0 3px;
+                background: #fff;
+            }
+
+        .indicator-active {
+            background: #FF8C00 !important;
+        }
+    </style>
+
+    <script src="/portal/Scripts/jq.min.js"></script>
+    <script src="/portal/Scripts/jquery.carousel.js"></script>
+    <script type="text/javascript">
+        var showOrHide = function (showid, hideids, e) {
+            $("#" + showid).show();
+            $("#" + hideids).hide();
+
+            $(".topHeading").removeClass("heading01").addClass("heading01-gray");
+            $("#" + e.id).removeClass("heading01-gray").addClass("heading01");
+
+            if (e.id == "spn-zfhf") {
+                $("#topMoreLink").attr("href", "/portal/zfhf");
+            }
+            if (e.id == "spn-zxdt") {
+                $("#topMoreLink").attr("href", "/portal/news");
+            }
+        }
+
+        $(function () {
+            $.carousel.startPlay('#J_bg_ban', '#J_bg_indicator', '#J_bg_btn');
+        })
+    </script>
+
+
+
+
+</head>
+<body class="GlobalBody">
+    <div id="GlobalWeb" style="margin:0 auto;">
+        <div id="header">
+            <div id="headerTime">2026年10月11日 &nbsp; <span class="ipV6">网站支持IPV6</span></div>
+	    
+        </div>
+        <div id="navBar">
+            <table style="width:980px">
+                <tr>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/">首页</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/bkjz">报考简章</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/news">中心资讯</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/wsbm">网上报名</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/printcards">准考证打印</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/testscore">成绩查询</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/xxgk">信息公开</a></td>
+                        <td style="text-align:center;"><a href="/portal/certmailing/notice">证书邮寄</a></td>
+                        <td style="text-align:center;"><a href="http://www.fjpta.com/portal/contactus">中心简介</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="wrapper">
+            <div>
+                
+
+
+
+
+<!--<div class="" style="width:130px;height:400px;position:fixed;left:50%;margin-left:-630px;top:23%;">
+	<div class="mainlist" style="padding:0;">
+		<h3 style="margin:0;"><span id="tzxdh">咨询电话</span></h3>
+	</div>
+	<div style="border:solid 1px #ccc;font-size:12px;line-height:22px">
+		<div style="margin:5px;">考试报名及证书业务咨询：0591-87670230</div>
+		<div style="margin:5px;">缴退费及开具发票业务咨询：0591-87615506</div>
+		<div style="margin:5px;">考后成绩查询及复核咨询：0591-87507553</div>
+		<div style="margin:5px;">委托命题业务咨询：0591-87606630</div>
+	</div>
+</div>
+<script>
+        setInterval(function () {
+            $("#tzxdh").fadeOut(800);
+            $("#tzxdh").fadeIn(500);
+        },100)
+    </script>
+    -->
+
+<div style="margin: 30px 14px;">
+    <div style="width:195px;float:left;">
+        
+<div class="panel panel-default panel01">
+    <div class="panel-heading heading">
+        <a href="/portal/newscore">更多</a>
+        <span class="glyphicon glyphicon-education"></span>
+        &nbsp;成绩公布
+    </div>
+    <div class="panel-body content">
+        
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="关于2026年度翻译专业资格（水平）考试福建考区成绩公布的通知" style=""  href="http://www.fjpta.com/portal/newscore/syBJ56i.htm">关于2026年度翻译专业资格（水平）考试福建考区成绩公布的通知</a>
+                    <span>2026-08-25</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2026年度环境影响评价工程师职业资格考试福建考区成绩公布的通知" style=""  href="http://www.fjpta.com/portal/newscore/u69vnPS.htm">关于2026年度环境影响评价工程师职业资格考试福建考区成绩公布的通知</a>
+                    <span>2026-08-14</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2026年度注册计量师职业资格福建考区成绩公布的通知" style=""  href="http://www.fjpta.com/portal/newscore/n7QPpcg.htm">关于2026年度注册计量师职业资格福建考区成绩公布的通知</a>
+                    <span>2026-08-14</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2026年度一、二级注册建筑师资格考试福建考区成绩公布的通知" style=""  href="http://www.fjpta.com/portal/newscore/v10DnCy.htm">关于2026年度一、二级注册建筑师资格考试福建考区成绩公布的通知</a>
+                    <span>2026-08-05</span>
+            </li>
+    </ul>
+</div>
+    </div>
+</div>
+        
+<div class="panel panel-default panel01">
+    <div class="panel-heading heading">
+        <a href="/portal/indexbulletin">更多</a>
+        <span class="glyphicon glyphicon-volume-up"></span>
+         &nbsp;公示公告
+    </div>
+    <div class="panel-body content">
+        
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="2026年度翻译专业资格（水平）考试福建考区成绩合格人员承诺情况公示" style=""  href="http://www.fjpta.com/portal/indexbulletin/062osBV.htm">2026年度翻译专业资格（水平）考试福建考区成绩合格人员承诺情况公示</a>
+                    <span>2026-08-25</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度注册计量师职业资格考试福建考区成绩合格人员承诺情况公示" style=""  href="http://www.fjpta.com/portal/indexbulletin/UN86k5C.htm">2026年度注册计量师职业资格考试福建考区成绩合格人员承诺情况公示</a>
+                    <span>2026-08-14</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度环境影响评价工程师职业资格考试福建考区成绩合格人员承诺情况公示" style=""  href="http://www.fjpta.com/portal/indexbulletin/b0iNEwI.htm">2026年度环境影响评价工程师职业资格考试福建考区成绩合格人员承诺情况公示</a>
+                    <span>2026-08-14</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026度社会工作者职业资格考试福建考区成绩合格人员承诺情况公示" style=""  href="http://www.fjpta.com/portal/indexbulletin/ke1TtOM.htm">2026度社会工作者职业资格考试福建考区成绩合格人员承诺情况公示</a>
+                    <span>2026-07-24</span>
+            </li>
+    </ul>
+</div>
+    </div>
+</div>
+        
+<div class="panel panel-default panel01">
+    <div class="panel-heading heading">
+        <a href="/portal/guide">更多</a>
+        <span class="glyphicon glyphicon-time"></span>
+         &nbsp;办事指南
+    </div>
+    <div class="panel-body content">
+        
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="资格证书和合格人员登记表补办须知 " style=""  href="http://www.fjpta.com/portal/guide/KcVG12b.htm">资格证书和合格人员登记表补办须知 </a>
+                    <span>2020-03-31</span>
+            </li>
+            <li>
+                <a target="_blank" title="中央机关公务员考试报名信息更改申请表" style=""  href="http://www.fjpta.com/portal/guide/TkyumOn.htm">中央机关公务员考试报名信息更改申请表</a>
+                    <span>2018-11-05</span>
+            </li>
+    </ul>
+</div>
+    </div>
+</div>
+	<div style="margin-top:10px;">
+	<a target="_blank" href="https://rsks.class.com.cn/"><img src='/attachment/202007/MAIN201509080953323132621565532.jpg' style="width:193px;border:1px solid #ccc;" /></a>
+	</div>
+    </div>
+    <div style="margin-left:210px;margin-top: 0px;">
+
+        
+        <div class="panel panel-info panel02" style="margin-top:0px;">
+            <div class="panel-heading heading">
+                <a id="topMoreLink" style="line-height:40px;" href="/portal/news">更多</a>
+                <span id="spn-zxdt" onmouseover="showOrHide('div-zxdt', 'div-zfhf',this)" class="topHeading heading01">中心资讯</span>
+                
+            </div>
+            <div id="div-zxdt" class="panel-body content" style="min-height:220px;margin-top:10px;">
+                <table style="width:758px;" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="width:328px;" valign="top">
+                            <div class="pop_banner" id="J_bg_ban">
+                                <ul>
+                                        <li>
+                                            <a href="http://www.cpta.com.cn/topic/1284.html">
+                                               
+                                                <img src="/portal/Attachment/202306/341a5110-9de4-419c-b5dc-1b3d92e8fe34_9e0880af-50a0-4cb6-958c-7352a362307e.jpg" alt="" />
+                                            </a>
+                                        </li>
+                                </ul>
+                                <div class="indicator" id="J_bg_indicator">
+                                </div>
+                                <div class="ban-btn clearfloat" id="J_bg_btn">
+                                    <a class="next-btn fr" href="javascript:">&gt;</a><a class="prev-btn fl" href="javascript:">&lt;</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="width:430px;" valign="top">
+                            
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒" style=""  href="http://www.cpta.com.cn/gwytg/2072.html">中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒</a>
+                    <span>2025-11-03</span>
+            </li>
+            <li>
+                <a target="_blank" title="中央机关及其直属机构2026年度考试录用公务员笔试注意事项" style=""  href="http://www.cpta.com.cn/gwytg/2071.html">中央机关及其直属机构2026年度考试录用公务员笔试注意事项</a>
+                    <span>2025-11-03</span>
+            </li>
+            <li>
+                <a target="_blank" title="中央机关及其直属机构2026年度考试录用公务员笔试有关违规违纪行为处理温馨提醒" style=""  href="http://www.cpta.com.cn/gwytg/2070.html">中央机关及其直属机构2026年度考试录用公务员笔试有关违规违纪行为处理温馨提醒</a>
+                    <span>2025-11-03</span>
+            </li>
+            <li>
+                <a target="_blank" title="如何使用国家网络身份认证公共服务" style=""  href="http://www.cpta.com.cn/question/1984.html">如何使用国家网络身份认证公共服务</a>
+                    <span>2025-10-11</span>
+            </li>
+            <li>
+                <a target="_blank" title="2025年度专业技术人员职业资格考试重要事项提示" style=""  href="http://www.cpta.com.cn/examNotice/1922.html">2025年度专业技术人员职业资格考试重要事项提示</a>
+                    <span>2025-02-24</span>
+            </li>
+            <li>
+                <a target="_blank" title="中央机关及其直属机构2025年度考试录用公务员笔试有关违规违纪行为温馨提醒" style=""  href="http://www.fjpta.com/portal/news/KY3GpRT.htm">中央机关及其直属机构2025年度考试录用公务员笔试有关违规违纪行为温馨提醒</a>
+                    <span>2024-11-26</span>
+            </li>
+            <li>
+                <a target="_blank" title="中央机关及其直属机构2025年度考试录用公务员笔试温馨提醒" style=""  href="http://www.fjpta.com/portal/news/VkXdGHB.htm">中央机关及其直属机构2025年度考试录用公务员笔试温馨提醒</a>
+                    <span>2024-11-26</span>
+            </li>
+            <li>
+                <a target="_blank" title="2024年度执业药师电子化考试模拟作答通知" style=""  href="http://www.fjpta.com/portal/news/REu1Vev.htm">2024年度执业药师电子化考试模拟作答通知</a>
+                    <span>2024-09-25</span>
+            </li>
+            <li>
+                <a target="_blank" title="2024年度执业药师职业资格电子化考试服务专区" style=""  href="https://rsjk.cpta.com.cn/">2024年度执业药师职业资格电子化考试服务专区</a>
+                    <span>2024-09-25</span>
+            </li>
+            <li>
+                <a target="_blank" title="考试报名温馨再提醒" style=""  href="http://www.cpta.com.cn/examNotice/1811.html">考试报名温馨再提醒</a>
+                    <span>2024-08-12</span>
+            </li>
+    </ul>
+</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="div-zfhf" class="panel-body content" style="min-height:220px;margin-top:10px;display:none;">
+                <table style="width:758px;" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td style="width:328px;" valign="top">
+                            <a href="#"><img src="/portal/content/fjpta/images/nopic.png" style="width: 314px; height: 238px; border: none;background-color:#d3d3d3;" /></a>
+                        </td>
+                        <td style="width:430px;" valign="top">
+                            
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="不断推动行风建设走向深入" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/asTPzwI.htm">不断推动行风建设走向深入</a>
+                    <span>2018-10-23</span>
+            </li>
+            <li>
+                <a target="_blank" title="严打决不手软 作弊无所遁形" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/cHKIEeB.htm">严打决不手软 作弊无所遁形</a>
+                    <span>2018-10-19</span>
+            </li>
+            <li>
+                <a target="_blank" title="安全至上，服务为本，点滴间落实行风建设" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/k9STcnr.htm">安全至上，服务为本，点滴间落实行风建设</a>
+                    <span>2018-08-13</span>
+            </li>
+            <li>
+                <a target="_blank" title="人社部召开系统行风建设电视电话会议" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/0SgFkba.htm">人社部召开系统行风建设电视电话会议</a>
+                    <span>2018-08-02</span>
+            </li>
+            <li>
+                <a target="_blank" title="正行风 树新风 打造群众满意的人社服务 ——论全面加强人社系统行风建设" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/ljJbzEM.htm">正行风 树新风 打造群众满意的人社服务 ——论全面加强人社系统行风建设</a>
+                    <span>2018-08-02</span>
+            </li>
+            <li>
+                <a target="_blank" title="六个同等”人社部门着力落实我省66条实施意见" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/Uqc7WvC.htm">六个同等”人社部门着力落实我省66条实施意见</a>
+                    <span>2018-08-02</span>
+            </li>
+            <li>
+                <a target="_blank" title="省人社厅迅速贯彻全国人社系统行风建设电视电话会议精神" style="font-weight:normal;"  href="http://www.fjpta.com/portal/zfhf/BPGILZj.htm">省人社厅迅速贯彻全国人社系统行风建设电视电话会议精神</a>
+                    <span>2018-08-02</span>
+            </li>
+    </ul>
+</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        
+        <div class="panel panel-success panel02" style="margin-top:0px;">
+            <div class="panel-heading heading" style="text-align:left;">
+                <span class="heading01">快速通道</span>
+            </div>
+            <div class="panel-body content" style="min-height:100px;padding:10px;">
+                <table cellpadding="3">
+                    <tr>
+                        <td>
+                            <a target="_blank" href="http://zg.cpta.com.cn/examfront/login/initLogin.htm"><img src="/portal/Content/FJPTA/images/%e7%bd%91%e4%b8%8a%e6%8a%a5%e5%90%8d.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        <td>
+                            <a href="http://www.cpta.com.cn/promise.html"><img src="/portal/Content/FJPTA/images/%e5%91%8a%e7%9f%a5%e6%89%bf%e8%af%ba%e5%88%b6.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        <td>
+                            <a href="/portal/printcards"><img src="/portal/Content/FJPTA/images/%e5%87%86%e8%80%83%e8%af%81%e6%89%93%e5%8d%b0.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        <td>
+                            <a href="/portal/testscore"><img src="/portal/Content/FJPTA/images/%e6%88%90%e7%bb%a9%e6%9f%a5%e8%af%a2.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        <td>
+                            <a href="/portal/certificate"><img src="/portal/Content/FJPTA/images/%e9%a2%86%e8%af%81%e4%b9%a6%e9%80%9a%e7%9f%a5.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        
+                        <td>
+                            <a href="/portal/certmailing/notice"><img src="/portal/Content/FJPTA/images/%e8%af%81%e4%b9%a6%e9%82%ae%e5%af%84.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        <td>
+                            <a href="http://www.cpta.com.cn/tooldown.html"><img src="/portal/Content/FJPTA/images/%e7%9b%b8%e5%85%b3%e4%b8%8b%e8%bd%bd.jpg" style="border:solid 1px #d3d3d3;width:95px;height:95px;border-radius:5px;" /></a>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        
+        <div>
+            <div class="panel panel-info panel03" style="width:377px;float:left;">
+                <div class="panel-heading heading">
+                    <a href="/portal/bkjz">更多</a>
+                    <span class="glyphicon glyphicon-list-alt"></span>
+                    报考简章
+                </div>
+                <div class="panel-body content">
+                    
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="2026年度一级注册消防工程师资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/y0aIbdM.htm">2026年度一级注册消防工程师资格考试报考简章</a>
+                    <span>2026-08-17</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度中级注册安全工程师职业资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/QEy9k3Z.htm">2026年度中级注册安全工程师职业资格考试报考简章</a>
+                    <span>2026-07-30</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度执业药师职业资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/fQ5yiHz.htm">2026年度执业药师职业资格考试报考简章</a>
+                    <span>2026-07-30</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度新闻记者职业资格考试报考简章" style=""  href="https://www.fjxuanchuan.gov.cn/zwgk/tzgg/202607/t20260729_6570.htm">2026年度新闻记者职业资格考试报考简章</a>
+                    <span>2026-07-29</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度初级、中级经济专业技术资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/cnvZwuq.htm">2026年度初级、中级经济专业技术资格考试报考简章</a>
+                    <span>2026-07-13</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度出版专业技术人员职业资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/IHCtSV6.htm">2026年度出版专业技术人员职业资格考试报考简章</a>
+                    <span>2026-06-30</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度注册城乡规划师职业资格考试报考简章" style=""  href="https://zrzyt.fujian.gov.cn/zwgk/rsxx/202606/t20260609_7160986.htm">2026年度注册城乡规划师职业资格考试报考简章</a>
+                    <span>2026-06-11</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度设备监理师职业资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/m6PWtCE.htm">2026年度设备监理师职业资格考试报考简章</a>
+                    <span>2026-06-11</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度注册测绘师职业资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/OJkrcNL.htm">2026年度注册测绘师职业资格考试报考简章</a>
+                    <span>2026-06-11</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度审计专业技术资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/uC6i5YZ.htm">2026年度审计专业技术资格考试报考简章</a>
+                    <span>2026-05-08</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度翻译专业资格（水平）考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/inx01vj.htm">2026年度翻译专业资格（水平）考试报考简章</a>
+                    <span>2026-04-07</span>
+            </li>
+            <li>
+                <a target="_blank" title="2026年度环境影响评价工程师职业资格考试报考简章" style=""  href="http://www.fjpta.com/portal/bkjz/ewqIk17.htm">2026年度环境影响评价工程师职业资格考试报考简章</a>
+                    <span>2026-03-27</span>
+            </li>
+    </ul>
+</div>
+                </div>
+            </div>
+            <div class="panel panel-info panel03" style="margin-left:387px;">
+                <div class="panel-heading heading">
+                    <a href="/portal/certificate">更多</a>
+                    <span class="glyphicon glyphicon-tag"></span>
+                    领证通知
+                </div>
+                <div class="panel-body content">
+                    
+
+<div class="slist">
+    <ul>
+            <li>
+                <a target="_blank" title="关于2026年度翻译专业资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/5sG0tMc.htm">关于2026年度翻译专业资格考试合格证书领取的通知</a>
+                    <span>2026-10-10</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2026年度一级、二级注册计量师及环境影响评价工程师职业资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/KdlBcpR.htm">关于2026年度一级、二级注册计量师及环境影响评价工程师职业资格考试合格证书领取的通知</a>
+                    <span>2026-09-22</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2026年度社会工作者职业资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/hSHC9aP.htm">关于2026年度社会工作者职业资格考试合格证书领取的通知</a>
+                    <span>2026-08-24</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2026年度高级经济师资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/4St7K5M.htm">关于2026年度高级经济师资格考试合格证书领取的通知</a>
+                    <span>2026-08-24</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2025年度一级注册消防工程师资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/q8mBIrn.htm">关于2025年度一级注册消防工程师资格考试合格证书领取的通知</a>
+                    <span>2026-03-20</span>
+            </li>
+            <li>
+                <a target="_blank" title="福建省人事考试中心关于专业技术人员 职业资格证书查验和领取事项 （地址和电话）的温馨提示" style=""  href="http://www.fjpta.com/portal/certificate/pC8oN9M.htm">福建省人事考试中心关于专业技术人员 职业资格证书查验和领取事项 （地址和电话）的温馨提示</a>
+                    <span>2026-01-08</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2025年度中级注册安全工程师、审计专业技术资格考试(高级)、新闻记者职业资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/H1CEoeu.htm">关于2025年度中级注册安全工程师、审计专业技术资格考试(高级)、新闻记者职业资格考试合格证书领取的通知</a>
+                    <span>2026-01-27</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2025年度初级、中级经济专业技术资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/EMba0Oj.htm">关于2025年度初级、中级经济专业技术资格考试合格证书领取的通知</a>
+                    <span>2026-01-08</span>
+            </li>
+            <li>
+                <a target="_blank" title="福建省人力资源和社会保障厅关于进一步改进专业技术人员证书管理的通知" style=""  href="http://rst.fujian.gov.cn/zw/zfxxgk/zfxxgkml/zyywgz/zynljs/202206/t20220606_5925371.htm">福建省人力资源和社会保障厅关于进一步改进专业技术人员证书管理的通知</a>
+                    <span>2022-08-31</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于转发全国职业资格证书查询验证的通知" style=""  href="http://www.fjpta.com/portal/certificate/QRvP6lG.htm">关于转发全国职业资格证书查询验证的通知</a>
+                    <span>2019-09-05</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2025年执业药师职业资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/8TjCPIX.htm">关于2025年执业药师职业资格考试合格证书领取的通知</a>
+                    <span>2025-12-23</span>
+            </li>
+            <li>
+                <a target="_blank" title="关于2025年度出版专业、注册测绘师、设备监理师资格考试合格证书领取的通知" style=""  href="http://www.fjpta.com/portal/certificate/wO0ic96.htm">关于2025年度出版专业、注册测绘师、设备监理师资格考试合格证书领取的通知</a>
+                    <span>2025-12-23</span>
+            </li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center;margin:0px;">
+            <img src="/portal/Content/FJPTA/images/low-banner.png" />
+	   
+        </div>
+
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="/portal/Scripts/AdMove.js"></script>
+<div class="float-container" id="ad1" style="position: absolute; left: 379px; top: 108px;display:none;">
+	<a href="/portal/news/bAWhnuF.htm" target="_blank" title=""><img alt="" src="/attachment/images/20250405165027.png" style="width: 319px; height: 305px;" /></a>
+	<p class="ad1-close">
+		X</p>
+</div>
+<style type="text/css">
+.ad1-close{
+
+font-size:16px;
+margin:0;
+padding:0;
+font-family:微软雅黑;
+}
+.float-container {
+      position: relative;
+      z-index:99999999999999999999;
+    }
+ 
+    .float-container p {
+      text-align: right;
+      position: absolute;
+      margin: 0;
+      top: 6px;
+      right: 6px;
+      cursor: pointer;
+    }</style>
+<script>
+    $(function () {
+let t = new Date(2025, 4, 10, 8, 0, 0, 0); //2025年5月10日前显示
+console.log(t);
+if(new Date() < t)
+{
+
+$("#ad1").show();
+
+var ad1 = new AdMove("ad1", true);
+ad1.Run();
+ 
+      $('.ad1-close').on('click', function () {
+        $(this).parent().remove()
+      });
+}
+
+    })
+ 
+  </script>
+<div style="position: absolute;top:0;left:0;display:none;">
+	1</div>
+
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div id="footer">
+            <div>
+                  备案号：<a href="http://beian.miit.gov.cn">闽ICP备05008718号</a>  <img src="/attachment/images/beianicon.PNG"/><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000859" style="text-decoration:none;height:20px;line-height:20px;">闽公网安备35010202000859号</a>&nbsp;<a href='http://www.fjpta.com/portal/sitemap'></a>中文域名：福建省人事考试中心.公益  闽ICP备05008718号-2
+            </div>
+            <div>
+                地址：福建省福州市东大路36号福建人才大厦十三层  
+            </div>
+        </div>
+        <div class="noPrint" style="position: relative;">
+                <div style="position: absolute; bottom: 0px; left: 20px;">
+		    <script type="text/javascript">if (window.location.href.indexOf("http://", 0) == 0) { document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/14/000/0000/41527820/CA140000000415278200001.js' type='text/javascript'%3E%3C/script%3E")); }</script>
+                </div>
+        </div>
+    </div>
+
+    <div class="hidden">
+        <script src="https://s11.cnzz.com/z_stat.php?id=2748936&web_id=2748936" language="JavaScript"></script>
+    </div>
+</body>
+</html>

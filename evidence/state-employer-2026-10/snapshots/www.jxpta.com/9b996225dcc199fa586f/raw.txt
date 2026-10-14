@@ -1,0 +1,1057 @@
+<!doctype html>
+<html>
+	<head>
+  <base href="/jxsrskszx/" /> 
+  <meta name="SiteName" content="江西省人事考试中心" /> 
+  <meta name="SiteDomain" content="http://www.jxpta.com" /> 
+  <meta name="SiteIDCode" content="N000060743" /> 
+  <meta name="HtmlGenerateTime" content="2026-07-29 09:55:53" /> 
+		<meta charset="UTF-8">
+		<script language="javascript" src="/jxsrskszx/js/jquery.js">
+		</script>
+		<script language="javascript" src="/jxsrskszx/js/urite.min.js">
+		</script>
+		<link href="/jxsrskszx/css/infotag.css" type="text/css" rel="stylesheet">
+		<link href="http://www.jxpta.com/script/pagegray.css" type="text/css" rel="stylesheet">
+		<meta name="WebId" content="284">
+		<title>江西省人事考试网</title>
+		<meta name="Maketime" content="2024-03-01 15:07:08">
+		<meta name="SiteName" content="江西省人事考试网">
+		<meta name="SiteDomain" content="www.jxpta.com">
+		<meta name="SiteIDCode" content="">
+		<meta name="siteurl" content="http://www.jxpta.com">
+		<meta name="guild" content="">
+		<meta name="district" content="">
+		<meta name="i_webid" content="284">
+		<meta name="i_columnid" content="0">
+		<meta name="i_articleid" content="0">
+		<meta name="pagetype" content="3">
+		<meta name="sitecatalog" content="">
+		<link rel="stylesheet" href="/jxsrskszx/css/hanweb.css">
+		<link rel="stylesheet" href="/jxsrskszx/css/index.css">
+		<script type="text/javascript" src="/jxsrskszx/js/jquery.js">
+		</script>
+		<script type="text/javascript" src="/jxsrskszx/js/jquery.SuperSlide.2.1.1.js">
+		</script>
+		<script type="text/javascript" src="/jxsrskszx/js/index.js">
+		</script>
+
+        <script src="commonfiles/dayjs.min.js"></script>
+        <script src="commonfiles/handlebars.min.js"></script>
+        <script src="commonfiles/Handlebars.tools.js"></script>
+		<script>
+			channelId = '1761943033115774976';
+		</script>
+        <script src="commonfiles/buryPoint.js"></script>
+		
+	</head>
+	<body>
+		<div id="hiddenLocation" style="display:none;">
+			<span id="ss_webid">
+				284
+			</span>
+		</div>
+		<script type="text/javascript">
+			function addEvent(obj, evtType, func, cap) {
+				cap = cap || false;
+				if (obj.addEventListener) {
+					obj.addEventListener(evtType, func, cap);
+					return true;
+				} else if (obj.attachEvent) {
+					if (cap) {
+						obj.setCapture();
+						return true;
+					} else {
+						return obj.attachEvent("on" + evtType, func);
+					}
+				} else {
+					return false;
+				}
+			}
+
+			function closead1() {
+				document.getElementById('ad11').style.display = "none";
+			}
+			function closead2() {
+				document.getElementById('ad12').style.display = "none";
+			}
+			function closead3() {
+				document.getElementById('ad13').style.display = "none";
+			}
+
+			function getPageScroll() {
+				var xScroll, yScroll;
+				if (self.pageXOffset) {
+					xScroll = self.pageXOffset;
+				} else if (document.documentElement && document.documentElement.scrollLeft) {
+					xScroll = document.documentElement.scrollLeft;
+				} else if (document.body) {
+					xScroll = document.body.scrollLeft;
+				}
+				if (self.pageYOffset) {
+					yScroll = self.pageYOffset;
+				} else if (document.documentElement && document.documentElement.scrollTop) {
+					yScroll = document.documentElement.scrollTop;
+				} else if (document.body) {
+					yScroll = document.body.scrollTop;
+				}
+				arrayPageScroll = new Array(xScroll, yScroll);
+				return arrayPageScroll;
+			}
+			function GetPageSize() {
+				var xScroll, yScroll;
+				if (window.innerHeight && window.scrollMaxY) {
+					xScroll = document.body.scrollWidth;
+					yScroll = window.innerHeight + window.scrollMaxY;
+				} else if (document.body.scrollHeight > document.body.offsetHeight) {
+					xScroll = document.body.scrollWidth;
+					yScroll = document.body.scrollHeight;
+				} else {
+					xScroll = document.body.offsetWidth;
+					yScroll = document.body.offsetHeight;
+				}
+				var windowWidth, windowHeight;
+				if (self.innerHeight) {
+					windowWidth = self.innerWidth;
+					windowHeight = self.innerHeight;
+				} else if (document.documentElement && document.documentElement.clientHeight) {
+					windowWidth = document.documentElement.clientWidth;
+					windowHeight = document.documentElement.clientHeight;
+				} else if (document.body) {
+					windowWidth = document.body.clientWidth;
+					windowHeight = document.body.clientHeight;
+				}
+				if (yScroll < windowHeight) {
+					pageHeight = windowHeight;
+				} else {
+					pageHeight = yScroll;
+				}
+				if (xScroll < windowWidth) {
+					pageWidth = windowWidth;
+				} else {
+					pageWidth = xScroll;
+				}
+				arrayPageSize = new Array(pageWidth, pageHeight, windowWidth, windowHeight) return arrayPageSize;
+			}
+
+			var AdMoveConfig = new Object();
+			AdMoveConfig.IsInitialized = false;
+			AdMoveConfig.ScrollX = 0;
+			AdMoveConfig.ScrollY = 0;
+			AdMoveConfig.MoveWidth = 0;
+			AdMoveConfig.MoveHeight = 0;
+			AdMoveConfig.Resize = function() {
+				var winsize = GetPageSize();
+				AdMoveConfig.MoveWidth = winsize[2];
+				AdMoveConfig.MoveHeight = winsize[3];
+				AdMoveConfig.Scroll();
+			}
+			AdMoveConfig.Scroll = function() {
+				var winscroll = getPageScroll();
+				AdMoveConfig.ScrollX = winscroll[0];
+				AdMoveConfig.ScrollY = winscroll[1];
+			}
+			addEvent(window, "resize", AdMoveConfig.Resize);
+			addEvent(window, "scroll", AdMoveConfig.Scroll);
+			function AdMove(id) {
+				if (!AdMoveConfig.IsInitialized) {
+					AdMoveConfig.Resize();
+					AdMoveConfig.IsInitialized = true;
+				}
+				var obj = document.getElementById(id);
+				obj.style.position = "absolute";
+				var W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+				var H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+				var x = W * Math.random(),
+				y = H * Math.random();
+				var rad = (Math.random() + 1) * Math.PI / 6;
+				var kx = Math.sin(rad),
+				ky = Math.cos(rad);
+				var dirx = (Math.random() < 0.5 ? 1 : -1),
+				diry = (Math.random() < 0.5 ? 1 : -1);
+				var step = 1;
+				var interval;
+				this.SetLocation = function(vx, vy) {
+					x = vx;
+					y = vy;
+				}
+				this.SetDirection = function(vx, vy) {
+					dirx = vx;
+					diry = vy;
+				}
+				obj.CustomMethod = function() {
+					obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+					obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+					rad = (Math.random() + 1) * Math.PI / 6;
+					W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+					H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+					x = x + step * kx * dirx;
+					if (x < 0) {
+						dirx = 1;
+						x = 0;
+						kx = Math.sin(rad);
+						ky = Math.cos(rad);
+					}
+					if (x > W) {
+						dirx = -1;
+						x = W;
+						kx = Math.sin(rad);
+						ky = Math.cos(rad);
+					}
+					y = y + step * ky * diry;
+					if (y < 0) {
+						diry = 1;
+						y = 0;
+						kx = Math.sin(rad);
+						ky = Math.cos(rad);
+					}
+					if (y > H) {
+						diry = -1;
+						y = H;
+						kx = Math.sin(rad);
+						ky = Math.cos(rad);
+					}
+				}
+				this.Run = function() {
+					var delay = 20;
+					interval = setInterval(obj.CustomMethod, delay);
+					obj.onmouseover = function() {
+						clearInterval(interval);
+					}
+					obj.onmouseout = function() {
+						interval = setInterval(obj.CustomMethod, delay);
+					}
+				}
+			}
+		</script>
+		<script type="text/javascript">
+			var ad1 = new AdMove("ad11");
+			ad1.Run();
+		</script>
+		<div>
+		</div>
+		<div>
+		</div>
+		<div class="fixd">
+			<div class="fixd_box">
+				<img src="/jxsrskszx/picture/2312212109159245920.png">
+				<p>
+					江西人社微信公众号
+				</p>
+			</div>
+			<div class="fixd_box">
+				<img src="/jxsrskszx/picture/2312212109159135934.png">
+				<p>
+					江西人社微博
+				</p>
+			</div>
+			<img src="/jxsrskszx/picture/2312212109159006211.png">
+		</div>
+		<style>
+			.fixd { position: fixed; right: 0; background: #fff; width: 140px; padding:
+			0 10px; top: 250px; text-align: center; padding-top: 20px; } .fixd_box
+			img { margin-bottom: 10px; } .fixd_box p { font-size: 14px; width: 84px;
+			margin: 0 auto; margin-bottom: 10px; }
+		</style>
+		<script src="/jxsrskszx/js/2312151027328343.js">
+		</script>
+
+		<div class="main w1200">
+			<div class="main_top cf">
+				<div id="focus">
+					<ul id="gzdt284"> <!-- 图片新闻 -->
+                        <script id="template_1" type="text/x-handlebars-template">
+                        {{#each data}} 
+                        {{#if cover}}
+                            <li> <a title="{{title}}" href="{{pcUrl}}" target = "_blank" > <img src = "{{cover}}" > </a>
+                            <div class="photo_bt"><a href="{{pcUrl}}" target="_blank" title="{{title}}">{{title}}</a > </div>
+                            </li > 
+                            {{/if}}   
+                        {{/each}}
+		                </script>
+					</ul>
+                    <script>
+                        var gzdt284 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2101919332470173696-RelationArticle.json","attDownloadType":0,"title":"审计署、工信部巡视组莅临江西巡视指导考试组织工作","type":0,"pubDate":"2026-09-21 14:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2101919332470173696.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"审计署、工信部巡视组莅临江西巡视指导考试组织工作","topStatus":0,"archiveStatus":0,"sortNum":17899714200048923,"id":"2101919332470173696","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2099742563247927296-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部召开树立和践行正确政绩观学习教育总结会","type":0,"pubDate":"2026-09-15 14:05","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2099742563247927296.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 22px;\">省人事考试中心党支部召开树立和践行正确政绩观学习教育总结会</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17894523000098891,"id":"2099742563247927296","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2087092449550082048-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心召开专题警示教育会","type":0,"pubDate":"2026-08-10 16:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2087092449550082048.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 20px;\">省人事考试中心召开专题警示教育会</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17863500000037746,"id":"2087092449550082048","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2083115689144131584-RelationArticle.json","attDownloadType":0,"title":"全省人事考试系统开展警示教育活动暨人事考试工作业务培训班","type":0,"pubDate":"2026-07-31 16:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2083115689144131584.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p>全省人事考试系统开展警示教育活动暨人事考试工作业务培训班</p>","topStatus":0,"archiveStatus":0,"sortNum":17854881000048251,"id":"2083115689144131584","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2073964124890112000-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部开展树立和践行正确政绩观学习教育专题党课","type":0,"pubDate":"2026-07-05 10:53","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2073964124890112000.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 24px;\">省人事考试中心党支部开展树立和践行正确政绩观学习教育专题党课</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17832199800033328,"id":"2073964124890112000","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2073966437482536960-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心组织收听收看庆祝中国共产党成立105周年大会","type":0,"pubDate":"2026-07-03 10:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2073966437482536960.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 24px;\">省人事考试中心组织收听收看庆祝中国共产党成立105周年大会</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17830473600050157,"id":"2073966437482536960","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2061634546650443776-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心联合省人社宣传中心开展全国助残日活动","type":0,"pubDate":"2026-06-01 10:14","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2061634546650443776.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 20px;\">省人事考试中心联合省人社宣传中心开展全国助残日活动</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17802800400014273,"id":"2061634546650443776","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2056655435718508544-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心组织开展健步行活动","type":0,"pubDate":"2026-05-19 16:36","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2056655435718508544.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p>省人事考试中心组织开展健步行活动</p>","topStatus":0,"archiveStatus":0,"sortNum":17791797600064886,"id":"2056655435718508544","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2057300548597628928-RelationArticle.json","attDownloadType":0,"title":"江西省人事考试中心党支部开展红色教育联学活动","type":0,"pubDate":"2026-05-19 11:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2057300548597628928.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 22px;\">江西省人事考试中心党支部开展红色教育联学活动</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17791606800031785,"id":"2057300548597628928","articleFiles":[{}]},{"classify":0,"images":[{"cover":"/jxsrskszx/gzdt284/2062373617546080256/dpZYlUzT.jpg","fileName":"dpZYlUzT.jpg","domainName":"http://www.jxpta.com","filePath":"/jxsrskszx/gzdt284/2062373617546080256/dpZYlUzT.jpg","delFlag":0,"type":"1","fileId":"2062373524229382144"}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2062373617546080256-RelationArticle.json","redirectUrl":"http://rst.jiangxi.gov.cn/jxsrlzyhshbzt/col/col47804/content/content_2054876228596318208.html","attDownloadType":0,"title":"蒋斌出席厅工青妇干部座谈会并讲授专题党课","type":0,"pubDate":"2026-05-15 11:17","relation":0,"urls":"{}","contentSource":"江西省人事考试中心","showTitle":"蒋斌出席厅工青妇干部座谈会并讲授专题党课","topStatus":0,"archiveStatus":0,"sortNum":17788150200067124,"id":"2062373617546080256","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2056202080017760256-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心联合省人社宣传中心赴方志敏烈士纪念园开展学习教育活动","type":0,"pubDate":"2026-05-13 10:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2056202080017760256.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>省人事考试中心联合省人社宣传中心赴方志敏烈士纪念园开展学习教育活动</p>","topStatus":0,"archiveStatus":0,"sortNum":17786394000030582,"id":"2056202080017760256","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2047580994985324544-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心召开全省考务工作视频会议","type":0,"pubDate":"2026-04-24 15:37","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2047580994985324544.html\"}","contentSource":"江西省人事考试中心","showTitle":"省人事考试中心召开全省考务工作视频会议","topStatus":0,"archiveStatus":0,"sortNum":17770162200069204,"id":"2047580994985324544","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2045033861244059648-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部开展树立和践行正确政绩观学习教育研讨","type":0,"pubDate":"2026-04-17 14:51","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2045033861244059648.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 22px;\">省人事考试中心党支部开展树立和践行正确政绩观学习教育研讨</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17764086600042388,"id":"2045033861244059648","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2038867429636505600-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心开展“3·23”警示教育活动","type":0,"pubDate":"2026-03-27 14:39","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2038867429636505600.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p>省人事考试中心开展“3·23”警示教育活动</p>","topStatus":0,"archiveStatus":0,"sortNum":17745935400096041,"id":"2038867429636505600","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2038865803525816320-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部研究部署树立和践行正确政绩观学习教育工作","type":0,"pubDate":"2026-03-06 14:27","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2038865803525816320.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 20px;\">省人事考试中心党支部研究部署树立和践行正确政绩观学习教育工作</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17727784200069215,"id":"2038865803525816320","articleFiles":[{}]}]
+                        // 过滤并设置 cover 属性
+                        gzdt284 = gzdt284.reduce(function(list, item) {
+                            if (item.cover) {
+                            list.push(item);
+                            }else if(item.images && item.images[0] && item.images[0].cover){
+                            item.cover = item.images[0].cover;
+                            list.push(item);
+                            }
+                            // else if{item.redirectUrl}{
+                            //   list.push(item);
+                            // }
+                            return list;
+                        },[])
+                        renderTemplate('gzdt284', gzdt284, 'template_1', 0, 5, { titleMax: 30 })
+                    </script>
+					<div class="btnBg">
+					</div>
+					<div class="btn">
+					</div>
+				</div>
+				<div class="main_top_r">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/gzdt.png">
+							<div>
+								工作动态
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/gzdt284/pc/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+					<div class="list">
+
+						<ul id="gzdt2841">
+                        <script id="template_2" type="text/x-handlebars-template">
+                        {{#each data}} 
+                            <li class="cf" > <b> </b>
+								<a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+							</li >
+                        {{/each}}
+		                </script>
+                        <script>
+                            var gzdt2841 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2101919332470173696-RelationArticle.json","attDownloadType":0,"title":"审计署、工信部巡视组莅临江西巡视指导考试组织工作","type":0,"pubDate":"2026-09-21 14:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2101919332470173696.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"审计署、工信部巡视组莅临江西巡视指导考试组织工作","topStatus":0,"archiveStatus":0,"sortNum":17899714200048923,"id":"2101919332470173696","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2099742563247927296-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部召开树立和践行正确政绩观学习教育总结会","type":0,"pubDate":"2026-09-15 14:05","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2099742563247927296.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 22px;\">省人事考试中心党支部召开树立和践行正确政绩观学习教育总结会</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17894523000098891,"id":"2099742563247927296","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2087092449550082048-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心召开专题警示教育会","type":0,"pubDate":"2026-08-10 16:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2087092449550082048.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 20px;\">省人事考试中心召开专题警示教育会</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17863500000037746,"id":"2087092449550082048","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2083115689144131584-RelationArticle.json","attDownloadType":0,"title":"全省人事考试系统开展警示教育活动暨人事考试工作业务培训班","type":0,"pubDate":"2026-07-31 16:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2083115689144131584.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p>全省人事考试系统开展警示教育活动暨人事考试工作业务培训班</p>","topStatus":0,"archiveStatus":0,"sortNum":17854881000048251,"id":"2083115689144131584","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2073964124890112000-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部开展树立和践行正确政绩观学习教育专题党课","type":0,"pubDate":"2026-07-05 10:53","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2073964124890112000.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 24px;\">省人事考试中心党支部开展树立和践行正确政绩观学习教育专题党课</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17832199800033328,"id":"2073964124890112000","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2073966437482536960-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心组织收听收看庆祝中国共产党成立105周年大会","type":0,"pubDate":"2026-07-03 10:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2073966437482536960.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 24px;\">省人事考试中心组织收听收看庆祝中国共产党成立105周年大会</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17830473600050157,"id":"2073966437482536960","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2061634546650443776-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心联合省人社宣传中心开展全国助残日活动","type":0,"pubDate":"2026-06-01 10:14","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2061634546650443776.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 20px;\">省人事考试中心联合省人社宣传中心开展全国助残日活动</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17802800400014273,"id":"2061634546650443776","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2056655435718508544-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心组织开展健步行活动","type":0,"pubDate":"2026-05-19 16:36","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2056655435718508544.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p>省人事考试中心组织开展健步行活动</p>","topStatus":0,"archiveStatus":0,"sortNum":17791797600064886,"id":"2056655435718508544","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2057300548597628928-RelationArticle.json","attDownloadType":0,"title":"江西省人事考试中心党支部开展红色教育联学活动","type":0,"pubDate":"2026-05-19 11:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2057300548597628928.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 22px;\">江西省人事考试中心党支部开展红色教育联学活动</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17791606800031785,"id":"2057300548597628928","articleFiles":[{}]},{"classify":0,"images":[{"cover":"/jxsrskszx/gzdt284/2062373617546080256/dpZYlUzT.jpg","fileName":"dpZYlUzT.jpg","domainName":"http://www.jxpta.com","filePath":"/jxsrskszx/gzdt284/2062373617546080256/dpZYlUzT.jpg","delFlag":0,"type":"1","fileId":"2062373524229382144"}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2062373617546080256-RelationArticle.json","redirectUrl":"http://rst.jiangxi.gov.cn/jxsrlzyhshbzt/col/col47804/content/content_2054876228596318208.html","attDownloadType":0,"title":"蒋斌出席厅工青妇干部座谈会并讲授专题党课","type":0,"pubDate":"2026-05-15 11:17","relation":0,"urls":"{}","contentSource":"江西省人事考试中心","showTitle":"蒋斌出席厅工青妇干部座谈会并讲授专题党课","topStatus":0,"archiveStatus":0,"sortNum":17788150200067124,"id":"2062373617546080256","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2056202080017760256-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心联合省人社宣传中心赴方志敏烈士纪念园开展学习教育活动","type":0,"pubDate":"2026-05-13 10:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2056202080017760256.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>省人事考试中心联合省人社宣传中心赴方志敏烈士纪念园开展学习教育活动</p>","topStatus":0,"archiveStatus":0,"sortNum":17786394000030582,"id":"2056202080017760256","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2047580994985324544-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心召开全省考务工作视频会议","type":0,"pubDate":"2026-04-24 15:37","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2047580994985324544.html\"}","contentSource":"江西省人事考试中心","showTitle":"省人事考试中心召开全省考务工作视频会议","topStatus":0,"archiveStatus":0,"sortNum":17770162200069204,"id":"2047580994985324544","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2045033861244059648-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部开展树立和践行正确政绩观学习教育研讨","type":0,"pubDate":"2026-04-17 14:51","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2045033861244059648.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 22px;\">省人事考试中心党支部开展树立和践行正确政绩观学习教育研讨</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17764086600042388,"id":"2045033861244059648","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2038867429636505600-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心开展“3·23”警示教育活动","type":0,"pubDate":"2026-03-27 14:39","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2038867429636505600.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p>省人事考试中心开展“3·23”警示教育活动</p>","topStatus":0,"archiveStatus":0,"sortNum":17745935400096041,"id":"2038867429636505600","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt284/relation/2038865803525816320-RelationArticle.json","attDownloadType":0,"title":"省人事考试中心党支部研究部署树立和践行正确政绩观学习教育工作","type":0,"pubDate":"2026-03-06 14:27","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt284/pc/content/content_2038865803525816320.html\"}","contentSource":"江西省人事考试中心综合科","showTitle":"<p><span style=\"font-size: 20px;\">省人事考试中心党支部研究部署树立和践行正确政绩观学习教育工作</span></p>","topStatus":0,"archiveStatus":0,"sortNum":17727784200069215,"id":"2038865803525816320","articleFiles":[{}]}]
+                            renderTemplate('gzdt2841', gzdt2841, 'template_2', 0, 9, { titleMax: 30 })
+                        </script>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main_nav cf">
+				<div class="nav_left fl">
+					快速导航
+				</div>
+				<ul class="fl">
+					<li>
+						<a href="/jxsrskszx/wsbm164/pc/index.html" target="_blank">
+							<img src="/jxsrskszx/picture/b382a871cd73469a90d2be63e183bdeb.png">
+							<p>
+								网上报名
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="/jxsrskszx/dyzkz793/pc/index.html" target="_blank">
+							<img src="/jxsrskszx/picture/208cdff45006477bae5a20453f0093c8.png">
+							<p>
+								打印准考证
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="/jxsrskszx/cjcx371/pc/index.html" target="_blank">
+							<img src="/jxsrskszx/picture/cfaaadaedf174defb5e19209d796bccc.png">
+							<p>
+								成绩查询
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="/jxsrskszx/zsbl/pc/index.html" target="_blank">
+							<img src="/jxsrskszx/picture/b0dcafb7a987432481606a1ef0734b75.png">
+							<p>
+								证书办理
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="/jxsrskszx/ynjd529/pc/index.html" target="_blank">
+							<img src="/jxsrskszx/picture/20392784418f42959e8b2b0e8f5509b8.png">
+							<p>
+								疑难解答
+							</p>
+						</a>
+					</li>
+				</ul>
+				<div class="nav_bg fl">
+				</div>
+			</div>
+
+			<div class="main_c cf">
+				<div class="main_box mr fl">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/gsgg.png">
+							<div>
+								通知公告
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/gsgg820/pc/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+
+					<div class="list">
+						<ul id="gsgg820">
+                            <script id="template10" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                            <script>                               
+                                var gsgg820 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2033738705852162048-RelationArticle.json","attDownloadType":0,"title":"江西省人事考试中心关于集中受理人事考试部分业务的公告","type":0,"pubDate":"2026-03-17 10:50","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2033738705852162048.html\"}","contentSource":"江西省人事考试中心","showTitle":"江西省人事考试中心关于集中受理人事考试部分业务的公告","topStatus":1,"archiveStatus":0,"sortNum":17737158000090793,"id":"2033738705852162048","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2108377478058278912-RelationArticle.json","attDownloadType":0,"title":"关于公布江西省2026年度文物博物、图书资料、档案中级专业技术资格考试合格人员名单的通知","type":0,"pubDate":"2026-10-09 09:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2108377478058278912.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布江西省2026年度文物博物、图书资料、档案中级专业技术资格考试合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17915109600037444,"id":"2108377478058278912","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2108373858516533248-RelationArticle.json","attDownloadType":0,"title":"关于公布江西省2026年度二级造价工程师职业资格考试合格人员名单的通知","type":0,"pubDate":"2026-10-09 09:28","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2108373858516533248.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布江西省2026年度二级造价工程师职业资格考试合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17915092800054665,"id":"2108373858516533248","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2108119803761340416-RelationArticle.json","attDownloadType":0,"title":"2026年度通信专业技术人员职业资格考试江西考区违纪违规处理意见公告","type":0,"pubDate":"2026-10-08 16:57","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2108119803761340416.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"2026年度通信专业技术人员职业资格考试江西考区违纪违规处理意见公告","topStatus":0,"archiveStatus":0,"sortNum":17914498200032472,"id":"2108119803761340416","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2108119579231858688-RelationArticle.json","attDownloadType":0,"title":"2026年度出版专业技术人员职业资格考试江西考区违纪违规处理意见公告","type":0,"pubDate":"2026-10-08 16:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2108119579231858688.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"2026年度出版专业技术人员职业资格考试江西考区违纪违规处理意见公告","topStatus":0,"archiveStatus":0,"sortNum":17914497600081758,"id":"2108119579231858688","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2108119350407409664-RelationArticle.json","attDownloadType":0,"title":"2026年度一级建造师职业资格考试江西考区违纪违规处理意见公告","type":0,"pubDate":"2026-10-08 16:54","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2108119350407409664.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"2026年度一级建造师职业资格考试江西考区违纪违规处理意见公告","topStatus":0,"archiveStatus":0,"sortNum":17914496400094535,"id":"2108119350407409664","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2100793646758047744-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度统计专业技术资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-09-18 11:45","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2100793646758047744.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度统计专业技术资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17897031000020055,"id":"2100793646758047744","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2100792681225072640-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度翻译专业资格（水平）考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-09-18 11:38","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2100792681225072640.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度翻译专业资格（水平）考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17897026800088502,"id":"2100792681225072640","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2094706139561799680-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度注册计量师职业资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-09-01 16:32","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2094706139561799680.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度注册计量师职业资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17882515200030214,"id":"2094706139561799680","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2094701774310551552-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度环境影响评价工程师职业资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-09-01 16:15","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2094701774310551552.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度环境影响评价工程师职业资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17882505000014312,"id":"2094701774310551552","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2093235543413960704-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度全国一、二级注册建筑师资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-08-28 15:06","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2093235543413960704.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度全国一、二级注册建筑师资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17879007600067144,"id":"2093235543413960704","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2093230957533933568-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度社会工作者职业资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-08-28 14:45","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2093230957533933568.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度社会工作者职业资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17878995000065452,"id":"2093230957533933568","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2092527757401858048-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度监理工程师职业资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-08-26 16:10","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2092527757401858048.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度监理工程师职业资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17877318000022916,"id":"2092527757401858048","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2084116550101835776-RelationArticle.json","attDownloadType":0,"title":"关于公布2026年度高级经济专业技术资格考试江西考区合格人员名单的通知","type":0,"pubDate":"2026-08-03 10:59","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2084116550101835776.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"关于公布2026年度高级经济专业技术资格考试江西考区合格人员名单的通知","topStatus":0,"archiveStatus":0,"sortNum":17857259400078150,"id":"2084116550101835776","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gsgg820/relation/2081910232966668288-RelationArticle.json","attDownloadType":0,"title":"2026年江西省二级建造师执业资格考试违纪违规处理意见公告（第二批）","type":0,"pubDate":"2026-07-28 09:10","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gsgg820/pc/content/content_2081910232966668288.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"2026年江西省二级建造师执业资格考试违纪违规处理意见公告（第二批）","topStatus":0,"archiveStatus":0,"sortNum":17852010000036553,"id":"2081910232966668288","articleFiles":[{}]}]
+                                renderTemplate('gsgg820', gsgg820, 'template10', 0, 6, { titleMax: 25 })
+                            </script>   
+						</ul>
+					</div>
+				</div>
+				<div class="main_box fl">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/kwwj.png">
+							<div>
+								名单公示
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/mdgs/pc/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+					<div class="list">
+						<ul id="mdgs">
+              <script id="template11" type="text/x-handlebars-template">
+              {{#each data}} 
+              <li class="cf"> <b> </b>
+                  <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+              </li> 
+              {{/each}}
+          </script>
+              <script>                               
+                  var mdgs = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2097933787003957248-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度文物博物、图书资料、档案中级专业技术资格考试使用告知承诺制的成绩合格人员公示","type":0,"pubDate":"2026-09-10 14:22","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2097933787003957248.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"江西省2026年度文物博物、图书资料、档案中级专业技术资格考试使用告知承诺制的成绩合格人员公示","topStatus":0,"archiveStatus":0,"sortNum":17890213200046136,"id":"2097933787003957248","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2097933455616192512-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度二级造价工程师职业资格考试使用告知承诺制的成绩合格人员公示","type":0,"pubDate":"2026-09-10 14:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2097933455616192512.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"江西省2026年度二级造价工程师职业资格考试使用告知承诺制的成绩合格人员公示","topStatus":0,"archiveStatus":0,"sortNum":17890212000055507,"id":"2097933455616192512","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2096848144173707264-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度二级建造师执业资格考试使用告知承诺制的成绩合格人员公示","type":0,"pubDate":"2026-09-07 14:26","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2096848144173707264.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"江西省2026年度二级建造师执业资格考试使用告知承诺制的成绩合格人员公示","topStatus":0,"archiveStatus":0,"sortNum":17887623600043383,"id":"2096848144173707264","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2092459216719912960-RelationArticle.json","attDownloadType":0,"title":"2026年度统计专业技术资格考试江西考区使用告知承诺制的成绩合格人员公示","type":0,"pubDate":"2026-08-26 11:48","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2092459216719912960.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度统计专业技术资格考试江西考区使用告知承诺制的成绩合格人员公示","topStatus":0,"archiveStatus":0,"sortNum":17877160800096589,"id":"2092459216719912960","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2092458925022846976-RelationArticle.json","attDownloadType":0,"title":"2026年度翻译专业资格（水平）考试江西考区使用告知承诺制的成绩合格人员公示","type":0,"pubDate":"2026-08-26 11:46","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2092458925022846976.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度翻译专业资格（水平）考试江西考区使用告知承诺制的成绩合格人员公示","topStatus":0,"archiveStatus":0,"sortNum":17877159600094515,"id":"2092458925022846976","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2089255255456161792-RelationArticle.json","attDownloadType":0,"title":"2026年度注册计量师职业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-08-17 15:36","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2089255255456161792.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度注册计量师职业资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17869521600097458,"id":"2089255255456161792","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2089254826919927808-RelationArticle.json","attDownloadType":0,"title":"2026年度环境影响评价工程师职业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-08-17 15:33","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2089254826919927808.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度环境影响评价工程师职业资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17869519800087294,"id":"2089254826919927808","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2084817566480801792-RelationArticle.json","attDownloadType":0,"title":"2026年度全国一、二级注册建筑师资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-08-05 09:42","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2084817566480801792.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度全国一、二级注册建筑师资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17858941200023270,"id":"2084817566480801792","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2081665441733451776-RelationArticle.json","attDownloadType":0,"title":"2026年度社会工作者职业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-07-27 16:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2081665441733451776.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度社会工作者职业资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17851425600066490,"id":"2081665441733451776","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2080131460265320448-RelationArticle.json","attDownloadType":0,"title":"2026年度监理工程师职业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-07-23 11:21","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2080131460265320448.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度监理工程师职业资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17847768600051499,"id":"2080131460265320448","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2077682620274745344-RelationArticle.json","attDownloadType":0,"title":"2026年度高级经济专业技术资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-07-16 17:08","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2077682620274745344.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度高级经济专业技术资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17841928800016455,"id":"2077682620274745344","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2066360109287399424-RelationArticle.json","attDownloadType":0,"title":"2026年度咨询工程师（投资）职业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-06-15 11:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2066360109287399424.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2026年度咨询工程师（投资）职业资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17814934800025899,"id":"2066360109287399424","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2015692202012839936-RelationArticle.json","attDownloadType":0,"title":"2025年度一级注册消防工程师资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-01-26 15:43","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2015692202012839936.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"2025年度一级注册消防工程师资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17694133800014909,"id":"2015692202012839936","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2007738008781983744-RelationArticle.json","attDownloadType":0,"title":"2025年度全国勘察设计注册工程师执业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2026-01-04 16:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2007738008781983744.html\"}","contentSource":"江西省人事考试中心","showTitle":"2025年度全国勘察设计注册工程师执业资格考试江西考区成绩合格人员承诺情况公示","topStatus":0,"archiveStatus":0,"sortNum":17675169000041868,"id":"2007738008781983744","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/mdgs/relation/2005825333651050496-RelationArticle.json","attDownloadType":0,"title":"2025年度中级注册安全工程师职业资格考试江西考区成绩合格人员承诺情况公示","type":0,"pubDate":"2025-12-30 10:11","relation":0,"urls":"{\"pc\":\"/jxsrskszx/mdgs/pc/content/content_2005825333651050496.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2025年度中级注册安全工程师职业资格考试江西考区成绩合格人员承诺情况公示</p>","topStatus":0,"archiveStatus":0,"sortNum":17670606600043615,"id":"2005825333651050496","articleFiles":[{}]}]
+                  renderTemplate('mdgs', mdgs, 'template11', 0, 6, { titleMax: 25 })
+              </script>   
+</ul>
+					</div>
+				</div>
+				<div class="main_box mr mt fl">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/lpyl.png">
+							<div>
+								录聘用类考试
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/lpylks/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+
+					<div class="list">
+						<ul id="lpylks">
+                        <script id="template101" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                            <script>                               
+                                var lpylks = [{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/lpylks/relation/2108811462907068416-RelationArticle.json","attDownloadType":0,"title":"2026年江西省高校毕业生“三支一扶”计划招募网上报名专题","type":0,"pubDate":"2026-10-10 17:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_2108811462907068416.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年江西省高校毕业生“三支一扶”计划招募网上报名专题</p>","topStatus":1,"archiveStatus":0,"sortNum":17915380800036032,"id":"2108811462907068416","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"Source":"江西省人民检察院"},"relationUrl":"/jxsrskszx/lpylks/relation/2108481148817047552-RelationArticle.json","redirectUrl":"https://www.jx.jcy.gov.cn/gjdt/202610/t20261009_7915232.shtml","attDownloadType":0,"title":"江西省检察机关2026年度公开招聘聘用制书记员公告","type":0,"pubDate":"2026-10-09 17:28","relation":0,"urls":"{}","contentSource":"江西省人民检察院","showTitle":"江西省检察机关2026年度公开招聘聘用制书记员公告","topStatus":0,"archiveStatus":0,"sortNum":17915380800026032,"id":"2108481148817047552","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/lpylks/relation/2108752168383741952-RelationArticle.json","attDownloadType":0,"title":"江西省检察机关2026年度公开招聘聘用制书记员网上报名专题","type":0,"pubDate":"2026-10-10 12:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_2108752168383741952.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省检察机关2026年度公开招聘聘用制书记员网上报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17866073700062515,"id":"2108752168383741952","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/lpylks/relation/2067127234195005440-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度中小学教师招聘考试网上调剂专题","type":0,"pubDate":"2026-06-17 14:11","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_2067127234195005440.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省2026年度中小学教师招聘考试网上调剂专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17816766600098998,"id":"2067127234195005440","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/lpylks/relation/2042147083382226944-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度考试录用公务员网上调剂专题","type":0,"pubDate":"2026-04-09 16:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_2042147083382226944.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省2026年度考试录用公务员网上调剂专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17757216000061813,"id":"2042147083382226944","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/lpylks/relation/2037334327156080640-RelationArticle.json","attDownloadType":0,"title":"江西省2026年中小学教师招聘网上报名专题","type":0,"pubDate":"2026-03-26 17:25","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_2037334327156080640.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省2026年中小学教师招聘网上报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17745171000017147,"id":"2037334327156080640","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/2026555673432559616-RelationArticle.json","redirectUrl":"https://rst.jiangxi.gov.cn/jxsrlzyhshbzt/col/col85519/content/content_2026552299475701760.html","attDownloadType":0,"title":"江西省省直事业单位2026年统一公开招聘取消或核减岗位招聘计划公告","type":0,"pubDate":"2026-02-25 15:11","relation":0,"urls":"{}","contentSource":"江西省人社厅","showTitle":"江西省省直事业单位2026年统一公开招聘取消或核减岗位招聘计划公告","topStatus":0,"archiveStatus":0,"sortNum":17720034600052844,"id":"2026555673432559616","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/lpylks/relation/2018206421115473920-RelationArticle.json","attDownloadType":0,"title":"江西省省直事业单位2026年统一公开招聘工作人员报名专题","type":0,"pubDate":"2026-02-02 14:19","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_2018206421115473920.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省省直事业单位2026年统一公开招聘工作人员报名专题 </p>","topStatus":0,"archiveStatus":0,"sortNum":17700133200054739,"id":"2018206421115473920","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/2018208428949770240-RelationArticle.json","redirectUrl":"https://rst.jiangxi.gov.cn/jxsrlzyhshbzt/col/col47810/content/content_2018175140210151424.html","attDownloadType":0,"title":"江西省省直事业单位2026年统一公开招聘工作人员公告","type":0,"pubDate":"2026-02-02 14:22","relation":0,"urls":"{}","contentSource":"江西省人社厅","showTitle":"江西省省直事业单位2026年统一公开招聘工作人员公告","topStatus":0,"archiveStatus":0,"sortNum":17700133200044739,"id":"2018208428949770240","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/2013861459781152768-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/H5QUhYr_BsSaGFchRC0wEg","attDownloadType":0,"title":"江西省2026年度考试录用公务员公告","type":0,"pubDate":"2026-01-21 14:27","relation":0,"urls":"{}","contentSource":"江西组工微讯","showTitle":"江西省2026年度考试录用公务员公告","topStatus":0,"archiveStatus":0,"sortNum":17689768200010653,"id":"2013861459781152768","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/1990323611067486208-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/ICnc25DrjTWTwhaaWjpcEQ","attDownloadType":0,"title":"重磅！江西省2026年度选调应届优秀大学毕业生工作启动","type":0,"pubDate":"2025-11-17 15:38","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_1990323611067486208.html\"}","contentSource":"中共江西省委组织部","showTitle":"重磅！江西省2026年度选调应届优秀大学毕业生工作启动","topStatus":0,"archiveStatus":0,"sortNum":17633650800020434,"id":"1990323611067486208","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/1987330550716698624-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/g97LatWnBWYpWeScW1aLBw","attDownloadType":0,"title":"关于2025年度省直机关公开遴选公务员职位调整的公告","type":0,"pubDate":"2025-11-09 09:23","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_1987330550716698624.html\"}","contentSource":"中共江西省委组织部","showTitle":"关于2025年度省直机关公开遴选公务员职位调整的公告","topStatus":0,"archiveStatus":0,"sortNum":17626513800034991,"id":"1987330550716698624","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/lpylks/relation/1983378911825170432-RelationArticle.json","attDownloadType":0,"title":"2025年度江西省省直机关公开遴选公务员网报专题","type":0,"pubDate":"2025-10-29 17:33","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_1983378911825170432.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2025年度江西省省直机关公开遴选公务员网报专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17617303800096166,"id":"1983378911825170432","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/1970657802027585536-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/sJkPijro2KawAuUQnwf4bw","attDownloadType":0,"title":"2025年度江西省公安机关特殊职位招录笔试有关事项公告","type":0,"pubDate":"2025-09-24 09:12","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_1970657802027585536.html\"}","contentSource":"省公安厅","showTitle":"2025年度江西省公安机关特殊职位招录笔试有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17586763200015702,"id":"1970657802027585536","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/lpylks/relation/1969979893240688640-RelationArticle.json","attDownloadType":0,"title":"关于2025年度江西省省直机关公开选调公务员职位调整的公告","type":0,"pubDate":"2025-09-22 14:47","relation":0,"urls":"{\"pc\":\"/jxsrskszx/lpylks/pc/content/content_1969979893240688640.html\"}","contentSource":"省委组织部公务员二处","showTitle":"<p>关于2025年度江西省省直机关公开选调公务员职位调整的公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17585146200011717,"id":"1969979893240688640","articleFiles":[{}]}]
+                                renderTemplate('lpylks', lpylks, 'template101', 0, 6, { titleMax: 25 })
+                            </script>  
+						</ul>
+					</div>
+				</div>
+				<div class="main_box mt klbg fl">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/zyjn.png">
+							<div>
+								专技类考试
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/zjlks/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+
+					<div class="list">
+						<ul id="zjlks">
+                        <script id="template12" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                            <script>                               
+                                var zjlks = [{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2105110845035458560-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度就业指导专业人员职称考试网上报名专题","type":0,"pubDate":"2026-10-08 09:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2105110845035458560.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省2026年度就业指导专业人员职称考试网上报名专题</p>","topStatus":3,"archiveStatus":0,"sortNum":17733852000065114,"id":"2105110845035458560","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2092429015449411584-RelationArticle.json","attDownloadType":0,"title":"2026年度一级注册消防工程师资格考试江西考区报名专题","type":0,"pubDate":"2026-08-26 09:49","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2092429015449411584.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度一级注册消防工程师资格考试江西考区报名专题</p>","topStatus":2,"archiveStatus":0,"sortNum":17567086800029903,"id":"2092429015449411584","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2079373605799108608-RelationArticle.json","attDownloadType":0,"title":"2026年度初级、中级经济专业技术资格考试江西考区网上报名专题","type":0,"pubDate":"2026-07-21 09:12","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2079373605799108608.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度初级、中级经济专业技术资格考试江西考区网上报名专题</p>","topStatus":1,"archiveStatus":0,"sortNum":17845963200033111,"id":"2079373605799108608","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2087725547526627328-RelationArticle.json","attDownloadType":0,"title":"2026年度全国勘察设计注册工程师执业资格考试报名专题","type":0,"pubDate":"2026-08-13 10:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2087725547526627328.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>江西省2026年度全国勘察设计注册工程师执业资格考试报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17865876000071893,"id":"2087725547526627328","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/zjlks/relation/2087716681489391616-RelationArticle.json","attDownloadType":0,"title":"关于做好2026年度一级注册消防工程师资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-08-13 09:34","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2087716681489391616.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于做好2026年度一级注册消防工程师资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17865848400065299,"id":"2087716681489391616","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/zjlks/relation/2087424916219830272-RelationArticle.json","attDownloadType":0,"title":"关于做好2026年度全国勘察设计注册工程师执业资格考试有关工作的通知","type":0,"pubDate":"2026-08-12 14:19","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2087424916219830272.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于做好2026年度全国勘察设计注册工程师执业资格考试有关工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17865155400040026,"id":"2087424916219830272","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2083092719717752832-RelationArticle.json","attDownloadType":0,"title":"2026年度中级注册安全工程师职业资格考试江西考区网上报名专题","type":0,"pubDate":"2026-08-06 14:26","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2083092719717752832.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度中级注册安全工程师职业资格考试江西考区网上报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17859975600089045,"id":"2083092719717752832","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2083057443511377920-RelationArticle.json","attDownloadType":0,"title":"2026年度新闻记者职业资格考试江西考区报名专题","type":0,"pubDate":"2026-08-04 15:26","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2083057443511377920.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度新闻记者职业资格考试江西考区报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17858283600096631,"id":"2083057443511377920","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2083083130205020160-RelationArticle.json","attDownloadType":0,"title":"2026年度执业药师职业资格考试江西考区网上报名专题","type":0,"pubDate":"2026-08-03 09:16","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2083083130205020160.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度执业药师职业资格考试江西考区网上报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17857197600077402,"id":"2083083130205020160","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/zjlks/relation/2081633486748950528-RelationArticle.json","attDownloadType":0,"title":"关于做好2026年度新闻记者职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-07-27 14:47","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2081633486748950528.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于做好2026年度新闻记者职业资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17851348200089907,"id":"2081633486748950528","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/zjlks/relation/2080191832703803392-RelationArticle.json","attDownloadType":0,"title":"关于做好2026年度中级注册安全工程师职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-07-23 15:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2080191832703803392.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于做好2026年度中级注册安全工程师职业资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17847910200047446,"id":"2080191832703803392","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2080103617229660160-RelationArticle.json","attDownloadType":0,"title":"2026年度一级造价工程师职业资格考试江西考区网上报名专题","type":0,"pubDate":"2026-07-23 09:40","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2080103617229660160.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度一级造价工程师职业资格考试江西考区网上报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17847708000088653,"id":"2080103617229660160","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/zjlks/relation/2079403800006402048-RelationArticle.json","attDownloadType":0,"title":"关于做好2026年度一级造价工程师职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-07-21 11:06","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2079403800006402048.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于做好2026年度一级造价工程师职业资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17846031600083388,"id":"2079403800006402048","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/zjlks/relation/2079378196938792960-RelationArticle.json","attDownloadType":0,"title":"关于做好2026年度执业药师职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-07-21 09:25","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2079378196938792960.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于做好2026年度执业药师职业资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17845971000016313,"id":"2079378196938792960","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"VcEditor":"二科信息录入"},"relationUrl":"/jxsrskszx/zjlks/relation/2073937599402778624-RelationArticle.json","attDownloadType":0,"title":"2026年度通信专业技术人员职业资格考试江西考区报名专题","type":0,"pubDate":"2026-07-06 09:11","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zjlks/pc/content/content_2073937599402778624.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>2026年度通信专业技术人员职业资格考试江西考区报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17833002600045515,"id":"2073937599402778624","articleFiles":[{}]}]
+                                renderTemplate('zjlks', zjlks, 'template12', 0, 6, { titleMax: 25 })
+                            </script>  
+						</ul>
+					</div>
+				</div>
+				<div class="main_box mr mt fl">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/gsgg.png">
+							<div>
+								考试政策
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/zcfg/pc/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+					<div class="list">
+                        <ul id="zcfg">
+                        <script id="template13" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                            <script>                               
+                                var zcfg = [{"classify":0,"images":[{}],"metadata":{"Source":"国家公务员局 中央机关及其直属机构 2026年度考试录用公务员专题"},"relationUrl":"/jxsrskszx/zcfg/relation/2043975990125330432-RelationArticle.json","redirectUrl":"http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f3246dbf445b016dc42028ec0009&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d","attDownloadType":0,"title":"最高人民法院、最高人民检察院 关于办理组织考试作弊等刑事案件适用法律若干问题的解释","type":0,"pubDate":"2026-04-14 16:51","relation":0,"urls":"{}","contentSource":"江西省人事考试中心考务科","showTitle":"最高人民法院、最高人民检察院 关于办理组织考试作弊等刑事案件适用法律若干问题的解释","topStatus":0,"archiveStatus":0,"sortNum":17761566600042152,"id":"2043975990125330432","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"Source":"国家公务员局 中央机关及其直属机构 2026年度考试录用公务员专题"},"relationUrl":"/jxsrskszx/zcfg/relation/2043940185390514176-RelationArticle.json","redirectUrl":"http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f3236dbf43a4016dc418894e0006&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d","attDownloadType":0,"title":"中华人民共和国刑法修正案（九）","type":0,"pubDate":"2026-04-14 14:29","relation":0,"urls":"{}","contentSource":"江西省人事考试中心考务科","showTitle":"中华人民共和国刑法修正案（九）","topStatus":0,"archiveStatus":0,"sortNum":17761481400075841,"id":"2043940185390514176","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{"Source":"国家公务员局 中央机关及其直属机构 2026年度考试录用公务员专题"},"relationUrl":"/jxsrskszx/zcfg/relation/2043939208667136000-RelationArticle.json","redirectUrl":"http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f6d07c74c460017c7e51f2bc038c&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d","attDownloadType":0,"title":"公务员录用违规违纪行为处理办法","type":0,"pubDate":"2026-04-14 14:25","relation":0,"urls":"{}","contentSource":"江西省人事考试中心考务科","showTitle":"<p>公务员录用违规违纪行为处理办法</p>","topStatus":0,"archiveStatus":0,"sortNum":17761479000072152,"id":"2043939208667136000","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/zcfg/relation/1849648260180815872-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/testrule/1509.html","attDownloadType":0,"title":"国家新闻出版署 人力资源社会保障部 关于印发《新闻记者职业资格考试办法》和 《新闻记者职业资格考试实施细则》的通知","type":0,"pubDate":"2024-01-22 09:54","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zcfg/pc/content/content_1849648260180815872.html\"}","contentSource":"江西省人事考试中心","showTitle":"国家新闻出版署 人力资源社会保障部 关于印发《新闻记者职业资格考试办法》和 《新闻记者职业资格考试实施细则》的通知","topStatus":0,"archiveStatus":0,"sortNum":17058884400046132,"id":"1849648260180815872","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/zcfg/relation/1849648221521915904-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/testrule/1514.html","attDownloadType":0,"title":"人力资源社会保障部办公厅关于印发《专业技术人员职业资格证书管理工作规程（试行）》的通知","type":0,"pubDate":"2024-01-22 09:52","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zcfg/pc/content/content_1849648221521915904.html\"}","contentSource":"江西省人事考试中心","showTitle":"人力资源社会保障部办公厅关于印发《专业技术人员职业资格证书管理工作规程（试行）》的通知","topStatus":0,"archiveStatus":0,"sortNum":17058883200085924,"id":"1849648221521915904","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/zcfg/relation/1849637914992914432-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"中华人民共和国人力资源和社会保障部令 第35号","type":0,"pubDate":"2023-12-18 12:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zcfg/pc/content/content_1849637914992914432.html\"}","contentSource":"江西省人事考试中心","showTitle":"中华人民共和国人力资源和社会保障部令 第35号","topStatus":0,"archiveStatus":0,"sortNum":17028730800035540,"id":"1849637914992914432","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/zcfg/relation/1849637905874497536-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"中华人民共和国人力资源和社会保障部令 第31号","type":0,"pubDate":"2023-12-18 12:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/zcfg/pc/content/content_1849637905874497536.html\"}","contentSource":"江西省人事考试中心","showTitle":"中华人民共和国人力资源和社会保障部令 第31号","topStatus":0,"archiveStatus":0,"sortNum":17028730200035241,"id":"1849637905874497536","articleFiles":[{}]}]
+                                renderTemplate('zcfg', zcfg, 'template13', 0, 6, { titleMax: 25 })
+                            </script>  
+                            </ul>
+					</div>
+				</div>
+				<div class="main_box mt fl">
+					<div class="title">
+						<div class="title_box cf">
+							<img src="/jxsrskszx/picture/lpyl.png">
+							<div>
+								考风考纪
+							</div>
+						</div>
+						<div class="more">
+							<a href="/jxsrskszx/kfkj/pc/index.html">
+								更多>>
+							</a>
+						</div>
+					</div>
+					<div class="list">
+						<ul id="kfkj">
+                        <script id="template14" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                            <script>                               
+                                var kfkj = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/kfkj/relation/2101861280735899648-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/hMbfDgNOmt1kPbuNUrm-mg","attDownloadType":0,"title":"考试作弊不只是违纪，直接触犯治安管理处罚法","type":0,"pubDate":"2026-09-21 10:27","relation":0,"urls":"{}","contentSource":"12348海西法网","showTitle":"考试作弊不只是违纪，直接触犯治安管理处罚法","topStatus":0,"archiveStatus":0,"sortNum":17899576200066173,"id":"2101861280735899648","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/kfkj/relation/1981244743108464640-RelationArticle.json","redirectUrl":"http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f3246dbf445b016dc42028ec0009&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d","attDownloadType":0,"title":"最高人民法院、最高人民检察院 关于办理组织考试作弊等刑事案件适用法律若干问题的解释","type":0,"pubDate":"2025-10-23 14:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1981244743108464640.html\"}","contentSource":"国家公务员局","showTitle":"最高人民法院、最高人民检察院 关于办理组织考试作弊等刑事案件适用法律若干问题的解释","topStatus":0,"archiveStatus":0,"sortNum":17612004000064287,"id":"1981244743108464640","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/kfkj/relation/1943487559345315840-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/AhFIzq4gJpU4b5XfLQhl0g","attDownloadType":0,"title":"多名事业单位在编人员被清退！考编成绩断崖式领先牵出跨省作弊案","type":0,"pubDate":"2025-07-11 09:47","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1943487559345315840.html\"}","contentSource":"大江网","showTitle":"多名事业单位在编人员被清退！考编成绩断崖式领先牵出跨省作弊案","topStatus":0,"archiveStatus":0,"sortNum":17521984200020414,"id":"1943487559345315840","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1869698850905841664-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/wROIvYAhlB6s4MV-4qczUA","attDownloadType":0,"title":"2025国考防骗攻略来了~~~","type":0,"pubDate":"2024-10-25 11:33","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1869698850905841664.html\"}","contentSource":"江西省人事考试中心","showTitle":"2025国考防骗攻略来了~~~","topStatus":0,"archiveStatus":0,"sortNum":17298271800024295,"id":"1869698850905841664","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1849658091138658304-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/topic/759.html","attDownloadType":0,"title":"考试作弊犯罪典型案例","type":0,"pubDate":"2024-07-23 11:48","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849658091138658304.html\"}","contentSource":"江西省人事考试中心","showTitle":"考试作弊犯罪典型案例","topStatus":0,"archiveStatus":0,"sortNum":17217064800013660,"id":"1849658091138658304","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1849656294860861440-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/NUVGEJ_veJ9kY7RsuQQmdQ","attDownloadType":0,"title":"策划一场“完美”的考试作弊，行吗？最高院：很“刑”，都进去了！","type":0,"pubDate":"2024-06-14 10:28","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849656294860861440.html\"}","contentSource":"江西省人事考试中心","showTitle":"策划一场“完美”的考试作弊，行吗？最高院：很“刑”，都进去了！","topStatus":0,"archiveStatus":0,"sortNum":17183320800030394,"id":"1849656294860861440","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1849655609649999872-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/In6w5z1BhHlCgfK-0EG6CA","attDownloadType":0,"title":"最高人民法院发布依法惩治组织考试作弊犯罪典型案例","type":0,"pubDate":"2024-06-05 16:57","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849655609649999872.html\"}","contentSource":"江西省人事考试中心","showTitle":"最高人民法院发布依法惩治组织考试作弊犯罪典型案例","topStatus":0,"archiveStatus":0,"sortNum":17175778200028124,"id":"1849655609649999872","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"李世麒","Source":"江西省人事考试中心"},"relationUrl":"/jxsrskszx/kfkj/relation/1849654579839315968-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"考试温馨提示","type":0,"pubDate":"2024-05-21 11:12","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849654579839315968.html\"}","contentSource":"江西省人事考试中心","showTitle":"考试温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17162611200066649,"id":"1849654579839315968","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1849652491625377792-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/9pQxKlfbA2lHw-wi11UCmQ","attDownloadType":0,"title":"考试无捷径 作弊真的“刑”","type":0,"pubDate":"2024-04-10 11:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849652491625377792.html\"}","contentSource":"江西省人事考试中心","showTitle":"考试无捷径 作弊真的“刑”","topStatus":0,"archiveStatus":0,"sortNum":17127190800047575,"id":"1849652491625377792","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1849651899901358080-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/aT8JZ3A66oYD9iMxV4Q47A","attDownloadType":0,"title":"公务员考试临近 警惕各类涉考骗局","type":0,"pubDate":"2024-03-15 09:47","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849651899901358080.html\"}","contentSource":"江西省人事考试中心","showTitle":"公务员考试临近 警惕各类涉考骗局","topStatus":0,"archiveStatus":0,"sortNum":17104672200070911,"id":"1849651899901358080","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"张国胜"},"relationUrl":"/jxsrskszx/kfkj/relation/1849651739469230080-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/notice/1146.html","attDownloadType":0,"title":"关停假冒网站，治理“山寨证书”","type":0,"pubDate":"2024-01-22 14:29","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849651739469230080.html\"}","contentSource":"江西省人事考试中心","showTitle":"关停假冒网站，治理“山寨证书”","topStatus":0,"archiveStatus":0,"sortNum":17059049400090945,"id":"1849651739469230080","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"舒媛","Source":"安丘市人民法院微信公众号"},"relationUrl":"/jxsrskszx/kfkj/relation/1849651864379797504-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/-2i9ubeYeL8GsOOYvqPdWw","attDownloadType":0,"title":"考试作弊可真“刑”！安丘法院依法审结一起考试作弊罪案","type":0,"pubDate":"2024-01-12 10:57","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849651864379797504.html\"}","contentSource":"安丘市人民法院微信公众号","showTitle":"考试作弊可真“刑”！安丘法院依法审结一起考试作弊罪案","topStatus":0,"archiveStatus":0,"sortNum":17050282200066918,"id":"1849651864379797504","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"舒媛","Source":"江西政法网"},"relationUrl":"/jxsrskszx/kfkj/relation/1849651753943773184-RelationArticle.json","images":[{}],"redirectUrl":"https://www.jxzfw.gov.cn/2023/0609/2023060949414.html","attDownloadType":0,"title":"事发江西！一男子替考，被警方当场抓获","type":0,"pubDate":"2024-01-12 10:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849651753943773184.html\"}","contentSource":"江西政法网","showTitle":"事发江西！一男子替考，被警方当场抓获","topStatus":0,"archiveStatus":0,"sortNum":17050281000091232,"id":"1849651753943773184","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"舒媛","Source":"中央纪委国家监委网站"},"relationUrl":"/jxsrskszx/kfkj/relation/1849651683122950144-RelationArticle.json","images":[{}],"redirectUrl":"https://www.ccdi.gov.cn/pln/202104/t20210419_17185.html","attDownloadType":0,"title":"湖南省考83人作弊被通报:规矩的扣子一开始就得扣好","type":0,"pubDate":"2024-01-10 15:28","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849651683122950144.html\"}","contentSource":"中央纪委国家监委网站","showTitle":"湖南省考83人作弊被通报:规矩的扣子一开始就得扣好","topStatus":0,"archiveStatus":0,"sortNum":17048716800014727,"id":"1849651683122950144","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"舒媛","Source":"中央人民政府官网"},"relationUrl":"/jxsrskszx/kfkj/relation/1849651665607536640-RelationArticle.json","images":[{}],"redirectUrl":"https://www.gov.cn/xinwen/2019-02/05/content_5363993.htm","attDownloadType":0,"title":"魔高一尺道高一丈 内蒙古警方侦破特大公务员考试作弊案","type":0,"pubDate":"2024-01-10 15:27","relation":0,"urls":"{\"pc\":\"/jxsrskszx/kfkj/pc/content/content_1849651665607536640.html\"}","contentSource":"中央人民政府官网","showTitle":"魔高一尺道高一丈 内蒙古警方侦破特大公务员考试作弊案","topStatus":0,"archiveStatus":0,"sortNum":17048716200074726,"id":"1849651665607536640","articleFiles":[{}]}]
+                                renderTemplate('kfkj', kfkj, 'template14', 0, 6, { titleMax: 25 })
+                            </script>  
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main_banner cf">
+				<p style="color:#d24036;" class="fl">
+				</p>
+				<span style="color:#d24036" class="fr">
+				</span>
+				<style>
+					.main_banner { background: url(/jxsrskszx/image/2401161236202583825.png)
+					no-repeat center; }
+				</style>
+			</div>
+			<div class="sqsjg">
+				<div class="title">
+					<div class="title_box cf">
+						<img src="/jxsrskszx/picture/yqlj.png">
+						<div>
+							设区市考试机构
+						</div>
+					</div>
+					<ul class="cf">
+						<li>
+							<a href="/jxsrskszx/ncsrsksw/pc/index.html " target="_blank" class="hover">
+								南昌市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/jjsrsksw/pc/list.html" target="_blank">
+								九江市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/gzsrsksw/pc/list.html" target="_blank">
+								赣州市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/jdzsrsksw/pc/list.html " target="_blank">
+								景德镇市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/pxsrsksw/pc/list.html" target="_blank">
+								萍乡市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/xysrsksw/pc/list.html " target="_blank">
+								新余市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/ytsrsksw/pc/list.html " target="_blank">
+								鹰潭市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/ycsrsksw/pc/list.html" target="_blank">
+								宜春市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/srsrsksw/pc/list.html" target="_blank">
+								上饶市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/jasrsksw/pc/list.html" target="_blank">
+								吉安市
+							</a>
+						</li>
+						<li>
+							<span>
+								|
+							</span>
+						</li>
+						<li>
+							<a href="/jxsrskszx/fzsrsksw/pc/list.html" target="_blank">
+								抚州市
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="list_box">
+					<div class="list cf">
+						<ul class="fl mr" id="gzdt412">
+                        <script id="template1001" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt412 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2079746435212550144-RelationArticle.json","redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202606/a7303cf774024d43b99ad2f3256b06e9.shtml","attDownloadType":0,"title":"2026年南昌市部分事业单位专场招聘公告","type":0,"pubDate":"2026-07-22 09:51","relation":0,"urls":"{}","contentSource":"南昌市考试中心","showTitle":"2026年南昌市部分事业单位专场招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17846850600079230,"id":"2079746435212550144","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2070442402622644224-RelationArticle.json","images":[{}],"redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202606/4485af80c0ca48e4a92d265de06ec288.shtml","attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘工作人员面试公告（卫健系统卫生专技岗位）","type":0,"pubDate":"2026-06-26 17:39","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2070442402622644224.html\"}","contentSource":"南昌市考试中心","showTitle":"南昌市事业单位2026年统一公开招聘工作人员面试公告（卫健系统卫生专技岗位）","topStatus":0,"archiveStatus":0,"sortNum":17824667400035536,"id":"2070442402622644224","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2060179436476952576-RelationArticle.json","images":[{}],"redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202605/371d8f4fdfb0495393130ae509be8276.shtml","attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘工作人员面试公告（一般事业单位岗位）","type":0,"pubDate":"2026-05-29 09:28","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2060179436476952576.html\"}","contentSource":"南昌市考试中心","showTitle":"南昌市事业单位2026年统一公开招聘工作人员面试公告（一般事业单位岗位）","topStatus":0,"archiveStatus":0,"sortNum":17800180800077131,"id":"2060179436476952576","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2056919330592964608-RelationArticle.json","images":[{}],"redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202605/71707637f5c24c88b63907bf79964100.shtml","attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘工作人员资格审查及有关事项的公告","type":0,"pubDate":"2026-05-20 10:02","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2056919330592964608.html\"}","contentSource":"南昌市考试中心","showTitle":"南昌市事业单位2026年统一公开招聘工作人员资格审查及有关事项的公告","topStatus":0,"archiveStatus":0,"sortNum":17792425200039485,"id":"2056919330592964608","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2053740003978166272-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘笔试成绩查询的公告","type":0,"pubDate":"2026-05-11 15:27","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2053740003978166272.html\"}","contentSource":"南昌市考试中心","showTitle":"南昌市事业单位2026年统一公开招聘笔试成绩查询的公告","topStatus":0,"archiveStatus":0,"sortNum":17784844200090836,"id":"2053740003978166272","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2103052395501662208-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2026年南昌市部分事业单位专场招聘笔试成绩查询的公告","type":0,"pubDate":"2026-09-24 17:25","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2103052395501662208.html\"}","contentSource":"南昌市考试中心","showTitle":"<p>南昌市事业单位2026年统一公开招聘笔试成绩查询的公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17784844200012132,"id":"2103052395501662208","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2048680133244039168-RelationArticle.json","redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202604/1183b271b36f41a9a4373f8acc302244.shtml","attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘工作人员笔试违纪违规处理意见公告","type":0,"pubDate":"2026-04-27 16:26","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2048680133244039168.html\"}","contentSource":"南昌市考试中心","showTitle":"<p>南昌市事业单位2026年统一公开招聘工作人员笔试违纪违规处理意见公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17772783600089785,"id":"2048680133244039168","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2039152299994578944-RelationArticle.json","redirectUrl":"https://rst.jiangxi.gov.cn/jxsrlzyhshbzt/col/col85519/content/content_2036739758264672256.html","attDownloadType":0,"title":"江西省2026年中小学教师招聘公告","type":0,"pubDate":"2026-03-26 09:26","relation":0,"urls":"{}","contentSource":"江西省人事考试中心信息科","showTitle":"江西省2026年中小学教师招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17744883600086450,"id":"2039152299994578944","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2033363452508495872-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2032303625718398976.html","attDownloadType":0,"title":"关于做好江西省2026年度二级建造师执业资格考试考务工作的通知","type":0,"pubDate":"2026-03-13 10:03","relation":0,"urls":"{}","contentSource":"江西省人事考试中心信息科","showTitle":"关于做好江西省2026年度二级建造师执业资格考试考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17733673800074654,"id":"2033363452508495872","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2031624416869224448-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2031227004832976896.html","attDownloadType":0,"title":"关于做好2026年度监理工程师职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-03-10 14:53","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2031624416869224448.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"<p>关于做好2026年度监理工程师职业资格考试江西考区考务工作的通知</p>","topStatus":0,"archiveStatus":0,"sortNum":17731255800066746,"id":"2031624416869224448","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2031624817312010240-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2029370188478025728.html","attDownloadType":0,"title":"关于做好2026年度社会工作者职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-03-05 14:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2031624817312010240.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"<p>关于做好2026年度社会工作者职业资格考试江西考区考务工作的通知</p>","topStatus":0,"archiveStatus":0,"sortNum":17726937000069281,"id":"2031624817312010240","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2031624723040833536-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2029372162372014080.html","attDownloadType":0,"title":"关于做好2026年度全省一、二级注册建筑师资格考试有关工作的通知","type":0,"pubDate":"2026-03-05 14:54","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2031624723040833536.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"<p>关于做好2026年度全省一、二级注册建筑师资格考试有关工作的通知</p>","topStatus":0,"archiveStatus":0,"sortNum":17726936400029723,"id":"2031624723040833536","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2026552777794129920-RelationArticle.json","redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202602/4f6e7bfccc244290ad8fb7b2db424683.shtml","attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘取消或核减岗位招聘计划的公告","type":0,"pubDate":"2026-02-25 15:00","relation":0,"urls":"{}","contentSource":"南昌市考试中心","showTitle":"南昌市事业单位2026年统一公开招聘取消或核减岗位招聘计划的公告","topStatus":0,"archiveStatus":0,"sortNum":17720028000038836,"id":"2026552777794129920","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2018490047178739712-RelationArticle.json","redirectUrl":"https://rsj.nc.gov.cn/ncsrsj/tzgg/202602/db54951a6874470d9a64d9c344c944a1.shtml","attDownloadType":0,"title":"南昌市事业单位2026年统一公开招聘工作人员公告","type":0,"pubDate":"2026-02-02 09:01","relation":0,"urls":"{}","contentSource":"江西省人事考试中心信息科","showTitle":"南昌市事业单位2026年统一公开招聘工作人员公告","topStatus":0,"archiveStatus":0,"sortNum":17699940600062850,"id":"2018490047178739712","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt412/relation/2014147514143346688-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/H5QUhYr_BsSaGFchRC0wEg","attDownloadType":0,"title":"江西省2026年度考试录用公务员公告","type":0,"pubDate":"2026-01-21 09:26","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt412/pc/content/content_2014147514143346688.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"<p>江西省2026年度考试录用公务员公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17689587600011594,"id":"2014147514143346688","articleFiles":[{}]}]
+                            renderTemplate('gzdt412', gzdt412, 'template1001', 0, 10, { titleMax: 25 })
+                        </script>  
+						</ul>
+						<ul class="fl" id="gzdt4121">
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt435">
+						<script id="template1002" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt435 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2097215044128944128-RelationArticle.json","attDownloadType":0,"title":"九江市2026年大学生乡村医生专项计划公开招聘面试准考证打印入口","type":0,"pubDate":"2026-09-09 08:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2097215044128944128.html\"}","contentSource":"九江市考试中心","showTitle":"<p>九江市2026年大学生乡村医生专项计划公开招聘面试准考证打印入口</p>","topStatus":0,"archiveStatus":0,"sortNum":17889153000050488,"id":"2097215044128944128","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2087743021647208448-RelationArticle.json","attDownloadType":0,"title":"2026年九江市市直学校公开选调中小学教师笔试成绩查询公告","type":0,"pubDate":"2026-08-13 14:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2087743021647208448.html\"}","contentSource":"九江市考试中心","showTitle":"<p>2026年九江市市直学校公开选调中小学教师笔试成绩查询公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17866026000030418,"id":"2087743021647208448","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2087087884075343872-RelationArticle.json","attDownloadType":0,"title":"九江市2026年大学生乡村医生专项计划公开招聘笔试成绩查询公告","type":0,"pubDate":"2026-08-12 09:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2087087884075343872.html\"}","contentSource":"九江市考试中心","showTitle":"<p>九江市2026年大学生乡村医生专项计划公开招聘笔试成绩查询公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17864964000055827,"id":"2087087884075343872","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2083073996902539264-RelationArticle.json","attDownloadType":0,"title":"2026年九江市市直学校公开选调中小学教师网上报名专题","type":0,"pubDate":"2026-07-31 14:11","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2083073996902539264.html\"}","contentSource":"九江市考试中心","showTitle":"2025年九江市市直学校公开选调中小学教师网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17854782600092697,"id":"2083073996902539264","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2077196911390662656-RelationArticle.json","attDownloadType":0,"title":"2026年上半年九江市事业单位“才汇九江”高层次人才公开招聘面试准考证打印入口","type":0,"pubDate":"2026-07-15 09:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2077196911390662656.html\"}","contentSource":"九江市考试中心","showTitle":"<p>2026年上半年九江市事业单位“才汇九江”高层次人才公开招聘面试准考证打印入口</p>","topStatus":0,"archiveStatus":0,"sortNum":17840790000064753,"id":"2077196911390662656","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2072882368866852864-RelationArticle.json","attDownloadType":0,"title":"九江市2026年大学生乡村医生专项计划公开招聘网上报名专题","type":0,"pubDate":"2026-07-03 11:09","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2072882368866852864.html\"}","contentSource":"九江市考试中心","showTitle":"九江市2026年大学生乡村医生专项计划公开招聘网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17830481400075031,"id":"2072882368866852864","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2071871910579970048-RelationArticle.json","redirectUrl":"https://www.jxpta.com/jxsrskszx/cjcx298/content/content_2071871414590939136.html","attDownloadType":0,"title":"2026年上半年九江市事业单位“才汇九江”高层次人才公开招聘笔试成绩查询公告","type":0,"pubDate":"2026-06-30 16:21","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2071871910579970048.html\"}","contentSource":"九江市考试中心","showTitle":"<p>2026年上半年九江市事业单位“才汇九江”高层次人才公开招聘笔试成绩查询公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17828076600010497,"id":"2071871910579970048","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2056197661402382336-RelationArticle.json","attDownloadType":0,"title":"2026年上半年九江市事业单位“才汇九江”高层次人才公开招聘网上报名专题","type":0,"pubDate":"2026-05-18 10:01","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2056197661402382336.html\"}","contentSource":"九江市考试中心","showTitle":"2026年上半年九江市事业单位“才汇九江”高层次人才公开招聘网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17790696600050045,"id":"2056197661402382336","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2055090338244116480-RelationArticle.json","attDownloadType":0,"title":"九江市事业单位2026年统一公开招聘笔试合格分数线及进入面试人员名单公告","type":0,"pubDate":"2026-05-14 16:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2055090338244116480.html\"}","contentSource":"九江市考试中心","showTitle":"九江市事业单位2026年统一公开招聘笔试合格分数线及进入面试人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17787489600025854,"articleFiles":[{"cover":"/jxsrskszx/gzdt435/2055090338244116480/file.png","fileName":"九江市事业单位2026年统一公开招聘进入面试人员名单.xlsx","domainName":"http://www.jxpta.com","filePath":"/jxsrskszx/gzdt435/2055090338244116480/lyuAJLfe.xlsx","delFlag":0,"url":"/doc/ucap/1749973237782081536/document/20260515/lyuAJLfe.xlsx","fileId":"2055090258166210560"}],"id":"2055090338244116480"},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2053733475367829504-RelationArticle.json","attDownloadType":0,"title":"九江市事业单位2026年统一公开招聘笔试成绩查询的公告","type":0,"pubDate":"2026-05-11 15:06","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2053733475367829504.html\"}","contentSource":"九江市考试中心","showTitle":"九江市事业单位2026年统一公开招聘笔试成绩查询的公告","topStatus":0,"archiveStatus":0,"sortNum":17784831600053079,"id":"2053733475367829504","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2026558715984875520-RelationArticle.json","redirectUrl":"http://rsj.jiujiang.gov.cn/zwzx_211/gggs/202602/t20260225_7170301.html","attDownloadType":0,"title":"九江市事业单位2026年统一公开招聘工作人员取消岗位招聘计划的公告","type":0,"pubDate":"2026-02-25 15:23","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2026558715984875520.html\"}","contentSource":"九江市考试中心","showTitle":"<p>九江市事业单位2026年统一公开招聘工作人员取消岗位招聘计划的公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17720041800041875,"id":"2026558715984875520","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2018521294026313728-RelationArticle.json","attDownloadType":0,"title":"九江市事业单位2026年统一公开招聘工作人员网上报名专题","type":0,"pubDate":"2026-02-03 10:56","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_2018521294026313728.html\"}","contentSource":"九江市考试中心","showTitle":"九江市事业单位2026年统一公开招聘工作人员网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17700873600076522,"id":"2018521294026313728","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/2018256141640798208-RelationArticle.json","redirectUrl":"https://rsj.jiujiang.gov.cn/zwzx_211/gggs/202602/t20260202_7159179.html","attDownloadType":0,"title":"九江市事业单位2026年统一公开招聘工作人员公告","type":0,"pubDate":"2026-02-02 17:31","relation":0,"urls":"{}","contentSource":"九江市考试中心","showTitle":"九江市事业单位2026年统一公开招聘工作人员公告","topStatus":0,"archiveStatus":0,"sortNum":17700246600013455,"id":"2018256141640798208","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/1993161778518822912-RelationArticle.json","attDownloadType":0,"title":"2025年九江市市直机关（单位）公开遴选公务员（参公人员）面试公告","type":0,"pubDate":"2025-11-25 11:32","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_1993161778518822912.html\"}","contentSource":"九江市考试中心","showTitle":"2025年九江市市直机关（单位）公开遴选公务员（参公人员）面试公告","topStatus":0,"archiveStatus":0,"sortNum":17640415200090468,"articleFiles":[{"cover":"/jxsrskszx/gzdt435/1993161778518822912/file.png","fileName":"附件：2025年九江市市直机关（单位）公开遴选公务员（参公人员）进入面试人员名单.xlsx","domainName":"http://www.jxpta.com","filePath":"/jxsrskszx/gzdt435/1993161778518822912/i4ctLNjt.xlsx","delFlag":0,"url":"/doc/ucap/1749973237782081536/document/20251125/i4ctLNjt.xlsx","fileId":"1993161620267548672"}],"id":"1993161778518822912"},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt435/relation/1986277403459522560-RelationArticle.json","attDownloadType":0,"title":"2025年九江市市直机关（单位）公开遴选公务员（参公人员）职位取消及调减计划公告","type":0,"pubDate":"2025-11-06 11:37","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt435/pc/content/content_1986277403459522560.html\"}","contentSource":"九江市考试中心","showTitle":"2025年九江市市直机关（单位）公开遴选公务员（参公人员）职位取消及调减计划公告","topStatus":0,"archiveStatus":0,"sortNum":17624002200049593,"id":"1986277403459522560","articleFiles":[{}]}]
+                            renderTemplate('gzdt435', gzdt435, 'template1002', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt4351">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt563">
+						<script id="template1003" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt563 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2108856635661811712-RelationArticle.json","redirectUrl":"http://rst.jiangxi.gov.cn/jxsrlzyhshbzt/col/col47810/content/content_2108836513291239424.html","attDownloadType":0,"title":"2026年江西省高校毕业生“三支一扶”计划招募公告","type":0,"pubDate":"2026-10-10 17:40","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2108856635661811712.html\"}","contentSource":"本站","showTitle":"2026年江西省高校毕业生“三支一扶”计划招募公告","topStatus":0,"archiveStatus":0,"sortNum":17916252000057174,"id":"2108856635661811712","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2096868787812380672-RelationArticle.json","attDownloadType":0,"title":"赣州市2026年面向大学生开展乡村医生专项计划公开招聘笔试成绩查询","type":0,"pubDate":"2026-09-07 15:48","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2096868787812380672.html\"}","contentSource":"本站","showTitle":"赣州市2026年面向大学生开展乡村医生专项计划公开招聘笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17887672800099737,"id":"2096868787812380672","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2087084536844591104-RelationArticle.json","attDownloadType":0,"title":"赣州市2026年面向大学生开展乡村医生专项计划公开招聘考试网上报名专题","type":0,"pubDate":"2026-08-10 10:49","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2087084536844591104.html\"}","contentSource":"本站","showTitle":"<p>赣州市2026年面向大学生展开乡村医生专项计划公开招聘考试网上报名专题</p>","topStatus":0,"archiveStatus":0,"sortNum":17863301400051184,"id":"2087084536844591104","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2085649476719288320-RelationArticle.json","redirectUrl":"https://wjw.ganzhou.gov.cn/gzswjw/c103524/202608/1b9b8899e88340ac979bbb56fecd154a.shtml","attDownloadType":0,"title":"赣州市2026年面向大学生开展乡村医生专项计划公开招聘公告","type":0,"pubDate":"2026-08-07 16:48","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2085649476719288320.html\"}","contentSource":"本站","showTitle":"<p>赣州市2026年面向大学生开展乡村医生专项计划公开招聘公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17860924800043659,"id":"2085649476719288320","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2085549600568320000-RelationArticle.json","attDownloadType":0,"title":"2026年度执业药师职业资格考试赣州考区考试报名温馨提醒","type":0,"pubDate":"2026-08-07 10:09","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2085549600568320000.html\"}","contentSource":"本站","showTitle":"2026年度执业药师职业资格考试赣州考区考试报名温馨提醒","topStatus":0,"archiveStatus":0,"sortNum":17860685400083633,"id":"2085549600568320000","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2085545014671515648-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/zjlks/pc/content/content_2079378196938792960.html","attDownloadType":0,"title":"关于做好2026年度执业药师职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-08-03 09:53","relation":0,"urls":"{}","contentSource":"本站","showTitle":"关于做好2026年度执业药师职业资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17857219800015901,"id":"2085545014671515648","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2085542461451870208-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/zjlks/pc/content/content_2083083130205020160.html","attDownloadType":0,"title":"2026年度执业药师职业资格考试江西考区网上报名专题","type":0,"pubDate":"2026-08-03 09:43","relation":0,"urls":"{}","contentSource":"本站","showTitle":"2026年度执业药师职业资格考试江西考区网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17857213800011170,"id":"2085542461451870208","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2070684523950678016-RelationArticle.json","redirectUrl":"https://rsj.ganzhou.gov.cn/c100244/202606/4f03e0f49c3f4fd2b19eee259ce56efa.shtml","attDownloadType":0,"title":"赣州市事业单位2026年统一公开招聘工作人员市直单位岗位体检有关事项的公告","type":0,"pubDate":"2026-06-26 19:42","relation":0,"urls":"{}","contentSource":"本站","showTitle":"赣州市事业单位2026年统一公开招聘工作人员市直单位岗位体检有关事项的公告","topStatus":0,"archiveStatus":0,"sortNum":17824741200026493,"id":"2070684523950678016","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2070685499843584000-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/zjlks/pc/content/content_2064525683649732608.html","attDownloadType":0,"title":"关于做好2026年度一级建造师职业资格考试江西考区考务工作的通知","type":0,"pubDate":"2026-06-15 09:47","relation":0,"urls":"{}","contentSource":"本站","showTitle":"关于做好2026年度一级建造师职业资格考试江西考区考务工作的通知","topStatus":0,"archiveStatus":0,"sortNum":17814880200094966,"id":"2070685499843584000","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2070685182263468032-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/zjlks/pc/content/content_2064971753492111360.html","attDownloadType":0,"title":"2026年度一级建造师资格考试江西考区网上报名专题","type":0,"pubDate":"2026-06-15 09:45","relation":0,"urls":"{}","contentSource":"本站","showTitle":"2026年度一级建造师资格考试江西考区网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17814879000027297,"id":"2070685182263468032","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2054949643978063872-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/GYLF9uETPEa0-hu-lZ720w","attDownloadType":0,"title":"2026年度监理工程师职业资格考试（赣州考区）温馨提示","type":0,"pubDate":"2026-05-14 23:37","relation":0,"urls":"{}","contentSource":"本站","showTitle":"2026年度监理工程师职业资格考试（赣州考区）温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17787730200024305,"id":"2054949643978063872","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2054882613245558784-RelationArticle.json","redirectUrl":"https://rsj.ganzhou.gov.cn/c100244/202605/afd655f9423c4f80bfe985dbe693ef24.shtml","attDownloadType":0,"title":"赣州市事业单位2026年统一公开招聘笔试合格分数线及进入面试人员名单公告","type":0,"pubDate":"2026-05-14 19:11","relation":0,"urls":"{}","contentSource":"本站","showTitle":"赣州市事业单位2026年统一公开招聘笔试合格分数线及进入面试人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17787570600014707,"id":"2054882613245558784","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2053739433238249472-RelationArticle.json","attDownloadType":0,"title":"赣州市事业单位2026年统一公开招聘工作人员笔试成绩查询","type":0,"pubDate":"2026-05-11 15:25","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2053739433238249472.html\"}","contentSource":"本站","showTitle":"赣州市事业单位2026年统一公开招聘工作人员笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17784843000058705,"id":"2053739433238249472","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2049327338331574272-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/cQU6qhVq686QfiN4NZBM2w","attDownloadType":0,"title":"赣州市2026年度考试录用公务员进入体检（体能测评）人员名单及有关事项公告","type":0,"pubDate":"2026-04-29 11:17","relation":0,"urls":"{}","contentSource":"本站","showTitle":"赣州市2026年度考试录用公务员进入体检（体能测评）人员名单及有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17774326200052018,"id":"2049327338331574272","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt563/relation/2037429378100035584-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/wsbm164/pc/content/content_2037063851585298432.html","attDownloadType":0,"title":"江西省2026年中小学教师招聘网上报名专题","type":0,"pubDate":"2026-03-27 15:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt563/pc/content/content_2037429378100035584.html\"}","contentSource":"本站","showTitle":"江西省2026年中小学教师招聘网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17745958800067489,"id":"2037429378100035584","articleFiles":[{}]}]
+                            renderTemplate('gzdt563', gzdt563, 'template1003', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt5631">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt80">
+						<script id="template1004" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt80 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/2099452160380579840-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/dsNG0iL43E1euUjxjKORMg","attDownloadType":0,"title":"景德镇市消防救援支队2026年政府专职消防员招聘公告","type":0,"pubDate":"2026-09-14 18:55","relation":0,"urls":"{}","contentSource":"景德镇市考试中心","showTitle":"景德镇市消防救援支队2026年政府专职消防员招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17893833000080203,"id":"2099452160380579840","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/2033432290755338240-RelationArticle.json","attDownloadType":0,"title":"景德镇市消防救援支队2025年第二批政府专职消防员拟聘用人员名单公示","type":0,"pubDate":"2026-03-16 14:32","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_2033432290755338240.html\"}","contentSource":"景德镇市考试中心","showTitle":"<p>景德镇市消防救援支队2025年第二批政府专职消防员拟聘用人员名单公示</p>","topStatus":0,"archiveStatus":0,"sortNum":17736427200066869,"id":"2033432290755338240","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1985303940687138816-RelationArticle.json","attDownloadType":0,"title":"景德镇市2025年度招聘政府专职消防员拟聘用人员名单公示","type":0,"pubDate":"2025-11-04 09:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_1985303940687138816.html\"}","contentSource":"景德镇市人事考试中心","topStatus":0,"archiveStatus":0,"sortNum":17621427000062244,"id":"1985303940687138816","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938067056722284544-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwgk/fdzdgknr/rsxx/t1031442.shtml","attDownloadType":0,"title":"景德镇市事业单位2025年统一公开选聘高素质人才加试笔试成绩查询公告","type":0,"pubDate":"2025-06-23 10:48","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市事业单位2025年统一公开选聘高素质人才加试笔试成绩查询公告","topStatus":0,"archiveStatus":0,"sortNum":17506468800023970,"id":"1938067056722284544","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938066741168017408-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwgk/fdzdgknr/rsxx/t1028780.shtml","attDownloadType":0,"title":"景德镇市2025年事业单位定向公开招聘全省运动队优秀退役运动员面试成绩公告","type":0,"pubDate":"2025-05-26 11:47","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市2025年事业单位定向公开招聘全省运动队优秀退役运动员面试成绩公告","topStatus":0,"archiveStatus":0,"sortNum":17482312200071978,"id":"1938066741168017408","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938065983282450432-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwgk/fdzdgknr/rsxx/t1026792.shtml","attDownloadType":0,"title":"景德镇市事业单位2025年统一公开选聘高素质人才资格审查人员公告","type":0,"pubDate":"2025-05-20 16:44","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市事业单位2025年统一公开选聘高素质人才资格审查人员公告","topStatus":0,"archiveStatus":0,"sortNum":17477306400076879,"id":"1938065983282450432","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938065700179513344-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwgk/fdzdgknr/rsxx/t1026791.shtml","attDownloadType":0,"title":"景德镇市事业单位2025年统一公开招聘工作人员入闱资格审查人员公告","type":0,"pubDate":"2025-05-20 16:43","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市事业单位2025年统一公开招聘工作人员入闱资格审查人员公告","topStatus":0,"archiveStatus":0,"sortNum":17477305800068098,"id":"1938065700179513344","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938065385745125376-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwgk/fdzdgknr/rsxx/t1026040.shtml","attDownloadType":0,"title":"景德镇市事业单位2025年统一公开招聘工作人员入闱资格审查人员名单公告","type":0,"pubDate":"2025-05-15 17:42","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市事业单位2025年统一公开招聘工作人员入闱资格审查人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17473021200081961,"id":"1938065385745125376","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938065103694958592-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwgk/fdzdgknr/rsxx/t1026039.shtml","attDownloadType":0,"title":"景德镇市事业单位2025年统一公开选聘高素质人才资格审查人员名单公告","type":0,"pubDate":"2025-05-15 17:40","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市事业单位2025年统一公开选聘高素质人才资格审查人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17473020000012040,"id":"1938065103694958592","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1938064609635307520-RelationArticle.json","redirectUrl":"https://hrss.jdz.gov.cn/zwzx/gggs/t1025301.shtml","attDownloadType":0,"title":"景德镇市事业单位2025年统一公开招聘工作人员笔试成绩查询公告","type":0,"pubDate":"2025-05-12 11:38","relation":0,"urls":"{}","contentSource":"景德镇市人事考试中心","topStatus":0,"archiveStatus":0,"sortNum":17470210800069482,"id":"1938064609635307520","articleFiles":[{}]},{"classify":0,"images":[{"cover":"/jxsrskszx/gzdt80/1917386135632269312/7sBMZGUF.png","filePath":"/jxsrskszx/gzdt80/1917386135632269312/7sBMZGUF.png","domainName":"http://www.jxpta.com","delFlag":0,"fileId":"1917385570744340480"}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt80/relation/1917386135632269312-RelationArticle.json","attDownloadType":0,"title":"景德镇市人事考试中心呼吁人事考试诚信为本","type":0,"pubDate":"2025-04-30 09:05","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_1917386135632269312.html\"}","contentSource":"景德镇市人事考试中心","showTitle":"景德镇市人事考试中心呼吁人事考试诚信为本","topStatus":0,"archiveStatus":0,"sortNum":17459751000020748,"id":"1917386135632269312","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"景德镇人事考试网"},"relationUrl":"/jxsrskszx/gzdt80/relation/1849641287813115904-RelationArticle.json","images":[{}],"redirectUrl":"https://hrss.jdz.gov.cn/zwzx/gzdt/t935497.shtml","attDownloadType":0,"title":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动（第四期）","type":0,"pubDate":"2023-12-21 11:32","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_1849641287813115904.html\"}","contentSource":"江西省人事考试中心","showTitle":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动（第四期）","topStatus":0,"archiveStatus":0,"sortNum":17031295200068319,"id":"1849641287813115904","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"景德镇人事考试网"},"relationUrl":"/jxsrskszx/gzdt80/relation/1849641268175384576-RelationArticle.json","images":[{}],"redirectUrl":"https://hrss.jdz.gov.cn/zwzx/gzdt/t933371.shtml","attDownloadType":0,"title":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动（第三期）","type":0,"pubDate":"2023-12-21 11:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_1849641268175384576.html\"}","contentSource":"江西省人事考试中心","showTitle":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动（第三期）","topStatus":0,"archiveStatus":0,"sortNum":17031294000030467,"id":"1849641268175384576","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"景德镇人事考试网"},"relationUrl":"/jxsrskszx/gzdt80/relation/1849641282985472000-RelationArticle.json","images":[{}],"redirectUrl":"https://hrss.jdz.gov.cn/zwzx/gzdt/t927364.shtml","attDownloadType":0,"title":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动","type":0,"pubDate":"2023-12-21 11:29","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_1849641282985472000.html\"}","contentSource":"江西省人事考试中心","showTitle":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动","topStatus":0,"archiveStatus":0,"sortNum":17031293400034824,"id":"1849641282985472000","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"景德镇人事考试网"},"relationUrl":"/jxsrskszx/gzdt80/relation/1849641249535897600-RelationArticle.json","images":[{}],"redirectUrl":"https://hrss.jdz.gov.cn/zwzx/gzdt/t930065.shtml","attDownloadType":0,"title":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动（第二期）","type":0,"pubDate":"2023-12-21 11:28","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt80/pc/content/content_1849641249535897600.html\"}","contentSource":"江西省人事考试中心","showTitle":"市人社局开展学习贯彻习近平新时代中国特色社会主义思想“学习体会半月谈”活动（第二期）","topStatus":0,"archiveStatus":0,"sortNum":17031292800052037,"id":"1849641249535897600","articleFiles":[{}]}]
+                            renderTemplate('gzdt80', gzdt80, 'template1004', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt801">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt422">
+						<script id="template1005" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt422 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/2056294686328406016-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/gK65Vt3943GRfau9y840og","attDownloadType":0,"title":"招85人！萍乡市消防救援支队公开招聘政府专职消防队员和消防文员公告","type":0,"pubDate":"2026-05-18 16:39","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_2056294686328406016.html\"}","contentSource":"萍乡市消防救援支队","showTitle":"<p>萍乡学院2025年博士高层次人才引进公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17790935400069411,"id":"2056294686328406016","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/2038941791257427968-RelationArticle.json","redirectUrl":"https://rsc.pxc.jx.cn/info/1145/3583.htm","attDownloadType":0,"title":"萍乡学院2026年高层次人才(博士）引进公告","type":0,"pubDate":"2026-04-02 14:15","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_2038941791257427968.html\"}","contentSource":"萍乡学院","showTitle":"<h2 style=\"list-style-type: none;\">萍乡学院2026年高层次人才(博士）引进公告</h2>","topStatus":0,"archiveStatus":0,"sortNum":17751105000032694,"id":"2038941791257427968","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/2038546668791070720-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2033738705852162048.html","attDownloadType":0,"title":"江西省人事考试中心关于集中受理人事考试部分业务的公告","type":0,"pubDate":"2026-03-30 17:18","relation":0,"urls":"{}","contentSource":"江西省人事考试中心","showTitle":"江西省人事考试中心关于集中受理人事考试部分业务的公告","topStatus":0,"archiveStatus":0,"sortNum":17748622800082448,"id":"2038546668791070720","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1993176371316133888-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2038454686177624064.html","attDownloadType":0,"title":"江西省2026年度考试录用公务员笔试违规违纪处理意见公告","type":0,"pubDate":"2026-03-30 17:10","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1993176371316133888.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒</p>","topStatus":0,"archiveStatus":0,"sortNum":17748618000029653,"id":"1993176371316133888","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1993223186791010304-RelationArticle.json","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员笔试（萍乡考区）温馨提示","type":0,"pubDate":"2025-11-25 15:24","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1993223186791010304.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"<p>中央机关及其直属机构2026年度考试录用公务员笔试（萍乡考区）温馨提示</p>","topStatus":0,"archiveStatus":0,"sortNum":17640554400065479,"id":"1993223186791010304","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1993176028230455296-RelationArticle.json","redirectUrl":"http://www.cpta.com.cn/gwytg/2071.html","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员笔试注意事项","type":0,"pubDate":"2025-11-25 12:32","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1993176028230455296.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"中央机关及其直属机构2026年度考试录用公务员笔试注意事项","topStatus":0,"archiveStatus":0,"sortNum":17640451200054794,"id":"1993176028230455296","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1993175727230423040-RelationArticle.json","redirectUrl":"http://www.cpta.com.cn/gwytg/2070.html","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员笔试有关违规违纪行为处理温馨提醒","type":0,"pubDate":"2025-11-25 12:31","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1993175727230423040.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"中央机关及其直属机构2026年度考试录用公务员笔试有关违规违纪行为处理温馨提醒","topStatus":0,"archiveStatus":0,"sortNum":17640450600090496,"id":"1993175727230423040","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1993113428801097728-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/evrsB282xfIEaHCY06Cyrg","attDownloadType":0,"title":"萍乡市关于开展依法严厉打击公务员录用考试作弊活动的通告","type":0,"pubDate":"2025-11-24 19:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1993113428801097728.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"萍乡市关于开展依法严厉打击公务员录用考试作弊活动的通告","topStatus":0,"archiveStatus":0,"sortNum":17639838000085184,"id":"1993113428801097728","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1982706853864738816-RelationArticle.json","redirectUrl":"http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f3246dbf445b016dc42028ec0009&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d","attDownloadType":0,"title":"最高人民法院、最高人民检察院 关于办理组织考试作弊等刑事案件适用法律若干问题的解释","type":0,"pubDate":"2025-10-27 15:11","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1982706853864738816.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"最高人民法院、最高人民检察院 关于办理组织考试作弊等刑事案件适用法律若干问题的解释","topStatus":0,"archiveStatus":0,"sortNum":17615490600088114,"id":"1982706853864738816","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1924996521568428032-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/ZqHUQOA8E-vpwc9RDhHyow","attDownloadType":0,"title":"2025年度社会工作者职业水平考试萍乡考区温馨提示","type":0,"pubDate":"2025-05-21 09:07","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1924996521568428032.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"2025年度社会工作者职业水平考试萍乡考区温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17477896200086519,"id":"1924996521568428032","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt422/relation/1914569115861700608-RelationArticle.json","attDownloadType":0,"title":"江西省 2025年度全省中小学教师及特岗教师招聘笔试萍乡考区温馨提示","type":0,"pubDate":"2025-04-22 14:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1914569115861700608.html\"}","contentSource":"萍乡市人事考试中心","showTitle":"<p>江西省 2025年度全省中小学教师及特岗教师招聘笔试萍乡考区温馨提示</p>","topStatus":0,"archiveStatus":0,"sortNum":17453026200027307,"id":"1914569115861700608","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1869700762367614976-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/Tpr3JJn0o2WtO_8O1fkl0g","attDownloadType":0,"title":"萍乡市关于开展依法严厉打击公务员录用考试作弊活动的通告","type":0,"pubDate":"2024-11-28 10:22","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1869700762367614976.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市关于开展依法严厉打击公务员录用考试作弊活动的通告","topStatus":0,"archiveStatus":0,"sortNum":17327605200019613,"id":"1869700762367614976","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1869700549137588224-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"中央机关及其直属机构2025年度考试录用公务员笔试（萍乡考区）温馨提示","type":0,"pubDate":"2024-11-27 14:08","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1869700549137588224.html\"}","contentSource":"江西省人事考试中心","showTitle":"中央机关及其直属机构2025年度考试录用公务员笔试（萍乡考区）温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17326876800094540,"id":"1869700549137588224","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1869700162611503104-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/gwytg/1821.html","attDownloadType":0,"title":"中央机关及其直属机构2025年度考试录用公务员笔试有关违规违纪行为温馨提醒","type":0,"pubDate":"2024-11-25 16:39","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1869700162611503104.html\"}","contentSource":"江西省人事考试中心","showTitle":"中央机关及其直属机构2025年度考试录用公务员笔试有关违规违纪行为温馨提醒","topStatus":0,"archiveStatus":0,"sortNum":17325239400077713,"id":"1869700162611503104","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1869700143519031296-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/gwytg/1822.html","attDownloadType":0,"title":"中央机关及其直属机构2025年度考试录用公务员笔试温馨提醒","type":0,"pubDate":"2024-11-25 16:38","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1869700143519031296.html\"}","contentSource":"江西省人事考试中心","showTitle":"中央机关及其直属机构2025年度考试录用公务员笔试温馨提醒","topStatus":0,"archiveStatus":0,"sortNum":17325238800081420,"id":"1869700143519031296","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849659652820643840-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/NUVGEJ_veJ9kY7RsuQQmdQ","attDownloadType":0,"title":"策划一场“完美”的考试作弊，行吗？最高院：很“刑”，都进去了！","type":0,"pubDate":"2024-08-22 17:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849659652820643840.html\"}","contentSource":"江西省人事考试中心","showTitle":"策划一场“完美”的考试作弊，行吗？最高院：很“刑”，都进去了！","topStatus":0,"archiveStatus":0,"sortNum":17243172000080289,"id":"1849659652820643840","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849656196382797824-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/In6w5z1BhHlCgfK-0EG6CA","attDownloadType":0,"title":"最高人民法院发布依法惩治组织考试作弊犯罪典型案例","type":0,"pubDate":"2024-06-14 10:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849656196382797824.html\"}","contentSource":"江西省人事考试中心","showTitle":"最高人民法院发布依法惩治组织考试作弊犯罪典型案例","topStatus":0,"archiveStatus":0,"sortNum":17183316000028755,"id":"1849656196382797824","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849653612347600896-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市事业单位2024年统一公开招聘工作人员笔试准考证打印","type":0,"pubDate":"2024-05-06 09:57","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849653612347600896.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市事业单位2024年统一公开招聘工作人员笔试准考证打印","topStatus":0,"archiveStatus":0,"sortNum":17149603800067198,"id":"1849653612347600896","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849650902663639040-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市关于开展依法严厉打击公务员考试作弊活动的通告","type":0,"pubDate":"2024-03-11 23:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849650902663639040.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市关于开展依法严厉打击公务员考试作弊活动的通告","topStatus":0,"archiveStatus":0,"sortNum":17101692000018933,"id":"1849650902663639040","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网","Source":"江西人社微信公众号"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849650894409248768-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/VLy-hqZkwgoWisd57_fa9A","attDownloadType":0,"title":"江西省2024年度考试录用公务员笔试温馨提示","type":0,"pubDate":"2024-03-10 17:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849650894409248768.html\"}","contentSource":"江西人社微信公众号","showTitle":"江西省2024年度考试录用公务员笔试温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17100630000073726,"id":"1849650894409248768","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849648977822035968-RelationArticle.json","images":[{}],"redirectUrl":"http://www.cpta.com.cn/notice/1677.html","attDownloadType":0,"title":"2024年度专业技术人员职业资格考试重要提示","type":0,"pubDate":"2024-01-30 10:45","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849648977822035968.html\"}","contentSource":"江西省人事考试中心","showTitle":"2024年度专业技术人员职业资格考试重要提示","topStatus":0,"archiveStatus":0,"sortNum":17065827000045578,"id":"1849648977822035968","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网","Source":"新华社"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849648644844630016-RelationArticle.json","images":[{}],"redirectUrl":"https://www.gov.cn/xinwen/2019-02/05/content_5363993.htm","attDownloadType":0,"title":"魔高一尺道高一丈 内蒙古警方侦破特大公务员考试作弊案","type":0,"pubDate":"2024-01-26 14:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849648644844630016.html\"}","contentSource":"新华社","showTitle":"魔高一尺道高一丈 内蒙古警方侦破特大公务员考试作弊案","topStatus":0,"archiveStatus":0,"sortNum":17062498800037831,"id":"1849648644844630016","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网","Source":"江西政法网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849648527488004096-RelationArticle.json","images":[{}],"redirectUrl":"https://www.jxzfw.gov.cn/2023/0609/2023060949414.html","attDownloadType":0,"title":"事发江西！一男子替考，被警方当场抓获","type":0,"pubDate":"2024-01-26 14:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849648527488004096.html\"}","contentSource":"江西政法网","showTitle":"事发江西！一男子替考，被警方当场抓获","topStatus":0,"archiveStatus":0,"sortNum":17062498200062646,"id":"1849648527488004096","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网","Source":"安丘市人民法院"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849648600942850048-RelationArticle.json","images":[{}],"redirectUrl":"https://mp.weixin.qq.com/s/-2i9ubeYeL8GsOOYvqPdWw","attDownloadType":0,"title":"考试作弊可真“刑”！安丘法院依法审结一起考试作弊罪案","type":0,"pubDate":"2024-01-26 14:15","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849648600942850048.html\"}","contentSource":"安丘市人民法院","showTitle":"考试作弊可真“刑”！安丘法院依法审结一起考试作弊罪案","topStatus":0,"archiveStatus":0,"sortNum":17062497000064942,"id":"1849648600942850048","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网","Source":"萍乡创新发展投资集团有限公司"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647190922702848-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘拟聘用人员公示","type":0,"pubDate":"2024-01-03 15:50","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647190922702848.html\"}","contentSource":"萍乡创新发展投资集团有限公司","showTitle":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘拟聘用人员公示","topStatus":0,"archiveStatus":0,"sortNum":17042682000090442,"id":"1849647190922702848","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网","Source":"莲花县人力资源和社会保障局"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647319637504000-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"莲花县2023年事业单位引进高层次人才递补入闱体检和考察人员公告","type":0,"pubDate":"2024-01-02 17:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647319637504000.html\"}","contentSource":"莲花县人力资源和社会保障局","showTitle":"莲花县2023年事业单位引进高层次人才递补入闱体检和考察人员公告","topStatus":0,"archiveStatus":0,"sortNum":17041860000035263,"id":"1849647319637504000","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849638376064364544-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2023年上栗县卫健委机关下属事业单位拟选调人员公示","type":0,"pubDate":"2023-12-18 13:01","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849638376064364544.html\"}","contentSource":"江西省人事考试中心","showTitle":"2023年上栗县卫健委机关下属事业单位拟选调人员公示","topStatus":0,"archiveStatus":0,"sortNum":17028756600093794,"id":"1849638376064364544","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849638443953369088-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘笔试成绩查询","type":0,"pubDate":"2023-12-18 13:01","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849638443953369088.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17028756600052647,"id":"1849638443953369088","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849638344258957312-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2023年上栗县卫健委机关下属事业单位事业编制工作人员公开选调入闱面试人员公告","type":0,"pubDate":"2023-12-18 13:01","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849638344258957312.html\"}","contentSource":"江西省人事考试中心","showTitle":"2023年上栗县卫健委机关下属事业单位事业编制工作人员公开选调入闱面试人员公告","topStatus":0,"archiveStatus":0,"sortNum":17028756600023286,"id":"1849638344258957312","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849638307495882752-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市安鼎高新投资有限公司2023年公开招聘员工面试递补公告","type":0,"pubDate":"2023-12-18 13:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849638307495882752.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市安鼎高新投资有限公司2023年公开招聘员工面试递补公告","topStatus":0,"archiveStatus":0,"sortNum":17028756000027824,"id":"1849638307495882752","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849638400940781568-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘入闱面试名单及资格审查公告","type":0,"pubDate":"2023-12-18 12:59","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849638400940781568.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘入闱面试名单及资格审查公告","topStatus":0,"archiveStatus":0,"sortNum":17028755400084034,"id":"1849638400940781568","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849638292518023168-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市安鼎高新投资有限公司2023年公开招聘员工入闱体检和考察人员名单公告","type":0,"pubDate":"2023-12-18 12:59","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849638292518023168.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市安鼎高新投资有限公司2023年公开招聘员工入闱体检和考察人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17028755400068383,"id":"1849638292518023168","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647229699043328-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市安鼎高新投资有限公司2023年公开招聘员工入闱体检和考察人员名单公告","type":0,"pubDate":"2023-12-11 14:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647229699043328.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市安鼎高新投资有限公司2023年公开招聘员工入闱体检和考察人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17022744000013582,"id":"1849647229699043328","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647186606764032-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市安鼎高新投资有限公司2023年公开招聘员工面试递补公告","type":0,"pubDate":"2023-12-08 10:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647186606764032.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市安鼎高新投资有限公司2023年公开招聘员工面试递补公告","topStatus":0,"archiveStatus":0,"sortNum":17020026000016949,"id":"1849647186606764032","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647399044067328-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市国有资本投资集团有限公司2023年下半年公开招聘员工公告","type":0,"pubDate":"2023-12-06 17:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647399044067328.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市国有资本投资集团有限公司2023年下半年公开招聘员工公告","topStatus":0,"archiveStatus":0,"sortNum":17018532000065827,"id":"1849647399044067328","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647477452386304-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡市安鼎高新投资有限公司2023年公开招聘员工考试入闱面试人员资格复审公告","type":0,"pubDate":"2023-12-06 15:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647477452386304.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡市安鼎高新投资有限公司2023年公开招聘员工考试入闱面试人员资格复审公告","topStatus":0,"archiveStatus":0,"sortNum":17018478000099156,"articleFiles":[{"cover":"/jxsrskszx/gzdt422/1849647477452386304/file.png","fileName":"萍乡市安鼎高新投资有限公司2023年公开招聘入围面试资格复查名单.xls","totalSize":22528,"filePath":"/jxsrskszx/gzdt422/1849647477452386304/1shKLfs2.xls","domainName":"http://www.jxpta.com","type":0,"suffix":"xls","fileId":"1895241353555709952","localType":1}],"id":"1849647477452386304"},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647355897262080-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘入闱体检和考察人员名单及有关事项公告","type":0,"pubDate":"2023-12-04 15:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647355897262080.html\"}","contentSource":"江西省人事考试中心","showTitle":"萍乡创新发展投资集团有限公司2023年第二批次公开招聘入闱体检和考察人员名单及有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17016732000013283,"id":"1849647355897262080","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"萍乡人事考试网"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647275400179712-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"中央机关及其直属机构2024年度考试录用公务员笔试（江西考区）考试温馨提示","type":0,"pubDate":"2023-11-20 16:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647275400179712.html\"}","contentSource":"江西省人事考试中心","showTitle":"中央机关及其直属机构2024年度考试录用公务员笔试（江西考区）考试温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17004672000081765,"id":"1849647275400179712","articleFiles":[{}]},{"classify":0,"images":[{"cover":"/jxsrskszx/gzdt422/1849647532569735168/VnugESoq.jpg","domainName":"http://www.jxpta.com","filePath":"/jxsrskszx/gzdt422/1849647532569735168/VnugESoq.jpg","delFlag":0}],"metadata":{"VcEditor":"萍乡人事考试网","Source":"江西省人事考试中心"},"relationUrl":"/jxsrskszx/gzdt422/relation/1849647532569735168-RelationArticle.json","attDownloadType":0,"title":"全省人事考试系统警示教育活动在萍乡市开展","type":0,"pubDate":"2023-08-10 10:03","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt422/pc/content/content_1849647532569735168.html\"}","contentSource":"江西省人事考试中心","showTitle":"<p>全省人事考试系统警示教育活动在萍乡市开展</p>","topStatus":0,"archiveStatus":0,"sortNum":16916329800066391,"id":"1849647532569735168","articleFiles":[{}]}]
+                            renderTemplate('gzdt422', gzdt422, 'template1005', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt4221">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+					<ul class="fl mr" id="gzdt259">
+						<script id="template1006" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt259 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt259/relation/2079028026296410112-RelationArticle.json","attDownloadType":0,"title":"2026年新余市事业单位公开招聘优秀青年人才（研究生）、渝水区人民武装部职工公开招聘、大学生乡村医生招聘报名专题","type":0,"pubDate":"2026-07-24 17:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt259/pc/content/content_2079028026296410112.html\"}","contentSource":"江西省人事考试网","topStatus":0,"archiveStatus":0,"sortNum":17848836000033025,"id":"2079028026296410112","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt259/relation/2018530493460385792-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2026年新余市事业单位统一公开招聘工作人员报名专题","type":0,"pubDate":"2026-02-03 10:57","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt259/pc/content/content_2018530493460385792.html\"}","contentSource":"江西省人事考试网","showTitle":"2026年新余市事业单位统一公开招聘工作人员报名专题","topStatus":0,"archiveStatus":0,"sortNum":17700874200054486,"id":"2018530493460385792","articleFiles":[{}]}]
+                            renderTemplate('gzdt259', gzdt259, 'template1006', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt2591">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+					<ul class="fl mr" id="gzdt140">
+						<script id="template1007" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt140 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2105136391505129472-RelationArticle.json","redirectUrl":"http://wjw.yingtan.gov.cn/art/2026/9/29/art_938_1614169.html","attDownloadType":0,"title":"2026年鹰潭市大学生乡村医生专项计划公开招聘资格审查公告","type":0,"pubDate":"2026-09-29 20:23","relation":0,"urls":"{}","contentSource":"鹰潭市考试中心","showTitle":"2026年鹰潭市大学生乡村医生专项计划公开招聘资格审查公告","topStatus":0,"archiveStatus":0,"sortNum":17906845800018946,"id":"2105136391505129472","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2102314775863701504-RelationArticle.json","redirectUrl":"http://wjw.yingtan.gov.cn/art/2026/9/22/art_938_1613338.html","attDownloadType":0,"title":"2026年鹰潭市大学生乡村医生专项计划公开招聘笔试成绩查询","type":0,"pubDate":"2026-09-22 16:30","relation":0,"urls":"{}","contentSource":"鹰潭市考试中心","showTitle":"2026年鹰潭市大学生乡村医生专项计划公开招聘笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17900658000099183,"id":"2102314775863701504","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2094588941312798720-RelationArticle.json","attDownloadType":0,"title":"2026年鹰潭市大学生乡村医生专项计划公开招聘网上报名专题","type":0,"pubDate":"2026-09-01 08:41","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2094588941312798720.html\"}","contentSource":"鹰潭市卫生健康委员会","showTitle":"2026年鹰潭市大学生乡村医生专项计划公开招聘网上报名专题","topStatus":0,"archiveStatus":0,"sortNum":17882232600066934,"id":"2094588941312798720","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2094325834854248448-RelationArticle.json","redirectUrl":"http://wjw.yingtan.gov.cn/art/2026/8/31/art_938_1609674.html","attDownloadType":0,"title":"2026年鹰潭市大学生乡村医生专项计划公开招聘公告","type":0,"pubDate":"2026-08-31 15:24","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2094325834854248448.html\"}","contentSource":"鹰潭市卫生健康委员会","showTitle":"<p>2026年鹰潭市大学生乡村医生专项计划公开招聘公告</p>","topStatus":0,"archiveStatus":0,"sortNum":17881610400072813,"id":"2094325834854248448","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2088190843731386368-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）拟聘用人员名单公示","type":0,"pubDate":"2026-08-14 17:05","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2088190843731386368.html\"}","contentSource":"鹰潭人才集团","showTitle":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）拟聘用人员名单公示","topStatus":0,"archiveStatus":0,"sortNum":17866983000068776,"id":"2088190843731386368","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2075215196833095680-RelationArticle.json","redirectUrl":"http://jyj.yingtan.gov.cn/art/2026/7/9/art_3521_1601594.html","attDownloadType":0,"title":"鹰潭市2026年中小学教师招聘资格审查公告","type":0,"pubDate":"2026-07-09 21:46","relation":0,"urls":"{}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市2026年中小学教师招聘资格审查公告","topStatus":0,"archiveStatus":0,"sortNum":17836047600041455,"id":"2075215196833095680","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2071882772157997056-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘工作人员（第二批次）\n体检及考察公告","type":0,"pubDate":"2026-06-30 17:02","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2071882772157997056.html\"}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市事业单位2026年统一公开招聘工作人员（第二批次）\n体检及考察公告","topStatus":0,"archiveStatus":0,"sortNum":17828101200034605,"id":"2071882772157997056","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2067507267237486592-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘（第二批次）资格审查通过人员名单及面试公告","type":0,"pubDate":"2026-06-18 15:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2067507267237486592.html\"}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市事业单位2026年统一公开招聘（第二批次）资格审查通过人员名单及面试公告","topStatus":0,"archiveStatus":0,"sortNum":17817670200051836,"id":"2067507267237486592","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2066847058378792960-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘工作人员（第一批次）体检及考察公告","type":0,"pubDate":"2026-06-16 19:31","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2066847058378792960.html\"}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市事业单位2026年统一公开招聘工作人员（第一批次）体检及考察公告","topStatus":0,"archiveStatus":0,"sortNum":17816094600053510,"id":"2066847058378792960","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2062872317839876096-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘资格审查通过人员名单及面试公告","type":0,"pubDate":"2026-06-05 20:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2062872317839876096.html\"}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市事业单位2026年统一公开招聘资格审查通过人员名单及面试公告","topStatus":0,"archiveStatus":0,"sortNum":17806618800020214,"id":"2062872317839876096","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2056717171087687680-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）资格审查公告","type":0,"pubDate":"2026-05-19 20:37","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2056717171087687680.html\"}","contentSource":"鹰潭市人社局事业科","showTitle":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）资格审查公告","topStatus":0,"archiveStatus":0,"sortNum":17791942200091288,"id":"2056717171087687680","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2056655628144787456-RelationArticle.json","redirectUrl":"http://www.jxpta.com/jxsrskszx/gsgg820/pc/content/content_2033738705852162048.html","attDownloadType":0,"title":"江西省人事考试中心关于集中受理人事考试部分业务的公告","type":0,"pubDate":"2026-05-19 16:37","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2056655628144787456.html\"}","contentSource":"江西省人事考试中心信息科","showTitle":"江西省人事考试中心关于集中受理人事考试部分业务的公告","topStatus":0,"archiveStatus":0,"sortNum":17791798200095836,"id":"2056655628144787456","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2054848811660001280-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）笔试合格分数线及进入面试人员名单公告","type":0,"pubDate":"2026-05-14 16:55","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2054848811660001280.html\"}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）笔试合格分数线及进入面试人员名单公告","topStatus":0,"archiveStatus":0,"sortNum":17787489000033606,"id":"2054848811660001280","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2036277499612618752-RelationArticle.json","attDownloadType":0,"title":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）笔试温馨提示","type":0,"pubDate":"2026-03-24 10:54","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2036277499612618752.html\"}","contentSource":"鹰潭市考试中心","showTitle":"鹰潭市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）笔试温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17743208400024697,"id":"2036277499612618752","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt140/relation/2032259483390902272-RelationArticle.json","attDownloadType":0,"title":"江西省2026年度考试录用公务员笔试鹰潭考区各考点公交出行指南","type":0,"pubDate":"2026-03-13 08:52","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt140/pc/content/content_2032259483390902272.html\"}","contentSource":"鹰潭市考试中心","showTitle":"江西省2026年度考试录用公务员笔试鹰潭考区各考点公交出行指南","topStatus":0,"archiveStatus":0,"sortNum":17733631200048421,"id":"2032259483390902272","articleFiles":[{}]}]
+                            renderTemplate('gzdt140', gzdt140, 'template1007', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt1401">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+					<ul class="fl mr" id="gzdt863">
+						<script id="template1008" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt863 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2102694770897399808-RelationArticle.json","attDownloadType":0,"title":"2026年宜春市大学生乡村医生专项计划公开招聘拟聘用人员公示","type":0,"pubDate":"2026-09-23 17:36","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2102694770897399808.html\"}","contentSource":"局事业单位人事管理科","showTitle":"2026年宜春市大学生乡村医生专项计划公开招聘拟聘用人员公示","topStatus":0,"archiveStatus":0,"sortNum":17901561600099176,"id":"2102694770897399808","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2092190269693042688-RelationArticle.json","attDownloadType":0,"title":"宜春市2026年全省中小学教师招聘拟聘用人员公示","type":0,"pubDate":"2026-08-25 17:54","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2092190269693042688.html\"}","contentSource":"局事业单位人事管理科","showTitle":"宜春市2026年全省中小学教师招聘拟聘用人员公示","topStatus":0,"archiveStatus":0,"sortNum":17876516400078359,"id":"2092190269693042688","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2091786503231709184-RelationArticle.json","attDownloadType":0,"title":"2026年宜春市大学生乡村医生专项计划公开招聘进入体检人员及体检相关事项公告","type":0,"pubDate":"2026-08-24 15:11","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2091786503231709184.html\"}","contentSource":"宜春市考试中心","showTitle":"2026年宜春市大学生乡村医生专项计划公开招聘进入体检人员及体检相关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17875554600036333,"id":"2091786503231709184","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2090638884170178560-RelationArticle.json","attDownloadType":0,"title":"2026年宜春市县（市、区）人民武装部职工公开招聘拟聘用人员公示","type":0,"pubDate":"2026-08-21 11:12","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2090638884170178560.html\"}","contentSource":"宜春市考试中心","showTitle":"2026年宜春市县（市、区）人民武装部职工公开招聘拟聘用人员公示","topStatus":0,"archiveStatus":0,"sortNum":17872819200055598,"id":"2090638884170178560","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2090639122737995776-RelationArticle.json","attDownloadType":0,"title":"宜春市2026年市直学校及县（市、区）校园招聘拟聘用人员公示","type":0,"pubDate":"2026-08-21 11:04","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2090639122737995776.html\"}","contentSource":"宜春市考试中心","showTitle":"宜春市2026年市直学校及县（市、区）校园招聘拟聘用人员公示","topStatus":0,"archiveStatus":0,"sortNum":17872814400015048,"id":"2090639122737995776","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2089196864591437824-RelationArticle.json","attDownloadType":0,"title":"2026年宜春市大学生乡村医生专项计划公开招聘资格审查及递补公告","type":0,"pubDate":"2026-08-17 11:41","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2089196864591437824.html\"}","contentSource":"宜春市考试中心","showTitle":"2026年宜春市大学生乡村医生专项计划公开招聘资格审查及递补公告","topStatus":0,"archiveStatus":0,"sortNum":17869380600021889,"id":"2089196864591437824","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2085530527105097728-RelationArticle.json","attDownloadType":0,"title":"宜春市事业单位2026年统一公开招聘工作人员拟聘用人员公示","type":0,"pubDate":"2026-08-07 08:53","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2085530527105097728.html\"}","contentSource":"宜春市考试中心","showTitle":"宜春市事业单位2026年统一公开招聘工作人员拟聘用人员公示","topStatus":0,"archiveStatus":0,"sortNum":17860639800020776,"id":"2085530527105097728","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2084842794875428864-RelationArticle.json","attDownloadType":0,"title":"2026年宜春市公安局公开招聘留置看护勤务辅警拟递补聘用人员名单公示","type":0,"pubDate":"2026-08-05 11:19","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2084842794875428864.html\"}","contentSource":"宜春市考试中心","showTitle":"2026年宜春市公安局公开招聘留置看护勤务辅警拟递补聘用人员名单公示","topStatus":0,"archiveStatus":0,"sortNum":17858999400030530,"id":"2084842794875428864","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2084448493347610624-RelationArticle.json","attDownloadType":0,"title":"宜春市2026年中小学教师招聘进入体检人员名单及体检有关事项的公告","type":0,"pubDate":"2026-08-04 09:12","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2084448493347610624.html\"}","contentSource":"宜春市考试中心","showTitle":"宜春市2026年中小学教师招聘进入体检人员名单及体检有关事项的公告","topStatus":0,"archiveStatus":0,"sortNum":17858059200073105,"id":"2084448493347610624","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2082634091642658816-RelationArticle.json","attDownloadType":0,"title":"2026年宜春市大学生乡村医生专项计划公开招聘公告","type":0,"pubDate":"2026-07-30 09:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2082634091642658816.html\"}","contentSource":"宜春市考试中心","showTitle":"2026年宜春市大学生乡村医生专项计划公开招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17853732000059482,"id":"2082634091642658816","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2080186204149161984-RelationArticle.json","attDownloadType":0,"title":"宜春市2026年中小学教师招聘资格审查通过人员名单及面试补充公告","type":0,"pubDate":"2026-07-23 14:52","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2080186204149161984.html\"}","contentSource":"局事业单位人事管理科","showTitle":"宜春市2026年中小学教师招聘资格审查通过人员名单及面试补充公告","topStatus":0,"archiveStatus":0,"sortNum":17847895200056769,"id":"2080186204149161984","articleFiles":[{}]},{"classify":0,"images":[{"cover":"/jxsrskszx/gzdt863/2076937776979943424/R4pY8wVw.png","filePath":"/jxsrskszx/gzdt863/2076937776979943424/R4pY8wVw.png","domainName":"http://www.jxpta.com","delFlag":0,"fileId":"2076937311607382016"}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2076937776979943424-RelationArticle.json","attDownloadType":0,"title":"宜春市人民医院2026年公开引进高层次人才公告","type":0,"pubDate":"2026-07-14 15:44","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2076937776979943424.html\"}","contentSource":"宜春市考试中心","showTitle":"宜春市人民医院2026年公开引进高层次人才公告","topStatus":0,"archiveStatus":0,"sortNum":17840150400047027,"id":"2076937776979943424","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2076597637636333568-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2026年宜春市县（市、区）人民武装部职工公开招聘进入体检人员及体检相关事项公告","type":0,"pubDate":"2026-07-13 16:57","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2076597637636333568.html\"}","contentSource":"局事业单位人事管理科","showTitle":"2026年宜春市县（市、区）人民武装部职工公开招聘进入体检人员及体检相关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17839330200056369,"id":"2076597637636333568","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2075384538581344256-RelationArticle.json","attDownloadType":0,"title":"宜春市2026年全省中小学教师招聘资格审查及面试有关事项公告","type":0,"pubDate":"2026-07-09 18:53","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2075384538581344256.html\"}","contentSource":"宜春市考试中心","showTitle":"宜春市2026年全省中小学教师招聘资格审查及面试有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17835943800080142,"id":"2075384538581344256","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt863/relation/2071522982307209216-RelationArticle.json","attDownloadType":0,"title":"宜春市事业单位2026年统一公开招聘（卫生专业技术岗位）进入体检人员及体检相关事项公告","type":0,"pubDate":"2026-06-29 17:13","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt863/pc/content/content_2071522982307209216.html\"}","contentSource":"宜春市考试中心","showTitle":"宜春市事业单位2026年统一公开招聘（卫生专业技术岗位）进入体检人员及体检相关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17827243800014342,"id":"2071522982307209216","articleFiles":[{}]}]
+                            renderTemplate('gzdt863', gzdt863, 'template1008', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt8631">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt428">
+						<script id="template1009" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt428 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt428/relation/2018502364733902848-RelationArticle.json","redirectUrl":"http://hrss.zgsr.gov.cn/hrss/gsgg/202602/2a3701035f2e40bfb7dfd448f2ee1f26.shtml","attDownloadType":0,"title":"上饶市事业单位2026年统一公开招聘工作人员公告","type":0,"pubDate":"2026-02-03 09:47","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_2018502364733902848.html\"}","contentSource":"上饶市考试中心","showTitle":"上饶市事业单位2026年统一公开招聘工作人员公告","topStatus":0,"archiveStatus":0,"sortNum":17700832200096243,"id":"2018502364733902848","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt428/relation/1991082843798769664-RelationArticle.json","redirectUrl":"http://www.cpta.com.cn/gwytg/2071.html","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员笔试注意事项","type":0,"pubDate":"2025-11-19 17:54","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1991082843798769664.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"中央机关及其直属机构2026年度考试录用公务员笔试注意事项","topStatus":0,"archiveStatus":0,"sortNum":17635460400012302,"id":"1991082843798769664","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt428/relation/1991082261696483328-RelationArticle.json","redirectUrl":"http://www.cpta.com.cn/gwytg/2070.html","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员笔试有关违规违纪行为处理温馨提醒","type":0,"pubDate":"2025-11-19 17:51","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1991082261696483328.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"中央机关及其直属机构2026年度考试录用公务员笔试有关违规违纪行为处理温馨提醒","topStatus":0,"archiveStatus":0,"sortNum":17635458600073509,"id":"1991082261696483328","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt428/relation/1991080790313668608-RelationArticle.json","redirectUrl":"http://www.cpta.com.cn/gwytg/2072.html","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒","type":0,"pubDate":"2025-11-19 17:44","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1991080790313668608.html\"}","contentSource":"江西省人事考试中心考务科","showTitle":"中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒","topStatus":0,"archiveStatus":0,"sortNum":17635454400026596,"id":"1991080790313668608","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1895509778540462080-RelationArticle.json","images":[{}],"attDownloadType":0,"title":" 上饶市事业单位2025年统一公开招聘工作人员考试网上报名须知","type":0,"pubDate":"2025-02-17 10:02","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1895509778540462080.html\"}","contentSource":"江西省人事考试中心","showTitle":" 上饶市事业单位2025年统一公开招聘工作人员考试网上报名须知","topStatus":0,"archiveStatus":0,"sortNum":17397577200049463,"id":"1895509778540462080","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869700505755901952-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶市城乡水业集团有限公司2024年第二批公开招聘公告","type":0,"pubDate":"2024-11-27 16:44","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869700505755901952.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶市城乡水业集团有限公司2024年第二批公开招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17326967400070643,"id":"1869700505755901952","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869700493990879232-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶投资控股集团有限公司下属上饶上丰滑石集团有限公司2024年公开招聘专业技术人员公告","type":0,"pubDate":"2024-11-27 11:21","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869700493990879232.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶投资控股集团有限公司下属上饶上丰滑石集团有限公司2024年公开招聘专业技术人员公告","topStatus":0,"archiveStatus":0,"sortNum":17326769400018134,"id":"1869700493990879232","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869700442493214720-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶国控集团第二批公开招聘公告","type":0,"pubDate":"2024-11-27 09:52","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869700442493214720.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶国控集团第二批公开招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17326715400084857,"id":"1869700442493214720","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869697441384816640-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"重要提醒：2024年度执业药师职业资格考试电子化考试模拟作答系统已上线","type":0,"pubDate":"2024-10-10 11:05","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869697441384816640.html\"}","contentSource":"江西省人事考试中心","showTitle":"重要提醒：2024年度执业药师职业资格考试电子化考试模拟作答系统已上线","topStatus":0,"archiveStatus":0,"sortNum":17285292600034350,"id":"1869697441384816640","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869697431251378176-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"重要提醒：2024年度执业药师职业资格考试电子化考试模拟作答系统已上线","type":0,"pubDate":"2024-10-10 11:03","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869697431251378176.html\"}","contentSource":"江西省人事考试中心","showTitle":"重要提醒：2024年度执业药师职业资格考试电子化考试模拟作答系统已上线","topStatus":0,"archiveStatus":0,"sortNum":17285292600031937,"id":"1869697431251378176","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869697001419104256-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶国控集团公开招聘公告","type":0,"pubDate":"2024-09-26 16:07","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869697001419104256.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶国控集团公开招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17273376000097864,"id":"1869697001419104256","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1869696857575448576-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶投资控股集团有限公司下属上饶上丰滑石集团有限公司2024年公开招聘专业技术人员公告","type":0,"pubDate":"2024-09-25 15:38","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1869696857575448576.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶投资控股集团有限公司下属上饶上丰滑石集团有限公司2024年公开招聘专业技术人员公告","topStatus":0,"archiveStatus":0,"sortNum":17272493400023730,"id":"1869696857575448576","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849660600662044672-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶市城乡水业集团有限公司2024年公开招聘公告","type":0,"pubDate":"2024-09-05 15:36","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849660600662044672.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶市城乡水业集团有限公司2024年公开招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17255187600027966,"id":"1849660600662044672","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849656889135017984-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2024年江西省高校毕业生“三支一扶”招募工作人员笔试（上饶考区）考前提醒","type":0,"pubDate":"2024-06-26 16:46","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849656889135017984.html\"}","contentSource":"江西省人事考试中心","showTitle":"2024年江西省高校毕业生“三支一扶”招募工作人员笔试（上饶考区）考前提醒","topStatus":0,"archiveStatus":0,"sortNum":17193915600079646,"id":"1849656889135017984","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849656876212367360-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2024年江西省高校毕业生“三支一扶”招募工作人员笔试（上饶考区）考前提醒","type":0,"pubDate":"2024-06-26 16:46","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849656876212367360.html\"}","contentSource":"江西省人事考试中心","showTitle":"2024年江西省高校毕业生“三支一扶”招募工作人员笔试（上饶考区）考前提醒","topStatus":0,"archiveStatus":0,"sortNum":17193915600050083,"id":"1849656876212367360","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849656043064209408-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2024年度社会工作者职业水平考试（上饶考区）考前提醒","type":0,"pubDate":"2024-06-11 17:28","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849656043064209408.html\"}","contentSource":"江西省人事考试中心","showTitle":"2024年度社会工作者职业水平考试（上饶考区）考前提醒","topStatus":0,"archiveStatus":0,"sortNum":17180978400065438,"id":"1849656043064209408","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849655039056883712-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2024年二级建造师考前提醒事项","type":0,"pubDate":"2024-05-28 17:47","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849655039056883712.html\"}","contentSource":"江西省人事考试中心","showTitle":"2024年二级建造师考前提醒事项","topStatus":0,"archiveStatus":0,"sortNum":17168893200073294,"id":"1849655039056883712","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849650192458919936-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"江西省2024年度二级建造师执业资格考试上饶考区核查须知","type":0,"pubDate":"2024-02-23 11:13","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849650192458919936.html\"}","contentSource":"江西省人事考试中心","showTitle":"江西省2024年度二级建造师执业资格考试上饶考区核查须知","topStatus":0,"archiveStatus":0,"sortNum":17086579800086520,"id":"1849650192458919936","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849649822198345728-RelationArticle.json","images":[{}],"redirectUrl":"http://www.jxpta.com/art/2024/2/7/art_82902_4784877.html","attDownloadType":0,"title":"江西省人事考试中心2024年度考务工作安排表","type":0,"pubDate":"2024-02-21 16:53","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849649822198345728.html\"}","contentSource":"江西省人事考试中心","showTitle":"江西省人事考试中心2024年度考务工作安排表","topStatus":0,"archiveStatus":0,"sortNum":17085054000088779,"id":"1849649822198345728","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"付庆彬"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849649444174114816-RelationArticle.json","images":[{}],"redirectUrl":"http://hrss.zgsr.gov.cn/hrss/gsgg/202402/b4c558bd3f7b4bdfa6e7c51542d7129c.shtml","attDownloadType":0,"title":"上饶市事业单位2024年统一公开招聘工作人员公告","type":0,"pubDate":"2024-02-19 16:01","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849649444174114816.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶市事业单位2024年统一公开招聘工作人员公告","topStatus":0,"archiveStatus":0,"sortNum":17083293000090865,"id":"1849649444174114816","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849638645120577536-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2022年度初、中级经济专业技术资格考试（上饶考区）新冠肺炎疫情防控公告","type":0,"pubDate":"2023-12-18 13:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849638645120577536.html\"}","contentSource":"江西省人事考试中心","showTitle":"2022年度初、中级经济专业技术资格考试（上饶考区）新冠肺炎疫情防控公告","topStatus":0,"archiveStatus":0,"sortNum":17028766800065275,"id":"1849638645120577536","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849638607145349120-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2022年度初、中级经济专业技术资格考试（上饶考区）新冠肺炎疫情防控公告","type":0,"pubDate":"2023-12-18 13:18","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849638607145349120.html\"}","contentSource":"江西省人事考试中心","showTitle":"2022年度初、中级经济专业技术资格考试（上饶考区）新冠肺炎疫情防控公告","topStatus":0,"archiveStatus":0,"sortNum":17028766800037109,"id":"1849638607145349120","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849638616817414144-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2023年上饶市机关事业单位公开招聘编外聘用人员笔试成绩查询","type":0,"pubDate":"2023-12-18 13:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849638616817414144.html\"}","contentSource":"江西省人事考试中心","showTitle":"2023年上饶市机关事业单位公开招聘编外聘用人员笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17028766200071485,"id":"1849638616817414144","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt428/relation/1849638720441888768-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"上饶市2022年公开招聘社会化工会工作者(编外聘用)笔试成绩查询","type":0,"pubDate":"2023-12-18 13:17","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt428/pc/content/content_1849638720441888768.html\"}","contentSource":"江西省人事考试中心","showTitle":"上饶市2022年公开招聘社会化工会工作者(编外聘用)笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17028766200012417,"id":"1849638720441888768","articleFiles":[{}]}]
+                            renderTemplate('gzdt428', gzdt428, 'template1009', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt4281">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt">
+						<script id="template1010" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt = [{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt/relation/2053752570742095872-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"吉安市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）笔试成绩查询","type":0,"pubDate":"2026-05-11 16:15","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_2053752570742095872.html\"}","contentSource":"吉安市人事考试中心","showTitle":"吉安市事业单位2026年统一公开招聘工作人员（含卫生专业技术人员）笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17784873000091890,"id":"2053752570742095872","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt/relation/2031568714150711296-RelationArticle.json","attDownloadType":0,"title":"2026年度社会工作者职业资格考试开始报名！咨询电话已开通！","type":0,"pubDate":"2026-03-11 11:07","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_2031568714150711296.html\"}","contentSource":"吉安市人事考试中心","showTitle":"2026年度社会工作者职业资格考试开始报名！咨询电话已开通！","topStatus":0,"archiveStatus":0,"sortNum":17731984200089008,"id":"2031568714150711296","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt/relation/1993867103685316608-RelationArticle.json","attDownloadType":0,"title":"中央机关及其直属机构2026年度考试录用公务员考试吉安考区温馨提示","type":0,"pubDate":"2025-11-27 10:14","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1993867103685316608.html\"}","contentSource":"吉安市人事考试中心","showTitle":"中央机关及其直属机构2026年度考试录用公务员考试吉安考区温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17642096400057129,"id":"1993867103685316608","articleFiles":[{}]},{"classify":0,"metadata":{},"relationUrl":"/jxsrskszx/gzdt/relation/1982632126156574720-RelationArticle.json","images":[{}],"author":"吉安市人事考试中心","attDownloadType":0,"title":"吉安市2025年初级、中级经济专业技术资格考试（电子化）温馨提示","type":0,"pubDate":"2025-10-27 09:35","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1982632126156574720.html\"}","contentSource":"吉安人力资源和社会保障局","showTitle":"吉安市2025年初级、中级经济专业技术资格考试（电子化）温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17615289000020014,"id":"1982632126156574720","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"吉安人事考试网"},"relationUrl":"/jxsrskszx/gzdt/relation/1849646811757621248-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"关于延长2023年吉安市公开招聘卫生专业技术人员报名时间的公告","type":0,"pubDate":"2023-12-28 15:30","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849646811757621248.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于延长2023年吉安市公开招聘卫生专业技术人员报名时间的公告","topStatus":0,"archiveStatus":0,"sortNum":17037486000023550,"id":"1849646811757621248","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt/relation/1849638629933002752-RelationArticle.json","images":[{}],"redirectUrl":"http://hrss.jian.gov.cn/news-show-15794.html","attDownloadType":0,"title":"吉安市2023年度事业单位公开招聘工作人员网上改报名公告","type":0,"pubDate":"2023-12-18 13:21","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849638629933002752.html\"}","contentSource":"江西省人事考试中心","showTitle":"吉安市2023年度事业单位公开招聘工作人员网上改报名公告","topStatus":0,"archiveStatus":0,"sortNum":17028768600079887,"id":"1849638629933002752","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt/relation/1849638687524990976-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2023年一级建造师执业资格考试诚信参考倡议书","type":0,"pubDate":"2023-12-18 13:21","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849638687524990976.html\"}","contentSource":"江西省人事考试中心","showTitle":"2023年一级建造师执业资格考试诚信参考倡议书","topStatus":0,"archiveStatus":0,"sortNum":17028768600048910,"id":"1849638687524990976","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt/relation/1849638758702329856-RelationArticle.json","images":[{}],"redirectUrl":"http://hrss.jian.gov.cn/news-show-15795.html","attDownloadType":0,"title":"关于延长2023年吉安市公开招聘卫生专业技术人员报名时间的公告","type":0,"pubDate":"2023-12-18 13:21","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849638758702329856.html\"}","contentSource":"江西省人事考试中心","showTitle":"关于延长2023年吉安市公开招聘卫生专业技术人员报名时间的公告","topStatus":0,"archiveStatus":0,"sortNum":17028768600031459,"id":"1849638758702329856","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt/relation/1849638645238018048-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"中央机关及其直属机构2024年度考试录用公务员（吉安考区）温馨提示","type":0,"pubDate":"2023-12-18 13:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849638645238018048.html\"}","contentSource":"江西省人事考试中心","showTitle":"中央机关及其直属机构2024年度考试录用公务员（吉安考区）温馨提示","topStatus":0,"archiveStatus":0,"sortNum":17028768000091248,"id":"1849638645238018048","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt/relation/1849638652049567744-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"公告公示","type":0,"pubDate":"2023-12-18 13:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849638652049567744.html\"}","contentSource":"江西省人事考试中心","showTitle":"公告公示","topStatus":0,"archiveStatus":0,"sortNum":17028768000090284,"id":"1849638652049567744","articleFiles":[{}]},{"classify":0,"metadata":{"VcEditor":"朱伟琦"},"relationUrl":"/jxsrskszx/gzdt/relation/1849638721213640704-RelationArticle.json","images":[{}],"attDownloadType":0,"title":"2023年二级建造师执业资格考试诚信参考倡议书","type":0,"pubDate":"2023-12-18 13:20","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt/pc/content/content_1849638721213640704.html\"}","contentSource":"江西省人事考试中心","showTitle":"2023年二级建造师执业资格考试诚信参考倡议书","topStatus":0,"archiveStatus":0,"sortNum":17028768000032860,"id":"1849638721213640704","articleFiles":[{}]}]
+                            renderTemplate('gzdt', gzdt, 'template1010', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt1">
+
+						</ul>
+					</div>
+					<div class="list cf hide">
+						<ul class="fl mr" id="gzdt169">
+						<script id="template1011" type="text/x-handlebars-template">
+                            {{#each data}} 
+                            <li class="cf"> <b> </b>
+                                <a href="{{pcUrl}}" title='{{title}}' target="_blank">{{title}}</a > <span> {{formatDate pubDate 'YYYY-MM-DD'}} </span>
+                            </li> 
+                            {{/each}}
+                        </script>
+                        <script>                               
+                            var gzdt169 = [{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2108030361486831616-RelationArticle.json","redirectUrl":"https://wjw.jxfz.gov.cn/art/2026/9/30/art_4103_4481546.html","attDownloadType":0,"title":"抚州市2026年大学生乡村医生专项计划公开招聘公告","type":0,"pubDate":"2026-09-30 17:02","relation":0,"urls":"{}","contentSource":"抚州市卫生健康委员会","showTitle":"抚州市2026年大学生乡村医生专项计划公开招聘公告","topStatus":0,"archiveStatus":0,"sortNum":17907589200056124,"id":"2108030361486831616","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2101603681583050752-RelationArticle.json","redirectUrl":"https://rsj.jxfz.gov.cn/art/2026/9/20/art_6432_4477979.html","attDownloadType":0,"title":"抚州市2026年市属国有企业公开招聘员工入闱体检人员名单及有关事项公告","type":0,"pubDate":"2026-09-20 17:25","relation":0,"urls":"{}","contentSource":"劳动关系调解仲裁科","showTitle":"抚州市2026年市属国有企业公开招聘员工入闱体检人员名单及有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17898963000076233,"id":"2101603681583050752","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2097258430819020800-RelationArticle.json","redirectUrl":"https://rsj.jxfz.gov.cn/art/2026/9/8/art_6432_4474478.html","attDownloadType":0,"title":"抚州市2026年市属国有企业公开招聘员工进入下一环节公告","type":0,"pubDate":"2026-09-08 17:38","relation":0,"urls":"{}","contentSource":"劳动关系调解仲裁科","showTitle":"抚州市2026年市属国有企业公开招聘员工进入下一环节公告","topStatus":0,"archiveStatus":0,"sortNum":17888602800060912,"id":"2097258430819020800","articleFiles":[{}]},{"classify":0,"images":[{"cover":"/jxsrskszx/gzdt169/2097234598028718080/0pIGbELR.png","filePath":"/jxsrskszx/gzdt169/2097234598028718080/0pIGbELR.png","domainName":"http://www.jxpta.com","delFlag":0,"fileId":"2097234486296481792"}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2097234598028718080-RelationArticle.json","attDownloadType":0,"title":"2026年度江西省一级建造师职业资格考试抚州考区考前提醒","type":0,"pubDate":"2026-09-08 16:03","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt169/pc/content/content_2097234598028718080.html\"}","contentSource":"劳动关系调解仲裁科","showTitle":"2026年度江西省一级建造师职业资格考试抚州考区考前提醒","topStatus":0,"archiveStatus":0,"sortNum":17888545800056425,"id":"2097234598028718080","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2092519955463741440-RelationArticle.json","redirectUrl":"https://rsj.jxfz.gov.cn/art/2026/8/26/art_6432_4471403.html","attDownloadType":0,"title":"抚州市2026年市属国有企业公开招聘员工面试公告","type":0,"pubDate":"2026-08-26 15:49","relation":0,"urls":"{}","contentSource":"劳动关系调解仲裁科","showTitle":"抚州市2026年市属国有企业公开招聘员工面试公告","topStatus":0,"archiveStatus":0,"sortNum":17877305400079811,"id":"2092519955463741440","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2090609286590046208-RelationArticle.json","redirectUrl":"https://wjw.jxfz.gov.cn/art/2026/8/20/art_4103_4470312.html","attDownloadType":0,"title":"抚州市卫生健康系统2026年公开招聘高素质人才面试资格审查合格人员名单公示及面试有关事项公告","type":0,"pubDate":"2026-08-20 20:20","relation":0,"urls":"{}","contentSource":"抚州市卫生健康委员会","showTitle":"抚州市卫生健康系统2026年公开招聘高素质人才面试资格审查合格人员名单公示及面试有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17872284000092895,"id":"2090609286590046208","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2089645747226353664-RelationArticle.json","redirectUrl":"https://rsj.jxfz.gov.cn/art/2026/8/18/art_6432_4469768.html","attDownloadType":0,"title":"抚州市2026年市属国有企业公开招聘员工入闱面试资格审查人员名单及有关事项公告","type":0,"pubDate":"2026-08-18 17:28","relation":0,"urls":"{}","contentSource":"劳动关系调解仲裁科","showTitle":"抚州市2026年市属国有企业公开招聘员工入闱面试资格审查人员名单及有关事项公告","topStatus":0,"archiveStatus":0,"sortNum":17870452800081076,"id":"2089645747226353664","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2089645578070073344-RelationArticle.json","redirectUrl":"https://rsj.jxfz.gov.cn/art/2026/8/17/art_6432_4469411.html","attDownloadType":0,"title":"2026年抚州市公务用车保障服务中心有限公司公开招聘员工拟聘用人员名单公示","type":0,"pubDate":"2026-08-17 16:27","relation":0,"urls":"{}","contentSource":"抚州市考试中心","showTitle":"2026年抚州市公务用车保障服务中心有限公司公开招聘员工拟聘用人员名单公示","topStatus":0,"archiveStatus":0,"sortNum":17869552200045038,"id":"2089645578070073344","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2089197290011303936-RelationArticle.json","attDownloadType":0,"title":"抚州市2026年市属国有企业公开招聘员工笔试成绩查询","type":0,"pubDate":"2026-08-17 11:46","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt169/pc/content/content_2089197290011303936.html\"}","contentSource":"抚州市考试中心","showTitle":"抚州市2026年市属国有企业公开招聘员工笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17869383600050757,"id":"2089197290011303936","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2087357777127481344-RelationArticle.json","redirectUrl":"https://mp.weixin.qq.com/s/aVfBpiaUm1xHe-uRwK3JDA","attDownloadType":0,"title":"抚州市卫生健康系统2026年公开招聘高素质人才入闱面试资格审查及有关事项的公告","type":0,"pubDate":"2026-08-12 09:57","relation":0,"urls":"{}","contentSource":"抚州人事考试中心","showTitle":"抚州市卫生健康系统2026年公开招聘高素质人才入闱面试资格审查及有关事项的公告","topStatus":0,"archiveStatus":0,"sortNum":17864998200058981,"id":"2087357777127481344","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2085184191969173504-RelationArticle.json","attDownloadType":0,"title":"抚州市卫生健康系统2026年公开招聘高素质人才笔试成绩查询","type":0,"pubDate":"2026-08-06 10:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt169/pc/content/content_2085184191969173504.html\"}","contentSource":"抚州市考试中心","showTitle":"抚州市卫生健康系统2026年公开招聘高素质人才笔试成绩查询","topStatus":0,"archiveStatus":0,"sortNum":17859816000013990,"id":"2085184191969173504","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2082667971695255552-RelationArticle.json","redirectUrl":"https://rsj.jxfz.gov.cn/art/2026/7/30/art_6432_4465692.html","attDownloadType":0,"title":"关于公布抚州市2026年市属国有企业公开招聘员工未达开考比例被取消及核减岗位的公告","type":0,"pubDate":"2026-07-30 11:19","relation":0,"urls":"{}","contentSource":"抚州市人力资源和社会保障局","showTitle":"关于公布抚州市2026年市属国有企业公开招聘员工未达开考比例被取消及核减岗位的公告","topStatus":0,"archiveStatus":0,"sortNum":17853815400015421,"id":"2082667971695255552","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2080214771960553472-RelationArticle.json","redirectUrl":"https://pta.jxhrss.gov.cn/#/apply-info-statistical?prjId=75144b1e961544d28796d734a3828dc6","attDownloadType":0,"title":"截至7月23日抚州市2026年市属国有企业公开招聘员工报名情况统计","type":0,"pubDate":"2026-07-23 17:00","relation":0,"urls":"{}","contentSource":"抚州市人力资源和社会保障局","showTitle":"截至7月23日抚州市2026年市属国有企业公开招聘员工报名情况统计","topStatus":0,"archiveStatus":0,"sortNum":17847972000055528,"id":"2080214771960553472","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2079855768709537792-RelationArticle.json","redirectUrl":"https://pta.jxhrss.gov.cn/#/apply-info-statistical?prjId=75144b1e961544d28796d734a3828dc6","attDownloadType":0,"title":"截至7月22日抚州市2026年市属国有企业公开招聘员工报名情况统计","type":0,"pubDate":"2026-07-22 17:00","relation":0,"urls":"{}","contentSource":"抚州市人力资源和社会保障局","showTitle":"截至7月22日抚州市2026年市属国有企业公开招聘员工报名情况统计","topStatus":0,"archiveStatus":0,"sortNum":17847108000060217,"id":"2079855768709537792","articleFiles":[{}]},{"classify":0,"images":[{}],"metadata":{},"relationUrl":"/jxsrskszx/gzdt169/relation/2079480735990456320-RelationArticle.json","redirectUrl":"https://pta.jxhrss.gov.cn/#/apply-info-statistical?prjId=75144b1e961544d28796d734a3828dc6","attDownloadType":0,"title":"截至7月21日抚州市2026年市属国有企业公开招聘员工报名情况统计","type":0,"pubDate":"2026-07-21 17:00","relation":0,"urls":"{\"pc\":\"/jxsrskszx/gzdt169/pc/content/content_2079480735990456320.html\"}","contentSource":"抚州市人力资源和社会保障局","showTitle":"<p>截至7月21日抚州市2026年市属国有企业公开招聘员工报名情况统计</p>","topStatus":0,"archiveStatus":0,"sortNum":17846244000036748,"id":"2079480735990456320","articleFiles":[{}]}]
+                            renderTemplate('gzdt169', gzdt169, 'template1011', 0, 10, { titleMax: 25 })
+                        </script> 
+
+						</ul>
+						<ul class="fl" id="gzdt1691">
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="yqlj">
+				<div class="title">
+					<div class="title_box cf">
+						<img src="/jxsrskszx/picture/yqlj.png">
+						<div>
+							友情链接
+						</div>
+					</div>
+				</div>
+				<ul class="cf">
+					<li class="fl">
+						<a href="http://www.jiangxi.gov.cn/" target="_blank">
+							<img src="/jxsrskszx/picture/68de22931bdd489cbe240d722772991b.png">
+						</a>
+					</li>
+					<li class="fl">
+						<a href="http://rst.jiangxi.gov.cn/" target="_blank">
+							<img src="/jxsrskszx/picture/bf0901ad2de8484abcf884c19086ca2c.png">
+						</a>
+					</li>
+					<li class="fl">
+						<a href="http://www.cpta.com.cn/" target="_blank">
+							<img src="/jxsrskszx/picture/8f38360655f948e3bd54baa34ef3ca1e.png">
+						</a>
+					</li>
+					<li class="fl">
+						<a href="https://rsks.class.com.cn/index?channel=cpta_bottom" target="_blank">
+							<img src="/jxsrskszx/picture/2e93423b396645cd9a12d3e94da89b81.png">
+						</a>
+					</li>
+					<style>
+						.yqlj ul li { width: 273px; margin-left: 20px; } .yqlj ul li img { width:
+						273px; }
+					</style>
+				</ul>
+			</div>
+		</div>
+		<script src="/jxsrskszx/js/2312151027326220.js">
+		</script>
+		<!-- visitcount Begin -->
+		<iframe src="visit-1_284_80560.html" name="vishidden" id="vishidden" frameborder="0" style="width:0; height:0; display:none">
+		</iframe>
+		<!-- visitcount End -->
+		<script language="javascript" src="/jxsrskszx/js/pagecontrol.js">
+		</script>
+		<script language="javascript" src="/jxsrskszx/js/web_front.js">
+		</script>
+        <script>                               
+            $("#gzdt412>li").eq(4).nextAll().appendTo("#gzdt4121");
+        </script>
+        <script>                               
+            $("#gzdt435>li").eq(4).nextAll().appendTo("#gzdt4351");
+        </script>
+        <script>                               
+          $("#gzdt563>li").eq(4).nextAll().appendTo("#gzdt5631");
+      </script>
+        <script>                               
+          $("#gzdt80>li").eq(4).nextAll().appendTo("#gzdt801");
+      </script>
+        <script>                               
+          $("#gzdt422>li").eq(4).nextAll().appendTo("#gzdt4221");
+      </script>
+        <script>                               
+          $("#gzdt259>li").eq(4).nextAll().appendTo("#gzdt2591");
+      </script>
+        <script>                               
+           $("#gzdt140>li").eq(4).nextAll().appendTo("#gzdt1401");
+      </script>
+        <script>                               
+            $("#gzdt863>li").eq(4).nextAll().appendTo("#gzdt8631");
+            $("#gzdt428>li").eq(4).nextAll().appendTo("#gzdt4281");
+            $("#gzdt>li").eq(4).nextAll().appendTo("#gzdt1");
+            $("#gzdt169>li").eq(4).nextAll().appendTo("#gzdt1691");
+      </script>
+        <script>                               
+          $("#gzdt428>li").eq(4).nextAll().appendTo("#gzdt4281");
+    </script>
+            <script>                               
+              $("#gzdt>li").eq(4).nextAll().appendTo("#gzdt1");
+        </script>
+                <script>                               
+                  $("#gzdt169>li").eq(4).nextAll().appendTo("#gzdt1691");
+            </script>
+	
+<script>
+    // 记录埋点的请求
+    function buryPoint(params) {
+        var buryPointUrl = '/saveAccessLog' // 埋点请求地址
+        //需要引入config.js
+        if(typeof  defaultConfig != 'undefined'){
+            if(defaultConfig.userIdObj.siteId){
+                var siteId = defaultConfig.userIdObj.siteId;
+            }
+            if(defaultConfig.userIdObj.deptId){
+                var deptId = defaultConfig.userIdObj.deptId;
+            }
+            if(defaultConfig.userIdObj.tenantId){
+                var tenantId = defaultConfig.userIdObj.tenantId;
+            }
+        }
+        var siteNameMeta = $("meta[name='SiteName']");
+        var siteName = siteNameMeta ? siteNameMeta.attr('content') : "江西省人事考试中心";
+        var postData = {
+            siteId: '1761943033115774976' || siteId || "1761943033115774976",
+            deptId: '' || deptId || "1761937880745549824",
+            tenantId: '1749973237782081536' || tenantId || "1749973237782081536",
+            siteName: siteName || "",
+            channelId: params && params.channelId || "",
+            channelName: params && params.channelName || "",
+            title: params && params.title || "",
+            articleId: params && params.articleId || "",
+        }
+        console.log('buryPoint-postData', postData);
+        $.ajax({
+            url: buryPointUrl,
+            type: 'post',
+            data: postData,
+            dataType: 'json',
+            success: function () {
+            },
+            error: function () {
+            }
+        })
+    }
+
+    //页面访问量
+    // 首页
+    if (window.websiteId) {
+        if (!window.channelId && !window.manuscriptId) {
+            buryPoint();
+        }
+    }
+    // 概览页
+    if (window.channelId && !window.manuscriptId) {
+        var columnNameMeta = $("meta[name='ColumnName']");
+        var channelName = columnNameMeta ? columnNameMeta.attr('content') : '江西省人事考试中心';
+        buryPoint({
+            channelId: channelId || "",
+            channelName: channelName || "",
+        });
+    }
+    // 细览页
+    if (window.manuscriptId) {
+        var columnNameMeta = $("meta[name='ColumnName']");
+        var channelName = columnNameMeta ? columnNameMeta.attr('content') : '江西省人事考试中心';
+        var titleMeta = $("meta[name='ArticleTitle']");
+        var title = titleMeta ? titleMeta.attr('content') : '';
+        var pubDateMeta = $("meta[name='PubDate']");
+        var pubDate = pubDateMeta ? pubDateMeta.attr('content') : 'Wed Jul 29 09:55:53 CST 2026';
+        buryPoint({
+            channelId: channelId || "",
+            channelName: channelName || "",
+            title: title || "",
+            articleId: manuscriptId || "",
+            pubDate: pubDate || "",
+            url: window.location.href || "",
+        });
+    }
+</script>
+</body></html>

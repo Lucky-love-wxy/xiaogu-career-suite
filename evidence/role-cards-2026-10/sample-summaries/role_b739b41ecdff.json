@@ -1,0 +1,484 @@
+{
+  "name": [
+    {
+      "text": "药品注册",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "药品注册"
+        }
+      ]
+    }
+  ],
+  "sample_n": 8,
+  "excluded": [
+    {
+      "id": "manual-role_postings_2026-10-05_claude-14",
+      "url": "https://campus.niuqizp.com/job-vmY5t5NnC.html",
+      "role": "药品注册专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-15",
+      "url": "https://campus.niuqizp.com/job-vsy5az5zN.html",
+      "role": "药品注册专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "文档管理：维护和管理注册档案，确保文件的完整性和可追溯性",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5MLtzz",
+        "vsy5az5zN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5MLtzz",
+          "text": "文档管理：维护和管理注册档案，确保文件的完整性和可追溯性"
+        },
+        {
+          "evidence_id": "vsy5az5zN",
+          "text": "文档管理：维护和管理注册档案，确保文件的完整性和可追溯性"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "申报资料撰写：协助撰写eCTD格式申报资料，包括IND/NDA/ANDA等注册文件",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5MLtzz",
+        "vsy5az5zN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5MLtzz",
+          "text": "申报资料撰写：协助撰写eCTD格式申报资料，包括IND/NDA/ANDA等注册文件"
+        },
+        {
+          "evidence_id": "vsy5az5zN",
+          "text": "申报资料撰写：协助撰写eCTD格式申报资料，包括IND/NDA/ANDA等注册文件"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "跟进国内外法规状态，并评估对注册产品的影响",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5MNZaZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5MNZaZ",
+          "text": "跟进国内外法规状态，并评估对注册产品的影响"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助药品全生命周期管理，负责产品变更等注册法规评估及申报工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5t5NnC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5t5NnC",
+          "text": "协助药品全生命周期管理，负责产品变更等注册法规评估及申报工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "撰写和整理产品注册申报资料，包括技术要求、产品描述、研究资料等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsm55MZM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsm55MZM5",
+          "text": "撰写和整理产品注册申报资料，包括技术要求、产品描述、研究资料等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "确保临床试验整个过程遵循GCP要求进行，临床试验进度按照计划进行",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUm5taMnN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUm5taMnN",
+          "text": "确保临床试验整个过程遵循GCP要求进行，临床试验进度按照计划进行"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责医疗器械的海外注册流程，确保符合目标市场的法律法规和技术要求",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsm55MZM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsm55MZM5",
+          "text": "负责医疗器械的海外注册流程，确保符合目标市场的法律法规和技术要求"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助技术平台进行药品注册相关的质量标准复核、研制和生产现场检查等工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5t5NnC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5t5NnC",
+          "text": "协助技术平台进行药品注册相关的质量标准复核、研制和生产现场检查等工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "8份保留的校招平台样本中，4份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 4,
+        "denominator": 8,
+        "matched_ids": [
+          "vky5MCzzL",
+          "vl85MaNZ5",
+          "vsm55MZM5",
+          "vwY5MNZaZ"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vmY5MLtzz",
+          "vsy5az5zN"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，2份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vUm5taMnN",
+          "vmY5t5NnC"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，2份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vUm5taMnN",
+          "vsm55MZM5"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“公共卫生与预防医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共卫生与预防医学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vUm5taMnN"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“化学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vsm55MZM5"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，2份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vUm5taMnN",
+          "vsm55MZM5"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，2份专业类字段为“生物医学工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物医学工程类",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vUm5taMnN",
+          "vmY5t5NnC"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，6份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 6,
+        "denominator": 8,
+        "matched_ids": [
+          "vUm5taMnN",
+          "vl85MaNZ5",
+          "vmY5MLtzz",
+          "vmY5t5NnC",
+          "vsm55MZM5",
+          "vsy5az5zN"
+        ]
+      }
+    },
+    {
+      "text": "8份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUm5taMnN",
+        "vky5MCzzL",
+        "vl85MaNZ5",
+        "vmY5MLtzz",
+        "vmY5t5NnC",
+        "vsm55MZM5",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vl85MaNZ5",
+          "vmY5t5NnC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "注册专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmY5t5NnC",
+        "vsy5az5zN",
+        "vwY5MNZaZ"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "临床注册专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUm5taMnN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医疗器械海外注册专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsm55MZM5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "国内/国际注册专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vky5MCzzL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "药品注册",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vl85MaNZ5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "药品注册专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmY5MLtzz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "sichuan-2025.html",
+    "url": "https://jxt.sc.gov.cn/scjxt/ggtz/2025/7/4/607b4d409c5d439bac0ebfac1f6e475f.shtml",
+    "access_date": "2026-10-11",
+    "layer": "script-static",
+    "status": 200,
+    "sha256": "08bfba5e6db37c8290e8dad8105ad405732959c90748bf0f43c708439f26c005",
+    "bytes": 219844,
+    "headers": {
+      "Server": "nginx",
+      "Date": "Sun, 11 Oct 2026 08:42:28 GMT",
+      "Content-Type": "text/html",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "Expires": "Sun, 11 Oct 2026 08:47:28 GMT",
+      "Cache-Control": "max-age=300"
+    }
+  },
+  {
+    "file": "jiangsu-2025.html",
+    "url": "https://gxt.jiangsu.gov.cn/art/2025/12/5/art_6281_11686341.html",
+    "access_date": "2026-10-11",
+    "layer": "script-static",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "file": "shenzhen-2025.html",
+    "url": "https://fgw.sz.gov.cn/zwgk/qt/tzgg/content/post_12573091.html",
+    "access_date": "2026-10-11",
+    "layer": "script-static",
+    "error": "URLError(SSLError(1, '[SSL: BAD_ECPOINT] bad ecpoint (_ssl.c:1082)'))"
+  }
+]

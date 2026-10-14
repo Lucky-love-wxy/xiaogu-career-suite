@@ -1,0 +1,137 @@
+{
+  "name": [
+    {
+      "text": "文员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "文员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [
+    {
+      "id": "vlY5NMCMC",
+      "url": "https://campus.niuqizp.com/job-vlY5NMCMC.html",
+      "role": "执业药师|行政文员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "完成科室交办的其他文书类、事务类辅助工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "完成科室交办的其他文书类、事务类辅助工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助科室完成临床数据、资料采集，整理与归档管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "协助科室完成临床数据、资料采集，整理与归档管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责患者入院安排、手术预约协调及相关事务性工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "负责患者入院安排、手术预约协调及相关事务性工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助临床医师完成日常病历书写、病历管理、病人资料整理等工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "协助临床医师完成日常病历书写、病历管理、病人资料整理等工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmY5ZztZC"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“护理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "护理学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmY5ZztZC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "文员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

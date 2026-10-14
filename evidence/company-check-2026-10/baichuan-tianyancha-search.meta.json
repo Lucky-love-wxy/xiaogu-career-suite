@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.432,
+  "access_date": "2026-10-12",
+  "sha256": "5143ca8072824cf8439e1a77ea50529c555f7c9deef75f608666e39a2f6651cf",
+  "blocked": null,
+  "id": "baichuan-tianyancha-search",
+  "company": "baichuan",
+  "query": "百川智能科技有限公司 企业 成立日期",
+  "include_domains": [
+    "tianyancha.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/baichuan-tianyancha-search.json"
+}

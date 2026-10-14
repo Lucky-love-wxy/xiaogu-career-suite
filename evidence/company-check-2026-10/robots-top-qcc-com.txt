@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>404错误页面</title>
+  <meta name="keywords"
+    content="企查查,企业查询,公司查询,工商查询,企业信用信息查询系统,企业工商信息查询平台,企业财务信息查询,企业信用评价查询,企业纠纷查询,企业现金流查询,企业股权查询,企业负债查询,企业资产查询,企业财报查询,企业失信信息查询">
+  <meta name="description"
+    content="企查查信息来自国家企业信用信息公示系统，提供企业信息查询,工商查询,企业信用评价查询，企业纠纷查询，企业现金流查询，企业股权查询，企业负债查询，企业资产查询，企业财报查询,公司查询等相关信息查询；帮您快速了解企业信息,企业工商信息,企业信用信息等经营和人员投资状况！">
+  <meta charset="utf-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="telephone=no" name="format-detection">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="layoutmode" content="standard">
+  <meta name="wap-font-scale" content="no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+    .mod-notfound {
+      width: 1000px;
+      height: 400px;
+      margin: auto;
+      margin-top: calc(50vh - 250px);
+    }
+
+    .mod-notfound .img-notfound {
+      float: left;
+      margin: 0px 100px;
+      width: 400px;
+    }
+
+    .mod-notfound .text-notfound {
+      height: 400px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .mod-notfound .text-notfound h1 {
+      width: 101px;
+      font-size: 56px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      color: rgba(51, 51, 51, 1);
+      line-height: 64px;
+      font-weight: normal;
+      margin-bottom: 0px;
+    }
+
+    .mod-notfound .text-notfound p {
+      width: 384px;
+      height: 24px;
+      font-size: 16px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+      line-height: 24px;
+      margin-bottom: 22px;
+    }
+
+    .mod-notfound .text-notfound .btn {
+      font-family: PingFangSC-Regular, PingFang SC;
+      width: 88px;
+      height: 32px;
+      text-align: center;
+      background: #128bed;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 14px;
+      line-height: 32px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .system-message {
+      width: 500px;
+      height: 300px;
+      margin: 150px auto;
+      background-color: #f4f4f4;
+      box-shadow: 0 1px 1px #ddd;
+      text-align: center;
+    }
+
+    .system-message h1.error {
+      height: 150px;
+      background: #f23617 url(//qcc-static.qcc.com/resources/web/images/error/jump_err.png) no-repeat center center
+    }
+
+    .system-message h1.success {
+      height: 150px;
+      background: #30c109 url(//qcc-static.qcc.com/resources/web/images/error/jump_suc.png) no-repeat center center
+    }
+
+    .system-message .jump {
+      padding-top: 10px
+    }
+
+    .system-message .jump a {
+      color: #333;
+    }
+
+    .system-message .success,
+    .system-message .error {
+      line-height: 30px;
+      font-size: 30px
+    }
+
+    .system-message .success {
+      color: #30c109
+    }
+
+    .system-message .error {
+      color: #f23617
+    }
+
+    .system-message .detail {
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 12px;
+      display: none
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mod-notfound grid-98">
+    <img class="img-notfound" src="//qcc-static.qcc.com/resources/web/images/error/p404.png">
+    <div class="text-notfound">
+      <h1>404</h1>
+      <p>
+        请检查您输入的网址是否正确，或者点击链接继续浏览
+      </p>
+      <a href="https://www.qcc.com" class="btn">网站首页</a>
+    </div>
+  </div>
+</body>
+
+</html>

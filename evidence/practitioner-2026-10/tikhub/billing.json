@@ -1,0 +1,30 @@
+{
+  "before": {
+    "balance_usd": 9.57,
+    "free_usd": 0.05,
+    "today_api_n": 0,
+    "today_balance_spent_usd": 0,
+    "accessed_date": "2026-10-07"
+  },
+  "authorization": {
+    "new_budget_usd": 1,
+    "max_total_attempts": 100,
+    "failed_attempts_count": true,
+    "auto_retry": false,
+    "recharge": false
+  },
+  "after": {
+    "balance_usd": 9.35,
+    "free_usd": 0.05,
+    "accessed_date": "2026-10-08"
+  },
+  "status": "paused_new_longform_policy_no_further_calls",
+  "balance_delta_usd": 0.22,
+  "verified_success_request_cost_usd": 0.22,
+  "unknown_attempt_n": 1,
+  "attempts_counted_against_cap": 23,
+  "remaining_max_attempts": 77,
+  "conservative_budget_remaining_usd": 0.77,
+  "key_persisted": false,
+  "key_cleared": true
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 4.569,
+  "access_date": "2026-10-12",
+  "sha256": "8c9c5ee2eadd3ab81b25bd16cb164b775a8a681a71709f1f592e3d6752a70524",
+  "blocked": null,
+  "id": "zhihu-official-search",
+  "company": "zhihu",
+  "query": "Zhihu Inc 2390 2025 annual results revenue paid membership marketing services",
+  "include_domains": [
+    "hkexnews.hk"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/zhihu-official-search.json"
+}

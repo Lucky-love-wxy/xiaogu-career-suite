@@ -1,0 +1,20 @@
+#
+# robots.txt for EmpireCMS
+#
+
+User-agent: *
+
+Disallow: /d/
+Disallow: /e/class/
+Disallow: /e/config/
+Disallow: /e/data/
+Disallow: /e/enews/
+Disallow: /e/update/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /config/
+Disallow: /editor/
+Disallow: /js/
+Disallow: /ks_cls/
+Disallow: /KS_Data/
+Disallow: /UploadFiles/

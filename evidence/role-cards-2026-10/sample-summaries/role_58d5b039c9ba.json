@@ -1,0 +1,50 @@
+{
+  "name": [
+    {
+      "text": "培训师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "培训师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vws5tL5n5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "眼视光培训师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vws5tL5n5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": [
+    {
+      "text": "执业药师/驻店药师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "执业药师/驻店药师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vym5nZt5M"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vym5nZt5M"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "执业药师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vym5nZt5M"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

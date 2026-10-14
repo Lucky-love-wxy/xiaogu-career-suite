@@ -1,0 +1,80 @@
+{
+  "name": [
+    {
+      "text": "建筑设计师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "建筑设计师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8yNLNaZt",
+        "vk85MLnzt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v8yNLNaZt",
+          "vk85MLnzt"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“建筑类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8yNLNaZt",
+        "vk85MLnzt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "建筑类",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v8yNLNaZt",
+          "vk85MLnzt"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "建筑设计师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8yNLNaZt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "建筑设计师（杭州）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk85MLnzt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

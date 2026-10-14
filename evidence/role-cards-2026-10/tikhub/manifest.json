@@ -1,0 +1,100 @@
+{
+  "calls": [
+    {
+      "call_n": 1,
+      "file": "tikhub/search-crc.json",
+      "request_id": "f57989e8-609e-49f1-a493-bd34264478b4",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "search"
+    },
+    {
+      "call_n": 2,
+      "file": "tikhub/crc-day20.json",
+      "request_id": "b76fa198-d009-46d1-a1c7-45790cff04d0",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "detail"
+    },
+    {
+      "call_n": 3,
+      "file": "tikhub/crc-day1.json",
+      "request_id": "1363ec9a-e028-44f9-b155-9173a5a327ea",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "detail"
+    },
+    {
+      "call_n": 4,
+      "file": "tikhub/search-pv.json",
+      "request_id": "2d3490ee-a898-49b6-afb6-8044d0653c5d",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "search"
+    },
+    {
+      "call_n": 5,
+      "file": "tikhub/pv-week.json",
+      "request_id": "c8ace0a1-880b-4afb-9560-1cd40ba69ee9",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "detail"
+    },
+    {
+      "call_n": 6,
+      "file": "tikhub/pv-compliance.json",
+      "request_id": "c55fd6db-af79-4c94-87ba-1076c12edd3c",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "detail"
+    },
+    {
+      "call_n": 7,
+      "file": "tikhub/search-msl.json",
+      "request_id": "aa5fb13a-f32e-4e0e-a8cf-e2c9c61c4faf",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "search"
+    },
+    {
+      "call_n": 8,
+      "file": "tikhub/msl-week.json",
+      "request_id": "8e3ecbe4-4155-4b26-8801-fb9a9109cc89",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "detail"
+    },
+    {
+      "call_n": 9,
+      "file": "tikhub/msl-month.json",
+      "request_id": "47475de1-ed7a-45fe-9be2-10e4020a3321",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "detail"
+    },
+    {
+      "call_n": 10,
+      "file": "tikhub/search-underwriter.json",
+      "request_id": "43ddd23b-20e1-436b-b012-4ed2e81ae674",
+      "http": 200,
+      "code": 200,
+      "price_usd": 0.01,
+      "kind": "search"
+    }
+  ],
+  "success_n": 10,
+  "search_n": 4,
+  "detail_n": 6,
+  "total_usd": 0.1,
+  "remaining_budget_usd": 0,
+  "authorization": "本会话用户允许现有余额最多US$0.10/30成功请求；单价导致最多10次，无充值"
+}

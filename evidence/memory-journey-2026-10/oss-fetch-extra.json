@@ -1,0 +1,156 @@
+[
+  {
+    "id": "oss-robots-api",
+    "url": "https://api.github.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-api.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "edbd0367cec893df36f67acb56c3aa23810be28850977c35e0fedaf64aad286b",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-robots-raw",
+    "url": "https://raw.githubusercontent.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-raw.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-extra-1",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/vector_stores/configs.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-extra-1.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "f6f449eae10e16dad4767d83a7480a7ab891f5abf9ce519db46a8ece5771e003",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-extra-2",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/vector_stores/qdrant.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-extra-2.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "da570579d5cad69e6f123fdfe32b725235a25604e70047666bec763ba6e2bf43",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-extra-3",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/configs/prompts.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-extra-3.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "10bc8a34b3b5f0ce24560a2a3190c9112b979a891b981f48393bbd168d915a5c",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-extra-4",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/memory/telemetry.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-extra-4.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "89f36bd0b87059fa0710adcccfbd9639ab4d5c4a762d875a1caceaf688aca687",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-1",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/LICENSE",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-1.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "036e78b9d7dd33ae5b378fdda973b4aad7901c8d8371a0ae40fae1f6659a89d0",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-2",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/src/agent/prompts/memory_filesystem.mdx",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-2.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "c0ccac8154b5cca6126a39e910f478691b11a8b14f1c8522eb2effc61bf43a2b",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-3",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/src/backend/local/local-store.ts",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-3.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "e2aa0378eb5bf3dfe39753dc0a03b2421a16c2e202a687998ad869b8e593fd29",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-4",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/src/agent/subagents/builtin/reflection-v2.md",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-4.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "2b517a0fb0c0681ac4ec71a306adcbd71b54770850f4f28e3896d071e4bc5d43",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-5",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/src/agent/memory-conflict-repair.ts",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-5.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d45b77562bb6954e3d265a804803de32d424f6faf31b0c5940bc8ed109d9589e",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-6",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/src/backend/local/system-prompt-compilation.ts",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-6.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d3557c2ab0fc3eedde14ce417247fcce029e75064f4fae5539b144b521c00178",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-extra-7",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/src/backend/local/transcript-search.ts",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-extra-7.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "db3c81a40e5df8d403eea1659d08c8aa926f0022a05976f7b1c10dbe8bb8c0a2",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-extra-1",
+    "url": "https://raw.githubusercontent.com/getzep/graphiti/8d8a12a22452cbef9335792afb73b8cbfe6a79fa/graphiti_core/prompts/dedupe_edges.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-extra-1.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "adcbe60da630fb81341b98a40f0e6d2c11f04e0a2280366e5dbd774cc34fd851",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  }
+]

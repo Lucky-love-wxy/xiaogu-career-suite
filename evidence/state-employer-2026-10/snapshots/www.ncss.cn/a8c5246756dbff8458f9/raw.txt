@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:shiro="http://www.ncss.cn/thymeleaf/shiro">
+  <head>
+    <title>网站简介-国家大学生就业服务平台</title>
+    <meta charset="UTF-8" />
+    
+    <meta name="keywords" content="大学生就业" />
+    <meta name="description" content="国家大学生就业服务平台是由教育部主管、教育部学生服务与素质发展中心运营的服务于高校毕业生及用人单位的公共就业服务平台。" />
+    <meta name="author" content="教育部学生服务与素质发展中心" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="google-site-verification" content="52dtGUDDxbwIvPWlwp32Khp55akz69_Q51anBeWttDA" />
+    <meta name="alexaVerifyID" content="D1wdmlPJgnlmizWUOGeb2LAv6rA" />
+    <link rel="shortcut icon" href="https://t3.chei.com.cn/ncss/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="//t1.chei.com.cn" />
+    <link rel="dns-prefetch" href="//t2.chei.com.cn" />
+    <link rel="dns-prefetch" href="//t3.chei.com.cn" />
+    <link rel="dns-prefetch" href="//t4.chei.com.cn" />
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="stylesheet" href="https://t2.chei.com.cn/ncss/jyxw/css/bootstrap.min2.css" />
+    <!-- jycms通用样式 -->
+<link rel="stylesheet" href="https://t1.chei.com.cn/ncss/jyxw/css/common.css?20260806" />
+    
+    <link rel="stylesheet" href="https://t2.chei.com.cn/ncss/student/css/register.dialog.css" />
+    <script src='https://t1.chei.com.cn/common/jquery/3.6.0/jquery.min.js'></script>
+    <script src="https://t3.chei.com.cn/ncss/jyxw/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .main {
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+      .container {
+        width: 1170px;
+      }
+      .navbar2 > li.active > a {
+        background-color: #0277bd;
+      }
+      .col-xs-4 {
+        background: transparent;
+        border: none;
+      }
+      .search-article-form {
+        border: 2px solid #ff9900;
+      }
+      .search-article-form .form-group {
+        margin-bottom: 0;
+      }
+      .search-article-form .form-group input {
+        border-radius: 0;
+        border: none;
+      }
+      .search-article-form .form-group .btn-default {
+        border-radius: 0;
+        border: none;
+        border-left: 2px solid #ff9900;
+      }
+      .favorite h2 {
+        border-bottom: 1px solid #ccc;
+        color: #23b2f1;
+        font-size: 18px;
+        padding-bottom: 10px;
+      }
+      .favorite ul {
+        padding: 0 0 0 7px;
+        font-size: 12px;
+        color: #999;
+        list-style-position: inside;
+      }
+      .favorite ul li {
+        line-height: 32px;
+      }
+      .favorite ul li a {
+        color: #999;
+      }
+      .media-body,
+      .media-left,
+      .media-right {
+        display: table-cell;
+        vertical-align: top;
+      }
+      .article {
+        border-bottom: 1px solid #ccc;
+        padding: 25px 0;
+        padding-left: 10px;
+      }
+      .article h4 {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 15px;
+      }
+      .article h5,
+      .article p {
+        font-size: 12px;
+        color: #999;
+      }
+      .active h5 {
+        margin-bottom: 20px;
+      }
+      .active a {
+        text-decoration: none;
+      }
+      .article .media-body {
+        padding-left: 25px;
+      }
+      .nav > li > a {
+        padding: 5px 32px;
+      }
+      .nav-tabs > li.active > a,
+      .nav-tabs > li.active > a:hover,
+      .nav-tabs > li.active > a:focus {
+        position: relative;
+        background: #ff9900;
+        border-color: ff9900;
+        color: #fff;
+      }
+      .nav-tabs > li.active > a:after {
+        position: absolute;
+        content: ' ';
+        border: 6px solid #ff9900;
+        left: 50%;
+        margin-left: -5px;
+        top: 100%;
+        border-color: #ff9900 transparent transparent;
+      }
+      .specialization img {
+        width: 187px;
+        height: 139px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      .tab-pane .article:last-child {
+        border-bottom: none;
+      }
+      .label {
+        margin-left: 25px;
+        padding: 0.2em 0.9em 0.2em;
+        border-radius: 0;
+      }
+      h2 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 18px;
+        margin-top: 40px;
+      }
+      .article-date {
+        font-size: 12px;
+        text-align: center;
+      }
+      .article-date span {
+        padding-right: 20px;
+      }
+      .article-content {
+        font-size: 14px;
+        padding: 0 50px 20px;
+      }
+      .sidebar a {
+        display: block;
+        margin-bottom: 15px;
+      }
+    </style>
+  
+    
+
+<script th:fragment="gaSync" async src="https://www.googletagmanager.com/gtag/js?id=UA-105074615-1"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?378ff17a1ac046691cf78376632d1ed4";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+    (function(w, d, s, q) {
+        w[q] =w[q] || [];
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s);
+        j.async=true;
+        j.id='beacon-aplus';
+        j.src='https://o.alicdn.com/QTSDK/quicktracking-sdk/qt_web.umd.js';
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'aplus_queue');
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['appKey', 'pe1u003gswd7xoe4wkhoap98']  })
+    aplus_queue.push({ action: 'aplus.setMetaInfo', arguments: ['trackDomain', 'qtedu.om.moe.edu.cn']  });
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-105074615-1');
+
+    function gaTrackerOutboundLink(ele,eventCategory,eventAction,eventLabel){
+        gtag('event', eventAction, {
+            'event_category': eventCategory,
+            'event_label': eventLabel
+        });
+        return true;
+    }
+</script>
+
+  </head>
+  <body>
+    
+      <style type="text/css">
+  li {
+    list-style: none;
+  }
+
+  header {
+    margin-bottom: 0 !important;
+    background: #fff;
+  }
+  header img{
+    height: auto;
+  }
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  header .navbar-top {
+    height: 110px;
+    line-height: 110px;
+    background: #fff;
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  header .navbar-top .navtop-ght {
+    float: right;
+  }
+  header .navbar-top .logo-bl {
+    font-size: 36px;
+    color: #273b55;
+    font-weight: 700;
+    height: 110px;
+    display: inline-block;
+  }
+  .headernav-bl .navbar {
+    width: 1170px;
+    min-height: 30px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0
+}
+
+.headernav-bl .navbar .nav li a {
+    padding: 0 15px;
+    line-height: 30px;
+    color: #ccc
+}
+
+.headernav-bl .navbar .navbar-right li {
+    position: relative;
+    width: auto;
+    text-align: center;
+    margin-right: 15px !important;
+    padding: 0;
+    font-size: 14px;
+}
+.headernav-bl .navbar .navbar-right li:last-child {
+  margin-right: 7px !important;
+}
+
+.headernav-bl .navbar .navbar-right li a {
+    padding: 0;
+    line-height: 30px;
+    color: #ccc
+}
+.headernav-bl .navbar .navbar-right li a:hover, .headernav-bl .navbar .navbar-right li a:focus{
+  background-color: #fff;
+}
+.headernav-bl .navbar .navbar-right li a img {
+    width: 24px;
+    height: 24px;
+    background: #fff
+}
+
+.headernav-bl .navbar .navbar-right li .new:before {
+    font-size: 16px
+}
+
+.headernav-bl .navbar .navbar-right li .new:after {
+    content: "\e641";
+    position: absolute;
+    top: -6px;
+    left: 29px;
+    font-size: 1px;
+    color: #de3131
+}
+
+.headernav-bl .navbar .navbar-right .link ul {
+    display: none;
+    background: #505051
+}
+
+.headernav-bl .navbar .navbar-right .link:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    left: -9px
+}
+
+.headernav-bl .navbar .navbar-right .link:hover ul li {
+    padding-left: 17px;
+    text-align: left;
+    font-size: 14px;
+    width: 88px;
+    margin: 0
+}
+
+.headernav-bl .navbar .navbar-right .link:hover ul li:hover {
+    background: #666
+}
+
+.headernav-bl .navbar .navbar-right .link:hover ul li .number {
+    margin-right: 5px;
+    color: #de3131
+}
+
+.headernav-bl .navbar .navbar-right .link:hover ul li a:hover {
+    color: #fff
+}
+
+.headernav-bl .navbar .navbar-right .link #collection {
+    left: -29px !important
+}
+
+.headernav-bl .navbar .navbar-right .link #collection li {
+    padding-left: 0;
+    text-align: center
+}
+  .navbar-top .logo-bl .logo-img {
+    width: 480px;
+    height: 110px;
+    background-image: url('https://t2.chei.com.cn/ncss/jyxw/images/logo/logo-text.svg');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .headernav-bl .navbar .navbar-right li a {
+    color: #333;
+  }
+  .nav-bl {
+    height: 80px;
+    background: #0168d1;
+  }
+
+  .headernav-bl .navbar .navtop-ght .nav a {
+    color: #333;
+    height: 110px;
+    line-height: 110px;
+  }
+
+  .navbar-top img {
+    width: auto;
+  }
+
+  header .nav-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  header .nav-index-list {
+    padding: 0 0 0 83px;
+  }
+  header .nav-index-list li {
+    float: left;
+    color: #fff;
+  }
+
+  header .nav-index-list .nav-th {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  header .nav-index-list .nav-con {
+    float: left;
+  }
+
+  .nav-index-list .nav-fast-li {
+    position: relative;
+  }
+
+  .nav-index-list .nav-th {
+    padding: 0 37px;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .nav-index-list .nav-th a {
+    color: #fff;
+  }
+
+  .nav-index-list .nav-fast-li::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 56px;
+    background: rgba(255,255,255,0.3);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -28px;
+  }
+
+  .nav-index-list .nav-fast-li:last-child::after {
+    display: none;
+  }
+
+  .nav-index-list .nav-td {
+    padding: 12px 0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .nav-index-list .nav-td li {
+    float: left;
+    margin-right: 33px;
+  }
+
+  .nav-td .td-a a {
+    color: #fff;
+  }
+
+  .nav-index-list .nav-td .fxts-a {
+    margin-right: 35px;
+  }
+  .headernav-bl .user-name {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 50px;
+    white-space: nowrap;
+    line-height: 1;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    margin-left: 3px;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+    top: -1px;
+}
+  #stuName {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .loaction-dl {
+    float: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin: 22px 0 2px 10px;
+    display: block;
+  }
+  .loaction-dl .site-name{
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 250px;
+  }
+  header .navtop-ght .nolog-a {
+    font-size: 14px;
+    color: #2068CA;
+    line-height: 1;
+    padding: 9px 10px;
+    background: #EFF4FA;
+    margin-left: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all .3s;
+  }
+  header .navtop-ght .nolog-a:hover{
+    background: #2068CA;
+    color: #fff;
+  }
+  header .navtop-ght .nolog-a:last-child {
+    background: transparent;
+    padding: 9px 0;
+    color: #777;
+  }
+  header .navtop-ght .nolog-a:last-child:hover {
+    background: transparent;
+    color: #0168d1;
+  }
+  .a-bl {
+    /* height: 110px; */
+    margin-top: 39px;
+    display: flex;
+  }
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+  }
+    .navtop-ght .top-nav-search-input {
+        display: block;
+        position: relative;
+    }
+    .navtop-ght .search-button {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url(https://t2.chei.com.cn/common/images/icon-search.svg) center center no-repeat;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 7px;
+        top: 5px;
+    }
+    .top-nav-search-input .search-input {
+        width: 180px;
+        border-radius: 16px;
+        border: 1px solid #d4d9d7;
+        height: 30px;
+        color: #131b18;
+        background: #FFF;
+        border-radius: 4px;
+        outline: none;
+        padding: 0 28px 0 8px;
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+    }
+    .top-nav-search-input .search-input:focus {
+        border: 1px solid #0168d1;
+    }
+    .navtop-ght .rgt-bl, .navtop-ght .rgt-bl-bot {
+        display: flex;
+        justify-content: right;
+    }
+    .navtop-ght .rgt-bl .top-nav-search-input{
+        margin-top: 22px;
+    }
+    .navtop-ght .rgt-bl .ch-header-divide, .navtop-ght .rgt-bl-bot .ch-header-divide {
+        margin-left: 14px;
+        color: #e6e6e6;
+        font-size: 16px;
+        line-height: 1;
+        margin-top: 28px;
+    }
+    .navtop-ght .rgt-bl-bot .ch-header-divide {
+        margin-top: 45px;
+    }
+    .navtop-ght .rgt-bl-bot .top-nav-search-input {
+        margin-top: 39px;
+    }
+    .top-nav-load-search {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url(https://t2.chei.com.cn/common/images/icon-search.svg) center center no-repeat;
+        cursor: pointer;
+        margin-top: 45px;
+    }
+    .search-cancel {
+        margin-left: 12px;
+        line-height: 1;
+        margin-top: 47px;
+        cursor: pointer;
+        color: #67716c;
+    }
+    #corpBar .search-cancel, #corpBar .top-nav-load-search, #stuBar .search-cancel, #stuBar .top-nav-load-search{
+        margin-right: 16px;
+    }
+</style>
+
+<!--导航 begin-->
+<header>
+  <!-- 顶部登录入口 -->
+  <div class="headernav-bl">
+    <div class="navbar-top clearfix navbar">
+      <span class="logo-bl">
+         <span class="logo-img"></span>
+      </span>
+
+      <div class="navtop-ght hidden" id="otherBar">
+        <div class="rgt-bl hidden" id="rgtSearch">
+            <span class="ch-header-divide">|</span>
+            <div class="loaction-dl loaction-span hidden">
+                <i class="iconfont icon-dizhi"></i>
+                <span class="site-name" title="全国">全国</span>
+                <span class="quote" style="color: #0168d1; margin-left: 5px">【切换】</span>
+            </div>
+        </div>
+        <div class="rgt-bl-bot">
+            <div class="top-nav-search-input hidden" id="top-nav-input">
+                <form class="site-search" action="https://cn.bing.com/search" target="_blank" method="get">
+                    <input type="hidden" class="realQuery" name="q" value="">
+                    <input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" class="search-input" value="" maxlength="100">
+                    <button type="submit" class="search-button"></button>
+                </form>
+            </div>
+            <span class="search-cancel hidden">取消</span>
+            <span class="top-nav-load-search hidden"></span>
+            <span class="ch-header-divide hidden">|</span>
+            <div class="a-bl">
+                <a class="nolog-a" href="/student/signin.html" target="_blank">求职者登录/注册</a>
+                <a class="nolog-a" href="https://job.ncss.cn/corp/signin.html" target="_blank">用人单位登录/注册</a>
+                <a class="nolog-a" href="https://job.ncss.cn/manager/signin.html" target="_blank">管理用户登录</a>
+            </div>
+        </div>
+      </div>
+      <div id="corpBar" class="navtop-ght hidden">
+        <div class="rgt-bl hidden" id="rgtSearch">
+            <span class="ch-header-divide">|</span>
+            <div class="loaction-dl loaction-span hidden">
+                <i class="iconfont icon-dizhi"></i>
+                <span class="site-name" title="全国">全国</span>
+                <span class="quote" style="color: #0168d1; margin-left: 5px">【切换】</span>
+            </div>
+        </div>
+        <div class="rgt-bl-bot">
+            <div class="top-nav-search-input hidden" id="top-nav-input">
+                <form class="site-search" action="https://cn.bing.com/search" target="_blank" method="get">
+                    <input type="hidden" class="realQuery" name="q" value="">
+                    <input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" class="search-input" value="" maxlength="100">
+                    <button type="submit" class="search-button"></button>
+                </form>
+            </div>
+            <span class="search-cancel hidden">取消</span>
+            <span class="top-nav-load-search hidden"></span>
+            <span class="ch-header-divide hidden">|</span>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="link">
+                    <a href="/student/resume/personcenter.html">
+                    <span>
+                        <img id="corpImg" class="img-circle" style="padding: 2px;position: relative;" />
+                    </span>
+                    <span class="user-name" id="corpName"></span>
+                    </a>
+                </li>
+                <li>
+                    <a class="corp-btnsigout" href="https://job.ncss.cn/corp/signout.html">
+                    <span>退出</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div id="stuBar" class="navtop-ght hidden">
+        <div class="rgt-bl hidden" id="rgtSearch">
+            <span class="ch-header-divide">|</span>
+            <div class="loaction-dl loaction-span hidden">
+              <i class="iconfont icon-dizhi"></i>
+              <span class="site-name" title="全国">全国</span>
+              <span class="quote" style="color: #0168d1; margin-left: 5px">【切换】</span>
+            </div>
+        </div>
+        <div class="rgt-bl-bot">
+            <div class="top-nav-search-input hidden" id="top-nav-input">
+                <form class="site-search" action="https://cn.bing.com/search" target="_blank" method="get">
+                    <input type="hidden" class="realQuery" name="q" value="">
+                    <input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" class="search-input" value="" maxlength="100">
+                    <button type="submit" class="search-button"></button>
+                </form>
+            </div>
+            <span class="search-cancel hidden">取消</span>
+            <span class="top-nav-load-search hidden"></span>
+            <span class="ch-header-divide hidden">|</span>
+            <ul class="nav navbar-nav navbar-right loginhas-ul">
+                <li class="link">
+                    <a href="/student/resume/personcenter.html">
+                    <img id="stuImg" class="img-circle"
+                        style="-moz-border-radius: 50%; -webkit-border-radius: 50%; width: 28px; height: 28px; border: 2px solid #fff; position: relative;"
+                        onerror="this.src='https://t1.chei.com.cn/ncss/student/img/head.png';this.onerror=null;" />
+                    <span class="user-name" id="stuName"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/student/resume/index.html">
+                    <span>简历</span>
+                    </a>
+                </li>
+                <li class="link">
+                    <a href="/student/myjobs/index.html?job">
+                    <span>收藏</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/student/myjobs/jobs.html">
+                    <span>求职记录</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://dj.ncss.cn/confirm/index.html" target="_blank">
+                    <span>毕业去向</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/student/notification/index.html">
+                    <span>通知</span>
+                    <span id="stuNtf" class="label label-success"
+                        style="padding: 0.1em 0.4em 0.1em 0.4em; background-color: #f53333;margin-left: 0;"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/student/signout.html">
+                    <span>退出</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-bl">
+    <div class="nav-wrapper">
+      <ul class="nav-index-list clearfix">
+        <li class="nav-fast-li">
+          <div class="nav-th">
+            <a href="/">首页</a>
+          </div>
+        </li>
+        <li class="nav-fast-li">
+          <div class="nav-th">
+            毕业生
+          </div>
+          <div class="nav-con">
+            <ul id="navUl" class="nav-td clearfix">
+              <li>
+                <div class="td-a"><a href="/student/jobs/index.html">职位信息</a></div>
+                <div class="td-a"><a href="/zdxw">就业指导</a></div>
+              </li>
+              <li>
+                <div class="td-a"><a href="/student/jobfair/index.html">专场招聘</a>
+                </div>
+                <div class="td-a"><a href="/keyunits/">重点领域</a></div>
+              </li>
+              <li>
+                <div class="td-a"><a href="/student/24365">联合招聘</a></div>
+                <div class="td-a"><a href="/student/shixi.html">实习岗位</a></div>
+              </li>
+              <li>
+                <div class="td-a">
+                    <a class="fxts-a" href="https://dj.ncss.cn/" target="_blank">去向登记</a><a href="https://www.gfbzb.gov.cn/" target="_blank">应征入伍</a>
+                </div>
+                <div class="td-a">
+                    <a class="fxts-a" href="/jyfxts" target="_blank">风险提示</a><a href="https://hzzh.chsi.com.cn/" target="_blank">宏志助航</a>
+                </div>
+              </li>
+            </ul>
+            <ul id="navUlSmart" class="nav-td clearfix">
+                <li>
+                  <div class="td-a"><a href="/student/jobs/index.html">职位信息</a></div>
+                  <div class="td-a"><a href="/zdxw">就业指导</a></div>
+                </li>
+                <li>
+                  <div class="td-a"><a href="/student/jobfair/index.html">专场招聘</a></div>
+                  <div class="td-a"><a href="/student/shixi.html">实习岗位</a></div>
+                </li>
+                <li>
+                  <div class="td-a"><a href="/student/24365">联合招聘</a></div>
+                  <div class="td-a"> <a href="/jyfxts" target="_blank">风险提示</a></div>
+                </li>
+                <li>
+                    <div class="td-a">
+                        <a class="fxts-a" href="https://dj.ncss.cn/" target="_blank">去向登记</a><a href="https://www.gfbzb.gov.cn/" target="_blank">应征入伍</a>
+                    </div>
+                  <div class="td-a">
+                      <a href="https://hzzh.chsi.com.cn/" target="_blank">宏志助航</a>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </li>
+        <li class="nav-fast-li">
+          <div class="nav-th">
+            资讯动态
+          </div>
+          <div class="nav-con">
+            <ul class="nav-td clearfix">
+              <li>
+                <div class="td-a"><a href="/jydtxw">就业资讯</a></div>
+                <div class="td-a"><a href="/zcxw">就业政策</a></div>
+              </li>
+              <li>
+                <div class="td-a"><a target="_blank" href="https://jiuy.cbpt.cnki.net/" rel="noopenner noreferrer">就业杂志</a></div>
+                <div class="td-a"><a href="/qnyz/">青年驿站</a></div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<script>
+    var formsearchStr = [];
+    formsearchStr = [
+        formsearchStr,
+        '<div class="top-nav-search-input" id="top-nav-input">',
+            '<form class="site-search" action="https://cn.bing.com/search" target="_blank" method="get">',
+                '<input type="hidden" class="realQuery" name="q" value="">',
+                '<input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" class="search-input" value="" maxlength="100">',
+                '<button type="submit" class="search-button"></button>',
+            '</form>',
+        '</div>'
+    ].join('');
+    var ymStr = document.location.hostname;
+    if (ymStr == '24365.smartedu.cn') {
+        document.getElementById('navUl').remove();
+    }else {
+        document.getElementById('navUlSmart').remove();
+    }
+  function randomCdn(id) {
+    var domainsArr = ['https://t1.chei.com.cn', 'https://t2.chei.com.cn', 'https://t3.chei.com.cn', 'https://t4.chei.com.cn'];
+    if (id) {
+      return domainsArr[Math.floor(Math.random() * 4)] + '/student/ncss/cdn/job/img/' + id + '.png';
+    } else {
+      return '';
+    }
+  }
+  if (typeof $ != 'undefined') {
+    $('.top-nav-load-search').removeClass('hidden');
+    $.getJSON('/student/getlogstate?callback=?', function (data) {
+      if (data.islogin == 'true') {
+        if (data.userType == 'STUDENT') {
+          $('#stuBar').removeClass('hidden');
+          $('#corpBar').remove();
+          $('#otherBar').remove();
+          $('#stuImg').attr('src', randomCdn(data.avatorUrl));
+          $('#stuName').text(data.realName);
+          $('#stuNtf').text(data.notificationNum);
+        } else {
+          $('.corp-btnsigout').attr('href', '//job.ncss.cn/corp/signout.html');
+          $('#corpBar').removeClass('hidden');
+          $('#otherBar').remove();
+          $('#stuBar').remove();
+        }
+      } else {
+        $('#otherBar').removeClass('hidden');
+        $('#corpBar').remove();
+        $('#stuBar').remove();
+      }
+      searchBd();
+      displaySearch();
+    });
+    displaySearch();
+  } else {
+    document.getElementById('otherBar').className = document.getElementById('otherBar').className.replace(' hidden', '');
+    searchBd();
+  }
+  function displaySearch () {
+    $('.top-nav-load-search').click(function(){
+        $(this).addClass("hidden");
+        $(this).parent().find('.search-cancel').removeClass("hidden");
+        $(this).parent().find('.top-nav-search-input').removeClass("hidden");
+        $(this).parent().find('.top-nav-search-input .search-input').focus();
+    })
+    $('.search-cancel').click(function(){
+        $(this).addClass("hidden");
+        $(this).parent().find('.top-nav-load-search').removeClass("hidden");
+        $(this).parent().find('.top-nav-search-input').addClass("hidden");
+    })
+  }
+  function searchBd () {
+    const searchInput = document.querySelector('.search-input');
+    const realQuery = document.querySelector('.realQuery');
+    const searchForm = document.querySelector('.site-search');
+    // 提交表单前处理搜索词
+    if (searchForm) {
+        searchForm.addEventListener('submit', function (e) {
+            e.preventDefault(); // 阻止默认提交
+            const val = searchInput.value.trim();
+            if (!val) {
+                alert("请输入关键词");
+                return;
+            }
+            // 设置 realQuery 的值为关键词 + site:xxx
+            realQuery.value = val + ' site:www.ncss.cn';
+            // 手动提交表单
+            searchForm.submit();
+        });
+    }
+  }
+</script>
+      <div class="container" style="margin-top: 20px">
+        <div class="row content-bl">
+          <div class="col-xs-9" style="background: #fff; border: 1px solid #ccc; min-height: 640px">
+            <h2>网站简介</h2>
+
+            <hr style="border-color: #0168d1" />
+            <div class="article-content">
+              <p>&ensp;&ensp;&ensp;&ensp;国家大学生就业服务平台是由教育部主管、教育部学生服务与素质发展中心运营的服务于高校毕业生及用人单位的公共就业服务平台。</p>
+              <p><strong>精准推送职位：</strong><br /> &ensp;&ensp;&ensp;&ensp;根据往年招聘情况精准推送至毕业生，精准共享至各省、各校就业网，实现高精准、广覆盖。</p>
+              <p><strong>线上线下结合：</strong><br /> &ensp;&ensp;&ensp;&ensp;采取手机版、二维码等移动互联网模式实现线上线下服务相结合。</p>
+              <p><strong>大型网络招聘会</strong><strong>：</strong><br /> &ensp;&ensp;&ensp;&ensp;定期举办全国、各省市联合招聘会、重点领域招聘会，构建人才招聘零距离通道。</p>
+              <p><strong>生源信息查询</strong><strong>：</strong><br /> &ensp;&ensp;&ensp;&ensp;分学历、专业查询全国800多万高校毕业生生源分布。</p>
+              <p><strong>大数据支撑</strong><strong>：</strong><br /> &ensp;&ensp;&ensp;&ensp;每年800多万就业数据、800多万生源数据、学信网1000万新增用户以及3500万在校生数据库、1.7亿高等教育学历信息库，为用人单位精准、高效招聘提供数据与用户支撑。</p>
+              <p><strong>学籍学历验证</strong><strong>：</strong><br /> &ensp;&ensp;&ensp;&ensp;求职者学籍学历信息经过验证，单位也可自主查询验证。</p>
+              <p><strong>重点领域带动</strong><strong>：</strong><br /> &ensp;&ensp;&ensp;&ensp;推动高校毕业生到重点领域单位就业，实现高校毕业生更高质量更充分就业。</p>
+              <p><strong>专属客户和推广服务：</strong><br /> &ensp;&ensp;&ensp;&ensp;专属客服，提供最优解决方案；专属品牌及知名度推广服务。</p>
+            </div>
+            <div class="article-words"></div>
+          </div>
+          <div class="col-xs-3 sidebar">
+    <a href="/student/jobfair/index.html" target="_blank"><img style="width: 100%" src="https://t2.chei.com.cn/ncss/jyxw/images/right-pic.jpg" /></a>
+</div>
+<script>
+     $(function () {
+        $.ajax({
+            type: 'get',
+            url: '/jyfxts/xinwen',
+            data: {id: '2081267794'},
+            success: function (data) {
+                if (data.status == 0) {
+                    if (data.result.length > 0) {
+                        var inner = '';
+                        var len = data.result.length > 2 ? 2 : data.result.length;
+                        for (var m = 0; m < len; m++) {
+                            inner += '<a href="'+ data.result[m].uri +'" target="_blank"><img src="'+ data.result[m].imageUri +'" data-news alt="'+ data.result[m].title +'" style="width: 100%" /><a>'
+                        }
+                        $(".sidebar").append(inner);
+                    }
+                }
+            }
+        });
+     })
+</script>
+        </div>
+      </div>
+      <style>
+  footer {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  footer p {
+    text-indent: 0;
+  }
+</style>
+<footer style="height: 130px; background: #333; color: #fff; text-align: center; line-height: 27px; margin-top: 30px">
+  <div style="width: 1170px; margin: 0 auto; position: relative; padding-top: 24px">
+     <p style="margin: 0; word-spacing: 23px; color: #ccc">
+      <a style="color: #ccc" href="/intro" target="_blank">网站介绍</a>
+      <span>|</span>
+      <a style="color: #ccc" href="/contact" target="_blank">联系我们</a>
+    </p>
+    <p style="margin: 0">版权所有：<a style="color: #fff" href="https://chesicc.chsi.com.cn/" target="_blank">教育部学生服务与素质发展中心</a></p>
+    <p style="margin: 0; display: flex; align-items: center; justify-content: center">
+      <a style="color: #fff" href="https://beian.miit.gov.cn/" target="_blank">京ICP备19004913号-1</a>
+      <a style="color: #fff; margin-left: 10px;display: flex;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202009747" target="_blank"><img src="https://t3.chei.com.cn/chsi/images/jgwab.svg" /><span style="margin-left: 5px; color: #fff">京公网安备11010202009747号</span></a>
+    </p>
+  </div>
+</footer>
+    
+    
+  </body>
+</html>

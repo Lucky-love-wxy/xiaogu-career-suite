@@ -1,0 +1,477 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>欢迎来到广西人事考试网</title>
+  <meta name="keywords" content="广西人事考试网,广西考试网,广西公务员考试,广西公务员">
+  <meta name="description" content="广西壮族自治区人事考试院（广西壮族自治区公务员考试测评中心）是广西壮族自治区人力资源和社会保障厅直属事业单位，地址：南宁市桂春路9号广西就业大厦5楼，咨询电话：0771-12333">
+  <script src="./assets/lib/browse.js"></script>
+  <link rel="stylesheet" href="./assets/lib/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<!-- #region header -->
+<header class="container">
+    <div class="head">
+        <div class="logo">
+            <a href="/"><img src="http://www.gxpta.com.cn/assets/images/logo.png" alt="广西人事考试网" /></a>
+        </div>
+   <!--     <div class="slogan">
+            <img src="http://www.gxpta.com.cn/assets/images/slogan.png" alt="" />
+        </div>
+-->
+        <div class="slogan">
+            <img src="http://www.gxpta.com.cn/material/images/slogan.png" alt="" />
+        </div>
+        <div class="search">
+            <input type="text" placeholder="请输入关键词" onkeydown="TopSearchFunEnter();" id="keys" />
+			<button class="search-btn" onclick="TopSearchFun()"><i class="iconfont icon-search"></i></button>
+<script> 
+ if(window.location.protocol==='http:'){ 
+ window.location.href=window.location.href.replace('http:','https:') 
+ } 
+ </script> 
+<script>
+function TopSearchFunEnter() {
+var event = window.event || arguments.callee.caller.arguments[0];
+if (event.keyCode == 13) {
+TopSearchFun();
+}
+}
+function removeHTMLTag(str) {
+str = str.replace(/<\/?[^>]*>/g,'');
+str = str.replace(/[ | ]*\n/g,'\n');
+str = str.replace(/\n[\s| | ]*\r/g,'\n');
+str=str.replace(/&nbsp;/ig,'');
+str=str.replace(/\s/g,'');
+return str;
+}
+
+function TopSearchFun() {
+document.charset = "utf-8";
+var fixvalue = document.getElementById("keys").value;
+fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g, "");
+fixvalue = removeHTMLTag(fixvalue);
+fixvalue = removeHTMLTag(decodeURI(fixvalue));
+if (fixvalue.trim() == "") {
+document.getElementById("keys").value = "";
+layer.msg("请输入关键词", { icon: 5, offset: "10px", shade: 0.3, shadeClose: true });
+return false;
+} else {
+window.open('/so/search.shtml?code=188fc1ac534&searchWord=' + encodeURI(fixvalue) + '&dataTypeId=1&sign=22e0112b-6292-48db-cfa1-310258efc6a4');
+}
+}
+</script>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+                <li class='' id="gxpta">
+                    <a href="/">首 页</a>
+                </li>
+                <li class='' id="ksxm">
+                    <a href="/ksxm/">考试项目</a>
+                </li>
+                <li class='' id="ksjh">
+                    <a href="/ksjh/">考试计划</a>
+                </li>
+                <li class='' id="zcwj">
+                    <a href="/zcwj/">政策文件</a>
+                </li>
+                <li class='' id="cnhc">
+                    <a href="/cnhc/">承诺核查</a>
+                </li>
+                <li class='' id="kfkj">
+                    <a href="/kfkj/">考风考纪</a>
+                </li>
+                <li class='' id="ksfw">
+                    <a href="/ksfw/">考生服务</a>
+                </li>
+                <li class='' id="cjwt">
+                    <a href="/cjwt/">常见问题</a>
+                </li>
+        </ul>
+     <script>
+	  var temp=window.location.href;
+	  if (temp.indexOf("ksxm")>-1){
+	  document.getElementById("ksxm").className="active";
+	  }
+	  else if (temp.indexOf("ksjh")>-1){
+	  document.getElementById("ksjh").className="active";
+	  }
+	  else if (temp.indexOf("zcwj")>-1){
+	  document.getElementById("zcwj").className="active";
+	  }
+	  else if (temp.indexOf("cnhc")>-1){
+	  document.getElementById("cnhc").className="active";
+	  }
+	  else if (temp.indexOf("kfkj")>-1){
+	  document.getElementById("kfkj").className="active";
+	  }
+	  else if (temp.indexOf("ksfw")>-1){
+	  document.getElementById("ksfw").className="active";
+	  }
+	  else if (temp.indexOf("cjwt")>-1){
+	  document.getElementById("cjwt").className="active";
+	  }
+	  else if (temp.indexOf("")>-1){
+	  document.getElementById("gxpta").className="active";
+	  }
+	</script>
+    </div>
+</header>
+<!-- #endregion -->
+
+  <div class="container mt-4">
+    <div class="flex flex-wrap overflow-hidden">
+      <div class="w-full md:w-2/3 md:pr-4 h-48 md:h-auto">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+		  
+            <div class="swiper-slide" style="background:url(./ljgl/syhdp/W020240102600922621600.png);"><a title="如何申请学历学位在线验证/认证报告" href="http://www.cpta.com.cn/notice/1642.html" target="_blank">关于请相关报考人员提前做好学历学位认证申请的温馨提醒</a></div>
+		  
+            <div class="swiper-slide" style="background:url(./ljgl/syhdp/W020230621385244386742.jpg);"><a title="如何申请学历学位在线验证/认证报告" href="http://www.gxpta.com.cn/ksfw/zgksbklc/" target="_blank">如何申请学历学位在线验证/认证报告</a></div>
+		  
+            <div class="swiper-slide" style="background:url(./ljgl/syhdp/W020230621383358403061.png);"><a title="如何申请学历学位在线验证/认证报告" href="http://cdn.cpta.com.cn/gfttxc.mp4" target="_blank">专业技术人员职业资格考试答题卡填涂规范宣传视频</a></div>
+		  
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 mt-4 md:mt-0 border border-blue-600 rounded-t">
+      <div class="title"><i class="iconfont icon-kuaijietongdao"></i><span>快捷通道</span></div>
+        <div class="icons fbg">
+        <a href="http://www.gxpta.com.cn/kstd/wsbm/" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-wangshangbaoming"></i>
+                <span>网上报名</span>
+            </div>
+        </a>
+        <a href="http://www.gxpta.com.cn/kstd/dyzkz/" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-dayinzhunkaozheng"></i>
+                <span>打印准考证</span>
+            </div>
+        </a>
+        <a href="http://www.gxpta.com.cn/kstd/cjcx/" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-chengjichaxun"></i>
+                <span>成绩查询</span>
+            </div>
+        </a>
+        <a href="http://www.gxpta.com.cn/kstd/zslq/" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-zhengshulingqu"></i>
+                <span>证书领取</span>
+            </div>
+        </a>
+        <a href="http://www.cpta.com.cn/certQuery.html" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-zhengshuheyan"></i>
+                <span>全国电子证书核验</span>
+            </div>
+        </a>
+        <a href="https://www.gx12333.net/si/#/modules/person/person" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-guangxizhengshuheyan"></i>
+                <span>广西电子证书核验</span>
+            </div>
+        </a>
+        <a href="https://app.tyggsfxt.cn/ycy-h5-einvoice/?office=1" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-paijushenling"></i>
+                <span>票据申领</span>
+            </div>
+        </a>
+        <a href="http://www.gxpta.com.cn/kstd/zslq/" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-kaoshengfuwu"></i>
+                <span>考生服务</span>
+            </div>
+        </a>
+        <a href="http://www.gxpta.com.cn/kspfzl/" target="_blank">
+            <div class="icon">
+                <i class="iconfont icon-hudongjiaoliu"></i>
+                <span>考试普法专栏</span>
+            </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flex flex-wrap justify-between">
+      <div class="w-full md:w-1/3 mt-4">
+        <div class="border h-full border-blue-600 rounded-t mr-0 md:mr-4">
+          <div class="title"><i class="iconfont icon-kaoshizhuanti"></i><span>考试专题</span></div>
+          <div class="specials">
+              <a href="./ksxm/gwyzlks/" target="_blank">
+                <div class="icon">
+                  <i class="iconfont icon-gongwuyuankaoshi"></i>
+                  <span>公务员招录考试</span>
+                </div>
+              </a>
+              <a href="./ksxm/gwylxks/" target="_blank">
+                <div class="icon">
+                  <i class="iconfont icon-pinrenzhigongwuyuankaoshi"></i>
+                  <span>公务员遴选考试</span>
+                </div>
+              </a>
+              <a href="./ksxm/sydwzpks/" target="_blank">
+                <div class="icon">
+                  <i class="iconfont icon-shiyedanweizhuanti"></i>
+                  <span>区直事业单位招聘</span>
+                </div>
+              </a>
+              <a href="./ksxm/zyzglks/" target="_blank">
+                <div class="icon">
+                  <i class="iconfont icon-zigeleikaoshi"></i>
+                  <span>职业资格类考试</span>
+                </div>
+              </a>
+              <a href="./ksxm/qtks/" target="_blank">
+                <div class="icon">
+                  <i class="iconfont icon-kaoshizhuanti"></i>
+                  <span>其他考试</span>
+                </div>
+              </a>
+            <a href="./ksjh/" target="_blank">
+              <div class="icon">
+                <i class='iconfont icon-kaoshijihua'></i>
+                <span>考试计划</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/3 mt-4">
+        <div class="border h-full border-blue-600 rounded-t mr-0 md:mr-4">
+          <div class="title"><i class="iconfont icon-tongzhi"></i><span>考试通知</span><a href="./sy/kstz/" target="_blank">更多++</a></div>
+          <ul class="articles">
+          
+            <li class=''><a href="./sy/kstz/t33010.html" target="_blank" title="关于开展2026年度初级注册安全工程师职业资格考试的通知">关于开展2026年度初级注册安全工程师职业资格考试的通知</a><span>[2026-09-29]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/yjzcxfgcszgks/yjxfgcskwtz/t32808.html" target="_blank" title="关于做好2026年度一级注册消防工程师资格考试广西考区考务工作的通知">关于做好2026年度一级注册消防工程师资格考试广西考区考务工作的通知</a><span>[2026-08-14]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/kcsjzcgcs/kcsjkwtz/t32796.html" target="_blank" title="关于做好2026年度全国勘察设计注册工程师执业资格考试广西考区考务工作的通知">关于做好2026年度全国勘察设计注册工程师执业资格考试广西考区考务工作的通知</a><span>[2026-08-13]</span></li>
+          
+            <li class=''><a href="./sy/kstz/t32716.html" target="_blank" title="关于广西人事考试缴费系统停机维护的通知">关于广西人事考试缴费系统停机维护的通知</a><span>[2026-07-31]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/zjzcaqgcszyzgks/aqgcskwtz/t32702.html" target="_blank" title="关于做好2026年度中级注册安全工程师职业资格考试广西考区考务工作的通知">关于做好2026年度中级注册安全工程师职业资格考试广西考区考务工作的通知</a><span>[2026-07-30]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/zyyszyzgks/yskwtz/t32700.html" target="_blank" title="关于做好2026年度执业药师职业资格考试广西考区考务工作的通知">关于做好2026年度执业药师职业资格考试广西考区考务工作的通知</a><span>[2026-07-30]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/xwjzzyzg/xwjzkwtz/t32690.html" target="_blank" title="关于做好2026年度新闻记者职业资格考试广西考区考务工作的通知">关于做好2026年度新闻记者职业资格考试广西考区考务工作的通知</a><span>[2026-07-29]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/jjzyjszgks/jjkwtz/t32604.html" target="_blank" title="关于做好2026年度初级、中级经济专业技术资格考试广西考区考务工作的通知">关于做好2026年度初级、中级经济专业技术资格考试广西考区考务工作的通知</a><span>[2026-07-15]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/yjzjgcszyzgks/yjzjgcskwtz/t32600.html" target="_blank" title="关于做好2026年度一级造价工程师职业资格考试广西考区考务工作的通知">关于做好2026年度一级造价工程师职业资格考试广西考区考务工作的通知</a><span>[2026-07-15]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/cbzyjsryzyzgks/cbkwtz/t32537.html" target="_blank" title="关于做好2026年度出版专业技术人员职业资格考试广西考区考务工作的通知">关于做好2026年度出版专业技术人员职业资格考试广西考区考务工作的通知</a><span>[2026-07-02]</span></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/3 mt-4">
+        <div class="border h-full border-blue-600 rounded-t">
+          <div class="title"><i class="iconfont icon-gonggao"></i><span>新闻公告</span><a href="./sy/xwgg/" target="_blank">更多++</a></div>
+          <ul class="articles">
+          
+            <li class=''><a href="./ksxm/qtks/qtks_szyf/qtks_szyf/t32619.html" target="_blank" title="关于划定2026年广西高校毕业生“三支一扶”计划招募笔试合格分数线的通告">关于划定2026年广西高校毕业生“三支一扶”计划招募笔试合格分数线的通告</a><span>[2026-07-20]</span></li>
+          
+            <li class=''><a href="./sy/kstz/t32395.html" target="_blank" title="2026年广西高校毕业生“三支一扶”计划招募公告">2026年广西高校毕业生“三支一扶”计划招募公告</a><span>[2026-06-09]</span></li>
+          
+            <li class=''><a href="https://mp.weixin.qq.com/s/Kv8ROJcqfcYQ7EgzVFX13Q" target="_blank" title="关于变更2026年度社会工作者职业资格考试柳州考区柳州市交通学校考点的通告">关于变更2026年度社会工作者职业资格考试柳州考区柳州市交通学校考点的通告</a><span>[2026-05-22]</span></li>
+          
+            <li class=''><a href="http://rsj.nanning.gov.cn/tzgg/t6627564.html" target="_blank" title="南宁市人事考试管理办公室关于调整2026年度社会工作者资格考试广西工商学校考点28至38考场考试地点的通告">南宁市人事考试管理办公室关于调整2026年度社会工作者资格考试广西工商学校考点28至38考场考试地点的通告</a><span>[2026-05-22]</span></li>
+          
+            <li class=''><a href="./sy/xwgg/t13907.html" target="_blank" title="2026年南部空军专业技能类文职人员公开招考公告">2026年南部空军专业技能类文职人员公开招考公告</a><span>[2026-04-23]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/shgzzzyspks/shkwtz/t13905.html" target="_blank" title="广西壮族自治区人事考试院关于2026年度社会工作者职业资格考试考区设置的通知">广西壮族自治区人事考试院关于2026年度社会工作者职业资格考试考区设置的通知</a><span>[2026-04-23]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/gxejjzszyzgks/ejjzskwtz/t13903.html" target="_blank" title="广西壮族自治区人事考试院关于2026年度广西二级建造师执业资格考试考区设置的通知">广西壮族自治区人事考试院关于2026年度广西二级建造师执业资格考试考区设置的通知</a><span>[2026-04-23]</span></li>
+          
+            <li class=''><a href="http://www.gxpta.com.cn/ksxm/gwyzlks/gx2026ndkslygwyxdszt/2026ngwygg/t13642.html" target="_blank" title="关于划定广西壮族自治区2026年度人民检察院检察官助理职位笔试合格分数线的通告">关于划定广西壮族自治区2026年度人民检察院检察官助理职位笔试合格分数线的通告</a><span>[2026-04-07]</span></li>
+          
+            <li class=''><a href="http://www.gxpta.com.cn/ksxm/gwyzlks/gx2026ndkslygwyxdszt/2026ngwygg/t13637.html" target="_blank" title="关于划定广西壮族自治区2026年度人民法院法官助理职位笔试合格分数线的通告">关于划定广西壮族自治区2026年度人民法院法官助理职位笔试合格分数线的通告</a><span>[2026-04-07]</span></li>
+          
+            <li class=''><a href="http://www.gxpta.com.cn/ksxm/gwylxks/gxzzzzqzsjg2026ndgklxgwyzt/2026nzslxtztg/t13643.html" target="_blank" title="关于划定广西壮族自治区直属机关2026年度公开遴选公务员笔试合格分数线的通告">关于划定广西壮族自治区直属机关2026年度公开遴选公务员笔试合格分数线的通告</a><span>[2026-04-07]</span></li>
+          
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container flex flex-wrap">
+    <div class="w-full md:w-1/2 mt-4">
+      <div class="border border-blue-600 rounded-t mr-0 md:mr-4">
+        <div class="title"><i class="iconfont icon-jinqikaoshibaoming"></i><span>近期考试报名</span><a href="./sy/jqksbm/" target="_blank">更多++</a></div>
+        <ul class="articles">
+          
+            <li class=''><a href="./cjwt/t1744.html" target="_blank" title="常见报名问题解答">常见报名问题解答</a><span>[2026-06-09]</span></li>
+          
+            <li class=''><a href="./sy/kstz/t33010.html" target="_blank" title="关于开展2026年度初级注册安全工程师职业资格考试的通知">关于开展2026年度初级注册安全工程师职业资格考试的通知</a><span>[2026-09-29]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/yjzcxfgcszgks/yjxfgcskwtz/t32808.html" target="_blank" title="关于做好2026年度一级注册消防工程师资格考试广西考区考务工作的通知">关于做好2026年度一级注册消防工程师资格考试广西考区考务工作的通知</a><span>[2026-08-14]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/kcsjzcgcs/kcsjkwtz/t32796.html" target="_blank" title="关于做好2026年度全国勘察设计注册工程师执业资格考试广西考区考务工作的通知">关于做好2026年度全国勘察设计注册工程师执业资格考试广西考区考务工作的通知</a><span>[2026-08-13]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/zjzcaqgcszyzgks/aqgcskwtz/t32702.html" target="_blank" title="关于做好2026年度中级注册安全工程师职业资格考试广西考区考务工作的通知">关于做好2026年度中级注册安全工程师职业资格考试广西考区考务工作的通知</a><span>[2026-07-30]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/zyyszyzgks/yskwtz/t32700.html" target="_blank" title="关于做好2026年度执业药师职业资格考试广西考区考务工作的通知">关于做好2026年度执业药师职业资格考试广西考区考务工作的通知</a><span>[2026-07-30]</span></li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="w-full md:w-1/2 mt-4">
+      <div class="border border-blue-600 rounded-t">
+        <div class="title"><i class="iconfont icon-chengjigongbu"></i><span>成绩公布</span><a href="./sy/cjgb/" target="_blank">更多++</a></div>
+        <ul class="articles">
+          
+            <li class=''><a href="http://www.cpta.com.cn/performance/2239.html" target="_blank" title="2026年度一、二级注册计量师职业资格考试成绩已公布">2026年度一、二级注册计量师职业资格考试成绩已公布</a><span>[2026-08-14]</span></li>
+          
+            <li class=''><a href="http://www.cpta.com.cn/performance/2237.html" target="_blank" title="2026年度环境影响评价工程师职业资格考试成绩已公布">2026年度环境影响评价工程师职业资格考试成绩已公布</a><span>[2026-08-14]</span></li>
+          
+            <li class=''><a href="http://www.cpta.com.cn/performance/2235.html" target="_blank" title="2026年度一、二级注册建筑师资格考试成绩已公布">2026年度一、二级注册建筑师资格考试成绩已公布</a><span>[2026-08-04]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/gxejjzszyzgks/ejjzscjfbtz/t32709.html" target="_blank" title="2026年度广西二级建造师执业资格考试成绩已公布">2026年度广西二级建造师执业资格考试成绩已公布</a><span>[2026-07-30]</span></li>
+          
+            <li class=''><a href="http://www.cpta.com.cn/performance/2229.html" target="_blank" title="2026年度社会工作者职业资格考试成绩已公布">2026年度社会工作者职业资格考试成绩已公布</a><span>[2026-07-27]</span></li>
+          
+            <li class=''><a href="http://www.cpta.com.cn/performance/2226.html" target="_blank" title="2026年度监理工程师职业资格考试成绩已公布">2026年度监理工程师职业资格考试成绩已公布</a><span>[2026-07-21]</span></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container flex flex-wrap">
+    <div class="w-full md:w-1/2 mt-4">
+      <div class="border border-blue-600 rounded-t mr-0 md:mr-4">
+        <div class="title"><i class="iconfont icon-nihegerenyuangongshi"></i><span>承诺核查</span><a href="./cnhc/" target="_blank">更多++</a></div>
+        <ul class="articles">
+          
+            <li class=''><a href="./ksxm/zyzglks/shgzzzyspks/shcnhc/t32993.html" target="_blank" title="关于公布2026年度社会工作者职业资格考试单独划线广西考区成绩合格人员资格核查结果的通知">关于公布2026年度社会工作者职业资格考试单独划线广西考区成绩合格人员资格核查结果的通知</a><span>[2026-09-24]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/shgzzzyspks/shcnhc/t32912.html" target="_blank" title="关于2026年度社会工作者职业资格考试单独划线广西考区成绩合格人员资格核查有关事项的通知">关于2026年度社会工作者职业资格考试单独划线广西考区成绩合格人员资格核查有关事项的通知</a><span>[2026-09-10]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/shgzzzyspks/shcnhc/t32782.html" target="_blank" title="关于公布2026年度社会工作者职业资格考试部分成绩合格人员承诺情况核查结果的通知">关于公布2026年度社会工作者职业资格考试部分成绩合格人员承诺情况核查结果的通知</a><span>[2026-08-10]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/jlgcszgks/jlgcscnhc/t32780.html" target="_blank" title="关于公布2026年度监理工程师职业资格考试部分成绩合格人员承诺情况核查结果的通知">关于公布2026年度监理工程师职业资格考试部分成绩合格人员承诺情况核查结果的通知</a><span>[2026-08-10]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/shgzzzyspks/shcnhc/t32694.html" target="_blank" title="2026年度社会工作者职业资格考试广西考区 部分成绩合格人员承诺情况公示">2026年度社会工作者职业资格考试广西考区 部分成绩合格人员承诺情况公示</a><span>[2026-07-29]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/jlgcszgks/jlgcscnhc/t32692.html" target="_blank" title="2026年度监理工程师职业资格考试广西考区部分成绩合格人员承诺情况公示">2026年度监理工程师职业资格考试广西考区部分成绩合格人员承诺情况公示</a><span>[2026-07-29]</span></li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="w-full md:w-1/2 mt-4">
+      <div class="border border-blue-600 rounded-t">
+        <div class="title"><i class="iconfont icon-lingzhengtongzhi"></i><span>领证通知</span><a href="./sy/lztz/" target="_blank">更多++</a></div>
+        <ul class="articles">
+          
+            <li class=''><a href="./sy/lztz/t3177.html" target="_blank" title="关于专业技术人员职业资格证书现场领取地点变更的通告">关于专业技术人员职业资格证书现场领取地点变更的通告</a><span>[2025-08-12]</span></li>
+          
+            <li class=''><a href="./sy/lztz/t3479.html" target="_blank" title="关于证书领取的温馨提示">关于证书领取的温馨提示</a><span>[2025-11-06]</span></li>
+          
+            <li class=''><a href="./sy/lztz/t1212.html" target="_blank" title="广西壮族自治区人事考试院关于广西“数智人社”系统“考试服务”业务上线的通知">广西壮族自治区人事考试院关于广西“数智人社”系统“考试服务”业务上线的通知</a><span>[2024-03-01]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/fyzyzgks/fyzslq/t32947.html" target="_blank" title="关于领取2026年度翻译专业资格（水平）考试广西考区合格证书（成绩通知书）的通知">关于领取2026年度翻译专业资格（水平）考试广西考区合格证书（成绩通知书）的通知</a><span>[2026-09-17]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/zcjlszyzgks/jlszslq/t32872.html" target="_blank" title="关于领取2026年度一、二级注册计量师职业资格考试广西考区合格证书的通知">关于领取2026年度一、二级注册计量师职业资格考试广西考区合格证书的通知</a><span>[2026-09-03]</span></li>
+          
+            <li class=''><a href="./ksxm/zyzglks/hjyxpjgcszgks/hjyxzslq/t32870.html" target="_blank" title="关于领取2026年度环境影响评价工程师职业资格考试广西考区合格证书的通知">关于领取2026年度环境影响评价工程师职业资格考试广西考区合格证书的通知</a><span>[2026-09-03]</span></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- #region footer -->
+<footer>
+    <div class="container">
+        <div class="border border-blue-600 rounded-t fbg2">
+            <div class="title"><i class="iconfont icon-youqinglianjie"></i><span>友情链接</span></div>
+            <div class="piclinks">
+            
+                    <a href="http://www.mohrss.gov.cn/" target="_blank">
+                        <img src="http://www.gxpta.com.cn/ljgl/yqlj/W020230621429481704306.jpg" alt="中华人民共和国人力资源和社会保障部" />
+                    </a>
+            
+                    <a href="http://www.gxzf.gov.cn/" target="_blank">
+                        <img src="http://www.gxpta.com.cn/ljgl/yqlj/W020230621428888044863.jpg" alt="中华人民共和国人力资源和社会保障部" />
+                    </a>
+            
+                    <a href="http://rst.gxzf.gov.cn/" target="_blank">
+                        <img src="http://www.gxpta.com.cn/ljgl/yqlj/W020230621428181528609.jpg" alt="中华人民共和国人力资源和社会保障部" />
+                    </a>
+            
+                    <a href="http://www.cpta.com.cn/" target="_blank">
+                        <img src="http://www.gxpta.com.cn/ljgl/yqlj/W020230621427552148200.jpg" alt="中华人民共和国人力资源和社会保障部" />
+                    </a>
+            
+                    <a href="https://rsks.class.com.cn/index" target="_blank">
+                        <img src="http://www.gxpta.com.cn/ljgl/yqlj/W020230621426712868663.jpg" alt="中华人民共和国人力资源和社会保障部" />
+                    </a>
+            
+                    <a href="https://www.bgxf.gov.cn/" target="_blank">
+                        <img src="http://www.gxpta.com.cn/ljgl/yqlj/W020230621424566519210.png" alt="中华人民共和国人力资源和社会保障部" />
+                    </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="copyright fbg2 rounded-b">
+            <div class="ewm1">
+                <img src="http://www.gxpta.com.cn/assets/images/gxrsxw.png" alt="" />
+                <span>广西人社新闻官方微信</span>
+            </div>
+            <div class="copy">
+                <p class="fabout"><a href="http://www.gxpta.com.cn/gywm/">关于我们</a></p>
+                <p>广西壮族自治区人事考试院 版权所有 <a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备05003677号</a></p>
+                <p>地址：南宁市桂春路9号 咨询电话： 0771-12333转区本级</p>
+                <p>
+                    广西网警备：45010000043号
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45010302000826" target="_blank"><img src="http://www.gxpta.com.cn/assets/images/gaba.png" alt="" />桂公网安备 45010302000826号</a>
+                </p>
+                <a href="https://bszs.conac.cn/sitename?method=show&id=184A6C1B35340FCDE053012819AC9D70">
+                    <img src="http://www.gxpta.com.cn/assets/images/public.png" alt="" />
+                </a>
+            </div>
+            <div class="ewm2">
+                <img src="http://www.gxpta.com.cn/assets/images/gxrswx.png" alt="" />
+                <span>广西人社微信服务厅</span>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1261259570'%3E%3C/span%3E%3Cscript src='https://s95.cnzz.com/z_stat.php%3Fid%3D1261259570%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</footer>
+
+<div class="backtop"><i class="iconfont icon-top"></i></div>
+
+<!-- #region js -->
+<script src="https://www.gxpta.com.cn/assets/lib/jquery.min.js"></script>
+<script src="https://www.gxpta.com.cn/assets/lib/swiper/swiper-bundle.min.js"></script>
+<script src="https://www.gxpta.com.cn/assets/lib/layer/layer.js"></script>
+<script src="https://www.gxpta.com.cn/assets/js/script.js"></script>
+<!-- #endregion -->
+</body>
+
+</html>

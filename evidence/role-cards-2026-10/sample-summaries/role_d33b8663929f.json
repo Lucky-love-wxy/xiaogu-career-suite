@@ -1,0 +1,182 @@
+{
+  "name": [
+    {
+      "text": "法语翻译",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "法语翻译"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责商务谈判包括但不限于当地政府部门",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vss5NzMZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vss5NzMZC",
+          "text": "负责商务谈判包括但不限于当地政府部门"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vss5NzMZC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vwY5Mttt5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vwY5Mttt5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“物流管理与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "物流管理与工程类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vss5NzMZC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "法语翻译",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>使用条款</title>
+<meta content="中国银行,网站说明" name="keywords" />
+<meta content="使用条款。" name="description" />
+<link type="text/css" rel="stylesheet" href="../../../images/boc2013_reset.css">
+<link type="text/css" rel="stylesheet" href="../../../images/boc2013_common.css">
+<link type="text/css" rel="stylesheet" href="https://www.bankofchina.com/images/boc2013_pages.css">
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="../../../images/boc2013_iestyle.css">
+<![endif]-->
+<style>
+.title2{padding-left:20px;height:38px;font:18px "微软雅黑";}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<!--2013-嵌-头部嵌套begin-->
+		<!--top-->
+<script defer async type="text/javascript" src="https://csv2.bankofchina.com/dist/aria.js?appid=f0d4a7cfca52bd27ee5dbb3fdd55756e" charset="utf-8" wapForceOldFixed="false" loadData="false" id="ariascripts"></script>
+<script type="text/javascript" src="../../../images/boc2013_jquery-min.js"></script>
+    <div class="top clearfix">
+    	<div class="top_links">
+            <a href="/index.html">简体中文</a>
+            <a href="/big5/index.html">繁体中文</a>
+            <a href="https://www.boc.cn/english/">ENGLISH</a>
+<a href="https://www.boc.cn/french/">FRANÇAIS</a>
+<a href="https://www.boc.cn/spanish/">ESPAÑOL</a>
+<a href="https://www.bankofchina.com/russian/">РУССКИЙ</a>
+<a href="https://www.bankofchina.com/arabic/">العربية</a>
+<a href="javascript:void(0)" onclick="aria.start()" target="_self">无障碍浏览</a>
+<a href="javascript:void(0)" onclick="aria.oldFixedStart()" target="_self">关怀版</a>
+        </div>
+        <div class="top_menu">
+            <p class="p_2013" id="top_network">
+			
+			<a href="https://www.bankofchina.com/sourcedb/operations2021/" title="机构网点">机构网点</a>
+			
+
+			<a href="../201106/t20110610_2805580.html" title="在线客服" class="top_zxkf">在线客服</a>
+			
+
+</p>
+        </div>
+    </div>
+    <!--header-->
+    <div class="header">
+    	<div class="header_area">
+        	<h1 class="logo"><a href="https://www.bankofchina.com/" title="中国银行"></a></h1>
+            <div class="header_info">
+            	<p class="phone">服务热线：<span>95566</span>信用卡热线：<span>40066 95566</span></p>
+                <form name="trssearchform" id="trssearchform" action="https://srh.bankofchina.com/search/sitesearch/index.jsp" method="post" target="_blank">
+				<input type="hidden" name="searchColumn" value="all" />  
+                <div class="search_bar">
+                	<input type="text" class="search_ipt" id="sword" name="sword" value="请输入检索关键词" onfocus="if(this.value=='请输入检索关键词') this.value='';" onblur="if(this.value == '') this.value='请输入检索关键词';" />
+                    <input type="button" class="search_btn" onclick="document.trssearchform.submit();" />
+                </div>
+                </form>				
+            </div>
+        </div>
+        <!--导航-->
+        <div class="nav_2013">
+        <ul class="menu" id='BOC_NAVIGATOR_UL'>
+            <li class="li_2013 current"><a href="/index.html" class="current">首页</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../cbservice/" onmouseover="showHideLayer('layer1','','show')" onmouseout="showHideLayer('layer1','','hide')">公司金融</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../pbservice/" onmouseover="showHideLayer('layer2','','show')" onmouseout="showHideLayer('layer2','','hide')">个人金融</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../bcservice/" onmouseover="showHideLayer('layer3','','show')" onmouseout="showHideLayer('layer3','','hide')">银行卡</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../fimarkets/" onmouseover="showHideLayer('layer4','','show')" onmouseout="showHideLayer('layer4','','hide')">金融市场</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../ebanking/" onmouseover="showHideLayer('layer5','','show')" onmouseout="showHideLayer('layer5','','hide')">电子银行</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../investor/" onmouseover="showHideLayer('layer6','','show')" onmouseout="showHideLayer('layer6','','hide')">投资者关系</a></li>
+            <li class="li_2013"><a name='PL_MENU_NAME' href="../../../aboutboc/" onmouseover="showHideLayer('layer7','','show')" onmouseout="showHideLayer('layer7','','hide')">关于中行</a></li>
+        </ul>
+        <!--子菜单-->
+    <div class="sub_menu" id="layer1" onmouseover="showHideLayer('layer1','','show')" onmouseout="showHideLayer('layer1','','hide')">
+    	<i></i>
+        <div class="sub_area clearfix">
+		<!-- 获取公司金融下的前n个子栏目的名称，数量由num控制 start-->
+		 
+			<ul class="sub_nav list">
+			<!-- 显示格式为5行一列 start-->
+			 
+            	<li class="li_2013"><a href="../../../cbservice/cb2/">公司融资服务</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cb3/">贸易金融服务</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cb4/">公司金融市场服务</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cncb6/">人民币结算服务</a></li>
+             
+			<!-- 显示格式为5行一列 end-->
+            </ul>
+		 
+			<ul class="sub_nav list">
+			<!-- 显示格式为5行一列 start-->
+			 
+            	<li class="li_2013"><a href="../../../cbservice/csdp/">机构结构性存款</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cb1/">账户与存款</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cb7/">养老金服务</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cb9/">普惠金融</a></li>
+             
+			<!-- 显示格式为5行一列 end-->
+            </ul>
+		 
+			<ul class="sub_nav list">
+			<!-- 显示格式为5行一列 start-->
+			 
+            	<li class="li_2013"><a href="../../../cbservice/bi2/">公告信息</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/CIIEsrv/">服务第五届进博会</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/HainanEXPO/">服务第三届消博会</a></li>
+             
+            	<li class="li_2013"><a href="../../../cbservice/cb5/">其他银行服务</a></li>
+             
+			<!-- 显示格式为5行一列 end-->
+            </ul>
+		 
+		 <!-- 获取公司金融下的前n个子栏目的名称，数量由num控制 end-->
+		   <!-- 取头条新闻的前2篇文档（标题+附件） start-->
+            <ul class="sub_nav list sub_ad">
+			 		  
+            </ul>
+			<!-- 取头条新闻的前2篇文档（标题+附件） end-->
+        </div>
+    </div>
+    <div class="sub_menu" id="layer2" onmouseover="showHideLayer('layer2','','show')" onmouseout="showHideLayer('layer2','','hide')">
+        <i></i>
+        <div class="sub_area clearfix">
+		<!-- 获取个人金融下的前n个子栏目的名称，数量由num控制 start-->
+		 
+			<ul class="sub_nav list">
+			  <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb1/">存款与账户</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb2/">个人贷款</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb3/">投资理财</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb4/">个人汇兑</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+		 
+			<ul class="sub_nav list">
+			  <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../pbservice/pbsd/">个人结构性存款</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb10/">个人交易</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb7/">出国金融</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb8/">惠民金融</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+		 
+			<ul class="sub_nav list">
+			  <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb6/">私人银行</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb5/">个人银行</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/bi2/">公告信息</a></li>
+             
+            	<li class="li_2013"><a href="../../../pbservice/pb9/">中银沪港通</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+		 
+		 <!-- 获取个人金融下下的前n个子栏目的名称，数量由num控制 end-->
+		   <!-- 取头条新闻的前2篇文档（标题+附件） start-->
+			 <ul class="sub_nav list sub_ad">
+			 
+            </ul>
+			<!-- 取头条新闻的前2篇文档（标题+附件） end-->           
+        </div>
+    </div>
+    <div class="sub_menu" id="layer3" onmouseover="showHideLayer('layer3','','show')" onmouseout="showHideLayer('layer3','','hide')">
+        <i></i>
+        <div class="sub_area clearfix">
+		 <!-- 获取银行卡下的前n个子栏目的名称，数量由num控制 start-->
+		   
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../bcservice/bc1/">信用卡产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../bcservice/bc2/">借记卡产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../bcservice/bc3/">服务指南</a></li>
+              
+            	<li class="li_2013"><a href="../../../bcservice/bi2/">公告信息</a></li>
+              
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../bcservice/bc5/">特色服务</a></li>
+              
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+		    <!-- 获取银行卡下的前n个子栏目的名称，数量由num控制 end-->			
+            <!-- 取头条新闻的前2篇文档（标题+附件） start-->
+			 <ul class="sub_nav list sub_ad">
+			 
+            </ul>
+			<!-- 取头条新闻的前2篇文档（标题+附件） end-->   
+        </div>
+    </div>
+    <div class="sub_menu" id="layer4" onmouseover="showHideLayer('layer4','','show')" onmouseout="showHideLayer('layer4','','hide')">
+        <i></i>
+        <div class="sub_area clearfix">
+		<!-- 获取金融市场下的前n个子栏目的名称，数量由num控制 start-->
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../fimarkets/cs8/">自营理财产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/bocwm/">子公司理财产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fp5/">托管理财产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fp6/">代销理财产品</a></li>
+              
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fund/">托管基金产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fp3/">柜台债券产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fp2/">代销基金产品</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fp4/">代理保险产品</a></li>
+              
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../fimarkets/summarize/">宏观经济研究</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/foreignx/">外汇市场分析</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/fm7/">黄金市场分析</a></li>
+              
+            	<li class="li_2013"><a href="../../../fimarkets/boud/">债券市场分析</a></li>
+              
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+                           <ul class="sub_nav list" style="background:none;">
+              <!-- 显示格式为5行一列 start-->
+                
+            	<li class="li_2013"><a href="../../../fimarkets/lilv/">存/贷款利率</a></li>
+                
+            	<li class="li_2013"><a href="../../../fimarkets/cri/">中国银行人民币国际化指数</a></li>
+                
+            	<li class="li_2013"><a href="../../../fimarkets/cfets_boc/">CFETS-BOC交易型债券指数</a></li>
+                
+            	<li class="li_2013"><a href="../../../fimarkets/bi2/">公告信息</a></li>
+                                
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+		 <!-- 获取金融市场下的前n个子栏目的名称，数量由num控制 end-->	
+        </div>
+    </div>
+    <div class="sub_menu" id="layer5" onmouseover="showHideLayer('layer5','','show')" onmouseout="showHideLayer('layer5','','hide')">
+        <i></i>
+        <div class="sub_area clearfix">
+			<!-- 获取电子银行下的前n个子栏目的名称，数量由num控制 start-->
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../ebanking/bocnet_pb/">个人网上银行</a></li>
+             
+            	<li class="li_2013"><a href="../../../ebanking/bocnet_cb/">企业网上银行</a></li>
+             
+            	<li class="li_2013"><a href="../../../ebanking/bocmbs/">手机银行</a></li>
+             
+            	<li class="li_2013"><a href="../../../ebanking/95566/">电话银行</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../ebanking/service/">服务资料</a></li>
+             
+            	<li class="li_2013"><a href="../../../ebanking/security/">安全防护</a></li>
+             
+            	<li class="li_2013"><a href="../../../ebanking/bi2/">公告信息</a></li>
+             
+            	<li class="li_2013"><a href="../../../ebanking/online/">便捷服务</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+              
+            	<li class="li_2013"><a href="../../../ebanking/bocnet_login/">登录中行网银</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+		  <!-- 获取电子银行下的前n个子栏目的名称，数量由num控制 end-->	
+		   <!-- 取头条新闻的前2篇文档（标题+附件） start-->
+			 <ul class="sub_nav list sub_ad">
+			 
+            </ul>
+			<!-- 取头条新闻的前2篇文档（标题+附件） end-->
+        </div>
+    </div>
+    <div class="sub_menu" id="layer6" onmouseover="showHideLayer('layer6','','show')" onmouseout="showHideLayer('layer6','','hide')">
+        <i></i>
+        <div class="sub_area clearfix">
+		   <ul class="sub_nav list">
+             
+				<li class="li_2013"><a href="../../../investor/ir1/">公司战略及投资价值</a></li>
+			   
+              <!-- 交易所公告 start-->            
+            	<li class="li_2013" style="color:#535353">交易所公告（<a href="../../../investor/ir2/">H股</a>、<a href="../../../investor/ir5/">A股</a>）</a></li>
+              <!-- 交易所公告 end-->
+			  
+				<li class="li_2013"><a href="../../../investor/ir3/">财务报告</a></li>
+			   
+				<li class="li_2013"><a href="../../../investor/ir9/">监管资本</a></li>
+			   
+            </ul>
+			<!-- 获取投资者关系下的前n个子栏目的名称，数量由num控制 start-->
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../investor/ir6/">公司治理</a></li>
+             
+            	<li class="li_2013"><a href="../../../investor/ir4/">公司资料</a></li>
+             
+            	<li class="li_2013"><a href="../../../investor/ir8/">资本市场荣誉</a></li>
+             
+            	<li class="li_2013"><a href="../../../investor/cnir7/">投资者服务</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../investor/ir10/">可持续发展类债券</a></li>
+             
+            	<li class="li_2013"><a href="../../../investor/ir11/">关联交易公告</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+		  <!-- 获取投资者关系下的前n个子栏目的名称，数量由num控制 end-->	
+		   <!-- 取头条新闻的前2篇文档（标题+附件） start-->
+			 <ul class="sub_nav list sub_ad">
+			 
+            </ul>
+			<!-- 取头条新闻的前2篇文档（标题+附件） end-->
+        </div>
+    </div>
+    <div class="sub_menu" id="layer7" onmouseover="showHideLayer('layer7','','show')" onmouseout="showHideLayer('layer7','','hide')">
+        <i></i>
+        <div class="sub_area clearfix">
+			<!-- 获取关于中行下的前n个子栏目的名称，数量由num控制 start-->
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../aboutboc/bi1/">中行动态</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/ab8/">媒体看中行</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/ab2/">中行荣誉</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/boccsr/">企业社会责任</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../aboutboc/ab1/">中行概况</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/ab6/">中行机构</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/ab7/">中行历程</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/BCP/">消费者权益保护</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+			<ul class="sub_nav list">
+              <!-- 显示格式为5行一列 start-->
+             
+            	<li class="li_2013"><a href="../../../aboutboc/bi4/">招聘公告</a></li>
+             
+            	<li class="li_2013"><a href="../../../aboutboc/bi7/">许可证公告</a></li>
+             
+              <!-- 显示格式为5行一列 end-->
+            </ul>
+			
+		  <!-- 获取关于中行下的前n个子栏目的名称，数量由num控制 end-->	
+		   <!-- 取头条新闻的前2篇文档（标题+附件） start-->
+			 <ul class="sub_nav list sub_ad">
+			 
+            </ul>
+			<!-- 取头条新闻的前2篇文档（标题+附件） end-->
+        </div>
+    </div>
+    <!--子菜单end-->
+        </div><!--导航-end-->        
+    </div>
+    <!--header-end-->
+	<!--2013-嵌-头部嵌套end-->
+    <!--cramb-->
+    <div class="cramb"><span>当前位置：</span><a href="../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="../" title="网站说明" class="CurrChnlCls">网站说明</a></div>
+  	<!--网银登陆begin-->
+	<div class="per_bank_login">
+    	<a href="#" class="hover_btn">网银登录</a>
+        <div class="hover_menu hd">
+        	<ul>
+        	    <li><a href="/ebanking/bocnet_login/" title="请从www.boc.cn, www.bankofchina.com进入">个人客户网银登录</a></li>
+                <li><a href="/ebanking/bocnet_login/index1.html" title="请从www.boc.cn, www.bankofchina.com进入">个人贵宾网银登录</a></li>
+                <li class="last"><a href="/ebanking/bocnet_login/index_1750.html" title="请从www.boc.cn, www.bankofchina.com进入">iGTB企业网银登录</a></li>
+        	</ul>
+        </div>
+    </div>
+	<!--网银登陆end-->
+
+        
+   	<div class="container">
+    	<div class="content con_area">
+        	 <!-- 获取文章标题 -->
+        	<h2 class="title">使用条款</h2>
+            
+		  
+           
+
+		  
+		  
+	          
+            <!--分享 打印-->
+             <div class="function">
+            	<a href="#" class="share">分享</a>
+                <a href="javascript:window.print()" class="print">打印</a>
+                <ul class="share_pop hd bdsharebuttonbox" data-tag="share_1">
+                    <li><a href="javascript:void();" class="sina" title="分享到新浪微博" onclick="share_to_sina('使用条款','');"></a></li>
+                    <li><a href="javascript:void();" class="wb" title="分享到腾讯微博" onclick="share_to_tengxun('使用条款','');"></a></li>
+                    <li><a href="javascript:void()" class="wx" title="分享到人人网" onclick="share_to_renren('使用条款','');"></a></li>
+                    <li><a href="javascript:void()" class="qzone" title="分享到QQ空间" onclick="share_to_qzone('使用条款','')"></a></li>
+                </ul>
+             
+            </div>
+           <!--分享 打印-->
+            <div class="sub_con">
+            
+			<P>本网站由中国银行提供，其目的仅用作提供信息。 </P>
+<P>使用本Web网站的权利由中国银行根据下列条件授予。请仔细阅读这些条款，如果您不同意遵守这些条款和条件，请不要使用本网站或从本网站上下载资料。 </P>
+<P><STRONG>有限许可</STRONG></P>
+<P>&nbsp;网站的使用</P>
+<P>在本协议所述条款和条件下，中国银行赋与您访问、使用、和显示该网站和其上资料的非独有的、不可转让的有限权利。您同意不以任何方式中断或企图中断该网站的操作。只有在您保证在所有拷贝上保留所有原始文件中的版权和其它所有权信息, 中国银行授权您观看和下载本Web网站上的内容,但仅供您个人而非商业使用。您不得以任何方式修改或者复制或者公开展示、公布或分发这些材料或者以其它方式把它们用于任何公开或商业目的。中国银行禁止以任何目的把这些材料用于其它Web网站或连网计算机环境。本站上的内容受版权保护,任何未经授权的使用都可能构成侵犯版权、商标和违反其它法律。如果您违反任何条款,您使用本站的授权将自动终止,同时您必须立即销毁任何已下载或打印好的材料。 </P>
+<P>&nbsp;软件的使用</P>
+<P>如果您从本站下载软件,使用软件要遵守随该软件携带的许可协议中的许可条款。在您阅读并且接受软件许可协议的各项条款之前不得下载或安装这一软件。 </P>
+<P><STRONG>第三方网站</STRONG> </P>
+<P>本站上到第三方Web网站的链接仅作为一种方便服务提供给您。如果您使用这些网站，就会离开本网站。如果您决定访问任何链接的网站，由您自己承担风险，且负责采取所有保护措施防止病毒或其它破坏性因素。对任何链接的网站或其上出现的信息及所述产品和服务，或者通过使用它们可能获得的任何结果不作担保或说明，也不表示认同。</P>
+<P>链接并不暗示中国银行或本网站赞助、认可、涉及、或有权合法使用链接中所显示或可访问到的任何商标、商标名、标识、或版权符号。链接也不暗示任何链接的网站被授权使用中国银行或任何其联属企业或子公司的任何商标、商标名、标识或版权符号。</P>
+<P><STRONG>用户享用服务</STRONG></P>
+<P>您只为合法目的享用中国银行的服务及服务中所涉及的内容、资料、或信息。您不得通过本服务上传、发布、或传播任何包含有诽谤他人、污秽语言、淫秽话语和图片、以及任何违法或违背他人利益的资料或信息，也不得夹杂任何乞求他人钱财、服务、或广告的信息。 </P>
+<P><STRONG>否认责任声明</STRONG></P>
+<P>本网址和链接至本网址的所有网址所载的信息和材料，包括文本、图形、链接或其它项目，均以"如现有状况"、"如可以提供"的方式提供。中国银行并不保证这些信息和材料的准确性、充分性、可靠性或完整性，并明确地否认就该等信息和材料的错误或遗漏承担责任；并不对信息和材料做出任何种类的（默认、明示或法定的）保证，包括（但不限于）有关没有侵犯第三方权利、所有权、适销性、质量令人满意、适合特定的用途和没有计算机病毒的保证。这些材料也许已经过期，且中国银行不承诺更新它们。 </P>
+<P><STRONG>责任限度</STRONG></P>
+<P>中国银行任何损害概不负责，无论这些损害是否由于使用、不能使用本站的结果、连到本站的任何Web网站或者任何这类网站中包含的信息所引起（包括但不限于由损失的利润、损失的数据或业务中断而造成的损害），也不管它们是否有保证、合同、侵权行为或任何其它法律根据以及事前已得到这类损害可能发生的消息。如果您由于使用本站的信息导致需要对设备或数据进行维护、修理或纠正，您也必须承担由此而造成的所有费用。可适用的法律可能不允许把偶然或间接发生的损害排除在外或对责任范围加以限制，所以上述范围或条款也许不适用于您。</P>
+<P><STRONG>损失赔偿限制</STRONG></P>
+<P>在任何情况下，中国银行对于与使用或未能使用本网站或任何链接的网站的内容、资料、功能有关的任何直接的、间接的、特殊的、连带的或其它损失（包括但不限于任何利润损失、业务中断以及您的信息处理系统中的信息或程序或其它数据的丢失）不向任何机构承担责任，即使中国银行被明确告知此类损失的可能性。 </P>
+<P><STRONG>更改</STRONG></P>
+<P>可能随时修改这些条款.，这些条款的某些条文也可能被位于本站中的某些页面明确指定的法律通告或条款所取代。 </P>
+<P>中国银行保留随时完全或部分地自行更改、变更、增加或删除本条款任何部分的权利，您应时常地访问该页面以了解当前的条款。在此类更改通知发出时，本条款中的更改即生效。在对本条款的任何更改发出后，您继续使用该网站，则视为您接受这些更改。</P>
+<P>中国银行可随时终止、更改、暂停或中止该网站的任何方面，包括该网站任何特性的可用性。中国银行还可未做事先通知且不承担责任对某些特征和服务加以限制或限制您访问网站的某些部分或全部。中国银行可终止上述授权、权利和许可，您应在此类终止时立即销毁所有资料。</P>
+<P><STRONG>国际用户</STRONG></P>
+<P>该网站由中国银行从其位于中国的办公室进行控制、操作和管理。中国银行不保证该网站上的资料适用于或可用于中国之外的其它地点，以及您能够从资料内容被视为非法的区域取阅这些资料。您不得违背中国出口法规使用网站或出口资料。如果您从中国之外的地点访问该网站，则您有责任遵守所有当地法律。这些使用条款和条件受中国法律管辖，且和其法律条文不相抵触。</P>
+<P><STRONG>保密制度</STRONG></P>
+<P>我们认真保护您的网上隐私。对我们来说，保护您的个人隐私十分重要，我们在设计本网站时已尽力将保护您的个人隐私问题考虑在内。</P>
+<P>有关此声明的任何疑问可通过客户服务信箱向网站管理员询问，否则我们会视同您已经了解并接受了此声明，我们将在七天之内尽力回答您的疑问。</P>
+<P>我们保证：</P>
+<OL>
+<LI>我们不公开您在本网站内的个人资料。<BR>本网站不会公开个人联系方法除非因法律程序的要求。我们收集您的个人资料目的是为了向您提供最大程度的个性化体验，通过对您多了解一点， 我们就能向您发送与您更为相关的信息，从而向您提供更好的服务；不过在任何情况下，广告商是无法得到您的个人帐户资料的，除非您明确授权可以这么做。 <BR><BR>
+<LI>我们不使用任何您在本网站的个人个人信息或网上浏览的信息，也不将其告诉其它人。<BR>我们的系统自动收集您使用我们的服务过程中到达某一区域或网址的信息，我们不会和其它公司共享这些数据， 我们汇总这些用户浏览信息以了解我们的用户作为一个整体是如何使用我们的服务的，以便能够改善我们的服务。 我们也将和我们的合作伙伴（有保密责任约束的）分享汇总的用户浏览信息，但我们不公开。我们不追踪您浏览互联网的信息。一旦您点击了一个链向其它网站的链接，我们的隐私政策不再有效。<BR><BR>
+<LI>我们不出售您的注册信息（姓名、电话、地址等等），除非您授权我们这么做。<BR>我们不出售或交换您的姓名、地址、电话、 email address、或任何其它注册信息，除非事先得到您的专门授权。 对这条规定我们有两个例外情况：我们会在有关法律的强制下公布您的个人信息，我们会和我们的合作伙伴（有保密责任约束的）共享汇总了的注册信息。 <BR><BR>
+<LI>我们使用安全的技术、隐私保护的管理手段，和限制雇员接触隐私资料，以保护您的个人隐私。<BR>只有被授权的工作人员才能接触到您的个人资料，并且为数很少。<BR>我们鼓励我们的合作伙伴也清楚地公布他们的隐私政策。请务必浏览他们的隐私政策，如有疑问请和他们联系。</LI></OL>
+<P>&nbsp;</P> 
+              
+           
+           
+			       <ul id="hidden">
+				 
+				 
+			       </ul>
+				    <script type="text/javascript">
+	  	var app = '';
+		if (app != ''){
+			document.getElementById("hidden").style.display = "block";
+		}else{
+		    document.getElementById("hidden").style.display="none";
+		}
+	  </script>
+			     <!-- -->
+		 </div><!--content end -->	  
+		
+    	</div>
+        
+		
+           <div class="slider">
+	
+	<div class="box clearfix" id="hidden1">
+		<h3 class="title">相关服务</h3>
+		<ul class="list_tg" >
+		 
+		</ul>
+			 <script type="text/javascript">
+				var doc = '';
+				if (doc != ''){
+					document.getElementById("hidden1").style.display = "block";
+				}else{
+					document.getElementById("hidden1").style.display="none";
+				}
+			  </script>
+	</div>
+	<span id="PL_RIGHT_AD"></span>
+<!--box-end-->
+</div>
+<script type="text/javascript" src="../../../images/boc2013_public.js"></script>
+<script>
+	get_hotnews_js("hot_news.js","")
+</script>     
+
+    </div><!--main-end-->
+    
+   
+   <div class="footer_2013">
+    <div class="footer_phone">
+        <p style="width: 865px;margin: 0 auto;"><em>客户服务与投诉热线：</em><span>95566</span>(中国境内)；<span>+86(区号)95566</span>(中国境外)&nbsp;<em class="footer_sp">信用卡客服与投诉热线：</em><span>40066-95566</span>(中国境内)； <span>+86-10-66085566</span>(中国境外)</p>
+    </div>
+    <div class="footer_copy">
+    	<div class="footer_area">
+        	<p>
+			<!--取提示信息栏目前四篇文档-->
+				
+					<a href="./t20081209_135605.html">
+						网站地图
+					</a><i>|</i>
+				
+					<a href="./t20081209_135606.html">
+						版权声明
+					</a><i>|</i>
+				
+					<a href="./t20081209_135607.html">
+						使用条款
+					</a><i>|</i>
+				
+					<a href="./t20081212_257687.html">
+						联系我们
+					</a><i>|</i>
+				
+            	
+                <a href="https://beian.miit.gov.cn" target="_blank">京ICP备10052455号-1</a> 京公网安备110102002036号 
+            </p>
+            <p>Copyright&copy; BANK OF CHINA(BOC) All Rights Reserved. </p>
+        </div>
+    </div>
+</div><!--footer-end-->
+
+<script>
+//控制导航选中
+$(document).ready(function(){
+	var curlocation = '首页,网站说明';
+	var array = curlocation.split(",");
+	if(array.length < 2)
+		return false;
+	var curchannelname = array[1];
+	//逐个栏目进行分析，修改栏目样式
+	$("#BOC_NAVIGATOR_UL li").each(function(){
+		var curtext = $(this).find("a").eq(0).text();
+		if(curchannelname == curtext){
+			$("#BOC_NAVIGATOR_UL li").removeClass("current");
+			$(this).addClass("current");
+			return false;
+		}
+	});
+});
+</script>
+<script type="text/javascript">
+var pl_search_domain = "https://srh.bankofchina.com/search/";
+/**
+* @see 全站检索
+* @param obj:对象
+*/
+function search_for_site(){
+	//设置当前检索的 action
+	$("#trssearchform").attr("action",pl_search_domain+"sitesearch/index.jsp");
+	$("#trssearchform").submit();
+}
+</script>
+
+</div>
+<script type="text/javascript" src="../../../images/boc2013_boc.js"></script>
+<script type="text/javascript" src="../../../images/boc2013_share.js"></script>
+
+</body>
+</html>

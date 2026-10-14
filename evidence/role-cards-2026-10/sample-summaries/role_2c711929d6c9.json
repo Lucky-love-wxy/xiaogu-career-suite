@@ -1,0 +1,171 @@
+{
+  "name": [
+    {
+      "text": "算法研究员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "算法研究员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责算法工程化部署",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8r5MMZ5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8r5MMZ5z",
+          "text": "负责算法工程化部署"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "开发统一条件分子生成模型",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8r5MMZ5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8r5MMZ5z",
+          "text": "开发统一条件分子生成模型"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "优化大规模图神经网络推理效能",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8r5MMZ5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8r5MMZ5z",
+          "text": "优化大规模图神经网络推理效能"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "构建从图谱到分子结构/材料性质的预测模型",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwU5MMZZ5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwU5MMZZ5",
+          "text": "构建从图谱到分子结构/材料性质的预测模型"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "开发新一代分子Foundation Model（基于Suiren-1.0）",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8r5MMZ5z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8r5MMZ5z",
+          "text": "开发新一代分子Foundation Model（基于Suiren-1.0）"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "职责：研发红外/核磁/拉曼/质谱/XRD等表征数据的AI解析模型（峰识别、基线校正、定性定量分析）",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwU5MMZZ5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwU5MMZZ5",
+          "text": "职责：研发红外/核磁/拉曼/质谱/XRD等表征数据的AI解析模型（峰识别、基线校正、定性定量分析）"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，2份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MMZ5z",
+        "vwU5MMZZ5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v8r5MMZ5z",
+          "vwU5MMZZ5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MMZ5z",
+        "vwU5MMZZ5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v8r5MMZ5z",
+          "vwU5MMZZ5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "AI物质科学算法研究员-药物",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8r5MMZ5z"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI物质表征算法研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwU5MMZZ5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

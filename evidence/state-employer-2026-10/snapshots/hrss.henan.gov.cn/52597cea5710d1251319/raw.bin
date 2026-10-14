@@ -1,0 +1,1899 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="x-ua-compatible" content="IE=Edge,chrome=1" />
+        <meta name="applicable-device" content="pc" />
+        <meta name="SiteName" content="河南省人力资源和社会保障厅" />
+        <meta name="SiteDomain" content="http://hrss.henan.gov.cn" />
+        <meta name="SiteIDCode" content="4500000013" />
+        <meta name="description" content="" />
+        <meta name="Keywords" content="" />
+        <title>河南省人力资源和社会保障厅</title>
+        <link
+            href="https://file.henan.gov.cn/4500000013/css/66.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="https://file.henan.gov.cn/4500000013/css/tabber.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://file.henan.gov.cn/4500000013/css/pagination.css"
+            type="text/css"
+        />
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/jquery.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/jquery.cookie.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/normalprotal.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/tabber.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/dudu.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/Maple_Couplet.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/float.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/float2.js"
+        ></script>
+
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/html5shiv.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/respond.min.js"
+        ></script>
+        <font style="display: none">
+            <script
+                type="text/javascript"
+                src="https://file.henan.gov.cn/4500000013/js/language.js"
+            ></script>
+        </font>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/jquery.pagination.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/err20260812.js"
+        ></script>
+    </head>
+
+    <div id="queryParam" queryString=""></div>
+    <body>
+        <!--头部-->
+        <div class="head" style="position: relative">
+            <div class="wza-box cl">
+                <a
+                    onclick="headTool.switchOld()"
+                    id="toolbarOldman"
+                    class="oldman"
+                    href="javascript:void(0);"
+                    title="进入适老模
+    式"
+                    >进入适老模式</a
+                ><a
+                    id="toolbarSwitch"
+                    class="wza"
+                    href="javascript:void(0);"
+                    title="无障碍阅读"
+                    >无障碍阅读</a
+                >
+            </div>
+            <script>
+                redirectInterceptor(
+                    "ywzl.hrss.henan.gov.cn",
+                    "https://hrss.henan.gov.cn",
+                    false,
+                );
+                $(function () {
+                    window.headTool = {
+                        init: function () {
+                            var mode = this.getCookie("mode");
+                            if (mode == 2) {
+                                $("#toolbarOldman").text("关闭适老模式");
+                                $("body").addClass("oldModel");
+                                new Marquee(
+                                    "marqueedivff8080816a8cc65c016ab4226ed91af7",
+                                    0,
+                                    1,
+                                    1000,
+                                    310,
+                                    50,
+                                    0,
+                                    0,
+                                );
+                                $(".slideBox1").slide({
+                                    mainCell: ".bd ul",
+                                    autoPlay: true,
+                                    effect: "left",
+                                    interTime: 5000,
+                                    trigger: "click",
+                                });
+                            } else {
+                                $("#toolbarOldman").text("进入适老模式");
+                                $("body").removeClass("oldModel");
+                                new Marquee(
+                                    "marqueedivff8080816a8cc65c016ab4226ed91af7",
+                                    0,
+                                    1,
+                                    264,
+                                    224,
+                                    50,
+                                    0,
+                                    0,
+                                );
+                                $(".slideBox1").slide({
+                                    mainCell: ".bd ul",
+                                    autoPlay: true,
+                                    effect: "left",
+                                    interTime: 5000,
+                                    trigger: "click",
+                                });
+                            }
+                            return this;
+                        },
+                        switchOld: function () {
+                            var mode = this.getCookie("mode");
+                            if (mode == 2) {
+                                this.setCookie("mode", 1);
+                            } else {
+                                this.setCookie("mode", 2);
+                            }
+                            window.location.reload();
+                        },
+                        getCookie: function (name) {
+                            var arr,
+                                reg = new RegExp(
+                                    "(^| )" + name + "=([^;]*)(;|$)",
+                                );
+                            if ((arr = document.cookie.match(reg))) {
+                                return String(arr[2]);
+                            } else {
+                                return null;
+                            }
+                        },
+                        setCookie: function (name, value) {
+                            var Days = 30;
+                            var exp = new Date();
+                            exp.setTime(
+                                exp.getTime() + Days * 24 * 60 * 60 * 1000,
+                            );
+                            document.cookie =
+                                name +
+                                "=" +
+                                escape(value) +
+                                ";expires=" +
+                                exp.toGMTString();
+                        },
+                    }.init();
+                });
+            </script>
+            <style>
+                .wza-box {
+                    position: absolute;
+                    top: 85px;
+                    right: calc(50% - 500px);
+                    z-index: 99;
+                }
+
+                .wza-box a {
+                    display: block;
+                    float: right;
+                    height: 38px;
+                    line-height: 38px;
+                    padding: 0 16px;
+                    font-size: 18px;
+                    letter-spacing: 0.32px;
+                }
+
+                .wza-box a.wza {
+                    background: #fff;
+                    color: #f76b00;
+                    border: 1px solid #fc740d;
+                    border-radius: 2px 0px 0px 2px;
+                }
+
+                .wza-box a.oldman {
+                    background: #f79600;
+                    color: #fff;
+                    border: 1px solid #f79600;
+                    border-radius: 0px 2px 2px 0px;
+                }
+            </style>
+            <!--顶部信息-->
+            <script src="https://file.henan.gov.cn/4500000013/js/top.js"></script>
+
+            <!--导航-->
+            <script src="https://file.henan.gov.cn/4500000013/js/nav.js"></script>
+        </div>
+        <div style="clear: both"></div>
+        <!--主内容-->
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/jquery.SuperSlide.js"
+        ></script>
+        <div class="maincon">
+            <!--首页右侧悬浮-->
+            <div class="syrfloatcon">
+                <div class="sy_rfloat">
+                    <!-- 微信 -->
+                    <div class="rfloat_con rfloat_pic1">
+                        <img
+                            src="https://file.henan.gov.cn/4500000013/img/12333ewm.jpg"
+                        />
+                    </div>
+                    <!-- 苹果 -->
+                    <!--<div class="rfloat_con rfloat_pic2"><img src="https://file.henan.gov.cn/4500000013/img/appleewm.jpg"> </div>-->
+                    <!-- 安卓 -->
+                    <div class="rfloat_con rfloat_pic3">
+                        <img
+                            src="https://file.henan.gov.cn/4500000013/img/hnrsazxz.png"
+                        />
+                    </div>
+                    <!-- 农民工举报 -->
+                    <div class="rfloat_con rfloat_pic4">
+                        <img
+                            src="https://file.henan.gov.cn/4500000013/img/qxjbewm.png"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div style="width: 1000px">
+                <!--第一行-->
+                <div class="row1"></div>
+                <!--第二行-->
+                <div class="row2_l">
+                    <style>
+                        .slideBox1 {
+                            width: 326px;
+                            height: 266px;
+                            position: relative;
+                        }
+                        .slideBox1 .hd {
+                            position: absolute;
+                            right: 10px;
+                            bottom: 50px;
+                            z-index: 1;
+                        }
+                        .slideBox1 .hd ul li {
+                            float: left;
+                            margin-right: 5px;
+                            cursor: pointer;
+                            width: 12px;
+                            height: 12px;
+                            background: #d3d3d0;
+                            color: #333;
+                        }
+                        .slideBox1 .hd ul li.on {
+                            background: #fff;
+                        }
+                        .slideBox1 .bd {
+                            z-index: 0;
+                        }
+                        .slideBox1 .bd li {
+                            width: 326px;
+                        }
+                        .slideBox1 .bd li img {
+                            display: block;
+                            width: 326px;
+                            height: 226px;
+                        }
+                        .slideBox1 .bd p {
+                            width: 324px;
+                            height: 36px;
+                            line-height: 36px;
+                            color: #333;
+                            font-size: 14px;
+                            text-indent-left: 10px;
+                            margin: 4px auto;
+                            text-align: center;
+                            border: 1px solid #ddd;
+                        }
+                    </style>
+                    <div class="slideBox1">
+                        <div class="hd">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li>
+                            <a href="http://hrss.henan.gov.cn/2026/08-04/3382378.html" target="_blank"><img src="https://xcoss.henan.gov.cn/typtfile/img/20260804/fac8c9e255e14fd695dd732e575db7ff.jpg?x-oss-process=image/crop,x_0,y_0,w_1158,h_775"  /></a>
+                            <p>中国共产党河南省第十一届委员会第十一次全体会...</p>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-31/3381308.html" target="_blank"><img src="https://www.gov.cn/yaowen/liebiao/202607/W020260731548108058164_ORIGIN.jpg?x-oss-process=image/crop,x_0,y_0,w_800,h_622"  /></a>
+                            <p>习近平：加快建设健康中国</p>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-29/3380609.html" target="_blank"><img src="https://www.gov.cn/yaowen/liebiao/202607/W020260728527621643393_ORIGIN.jpg?x-oss-process=image/crop,x_0,y_0,w_800,h_607"  /></a>
+                            <p>习近平同斯洛伐克总统佩列格里尼会谈</p>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-21/3377643.html" target="_blank"><img src="https://xcoss.henan.gov.cn/typtfile/img/20260721/4fa10278c56246eba91d20e1f0af49a9.jpg?x-oss-process=image/crop,x_0,y_0,w_768,h_514"  /></a>
+                            <p>2026年三季度全省重大项目建设暨经济运行工...</p>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-20/3377136.html" target="_blank"><img src="https://www.gov.cn/yaowen/liebiao/202607/W020260717567553696545_ORIGIN.JPG?x-oss-process=image/crop,x_0,y_0,w_800,h_418"  /></a>
+                            <p>习近平出席2026世界人工智能大会暨人工智能...</p>
+                        </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row2_c">
+                    <div class="tabberlive">
+                        <ul>
+                            <div
+                                class="row2_c_Off"
+                                tabindex="1"
+                                unactiveclass="row2_c_Off"
+                                activeclass="row2_c_On"
+                            >
+                                <a target="_blank" href="/zwdt/zwyw/"
+                                    >时政要闻</a
+                                >
+                            </div>
+                            <div
+                                class="row2_c_On"
+                                tabindex="2"
+                                unactiveclass="row2_c_Off"
+                                activeclass="row2_c_On"
+                            >
+                                <a target="_blank" href="/zwgk/zwdt/ywdt/"
+                                    >人社动态</a
+                                >
+                            </div>
+                            <div
+                                class="row2_c_Off"
+                                tabindex="3"
+                                unactiveclass="row2_c_Off"
+                                activeclass="row2_c_On"
+                            >
+                                <a target="_blank" href="/zwgk/zwdt/sxdt/"
+                                    >市县信息</a
+                                >
+                            </div>
+                        </ul>
+                        <div class="tabbertab row2_c_more" tabindex="1">
+                            <a target="_blank" href="/zwdt/zwyw/">更多</a>
+                        </div>
+                        <div
+                            class="tabbertab tabbertabhide row2_c_more"
+                            tabindex="2"
+                        >
+                            <a target="_blank" href="/zwgk/zwdt/ywdt/">更多</a>
+                        </div>
+                        <div
+                            class="tabbertab tabbertabhide row2_c_more"
+                            tabindex="3"
+                        >
+                            <a target="_blank" href="/zwgk/zwdt/sxdt/">更多</a>
+                        </div>
+                        <div
+                            style="height: 238px"
+                            class="tabbertab tabbertabhide row2_c_Con"
+                            tabindex="1"
+                        >
+                            <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-06/3383379.html" target=_blank title="河南省委书记刘宁在《科技日报》发表署名文章：推动科技创新和产业创新深度融合 提升现代化产业体系对高质...">
+                        <span>·</span>
+                        河南省委书记刘宁在《科技日报》发表署名文章...
+                    </a>
+                    <font class="date">
+                        [08-06]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-06/3383378.html" target=_blank title="王凯在洛阳调研城市更新工作">
+                        <span>·</span>
+                        王凯在洛阳调研城市更新工作
+                    </a>
+                    <font class="date">
+                        [08-06]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-06/3383377.html" target=_blank title="数智驱动 开创人社信息化发展新局面——《人力资源和社会保障事业发展“十五五”规划》系列解读">
+                        <span>·</span>
+                        数智驱动 开创人社信息化发展新局面——《人...
+                    </a>
+                    <font class="date">
+                        [08-06]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-04/3382511.html" target=_blank title="省委常委会议军会议召开 刘宁主持并讲话">
+                        <span>·</span>
+                        省委常委会议军会议召开 刘宁主持并讲话
+                    </a>
+                    <font class="date">
+                        [08-04]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-04/3382474.html" target=_blank title="东风浩荡开新局——习近平经济思想指引中国经济高质量发展行稳致远">
+                        <span>·</span>
+                        东风浩荡开新局——习近平经济思想指引中国经...
+                    </a>
+                    <font class="date">
+                        [08-04]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-04/3382473.html" target=_blank title="全国专业技术人才总量超8000万 加快构建人才培养、激励、保障服务全周期投入体系">
+                        <span>·</span>
+                        全国专业技术人才总量超8000万 加快构建...
+                    </a>
+                    <font class="date">
+                        [08-04]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-04/3382381.html" target=_blank title="习近平总书记引领“十五五”开局之年中国经济破浪前行">
+                        <span>·</span>
+                        习近平总书记引领“十五五”开局之年中国经济...
+                    </a>
+                    <font class="date">
+                        [08-04]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-04/3382379.html" target=_blank title="中央军委主席习近平签署通令 给1名个人记功">
+                        <span>·</span>
+                        中央军委主席习近平签署通令 给1名个人记功...
+                    </a>
+                    <font class="date">
+                        [08-04]
+                    </font> 
+                        </div>
+                        <div
+                            style="height: 238px"
+                            class="tabbertab row2_c_Con"
+                            tabindex="2"
+                        >
+                            <a class="newlist" href="http://hrss.henan.gov.cn/2026/09-06/3411481.html" target=_blank title="厅领导看望慰问第48届世界技能大赛河南选手及教练团队">
+                        <span>·</span>
+                        厅领导看望慰问第48届世界技能大赛河南选手...
+                    </a>
+                    <font class="date">
+                        [09-06]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-31/3409354.html" target=_blank title="省人社厅召开厅党组扩大会议暨党的建设工作领导小组会议巩固拓展树立和践行正确政绩观学习教育成果">
+                        <span>·</span>
+                        省人社厅召开厅党组扩大会议暨党的建设工作领...
+                    </a>
+                    <font class="date">
+                        [08-31]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-31/3381347.html" target=_blank title="全省企业年金工作座谈会召开">
+                        <span>·</span>
+                        全省企业年金工作座谈会召开
+                    </a>
+                    <font class="date">
+                        [07-31]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-27/3379842.html" target=_blank title="全省人力资源社会保障系统年度重点工作推进会召开">
+                        <span>·</span>
+                        全省人力资源社会保障系统年度重点工作推进会...
+                    </a>
+                    <font class="date">
+                        [07-27]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-28/3380044.html" target=_blank title="全省就业重点工作推进会召开">
+                        <span>·</span>
+                        全省就业重点工作推进会召开
+                    </a>
+                    <font class="date">
+                        [07-28]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-27/3379446.html" target=_blank title="全省技工院校教学管理人员“双赋能”研修活动在信阳举办">
+                        <span>·</span>
+                        全省技工院校教学管理人员“双赋能”研修活动...
+                    </a>
+                    <font class="date">
+                        [07-27]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-20/3377497.html" target=_blank title="河南省2025年度保障农民工工资支付工作考核实地调查动员部署会召开">
+                        <span>·</span>
+                        河南省2025年度保障农民工工资支付工作考...
+                    </a>
+                    <font class="date">
+                        [07-20]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-17/3376798.html" target=_blank title="省人力资源社会保障厅举办学习贯彻习近平党建思想暨党务干部能力素质提升培训班">
+                        <span>·</span>
+                        省人力资源社会保障厅举办学习贯彻习近平党建...
+                    </a>
+                    <font class="date">
+                        [07-17]
+                    </font> 
+                        </div>
+                        <div
+                            style="height: 238px"
+                            class="tabbertab tabbertabhide row2_c_Con"
+                            tabindex="3"
+                        >
+                            <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-02/3381484.html" target=_blank title="郑州市： 逛夜市 觅好岗——2026年河南省第三届夏季夜市招聘活动举办">
+                        <span>·</span>
+                        郑州市： 逛夜市 觅好岗——2026年河南...
+                    </a>
+                    <font class="date">
+                        [08-02]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-31/3381379.html" target=_blank title="开封市：强化职业技能培训  提升群众就业能力">
+                        <span>·</span>
+                        开封市：强化职业技能培训  提升群众就业能...
+                    </a>
+                    <font class="date">
+                        [07-31]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-20/3377504.html" target=_blank title="许昌市：市委书记杨小菁专题调研就业服务保障工作">
+                        <span>·</span>
+                        许昌市：市委书记杨小菁专题调研就业服务保障...
+                    </a>
+                    <font class="date">
+                        [07-20]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-16/3376409.html" target=_blank title="信阳市：“招聘夜市”串起就业服务“暖心链”">
+                        <span>·</span>
+                        信阳市：“招聘夜市”串起就业服务“暖心链”...
+                    </a>
+                    <font class="date">
+                        [07-16]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-16/3376405.html" target=_blank title="三门峡市：筑牢高温天气劳动者权益保障防线">
+                        <span>·</span>
+                        三门峡市：筑牢高温天气劳动者权益保障防线
+                    </a>
+                    <font class="date">
+                        [07-16]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-10/3374570.html" target=_blank title="许昌市：学习“胖东来式”服务理念 提升人社服务质效">
+                        <span>·</span>
+                        许昌市：学习“胖东来式”服务理念 提升人社...
+                    </a>
+                    <font class="date">
+                        [07-10]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-09/3373970.html" target=_blank title="郑州市：与济南、青岛实现社保卡“三城互通”">
+                        <span>·</span>
+                        郑州市：与济南、青岛实现社保卡“三城互通”...
+                    </a>
+                    <font class="date">
+                        [07-09]
+                    </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-03/3372350.html" target=_blank title="浚县：创新宣传载体 提升人社宣传实效">
+                        <span>·</span>
+                        浚县：创新宣传载体 提升人社宣传实效
+                    </a>
+                    <font class="date">
+                        [07-03]
+                    </font> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row2_r_1">
+                    <div class="row2_r yuanjiao">
+                        <div class="row_tit">公示公告</div>
+                        <a class="more" target="_blank" href="/zwgk/zwdt/gsgg/"
+                            >更多</a
+                        >
+                        <div class="row2_r_con">
+                            <div
+                                id="marqueedivff8080816a8cc65c016ab4226ed91af7"
+                                style="overflow: hidden"
+                            >
+                                <li>
+                            <a href="http://hrss.henan.gov.cn/2026/09-30/3434331.html" target=_blank>
+                                · 河南省人力资源和社会保障厅关于征求《河南省工程系列测绘地理信息专业中高级职称申报评审标准（征求意见稿...
+                                [2026-09-30]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/09-18/3427666.html" target=_blank>
+                                · 关于公布2026年度河南省二级建造师考试合格标准的通知
+                                [2026-09-18]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/09-16/3420966.html" target=_blank>
+                                · 河南省2026年高校毕业生“三支一扶”计划拟招募人员公示
+                                [2026-09-16]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/09-08/3411916.html" target=_blank>
+                                · 河南省2026年高校毕业生“三支一扶”计划招募面试资格确认递补公告
+                                [2026-09-08]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/09-04/3411374.html" target=_blank>
+                                · 河南省2026年高校毕业生“三支一扶”计划招募面试资格确认公告
+                                [2026-09-05]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/09-02/3410506.html" target=_blank>
+                                · 河南省人力资源和社会保障厅关于2026年度省直有关事业单位高、中级职称申报评审计划备案情况的公示
+                                [2026-09-02]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/08-07/3394909.html" target=_blank>
+                                · 河南省2026年高校毕业生“三支一扶”计划招募公告
+                                [2026-08-07]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/08-02/3381514.html" target=_blank>
+                                · 情况通报
+                                [2026-08-02]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-30/3380937.html" target=_blank>
+                                · 关于2026年度高级经济师考试资格使用标准的通告
+                                [2026-07-30]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-30/3380689.html" target=_blank>
+                                · 河南省人力资源和社会保障厅  河南省总工会关于举办2026年河南省行业职业技能竞赛——第四届全国人工...
+                                [2026-07-30]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-28/3380230.html" target=_blank>
+                                · 声明
+                                [2026-07-28]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-27/3379848.html" target=_blank>
+                                · 声明
+                                [2026-07-27]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-24/3378916.html" target=_blank>
+                                · 河南省人力资源和社会保障厅所属事业单位（河南省就业创业服务中心  河南省高层次人才服务中心）2026...
+                                [2026-07-24]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-21/3377783.html" target=_blank>
+                                · 关于全省事业单位省管厅级干部拟记功、记大功奖励人选名单的公示
+                                [2026-07-21]
+                            </a>
+                        </li> <li>
+                            <a href="http://hrss.henan.gov.cn/2026/07-16/3376027.html" target=_blank>
+                                · 河南省人力资源和社会保障厅关于发布2026年第二批重大劳动保障违法行为的公告
+                                [2026-07-16]
+                            </a>
+                        </li> 
+                            </div>
+                            <script type="text/javascript"></script>
+                        </div>
+                    </div>
+                </div>
+                <!--通栏-->
+                <div
+                    style="
+                        margin-top: 10px;
+                        width: 1000px;
+                        float: left;
+                        height: auto;
+                    "
+                >
+                    <style>
+                        .tl21 {
+                            overflow: hidden;
+                        }
+                        .tla21 {
+                            width: 25%;
+                            display: block;
+                            float: left;
+                            overflow: hidden;
+                            height: 82px;
+                        }
+                        .tla21:nth-child(3) {
+                            width: calc(25% - 10px);
+                        }
+                        .tla21 img {
+                            width: calc(100% - 10px);
+                            height: 100%;
+                        }
+                    </style>
+
+                    <div class="tl21">
+                        <a class="tla21" href="https://www.hnzwfw.gov.cn/portal/department/001002022?creditCode=11410000698732712R" target="_blank"><img src="https://img.henan.gov.cn/ce7b802fc99831a4432a55ea4163d5e4?p=0"  height="80"></a> <a class="tla21" href="https://gongyi.cctv.com/special/cvsc2025/" target="_blank"><img src="https://img.henan.gov.cn/510f7f4c58417702c2046b255a1a070c?p=0?x-oss-process=image/crop,x_0,y_0,w_1226,h_365"  height="80"></a> <a class="tla21" href="https://liuyan.www.gov.cn/2024wwzfgzbgtjy/bmdf.html?q=hen" target="_blank"><img src="https://img.henan.gov.cn/7eba71c5afeddde88976dd429a3f68ee?p=0"  height="80"></a> <a class="tla21" href="https://hrss.henan.gov.cn/2024/05-13/2990238.html" target="_blank"><img src="https://img.henan.gov.cn/c4c94fdabe3eb017ced232612a24bd03?p=0"  height="80"></a> 
+                    </div>
+                </div>
+                <!--第三行-->
+                <div
+                    style="background: none transparent scroll repeat 0% 0%"
+                    class="row3_l yuanjiao"
+                >
+                    <style>
+                        .yezl {
+                            width: 98%;
+                            overflow: hidden;
+                            border-top: 1px solid #000;
+                            float: left;
+                            margin-left: 14px;
+                        }
+                        .yezl ul {
+                            width: 100%;
+                            height: auto;
+                            float: left;
+                        }
+                        .yezl ul li {
+                            width: 174px;
+                            height: 32px;
+                            float: left;
+                        }
+                        .yezl ul li img {
+                            float: left;
+                            margin-top: 10px;
+                        }
+                        .yezl ul li a {
+                            width: auto;
+                            height: 32px;
+                            float: left;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: #6a6a6a;
+                        }
+                    </style>
+                    <div class="row3_r" style="width: 100%">
+                        <div class="row_tit">业务专栏</div>
+                        <div
+                            style="
+                                float: right;
+                                line-height: 34px;
+                                margin-right: 5px;
+                            "
+                        >
+                            <a target="_blank" href="/zwgk/ywzl/">更多>></a>
+                        </div>
+                        <div class="yezl">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff808081718ef30a0171956e545e02ad"
+                                        >人才评价开发(职称)</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4028808128cfb8ad0128d932e6b02569"
+                                        >三支一扶</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=402880812c95605b012cc9da243021d3"
+                                        >专业技术人才</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f01262173d14402c9"
+                                        >博士后与留学人员工作</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff808081789dfd460178a58e9d9a02c9"
+                                        >评比表彰</a
+                                    >
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f012621731f21029c"
+                                        >养老保险</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef1408279926e601279e4d51681724"
+                                        >事业单位人事管理</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f012621735c7802ab"
+                                        >职业能力建设</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef14092793a00d0127942b1cbd0522"
+                                        >失业保险</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140927a52ba30127a895f3fb001f"
+                                        >农民工工作</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef14092793a00d0127942b1cb70521"
+                                        >劳动关系</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f0126217418a902d8"
+                                        >党建工作</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f01262172d1700288"
+                                        >城乡居民养老保险</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f01262172e5d6028d"
+                                        >社保基金监督</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef1408279926e601279eb04d321c6c"
+                                        >信息化建设</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f01262173351f02a1"
+                                        >劳动保障监察</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff808081340d6b060134350f00301870"
+                                        >反腐倡廉</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f0126217394ea02ba"
+                                        >高层次人才</a
+                                    >
+                                </li>
+                                <!-- <li><img src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg">
+                            <a target="_blank" href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f01262173480602a6">离休干部医疗保障</a>
+                        </li>-->
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff80808178638213017867153e3c006b"
+                                        >劳动人事争议调解仲裁</a
+                                    >
+                                </li>
+
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef140825e3728f01262172f92a0292"
+                                        >工伤保险</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/newsimg9.jpg"
+                                    />
+                                    <a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff8080817c7e5c95017c82b7dd6000a0"
+                                        >劳动能力鉴定</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row3_r_1">
+                    <div class="row3_r yuanjiao">
+                        <div class="row_tit">快捷通道</div>
+                        <div class="row3_r_con">
+                            <ul>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/kstd1.png"
+                                    /><a
+                                        target="_blank"
+                                        href="https://hnjy.hrss.henan.gov.cn/jyweb/#/index"
+                                        >就业服务大厅</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/kstd5.png"
+                                    /><a
+                                        target="_blank"
+                                        href="http://www.hnrsks.com/"
+                                        >人事考试</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/kstd7.png"
+                                    /><a target="_blank" href="./"
+                                        >社保卡服务</a
+                                    >
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/kstd2.png"
+                                    /><a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=4aef1408279926e601279e53eac517a5"
+                                        >事业单位招聘</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/kstd6.png"
+                                    /><a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff808081718ef30a0171956e545e02ad"
+                                        >职称评审</a
+                                    >
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://file.henan.gov.cn/4500000013/img/kstd8.png"
+                                    /><a
+                                        target="_blank"
+                                        href="https://ywzl.hrss.henan.gov.cn/chaxun/login.do"
+                                        >查询中心</a
+                                    >
+                                </li>
+                            </ul>
+
+                            <li style="width: 100%; height: 45px; float: left">
+                                <img
+                                    style="
+                                        width: 24px;
+                                        height: 24px;
+                                        float: left;
+                                        margin: 10px 3px;
+                                    "
+                                    src="https://file.henan.gov.cn/4500000013/img/newsimg19.jpg"
+                                />
+                                <a
+                                    style="
+                                        width: auto;
+                                        height: 50px;
+                                        float: left;
+                                        font-size: 16px;
+                                        line-height: 45px;
+                                        color: #6a6a6a;
+                                    "
+                                    target="_blank"
+                                    href="https://gzzf.hrss.henan.gov.cn/"
+                                    >农民工工资支付监管</a
+                                >
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <!--第四行--><!--第五行--><!-- 20200508新增 -->
+                <div class="newpicslide">
+                    <div class="newpicslide-l">
+                        <div class="newtsxy_jdt">
+                            <div class="newhd">
+                                <a class="next"></a>
+                                <ul></ul>
+                                <a class="prev"></a>
+                            </div>
+
+                            <div class="newbd">
+                                <ul class="rollImgList">
+                                    <!--<li>
+                            <div class="pic">
+                                <a target="_blank" href="https://ywzl.hrss.henan.gov.cn/viewCmsCac.do?cacId=ff808081776a24ad01777bebc62602e3">
+                                    <img src="https://file.henan.gov.cn/4500000013/img/tygwy.jpg" border="0" /></a></div>
+                        </li>-->
+
+                                    <!--<li>
+                            <div class="pic">
+                                <a target="_blank" href="https://www.hncxcy.com/fxcy/zcb/index.html">
+                                    <img src="https://img.henan.gov.cn/5cd6b889fe9e1dca66302e6397582468?p=0" border="0" /></a></div>
+                        </li>-->
+                                    <!--<li>
+                            <div class="pic">
+                                <a target="_blank" href="http://hrss.henan.gov.cn/2021/10-12/2325494.html">
+                                    <img src="https://img.henan.gov.cn/ed2d54a383c02b6ec1c1edd861ac80de?p=0" border="0" /></a></div>
+                        </li>-->
+                                    <!--<li>
+                            <div class="pic">
+                                <a target="_blank" class="row5_l" href="http://www.cac.gov.cn/gzzt/ztzl/zt/waz/A0920010909index_1.htm">
+                                    <img src="https://file.henan.gov.cn/4500000013/img/wlaqxcz20220905.png">
+                                </a>
+                            </div>
+                        </li>-->
+                                    <!--<li>
+                            <div class="pic">
+                                <a target="_blank" class="row5_l" href="https://tousu.www.gov.cn/dc/6wen6bao/index.htm">
+                                    <img src="https://file.henan.gov.cn/4500000013/img/gwyzj.jpg">
+                                </a>
+                            </div>
+                        </li>-->
+                                    <!--<li>
+                            <div class="pic">
+                                <a target="_blank" href="https://piyao.henanjubao.com/">
+                                    <img src="https://file.henan.gov.cn/4500000013/img/hnswlpypt.png" border="0" /></a></div>
+                        </li>-->
+                                    <li>
+                                        <div class="pic">
+                                            <a
+                                                target="_blank"
+                                                href="http://www.hncxcy.com:76/"
+                                            >
+                                                <img
+                                                    src="https://file.henan.gov.cn/4500000013/img/bsh.jpg"
+                                                    border="0"
+                                            /></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a
+                                                target="_blank"
+                                                href="http://hrss.henan.gov.cn/ztxx/xjpzgtsshzysxzl/"
+                                            >
+                                                <img
+                                                    src="https://img.henan.gov.cn/282bd07bc434f82cdaa8b179766efbba?p=0"
+                                                    border="0"
+                                            /></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a
+                                                target="_blank"
+                                                href="http://www.zghnrc.gov.cn"
+                                            >
+                                                <img
+                                                    src="https://file.henan.gov.cn/4500000013/img/2222.jpg"
+                                                    border="0"
+                                            /></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pic">
+                                            <a
+                                                target="_blank"
+                                                href="https://fgw.henan.gov.cn/2022/06-27/2476115.html"
+                                            >
+                                                <img
+                                                    src="https://img.henan.gov.cn/e515853074ba11f691fdd73879cd32bf?p=0"
+                                                    border="0"
+                                            /></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newpicslide-r">
+                        <img
+                            src="https://file.henan.gov.cn/4500000013/img/hnrsazxz.png"
+                        />
+                        <span>河南人社APP下载</span>
+                        <div class="newslidercon">
+                            <img
+                                src="https://file.henan.gov.cn/4500000013/img/rightpic1.jpg"
+                            />
+                            <img
+                                src="https://file.henan.gov.cn/4500000013/img/rightpic2.jpg"
+                            />
+                            <img
+                                src="https://file.henan.gov.cn/4500000013/img/rightpic3.jpg"
+                            />
+                            <img
+                                src="https://file.henan.gov.cn/4500000013/img/rightpic4.jpg"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- 20200508新增  end--><!--第六行-->
+                <div class="row6_l yuanjiao">
+                    <div class="row6_l_l">
+                        <div class="row_tit">政府信息公开</div>
+                        <a class="more" href="/zwgk/xxgk/" target="_blank"
+                            >更多</a
+                        >
+                        <div class="row6_l_l_con">
+                            <li>
+                                <img
+                                    src="https://file.henan.gov.cn/4500000013/img/icon14.png"
+                                /><a target="_blank" href="/zcwj/"
+                                    >政府信息公开目录</a
+                                >
+                            </li>
+                            <li>
+                                <img
+                                    src="https://file.henan.gov.cn/4500000013/img/icon15.png"
+                                /><a target="_blank" href="/zwgk/znml/gkzn/"
+                                    >政府信息公开指南</a
+                                >
+                            </li>
+                            <li>
+                                <img
+                                    src="https://file.henan.gov.cn/4500000013/img/icon16.png"
+                                /><a
+                                    target="_blank"
+                                    href="/zwgk/xxgk/zfxxgkxgzd/"
+                                    >政府信息公开制度</a
+                                >
+                            </li>
+                            <li>
+                                <img
+                                    src="https://file.henan.gov.cn/4500000013/img/icon17.png"
+                                /><a
+                                    target="_blank"
+                                    href="http://ysqgk.henan.gov.cn/api/view/onesiteopen/4500000013"
+                                    >依申请公开</a
+                                >
+                            </li>
+                        </div>
+                    </div>
+                    <div
+                        style="padding: 0 5px 0 0; margin-top: 0; width: 416px"
+                        class="row7_l"
+                    >
+                        <div style="width: 430px" class="row7_tit">
+                            <div style="height: 300px" class="tabberlive">
+                                <ul>
+                                    <div
+                                        class="row7_On"
+                                        tabindex="1"
+                                        unactiveclass="row7_Off"
+                                        activeclass="row7_On"
+                                    >
+                                        <a target="_blank" href="/zcwj/"
+                                            >政策文件</a
+                                        >
+                                    </div>
+                                    <div
+                                        class="row7_Off"
+                                        tabindex="2"
+                                        unactiveclass="row7_Off"
+                                        activeclass="row7_On"
+                                    >
+                                        <a
+                                            target="_blank"
+                                            href="/zwgk/xxgk/zcjd/"
+                                            >政策解读</a
+                                        >
+                                    </div>
+                                </ul>
+                                <div class="tabbertab row7_more" tabindex="1">
+                                    <a target="_blank" href="/zcwj/">更多</a>
+                                </div>
+                                <div
+                                    class="tabbertab tabbertabhide row7_more"
+                                    tabindex="2"
+                                >
+                                    <a target="_blank" href="/zwgk/xxgk/zcjd/"
+                                        >更多</a
+                                    >
+                                </div>
+                                <div
+                                    style="height: 155px"
+                                    class="tabbertab row7_Con"
+                                    tabindex="1"
+                                >
+                                    <a class="newlist" href="http://hrss.henan.gov.cn/2026/10-10/3435886.html" target=_blank title="河南省人力资源和社会保障厅  河南省医疗保障局 河南省财政厅 国家税务总局河南省税务局关于公布202...">
+                                <span>·</span>
+                                河南省人力资源和社会保障厅  河南省医疗保...
+                            </a>
+                            <font class="date">
+                                [10-10]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/09-20/3427960.html" target=_blank title="河南省人力资源和社会保障厅 中共河南省委社会工作部关于开展2026年度高级社会工作师评审工作的通知">
+                                <span>·</span>
+                                河南省人力资源和社会保障厅 中共河南省委社...
+                            </a>
+                            <font class="date">
+                                [09-20]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-03/3381710.html" target=_blank title="河南省人力资源和社会保障厅关于公布2026年新设立及调整变更恢复撤销中高级职称评审委员会的通知">
+                                <span>·</span>
+                                河南省人力资源和社会保障厅关于公布2026...
+                            </a>
+                            <font class="date">
+                                [08-03]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/08-25/3407162.html" target=_blank title="河南省人力资源和社会保障厅关于做好2026年全省专业技术人员继续教育工作的通知">
+                                <span>·</span>
+                                河南省人力资源和社会保障厅关于做好2026...
+                            </a>
+                            <font class="date">
+                                [07-27]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/07-22/3378143.html" target=_blank title="河南省人力资源和社会保障厅关于发布河南省2026年企业工资指导线的通知">
+                                <span>·</span>
+                                河南省人力资源和社会保障厅关于发布河南省2...
+                            </a>
+                            <font class="date">
+                                [07-22]
+                            </font> 
+                                </div>
+                                <div
+                                    style="height: 155px"
+                                    class="tabbertab tabbertabhide row7_Con"
+                                    tabindex="2"
+                                >
+                                    <a class="newlist" href="http://hrss.henan.gov.cn/2026/05-27/3358849.html" target=_blank title="《关于加强和改进企业高层次人才职称评审工作的若干措施》的政策解读">
+                                <span>·</span>
+                                《关于加强和改进企业高层次人才职称评审工作...
+                            </a>
+                            <font class="date">
+                                [05-27]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/03-17/3334726.html" target=_blank title="关于《河南省就业见习管理办法》的政策解读">
+                                <span>·</span>
+                                关于《河南省就业见习管理办法》的政策解读
+                            </a>
+                            <font class="date">
+                                [10-17]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2026/03-02/3329733.html" target=_blank title="《河南省劳务派遣单位信用等级评价办法》政策解读">
+                                <span>·</span>
+                                《河南省劳务派遣单位信用等级评价办法》政策...
+                            </a>
+                            <font class="date">
+                                [02-16]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2025/07-24/3183830.html" target=_blank title="《河南省工伤保险医疗服务管理暂行办法》政策解读">
+                                <span>·</span>
+                                《河南省工伤保险医疗服务管理暂行办法》政策...
+                            </a>
+                            <font class="date">
+                                [07-17]
+                            </font> <a class="newlist" href="http://hrss.henan.gov.cn/2025/06-10/3168001.html" target=_blank title="《关于我省贯彻落实失业保险援企稳岗惠民政策的通知》政策解读">
+                                <span>·</span>
+                                《关于我省贯彻落实失业保险援企稳岗惠民政策...
+                            </a>
+                            <font class="date">
+                                [06-10]
+                            </font> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row6_r_1">
+                    <div class="row6_r yuanjiao">
+                        <!--1-->
+                        <div class="row_tit">交流互动</div>
+                        <div class="row6_r_bottom">
+                            <!--<li>
+                                <a
+                                    target="_blank"
+                                    href="https://ywzl.hrss.henan.gov.cn/listCmsChatBasic.do"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/jlhd1.png"
+                                    /><span style="display: block"
+                                        >在线访谈</span
+                                    ></a
+                                >
+                            </li>-->
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://ywzl.hrss.henan.gov.cn/addMailbox.do?type=0"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/jlhd2.png"
+                                    /><span style="display: block"
+                                        >厅长信箱</span
+                                    ></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://ywzl.hrss.henan.gov.cn/addMailbox.do?type=0"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/szyflyb20260831.png"
+                                    /><span style="display: block"
+                                        >三支一扶留言</span
+                                    ></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://ywzl.hrss.henan.gov.cn/addMailbox.do?type=3"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/jlhd2.png"
+                                    /><span style="display: block"
+                                        >行风投诉举报</span
+                                    ></a
+                                >
+                            </li>
+                        </div>
+                        <div class="row6_r_bottom">
+                            <li>
+                                <a target="_blank" href="/jlhd/bmdh/"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/jlhd4.png"
+                                    /><span style="display: block"
+                                        >12333</span
+                                    ></a
+                                >
+                            </li>
+                            <li>
+                                <a target="_blank" href="/jlhd/jcgk/zqyj/"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/jlhd5.png"
+                                    /><span style="display: block"
+                                        >征求意见</span
+                                    ></a
+                                >
+                            </li>
+                            <li>
+                                <a target="_blank" href="/jlhd/wsdc/"
+                                    ><img
+                                        src="https://file.henan.gov.cn/4500000013/img/jlhd6.png"
+                                    /><span style="display: block"
+                                        >网上调查</span
+                                    ></a
+                                >
+                            </li>
+                        </div>
+                        <style type="text/css">
+                            .row6_r_top {
+                                width: 80%;
+                                height: 80px;
+                                float: left;
+                                border-bottom: 1px solid #ccc;
+                                margin-left: 5%;
+                                padding: 0px 5%;
+                            }
+                            .row6_r_top li.left {
+                                width: 50%;
+                                height: 80px;
+                                float: left;
+                                display: block;
+                            }
+                            .row6_r_top li.left img {
+                                width: 32px;
+                                height: 32px;
+                                margin-top: 10px;
+                                margin-left: 50px;
+                            }
+                            .row6_r_top li.left a {
+                                width: 100%;
+                                line-height: 35px;
+                                display: block;
+                                color: #6a6a6a;
+                                text-align: center;
+                                font-size: 16px;
+                            }
+                            .row6_r_top li.right {
+                                width: 35%;
+                                height: 80px;
+                                float: left;
+                                display: block;
+                            }
+                            .row6_r_top li.right img {
+                                width: 32px;
+                                height: 32px;
+                                margin-top: 10px;
+                                margin-left: 25px;
+                            }
+                            .row6_r_top li.right a {
+                                width: 100%;
+                                line-height: 35px;
+                                display: block;
+                                color: #6a6a6a;
+                                text-align: center;
+                                font-size: 16px;
+                            }
+                            .row6_r_bottom {
+                                width: 100%;
+                                height: 80px;
+                                float: left;
+                            }
+                            .row6_r_bottom li {
+                                width: 32%;
+                                height: 80px;
+                                float: left;
+                                display: block;
+                            }
+                            .row6_r_bottom li img {
+                                width: 32px;
+                                height: 32px;
+                                margin-top: 10px;
+                            }
+                            .row6_r_bottom li a {
+                                width: 100%;
+                                line-height: 35px;
+                                display: block;
+                                color: #6a6a6a;
+                                text-align: center;
+                                font-size: 16px;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <!--第六行增加--><a
+                    class="rowz_l"
+                    target="_blank"
+                    href="/gfxwjzlk/"
+                    ><img
+                        src="https://file.henan.gov.cn/4500000013/img/ad01_1_2024042501.jpg"
+                /></a>
+                <a class="rowz_r"
+                    ><img
+                        style="width: 321px; height: 82px"
+                        src="https://img.henan.gov.cn/484bdb341ecb21dff2ad6e159c031488?p=0"
+                /></a>
+                <!--第七行-->
+                <div class="row7_l">
+                    <div class="row7_tit">
+                        <div class="tabberlive">
+                            <ul>
+                                <div
+                                    class="row7_On"
+                                    tabindex="1"
+                                    unactiveclass="row7_Off"
+                                    activeclass="row7_On"
+                                >
+                                    <a target="_blank" href="/zwgk/xxgk/ghjhmb/"
+                                        >规划计划目标</a
+                                    >
+                                </div>
+                                <div
+                                    class="row7_Off"
+                                    tabindex="2"
+                                    unactiveclass="row7_Off"
+                                    activeclass="row7_On"
+                                >
+                                    <a target="_blank" href="/zwgk/xxgk/bmcg/"
+                                        >政府采购</a
+                                    >
+                                </div>
+                            </ul>
+                            <div class="tabbertab row7_more" tabindex="1">
+                                <a target="_blank" href="/zwgk/xxgk/ghjhmb/"
+                                    >更多</a
+                                >
+                            </div>
+                            <div
+                                class="tabbertab tabbertabhide row7_more"
+                                tabindex="2"
+                            >
+                                <a target="_blank" href="/zwgk/xxgk/bmcg/"
+                                    >更多</a
+                                >
+                            </div>
+                            <div class="tabbertab row7_Con" tabindex="1">
+                                <a class="newlist" href="http://hrss.henan.gov.cn/2022/02-18/2400822.html" target=_blank title="河南省人力资源和社会保障厅关于印发河南省“十四五”人力资源和社会保障事业发展规划的通知">			
+                            <span>·</span>
+                            河南省人力资源和社会保障厅关于印发河南省“...
+                        </a> <a class="newlist" href="https://www.henan.gov.cn/2022/01-21/2386336.html" target=_blank title="河南省人民政府关于印发河南省“十四五”人才发展人力资源开发和就业促进规划的通知">			
+                            <span>·</span>
+                            河南省人民政府关于印发河南省“十四五”人才...
+                        </a> <a class="newlist" href="https://www.henan.gov.cn/2022/02-16/2399877.html" target=_blank title="河南省人民政府关于印发河南省“十四五”公共服务和社会保障规划的通知">			
+                            <span>·</span>
+                            河南省人民政府关于印发河南省“十四五”公共...
+                        </a> <a class="newlist" href="https://www.henan.gov.cn/2022/02-23/2403275.html" target=_blank title="河南省人民政府关于印发河南省“十四五”科技创新和一流创新生态建设规划的通知">			
+                            <span>·</span>
+                            河南省人民政府关于印发河南省“十四五”科技...
+                        </a> 
+                            </div>
+                            <div
+                                class="tabbertab tabbertabhide row7_Con"
+                                tabindex="2"
+                            >
+                                <a class="newlist" href="http://hrss.henan.gov.cn/2024/01-16/2886425.html" target=_blank title="河南省财政厅关于印发河南省政府集中采购目录及标准（2020年版）的通知">
+                            <span>·</span>
+                            河南省财政厅关于印发河南省政府集中采购目录...
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2024/08-05/3032227.html" target=_blank title="金保工程二期项目招标代理机构评选公告">
+                            <span>·</span>
+                            金保工程二期项目招标代理机构评选公告
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2022/09-14/2606642.html" target=_blank title="“凤归中原”返乡创业线上线下服务活动采购公告">
+                            <span>·</span>
+                            “凤归中原”返乡创业线上线下服务活动采购公...
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2022/06-20/2471566.html" target=_blank title="2022年河南省优秀高技能人才休疗养询价公告">
+                            <span>·</span>
+                            2022年河南省优秀高技能人才休疗养询价公...
+                        </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row7_c">
+                    <div class="row7_tit">
+                        <div class="tabberlive">
+                            <ul>
+                                <div
+                                    class="row7_On"
+                                    tabindex="1"
+                                    unactiveclass="row7_Off"
+                                    activeclass="row7_On"
+                                >
+                                    <a target="_blank" href="/licensing/list/"
+                                        >行政许可公示</a
+                                    >
+                                </div>
+                                <div
+                                    class="row7_Off"
+                                    tabindex="2"
+                                    unactiveclass="row7_Off"
+                                    activeclass="row7_On"
+                                >
+                                    <a target="_blank" href="/penalty/list/"
+                                        >行政处罚公示</a
+                                    >
+                                </div>
+                            </ul>
+                            <div class="tabbertab row7_more" tabindex="1">
+                                <a target="_blank" href="/licensing/list/"
+                                    >更多</a
+                                >
+                            </div>
+                            <div
+                                class="tabbertab tabbertabhide row7_more"
+                                tabindex="2"
+                            >
+                                <a target="_blank" href="/fwyd/sgs/xzcf/"
+                                    >更多</a
+                                >
+                            </div>
+                            <div class="tabbertab row7_Con" tabindex="1">
+                                 <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/6C05047C10071F11A60FBB52C8A9EAD0" target="_blank"> <span style="lyzxList;">豫人社延字〔2026〕第2号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2026-08-28] </span>
+                                                                                            </div>
+ <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/389D6BB3E71989BF4882D5F14FFFB151" target="_blank"> <span style="lyzxList;">豫人社准字〔2026〕第2号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2026-08-17] </span>
+                                                                                            </div>
+ <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/7D7FC98E79D1D40C2C455D8E2C00B3A3" target="_blank"> <span style="lyzxList;">豫人社变字〔2026〕第1 号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2026-04-23] </span>
+                                                                                            </div>
+ <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/E9883CA8A1A09520CBD64C5D23FD01EF" target="_blank"> <span style="lyzxList;">豫人社延字〔2026〕第1 号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2026-03-23] </span>
+                                                                                            </div>
+ <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/FBA1664288762E45BADBD5333040DFB9" target="_blank"> <span style="lyzxList;">豫人社准字〔2026〕第1号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2026-01-20] </span>
+                                                                                            </div>
+ <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/31686C5F512E7D0722240DF8266B689C" target="_blank"> <span style="lyzxList;">豫人社准字〔2025〕第7号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2025-12-19] </span>
+                                                                                            </div>
+ <div style="height:30px;">
+                                                                                                <a style="line-height:30px;" href="https://xxgs.henan.gov.cn/open/view/licensing/76434CEF85C4B450AF4F671F44605924" target="_blank"> <span style="lyzxList;">豫人社准字〔2025〕第6号 </span> </a>
+                                                                                                <span class="pull-right" style="color:#000;font-size:13px; line-height:30px; "> [2025-12-09] </span>
+                                                                                            </div>
+
+                            </div>
+                            <div
+                                class="tabbertab tabbertabhide row7_Con"
+                                tabindex="2"
+                            >
+                                <span style='display: none'></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row7_r_1">
+                    <div class="row7_r">
+                        <div class="row7_tit">
+                            <div class="tabberlive">
+                                <ul>
+                                    <div
+                                        class="row7_On"
+                                        tabindex="1"
+                                        unactiveclass="row7_Off"
+                                        activeclass="row7_On"
+                                    >
+                                        <a
+                                            target="_blank"
+                                            href="/fwyd/sgs/bmxx/"
+                                            >便民信息</a
+                                        >
+                                    </div>
+                                    <div
+                                        class="row7_Off"
+                                        tabindex="2"
+                                        unactiveclass="row7_Off"
+                                        activeclass="row7_On"
+                                    >
+                                        <a target="_blank" href="/fwyd/xzzx/"
+                                            >下载中心</a
+                                        >
+                                    </div>
+                                </ul>
+                                <div class="tabbertab row7_more" tabindex="1">
+                                    <a target="_blank" href="/fwyd/sgs/bmxx/"
+                                        >更多</a
+                                    >
+                                </div>
+                                <div
+                                    class="tabbertab tabbertabhide row7_more"
+                                    tabindex="2"
+                                >
+                                    <a target="_blank" href="/fwyd/xzzx/"
+                                        >更多</a
+                                    >
+                                </div>
+                                <div class="tabbertab row7_Con" tabindex="1">
+                                    <a class="newlist" href="http://hrss.henan.gov.cn/2021/06-01/2155448.html" target=_blank title="河南省工伤保险协议医疗机构申请">
+                            <span>·</span>
+                            河南省工伤保险协议医疗机构申请
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2021/06-01/2155444.html" target=_blank title="劳动能力再次鉴定">
+                            <span>·</span>
+                            劳动能力再次鉴定
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2021/06-01/2155436.html" target=_blank title="河南省工伤保险辅助器具配置协议机构申请">
+                            <span>·</span>
+                            河南省工伤保险辅助器具配置协议机构申请
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2017/11-08/1577194.html" target=_blank title="河南省申请失业保险稳岗补贴及技能提升补贴失业保险经办机构信息汇总表">
+                            <span>·</span>
+                            河南省申请失业保险稳岗补贴及技能提升补贴失...
+                        </a> 
+                                </div>
+                                <div
+                                    class="tabbertab tabbertabhide row7_Con"
+                                    tabindex="2"
+                                >
+                                    <a class="newlist" href="http://hrss.henan.gov.cn/2025/01-20/3114407.html" target=_blank title="2025年人事人才统计年报相关资料下载">
+                            <span>·</span>
+                            2025年人事人才统计年报相关资料下载
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2024/03-04/2956723.html" target=_blank title="快递从业人员劳动合同（示范文本）">
+                            <span>·</span>
+                            快递从业人员劳动合同（示范文本）
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2024/03-04/2956722.html" target=_blank title="新就业形态劳动者权益维护服务指南">
+                            <span>·</span>
+                            新就业形态劳动者权益维护服务指南
+                        </a> <a class="newlist" href="http://hrss.henan.gov.cn/2024/03-04/2956719.html" target=_blank title="新就业形态劳动者书面协议参考文本">
+                            <span>·</span>
+                            新就业形态劳动者书面协议参考文本
+                        </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row5 yuanjiao">
+                    <div class="tsxy_jdt1">
+                        <div class="hd1">
+                            <a class="next"></a>
+                            <ul></ul>
+                            <a class="prev"></a>
+                        </div>
+
+                        <div class="bd1">
+                            <ul class="rollImgList">
+                                <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="https://www.gov.cn/zhengce/zczhjd/"><img src="https://img.henan.gov.cn/75a91f3e63555ca33fd704726b13cf3f?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="https://piyao.henanjubao.com/"><img src="https://img.henan.gov.cn/243550e3dc135b55089861e9ba38498b?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/ztxx/nmggz/"><img src="https://img.henan.gov.cn/30e82561d7e8a8362eca34fafc0b729b?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="https://hrss.henan.gov.cn/ztxx/zqcxysgzxyrs/"><img src="https://img.henan.gov.cn/484bdb341ecb21dff2ad6e159c031488?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="https://gzzf.hrss.henan.gov.cn/"><img src="https://img.henan.gov.cn/db0a0eafde766e66f6f275c5ed3c38c7?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/ztxx/bwlb/"><img src="https://img.henan.gov.cn/0e3530fdae249779d224337e8813c5f8?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/ztxx/zghnzcyzcxfzdhxwbdj/"><img src="https://img.henan.gov.cn/2e4dc59ecaa4ca8589634472e5446272?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/gjhxldgxjjcjpars"><img src="https://img.henan.gov.cn/b39bb19cff64d1894e3786b119a839c0?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/ztxx/wlwmxczl/"><img src="https://img.henan.gov.cn/23ee5dff607c631348865d04faa31cd9?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm"><img src="https://img.henan.gov.cn/c6a1bbacd83bfac744d6e1a814ef3334?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/tablgk/jyblgk/"><img src="https://img.henan.gov.cn/f2fe538c8fb860d9f714f967d582a0f5?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="http://hrss.henan.gov.cn/2020/01-14/1577540.html"><img src="https://img.henan.gov.cn/efe651f81e81f5e840a726a5956c0695?p=0" width="244" height="97"></a></div>
+                    </li> <li>
+                        <div class="pic1">
+                            <a target="_blank" class="row5_l" href="https://hrss.henan.gov.cn/2022/07-21/2491332.html"><img src="https://img.henan.gov.cn/31f125608552f153f8495552a0c9ee62?p=0" width="244" height="97"></a></div>
+                    </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--第九行-->
+                <div class="row9">
+                    <a
+                        target="_blank"
+                        href="https://shbx.hrss.henan.gov.cn/hnsi/index.htm"
+                        ><span>·</span>河南省社会保险中心</a
+                    >
+                    <a
+                        target="_blank"
+                        href="https://hnjy.hrss.henan.gov.cn/jyweb/#/index"
+                        ><span>·</span>河南就业网上办事大厅</a
+                    >
+                    <a target="_blank" href="http://pjzdzx.hrss.henan.gov.cn/"
+                        ><span>·</span>河南省技能人才评价工作网</a
+                    >
+                    <a target="_blank" href="http://www.hn91w.cn/"
+                        ><span>·</span>河南省就业创业服务网</a
+                    >
+                    <a target="_blank" href="http://www.zyrc.com.cn/"
+                        ><span>·</span>中国中原人才网</a
+                    >
+                    <a target="_blank" href="http://www.hnrsks.com/"
+                        ><span>·</span>河南省人事考试网
+                    </a>
+                    <a target="_blank" href="http://www.zghnrc.gov.cn/"
+                        ><span>·</span>中国河南招才引智创新大会</a
+                    >
+                    <a
+                        style="width: 220px"
+                        target="_blank"
+                        href="http://www.hnzjgl.gov.cn/"
+                        ><span>·</span>河南省专业技术人员公共服务平台</a
+                    >
+                    <a
+                        style="width: 220px"
+                        target="_blank"
+                        href="https://www.hnrcjl.cn/"
+                        ><span>·</span>河南省人才交流中心公共服务网</a
+                    >
+                    <a target="_blank" href="https://www.hnrrcz.com/"
+                        ><span>·</span>河南省技能人才管理服务信息系统</a
+                    >
+                    <a target="_blank" href="http://www.12333.gov.cn/"
+                        ><span>·</span>全国人社政务服务平台</a
+                    >
+                    <a target="_blank" href="https://www.jobonline.cn/"
+                        ><span>·</span>就业在线</a
+                    >
+                    <a target="_blank" href="http://si.12333.gov.cn/index.jhtml"
+                        ><span>·</span>国家社保公共服务平台</a
+                    >
+                    <a target="_blank" href="http://222.143.32.135/yzxm/"
+                        ><span>·</span>河南省引智项目管理系统</a
+                    >
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <script
+            type="text/javascript"
+            src="https://file.henan.gov.cn/4500000013/js/js.js"
+        ></script>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <!--第十行-->
+        <table
+            style="margin: 0px auto"
+            cellspacing="0"
+            cellpadding="0"
+            width="1000"
+            align="center"
+            border="0"
+        >
+            <tbody>
+                <tr>
+                    <td>
+                        <!--link-->
+                        <script src="https://file.henan.gov.cn/4500000013/js/link.js"></script>
+
+                        <!--尾部-->
+                        <script src="https://file.henan.gov.cn/4500000013/js/footer.js"></script>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="https://file.henan.gov.cn/4500000013/bay-window/bay-window.js"></script>
+        <script>
+            $(".tsxy_jdt1").slide({
+                titCell: ".hd1 ul",
+                mainCell: ".bd1 ul",
+                autoPage: true,
+                effect: "leftLoop",
+                autoPlay: true,
+                vis: 4,
+                trigger: "click",
+            });
+            $(".newtsxy_jdt").slide({
+                titCell: ".newhd ul",
+                mainCell: ".newbd ul",
+                autoPage: true,
+                effect: "leftLoop",
+                autoPlay: true,
+                vis: 3,
+                trigger: "click",
+            });
+        </script>
+        <script src="https://file.henan.gov.cn/4500000001/common/esdToolsInit.js"></script>
+    </body>
+</html>

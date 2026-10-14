@@ -1,0 +1,21 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 4.437,
+  "access_date": "2026-10-12",
+  "sha256": "3e6cdab8324983d782223659d12f1379783049848ca280dbe62d2e0d98c5311b",
+  "blocked": null,
+  "id": "bytedance-commercial-search",
+  "company": "bytedance",
+  "query": "字节跳动 巨量引擎 广告主 飞书 火山引擎 企业 付费",
+  "include_domains": [
+    "oceanengine.com",
+    "feishu.cn",
+    "volcengine.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-commercial-search.json"
+}

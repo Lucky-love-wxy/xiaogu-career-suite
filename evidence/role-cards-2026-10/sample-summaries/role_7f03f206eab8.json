@@ -1,0 +1,451 @@
+{
+  "name": [
+    {
+      "text": "信息安全工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "信息安全工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 11,
+  "excluded": [
+    {
+      "id": "vm85NaCZL",
+      "url": "https://campus.niuqizp.com/job-vm85NaCZL.html",
+      "role": "开发|测试|信息安全|系统运维类",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助安全制度的编写",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5ZzLa5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5ZzLa5",
+          "text": "协助安全制度的编写"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与攻防演练和重大活动保障值守",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkU5CzZaL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkU5CzZaL",
+          "text": "参与攻防演练和重大活动保障值守"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与数据安全项目落地或方案设计",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkU5CzZaL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkU5CzZaL",
+          "text": "参与数据安全项目落地或方案设计"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责信息科技风险管理、项目管理、网络运维管理等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5nN5aC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5nN5aC",
+          "text": "负责信息科技风险管理、项目管理、网络运维管理等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助合规（等级保护、iso 27001等）年审工作协调",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5ZzLa5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5ZzLa5",
+          "text": "协助合规（等级保护、iso 27001等）年审工作协调"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责安全项目全流程交付管理，制定计划、协调资源、把控进度与质量",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5CLtLn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5CLtLn",
+          "text": "负责安全项目全流程交付管理，制定计划、协调资源、把控进度与质量"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "撰写技术方案、投标文件与验收文档，配合售前进行方案宣讲与技术交流",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5CLtLn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5CLtLn",
+          "text": "撰写技术方案、投标文件与验收文档，配合售前进行方案宣讲与技术交流"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责防火墙、WAF、IDS/IPS等安全产品的策略优化与效能评估",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5CLtLn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5CLtLn",
+          "text": "负责防火墙、WAF、IDS/IPS等安全产品的策略优化与效能评估"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "11份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 11,
+        "matched_ids": [
+          "vkUNLZMMZ",
+          "vkr5zMZ5N"
+        ]
+      }
+    },
+    {
+      "text": "11份保留的校招平台样本中，9份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 9,
+        "denominator": 11,
+        "matched_ids": [
+          "v8Y5MLzt5",
+          "v8s5CLtLn",
+          "v8s5nN5aC",
+          "vkU5CzZaL",
+          "vls5NzNLn",
+          "vm85nN5CC",
+          "vrk5ZzLa5",
+          "vrr5CtZLn",
+          "vwk5MLCza"
+        ]
+      }
+    },
+    {
+      "text": "11份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 11,
+        "matched_ids": [
+          "v8s5CLtLn",
+          "vrr5CtZLn"
+        ]
+      }
+    },
+    {
+      "text": "11份保留的校招平台样本中，1份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 1,
+        "denominator": 11,
+        "matched_ids": [
+          "vls5NzNLn"
+        ]
+      }
+    },
+    {
+      "text": "11份保留的校招平台样本中，1份专业类字段为“电子信息类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电子信息类",
+        "n": 1,
+        "denominator": 11,
+        "matched_ids": [
+          "vkU5CzZaL"
+        ]
+      }
+    },
+    {
+      "text": "11份保留的校招平台样本中，1份专业类字段为“自动化类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "自动化类",
+        "n": 1,
+        "denominator": 11,
+        "matched_ids": [
+          "vls5NzNLn"
+        ]
+      }
+    },
+    {
+      "text": "11份保留的校招平台样本中，9份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 9,
+        "denominator": 11,
+        "matched_ids": [
+          "v8Y5MLzt5",
+          "v8s5nN5aC",
+          "vkU5CzZaL",
+          "vkUNLZMMZ",
+          "vkr5zMZ5N",
+          "vls5NzNLn",
+          "vm85nN5CC",
+          "vrk5ZzLa5",
+          "vwk5MLCza"
+        ]
+      }
+    },
+    {
+      "text": "11份保留样本中，5份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "v8s5CLtLn",
+        "v8s5nN5aC",
+        "vkU5CzZaL",
+        "vkUNLZMMZ",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vm85nN5CC",
+        "vrk5ZzLa5",
+        "vrr5CtZLn",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 5,
+        "denominator": 11,
+        "matched_ids": [
+          "v8Y5MLzt5",
+          "v8s5CLtLn",
+          "vkU5CzZaL",
+          "vls5NzNLn",
+          "vrk5ZzLa5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "信息安全工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8Y5MLzt5",
+        "vkr5zMZ5N",
+        "vls5NzNLn",
+        "vrk5ZzLa5",
+        "vwk5MLCza"
+      ],
+      "quotes": [],
+      "count": 5
+    },
+    {
+      "text": "信息安全及数据管理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8s5nN5aC",
+        "vm85nN5CC"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "信息安全岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkUNLZMMZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "信息安全工程师-流程IT与质量（27届）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkU5CzZaL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "信息安全架构工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrr5CtZLn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "茂名分公司-信息安全运营",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8s5CLtLn"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

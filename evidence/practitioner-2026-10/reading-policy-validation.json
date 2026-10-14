@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "negative_cases": [
+    {
+      "case": "799字不打开",
+      "result": "REJECTED"
+    },
+    {
+      "case": "未知长度不打开",
+      "result": "REJECTED"
+    },
+    {
+      "case": "当日429后停止",
+      "result": "REJECTED"
+    },
+    {
+      "case": "跨日不自动解除限制",
+      "result": "REJECTED"
+    },
+    {
+      "case": "下一search超过限额",
+      "result": "REJECTED"
+    },
+    {
+      "case": "下一body超过限额",
+      "result": "REJECTED"
+    },
+    {
+      "case": "未查上一响应不能换站继续",
+      "result": "REJECTED"
+    },
+    {
+      "case": "未查正文不能提前标已读",
+      "result": "REJECTED"
+    },
+    {
+      "case": "未读完正文不能换站继续",
+      "result": "REJECTED"
+    },
+    {
+      "case": "正文1000字29秒不足",
+      "result": "REJECTED"
+    },
+    {
+      "case": "终态不可重写",
+      "result": "REJECTED"
+    },
+    {
+      "case": "20分钟跨站仍须休息",
+      "result": "REJECTED"
+    },
+    {
+      "case": "未来休息不能解锁",
+      "result": "REJECTED"
+    },
+    {
+      "case": "299秒休息不足",
+      "result": "REJECTED"
+    }
+  ],
+  "network_calls": 0,
+  "body_length_basis": "去话题标签与空白"
+}

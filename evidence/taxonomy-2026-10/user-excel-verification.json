@@ -1,0 +1,38 @@
+{
+  "source": "user provided local O*NET Excel directory",
+  "readme": "O*NET31.0 August2026; CC BY4.0",
+  "checked_files": [
+    {
+      "path": "/Users/lucky_wang/Downloads/浏览器/db_31_0_excel/Occupation Data.xlsx",
+      "sha256": "13b2aa4c08e6c9a3708d5e5ac83e13da5cc184e3798313c8942a266d00593ace",
+      "nonempty_rows": 1017,
+      "data_rows_excluding_one_header": 1016
+    },
+    {
+      "path": "/Users/lucky_wang/Downloads/浏览器/db_31_0_excel/Task Statements.xlsx",
+      "sha256": "afb7ba3bb00f0355d7d5f07e0a446ce880d72d15d4f3f2087973aa8c0dd102d4",
+      "nonempty_rows": 18839,
+      "data_rows_excluding_one_header": 18838
+    },
+    {
+      "path": "/Users/lucky_wang/Downloads/浏览器/db_31_0_excel/Task Ratings.xlsx",
+      "sha256": "6f67327fd5d9a24d1dc553d3b5bbb3278bc89896efac57aa90bbe713a65a3fab",
+      "nonempty_rows": 165781,
+      "data_rows_excluding_one_header": 165780
+    },
+    {
+      "path": "/Users/lucky_wang/Downloads/浏览器/db_31_0_excel/Work Context.xlsx",
+      "sha256": "406e4d93d87701e94308d6c6755bed03e3fb289b33c6e033f231593075888834",
+      "nonempty_rows": 305390,
+      "data_rows_excluding_one_header": 305389
+    },
+    {
+      "path": "/Users/lucky_wang/Downloads/浏览器/db_31_0_excel/Job Zones.xlsx",
+      "sha256": "6b5559fe95a2b9d6a159b0f62aa2c68962491fafd4cbc1c8e865a96e2b52e79c",
+      "nonempty_rows": 924,
+      "data_rows_excluding_one_header": 923
+    }
+  ],
+  "method": "Python stdlib zipfile+XML nonempty row count, first row header excluded",
+  "boundary": "Only local read; no new download; full equivalence with CSV requires field-level comparison."
+}

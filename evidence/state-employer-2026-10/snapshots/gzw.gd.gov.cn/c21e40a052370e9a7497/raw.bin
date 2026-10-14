@@ -1,0 +1,1475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+    <title>广东省人民政府国有资产监督管理委员会</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=7" />
+    <meta name="keywords" content="广东省国资委,广东国资委,广东国有资产监督管理委员会,国有资产监督管理委员会,国资委,国有资产,委员会,广东,国资概况,新闻中心,国资监管,信息公开,党建党风,廉政建设,企业聚焦,文化园地,公众参与"
+    />
+    <meta name="description" content="广东省国资委,国资概况,新闻中心,国资监管,信息公开,党建党风,廉政建设,企业聚焦,文化园地,公众参与" />
+    <meta name="ColumnName" content="广东省人民政府国有资产监督管理委员会网站" />
+	<meta name="ColumnDescription" content="发布广东国资系统信息" />
+	<meta name="ColumnKeywords" content="广东国资，国有资产" />
+	<meta name="ColumnType" content="首页" />
+
+    <link href="/css/css_whir.css" rel="stylesheet" type="text/css" />
+    
+  <link rel="stylesheet" href="/audiojs/swiper-bundle.min.css" />
+    <script src="./script/FlashMovie.js" type="text/javascript">
+
+    </script>
+    <script src="./script/AC_RunActiveContent.js" type="text/javascript">
+
+    </script>
+    <script src="./js/uaredirect.js" type="text/javascript">
+
+    </script>
+    <script type="text/javascript">
+        uaredirect("/mobile/");
+    </script>
+    <script type="text/javascript">
+        WWWROOT = '';
+        
+        function searchBtn(){
+            var keywords = $('#searchContext').val();
+            var url = 'http://search.gd.gov.cn/search/local/195/?time=month&sort_by=-pubdate&page=1&keywords='+keywords;
+            window.open(url);
+        }
+    </script>
+    <style type="text/css">
+        #testDiv {
+            overflow: hidden;
+        }
+
+        #testUl li { height:14px; overflow:hidden;
+            position: relative;
+            margin: 0px;
+            padding: 3px 0px 9px 9px;
+        }
+
+        #testUl li a {
+            width: 65%;
+        }
+
+        #testUl li a font {
+            width: 75%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: block;
+            color: #666 !important;
+            font: 12px "Microsoft Yahei";
+        }
+
+        #testUl li span {
+            position: absolute;
+            top: 3px;
+            right: 0;
+        }
+
+        .weixin-hover {
+            position: absolute;
+            display: none;
+            z-index: 9999
+        }
+
+        .weixin {
+            cursor: pointer
+        }
+
+        /*2020-09-27-粤商通右下角信息*/
+        .yueshangtongdiv{position:fixed; right: 10px; bottom: -1px; z-index:999;}
+        .yueshangtongdiv.sty2{ bottom:170px}
+        .yueshangtongclose{ position: absolute; right: 5px; top: 5px; width:300px; cursor: pointer; text-align: right;}
+        .yueshangtongimg{ width:300px; margin: 0 auto 20px;} 
+        @media screen and (max-width: 1680px) { 
+        .yueshangtongdiv{position:fixed; right: 0; bottom: -1px; z-index:999;} 
+        .yueshangtongimg{ width:250px; margin: 0 auto 20px;} 
+         .yueshangtongdiv.sty2{ bottom:140px}
+        .yueshangtongclose{ position: absolute; right: 0; top: 5px; width:250px; cursor: pointer; text-align: right;}
+}
+@media screen and (max-width: 1440px) { 
+         .yueshangtongdiv{position:fixed; right: 0; bottom: -1px; z-index:999;}  
+        .yueshangtongimg{ width:200px; margin: 0 auto 20px;} 
+         .yueshangtongdiv.sty2{ bottom:120px}
+        .yueshangtongclose{ position: absolute; right: 0; top: 5px; width:200px; cursor: pointer; text-align: right;}
+}
+@media screen and (max-width: 1280px) {  
+        .yueshangtongdiv{position:fixed; right: 0; bottom: -1px; z-index:999;} 
+        .yueshangtongimg{ width:150px; margin: 0 auto 20px;} 
+         .yueshangtongdiv.sty2{ bottom:90px}
+        .yueshangtongclose{ position: absolute; right: 0; top: 5px; width:150px; cursor: pointer; text-align: right;}
+}
+         /*2022王敏网络安全满意度调查活动左下角*/
+        .wmmyddcdiv{position:fixed; left: 10px; bottom: -1px; z-index:999;}
+        .wmmyddcdiv.sty2{ bottom:260px}
+        .wmmyddcclose{ position: absolute; right: 5px; top: 5px; width:360px; cursor: pointer; text-align: right;}
+        .wmmyddcimg{ width:360px; margin: 0 auto 20px; height:240px; overflow:hidden;} 
+
+
+        /* 2021春节挂红 */
+        /* .pagebg{ background: url(../images/index/gh_2021cj.jpg) no-repeat center top} */
+        /* .pagebg{ padding-top: 100px; background: url(/images/bg_jd100th.jpg) no-repeat center top #f2f2f2;} */
+
+        .jcl_ad {
+    position: relative;
+    width: 752px;
+    height: 94px;
+    overflow: hidden;
+    }
+    .jcl_ad img{ width: 752px;
+    height: 94px;
+    overflow: hidden;}
+    .lnewbanner li img{ height:94px;}
+    #jcl_ad .next_ad{top:25px; right:10px; position:absolute; z-index:999; width:41px; height:41px;
+        background:url(/images/18931906.png) no-repeat -2px -49px; cursor: pointer;}
+
+    #jcl_ad .prev_ad{top:25px; left:10px; position:absolute; z-index:999; width:41px; height:41px;
+    background:url(/images/18931906.png) no-repeat -2px -2px;cursor: pointer;}
+
+    </style>
+</head>
+    <div class="yueshangtongdiv">
+        <div class="yueshangtongclose">关闭</div>
+        <img class="yueshangtongimg" src="/images/index/yueshangtongtanchuang1.png"/>
+        <!-- <img class="yueshangtongimg" src="images/index/test.jpg"/> -->
+    </div>
+    <div class="yueshangtongdiv sty2">
+        <div class="yueshangtongclose">关闭</div>
+        <a href="//tzgd.gdzwfw.gov.cn/#/index" target="_blank"><img class="yueshangtongimg" src="/images/20230804tzgd.jpg"/></a>
+    </div> 
+    <!-- <div class="wmmyddcdiv">
+        <div class="wmmyddcclose">关闭</div>
+        <img class="wmmyddcimg" src="/images/index/wmwlanqmyddc1.jpg"/>
+       
+    </div>
+    <div class="wmmyddcdiv sty2">
+        <div class="wmmyddcclose">关闭</div>
+        <img class="wmmyddcimg" src="/images/index/wmwlanqmyddc2.jpg"/>
+        
+    </div> -->
+<body class="pagebg" id="home">
+    
+
+<!--春节横幅
+ <body class="pagebgNewYear" id="home" > 
+     <div id="TopBg" style="clear:both;width:1001px;z-index:1;height:70px;margin:0 auto;padding:0;overflow:hidden;position:relative;">
+    </div>
+-->
+    <div class="contain">
+        <div class="contain_sub">
+
+            <div class="searchbox">
+                <ul>
+                    <li style="float:right; padding:5px;"><a href="#"><img src="./images/gfwx.jpg" class="weixin" width="81" height="28" alt="微信" /></a><img class="weixin-hover" style="height:135px;width:135px;" src="./images/gdgz_wx.jpg" alt="微信二维码" /></li>
+                <li style="float:right; padding:5px;">
+                                            <a href="https://gzw.gd.gov.cn/mobile/index.html"><img width="17" height="28" title="访问移动版" alt="移动版" src="./images/shouji.jpg"></a>
+                                    </li>
+                <!--
+                <li style="float:right;margin-right:0px;width:70px;">
+                    <a  href="http://voice.gd.gov.cn/wza_gzw/"target="_blank" id="yx_style_nav" >信息无障碍</a>
+
+                </li>
+                -->
+
+                <li id="gzwwza" style="float:right;margin-right:0px;width:70px;cursor:pointer;">
+                    信息无障碍
+                </li>
+
+                <li style="float:right;">
+                    <img src="./images/index/ipv6_icon.png"/>
+                </li>
+            </ul>
+        </div>
+        <!-- top -->
+        <div class="top">
+            <script src="/gdgz/script/AC_RunActiveContent.js"
+                type="text/javascript"></script>
+
+            <script type="text/javascript">
+        <!--
+        function MM_showHideLayers() { //v9.0
+            var i,p,v,obj,args=MM_showHideLayers.arguments; 
+            for (i=0; i<(args.length-2); i+=3) 
+            with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { 
+            v=args[i+2];
+                var spanObj = document.getElementById('zwgkSpan');
+                if(spanObj!=null && v=='show'){
+                spanObj.style.display='none';
+                }else if(spanObj!=null && v=='hide'){
+                spanObj.style.display='block';
+                spanObj.style.width='550px';
+                }
+            if (obj.style) {
+                obj=obj.style; 
+                v=(v=='show')?'visible':(v=='hide')?'hidden':v; 
+                }
+                obj.visibility=v;     
+            }
+        }
+
+        function dataUploadLogin(){
+            //if(window.location.href.indexOf('/index.html')==-1){
+                window.location.href = '/datareport.html';
+            //}else{
+            //  focusField();
+            //}
+        }
+        function focusField(){
+            var inputField = document.getElementById('user_name');
+                if(typeof(inputField)!='undefined' && inputField!=null){
+                    inputField.focus();
+                }
+        }
+        //-->
+        </script>
+            <div class="banner" style="margin-left:-1px;">
+                <img src="./images/index/banner.png" width="981" height="211">
+                
+                <!--
+                    <script type="text/javascript">
+        AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','980','height','211','src','/media/ban','wmode','Transparent','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','/media/ban' ); //end AC code
+        </script>
+
+        <noscript><a href="http://www.gzw.gd.gov.cn" target="_blank">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0"
+                width="980" height="211">   
+                <param name="movie" value="/gdgz/media/ban.swf" />
+                <param name="wmode" value="Transparent">
+                <param name="quality" value="high" />
+                <embed  wmode="Transparent" quality="high"
+                    pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"
+                    type="application/x-shockwave-flash" width="980" height="211"/>
+            </object></a>
+        </noscript>
+        -->
+        </div>
+            <div>
+                <ul id="imgmenu">
+                                            <li id="ktag1"><a href="/" id="btag1" class="aon" title="首页"></a></li>
+                                        
+                    <li id="ktag2"><a href="http://gzw.gd.gov.cn/gzjj/index.html" id="btag2" class="aon" title="国资概况"></a></li>
+                   
+                                            <li id="ktag3"><a href="https://gzw.gd.gov.cn/qydt/index.html" id="btag3" class="aon" title="国资监管"></a></li>
+                                                                <li id="ktag4"><a href="https://gzw.gd.gov.cn/zcfg/index.html" id="btag4" class="aon" title="政务公开"></a></li>
+                                        <li id="ktag5"><a href="http://gzw.gd.gov.cn/hdjlpt" target="_blank" id="btag5" class="aon" title="公众参与"></a></li>
+                </ul>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_2" onmouseout="MM_showHideLayers('con_btag_2','','hide')">
+                <div class="subnav" style="padding-left: 187px;"
+                    onmouseover="MM_showHideLayers('con_btag_2','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_2','','hide')">
+                    <!-- <a href="/article/XWZX_TZGG/0/1" class="acur" title="通知公告">通知公告</a>
+                    <a href="/article/XWZX_GZYW/0/1" title="国资要闻">国资要闻</a>
+                    <a href="http://www.gd.gov.cn/govpub/xxts/" title="要闻转载">要闻转载</a>
+                    <a href="/article/XWZX_DSGZ/0/1" title="地市国资">地市国资</a>
+
+                    <a href="/article/XWZX_ZTHD/0/1" title="往期专题活动">往期专题活动</a>
+                    <a href="/article/XWZX_GZSD/0/1" title="国资视点">国资视点</a>
+                    <a href="/article/XWZX_ZJFT/0/1" class="aend" title="专家访谈">专家访谈</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_3" onmouseout="MM_showHideLayers('con_btag_3','','hide')">
+                <div class="subnav" id="con_btag_3" style="padding-left: 100px;"
+                    onmouseover="MM_showHideLayers('con_btag_3','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_3','','hide')">
+                        <!--    <a href="/profile.html" class="acur" title="国资简介" >国资简介</a>
+                    <a href="/funcConfig.html"  title="职能配置">职能配置</a>
+                    <a href="/leader.html" title="委领导">委领导</a>
+                    <a href="/agency.html" class="aend" title="机构设置">机构设置</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; z-index: 100; width: 980px;"
+                id="con_btag_4" onmouseout="MM_showHideLayers('con_btag_4','','hide')">
+                <div class="subnav" id="con_btag_4"
+                    style="padding-left: 5px; padding-right: 35px;"
+                    onmouseover="MM_showHideLayers('con_btag_4','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_4','','hide')">
+                        <!-- <a href="/article/GZJG_ZHFG/0/1" class="acur" title="综合法规">综合法规</a>
+                    <a href="/article/GZJG_GHFZ/0/1" title="规划发展">规划发展</a>
+                    <a href="/article/GZJG_KHTJ/0/1" title="考核与统计评价">考核与统计评价</a>
+                    <a href="/article/GZJG_CQGL/0/1" title="产权管理">产权管理 </a>
+                    <a href="/article/GZJG_ZBYY/0/1" title="资本运营管理">资本运营管理</a>
+                    <a href="/article/GZJG_CWGL/0/1" title="财务管理">财务管理</a>
+                    <a href="/article/GZJG_SJJS/0/1" title="审计与监事会工作">审计与监事会工作</a>
+                    <a href="/article/GZJG_QYSW/0/1" title="企业事务管理">企业事务管理</a>
+                    <a href="/article/GZJG_QYLD/0/1" class="aend" title="企业领导人员管理">企业领导人员管理</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_5" onmouseout="MM_showHideLayers('con_btag_5','','hide')">
+                <div class="subnav" id="con_btag_5" style="padding-left: 260px;"
+                    onmouseover="MM_showHideLayers('con_btag_5','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_5','','hide')">
+                        <!--  <a href="/article/XXGK_ZCFG/0/1" class="acur" title="政策法规">政策法规</a>
+                        <a href="/pageroot/zdll/index.html" title="重点领域信息公开">重点领域信息公开</a>
+                    <a href="/infoGuide.html" title="信息公开指南">信息公开指南</a>
+                    <a href="/procedureGuidance.html" title="办事指南">办事指南</a>
+                    <a href="/infoDir.html" title="信息公开目录">信息公开目录</a>
+                    <a href="/pub/XXGK_YSQGKX/0/1" title="依申请公开信息">依申请公开信息</a>
+                    <a href="/article/XXGK_GZNDBG/0/1" title="工作年度报告">工作年度报告</a>
+                    <a href="/open_contact.html" class="aend" title="联系方式">联系方式</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_6" onmouseout="MM_showHideLayers('con_btag_6','','hide')">
+                <div class="subnav" id="con_btag_6" style="padding-left: 453px;"
+                    onmouseover="MM_showHideLayers('con_btag_6','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_6','','hide')">
+                    <!-- <a href="/article/DJDF_DQGZ/0/1" class="acur" title="党群工作">党群工作</a>
+                    <a href="/article/DJDF_DWGK/0/1" class="aend" title="党务公开">党务公开</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden;z-index:100;width: 980px;"
+                id="con_btag_7" onmouseout="MM_showHideLayers('con_btag_7','','hide')">
+                <div class="subnav" id="con_btag_7" style="padding-left:530px; padding-right: 35px;"
+                    onmouseover="MM_showHideLayers('con_btag_7','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_7','','hide')">
+                    <!-- <a href="/article/LZJS_JJJC/0/1" class="acur" title="纪检监察">纪检监察</a>
+                    <a href="/article/LZJS_XSXC/0/1"  title="巡视巡查">巡视巡查</a>-->
+
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_8" onmouseout="MM_showHideLayers('con_btag_8','','hide')">
+                <div class="subnav" id="con_btag_8" style="padding-left: 560px"
+                    onmouseover="MM_showHideLayers('con_btag_8','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_8','','hide')">
+                    <!-- <a href="/focus_profile.html" class="acur" title="企业概况">企业概况</a>
+                    <a href="/article/QYJJ_QYDT/0/1" title="企业动态">企业动态</a>
+                    <a href="/article/QYJJ_QYXM/0/1" title="企业项目">企业项目</a>
+                    <a href="/selectenterprise.html" title="企业名录查询">企业名录查询</a>
+                    <a href="/special/QYJJ_ZTBD/0/1" class="aend" title="往期专题报道">往期专题报道</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_9" onmouseout="MM_showHideLayers('con_btag_9','','hide')">
+                <div class="subnav" id="con_btag_9" style="padding-left: 720px;"
+                    onmouseover="MM_showHideLayers('con_btag_9','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_9','','hide')">
+                    <!--  <a href="/article/WHYD_SWJS/0/1" class="acur" title="诗文欣赏">诗文欣赏</a>
+                    <a href="/photo/WHYD_DDCF/DDCF_WJGSYZP/1" title="大地采风">大地采风</a>
+                    <a href="/article/WHYD_BHZM/0/1" class="aend" title="书画纵横">书画纵横</a>-->
+                </div>
+            </div>
+
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_10"
+                onmouseout="MM_showHideLayers('con_btag_10','','hide')">
+                <div class="subnav" id="con_btag_10" style="padding-left: 535px;"
+                    onmouseover="MM_showHideLayers('con_btag_10','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_10','','hide')">
+                        <!--  <a href="/article/GZCY_XFFG/XFFG_XFTL/1" class="acur" title="信访法规">信访法规</a>
+                    <a href="/letter.html" title="信访意见"> 信访意见</a>
+                    <a href="/query.html" title="反馈查询">反馈查询</a>
+                    <a href="/letterlist/10/1" title="信访公开"> 信访公开</a>
+                    <a href="/survey.html" title="网上调查">网上调查</a>
+                    <a href="/feedlist/1" class="aend" title="问政平台">问政平台</a>-->
+                </div>
+            </div>
+            <div class="submainnav"
+                style="position: absolute; visibility: hidden; width: 980px;"
+                id="con_btag_11"
+                onmouseout="MM_showHideLayers('con_btag_11','','hide')">
+                <div class="subnav" id="con_btag_11" style="padding-left: 832px;"
+                    onmouseover="MM_showHideLayers('con_btag_11','','show')"
+                    onmouseout="MM_showHideLayers('con_btag_11','','hide')">
+                <!--<a href="/download.html" title="资料下载">资料下载</a>
+                    <a href="javascript:dataUploadLogin()" class="aend" title="数据上报">数据上报</a>-->
+                </div>
+            </div>
+
+        </div>
+        
+            <div class="searchbox2"></div><div class="searchbox">
+                <span style="float:reght">站内搜索： <input name="searchContext" type="text"
+                        class="formbox" id="searchContext" value="" style="width: 200px;" title="搜索内容"/>
+                    <input name="button" type="button" class="form_searchbtn"
+                        id="button" value="搜索" onclick="searchBtn()" />
+                    <input name="button" type="button" class="form_searchadvbtn"
+                        id="button" value="高级搜索" onclick="searchBtn()" />
+                </span>
+                 <!--
+                <form method="post" name="trssearchform" id="trssearchform" target="_blank" action="http://zwgk.gd.gov.cn/govsearch/simp_gov_list.jsp">
+                <span id="zwgkSpan" style="width:550px;">广东省政府信息搜索引擎 
+                    <input type="text" name="sword" class="SearchOfInput" id="sword" size="30"  title="广东省政府信息搜索引擎"/>
+                <select name="searchColumn" id="select" title="搜索类型">
+                    <option value="all">全部</option>
+                    <option value="zhengwen">正文</option>
+                    <option value="biaoti">标题</option>
+                    <option value="wenhao">文号</option>
+                    <option value="fwdw">发文单位</option>
+                    <option value="keywords">主题词</option>
+                </select>
+                <select name="searchYear" id="label" title="搜索时间"> 
+                    <option value="all">全部时间</option>
+                    <option value="2018">2018</option> 
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option> 
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option> 
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                </select>
+                <input type="hidden" name="pubURL" id="pubURL" value="http://zwgk.gd.gov.cn/" />
+                <input type="hidden" name="SType" value="1" />
+                <input type="submit" value="提交" />                
+                    </span> 
+                </form>
+            -->
+            </div>
+
+            <div class="Home">
+                <div class="mainhome">
+                    <div class="newsbox">
+                        <div class="title_home"><!-- 国资要闻 -->
+                            <img src="./images/index/topic_03.gif" width='385' style="float:left;"/>
+                                                            <a href="https://gzw.gd.gov.cn/gzyw/index.html" class="amore" title="更多要闻">
+                                    <img src="./images/index/topic_04.gif" width='45' style="float:right;" border=0/>
+                                </a>
+                                                    </div>
+                        <div class="newsbox_sub">
+                            <ul>
+                                <html><body>
+                                                                                <li><span>2026-09-30</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4962764.html" title='【要闻转载】今天，以国之名，致敬英烈！' target=_blank>【要闻转载】今天，以国之名，致敬英烈！</a></li>
+                                                                            <li><span>2026-09-18</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4957662.html" title='【要闻转载】不能忘！不敢忘！不会忘！' target=_blank>【要闻转载】不能忘！不敢忘！不会忘！</a></li>
+                                                                            <li><span>2026-09-14</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4955429.html" title='【要闻转载】习近平：坚持落实管党治党政治责任' target=_blank>【要闻转载】习近平：坚持落实管党治党政治责任</a></li>
+                                                                            <li><span>2026-10-10</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4965058.html" title='【要闻转载】黄坤明：向先进制造全面进军，勇立潮头，走在前列！' target=_blank>【要闻转载】黄坤明：向先进制造全面进军，勇立潮...</a></li>
+                                                                            <li><span>2026-10-01</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4962852.html" title='山河同庆·粤企同行——广东省国资系统献礼中华人民共和国成立77周年' target=_blank>山河同庆·粤企同行——广东省国资系统献礼中华人...</a></li>
+                                                                            <li><span>2026-09-25</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4960573.html" title='广东省国资委祝大家中秋快乐！' target=_blank>广东省国资委祝大家中秋快乐！</a></li>
+                                                                            <li><span>2026-09-25</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4960564.html" title='中秋｜湾区共此时　实干赴新程' target=_blank>中秋｜湾区共此时　实干赴新程</a></li>
+                                                                            <li><span>2026-09-25</span><a href="https://gzw.gd.gov.cn/gzyw/content/post_4960556.html" title='中秋｜灯火映粤地　同心共团圆' target=_blank>中秋｜灯火映粤地　同心共团圆</a></li>
+                                                                            <li><span>2026-09-22</span><a href="https://gzw.gd.gov.cn/gzyw/qyswxtc01/content/post_4959288.html" title='广东省国资委联合主办的第六届国企社会价值论坛在穗召开' target=_blank>广东省国资委联合主办的第六届国企社会价值论坛在...</a></li>
+                                                                    </body></html>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="picshow" id="picshowDiv">
+                        <div id="simg">
+                            <a class="" onclick="play(x[0],0)" name="f">1</a>
+                            <a class="f1" onclick="play(x[1],1)" name="f">2</a>
+                            <a class="f1" onclick="play(x[2],2)" name="f">3</a>
+                            <a class="f1" onclick="play(x[3],3)" name="f">4</a>
+                            <a class="f1" onclick="play(x[4],4)" name="f">5</a>
+                        </div>
+                        <div id="lantern_slide">
+                            <table class="ge" id="ge" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td class="pic" id="bimg">
+
+                                                                                
+                                                                                                <div class="dis" name="f"><a href="https://gzw.gd.gov.cn/gzyw/content/post_4962852.html" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1677/1677524/4962852.jpg" width="312" height="238"></a></div>
+                                                                                            
+                                                                                
+                                                                                                <div class="undis" name="f"><a href="https://gzw.gd.gov.cn/gzyw/content/post_4960573.html" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1675/1675278/4960573.jpg" width="312" height="238"></a></div>
+                                                                                            
+                                                                                
+                                                                                                <div class="undis" name="f"><a href="https://gzw.gd.gov.cn/gzyw/qyswxtc01/content/post_4959288.html" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1673/1673731/4959288.jpg" width="312" height="238"></a></div>
+                                                                                            
+                                                                                
+                                                                                                <div class="undis" name="f"><a href="https://www.gov.cn/zhengce/zczhjd/" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1104/1104771/4227971.jpg" width="312" height="238"></a></div>
+                                                                                            
+                                                                                
+                                                                                                <div class="undis" name="f"><a href="https://tousu.www.gov.cn/dc/2023myjj/index.htm" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1338/1338348/4227131.png" width="312" height="238"></a></div>
+                                                                                            
+                                               
+                                            <table id="font_hd" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="lkff" id="info">
+                                                           
+                                                                                                
+                                                                                                                                       <div class="dis" name="f"><a href="https://gzw.gd.gov.cn/gzyw/content/post_4962852.html" target="_blank">山河同庆·粤企同行——广东省国资系统...</a></div>
+                                                                      
+                                                                                                                                                                        
+                                                                                                
+                                                                                                                                       <div class="undis" name="f"><a href="https://gzw.gd.gov.cn/gzyw/content/post_4960573.html" target="_blank">广东省国资委祝大家中秋快乐！</a></div>
+                                                                      
+                                                                                                                                                                        
+                                                                                                
+                                                                                                                                       <div class="undis" name="f"><a href="https://gzw.gd.gov.cn/gzyw/qyswxtc01/content/post_4959288.html" target="_blank">广东省国资委联合主办的第六届国企社会...</a></div>
+                                                                      
+                                                                                                                                                                        
+                                                                                                
+                                                                                                                                       <div class="undis" name="f"><a href="https://www.gov.cn/zhengce/zczhjd/" target="_blank">【转发】专题：重要政策举措及实施效果</a></div>
+                                                                      
+                                                                                                                                                                        
+                                                                                                
+                                                                                                                                       <div class="undis" name="f"><a href="https://tousu.www.gov.cn/dc/2023myjj/index.htm" target="_blank">【转发】国务院“互联网+督查”平台征...</a></div>
+                                                                      
+                                                                                                                                                                        
+                                                                                                                    </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="spacehome"></div>
+                    <!-- jcl_ad -->
+                    <div id="jcl_ad">
+                        <a class="prev_ad"></a>
+						<a class="next_ad"></a>
+                        <div class="jcl_block1">
+                            <ul class="slides_container_ad">
+
+                                                                    <li>
+                                            <a href="https://gzw.gd.gov.cn/222/"><img src="https://gzw.gd.gov.cn/img/1/1679/1679824/4964999.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="https://gzw.gd.gov.cn/221/"><img src="https://gzw.gd.gov.cn/img/1/1652/1652259/4938126.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="https://gzw.gd.gov.cn/220/"><img src="https://gzw.gd.gov.cn/img/1/1621/1621455/4901303.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="https://gzw.gd.gov.cn/219/"><img src="https://gzw.gd.gov.cn/img/1/1620/1620858/4900636.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="https://gzw.gd.gov.cn/215/"><img src="https://gzw.gd.gov.cn/img/1/1516/1516896/4776933.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="https://gzw.gd.gov.cn/214/"><img src="https://gzw.gd.gov.cn/img/1/1424/1424143/4675284.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="http://gzw.gd.gov.cn/205/"><img src="https://gzw.gd.gov.cn/img/1/1325/1325232/4481033.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="http://gzw.gd.gov.cn/206/"><img src="https://gzw.gd.gov.cn/img/1/1325/1325233/4481038.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="http://gzw.gd.gov.cn/208/"><img src="https://gzw.gd.gov.cn/img/1/1325/1325369/4481169.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="http://gzw.gd.gov.cn/202/"><img src="https://gzw.gd.gov.cn/img/1/1325/1325236/4481045.jpg" /></a>
+                                    </li>
+                                                                    <li>
+                                            <a href="http://gzw.gd.gov.cn/201/"><img src="https://gzw.gd.gov.cn/img/1/1325/1325240/4481057.png" /></a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ad  -->
+
+            <!--ad 轮播-->
+		    <div class="lnews">
+			    <!-- <div class="lnews_l">
+				    <div class="lnewbanner">
+					    <ul class="pic">
+                                <li>
+                                 
+                                        <a href="http://gzw.gd.gov.cn/202/"><img src="images/20240705103023.jpg" /></a>
+                                 
+                                </li>
+							
+                                <li>
+                                 
+                                        <a href="http://gzw.gd.gov.cn/199/"><img src="/images/20121009222416.jpg" /></a>
+                                 
+                                </li>
+
+                                <li>
+                                 
+                                        <a href="http://gzw.gd.gov.cn/201"><img src="/images/20240612100305.png" /></a>
+                                 
+                                </li>
+
+						</ul>
+				    </div>
+			    </div> -->
+                <!-- <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="http://gzw.gd.gov.cn/202/"><img src="images/20240705103023.jpg" /></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="http://gzw.gd.gov.cn/199/"><img src="/images/20121009222416.jpg" /></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="http://gzw.gd.gov.cn/201"><img src="/images/20240612100305.png" /></a>
+                        </div>
+                       <div class="swiper-slide">
+                            <a href="http://gzw.gd.gov.cn/203/"><img src="/images/20240710113105.jpg" /></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="http://gzw.gd.gov.cn/204/"><img src="/images/20240710113111.jpg" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div> -->
+
+                <!-- Swiper JS -->
+                <!-- <script src="/js/swiper-bundle.min.js"></script> -->
+
+                <!-- Initialize Swiper -->
+               <!-- <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 0,
+                    centeredSlides: true,
+                    loop:true,
+                    autoplay: {
+                        delay: 3500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+                </script>
+                <style>
+                    .lnews{ width:752px; height:97px;}
+                    .swiper {
+                    width: 100%;
+                    height: 100%;
+                    }
+
+                    .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    }
+
+                    .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    }
+                    .swiper-button-next{ width:41px; height:41px;
+                    background:url(/images/18931906.png) no-repeat -2px -49px;
+                    }
+                    .swiper-button-next:after{ display:none;}
+                    .swiper-button-prev{ width:41px; height:41px;
+                    background:url(/images/18931906.png) no-repeat -2px -2px;
+                    }
+                    .swiper-button-prev:after{ display:none;}
+                </style> -->
+		    </div>
+            
+			<!--ad 轮播结束-->
+
+                    <!-- <div class="jcl_ad">
+                                             <a href="https://gzw.gd.gov.cn/195/wjjgqzxd/index.html"><img src="/images/ad_wjj.jpg" /></a>
+                                        </div> -->
+                    <div class="spacehome"></div>
+                    <!--
+                    <div id="qzbssjxd"> 
+                    <a style="cursor:pointer;" href="http://toupiao.www.gov.cn/100dudian/index.htm" target=_blank title="群众办事百项堵点疏解行动"><img src="/images/qzbssjxd.jpg" width="752" height="300" class="ban" alt=""/></a>
+                    </div>
+                    -->
+                    <div class="layer_b" style="height:300px; overflow:hidden;">
+                        <div class="title_home"><!-- 企业动态 -->
+                            <img src="./images/index/38.gif" style="float:left;"/>
+                                                        <a href="https://gzw.gd.gov.cn/qydt/index.html" class="amore" title="更多企业动态">
+                                <img src="./images/index/topic_22.gif" style="float:right;" border=0/>
+                            </a>    
+                                                    </div>
+                        <ul class="newslist">
+                                                            <li><span>2026-10-10</span><a href="https://gzw.gd.gov.cn/qydt/lykgjt/content/post_4965066.html" title='多彩活动+丰富产品！旅游控股集团打造国庆文旅消费新体验' target=_blank>多彩活动+丰富产品！旅游控股集团打造国庆...</a></li>
+                                                            <li><span>2026-10-10</span><a href="https://gzw.gd.gov.cn/qydt/gwkgjt/content/post_4965063.html" title='中秋国庆“不打烊”，广物控股集团促消费与稳外贸双向发力' target=_blank>中秋国庆“不打烊”，广物控股集团促消费与...</a></li>
+                                                            <li><span>2026-10-10</span><a href="https://gzw.gd.gov.cn/qydt/jgjt/content/post_4965059.html" title='【省重点项目】国内最深盾构始发竖井投用！环北部湾广东水资源配置工程施工A4标盾构顺利始发' target=_blank>【省重点项目】国内最深盾构始发竖井投用！...</a></li>
+                                                            <li><span>2026-10-09</span><a href="https://gzw.gd.gov.cn/qydt/ttjt/content/post_4964509.html" title='累计发送旅客约596.6万人次！铁投集团全力护航中秋国庆双节出行高峰' target=_blank>累计发送旅客约596.6万人次！铁投集团...</a></li>
+                                                            <li><span>2026-10-09</span><a href="https://gzw.gd.gov.cn/qydt/gwkgjt/content/post_4964481.html" title='【国企招聘】广东省进出口集团有限公司公开招聘公告' target=_blank>【国企招聘】广东省进出口集团有限公司公开...</a></li>
+                                                            <li><span>2026-10-09</span><a href="https://gzw.gd.gov.cn/qydt/jgjt/content/post_4964473.html" title='【谋新质 开新局】建工控股集团新增A类拓新项目　以盾构原创技术赋能基建产业升级' target=_blank>【谋新质 开新局】建工控股集团新增A类拓...</a></li>
+                                                            <li><span>2026-10-09</span><a href="https://gzw.gd.gov.cn/qydt/nyjt/content/post_4964472.html" title='能源集团所属广珠公司深耕绿色低碳实践　助力绿美广东生态建设' target=_blank>能源集团所属广珠公司深耕绿色低碳实践　助...</a></li>
+                                                            <li><span>2026-10-09</span><a href="https://gzw.gd.gov.cn/qydt/jtjt/content/post_4964009.html" title='国庆“不打烊”！交通集团多个省重点建设项目按下“加速键”' target=_blank>国庆“不打烊”！交通集团多个省重点建设项...</a></li>
+                                                            <li><span>2026-10-08</span><a href="https://gzw.gd.gov.cn/qydt/ttjt/content/post_4964020.html" title='节日攻坚不停步　铁投集团管内省重点铁路项目掀起建设热潮' target=_blank>节日攻坚不停步　铁投集团管内省重点铁路项...</a></li>
+                                                    </ul>
+                    </div>
+                    <div class="layer_A" style="height:300px; overflow:hidden;">
+                        <div class="title_home"><!-- 专题报道 -->
+                            <img src="./images/index/39.gif" style="float:left;"/>
+                                                        <a href="http://www.gd.gov.cn/xxts/" target="_blank" class="amore" title="更多要闻转载">
+                                <img src="./images/index/topic_25.gif" style="float:right;" border=0/>
+                            </a>
+                                                    </div>
+                        <div id="testDiv">
+                            <ul class='newslist' id='testUl'> <!----> 
+                        </div>
+                    </div>
+                    <div class="spacehome"></div>
+                    <!-- <div id="gqshzr">  
+                        <!-- <a href="/specials/gdsdjt/index.html" target="_blank"><img src="/images/shuidianjituan.gif" width="752" height="94" class="ban" alt="省属企业自主创新系列报道-水电集团创新专题"/></a> 
+                            <a style="cursor:pointer;" href="/QYreport//1" target=_blank><img src="/images/gqshzr.jpg" width="752" height="94" class="ban" alt="国有企业社会责任"/></a>-->
+                    <div>
+                        <!--                             <a style="cursor:pointer;"  href="https://gzw.gd.gov.cn/qymc/index.html" target=_blank title="国有企业社会责任报告"><img src="./images/gqshzr.jpg" width="752" height="95" class="ban" alt="" style="float:left"/></a>
+                         -->
+                        <!--
+                                                -->
+                    </div>
+                    <div style="display:none;"><!-- 预加载 -->     
+                        <img src="./images/banner2-ad1.gif" width="752" height="94" class="ban" alt="省属企业自主创新系列报道-联合电子创新专题"/>
+                    </div>
+                    <div class="spacehome"></div>
+                    <!-- 
+                    <div class="layer_b">
+                        <div class="title_home">
+                            <img src="/images/index/topic_17.gif" style="float:left;"/>
+                            <a href="/article/DJDF_DQGZ/0/1" class="amore" title="更多党群工作">
+                                <img src="/images/index/topic_18.gif" style="float:right;" border=0/>
+                            </a>
+                        </div>
+                        <ul class="newslist">
+                            <html><body>
+                                <li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21545" title='商贸、南粤、广轻传达学习省委十二届五次全会精神(2018-10-21)' target=_blank>商贸、南粤、广轻传达学习省委十二届五...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21546" title='丝纺集团举办基层党组织书记、党务干部培训班(2018-10-21)' target=_blank>丝纺集团举办基层党组织书记、党务干部...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21547" title='盐业集团党委召开党建工作推进会(2018-10-21)' target=_blank>盐业集团党委召开党建工作推进会</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21548" title='航运集团“强基固航” 党支部书记、党务干部培训班开班(2018-10-21)' target=_blank>航运集团“强基固航” 党支部书记、党...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21549" title='产权交易集团党委认真落实“第一议题”制度深入学习贯彻全国、全省宣传思想工作会议精神(2018-10-21)' target=_blank>产权交易集团党委认真落实“第一议题”...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21550" title='广业集团、交通集团传达学习省委十二届五次全会精神(2018-10-21)' target=_blank>广业集团、交通集团传达学习省委十二届...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21551" title='广新控股集团召开2018年党建重点工作任务推进会(2018-10-21)' target=_blank>广新控股集团召开2018年党建重点工...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21553" title='广晟公司、广新控股集团传达学习省委十二届五次全会等会议精神(2018-10-21)' target=_blank>广晟公司、广新控股集团传达学习省委十...</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-21</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21554" title='机场集团举办党支部书记专题培训班(2018-10-21)' target=_blank>机场集团举办党支部书记专题培训班</a><font class="new">&nbsp;&nbsp;&nbsp;&nbsp;</font></li><li><span>2018-10-18</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21502" title='广新控股集团召开2018年党建重点工作任务推进会(2018-10-18)' target=_blank>广新控股集团召开2018年党建重点工...</a></li><li><span>2018-10-18</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21518" title='南粤集团下属投资公司党支部开展“学先进，创先进”主题党日活动(2018-10-18)' target=_blank>南粤集团下属投资公司党支部开展“学先...</a></li><li><span>2018-10-18</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21516" title='丝纺集团组织基层党组织书记、党务干部到海丰县红色基地参观学习(2018-10-18)' target=_blank>丝纺集团组织基层党组织书记、党务干部...</a></li><li><span>2018-10-14</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21479" title='盐业集团举行广东盐业党校、广东盐业大学暨党员活动室揭牌仪式(2018-10-14)' target=_blank>盐业集团举行广东盐业党校、广东盐业大...</a></li><li><span>2018-10-14</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21489" title='丝纺集团召开党委（扩大）会议传达学习省委十二届五次全会精神(2018-10-14)' target=_blank>丝纺集团召开党委（扩大）会议传达学习...</a></li><li><span>2018-10-14</span><a href="/detail/DJDF_DQGZ/GDGZ_DDJS/21484" title='南粤集团党委委员、副总经理乔梁出席昆仑公司党支部政治业务学习会(2018-10-14)' target=_blank>南粤集团党委委员、副总经理乔梁出席昆...</a></li>
+                            </body></html>
+                        </ul>
+                    </div>
+                    
+                    <div class="layer_A">
+                        <div class="title_home">
+                            <img src="/images/index/topic_15.gif" style="float:left;"/>
+                            <a href="/article/XWZX_ZJFT/0/1" class="amore" title="更多专家访谈">
+                                <img src="/images/index/topic_16.gif" style="float:right;" border=0/>
+                            </a>
+                        </div>
+                        <html><body><ul class="newslist3"><li><a href="/detail/XWZX_ZJFT/XWZX_ZJFT/14510" title='徐洪才：中国国际经济交流中心经济研究部部长(2016-06-15)' target=_blank>徐洪才：中国国际经济交流中心经济研究部部...</a></li><li><a href="/detail/XWZX_ZJFT/XWZX_ZJFT/14470" title='左常升：现阶段的扶贫是全社会动员的精准扶贫(2016-05-20)' target=_blank>左常升：现阶段的扶贫是全社会动员的精准扶...</a></li><li><a href="/detail/XWZX_ZJFT/XWZX_ZJFT/14219" title='邓小虹：“互联网+政务服务”要更好地服务大众(2016-04-15)' target=_blank>邓小虹：“互联网+政务服务”要更好地服务...</a></li><li><a href="/detail/XWZX_ZJFT/XWZX_ZJFT/14142" title='王毅：“绿色发展”需要“协同效应”(2016-03-17)' target=_blank>王毅：“绿色发展”需要“协同效应”</a></li><li><a href="/detail/XWZX_ZJFT/XWZX_ZJFT/13793" title='陈国辉：做中国经济监测“特种兵”(2016-01-13)' target=_blank>陈国辉：做中国经济监测“特种兵”</a></li><li><a href="/detail/XWZX_ZJFT/XWZX_ZJFT/13489" title='孙壮志：转型中的G20与APEC 中国为全球经济提振信心(2015-12-08)' target=_blank>孙壮志：转型中的G20与APEC 中国为...</a></li></ul></body></html>
+                        </div>
+                    <div class="spacehome"></div>
+                    <div class="title_home2">
+                        <span class="title_home">
+                        <a
+                            href="/article/QYJJ_QYXM/0/1" class="amore" title="更多企业项目">更多&gt;&gt;</a>
+                        </span>企业项目
+                    </div>
+                    <div class="layer_f" id="projectDiv">
+                        
+                    </div> -->
+                    <div class="spacehome"></div>
+                    <div class="layer_c" style="height: 427px">
+                    <div class="title_home"><!-- 党群工作（2016.11.21改成党风党建） -->
+                            <img src="./images/index/36.gif" style="float:left;"/>
+                                                        <a href="https://gzw.gd.gov.cn/dfjs/index.html" class="amore" title="更多党风党建">
+                                <img src="./images/index/topic_18.gif" style="float:right;"/>
+                            </a>
+                                                    </div>
+                        <ul class="newslist">
+                                                            <li><span>2026-10-10</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4965067.html" title='广晟控股集团党委召开党的建设工作会议' target="_blank">广晟控股集团党委召开党的建设工作会议</a></li>
+                                                            <li><span>2026-09-29</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4961783.html" title='广物控股集团党委举办2026年基层党组织书记、党务干部专题培训班' target="_blank">广物控股集团党委举办2026年基层党组...</a></li>
+                                                            <li><span>2026-09-22</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4958795.html" title='广晟控股集团召开党委理论学习中心组学习（扩大）会  深入学习贯彻习近平党建思想' target="_blank">广晟控股集团召开党委理论学习中心组学习...</a></li>
+                                                            <li><span>2026-09-18</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4957340.html" title='恒健控股公司党委理论学习中心组专题学习习近平文化思想和习近平总书记关于做好新时代党的统一战线工作的重要思想' target="_blank">恒健控股公司党委理论学习中心组专题学习...</a></li>
+                                                            <li><span>2026-09-11</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4954033.html" title='能源集团党委召开树立和践行正确政绩观学习教育总结会议' target="_blank">能源集团党委召开树立和践行正确政绩观学...</a></li>
+                                                            <li><span>2026-09-10</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4954075.html" title='交易控股集团党委召开理论学习中心组学习（扩大）会议 深入学习贯彻习近平党建思想' target="_blank">交易控股集团党委召开理论学习中心组学习...</a></li>
+                                                            <li><span>2026-09-10</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4954032.html" title='交易控股集团召开树立和践行正确政绩观学习教育总结会议' target="_blank">交易控股集团召开树立和践行正确政绩观学...</a></li>
+                                                            <li><span>2026-09-09</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4953493.html" title='粤科金融集团党委召开树立和践行正确政绩观学习教育总结会议' target="_blank">粤科金融集团党委召开树立和践行正确政绩...</a></li>
+                                                            <li><span>2026-09-08</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4952499.html" title='恒健控股公司党委召开树立和践行正确政绩观学习教育总结会议' target="_blank">恒健控股公司党委召开树立和践行正确政绩...</a></li>
+                                                            <li><span>2026-09-08</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4952280.html" title='广轻控股集团召开树立和践行正确政绩观学习教育总结会议' target="_blank">广轻控股集团召开树立和践行正确政绩观学...</a></li>
+                                                            <li><span>2026-09-08</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4952330.html" title='环保集团党委总结树立和践行正确政绩观学习教育 巩固实干发展成效' target="_blank">环保集团党委总结树立和践行正确政绩观学...</a></li>
+                                                            <li><span>2026-09-08</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4952313.html" title='盐业集团召开党的建设工作领导小组（扩大）会议 总结树立和践行正确政绩观学习教育' target="_blank">盐业集团召开党的建设工作领导小组（扩大...</a></li>
+                                                            <li><span>2026-09-07</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4951982.html" title='广物控股集团党委召开树立和践行正确政绩观学习教育总结会' target="_blank">广物控股集团党委召开树立和践行正确政绩...</a></li>
+                                                            <li><span>2026-09-03</span><a href="https://gzw.gd.gov.cn/dfjs/content/post_4950954.html" title='机场集团召开党委扩大会议总结树立和践行正确政绩观学习教育' target="_blank">机场集团召开党委扩大会议总结树立和践行...</a></li>
+                                                    </ul>
+                    </div>
+
+                    <div class="layer_d" style="height: 427px">
+                        <div class="title_home"><!-- 地市国资 -->
+                            <img src="/images/37.gif" style=" float:left;"/>
+                                                        <a href="https://gzw.gd.gov.cn/dsgz/index.html" class="amore" title="更多地市国资">
+                                <img src="./images/index/topic_12.gif" style="float:right;"/>
+                            </a>
+                                                    </div>
+                        <ul class="newslist">
+                                                            <li><span>2026-09-29</span><a href="https://gzw.gd.gov.cn/dsgz/gzsgzw/content/post_4962098.html" title='广州安居集团开展暑期志愿服务　惠及保障房社区居民' target="_blank">广州安居集团开展暑期志愿服务　惠及保障...</a></li>
+                                                            <li><span>2026-09-24</span><a href="https://gzw.gd.gov.cn/dsgz/gzsgzw/content/post_4960554.html" title='广州安居集团：议事厅里听民意　“小心愿”里做实“大民生”' target="_blank">广州安居集团：议事厅里听民意　“小心愿...</a></li>
+                                                            <li><span>2026-09-22</span><a href="https://gzw.gd.gov.cn/dsgz/szsgzw/content/post_4958978.html" title='国有好房源一站直达！国有房产交易平台正式上线' target="_blank">国有好房源一站直达！国有房产交易平台正...</a></li>
+                                                            <li><span>2026-09-08</span><a href="https://gzw.gd.gov.cn/dsgz/gzsgzw/content/post_4952532.html" title='全国首个！广州交易集团参编的工业互联网领域数据要素登记国家标准正式发布' target="_blank">全国首个！广州交易集团参编的工业互联网...</a></li>
+                                                            <li><span>2026-08-26</span><a href="https://gzw.gd.gov.cn/dsgz/mmsgzw/content/post_4946619.html" title='鑫瑞华精密智造茂名生产基地项目成功落地茂南' target="_blank">鑫瑞华精密智造茂名生产基地项目成功落地...</a></li>
+                                                            <li><span>2026-08-12</span><a href="https://gzw.gd.gov.cn/dsgz/jmsgzw/content/post_4941230.html" title='总投资约2亿元！江门市国资委成功推动速肯科技签约落户蓬江区' target="_blank">总投资约2亿元！江门市国资委成功推动速...</a></li>
+                                                            <li><span>2026-08-06</span><a href="https://gzw.gd.gov.cn/dsgz/fssgzw/content/post_4938438.html" title='潮涌“环两江”，看佛山市属国资国企如何发力' target="_blank">潮涌“环两江”，看佛山市属国资国企如何...</a></li>
+                                                            <li><span>2026-07-23</span><a href="https://gzw.gd.gov.cn/dsgz/swsgzw/content/post_4933041.html" title='“寸土”何以生“寸金”？汕尾一场赛事撬动县域新增量' target="_blank">“寸土”何以生“寸金”？汕尾一场赛事撬...</a></li>
+                                                            <li><span>2026-07-14</span><a href="https://gzw.gd.gov.cn/dsgz/dgsgzw/content/post_4924347.html" title='千亿资本矩阵成形！东莞国资“5+N+X”基金体系全面赋能产业发展' target="_blank">千亿资本矩阵成形！东莞国资“5+N+X...</a></li>
+                                                            <li><span>2026-07-09</span><a href="https://gzw.gd.gov.cn/dsgz/fssgzw/content/post_4922227.html" title='千里驰援！佛山市属国企赴广西贵港抗洪保电一线' target="_blank">千里驰援！佛山市属国企赴广西贵港抗洪保...</a></li>
+                                                            <li><span>2026-06-26</span><a href="https://gzw.gd.gov.cn/dsgz/dgsgzw/content/post_4916671.html" title='东莞科创集团牵头运营，松山湖科技金融集聚区启航！' target="_blank">东莞科创集团牵头运营，松山湖科技金融集...</a></li>
+                                                            <li><span>2026-06-15</span><a href="https://gzw.gd.gov.cn/dsgz/gzsgzw/content/post_4911835.html" title='广州“穗资云”平台重磅上线，批量优质项目集中招商' target="_blank">广州“穗资云”平台重磅上线，批量优质项...</a></li>
+                                                            <li><span>2026-06-02</span><a href="https://gzw.gd.gov.cn/dsgz/jmsgzw/content/post_4906618.html" title='聚势创投 链接湾区 赋能江门——“粤科发布”江门招投项目对接会圆满举行' target="_blank">聚势创投 链接湾区 赋能江门——“粤科...</a></li>
+                                                            <li><span>2026-05-22</span><a href="https://gzw.gd.gov.cn/dsgz/jmsgzw/content/post_4900618.html" title='中国“小而美”民生项目造福瑙鲁民众' target="_blank">中国“小而美”民生项目造福瑙鲁民众</a></li>
+                                                    </ul>
+                    </div>  
+                    
+                    <div class="spacehome"></div>   <!-- 市国资委 -->       
+                    <!-- 2013年10月12日 10:03:49    dingjt -->         
+                    <!-- <div id='shiGZW' style='padding: 0px 0px 3px 0px;'><a href="/specials/fssdgzw/index.html" target="_blank"><img src="/images/fssdgzw_ban.gif" width="751" height="94" class="ban" /></a></div> -->
+                    <!--<div id='specialsBan' style='padding: 0px 0px 3px 0px;'> -->    
+                    <div style='padding: 0px 0px 3px 0px;'>
+                                                    <a style="cursor:pointer;" href="https://gzw.gd.gov.cn/zdll/index.html" target=_blank><img src="./images/zdlybanner.jpg" width="752" height="94" class="ban" alt="重点领域"/></a> 
+                                            </div> 
+                    
+                    <div style="display:none;"><!-- 预加载 -->     
+                        <img src="./images/gzgzw_ban.gif" width="751" height="94" class="ban" />
+                        <img src="./images/zhgzw_ban.gif" width="751" height="94" class="ban" />
+                    </div>
+                    <!-- 廉政建设 
+                    <div class="layer_c" style="height: 252px">
+                        <div class="title_home">
+                            <img src="/images/index/topic_28.gif" style="float:left;"/>
+                            <a href="/article/LZJS_JJJC/0/1" class="amore" title="更多廉政建设">
+                                <img src="/images/index/topic_29.gif" style="float:right;" border=0/>
+                            </a>
+                        </div>
+                        <ul class="newslist">
+                            <html><body><li><span>2018-09-10</span><a href="/detail/LZJS_TOP/LZJS_JJJC/21131" title='铁投集团举行广东铁路建设党风廉政工作座谈会(2018-09-10)' target=_blank>铁投集团举行广东铁路建设党风廉政工作...</a></li><li><span>2018-08-30</span><a href="/detail/LZJS_TOP/LZJS_XSXC/21043" title='广物控股集团党委召开巡视整改专题民主生活会(2018-08-30)' target=_blank>广物控股集团党委召开巡视整改专题民主...</a></li><li><span>2018-08-27</span><a href="/detail/LZJS_TOP/LZJS_XSXC/21021" title='铁投集团组织参观反腐倡廉教育基地(2018-08-27)' target=_blank>铁投集团组织参观反腐倡廉教育基地</a></li><li><span>2018-08-08</span><a href="/detail/LZJS_TOP/LZJS_JJJC/20834" title='广物控股集团召开2018年党风廉政建设和反腐败工作暨纪律教育学习月活动动员大会(2018-08-08)' target=_blank>广物控股集团召开2018年党风廉政建...</a></li><li><span>2018-07-26</span><a href="/detail/LZJS_TOP/LZJS_JJJC/20645" title='广新控股集团召开2018年上半年企业纪委书记工作会议(2018-07-26)' target=_blank>广新控股集团召开2018年上半年企业...</a></li><li><span>2018-07-24</span><a href="/detail/LZJS_TOP/LZJS_JJJC/20631" title='广业集团党委传达学习贯彻省纪委《关于深入治理违规收送“红包”问题的通知》(2018-07-24)' target=_blank>广业集团党委传达学习贯彻省纪委《关于...</a></li><li><span>2018-07-23</span><a href="/detail/LZJS_TOP/LZJS_JJJC/20584" title='南粤集团纪委召开纪检监察专员联席会议(2018-07-23)' target=_blank>南粤集团纪委召开纪检监察专员联席会议</a></li><li><span>2018-07-16</span><a href="/detail/LZJS_TOP/LZJS_JJJC/20532" title='创新工作 再创佳绩&mdash;&mdash;航运集团纪委部署全面从严治党和党风廉政建设工作(2018-07-16)' target=_blank>创新工作 再创佳绩&mdash;&mdash;航运集团纪...</a></li></body></html>
+</ul>
+                    </div>-->
+                    <!-- 政策法规 
+                    <div class="layer_d" style="height: 252px">
+                        <div class="title_home">
+                            <img src="/images/index/topic_30.gif" style="float:left;"/>
+                            <a href="/article/XXGK_ZCFG/0/1" class="amore" title="更多政策法规">
+                                <img src="/images/index/topic_31.gif" style="float:right;" border=0/>
+                            </a>
+                        </div>
+                        <ul class="newslist">
+                            <html><body><li><span>2018-09-06</span><a href="/detail/XXGK_ZCFG/ZCFG_GFX/21119" title='国务院办公厅关于加强政府网站域名管理的通知(2018-09-06)' target=_blank>国务院办公厅关于加强政府网站域名管理...</a></li><li><span>2018-08-28</span><a href="/detail/XXGK_ZCFG/ZCFG_GFX/21036" title='广东省人民政府办公厅关于转发广东省国资委以管资本为主推进职能转变方案的通知(2018-08-28)' target=_blank>广东省人民政府办公厅关于转发广东省国...</a></li><li><span>2018-08-01</span><a href="/detail/XXGK_ZCFG/ZCFG_GFX/20714" title='中央企业违规经营投资责任追究实施办法（试行)(2018-08-01)' target=_blank>中央企业违规经营投资责任追究实施办法...</a></li><li><span>2018-07-11</span><a href="/detail/XXGK_ZCFG/ZCFG_GDS/20523" title='中共中央 国务院 关于完善国有金融资本管理的指导意见(2018-07-11)' target=_blank>中共中央 国务院 关于完善国有金融资...</a></li><li><span>2018-06-20</span><a href="/detail/XXGK_ZCFG/ZCFG_GDS/20284" title='广东省人民政府办公厅关于印发广东省人民政府国有资产监督管理委员会主要职责内设机构和人员编制规定的通知(2018-06-20)' target=_blank>广东省人民政府办公厅关于印发广东省人...</a></li><li><span>2018-05-25</span><a href="/detail/XXGK_ZCFG/ZCFG_GDS/20067" title='中共中央办公厅印发《关于进一步激励广大干部新时代新担当新作为的意见》(2018-05-25)' target=_blank>中共中央办公厅印发《关于进一步激励广...</a></li><li><span>2018-05-09</span><a href="/detail/XXGK_ZCFG/ZCFG_GDS/19936" title='中华人民共和国英雄烈士保护法(2018-05-09)' target=_blank>中华人民共和国英雄烈士保护法</a></li><li><span>2018-04-09</span><a href="/detail/XXGK_ZCFG/ZCFG_GFX/19504" title='广东省纪委 组织部 编办 监察厅 财政厅 人社厅 审计厅 国资委关于印发《广东省县级地方党政政府主要领导干部经济责任异地同步审计办法（试行）》的通知(2018-04-09)' target=_blank>广东省纪委 组织部 编办 监察厅 财...</a></li></body></html>
+</ul>
+                    </div>-->
+                    <div class="spacehome"></div>
+                    <div class="expertpic" id="provinceenterpriseDiv">
+                        <div id="marqueeDemo3" style="">
+                            <ul style="width: 3876px;">
+                                                                    <li>
+                                        <a href="http://www.gdairport.com" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/669/669663/1310760.png" width="82" height="68" alt="广东省机场管理集团有限公司"><span>机场集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gds-huanbaogroup.com" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/593/593085/1310761.png" width="82" height="68" alt="广东省环保集团有限公司"><span>环保集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdrising.com.cn" target="_blank"><img src="/images/province_enterprise_images/gxzcgs.jpg" width="82" height="68" alt="广东省广晟控股集团有限公司"><span>广晟控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.geg.com.cn/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/136/136188/1310763.png" width="82" height="68" alt="广东省能源集团有限公司"><span>能源集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdcg.cn/index.jsp" target="_blank"><img src="/images/province_enterprise_images/gd_trafficgroup.jpg" width="82" height="68" alt="广东省交通集团有限公司"><span>交通集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.hangyun.com.cn" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/591/591438/1310765.png" width="82" height="68" alt="广东省港航集团有限公司"><span>港航集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdwz.com.cn" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/669/669682/1310767.png" width="82" height="68" alt="广东省广物控股集团有限公司"><span>广物控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gdceg.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1399/1399184/1310768.png" width="82" height="68" alt="广东省建筑工程集团有限公司"><span>建工控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gdghg.com" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1321/1321834/1310769.jpg" width="82" height="68" alt="广东省广新控股集团有限公司"><span>广新控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gdlkjt.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/1/1407/1407754/1310770.png" width="82" height="68" alt="广东省旅游控股集团有限公司"><span>旅游控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdhchina.com/" target="_blank"><img src="/images/province_enterprise_images/ghd.jpg" width="82" height="68" alt="广东粤海控股集团有限公司"><span>粤海控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdsalt.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/669/669674/1310773.png" width="82" height="68" alt="广东省盐业集团有限公司"><span>盐业集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.grci.com.cn/index.aspx" target="_blank"><img src="/images/province_enterprise_images/xtdjt.jpg" width="82" height="68" alt="广东省铁路建设投资集团有限公司"><span>铁投集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdhjtz.com" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/436/436644/1310775.jpg" width="82" height="68" alt="广东恒健投资控股有限公司"><span>恒健控股公司</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdnyjt.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/124/124520/1310776.png" width="82" height="68" alt="广东南粤集团有限公司"><span>南粤集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gvcgc.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/45/45601/2188175.jpg" width="82" height="68" alt="广东省粤科金融集团有限公司"><span>粤科金融集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gqkgjt.com" target="_blank"><img src="/images/province_enterprise_images/gqkg.jpg" width="82" height="68" alt="广东省广轻控股集团有限公司"><span>广轻控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gdaee.com.cn/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/807/807068/1310777.png" width="82" height="68" alt="广东省交易控股集团有限公司"><span>交易控股集团</span> </a>
+                                    </li>
+                                
+                               <!--                                     <li>
+                                        <img src="https://gzw.gd.gov.cn/img/1/1407/1407754/1310770.png" width="82" height="68" alt="广东省旅游控股集团有限公司"><span>旅游控股集团</span>
+                                    </li>
+                                
+                                                                    <li>
+                                        <a href="http://www.gdhchina.com/" target="_blank"><img src="/images/province_enterprise_images/ghd.jpg" width="82" height="68" alt="广东粤海控股集团有限公司"><span>粤海控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdsalt.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/669/669674/1310773.png" width="82" height="68" alt="广东省盐业集团有限公司"><span>盐业集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.grci.com.cn/index.aspx" target="_blank"><img src="/images/province_enterprise_images/xtdjt.jpg" width="82" height="68" alt="广东省铁路建设投资集团有限公司"><span>铁投集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdhjtz.com" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/436/436644/1310775.jpg" width="82" height="68" alt="广东恒健投资控股有限公司"><span>恒健控股公司</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gdnyjt.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/124/124520/1310776.png" width="82" height="68" alt="广东南粤集团有限公司"><span>南粤集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gvcgc.com/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/45/45601/2188175.jpg" width="82" height="68" alt="广东省粤科金融集团有限公司"><span>粤科金融集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="http://www.gqkgjt.com" target="_blank"><img src="/images/province_enterprise_images/gqkg.jpg" width="82" height="68" alt="广东省广轻控股集团有限公司"><span>广轻控股集团</span> </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="https://www.gdaee.com.cn/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/807/807068/1310777.png" width="82" height="68" alt="广东省交易控股集团有限公司"><span>交易控股集团</span> </a>
+                                    </li>
+                                 -->
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="spacehome"></div>
+                    <!--
+                    <div class="title_home2">
+                        文化园地
+                    </div>
+                    <div class="layer_g"style="height:298px !important; ">
+                        <div class="culture">
+                            <a href="/article/WHYD_SWJS/0/1"  title="更多诗文欣赏"><img
+                                    src="/images/p1.jpg" width="208" height="73" class="picbox"
+                                    alt="诗文欣赏" /> </a>
+                            <ul class="newslist2">
+                                <html><body><li><a href="/detail/WHYD_SWJS/WHYD_SWJS/14681" title='请传染快乐正能量(2016-07-15)' target=_blank>请传染快乐正能量</a></li><li><a href="/detail/WHYD_SWJS/WHYD_SWJS/13944" title='让漫天烟尘化为思想朝露(2016-04-15)' target=_blank>让漫天烟尘化为思想朝露</a></li><li><a href="/detail/WHYD_SWJS/WHYD_SWJS/14221" title='登岳阳楼(2016-03-10)' target=_blank>登岳阳楼</a></li><li><a href="/detail/WHYD_SWJS/WHYD_SWJS/13943" title='谁言寸草心 报得三春晖(2016-02-23)' target=_blank>谁言寸草心 报得三春晖</a></li><li><a href="/detail/WHYD_SWJS/WHYD_SWJS/13804" title='若，人生只如初见(2016-01-20)' target=_blank>若，人生只如初见</a></li><li><a href="/detail/WHYD_SWJS/WHYD_SWJS/13609" title='把心放低 (2015-12-28)' target=_blank>把心放低</a></li></body></html>
+</ul>
+                        </div>
+                        <div class="culture">
+                            <a href="/photo/WHYD_DDCF/DDCF_WJGSYZP/1" title="更多大地采风"><img src="/images/p2.jpg"
+                                    width="208" height="73" class="picbox" alt="大地采风" /> </a>
+                            <ul class="newslist2">
+                                <html><body><li><a href="/detail/WHYD_DDCF/DDCF_JYQZJ/14269" title='落日余晖(2016-04-26)' target=_blank>落日余晖</a></li><li><a href="/detail/WHYD_DDCF/DDCF_JYQZJ/13939" title='流水人家(2016-02-23)' target=_blank>流水人家</a></li><li><a href="/detail/WHYD_DDCF/DDCF_JYQZJ/13611" title='暗香疏影(二)(2015-12-28)' target=_blank>暗香疏影(二)</a></li><li><a href="/detail/WHYD_DDCF/DDCF_JYQZJ/13497" title='暗香疏影(一)(2015-12-09)' target=_blank>暗香疏影(一)</a></li><li><a href="/detail/WHYD_DDCF/DDCF_JYQZJ/13286" title='秋菊傲放(2015-11-10)' target=_blank>秋菊傲放</a></li><li><a href="/detail/WHYD_DDCF/DDCF_JYQZJ/12995" title='望月&middot;怀乡(2015-09-24)' target=_blank>望月&middot;怀乡</a></li></body></html>
+</ul>
+                        </div>
+                        <div class="culture">
+                            <a href="/article/WHYD_BHZM/0/1"  title="更多书画纵横"><img
+                                    src="/images/p3.jpg" width="208" height="73" class="picbox"
+                                    alt="书画纵横" /> </a>
+                            <ul class="newslist2">
+                                <html><body><li><a href="/detail/WHYD_BHZM/WHYD_BHZM/14268" title='爱党心诚，创业志坚(2016-04-26)' target=_blank>爱党心诚，创业志坚</a></li><li><a href="/detail/WHYD_BHZM/WHYD_BHZM/14267" title='激浊而扬，废贪而立(2016-03-16)' target=_blank>激浊而扬，废贪而立</a></li><li><a href="/detail/WHYD_BHZM/WHYD_BHZM/13940" title='安全生产三字经 (2016-02-23)' target=_blank>安全生产三字经</a></li><li><a href="/detail/WHYD_BHZM/WHYD_BHZM/13942" title='新“岳母刺字” (2016-01-13)' target=_blank>新“岳母刺字”</a></li><li><a href="/detail/WHYD_BHZM/WHYD_BHZM/13610" title='仙境云峰(2015-12-28)' target=_blank>仙境云峰</a></li><li><a href="/detail/WHYD_BHZM/WHYD_BHZM/13305" title='南陵道中 (2015-11-12)' target=_blank>南陵道中</a></li></body></html>
+</ul>
+                        </div>
+                    </div>-->
+
+                </div>
+                <div class="sidebar_home">
+                    
+                    <div class="sidebarbottom_home">
+                        <div class="sidetitle">
+                                                    <a href="https://gzw.gd.gov.cn/tzgg/index.html" class="amore2"  title="更多通知公告">更多&gt;&gt;</a>通知公告
+                                            </div>
+                    <div class="sidesub" style="height: 200px; overflow: hidden;">
+                        <ul class="noticelist">
+                            <html><body>
+                                                                    <li><a href="https://gzw.gd.gov.cn/tzgg/cwyjrcxglc02/content/post_4897685.html" title='关于2026年省属国有企业改革发展资金分配项目计划（第一批）的公示(2026-05-15)' target=_blank>关于2026年省属国有企业改革发展资金分...(2026-05-15)</a></li>
+                                                                    <li><a href="https://gzw.gd.gov.cn/tzgg/zhfgc02/content/post_4897060.html" title='关于废止失效一批文件的通知(2026-05-14)' target=_blank>关于废止失效一批文件的通知...(2026-05-14)</a></li>
+                                                                    <li><a href="https://gzw.gd.gov.cn/tzgg/content/post_4889877.html" title='“职”等你来！400+国有企业携5000+岗位诚邀英才(2026-04-13)' target=_blank>“职”等你来！400+国有企业携5000...(2026-04-13)</a></li>
+                                                                    <li><a href="https://gzw.gd.gov.cn/tzgg/cwyjrcxglc02/content/post_4789715.html" title='关于2026年促进经济发展专项资金（支持省属企业改革发展）分配项目计划的公示(2025-10-27)' target=_blank>关于2026年促进经济发展专项资金（支持...(2025-10-27)</a></li>
+                                                            </body></html>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+
+                    
+                    <!-- 广东政务服务网 -->
+                    <div style="height:82px; overflow: hidden; border-bottom:1px solid #fff;">
+                        <a href="http://www.gdzwfw.gov.cn/" target="_blank"  title="广东政务服务网" ><img src="./images/index/gdzwfw.jpg" width='210'/></a>
+                    </div>
+                    
+                    <!-- 信息公开成绩单 
+                    <div style="height:65px; overflow: hidden; border:1px solid #fff;">
+                        <a href="/homepage/gkgzjm.html" target="_blank"  title="信息公开成绩单" ><img src="/images/wsbsdt1.jpg" width='210'/></a>
+                    </div>-->
+                    <!-- 2017年政府信息公开工作年度报告 --> 
+                    <div style="height:63px; overflow: hidden; border-bottom:1px solid #fff;">
+                                                    <a href="https://gzw.gd.gov.cn/ndbg/content/post_4850892.html" target="_blank"  title="广东省人民政府国有资产监督管理委员会2025年政府信息公开工作年度报告" ><img src="https://gzw.gd.gov.cn/img/1/1574/1574423/4850892.jpg" width='210'/></a>
+                                            </div>
+                    <!-- 2017年度政府网站工作年度报表 -->
+                    <div style="height:63px; overflow: hidden; border-bottom:1px solid #fff;">
+                                                    <a href="https://gzw.gd.gov.cn/ndbb/content/post_4844527.html" target="_blank"  title="2025年度政府网站工作年度报表（广东省国资委）" ><img src="https://gzw.gd.gov.cn/img/1/1568/1568239/4844527.jpg" width='210'/></a><!--https://gzw.gd.gov.cn/img/1/1568/1568239/4844527.jpg-->
+                                            </div>
+                    
+                    <!-- 财政预决算 -->
+                    <div  style="height:63px; overflow: hidden; border-bottom:1px solid #fff;"> 
+                                                    <a href="https://gzw.gd.gov.cn/czyjs/index.html" target="_blank"  title="财政预决算" ><img src="./images/caizhengyujuesuan1.png" width='212px'/></a><!---->
+                                            </div>
+                    
+                    <div  style="height:63px; overflow: hidden; border-bottom:1px solid #fff;"> 
+                        
+                            <a href="https://gzw.gd.gov.cn/chanquansearch/" target="_blank"  title="省属企业产权信息查询平台" ><img src="/images/20240819180338.png" width='212px'/></a>
+                        
+                    </div>
+                    
+                    <!-- 
+                    <div class="sidesub_bottom"></div>
+                    <div class="sidetitle">
+                        信息公开
+                    </div>
+                    
+                    <div class="sidesub" align="center">
+                        <img src="images/pubmenu.png" border="0" usemap="#Mapbb" />
+                            <map name="Mapbb" id="Mapbb">
+                                <area shape="rect" coords="1,1,167,26"
+                                    href="/article/XXGK_ZCFG/0/1" target="_blank" />
+                                <area shape="rect" coords="1,32,168,59"
+                                    href="/infoGuide.html" target="_blank" />
+                                <area shape="rect" coords="2,64,167,91"
+                                    href="/procedureGuidance.html" target="_blank" />
+                                <area shape="rect" coords="2,98,168,124"
+                                    href="/infoDir.html" target="_blank" />
+                                <area shape="rect" coords="1,129,168,157"
+                                    href="/pub/XXGK_YSQGKX/0/1" target="_blank" />
+                                <area shape="rect" coords="1,162,169,188"
+                                    href="/article/XXGK_GZNDBG/0/1" target="_blank" />
+                                <area shape="rect" coords="1,194,169,220"
+                                    href="http://www.gdgz.gov.cn/detail/XXGK_BMYJS/XXGK_BMYJS/14916" target="_blank" />
+                            </map>
+                        </div>  -->
+                    
+                    <!-- <div class="sidetitle">
+                        <a href="/article/XWZX_ZTHD/0/1" class="amore2" title="更多专题活动">更多&gt;&gt;</a>专题活动
+                    </div>
+                    <div class="sidesub">
+                        <div align="center">
+                            <a href="http://www.gd.gov.cn/govpub/xxts/" target="_blank"><img src="/images/sdlj_ban_ywzz.jpg" width="183" height="50" /></a>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="sidesub_bottom"></div>-->
+                    <!-- 
+                    <div class="sidetitle">
+                        国资视频
+                    </div>
+                    <div class="sidesub">
+                        <div class="spacehome"></div>
+                        <div align="center">
+                            <a href="http://mfsee.zhuzhou.gov.cn/home.do?companySn=1"
+                                target="_blank"  title="国资视频"> <img src="images/tv.jpg" width="183"
+                                    height="168" alt='国资视频'/> </a>
+                        </div>
+                        <div class="spacehome"></div>
+                    </div>
+                    <div style="height: 138px; overflow: hidden;">
+                        <img src="/images/pic_04.jpg" />
+                        <a href="/letter.html"><img src="images/pic_02.jpg"
+                                width="210" height="59" /> </a>
+                        <a href="/sitemap.html"><img
+                                src="images/pic_03.jpg" width="210" height="58" /></a>
+                    </div> -->
+
+                    
+                    <!-- 出行服务专区 -->
+                    <!--
+                    <div class="sidetitle_login"> 
+                        出行服务专区 
+                    </div>      
+                    <div class="loginbox"style="height:85px !important;">
+                            <table  width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td height="28">
+                                            <a href="http://gdweb.gdnyt.com/" target="_blank"  title="交通服务" ><img src="./images/index/cxfw.jpg" height='80' width='175'/></a>
+                                        </td>
+                                    </tr>
+                            </table>
+                    </div>
+                    -->
+                    <!--
+                    <div class="sidesub_bottom"></div>
+                    <div class="spacehome"></div>
+                    -->
+                    <!--
+                    <div >
+                        <div align="center" style="padding:5px;">
+                            <a href="http://www.gdairport.com/portal/site/site/portal/gdjc/cyjcl.jsp" target="_blank" title="机场服务"><img src="./images/index/cxfw.jpg" width="175" /> </a>     
+                        </div>
+                    </div>
+                    <div class="sidesub_bottom"></div>
+                    -->
+                    
+                     <!--友情链接-->
+                    <div class="sidetitle_2">
+                        <!--友情链接-->
+                    </div>
+                            
+                    <div id="friendLinkDiv2" style="height:120px;">
+                                                        <div align="center">
+                                <a href="http://www.sasac.gov.cn/" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/31/31000/1310731.jpg" width="175" height="49"> </a>
+                            </div>
+                                <div class="spacehome"></div>
+                                                        <div align="center">
+                                <a href="http://www.gd.gov.cn" target="_blank"><img src="https://gzw.gd.gov.cn/img/0/30/30999/1310730.jpg" width="175" height="49"> </a>
+                            </div>
+                                <div class="spacehome"></div>
+                                            </div>
+                    <div class="sidesub_bottom"></div>
+
+                    
+                    <!-- 国资会计学会链接 
+                    <div class="sidetitle">
+                        
+                    </div>
+                    <div class="sidesub"
+                        style="height: 55px; overflow: hidden;">
+                        <div align="center" style="padding:5px;">
+                            <a href="" target="_blank"><img src="images/z2.jpg" width="175" height="45" /> </a>                               
+                        </div>
+                        
+                    </div>-->
+                    
+                            
+                    <div >
+                        <div align="center" style="padding:5px;">
+                            <a href="http://gzw.gd.gov.cn/hdjlpt" target="_blank"><img src="./images/hdpt.png" width="175" /> </a>                                                                
+                            <div class="spacehome"></div>
+                            <a href="http://gzw.gd.gov.cn/hdjlpt/c_cat?name=zxft&via=pc" target="_blank"><img src="./images/zxft.png" width="175" /> </a>                                                              
+                            <div class="spacehome"></div>
+                            <a href="http://gzw.gd.gov.cn/hdjlpt/solicitation" target="_blank"><img src="./images/zjdc.png" width="175" /> </a>                                                             
+                            <div class="spacehome"></div>
+                             <a href="http://www.gov.cn/hudong/index.htm" target="_blank"><img src="/images/20230414.png" width="175" height="53"/> </a>                                                             
+                            <div class="spacehome"></div>
+                            
+                            <!--                                 <a href="https://gzw.gd.gov.cn/wsdc/index.html" target="_blank"><img src="./images/zjdc.png" width="175" /> </a>                                                             
+                            -->
+                        </div>
+                    </div>
+                    
+                         
+                        <!--     
+                    <div class="sidetitle">
+                        在线访谈
+                    </div>
+                    <div class="sidesub"
+                        style="height: 100px; overflow: hidden;">
+                        <div align="center" style="padding:5px;">
+                            <a href="http://www.gd.gov.cn/gzhd/zbft/" target="_blank"><img src="./images/zxft.png" width="175" height="90" /> </a>                                                              
+                        </div>
+                        <!--<div align="center" style="padding:5px;">
+                            <a href="http://www.ghwsx.gov.cn/gholportal/home.aspx" target="_blank"><img src="/images/ghwsx.gif" width="175" height="60" /></a>
+                                <img src="/images/specials_link/jizhunew.gif" width="175" height="50" /> 
+                        </div>
+                    </div>
+                    
+                    <div class="sidetitle">
+                                                    <a href="https://gzw.gd.gov.cn/wsdc/index.html" class="amore2"  title="更多在线调查">更多&gt;&gt;</a>在线调查
+                                            </div>
+
+                    <div class="survey sidesub" id="surveyDiv"
+                        style="height:100px !important; height: 255px; overflow: hidden;">
+                        
+                        <a href="http://www.gd.gov.cn/gzhd/hdmyzj/hdmyzjzx/" target="_blank"><img src="./images/zjdc.png" width="175" height="90" /> </a>                                                                                               
+                    </div>
+                    <style type="text/css">
+                        #button2{margin-left:28px;}
+                    </style>
+                    -->
+
+
+
+                </div>
+            
+                
+            
+            
+            </div>
+            <div class="clear"></div>
+        </div>
+                <script type="text/javascript" src="./script/jquery.js"></script>   
+                
+    </div>
+
+    <form name="email_form" method="post" id="email_form"
+        action="http://mail.gdgz.gov.cn/login.php?forweb=1" target="_blank">
+        <input name=F_domain type=hidden value="gdgz.gov.cn" />
+        <input type="hidden" name="F_email" />
+        <input type="hidden" name="F_password" />
+    </form>
+    <form name="userLogin_form" method="post"
+        action="http://www.gdgz.gov.cn/j_spring_security_check" target="_blank">
+        <input type="hidden" name="j_username" />
+        <input type="hidden" name="j_password" />
+    </form>
+        
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <div class="bottom" style="position: relative;">
+	
+	<img src="/gdgz/images/index/bottomMid.gif" height=2 border="0"/>
+	          <a href="https://gzw.gd.gov.cn/lxfs/index.html" target=_blank title="联系方式"> 联系方式</a>|
+                 <a href="https://gzw.gd.gov.cn/wzdt/index.html" target=_blank title="网站地图"> 网站地图</a>|
+                  <a href="https://gzw.gd.gov.cn/bqsm/index.html" target=_blank title="版权声明"> 版权声明</a>|
+                  <a href="https://gzw.gd.gov.cn/yssm/index.html" target=_blank title="隐私声明"> 隐私声明</a>|
+                  <a href="https://gzw.gd.gov.cn/rss/index.html" target=_blank title="RSS订阅"> RSS订阅</a>
+    	<br>
+	版权所有：广东省人民政府国有资产监督管理委员会&nbsp;&nbsp;&nbsp;
+	<br>
+	<!--  
+	<a href="http://www.miibeian.gov.cn/" target="_blank" title="粤ICP备07067612号">粤ICP备07067612号</a>-->
+	<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">粤ICP备2025377467号</a> 政府网站识别码：4400000057 公安机关备案号：44000899103-00001
+	<br>
+	主办单位：广东省人民政府国有资产监督管理委员会 技术支持 : 广东南方网络信息科技有限公司
+	<br />
+	目前访问总人数：
+	<span class="num" id="WebSitesVisited" name="WebSitesVisited"> 
+        <span id="NFCMS-SITE-VISIT-37">-</span><script>setTimeout(function(){var s = document.createElement("script");s.type = "text/javascript";s.src = "//statistics.gd.gov.cn/jsonp/site/sum?site=195&callback=NFCMS_CB_SITE_VISIT_37&t=" + Math.random().toString(35).substr(2);window.NFCMS_CB_SITE_VISIT_37 = function(data){document.getElementById("NFCMS-SITE-VISIT-37").innerHTML = data.count;document.body.removeChild(s);};document.body.appendChild(s);}, 10);</script>
+    </span>
+    <script type="text/javascript">
+			 WWWROOT = '';
+			 $(function(){
+                 /*$.ajax({
+                    url : 'http://www.gdgz.gov.cn/count.html',
+                    dataType : "jsonp",
+                    jsonp : "pJsonpCallBack",
+                    jsonpCallback:"pJsonpCallBack",
+                    success : function(data) {
+                       $("#WebSitesVisited").html(data);
+                    },
+                    error:function(){
+
+                    }
+
+                });
+				$.ajax({
+						type : "get",
+						url : WWWROOT+"/count.html",
+						dataType : "text",
+						async : true,
+						success : function(result) {
+							$("#WebSitesVisited").html(result);
+						},
+						error : function(result) {
+						}
+                     });*/
+			 });
+        
+	</script> 
+		<br />
+	(建议使用 1280×1024分辨率 IE6.0以上版本浏览器)
+	<br />
+
+	<div style="position: absolute; left:10px; bottom:10%;" valign="top">
+		<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='https://dcs.conac.cn/js/20/000/0000/45000832/CA200000000450008320003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+	</div>
+	<div style="position: absolute; left:90px; bottom:20%;" valign="top">
+   		<script id="_jiucuo_" sitecode='4400000057' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>  
+	</div>  
+</div>
+
+<script src="//service.gd.gov.cn/wza/wza.js?app=gzw"></script>
+<script>
+ // IE8 兼容配置,新版信息无障碍
+ window.onload = function() {
+  cnillWzaInstance.startInit("http://gzw.gd.gov.cn/js/cnill_polyfill.swf");
+ }
+ document.getElementById("gzwwza").onclick = function() {
+  // 执行实例的init方法
+  cnillWzaInstance.init(); // cnillWzaInstance为全局变量
+ }
+</script>
+
+<script>window.NFCMS_SITE_ID=195;window.NFCMS_PUB_TYPE="page";window.NFCMS_PAGE_ID="665";</script><script src="//statistics.gd.gov.cn/scripts/s.js?t=1791673616" async></script>
+    </div>
+<!-- <script id="wza_sidebar" type="text/javascript"
+src="http://wza.gd.gov.cn/wza/yixuan/yixuan_nav1/domready.js?sid=14981?pos=left?mob=0"></script>-->
+    
+</body>
+</html>
+<script type="text/javascript" src="./script/jquery-min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script> -->
+<script type="text/javascript" src="./script/superMarquee.js"></script>
+<script type="text/javascript" src="./script/jquery.jcarousellite.min.js"></script>
+<script type="text/javascript" src="./script/gzw.js"></script>
+<script type="text/javascript" src="./script/index.js"></script>
+<script type="text/javascript" src="./script/md5.js"></script>
+<script type="text/javascript" src="./script/picshow.js"></script>
+
+<script src="//service.gd.gov.cn/wza/wza.js?app=gzw"></script>
+<script>
+ // IE8 兼容配置,新版信息无障碍
+ window.onload = function() {
+  cnillWzaInstance.startInit("http://gzw.gd.gov.cn/js/cnill_polyfill.swf");
+ }
+ document.getElementById("gzwwza").onclick = function() {
+  // 执行实例的init方法
+  cnillWzaInstance.init(); // cnillWzaInstance为全局变量
+ }
+</script>
+<!-- 专题广告条轮换脚本 -->
+<script id=code language=JavaScript>
+//省属企业专题
+/*x=0;
+var specialsBanDiv = document.getElementById("specialsBan");
+function changeImg()
+{
+
+<!-- 专题广告条轮换脚本 -->
+<script id=code language=JavaScript>
+//省属企业专题
+/*x=0;
+var specialsBanDiv = document.getElementById("specialsBan");
+function changeImg()
+{
+    if(x==0)
+    {
+        specialsBanDiv.innerHTML = '<a style="cursor:pointer;" href="/pageroot/zdll/index.html" target=_blank><img src="./images/zdlybanner.jpg" width="752" height="94" class="ban" alt="重点领域"/></a>';
+                x=1;
+    }
+    else
+    {
+    specialsBanDiv.innerHTML = '<a style="cursor:pointer;" href="/pageroot/zdll/index.html" target=_blank><img src="./images/zdlybanner.jpg" width="752" height="94" class="ban" alt="重点领域"/></a>';
+            x=0;
+    }
+}
+setInterval(changeImg,5000);
+
+//市国资委创新专题
+y=0;
+var shigzwDiv = document.getElementById("gqshzr");
+function changeSHIGZWImg()
+{
+    if(y%2==0){         
+        shigzwDiv.innerHTML = '<a style="cursor:pointer;" href="/QYreport/0/1" target=_blank><img src="./images/gqshzr.jpg" width="752" height="94" class="ban" alt="国有企业社会责任"/></a>';
+        y++;
+    }else if(y%2==1){           
+        shigzwDiv.innerHTML = '<a style="cursor:pointer;" href="/QYreport/0/1" target=_blank><img src="./images/gqshzr.jpg" width="752" height="94" class="ban" alt="国有企业社会责任"/></a>';
+        //shigzwDiv.innerHTML = '<a style="cursor:pointer;" href="/pageroot/zdll/index.html" target=_blank><img src="/images/zdlybanner.jpg" width="752" height="94" class="ban" alt="重点领域"/></a>';
+        y++;
+    }
+    /*else if(y%3==2){          
+        shigzwDiv.innerHTML = '<a href="/specials/zhgzw/index.html" target="_blank"><img src="/images/zhgzw_ban.gif" width="751" height="94" class="ban" /></a>';
+        y++;
+    }
+            
+}
+setInterval(changeSHIGZWImg,5000);*/
+
+//把焦点放在用户名输入框
+if(typeof(focusField)=='function'){
+focusField();
+}
+
+
+$(function(){
+/*$.ajax({
+        url : 'http://app.gd.gov.cn/xxts/pushinfo_json.php',
+        dataType : "jsonp",
+        jsonp : "pushInfoJsonpCallBack",
+        jsonpCallback:"pushInfoJsonpCallBack",
+        success : function(data) {
+            var result="";
+            $.each(data,function(i,json){
+                var str1= json.pubDate;
+                if(i>9){
+                    return;
+                }
+                    title = json.title;
+                title = title.substring(0,15)+"...";
+                result+="<li><a href='"+json.link+"'><font>"+title+"</font></a><span>"+str1+"</span></li>";
+                
+            })
+            
+            $("#testUl").html(result);
+            
+        },
+            error:function(){
+                
+        }
+
+    });*/
+
+    $('#marqueeDemo3').show();
+    $('#marqueeDemo3').attr("style", "");
+    $('#marqueeDemo3').superMarquee({
+        isMarquee : true,
+        isEqual : false,
+        scrollDelay : 20,
+        direction : 'left'
+    });
+    $("#crumbs a:last").addClass("hilight");
+
+})
+
+$(document).ready(function(){
+
+$(".weixin").mouseover(function(){
+
+$(".weixin-hover").css("display","block");
+
+});
+
+$(".weixin").mouseout(function(){
+
+$(".weixin-hover").css("display","none");
+
+});
+// 2020-09-27-粤商通右下角信息
+$(".yueshangtongclose").click(function(){
+    // $(".yueshangtongdiv").css("display","none");
+    $(this).parent().css("display","none");
+});
+// 2022网民网络满意度调查左下角信息
+$(".wmmyddcclose").click(function(){
+    // $(".wmmyddcdiv").css("display","none");
+    $(this).parent().css("display","none");
+});
+    // 焦点图
+	$(".jcl_block1").jCarouselLite({
+		auto: "3500",
+		speed: "1000",
+        btnNext: ".next_ad",
+        btnPrev: ".prev_ad"
+    });
+});
+</script>
+
+			<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+
+			

@@ -1,0 +1,26 @@
+{
+  "accessed_at": "2026-10-05",
+  "method": "web-access WebSearch/WebFetch公开静态索引/正文；未执行UI交互、登录或截图",
+  "sources": [
+    {
+      "url": "https://www.52cv.com/",
+      "source_body": "公开静态正文可读，L99-165及575-638",
+      "paraphrase": "官网介绍AI简历评测、根据简历与JD生成专属面试题、实时模拟与逐题反馈。免费导出CTA≠免费AI配额；效果翻倍是厂商自述。",
+      "robots": {
+        "url": "https://www.52cv.com/robots.txt",
+        "result": "URL is not accessible via this tool."
+      },
+      "limitation": "主页正文在同批取得，但robots未知不深入；未用另一工具重读或登录"
+    },
+    {
+      "url": "https://www.zhiyeapp.com/",
+      "source_level": "前轮CDP公开主页+本轮公开索引；本轮未新开工作台",
+      "paraphrase": "厂商介绍AI简历诊断及模板智能填写；没有实际界面/额度证据"
+    },
+    {
+      "url": "https://www.zhitujianli.com/",
+      "source_level": "发现候选，不作为官方证据",
+      "limitation": "页面带占位客服号码，并自称52cv官网；以52cv实际主页确认品牌，不采用候选的公司、奖项、用户数等断言"
+    }
+  ]
+}

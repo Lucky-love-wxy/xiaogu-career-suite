@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.477,
+  "access_date": "2026-10-12",
+  "sha256": "e1e7b570598d5e70bb5addb1211305bfa3431be3a7e6a00426a1e2056805e4de",
+  "blocked": null,
+  "id": "bytedance-official-search",
+  "company": "bytedance",
+  "query": "ByteDance products TikTok Douyin advertising enterprise services official",
+  "include_domains": [
+    "bytedance.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-official-search.json"
+}

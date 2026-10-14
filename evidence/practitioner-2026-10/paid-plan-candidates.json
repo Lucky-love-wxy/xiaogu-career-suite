@@ -1,0 +1,467 @@
+{
+  "status": "pending_free_channel_results_not_executed",
+  "budget_usd": 1,
+  "max_total_attempts": 100,
+  "roles": [
+    {
+      "tier": "P1",
+      "node": "互联网/AI › 人工智能 › 图像算法",
+      "name": "图像算法",
+      "source": "BOSS分类",
+      "sample_n": "1",
+      "max_company_n": "1",
+      "majors": "不限专业",
+      "sample_urls": "https://campus.niuqizp.com/job-vmlNL5Zzn.html"
+    },
+    {
+      "tier": "P1",
+      "node": "互联网/AI › 人工智能 › 算法工程师",
+      "name": "算法工程师",
+      "source": "BOSS分类",
+      "sample_n": "23",
+      "max_company_n": "12",
+      "majors": "不限专业、中医学类、临床医学类、基础医学类、数学类、物理学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8U5nLMZL.html https://campus.niuqizp.com/job-v8k5MZz5M.html https://campus.niuqizp.com/job-v8m5tMNaC.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 医疗产品技术支持",
+      "name": "医疗产品技术支持",
+      "source": "BOSS分类",
+      "sample_n": "41",
+      "max_company_n": "11",
+      "majors": "不限专业、临床医学类、化学类、化工与制药类、医学技术类、教育学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8U5Nn55z.html https://campus.niuqizp.com/job-v8U5ntCan.html https://campus.niuqizp.com/job-v8k55nNLt.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 药物分析",
+      "name": "药物分析",
+      "source": "BOSS分类",
+      "sample_n": "18",
+      "max_company_n": "9",
+      "majors": "不限专业、化学类、法学类、生物工程类、生物科学类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8k5ZNMnn.html https://campus.niuqizp.com/job-vUl55Mnzt.html https://campus.niuqizp.com/job-vUr5CZCZa.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 临床试验 › 临床监查员",
+      "name": "临床监查员",
+      "source": "BOSS分类",
+      "sample_n": "19",
+      "max_company_n": "8",
+      "majors": "不限专业、中医学类、中药学类、临床医学类、公共卫生与预防医学类、医学技术类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8r5CaLnZ.html https://campus.niuqizp.com/job-v8s5MtatM.html https://campus.niuqizp.com/job-vUk5MtaZn.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗销售 › 医药代表",
+      "name": "医药代表",
+      "source": "BOSS分类",
+      "sample_n": "33",
+      "max_company_n": "8",
+      "majors": "不限专业、临床医学类、化工与制药类、基础医学类、工商管理类、护理学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8U5MMtNN.html https://campus.niuqizp.com/job-v8k5CaLMC.html https://campus.niuqizp.com/job-v8m5MtZaa.html"
+    },
+    {
+      "tier": "P1",
+      "node": "金融 › 保险 › 医学理赔/核保",
+      "name": "医学理赔/核保",
+      "source": "招聘样本补充",
+      "sample_n": "8",
+      "max_company_n": "6",
+      "majors": "中医学类、临床医学类、公共卫生与预防医学类、动物医学类、口腔医学类、基础医学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8m55Mt55.html https://campus.niuqizp.com/job-v8s5nztnM.html https://campus.niuqizp.com/job-vYY5tMaCz.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 理疗保健 › 针灸推拿",
+      "name": "针灸推拿",
+      "source": "BOSS分类",
+      "sample_n": "8",
+      "max_company_n": "6",
+      "majors": "中医学类、临床医学类、医学技术类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8l5nNaaL.html https://campus.niuqizp.com/job-vkU5CztnL.html https://campus.niuqizp.com/job-vkl5MnNtL.html"
+    },
+    {
+      "tier": "P1",
+      "node": "产品 › 产品经理 › 产品经理",
+      "name": "产品经理",
+      "source": "BOSS分类",
+      "sample_n": "19",
+      "max_company_n": "5",
+      "majors": "不限专业、临床医学类、医学技术类、基础医学类、工商管理类、护理学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v885Cna5n.html https://campus.niuqizp.com/job-v8y5nMM5C.html https://campus.niuqizp.com/job-vUl5ZLMnt.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗销售 › 健康顾问",
+      "name": "健康顾问",
+      "source": "BOSS分类",
+      "sample_n": "14",
+      "max_company_n": "5",
+      "majors": "不限专业、中医学类、临床医学类、公共卫生与预防医学类、医学技术类、工商管理类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8lNLZazC.html https://campus.niuqizp.com/job-v8r5M5aCn.html https://campus.niuqizp.com/job-vUY5nNzZM.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 药品注册",
+      "name": "药品注册",
+      "source": "BOSS分类",
+      "sample_n": "10",
+      "max_company_n": "5",
+      "majors": "临床医学类、公共卫生与预防医学类、化学类、基础医学类、生物医学工程类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUm5taMnN.html https://campus.niuqizp.com/job-vky5MCzzL.html https://campus.niuqizp.com/job-vl85MaNZ5.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 药物合成",
+      "name": "药物合成",
+      "source": "BOSS分类",
+      "sample_n": "13",
+      "max_company_n": "5",
+      "majors": "不限专业、化学类、化工与制药类、材料类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v885MLCzC.html https://campus.niuqizp.com/job-v8l55MnzC.html https://campus.niuqizp.com/job-v8s5aanMt.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 制剂研发",
+      "name": "制剂研发",
+      "source": "BOSS分类",
+      "sample_n": "14",
+      "max_company_n": "4",
+      "majors": "不限专业、化工与制药类、机械类、生物工程类、生物科学类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8Y5CatM5.html https://campus.niuqizp.com/job-v8kNL5zLM.html https://campus.niuqizp.com/job-vUU5MLCMZ.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 其他医疗健康职位 › 医学编辑",
+      "name": "医学编辑",
+      "source": "BOSS分类",
+      "sample_n": "9",
+      "max_company_n": "4",
+      "majors": "不限专业、中医学类、中国语言文学类、临床医学类、医学技术类、口腔医学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vmm5ZzZMZ.html https://campus.niuqizp.com/job-vmy5NNMta.html https://campus.niuqizp.com/job-vrU5MaaLa.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 理疗保健 › 康复治疗师",
+      "name": "康复治疗师",
+      "source": "BOSS分类",
+      "sample_n": "11",
+      "max_company_n": "4",
+      "majors": "临床医学类、体育学类、医学技术类、基础医学类、心理学类、教育学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8y5tMnLL.html https://campus.niuqizp.com/job-vU855nLzN.html https://campus.niuqizp.com/job-vUk5NanZt.html"
+    },
+    {
+      "tier": "P1",
+      "node": "互联网/AI › 人工智能 › 数据标注/AI训练师",
+      "name": "数据标注/AI训练师",
+      "source": "BOSS分类",
+      "sample_n": "10",
+      "max_company_n": "4",
+      "majors": "不限专业、心理学类、戏剧与影视学类、法学类、电子信息类、计算机类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUm55MtZC.html https://campus.niuqizp.com/job-vYY5nCzM5.html https://campus.niuqizp.com/job-vkr5Mt5Ln.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 生物信息工程师",
+      "name": "生物信息工程师",
+      "source": "BOSS分类",
+      "sample_n": "10",
+      "max_company_n": "4",
+      "majors": "不限专业、生物医学工程类、生物科学类、统计学类、计算机类",
+      "sample_urls": "https://campus.niuqizp.com/job-vU85NCNZt.html https://campus.niuqizp.com/job-vUY5taM5z.html https://campus.niuqizp.com/job-vUm5CtLCM.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 理疗保健 › 营养师/健康管理师",
+      "name": "营养师/健康管理师",
+      "source": "BOSS分类",
+      "sample_n": "20",
+      "max_company_n": "4",
+      "majors": "不限专业、中药学类、临床医学类、公共卫生与预防医学类、公共管理类、医学技术类",
+      "sample_urls": "https://campus.niuqizp.com/job-v885anNMt.html https://campus.niuqizp.com/job-vUU5MNM5z.html https://campus.niuqizp.com/job-vUY5Znn5Z.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 临床试验 › 临床医学经理/专员",
+      "name": "临床医学经理/专员",
+      "source": "BOSS分类",
+      "sample_n": "4",
+      "max_company_n": "3",
+      "majors": "不限专业",
+      "sample_urls": "https://campus.niuqizp.com/job-v8l5aznzN.html https://campus.niuqizp.com/job-v8m5Mann5.html https://campus.niuqizp.com/job-vkr5aMnzC.html"
+    },
+    {
+      "tier": "P1",
+      "node": "金融 › 保险 › 保险理赔",
+      "name": "保险理赔",
+      "source": "BOSS分类",
+      "sample_n": "16",
+      "max_company_n": "3",
+      "majors": "不限专业、交通运输类、动物医学类、土木类、基础医学类、工商管理类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8Y5ZCZZZ.html https://campus.niuqizp.com/job-vUk5nna5M.html https://campus.niuqizp.com/job-vYm5MZMNn.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 其他医疗健康职位 › 公共卫生/疾控",
+      "name": "公共卫生/疾控",
+      "source": "招聘样本补充",
+      "sample_n": "4",
+      "max_company_n": "3",
+      "majors": "不限专业、公共卫生与预防医学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vYk5antNn.html https://campus.niuqizp.com/job-vYl5tZLZz.html https://campus.niuqizp.com/job-vwk5aMzna.html"
+    },
+    {
+      "tier": "P1",
+      "node": "互联网/AI › 人工智能 › 医学AI/生物医学大模型",
+      "name": "医学AI/生物医学大模型",
+      "source": "招聘样本补充",
+      "sample_n": "11",
+      "max_company_n": "3",
+      "majors": "不限专业、临床医学类、化学类、基础医学类、生物医学工程类、生物科学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8Y5na5NZ.html https://campus.niuqizp.com/job-v8kNLZMaZ.html https://campus.niuqizp.com/job-vYl5M55zN.html"
+    },
+    {
+      "tier": "P1",
+      "node": "互联网/AI › 人工智能 › 大模型算法",
+      "name": "大模型算法",
+      "source": "BOSS分类",
+      "sample_n": "6",
+      "max_company_n": "3",
+      "majors": "不限专业、计算机类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8U5MLntn.html https://campus.niuqizp.com/job-vYl5azaaL.html https://campus.niuqizp.com/job-vlY5azazZ.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 理疗保健 › 理疗师",
+      "name": "理疗师",
+      "source": "BOSS分类",
+      "sample_n": "10",
+      "max_company_n": "3",
+      "majors": "不限专业、中医学类、医学技术类、护理学类、社会学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUr5aMNML.html https://campus.niuqizp.com/job-vYk5NnNaM.html https://campus.niuqizp.com/job-vkk5NLtnL.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 药理毒理研究员",
+      "name": "药理毒理研究员",
+      "source": "BOSS分类",
+      "sample_n": "6",
+      "max_company_n": "3",
+      "majors": "临床医学类、数学类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8yNL55ZM.html https://campus.niuqizp.com/job-vUr5Ca5NL.html https://campus.niuqizp.com/job-vklNLLZt5.html"
+    },
+    {
+      "tier": "P1",
+      "node": "客服/运营 › 业务运营 › 医学运营",
+      "name": "医学运营",
+      "source": "招聘样本补充",
+      "sample_n": "4",
+      "max_company_n": "2",
+      "majors": "临床医学类、公共卫生与预防医学类、基础医学类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUY5ztLza.html https://campus.niuqizp.com/job-vms5N5znM.html https://campus.niuqizp.com/job-vyl5ztLzL.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗销售 › 医疗器械销售",
+      "name": "医疗器械销售",
+      "source": "BOSS分类",
+      "sample_n": "7",
+      "max_company_n": "2",
+      "majors": "不限专业、工商管理类、护理学类、生物医学工程类、社会学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUl5nNCCa.html https://campus.niuqizp.com/job-vkr5NCZCC.html https://campus.niuqizp.com/job-vky5MaCNz.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 其他医疗健康职位 › 医疗机构运营管理",
+      "name": "医疗机构运营管理",
+      "source": "招聘样本补充",
+      "sample_n": "7",
+      "max_company_n": "2",
+      "majors": "不限专业、临床医学类、公共卫生与预防医学类、基础医学类、工商管理类、管理科学与工程类",
+      "sample_urls": "https://campus.niuqizp.com/job-vk85nnazN.html https://campus.niuqizp.com/job-vkU5Zaz5t.html https://campus.niuqizp.com/job-vlr5nMzZz.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗销售 › 医美咨询",
+      "name": "医美咨询",
+      "source": "BOSS分类",
+      "sample_n": "2",
+      "max_company_n": "2",
+      "majors": "临床医学类、护理学类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vlk5CnNLa.html https://campus.niuqizp.com/job-vmy5MZLat.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 理疗保健 › 心理咨询师",
+      "name": "心理咨询师",
+      "source": "BOSS分类",
+      "sample_n": "2",
+      "max_company_n": "2",
+      "majors": "心理学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vYl5CtatC.html https://campus.niuqizp.com/job-vmr5t5CNC.html"
+    },
+    {
+      "tier": "P1",
+      "node": "影视/传媒 › 采编/写作/出版 › 期刊/学术编辑",
+      "name": "期刊/学术编辑",
+      "source": "招聘样本补充",
+      "sample_n": "12",
+      "max_company_n": "2",
+      "majors": "中国语言文学类、临床医学类、交通运输类、历史学类、工商管理类、新闻传播学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUr5ZCNNt.html https://campus.niuqizp.com/job-vkY5aNNNC.html https://campus.niuqizp.com/job-vkr5zLnnn.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 生物学研究人员",
+      "name": "生物学研究人员",
+      "source": "BOSS分类",
+      "sample_n": "4",
+      "max_company_n": "2",
+      "majors": "生物科学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v88NLZMaz.html https://campus.niuqizp.com/job-vls5nL5zZ.html https://campus.niuqizp.com/job-vrs5nL55n.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 药品生产",
+      "name": "药品生产",
+      "source": "BOSS分类",
+      "sample_n": "3",
+      "max_company_n": "2",
+      "majors": "不限专业、化工与制药类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v8rNLL5NN.html https://campus.niuqizp.com/job-vkr5nMztt.html https://campus.niuqizp.com/job-vwY5ntZCt.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 临床试验 › 临床数据管理/生物统计",
+      "name": "临床数据管理/生物统计",
+      "source": "招聘样本补充",
+      "sample_n": "3",
+      "max_company_n": "1",
+      "majors": "药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-v885tMtLa.html https://campus.niuqizp.com/job-vmm5tLCaC.html https://campus.niuqizp.com/job-vws5N5ttN.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医生/医技 › 医保/医院管理",
+      "name": "医保/医院管理",
+      "source": "招聘样本补充",
+      "sample_n": "5",
+      "max_company_n": "1",
+      "majors": "临床医学类、公共卫生与预防医学类、公共管理类、基础医学类、工商管理类、建筑类",
+      "sample_urls": "https://campus.niuqizp.com/job-vYr5NaMNN.html https://campus.niuqizp.com/job-vkl5NNnN5.html https://campus.niuqizp.com/job-vml5aMNM5.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医生/医技 › 医务管理",
+      "name": "医务管理",
+      "source": "BOSS分类",
+      "sample_n": "1",
+      "max_company_n": "1",
+      "majors": "临床医学类、公共卫生与预防医学类、基础医学类、护理学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vwY5NM5zZ.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 临床试验 › 医学写作",
+      "name": "医学写作",
+      "source": "招聘样本补充",
+      "sample_n": "1",
+      "max_company_n": "1",
+      "majors": "临床医学类、医学技术类、药学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vls5ZNnnt.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 生物医药 › 医药项目经理",
+      "name": "医药项目经理",
+      "source": "BOSS分类",
+      "sample_n": "1",
+      "max_company_n": "1",
+      "majors": "不限专业",
+      "sample_urls": "https://campus.niuqizp.com/job-vry5nNCMM.html"
+    },
+    {
+      "tier": "P1",
+      "node": "互联网/AI › 人工智能 › 算法研究员",
+      "name": "算法研究员",
+      "source": "BOSS分类",
+      "sample_n": "2",
+      "max_company_n": "1",
+      "majors": "不限专业",
+      "sample_urls": "https://campus.niuqizp.com/job-v8r5MMZ5z.html https://campus.niuqizp.com/job-vwU5MMZZ5.html"
+    },
+    {
+      "tier": "P1",
+      "node": "咨询/翻译/法律 › 翻译 › 英语翻译",
+      "name": "英语翻译",
+      "source": "BOSS分类",
+      "sample_n": "6",
+      "max_company_n": "1",
+      "majors": "不限专业、外国语言文学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vUYNLZaNC.html https://campus.niuqizp.com/job-vUl5ztNLN.html https://campus.niuqizp.com/job-vUm5N5tnn.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 药店 › 药店店员",
+      "name": "药店店员",
+      "source": "BOSS分类",
+      "sample_n": "2",
+      "max_company_n": "1",
+      "majors": "不限专业",
+      "sample_urls": "https://campus.niuqizp.com/job-vYl5ntztz.html https://campus.niuqizp.com/job-vlY5ZnLMM.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗器械 › 试剂研发",
+      "name": "试剂研发",
+      "source": "BOSS分类",
+      "sample_n": "5",
+      "max_company_n": "1",
+      "majors": "不限专业、生物科学类",
+      "sample_urls": "https://campus.niuqizp.com/job-vYY5taLaL.html https://campus.niuqizp.com/job-vYl5ManZn.html https://campus.niuqizp.com/job-vkm5MaMtC.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗器械 › 医疗器械注册",
+      "name": "医疗器械注册",
+      "source": "BOSS分类",
+      "sample_n": "2",
+      "max_company_n": "0",
+      "majors": "",
+      "sample_urls": "https://campus.niuqizp.com/job-v8k5tCttN.html https://campus.niuqizp.com/job-vmm5ZntNN.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗销售 › 医药市场（产品/品牌）",
+      "name": "医药市场（产品/品牌）",
+      "source": "招聘样本补充",
+      "sample_n": "1",
+      "max_company_n": "0",
+      "majors": "",
+      "sample_urls": "https://campus.niuqizp.com/job-vrr5zZt5M.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 医疗销售 › 口腔咨询师",
+      "name": "口腔咨询师",
+      "source": "BOSS分类",
+      "sample_n": "1",
+      "max_company_n": "0",
+      "majors": "",
+      "sample_urls": "https://campus.niuqizp.com/job-vyY5ZNZMM.html"
+    },
+    {
+      "tier": "P1",
+      "node": "医疗健康 › 药店 › 执业药师/驻店药师",
+      "name": "执业药师/驻店药师",
+      "source": "BOSS分类",
+      "sample_n": "1",
+      "max_company_n": "0",
+      "majors": "",
+      "sample_urls": "https://campus.niuqizp.com/job-vym5nZt5M.html"
+    }
+  ]
+}

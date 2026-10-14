@@ -1,0 +1,240 @@
+{
+  "name": [
+    {
+      "text": "社工",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "社工"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "配合完成其他相关工作任务",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5NNatL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5NNatL",
+          "text": "配合完成其他相关工作任务"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助开展心理健康评估、个案跟进及危机干预",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlm5ZaCzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlm5ZaCzN",
+          "text": "协助开展心理健康评估、个案跟进及危机干预"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "执行各类专业培训课程，涵盖课程组织、实施及后期总结反馈等全流程管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5NNatL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5NNatL",
+          "text": "执行各类专业培训课程，涵盖课程组织、实施及后期总结反馈等全流程管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "制定人群服务项目和社区治理项目的工作计划，并按计划推进，完成项目目标",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5NNatL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5NNatL",
+          "text": "制定人群服务项目和社区治理项目的工作计划，并按计划推进，完成项目目标"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "独立完成活动策划方案，撰写活动总结报告，收集及整理活动资讯、相片、视频录像",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlm5ZaCzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlm5ZaCzN",
+          "text": "独立完成活动策划方案，撰写活动总结报告，收集及整理活动资讯、相片、视频录像"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "主要业务有：开展行业宣传、提供会员服务及专业咨询、监督社工机构、实施项目管理、督导评估项目、社工增能培训、学术交流研讨等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5NNatL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5NNatL",
+          "text": "主要业务有：开展行业宣传、提供会员服务及专业咨询、监督社工机构、实施项目管理、督导评估项目、社工增能培训、学术交流研讨等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5NNatL",
+        "vks5M5ZMZ",
+        "vlm5ZaCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vlm5ZaCzN"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5NNatL",
+        "vks5M5ZMZ",
+        "vlm5ZaCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkm5NNatL",
+          "vks5M5ZMZ"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5NNatL",
+        "vks5M5ZMZ",
+        "vlm5ZaCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vks5M5ZMZ"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“心理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5NNatL",
+        "vks5M5ZMZ",
+        "vlm5ZaCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "心理学类",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkm5NNatL",
+          "vlm5ZaCzN"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“社会学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5NNatL",
+        "vks5M5ZMZ",
+        "vlm5ZaCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "社会学类",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkm5NNatL",
+          "vlm5ZaCzN"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "社工",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlm5ZaCzN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "茶山工会一线社工",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vks5M5ZMZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "项目社工",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkm5NNatL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

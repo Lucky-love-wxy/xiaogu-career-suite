@@ -1,0 +1,67 @@
+{
+  "name": [
+    {
+      "text": "销售运营",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "销售运营"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5ztLCz"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5ztLCz"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "旅游度假销售运营",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

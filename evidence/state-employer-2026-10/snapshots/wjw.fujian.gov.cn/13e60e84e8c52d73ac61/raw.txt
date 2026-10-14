@@ -1,0 +1,2163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="SiteName" content="福建省卫生健康委员会">
+<meta name="SiteDomain" content="wjw.fujian.gov.cn">
+<meta name="SiteIDCode" content="3500000039">
+<meta name="ColumnName" content="免责声明">
+<meta name="ColumnDescription" content="免责声明">
+<meta name="ColumnKeywords" content="免责声明">
+<meta name="ColumnType" content="免责声明">
+<meta name="Keywords" content="免责声明">
+<meta name="Description" content="免责声明">
+<meta name="ChnlId" content="1913">
+<meta name="SiteId" content="10">
+<title>
+    免责声明
+    _
+    帮助中心
+    _
+    省卫健委
+</title>
+<link rel="stylesheet" href="../../images/iconfont.css">
+<link rel="stylesheet" href="../../images/20211109-rst-golbal.css">
+<link rel="stylesheet" href="../../images/20211203-wjw-style.css">
+<link rel="stylesheet" href="../../images/SLB_20211203-wjw-navslh.css">
+<link rel="stylesheet" href="../../images/SLB_20211203-wjw-mainslh.css">
+<link rel="stylesheet" href="../../images/2021rst.css">
+<link rel="stylesheet" href="../../images/20211109-rst-style.css">
+<link rel="stylesheet" href="../../images/20211115-rst-mainslh.css">
+<style>
+.xl_con1 h3{text-align: center;}
+.zzbs_2021 a.zz-btn1_2021 {
+    background: #28c1b3;
+}
+.xl_con1 p{text-align: center;}
+.zzbs_2021 a.zz-btn2_2021 {
+    background: #138ec9;
+}
+.ss_box2_2021 {
+    width: 500px;
+    padding: 4px 10px 4px 22px;
+    margin: 16px 0 0 130px;
+    height: 40px;
+    background-color: rgba(255,255,255,.2)!important;
+    border-radius: 8px;
+    position: relative;
+    z-index: 8;
+    float: left;
+    *background: #4579b3;
+}
+.nav_2021 {
+    margin-top: 25px;
+    transition: all .3s;
+    left: 0;
+}
+.nav_2021 li {
+    float: left;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.nav_2021 li> a {
+    position: relative;
+    display: block;
+    padding-bottom: 29px;
+}
+#footer_2021 {
+    position: relative;
+}
+.pho-foot_2021 {
+    display: none;
+}
+.yqlj_con_2021 {
+    padding: 4px 0 20px;
+    border-top: 1px #e2e2e2 solid;
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+    background: #f2f2f2;
+}
+.w_1300_2021 {
+    width: 1300px;
+    margin: 0 auto;
+}
+.yqlj_tit1_2021 {
+    margin-top: 16px;
+    position: relative;
+}
+.yqlj_tit1_2021>ul {
+    margin-right: -18px;
+    *width: 100%;
+    height: 38px;
+}
+.yqlj_tit1_2021>ul>li {
+    float: left;
+    width: 19%;
+    margin-right: 1%;
+    list-style-type: none;
+}
+.yqlj_tit1_2021>ul>li p {
+    padding-left: 14px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    line-height: 36px;
+    background-color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    transition: .3s all;
+    z-index: 6;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.yqlj_tit1_2021>ul>li p em {
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    width: 10px;
+    height: 6px;
+    background: url(/images/20fjszf_arr.png) no-repeat;
+    transition: .3s all;
+}
+.yqlj_tit1_2021>ul>li p i {
+    position: absolute;
+    left: 50%;
+    bottom: 38px;
+    margin-left: -14px;
+    width: 28px;
+    height: 15px;
+    display: none;
+    background: url(/images/20fjszf_arr7.png) no-repeat center;
+}
+.yqlj_tit1_2021>ul>li .yqlj_con1_2021 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    bottom: 52px;
+    background-color: #ffffff;
+    padding: 15px 20px 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(22,88,160,.21);
+}
+.yqlj_tit1_2021>ul>li .yqlj_con1_2021 li {
+    float: left;
+    width: 14.28571%;
+    line-height: 30px;
+    list-style-type: none;
+}
+.yqlj_tit1_2021>ul>li .yqlj_con1_2021 li a {
+    text-decoration: none;
+    color: #333;
+}
+.yqlj_tit1_2021>ul>li.bot-w1 {
+    width: 25%;
+}
+.yqlj_tit1_2021>ul>li.bot-w2 {
+    width: 16%;
+}
+.xmt-list-2021 {
+    margin-left: -1%;
+}
+.xmt-list-2021 li {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+}
+.bot_r_2021 li {
+    margin-bottom: 9px;
+    list-style: none;
+}
+.twhite1_2021 a:link, .twhite1_2021 a:visited {
+    color: #333;
+}
+.bot_r_2021 li a {
+    display: block;
+    margin-right: 6px;
+    line-height: 36px;
+    height: 36px;
+    padding-left: 59px;
+    background-color: #ebebeb;
+    position: relative;
+    cursor: inherit;
+    font-size: 14px;
+}
+.bot_r_2021 li a i {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    line-height: 0px;
+    position: absolute;
+    top: 6px;
+    left: 17px;
+    color: #666;
+}
+.bot_r_2021 .codebox_2021 {
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    display: none;
+    left: -122px;
+    background: #fff;
+    bottom: 5px;
+}
+.xmt-list-2021 li p {
+    padding-top: 0px;
+    text-align: left;
+}
+@media screen and (max-width: 1920px){body{min-width:inherit;}}
+@media screen and (max-width: 1340px){
+	.w_1300_2021{width: 1200px;}
+	.ss_box2_2021{margin-left: 100px;}
+	.nav_2021 li{margin-left: 30px;font-size: 20px;}
+	.bot_r_2021 {margin-right:0;}
+	.bot_l_2021 p span{margin-right: 15px;}
+
+	.nav_warp_2021{width: 1200px;}
+	.nav_l_2021 a{font-size: 16px;margin-right: 15px;}
+	.nav_r_2021 a{font-size: 16px;}
+	.nav_con_2021 a{font-size: 16px;margin-right: 20px;}
+
+	/*** 20210611 ***/
+	.fixed ul>li>a{font-size: 20px;}
+	/*.bot_r_2021 li a{padding-left: 50px;}*/
+
+	/*.logo_2021{width: 450px;}*/
+
+	.fixed .nav_2021 li{margin-left: 20px;}
+
+
+	.header_ul ul li {
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 1240px){
+
+	.w_1300_2021{width: 1000px;}
+	/*.logo_2021{width: 400px;}*/
+	.nav_2021 li{font-size: 18px;margin-left: 30px;}
+	.ss_box2_2021{width: 400px;margin-left: 120px;}
+	/*.ss_box2_2021 .inp_2021{width: 70%;}*/
+	.zzbs_2021 a{font-size: 18px;}
+	.bot_l_2021{width: 50%;}
+	.jiucuo_2021{margin-left: 10px;}
+	/*.bot_r_2021 {width: 33%;margin-right: 1%;}*/
+	.bot_r_2021 li a{padding-left: 40px;}
+	.bot_r_2021 li a i{left: 7px;}
+
+	.nav_warp_2021{width: 1000px;}
+	.nav_l_2021 b{width: 60px;}
+	.nav_l_2021 p span{margin-left: 72px;}
+	.nav_l_2021 p{width: 21%;}
+	.nav_l_2021 p.p5_2021{width:79%;}
+	.nav_l_2021 a{margin-right: 10px;}
+	.nav_2021>li .m_3_2021 a{margin-right: 18px;}
+	.nav_l_2021 b{margin-right: 12px;}
+
+	.nav_l_2021{padding-left: 0;width: 70%}
+	.nav_r_2021{width: 25%}
+
+	/*** 20210611 ***/
+	.nav_2021 li {
+		font-size: 17px;
+		margin-left: 22px;
+	}
+	.fixed ul>li>a{font-size: 17px;}
+
+	.bot_r_2021 li a{font-size: 14px;}
+
+	.fixed .logo_2021 img {width: 260px;}
+	.fixed .nav_2021{left: -190px;}
+	.fixed .nav_2021 li {margin-left: 16px;}
+
+	.bot_r_2021{width: 30%;}
+
+
+
+	.header_ul ul li:first-child {
+		padding-right: 0px;
+		background: none;
+	}
+	.ss_box2_2021 {
+		width: 400px;
+		margin-left: 70px;
+	}
+
+
+	.logo_2021{width: 450px;}
+	.xmt-list-2021 li img{float:none;margin-left: 0;}
+
+	.xmt-list-2021 li.mztew2 p {padding-top: 14px;}
+
+	.bot_r_2021 li a i{display: none}
+	.bot_r_2021 li a{padding-left: 0;text-align: center}
+
+}
+
+@media screen and (max-width: 1000px){
+	.newMain_2021{margin-top:62px;}
+	.top-link-wap_2021 { height:auto;}
+	.w_1300_2021{width: auto;padding: 0 20px;}
+	.sec-ban_2021,.rig-top_2021{display: block}
+
+
+	.top-link_2021{border-bottom: 4px #1658a0 solid;position: fixed;top: 0;left: 0;right: 0;height: 60px;background: #fff;z-index: 999;box-sizing:content-box;}
+	.logo_2021{width:290px;margin-top: 13px;padding: 0;}
+
+	.pho-menu_2021{display: none;float: right;width: 20px;height: 20px;margin-top: 20px;}
+	.pho-fix_2021{position: static;top: 0;right: 0;bottom: 0;width: 100%;background: #fff;box-shadow: 0 0 14px rgba(0,0,0,.1);display: block;}
+	.nav_2021{margin-top: 40px;}
+	.nav_2021 li{float: left;text-align: center;margin-left: 0;line-height: 50px;font-weight: normal}
+	.nav_2021 li.active_2021,.nav_2021 li:hover{font-weight: bold}
+
+	.close_2021{display: none;width: 18px;height: 18px;position: absolute;top: 20px;right: 20px;}
+	.close_2021 img{width: 100%}
+
+	.yqlj_tit1_2021>ul>li p {padding-left: 5px;}
+	.yqlj_tit1_2021>ul>li p em{right: 5px;}
+	.logo1_2021,.dzjg_2021,.bot_r_2021, .bmfw-list_2021 li p br{display: none;}
+	.bot_l_2021{width: auto;float: none;text-align: center;line-height: 26px;}
+	.bot_l_2021 h3{line-height: 26px;}
+	.bot_bg_2021{padding: 15px 0;}
+	.hq-item_2021 a img{margin-left: 30%}
+	.yqlj_tit1_2021>ul>li p{font-size: 12px}
+
+	.pho-search_2021{display: none; width: 90%;margin: 30px auto 0;border: 1px #c8c8c8 solid;height: 34px;border-radius: 50px;}
+	.pho-search_2021 input{width: 70%;height: 32px;float: left;margin-left: 8%;background: #fff;color: #999;border: none}
+	.pho-search_2021 button{float: right;color: #333;background: none;height: 34px;margin-right: 20px;font-size: 18px;border:none}
+
+	.nav_2021>li .nav_con1_2021, .nav_2021>li .nav_con_2021,.nav_2021 li a em{display: none!important;}
+	.nav_2021 li a{padding-bottom: 0px;}
+
+	.bot_l_2021 h3 a,.bot_l_2021 p span{display: inline-block;}
+	.bot_l_2021 p span{margin-right: 8px;margin-left: 8px;}
+
+	.wzx-bxo_2021{display: block}
+	.ftb_2021{font-size: 16px;text-align: center;margin-top: 20px;display: none}
+	.ftb_2021 a{margin: 0 10px;text-decoration: none;color: #333;}
+	.zzmsd-t_2021 a.tbt2_2021,.zzmsd-t_2021 a.tbt1_2021{text-decoration: none}
+
+	.zzmsd-t_2021{text-align: center;display: none}
+	.zzmsd-t_2021 a{display: inline-block;font-size: 16px;color: #fff;font-weight:bold;height: 40px;border-radius: 10px;padding:0 12px;line-height: 40px;margin: 20px 5px 0;}
+	.zzmsd-t_2021 a.tbt1_2021{background:url("20210526-sz-bg1.png") no-repeat center;}
+	.zzmsd-t_2021 a.tbt2_2021{background:url("20210526-sz-bg2.png") no-repeat center;}
+
+	.nav_2021{width: 100%;background: #fff;}
+
+	/*** 20210611 ***/
+	.pho-menu_2021 img{vertical-align: top;width: 100%}
+	.gaod_2021{display: block;height: 64px;}
+
+
+	/***  20210612  ***/
+	#wrap1 .logo_2021{width: 220px;padding: 0;}
+
+	.fot-bot_2021 p:nth-child(2){display: none;}
+
+	.sec-ban_2021{margin-bottom: 20px;}
+	/*#footer_2021{margin-top: 20px;}*/
+
+
+	/*** 20210625 ***/
+	.ydd-none_2021,.ft-list_2021 li a.ydd-none_2021,.rig-top_2021 span,.gwp_2021,.rqtq_2021,.zzbs_2021 a.zz-btn2_2021{display: none;}
+	.top-link_2021{position: static;}
+	.sec-ban_2021{margin-top: 50px;height: 70px;}
+	.pho-fix_2021{box-shadow: none;position: absolute;bottom: auto;top: 60px;padding: 0 30px;width: auto;left: 0;}
+	.nav_2021{margin-top:0px;}
+	.nav_2021 li{font-size: 18px;font-weight: bold;margin-right: 30px;}
+	.rig-top_2021{margin-top: 20px;}
+
+	.allMenu-right{display: inline-block ;
+		width: 42px;
+		height: 42px;
+		position: absolute;
+		right: 30px;
+		top: 0;
+		background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));z-index: 99}
+	.nav_2021{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;overflow-x: auto;-webkit-overflow-scrolling: touch;}
+	.nav_2021 li{-webkit-box-flex: 0;-webkit-flex: none;-ms-flex: none;flex: none;}
+	.nav_2021::-webkit-scrollbar{ display: none;}
+	.ss_box2_2021 .picker_2021{height: 38px;line-height: 38px;}
+	.ss_box2_2021{height: 30px;}
+	.ss_box2_2021 .picker_2021:before{height: 16px;}
+	.ss_box2_2021 .inp_2021{height: 30px;line-height: 30px;font-size: 14px;}
+	.picker_2021 input{font-size: 14px;}
+
+	.ss_box2_2021 .btn_2021{font-size: 22px;height: 30px;line-height: 30px;}
+	.zzbs_2021{margin-top: 16px;}
+	.zzbs_2021 a{
+		height: 38px;
+		line-height: 38px;
+		font-size: 16px;
+	}
+	.ss_box2_2021{margin-left: 0;}
+	.ss_box2_2021{width: 94%; padding: 4px 2% 4px 4%;}
+	.zzbs_2021{width: 13%;}
+	.zzbs_2021 a.zz-btn1_2021{margin-left: 0;width: 100%;padding: 0;text-align: center}
+
+	.gaod_2021{display: none}
+	.ss_box2_2021,.ss_box2_2021 .picker_2021{box-sizing: content-box;}
+	.sec-ban_2021{margin-bottom: 0;margin-top:0;}
+	.top-link-wap_2021{height: 110px;}
+	.top-link-wap_2021{position: relative;}
+
+
+	.header_top,.header_ul ul li:nth-child(2),.header_21_btn span,.header_21_aa{display: none}
+	.smgb-banner{padding-top: 1px;text-align: center}
+	.header_tq{width: auto;float: none;display: inline-block;padding: 15px 20px;position: absolute;top: 110px;margin-top: 0;right: 20px;border-radius: 0 0 8px 8px;}
+	.header_div{float: none;width: 100%;margin: 86px auto 0}
+	.header_21_picker::after {  top: 13px;}
+	.header_21_picker,.header_21_ss,.header_21_inp,.header_21_btn {height: 45px;line-height: 45px;}
+	.header_21_picker input {padding-left: 10px;font-size: 14px;}
+	.header_21_picker .upDown {right: 8px;}
+	.header_21_inp {margin-left: 10px;font-size: 14px;}
+	.header_21_btn {width: 15%;}
+
+
+	.ss_box2_2021{    width: 79%;padding: 4px 2% 4px 4%;margin-left: 0;}
+	.zzbs_2021 {width: 13%;font-size: 16px;}
+	.zzbs_2021 a.zz-btn1_2021 {
+		margin-left: 0;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.zzbs_2021 a.zz-btn2_2021,.nynct-dbyqlj,.zzbs_2021 a img,	.ft-list_2021{display: none}
+
+
+}
+
+
+
+@media screen and (max-width: 750px){
+
+	.tab1_2021 span.sp_btn_2021 i,.xw-list-1_2021 li span,.zxft-list_2021 li span{display: none}
+	.tab1_2021 li{margin-right: 15px;}
+	.tab1_2021 li:last-child{margin-right: 0;}
+	.tab1_2021 span.sp_btn_2021{font-size: 14px;padding: 0 5px;}
+
+	.yqlj_con_2021{display: none;}
+	.pho-foot_2021{ display: block;padding: 10px 0 0;background: #fff;text-align: center;font-size: 12px;line-height: 28px;}
+	.xzk_2021 {padding: 5px 0 10px;background: #f2f2f2; border-top: 1px #eee solid;box-shadow: 0 0 10px rgba(0,0,0,.05);}
+	.xzk_2021 >ul>li {display: inline-block;}
+	.xzk_2021 p a, .xzk_2021 ul li p {padding: 0 17px;}
+	.mark_2021 {width: 100%;height: 100%;background-color: rgba(0,0,0,.5);position: fixed;top: 0;left: 0;z-index: 1000;display: none;}
+	.dialog_2021 {width: 80%;background: #fff;position: fixed;top: 50%;left: 50%; -webkit-transform: translateX(-50%) translateY(-50%); max-height: 85%;overflow-y: auto;}
+	.dialog_2021 ul li {font-size: 14px;line-height: 24px;padding: 10px 0;border-bottom: 1px #e8e8e8 solid;text-align: left;}
+	.dialog_2021 ul li a {display: block;padding: 0 15px;color: #666;}
+	.pho-foot_2021 p{display: inline-block;background: url(20201208-shu.png) no-repeat right center;}
+	.pho-foot_2021 p span:last-child a, .pho-foot_2021 p >a:last-child, .xzk_2021 ul li:last-child p {background: none;}
+	.bot_bg_2021,.fot-bot_2021{font-size: 12px}
+
+	.pho-fix_2021{width: auto}
+	.zzmsd-t_2021 a{font-size: 14px;margin:20px 2px 0;}
+	.ftb_2021{font-size:14px;}
+	.pho-foot_2021{padding: 0;}
+
+
+	/*** 20210625 ***/
+	.pho-fix_2021{padding: 0 20px;}
+	.logo_2021{width:240px;}
+	.rig-top_2021 a.login_2021{margin-left: 15px;}
+	.ft-list_2021{margin-left: 0;}
+	.ft-list_2021 li a{margin: 0 5px;}
+	.pho-fix_2021{top: 54px;}
+	.nav_2021 li{margin-right: 20px;}
+	.allMenu-right{right: 20px;}
+	.sec-ban_2021{margin-top:0;}
+	.ss_box2_2021{width: 65%;}
+	.zzbs_2021{width: 27%}
+	.upDown_2021{right: 8px;}
+
+	.w_1300_2021,.pho-fix_2021{padding: 0 15px;}
+	.allMenu-right{right: 15px;}
+
+	.top-link-wap_2021 {
+		height: 105px;
+	}
+	.sm-ftb-2021{margin-left: 0}
+	.header_tq{top: 105px;padding: 10px 12px;}
+
+}
+
+@media screen and (max-width: 540px){
+	.pho-search_2021 button{margin-right: 8%;}
+}
+
+@media screen and (max-width: 374px){
+	.w_1300_2021{padding: 0 15px;}
+
+	/*** 20210625 ***/
+	.logo_2021{margin-top: 7px;}
+	.rig-top_2021 a.login_2021{font-size: 12px;margin-left: 10px;}
+	.ft-list_2021 li a,.picker_2021 input,.ss_box2_2021 .inp_2021{font-size: 12px;}
+	.nav_2021 li{font-size: 16px;}
+	.pho-fix_2021{top: 48px;}
+	.sec-ban_2021{margin-top:0;}
+	.zzbs_2021 a{font-size: 14px;}
+
+	/*.ss_box2_2021,.zzbs_2021{margin-top: 10px;}*/
+	.top-link-wap_2021{height: 95px;}
+
+	.header_tq{top: 95px;}
+
+}
+
+
+
+
+.zzbs_2021 a.outslb{display: none}
+</style>
+</head>
+<body ms-controller="windowRoot" ms-class="SLB:isSlb">
+
+<!-- 头部嵌套 -->
+<div class="top-link-wap_2021">
+    <div class="top-link_2021" id="top-link" ms-class="fixed:ext==='fixed'">
+        <div class="w_1300_2021 clearflx_2021">
+            <div class="logo_2021"><a href="/"><img src="/images/20211203-wjw-logo1.png" alt="福建省卫生健康委员会" /></a>
+            </div>
+            <div class="xyfd_2021">
+                <div class="rig-top_2021 clearflx_2021" role="serve">
+                    <span>网站支持IPv6</span>
+                    <ul class="clearflx_2021 ft-list_2021">
+                      <li> <a target="_blank" href="https://www.fujian.gov.cn/suc/indexs/index"
+                          ms-attr-title="loginInfo.showname" ms-visible="isLogin" style="display: none">你好，<font
+                            ms-text="loginInfo.showname | truncate(12)"></font></a></li>
+                      <li> <a ms-attr-href="logoutUrl" ms-visible="isLogin" style="display: none">注销
+          
+                        </a></li>
+                      <li> <a id="logined" href="javascript:void(0);" ms-click="$login" target="_blank" ms-visible="!isLogin"
+                          style="display: none">登录
+          
+                        </a></li>
+                      <li> <a class="none_sm" id="registered" href="javascript:void(0);" ms-click="$register"
+                          ms-visible="!isLogin" style="display: none">注册
+          
+                        </a></li>
+                      <li><a href="javascript:;" class="ydb_2021">闽政通APP
+                          <div class="ydtk_2021 clearflx">
+                            <div class="ewp_2021">
+                              <i>
+          
+                                <img src="/images/mztwjw20211207.png" width="100" />
+                              </i>
+                              <em>闽政通APP</em>
+                            </div>
+                          </div>
+                        </a></li>
+
+                        <li style="display: none;"> <a  href="javascript:StranBody()" title="繁体版" id='StranLink' >繁体版</a></li>
+        
+                    </ul>
+  
+                    <!--<a href="#" class="sm-ftb-2021">繁体版</a>-->
+                    <div class="gwp_2021">
+                        <a href="http://www.gov.cn/" title="国务院" target="_blank">国务院</a>
+                        <a href="https://www.fujian.gov.cn/" title="省政府" target="_blank">省政府</a>
+                    </div>
+                </div>
+  
+                <div class="pho-fix_2021" role="navigation">
+                    <!--<i class="close_2021"><img src="../images/2021close.png" alt="" /></i>-->
+                    <ul class="nav_2021 clearflx_2021">
+                        <li ms-class="active_2021:currPath!='xxgk'&&currPath!='jdhy'&&currPath!='gzcy'&&currPath!='jggk'"><a href="/">首页</a></li>
+                        <li ms-class="active_2021:currPath==='xxgk'"><a href="/xxgk/">政务公开 <em></em></a>
+                            <div class="nav_con_2021 m_3_2021">
+                                <div class="nav_warp_2021">
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/zfxxgkzl/zfxxgkml/"
+                                        target="_blank">政府信息公开</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/gzdt/"
+                                        target="_blank">工作动态</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/fgwj/"
+                                        target="_blank">政策文件</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/fgwj/flfg/"
+                                        target="_blank">法律法规</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/gsgg/"
+                                        target="_blank">公示公告</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/rsxx/"
+                                        target="_blank">人事信息</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/ghjh/"
+                                        target="_blank">规划计划</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/tjxx/"
+                                        target="_blank">统计信息</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/czzj/"
+                                        target="_blank">财政资金</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/xzqlyx/"
+                                        target="_blank">行政权力运行</a>
+    <a href="http://wjw.fujian.gov.cn/xxgk/dbwyzs/"
+                                        target="_blank">代表委员之声</a>
+                                    <a href="http://wjw.fujian.gov.cn/ztzl/"
+                                        target="_blank">专题专栏</a>
+  
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='jdhy'"><a href="/jdhy/">解读回应 <em></em></a>
+                            <div class="nav_con_2021 m_4_2021">
+                                <div class="nav_warp_2021">
+                                    <a href="http://wjw.fujian.gov.cn/jdhy/hygq/"
+                                        target="_blank">回应关切</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/fgwj/zcjd/szfzcjd/"
+                                    target="_blank">省政府政策文件解读</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/fgwj/zcjd/bmzcjd/"
+                                        target="_blank">福建省卫健委政策文件解读</a>
+                                    <a href="http://wjw.fujian.gov.cn/xxgk/fgwj/zcjd/qtzcjd/"
+                                        target="_blank">国家政策文件解读</a>
+                                    <a href="/jdhy/zcwdk/"
+                                        target="_blank">政策问答库</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="javascript:;">办事服务 <em></em></a>
+                            <div class="nav_con_2021 m_5_2021">
+                                <div class="nav_warp_2021">
+                                    <a target="_blank"
+                                        href="https://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=178EC5EC5ED86372E43291028A35EC8F">网上办事大厅</a>
+                                    <!--<a target="_blank"
+                                        href="">便民服务</a>
+                                    <a href="#">闽政通APP</a>
+                                    <a href="#">福建八闽健康码</a> -->
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='gzcy'"><a href="/gzcy/">互动交流 <em></em></a>
+                            <div class="nav_con_2021 m_6_2021">
+                                <div class="nav_warp_2021">
+  
+                                    <a href="http://wjw.fujian.gov.cn/gzcy/zrxx/"
+                                        target="_blank">主任信箱</a>
+                                    <a href="http://wjw.fujian.gov.cn/gzcy/zxft/"
+                                        target="_blank">在线访谈</a>
+                                    <a href="http://wjw.fujian.gov.cn/gzcy/wsdc/"
+                                        target="_blank">网上调查</a>
+                                    <a href="http://wjw.fujian.gov.cn/gzcy/myzj/"
+                                        target="_blank">意见征集</a>
+                                     <a href="https://wjw.fujian.gov.cn/isr/znwd/index.html?siteId=ff8080816e59baf3016e5e71271f3ffd"
+                                        target="_blank">智能问答</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='jggk'"><a href="/jggk/">概况信息</a>
+                            <div class="nav_con_2021 m_6_2021">
+                                <div class="nav_warp_2021">
+    
+                                    <a href="http://wjw.fujian.gov.cn/jggk/ldxx/"
+                                        target="_blank">委领导</a>
+                                    <a href="http://wjw.fujian.gov.cn/jggk/jgzn/"
+                                        target="_blank">机构职能</a>
+                                    <a href="http://wjw.fujian.gov.cn/jggk/jgzn/jgsz/"
+                                        target="_blank">机构设置</a>
+                                    <a href="http://wjw.fujian.gov.cn/jggk/csxx/"
+                                        target="_blank">机关处室</a>
+                                        <a href="http://wjw.fujian.gov.cn/jggk/jbyfkzj/"
+                                        target="_blank">省疾控局</a>
+                                        <a href="http://wjw.fujian.gov.cn/bzzx/dhlj/gsswjw/"
+                                        target="_blank">地市卫健委</a>
+                                        <a href="http://wjw.fujian.gov.cn/jggk/wsjsfc/"
+                                        target="_blank">卫健风采</a>
+                                        <a href="http://wjw.fujian.gov.cn/jggk/wsjsfc/sp/"
+                                        target="_blank">精彩视频</a>
+                                </div>
+                            </div>
+                        </li>
+                    
+                    </ul>
+  
+  
+                    <div class="pho-search_2021 clearflx_2021">
+                        <form action="/ssp/main/index.html" method="get" ms-blur="$togLinkkey">
+                            <input type="text" placeholder="请输入搜索内容" class="form-control" name="key" value="" />
+                            <input id="siteId" name="siteId" type="hidden" value="ff8080816e59baf3016e5e71271f3ffd" />
+                            <!-- <input type="text" name="key" id="key" placeholder="请输入搜索内容" value="" /> -->
+                            <button class="iconfont b-free-search-btn" alt="点击搜索"></button>
+                        </form>
+                    </div>
+                    <div class="wzx-bxo_2021">
+                        <div class="ftb_2021">
+                            <a href="#">繁体版</a>|<a href="#">EN</a>|<a class="login" href="#">登录</a>
+                            <div><a class="login">退出</a><a class="login">你好,</a></div>
+                        </div>
+  
+                        <div class="zzmsd-t_2021">
+                            <a href="#" class="tbt1_2021">长者模式</a>
+                        </div>
+  
+                    </div>
+  
+  
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div class="gaod_2021"></div>
+  <div class="sec-ban_2021">
+    <div class="w_1300_2021 clearflx_2021">
+        <div class="rqtq_2021 fl">
+            <p>福建省卫生健康委员会欢迎您！</p>
+            <p>
+                <em ms-text="now|date('yyyy年MM月dd日 ')"></em>
+                <em ms-text="nowWeek"></em>
+            </p>
+        </div> 
+        <div class="ss_box2_2021" id="header" ms-controller="list_rs"  role="interaction" des="搜索">
+            <form action="/ssp/main/index.html"  id="form" class="form" method="get" target="_blank" ms-blur="$togLinkkey">
+                  <div class="picker_2021">
+                    <input type="text" value="本站" readonly />
+                    <a class="upDown_2021"></a>
+                  </div>
+                  
+                  <input type="text" placeholder="请输入您要搜索的内容" name="key" class="inp_2021" id="selecttags" required="required" autocomplete="off" ms-duplex="serKey" />
+                  <input id="siteId" name="siteId" type="hidden" value="ff8080816e59baf3016e5e71271f3ffd" />
+                  <input id="isMain" name="" type="hidden" value="" />
+                  <button class="btn_2021 iconfont" alt="点击搜索"></button>
+                  <div class="search-log_2021" id="searchTag" style="display: none;"ms-visible="!showlist&&LockLink">
+                      <div class="rs_tit1_2021" style="display: none;">历史搜索：</div>
+                      <div class="rs_tit1_2021" style="display: block;">热门搜索：<a ms-repeat="keys" href="javascript:;" ms-text="el.keyword" ms-click="setPost(el.keyword)"></a></div>
+                  </div>
+                  <div class="search-log_2021" ms-visible="flags[0]" style="display: none;">
+                    <ul>
+                      <li ms-repeat="tipList" ms-click="getTip('flags', 0, el.wordName)"><a href="javascript:;"
+                          ms-text="el.wordName"></a></li>
+                    </ul>
+                  </div>
+                </form>
+          </div>
+  
+       
+        <div class="zzbs_2021" >
+            <a href="javascript:;" ms-click="$inSlb()" ms-visible="!isSlb" class="zz-btn1_2021">长者模式</a>
+            <a href="javascript:;" ms-click="$outSlb()" ms-visible="isSlb" class="zz-btn1_2021 outslb">退出长者模式</a>
+            <a  href="javascript:;" id="barrierFreeBtn" tabindex="0" class="zz-btn2_2021 wza b-free-read-leaf">无障碍浏览</a>
+        </div>
+       
+  
+    </div>
+  </div>
+<!-- 头部嵌套end -->
+<!-- 中间部分 -->
+<div class="w_1300_2021" ms-controller="list">
+    <div class="pad-bot2">
+      <div class="ejym-con">
+          <div class="rstdqwz">
+              <p>当前位置：<a href="../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="../" title="帮助中心" class="CurrChnlCls">帮助中心</a>&nbsp;&gt;&nbsp;<a href="./" title="免责声明" class="CurrChnlCls">免责声明</a></p>
+          </div>
+          <div class="ejove">
+            <!--更多栏目-->
+              <div class="gl_tit clearflx" role="navigation">
+                  <div class="gl_tit_l" ><em></em>免责声明</div>
+
+              <!--更多栏目-->
+              <div class="gl_tit_r" ms-mouseleave="$setVmValue('listextbool',false,$event)">
+                    <p ms-click="$togVmValue('listextbool',$event)">更多栏目</p>
+
+                    <ul ms-class="active:listextbool">
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../zddt/" target="_blank">站点地图</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../sybz/" target="_blank">使用帮助</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../wzsm/" target="_blank">网站说明</a>
+                                  </li>
+                              
+                          
+                              
+                                  <li class="curr">
+                                      <a href="./" target="_blank">免责声明</a>
+                                  </li>
+                              
+
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../gjss/" target="_blank">高级搜索</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../pbtj/" target="_blank">评比统计</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../dhlj/" target="_blank">导航链接</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../rssdy/" target="_blank">RSS订阅</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../gfwx/" target="_blank">官方微信</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../gfwb/" target="_blank">官方微博</a>
+                                  </li>
+                              
+                          
+                              
+
+                              
+                                  <li>
+                                      <a href="../lxwm/" target="_blank">联系我们</a>
+                                  </li>
+                              
+                          
+                    </ul>
+                </div>
+              <!--更多栏目end-->
+
+              </div>
+              <!--更多栏目end-->
+      
+              <div class="xl_con1" >
+                <!--视频-->
+              <div ms-include-src="videoBoxUrl"></div>
+              <!--视频end-->
+              <!--正文-->
+              
+                <h3>免责声明</h3>
+				
+                <h4></h4>
+				<div class="xl_tit2_l" style="float: none;">
+					<!--发布时间-->
+					<span>发布时间 : 2019-02-11</span>
+					<!--发布时间-->
+
+				</div>
+                <div class=TRS_Editor><div>网站版权与免责声明：&nbsp;&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;凡本网注明“稿件来源：福建省卫生健康委员会”的所有文字、图片和音视频稿件，版权均属本网站所有，任何媒体、网站或个人未经本网协议授权不得转载、链接、转贴或以其他方式复制发表。已经本网协议授权的媒体、网站，在下载使用时必须注明“稿件来源：福建省卫生健康委员会”，违者本网将依法追究责任。&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;本网未注明“稿件来源：福建省卫生健康委员会”的文/图等稿件均为转载稿，本网转载出于传递更多信息之目的，并不意味着赞同其观点或证实其内容的真实性。如其他媒体、网站或个人从本网下载使用，必须保留本网注明的“稿件来源”，并自负版权等法律责任。如擅自篡改为“稿件来源：福建省卫生健康委员会”，本网将依法追究责任。如对稿件内容有疑议，请及时与我们联系。&nbsp;&nbsp;&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;如本网转载稿涉及版权等问题，请作者在两周内速来电或来函与本网联系。&nbsp;&nbsp;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;联系方式：电话：0591—87385257；邮箱：swjwwztg@163.com</div></div>
+              
+              
+              <!--正文end-->
+            </div>
+
+
+          </div>
+      </div>
+    </div>
+</div>
+<!-- 中间部分 end -->
+<!-- 底部嵌套 -->
+<div id="footer_2021" >
+    <div class="pho-foot_2021">
+        <div class="xzk_2021">
+            <ul>
+                <li>
+                    <p>省政府及省直单位</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                                <!-- <li><a href="#" title="省发改委">省发改委</a></li> -->
+                                 
+                                    <li>
+                                        <a href="http://www.fujian.gov.cn" target="_blank">福建省政府</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://fgw.fujian.gov.cn" target="_blank">发改委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://jyt.fujian.gov.cn" target="_blank">教育厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://kjt.fujian.gov.cn" target="_blank">科技厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gxt.fujian.gov.cn" target="_blank">工信厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://mzzjt.fujian.gov.cn" target="_blank">民族宗教厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gat.fujian.gov.cn" target="_blank">公安厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://mzt.fujian.gov.cn" target="_blank">民政厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://sft.fujian.gov.cn" target="_blank">司法厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://czt.fujian.gov.cn/" target="_blank">财政厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://rst.fujian.gov.cn" target="_blank">人社厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://zrzyt.fujian.gov.cn" target="_blank">自然资源厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://sthjt.fujian.gov.cn" target="_blank">生态环境厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://zjt.fujian.gov.cn" target="_blank">住建厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://jtyst.fujian.gov.cn" target="_blank">交通运输厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://slt.fujian.gov.cn" target="_blank">水利厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://nynct.fujian.gov.cn" target="_blank">农业农村厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://swt.fujian.gov.cn" target="_blank">商务厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wlt.fujian.gov.cn" target="_blank">文旅厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://tyjrswt.fujian.gov.cn/" target="_blank">退役军人事务厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://yjt.fujian.gov.cn" target="_blank">省应急厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://sjt.fujian.gov.cn" target="_blank">审计厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wb.fujian.gov.cn" target="_blank">外办</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gzw.fujian.gov.cn" target="_blank">国资委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://lyj.fujian.gov.cn" target="_blank">林业局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hyyyj.fujian.gov.cn" target="_blank">海洋渔业局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://scjgj.fujian.gov.cn" target="_blank">市场监管局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gdj.fujian.gov.cn/" target="_blank">省广电局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://tyj.fujian.gov.cn" target="_blank">体育局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://tjj.fujian.gov.cn" target="_blank">统计局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://ybj.fujian.gov.cn/" target="_blank">医保局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gdb.fujian.gov.cn/" target="_blank">人防办</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://jgswglj.fujian.gov.cn" target="_blank">机关事务管理局</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>国家、省、自治区、直辖市、计划单列市卫健委</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+
+                               <!-- <li><a href="#" title="省发改委">省发改委</a></li> -->
+                                 
+                                    <li>
+                                        <a href="http://www.nhc.gov.cn" target="_blank">国家卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.beijing.gov.cn" target="_blank">北京市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.sh.gov.cn" target="_blank">上海市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjk.tj.gov.cn/" target="_blank">天津市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.cq.gov.cn" target="_blank">重庆市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.nmg.gov.cn" target="_blank">内蒙古自治区卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.jl.gov.cn" target="_blank">吉林省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.jiangsu.gov.cn" target="_blank">江苏省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://wsjkw.zj.gov.cn" target="_blank">浙江省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hc.jiangxi.gov.cn" target="_blank">江西省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.shandong.gov.cn" target="_blank">山东省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.henan.gov.cn/" target="_blank">河南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.hubei.gov.cn" target="_blank">湖北省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.hunan.gov.cn/" target="_blank">湖南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wst.hainan.gov.cn/" target="_blank">海南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.sc.gov.cn" target="_blank">四川省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://ynswsjkw.yn.gov.cn" target="_blank">云南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.nx.gov.cn" target="_blank">宁夏回族自治区卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.xinjiang.gov.cn" target="_blank">新疆维吾尔自治区卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hcod.dl.gov.cn" target="_blank">大连市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.qingdao.gov.cn/" target="_blank">青岛市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.ningbo.gov.cn" target="_blank">宁波市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hfpc.xm.gov.cn" target="_blank">厦门市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.sz.gov.cn" target="_blank">深圳市卫生健康委</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>各设区市卫健委</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                               <!-- <li><a href="#" title="省发改委">省发改委</a></li> -->
+
+                                 
+                                    <li>
+                                        <a href="http://www.fuzhou.gov.cn/zgfzzt/swjw/fzwj" target="_blank">福州市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hfpc.xm.gov.cn" target="_blank">厦门市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.zhangzhou.gov.cn/" target="_blank">漳州市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://health.quanzhou.gov.cn/" target="_blank">泉州市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.sm.gov.cn" target="_blank">三明市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.putian.gov.cn" target="_blank">莆田市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.np.gov.cn" target="_blank">南平市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.longyan.gov.cn/" target="_blank">龙岩市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.ningde.gov.cn" target="_blank">宁德市卫生健康委</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>直属单位</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                               <!-- <li><a href="#" title="省发改委">省发改委</a></li> -->
+                                  
+                                    <li>
+                                        <a href="https://www.fjsetyy.com" target="_blank">福建省儿童医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjcdc.com.cn" target="_blank">福建省疾病预防控制中心</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjszlyy.cn/" target="_blank">福建省肿瘤医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjsfy.com" target="_blank">福建省妇幼保健院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjsj.com/" target="_blank">福建省级机关医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjlnyy.com" target="_blank">福建省老年医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjweijian.cn" target="_blank">福建卫生健康监督所</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjcodc.com.cn" target="_blank">福建省职业病与化学中毒预防控制中心</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjsxyzx.com.cn" target="_blank">福建省血液中心</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjms.ac.cn" target="_blank">福建省医学科学研究院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjwjrc.com" target="_blank">福建省卫生健康人才服务与对外交流合作中心</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>其他卫生单位</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                               <!-- <li><a href="#" title="省发改委">省发改委</a></li> -->
+                                  
+                                    <li>
+                                        <a href="https://www.fjsl.com.cn/" target="_blank">福州大学附属省立医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://www.fjxiehe.com/" target="_blank">福建医大附属协和医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fyyy.com/" target="_blank">福建医大附属第一医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fyey.cn/" target="_blank">福建医大附属第二医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjkqyy.com/" target="_blank">福建医大附属口腔医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.srmyy.com" target="_blank">福建中医药大学附属人民医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjhospital.com" target="_blank">福建中医药大学附属第二人民医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="../bzzx/dhlj/qtwsdw/201411/t20141128_2368091.htm" target="_blank">福建中医药大学附属第三人民医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjkf.net/" target="_blank">福建中医药大学附属康复医院</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="yqlj_con_2021" role="navigation">
+        <div class="w_1300_2021 rel_2021">
+            <div class="yqlj_tit1_2021">
+                <ul>
+                    <li>
+                        <p>省政府及省直单位<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                <!-- <li><a href="#" target="_blank" title="省发改委">省发改委</a></li> -->
+                                  
+                                    <li>
+                                        <a href="http://www.fujian.gov.cn" target="_blank">福建省政府</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://fgw.fujian.gov.cn" target="_blank">发改委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://jyt.fujian.gov.cn" target="_blank">教育厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://kjt.fujian.gov.cn" target="_blank">科技厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gxt.fujian.gov.cn" target="_blank">工信厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://mzzjt.fujian.gov.cn" target="_blank">民族宗教厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gat.fujian.gov.cn" target="_blank">公安厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://mzt.fujian.gov.cn" target="_blank">民政厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://sft.fujian.gov.cn" target="_blank">司法厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://czt.fujian.gov.cn/" target="_blank">财政厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://rst.fujian.gov.cn" target="_blank">人社厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://zrzyt.fujian.gov.cn" target="_blank">自然资源厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://sthjt.fujian.gov.cn" target="_blank">生态环境厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://zjt.fujian.gov.cn" target="_blank">住建厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://jtyst.fujian.gov.cn" target="_blank">交通运输厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://slt.fujian.gov.cn" target="_blank">水利厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://nynct.fujian.gov.cn" target="_blank">农业农村厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://swt.fujian.gov.cn" target="_blank">商务厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wlt.fujian.gov.cn" target="_blank">文旅厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://tyjrswt.fujian.gov.cn/" target="_blank">退役军人事务厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://yjt.fujian.gov.cn" target="_blank">省应急厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://sjt.fujian.gov.cn" target="_blank">审计厅</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wb.fujian.gov.cn" target="_blank">外办</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gzw.fujian.gov.cn" target="_blank">国资委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://lyj.fujian.gov.cn" target="_blank">林业局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hyyyj.fujian.gov.cn" target="_blank">海洋渔业局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://scjgj.fujian.gov.cn" target="_blank">市场监管局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gdj.fujian.gov.cn/" target="_blank">省广电局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://tyj.fujian.gov.cn" target="_blank">体育局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://tjj.fujian.gov.cn" target="_blank">统计局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://ybj.fujian.gov.cn/" target="_blank">医保局</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://gdb.fujian.gov.cn/" target="_blank">人防办</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://jgswglj.fujian.gov.cn" target="_blank">机关事务管理局</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bot-w1">
+                        <p>国家、省、自治区、直辖市、计划单列市卫健委<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                <!-- <li><a href="#" target="_blank" title="省发改委">省发改委</a></li> -->
+                                 
+                                    <li>
+                                        <a href="http://www.nhc.gov.cn" target="_blank">国家卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.beijing.gov.cn" target="_blank">北京市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.sh.gov.cn" target="_blank">上海市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjk.tj.gov.cn/" target="_blank">天津市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.cq.gov.cn" target="_blank">重庆市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.nmg.gov.cn" target="_blank">内蒙古自治区卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.jl.gov.cn" target="_blank">吉林省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.jiangsu.gov.cn" target="_blank">江苏省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://wsjkw.zj.gov.cn" target="_blank">浙江省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hc.jiangxi.gov.cn" target="_blank">江西省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.shandong.gov.cn" target="_blank">山东省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.henan.gov.cn/" target="_blank">河南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.hubei.gov.cn" target="_blank">湖北省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.hunan.gov.cn/" target="_blank">湖南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wst.hainan.gov.cn/" target="_blank">海南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.sc.gov.cn" target="_blank">四川省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://ynswsjkw.yn.gov.cn" target="_blank">云南省卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.nx.gov.cn" target="_blank">宁夏回族自治区卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.xinjiang.gov.cn" target="_blank">新疆维吾尔自治区卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hcod.dl.gov.cn" target="_blank">大连市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wsjkw.qingdao.gov.cn/" target="_blank">青岛市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.ningbo.gov.cn" target="_blank">宁波市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hfpc.xm.gov.cn" target="_blank">厦门市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.sz.gov.cn" target="_blank">深圳市卫生健康委</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <p>各设区市卫健委<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                <!-- <li><a href="#" target="_blank" title="省发改委">省发改委</a></li> -->
+                                  
+                                    <li>
+                                        <a href="http://www.fuzhou.gov.cn/zgfzzt/swjw/fzwj" target="_blank">福州市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://hfpc.xm.gov.cn" target="_blank">厦门市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.zhangzhou.gov.cn/" target="_blank">漳州市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://health.quanzhou.gov.cn/" target="_blank">泉州市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.sm.gov.cn" target="_blank">三明市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.putian.gov.cn" target="_blank">莆田市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.np.gov.cn" target="_blank">南平市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.longyan.gov.cn/" target="_blank">龙岩市卫生健康委</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://wjw.ningde.gov.cn" target="_blank">宁德市卫生健康委</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bot-w2">
+                        <p>直属单位<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                <!-- <li><a href="#" target="_blank" title="省发改委">省发改委</a></li> -->
+                                  
+                                    <li>
+                                        <a href="https://www.fjsetyy.com" target="_blank">福建省儿童医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjcdc.com.cn" target="_blank">福建省疾病预防控制中心</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjszlyy.cn/" target="_blank">福建省肿瘤医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjsfy.com" target="_blank">福建省妇幼保健院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjsj.com/" target="_blank">福建省级机关医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjlnyy.com" target="_blank">福建省老年医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjweijian.cn" target="_blank">福建卫生健康监督所</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjcodc.com.cn" target="_blank">福建省职业病与化学中毒预防控制中心</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjsxyzx.com.cn" target="_blank">福建省血液中心</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjms.ac.cn" target="_blank">福建省医学科学研究院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjwjrc.com" target="_blank">福建省卫生健康人才服务与对外交流合作中心</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="bot-w2">
+                        <p>其他卫生单位<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                <!-- <li><a href="#" target="_blank" title="省发改委">省发改委</a></li> -->
+                                  
+                                    <li>
+                                        <a href="https://www.fjsl.com.cn/" target="_blank">福州大学附属省立医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="http://www.fjxiehe.com/" target="_blank">福建医大附属协和医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fyyy.com/" target="_blank">福建医大附属第一医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fyey.cn/" target="_blank">福建医大附属第二医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjkqyy.com/" target="_blank">福建医大附属口腔医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.srmyy.com" target="_blank">福建中医药大学附属人民医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjhospital.com" target="_blank">福建中医药大学附属第二人民医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="../bzzx/dhlj/qtwsdw/201411/t20141128_2368091.htm" target="_blank">福建中医药大学附属第三人民医院</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.fjkf.net/" target="_blank">福建中医药大学附属康复医院</a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bot_bg_2021" role="serve">
+        <div class="w_1300_2021 twhite1_2021">
+            <div class="bot_l_2021">
+                <h3>
+				<a href="http://wjw.fujian.gov.cn/bzzx/lxwm/" target="_blank">联系我们</a>|
+				<a href="http://wjw.fujian.gov.cn/bzzx/pbtj/" target="_blank">评比统计</a>|
+				<a href="http://wjw.fujian.gov.cn/bzzx/zddt/" target="_blank">网站地图</a>|
+				<a href="http://wjw.fujian.gov.cn/bzzx/sybz/" target="_blank">使用帮助</a>|
+				<a href="http://wjw.fujian.gov.cn/bzzx/wzsm/" target="_blank">网站说明</a>|
+				<a href="http://wjw.fujian.gov.cn/bzzx/mzsm/" target="_blank">免责声明</a></h3>
+                <p><span>网站标识码：3500000039</span><a href="https://beian.miit.gov.cn/" target="_blank"><span>闽ICP备19026269号</span></a>
+				<span><img src="/images/gongan.png" alt="" /><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000138">闽公网安备 35010202000138号</a></span></p>
+                <p><span>地址：福州市鼓屏路61号</span><span>邮编：350003</span>总访问量：<span style='position: inherit;' ms-controller="windowRoot" id='siteCount' ms-html="siteCount"></span></p>
+            </div>
+            <!-- <span class="dzjg_2021">
+            <a href="http://bszs.conac.cn/sitename?method=show&id=07416431159C230DE053012819AC0AFE" target="_blank"><img src="/images/20210720-dzjg.png" alt="" /></a>
+            <span id="_span_jiucuo"><script id="_jiucuo_" sitecode='3500000039' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+            </span> -->
+            <span class="dzjg_2021">
+                <span id="_ideConac"></span>
+                <span id="_span_jiucuo"></span>
+            </span>
+
+
+
+            <div class="bot_r_2021">
+                <h3><a href="javascript:;">新媒体矩阵</a></h3>
+                <ul class="clearflx xmt-list-2021">
+                    <li><a href="javascript:;"><i class="iconfont"></i>
+                            <p>健康福建官方微信</p>
+                        </a>
+                        <div class="codebox_2021">
+                            <img style="margin-top: 0px;margin-left: 0px;" src="/images/2016fjswjw_wx.jpg" />
+                        </div>
+                    </li>
+                    <li><a href="javascript:;"><i class="iconfont"></i>
+                            <p>闽政通APP</p>
+                        </a>
+                        <div class="codebox_2021">
+                            <img style="margin-top: 0px;margin-left: 0px;" src="/images/mztwjw20211207.png" />
+                        </div>
+                    </li>
+
+
+                    <li><a href="javascript:;"><i class="iconfont"></i>
+                            <p>健康福建官方微博</p>
+                        </a>
+                        <div class="codebox_2021">
+                            <img style="margin-top: 0px;margin-left: 0px;" src="/images/2016fjswjw_xlwb.png" />
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="fot-bot_2021" role="serve">
+        <div class="w_1300_2021">
+            <p><span>主办：福建省卫生健康委员会</span><span>承办：福建省卫生健康委员会宣传处</span></p>
+            <p>为确保最佳浏览效果，建议您使用以下浏览器版本：IE浏览器9.0版本及以上； Google Chrome浏览器 63版本及以上； 360浏览器9.1版本及以上，且IE内核9.0及以上。</p>
+        </div>
+    </div>
+</div>
+<!-- 底部嵌套end -->
+<!-- 全站嵌套 -->
+<script src="/public/images/Fjtran.js"></script>
+<div style="display: none;" id="_jiucuo_" sitecode='3500000039'></div>
+<script>
+    	window.onload = function() {
+				var _currentUrl = window.location.href;
+				var _script = document.createElement("script");
+				_script.type = "text/javascript";
+				_script.src = 'https://zfwzgl.www.gov.cn/exposure/jiucuo.js';
+				_script.onload = function(){
+                    $('#_span_jiucuo img').attr('alt','链接政府网站找错');
+                }
+				document.getElementsByTagName('head')[0].appendChild(_script);
+
+				
+				var _newScript = document.createElement('script');
+				_newScript.type = 'text/javascript';
+				_newScript.src = 'https://dcs.conac.cn/js/14/000/0000/60420796/CA140000000604207960001.js';
+				_newScript.onload = function(){
+                    $('#_ideConac img').attr('alt','党政机关');
+                }
+				document.head.appendChild(_newScript);
+			};
+</script>
+<script>
+	var SiteInfo = {
+				 channelid:285300
+				,was4doc    :   285300  //文档检索的was频道号
+								  ,searchId  : 229105    //文档检索的fjdzapp频道号
+				,itpSiteId  :   346     //互动系统对应的站点编号
+				,itp4apply  :   1169    //互动系统依申请公民栏目编号
+				,itp4advice :   1170    //互动系统民意征集栏目编号
+				,itp4poll   :   1171    //互动系统网上调查栏目编号
+				,itp4yjx    :   1168
+				,itp4letter :'1174,1175'
+				// 卫生
+				,itp4wszx : 1154         //互动信箱中卫生的咨询栏目编号
+				,itp4wsts : 1047          //互动信箱中卫生的投诉栏目编号
+				,itp4wsjy : 1049          //互动信箱中卫生的建议栏目编号
+				,itp4wsgx : 1050          //互动信箱中卫生的感谢栏目编号
+				,itp4wsqt : 1084          //互动信箱中卫生的其他栏目编号
+				// 计生
+				,itp4jscx : 1176        //互动信箱中计生的咨询栏目编号
+				,itp4jsts: 1177         //互动信箱中计生的投诉栏目编号
+				,itp4jsjy : 1178		//互动信箱中计生的建议栏目编号
+				,itp4jsgx : 1179		//互动信箱中计生的感谢栏目编号
+				,itp4jsqt : 1180 		//互动信箱中计生的其他栏目编号
+				,siteHost:"wjw.fujian.gov.cn"
+				,visitHost:"wjw.fujian.gov.cn"   //流量域名地址，避免后续有变更
+				, siteMsgType: "govSite"  //非政府网站提醒规则   currSite 非本站提醒 、govSite  非政府网站提醒
+				, siteWriteList: ["220.160.52.66","bmcx.fujian12320.com:8090","hf.ncmsa.cn"]     //站点白名单
+				, initWindowRoot : false   //false表示，引入model.js时，不自动生成windowRoot
+				, initPageview : true   //执行windowRoot 时自动执行pageview
+				, defaultHotWords : '健康,公共卫生,药品,医用设备,临床'  //通过嵌套栏目的替换内容，热搜词，设置默认的热搜词
+        , registerUrl: "https://iam.e-govt.cn:8901/register?appId=a8e4d0ed-0874-44d4-b144-50cd02986acf&redirect_uri=https://www.fujian.gov.cn&response_type=code"
+        , loginUrl: "https://www.fujian.gov.cn/suc/login/login?redirtUrl=http://www.fujian.gov.cn/suc/login/noseLogin?redirtUrl="  //?redirtUrl=http://wjw.fujian.gov.cn/
+        , logoutUrl: "https://www.fujian.gov.cn/suc/login/logout?redirtUrl="
+  , homeUrl: "https://www.fujian.gov.cn/suc/users/index"
+			   // , registerUrl : ""
+			  // , loginUrl : ""
+			  // , logoutUrl : ""
+			  // , redirtUrl : ""
+			  // , homeUrl : "" 
+	
+	}
+	
+var __location = window.location;
+if (typeof SiteInfo !== "undefined" && typeof SiteInfo.siteHost !== "undefined" && __location.host == SiteInfo.siteHost) {
+    if (__location.protocol == "http:") {
+        window.location.href = window.location.href.replace("http://", "https://");
+    }
+}
+
+(function() {
+
+    var links = document.getElementsByTagName('a');
+
+    for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        var href = link.getAttribute('href');  // 获取原始href属性值
+
+        if (href && href.match(/^https?:\/\/wjw\.(fujian|fj)\.gov\.cn/)) {
+            // 移除域名部分，保留路径及后续内容
+            var newHref = href.replace(/^https?:\/\/wjw\.(fujian|fj)\.gov\.cn/, '');
+            link.setAttribute('href', newHref);
+        }
+    }
+})();
+	
+	
+		</script>
+<script>
+	var PageInfo = {
+	docid: '',
+	chnlid: '1913',
+	siteid: '10',
+	title: "",
+	chnlname: "免责声明",
+	sitename: "省卫健委"
+};
+if (PageInfo.title === "") {
+	PageInfo.title = PageInfo.chnlname || PageInfo.sitename;
+}
+</script>
+	
+<script src="https://www.fujian.gov.cn/images/barrier.free.min.js" id="barrierFree" sn="1746758400794606"></script>
+<script src='https://www.fujian.gov.cn/images/model.min.js'></script>  
+<script>
+var __location = window.location;
+if (typeof SiteInfo !== "undefined" && typeof SiteInfo.siteHost !== "undefined" && __location.host == SiteInfo.siteHost) {
+    if (__location.protocol == "http:") {
+        window.location.href = window.location.href.replace("http://", "https://");
+    }
+}
+
+var HisString = window.localStorage.getItem("HistoryList"), HisArr = [];
+  if (HisString != null) { HisArr = HisString.split(",") };
+
+
+  // 顶部搜索
+     var Rs = avalon.define({
+         $id: "list_rs",
+         serKey: "",
+      keys: [],
+      linkKeys: [],
+      historyKeys: HisArr,
+      error: false,
+      showlist: false,
+      LockLink: false,
+      tipList: [] //头部搜索下拉框提示词
+      , tixing: ''   //提醒、头部搜索框输入监听
+      ,
+      flag: false,   // 预设的状态标记
+      flags: [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],   // 预设的状态标记
+      flagss: [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],   // 预设的状态标记
+      $togs: function (name, i, e) {
+          e && e.preventDefault();
+          avalon.vmodels.list_rs[name].set(i, !avalon.vmodels.list_rs[name][i]);
+      },
+      setPost: function (key, e) {
+          if (e) e.preventDefault();
+          $("#header form #selecttags").val(key);
+          $("#header form").submit();
+          Rs.LockLink = false;
+          Rs.showlist = false;
+      },
+      $getLinkKeys: function (val) { //获取联想词
+          if (avalon.vmodels.list_rs.flags[1]) {
+          avalon.vmodels.list_rs.flags.set(1, false);
+          return false;
+      }
+      if (val !== ""){
+          var nowDate = new Date().getTime();
+          $.ajax({
+              url: '/ssp/search/api/word?time=' + nowDate,
+              type: "POST",
+              dataType: "json",
+              data: {
+                  keyWord: val,
+                  rows: 5,
+                  siteId: "ff8080816d060d60016e150af0d26bd3",
+                  pageSize: 5
+              },
+              success: function (res) {
+                  if (res.error === false && res.datas.length > 0) {
+                      avalon.vmodels.list_rs.tipList = res.datas;
+                      avalon.vmodels.list_rs.flags.set(0, true);
+                  }
+              },
+              error: function (e) {
+                  avalon.log(e);
+              }
+          });
+      } else {
+          avalon.vmodels.list_rs.flags.set(0, false);
+      }
+      },
+      $togLinkkey: function () {
+          Rs.showlist = false;
+      },
+      $checkLock: function () {
+          Rs.LockLink = true;
+      },
+   getTip : function( name , i, val){
+          avalon.vmodels.list_rs.flags.set(1, true);
+          avalon.vmodels.list_rs.tixing = val;
+          avalon.vmodels.list_rs[name].set(i, false);
+ $("#header form #selecttags").val(val);
+          $("#header form").submit();
+      }
+
+  })
+  Rs.$watch("tixing", function(val){
+      if (avalon.vmodels.list_rs.flags[1]) {
+          avalon.vmodels.list_rs.flags.set(1, false);
+          return false;
+      }
+      if (val !== ""){
+          var nowDate = new Date().getTime();
+          $.ajax({
+              url: '/ssp/search/api/word?time=' + nowDate,
+              type: "POST",
+              dataType: "json",
+              data: {
+                  keyWord: val,
+                  rows: 5,
+                  siteId: "ff8080816d060d60016e150af0d26bd3",
+                  pageSize: 5
+              },
+              success: function (res) {
+                  if (res.error === false && res.datas.length > 0) {
+                      avalon.vmodels.list_rs.tipList = res.datas;
+                      avalon.vmodels.list_rs.flags.set(0, true);
+                  }
+              },
+              error: function (e) {
+                  avalon.log(e);
+              }
+          });
+      } else {
+          avalon.vmodels.list_rs.flags.set(0, false);
+      }
+  })
+  Rs.$watch("serKey", function (newVal, oldVal) {
+      if (avalon.vmodels.list_rs.flags[1]) {
+          avalon.vmodels.list_rs.flags.set(1, false);
+          return false;
+      }
+      if (newVal == "") {
+          Rs.showlist = false;
+          Rs.LockLink = false;
+      } else {
+          Rs.$getLinkKeys(newVal);
+          Rs.showlist = true;
+      }
+  })
+
+         
+     
+     function pushkeys(dataArr) {
+        for (var i = 0; i < dataArr.length; i++) {
+            var item = {
+                keyword: dataArr[i],
+            }
+            Rs.keys.push(item);
+        }
+     }
+     
+       //热搜词，读取省政府热搜词
+       var hotKeyArr = [];
+       var keystr = SiteInfo.defaultHotWords || '';
+       hotKeyArr = keystr.split(",");
+       if (hotKeyArr !== undefined && hotKeyArr.length > 0) { defKeywords = hotKeyArr };
+       pushkeys(defKeywords);
+       
+       
+       //一级顶部搜索
+       var clickOdd = false;
+       $('.picker_2021').on("click", function () {
+           var showInput = $('.picker_2021 input');
+           var siteId = $('#form #siteId');
+           var isMain = $('#form #isMain');
+           if (clickOdd) {
+              showInput.val('本站');
+              siteId.attr('name', 'siteId');
+               isMain.attr('name', 'isMain');	
+               $('.form').attr('action','/ssp/main/index.html');
+               isMain.val('1');
+               siteId.val('ff8080816e59baf3016e5e71271f3ffd');	
+               clickOdd = false;
+               return
+           } else {
+              showInput.val('全省');
+              siteId.attr('name', 'siteId');
+               isMain.attr('name', 'isMain');	
+               $('.form').attr('action','https://www.fujian.gov.cn/ssp/main/index.html');
+               isMain.val('1');
+               siteId.val('ff808081624641aa0162476c0e0e0055');	
+               clickOdd = true;
+           }
+       })
+       // 顶部搜索 end
+
+    //浮动层定位设置插件
+    $.fn.selectCity = function (targetId) {
+        var _seft = this;
+        var targetId = $(targetId);
+        this.click(function () {
+            var A_top = $(this).offset().top + $(this).outerHeight(true);  //  1
+            var A_left = $(this).offset().left;
+            targetId.show();
+        });
+        targetId.find("#tagClose").click(function () {
+            targetId.hide();
+        });
+        $(document).click(function (event) {
+            if (event.target.id != _seft.selector.substring(1)) {
+                targetId.hide();
+            }
+        });
+        targetId.click(function (e) {
+            e.stopPropagation(); //  2
+        });
+        return this;
+    }
+    //调用浮动层
+    $(function () {
+        $("#selecttags").selectCity("#searchTag");
+    });
+
+    avalon.scan($(".ss_box2").get(0));
+    // 顶部搜索 end
+  
+ </script>
+<script>
+    require(["jquery", "dialog", "url"], function ($, dialog, urlModel) {
+
+        //底部链接导航(pc)
+        $('.yqlj_tit1_2021>ul>li').click(function () {
+            if ($(this).hasClass('on')) {
+                return
+            } else {
+                $(this).addClass('on').siblings().removeClass('on');
+                $(this).siblings().children('.yqlj_con1_2021').slideUp()
+                $(this).children('.yqlj_con1_2021').slideDown();
+            }
+            return false;   //阻止冒泡
+        })
+        $(document).click(function () {
+            $('.yqlj_con1_2021').slideUp()
+            $('.yqlj_tit1_2021>ul>li').removeClass('on');
+        })
+        //底部链接导航(移动)
+        $('.xzk_2021>ul>li').click(function () {
+            if ($(this).hasClass('on')) {
+                return
+            } else {
+                $(this).addClass('on').siblings().removeClass('on');
+                $(this).siblings().children('.mark_2021').slideUp()
+                $(this).children('.mark_2021').slideDown();
+            }
+            return false;   //阻止冒泡
+        })
+        $(document).click(function () {
+            $('.mark_2021').slideUp()
+            $('.xzk_2021>ul>li').removeClass('on');
+        })
+
+        // <a href=\"javascript:;\" class=\"gb-rig\"  tabindex=\"0\"  style=\"top: -27px;\"></a>
+        var oldModeMenu = "";
+        oldModeMenu += "<a href=\"javascript:;\" class=\"gb-rig\"  tabindex=\"0\"  style=\"top: -27px;\"></a>";
+        var wxmz1=$(".wxmz1").length
+        var gbrig=$(".gb-rig").length
+        function pdsfy() {
+            
+            if ( wxmz1>0 ) {
+                $(".wxmz1").append($(oldModeMenu))
+                $(".gb-rig").on('click', function () {
+                    $('.rig-fix2').hide()
+                })
+                return false
+            }
+            return false
+        }
+        setInterval(pdsfy, 5000);
+
+
+
+
+    })
+
+
+
+
+
+
+</script>
+<script src="/images/2021gb_wjw.js"></script>
+<!-- 全站嵌套 end-->
+
+<script>
+  require(["jquery", "detailpage"], function ($, detailpage) {
+    detailpage({
+                    enableReldoc:false     //是否获取相关文档
+                    ,enableComment: false  //是否启用评论框，默认为true
+                    ,ReldocChannelId: 262249  //获取相关文档的检索ID
+                    , enableVideo: true  //是否启用视频功能，默认为true
+                    , videoLinks: [      //传入视频数组，仅显示一篇
+                    '',
+                    ''
+                ]
+      
+                });
+  })
+    
+</script>
+</body>
+</html>

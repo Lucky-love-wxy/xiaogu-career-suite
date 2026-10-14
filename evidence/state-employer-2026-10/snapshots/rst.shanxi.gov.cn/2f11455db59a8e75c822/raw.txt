@@ -1,0 +1,1449 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+<title>人事考试网 - 山西省人力资源和社会保障厅</title>
+    <link rel="apple-touch-icon" href="ksw_favicon.png?v1">
+    <link rel="icon" href="/rsks/images/ksw_favicon.png?v1">
+  <link rel="icon" href="../images/favicon.png" type=" image/png">
+		<link href="../images/ksw_exam.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../images/index_forrsks.css">
+<link rel="stylesheet" type="text/css" href="../images/style_forrsks.css">
+		<link rel="stylesheet" type="text/css" href="../images/demo0927.css">
+<link rel="stylesheet" type="text/css" href="../images/index_new0620.css">
+		<link rel="icon" href="../images/favicon.png" type=" image/png">
+		<!-- Common Footer End -->
+		<script src="../images/jquery3.4.1.min.js"></script>
+		<!--<script src="../images/ksw_jquery.min.js" type="text/javascript"></script>-->
+		<script src="../images/ksw_exam.js" type="text/javascript"></script>
+		<script src="../images/ksw_shanxi.slide.min.js"></script>
+		<script>
+			$(function() {
+				$('#content_imgs_slide_box').shxidxCarousel({
+					items: 1,
+					navigation: true,
+					navigationText: ["", ""],
+					autoPlay: true,
+					theme: "exam-hrrs",
+					itemsDesktop: false,
+					itemsDesktopSmall: false,
+					itemsTablet: false,
+					stopOnHover: true,
+					rewindSpeed: 3000,
+				}).hover(function() {
+					$('.shxidx-buttons').show();
+				}, function() {
+					$('.shxidx-buttons').hide();
+				});
+		
+		
+				$(".exam-nav> ul> .mnnorm2").hover(function() {
+					var menuItem = $(this).index();
+					var menuItemLen1 = $(".exam-main-left> ul> li").length;
+					var menuItemLen2 = $(".exam-nav> ul> li").length;
+					$(".exam-main-left> ul> li").removeClass("current");
+					$(".exam-nav> ul> li").removeClass("current");
+					$(this).addClass("current");
+					for (var mil = 0; mil < menuItemLen1 + menuItemLen2; mil++) {
+						if (mil == menuItem + menuItemLen1) {
+							$("#main_con_item" + mil).show();
+						} else {
+							$("#main_con_item" + mil).hide();
+						}
+					}
+				});
+		
+				$(".exam-main-left> ul> .mnnorm").hover(function() {
+					var menuItem = $(this).index();
+					var menuItemLen1 = $(".exam-main-left> ul> li").length;
+					var menuItemLen2 = $(".exam-nav> ul> li").length;
+					$(".exam-nav> ul> li").removeClass("current");
+					$(".exam-main-left> ul> li").removeClass("current");
+					$(this).addClass("current");
+					for (var mil = 0; mil < menuItemLen1 + menuItemLen2; mil++) {
+						if (mil == menuItem) {
+							$("#main_con_item" + mil).show();
+						} else {
+							$("#main_con_item" + mil).hide();
+						}
+					}
+				});
+		
+		
+		
+			});
+		</script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?35a67dcff59ee2e5f923c0e6e32d26a1";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		<style>
+			@media (min-device-width:320px) and (max-width:1000px),
+			(max-device-width:760px) {
+				.topbanner {
+					width: 1220px;
+					height: 227px;
+				}
+
+				.navtop {
+					width: 1220px;
+					height: 76px;
+				}
+
+				.rsfoot {
+					width: 1220px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="sxsrst clearfix">
+			<!-- top条 -->
+			<div class="sxrs_top clearfix">
+				<div class="content">
+					<div class="rstop left clearfix">
+						<a href="https://www.shanxi.gov.cn" target="Self"><img src="../images/ghs2_new.png" alt="ghs2_new.png" title="ghs2_new.png" />山西省人民政府网站</a>
+						<a href="http://www.mohrss.gov.cn" target="Self"><img src="../images/ghs2_new.png" alt="ghs2_new.png" title="ghs2_new.png" />中华人民共和国人力资源和社会保障部</a>
+					</div>
+					<div class="rstoprig right clearfix">
+						<script type="text/javascript">
+							function clock_12h() {
+								var today = new Date(); //获得当前时间
+								//获得年、月、日，Date()函数中的月份是从0－11计算
+								var year = today.getFullYear();
+								var month = today.getMonth() + 1;
+								var date = today.getDate();
+								var hour = today.getHours(); //获得小时、分钟、秒
+								var minute = today.getMinutes();
+								var second = today.getSeconds();
+
+								var weekday = 0;
+								switch (today.getDay()) {
+									case 0:
+										weekday = "星期日";
+										break;
+									case 1:
+										weekday = "星期一";
+										break;
+									case 2:
+										weekday = "星期二";
+										break;
+									case 3:
+										weekday = "星期三";
+										break;
+									case 4:
+										weekday = "星期四";
+										break;
+									case 5:
+										weekday = "星期五";
+										break;
+									case 6:
+										weekday = "星期六";
+										break;
+								}
+
+								/*设置div的内容为当前时间*/
+								document.getElementById("myclock").innerHTML = "<p>" + year + "年" + month + "月" + date + "日&nbsp;" +
+									weekday + "</p>";
+
+							}
+							/*使用setInterval()每间隔指定毫秒后调用clock_12h()*/
+							var myTime = setInterval("clock_12h()", 1000);
+						</script>
+						<div id="myclock"
+							style="font-size: 15px;font-weight: 400;height: 22px;line-height: 22px;float: left;color:#333;padding: 0;margin: 8px 0 0">
+						</div>
+						<a href="javascript:void(0)" id="toolbarSwitch" title="无障碍浏览"><img src="../images/rst1_wza.png" style="width: 100px;margin: 5px 0 0 -4px" /></a>
+					</div>
+				</div>
+			</div>
+			<!-- top条结束 -->
+			<style>
+#nav > ul > li{ width:16.66%;}
+.navtop{ background-image:url("../images/rst5_0620_new.png");}
+#nav li ul{ z-index:999;}
+.rsfoot ul li:nth-child(2){ margin:0px; width:660px;}
+.rsfoot ul li p{ font-size:14px; margin-bottom:10px;}
+.rsfoot{ padding:30px 0 20px;}
+</style>
+<div class="topbanner clearfix">
+	<div class="content">
+		<div class="sxrslogo left clearfix">
+			<a href="https://rst.shanxi.gov.cn/"><img src="../images/rst2.png" style="width: 640px;margin-top: 69px;" /></a>
+		</div>
+		<div class="rslogorig right clearfix">
+			<div class="calendar clearfix">
+				<iframe width="350" height="20" frameborder="0" scrolling="no" hspace="0"
+					src="https://i.tianqi.com/?c=code&a=getcode&id=11&icon=1"></iframe>
+			</div>
+			<div class="rsjs clearfix">
+				<input type="text" value="" name="searchword" id="search_txt" />
+				<button><img src="../images/rst3.png" alt="rst3.png" title="rst3.png" id="s-img" /></button>
+			</div>
+<script>
+//检索
+ $('#s-img').click(function() {
+        var siteTag = 1
+        var siteid=25;
+        if(!$('#search_txt').val()) {
+            alert('请输入搜索内容')
+            return
+        }
+        //if($('.logo .logoR1 button span').text() == '搜本站') {
+         // siteTag = 1
+        //}
+         window.open("/dept_search/#/Door?keywords=" +$('#search_txt').val()+"&siteTag="+siteTag+"&siteid="+siteid);
+      })
+      //按下回车键搜索
+      $('#search_txt').bind('keyup', function(event) {
+          if (event.keyCode == "13") {
+              $('#s-img').click();
+          }
+      });
+</script>
+		</div>
+	</div>
+</div>
+<!-- topbanner条结束 -->
+<!-- 导航 -->
+<div class="rstnav clearfix">
+	<div class="navbottom clearfix">
+		<div class="navtop clearfix">
+			<div class="content">
+				<nav id="nav" role="navigation">
+					<ul class="clearfix">
+						<li><a href="https://rst.shanxi.gov.cn/">首页</a></li>
+						<li><a href="../zwyw/gzdt/" target="_blank"><span>人社动态</span></a>
+							<ul>
+								<!--<li><a href="../zwyw/gzdt/xwtt/" target="_blank">头条新闻</a></li>
+								<li><a href="../zwyw/gzdt/szyw/" target="_blank">时政要闻</a></li>-->
+								<li><a href="../zwyw/gzdt/gndt/" target="_blank">省厅动态</a></li>
+								<li><a href="../zwyw/tzgg/" target="_blank">通知公告</a></li>							
+<li><a href="../ztzl/mtkrs/" target="_blank">媒体看人社</a></li>
+
+								<li><a href="../zwyw/gzdt/tpxw/" target="_blank">图片新闻</a></li>
+								<li><a href="../zwyw/gzdt/jcdt/" target="_blank">基层动态</a></li>								
+							</ul>
+						</li>
+						<li><a href="../zfxxgk/"><span>政府信息公开</span></a>
+							<ul>
+								
+									<li>
+										<a href="../zfxxgk/zfxxgkzn/" target="_blank">政府信息公开指南</a>
+									</li>
+								
+									<li>
+										<a href="../zfxxgk/zfxxgkzd/" target="_blank">政府信息公开制度</a>
+									</li>
+								
+									<li>
+										<a href="../zfxxgk/fdzdgknr/" target="_blank">法定主动公开内容</a>
+									</li>
+								
+									<li>
+										<a href="../zfxxgk/zfxxgknb/" target="_blank">政府信息公开年报</a>
+									</li>
+								
+							</ul>
+						</li>
+						<li><a href="../12333zx/">政民互动</a>
+							<ul>
+								<li><a href="../12333zx/tzxx_new/" target="_blank">厅长信箱</a></li>
+								<li><a href="../12333zx/jyxc_new/" target="_blank">建言献策</a></li>
+								<li><a href="../12333zx/dyjh_new/" target="_blank">答疑解惑</a></li>
+								<li><a href="../12333zx/shjjjdjb/" target="_blank">社保基金监督举报</a>
+								</li>
+							</ul>
+						</li>
+						<li><a href="http://www.sxzwfw.gov.cn/icity/icity/departmental_matters?deptid=1000">政务服务</a></li>
+						<li><a href="../ztzl/" target="_blank">专题专栏</a>
+							<ul>
+								<li><a href="../ztzl/jyfwj/" target="_blank">就业服务局</a></li>
+								<li><a href="../ztzl/shbxj/" target="_blank">社会保险局</a></li>
+								<!--<li><a href="../ztzl/zrstjjzgzxx/"
+										target="_blank">驻人社厅纪检组工作信息</a></li>-->
+								<li><a href="../ztzl/zpxx/" target="_blank">事业单位公开招聘信息</a>
+								</li>
+								<li><a href="../ztzl/sgs/" target="_blank">行政执法专栏</a></li>
+								<li><a href="../ztzl/zyjnjdzx/" target="_blank">职业技能鉴定</a></li>
+								<li><a href="../ztzl/shbxj/" target="_blank">更多</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+			<!-- 正文 -->
+			<style>
+				.main-con_list>li>a {
+					width: 80%;
+				}
+
+				.exam-showp div * {
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+				.exam-showp img {
+					margin: 0 8px 0 40px;
+					height: 28px;
+				}
+
+				.exam-showp a {
+					font-size: 14px;
+					color: #fff;
+					font-weight: 600;
+					color: #63727b;
+				}
+
+				.exam-showp li:first-child div {
+					margin-top: 7px;
+				}
+
+				.exam-showp div {
+					margin-top: 12px;
+				}
+
+				.exam-showp span {
+					text-align: center;
+				}
+
+				.exam-showp a:hover {
+					color: #7d909b;
+				}
+
+				.exam-showp em {
+					font-weight: 400;
+					font-family: arial;
+					font-size: 12px;
+					color: #7d909b;
+					text-transform: uppercase;
+					margin-left: 5px;
+				}
+
+				.sogoubottom {
+					height: 0px;
+				}
+
+				.mnnorm2 * {
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+				.mnnorm2 {
+					height: 70px;
+					overflow: hidden;
+					font-size: 14px;
+					text-align: center;
+					width: 170px;
+					line-height: 28px;
+					padding-top: 9px;
+				}
+
+				.exam-showp>li {
+					height: 51px;
+					margin-top: 5px;
+
+				}
+
+				.exam-hrrs,
+				.exam-hrrs .content-imgs-slide-item,
+				.exam-hrrs img {
+					height: 210px;
+				}
+
+				.exam-showp {
+					height: 315px;
+				}
+
+				.exam-showp>li {
+					margin-top: 2px;
+				}
+
+				.rsmain-rs {
+					width: 100%;
+					padding: 10px 0 50px
+				}
+
+				/*当前位置*/
+				.wz_top {
+					height: auto;
+					font-size: 14px;
+				}
+
+				.wz_top span {
+					display: block;
+					line-height: 20px;
+					padding: 10px 0 10px 24px;
+					background: url("images/postion.png") 5px 11px no-repeat;
+				}
+
+				.wz_top i {
+					font-style: normal;
+				}
+
+				.leftnr {
+					width: 240px;
+					border-top: 0 none;
+				}
+
+				.lmtitle {
+					overflow: hidden;
+					background: url("images/lmtitbg.gif") right center no-repeat #015293;
+				}
+
+				.lmtitle h1 {
+					line-height: 26px;
+					font-size: 18px;
+					font-weight: bold;
+					color: #fff;
+					padding: 10px 30px 10px 22px;
+				}
+
+				.menunr {
+					width: 239px;
+					min-height: 534px;
+					border: 1px solid #eee;
+					background: #fcfcfc;
+				}
+
+				.menunr ul li {
+					border-bottom: 1px solid #ddd;
+				}
+
+				.menunr ul li a {
+					line-height: 44px;
+					padding: 0 35px 0 15px;
+					display: block;
+					background: url("images/lmlibg.png") right center no-repeat;
+					height: 45px;
+					margin: 0 15px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					font-size: 16px;
+				}
+
+				.menunr ul li a {
+					line-height: 44px;
+					padding: 0 35px 0 15px;
+					display: block;
+					background: url("images/lmlibg.png") right center no-repeat;
+					height: 45px;
+					margin: 0 15px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					font-size: 16px;
+				}
+
+				a {
+					color: #333;
+					text-decoration: none;
+					outline: none;
+				}
+
+				.menunr ul li a:hover,
+				.menunr ul li.active a,
+				.menunr ul li a.active {
+					color: #005da8;
+					background-image: url("images/lmlibgh.png");
+				}
+
+				.dqlanmu {
+					position: relative;
+					clear: both;
+					background: url("images/telbg.gif") left bottom repeat-x;
+					margin-bottom: 10px;
+					font-size: 18px;
+					height: 49px;
+					font-family: "微软雅黑"
+				}
+
+				.dqlanmu span {
+					height: 49px;
+					line-height: 46px;
+					border-bottom: 2px solid #005da8;
+					color: #005da8;
+					padding: 0 10px;
+					display: block;
+					float: left;
+					box-sizing: border-box;
+					max-width: 100%;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+
+				.rightnr {
+					margin-left: 255px;
+					overflow: hidden;
+					position: relative;
+					min-height: 500px;
+				}
+
+				.init {
+					background: url();
+					width: 297px;
+					height: 297px;
+				}
+
+				.listnews {
+					font-size: 16px;
+					line-height: 2;
+					padding: 0 4px 20px;
+					overflow: hidden;
+					min-height: 488px;
+					height: auto;
+					border-top: 0 none;
+				}
+
+				.listnews ul.doc_list {
+					padding-bottom: 5px;
+				}
+
+				.listnews ul {
+					clear: both;
+				}
+
+				.listnews ul.doc_list li,
+				.listnews ul.download-list li {
+					overflow: hidden;
+				}
+
+				.listnews li {
+					background: url("images/icon1.png") 0 center no-repeat;
+					padding: 2px 0 2px 14px;
+					font-size: 16px;
+					line-height: 32px;
+					color: #999;
+					position: relative;
+				}
+
+				.left,
+				.fl {
+					float: left;
+				}
+
+				.listnews li .date {
+					white-space: nowrap;
+					font-size: 13px;
+					display: block;
+					position: absolute;
+					right: 0;
+					top: 2px;
+					float: none;
+				}
+
+				.listnews ul.doc_list li,
+				.listnews ul.download-list li {
+					overflow: hidden;
+				}
+
+				.listnews li.lm_line {
+					margin: 10px 0 0;
+					border-top: 1px dashed rgb(221, 221, 221);
+					height: 10px;
+					overflow: hidden;
+					background: none;
+				}
+
+				.pagination {
+					clear: both;
+					width: 100%;
+					text-align: right;
+					margin: 10px 0;
+					padding: 3px 0;
+					line-height: 20px;
+					font-size: 14px;
+					font-family: "Microsoft YaHei", 微软雅黑;
+				}
+
+				.pagination span.disabled,
+				.pagination span.disabled:hover {
+					border: 1px solid #e0e0e0;
+					color: #868585;
+					background: #f1f1f1;
+				}
+
+				.pagination a,
+				.pagination span {
+					display: inline-block;
+					border: 1px solid #e0e0e0;
+					color: #868585;
+					margin: 3px;
+					padding: 0 8px;
+					text-decoration: none;
+					white-space: nowrap;
+					height: 24px;
+					border-radius: 3px;
+				}
+
+				.pagination span.current,
+				.pagination span.current:hover,
+				.pagination .inputBar button:hover {
+					background: #f1f1f1;
+					border: 1px solid #e0e0e0;
+					color: #868585;
+				}
+
+				.pagination .total {
+					border: 0;
+					height: 24px;
+					padding: 0;
+				}
+
+				.pagination .inputBar input {
+					width: 40px;
+					height: 20px;
+					line-height: 24px;
+					padding: 2px 5px;
+					border: #e0e0e0 1px solid;
+					margin: -3px 3px 0;
+					*margin: -3px 3px 0;
+					_margin: -3px 3px 0;
+					background: #f1f1f1;
+					vertical-align: middle;
+					border-radius: 3px;
+					color: #868585;
+				}
+
+				.pagination .inputBar {
+					border: 0;
+					height: 24px;
+					padding: 0 6px;
+				}
+
+				.pagination .inputBar button {
+					width: 40px;
+					height: 26px;
+					line-height: 20px;
+					padding: 2px 5px;
+					border: #e0e0e0 1px solid;
+					margin: -3px 3px 0;
+					*margin: -3px 3px 0;
+					_margin: -3px 3px 0;
+					background: #fff;
+					vertical-align: middle;
+					border-radius: 3px;
+					color: #868585;
+				}
+
+				.listnews li a {
+					max-width: 773px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: block;
+				}
+
+				.listnews li a:hover {
+					color: #dd0000;
+					text-decoration: none;
+				}
+
+
+				/*有效代码*/
+				.rightnr2 {
+					overflow: hidden;
+					position: relative;
+					min-height: 500px;
+				}
+			</style>
+	<style>
+		/* 修改调整页面样式 0928 */
+		.main-con_nav>li {
+			width: 74px;
+			border-left: 3px solid #fff;
+			border-right: 3px solid #f5f5f5;
+			height: 70px;
+			overflow: hidden;
+			margin-bottom: 6px;
+			background-color: #fff;
+			font-size: 14px;
+			font-weight: normal;
+			padding: 0 10px;
+			transition: all .2s;
+			width: 94px;
+			height: 85px;
+			padding: 0 15px;
+			border-left: 3px solid #e6ebee;
+			background-color: #e6ebee;
+		}
+
+		.main-con_item {
+			width: 630px;
+			background-color: #fcfcfc;
+			height: 448px;
+			overflow: hidden;
+			padding: 10px;
+			width: 680px;
+		}
+
+		.exam-nav {
+			width: 989px;
+			height: 72px;
+			overflow: hidden;
+			margin: 0 auto;
+			background-color: #e6ebee;
+			padding-left: 111px;
+			width: 779px;
+			padding-left: 0px;
+		}
+
+		.exam-main-right {
+			width: 320px;
+			overflow: hidden;
+			width: 274px;
+		}
+.exam-main {
+    width: 1080px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 10px auto 0;
+    background-color: #f5f5f5;
+    height: 450px;
+    height: 543px;
+}
+.exam-nav .exam-hrrs-nav{ width:100%;}
+.exam-nav .exam-hrrs-nav>li{ width:150px;}
+	</style>
+			<div style="padding-top: 10px; width: 1200px;margin: 0 auto;">
+				<div class="lmcontent bg">
+					<div class="wz_top wza-region_nav" id="ls_position" role="navigation" aria-label="栏目路径"
+						data-wza-scan="true">
+						<span>
+							<a href="../" title="首页" class=outdir11 class="CurrChnlCls">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="./" title="人事考试" class=outdir11 class="CurrChnlCls">人事考试</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div style="width: 1200px;margin: 0px auto 20px;text-align: center;">
+				<h5 style="font-weight: bold;font-size:34px;color:#C90104;font-family: 宋体;">山 西 人 事 考 试 专 栏</h5>
+			</div>
+			<div class="exam-main" style="margin: 0 auto 20px;">
+				<div class="exam-main-left left">
+					<ul class="main-con_nav left">
+						<li class="mnnorm c-special current"><a
+								href="./tzgg/"
+								class="bg-menu_0">通知公告</a></li>
+						<li class="mnnorm"><a href="./gwyks/"
+								class="bg-menu_1">公务员<br>考试</a></li>
+						<li class="mnnorm"><a href="./sydwks/"
+								class="bg-menu_2">事业单位考试</a></li>
+						<li class="mnnorm"><a href="./zyjsryzgks/"
+								class="bg-menu_3">专业技术人员资格考试</a></li>
+						<li class="mnnorm"><a href="./qtks/"
+								class="bg-menu_4">其他考试</a></li>
+					</ul>
+					<div class="main-con_item" id="main_con_item0" style="display: block;">
+						<div class="main-coin_more"><a
+								href="./tzgg/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li class="notices">
+									<a href="./zsff/202501/t20250120_9754441.shtml" target="_blank" title="【证书邮寄】点击申请证书邮寄......"><font color="#0000ff">【证书邮寄】点击申请证书邮寄......</font></a>
+									<em class="mytime">
+										2025-01-20
+									</em>
+									<!-- <em class="atime hide">2025-01-20 11:32:32.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="http://www.casx.gov.cn/content/2026-09/23/content_13690988.htm" target="_blank" title="关于公布2026年度山西省工程系列网信专业中初级职称考试合格标准的通知">关于公布2026年度山西省工程系列网信专业中初级职称考试合格标准的通知</a>
+									<em class="mytime">
+										2026-09-23
+									</em>
+									<!-- <em class="atime hide">2026-09-23 10:25:12.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="https://sxwxbm.oumakspt.com:6100/examfrontM1/login/initLogin.htm" target="_blank" title="【成绩查询】2026年度山西省工程系列网信专业中初级职称考试">【成绩查询】2026年度山西省工程系列网信专业中初级职称考试</a>
+									<em class="mytime">
+										2026-09-23
+									</em>
+									<!-- <em class="atime hide">2026-09-23 09:45:00.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="./zsff/202608/t20260805_10191454.shtml" target="_blank" title="【邮寄目录】山西省2026年度专业技术人员职业资格证书发放邮寄服务目录">【邮寄目录】山西省2026年度专业技术人员职业资格证书发放邮寄服务目录</a>
+									<em class="mytime">
+										2026-09-21
+									</em>
+									<!-- <em class="atime hide">2026-09-21 16:13:00.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202609/t20260907_10215581.shtml" target="_blank" title="山西省2026年度考试录用公务员省直机关（系统）拟录用人员公示（五）">山西省2026年度考试录用公务员省直机关（系统）拟录用人员公示（五）</a>
+									<em class="mytime">
+										2026-09-07
+									</em>
+									<!-- <em class="atime hide">2026-09-07 11:36:16.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202609/t20260904_10214244.shtml" target="_blank" title="吕梁市2026年度考试录用公务员（含参照管理）拟录用人员公示（四）">吕梁市2026年度考试录用公务员（含参照管理）拟录用人员公示（四）</a>
+									<em class="mytime">
+										2026-09-04
+									</em>
+									<!-- <em class="atime hide">2026-09-04 11:23:20.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202609/t20260902_10212959.shtml" target="_blank" title="忻州市2026年度考试录用公务员拟录用人员公示（四）">忻州市2026年度考试录用公务员拟录用人员公示（四）</a>
+									<em class="mytime">
+										2026-09-02
+									</em>
+									<!-- <em class="atime hide">2026-09-02 21:01:23.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="https://scjgj.shanxi.gov.cn/zwgk/jgfl/gstg/202608/t20260827_10208919.shtml" target="_blank" title="【资格审核】关于2026年度注册计量师职业资格考试成绩合格人员资格审核的通告">【资格审核】关于2026年度注册计量师职业资格考试成绩合格人员资格审核...</a>
+									<em class="mytime">
+										2026-08-28
+									</em>
+									<!-- <em class="atime hide">2026-08-28 16:29:52.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="http://tjj.shanxi.gov.cn/tjfw/tjzyjszgks/202608/t20260824_10206003.shtml" target="_blank" title="【资格审核】山西省2026年度统计专业技术资格考试资格审核公告">【资格审核】山西省2026年度统计专业技术资格考试资格审核公告</a>
+									<em class="mytime">
+										2026-08-26
+									</em>
+									<!-- <em class="atime hide">2026-08-26 09:00:00.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202608/t20260825_10206973.shtml" target="_blank" title="晋城市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）">晋城市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）</a>
+									<em class="mytime">
+										2026-08-25
+									</em>
+									<!-- <em class="atime hide">2026-08-25 19:01:05.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+								<li class="notices">
+									<a href="./zsff/202608/t20260824_10205952.shtml" target="_blank" title="关于山西省2026年度二级建造师职业资格电子合格证明上线的通知">关于山西省2026年度二级建造师职业资格电子合格证明上线的通知</a>
+									<em class="mytime">
+										2026-08-24
+									</em>
+									<!-- <em class="atime hide">2026-08-24 16:02:08.0</em>-->
+									<!--   <img alt="news" src="../images/new.gif" class="hide" /> -->
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item1" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./gwyks/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202609/t20260907_10215581.shtml" target="_blank" title="山西省2026年度考试录用公务员省直机关（系统）拟录用人员公示（五）">山西省2026年度考试录用公务员省直机关（系统）拟录用人员公示（五）</a><em class="mytime">
+										2026-09-07
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202609/t20260904_10214244.shtml" target="_blank" title="吕梁市2026年度考试录用公务员（含参照管理）拟录用人员公示（四）">吕梁市2026年度考试录用公务员（含参照管理）拟录用人员公示（四）</a><em class="mytime">
+										2026-09-04
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202609/t20260902_10212959.shtml" target="_blank" title="忻州市2026年度考试录用公务员拟录用人员公示（四）">忻州市2026年度考试录用公务员拟录用人员公示（四）</a><em class="mytime">
+										2026-09-02
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202608/t20260825_10206973.shtml" target="_blank" title="晋城市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）">晋城市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）</a><em class="mytime">
+										2026-08-25
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202608/t20260818_10201937.shtml" target="_blank" title="朔州市2026年度考试录用公务员拟录用人员公示（四）">朔州市2026年度考试录用公务员拟录用人员公示（四）</a><em class="mytime">
+										2026-08-18
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202608/t20260811_10197791.shtml" target="_blank" title="阳泉市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）">阳泉市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）</a><em class="mytime">
+										2026-08-11
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202607/t20260729_10186734.shtml" target="_blank" title="山西省2026年度考试录用公务员省直机关（系统）拟录用人员公示（四）">山西省2026年度考试录用公务员省直机关（系统）拟录用人员公示（四）</a><em class="mytime">
+										2026-07-29
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202607/t20260728_10186112.shtml" target="_blank" title="吕梁市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）">吕梁市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）</a><em class="mytime">
+										2026-07-28
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202607/t20260727_10185360.shtml" target="_blank" title="晋中市2026年度考试录用公务员（含参照管理）拟录用人员公示（二）">晋中市2026年度考试录用公务员（含参照管理）拟录用人员公示（二）</a><em class="mytime">
+										2026-07-27
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202607/t20260724_10183575.shtml" target="_blank" title="朔州市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）">朔州市2026年度考试录用公务员（含参照管理）拟录用人员公示（三）</a><em class="mytime">
+										2026-07-24
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./gwyks/2026gwyks/202607/t20260721_10180908.shtml" target="_blank" title="2026年度山西省司法行政机关面向司法行政系统所属院校有关专业毕业生考试录用公务员拟录用人员公示">2026年度山西省司法行政机关面向司法行政系统所属院校有关专业毕业生考...</a><em class="mytime">
+										2026-07-21
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+
+					<div class="main-con_item hide" id="main_con_item2" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./sydwks/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li class="notices">
+									<a href="https://sbm.sxpta.com/SXptaExam_syzp_ms/index.html#/index" target="_blank" title="【面试通知书打印】山西省省直事业单位2026年公开招聘工作人员面试">【面试通知书打印】山西省省直事业单位2026年公开招聘工作人员面试</a><em class="mytime">
+										2026-06-11
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202606/t20260609_10142921.shtml" target="_blank" title="山西省省直事业单位2026年公开招聘工作人员面试公告（三）">山西省省直事业单位2026年公开招聘工作人员面试公告（三）</a><em class="mytime">
+										2026-06-09
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202606/t20260602_10138494.shtml" target="_blank" title="山西省省直事业单位2026年公开招聘工作人员面试公告（二）">山西省省直事业单位2026年公开招聘工作人员面试公告（二）</a><em class="mytime">
+										2026-06-02
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202605/t20260526_10134296.shtml" target="_blank" title="山西省省直事业单位2026年公开招聘工作人员面试公告（一）">山西省省直事业单位2026年公开招聘工作人员面试公告（一）</a><em class="mytime">
+										2026-05-26
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="http://zp.cpta.com.cn/tyzpwb/login/login_qt/dbdIdb.htm" target="_blank" title="【成绩查询】山西省2026年事业单位统一公开招聘笔试">【成绩查询】山西省2026年事业单位统一公开招聘笔试</a><em class="mytime">
+										2026-05-09
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202605/t20260509_10118687.shtml" target="_blank" title="关于公布山西省2026年事业单位统一公开招聘笔试成绩公告">关于公布山西省2026年事业单位统一公开招聘笔试成绩公告</a><em class="mytime">
+										2026-05-09
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202603/t20260322_10084605.shtml" target="_blank" title="山西省2026年事业单位公开招聘笔试温馨提示">山西省2026年事业单位公开招聘笔试温馨提示</a><em class="mytime">
+										2026-03-23
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202603/t20260322_10084604.shtml" target="_blank" title="山西省2026年事业单位公开招聘笔试纪律提示">山西省2026年事业单位公开招聘笔试纪律提示</a><em class="mytime">
+										2026-03-23
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202603/t20260309_10076432.shtml" target="_blank" title="山西省2026年事业单位公开招聘部分岗位核减招聘计划的公告">山西省2026年事业单位公开招聘部分岗位核减招聘计划的公告</a><em class="mytime">
+										2026-03-09
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202602/t20260224_10065805.shtml" target="_blank" title="山西省2026年事业单位公开招聘岗位改报公告">山西省2026年事业单位公开招聘岗位改报公告</a><em class="mytime">
+										2026-02-24
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./sydwks/2026/202602/t20260208_10058687.shtml" target="_blank" title="山西省2026年事业单位公开招聘笔试各岗位报名情况（截至2026年2月8日16:30，本次报名最后一次公布）">山西省2026年事业单位公开招聘笔试各岗位报名情况（截至2026年2月8日16:...</a><em class="mytime">
+										2026-02-08
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item3" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./zyjsryzgks/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li class="notices">
+									<a href="http://www.casx.gov.cn/content/2026-09/23/content_13690988.htm" target="_blank" title="关于公布2026年度山西省工程系列网信专业中初级职称考试合格标准的通知">关于公布2026年度山西省工程系列网信专业中初级职称考试合格标准的通知</a><em class="mytime">
+										2026-09-23
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="https://sxwxbm.oumakspt.com:6100/examfrontM1/login/initLogin.htm" target="_blank" title="【成绩查询】2026年度山西省工程系列网信专业中初级职称考试">【成绩查询】2026年度山西省工程系列网信专业中初级职称考试</a><em class="mytime">
+										2026-09-23
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="https://scjgj.shanxi.gov.cn/zwgk/jgfl/gstg/202608/t20260827_10208919.shtml" target="_blank" title="【资格审核】关于2026年度注册计量师职业资格考试成绩合格人员资格审核的通告">【资格审核】关于2026年度注册计量师职业资格考试成绩合格人员资格审核...</a><em class="mytime">
+										2026-08-28
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="http://tjj.shanxi.gov.cn/tjfw/tjzyjszgks/202608/t20260824_10206003.shtml" target="_blank" title="【资格审核】山西省2026年度统计专业技术资格考试资格审核公告">【资格审核】山西省2026年度统计专业技术资格考试资格审核公告</a><em class="mytime">
+										2026-08-26
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="https://zjt.shanxi.gov.cn/zwgk/gztz/202608/t20260817_10201065.shtml" target="_blank" title="【资格审核】关于做好2026年度二级注册建筑师资格考试资格审核工作的通知">【资格审核】关于做好2026年度二级注册建筑师资格考试资格审核工作的通知</a><em class="mytime">
+										2026-08-18
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="https://zjt.shanxi.gov.cn/zwgk/gztz/202608/t20260817_10201039.shtml" target="_blank" title="【资格审核】关于做好2026年度一级注册建筑师资格考试资格审核工作的通知">【资格审核】关于做好2026年度一级注册建筑师资格考试资格审核工作的通知</a><em class="mytime">
+										2026-08-18
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./zyjsryzgks/2026zgks/202608/t20260811_10197645.shtml" target="_blank" title="关于做好山西省2026年度一级消防工程师资格考试考务工作的通知">关于做好山西省2026年度一级消防工程师资格考试考务工作的通知</a><em class="mytime">
+										2026-08-11
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./zyjsryzgks/2026zgks/202608/t20260811_10197629.shtml" target="_blank" title="关于做好山西省2026年度全国勘察设计注册工程师执业资格考试考务工作的通知">关于做好山西省2026年度全国勘察设计注册工程师执业资格考试考务工作的通知</a><em class="mytime">
+										2026-08-11
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="https://zjt.shanxi.gov.cn/zwgk/gztz/202608/t20260811_10197731.shtml" target="_blank" title="【资格审核】关于做好2026年度二级建造师资格考试报考条件审核工作的通知">【资格审核】关于做好2026年度二级建造师资格考试报考条件审核工作的通知</a><em class="mytime">
+										2026-08-11
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="./zyjsryzgks/2026zgks/202607/t20260731_10188424.shtml" target="_blank" title="关于山西省2026年度高级经济专业技术资格考试合格标准的通告">关于山西省2026年度高级经济专业技术资格考试合格标准的通告</a><em class="mytime">
+										2026-07-31
+									</em>
+								</li>
+							
+								<li class="notices">
+									<a href="http://39.97.9.165:8089/ej2026/index.php" target="_blank" title="【成绩查询】2026年度山西省二级建造师职业资格考试">【成绩查询】2026年度山西省二级建造师职业资格考试</a><em class="mytime">
+										2026-07-31
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item4" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./qtks/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202509/t20250921_9962727.shtml" target="_blank" title="山西省公安厅交通管理总队2025年度公开招聘警务辅助人员拟聘用人员公示">山西省公安厅交通管理总队2025年度公开招聘警务辅助人员拟聘用人员公示</a><em class="mytime">
+										2025-09-21
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202508/t20250820_9939543.shtml" target="_blank" title="山西省公安厅监察勤务局2025年度公开招聘警务辅助人员拟聘用人员公示">山西省公安厅监察勤务局2025年度公开招聘警务辅助人员拟聘用人员公示</a><em class="mytime">
+										2025-08-20
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202507/t20250723_9923572.shtml" target="_blank" title="山西省公安厅交通管理总队2025年度公开招聘警务辅助人员体检及考察公告">山西省公安厅交通管理总队2025年度公开招聘警务辅助人员体检及考察公告</a><em class="mytime">
+										2025-07-24
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202507/t20250723_9923568.shtml" target="_blank" title="山西省公安厅监察勤务局2025年度公开招聘警务辅助人员体检及考察公告">山西省公安厅监察勤务局2025年度公开招聘警务辅助人员体检及考察公告</a><em class="mytime">
+										2025-07-24
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202507/t20250714_9917586.shtml" target="_blank" title="山西省公安厅交通管理总队2025年度公开招聘警务辅助人员面试公告">山西省公安厅交通管理总队2025年度公开招聘警务辅助人员面试公告</a><em class="mytime">
+										2025-07-14
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202507/t20250714_9917575.shtml" target="_blank" title="山西省公安厅监察勤务局2025年度公开招聘警务辅助人员面试公告">山西省公安厅监察勤务局2025年度公开招聘警务辅助人员面试公告</a><em class="mytime">
+										2025-07-14
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202506/t20250624_9887876.shtml" target="_blank" title="山西省公安厅交通管理总队2025年度公开招聘警务辅助人员资格复审公告">山西省公安厅交通管理总队2025年度公开招聘警务辅助人员资格复审公告</a><em class="mytime">
+										2025-06-24
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202506/t20250624_9887874.shtml" target="_blank" title="山西省公安厅监察勤务局2025年度公开招聘警务辅助人员资格复审公告">山西省公安厅监察勤务局2025年度公开招聘警务辅助人员资格复审公告</a><em class="mytime">
+										2025-06-24
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202506/t20250616_9875060.shtml" target="_blank" title="山西省公安厅监察勤务局2025年度公开招聘警务辅助人员体能测评公告">山西省公安厅监察勤务局2025年度公开招聘警务辅助人员体能测评公告</a><em class="mytime">
+										2025-06-16
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202506/t20250609_9859258.shtml" target="_blank" title="山西省公安厅交通管理总队2025年度公开招聘警务辅助人员体能测评公告">山西省公安厅交通管理总队2025年度公开招聘警务辅助人员体能测评公告</a><em class="mytime">
+										2025-06-09
+									</em>
+								</li>
+							
+
+								<li class="notices">
+									<a href="./qtks/qtzplks/202505/t20250530_9845411.shtml" target="_blank" title="关于公布山西省公安厅监察勤务局2025年度公开招聘警务辅助人员笔试成绩公告">关于公布山西省公安厅监察勤务局2025年度公开招聘警务辅助人员笔试成绩公告</a><em class="mytime">
+										2025-05-30
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item5" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./zcwj_762/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li>
+									<a href="./zcwj_762/zyjsryzgks_765/201902/t20190226_2910206.shtml" target="_blank" title="专业技术人员资格考试考场规则">专业技术人员资格考试考场规则</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="./zcwj_762/zyjsryzgks_765/201902/t20190226_2910205.shtml" target="_blank" title="中华人民共和国人力资源和社会保障部第31号令">中华人民共和国人力资源和社会保障部第31号令</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f3236dbf43a4016dc3c277e60002&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d" target="_blank" title="中华人民共和国公务员法">中华人民共和国公务员法</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="./zcwj_762/sydwks_764/201902/t20190226_2910204.shtml" target="_blank" title="事业单位公开招聘人员暂行规定(第6号令)">事业单位公开招聘人员暂行规定(第6号令)</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="./zcwj_762/sydwks_764/201902/t20190226_2910203.shtml" target="_blank" title="中华人民共和国人力资源和社会保障部令第35号">中华人民共和国人力资源和社会保障部令第35号</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f6d07c74c460017c7e51f2bc038c&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d" target="_blank" title="公务员录用违规违纪行为处理办法">公务员录用违规违纪行为处理办法</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/article/articledetail.html?ArticleId=8a81f3246f8321d0016f87e80cae0002&id=0000000062b7b2b60162bcd13002000c&eid=0000000062b7b2b60162bcd1a324000d" target="_blank" title="公务员录用规定">公务员录用规定</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item6" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./cjwt/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li>
+									<a href="./cjwt/zyjsryzgks_770/202412/t20241223_9726476.shtml" target="_blank" title="专业技术人员职业资格考试合格人员信息变更说明">专业技术人员职业资格考试合格人员信息变更说明</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./cjwt/zyjsryzgks_770/201902/t20190226_2910207.shtml" target="_blank" title="关于申请找回职业资格考试报名平台注册信息的操作说明">关于申请找回职业资格考试报名平台注册信息的操作说明</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./cjwt/zyjsryzgks_770/202412/t20241223_9726473.shtml" target="_blank" title="专业技术人员职业资格考试成绩复查相关说明">专业技术人员职业资格考试成绩复查相关说明</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="http://www.cpta.com.cn/topic/1284.html" target="_blank" title="专业技术人员职业资格考试答题卡填涂规范">专业技术人员职业资格考试答题卡填涂规范</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./cjwt/zyjsryzgks_770/202201/t20220121_4581154.shtml" target="_blank" title="电子票据领取流程">电子票据领取流程</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./cjwt/zyjsryzgks_770/202411/t20241111_9689060.shtml" target="_blank" title="职业资格证书常见问题解答">职业资格证书常见问题解答</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="https://rst.shanxi.gov.cn/rsks/zyjsryzgks/" target="_blank" title="专业技术人员职业资格考试报名文件">专业技术人员职业资格考试报名文件</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./cjwt/zyjsryzgks_770/201902/t20190226_2910208.shtml" target="_blank" title="考生问答">考生问答</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item7" style="display:none;">
+						<div class="main-coin_more"><a
+								href="./xzzx/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li>
+									<a href="./xzzx/zyjsryzgks_775/201902/t20190227_2910212.shtml" target="_blank" title="专业技术人员考试照片处理工具">专业技术人员考试照片处理工具</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./xzzx/zyjsryzgks_775/201902/t20190227_2910211.shtml" target="_blank" title="工作年限及从业年限证明">工作年限及从业年限证明</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+								<li>
+									<a href="./xzzx/gwyks_773/201905/t20190508_2910210.shtml" target="_blank" title="公务员类照片处理工具">公务员类照片处理工具</a><em>
+										2026-05-21
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item8" style="display:none;">
+						<div class="main-coin_more"><a
+								href="./qtsxnew/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li>
+									<a href="./qtsxnew/202609/t20260929_10229348.shtml" target="_blank" title="山西省人事考试中心办公楼五楼网络设备搬迁及整理办公楼弱电线路磋商公告">山西省人事考试中心办公楼五楼网络设备搬迁及整理办公楼弱电线路磋商公告</a><em>
+										2026-09-29
+									</em>
+								</li>
+							
+								<li>
+									<a href="./qtsxnew/202609/t20260918_10223265.shtml" target="_blank" title="山西省人事考试中心资格考试机考技术服务招标公告">山西省人事考试中心资格考试机考技术服务招标公告</a><em>
+										2026-09-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="./qtsxnew/202507/t20250715_9918489.shtml" target="_blank" title="山西省人事考试中心组织的有关考试收费标准公示表">山西省人事考试中心组织的有关考试收费标准公示表</a><em>
+										2026-08-07
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<div class="main-con_item hide" id="main_con_item9" style="display: none;">
+						<div class="main-coin_more"><a
+								href="./gywm/">更多信息</a></div>
+						<ul class="main-con_list">
+							
+								<li>
+									<a href="./gywm/lxwm/202107/t20210729_2910216.shtml" target="_blank" title="山西省人事考试中心咨询电话">山西省人事考试中心咨询电话</a><em>
+										2026-05-20
+									</em>
+								</li>
+							
+								<li>
+									<a href="./gywm/gsdh/201902/t20190227_2910217.shtml" target="_blank" title="山西省各市人事考试机构">山西省各市人事考试机构</a><em>
+										2026-04-20
+									</em>
+								</li>
+							
+						</ul>
+					</div>
+					<!-- nav start -->
+					<div class="exam-nav  left">
+						<ul class="exam-hrrs-nav">
+							<li class="mnnorm2"><a
+									href="./zcwj_762/"><img src="../images/ksw_bg-nav_icon1.png" /><br>政策文件</a></li>
+							<li class="mnnorm2"><a href="./cjwt/"><img src="../images/ksw_bg-nav_icon2.png" /><br>常见问题</a></li>
+							<li class="mnnorm2"><a href="./xzzx/"><img src="../images/ksw_bg-nav_icon3.png" /><br>下载中心</a></li>
+							<li class="mnnorm2"><a href="./qtsxnew/"><img src="../images/ksw_bg-nav_icon1.png" /><br>信息公开</a></li>
+							<li class="mnnorm2"><a href="./gywm/"><img src="../images/ksw_bg-nav_icon4.png" /><br>关于我们</a></li>
+						</ul>
+						<!-- <div class="exam-hrrs-topic right"><a href="#"><img src="../images/ksw_topic-1.png" /></a></div> -->
+					</div>
+					<!-- nav end -->
+				</div>
+				<div class="exam-main-right right">
+					<!-- slide -->
+					<div id="content_imgs_slide_box" class="shxidx-carousel exam-hrrs"
+						style="opacity: 1; display: block;">
+
+						
+							<a class="content-imgs-slide-item" href="http://www.cpta.com.cn/topic/757.html"
+								target="_blank">
+								<img src="./qtsx/qtsx1/202607/W020260731583971568464.png" title="
+								资格考试违规培训、报名典型判例" /><b></b> <span>
+									资格考试违规培训、报名典型判例
+								</span>
+							</a>
+						
+							<a class="content-imgs-slide-item" href="http://www.cpta.com.cn/topic/759.html"
+								target="_blank">
+								<img src="./qtsx/qtsx1/202607/W020260731579969348535.png" title="
+								考试作弊犯罪典型案例" /><b></b> <span>
+									考试作弊犯罪典型案例
+								</span>
+							</a>
+						
+							<a class="content-imgs-slide-item" href="https://rst.shanxi.gov.cn/rsks/gywm/lxwm/202107/t20210729_2910216.shtml"
+								target="_blank">
+								<img src="./qtsx/qtsx1/202403/W020240322435716009282.jpg" title="
+								咨询电话" /><b></b> <span>
+									咨询电话
+								</span>
+							</a>
+						
+						<!-- <div class="shxidx-wrapper-outer">
+							<div class="shxidx-wrapper"
+								style="width: 1160px; left: 0px; display: block; transition: all 3000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+								<div class="content-imgs-slide-item" style="width: 290px;"><a
+										class="content-imgs-slide-item" href="images/t20190226_2910256.html"
+										target="_blank" style="width: 290px;">
+										<img src="../images/W020211027663717246223.jpg" title="诚信考试" /><b></b>
+										<span>诚信考试</span>
+									</a></div>
+							</div>
+						</div>
+						<div class="shxidx-controls clickable" style="display: none;">
+							<div class="shxidx-pagination">
+								<div class="shxidx-page active"><span class=""></span></div>
+							</div>
+							<div class="shxidx-buttons">
+								<div class="shxidx-prev"></div>
+								<div class="shxidx-next"></div>
+							</div>
+						</div> -->
+					</div>
+					<!-- slide -->
+					<!-- show-p -->
+					<ul class="exam-showp">
+						<li><a href="./zgksbmzmsxgzcnz/">
+								<div><i><img src="../images/ksw_icon-showp-0.png" /></i><span>资格考试报名证明事项<br />告知承诺制</span></div>
+							</a></li>
+						<li><a href="./wsbm/">
+								<div><i><img src="../images/ksw_icon-showp-1.png" /></i>网上报名<em>registeration</em></div>
+							</a></li>
+						<li><a href="./zkzdy/">
+								<div><i><img src="../images/ksw_icon-showp-2.png" /></i>准考证打印<em>ticket printing</em></div>
+							</a></li>
+						<li><a href="./cjcx/">
+								<div><i><img src="../images/ksw_icon-showp-3.png" /></i>成绩查询<em>query results</em></div>
+							</a></li>
+						<li><a href="./zsff_2333/">
+								<div><i><img src="../images/ksw_icon-showp-5.png" /></i>证书查询<em>certificate</em></div>
+							</a></li>
+						<li><a href="./zsff/">
+								<div><i><img src="../images/ksw_icon-showp-4.png" /></i>证书发放<em>certificate</em></div>
+							</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 正文结束 -->
+			<!-- foot -->
+			<div class="rsfoot clearfix">
+				<div class="content">
+					<ul>
+						<li>
+							<a href="http://bszs.conac.cn/sitename?method=show&id=08058F9BB90F78A4E053022819AC7BD2"><img src="../images/rstfoot.png" style="margin-right: 20px;margin-left: 20px;" /></a>
+							<a
+								href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=1400000038&url=https%3A%2F%2Fwww.shanxi.gov.cn%2Fywdt%2Fzcjd%2F"><img src="../images/jiucuo.png" /></a>
+						</li>
+						<li>
+							<p>主办单位：山西省人力资源和社会保障厅 版权所有：山西省人力资源和社会保障厅</p>
+							
+							<p>地址：太原市万柏林区滨河西路南段129号山西焦煤双创基地B座14-18层</p>
+<p>办公时间：8:30-12:00 14:00-17:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：0351-3809301</p>
+							<p>网站标识码1400000038 &nbsp;&nbsp;&nbsp;晋ICP07000928号
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14010902000503" style="text-align:center;font-size: 15px;color: #fff; margin-bottom: 20px;"><img src="../images/ghs.png" />晋公网安备 14010902000503号</a></p>
+						</li>
+						<li>
+							<img src="../images/rst20.png" alt="rst20.png" title="rst20.png" style="margin-right: 20px" />
+							<img src="../images/rst21.png" alt="rst21.png" title="rst21.png" style="margin-right: 20px" />
+							<img src="../images/rst22.png" alt="rst22.png" title="rst22.png" />
+						</li>
+					</ul>
+				</div>
+			</div>
+<script src="../images/esdToolsInit.js" charset="UTF-8"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5366" async="async" defer="defer"></script>
+		</div>
+	</body>
+</html>

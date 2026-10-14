@@ -1,0 +1,471 @@
+{
+  "name": [
+    {
+      "text": "医学理赔/核保",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学理赔/核保"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [
+    {
+      "id": "manual-role_postings_2026-10-05_claude-10",
+      "url": "https://campus.niuqizp.com/job-v8m55Mt55.html",
+      "role": "医学理赔",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-11",
+      "url": "https://campus.niuqizp.com/job-vYY5tMaCz.html",
+      "role": "医学理赔",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-12",
+      "url": "https://campus.niuqizp.com/job-vrU5NzMLa.html",
+      "role": "医学理赔",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-13",
+      "url": "https://campus.niuqizp.com/job-vsm5ZCMaN.html",
+      "role": "医学理赔",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "受理案件、收集单证并审核理赔。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5nztnM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5nztnM",
+          "text": "案件受理、查勘定责、单证收集、理赔审核及结案操作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "判断损失和责任，开展理赔谈判。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5nztnM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5nztnM",
+          "text": "准确判断人伤案件的损失范围与责任归属"
+        },
+        {
+          "evidence_id": "v8s5nztnM",
+          "text": "开展理赔谈判"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "核价、制作医疗审核清单并录入估损单。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYY5tMaCz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYY5tMaCz",
+          "text": "医疗审核清单和伤亡事故损失核定清单的制作等)和估损单录入"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "跟踪未决案件进展。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5nztnM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5nztnM",
+          "text": "定期跟踪未决人伤案件进展"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "整理和归档理赔材料。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8s5nztnM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8s5nztnM",
+          "text": "负责人伤案件纸质与电子理赔材料的整理、归档与管理工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "分析理赔数据并提出风险提示。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8m55Mt55"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8m55Mt55",
+          "text": "协助对理赔相关数据进行追踪及分析，形成风险提示及决策建议"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "一位理赔员自述每天处理的案件包含医疗险及重疾险理赔；仅证实其本人涉及这些案种，没有披露核保工作。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-medical-claims-caselist-019"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-medical-claims-caselist-019",
+          "text": "每天处理的案件包括但不限于"
+        },
+        {
+          "evidence_id": "xhs-medical-claims-caselist-019",
+          "text": "医疗险，重疾险理赔等等"
+        }
+      ],
+      "scope": "仅该作者所述阶段和岗位经历，不代表行业。理赔员本人简短案种清单，包含医疗/重疾险，不证明核保职责、具体审核流程或医学资格要求"
+    },
+    {
+      "text": "另一位理赔员收到客户投诉后查看案件和既往联系情况，核查电话、短信记录及材料告知。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-medical-claims-complaint-020"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-medical-claims-complaint-020",
+          "text": "我赶紧查这个案子"
+        },
+        {
+          "evidence_id": "xhs-medical-claims-complaint-020",
+          "text": "我7.11号打了三次电话"
+        },
+        {
+          "evidence_id": "xhs-medical-claims-complaint-020",
+          "text": "也发送了短信"
+        },
+        {
+          "evidence_id": "xhs-medical-claims-complaint-020",
+          "text": "告知所需材料"
+        }
+      ],
+      "scope": "仅该作者所述阶段和岗位经历，不代表行业。理赔员本人涉及治疗材料通知的一次投诉场景，未注明险种，不证明核保权限，不把该案办理条件当行业规则"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYY5tMaCz",
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55",
+          "v8s5nztnM"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“中医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中医学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55",
+          "vYY5tMaCz",
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“公共卫生与预防医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共卫生与预防医学类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55",
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“动物医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "动物医学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "v8s5nztnM"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“口腔医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "口腔医学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55",
+          "vYY5tMaCz",
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份专业类字段为“护理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "护理学类",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m55Mt55",
+          "v8s5nztnM",
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“法学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "法学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vrr55ntZN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m55Mt55",
+        "v8s5nztnM",
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vrr55ntZN"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医疗理赔岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYY5tMaCz",
+        "vrr55ntZN"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "人伤理赔作业岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8s5nztnM"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医学理赔",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8m55Mt55"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 5.181,
+  "access_date": "2026-10-12",
+  "sha256": "abf8121d8a1d5fc08bf67dd4e8e2b60c0895d374ac222bad6a7332f39e03ee1d",
+  "blocked": null,
+  "id": "kanzhun-official-search",
+  "company": "kanzhun",
+  "query": "KANZHUN LIMITED 2076 2025 annual results revenue online recruitment enterprise customers",
+  "include_domains": [
+    "hkexnews.hk"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/kanzhun-official-search.json"
+}

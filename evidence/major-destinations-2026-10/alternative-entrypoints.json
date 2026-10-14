@@ -1,0 +1,127 @@
+{
+  "accessed_at": "2026-10-05",
+  "purpose": "未完成项替代入口核验，不是完整验收",
+  "sources": [
+    {
+      "name": "教育部学生服务与素质发展中心：2024届就业质量报告汇总",
+      "url": "https://1600.ncss.cn/ncss/zt/jyzlbg2024.shtml",
+      "state": "正文与链接取得",
+      "finding": "医学相关学校有天津医大、承德医学院、长春中医药大学、温医仁济；部分综合大学链接直接指向学校微信公众号",
+      "classification": "官方发现入口；不等于报告原文数据"
+    },
+    {
+      "name": "康达学院就业报告目录",
+      "url": "https://kdc.njmu.edu.cn/_t883/jyzlndbg/list.psp",
+      "state": "正文取得",
+      "finding": "目录最新2024届，2025-11-25发布；未列2025届",
+      "classification": "本次目录观察，不宣称全网无2025报告"
+    },
+    {
+      "name": "广西医大信息公开年报",
+      "url": "https://www.gxmu.edu.cn/dwxw/dwxw_ndbg/t223384.html",
+      "state": "正文取得",
+      "published": "2025-11-21",
+      "finding": "学校确认编发2025就业质量报告并用微信公众号推送招聘和指导信息；没有取得就业报告附件",
+      "classification": "报告存在及公众号渠道的官方说明，不是去向统计"
+    },
+    {
+      "name": "温州医科大学就业渠道说明",
+      "url": "https://zwgk.wmu.edu.cn/info/1092/1269.htm",
+      "state": "搜索发现",
+      "finding": "温医大就业微信公众号与就业网",
+      "classification": "待核渠道，不计统计"
+    },
+    {
+      "name": "牛客：从生物医学转行到互联网数据分析师",
+      "url": "https://www.nowcoder.com/discuss/353148587666251776",
+      "state": "正文取得",
+      "published": "2021-01-07（已编辑）",
+      "finding": "作者自述生物学本科、生物信息学硕士、两份数据实习；提及学校就业群、企业官网、牛客；文末导流本人公众号",
+      "classification": "个人自述且有推广动机，身份和offer未独立核验；不是临床医学案例，不进入毕业去向CSV"
+    },
+    {
+      "name": "知乎：临床医学本科转CRA/CRC讨论",
+      "url": "https://www.zhihu.com/en/answer/2332893480",
+      "state": "搜索发现，未取得本轮目标页正文",
+      "finding": "回答存在不同背景及内推动机；2022旧线索",
+      "classification": "非统计、非当前JD"
+    },
+    {
+      "name": "知乎：护理转CRC/CRA讨论",
+      "url": "https://www.zhihu.com/en/answer/866253224",
+      "state": "搜索发现，未取得本轮目标页正文",
+      "finding": "2019旧讨论",
+      "classification": "体验线索，未验证"
+    },
+    {
+      "name": "知乎：Medical Writing讨论",
+      "url": "https://www.zhihu.com/en/answer/2294271722",
+      "state": "搜索发现，未取得本轮目标页正文",
+      "finding": "医学写作的岗位理解与路径争论",
+      "classification": "待验证岗位线索，不能替代三份招聘原文"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://srsj.cngy.gov.cn/Files/UploadFile/SiteFile/20160720104022026/2026/04/14/8a8384d8e7d34d90b1a8e191a4f585cb.pdf",
+      "tool": "web-access WebFetch",
+      "error": "405 Method Not Allowed",
+      "impact": "该职业大典PDF正文未取得"
+    },
+    {
+      "url": "https://rsj.xam.gov.cn/rsj/2024-03/20/3242257a6f1e47fda6f73349a1365bba/2024032009391533279.pdf",
+      "tool": "web-access WebFetch",
+      "error": "Internal Error",
+      "impact": "另一官方大典PDF正文未取得"
+    },
+    {
+      "url": "https://www.zhihu.com/robots.txt",
+      "tool": "web-access WebFetch",
+      "error": "(400) Timeout fetching",
+      "impact": "本轮规则未知，未深入知乎目标页"
+    },
+    {
+      "url": "https://mp.weixin.qq.com/robots.txt",
+      "tool": "web-access WebFetch",
+      "error": "cannot be opened (non-retryable error)",
+      "impact": "本轮规则未知，未读取微信目标正文"
+    },
+    {
+      "url": "https://www.tjyzh.cn/info/1031/4878.htm",
+      "tool": "web-access WebFetch",
+      "error": "(400) Timeout fetching",
+      "impact": "2025天津医学高专报告未取得"
+    },
+    {
+      "url": "https://jywgl.tmu.edu.cn/Uploads/file/20241231/1735611321403795.pdf",
+      "tool": "web-access WebFetch",
+      "error": "(400) Timeout fetching",
+      "impact": "天津医科大学2024报告官方附件未取得"
+    },
+    {
+      "url": "https://xxgk.cdmc.edu.cn/art/2024/12/27/art_76_91589.html",
+      "tool": "web-access WebFetch",
+      "error": "(400) Timeout fetching",
+      "impact": "承德医学院2024报告未取得"
+    },
+    {
+      "url": "https://cczyy.bysjy.com.cn/detail/news?id=1118274",
+      "tool": "web-access WebFetch",
+      "error": "该信息不存在或已过期，即将跳回首页",
+      "impact": "官方汇总旧链接不能当报告原文"
+    },
+    {
+      "url": "https://rjxy.wmu.edu.cn/info/1082/196839.htm",
+      "tool": "web-access WebFetch",
+      "error": "报告发布页正文取得；所链图片读取Internal Error",
+      "impact": "2024报告发布于2025-01-31，未取得报告内数据"
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/dcaefd6d21bf4710a0a87cbfde050a8f",
+      "tool": "web-access WebFetch",
+      "error": "Cache miss",
+      "impact": "26届公共医学转行提问仅搜索线索，未核正文"
+    }
+  ],
+  "next_step": "按用户AGENTS失败路径不自行换工具；待用户对失败入口改用现有Chrome CDP给出指引。不注册/支付/发送，不用绕过验证码或禁止路径。"
+}

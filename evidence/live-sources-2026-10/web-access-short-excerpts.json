@@ -1,0 +1,68 @@
+{
+  "accessed_at": "2026-10-05",
+  "notice": "短摘录直接取已得到的工具正文，不保存全篇；行号是工具展示行。读取工具有缓存时效，非原始HTTP/新Chrome截图。",
+  "pages": [
+    {
+      "url": "https://www.nowcoder.com/discuss/677971054463053824",
+      "method": "WebFetch",
+      "lines": "46,60–65",
+      "metadata": "2024-10-21 20:14；智能驾驶系统工程师",
+      "excerpts": [
+        "OKR包含的任务",
+        "反馈给数据团队",
+        "和mentor讨论"
+      ]
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/d0cfcd0f756740069b64fe1956fc9b7f",
+      "method": "WebFetch",
+      "lines": "46,53",
+      "metadata": "2024-05-24 15:31；Java",
+      "excerpts": [
+        "目前感觉对自己没什么提升"
+      ]
+    },
+    {
+      "url": "https://www.nowcoder.com/feed/main/detail/bd84598eaf9745bdb3611dba5435ff12",
+      "method": "WebFetch",
+      "lines": "46,55–56",
+      "metadata": "01-07 11:56；算法工程师；未显示年份",
+      "excerpts": [
+        "晚上通常会继续工作到十点左右",
+        "有接指导的话"
+      ]
+    },
+    {
+      "url": "https://www.tavily.com/terms",
+      "method": "WebFetch/find",
+      "lines": "47,57,69,162–164",
+      "sections": "1.2 / 2 / 3.2(x) / 6.5",
+      "excerpts": [
+        "including integration of the Services with Customer Applications",
+        "disclose to any third party any performance information or analysis",
+        "training datasets"
+      ],
+      "quote_word_count": 23
+    },
+    {
+      "url": "https://api-dashboard.search.brave.com/documentation/resources/terms-of-service",
+      "method": "WebSearch提供官方页正文，不仅结果摘要",
+      "sections": "3.2(i)/(xiii)",
+      "excerpts": [
+        "store, cache, or create a database of Search Results",
+        "evaluate, train, re-train, fine-tune, benchmark"
+      ],
+      "quote_word_count": 16
+    },
+    {
+      "url": "https://www.52cv.com/",
+      "method": "WebFetch",
+      "lines": "141–142,160–163,621–638",
+      "excerpts": [
+        "根据简历和岗位要求",
+        "面试反馈报告",
+        "AI模拟面试"
+      ]
+    }
+  ]
+}

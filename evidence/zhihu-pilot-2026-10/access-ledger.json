@@ -1,0 +1,278 @@
+{
+  "started_at": "2026-10-11T16:27:07.988629+08:00",
+  "entries": [
+    {
+      "sequence": 1,
+      "site": "baidu",
+      "kind": "search",
+      "role": "临床监查员（CRA）",
+      "query": "知乎 CRA 工作是什么体验",
+      "opened_at": null,
+      "checked_at": "2026-10-11T08:27:29.999Z",
+      "evidence": "search-01.json",
+      "state": "search_loaded",
+      "timing_note": "导航时间未单独落账；在started_at与search-01.collected_at之间",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20CRA%20%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C"
+    },
+    {
+      "sequence": 2,
+      "site": "zhihu",
+      "kind": "page_open",
+      "role": "临床监查员（CRA）",
+      "url": "https://www.zhihu.com/question/597894539/answer/126502285208",
+      "opened_at": "2026-10-11T08:27:35.873Z",
+      "left_at": "2026-10-11T08:30:21.267Z",
+      "state": "answer_body_loaded",
+      "evidence": [
+        "answer-01.json",
+        "answer-02.json",
+        "answer-03.json"
+      ],
+      "read_seconds": 165.394,
+      "required_read_seconds": 175.71,
+      "compliance_note": "首次页面停留165.393秒，较三篇累计175.71秒少10.317秒；不得宣称阅读时长验收全通过"
+    },
+    {
+      "sequence": 3,
+      "site": "baidu",
+      "kind": "search",
+      "role": "临床监查员（CRA）",
+      "query": "知乎 CRA 入职一年 离职",
+      "opened_at": "2026-10-11T08:30:21.267Z",
+      "evidence": "search-02.json",
+      "state": "search_loaded",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20CRA%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E7%A6%BB%E8%81%8C",
+      "checked_at": "2026-10-11T08:30:45.158Z"
+    },
+    {
+      "sequence": 4,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医药代表",
+      "query": "知乎 医药代表 工作是什么体验",
+      "opened_at": "2026-10-11T08:30:45.193Z",
+      "evidence": "search-03.json",
+      "state": "search_loaded",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%20%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C",
+      "checked_at": "2026-10-11T08:30:57.285Z",
+      "seconds_since_previous_same_site_navigation": 23.926
+    },
+    {
+      "sequence": 5,
+      "site": "zhihu",
+      "kind": "page_open",
+      "role": "医药代表",
+      "url": "https://www.zhihu.com/question/301742682/answer/49436158271",
+      "opened_at": "2026-10-11T08:31:03.107Z",
+      "state": "answer_body_loaded",
+      "evidence": [
+        "answer-04.json",
+        "answer-05.json",
+        "answer-06.json"
+      ],
+      "left_at": "2026-10-11T08:33:10.625Z",
+      "read_seconds": 127.518,
+      "required_read_seconds": 109.47,
+      "seconds_since_previous_same_site_navigation": 207.234
+    },
+    {
+      "sequence": 6,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医药代表",
+      "opened_at": "2026-10-11T08:33:10.625Z",
+      "state": "search_loaded",
+      "evidence": "search-04.json",
+      "query": "知乎 医药代表 入职一年 离职",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E8%8D%AF%E4%BB%A3%E8%A1%A8%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E7%A6%BB%E8%81%8C",
+      "checked_at": "2026-10-11T08:33:21.537Z",
+      "seconds_since_previous_same_site_navigation": 145.432
+    },
+    {
+      "sequence": 7,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医学写作",
+      "opened_at": "2026-10-11T08:33:27.988Z",
+      "state": "search_loaded",
+      "evidence": "search-05.json",
+      "query": "知乎 医学写作 工作是什么体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C%20%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C",
+      "checked_at": "2026-10-11T08:33:38.284Z",
+      "seconds_since_previous_same_site_navigation": 17.363
+    },
+    {
+      "sequence": 8,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医学写作",
+      "opened_at": "2026-10-11T08:33:50.498Z",
+      "state": "search_loaded",
+      "evidence": "search-06.json",
+      "query": "知乎 医学写作 入职一年 转行",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E8%BD%AC%E8%A1%8C",
+      "checked_at": "2026-10-11T08:34:00.121Z",
+      "seconds_since_previous_same_site_navigation": 22.51
+    },
+    {
+      "sequence": 9,
+      "site": "zhihu",
+      "kind": "page_open",
+      "role": "医学写作",
+      "opened_at": "2026-10-11T08:34:07.758Z",
+      "left_at": "2026-10-11T08:35:06.455Z",
+      "read_seconds": 58.697,
+      "required_read_seconds": 30.96,
+      "state": "answer_body_loaded",
+      "evidence": [
+        "answer-07.json",
+        "answer-08.json",
+        "answer-09.json",
+        "answer-10.json",
+        "answer-11.json"
+      ],
+      "url": "https://www2.zhihu.com/question/50770074",
+      "seconds_since_previous_same_site_navigation": 184.651
+    },
+    {
+      "sequence": 10,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医疗器械注册",
+      "opened_at": "2026-10-11T08:35:06.455Z",
+      "state": "search_loaded",
+      "evidence": "search-07.json",
+      "query": "知乎 医疗器械注册 工作是什么体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%B3%A8%E5%86%8C%20%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C",
+      "checked_at": "2026-10-11T08:35:16.305Z",
+      "seconds_since_previous_same_site_navigation": 75.957
+    },
+    {
+      "sequence": 11,
+      "site": "zhihu",
+      "kind": "page_open",
+      "role": "医疗器械注册",
+      "opened_at": "2026-10-11T08:35:21.543Z",
+      "left_at": "2026-10-11T08:36:55.664Z",
+      "read_seconds": 94.121,
+      "required_read_seconds": 81.15,
+      "state": "answer_body_loaded",
+      "evidence": [
+        "answer-12.json",
+        "answer-13.json",
+        "answer-14.json"
+      ],
+      "url": "https://www.zhihu.com/question/511536316/answer/2018002240619717108",
+      "seconds_since_previous_same_site_navigation": 73.785
+    },
+    {
+      "sequence": 12,
+      "site": "baidu",
+      "kind": "search",
+      "role": "医疗器械注册",
+      "opened_at": "2026-10-11T08:36:55.664Z",
+      "state": "search_loaded",
+      "evidence": "search-08.json",
+      "query": "知乎 医疗器械注册 入职一年 离职",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%B3%A8%E5%86%8C%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E7%A6%BB%E8%81%8C",
+      "checked_at": "2026-10-11T08:37:09.730Z",
+      "seconds_since_previous_same_site_navigation": 109.209
+    },
+    {
+      "sequence": 13,
+      "site": "baidu",
+      "kind": "search",
+      "role": "算法工程师",
+      "opened_at": "2026-10-11T08:37:17.052Z",
+      "state": "search_loaded",
+      "evidence": "search-09.json",
+      "query": "知乎 算法工程师 工作是什么体验",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%20%E5%B7%A5%E4%BD%9C%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C",
+      "checked_at": "2026-10-11T08:37:26.569Z",
+      "seconds_since_previous_same_site_navigation": 21.388
+    },
+    {
+      "sequence": 14,
+      "site": "baidu",
+      "kind": "search",
+      "role": "算法工程师",
+      "opened_at": "2026-10-11T08:37:39.151Z",
+      "state": "search_loaded",
+      "evidence": "search-10.json",
+      "query": "知乎 算法工程师 入职一年 离职",
+      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E4%B9%8E%20%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%20%E5%85%A5%E8%81%8C%E4%B8%80%E5%B9%B4%20%E7%A6%BB%E8%81%8C",
+      "checked_at": "2026-10-11T08:37:48.825Z",
+      "seconds_since_previous_same_site_navigation": 22.099
+    },
+    {
+      "sequence": 15,
+      "site": "baidu",
+      "kind": "search",
+      "role": "算法工程师",
+      "opened_at": "2026-10-11T08:38:04.072Z",
+      "state": "search_loaded",
+      "evidence": "search-11.json",
+      "query": "site:zhihu.com/question 算法工程师 日常 体验",
+      "url": "https://www.baidu.com/s?wd=site%3Azhihu.com%2Fquestion%20%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%20%E6%97%A5%E5%B8%B8%20%E4%BD%93%E9%AA%8C",
+      "checked_at": "2026-10-11T08:38:13.771Z",
+      "seconds_since_previous_same_site_navigation": 24.921
+    },
+    {
+      "sequence": 16,
+      "site": "zhihu",
+      "kind": "page_open",
+      "role": "算法工程师",
+      "opened_at": "2026-10-11T08:38:21.418Z",
+      "state": "answer_body_loaded",
+      "evidence": [
+        "answer-15.json",
+        "answer-16.json",
+        "answer-17.json"
+      ],
+      "left_at": "2026-10-11T08:40:08.166Z",
+      "read_seconds": 106.748,
+      "required_read_seconds": 85.29,
+      "url": "https://www.zhihu.com/question/490150407/answer/2158935592",
+      "seconds_since_previous_same_site_navigation": 179.875
+    }
+  ],
+  "counting": "search/page_open are navigations; DOM reads are logged separately, not additional content page opens; internal browser asset requests are not measurable",
+  "collection_finished_at": "2026-10-11T16:40:38.013925+08:00",
+  "limits": {
+    "baidu_search_max": 15,
+    "zhihu_page_open_max": 25,
+    "daily_answer_max": 60,
+    "same_site_navigation_min_seconds": 5
+  },
+  "counts": {
+    "baidu_search": 11,
+    "zhihu_page_open": 5,
+    "unique_question_pages": 5,
+    "read_answers": 17
+  },
+  "stop_events": [],
+  "last_successful_zhihu_open_sequence": 16,
+  "task_tab_closed": true,
+  "privacy": "仅作者昵称，正文联系方式和简介已最小化；不保存用户账号信息",
+  "controls": {
+    "cdp_eval_calls": 33,
+    "count_note": "33次只读DOM控制，包括2次输出截断后的缩小读取；不调用fetch/点击/滚动。另有about:blank创建与tab关闭各1次；check-deps 1次。",
+    "timestamps": "导航2-16按调用前UTC时间记录；第一条搜索导航时间未单独记录，仅有started_at及正文采集时间界限，不能补造精确时间"
+  },
+  "protocol_deviations": [
+    {
+      "sequence": 2,
+      "type": "reading_dwell_shortfall",
+      "observed_seconds": 165.394,
+      "required_seconds_at_read": 175.71,
+      "note": "原首次采集三篇正文合计5857字，至少175.71秒；实际165.393秒，少10.317秒。正文、引用和判定可核，不宣称时长验收通过。后来隐私最小化不改变原时长审计口径。"
+    },
+    {
+      "sequence": 1,
+      "type": "missing_precise_navigation_timestamp",
+      "note": "第一条搜索缺精确调用前时间，不伪造补齐；请求数有页面证据。"
+    }
+  ],
+  "site_limit_observed": false,
+  "continuous_operation_note": "采集16:27至16:40，少于20分钟，无需五分钟休息；更早为本地准备，未进行站点采集。"
+}

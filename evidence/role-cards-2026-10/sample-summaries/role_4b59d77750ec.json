@@ -1,0 +1,50 @@
+{
+  "name": [
+    {
+      "text": "投资助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "投资助理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYs5ZnzzM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "投资助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYs5ZnzzM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

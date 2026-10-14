@@ -1,0 +1,228 @@
+{
+  "name": [
+    {
+      "text": "医学运营",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学运营"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [
+    {
+      "id": "manual-role_postings_2026-10-05_claude-16",
+      "url": "https://campus.niuqizp.com/job-vwU5ZNMCZ.html",
+      "role": "医学运营专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责分院管理相关项目的推动和实施工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vms5N5znM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vms5N5znM",
+          "text": "负责分院管理相关项目的推动和实施工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与分院管理相关客服、医质、运营等工作全流程跟进，把控项目全流程，提出优化建议",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vms5N5znM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vms5N5znM",
+          "text": "参与分院管理相关客服、医质、运营等工作全流程跟进，把控项目全流程，提出优化建议"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vUY5ztLza",
+          "vyl5ztLzL"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vms5N5znM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vms5N5znM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“公共卫生与预防医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共卫生与预防医学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vms5N5znM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，3份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "vUY5ztLza",
+          "vms5N5znM",
+          "vyl5ztLzL"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vms5N5znM"
+        ]
+      }
+    },
+    {
+      "text": "3份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUY5ztLza",
+        "vms5N5znM",
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vms5N5znM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医学运营1",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUY5ztLza"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医学运营3",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyl5ztLzL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医疗运营管理类管培生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vms5N5znM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

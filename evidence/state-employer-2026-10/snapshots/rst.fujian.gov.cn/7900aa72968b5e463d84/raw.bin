@@ -1,0 +1,3106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta name="viewport"
+		content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="SiteName" content="福建省人力资源和社会保障厅">
+<meta name="SiteDomain" content="rst.fujian.gov.cn">
+<meta name="SiteIDCode" content="3500000048">
+<meta name="ColumnName" content=''>
+<meta name="ColumnDescription" content="福建省人力资源和社会保障厅网站是围绕信息公开、在线办事、互动交流和专题服务定位设置的部门网站，提供各类信息服务"><meta name="ColumnKeywords" content="">
+<meta name="ColumnType" content="首页">
+<meta name="Keywords" content='，福建,人力资源,社会保障,网站,福建省人力资源和社会保障厅,福建省人力资源和社会保障厅网站' />
+<meta name="Description" content='，欢迎访问福建省人力资源和社会保障厅网站。' />
+	<title>
+		福建省人力资源和社会保障厅
+	</title>
+	<link rel="stylesheet" type="text/css" href="./images/trt_iconfont_v2.css">
+	<link rel="stylesheet" type="text/css" href="./images/trt_ui_v2.css">
+	<link rel="stylesheet" type="text/css" href="./images/trt_component_v2.css">
+	<link rel="stylesheet" type="text/css" href="./images/trt_media_v2.css">
+	<link rel="icon" href="./images/renshe.png">
+	<link rel="stylesheet" href="./images/iconfont.css">
+	<link rel="stylesheet" href="./images/20211109-rst-golbal.css">
+	<link rel="stylesheet" href="./images/20211109-rst-style.css">
+
+	<link rel="stylesheet" href="./images/2021rst.css">
+	<!-- 适老化样式 -->
+	<link rel="stylesheet" href="./images/20221101-rst-mainslh.css">
+	<link rel="stylesheet" href="./images/20221101-rst-navslh.css">
+
+	<style>
+		.announcement_05 p a {
+			margin-right: 0rem;
+			padding-right: 0rem;
+		}
+
+		.announcement_05 p a:after {
+			width: 0px;
+		}
+
+		/* 20230829-头条 */
+
+		.smgb-zyxw-box .announcement_05 {
+			padding: 6px;
+			position: relative;
+			text-align: center;
+			overflow: hidden;
+		}
+
+		.smgb-zyxw-box .announcement_05 h3 {
+			font-size: 27px;
+			color: #1658a0;
+			margin-bottom: 8px;
+			font-weight: bold;
+			line-height: 40px;
+		}
+
+		.smgb-zyxw-box .announcement_05 h3 a {
+			color: #1658a0;
+		}
+
+		.smgb-zyxw-box .announcement_05 p {
+			font-size: 16px;
+			line-height: 24px;
+			color: #1658a0;
+			white-space: inherit;
+			text-overflow: ellipsis;
+			text-align: center;
+		}
+
+		.smgb-zyxw-box .announcement_05 p a {
+
+			color: #1658a0;
+			position: relative;
+			margin-left: 5px;
+		}
+
+		.rsgb-sy-tit ul li {
+			font-size: 18px;
+			float: left;
+			margin-right: 7px;
+		}
+
+		.mr a {
+			margin-right: 10px;
+		}
+		.smgb-zyxw-box .announcement_05 p a:last-child:after {
+			display: none;
+		}
+
+		.slb .smgb-zyxw-box .announcement_05 h3 {
+			font-size: 40px;
+			line-height: 45px;
+			height: inherit;
+		}
+
+		.slb .smgb-zyxw-box .announcement_05 p {
+			font-size: 24px;
+			line-height: 28px;
+			white-space: normal;
+		}
+
+		@media screen and (max-width:992px) {
+			.smgb-zyxw-box .announcement_05 {
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			.smgb-zyxw-box .announcement_05 h3 {
+				font-size: 20px;
+				line-height: 28px;
+			}
+
+			.smgb-zyxw-box .announcement_05 p {
+				white-space: normal;
+				font-size: 16px;
+				text-align: justify;
+			}
+
+			/* .smgb-zyxw-box .announcement_05 p a:after {
+				top: inherit;
+				bottom: 0;
+			} */
+
+			.slb .smgb-zyxw-box .announcement_05 h3 {
+				font-size: 30px;
+				line-height: 40px;
+			}
+
+			.slb .smgb-zyxw-box .announcement_05 p {
+				font-size: 22px;
+			}
+
+			.slb .smgb-banner {
+				height: auto !important;
+			}
+		}
+
+
+		/* 20231023 */
+		.slb .smgb-zyxw-box .announcement_05 p a:after {
+			margin-top: 6px;
+		}
+
+		.rsgb-sydw-list li {
+			width: 17.96%;
+			float: left;
+			margin-left: 2%;
+			margin-top: 20px;
+		}
+
+		.tc {
+			display: none;
+			font-size: 20px;
+			align-items: center;
+			text-align: center;
+			margin-top: 5px;
+		}
+
+		.rsgb-xwnr {
+			position: relative;
+		}
+
+
+		.xw-tab-box li {
+			width: 28%;
+		}
+
+		@media screen and (max-width: 750px) {
+			.xw-tab-box {
+				width: 158px;
+			}
+
+			/*  .yqfk-icon {
+                width: 164px;
+            }*/
+
+			.xw-tab-box li {
+				width: auto;
+			}
+		}
+	</style>
+	<style>
+		.rsgb-zcjd li i {
+			background-position: top center;
+		}
+
+		/*适老版样式*/
+		/* .SLB #focusBox .pic img {
+            height: auto !important;
+        } */
+		/*轮播图*/
+
+		.slideBox {
+			position: relative;
+			overflow: hidden;
+			margin: 0px auto;
+			width: 100%;
+		}
+
+		.slideBox .prev,
+		.slideBox .next {
+			position: absolute;
+			top: 50%;
+			margin-top: -20px;
+			display: block;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			z-index: 999;
+			background-color: rgba(0, 0, 0, .6);
+			text-align: center;
+			line-height: 36px;
+		}
+
+		.slideBox .prev {
+			left: 0px;
+		}
+
+		.slideBox .next {
+			right: 0px;
+		}
+
+		.slideBox .bd {
+			position: relative;
+			z-index: 0;
+			overflow: hidden;
+			height: 100%;
+		}
+
+		.slideBox .bd li {
+			position: relative;
+			text-align: center;
+			height: 100%;
+		}
+
+		.slideBox .bd li img {
+			vertical-align: top;
+			width: 100%;
+		}
+
+		.slideBox .bd li .title1 {
+			padding-top: 20px;
+			text-align: left;
+			font-weight: normal;
+			line-height: 28px;
+			padding-bottom: 15px;
+			color: #ffffff;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding-left: 24px;
+			font-size: 16px;
+			padding-right: 130px;
+			z-index: 999;
+		}
+
+		.slideBox .bd li .txt-bg {
+			position: absolute;
+			bottom: 0px;
+			z-index: 1;
+			height: 68px;
+			width: 100%;
+			overflow: hidden;
+			background-size: 100% 80%;
+		}
+
+		.slideBox .hd {
+			position: absolute;
+			z-index: 999;
+			bottom: 13px;
+			text-align: center;
+			right: 15px;
+			cursor: pointer;
+		}
+
+		.slideBox .hd li {
+			display: inline-block;
+			*float: left;
+			width: 10px;
+			height: 8px;
+			line-height: 30px;
+			background: #fff;
+			margin: 0 4px;
+			opacity: 0.5;
+			cursor: pointer;
+			border-radius: 4px;
+			opacity: 0.5;
+			overflow: hidden;
+		}
+
+		.slideBox .hd li.on {
+			opacity: 1;
+			background-color: #ffffff;
+			width: 18px;
+		}
+
+		.slideBox .prev i,
+		.slideBox .next i {
+			font-size: 22px;
+			color: #ffffff;
+		}
+
+		.nyncxw-list ul li i {
+			margin-right: 7px
+		}
+
+		.slideBox .bd li .txt-bg {
+			position: absolute;
+			bottom: 0px;
+			z-index: 1;
+			height: 68px;
+			background: url(/images/20fjszf_bar_bg1.png) repeat-x bottom;
+			width: 100%;
+			overflow: hidden;
+			/* background-size: 100% 80%; */
+		}
+
+		@media screen and (max-width: 540px) {
+			.slideBox .bd li .title1 {
+				font-size: 12px;
+				padding-right: 0px;
+				padding-bottom: 5px;
+			}
+		}
+
+		/* .syztztlist li{margin-left: 0;width: 25% !important;}
+    .syztztlist {margin-left: 0; margin-right: -24px;}
+    .syztztlist li a{margin-right: 24px;} */
+		/*轮播图*/
+
+		#focusBox1 .tempWrap {
+			width: initial !important;
+			margin-left: -20px;
+		}
+
+		#focusBox1 .tempWrap ul {
+			margin: auto !important;
+		}
+
+		.leftscroll li {
+			margin-left: 20px !important;
+		}
+
+		@media (max-width: 1365px) and (min-width: 1001px) {
+			#focusBox1 .tempWrap {
+				margin-left: -20px;
+			}
+
+			.leftscroll li {
+				margin-left: 20px !important;
+			}
+		}
+
+		@media (min-width: 1364px) {
+			#focusBox1 .tempWrap {
+				margin-left: -27px;
+			}
+
+			.leftscroll li {
+				margin-left: 27px !important;
+			}
+
+			.syztztlist li img {
+				height: 102px;
+			}
+		}
+
+		@media (min-width: 1240px) {
+			.leftscroll {
+				min-height: 135px !important;
+			}
+
+			.syztztlist li img {
+				height: 94px;
+			}
+		}
+
+		@media (min-width: 999px)and (max-width: 1241px) {
+			.leftscroll {
+				min-height: 113px !important;
+			}
+
+			.syztztlist li img {
+				height: 77px;
+			}
+		}
+
+		/*适老版轮播图*/
+
+		@media (min-width: 1240px) {
+			.SLB #focusBox .tempWrap ul {
+				min-height: 270px !important;
+			}
+
+			.SLB .syztztlist li img {
+				min-height: 221px !important;
+			}
+		}
+
+		@media (max-width: 1239px) and (min-width: 999px) {
+			.SLB #focusBox .tempWrap ul {
+				min-height: 210px !important;
+			}
+
+			.SLB .syztztlist li img {
+				height: 160px;
+			}
+		}
+
+		.SLB .syztztlist {
+			height: auto;
+		}
+
+		/*适老版轮播图*/
+
+		.rsgb-ttxx .bd {
+			overflow: hidden;
+		}
+
+		.SLB .slideBox .bd li .title1 {
+			font-size: 30px;
+		}
+
+		.slideBox .bd li .title1 {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		@media (max-width: 550px) {
+			.slideBox .bd li .title1 {
+				width: 50%;
+			}
+		}
+
+		.syjb {
+			white-space: none;
+		}
+
+		@media (max-width: 450px) {
+			.SLB .gddiv {
+				width: 78%;
+			}
+		}
+
+		@media (min-width: 450px) {
+			.SLB .gddiv {
+				width: 87%;
+			}
+		}
+
+		@media(min-width: 999px) {
+			.SLB .gddiv {
+				width: 77%;
+			}
+		}
+
+		@media (min-width: 1240px) {
+			.SLB .gddiv {
+				width: 85%;
+			}
+
+			.gddiv .tempWrap {
+				width: 1000px !important;
+			}
+		}
+
+		@media (min-width: 320px) {
+			.gddiv {
+				width: 78%;
+			}
+		}
+
+		@media screen and (max-width: 1340px) {
+			.rsgb-yw-list li {
+				line-height: 33px;
+			}
+		}
+
+		@media (max-width: 550px) {
+			.SLB .slideBox .bd li .title1 {
+				width: 90%;
+			}
+
+			.rsgb-ftnr p {
+				white-space: inherit;
+			}
+		}
+
+		@media screen and (max-width: 1000px) {
+			.slxdnr {
+				height: auto !important;
+			}
+		}
+
+		.jxz1 {
+			font-size: 14px;
+			display: inline-block;
+			height: 21px;
+			padding: 0 6px;
+			border: 1px #1658a0 solid;
+			border-radius: 4px;
+			color: #1658a0;
+			line-height: 21px;
+			margin-right: 10px;
+		}
+
+		.yjs1 {
+			font-size: 14px;
+			display: inline-block;
+			height: 21px;
+			padding: 0 6px;
+			border: 1px #999999 solid !important;
+			border-radius: 4px;
+			color: #999999 !important;
+			line-height: 21px;
+			margin-right: 10px;
+		}
+
+		/* .rsgb-ttxx ul li{white-space:inherit;} */
+		/* @media screen and (min-width: 768px)and (max-width: 2000px){
+.sec-ban_2021 {
+    height: 80px;
+    background:url(/images/20220125spring_banner2.jpg) no-repeat center top #1658a0;
+    margin-top: -8px;
+}
+/*
+.pad-bot1 {
+    margin-top: 131px;
+}
+} */
+
+
+
+		.rsgb-ttxx ul li {
+			float: left;
+			width: 590.297px;
+		}
+
+
+
+
+		/*.bmfw li i.xp4{background: url("20201202-bm-icon4.png") no-repeat center;}
+.bmfw li i.xp5{background: url("20201202-bm-icon5.png") no-repeat center;}
+.bmfw li i.xp6{background: url("20201202-bm-icon6.png") no-repeat center;}
+.bmfw li i.xp7{background: url("20201202-bm-icon7.png") no-repeat center;}
+.bmfw li i.xp8{background: url("20201202-bm-icon8.png") no-repeat center;} */
+
+		.jdhywjbox {
+			margin-top: 22px;
+			height: 230px;
+			overflow: hidden;
+		}
+		.b-free-active a {
+			outline-style: auto !important;
+		}
+
+		.rsgb-sydw-list li {
+			width: 18%;
+		}
+
+		.sytt a {
+			color: #1658a0;
+			font-size: 16px;
+		}
+
+		/* 对联样式  begin */
+		#_fjdzapp_duilian_0 {
+			position: fixed;
+			left: 0;
+			top: 28%;
+			z-index: 10000;
+		}
+
+		#_fjdzapp_duilian_1 {
+			position: fixed;
+			right: 0;
+			top: 28%;
+			z-index: 100;
+		}
+
+		@media screen and (max-width: 992px) {
+			#_fjdzapp_duilian_0 {
+				display: none;
+			}
+
+			#_fjdzapp_duilian_1 {
+				display: none;
+			}
+		}
+
+
+		/* 对联样式  end*/
+		/*  */
+
+		/*  */
+		/*  */
+ /**/
+		.rsgb-bmfwbstt.bmfw li:first-child a {
+			line-height: 48px;
+		}
+
+	</style>
+</head>
+
+<body ms-controller="windowRoot" ms-class="SLB:isSlb" class="rs_bg">
+
+
+	<!-- <div class="gq_bg_pc"><a target="_blank" href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm"
+            title="中国共产党第二十次全国代表大会"><img src="./images/20221015szf-top02.png" /></a></div>
+    <div class="gq_bg_phone">
+        <a href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm" title="中国共产党第二十次全国代表大会" target="_blank"><img src="./images/20221015szf-phone.png" alt="" width="100%" /> </a>
+    </div> -->
+
+    
+	<!-- 头部嵌套 -->
+	<!--头部开始-->
+<div class="top-link-wap_2021">
+    <div class="top-link_2021" id="top-link">
+        <div class="w_1300_2021 clearflx_2021">
+            <div class="logo_2021">
+                <a href="/" title="福建省人力资源和社会保障厅"><img src="/images/20211105-rst-logo.png" alt="" /></a>
+            </div>
+            <div class="xyfd_2021">
+                <div class="rig-top_2021 clearflx_2021" role="serve" des="头部信息">
+                    <span>网站支持IPv6</span>
+                    <ul class="clearflx_2021 ft-list_2021">
+                        <li><a href="javascript:;" class="ydb_2021">闽政通
+                            <div class="ydtk_2021 clearflx">
+                                <div class="ewp_2021"> <i><img src="/images/20211124-minzt.png" width="100" alt="" /></i> <em>闽政通</em> </div>
+                              </div>
+                        </a></li>
+   <li>
+                                <a ms-visible="isLogin" style="display: none;" href="/suc/indexs/index" ms-attr-title="loginInfo.showname" ms-text="'你好,'+loginInfo.showname|truncate(12)" class="login">你好</a>
+                                <a ms-attr-href="logoutUrl" ms-visible="isLogin" style="display: none;margin-right:20px;" class="login">退出</a>
+                                <a id="logined" href="javascript:void(0);" ms-click="$login" target="_blank" ms-visible="!isLogin" class="ydb_2021">登录</a>
+                                <a id="registered" href="javascript:void(0);" ms-click="$register" ms-visible="!isLogin" class="ydb_2021">注册</a>
+                            </li>
+
+                    </ul>
+
+                    <a href="javascript:StranBody()" title="繁体版" id='StranLink' class="sm-ftb-2021" style="display: none;">繁体版</a>
+
+                    <div class="gwp_2021">
+                        <a href="https://www.gov.cn/" title="国务院" target="_blank">国务院</a>
+                        <a href="http://www.mohrss.gov.cn/" title="人力资源和社会保障部" target="_blank">人社部</a>
+                        <a href="http://www.fujian.gov.cn" title="省政府" target="_blank">省政府</a>
+                    </div>
+                </div>
+
+                <div class="pho-fix_2021" role="navigation" des="站点主目录">
+                    <!--<i class="close_2021"><img src="images/2021close.png" alt="" /></i>-->
+                    <ul class="nav_2021 clearflx_2021">
+                        <li ms-class="active_2021:currPath===''">
+                            <a href="/">首页</a>
+                        </li>
+                        <li ms-class="active_2021:paths[4]==='jgszyzn'">
+                            <a href="/zw/jgszyzn/">机构概况<em></em></a>
+                            <div class="nav_con_2021 m_4_2021">
+                                <div class="nav_warp_2021">
+                                    <a href="http://rst.fujian.gov.cn/zw/jgszyzn/stld/" title="厅领导" target="_blank">厅领导 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/jgszyzn/bmzz/" title="部门职责" target="_blank">部门职责 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/jgszyzn/tjgcs/" title="厅机关处室" target="_blank">厅机关处室 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/jgszyzn/zsdw/" title="直属单位" target="_blank">直属单位 </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class-1="active_2021:currPath==='zw'" ms-class-2="active_quxiao: paths[4]==='ztzl' || paths[4]==='jgszyzn'">
+                            <a href="/zw/" class="active_quxiao-a">政务公开 <em></em></a>
+                            <div class="nav_con_2021 m_3_2021">
+                                <div class="nav_warp_2021 nav_warp_2021-zwgk">
+                                    <!-- <TR S_Channels id="政务公开_53595">
+                                        <TR S_Channel field='chnldesc' id='owner' autolink='true' linkalt="true" target="_blank" UrlIsAbs="true"></TR S_Channel>
+                                    </TR S_Channels> -->
+                                    <a href="http://rst.fujian.gov.cn/zw/zfxxgk/" title="政府信息公开" target="_blank">政府信息公开 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/zxwj/" title="最新文件" target="_blank">最新文件 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/gsgg/" title="公示公告" target="_blank">公示公告 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/rsxx/" title="人事信息" target="_blank">人事信息 </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/czzj/" title="财政资金" target="_blank">财政资金  </a>
+                                    <a href="http://rst.fujian.gov.cn/zw/tjxx/" title="统计信息" target="_blank">统计信息  </a>
+                                    <a href="https://data.fujian.gov.cn/oportal/catalog/index?filterParam=org_code&filterParamCode=1135000000359123X9&page=1" title="数据开放" target="_blank">数据开放</a>
+
+                                </div>
+                            </div>
+                        </li>
+                     
+                        <li ms-class="active_2021:currPath==='zcjd'">
+                            <a href="/zcjd/">解读回应 <em></em></a>
+                            <div class="nav_con_2021 m_4_2021">
+                                <div class="nav_warp_2021">
+                                    <!-- <TR S _Channels id="解读回应">
+                                        <TR S_Channel field='chnldesc' id='owner' autolink='true' linkalt="true" target="_blank" UrlIsAbs="true"></TR S_Channel>
+                                    </TR S_Channels> -->
+                                    <a href="http://rst.fujian.gov.cn/zcjd/hygq/" title="回应关切" target="_blank">回应关切 </a>
+                                    <a href="http://rst.fujian.gov.cn/zcjd/zcjd/bmzcwjjd/" title="部门政策解读" target="_blank">部门政策文件解读 </a>
+                                    <a href="http://rst.fujian.gov.cn/zcjd/zcjd/qtzcwjjd/" title="其他政策文件解读" target="_blank">其他政策文件解读 </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='fw'">
+                            <a href="https://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=46290286B4C55E0E164A4C2AB07AF165&randomNum=0.7394234942672884" target="_blank">办事服务 <em></em></a>
+                            <div class="nav_con_2021 m_5_2021">
+                                <div class="nav_warp_2021">
+                                    <!-- <TR S_Channels id="办事服务">
+                                        <TR S_Channel field='chnldesc' id='owner' autolink='true' linkalt="true" target="_blank" UrlIsAbs="true"></TR S_Channel>
+                                    </TR S_Channels> -->
+                                    <a href="https://zwfw.rst.fujian.gov.cn/" title="人社政务服务平台" target="_blank">人社政务服务平台</a> 
+                                    <a href="https://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=46290286B4C55E0E164A4C2AB07AF165&randomNum=0.20527553595743952" title="网上办事大厅" target="_blank">网上办事大厅</a>
+                                    <a href="http://220.160.53.33:8903" target="_blank" title="事业单位公开招聘考试报名平台">事业单位公开招聘考试报名平台</a>
+                                    <!-- <a href="https://zwfw.fujian.gov.cn/people-server/index?paramsType=bm" target="_blank" title="便民服务">便民服务</a> -->
+                                    <a href="http://rst.fujian.gov.cn/fw/bmfwcx/zyjsryzczscx/" title="专业技术人员职称证书查询（高级）" target="_blank">专业技术人员职称证书查询</a>
+                                    <a href="https://www.fujian.gov.cn/bsfw/mztapp/" target="_blank" title="闽政通app">闽政通app</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='wz'">
+                            <a href="/wz/">互动交流 <em></em></a>
+                            <div class="nav_con_2021 m_6_2021">
+                                <!-- <div class="nav_warp_2021">
+                                    <TR S_Channels id="互动交流_53732">
+                                        <TR S_Channel field='chnldesc' id='owner' autolink='true' linkalt="true" target="_blank" UrlIsAbs="true"></TR S_Channel>
+                                    </TR S_Channels>
+                                </div> -->
+                                <a href="http://rst.fujian.gov.cn/wz/zxft/" title="在线访谈" target="_blank">在线访谈</a>
+                                <a href="/aisp/ff80808165231c54016537c21fa65fd0/chat/index.html" title="智能问答" target="_blank">智能问答</a>
+                                <a href="http://rst.fujian.gov.cn/wz/yjzj/" title="意见征集" target="_blank">意见征集</a>
+                                <a href="http://rst.fujian.gov.cn/wz/wsdc/" title="网上调查" target="_blank">网上调查</a>
+                                <a href="http://12345.fujian.gov.cn/" title="12345便民服务平台" target="_blank"> 12345便民服务平台</a>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:paths[4]==='ztzl'">
+                            <a href="/zw/ztzl/">专题专栏</a></li>
+
+                    </ul>
+
+
+                    <div class="pho-search_2021 clearflx_2021">
+                        <form action="/aisp/ff80808165231c54016537c21fa65fd0/search/index.html" target="_blank" method="get">
+
+                            <input type="text" placeholder="请输入搜索内容" value="" name="key" />
+                            <input id="siteId" name="siteId" type="hidden" value="ff80808165231c54016537c21fa65fd0" />
+                            <button class="iconfont"></button>
+                        </form>
+                    </div>
+
+
+                    <div class="wzx-bxo_2021">
+                        <!-- <div class="ftb_2021">
+                            <a href="#">繁体版</a>|<a href="#">EN</a>|<a class="login" href="#">登录</a>
+                            <div><a class="login">退出</a><a class="login">你好,</a></div>
+                        </div> -->
+
+                        <div class="zzmsd-t_2021">
+                            <a href="javascript:;" ms-click="$inSlb()" class="tbt1_2021">长者模式</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gaod_2021"></div>
+<div class="sec-ban_2021">
+    <div class="w_1300_2021 clearflx_2021">
+        <div class="rqtq_2021 fl">
+            <p>欢迎访问福建省人力资源和社会保障厅网站！</p>
+            <p ms-text="now|date('yyyy年MM月dd日')"></p>
+        </div>
+
+        <div class="ss_box2_2021" id="header" ms-controller="list_rs" role="interaction" des="搜索">
+            <form id="form" method="get" action="/aisp/ff80808165231c54016537c21fa65fd0/search/index.html" target="_blank" ms-blur="$togLinkkey">
+                <div class="picker_2021"><input type="text" value="本站" readonly="" />
+                    <a class="upDown_2021"></a>
+                </div>
+                <input type="text" ms-duplex="tixing" placeholder="请输入您要搜索的内容" value="" name="key" class="inp_2021" id="selecttags" required="required" autocomplete="off" ms-focus="$checkLock" />
+                <input id="siteId" name="siteId" type="hidden" value="ff80808165231c54016537c21fa65fd0" />
+                <input id="isMain" name="isMain" type="hidden" value="" />
+                <button class="btn_2021 iconfont"></button>
+                <div class="search-log_2021" id="searchTag" style="display: none;" ms-visible="!showlist&&LockLink">
+                    <div class="rs_tit1_2021" style="display: none;" ms-visible="historyKeys.length>0">历史搜索：
+                        <a ms-if-loop="$index<5" ms-repeat="historyKeys" href="javascript:;" ms-text="el" ms-click="setPost(el)"></a>
+                    </div>
+                    <div class="rs_tit1_2021" ms-visible="keys.length>0">
+                        热门搜索：
+                        <a ms-repeat="keys" href="javascript:;" ms-text="el.keyword" ms-click="setPost(el.keyword)"></a>
+                    </div>
+                </div>
+                <div class="lxglc-box_2021" style="display: none;" ms-visible="showlist&&linkKeys.length>0">
+                    <ul>
+                        <li ms-repeat="linkKeys">
+                            <a href="javascript:;" ms-click="setPost(el.name)" ms-text="el.name"></a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+            <div class="search_content" ms-visible="flags[0]" style="display: none;">
+                <ul>
+                    <li ms-repeat="tipList" ms-click="getTip('flags', 0, el.wordName)"><a href="javascript:;" ms-text="el.wordName"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="zzbs_2021">
+            <a href="javascript:;" ms-click="$inSlb()" ms-visible="!isSlb" class="zz-btn1_2021"><img src="/images/20210526-zzms-icon.png" alt="" />长者模式</a>
+            <a href="javascript:;" ms-click="$outSlb()" ms-visible="isSlb" class="zz-btn1_2021 outslb">退出长者模式</a>
+            <a id="barrierFreeBtn" href="javascript:;" class="zz-btn2_2021">无障碍浏览</a>
+        </div>
+
+    </div>
+</div>
+<!--头部结束-->
+	<!-- 头部嵌套end -->
+
+
+	<!-- 中间部分 -->
+	<div class="w_1300_2021">
+		<div class="pad-bot1 ">
+			<!-- <div class="rsgb-hf" >
+            <a><img src="./images/gqys_hengfu2.jpg" alt="" /></a>
+        </div> -->
+			<!-- <div style="margin-top: 10px;"><a target="_blank" href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm" title="中国共产党第二十次全国代表大会"><img src="./images/20221015hfrk.jpg" style="width:1300px" /></a></div> -->
+			<div class="rsgb-hf" role="viewlist" des="新风正气福建人社名片">
+				<!-- <a href="http://rst.fujian.gov.cn/sygdxw/202109/t20210930_5699364.htm" target="_blank"
+					title="新风正气福建人社名片"><img src="./images/20220411-rst-xfq.jpg" alt="" /></a> -->
+			</div>
+			<div class=" smgb-zyxw-box">
+				<div class="announcement announcement_05">
+					<h3>
+						
+							<a href="http://rst.fujian.gov.cn/zw/xw/szyw/202610/t20261010_7222915.htm"
+								title="以创新赢未来——习近平经济思想引领中国加快发展新质生产力"
+								target="_blank">
+								以创新赢未来——习近平经济思想引领中国加快发展新质生产力
+							</a>
+						
+					</h3>
+					<div class="sytt">
+						
+
+							<a href="http://rst.fujian.gov.cn/zw/xw/szyw/202610/t20261010_7222916.htm"
+								title="中共中央、国务院印发《关于发展新质生产力的意见》" target="_blank">
+								中共中央、国务院印发《关于发展新质生产力的意见》
+							</a>
+						
+						
+							<text ms-visible="''!='否'"> | </text>
+							<a href="http://rst.fujian.gov.cn/zw/xw/szyw/202610/t20261010_7222914.htm"
+								title="文件全文"
+								target="_blank">
+								文件全文
+							</a>
+						
+
+						
+							<text ms-visible="''!='否'"> | </text>
+							<a href="http://rst.fujian.gov.cn/zw/xw/szyw/202610/t20261010_7222917.htm"
+								title="国家发展改革委有关负责人答记者问"
+								target="_blank">
+								国家发展改革委有关负责人答记者问
+							</a>
+						
+						
+						
+						
+						
+						
+						
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="clearflx newback">
+				<div class="rsgb-lbt fl" role="viewlist" des="轮播图">
+					<div class="slideBox" id="slideBox">
+						<div class="bd">
+							<ul>
+
+								
+									<li>
+										<a class="pic" href='./zw/xw/zyxw/202609/t20260923_7217345.htm'
+											title='福建省人社厅离退休干部暑期读书班在厦门圆满举办'
+											target="_blank">
+											<img src='./zw/xw/zyxw/202609/W020260923567181252071.jpg' alt='福建省人社厅离退休干部暑期读书班在厦门圆满举办' />
+										</a>
+										<a class="title1 bf-pass" href='./zw/xw/zyxw/202609/t20260923_7217345.htm'
+											title='福建省人社厅离退休干部暑期读书班在厦门圆满举办'
+											target="_blank" class="bf-pass">
+											福建省人社厅离退休干部暑期读书班在厦门圆满举办
+										</a>
+										<div class="txt-bg"></div>
+									</li>
+								
+									<li>
+										<a class="pic" href='./zw/xw/zyxw/202609/t20260914_7212897.htm'
+											title='福建省人社厅举办2026年基层党组织书记培训暨习近平党建思想学习班'
+											target="_blank">
+											<img src='./zw/xw/zyxw/202609/W020260914343675037855.jpg' alt='福建省人社厅举办2026年基层党组织书记培训暨习近平党建思想学习班' />
+										</a>
+										<a class="title1 bf-pass" href='./zw/xw/zyxw/202609/t20260914_7212897.htm'
+											title='福建省人社厅举办2026年基层党组织书记培训暨习近平党建思想学习班'
+											target="_blank" class="bf-pass">
+											福建省人社厅举办2026年基层党组织书记培训暨习近平党建思想学习班
+										</a>
+										<div class="txt-bg"></div>
+									</li>
+								
+									<li>
+										<a class="pic" href='./zw/xw/zyxw/202609/t20260914_7212895.htm'
+											title='福建省人才研究会2026年科研年会暨第六届第一次会员代表大会在福州召开'
+											target="_blank">
+											<img src='./zw/xw/zyxw/202609/W020260914342321665241.jpg' alt='福建省人才研究会2026年科研年会暨第六届第一次会员代表大会在福州召开' />
+										</a>
+										<a class="title1 bf-pass" href='./zw/xw/zyxw/202609/t20260914_7212895.htm'
+											title='福建省人才研究会2026年科研年会暨第六届第一次会员代表大会在福州召开'
+											target="_blank" class="bf-pass">
+											福建省人才研究会2026年科研年会暨第六届第一次会员代表大会在福州召开
+										</a>
+										<div class="txt-bg"></div>
+									</li>
+								
+									<li>
+										<a class="pic" href='./zw/xw/zyxw/202607/t20260730_7194150.htm'
+											title='“山海携手·创享宁夏”闽宁创业赋能培育行动在银川启动'
+											target="_blank">
+											<img src='./zw/xw/zyxw/202607/W020260730643641457017.png' alt='“山海携手·创享宁夏”闽宁创业赋能培育行动在银川启动' />
+										</a>
+										<a class="title1 bf-pass" href='./zw/xw/zyxw/202607/t20260730_7194150.htm'
+											title='“山海携手·创享宁夏”闽宁创业赋能培育行动在银川启动'
+											target="_blank" class="bf-pass">
+											“山海携手·创享宁夏”闽宁创业赋能培育行动在银川启动
+										</a>
+										<div class="txt-bg"></div>
+									</li>
+								
+									<li>
+										<a class="pic" href='./zw/xw/zyxw/202607/t20260716_7178958.htm'
+											title='福建省人社厅召开庆祝中国共产党成立105周年大会暨“七一”表彰大会'
+											target="_blank">
+											<img src='./zw/xw/zyxw/202607/W020260716619990754656.png' alt='福建省人社厅召开庆祝中国共产党成立105周年大会暨“七一”表彰大会' />
+										</a>
+										<a class="title1 bf-pass" href='./zw/xw/zyxw/202607/t20260716_7178958.htm'
+											title='福建省人社厅召开庆祝中国共产党成立105周年大会暨“七一”表彰大会'
+											target="_blank" class="bf-pass">
+											福建省人社厅召开庆祝中国共产党成立105周年大会暨“七一”表彰大会
+										</a>
+										<div class="txt-bg"></div>
+									</li>
+								
+								
+									<li>
+										<a class="pic" href='https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=fj'
+											title='“@国务院 我来说”'
+											target="_blank">
+											<img src='./gnllm/sygdlb/202412/W020250311427846081888.jpg' alt='“@国务院 我来说”' />
+										</a>
+										<a class="title1 bf-pass" href='https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=fj'
+											title='“@国务院 我来说”'
+											target="_blank" class="bf-pass">
+											“@国务院 我来说”
+										</a>
+										<div class="txt-bg"></div>
+									</li>
+								
+							</ul>
+						</div>
+						<div class="hd">
+							<ul class="num"></ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="rsgb-xwnr fr" id="tabTabqh" role="viewlist" des="要闻">
+					<!--  <a href="https://www.fujian.gov.cn/zwgk/ztzl/yqfk/" target="_blank" title="疫情防控 福建在行动"
+                        class="yqfk-icon">
+                        疫情防控·福建在行动 <i class="bf-pass">点击进入&gt;</i></a>-->
+					<ul class="xw-tab-box clearflx hd">
+						<li><a href="http://www.gov.cn/" target="_blank" title="国务院信息">国务院信息</a></li>
+						<!-- <li><a href="#">人社部信息</a></li> -->
+						<li><a href="https://www.fujian.gov.cn/" target="_blank" title="福建信息">福建信息</a></li>
+						<li class="curr"><a title="要闻"
+								href='./zw/xw/'
+								target="_blank">要闻</a></li>
+					</ul>
+					<div class="rsgb-yw-box" id="tabTabqh-bd">
+						<!--要闻tab栏 220915-->
+						<div class="bd">
+							<ul ms-controller="gwyxx" class="rsgb-yw-list">
+
+								<li ms-repeat="list" ms-if-loop="$index<9">
+									<i></i>
+									<a ms-attr-href="el.link" target="_blank" ms-attr-title="el.title"
+										ms-text="el.title"></a>
+									<span ms-text="el.pubDate|date('MM-dd')" class="bf-pass"></span>
+								</li>
+							</ul>
+							<ul ms-controller="szfxx" class="rsgb-yw-list">
+								<li ms-repeat="list" ms-if-loop="$index<10">
+									<i></i>
+									<a ms-attr-href="el.url" target="_blank" ms-attr-title="el.title"
+										ms-text="el.title"></a>
+									<span ms-text="el.time|date('MM-dd')" class="bf-pass"></span>
+								</li>
+							</ul>
+							<ul class="rsgb-yw-list">
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											重要新闻
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/zyxw/202609/t20260923_7217345.htm" target="_blank" title="福建省人社厅离退休干部暑期读书班在厦门圆满举办">福建省人社厅离退休干部暑期读书班在厦门圆满举办</a>
+										<span class="bf-pass">
+											09-23
+										</span>
+									</li>
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											重要新闻
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/zyxw/202609/t20260923_7217343.htm" target="_blank" title="全省高校毕业生就业创业工作人员能力提升培训班在福州市罗源县举办">全省高校毕业生就业创业工作人员能力提升培训班在福州市罗源县举办</a>
+										<span class="bf-pass">
+											09-22
+										</span>
+									</li>
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											重要新闻
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/zyxw/202609/t20260914_7212901.htm" target="_blank" title="福建船政艺圃技师学院复名启用 《艺圃之光》纪录片同日首发 |百年技工教育文脉在榕续写新篇">福建船政艺圃技师学院复名启用 《艺圃之光》纪录片同日首发 |百年技工教育文脉在榕续写新篇</a>
+										<span class="bf-pass">
+											09-11
+										</span>
+									</li>
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											重要新闻
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/zyxw/202609/t20260914_7212897.htm" target="_blank" title="福建省人社厅举办2026年基层党组织书记培训暨习近平党建思想学习班">福建省人社厅举办2026年基层党组织书记培训暨习近平党建思想学习班</a>
+										<span class="bf-pass">
+											08-31
+										</span>
+									</li>
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											重要新闻
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/zyxw/202609/t20260914_7212895.htm" target="_blank" title="福建省人才研究会2026年科研年会暨第六届第一次会员代表大会在福州召开">福建省人才研究会2026年科研年会暨第六届第一次会员代表大会在福州召开</a>
+										<span class="bf-pass">
+											08-28
+										</span>
+									</li>
+								
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											交流园地
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/jlyd/202610/t20261008_7221461.htm" target="_blank" title="福建省2026年“三支一扶”高校毕业生能力提升班在德化县举办">福建省2026年“三支一扶”高校毕业生能力提升班在德化县举办</a>
+										<span class="bf-pass">
+											09-30
+										</span>
+									</li>
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											交流园地
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/jlyd/202610/t20261008_7221455.htm" target="_blank" title="织密基金“防护网” 守好群众“养老钱” ——武平县机关社保中心探索社保基金风险防控新路径">织密基金“防护网” 守好群众“养老钱” ——武平县机关社保中心探索社保基金风险防控新路径</a>
+										<span class="bf-pass">
+											09-28
+										</span>
+									</li>
+								
+
+									<li>
+										<a href="javascript:;" title=""
+											class="xw_a bf-pass">
+											交流园地
+										</a>
+										<em>|</em>
+										<a href="./zw/xw/jlyd/202610/t20261008_7221452.htm" target="_blank" title="漳州南靖：践行正确政绩观 上门认证暖人心">漳州南靖：践行正确政绩观 上门认证暖人心</a>
+										<span class="bf-pass">
+											09-23
+										</span>
+									</li>
+								
+
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<ul class="rsgb-sydw-list clearflx" role="viewlist">
+				<li>
+					<a href="https://www.fj99.org.cn/ " target="_blank" title="福建就业">
+						<p>福建就业</p>
+					</a>
+				</li>
+				<li>
+					<a href="./zw/ztzl/zxzt/sydwrczp/" target="_blank" title="事业单位招聘">
+						<p>事业单位招聘</p>
+					</a>
+				</li>
+				<li>
+					<a href="http://gwykl.fujian.gov.cn" target="_blank" title="公务员招考">
+						<p>公务员招考</p>
+					</a>
+				</li>
+				<!-- <li>
+					<a href="http://rst.fujian.gov.cn/zw/ztzl/zxzt/hqzc/" title="惠企政策">
+						<p>惠企政策</p>
+					</a>
+				</li>-->
+				<!--<li>
+					<a href="https://bs.rsj.quanzhou.gov.cn/" target="_blank" title="第三届全国博士后创新创业大赛">
+						<p style="font-size: 16px;">第三届全国博士后创新创业大赛</p>
+					</a>
+				</li>-->
+				<li>
+					<a href="https://zwfw.rst.fujian.gov.cn/#/index" target="_blank" title="人社政务服务平台">
+						<p style="font-size: 16px;">人社政务服务平台</p>
+					</a>
+				</li>
+				<li>
+					<a href="http://rst.fujian.gov.cn/zw/ztzl/zxzt/rslyzyss/" target="_blank" title="人社领域重要赛事">
+						<p>人社领域重要赛事</p>
+					</a>
+				</li>
+				<!--    <li>
+                    <a href="http://rst.fujian.gov.cn/zw/ztzl/zxzt/rszyxd/" target="_blank" title='福建人社战"疫"行动'>
+                        <p>福建人社战<em class="bf-pass">&quot</em>疫<em class="bf-pass">&quot</em>行动</p>
+                    </a>
+                </li>-->
+
+			</ul>
+
+
+
+			<div class="clearflx ove-item-box">
+				<div class="nync-item fl">
+					<div class="borpad" role="viewlist" des="互动交流">
+						<div class="rsgb-sy-tit clearflx">
+							<ul class="clearflx fl">
+								<li class="actt last"><a
+										href='http://rst.fujian.gov.cn/wz/zxft/'
+										title="在线访谈" target="_blank">在线访谈</a></li>
+							</ul>
+							<div class="fr syt-rig">
+								<!-- <span class="djtc"><a href="javascript:;">下期预告</a></span><em>|</em> -->
+								<a href="./wz/zxft/xqyg/" target="_blank" title="下期预告">下期预告</a><em>|</em>
+
+								<a href="./wz/zxft/wqhg/" target="_blank" title="往期回顾">往期回顾</a><em>|</em>
+								<a href="./wz/zxft/ztzj/" target="_blank" title="主题征集">主题征集</a>
+							</div>
+						</div>
+						<div class="clearflx">
+							<!-- <div class="tc">
+								本年度在线访谈已全部结束
+							</div> -->
+							
+								<a href="./wz/zxft/wqhg/202607/t20260730_7194050.htm" target="_blank"
+									title="企业职工带薪年休假热点问题解答">
+									<div class="rsgb-ftzx fl"
+										ms-if=" './wz/zxft/wqhg/202607/W020260831607838365391.JPG'!== ''">
+										<i
+											style="background-image: url('./wz/zxft/wqhg/202607/W020260831607838365391.JPG')"></i>
+									</div>
+								</a>
+								<a href="./wz/zxft/wqhg/202607/t20260730_7194050.htm" target="_blank"
+									title="企业职工带薪年休假热点问题解答">
+									<div class="rsgb-ftzx fl"
+										ms-if=" './wz/zxft/wqhg/202607/W020260831607838365391.JPG'== ''">
+										<i style="background-image: url(/images/20211105-rstzxft.png)"></i>
+
+									</div>
+								</a>
+								<div class="rsgb-ftnr fr">
+									<h5>
+										<a href="./wz/zxft/wqhg/202607/t20260730_7194050.htm" target="_blank"
+											title="企业职工带薪年休假热点问题解答">
+											主题：企业职工带薪年休假热点问题解答
+										</a>
+									</h5>
+									<p class="bf-pass">时间：
+										2026年08月31日 15时30分
+									</p>
+									<p class="syjb">嘉宾：
+										处长陈世榕
+									</p>
+								</div>
+							
+
+						</div>
+
+						<div class="slxdnr">
+
+							<ul class="rsgb-yw-list rsgb-yw-list2">
+								
+									<li>
+										<a href="./wz/zxft/wqhg/202511/t20251126_7039335.htm" target="_blank" title="《劳动能力鉴定管理办法》解读">《劳动能力鉴定管理办法》解读</a>
+										<span class="bf-pass">
+											07-30
+										</span>
+									</li>
+								
+									<li>
+										<a href="./wz/zxft/wqhg/202511/t20251103_7029356.htm" target="_blank" title="提升劳动纠纷处置质效，提高维权服务水平">提升劳动纠纷处置质效，提高维权服务水平</a>
+										<span class="bf-pass">
+											11-26
+										</span>
+									</li>
+								
+									<li>
+										<a href="./wz/zxft/wqhg/202506/t20250605_6922028.htm" target="_blank" title="台胞在闽就业创业政策问答">台胞在闽就业创业政策问答</a>
+										<span class="bf-pass">
+											07-30
+										</span>
+									</li>
+								
+							</ul>
+
+
+						</div>
+						<div id="tabWsdc">
+							<!--网上调查tab栏 220915-->
+							<div class="rsgb-sy-tit clearflx mmrtp">
+								<ul class="clearflx hd">
+									<li class="actt"><a
+											href='http://rst.fujian.gov.cn/wz/yjzj/'
+											title="意见征集" target="_blank">意见征集</a></li>
+									<li><a href='http://rst.fujian.gov.cn/wz/wsdc/'
+											title="网上调查" target="_blank">网上调查</a></li>
+									<li class="last"><a
+											href='http://rst.fujian.gov.cn/wz/cjwt/'
+											title="常见问题" target="_blank">政策问答库</a></li>
+								</ul>
+							</div>
+							<div class="bd" id="tabWsdc-bd">
+								<div ms-controller="yjzj" class="tabWsdc-bd-list">
+									<div class="clearflx rsgb-yjzj-box" ms-repeat="list" ms-if-loop="$index < 1">
+										<img src="./images/20211105-rst-zj.png" ms-attr-alt="el.title" />
+										<div class="rsgb-yzjbox">
+											<h5>
+												<a ms-if="el.outerUrl" ms-attr-href="el.outerUrl"
+													ms-attr-title="el.title" target="_blank"
+													ms-text="el.title | html"></a>
+												<a ms-if="!el.outerUrl" ms-attr-href="'./wz/yjzj/detail.htm?id='+el.id"
+													ms-attr-title="el.title" target="_blank"
+													ms-text="el.title | html"></a>
+											</h5>
+											<p class="bf-pass">
+												<span class="jxz1" ms-controller="windowRoot"
+													ms-visible="$isRuning(el.endDate)">进行中</span>
+												<span class="yjs1" ms-controller="windowRoot"
+													ms-visible="!$isRuning(el.endDate)">已结束</span>
+												<em ms-text="el.startDate | date('yyyy-MM-dd')"></em>至<em
+													ms-text="el.endDate | date('yyyy-MM-dd')"></em>
+											</p>
+										</div>
+									</div>
+									<ul class="regb-yjnrlist">
+										<li ms-repeat="list" ms-if-loop="$index>0 && $index<4"><i></i>
+											<a ms-if="el.outerUrl" ms-attr-href="el.outerUrl"
+												ms-attr-title="el.title" target="_blank" ms-text="el.title | html"></a>
+											<a ms-if="!el.outerUrl" ms-attr-href="'./wz/yjzj/detail.htm?id='+el.id"
+												ms-attr-title="el.title" target="_blank" ms-text="el.title | html"></a>
+										</li>
+									</ul>
+								</div>
+								<div ms-controller="wsdc" class="tabWsdc-bd-list">
+									<div class="clearflx rsgb-yjzj-box" ms-repeat="list" ms-if-loop="$index < 1">
+										<img src="./images/20211105-rst-zj.png" ms-attr-alt="el.theme" />
+										<div class="rsgb-yzjbox">
+											<h5>
+												<a ms-if="el.outerUrl" ms-attr-href="el.outerUrl"
+													TARGET="_blank" ms-text="el.theme | html"
+													ms-attr-title="el.theme"></a>
+												<a ms-if="!el.outerUrl" ms-attr-href="'./wz/wsdc/detail.htm?id='+el.id"
+													TARGET="_blank" ms-text="el.theme | html"
+													ms-attr-title="el.theme"></a>
+											</h5>
+											<p class="bf-pass">
+												<span class="jxz1" ms-controller="windowRoot" class="jxz1"
+													ms-visible="$isRuning(el.endTime)">调查中</span>
+												<span class="yjs1" ms-controller="windowRoot" class="yjs1"
+													ms-visible="!$isRuning(el.endTime)">已结束</span>
+												<em ms-text="el.startTime | date('yyyy-MM-dd')"></em> 至<em
+													ms-text="el.endTime | date('yyyy-MM-dd')"></em>
+											</p>
+										</div>
+									</div>
+									<ul class="regb-yjnrlist">
+										<li ms-repeat="list" ms-if-loop="$index>0 && $index<4">
+											<i></i>
+											<a ms-if="el.outerUrl" ms-attr-href="el.outerUrl"
+												TARGET="_blank" ms-text="el.theme | html" ms-attr-title="el.theme"></a>
+											<a ms-if="!el.outerUrl" ms-attr-href="'./wz/wsdc/detail.htm?id='+el.id"
+												TARGET="_blank" ms-text="el.theme | html" ms-attr-title="el.theme"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="tabWsdc-bd-list">
+
+									<ul class="regb-yjnrlist">
+										
+											<li>
+												<a href="./wz/cjwt/jgsydw/202609/t20260924_7217959.htm" target="_blank" title="养老保险待遇领取资格认证早知道">养老保险待遇领取资格认证早知道</a>
+												<!-- <span class="bf-pass">
+                                                    09-24
+                                                </span> -->
+											</li>
+										
+											<li>
+												<a href="https://mp.weixin.qq.com/s/K_DZNCsIdh3rx5TxWsKHOw" target="_blank" title="【人社日课·9月21日】电子劳动合同是什么？有法律效力吗？">【人社日课·9月21日】电子劳动合同是什么？有法律效力吗？</a>
+												<!-- <span class="bf-pass">
+                                                    09-21
+                                                </span> -->
+											</li>
+										
+											<li>
+												<a href="https://mp.weixin.qq.com/s/t74_nEC2nlIAZxVRK7FAyA" target="_blank" title="【人社日课·9月17日】职称评审信息怎么查？">【人社日课·9月17日】职称评审信息怎么查？</a>
+												<!-- <span class="bf-pass">
+                                                    09-17
+                                                </span> -->
+											</li>
+										
+											<li>
+												<a href="https://mp.weixin.qq.com/s/sG53U_DpwO0QRUwptbgMYg" target="_blank" title="【人社日课·9月16日】失业保险金申领渠道有哪些？">【人社日课·9月16日】失业保险金申领渠道有哪些？</a>
+												<!-- <span class="bf-pass">
+                                                    09-16
+                                                </span> -->
+											</li>
+										
+											<li>
+												<a href="https://mp.weixin.qq.com/s/1M-L5qY8K2qB6xwy_Zwvrw" target="_blank" title="【人社日课·9月15日】哪些劳动争议可以申请调解仲裁？">【人社日课·9月15日】哪些劳动争议可以申请调解仲裁？</a>
+												<!-- <span class="bf-pass">
+                                                    09-15
+                                                </span> -->
+											</li>
+										
+											<li>
+												<a href="https://mp.weixin.qq.com/s/-THt4jzJYhVvcdQsZSKU5A" target="_blank" title="【人社日课·9月3日】参保人去世后，已缴纳的养老保险怎么办？">【人社日课·9月3日】参保人去世后，已缴纳的养老保险怎么办？</a>
+												<!-- <span class="bf-pass">
+                                                    09-03
+                                                </span> -->
+											</li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="rsgb-znwdf">
+							<a href="/aisp/ff80808165231c54016537c21fa65fd0/chat/index.html"
+								target="_blank" title="智能问答"><img src="./images/20211105-rst-znwd.png" alt="智能问答" /><img src="./images/20211109-pho-znwd.png" class="pho-img" alt="智能问答" /></a>
+						</div>
+						<ul class="clearflx rsgb-bmxjxd">
+							<li>
+								<a href="http://12345.fujian.gov.cn/" title="12345便民服务平台" target="_blank">
+									<img src="./images/20211105-rstgn-icon1.png" alt="12345便民服务平台" />
+									<p>12345便民<br>服务平台</p>
+								</a>
+							</li>
+							<li>
+								<a href='http://rst.fujian.gov.cn/wz/12345bmfwptxjxd/'
+									title="12345便民服务平台信件选登" target="_blank">
+									<img src="./images/20211105-rstgn-icon2.png" alt="12345便民服务平台信件选登" />
+									<p>12345便民服务<br>平台信件选登</p>
+								</a>
+							</li>
+						</ul>
+
+
+
+					</div>
+				</div>
+				<div class="nync-item2 fl" role="viewlist" des="政务公开">
+					<div class="borpad">
+						<!--政务公开tab栏 220915-->
+						<div id="tabZxwj">
+							<div class="rsgb-sy-tit clearflx">
+								<ul class="clearflx hd">
+									<li class="actt">
+										<a href='./zw/zxwj/'
+											target="_blank" title="最新文件">最新文件</a>
+									</li>
+									<li><a href='./zw/gsgg/'
+											target="_blank" title="公示公告">公示公告</a></li>
+									<li><a href='./zw/ldjy/'
+											target="_blank" title="民生保障">民生保障</a></li>
+									<!-- <li><a href='./deny_all/bzjl_new/'
+											target="_blank" title="表彰奖励">表彰奖励</a></li> -->
+									<li><a href='./zw/rsxx/'
+											target="_blank" title="人事信息">人事信息</a></li>
+									<li class="last"><a
+											href='./zw/zfxxgk/zfxxgkml/tyabl/'
+											target="_blank" title="建议提案办理">建议提案办理</a></li>
+
+
+								</ul>
+							</div>
+
+							<div class="rsgb-wjkbox" id="tabZxwj-bd">
+								<div class="bd">
+									<ul class="rsgb-yw-list rsgb-yw-list2">
+										
+											<li
+												ms-if='"7221778"!="6967822"&&"7221778"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/ldgx/202610/t20261008_7221778.htm" target="_blank" title="福建省人力资源和社会保障厅 福建省财政厅 国家税务总局福建省税务局关于调整2026年职工基本养老保险和失业保险缴费基数的通知">福建省人力资源和社会保障厅 福建省财政厅 国家税务总局福建省税务局关于调整2026年职工基本养老保险和失业保险缴费基数的通知</a>
+												<span class="bf-pass">
+													10-08
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7214247"!="6967822"&&"7214247"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/jycj/202609/t20260916_7214247.htm" target="_blank" title="福建省人力资源和社会保障厅 福建省教育厅福建省财政厅 国家税务总局福建省税务局关于落实失业保险支持企业稳岗扩岗的通知">福建省人力资源和社会保障厅 福建省教育厅福建省财政厅 国家税务总局福建省税务局关于落实失业保险支持企业稳岗扩岗的通知</a>
+												<span class="bf-pass">
+													09-16
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7213121"!="6967822"&&"7213121"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/jycj/202609/t20260914_7213121.htm" target="_blank" title="福建省人力资源和社会保障厅办公室关于公布2026年大中专毕业生创业省级资助项目名单的通知">福建省人力资源和社会保障厅办公室关于公布2026年大中专毕业生创业省级资助项目名单的通知</a>
+												<span class="bf-pass">
+													09-14
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7210212"!="6967822"&&"7210212"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/zynljs/202609/t20260908_7210212.htm" target="_blank" title="福建省人力资源和社会保障厅办公室关于公布2026年新设立博士后科研工作站单位名单的通知">福建省人力资源和社会保障厅办公室关于公布2026年新设立博士后科研工作站单位名单的通知</a>
+												<span class="bf-pass">
+													09-08
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7209464"!="6967822"&&"7209464"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/jycj/202609/t20260904_7209464.htm" target="_blank" title="福建省人力资源和社会保障厅办公室关于征集福建省创业导师的通知">福建省人力资源和社会保障厅办公室关于征集福建省创业导师的通知</a>
+												<span class="bf-pass">
+													09-04
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7207218"!="6967822"&&"7207218"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/jycj/202609/t20260901_7207218.htm" target="_blank" title="福建省劳动人事争议仲裁委员会关于聘任专（兼）职仲裁员的通知">福建省劳动人事争议仲裁委员会关于聘任专（兼）职仲裁员的通知</a>
+												<span class="bf-pass">
+													09-01
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7207216"!="6967822"&&"7207216"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/jycj/202609/t20260901_7207216.htm" target="_blank" title="福建省劳动人事争议仲裁委员会关于印发《福建省劳动人事争议仲裁委员会仲裁观察员制度实施办法》的通知">福建省劳动人事争议仲裁委员会关于印发《福建省劳动人事争议仲裁委员会仲裁观察员制度实施办法》的通知</a>
+												<span class="bf-pass">
+													09-01
+												</span>
+											</li>
+										
+											<li
+												ms-if='"7205986"!="6967822"&&"7205986"!="6967375"'>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/zynljs/202608/t20260828_7205986.htm" target="_blank" title="福建省人力资源和社会保障厅办公室关于做好技工院校2026年秋季学期开学第一课活动有关工作的通知">福建省人力资源和社会保障厅办公室关于做好技工院校2026年秋季学期开学第一课活动有关工作的通知</a>
+												<span class="bf-pass">
+													08-28
+												</span>
+											</li>
+										
+
+									</ul>
+									<ul class="rsgb-yw-list rsgb-yw-list2">
+										
+											<li>
+												<a href="./zw/gsgg/202609/t20260921_7216412.htm" target="_blank" title="关于马兰花创业培训SYB培训师选拔拟推荐人员的公示">关于马兰花创业培训SYB培训师选拔拟推荐人员的公示</a>
+												<span class="bf-pass">
+													09-21
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/zfxxgk/zfxxgkml/zyywgz/jycj/202609/t20260901_7207216.htm" target="_blank" title="福建省劳动人事争议仲裁委员会关于印发《福建省劳动人事争议仲裁委员会仲裁观察员制度实施办法》的通知">福建省劳动人事争议仲裁委员会关于印发《福建省劳动人事争议仲裁委员会仲裁观察员制度实施办法》的通知</a>
+												<span class="bf-pass">
+													09-01
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/gsgg/202608/t20260805_7196556.htm" target="_blank" title="福建省人力资源和社会保障厅关于2026年大中专毕业生创业省级拟资助项目名单的公示">福建省人力资源和社会保障厅关于2026年大中专毕业生创业省级拟资助项目名单的公示</a>
+												<span class="bf-pass">
+													08-05
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/gsgg/202607/t20260722_7191109.htm" target="_blank" title="福建省人力资源和社会保障厅关于公布福建省职业技能培训需求指导目录和补贴性培训机构目录的通知">福建省人力资源和社会保障厅关于公布福建省职业技能培训需求指导目录和补贴性培训机构目录的通知</a>
+												<span class="bf-pass">
+													07-22
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/gsgg/202607/t20260722_7190943.htm" target="_blank" title="福建省人力资源和社会保障厅关于福建省特级教师推荐人选的公示">福建省人力资源和社会保障厅关于福建省特级教师推荐人选的公示</a>
+												<span class="bf-pass">
+													07-22
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/gsgg/202606/t20260622_7165499.htm" target="_blank" title="福建省人力资源和社会保障厅 福建省财政厅 福建省卫生健康委员会 福建省应急管理厅关于发布2026年度省本级工伤预防重点领域和项目申报指南的公告">福建省人力资源和社会保障厅 福建省财政厅 福建省卫生健康委员会 福建省应急管理厅关于发布2026年度省本级工伤预防重点领域和项目申报指南的公告</a>
+												<span class="bf-pass">
+													06-22
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/gsgg/202606/t20260617_7164279.htm" target="_blank" title="关于2026年度福建省人力资源和社会保障厅拟录用人员的公示">关于2026年度福建省人力资源和社会保障厅拟录用人员的公示</a>
+												<span class="bf-pass">
+													06-17
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/gsgg/202606/t20260617_7164278.htm" target="_blank" title="关于2025年度福建省人力资源和社会保障厅拟录用人员的公示">关于2025年度福建省人力资源和社会保障厅拟录用人员的公示</a>
+												<span class="bf-pass">
+													06-17
+												</span>
+											</li>
+										
+
+									</ul>
+									<ul class="rsgb-yw-list rsgb-yw-list2">
+										
+											<li>
+												<a href="./zw/ldjy/202609/t20260930_7220230.htm" target="_blank" title="关于第二十七批领取病残津贴人员名单的公示">关于第二十七批领取病残津贴人员名单的公示</a>
+												<span class="bf-pass">
+													09-28
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202609/t20260930_7220231.htm" target="_blank" title="关于特殊工种提前退休人员名单的公示（2026年9月）">关于特殊工种提前退休人员名单的公示（2026年9月）</a>
+												<span class="bf-pass">
+													09-21
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202609/t20260916_7214313.htm" target="_blank" title="福建省人社厅公布2026年第三批拖欠农民工工资失信联合惩戒对象名单">福建省人社厅公布2026年第三批拖欠农民工工资失信联合惩戒对象名单</a>
+												<span class="bf-pass">
+													09-15
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202609/t20260916_7214310.htm" target="_blank" title="福建省人社厅公布2026年第三批重大劳动保障违法行为">福建省人社厅公布2026年第三批重大劳动保障违法行为</a>
+												<span class="bf-pass">
+													09-15
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202609/t20260914_7212961.htm" target="_blank" title="福建省企业薪酬调查信息（2025年）">福建省企业薪酬调查信息（2025年）</a>
+												<span class="bf-pass">
+													09-14
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202609/t20260911_7212369.htm" target="_blank" title="关于第二十六批领取病残津贴人员名单的公示">关于第二十六批领取病残津贴人员名单的公示</a>
+												<span class="bf-pass">
+													09-08
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202608/t20260827_7204925.htm" target="_blank" title="关于特殊工种提前退休人员名单的公示（2026年8月）">关于特殊工种提前退休人员名单的公示（2026年8月）</a>
+												<span class="bf-pass">
+													08-24
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/ldjy/202608/t20260827_7204921.htm" target="_blank" title="关于第二十五批领取病残津贴人员名单的公示">关于第二十五批领取病残津贴人员名单的公示</a>
+												<span class="bf-pass">
+													08-18
+												</span>
+											</li>
+										
+
+									</ul>
+
+									<!-- <ul class="rsgb-yw-list rsgb-yw-list2">
+										
+
+									</ul> -->
+									<ul class="rsgb-yw-list rsgb-yw-list2">
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202105/t20210526_5601660.htm" target="_blank" title="中央单位高级职称评审委员会备案目录">中央单位高级职称评审委员会备案目录</a>
+												<span class="bf-pass">
+													05-26
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202203/t20220316_5861135.htm" target="_blank" title="福建省专业技术职称评审委员会目录（动态调整）">福建省专业技术职称评审委员会目录（动态调整）</a>
+												<span class="bf-pass">
+													04-22
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202610/t20261009_7222526.htm" target="_blank" title="专业技术资格证书补证公示122（二级建造师）">专业技术资格证书补证公示122（二级建造师）</a>
+												<span class="bf-pass">
+													10-09
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202610/t20261010_7223362.htm" target="_blank" title="关于批准确认沈水红等16位同志文物博物系列高级职称的通知">关于批准确认沈水红等16位同志文物博物系列高级职称的通知</a>
+												<span class="bf-pass">
+													09-29
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202610/t20261010_7223356.htm" target="_blank" title="关于批准确认李薇等3位同志幼儿园教师高级职称的通知">关于批准确认李薇等3位同志幼儿园教师高级职称的通知</a>
+												<span class="bf-pass">
+													09-20
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202609/t20260908_7210430.htm" target="_blank" title="关于批准确认郑华等46位同志中等职业学校教师高级职称的通知">关于批准确认郑华等46位同志中等职业学校教师高级职称的通知</a>
+												<span class="bf-pass">
+													09-03
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202609/t20260904_7209427.htm" target="_blank" title="关于批准确认项晖等10位同志播音主持专业副高级职称的通知">关于批准确认项晖等10位同志播音主持专业副高级职称的通知</a>
+												<span class="bf-pass">
+													08-31
+												</span>
+											</li>
+										
+											<li>
+												<a href="./zw/rsxx/zcpd/202609/t20260901_7207344.htm" target="_blank" title="关于批准确认王金勇等94位同志工程系列环保专业高级工程师职称的通知">关于批准确认王金勇等94位同志工程系列环保专业高级工程师职称的通知</a>
+												<span class="bf-pass">
+													08-26
+												</span>
+											</li>
+										
+
+									</ul>
+									<ul class="rsgb-yw-list rsgb-yw-list2">
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/zxwyta/202604/t20260414_7124422.htm" target="_blank" title="关于省政协十三届四次会议第20263082号提案的会办意见">关于省政协十三届四次会议第20263082号提案的会办意见</a>
+												<span class="bf-pass">
+													04-14
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/zxwyta/202604/t20260414_7124421.htm" target="_blank" title="关于省政协十三届四次会议第20262045号提案的会办意见">关于省政协十三届四次会议第20262045号提案的会办意见</a>
+												<span class="bf-pass">
+													04-14
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/rddbjy/202604/t20260414_7124412.htm" target="_blank" title="关于省十四届人大四次会议第1692号建议的协办意见">关于省十四届人大四次会议第1692号建议的协办意见</a>
+												<span class="bf-pass">
+													04-14
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/rddbjy/202604/t20260402_7118511.htm" target="_blank" title="关于省十四届人大四次会议第1474号建议的协办意见">关于省十四届人大四次会议第1474号建议的协办意见</a>
+												<span class="bf-pass">
+													04-02
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/zxwyta/202603/t20260326_7116144.htm" target="_blank" title="关于省政协十三届四次会议第20262254号提案的会办意见">关于省政协十三届四次会议第20262254号提案的会办意见</a>
+												<span class="bf-pass">
+													03-26
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/rddbjy/202603/t20260326_7116142.htm" target="_blank" title="关于省十四届人大四次会议第1647号建议的协办意见">关于省十四届人大四次会议第1647号建议的协办意见</a>
+												<span class="bf-pass">
+													03-26
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/zxwyta/202503/t20250317_6780087.htm" target="_blank" title="关于省政协十三届三次会议第20251306号提案的会办意见">关于省政协十三届三次会议第20251306号提案的会办意见</a>
+												<span class="bf-pass">
+													03-17
+												</span>
+											</li>
+										
+											<li class="mr">
+												<a href="./zw/zfxxgk/zfxxgkml/tyabl/rddbjy/202503/t20250313_6778508.htm" target="_blank" title="关于省十四届人大三次会议第1572号建议的协办意见">关于省十四届人大三次会议第1572号建议的协办意见</a>
+												<span class="bf-pass">
+													03-13
+												</span>
+											</li>
+										
+
+									</ul>
+								</div>
+
+
+							</div>
+
+						</div>
+
+						<ul class="rsgb-xxgkzfjg clearflx">
+							<li>
+								<a href="./zw/zfxxgk/" title="政府信息公开" target="_blank">
+									<img src="./images/20211105-zfxxgk-icon1.png" alt="" />政府信息公开
+								</a>
+							</li>
+							<li class="degcor">
+								<a href="./zw/ztzl/zxzt/jgzf/" title="监管执法" target="_blank">
+									<img src="./images/20211105-zfxxgk-icon2.png" alt="" />监管执法
+								</a>
+							</li>
+						</ul>
+
+						<div id="tabZcjd">
+							<div class="rsgb-sy-tit clearflx matp " style="margin-top: 65px;">
+								<ul class="clearflx hd">
+									<li class="actt"><a
+											href='./zcjd/zcjd/bmzcwjjd/'
+											target="_blank" title="政策解读">政策解读</a></li>
+									<li class="last"><a
+											href='./zcjd/hygq/'
+											target="_blank" title="回应关切">回应关切</a></li>
+								</ul>
+							</div>
+							<div class="bd" id="tabZcjd-bd">
+								<!--政策解读tab栏 220920-->
+								<div class="tabZcjd-bd-list">
+									<ul class="rsgb-zcjd clearflx">
+										
+
+											<li><a href="./zcjd/zcjd/bmzcwjjd/202404/t20240430_6442364.htm" target="_blank"
+													title="图解｜《福建省人力资源和社会保障厅等七部门关于印发〈福建省职业技能提升工程为民办实事项目实施方案〉的通知》">
+													<i
+														style="background-image: url('./zcjd/zcjd/bmzcwjjd/202404/W020240507575098076269.jpg')"></i>
+												</a></li>
+										
+
+											<li><a href="./zcjd/zcjd/bmzcwjjd/202403/t20240329_6421700.htm" target="_blank"
+													title="图解｜《福建省工伤保险基金省级统收统支实施方案》政策解读">
+													<i
+														style="background-image: url('./zcjd/zcjd/bmzcwjjd/202403/W020240403410192812315.png')"></i>
+												</a></li>
+										
+									</ul>
+
+									<div class="jdhywjbox">
+
+										<ul class="rsgb-yw-list rsgb-yw-list2">
+											
+												<li>
+													<a href="./zcjd/zcjd/bmzcwjjd/202610/t20261008_7221652.htm" target="_blank" title="一图读懂 | 福建省人力资源和社会保障厅 福建省教育厅福建省财政厅 国家税务总局福建省税务局关于落实失业保险支持企业稳岗扩岗的通知">一图读懂 | 福建省人力资源和社会保障厅 福建省教育厅福建省财政厅 国家税务总局福建省税务局关于落实失业保险支持企业稳岗扩岗的通知</a>
+													<span class="bf-pass">
+														09-17
+													</span>
+												</li>
+											
+												<li>
+													<a href="./zcjd/zcjd/bmzcwjjd/202609/t20260916_7214251.htm" target="_blank" title="《福建省人力资源和社会保障厅 福建省教育厅 福建省财政厅 国家税务总局福建省税务局关于落实失业保险支持企业稳岗扩岗的通知》政策解读">《福建省人力资源和社会保障厅 福建省教育厅 福建省财政厅 国家税务总局福建省税务局关于落实失业保险支持企业稳岗扩岗的通知》政策解读</a>
+													<span class="bf-pass">
+														09-16
+													</span>
+												</li>
+											
+												<li>
+													<a href="./zcjd/zcjd/bmzcwjjd/202606/t20260629_7168804.htm" target="_blank" title="《福建省人力资源和社会保障厅关于宣布失效和废止一批文件的通知》政策解读">《福建省人力资源和社会保障厅关于宣布失效和废止一批文件的通知》政策解读</a>
+													<span class="bf-pass">
+														06-29
+													</span>
+												</li>
+											
+												<li>
+													<a href="./zcjd/zcjd/bmzcwjjd/202602/t20260227_7102540.htm" target="_blank" title="关于印发《福建省大规模职业技能提升培训行动实施方案》的政策解读">关于印发《福建省大规模职业技能提升培训行动实施方案》的政策解读</a>
+													<span class="bf-pass">
+														02-27
+													</span>
+												</li>
+											
+												<li>
+													<a href="./zcjd/zcjd/bmzcwjjd/202601/t20260122_7083913.htm" target="_blank" title="一图读懂｜关于印发《福建省工伤保险单位缴费费率浮动管理办法》的通知">一图读懂｜关于印发《福建省工伤保险单位缴费费率浮动管理办法》的通知</a>
+													<span class="bf-pass">
+														01-22
+													</span>
+												</li>
+											
+												<li>
+													<a href="./zcjd/zcjd/bmzcwjjd/202601/t20260115_7075035.htm" target="_blank" title="《福建省工伤保险单位缴费费率浮动管理办法》政策解读">《福建省工伤保险单位缴费费率浮动管理办法》政策解读</a>
+													<span class="bf-pass">
+														01-15
+													</span>
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+								<div class="tabZcjd-bd-list">
+									<ul class="rsgb-zcjd clearflx">
+										
+									</ul>
+
+									<div class="jdhywjbox" style="height: 390px;">
+
+										<ul class="rsgb-yw-list rsgb-yw-list2">
+											
+												<li>
+													<a href="https://mp.weixin.qq.com/s/LA1zOMmeaoyIkGgYqTCJcg" target="_blank" title="【人社日课·说卡】10月9日 社保卡换卡收费吗？">【人社日课·说卡】10月9日 社保卡换卡收费吗？</a>
+													<span class="bf-pass">
+														10-09
+													</span>
+												</li>
+											
+												<li>
+													<a href="https://mp.weixin.qq.com/s/F-9MRXfsQMtCzjlSNNVOwg" target="_blank" title="【人社日课·说卡】10月8日 换发社保卡后，以前卡里的钱如何转到新卡？">【人社日课·说卡】10月8日 换发社保卡后，以前卡里的钱如何转到新卡？</a>
+													<span class="bf-pass">
+														10-08
+													</span>
+												</li>
+											
+												<li>
+													<a href="https://mp.weixin.qq.com/s/7RfCFn1EjLVruXA7JOndJg" target="_blank" title="【人社日课·说卡】9月30日 参保地变了，社保卡必须换吗？">【人社日课·说卡】9月30日 参保地变了，社保卡必须换吗？</a>
+													<span class="bf-pass">
+														09-30
+													</span>
+												</li>
+											
+												<li>
+													<a href="https://mp.weixin.qq.com/s/wz174Ycou5jVieSsws49jQ" target="_blank" title="【人社日课·9月29日】技能人员职业资格证书丢失怎么办？">【人社日课·9月29日】技能人员职业资格证书丢失怎么办？</a>
+													<span class="bf-pass">
+														09-29
+													</span>
+												</li>
+											
+												<li>
+													<a href="https://mp.weixin.qq.com/s/8DJCwxbN6JPXSmbZpMPY_g" target="_blank" title="【人社日课·9月28日】公司解除劳动合同时，经济补偿的月工资按什么标准计算？">【人社日课·9月28日】公司解除劳动合同时，经济补偿的月工资按什么标准计算？</a>
+													<span class="bf-pass">
+														09-28
+													</span>
+												</li>
+											
+												<li>
+													<a href="https://mp.weixin.qq.com/s/Tv41qDsW4EJUORyY8mNghw" target="_blank" title="【人社日课·9月24日】可看可逛可参与的世界技能博览会">【人社日课·9月24日】可看可逛可参与的世界技能博览会</a>
+													<span class="bf-pass">
+														09-24
+													</span>
+												</li>
+											
+										</ul>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+
+
+					</div>
+				</div>
+				<div class="nync-item fr" role="serve" des="办事服务">
+					<div class="borpad">
+						<div id="tabXsfc">
+							<div class="rsgb-sy-tit clearflx">
+								<ul class="clearflx fl hd">
+									<li class="actt"><a
+											href='./zw/ztzl/zxzt/rslyzyss/xsfc/'
+											target="_blank" title="下载中心">选手风采</a></li>
+									<li class="last"><a
+											href='./fw/xzzx/'
+											target="_blank" title="下载中心">下载中心</a></li>
+								</ul>
+
+							</div>
+							<div class="xzzx-box" id="tabXsfc-bd">
+								<div class="bd">
+									<div class="xsfc_div">
+										
+											<a href="./zw/ztzl/zxzt/rslyzyss/xsfc/202509/t20250926_7015748.htm"
+												title="技能照亮前程：00后何梅春的逐梦之路"
+												target="_blank">
+												<div class="rsgb-ftzx fl">
+													<i
+														style="background-image: url('http://rst.fujian.gov.cn/zw/ztzl/zxzt/rslyzyss/xsfc/202509/W020250928335494526332.png')"></i>
+												</div>
+												<div class="xsfc_div_nr">
+													<p>
+														<a href="./zw/ztzl/zxzt/rslyzyss/xsfc/202509/t20250926_7015748.htm" target="_blank" title="技能照亮前程：00后何梅春的逐梦之路">技能照亮前程：00后何梅春的逐梦之路</a>
+													</p>
+													<div class="xsfc_div_bottom clearflx">
+														<span>
+															2025-09-16
+														</span>
+														<em>查看详情>></em>
+													</div>
+												</div>
+											</a>
+										
+									</div>
+									<ul class="rsgb-yw-list rsgb-yw-list2">
+										
+											<li>
+												<a href="./fw/xzzx/qtzl/202609/t20260909_7211246.htm" target="_blank"
+													title="艺圃之光：技工人才的报国之路"
+													class="det_a">
+													艺圃之光：技工人才的报国之路
+												</a>
+												<span class="bf-pass">
+													2026-09-09
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/qtzl/202602/t20260206_7090325.htm" target="_blank"
+													title="事业单位人事统计报表"
+													class="det_a">
+													事业单位人事统计报表
+												</a>
+												<span class="bf-pass">
+													2026-02-06
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202512/t20251202_7041422.htm" target="_blank"
+													title="全国职业技能培训综合情况表（OS3表）"
+													class="det_a">
+													全国职业技能培训综合情况表（OS3表）
+												</a>
+												<span class="bf-pass">
+													2025-12-02
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202512/t20251202_7041420.htm" target="_blank"
+													title="《关于做好2025年度技工院校和职业培训统计分析工作的通知》_OS1、OS2表相关表格"
+													class="det_a">
+													《关于做好2025年度技工院校和职业培训统计分析工作的通知》_OS1、OS2表相关表格
+												</a>
+												<span class="bf-pass">
+													2025-12-02
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202501/t20250113_6700058.htm" target="_blank"
+													title="福建省专业技术人才知识更新工程2025年高级研修项目汇总表"
+													class="det_a">
+													福建省专业技术人才知识更新工程2025年高级研修项目汇总表
+												</a>
+												<span class="bf-pass">
+													2025-01-13
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202501/t20250113_6700054.htm" target="_blank"
+													title="专业技术人才知识更新工程2025年省级高级研修项目申报表"
+													class="det_a">
+													专业技术人才知识更新工程2025年省级高级研修项目申报表
+												</a>
+												<span class="bf-pass">
+													2025-01-13
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202501/t20250113_6700052.htm" target="_blank"
+													title="专业技术人才知识更新工程2025年高级研修项目申报表"
+													class="det_a">
+													专业技术人才知识更新工程2025年高级研修项目申报表
+												</a>
+												<span class="bf-pass">
+													2025-01-13
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202402/t20240226_6405591.htm" target="_blank"
+													title="福建省继续教育公共服务平台接入申请表"
+													class="det_a">
+													福建省继续教育公共服务平台接入申请表
+												</a>
+												<span class="bf-pass">
+													2024-02-26
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/glbg/202312/t20231226_6366917.htm" target="_blank"
+													title="专业技术人才知识更新工程2024年高级研修项目申报表"
+													class="det_a">
+													专业技术人才知识更新工程2024年高级研修项目申报表
+												</a>
+												<span class="bf-pass">
+													2023-12-26
+												</span>
+
+											</li>
+										
+											<li>
+												<a href="./fw/xzzx/qtzl/202312/t20231220_6362513.htm" target="_blank"
+													title="福建省人力资源和社会保障厅办公室关于做好2023年度技工院校和职业培训等统计工作的通知"
+													class="det_a">
+													福建省人力资源和社会保障厅办公室关于做好2023年度技工院校和职业培训等统计工作的通知
+												</a>
+												<span class="bf-pass">
+													2023-12-20
+												</span>
+
+											</li>
+										
+
+
+									</ul>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="rsgb-sy-tit clearflx">
+							<ul class="clearflx fl matp">
+								<li class="actt last"><a
+										href='./fw/'
+										target="_blank" title="办事服务">办事服务</a></li>
+							</ul>
+						</div>
+						<div class="rsgb-wsbsdttp">
+							<a href="https://zwfw.fujian.gov.cn/province-dept/index?type=2&siteUnid=46290286B4C55E0E164A4C2AB07AF165"
+								target="_blank" title="福建省网上办事大厅-省人社厅分厅"><img src="./images/251230srst_ban.jpg" alt="" /></a>
+						</div>
+
+						<div id="tsfw_tab">
+							<div class="rsgb-sy-tit clearflx">
+								<ul class="clearflx fl hd">
+										<li class="actt"><a href="javascript:;" target="_blank" title="政务指南"
+											tabindex="-1">政务指南</a></li>
+									<li  class="last">
+										<a href='./fw/'
+											target="_blank" title="特色服务">特色服务</a>
+									</li>
+								
+								</ul>
+							</div>
+							<div id="tsfw_bd">
+								<div class="bd">
+									<div class="zwzn_list">
+										<ul>
+
+											
+
+												<li>
+													<a href='https://zwfw.fujian.gov.cn:1001/OnebusinessCate/efficiently-thing/retirement/'
+														title='退休“一件事”'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231410328968726.png" /></span>
+														<p><em>
+																退休“一件事”
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202509/t20250904_7001011.htm'
+														title='养老保险关系转移接续'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231410495714351.png" /></span>
+														<p><em>
+																养老保险关系转移接续
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202509/t20250904_7000984.htm'
+														title='工伤保险待遇申领'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231410639802552.png" /></span>
+														<p><em>
+																工伤保险待遇申领
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202509/t20250904_7000979.htm'
+														title='劳动能力鉴定'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231410758468623.png" /></span>
+														<p><em>
+																劳动能力鉴定
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202309/t20230922_6262745.htm'
+														title='失业保险金申领'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231410946429094.png" /></span>
+														<p><em>
+																失业保险金申领
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202309/t20230922_6262785.htm'
+														title='城乡居民基本养老保险参保登记业务'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231411059581504.png" /></span>
+														<p><em>
+																城乡居民基本养老保险参保登记业务
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202309/t20230922_6262907.htm'
+														title='城乡居民基本养老保险待遇申领业务'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231411178365826.png" /></span>
+														<p><em>
+																城乡居民基本养老保险待遇申领业务
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202509/t20250904_7001017.htm'
+														title='毕业生一次性求职补贴'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231411283195625.png" /></span>
+														<p><em>
+																毕业生一次性求职补贴
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202509/t20250904_7001007.htm'
+														title='职业技能提升补贴'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231411396453155.png" /></span>
+														<p><em>
+																职业技能提升补贴
+															</em></p>
+													</a>
+												</li>
+											
+
+												<li>
+													<a href='https://www.fujian.gov.cn/nrrh/srst/202309/t20230922_6262758.htm'
+														title='《就业创业证》申领'
+														target="_blank">
+														<span><img src="./gnllm/zwzn/202512/W020251231411538872243.png" /></span>
+														<p><em>
+																《就业创业证》申领
+															</em></p>
+													</a>
+												</li>
+											
+										</ul>
+									</div>
+									<div>
+										<ul class="clearflx rsgb-bmfwbstt bmfw">
+											
+												<li>
+                                                    <!--  id="7195584" -->
+													<a href='https://zwfw.rst.fujian.gov.cn/' title='人社政务服务平台'
+														target="_blank">
+														<i class="xp1"></i>人社政务服务平台
+													</a>
+
+												</li>
+											
+												<li>
+                                                    <!--  id="7195584" -->
+													<a href='http://220.160.53.33:8903' title='事业单位公开招聘考试报名平台'
+														target="_blank">
+														<i class="xp2"></i>事业单位公开招聘考试报名平台
+													</a>
+
+												</li>
+											
+												<li>
+                                                    <!--  id="7195584" -->
+													<a href='https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcjd/zcjdwz/202610/t20261008_585155.html' title='人社日课'
+														target="_blank">
+														<i class="xp3"></i>人社日课
+													</a>
+
+												</li>
+											
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+			<h2 class="syyj-box"><a href="./zw/ztzl/"
+					target="_blank" title="专题专栏">专题专栏</a></h2>
+
+			<div class="rsgb-ztzlbox" id="focusBox1" role="viewlist" des="专题专栏">
+				<a href="javascript:;" class="jt-btn1 prev bf-pass"><i class="iconfont"></i></a>
+				<a href="javascript:;" class="jt-btn2 next bf-pass"><i class="iconfont"></i></a>
+				<ul class="clearflx syztztlist leftscroll">
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/sbhm/"
+								title="社保惠民"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202605/W020260509629702388371.png" width="293" height="102" alt="社保惠民" />
+								<p class="bf-pass">
+									社保惠民
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/cjgzlcfjy/"
+								title="促进高质量充分就业"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202605/W020260509629070192817.png" width="293" height="102" alt="促进高质量充分就业" />
+								<p class="bf-pass">
+									促进高质量充分就业
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="http://rst.fujian.gov.cn/zw/ztzl/zxzt/rslyzyss/"
+								title="人社领域重要赛事"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202510/W020251011571571226719.png" width="293" height="102" alt="人社领域重要赛事" />
+								<p class="bf-pass">
+									人社领域重要赛事
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="http://rst.fujian.gov.cn/zw/ztzl/zxzt/wzzwscztbjyffx/"
+								title="稳增长稳市场主体保就业防风险"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202212/W020221201379854349345.png" width="293" height="102" alt="稳增长稳市场主体保就业防风险" />
+								<p class="bf-pass">
+									稳增长稳市场主体保就业防风险
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/jgzf/"
+								title="监管执法"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202211/W020221128425221906028.png" width="293" height="102" alt="监管执法" />
+								<p class="bf-pass">
+									监管执法
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/hfjs/"
+								title="正行风 树新风 为人民"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202207/W020220705508246334170.png" width="293" height="102" alt="正行风 树新风 为人民" />
+								<p class="bf-pass">
+									正行风 树新风 为人民
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/sswzxgh/"
+								title="“十四五”专项规划"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/202112/W020211227322773373168.png" width="293" height="102" alt="“十四五”专项规划" />
+								<p class="bf-pass">
+									“十四五”专项规划
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/jgdj/"
+								title="机关党建"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/201903/W020190307518491957246.jpg" width="293" height="102" alt="机关党建" />
+								<p class="bf-pass">
+									机关党建
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/zw/ztzl/zxzt/sydwrczp/"
+								title="事业单位招聘"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/201812/W020181204434857030302.jpg" width="293" height="102" alt="事业单位招聘" />
+								<p class="bf-pass">
+									事业单位招聘
+								</p>
+							</a>
+						</li>
+					
+						<li>
+							<a href="http://gwykl.fujian.gov.cn/"
+								title="公务员招考"
+								target="_blank">
+								<img src="./zw/ztzl/zxzt/201812/W020181204434882016570.jpg" width="293" height="102" alt="公务员招考" />
+								<p class="bf-pass">
+									公务员招考
+								</p>
+							</a>
+						</li>
+					
+
+				</ul>
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- <div id="img_float"
+		style="Z-INDEX: 100; LEFT: 2px; WIDTH: 200px; POSITION: fixed; TOP: 325px; HEIGHT: 160px; visibility: visible;">
+		<div align="right" onclick="document.getElementById('img_float').style.display='none'"
+			style="color:rgb(16, 15, 15);font-size:12px;margin-bottom:0px;text-decoration:none;position:relative">[关闭]
+		</div>
+		<div align="center"> <a href="https://liuyan.www.gov.cn/2024wwzfgzbgtjy/bmdf.html?q=fj" title="@国务院 我来说" target="_blank">
+				<img src="./images/20231218syhd.jpg" />
+			</a>
+		</div>
+	</div> -->
+	<!--   <div id="img_float1"
+		style="Z-INDEX: 100; LEFT: 2px; WIDTH: 200px; POSITION: fixed; TOP: 325px; HEIGHT: 160px; visibility: visible;">
+		<div align="right" onclick="document.getElementById('img_float1').style.display='none'"
+			style="color:rgb(16, 15, 15);font-size:12px;margin-bottom:0px;text-decoration:none;position:relative">[关闭]
+		</div>
+		<div align="center"> <a href="http://photo.china.com.cn/node_9006497.html" title="春风行动20年" target="_blank">
+				<img src="./images/cfxd20n.png" />
+			</a>
+		</div>
+	</div>   -->
+	<div id="img_float2"
+		style="Z-INDEX: 100; right: 12px; WIDTH: 200px; POSITION: fixed; TOP: 485px; HEIGHT: 160px; visibility: visible;">
+		<div align="right" onclick="document.getElementById('img_float2').style.display='none'"
+			style="color:rgb(16, 15, 15);font-size:12px;margin-bottom:0px;text-decoration:none;position:relative">[关闭]
+		</div>
+		<div align="center"> <a href="https://www.fj99.org.cn/ " title="福建就业" target="_blank">
+				<img src="./images/240315.png" />
+			</a>
+		</div>
+	</div>
+	<div id="img_float3"
+		style="Z-INDEX: 100; right: 2px; WIDTH: 220px; POSITION: fixed; TOP: 195px; HEIGHT: 160px; visibility: visible;">
+		<div align="right" onclick="document.getElementById('img_float3').style.display='none'"
+			style="color:rgb(16, 15, 15);font-size:12px;margin-bottom:0px;text-decoration:none;position:relative">[关闭]
+		</div>
+		<div align="center"
+			style="color:#1658A0;font-size:15px;margin-bottom:0px;text-decoration:none;position:relative;font-weight: 900;">
+			高校毕业生求职招聘专区
+		</div>
+		<div align="center"
+			style="color:#1658A0;font-size:15px;margin-bottom:0px;text-decoration:none;position:relative;font-weight: 900;">
+			“闽政通”扫一扫 好工作等你来
+		</div>
+		<div align="center"> <a href="JavaScript:; " title="打开“闽政通”扫一扫 好工作等你来">
+				<img src="./images/mzt20240409.png" />
+			</a>
+		</div>
+
+	</div>
+
+	<!-- 中间部分 end -->
+	<!-- 飘窗-->
+	<!-- 飘窗end-->
+	<!-- 底部嵌套 -->
+	<!-- 底部嵌套 -->
+<div id="footer_2021">
+
+    <div class="pho-foot_2021" role="navigation">
+        <div class="xzk_2021">
+            <ul >
+                <li >
+                    <p >中央政府</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                                <li><a href="https://www.gov.cn/" title="中央政府" target="_blank">中央政府</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li >
+                    <p>福建省人民政府</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                                <li><a href="https://www.fujian.gov.cn/" title="福建省人民政府" target="_blank">福建省人民政府</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li >
+                    <p>人力资源和社会保障部</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                                <li><a href="http://www.mohrss.gov.cn/" title="人力资源和社会保障部" target="_blank">人力资源和社会保障部</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li >
+                    <p>市人社系统</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                                
+                                    <li><a href="http://www.fuzhou.gov.cn/zgfzzt/srsj/fzrs/" target="_blank" title="福州市人力资源和社会保障局">福州市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://hrss.xm.gov.cn/" target="_blank" title="厦门市人力资源和社会保障局">厦门市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.zhangzhou.gov.cn/" target="_blank" title="漳州市人力资源和社会保障局">漳州市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.quanzhou.gov.cn/" target="_blank" title="泉州市人力资源和社会保障局">泉州市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.sm.gov.cn/" target="_blank" title="三明市人力资源和社会保障局">三明市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.putian.gov.cn/" target="_blank" title="莆田市人力资源和社会保障局">莆田市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.np.gov.cn/" target="_blank" title="南平市人力资源和社会保障局">南平市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.longyan.gov.cn/" target="_blank" title="龙岩市人力资源和社会保障局">龙岩市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.ningde.gov.cn/" target="_blank" title="宁德市人力资源和社会保障局">宁德市人力资源和社会保障局</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li >
+                    <p>其它链接</p>
+                    <div class="mark_2021" style="display: none">
+                        <div class="dialog_2021">
+                            <ul>
+                                
+                                    <li><a href="http://xy.fujian.gov.cn" target="_blank" title="信用中国（福建）">信用中国（福建）</a></li>
+                                
+                                    <li><a href="http://www.creditchina.gov.cn/" target="_blank" title="信用中国">信用中国</a></li>
+                                
+                                    <li><a href="http://www.zuzhirenshi.com" target="_blank" title="中国组织人事报">中国组织人事报</a></li>
+                                
+                                    <li><a href="http://www.hxrc.com/" target="_blank" title="中国海峡人才网">中国海峡人才网</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="yqlj_con_2021" role="navigation">
+        <div class="w_1300_2021 rel_2021">
+            <div class="yqlj_tit1_2021">
+                <ul  >
+                    <li>
+                        <a href="https://www.gov.cn/" title="中央政府" target="_blank"><p>中央政府</p></a>
+                    </li>
+                    <li>
+                       <a href="https://www.fujian.gov.cn/" title="福建省人民政府" target="_blank"> <p> 福建省人民政府</p></a>
+                    </li>
+                    <li>
+                        <a href="http://www.mohrss.gov.cn/" title="人力资源和社会保障部" target="_blank"><p>人力资源和社会保障部</p></a>
+                    </li>
+                    <li class="genduo">
+                        <p>市人社系统<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                
+                                    <li><a href="http://www.fuzhou.gov.cn/zgfzzt/srsj/fzrs/" target="_blank" title="福州市人力资源和社会保障局">福州市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://hrss.xm.gov.cn/" target="_blank" title="厦门市人力资源和社会保障局">厦门市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.zhangzhou.gov.cn/" target="_blank" title="漳州市人力资源和社会保障局">漳州市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.quanzhou.gov.cn/" target="_blank" title="泉州市人力资源和社会保障局">泉州市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.sm.gov.cn/" target="_blank" title="三明市人力资源和社会保障局">三明市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.putian.gov.cn/" target="_blank" title="莆田市人力资源和社会保障局">莆田市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.np.gov.cn/" target="_blank" title="南平市人力资源和社会保障局">南平市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.longyan.gov.cn/" target="_blank" title="龙岩市人力资源和社会保障局">龙岩市人力资源和社会保障局</a></li>
+                                
+                                    <li><a href="http://rsj.ningde.gov.cn/" target="_blank" title="宁德市人力资源和社会保障局">宁德市人力资源和社会保障局</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="genduo">
+                        <p>其它链接<em></em><i></i></p>
+                        <div class="yqlj_con1_2021">
+                            <ul>
+                                
+                                    <li><a href="http://xy.fujian.gov.cn" target="_blank" title="信用中国（福建）">信用中国（福建）</a></li>
+                                
+                                    <li><a href="http://www.creditchina.gov.cn/" target="_blank" title="信用中国">信用中国</a></li>
+                                
+                                    <li><a href="http://www.zuzhirenshi.com" target="_blank" title="中国组织人事报">中国组织人事报</a></li>
+                                
+                                    <li><a href="http://www.hxrc.com/" target="_blank" title="中国海峡人才网">中国海峡人才网</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bot_bg_2021" role="serve">
+        <div class="w_1300_2021 twhite1_2021">
+            <div class="bot_l_2021">
+                <h3>
+                    <a href="/bz/ysbh/" target="_blank" title="隐私保护">隐私保护</a>|
+                    <a href="/bz/zddt/" target="_blank" title="网站地图">网站地图</a>|
+                    <a href="/bz/sybz/" target="_blank" title="使用帮助">使用帮助</a>|
+                    <a href="/bz/wzsm/" target="_blank" title="网站申明">网站申明</a>|
+                     <!-- <a href="/bz/wzgg/" target="_blank" title="网站公告">网站公告</a>| -->
+                    <a href="/bz/lxwm/" target="_blank" title="联系我们">联系我们</a>|      
+               <a href="https://mail.rst.fujian.gov.cn/" target="_blank" title="邮箱">邮箱</a> 
+
+                </h3>
+                <p>
+                    <span>网站标识码：3500000048</span>
+                    <span><a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备09007626号-5</a> </span>
+                    <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000072" target="_blank"><img src="/images/gongan.png" alt="" />闽公网安备35010202000072号</a> </span>
+                </p>
+                <p><span style="margin-right: 10px;" >版权所有©  rst.fujian.gov.cn   All Rights Reserved</span><span style="margin-right: 10px;">中文域名：福建省人力资源和社会保障厅.政务</span></p>
+            </div>
+            <span class="dzjg_2021">
+                 <span id="_ideConac"></span>
+                <span id="_span_jiucuo"></span>
+            </span>
+            <div class="bot_r_2021">
+                <h3><a href="">新媒体矩阵</a></h3>
+                <ul class="clearflx xmt-list-2021">
+                    <li><a href="javascript:;">
+                        <img src="/images/20211105-rst-ewm1.png" alt="" />
+                        <p>福建省人社官方微信</p>
+                       </a>
+                       <div class="codebox_2021" style="padding: 10px;width: auto;height: auto;"> <img src="/images/20211124-rstgf.jpg" style="width: 100px;margin: 0;" alt="" /></div>
+                    </li>
+                    <li class="mztew2"><a href="javascript:;">
+                        <img src="/images/20211105-rst-ewm2.png" alt="" />
+                        <p>闽政通APP</p>
+                        <div class="codebox_2021" style="padding: 10px;width: auto;height: auto;"> <img src="/images/20211124-minzt.png" style="width: 100px;margin: 0;" alt="" /></div>
+                    </a>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="fot-bot_2021" role="contentinfo">
+        <div class="w_1300_2021">
+            <p><span>主办：福建省人力资源和社会保障厅</span></p>
+            <p>为确保最佳浏览效果，建议您使用以下浏览器版本：IE浏览器9.0版本及以上； Google Chrome浏览器 63版本及以上； 360浏览器9.1版本及以上，且IE内核9.0及以上。</p>
+        </div>
+    </div>
+</div>
+<!-- 底部嵌套end -->
+	<!-- 底部嵌套end -->
+	<!-- 全站嵌套 -->
+	<script>
+ var SiteInfo = {
+        was4doc: 269929 //文档检索的was频道号
+        , itpSiteId: 243    //互动站点
+        , itp4apply: 605 //公开申请
+        , itp4advice: 604 //征集
+        , itp4poll: 772 //调查
+        , searchId: 229105 //福建大智频道号
+        // , defaultPgTemp : "pgBar_rst.html"   //本站点默认的分页模板名
+        //, defaultPgTempMobile : "pgBar_rst.html"   //本站点默认的分页模板名，移动端
+        , siteMsgType: "govSite"  //非政府网站提醒规则   currSite 非本站提醒 、govSite  非政府网站提醒
+        , siteWriteList: []     //站点白名单
+        , initWindowRoot : false   //false表示，引入model.js时，不自动生成windowRoot
+        , initPageview : true   //执行windowRoot 时自动执行pageview
+        , registerUrl: "https://iam.e-govt.cn:8901/register?appId=a8e4d0ed-0874-44d4-b144-50cd02986acf&redirect_uri=https://rst.fujian.gov.cn&response_type=code"
+        , loginUrl: "https://rst.fujian.gov.cn/suc/login/login?redirtUrl=https://rst.fujian.gov.cn/suc/login/noseLogin?redirtUrl="  //?redirtUrl=https://rst.fujian.gov.cn/
+        , logoutUrl: "https://rst.fujian.gov.cn/suc/login/logout?redirtUrl="
+        , homeUrl: "https://rst.fujian.gov.cn/suc/indexs/index"
+        , redirtUrl : ""
+    };
+
+</script>
+<div style="display: none;" id="_jiucuo_" sitecode='3500000048'></div>
+		<script>
+			window.onload = function () {
+			var _currentUrl = window.location.href;
+			var _script = document.createElement("script")
+			_script.type = "text/javascript";
+			_script.src = 'https://zfwzgl.www.gov.cn/exposure/jiucuo.js';
+			document.getElementsByTagName('head')[0].appendChild(_script);
+
+            var _newScript = document.createElement('script');
+            _newScript.type = 'text/javascript';
+            _newScript.src = 'https://dcs.conac.cn/js/14/000/0000/41528590/CA140000000415285900001.js';
+            _newScript.onload = function(){
+                                    $('#imgConac').attr('alt','党政机关');
+                            }
+            document.head.appendChild(_newScript); 
+			};
+(function() {
+    var links = document.getElementsByTagName('a');
+    for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        var href = link.getAttribute('href'); 
+        if (href && href.match(/^https?:\/\/rst\.(fujian|fj)\.gov\.cn/)) {
+            var newHref = href.replace(/^https?:\/\/rst\.(fujian|fj)\.gov\.cn/, '');
+            link.setAttribute('href', newHref);
+        }
+    }
+})();
+		</script>
+<script>
+	var PageInfo = {
+	docid: '',
+	chnlid: '',
+	siteid: '43',
+	title: "",
+	chnlname: "",
+	sitename: "省人社厅"
+};
+if (PageInfo.title === "") {
+	PageInfo.title = PageInfo.chnlname || PageInfo.sitename;
+}
+
+
+</script>
+
+<script src='https://www.fujian.gov.cn/images/model.min.js'></script>
+<script src="https://www.fujian.gov.cn/images/barrier.free.min.js" id="barrierFree" sn="17467583006f1173"></script>
+<script>
+    // 顶部搜索
+    var HisString = window.localStorage.getItem("HistoryList"),HisArr = [];
+    if (HisString != null) { HisArr = HisString.split(",") };
+    var Rs = avalon.define({
+        $id: "list_rs",
+        serKey: "",
+        keys: [],
+        linkKeys: [],
+        historyKeys: HisArr,
+        error: false,
+        showlist: false,
+        LockLink: false,
+        setPost: function (key, e) {
+            if (e) e.preventDefault();
+            $("#header form #selecttags").val(key);
+            $("#header form").submit();
+            Rs.LockLink = false;
+            Rs.showlist = false;
+        },
+        $getLinkKeys: function (val) { //获取联想词
+            $.ajax({
+                url: "/smartSearch/interface/word/list.do",
+                method: "post",
+                data: {
+                    keyWord: val,
+                    siteId: "ff808081624641aa0162476c0e0e0055"
+                },
+                success: function (res) {
+                    function json(data) {
+                        var str = $.trim(data);
+                        str = str.replace(new RegExp("[\n\r]", "gm"), "");//过滤可能存在的换行
+                        var s = (new Function('return' + str))();
+                        return s
+                    }
+                    data = json(res);
+                    Rs.error = data.error;
+                    Rs.linkKeys = data.rows;
+                },
+                error: function (err) {
+                    // avalon.log(err);
+                    Rs.error = err;
+                }
+            })
+        },
+        $togLinkkey: function () {
+            Rs.showlist = false;
+        },
+        $checkLock: function () {
+            Rs.LockLink = true;
+        }
+
+    })
+    Rs.$watch("serKey", function (newVal, oldVal) {
+        if (newVal == "") {
+            Rs.showlist = false;
+            // Rs.LockLink = false;
+        } else {
+            Rs.$getLinkKeys(newVal);
+            Rs.showlist = true;
+        }
+    })
+    function pushkeys(dataArr) {
+        for (var i = 0; i < dataArr.length; i++) {
+            var item = {
+                keyword: dataArr[i],
+            }
+            Rs.keys.push(item);
+        }
+    }
+
+    var defKeywords = ["国家公园", "垃圾分类", "水质", "排行榜", "社保"];
+    var hotKeyArr = [];
+    //
+    var keystr = "就业,公务员,社会保险,社会保障,毕业生";
+    hotKeyArr = keystr.split(",");
+    //
+    if (hotKeyArr !== undefined && hotKeyArr.length > 0) { defKeywords = hotKeyArr };
+    pushkeys(defKeywords);
+
+
+    //一级顶部搜索
+    var clickOdd = false;
+    $('.picker_2021').on("click", function () {
+        var showInput = $('.picker_2021 input');
+        var siteId = $('#form #siteId');
+        var isMain = $('#form #isMain');
+        if (clickOdd) {
+           showInput.val('本站');
+            $('#form').attr('action', '/aisp/ff80808165231c54016537c21fa65fd0/search/index.html');
+            siteId.val('ff80808165231c54016537c21fa65fd0');
+            isMain.val('');
+            clickOdd = false;
+        } else {
+           showInput.val('全省');
+            $('#form').attr('action', 'https://www.fujian.gov.cn/ssp/main/index.html');
+            isMain.val('1');
+            siteId.val('ff808081624641aa0162476c0e0e0055');
+            clickOdd = true;
+
+
+        }
+    })
+    //浮动层定位设置插件
+    $.fn.selectCity = function (targetId) {
+        var _seft = this;
+        var targetId = $(targetId);
+        this.click(function () {
+            var A_top = $(this).offset().top + $(this).outerHeight(true);  //  1
+            var A_left = $(this).offset().left;
+            targetId.show();
+        });
+        targetId.find("#tagClose").click(function () {
+            targetId.hide();
+        });
+        $(document).click(function (event) {
+            if (event.target.id != _seft.selector.substring(1)) {
+                targetId.hide();
+            }
+        });
+        targetId.click(function (e) {
+            e.stopPropagation(); //  2
+        });
+        return this;
+    }
+    //调用浮动层
+    $(function () {
+        $("#selecttags").selectCity("#searchTag");
+    });
+
+    avalon.scan($(".ss_box2").get(0));
+    // 顶部搜索 end
+
+ </script> 
+<script src="/images/rst_gb21.js?v=1"></script>
+<script src="/public/images/Fjtran.js"></script>
+	<!-- 全站嵌套 end-->
+	<script>
+		require(["shangjizhuanzai", "list2.advice", "list2.poll", "jquery"], function (shangjizhuanzai, adviceList, pollList, $) {
+			//国务院、省政府
+			shangjizhuanzai({
+				gwyxx: true,
+				gwyxxNum: 9,
+				szfxx: true,
+				szfxxNum: 9,
+				szfxxUrl: 'https://www.fujian.gov.cn/szfxx?callback=pushInfoJsonpCallBackfj'
+			});
+			//省局要闻选项卡切换
+			$('#tabTabqh').slide({
+				titCell: ".hd li",
+				mainCell: ".bd",
+				effect: "left",
+				titOnClassName: "curr",
+			});
+			//要闻轮播图
+			var $slideBox = $("#slideBox");
+			//  var slideImg = $("#slideBox .bd li img");
+			var slideLi = $("#slideBox .bd li");
+			var _w = $('.rsgb-lbt').width();
+			var slideH = 356 * _w / 633;
+			$slideBox.height(slideH);
+			//   slideImg.height(slideH);
+			slideLi.height(slideH);
+			$("#slideBox").slide({
+				titCell: ".hd ul",
+				mainCell: ".bd ul",
+				autoPage: "<li></li>",
+				effect: "left",
+				autoPlay: true,
+				vis: 1
+			});
+			//网上调查、意见征集
+			$('#tabWsdc').slide({
+				titCell: ".hd li",
+				mainCell: ".bd",
+				effect: "left",
+				titOnClassName: "actt",
+			});
+			$('#tabZxwj').slide({
+				titCell: ".hd li",
+				mainCell: ".bd",
+				effect: "left",
+				titOnClassName: "actt",
+			});
+			$('#tabXsfc').slide({
+				titCell: ".hd li",
+				mainCell: ".bd",
+				effect: "left",
+				titOnClassName: "actt",
+			});
+			$('#tabZcjd').slide({
+				titCell: ".hd li",
+				mainCell: ".bd",
+				effect: "left",
+				titOnClassName: "actt",
+			});
+			$('#tsfw_tab').slide({
+				titCell: ".hd li",
+				mainCell: ".bd",
+				effect: "left",
+				titOnClassName: "actt",
+			});
+			// 网上调查
+			pollList({
+				objId: 'wsdc',
+				listCheck: { chnlIds: { required: false } },
+				listApi: {
+					url: '/staticitp/rst/N_772/1.json?r=' + Math.random(), type: "get", pageName: '', prepageName: ''
+
+				},
+			});
+
+			// 意见征集
+			adviceList({
+				objId: 'yjzj',
+				listCheck: { chnlIds: { required: false } },
+				listApi: {
+					url: '/staticitp/rst/D_604/1.json?r=' + Math.random(), type: "get", pageName: '', prepageName: ''
+
+				},
+			});
+			//专题专栏
+			var vis = 4,
+				width = $(window).width();
+			if (width < 1001 && width > 499 || $.cookie("BFree") == "2") {
+				vis = 2;
+			}
+			if (width < 500) {
+				vis = 1;
+			}
+			$("#focusBox1").slide({
+				mainCell: ".leftscroll",
+				effect: "left",
+				autoPlay: true,
+				autoPage: true,
+				scroll: 1,
+				vis: vis,
+				delayTime: 500,
+				trigger: "click"
+			});
+			$(".txtMarquee-left").slide({
+				mainCell: ".bd ul",
+				autoPlay: true,
+				effect: "leftMarquee",
+				vis: 2,
+				interTime: 50
+			});
+
+			$(".jt-btn1").mouseover(function () {
+				$(this).addClass("bluebg");
+			});
+			$(".jt-btn2").mouseover(function () {
+				$(this).addClass("bluebg");
+			});
+			$(".jt-btn1").mouseleave(function () {
+				$(this).removeClass("bluebg");
+			});
+			$(".jt-btn2").mouseleave(function () {
+				$(this).removeClass("bluebg");
+			});
+
+			$(".djtc").click(function () {
+				$(".tc").show();
+			}).mouseout(function () {
+				$(".tc").hide();
+			});
+
+		})
+		// 无障碍tab切换
+
+		setTimeout(function () {
+			tabWza('#tabTabqh', '#tabTabqh-bd .rsgb-yw-list');
+			tabWza('#tabWsdc', '#tabWsdc-bd .tabWsdc-bd-list');
+		}, 2000)
+
+
+		tabWza('#tabZxwj', '#tabZxwj-bd .rsgb-yw-list');
+		tabWza('#tabXsfc', '#tabXsfc-bd .rsgb-yw-list');
+		tabWza('#tabZcjd', '#tabZcjd-bd .tabZcjd-bd-list');
+
+
+		(function (jQuery) {
+			jQuery.fn.imgFloat = function (options) {
+				var own = this;
+				var xD = 0;
+				var yD = 0;
+				var i = 1;
+				var settings = {
+					speed: 10,
+					xPos: 0,
+					yPos: 0
+				};
+				jQuery.extend(settings, options);
+				var ownTop = settings.xPos;
+				var ownLeft = settings.yPos;
+				own.css({
+					position: "absolute",
+					cursor: "auto"
+					//cursor: "pointer"
+				});
+
+				function imgPosition() {
+					var winWidth = jQuery(window).width() - own.width();
+					var winHeight = jQuery(window).height() - own.height();
+					if (xD == 0) {
+						ownLeft += i;
+						own.css({
+							left: ownLeft
+						});
+						if (ownLeft >= winWidth) {
+							ownLeft = winWidth;
+							xD = 1;
+						}
+					}
+					if (xD == 1) {
+						ownLeft -= i;
+						own.css({
+							left: ownLeft
+						});
+						if (ownLeft <= 0) xD = 0;
+					}
+					if (yD == 0) {
+						ownTop += i;
+						own.css({
+							top: ownTop
+						});
+						if (ownTop >= winHeight) {
+							ownTop = winHeight;
+							yD = 1;
+						}
+					}
+					if (yD == 1) {
+						ownTop -= i;
+						own.css({
+							top: ownTop
+						});
+						if (ownTop <= 0) yD = 0;
+					}
+				}
+				var imgHover = setInterval(imgPosition, settings.speed);
+				own.hover(function () {
+					clearInterval(imgHover);
+				},
+					function () {
+						imgHover = setInterval(imgPosition, settings.speed);
+					});
+			}
+		})(jQuery);
+
+
+
+		// jQuery('#img_float2').imgFloat({
+		//   speed: 30,
+		//   xPos: 150,
+		//   yPos: 10
+		// });
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+User-agent:webmeup-crawler
+Disallow:/
+
+User-agent:dataforseo
+Disallow:/
+
+User-agent:*
+Disallow:/admin/
+Disallow:/upload/
+Disallow:/resume/
+Disallow:/*.do
+Disallow:/wordresume/
+Disallow: /*.htm?from*
+Disallow: /work/*/*.htm?from*
+Disallow: /company/*.htm?from=*
+Disallow: /work/*.htm?from=*
+Disallow: /?from=*
+Sitemap: https://www.jobmd.cn/sitemap.xml

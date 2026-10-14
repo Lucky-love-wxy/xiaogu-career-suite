@@ -1,0 +1,90 @@
+[
+  {
+    "id": "oss-robots-api",
+    "url": "https://api.github.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-api.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "edbd0367cec893df36f67acb56c3aa23810be28850977c35e0fedaf64aad286b",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-robots-raw",
+    "url": "https://raw.githubusercontent.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-raw.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-issue-4884",
+    "url": "https://api.github.com/repos/mem0ai/mem0/issues/4884",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-issue-4884.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "21c7baf7d129cd112dfbd1522d6bd4446450dca5b0ae258cbc623a68376aaea0",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-pr-6718",
+    "url": "https://api.github.com/repos/mem0ai/mem0/pulls/6718",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-pr-6718.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "83e090fef9f510b6919f49f945852f92259b45b619f3bbc7f57161f4b39c2459",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-issue-312",
+    "url": "https://api.github.com/repos/getzep/graphiti/issues/312",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-issue-312.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d4d146f8e7281aba65d1582a6b7df93d3ee05e900796b169c4ef47d01f33bbed",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-graphiti-comments-312",
+    "url": "https://api.github.com/repos/getzep/graphiti/issues/312/comments",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-graphiti-comments-312.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "ffd74760bc7069dd1565861d5252ec8cd2561f15a404cc37ab5ebc14290a83f5",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-letta-issue-2644",
+    "url": "https://api.github.com/repos/letta-ai/letta-code/issues/2644",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-letta-issue-2644.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "e35b7e9bdbcca7c7ba5bc5f17df9970703533c82f36bee196ebea4128c16cd14",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-langgraph-issue-8514",
+    "url": "https://api.github.com/repos/langchain-ai/langgraph/issues/8514",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-langgraph-issue-8514.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "6eeb8a5bd91061b9eb87f79233f047a986207d8c00979968072c037ad2f1b321",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  }
+]

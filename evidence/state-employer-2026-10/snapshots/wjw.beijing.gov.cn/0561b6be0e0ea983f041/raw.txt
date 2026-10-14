@@ -1,0 +1,3632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--站点-->
+<meta name="SiteName" content="北京市卫生健康委员会" />
+<meta name="SiteDomain" content="wjw.beijing.gov.cn" />
+<meta name="SiteIDCode" content="1100000176" />
+<!--栏目-->
+<meta name="ColumnName" content="" />
+<meta name="ColumnType" content="普通栏目" />
+<meta name="ColumnDescription" content="" />
+<meta name="ColumnKeywords" content="" />
+<title>北京市卫生健康委员会</title>
+<link rel="stylesheet" type="text/css" href="./images/style_red.css" />
+<link rel="stylesheet" type="text/css" href="./images/main_red.css" />
+<link rel="stylesheet" type="text/css" href="./images/mobile_sy.css" />
+<link rel="stylesheet" type="text/css" href="./images/headerFooter.css" />
+<style>
+.wenhua_left_consy_line_text_syx {width:570px;}
+img{border:0;}
+.main1_left_bottom_text{width:500px;}
+</style>
+<script src="./images/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="./images/javascript_red.js" type="text/javascript"></script>
+<script src="./images/flexible.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable = no">
+<script>
+<!-- 卫生健康文化轮播 -->
+$(function(){
+	var i=0;
+	var len=$('.main_sy_shipin_con_lineb .main_sy_shipin_con_lineb1').length;
+	$('.main_sy_shipin_con_lineb').css('width',len*996);
+	$('.right_sy').click(function(){
+		i++;
+		if(i>len-1){
+			i=len-1;
+		}
+		$('.main_sy_shipin_con_lineb').animate({'left':-i*996});
+		return false;
+	})
+	$('.left_sy').click(function(){
+		i--;
+		if(i<=0){
+			i=0;
+		}
+		$('.main_sy_shipin_con_lineb').animate({'left':-i*996});
+		return false;
+	})
+	$('.wenhua_left_titsy ul li').mouseover(function(){
+		$(this).addClass('wenhua_left_titsy_on').siblings().removeClass('wenhua_left_titsy_on');
+		var l=$(this).index();
+		$('.wenhua_left_consy').eq(l).show().siblings('.wenhua_left_consy').hide();
+	})
+	$('.wenhua_left_titsy_syx ul li').mouseover(function(){
+		$(this).addClass('wenhua_left_titsy_on_syx').siblings().removeClass('wenhua_left_titsy_on_syx');
+		var l=$(this).index();
+		$('.wenhua_left_consy_syx').eq(l).show().siblings('.wenhua_left_consy_syx').hide();
+	})
+});
+<!-- 首页轮播图-start  -->
+$(function(){
+	var index = 0;
+	var timer = null;
+
+	
+	var $view = $( ".main1_left" );
+	var $pipe = $( ".main1_leftb" );
+	
+	// var $firstPipeItem = $( ".main1_leftb > a" ).first();
+	// var $lastPipeItem = $( ".main1_leftb > a" ).last();
+	// $firstPipeItem.clone( true ).appendTo( $pipe );
+	// $lastPipeItem.clone( true ).prependTo( $pipe );
+	var $pipeItem = $( ".main1_leftb > a" );//0-7	
+	var imgWidth = 670;
+	$pipe.width($pipeItem.length * imgWidth );
+
+	function slide( i ){       
+		$pipe.animate( {left: -i * imgWidth}, 200, function(){
+			if( i === 0 ){//0
+				$pipe.css( "left", 0 );
+			}else if( i === $pipeItem.length){//7
+				$pipe.css( "left", 0 );
+				index = 0;
+			}else{//1 2 3 4 5 6 7
+				$pipe.css( "left",  i  * - imgWidth );
+			}
+		});
+        //首页轮播图之文字
+		
+        if(i==0||i==$pipeItem.length){
+            $(".main1_left_bottom_text").attr("style","display:none;");
+            $(".main1_left_bottom_text").eq(0).removeAttr("style");
+        }else{
+			$(".main1_left_bottom_text").attr("style","display:none;");
+        	$(".main1_left_bottom_text").eq(i).removeAttr("style");
+        }
+		//小圆点聚焦 
+		if( i === $pipeItem.length){
+			setNavFocus( $nav.eq(0) );
+		}else{
+			setNavFocus( $nav.eq(i) );
+		}	
+	}
+	// 小圆点聚焦 
+	function setNavFocus( $obj ){
+		$obj.addClass( "hover" ).siblings().removeClass( "hover" );
+	}
+	var $nav = $( ".main1_left_bottom ul li" );//小圆点 0-7
+	//小圆点点击事件
+	$nav.on( "click" ,function(){		
+	 	index = $( this ).index();
+	 	slide( index );
+	});
+	// 鼠标停留时停止轮播
+	$view.on( "mouseover", function(){
+		clearInterval( timer );
+	})
+	.on("mouseout", function(){
+		setTimer();
+	});
+	function setTimer(){
+		timer = setInterval( function(){
+			slide(++index);
+		}, 4000);
+	}
+	setTimer();
+	slide(index);
+});
+<!-- 首页轮播图-end  -->
+$(function(){
+	//政务服务-机构、人员、企业、其它鼠标停留效果
+	$('.xz_left_tit .font_16').mouseover(function(){		$(this).addClass('font_blue').addClass('news_tit2_text2').siblings().addClass('news_tit2_text3').removeClass('news_tit2_text2').removeClass('font_blue');
+		$('.xz_con_right').eq($(this).index('.xz_left_tit .font_16')).show().siblings('.xz_con_right').hide();
+	});
+	//政务服务-服务对象、服务类别鼠标停留效果
+	$('.xz_con_left div').click(function(){		$(this).addClass('xz_con_left_list1').addClass('font_white').removeClass('xz_con_left_list2').siblings().removeClass('xz_con_left_list1').removeClass('font_white').addClass('xz_con_left_list2');
+		$('.xz_left').eq($(this).index()).show().siblings('.xz_left').hide();
+	});
+	//头部一级标题鼠标停留效果1
+	$('.nav_main a').mouseover(function(){
+		if($(this).index()==0){$('#_float_div').height(310);$('.mian1_index0').show(); $('.nav_').hide(); return false}
+		if($(this).index()==6){$('#_float_div').height(310);}//$('.mian1_index0').show();$('.nav_').hide(); return false
+		if($(this).index()==1){$('#_float_div').height(310); }
+		if($(this).index()==2){$('#_float_div').height(310);}
+		if($(this).index()==3){$('#_float_div').height(310);}
+		if($(this).index()==4){$('#_float_div').height(310);}
+		if($(this).index()==5){$('#_float_div').height(310);}
+		//if($(this).index()==6){$('#_float_div').height(310);}
+		$('.nav_').eq($(this).index()-1).show().siblings('.nav_').hide();
+             $('.mian1_index0').hide();  
+	})
+	//头部一级标题鼠标停留效果2
+	$('.nav_').mouseleave(function(){
+		$('.nav_').hide();	
+        $('.mian1_index0').show();							
+	});
+	$('_float_div').height(310);
+});
+</script>
+<script type="text/javascript">
+$(function () {
+//中央精神、北京要闻	<div class='wenhua_left_consy_line_date_syx'></div>			
+	$.ajax({
+		url: "https://www.beijing.gov.cn/shouye/tltt/pushCommitteeNews_33256.js",
+		dataType: "jsonp",
+		scriptCharset: "UTF-8",
+		jsonp: "pushInfoJsCallBack",
+		jsonpCallback: "pushInfoJsCallBack",
+		success: function (data) {
+			$.each(data.data2, function (i, json) {
+				if (i >= 8) {
+					return false;
+				}
+				var aa = json.title.length;
+				var title = (aa >= 40) ? json.title.substring(0,40) + "..." : json.title;
+				$("#zyjs").append("<div class='wenhua_left_consy_line_syx'>"
+					+"<div class='wenhua_left_consy_line_dian_syx'></div>"
+					+"<div class='wenhua_left_consy_line_text_syx'>"
+					+"<a target='_blank' title='" + json.title + "' href='" + json.link + "'>" + title + "</a></div>"
+					+"</div>"
+				);
+				var titles = (aa >= 20) ? json.title.substring(0, 20) + "..." : json.title;
+				$("#zyxw_mobile").append("<div class='wenhua_left_consy_line_syx'>"
+					+"<div class='wenhua_left_consy_line_dian_syx'></div>"
+					+"<div class='wenhua_left_consy_line_text_syx'>"
+					+"<a target='_blank' title='" + json.title + "' href='" + json.link + "'>" + titles + "</a></div>"
+					+"</div>"
+				);
+			});
+			$.each(data.data3, function (i, json) {
+				if (i >= 8) {
+					return false;
+				}
+				var bb = json.title.length;
+				var title = (bb >= 40) ? json.title.substring(0, 40) + "..." : json.title;
+				$("#bjyw").append("<div class='wenhua_left_consy_line_syx'>"
+					+"<div class='wenhua_left_consy_line_dian_syx'></div>"
+					+"<div class='wenhua_left_consy_line_text_syx'>"
+					+"<a target='_blank' title='" + json.title + "' href='" + json.link + "'>" + title + "</a></div>"
+					+"</div>"
+				);
+				var titles = (bb >= 20) ? json.title.substring(0, 20) + "..." : json.title;
+				$("#bjyw_mobile").append("<div class='wenhua_left_consy_line_syx'>"
+					+"<div class='wenhua_left_consy_line_dian_syx'></div>"
+					+"<div class='wenhua_left_consy_line_text_syx'>"
+					+"<a target='_blank' title='" + json.title + "' href='" + json.link + "'>" + titles + "</a></div>"
+					+"</div>"
+				);
+			});
+				
+		},
+		error: function () {
+		  
+		},
+	});
+});
+</script>
+<!-- TEMPNAME   "漂浮窗口JS" -->
+<style type="text/css">
+img{border:0;}
+</style>
+<SCRIPT type=text/javascript>
+function addEvent(obj,evtType,func,cap){
+    cap=cap||false;
+if(obj.addEventListener){
+     obj.addEventListener(evtType,func,cap);
+   return true;
+}else if(obj.attachEvent){
+        if(cap){
+         obj.setCapture();
+         return true;
+     }else{
+      return obj.attachEvent("on" + evtType,func);
+   }
+}else{
+   return false;
+    }
+}
+function getPageScroll(){
+    var xScroll,yScroll;
+if (self.pageXOffset) {
+   xScroll = self.pageXOffset;
+} else if (document.documentElement && document.documentElement.scrollLeft){
+   xScroll = document.documentElement.scrollLeft;
+} else if (document.body) {
+   xScroll = document.body.scrollLeft;
+}
+if (self.pageYOffset) {
+   yScroll = self.pageYOffset;
+} else if (document.documentElement && document.documentElement.scrollTop){
+   yScroll = document.documentElement.scrollTop;
+} else if (document.body) {
+   yScroll = document.body.scrollTop;
+}
+arrayPageScroll = new Array(xScroll,yScroll);
+return arrayPageScroll;
+}
+function GetPageSize(){
+    var xScroll, yScroll;
+    if (window.innerHeight && window.scrollMaxY) { 
+        xScroll = document.body.scrollWidth;
+        yScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        xScroll = document.body.scrollWidth;
+        yScroll = document.body.scrollHeight;
+    } else {
+        xScroll = document.body.offsetWidth;
+        yScroll = document.body.offsetHeight;
+    }
+    var windowWidth, windowHeight;
+    if (self.innerHeight) {
+        windowWidth = self.innerWidth;
+        windowHeight = self.innerHeight;
+    } else if (document.documentElement && document.documentElement.clientHeight) {
+        windowWidth = document.documentElement.clientWidth;
+        windowHeight = document.documentElement.clientHeight;
+    } else if (document.body) {
+        windowWidth = document.body.clientWidth;
+        windowHeight = document.body.clientHeight;
+    } 
+    if(yScroll < windowHeight){
+        pageHeight = windowHeight;
+    } else { 
+        pageHeight = yScroll;
+    }
+    if(xScroll < windowWidth){ 
+        pageWidth = windowWidth;
+    } else {
+        pageWidth = xScroll;
+    }
+    arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+    return arrayPageSize;
+}
+
+var AdMoveConfig=new Object();
+AdMoveConfig.IsInitialized=false;
+AdMoveConfig.ScrollX=0;
+AdMoveConfig.ScrollY=0;
+AdMoveConfig.MoveWidth=0;
+AdMoveConfig.MoveHeight=0;
+AdMoveConfig.Resize=function(){
+    var winsize=GetPageSize();
+    AdMoveConfig.MoveWidth=winsize[2];
+    AdMoveConfig.MoveHeight=winsize[3];
+    AdMoveConfig.Scroll();
+}
+AdMoveConfig.Scroll=function(){
+    var winscroll=getPageScroll();
+    AdMoveConfig.ScrollX=winscroll[0];
+    AdMoveConfig.ScrollY=winscroll[1];
+}
+addEvent(window,"resize",AdMoveConfig.Resize);
+addEvent(window,"scroll",AdMoveConfig.Scroll);
+function AdMove(id){
+    if(!AdMoveConfig.IsInitialized){
+        AdMoveConfig.Resize();
+        AdMoveConfig.IsInitialized=true;
+    }
+    var obj=document.getElementById(id);
+    obj.style.position="absolute";
+    var W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+    var H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+    var x = W*Math.random(),y = H*Math.random();
+    var rad=(Math.random()+1)*Math.PI/6;
+    var kx=Math.sin(rad),ky=Math.cos(rad);
+    var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1);
+    var step = 1;
+    var interval;
+    this.SetLocation=function(vx,vy){x=vx;y=vy;}
+    this.SetDirection=function(vx,vy){dirx=vx;diry=vy;}
+    obj.CustomMethod=function(){
+        obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+        obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+        rad=(Math.random()+1)*Math.PI/6;
+        W=AdMoveConfig.MoveWidth-obj.offsetWidth;
+        H=AdMoveConfig.MoveHeight-obj.offsetHeight;
+        x = x + step*kx*dirx;
+        if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);}
+        y = y + step*ky*diry;
+        if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+        if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);}
+    }
+    this.Run=function(){
+        var delay = 10;
+        interval=setInterval(obj.CustomMethod,delay);
+        obj.onmouseover=function(){clearInterval(interval);}
+        obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);}
+    }
+}
+
+
+</SCRIPT>
+
+
+<!--漂浮开始-->
+<!--
+<div id="Alertgjaq" style="Z-INDEX:100" >
+    <div><a href="https://wjw.beijing.gov.cn/sy_20013/pcnr/202504/t20250414_4064254.html" target=_blank>
+         <img src="./images/gjaq_20250414.jpg" />
+    </a></div>
+    <div class="bannarClose">
+        <img src="./images/close.gif" width="11" height="11" onclick="javascript:document.getElementById('Alertgjaq').style.display='none';" />
+    </div>
+</div> 
+<script type=text/javascript>
+    var AlertApp=new AdMove("Alertgjaq"); AlertApp.Run();
+</script>
+-->
+<!--漂浮结束-->
+
+
+<SCRIPT type=text/javascript>
+        //var ad1=new AdMove("ad1");
+        //ad1.Run();
+	//多组漂浮
+	//var ad1=new AdMove("ad2");
+        //ad2.Run();
+</SCRIPT>
+</head>
+<body>
+<script language="javascript">
+var _yfx_nodeid = "";
+</script>
+<!-- 国家安全日 -->
+<!--
+<div id="AlertApp" style="Z-INDEX:100" >
+    <div><a href="" target=_blank>
+        <img src="./images/20240416170350_GJAQ.png" width="100" height="180" />
+    </a></div>
+    <div class="bannarClose">
+        <img src="./images/close.gif" width="11" height="11" onclick="javascript:document.getElementById('AlertApp').style.display='none';" />
+    </div>
+</div> 
+<script type=text/javascript>
+    var AlertApp=new AdMove("Alertgjaq"); AlertApp.Run();
+</script>
+ -->
+
+<!--“十五五”时期健康北京建设规划公众建言献策活动 -->
+<!--
+<div id="Alertgjaq" style="Z-INDEX:100" >
+    <div><a href="https://ylba.wjw.beijing.gov.cn/ggws/pages/jyzj/addzj.jsp" target=_blank>
+        <img src="./images/shiww_20251222172128.png" />
+    </a></div>
+    <div class="bannarClose" style="float:right;">
+        <img src="./images/close.gif" width="11" height="11" onclick="javascript:document.getElementById('Alertgjaq').style.display='none';" />
+    </div>
+</div> 
+<script type=text/javascript>
+    var AlertApp=new AdMove("Alertgjaq"); AlertApp.Run();
+</script>
+ -->
+<!--统筹发展和安全 护航“十五五”新征程 -->
+<!--
+<div id="Alertgjaq" style="Z-INDEX:100" >
+    <div><a href="https://wjw.beijing.gov.cn/sy_20013/pcnr/202604/t20260410_4579457.html" target=_blank>
+        <img src="./images/hhsww_20260410170838.jpg" width="200" /></img>
+    </a></div>
+    <div class="bannarClose" style="float:right;">
+        <img src="./images/close.gif" width="11" height="11" onclick="javascript:document.getElementById('Alertgjaq').style.display='none';" />
+    </div>
+</div> 
+<script type=text/javascript>
+    var AlertApp=new AdMove("Alertgjaq"); AlertApp.Run();
+</script>
+-->
+<!-- 右侧浮漂 -->
+<!-- 问卷调查 --> 
+<!--
+<div class="bannar0" style="width:100px;height:220px;float:right; position:fixed !important; top:410px;
+position:absolute; z-index:300; top:expression(offsetParent.scrollTop+200);right:50px;" id="float1" >
+    <div><a href="" target="_blank">
+	    <img src="./images/wenjuandiaocha.png" width="100" height="200" />
+	</a></div>
+    <div class="bannarClose">
+	    <img src="./images/close.gif" width="11" height="11" onclick="javascript:document.getElementById('float1').style.display='none';" />
+	</div>
+</div>
+-->
+<!--  右侧信息订阅 --> 
+<div class="bannar0" style="width:110px;height:110px;float:right; position:fixed !important; top:410px;
+position:absolute; z-index:300; top:expression(offsetParent.scrollTop+200);right:50px;" id="float1" >
+    <div>
+<a href="https://www.beijing.gov.cn/hudong/yhdy/subscription/index.html?id=d8c1e0f1621008b9adfe27a9409db1a5f8c65aab4ad95bf0f6089389368a1d14" class="star" style="position:fixed;top: 50%;right: 0;width: 70px;height: 100px;border: 2px solid pink;border-top-left-radius: 8px;border-bottom-left-radius: 8px;text-align: center;text-decoration: none;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+    <img src="https://www.beijing.gov.cn/hudong/yhdy/subscription/yhdy.png" style="width: 50px;height: 50px;" />
+    <span style="color: #ee7c55;font-size: 14px;">信息订阅</span>
+</a>
+    </div>
+</div>
+<!--无障碍组件-->
+<script defer async type="text/javascript" src="//wza.beijing.gov.cn/dist/aria.js?appid=ab0bffcab72314f8ed1b4ccc7f067fe8" charset="utf-8" wapForceOldFixed="false" loadData="false" id="ariascripts"></script>
+<!--定义head层开始-->
+<script src="./images/head_red_20230527.js" type="text/javascript"></script>
+<!--定义head层结束-->
+<!-----------------------------------------------------定义一级栏目滑动展示信息层开始------------------------------------------------------------------->
+<div class="pc-hide">
+<!--mian1_index开始-->
+<div class="mian1_index" id="_float_div"  style="min-width:1000px;background-size:cover">
+    <div class="mian1_index0">
+        <div class="main1_left">
+    	    <div class="main1_leftb">
+	            
+                    <a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=bj" TARGET="_blank">
+					    <img src="./sy_20013/sydt/202303/W020240311402236744201_670.jpg" border="0" alt="@国务院 我来说" />
+					</a>
+                
+                    <a href="https://wjw.beijing.gov.cn/xwzx_20031/wnxw/202511/t20251117_4283879.html" TARGET="_blank">
+					    <img src="./sy_20013/sydt/202511/W020251126623407307704.png" border="0" alt="北京市学习贯彻党的二十届四中全会精神宣讲团卫生健康系统报告会举行" />
+					</a>
+                
+                    <a href="https://wjw.beijing.gov.cn/xwzx_20031/wnxw/202511/t20251126_4306197.html" TARGET="_blank">
+					    <img src="./sy_20013/sydt/202511/W020251126623663000252.png" border="0" alt="北京市卫生健康系统学习贯彻党的二十届四中全会精神北京安贞医院宣讲报告会举行" />
+					</a>
+                
+                    <a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/ssfw/ssfw.html" TARGET="_blank">
+					    <img src="./sy_20013/sydt/202407/W020240719707817799150_670.jpg" border="0" alt="企业“三送”服务指南" />
+					</a>
+                
+                    <a href="https://www.beijing.gov.cn/fuwu/lqfw/ztzl/yshj/index.html" TARGET="_blank">
+					    <img src="./sy_20013/sydt/202305/W020230518382306535836_670.png" border="0" alt="优化营商环境" />
+					</a>
+                
+                    <a href="https://www.gov.cn/zhengce/zczhjd/" TARGET="_blank">
+					    <img src="./sy_20013/sydt/202307/W020230731674604741622.jpg" border="0" alt="重要政策举措" />
+					</a>
+                  
+            </div> 
+        	<div class="main1_left_bottom">
+         	    <ul style="width:120px;">
+                    <li class="hover" ></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            	</ul>
+                <div class="main1_left_bottom_text">
+                
+                    @国务院 我来说
+                  
+                </div>
+                
+                <div style="display:none;" class="main1_left_bottom_text">
+                    北京市学习贯彻党的二十届四中全会精神宣讲团卫生健康系统报告会举行
+                </div>
+                
+                <div style="display:none;" class="main1_left_bottom_text">
+                    北京市卫生健康系统学习贯彻党的二十届四中全会精神北京安贞医院宣讲报告会举行
+                </div>
+                
+                <div style="display:none;" class="main1_left_bottom_text">
+                    企业“三送”服务指南
+                </div>
+                
+                <div style="display:none;" class="main1_left_bottom_text">
+                    优化营商环境
+                </div>
+                
+                <div style="display:none;" class="main1_left_bottom_text">
+                    重要政策举措
+                </div>
+                  
+            </div>
+        </div>
+        <div class="main1_right" style="height:280px;border-top:none;">
+   	    <div class="main1_right_tit1 main_r09" style="background:none;margin-top:0px;border-bottom:3px solid #be1b2d;height:30px;">
+        	<div class="main1_right_tit1_tit font_16 font_blue font_we">通知公告</div>
+        	<div class="main1_right_tit1_more"> 
+			    <a class="font_blue" href="./zwgk_20040/tzgg/" target="_blank" >更多</a></div>
+        </div>
+        <div class="main1_right_con">
+       		
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202610/t20261010_4896841.html"  
+     				title="北京市卫生健康委医疗服务项目价格信息管理平台运行维护项目遴选公告"  >
+		北京市卫生健康委医疗服务项目价格...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202610/t20261010_4896837.html"  
+     				title="北京市卫生健康委卫生健康财务管理信息系统运行维护项目遴选公告"  >
+		北京市卫生健康委卫生健康财务管理...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202610/t20261010_4896836.html"  
+     				title="北京市卫生健康经济指标信息平台运行维护项目（2026年度）遴选公告"  >
+		北京市卫生健康经济指标信息平台运...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202610/t20261010_4895818.html"  
+     				title="关于拟推荐为2026年第4批“中国好医生、中国好护士”候选人的公示"  >
+		关于拟推荐为2026年第4批“中国好医...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202610/t20261008_4892863.html"  
+     				title="北京市医院管理中心“扬帆3.0”医工结合培育项目拟立项结果公示"  >
+		北京市医院管理中心“扬帆3.0”医工...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202609/t20260930_4888076.html"  
+     				title="北京市卫生健康委员会关于北京市卫生健康委员会相关会议室技术运维服务保障项目遴选结果的公示"  >
+		北京市卫生健康委员会关于北京市卫...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202609/t20260930_4886601.html"  
+     				title="市卫生健康委党委第七轮巡察完成反馈"  >
+		市卫生健康委党委第七轮巡察完成反馈</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202609/t20260924_4879849.html"  
+     				title="北京市卫生健康委员会关于2026年京津冀卫生健康系统优秀青年人才培训承办机构遴选结果的公示"  >
+		北京市卫生健康委员会关于2026年京...</a>
+                </div>   
+                
+       		<div class="main1_right_list">
+                <a target="_blank" href="./zwgk_20040/tzgg/202609/t20260924_4879062.html"  
+     				title="关于注销医师执业注册的公告"  >
+		关于注销医师执业注册的公告</a>
+                </div>   
+                 
+			<div class="clear"></div>
+		</div>
+        </div>
+	<div class="clear"></div>
+</div>
+</div>
+<!--mian1_index结束-->
+
+<!--mian1_xinwen开始-->
+<div class="mian1_xinwen nav_">
+	<div class="new_left" style="margin-top:7px;">
+    	<div class="news_tit">
+        	<div class="news_tit_text font_16 font_blue font_we" >新闻发布</div>
+            <a href="./xwzx_20031/xwfb/" target="_blank" class="news_more font_blue">更多>></a>
+        </div>
+        <div class="news_con">
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202610/t20261008_4893196.html" target="_blank"    
+						    title="全国高血压日 | 管好血压、控好糖脂，这些防治要点请收好——"  >
+                            全国高血压日 | 管好血压、控好糖脂，这些防治要点请收好——</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-10-08</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202609/t20260928_4883552.html" target="_blank"    
+						    title="中秋国庆假期来啦~健康提示请您查收！"  >
+                            中秋国庆假期来啦~健康提示请您查收！</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-09-25</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202609/t20260928_4883523.html" target="_blank"    
+						    title="“飞行的硫酸”来了？紧急提醒"  >
+                            “飞行的硫酸”来了？紧急提醒</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-09-17</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202609/t20260911_4860170.html" target="_blank"    
+						    title="2026年服贸会健康卫生服务专题创新成果发布活动在京举行"  >
+                            2026年服贸会健康卫生服务专题创新成果发布活动在京举行</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-09-10</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202609/t20260911_4860165.html" target="_blank"    
+						    title="2026服贸会健康卫生服务专题今日正式启幕"  >
+                            2026服贸会健康卫生服务专题今日正式启幕</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-09-09</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202609/t20260902_4847952.html" target="_blank"    
+						    title="北京初秋花粉高峰来了！过敏人群速看防护要点"  >
+                            北京初秋花粉高峰来了！过敏人群速看防护要点</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-09-02</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202608/t20260828_4841360.html" target="_blank"    
+						    title="关于HPV免疫规划接种家长最关心的9个问题"  >
+                            关于HPV免疫规划接种家长最关心的9个问题</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-08-21</div>
+			</div>
+		    
+        	<div class="main2_con_list">
+                <div class="main2_con_list_text" >
+           	        <div class="wenhua_left_consy_line_dian_syx"></div>
+                    <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                        <a target="_blank" href="./xwzx_20031/xwfb/202608/t20260814_4823010.html" target="_blank"    
+						    title="北京医疗机构临床试验能力持续提升"  >
+                            北京医疗机构临床试验能力持续提升</a>
+					</div> 
+				</div>
+				<div class="main2_con_list_time">2026-08-14</div>
+			</div>
+		    
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="new_right" style="margin-top:7px;">
+
+    	<div class="news_tit">
+        	<div class="news_tit_text font_16 font_blue font_we">媒体聚焦</div>
+            <a href="./xwzx_20031/mtjj/" target="_blank" class="news_more font_blue">更多>></a>
+        </div>
+		<div class="news_con">
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202610/t20261008_4893130.html" target="_blank"    
+						    title="节后肠胃“亮红灯”？给肠胃减负，这4个误区别“踩坑”"  >
+                            节后肠胃“亮红灯”？给肠胃减负，这4个...</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202609/t20260921_4873618.html" target="_blank"    
+						    title="国家卫生健康委：进一步加强罕见病防治工作  2026年底前实现省级罕见病医疗质量控制中心设置全覆盖"  >
+                            国家卫生健康委：进一步加强罕见病防治...</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202609/t20260915_4864930.html" target="_blank"    
+						    title="2026年服贸会健康卫生服务专题创新成果发布 全球服务 共享健康"  >
+                            2026年服贸会健康卫生服务专题创新成果...</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202609/t20260911_4860158.html" target="_blank"    
+						    title="今年10月，2026世界传统医药大会将在北京举办"  >
+                            今年10月，2026世界传统医药大会将在北...</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202609/t20260908_4854745.html" target="_blank"    
+						    title="北京首家基层医体融合中心启用，主要面向这四类群体"  >
+                            北京首家基层医体融合中心启用，主要面...</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202608/t20260828_4841228.html" target="_blank"    
+						    title="多维度协同推进院前急救体系建设，北京实现急救站街道乡镇全覆盖"  >
+                            多维度协同推进院前急救体系建设，北京...</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202608/t20260814_4823033.html" target="_blank"    
+						    title="北京医疗机构临床试验能力持续提升"  >
+                            北京医疗机构临床试验能力持续提升</a>
+					</div>		
+				</div>
+			</div>	
+		
+            <div class="main2_con_list">
+                <div class="main2_con_list_text">
+                    <div class="wenhua_left_consy_line_dian_syx"></div>
+					<div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+				        <a target="_blank" href="./xwzx_20031/mtjj/202608/t20260814_4823015.html" target="_blank"    
+						    title="北京医疗机构临床试验能力持续提升"  >
+                            北京医疗机构临床试验能力持续提升</a>
+					</div>		
+				</div>
+			</div>	
+		
+		</div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--mian1_xinwen结束-->
+
+<!--mian1_zhengwu开始-->
+<div class="mian1_zhengwu nav_">
+	<div class="new_left2" style="padding-top:39px;width:550px;">
+    	<div class="news_tit2">
+        	<div class="news_tit2_text font_18 font_blue">最新公开</div>
+    	</div>
+        <div class="zw_con2" style="margin-top:0px;width:530px;">
+	        
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/qt/202609/t20260929_4885389.html" target="_blank"  
+    					title="北京市卫生健康委员会关于同意民航总医院为冠心病介入诊疗技术培训基地的批复" >
+                        北京市卫生健康委员会关于同意民航总医院为冠心病介入诊...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-09-29</div>
+            </div>
+			
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/qt/202609/t20260924_4879765.html" target="_blank"  
+    					title="北京市卫生健康委员会关于同意北京中科白癜风医院继续停业的批复" >
+                        北京市卫生健康委员会关于同意北京中科白癜风医院继续停...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-09-23</div>
+            </div>
+			
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/qt/202608/t20260805_4809895.html" target="_blank"  
+    					title="北京市卫生健康委员会关于首都卫生发展全科医学与社区卫生科研专项（院校类）2026年度项目立项的通知" >
+                        北京市卫生健康委员会关于首都卫生发展全科医学与社区卫...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-08-05</div>
+            </div>
+			
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/qt/202607/t20260730_4799538.html" target="_blank"  
+    					title="北京市卫生健康委员会关于同意首都医科大学附属北京妇产医院植入前胚胎遗传学诊断技术正式运行的批复" >
+                        北京市卫生健康委员会关于同意首都医科大学附属北京妇产...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-07-29</div>
+            </div>
+			
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/qt/202607/t20260710_4756297.html" target="_blank"  
+    					title="北京市卫生健康委员会 北京市中医药管理局关于印发2026年北京市住院医师规范化培训招收工作方案的通知" >
+                        北京市卫生健康委员会 北京市中医药管理局关于印发2026...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-07-10</div>
+            </div>
+			
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/rsxxzwgk/202607/t20260706_4749193.html" target="_blank"  
+    					title="北京市卫生健康委员会关于2026年度卫生系列高级专业技术职务任职资格评审工作的通知" >
+                        北京市卫生健康委员会关于2026年度卫生系列高级专业技术...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-07-06</div>
+            </div>
+			
+       		<div class="main2_con_list" style="width:530px;">
+           	<div class="main2_con_list_text">
+                <div class="wenhua_left_consy_line_dian_syx"></div>
+                <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+                    <a target="_blank" href="./zwgk_20040/qt/202607/t20260706_4748063.html" target="_blank"  
+    					title="北京市卫生健康委员会关于同意北京市仁和医院为冠心病介入诊疗技术培训基地的批复" >
+                        北京市卫生健康委员会关于同意北京市仁和医院为冠心病介...
+					</a>
+				</div>
+			</div> 
+			<div class="main2_con_list_time">2026-07-03</div>
+            </div>
+			  	 
+            <div class="main2_con_list">
+		    <div class="main2_con_list_time"><a href="./zwgk_20040/zxgk/" target="_blank" class="font_blue">更多>></a></div>
+           </div>
+       </div>
+        <div class="clear"></div>
+    </div>
+    <div class="new_right2" style="padding-top:39px;width:445px;">
+    	<div class="news_tit2">
+        	<div class="news_tit2_text font_16 font_blue">政府信息公开专栏</div>
+    	</div>
+        <div class="zw_con" style="margin-top:0px;width:445px;">
+       		<div class="zw_con_a" style="width:445px;">   
+                
+                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/zqgs_1/fdzz/" target="_blank"   title="机构职责" 
+style="margin:10px 14px 1px 15px;">
+                        机构职责
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/zqgs_1/jbxx/" target="_blank"   title="机构信息" 
+style="margin:10px 14px 1px 15px;">
+                        机构信息
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/zqgs_1/ldjl/" target="_blank"   title="领导介绍" 
+style="margin:10px 14px 1px 15px;">
+                        领导介绍
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/zqgs_1/nsjg/" target="_blank"   title="机构设置" 
+style="margin:10px 14px 1px 15px;">
+                        机构设置
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/rsxxzwgk/" target="_blank"   title="人事信息" 
+style="margin:10px 14px 1px 15px;">
+                        人事信息
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/zcwj2024/zcwjss/" target="_blank"   title="政策文件" 
+style="margin:10px 14px 1px 15px;">
+                        政策文件
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/zcjd2024/" target="_blank"   title="政策解读" 
+style="margin:10px 14px 1px 15px;">
+                        政策解读
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/" target="_blank"   title="法律法规" 
+style="margin:10px 14px 1px 15px;">
+                        法律法规
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/dfbz/" target="_blank"   title="卫生健康标准" 
+style="margin:10px 14px 1px 15px;">
+                        卫生标准
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/ghjh1/" target="_blank"   title="规划计划" 
+style="margin:10px 14px 1px 15px;">
+                        规划计划
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/sjfb/bjstjgb/" target="_blank"   title="统计数据" 
+style="margin:10px 14px 1px 15px;">
+                        统计数据
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/zcxx/" target="_blank"   title="财政信息" 
+style="margin:10px 14px 1px 15px;">
+                        财政信息
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/zyms/" target="_blank"   title="重要民生实事" 
+style="margin:10px 14px 1px 15px;">
+                        民生实事
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/ylws/" target="_blank"   title="医疗卫生" 
+style="margin:10px 14px 1px 15px;">
+                        医疗卫生
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/cgxx/" target="_blank"   title="公共卫生" 
+style="margin:10px 14px 1px 15px;">
+                        公共卫生
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/wsyj/" target="_blank"   title="卫生应急" 
+style="margin:10px 14px 1px 15px;">
+                        卫生应急
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/hyjd/" target="_blank"   title="行业监督" 
+style="margin:10px 14px 1px 15px;">
+                        行业监督
+                    </a>
+                
+                    <a href="https://wjw.beijing.gov.cn/zwgk_20040/qt/" target="_blank"   title="其它" 
+style="margin:10px 14px 1px 15px;">
+                        其它
+                    </a>
+                
+                <div class="clear"></div>
+            </div>
+            <div class="zw_con_mod" style="width:445px;padding-top:20px;">
+           		<div class="zw_con_mod_text" style="width:140px;height:30px;margin:4px 3px;line-height:30px;">
+				    <a href="https://www.beijing.gov.cn/ysq-web/a/ysqwebset/ysqWebset/ysqweb?officeId=5181&type=cx" target="_blank" 
+style="width:140px;height:30px;" title="依申请公开" >依申请公开</a>
+				</div>
+           		<div class="zw_con_mod_text" style="width:140px;height:30px;margin:4px 3px;line-height:30px;">
+				    <a href="./zwgk_20040/zfxxgk2020/gkzn/" target="_blank"  
+style="width:140px;height:30px;" title="信息公开指南">信息公开指南</a>
+				</div>
+           		<div class="zw_con_mod_text" style="width:140px;height:30px;margin:4px 3px;line-height:30px;">
+				    <a href="./zwgk_20040/zxgk/" target="_blank"   
+style="width:140px;height:30px;" title="信息公开目录" >信息公开目录</a>
+				</div>
+           		<div class="zw_con_mod_text" style="width:140px;height:30px;margin:4px 3px;line-height:30px;">
+				    <a href="./zwgk_20040/zfxxgk2020/gknb/" target="_blank"   
+style="width:140px;height:30px;" title="信息公开年报" >信息公开年报</a>
+				</div>
+           		<div class="zw_con_mod_text" style="width:140px;height:30px;margin:4px 3px;line-height:30px;">
+				    <a href="http://ylba.wjw.beijing.gov.cn/ggws/pages/shuanggs/listsxk.jsp" target="_blank" 
+style="width:140px;height:30px;" title="行政许可和行政处罚" >行政许可和行政处罚</a>
+				</div>
+           		<div class="zw_con_mod_text" style="width:140px;height:30px;margin:4px 3px;line-height:30px;">
+				    <a href="./zwgk_20040/ztzl/qlqd2016/"  target="_blank" 
+style="width:140px;height:30px;" title="权力清单" >权力清单</a>
+				</div> 					
+           </div>
+       </div>
+       <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--mian1_zhengwu结束-->
+
+<!--mian1_xingzheng开始-->
+<div class="mian1_xingzheng nav_">
+    	<div class="xz_left">
+			<div class="news_tit2">
+				<div class="news_tit2_text font_16 font_blue font_we">热点办理</div>
+			</div>
+			<div class="bm_con" style="width:530px;">
+				<div class="bm_con_a" style="width:500px;line-height:26px;"> 
+
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/0d725157-e43e-4201-8883-7d92f0512faf.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="医疗机构设置审批(新办)" >
+								医疗机构设置审批(新办)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/0773e7c7-e3df-4c83-8d9e-a8312d0c17f6.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="放射卫生技术服务机构资质认可(新办)" >
+								放射卫生技术服务机构资质认可(新办)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/ba64802f-5033-4841-b4e1-e690983b4d5d.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="医疗机构执业登记(新办)" >
+								医疗机构执业登记(新办)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/94bc2686-bad7-4983-9ace-31f1da717a30.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="放射卫生技术服务机构资质认可(延续)" >
+								放射卫生技术服务机构资质认可(延续)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/03257041-f635-45ed-b057-4a8df080882e.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="护士执业注册(首次注册)" >
+								护士执业注册(首次注册)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/c66b3cf2-0324-4cb4-a37e-f6df9cb9dbbe.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="放射卫生技术服务机构资质认可(变更)" >
+								放射卫生技术服务机构资质认可(变更)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/e0e86322-1bd1-49d0-97fd-b450bd3c90e0.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="护士执业注册(变更注册)" >
+								护士执业注册(变更注册)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/24dd64be-9565-11e9-8300-507b9d3e4710.html" target="_blank"  
+							   title="食品企业标准备案" >
+								食品企业标准备案
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/c2dc3b1e-1ae4-4bb3-a65e-db452cc653de.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="医师执业注册(新办)" >
+								医师执业注册(新办)
+							</a>
+							
+							<a href="https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/3e6e0c2b-afc1-4b83-b276-7c6df888a6b4.html?locationCode=110000000000&serverType=1003" target="_blank"  
+							   title="救护车新增配置申请" >
+								救护车新增配置申请
+							</a>
+							
+					<div class="clear"></div>
+			   </div>
+			</div>
+			<div class="bm_img" style="width:530px;text-align:center">
+				<a href="https://banshi.beijing.gov.cn/pubtask/bmfw.html?locationCode=110000000000&deptCod
+e=11110000092921359M" target="_blank">
+					<img src="./images/allbanshi20250403.png" title="全部办事事项" />
+				</a>
+			</div>
+			<div class="clear"></div>
+        </div>
+		<div class="xz_right">
+			<div class="xz_right_1">
+<a href="https://banshi.beijing.gov.cn/pubtask/bmfw.html?locationCode=110000000000&amp;deptCode=11110000092921359M" target="blank">
+<img src="./images/zwfw_20220218.jpg" />
+</a>
+			</div>
+            <div class="xz_right_2_b">
+             	<div class="xz_right_2_tit font_16 font_blue font_we">办事查询</div>
+				<div class="xz_right_2_con2" style="width:448px;height:60px;padding-top:26px;">
+                    
+                        <a href="https://wjw.beijing.gov.cn/xzsp_20129/bstj/"  target="_blank"  
+						    title="办事统计" >
+
+          <img src="./xzsp_20129/banshi2/202504/W020250403516138268099.png"/>
+
+                        </a>
+		            
+                        <a href="http://ylba.wjw.beijing.gov.cn/wssb/index/reqToWorkItemShow.action"  target="_blank"  
+						    title="许可公示" >
+
+          <img src="./xzsp_20129/banshi2/202504/W020250403515620812207.png"/>
+
+                        </a>
+		            
+                        <a href="http://ylba.wjw.beijing.gov.cn/wssb/index/xkgscx.action?type=zyys"  target="_blank"  
+						    title="许可查询" >
+
+          <img src="./xzsp_20129/banshi2/202504/W020250403515219919979.png"/>
+
+                        </a>
+		            
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <div class="clear"></div>
+</div>
+<!--mian1_xingzheng结束-->
+
+<!--mian1_bianmin开始-->
+<div class="mian1_bianmin nav_">
+	<div class="new_left2" style="padding-top:39px;">
+    	<div class="news_tit2">
+        	<div class="news_tit2_text2 font_16 font_blue" id="ac0" onMouseOver="over3(0)">健康生活</div>
+    	</div>
+        <div class="zw_con2" id="cb0" style="margin-top:0px;height:235px;">
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261010_4896403.html"  target="_blank"    
+							    title="【杨柳科普】粒细胞缺乏期：如何为身体筑起“防火墙”"  >
+           	                    【杨柳科普】粒细胞缺乏期：如何为身体筑起“防火墙”
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-10
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261010_4896394.html"  target="_blank"    
+							    title="【杨柳科普】乳牙蛀了到底要不要治？"  >
+           	                    【杨柳科普】乳牙蛀了到底要不要治？
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-10
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261010_4895697.html"  target="_blank"    
+							    title="【清华长庚科普】 心血管医生教您如何“三高共管”"  >
+           	                    【清华长庚科普】 心血管医生教您如何“三高共管”
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-10
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261010_4895671.html"  target="_blank"    
+							    title="【秋日防敏】过敏性鼻炎除了口服药，针灸也是一种选择"  >
+           	                    【秋日防敏】过敏性鼻炎除了口服药，针灸也是一种选择
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-10
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261009_4895017.html"  target="_blank"    
+							    title="【佑安传播】秋日护童，佑安儿科教您养肺健脾防秋燥"  >
+           	                    【佑安传播】秋日护童，佑安儿科教您养肺健脾防秋燥
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-09
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261009_4894074.html"  target="_blank"    
+							    title="世医科普｜科学运动，从“热量缺口”到长期体重管理"  >
+           	                    世医科普｜科学运动，从“热量缺口”到长期体重管理
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-09
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+                        <div class="main2_con_list_text_linetext"   style="line-height:30px;"  >
+           	                <a href="./bmfw_20143/jkzs/jksh/202610/t20261009_4894011.html"  target="_blank"    
+							    title="世界爱眼日丨请尤其关注这四种高发眼病！"  >
+           	                    世界爱眼日丨请尤其关注这四种高发眼病！
+                            </a>
+           	            </div> 
+           	        </div>
+				    <div class="main2_con_list_time">
+					    2026-10-09
+					</div>
+                </div>
+            
+            <div class="main2_con_list">
+		        <div class="main2_con_list_time">
+                    <a href="./bmfw_20143/jkzs/jksh/" target="_blank" class="font_blue">更多>></a>
+                </div>
+            </div>
+        </div>
+        <div class="zw_con2" id="cb1" style="display:none; margin-top:0px;height:235px;">
+       		
+        </div>
+        <div class="zw_con2" id="cb2" style="display:none;"></div>
+        <div class="clear"></div>
+    </div>
+    <div class="new_right2" style="padding-top:39px;">
+    	<div class="news_tit2">
+        	<div class="news_tit2_text font_16 font_blue">我要查询</div>
+    	</div>
+        <div class="bm_con" style="margin-top:0px;">
+       		<div class="bm_con_a" > 
+                        
+                    <a href="https://bjggcx.wjw.beijing.gov.cn/Unit/Index" target="_blank" 
+					    title="医疗机构信息查询">        
+                        医疗机构信息查询
+                    </a>
+                        
+                    <a href="https://bjggcx.wjw.beijing.gov.cn/Doctor/Index" target="_blank" 
+					    title="执业医师信息查询">        
+                        执业医师信息查询
+                    </a>
+                        
+                    <a href="https://bjggcx.wjw.beijing.gov.cn/Nurse/Index" target="_blank" 
+					    title="护士信息查询">        
+                        护士信息查询
+                    </a>
+                        
+                    <a href="https://www.bjtjzx.com/weixincx.asp" target="_blank" 
+					    title="我要查询体检结果">        
+                        我要查询体检结果
+                    </a>
+                        
+                    <a href="./bmfw_20143/wycx1/jcxx/" target="_blank" 
+					    title="饮用水监测信息">        
+                        饮用水监测信息
+                    </a>
+                        
+                    <a href="https://wjw.beijing.gov.cn/bmfw_20143/gwfw/202511/t20251128_4310514.html" target="_blank" 
+					    title="两癌筛查机构查询">        
+                        两癌筛查机构查询
+                    </a>
+                        
+                    <a href="https://xinshai.net" target="_blank" 
+					    title="新生儿耳聋基因筛查结果">        
+                        新生儿耳聋基因筛...
+                    </a>
+                        
+                    <a href="http://ylba.wjw.beijing.gov.cn/new_baby/" target="_blank" 
+					    title="新生儿疾病筛查">        
+                        新生儿疾病筛查
+                    </a>
+                        
+                    <a href="https://www.hqms.org.cn/" target="_blank" 
+					    title="医院质量监测系统">        
+                        医院质量监测系统
+                    </a>
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="bm_img">
+		    <a href="http://www.114yygh.com/" target="_blank" >
+			    <img src="./images/bm_img01.gif" alt="预约挂号" />
+			</a>
+		</div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--mian1_bianmin结束-->
+
+<!--mian1_hudong开始-->
+<div class="mian1_hudong nav_" style="display: none;">
+	<div class="hd_left" style="margin-top:11px;">
+    	<div class="news_tit">
+                <div class="news_tit_text font_16 font_blue ">意见建议</div>
+    	</div>
+        <div class="hd_right_con">
+        	<div class="hd_right_con_a">
+                <div class="clear "></div>
+            </div>
+            <div class="hd_right_img ">
+				<a style="float:left;" target="blank" href="https://wjw.beijing.gov.cn/hdjl_20203/202502/t20250208_4006310.html" >
+				    <img src="./images/ldxx_20230613.png" alt="领导信箱" style="width:207px;height:95px;" /></a>
+                <a style="float:right;" target="_blank" href="https://wjw.beijing.gov.cn/hudong/zhengji/wjw/index.html" >
+                    <img src="./images/myzj_20230425233036.jpg" alt="民意征集" style="width:207px" />
+</a>
+            </div>
+        	<div class="clear "></div>
+        </div>
+        <div class="clear "></div>
+    </div>
+    <div class="hd_right">
+    	<div class="news_tit">
+        	<div class="news_tit_text font_16 font_blue ">首都健康微博</div>
+        </div>
+        <div class="hd_right_con">
+        	<div class="hd_right_con_a">
+                <div class="clear"></div>
+            </div>
+            <div class="hd_right_img">
+                <a style="float:left;" target="_blank" href="https://weibo.com/beijingshiweishengju" >
+                    <img src="./images/hudong_pic_2_20150713.png" alt="微博" style="width:207px" /></a>
+            </div>
+        	<div class="clear "></div>
+        </div>
+        <div class="clear "></div>
+    </div>
+    <div class="clear "></div>
+</div>
+<!--mian1_hudong结束-->
+
+<!--mian1_weiji开始-->
+<div class="mian1_weiji nav_">
+	<div class="wj_left" style="padding-top:39px;">
+    	<div class="news_tit2">
+            <div class="news_tit2_text3 font_16 font_blue" id="ab0" onMouseOver="over2(0)">史志资料</div>
+    	</div>
+        <div class="wj_left_con" id="ca0" style="display:none; margin-top:0px;height:236px;">
+       		
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202601/t20260127_4469663.html" target="_blank"  
+     							title="2024年北京市卫生健康工作概况" >
+           	                    2024年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2026-01-27
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202501/t20250122_3996343.html" target="_blank"  
+     							title="2023年北京市卫生健康工作概况" >
+           	                    2023年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2025-01-27
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202402/t20240223_3567908.html" target="_blank"  
+     							title="2022年北京市卫生健康工作概况" >
+           	                    2022年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2024-02-23
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202304/t20230406_2989987.html" target="_blank"  
+     							title="2021年北京市卫生健康工作概况" >
+           	                    2021年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2023-04-06
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202303/t20230303_2928297.html" target="_blank"  
+     							title="2020年北京市卫生健康工作概况" >
+           	                    2020年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2023-03-03
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202303/t20230303_2928296.html" target="_blank"  
+     							title="2019年北京市卫生健康工作概况" >
+           	                    2019年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2021-11-11
+					</div>
+                </div>
+            
+       		    <div class="main2_con_list">
+           	        <div class="main2_con_list_text">
+           	            <div class="wenhua_left_consy_line_dian_syx"></div>
+           	            <div class="main2_con_list_text_linetext"  style="line-height:30px;" >
+           	                <a  href="./wjwh/szzl/202003/t20200302_1674060.html" target="_blank"  
+     							title="2018年北京市卫生健康工作概况" >
+           	                    2018年北京市卫生健康工作概况
+           	                </a>
+           	            </div> 
+           	        </div>
+        			<div class="main2_con_list_time">
+					    2020-03-02
+					</div>
+                </div>
+            
+            <div class="main2_con_list">
+		        <div class="main2_con_list_time">
+				    <a href="./wjwh/szzl/" target="_blank" class="font_blue">更多>></a>
+				</div>
+            </div>
+        </div>
+        <div class="wj_left_con" id="ca4" style="display:none;"></div>
+        <div class="clear"></div>
+    </div>
+    <div class="wj_right">
+        
+		   	<a href="https://www.beijing.gov.cn/ywdt/zwzt/xxlhesd/"  target="_blank"  >
+<img src="./wjwh/wjwhsb/202408/W020240814657864284510.jpg" height="140" width="300" />
+		    </a>
+        
+		   	<a href="https://wjw.beijing.gov.cn/wjwh/ztzl/tzglkp/index.html"  target="_blank"  >
+<img src="./wjwh/wjwhsb/202504/W020250425495353534733.jpg" height="140" width="300" />
+		    </a>
+              
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--mian1_weiji结束-->
+<script>over2(0);over3(0);</script>
+</div>
+<!-----------------------------------------------------定义一级栏目滑动展示信息层结束------------------------------------------------------------------->
+<!-----------------------------------------------------新闻中心--通知公告--开始------------------------------------------------------------------->
+<div class="main2 pc-hide" style="margin:auto;">
+    <div class="main_con_weinei_syx" style="margin-top:2px;">
+    	<div class="weinei_left_syx">
+        	<div class="wenhua_left_tit_syx">
+            	<div class="wenhua_left_tit0_syx">要闻动态</div>
+            	<div class="wenhua_left_tit1_syx">
+			<a href="./xwzx_20031/" target="_blank"  class="font_blue">更多>></a> 
+		</div>
+            </div>
+        	<div class="wenhua_left_titsy_syx"   >
+                <div style="float:left;width:428px;" >
+            	    <ul>
+			<li class="wenhua_left_titsy_on_syx"><a href="https://www.beijing.gov.cn/ywdt/dzyjs/index.html">中央精神</a></li>
+			<li class=""><a href="https://www.beijing.gov.cn/ywdt/yaowen/">北京要闻</a></li>
+                        <li class=""><a href="./xwzx_20031/wnxw/">委内新闻</a></li>
+                        <li class=""><a href="./xwzx_20031/jcdt/">基层动态</a></li>
+			<li class=""><a href="./xwzx_20031/szyw2022/">时政要闻</a></li>
+                    </ul>
+                </div>
+		<div style="float:right;font-size:16px;cursor:pointer;line-height:40px;width:160px;" >
+                    <a href="https://www.gov.cn/pushinfo/v150203/index.htm"  target="_blank" >国务院信息</a>
+                </div>
+            </div>
+		<div class="wenhua_left_consy_syx" id="zyjs"></div>
+		<div class="wenhua_left_consy_syx" id="bjyw" style="display:none;"></div>
+        	<div class="wenhua_left_consy_syx" style="display:none;">				
+		        
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202610/t20261009_4895121.html"   
+						   title="国家卫生健康委员会法规司赴北京老年医院专题调研"  target="_blank">
+						   国家卫生健康委员会法规司赴北京老年医院专题调研
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-10-09
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202610/t20261008_4892675.html"   
+						   title="北京医疗专家赴甘肃开展临床医疗帮扶义诊服务活动"  target="_blank">
+						   北京医疗专家赴甘肃开展临床医疗帮扶义诊服务活动
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-10-08
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202610/t20261008_4892673.html"   
+						   title="以赛促学砺精兵 药学服务护健康"  target="_blank">
+						   以赛促学砺精兵 药学服务护健康
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-10-08
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202609/t20260929_4885870.html"   
+						   title="北京市卫生健康委党委理论学习中心组召开“强国复兴有我”宣讲团专场报告会"  target="_blank">
+						   北京市卫生健康委党委理论学习中心组召开“强国复兴有我”宣讲团专场报告会
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-09-29
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202609/t20260924_4880352.html"   
+						   title="2026年京津冀卫生应急综合演练在天津成功举办"  target="_blank">
+						   2026年京津冀卫生应急综合演练在天津成功举办
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-09-24
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202609/t20260924_4880348.html"   
+						   title="2026年京津冀卫生应急环首都韧性医疗应急圈学术大会在天津举办"  target="_blank">
+						   2026年京津冀卫生应急环首都韧性医疗应急圈学术大会在天津举办
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-09-24
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202609/t20260921_4874178.html"   
+						   title="观服贸盛会 话医学创新"  target="_blank">
+						   观服贸盛会 话医学创新
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-09-21
+			</div>
+                </div>
+            	
+            	<div class="wenhua_left_consy_line_syx" >
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" >
+					    <a href="./xwzx_20031/wnxw/202609/t20260921_4874151.html"   
+						   title="北京市卫生健康委员会举办2026年全市卫生应急系列培训"  target="_blank">
+						   北京市卫生健康委员会举办2026年全市卫生应急系列培训
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+				2026-09-21
+			</div>
+                </div>
+            	 
+            </div>
+        	<div class="wenhua_left_consy_syx" style="display:none;">
+                
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4896823.html"   
+						   title="验收促提升 传承启新程"  target="_blank">
+						   验收促提升 传承启新程
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4896822.html"   
+						   title="北京友谊医院MDT团队全程守护7年，完成院内首例肝移植术后孕妇足月分娩"  target="_blank">
+						   北京友谊医院MDT团队全程守护7年，完成院内首例肝移植术后孕妇足月分娩
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4896411.html"   
+						   title="【佑安爱心家园】医校携手，佑安专家走进中国人民公安大学讲授新生健康第一课"  target="_blank">
+						   【佑安爱心家园】医校携手，佑安专家走进中国人民公安大学讲授新生健康第一课
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4896391.html"   
+						   title="【杨柳学术】喜报！清华大学附属垂杨柳医院急诊科团队牵头撰写国家级专家共识，在国际急危重症权威期刊刊发"  target="_blank">
+						   【杨柳学术】喜报！清华大学附属垂杨柳医院急诊科团队牵头撰写国家级专家共识，...
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4896388.html"   
+						   title="【杨柳服务】管好血压，守护心脏"  target="_blank">
+						   【杨柳服务】管好血压，守护心脏
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4896268.html"   
+						   title="【党业双融双促】所（院）党委召开学科建设与医政工作专题调度会"  target="_blank">
+						   【党业双融双促】所（院）党委召开学科建设与医政工作专题调度会
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4895873.html"   
+						   title="石景山：深耕医社服务 督导赋能成长"  target="_blank">
+						   石景山：深耕医社服务 督导赋能成长
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx"  >
+					    <a href="./xwzx_20031/jcdt/202610/t20261010_4895858.html"   
+						   title="东方展岐黄，瀛海健康行——北中医东方医院经开区院区深入瀛海镇党群服务中心开展义诊活动"  target="_blank">
+						   东方展岐黄，瀛海健康行——北中医东方医院经开区院区深入瀛海镇党群服务中心开...
+						</a>
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-10
+					</div>
+			    </div>
+            	
+            </div>
+			<div class="wenhua_left_consy_syx" style="display:none;">
+                
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202610/t20261008_4893172.html"   
+						   title="习近平文化思想引领文化强国建设迈出坚实步伐"  target="_blank">
+						   习近平文化思想引领文化强国建设迈出坚实步伐
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-10-08
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202610/t20261008_4893143.html"   
+						   title="习近平：在庆祝中华人民共和国成立77周年招待会上的讲话"  target="_blank">
+						   习近平：在庆祝中华人民共和国成立77周年招待会上的讲话
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-09-30
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202609/t20260923_4877558.html"   
+						   title="中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议"  target="_blank">
+						   中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习...
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-09-23
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202609/t20260921_4873598.html"   
+						   title="李强主持召开国务院常务会议 听取老龄工作情况汇报 研究推动体育赛事健康发展有关工作 部署实施医疗康复护理扩容提升工程 审议通过《中医药传统知识保护条例（草案）》 讨论《〈中华人民共和国突发事件应对法〉等15部法律的修正案（草案）》"  target="_blank">
+						   李强主持召开国务院常务会议 听取老龄工作情况汇报 研究推动体育赛事健康发展有...
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-09-20
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202609/t20260918_4869927.html"   
+						   title="李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署 研究算力网建设有关工作 研究全面系统推进老旧水库改造提升有关工作 听取贯彻落实全国教育大会精神加快建设教育强国情况汇报 审议通过《基金会管理条例（修订草案）》"  target="_blank">
+						   李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署 研究算力网建设...
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-09-12
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202609/t20260908_4854740.html"   
+						   title="李希在贵州调研时强调 深入学习贯彻习近平党建思想 抓深抓实全面从严治党和反腐败工作"  target="_blank">
+						   李希在贵州调研时强调 深入学习贯彻习近平党建思想 抓深抓实全面从严治党和反腐...
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-09-06
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202608/t20260824_4835049.html"   
+						   title="习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩"  target="_blank">
+						   习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经...
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-08-24
+					</div>
+			    </div>
+            	
+            	<div class="wenhua_left_consy_line_syx">
+                	<div class="wenhua_left_consy_line_dian_syx"></div>
+                	<div class="wenhua_left_consy_line_text_syx" > 
+					    <a href="./xwzx_20031/szyw2022/202608/t20260817_4826176.html"   
+						   title="习近平：在纪念江泽民同志诞辰100周年大会上的讲话（全文）"  target="_blank">
+						   习近平：在纪念江泽民同志诞辰100周年大会上的讲话（全文）
+						</a> 
+					</div>
+                	<div class="wenhua_left_consy_line_date_syx">
+					    2026-08-17
+					</div>
+			    </div>
+            	
+            </div>
+        </div>
+    	<div class="weinei_right_syx">
+        	<div class="weinei_right_mod_syx">
+            	<div class="weinei_right_mod_tit_syx">
+                	<div class="weinei_right_mod_tit_text_syx">政民互动</div>
+                	<div class="weinei_right_mod_tit_more_syx">
+					    <a target="blank" href='./hdjl_20203/'>
+							<img src="./images/icon_more_red.png" border="0" alt="更多" />
+						</a>
+					</div>
+                </div>
+            	<div class="weinei_right_mod_con_syx">
+                	<div class="weinei_right_mod_consy_mod2_syx">
+					    <a target="blank" href='https://wjw.beijing.gov.cn/hdjl_20203/202502/t20250208_4006310.html' >领导信箱</a></div>
+                	<div class="weinei_right_mod_consy_mod2_syx"><!--weinei_right_mod_consy_mod_syx-->
+					    <a target="blank" href='https://wjw.beijing.gov.cn/hudong/zhengji/wjw/index.html' >民意征集</a></div>		 
+                	<div class="weinei_right_mod_consy_mod2_syx">
+					    <a target="blank" href='https://weibo.com/beijingshiweishengju?is_hot=1' >首都健康微博平台</a></div>
+			<div class="weinei_right_mod_consy_mod2_syx">
+					    <a target="blank" href='./zwgk_20040/tzgg/ndbb2022/' >政府网站工作年度报表</a></div>
+			<div class="weinei_right_mod_consy_mod3_syx">
+						<a target="blank" href='./sjfb/bjstjgb/' >统计数据</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+	<div class="clear"></div>
+</div>
+<!-----------------------------------------------------新闻中心--通知公告--结束------------------------------------------------------------------->
+<!-----------------------------------------------------网上办事--互动交流--开始------------------------------------------------------------------->
+<div class="main2 pc-hide">
+    <div class="main_con_weinei_syx">
+    	<div class="weinei_left_syx">
+   	        <div class="wenhua_left_tit_syx">
+            	<div class="wenhua_left_tit0_syx">网上办事</div>
+            	<div class="wenhua_left_tit1_syx">
+				    <a href='./sy_20013/wsbs/' target="blank" class="font_blue">更多>></a>
+				</div>
+            </div>
+        	<div class="wenhua_left_consy_syx">
+			
+			    
+                    <div class="wenhua_left_consy_syx_line">
+                        
+                            <div class="wenhua_left_consy_syx_line_mod">
+                                <a href="https://cnhealthai.wjw.beijing.gov.cn" 
+								    target="_blank" title="医疗健康数据与AI供需对接平台">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/202509/W020260309669267885371.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text">
+									    医疗健康数据与AI供需对接平台
+									</div>
+                                </a>
+							</div>                        
+                        
+                            <div class="wenhua_left_consy_syx_line_mod">
+                                <a href="https://banshi.beijing.gov.cn/pubtask/bmfw.html?locationCode=110000000000&deptCode=11110000092921359M" 
+								    target="_blank" title="行政审批申报指南">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200331622884252951.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text">
+									    行政审批申报指南
+									</div>
+                                </a>
+							</div>                        
+                        
+						
+                          	<div class="wenhua_left_consy_syx_line_mod2">                           
+                                <a href="https://bjggcx.wjw.beijing.gov.cn/MedLimitTech" 
+								    target="_blank" title="重点医疗技术备案公示">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200622521670068720.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text"> 
+									    重点医疗技术备案公示
+									</div>
+                                </a>
+						    </div>
+                        
+					</div>
+                
+                    <div class="wenhua_left_consy_syx_line">
+                        
+                            <div class="wenhua_left_consy_syx_line_mod">
+                                <a href="https://ylba.wjw.beijing.gov.cn/wssb/index/xkgscx.action?type=zyys" 
+								    target="_blank" title="许可查询">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200331624790720139.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text">
+									    许可查询
+									</div>
+                                </a>
+							</div>                        
+                        
+                            <div class="wenhua_left_consy_syx_line_mod">
+                                <a href="http://1.202.228.148:5082/spba" 
+								    target="_blank" title="北京市食品安全标准管理系统">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200331625148703231.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text">
+									    北京市食品安全标准管理系统
+									</div>
+                                </a>
+							</div>                        
+                        
+						
+                          	<div class="wenhua_left_consy_syx_line_mod2">                           
+                                <a href="https://bjcndocsys.wjw.beijing.gov.cn/Home/BjIndex?jc=bj" 
+								    target="_blank" title="北京市医政医管电子化注册平台">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200331625554535547.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text"> 
+									    北京市医政医管电子化注册平台
+									</div>
+                                </a>
+						    </div>
+                        
+					</div>
+                
+                    <div class="wenhua_left_consy_syx_line">
+                        
+                            <div class="wenhua_left_consy_syx_line_mod">
+                                <a href="https://bjlbs.wjw.beijing.gov.cn/bjdf" 
+								    target="_blank" title="监督执法一张图">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200509551454397565.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text">
+									    监督执法一张图
+									</div>
+                                </a>
+							</div>                        
+                        
+                            <div class="wenhua_left_consy_syx_line_mod">
+                                <a href="https://wjw.beijing.gov.cn/zwgk_20040/ztzl/qlqd2016/" 
+								    target="_blank" title="权力清单">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200331626229864764.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text">
+									    权力清单
+									</div>
+                                </a>
+							</div>                        
+                        
+						
+                          	<div class="wenhua_left_consy_syx_line_mod2">                           
+                                <a href="https://ylba.wjw.beijing.gov.cn/ggws/pages/shuanggs/listss.jsp" 
+								    target="_blank" title="双公示">
+                                    <div class="wenhua_left_consy_syx_line_mod_icon">
+									    <img src="./sy_20013/wsbs/201912/W020200331627188324629.png" />
+									</div>
+                        	        <div class="wenhua_left_consy_syx_line_mod_text"> 
+									    双公示
+									</div>
+                                </a>
+						    </div>
+                        
+					</div>
+                
+<style>.wenhua_left_consy_syx_line_mod_text{text-align:center;}</style>
+            </div>
+        </div>
+      	<div class="weinei_right_syx">
+        	<div class="weinei_right_mod_syx">
+            	<div class="weinei_right_mod_tit_syx">
+                	<div class="weinei_right_mod_tit_text_syx">政府信息公开</div>
+                </div>
+            	<div class="weinei_right_mod_con_syx">
+                	<div class="weinei_right_mod_consy_mod_syx">
+					    <a target="blank" href='./zwgk_20040/zfxxgk2020/gkzn/' >政府信息公开指南</a></div>
+                	<div class="weinei_right_mod_consy_mod_syx">
+					    <a target="blank" href='./zwgk_20040/zfxxgk2020/gkzd/' >政府信息公开制度</a></div>
+                	<div class="weinei_right_mod_consy_mod_syx">
+					    <a target="blank" href='./zwgk_20040/zfxxgk2020/gknr/lzyj/' >法定主动公开内容</a></div>
+                	<div class="weinei_right_mod_consy_mod_syx">
+					    <a target="blank" href='./zwgk_20040/zfxxgk2020/gknb/' >政府信息公开年报</a></div>
+                	<div class="weinei_right_mod_consy_mod2_syx">
+					    <a target="blank" href='./zwgk_20040/' >政府信息公开目录</a></div>
+               	    <div class="weinei_right_mod_consy_mod3_syx">
+					    <a target="blank" href='https://www.beijing.gov.cn/ysq-web/a/ysqwebset/ysqWebset/ysqweb?officeId=5181&type=cx' >依申请公开</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-----------------------------------------------------网上办事--互动交流--结束------------------------------------------------------------------->
+<!-----------------------------------------------------健康知识--健康视频--开始------------------------------------------------------------------->
+<div class="main2 pc-hide">
+    <div class="main_sy_mod_con">
+	    <div class="main_sy_mod_con_left" style="width:244px;">
+		<a href="./bmfw_20143/jkzs/" target="_blank">
+<img src="./images/20211220jkzs.png" alt="健康知识" />
+			</a>
+		</div>
+	    <div class="main_sy_mod_con_left" style="width:244px;">
+		<a href="./wjwh/ztzl/awjk/" target="_blank">
+<img src="./images/20211220agws.jpg" alt="爱卫健康" />
+			</a>
+		</div>
+	    <div class="main_sy_mod_con_left" style="width:244px;">
+		<a href="./wjwh/ztzl/lnr/" target="_blank">
+<img src="./images/20211220lljk.png" alt="老年人专题" />
+			</a>
+		</div>
+
+        <div class="main_sy_mod_con_right" style="width:244px;">
+		    <a href="./bmfw_20143/jksp/jksp1/" target="_blank" >
+<img src="./images/20211220jksp.png" alt="健康视频" />
+			</a>
+		</div>
+    </div>
+    <div class=" clear"></div>
+</div>
+<!-----------------------------------------------------健康知识--健康视频--结束------------------------------------------------------------------->
+<!-------------------------------------------------------便民服务----开始--------------------------------------------------------------------->
+<div class="main2 pc-hide">
+    <div class="main_sy_bainmin">
+        <div class="main_sy_bainmin_tit">
+            <div class="main_sy_bainmin_tit_text">便民服务</div>
+            <div class="main_sy_bainmin_tit_more"><a target="blank" href="./bmfw_20143/" class="font_blue">更多>></a></div>
+        </div>
+        <div class="main_sy_bainmin_con">
+                <div class="main_sy_bainmin_con_line"> 
+
+				
+					<div class="main_sy_bainmin_con_line_mod">           
+						<a href="https://www.bjcdc.org/cdcmodule/zxfw/kqym/2022/33967.shtml" target="blank">
+							<div class="main_sy_bainmin_con_line_mod_icon">
+								<img src="./bmfw_20143/wzsyfw/202306/W020230628583136263430.png" border="0" alt=" 狂犬病暴露预防处置门诊名单" />
+							</div>                 
+							<div class="main_sy_bainmin_con_line_mod_text"> 
+								狂犬病暴露预防处置门诊名单 
+							</div>
+						</a>
+					</div> 
+				
+				
+					<div class="main_sy_bainmin_con_line_mod">           
+						<a href="https://www.bjcdc.org/cdcmodule/tzgg/tzgg/2023/105116.shtml" target="blank">
+							<div class="main_sy_bainmin_con_line_mod_icon">
+								<img src="./bmfw_20143/wzsyfw/202306/W020231212412717964472.png" border="0" alt=" 北京市流感疫苗接种门诊公示" />
+							</div>                 
+							<div class="main_sy_bainmin_con_line_mod_text"> 
+								北京市流感疫苗接种门诊公示 
+							</div>
+						</a>
+					</div> 
+				
+				
+					<div class="main_sy_bainmin_con_line_mod">           
+						<a href="https://wjw.beijing.gov.cn/bmfw_20143/ylfw/zybzd/" target="blank">
+							<div class="main_sy_bainmin_con_line_mod_icon">
+								<img src="./bmfw_20143/wzsyfw/202306/W020230628583106461768.png" border="0" alt=" 职业病诊断、职业健康检查、职业卫生(放射卫生)技术服务机构名单" />
+							</div>                 
+							<div class="main_sy_bainmin_con_line_mod_text" style="margin-top:4px;"> 
+								职业病诊断、职业健康检查、职业卫生(放射卫生)技术服务机构名单 
+							</div>
+						</a>
+					</div> 
+				
+				
+					<div class="main_sy_bainmin_con_line_mod2">           
+						<a href="https://wjw.beijing.gov.cn/bmfw_20143/ylfw/yljgdzdt/" target="blank">
+							<div class="main_sy_bainmin_con_line_mod_icon">
+								<img src="./bmfw_20143/wzsyfw/202306/W020230628583129971914.png" border="0" alt=" 政务公开惠民便民地图" />
+							</div>                 
+							<div class="main_sy_bainmin_con_line_mod_text"> 
+								政务公开惠民便民地图 
+							</div>
+						</a>
+					</div> 
+				
+        </div>
+            
+                <div class="main_sy_bainmin_con_line"> 
+                    
+                        <div class="main_sy_bainmin_con_line_mod">           
+                            <a href="https://bjggcx.wjw.beijing.gov.cn/Unit/Index" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230628583117111219.png" border="0" alt=" 医疗机构查询" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text"> 
+								    医疗机构查询 
+								</div>
+                            </a>
+                        </div> 
+                    
+                        <div class="main_sy_bainmin_con_line_mod">           
+                            <a href="https://bjggcx.wjw.beijing.gov.cn/Doctor/Index" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230628583114544052.png" border="0" alt=" 医生执业注册信息查询" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text"> 
+								    医生执业注册信息查询 
+								</div>
+                            </a>
+                        </div> 
+                    
+                        <div class="main_sy_bainmin_con_line_mod">           
+                            <a href="https://bjggcx.wjw.beijing.gov.cn/Nurse/Index" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230815583931815326.png" border="0" alt=" 护士执业注册信息查询" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text"> 
+								    护士执业注册信息查询 
+								</div>
+                            </a>
+                        </div> 
+                    
+                    
+                        <div class="main_sy_bainmin_con_line_mod2">           
+                            <a href="https://www.bjtjzx.cn/" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020231212413315343526.png" border="0" alt=" 体检结果查询" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text">
+								    体检结果查询
+								</div>
+                            </a>
+                        </div> 
+                    
+                </div>
+            
+                <div class="main_sy_bainmin_con_line"> 
+                    
+                        <div class="main_sy_bainmin_con_line_mod">           
+                            <a href="./bmfw_20143/wzsyfw/202306/t20230628_3149216.html" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230628583133389700.png" border="0" alt=" 生育登记办事指南" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text"> 
+								    生育登记办事指南 
+								</div>
+                            </a>
+                        </div> 
+                    
+                        <div class="main_sy_bainmin_con_line_mod">           
+                            <a href="https://ylba.wjw.beijing.gov.cn/new_baby/" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230628583109724355.png" border="0" alt=" 北京市新生儿遗传代谢病筛查" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text"> 
+								    北京市新生儿遗传代谢病筛查 
+								</div>
+                            </a>
+                        </div> 
+                    
+                        <div class="main_sy_bainmin_con_line_mod">           
+                            <a href="https://xinshai.net" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230628583123734646.png" border="0" alt=" 新生儿耳聋基因筛查结果查询" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text"> 
+								    新生儿耳聋基因筛查结果查询 
+								</div>
+                            </a>
+                        </div> 
+                    
+                    
+                        <div class="main_sy_bainmin_con_line_mod2">           
+                            <a href="https://wjw.beijing.gov.cn/bmfw_20143/jkzs/" target="blank">
+                                <div class="main_sy_bainmin_con_line_mod_icon">
+                                    <img src="./bmfw_20143/wzsyfw/202306/W020230628583121600818.png" border="0" alt=" 健康知识" />
+                                </div>                 
+                                <div class="main_sy_bainmin_con_line_mod_text">
+								    健康知识
+								</div>
+                            </a>
+                        </div> 
+                    
+                </div>
+             
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-------------------------------------------------------便民服务----结束------------------------------------------------------------------->
+<!-------------------------------------------------------卫生计生文化----开始--------------------------------------------------------------------->
+
+<div class="main2 pc-hide">
+    <div class="main_sy_bainmin">
+        <div class="main_sy_bainmin_tit">
+            <div class="main_sy_bainmin_tit_text">卫生健康文化</div>
+            <div class="main_sy_bainmin_tit_more"> <a target="blank" href="./wjwh/" class="font_blue">更多>></a> </div>
+        </div>
+        <div class="main_sy_shipin_con">
+            <div class="main_sy_shipin_con_line">
+                <div class="main_sy_shipin_con_lineb">
+                    <div id="demo">
+                        <div id="indemo">
+                            <div id="demo1">
+                                
+                                    <div class="main_sy_shipin_con_lineb1">
+									    <style>.main_sy_shipin_con_line_mod_pic img{width:100%;height:100%;}</style>
+                                        
+                                            <div class="main_sy_shipin_con_line_mod">
+                                                <div class="main_sy_shipin_con_line_mod_pic">
+                                                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/tzglkp/index.html" target="_blank"  >   
+													    <img src="./wjwh/wjwhlbt/202504/W020250425494786585270.png" border="0" alt=" 体重管理科普宣传" />
+													</a>
+                                                </div>
+                                                <div class="main_sy_shipin_con_line_mod_tit">
+												    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/tzglkp/index.html" target="_blank">体重管理科普宣传</a>
+												</div>
+                                                <div class="main_sy_shipin_con_line_mod_tit2">
+												    
+												</div>
+                                            </div>
+                                        
+                                            <div class="main_sy_shipin_con_line_mod">
+                                                <div class="main_sy_shipin_con_line_mod_pic">
+                                                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/sdkmlhy/" target="_blank"  >   
+													    <img src="./wjwh/wjwhlbt/202109/W020230609343445054076.png" border="0" alt=" 往期：“时代楷模”李桓英（已归档）" />
+													</a>
+                                                </div>
+                                                <div class="main_sy_shipin_con_line_mod_tit">
+												    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/sdkmlhy/" target="_blank">往期：“时代楷模”李桓英（...</a>
+												</div>
+                                                <div class="main_sy_shipin_con_line_mod_tit2">
+												    
+												</div>
+                                            </div>
+                                        
+                                            <div class="main_sy_shipin_con_line_mod">
+                                                <div class="main_sy_shipin_con_line_mod_pic">
+                                                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/bjsywyldwszn/" target="_blank"  >   
+													    <img src="./wjwh/wjwhlbt/201912/W020220329389408949868.jpg" border="0" alt=" 往期：援爱-北京市援外医疗专题（已归档）" />
+													</a>
+                                                </div>
+                                                <div class="main_sy_shipin_con_line_mod_tit">
+												    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/bjsywyldwszn/" target="_blank">往期：援爱-北京市援外医疗专...</a>
+												</div>
+                                                <div class="main_sy_shipin_con_line_mod_tit2">
+												    
+												</div>
+                                            </div>
+                                        
+                                            <div class="main_sy_shipin_con_line_mod">
+                                                <div class="main_sy_shipin_con_line_mod_pic">
+                                                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/ylfh/" target="_blank"  >   
+													    <img src="./wjwh/wjwhlbt/201912/W020220329385772032859.jpg" border="0" alt=" 往期：40年医路繁花（已归档）" />
+													</a>
+                                                </div>
+                                                <div class="main_sy_shipin_con_line_mod_tit">
+												    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/ylfh/" target="_blank">往期：40年医路繁花（已归档）</a>
+												</div>
+                                                <div class="main_sy_shipin_con_line_mod_tit2">
+												    
+												</div>
+                                            </div>
+                                          
+                                    </div>
+                                
+                                    <div class="main_sy_shipin_con_lineb1">
+									    <style>.main_sy_shipin_con_line_mod_pic img{width:100%;height:100%;}</style>
+                                        
+                                            <div class="main_sy_shipin_con_line_mod">
+                                                <div class="main_sy_shipin_con_line_mod_pic">
+                                                    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/sdywgzzfc/" target="_blank"  >   
+													    <img src="./wjwh/wjwhlbt/201912/W020240822003611428660.jpg" border="0" alt=" 首都卫生健康工作者风采" />
+													</a>
+                                                </div>
+                                                <div class="main_sy_shipin_con_line_mod_tit">
+												    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/sdywgzzfc/" target="_blank">首都卫生健康工作者风采</a>
+												</div>
+                                                <div class="main_sy_shipin_con_line_mod_tit2">
+												    
+												</div>
+                                            </div>
+                                          
+                                    </div>
+                                
+                            </div>
+                            <div id="demo2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<script type="text/javascript">
+var speed=10; //数字越大速度越慢
+var tab=document.getElementById("demo");
+var tab1=document.getElementById("demo1");
+var tab2=document.getElementById("demo2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+    if(tab2.offsetWidth-tab.scrollLeft<=0)
+        tab.scrollLeft-=tab1.offsetWidth
+    else{
+        tab.scrollLeft++;
+    }
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+</script>
+<style type="text/css">
+#demo {
+    overflow:hidden;
+    border: 0px dashed #CCC;  //周围虚线
+    width: 500px;
+}
+#demo img {
+    border: 0px solid #F2F2F2;
+}
+#indemo {
+    float: left;
+    width: 800%;
+}
+#demo1 {
+    float: left;
+}
+#demo2 {
+    float: left;
+}
+</style> 
+
+<!-------------------------------------------------------卫生计生文化----结束--------------------------------------------------------------------->
+<!-------------------------------------------------------内部工作---开始---------------------------------------------------------------------->
+<div class="main4 pc-hide">
+    
+	    <a href="https://wstj.phic.org.cn/bjhbstat/index.jsp" class="main4_list2 font_14"  target="_blank" >
+		    因燃放烟花爆竹致伤人员情况</a>
+    
+	    <a href="https://wstj.phic.org.cn/bjhbstat/index.jsp" class="main4_list2 font_14"  target="_blank" >
+		    黄金周医疗工作量统计</a>
+    
+	    <a href="https://wstj.phic.org.cn/bjhbstat/index.jsp" class="main4_list2 font_14"  target="_blank" >
+		    北京市卫生综合统计信息平台</a>
+    
+	    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/kjyjy/" class="main4_list2 font_14"  target="_blank" >
+		    科技与教育</a>
+    
+	    <a href="https://wstj.phic.org.cn/bjhbstat/index.jsp" class="main4_list2 font_14"  target="_blank" >
+		    北京市卫生健康委医院管理平台</a>
+    
+	    <a href="https://wjw.beijing.gov.cn/nbgz/xzzq/" class="main4_list2 font_14"  target="_blank" >
+		    下载专区</a>
+    
+	    <a href="https://wjw.beijing.gov.cn/wjwh/ztzl/zqgs_1/jbxx/" class="main4_list2 font_14"  target="_blank" >
+		    职权公示</a>
+    
+    <a target="blank" href="./nbgz/"  class="main4_list2 font_14">更多>></a>
+</div>
+<!-------------------------------------------------------内部工作---结束---------------------------------------------------------------------->
+<div class="pc-hide">
+<div><div class="clear"></div>
+<link rel="stylesheet" type="text/css" href="./images/frendshiplink20240126.css"></link>
+<div class="g_links_box">
+	<div class="m_links_box f_clear">
+		<div class="m_links_module m_links_module1" id="websiteGJ">
+			<span>-----行政机构-----</span><i>|</i>
+			<ul>
+				<li>
+<a href="http://www.nhc.gov.cn/" target="_blank"  rel="nofollow"
+title="国家卫生健康委员会">
+					国家卫生健康委员会
+</a><li>
+				
+				<li>
+<a href="http://www.satcm.gov.cn/" target="_blank"  rel="nofollow"
+title="国家中医药管理局">
+					国家中医药管理局
+</a><li>
+				
+				<li>
+<a href="http://zyj.beijing.gov.cn" target="_blank"  rel="nofollow"
+title="北京市中医药管理局">
+					北京市中医药管理局
+</a><li>
+				
+			</ul>
+		</div>
+		<div class="m_links_module m_links_module2">
+			<span>-----医疗机构-----</span><i>|</i>
+			<ul>
+				
+				<li style="display:block;color:gray"
+title="卫生部直属医院">
+==卫生部直...==<li>
+				
+				<li>
+<a href="https://www.bjhmoh.cn/" target="_blank"  rel="nofollow"
+title="北京医院">
+					北京医院
+				</a><li>
+				
+				<li>
+<a href="https://www.zryhyy.com.cn/" target="_blank"  rel="nofollow"
+title="中日友好医院">
+					中日友好医院
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="直属医院">
+==直属医院==<li>
+				
+				<li>
+<a href="https://www.shouer.com.cn/index.html" target="_blank"  rel="nofollow"
+title="首都儿科研究所附属儿童医院">
+					首都儿科研究所...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjcyh.com.cn/" target="_blank"  rel="nofollow"
+title="北京朝阳医院">
+					北京朝阳医院
+				</a><li>
+				
+				<li>
+<a href="https://www.lnyy.com.cn/" target="_blank"  rel="nofollow"
+title="北京老年医院">
+					北京老年医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjzhongyi.com/" target="_blank"  rel="nofollow"
+title="北京中医医院">
+					北京中医医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjdth.com/" target="_blank"  rel="nofollow"
+title="北京地坛医院">
+					北京地坛医院
+				</a><li>
+				
+				<li>
+<a href="https://www.xwhosp.com.cn/" target="_blank"  rel="nofollow"
+title="北京宣武医院">
+					北京宣武医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjcancer.org/" target="_blank"  rel="nofollow"
+title="北京肿瘤医院">
+					北京肿瘤医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjyah.com/" target="_blank"  rel="nofollow"
+title="北京佑安医院">
+					北京佑安医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjsjth.cn/" target="_blank"  rel="nofollow"
+title="北京世纪坛医院">
+					北京世纪坛医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjxkyy.cn/" target="_blank"  rel="nofollow"
+title="北京胸科医院（原北京胸部肿瘤结核病医院）">
+					北京胸科医院（...
+				</a><li>
+				
+				<li>
+<a href="https://www.dentist.org.cn/" target="_blank"  rel="nofollow"
+title="北京口腔医院">
+					北京口腔医院
+				</a><li>
+				
+				<li>
+<a href="http://www.bjogh.com.cn" target="_blank"  rel="nofollow"
+title="北京妇产医院">
+					北京妇产医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bfh.com.cn/Html/Index.html" target="_blank"  rel="nofollow"
+title="北京友谊医院">
+					北京友谊医院
+				</a><li>
+				
+				<li>
+<a href="https://www.beijing120.com/" target="_blank"  rel="nofollow"
+title="北京急救中心">
+					北京急救中心
+				</a><li>
+				
+				<li>
+<a href="https://www.trhos.com/" target="_blank"  rel="nofollow"
+title="北京同仁医院">
+					北京同仁医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bch.com.cn/" target="_blank"  rel="nofollow"
+title="北京儿童医院">
+					北京儿童医院
+				</a><li>
+				
+				<li>
+<a href="https://www.jst-hosp.com.cn/" target="_blank"  rel="nofollow"
+title="北京积水潭医院">
+					北京积水潭医院
+				</a><li>
+				
+				<li>
+<a href="https://www.btch.edu.cn/" target="_blank"  rel="nofollow"
+title="北京清华长庚医院">
+					北京清华长庚医院
+				</a><li>
+				
+				<li>
+<a href="https://www.anzhen.org/" target="_blank"  rel="nofollow"
+title="北京安贞医院">
+					北京安贞医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bhlgh.com/" target="_blank"  rel="nofollow"
+title="北京回龙观医院">
+					北京回龙观医院
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="中国医科院所属医院">
+==中国医科...==<li>
+				
+				<li>
+<a href="https://www.fuwaihospital.org/Hospitals/Main" target="_blank"  rel="nofollow"
+title="医科院阜外医院">
+					医科院阜外医院
+				</a><li>
+				
+				<li>
+<a href="https://www.cicams.ac.cn/index.html" target="_blank"  rel="nofollow"
+title="中国医学科学院肿瘤医院">
+					中国医学科学院...
+				</a><li>
+				
+				<li>
+<a href="http://www.zhengxing.com.cn/" target="_blank"  rel="nofollow"
+title="医科院整形外科医院">
+					医科院整形外科医院
+				</a><li>
+				
+				<li>
+<a href="https://www.pumch.cn/index.html" target="_blank"  rel="nofollow"
+title="医科院北京协和医院">
+					医科院北京协和医院
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="中国中医科学院">
+==中国中医...==<li>
+				
+				<li>
+<a href="https://www.gamyy.cn/" target="_blank"  rel="nofollow"
+title="中国中医科学院广安门医院">
+					中国中医科学院...
+				</a><li>
+				
+				<li>
+<a href="http://www.xyhospital.com/" target="_blank"  rel="nofollow"
+title="中国中医科学院西苑医院">
+					中国中医科学院...
+				</a><li>
+				
+				<li>
+<a href="https://www.ykhospital.com.cn/" target="_blank"  rel="nofollow"
+title="中国中医科学院眼科医院">
+					中国中医科学院...
+				</a><li>
+				
+				<li>
+<a href="https://www.wjhospital.com.cn/" target="_blank"  rel="nofollow"
+title="中国中医科学院望京医院">
+					中国中医科学院...
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="北京中医药大学附属医院（红字）">
+==北京中医...==<li>
+				
+				<li>
+<a href="https://www.zydsy.com/Html/Index.html" target="_blank"  rel="nofollow"
+title="北京中医药大学附属第三医院">
+					北京中医药大学...
+				</a><li>
+				
+				<li>
+<a href="https://www.dzmyy.com.cn/Html/Index.html" target="_blank"  rel="nofollow"
+title="北京中医药大学东直门医院">
+					北京中医药大学...
+				</a><li>
+				
+				<li>
+<a href="https://www.dongfangyy.com.cn/Html/Index.html" target="_blank"  rel="nofollow"
+title="北京中医药大学东方医院">
+					北京中医药大学...
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="北京大学附属医院">
+==北京大学...==<li>
+				
+				<li>
+<a href="https://www.puh3.net.cn/" target="_blank"  rel="nofollow"
+title="北京大学第三医院">
+					北京大学第三医院
+				</a><li>
+				
+				<li>
+<a href="https://www.pkuh6.cn/" target="_blank"  rel="nofollow"
+title="北京大学第六医院">
+					北京大学第六医院
+				</a><li>
+				
+				<li>
+<a href="https://www.sgyy.com.cn/" target="_blank"  rel="nofollow"
+title="北京大学首钢医院">
+					北京大学首钢医院
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="驻京部队医院">
+==驻京部队医院==<li>
+				
+				<li>
+<a href="https://www.301hospital.com.cn/index.html" target="_blank"  rel="nofollow"
+title="中国人民解放军总医院">
+					中国人民解放军...
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="部属厂矿高校医院">
+==部属厂矿...==<li>
+				
+				<li>
+<a href="https://www.bjsjgyy.com/" target="_blank"  rel="nofollow"
+title="北京市健宫医院">
+					北京市健宫医院
+				</a><li>
+				
+				<li>
+<a href="https://www.asch.net.cn/" target="_blank"  rel="nofollow"
+title="航天中心医院">
+					航天中心医院
+				</a><li>
+				
+				<li>
+<a href="http://www.711hospital.com/" target="_blank"  rel="nofollow"
+title="北京航天总医院">
+					北京航天总医院
+				</a><li>
+				
+				<li>
+<a href="https://www.yhfhyy.com.cn/" target="_blank"  rel="nofollow"
+title="北京燕化凤凰医院">
+					北京燕化凤凰医院
+				</a><li>
+				
+				<li>
+<a href="https://www.massage-hospital.com/" target="_blank"  rel="nofollow"
+title="北京按摩医院">
+					北京按摩医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bjhgzfy.cn/" target="_blank"  rel="nofollow"
+title="北京市化工职业病防治院">
+					北京市化工职业...
+				</a><li>
+				
+				<li>
+<a href="http://www.tufh.com.cn" target="_blank"  rel="nofollow"
+title="北京华信医院">
+					北京华信医院
+				</a><li>
+				
+				<li>
+<a href="https://www.hkzyy.com.cn/Html/Index.html" target="_blank"  rel="nofollow"
+title="航空总医院">
+					航空总医院
+				</a><li>
+				
+				
+				<li style="display:block;color:gray"
+title="北京区县属医院">
+==北京区县...==<li>
+				
+				<li>
+<a href="https://www.hdhospital.com/" target="_blank"  rel="nofollow"
+title="北京市海淀医院">
+					北京市海淀医院
+				</a><li>
+				
+				<li>
+<a href="https://www.bj-fxh.com/" target="_blank"  rel="nofollow"
+title="首都医科大学附属复兴医院">
+					首都医科大学附...
+				</a><li>
+				
+				<li>
+<a href="http://www.xwzy.com.cn/" target="_blank"  rel="nofollow"
+title="北京市宣武区中医医院">
+					北京市宣武区中...
+				</a><li>
+				
+				
+			</ul>
+		</div>
+		<div class="m_links_module m_links_module3">
+			<span>-----防病机构-----</span><i>|</i>
+			<ul>
+				<li>
+<a href="https://www.bjcdc.org/" target="_blank"  rel="nofollow"
+title="北京市疾病预防控制中心">
+					北京市疾病预防...
+				</a><li>
+				
+			</ul>
+		</div>
+		<div class="m_links_module m_links_module5">
+			<span>-----科研院所-----</span><i>|</i>
+			<ul>
+				<li>
+<a href="https://www.bfh.com.cn/Html/News/Articles/203254.html" target="_blank"  rel="nofollow"
+title="北京市临床医学研究所">
+					北京市临床医学...
+				</a><li>
+				
+				<li>
+<a href="https://www.bfh.com.cn/Html/News/Articles/203253.html" target="_blank"  rel="nofollow"
+title="北京热带医学研究所">
+					北京热带医学研究所
+				</a><li>
+				
+				<li>
+<a href="http://www.lnjksjpt.cn/Index.aspx" target="_blank"  rel="nofollow"
+title="北京市老年病医疗研究中心">
+					北京市老年病医...
+				</a><li>
+				
+				<li>
+<a href="https://www.jst-hosp.com.cn/Html/News/Main/201.html" target="_blank"  rel="nofollow"
+title="北京市创伤骨科研究所">
+					北京市创伤骨科...
+				</a><li>
+				
+				<li>
+<a href="https://www.bch.com.cn/Html/News/Main/736.html?check=true" target="_blank"  rel="nofollow"
+title="北京市儿科研究所">
+					北京市儿科研究所
+				</a><li>
+				
+				<li>
+<a href="https://www.shouer.com.cn/dzb/index.html" target="_blank"  rel="nofollow"
+title="首都儿科研究所">
+					首都儿科研究所
+				</a><li>
+				
+				<li>
+<a href="http://www.bjszyyjs.com/" target="_blank"  rel="nofollow"
+title="北京市中医药研究所">
+					北京市中医药研究所
+				</a><li>
+				
+				<li>
+<a href="https://www.bjtth.org/Html/Departments/Main/Index_1021071.html" target="_blank"  rel="nofollow"
+title="北京市神经外科研究所">
+					北京市神经外科...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjyah.com/Html/Departments/Main/Index_160.html" target="_blank"  rel="nofollow"
+title="北京肝病研究所">
+					北京肝病研究所
+				</a><li>
+				
+				<li>
+<a href="https://www.bjcancer.org/" target="_blank"  rel="nofollow"
+title="北京市肿瘤防治研究所">
+					北京市肿瘤防治...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjxkyy.cn/Html/Hospitals/Main/Boot.html" target="_blank"  rel="nofollow"
+title="北京市结核病胸部肿瘤研究所">
+					北京市结核病胸...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjcyh.com.cn/Html/Departments/Main/Index_247.html" target="_blank"  rel="nofollow"
+title="北京市呼吸疾病研究所">
+					北京市呼吸疾病...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjent.org.cn/" target="_blank"  rel="nofollow"
+title="北京市耳鼻咽喉科研究所">
+					北京市耳鼻咽喉...
+				</a><li>
+				
+			</ul>
+		</div>
+		<div class="m_links_module m_links_module4">
+			<span>-----医学院校-----</span><i>|</i>
+			<ul>
+				<li>
+<a href="https://www.bucm.edu.cn/" target="_blank"  rel="nofollow"
+title="北京中医药大学">
+					北京中医药大学
+				</a><li>
+				
+				<li>
+<a href="https://www.bjmu.edu.cn/" target="_blank"  rel="nofollow"
+title="北京大学医学部">
+					北京大学医学部
+				</a><li>
+				
+				<li>
+<a href="https://www.pumc.edu.cn/" target="_blank"  rel="nofollow"
+title="中国医学科学院北京协和医学院">
+					中国医学科学院...
+				</a><li>
+				
+				<li>
+<a href="https://kysyzx.bucm.edu.cn/" target="_blank"  rel="nofollow"
+title="北京中医药大学北京中医药研究院">
+					北京中医药大学...
+				</a><li>
+				
+				<li>
+<a href="https://www.ccmu.edu.cn/" target="_blank"  rel="nofollow"
+title="首都医科大学">
+					首都医科大学
+				</a><li>
+				
+			</ul>
+		</div>
+		<div class="m_links_module m_links_module6">
+			<span>-----其它机构-----</span><i>&nbsp;</i>
+			<ul>
+				<li>
+<a href="http://www.bjwsrc.cn" target="_blank"  rel="nofollow"
+title="北京市卫生健康人力资源发展中心">
+					北京市卫生健康...
+				</a><li>
+				
+				<li>
+<a href="https://www.cma.org.cn/" target="_blank"  rel="nofollow"
+title="中华医学会">
+					中华医学会
+				</a><li>
+				
+				<li>
+<a href="https://www.who.int/" target="_blank"  rel="nofollow"
+title="世界卫生组织">
+					世界卫生组织
+				</a><li>
+				
+				<li>
+<a href="https://www.brcbc.org/" target="_blank"  rel="nofollow"
+title="北京市红十字血液中心">
+					北京市红十字血...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjjkglxh.com/" target="_blank"  rel="nofollow"
+title="北京健康管理协会">
+					北京健康管理协会
+				</a><li>
+				
+				<li>
+<a href="https://www.cha.org.cn/?siteid=10000&type=1" target="_blank"  rel="nofollow"
+title="中华医院管理学会">
+					中华医院管理学会
+				</a><li>
+				
+				<li>
+<a href="http://www.bppa.org.cn/" target="_blank"  rel="nofollow"
+title="北京医药行业协会">
+					北京医药行业协会
+				</a><li>
+				
+				<li>
+<a href="https://www.bjtjzx.cn" target="_blank"  rel="nofollow"
+title="北京市体检中心">
+					北京市体检中心
+				</a><li>
+				
+				<li>
+<a href="http://www.wsjhszx.org.cn" target="_blank"  rel="nofollow"
+title="北京市卫生健康委员会会计核算服务中心">
+					北京市卫生健康...
+				</a><li>
+				
+				<li>
+<a href="https://www.bjyxh.org.cn/" target="_blank"  rel="nofollow"
+title="北京医学会">
+					北京医学会
+				</a><li>
+				
+				<li>
+<a href="http://www.phic.org.cn/" target="_blank"  rel="nofollow"
+title="北京市卫生健康大数据与政策研究中心">
+					北京市卫生健康...
+				</a><li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<!---------------------------------------------------手机端展示分界线----------------------------------------------------------->
+<div class="mobile-show mobilesy">
+<!--index开始-->
+<div>
+    <!--走马灯开始-->
+    <div class="mobile_pmd">
+        <ul>
+          <!--最后一张复制一份放前面，防止往前滑动出现空白-->
+		  
+          <li><a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=bj" target="_self">
+			<img src="./sy_20013/sydt/202303/W020240311402236744201_670.jpg" border="0" alt="@国务院 我来说" />
+          </a></li> 
+		  
+          <li><a href="https://wjw.beijing.gov.cn/xwzx_20031/wnxw/202511/t20251117_4283879.html" target="_self">
+			<img src="./sy_20013/sydt/202511/W020251126623407307704.png" border="0" alt="北京市学习贯彻党的二十届四中全会精神宣讲团卫生健康系统报告会举行" />
+          </a></li> 
+		  
+          <li><a href="https://wjw.beijing.gov.cn/xwzx_20031/wnxw/202511/t20251126_4306197.html" target="_self">
+			<img src="./sy_20013/sydt/202511/W020251126623663000252.png" border="0" alt="北京市卫生健康系统学习贯彻党的二十届四中全会精神北京安贞医院宣讲报告会举行" />
+          </a></li> 
+		  
+          <li><a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/ssfw/ssfw.html" target="_self">
+			<img src="./sy_20013/sydt/202407/W020240719707817799150_670.jpg" border="0" alt="企业“三送”服务指南" />
+          </a></li> 
+		  
+          <li><a href="https://www.beijing.gov.cn/fuwu/lqfw/ztzl/yshj/index.html" target="_self">
+			<img src="./sy_20013/sydt/202305/W020230518382306535836_670.png" border="0" alt="优化营商环境" />
+          </a></li> 
+		  
+          <li><a href="https://www.gov.cn/zhengce/zczhjd/" target="_self">
+			<img src="./sy_20013/sydt/202307/W020230731674604741622.jpg" border="0" alt="重要政策举措" />
+          </a></li> 
+		  
+          <!--第一张复制一份放后面，防止往后滑动出现空白-->
+          
+          <li><a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=bj" target="_self">
+			<img src="./sy_20013/sydt/202303/W020240311402236744201_670.jpg" border="0" alt="@国务院 我来说" />
+          </a></li> 
+		  
+        </ul>
+        <!-- 轮播图中的小圆圈 -->
+        <ol>
+            <li class="current"></li><li></li>
+            <li></li><li></li><li></li>
+            <li></li><li></li>
+        </ol>
+    </div> 
+    <!--通知公告开始-->
+    <div class="mb_notice">
+        <span class="mb_notice_content">
+          <span class="mb_notice_title">通知公告：</span>
+		  
+          北京市卫生健康委医疗服务项目价格...
+		   
+        </span>
+        <a class="mb_notice_more" target="_self"
+			href="./zwgk_20040/tzgg/" >更多&gt;&gt;
+        </a>
+    </div>
+    <!--新闻中心开始-->
+    <div class="main_con_weinei_syx">
+        <div class="weinei_left_syx">
+            <div class="wenhua_left_titsy_syx">
+                <div class="wenhua_left_tab">
+                  <ul>
+						<li class="wenhua_left_titsy_on_syx"><a>中央精神</a></li>
+						<li class=""><a>北京要闻</a></li>
+						<li class=""><a>委内新闻</a></li>
+						<li><a>时政要闻</a></li>
+						<li><a href="https://www.gov.cn/pushinfo/v150203/index.htm"  target="_self" >国务院信息</a></li>
+                  </ul>
+                </div>
+                <a class="mb_news_more" target="_self"
+				   href="./xwzx_20031/">更多&gt;&gt;
+                </a>
+            </div>
+            <div class="tabCon">
+                <div class="tabBox">
+					<div class="wenhua_left_consy_syx" id="zyxw_mobile"></div>
+					<div class="wenhua_left_consy_syx" id="bjyw_mobile" style="display:none;"></div>
+					<!-- 委内新闻 -->
+                    <div class="wenhua_left_consy_syx" style="display:none;">
+			            
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202610/t20261009_4895121.html" target="_self">国家卫生健康委员会法规司赴...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-10-09
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202610/t20261008_4892675.html" target="_self">北京医疗专家赴甘肃开展临床...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-10-08
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202610/t20261008_4892673.html" target="_self">以赛促学砺精兵 药学服务护健康</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-10-08
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202609/t20260929_4885870.html" target="_self">北京市卫生健康委党委理论学...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-29
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202609/t20260924_4880352.html" target="_self">2026年京津冀卫生应急综合演...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-24
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202609/t20260924_4880348.html" target="_self">2026年京津冀卫生应急环首都...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-24
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202609/t20260921_4874178.html" target="_self">观服贸盛会 话医学创新</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-21
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/wnxw/202609/t20260921_4874151.html" target="_self">北京市卫生健康委员会举办202...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-21
+                            </div>
+                        </div>
+                         
+					</div>
+					
+					<!-- 时政要闻 -->
+                    <div class="wenhua_left_consy_syx" style="display:none;">
+			            
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202610/t20261008_4893172.html" target="_self">习近平文化思想引领文化强国...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-10-08
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202610/t20261008_4893143.html" target="_self">习近平：在庆祝中华人民共和...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-30
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202609/t20260923_4877558.html" target="_self">中共中央政治局召开会议 讨论...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-23
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202609/t20260921_4873598.html" target="_self">李强主持召开国务院常务会议 ...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-20
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202609/t20260918_4869927.html" target="_self">李强主持召开国务院常务会议 ...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-12
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202609/t20260908_4854740.html" target="_self">李希在贵州调研时强调 深入学...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-09-06
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202608/t20260824_4835049.html" target="_self">习近平作出重要指示强调 巩固...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-08-24
+                            </div>
+                        </div>
+                        
+			            <div class="wenhua_left_consy_line_syx">
+			                <div class="wenhua_left_consy_line_dian_syx"></div>
+                            <div class="wenhua_left_consy_line_text_syx" style="width:260px">
+                                <a href="./xwzx_20031/szyw2022/202608/t20260817_4826176.html" target="_self">习近平：在纪念江泽民同志诞...</a>
+                            </div>
+                            <div class="wenhua_left_consy_line_date_syx">
+							    2026-08-17
+                            </div>
+                        </div>
+                         
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="weinei_right_syx">
+            <div class="weinei_right_mod_syx">
+                <div class="weinei_right_mod_tit_syx">
+                    <div class="weinei_right_mod_tit_text_syx">政民互动</div>
+                    <div class="weinei_right_mod_tit_more_syx">
+                        <a target="_self" href="./hdjl_20203/">
+                            <img src="./images/icon_more_red.png" border="0" alt="更多" />
+                        </a>
+                    </div>
+                </div>
+                <div class="weinei_right_mod_con_syx">
+                    <div class="weinei_right_mod_consy_mod_syx">
+                        <a target="_self" href='https://wjw.beijing.gov.cn/hdjl_20203/202502/t20250208_4006310.html' >领导信箱</a></div>
+                    <div class="weinei_right_mod_consy_mod_syx">
+                        <a target="_self" href='https://wjw.beijing.gov.cn/hudong/zhengji/wjw/index.html' >民意征集</a></div>	
+                    <div class="weinei_right_mod_consy_mod2_syx">
+                        <a target="_self" href='./zwgk_20040/tzgg/ndbb2022/' >政府网站工作年度报表</a></div>
+                    <div class="weinei_right_mod_consy_mod3_syx">
+                        <a target="_self" href='./sjfb/bjstjgb/' >统计数据</a>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+ <!-----------------------------------------------------网上办事--政府信息公开--开始-------------------------------------------------------------->
+    <div class="main2">
+        <div class="main_con_weinei_syx">
+            <div class="weinei_left_syx">
+                <div class="wenhua_left_tit_syx">
+                    <div class="wenhua_left_tit0_syx">网上办事</div>
+                    <div class="wenhua_left_tit1_syx">
+					    <img src="./images/icon_more_red.png" border="0" alt="更多" />
+					</div>
+                </div>
+                <div class="wenhua_left_consy_syx">
+				    
+                    <div class="wenhua_left_consy_syx_line">
+					
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://cnhealthai.wjw.beijing.gov.cn" 
+							    target="_self" title="医疗健康数据与AI供需对接平台">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/202509/W020260309669267885371.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    医疗健康数据与AI供需对接平台
+							    </div>
+							</a>
+					    </div>                        
+                    
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://banshi.beijing.gov.cn/pubtask/bmfw.html?locationCode=110000000000&deptCode=11110000092921359M" 
+							    target="_self" title="行政审批申报指南">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200331622884252951.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    行政审批申报指南
+							    </div>
+							</a>
+					    </div>                        
+                    
+				    
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://bjggcx.wjw.beijing.gov.cn/MedLimitTech" 
+							    target="_self" title="重点医疗技术备案公示">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200622521670068720.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    重点医疗技术备案公示
+							    </div>
+							</a>
+					    </div> 
+					
+                    </div>
+					
+                    <div class="wenhua_left_consy_syx_line">
+					
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://ylba.wjw.beijing.gov.cn/wssb/index/xkgscx.action?type=zyys" 
+							    target="_self" title="许可查询">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200331624790720139.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    许可查询
+							    </div>
+							</a>
+					    </div>                        
+                    
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="http://1.202.228.148:5082/spba" 
+							    target="_self" title="北京市食品安全标准管理系统">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200331625148703231.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    北京市食品安全标准管理系统
+							    </div>
+							</a>
+					    </div>                        
+                    
+				    
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://bjcndocsys.wjw.beijing.gov.cn/Home/BjIndex?jc=bj" 
+							    target="_self" title="北京市医政医管电子化注册平台">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200331625554535547.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    北京市医政医管电子化注册平台
+							    </div>
+							</a>
+					    </div> 
+					
+                    </div>
+					
+                    <div class="wenhua_left_consy_syx_line">
+					
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://bjlbs.wjw.beijing.gov.cn/bjdf" 
+							    target="_self" title="监督执法一张图">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200509551454397565.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    监督执法一张图
+							    </div>
+							</a>
+					    </div>                        
+                    
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://wjw.beijing.gov.cn/zwgk_20040/ztzl/qlqd2016/" 
+							    target="_self" title="权力清单">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200331626229864764.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    权力清单
+							    </div>
+							</a>
+					    </div>                        
+                    
+				    
+                        <div class="wenhua_left_consy_syx_line_mod">
+						    <a href="https://ylba.wjw.beijing.gov.cn/ggws/pages/shuanggs/listss.jsp" 
+							    target="_self" title="双公示">
+							    <div class="wenhua_left_consy_syx_line_mod_icon">
+							    <img src="./sy_20013/wsbs/201912/W020200331627188324629.png" />
+							    </div>
+							    <div class="wenhua_left_consy_syx_line_mod_text">
+							    双公示
+							    </div>
+							</a>
+					    </div> 
+					
+                    </div>
+					
+                </div>
+            </div>
+		</div>
+        <div class="weinei_right_syx">
+            <div class="weinei_right_mod_syx">
+                <div class="weinei_right_mod_tit_syx">
+                  <div class="weinei_right_mod_tit_text_syx">政府信息公开</div>
+                  <div class="weinei_right_mod_tit_more_syx">
+                    <a target="_self" href='./zwgk_20040/zfxxgk2020/' >
+					<img src="./images/icon_more_red.png" border="0" alt="更多" />
+                    </a>
+                  </div>
+                </div>
+				<div class="weinei_right_mod_con_syx">
+					<div class="weinei_right_mod_consy_mod_syx">
+					  <a target="_self" href='./zwgk_20040/zfxxgk2020/gkzn/' >政府信息公开指南</a></div>
+					<div class="weinei_right_mod_consy_mod_syx">
+					  <a target="_self" href='./zwgk_20040/zfxxgk2020/gkzd/' >政府信息公开制度</a></div>
+					<div class="weinei_right_mod_consy_mod_syx">
+					  <a target="_self" href='./zwgk_20040/zfxxgk2020/gknr/lzyj/' >法定主动公开内容</a></div>
+					<div class="weinei_right_mod_consy_mod_syx">
+					  <a target="_self" href='./zwgk_20040/zfxxgk2020/gknb/' >政府信息公开年报</a></div>
+					<div class="weinei_right_mod_consy_mod2_syx">
+					  <a target="_self" href='./zwgk_20040/' >政府信息公开目录</a></div>
+					<div class="weinei_right_mod_consy_mod3_syx">
+					  <a target="_self" href='https://www.beijing.gov.cn/ysq-web/a/ysqwebset/ysqWebset/ysqweb?officeId=5181&type=cx' >依申请公开</a></div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-------------------------------------------------------便民服务----开始--------------------------------------------------------------------->
+<div class="main2">
+    <div class="main_sy_bainmin">
+        <div class="main_sy_bainmin_tit">
+            <div class="main_sy_bainmin_tit_text">便民服务</div>
+        </div>
+        <div class="main_sy_bainmin_con">
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://www.114yygh.com/" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  北京市预约挂号统一平台
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://www.bjcdc.org/cdcmodule/zxfw/kqym/2022/33967.shtml" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  狂犬病暴露预防处置门诊名单
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://ylba.wjw.beijing.gov.cn/new_baby/" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  新生儿遗传代谢病筛查结果查询
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://xinshai.net/" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  新生儿耳聋基因筛查结果查询
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://sydj.wjw.beijing.gov.cn/" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  生育登记办理
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://bjggcx.wjw.beijing.gov.cn/Unit/Index" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  医疗机构查询
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://bjggcx.wjw.beijing.gov.cn/Doctor/Index" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  医生执业注册信息查询
+              </a>
+            </div>
+		
+            <div class="mb_bianmin_info"> 
+              <a href="https://bjggcx.wjw.beijing.gov.cn/Nurse/Index" target="_self"> 
+                  <img src="./images/wjw_fire.png" />
+				  护士执业注册信息查询
+              </a>
+            </div>
+		 
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-------------------------------------------------------便民服务----结束------------------------------------------------------------------->
+  </div>
+</div>
+<script type="text/javascript">
+  /**轮播图方法*/
+  window.addEventListener('load', function() {
+    // 1. 获取元素
+    var focus = document.querySelector('.mobile_pmd');
+    var ul = focus.children[0];
+    var ol = focus.children[1];
+    // 获得focus的宽度
+    var w = focus.offsetWidth;
+    ul.style.transform = 'translateX(' + w+ 'px)';
+    // 2. 利用定时器自动轮播图片
+    var index = 0;
+    var timer = setInterval(function() {
+        index++;
+        var translateX = -index * w;
+        // 添加动画效果
+        ul.style.transition = 'all .3s';
+        ul.style.transform = 'translateX(' + translateX + 'px)';
+    }, 4000);
+    // 等着过渡完成之后，再去判断，监听过渡完成的事件transitionend
+    ul.addEventListener('transitionend', function() {
+        // 无缝滚动
+        if (index >= 7) {
+            index = 0;
+            // 去掉过渡效果，这样让ul快速的跳到目标位置
+            ul.style.transition = 'none';
+            // 利用最新的索引号乘以宽度，继续滚动图片
+            var translateX = -index * w;
+            ul.style.transform = 'translateX(' + translateX + 'px)';
+        } else if (index < 0) {
+            index = 7;
+            // 去掉过渡效果，这样让ul快速的跳到目标位置
+            ul.style.transition = 'none';
+            // 利用最新的索引号乘以宽度，继续滚动图片
+            var translateX = -index * w;
+            ul.style.transform = 'translateX(' + translateX + 'px)';
+        }
+        // 3. 小圆点跟随变化
+        // 把ol里面li带有current类名的选出来，去掉类名remove
+        ol.querySelector('.current').classList.remove('current');
+        // 让当前索引号的li加上current类名add
+        ol.children[index].classList.add('current');
+    });
+    // 4. 手指滑动轮播图
+    // 触摸元素touchstart：获取手指初始坐标
+    var startX = 0;
+    var moveX = 0;  // 后面会使用这个移动距离，所以要定义为全局变量
+    var flag = false;  //用来标志手指是否真的移动，还是只是点击
+    ul.addEventListener('touchstart', function(e) {
+        startX = e.targetTouches[0].pageX;
+        // 手指触摸的时候就停止定时器
+        clearInterval(timer);
+    });
+    // 移动手指touchmove：计算手指的滑动距离，并且移动盒子
+    ul.addEventListener('touchmove', function(e) {
+        // 计算移动距离
+        // e.targetTouches[0]为第一个手指，[1]表示第二个手指
+        moveX = e.targetTouches[0].pageX - startX;
+        // 移动盒子：盒子原来的位置 + 手指移动的距离
+        var translateX = -index * w + moveX;
+        // 手指拖动的时候，不需要动画效果，所以要取消过渡效果
+        ul.style.transition = 'none';
+        ul.style.transform = 'translateX(' + translateX + 'px)';
+        flag = true;
+        e.preventDefault();   //组织滚动屏幕的行为
+    });
+    // 手指离开，根据移动距离去判断是回弹还是播放上一张或者下一张
+    ul.addEventListener('touchend', function(e) {
+        // 只有手指移动过了，才执行下面的代码
+        if (flag) {
+            //（1）如果移动距离大于50像素，则播放上一张或者下一张
+            if (Math.abs(moveX) > 50) {
+                // 如果是右滑就是播放上一张，moveX是正值
+                if (moveX > 0) {
+                    index--;
+                } else {
+                    // 如果是左滑就是播放下一张，moveX是负值
+                    index++;
+                }
+                // 用最新的index乘以宽度
+                var translateX = -index * w;
+                ul.style.transition = 'all .3s';
+                ul.style.transform = 'translateX(' + translateX + 'px)';
+            } else {
+                //（2）如果移动距离小于50像素就回弹
+                var translateX = -index * w;
+                ul.style.transition = 'all .1s';
+                ul.style.transform = 'translateX(' + translateX + 'px)';
+            }
+        }        
+        // 手指离开的时候就重新开启定时器
+        // 注意：开启定时器之前要先清空之前的定时器，保证当前只有一个定时器在执行
+        clearInterval(timer);
+        timer = setInterval(function() {
+            index++;
+            var translateX = -index * w;
+            // 添加动画效果
+            ul.style.transition = 'all .3s';
+            ul.style.transform = 'translateX(' + translateX + 'px)';
+        }, 2000);
+    });
+  });
+
+  /*点击新闻展示*/
+$(function(){
+  $('.wenhua_left_tab ul li').bind('click',function(){
+    $(this).addClass('wenhua_left_titsy_on_syx').siblings().removeClass('wenhua_left_titsy_on_syx');
+    var l=$(this).index();
+    $('.tabCon .wenhua_left_consy_syx').eq(l).show().siblings('.tabCon .wenhua_left_consy_syx').hide();
+  })
+})
+</script>
+<!--定义foot层开始-->
+<script src="./images/foot_red_20230527.js" type="text/javascript"></script>
+<!--定义foot层结束-->
+</body>
+</html>

@@ -1,0 +1,211 @@
+{
+  "name": [
+    {
+      "text": "网络安全",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "网络安全"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责组织开展重大活动保障、关键信息基础设施安全保护、等级保护、网络安全防护等相关工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责组织开展重大活动保障、关键信息基础设施安全保护、等级保护、网络安全防护等相关工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "建立数据安全防护体系，完善数据安全运营机制，包括数据安全风险监测、应急响应、评估检查等，实施自动化和智能化技术管控等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "建立数据安全防护体系，完善数据安全运营机制，包括数据安全风险监测、应急响应、评估检查等，实施自动化和智能化技术管控等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vs85CLt5Z"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vs85CLt5Z"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "中山分公司-通信网络安全管理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "网络安全与信息化部助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vm85CZZZL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

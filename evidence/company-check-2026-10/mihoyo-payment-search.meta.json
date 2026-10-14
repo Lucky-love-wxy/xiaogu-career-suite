@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.315,
+  "access_date": "2026-10-12",
+  "sha256": "f5935fcf9ffcf780e9a1ba3cb3259c759e604e321afce834a272a60ef45389f3",
+  "blocked": null,
+  "id": "mihoyo-payment-search",
+  "company": "mihoyo",
+  "query": "米哈游 用户协议 游戏 充值 虚拟货币 服务 付费",
+  "include_domains": [
+    "mihoyo.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/mihoyo-payment-search.json"
+}

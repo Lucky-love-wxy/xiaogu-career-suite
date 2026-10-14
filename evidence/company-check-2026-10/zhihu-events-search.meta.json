@@ -1,0 +1,24 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 5.106,
+  "access_date": "2026-10-12",
+  "sha256": "eab2edeb6d0bfde56f826b1d9decacb49586624b11c501e2fff55f1df0e76118",
+  "blocked": null,
+  "id": "zhihu-events-search",
+  "company": "zhihu",
+  "query": "知乎 2026 2025 裁员 收缩 融资 上市 业务 调整",
+  "include_domains": [
+    "cls.cn",
+    "caixin.com",
+    "yicai.com",
+    "reuters.com",
+    "stcn.com",
+    "21jingji.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/zhihu-events-search.json"
+}

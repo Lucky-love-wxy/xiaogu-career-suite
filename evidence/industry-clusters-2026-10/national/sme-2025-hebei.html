@@ -1,0 +1,553 @@
+
+
+
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>最新政策——工业和信息化部关于公布2025年度（第四批）中小企业特色产业集群名单和2022年度（第一批）中小企业特色产业</title><link rel="shortcut icon" type="image/x-icon" href="/main/resources/image/favicon.ico" />
+    <script type="text/javascript" src="/main/resources/js/jquery-3.6.0.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="/main/resources/qyfwpt_web/css/common.css" />
+	<link type="text/css" rel="stylesheet" href="/main/resources/qyfwpt_web/css/hqhome.css" />
+	<script type="text/javascript" src="/main/resources/qyfwpt/fwzyqjd/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/main/resources/js/layer/layer.js"></script>
+	<script type="text/javascript" src="/main/resources/js/layer/layer_extend.js"></script>
+	<script type="text/javascript" src="/main/resources/js/jquery-easyui-1.5/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/main/resources/js/jquery-easyui-1.5/locale/easyui-lang-zh_CN.js"></script>
+	<link type="text/css" rel="stylesheet" href="/main/resources/styles/css/font-awesome-4.7.0/css/font-awesome.min.css" />
+	
+	<link type="text/css" rel="stylesheet" href="/main/resources/qyfwpt_web/home/css/newHome.css" />
+	<link type="text/css" rel="stylesheet" href="/main/resources/qyfwpt_web/home/css/font.css" />		
+	
+	<script type="text/javascript">
+
+	 $(function(){
+		 selectTitle2(1);
+
+		 $("#tj").hide();
+
+		 $(document).on('click',"#zcjd", function(e) {
+			$("#jd").show();
+			$("#tj").hide();
+			$(".zc1").addClass("active")
+			$(".zc2").removeClass("active")
+         })
+
+         $(document).on('click',"#zctj", function(e) {
+			$("#jd").hide();
+			$("#tj").show();
+			$(".zc2").addClass("active")
+			$(".zc1").removeClass("active")
+         })
+         // 		 var tag = '';
+// 		 var detail = com.data_service.model.QyptPolicyinfo@3f3dd03;
+// 		 //console.log(com.data_service.model.QyptPolicyinfo@3f3dd03)
+// 		 for(var i =0 ; i<detail.length ; i++){
+// 		     if(detail[i].documentNumber == null || detail[i].documentNumber == ""){
+//                  detail[i].documentNumber = "无";
+//              }
+//              tag += '<p class="deTit">'+detail[i].title+'</p>\n' +
+//                  '<p class="deSm"><span>发文单位：'+detail[i].postSystem+'</span><span>发文文号：'+detail[i].documentNumber+'</span></p>\n' +
+//                  '<div style="margin-top: 20px;">\n' +
+//                  '<p style="text-indent: 2em;">'+detail[i].content+'</p>\n' +
+//                  '</div>';
+//          }
+
+// 		 $('#content').append(tag);
+	 })
+
+	 //收藏
+	 function open1(id){
+		 $.ajax({
+			 url: "/main/policy/getEntEnter",
+			 async: true,//异步请求,默认值: true
+			 type: "post",//请求方式
+			 dataType: "json",//响应格式
+			 ContentType: "application/json;charset=UTF-8",
+			 success: function (data) {
+				 if (data.flag) {
+					 $.ajax({
+						 url: "/main/policy/saveSc?id="+id+"&lb="+'1',
+						 async: true,//异步请求,默认值: true
+						 type: "post",//请求方式
+						 dataType: "json",//响应格式
+						 ContentType: "application/json;charset=UTF-8",
+						 success: function (data) {
+							 if (data.flag) {
+								 layer.open({
+									 type: 2,
+									 area: ['300px', '200px'],
+									 fix: false, //不固定
+									 title:'提示',
+									 content: "/main/policy/tocscg",
+									 end: function () {
+										 window.location.href="/main/policy/zxzcdetail?id="+id;
+									 }
+								 });
+							 }  else {
+								 $.layer.msgfail('收藏失败');
+							 }
+						 }
+					 })
+				 }
+				 else {
+					 layer.confirm('请先进行登录！', {
+						 btn: ['去登录', '取消'],
+						 title: "提示"
+					 }, function () {
+						 window.open("/main");
+					 })
+				 }
+			 }
+		 })
+	 }
+
+	 function open2(id){
+		 $.ajax({
+			 url: "/main/policy/getEntEnter",//请求路径
+			 async: true,//异步请求,默认值: true
+			 type: "post",//请求方式
+			 dataType: "json",//响应格式
+			 ContentType: "application/json;charset=UTF-8",//请求格式：application/x-www-form-urlencoded；application/json;charset=UTF-8
+			 success: function (data) {
+				 if (data.flag) {
+					 layer.open({
+						 type: 2,
+						 title: '订阅设置',
+						 area: ['1100px', '850px'],
+						 fix: false, //不固定
+						 content: "/main/policy/todysz1?lb="+'1',
+						 end: function () {
+						 }
+					 });
+				 } else {
+					 layer.confirm('请先进行登录！', {
+						 btn: ['去登录', '取消'],
+						 title: "提示"
+					 }, function () {
+						 window.open("/main");
+					 })
+				 }
+			 }
+		 })
+	 }
+
+
+		//取消收藏
+		function open3(infoId,id){
+			$.ajax({
+				url: "/main/policy/getEntEnter",//请求路径
+				async: true,//异步请求,默认值: true
+				type: "post",//请求方式
+				dataType: "json",//响应格式
+				ContentType: "application/json;charset=UTF-8",//请求格式：application/x-www-form-urlencoded；application/json;charset=UTF-8
+				success: function (data) {
+					if (data.flag) {
+						$.ajax({
+							url: "/main/policy/qxsc?id="+infoId,//请求路径
+							async: true,//异步请求,默认值: true
+							type: "post",//请求方式
+							dataType: "json",//响应格式
+							ContentType: "application/json;charset=UTF-8",//请求格式：application/x-www-form-urlencoded；application/json;charset=UTF-8
+							success: function (data) {
+								if (data.flag) {
+									layer.open({
+										type: 2,
+										area: ['300px', '200px'],
+										fix: false, //不固定
+										title:'提示',
+										content: "/main/policy/toqxsc",
+										end: function () {
+											window.location.href="/main/policy/zxzcdetail?id="+id;
+										}
+									});
+								}  else {
+									$.layer.msgfail('取消失败');
+								}
+							}
+						})
+					}
+					else {
+						layer.confirm('请先进行登录！', {
+							btn: ['去登录', '取消'],
+							title: "提示"
+						}, function () {
+							window.open("/main");
+						})
+					}
+				}
+			})
+		}
+
+	</script>
+	<style>
+	.zcjd{
+		margin-bottom: 10px;
+	}
+	.zcjd a{
+		font-size: 20px;
+		padding: 0 6px;
+	}
+	.zcjd a.active{
+	color: #2B90EE}
+	#jd a,
+	#tj a{
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+
+	.declareInfo .deSm {
+		position: relative;
+		text-align: center;
+		margin: 30px 0;
+		padding-bottom: 50px;
+		border-bottom: 1px solid #cccccc;
+	}
+	.declareInfo .deSm .scdy{
+		position: absolute;
+		right: -50px;
+		bottom: 0;
+	}
+
+	.declareInfo .deSm .scdy a{
+		margin-right: 20px;
+	}
+	.declareInfo .deSm .scdy a .fa{
+ 		margin-right:6px;
+    	font-size:18px;
+    	color:#ff722e;
+	}
+	.declareInfo .deSm {
+	    padding-bottom: 26px;
+	}
+	img{
+		max-width: 98%
+	}
+	</style>
+</head>
+<body>
+<div class="home">
+<div >
+
+
+<link href="/main/resources/webhome/assets/styles/atom.css" rel="stylesheet" type="text/css">
+<link href="/main/resources/webhome/assets/styles/public2.css" rel="stylesheet" type="text/css">
+<script src="/main/resources/webhome/js/utils/dayjs.min.js"></script>
+<script src="/main/resources/webhome/js/public.js"></script>
+
+<div class="header">
+     <div class="header-info">
+         <div class="header-info-tool">
+             <div class="page-middle flbc">
+                 <div class="info-tool-text flsc">
+                     <span>今天是:</span>
+                     <div class="info-tool-text-active" id="nowDateDom"></div>
+                 </div>
+                 <div class="header-dom info-tool flsc">
+                     <div class="logo-box flsc border" style="cursor: pointer;" onclick="openWin('http://www.hbzwfw.gov.cn/')">
+                         <img src="/main/resources/webhome/assets/images/public/home_zhengwuwang.png" alt="" class="logo-img">
+                         <div>河北政务服务网</div>
+                     </div>
+                     <div class="logo-box flsc qympid">
+                         <img src="/main/resources/webhome/assets/images/public/home_icon_mingpian.png" alt="" class="logo-img active">
+                         <div>领取企业名片</div>
+                         <img class="qyewm" src="/main/resources/qyfwpt_web/home/images/newimg/qymp_ewm.png" />
+                     </div>
+
+                     <div class="login-info flsc" id="login" style="display: none;">
+                         <div class="login-info-name text-ellipsis" id="qyname"></div>
+                         <div class="login-info-btn textButton" onclick="toPage('/main/loginAndOut/qyfwLogOut')">退出</div>
+                     </div>
+                     <div class="login-info flsc ml30" id="noLogin">
+                         <div class="login-info-btn textButton" onclick="openWin('/main')">登录</div>
+                         <div class="login-info-span mr10 ml10"></div>
+                         <div class="login-info-btn textButton" onclick="openWin('/main/enterpriseInformation/toRegister')">注册</div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="page-header-title">
+              <div class="page-middle flbc">
+                  <div class="flsc">
+                      <div class="flsc">
+                          <img src="/main/resources/webhome/assets/images/public/home_logo.png" alt="" class="header-info-img-logo">
+                          <div class="img-logo"></div>
+                          <div class="header-info-tit-box">
+                              <div class="header-info-tit">全国中小企业服务一张网</div>
+                              <div class="header-info-tit-t">河北省中小企业服务网</div>
+                              <div class="header-info-tit-b">gxt.hebei.gov.cn/main/portals/index</div>
+                          </div>
+                          <div class="header-info-title">
+                              <div class="header-info-title-a">河北工业企业服务平台</div>
+                              <div class="header-info-title-t">河北省中小企业公共服务平台</div>
+                          </div>
+                      </div>
+                      <div class="divButton select-btn flcc ml16" onclick="showTc()">
+                          <span>河北省级</span>
+                          <img src="/main/resources/webhome/assets/images/public/home_top_icon_right.png" alt="" class="select-left">
+                      </div>
+                  </div>
+                  <img src="/main/resources/webhome/assets/images/public/home_slogan.png" alt="">
+              </div>
+          </div>
+     </div>
+     <div class="header-menu">
+         <div class="page-middle">
+             <div id="Menu" class="menu-list">
+				<div class="menu-item" onclick="onMenuClick(0)">
+	                <div class="menu-item-title divButton flcc active" id="Menu-0">平台首页</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(1)">
+	                <div class="menu-item-title divButton flcc " id="Menu-1">政策智导</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(2)">
+	                <div class="menu-item-title divButton flcc " id="Menu-2">在线申报</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(3)">
+	                <div class="menu-item-title divButton flcc " id="Menu-3">诉求响应</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(4)">
+	                <div class="menu-item-title divButton flcc " id="Menu-4">数字赋能<img alt="hot" src="/main/resources/webhome/assets/images/public/hot.png" class="menu-item-tips" /></div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(5)">
+	                <div class="menu-item-title divButton flcc " id="Menu-5">金融服务</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(6)">
+	                <div class="menu-item-title divButton flcc " id="Menu-6">供需对接</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(7)">
+	                <div class="menu-item-title divButton flcc " id="Menu-7">工业诊断</div>
+            	</div>
+             	<div class="menu-item" onclick="onMenuClick(8)">
+	                <div class="menu-item-title divButton flcc " id="Menu-8">投资河北</div>
+            	</div>
+
+             </div>
+         </div>
+     </div>
+ </div>
+ <!--弹窗-->
+   <div class="model" id="confirmModel">
+	   <div class="model_popup">
+		   <i class="fa fa-close btnClose" onclick="cancelTc()" aria-hidden="true" /></i>
+		   <div class="popup-ts">
+			   <span class="dqwz_tit" id="dqwz_tit">
+				   <a target="_blank" onclick="getNextWin(this,'','')">河北省工业企业服务平台</a>
+			   </span>
+			   <div class="fgx_hx"></div>
+		   </div>
+		   <div class="popup-text" id="confirmContent" style="height:auto;min-height:115px;">
+			   <div class="dqwz_bj">
+				   <div class="dqwz_bj_nk" id="winlist">
+
+					 
+				   </div>
+			   </div>
+			   <div class="fgx_hx" style="margin:0;"></div>
+			   <div class="dqxz">
+				   <span><h1>您的选择是：</h1><label id="select_win">河北省工业企业服务平台</label></span>
+			   </div>
+		   </div>
+		   <div class="popup-btn">
+		   <input type="hidden" id="ptUrl" value="" />
+			   <span class="sure" onclick="toWin()">确定</span>
+			   <span class="cancel" onclick="cancelTc()">取消</span>
+		   </div>
+	   </div>
+   </div>
+
+
+<div class="hyHome" >
+	
+
+
+<!-- <div class="subHeader">
+    <div class="subNav inner1">
+        <p>政策智导</p>
+        <ul class="inner1">
+            			<li><a href="/main/policy/index" class="active">政策首页</a></li>
+            <li><a href="/main/policy/zxzclist">最新政策</a></li>
+            <li><a href="/main/policy/zcjdlist">政策解读</a></li>
+            <li><a href="/main/policy/zcztdetail">政策分类</a></li>
+            <li><a href="/main/policy/sbtzlist">申报通知</a></li>
+            <li><a href="/main/policy/gsgglist">公示公告</a></li>
+            <li><a href="/main/policy/zcwdlist">政策问答</a></li>
+            <li><a href="/main/policy/toZcpp">政策匹配</a></li>
+            <li><a href="/main/policy/toZczcList">政策自测</a></li>
+        </ul>
+    </div>
+</div> -->
+
+<div class="paget">
+  <div class="select-tab">
+      <div class="select-tab-box">
+          <div class="select-tab-title flcc">
+              政策智导
+          </div>
+          <div class="select-tab-list" id="select-list">
+          	<div class="select-tab-item " onclick="toTitle2(1)" id="select-tab-1">最新政策</div>
+          	<div class="select-tab-item " onclick="toTitle2(2)" id="select-tab-2">政策解读</div>
+          	<div class="select-tab-item " onclick="toTitle2(3)" id="select-tab-3">政策分类</div>
+          	<div class="select-tab-item " onclick="toTitle2(4)" id="select-tab-4">申报通知</div>
+          	<div class="select-tab-item " onclick="toTitle2(5)" id="select-tab-5">公示公告</div>
+          	<div class="select-tab-item " onclick="toTitle2(6)" id="select-tab-6">政策问答</div>
+          	<div class="select-tab-item " onclick="toTitle2(7)" id="select-tab-7">政策匹配</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	selectActive(1);
+	
+	function toTitle2(lm){
+		let url ="";
+		switch(lm){
+			case 1:
+				url ="/main/policy/zxzclist";
+				break;
+			case 2:
+				url ="/main/policy/zcjdlist";
+				break;
+			case 3:
+				url ="/main/policy/zcztdetail";
+				break;
+			case 4:
+				url ="/main/policy/sbtzlist";
+				break;
+			case 5:
+				url ="/main/policy/gsgglist";
+				break;
+			case 6:
+				url ="/main/policy/zcwdlist";
+				break;
+			case 7:
+				url ="/main/policy/toZcpp";
+				break;
+		    default:
+	    }
+		window.location.href=url;
+	}
+	
+	function selectTitle2(index){
+		if(index){
+			$("#select-tab-"+index).addClass("active");
+		}
+	}
+    
+</script>
+
+
+	<div class="content" style="min-height: calc(100% - 520px)">
+
+		<!-- 首页开始 -->
+		<div class="zcCont">
+			<!--申报详情-->
+			<div class="declareInfo inner" id="content">
+				<p class="deTit">工业和信息化部关于公布2025年度（第四批）中小企业特色产业集群名单和2022年度（第一批）中小企业特色产业</p>
+                 <p class="deSm"><span>发文单位：工业和信息化部</span><span>发文文号：工信部企业函〔2025〕267号</span>
+					 <!--已收藏-->
+					 
+					 <!--未收藏-->
+                     
+					 <span class="scdy">
+							<a href="#" onclick="open1('a64da019-3a6a-4cf7-9d61-ca2b12ebb78b')"><i class="fa fa-star-o" aria-hidden="true"></i>加入收藏</a>
+
+					 </span>
+				 </p>
+
+
+                 <div style="margin-top: 20px;">
+                 <p style="text-indent: 2em;"><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; text-indent: 2em; line-height: 1.8 !important;">根据《促进中小企业特色产业集群发展暂行办法》（工信部企业</span><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; text-align: justify; line-height: 1.8 !important;">〔2022〕</span><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; text-indent: 2em; line-height: 1.8 !important;">119号）、《工业和信息化部办公厅关于组织开展2025年度中小企业特色产业集群推荐和2022年度中小企业特色产业集群复核工作的通知》（工信厅企业函</span><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; text-align: justify; line-height: 1.8 !important;">〔2025〕</span><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; text-indent: 2em; line-height: 1.8 !important;">77号），经省级中小企业主管部门初核和推荐、专家评审、公示等程序，确定了2025年度（第四批）中小企业特色产业集群名单和2022年度（第一批）中小企业特色产业集群复核通过名单（见附件，以下统称集群），现予以通告，并提出有关工作要求。</span><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">一、集群要进一步聚焦主导产业，畅通协作网络，增强创新活力，深化开放合作，推进数字化转型和绿色化发展，完善治理和服务水平，加大优质中小企业培育力度，提高产业链关键环节配套能力，不断提升核心竞争力和品牌影响力。</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">二、各级中小企业主管部门要针对本地区集群制定中长期发展规划和专项扶持政策，加大资源投入和政策供给，支持集群不断提升创新能力和专业化水平，促进集群不断做优做强。</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">三、省级中小企业主管部门要完善集群梯度培育体系，开展集群典型实践案例和优秀集群品牌宣传，加强集群发展跟踪和评估，组织集群填报上一年度发展情况，于每年3月31日前报送至工业和信息化部（中小企业局）。</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">四、工业和信息化部组织开展集群发展情况监测，对已认定集群实行动态管理。</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">五、集群认定有效期为三年。</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">六、《工业和信息化部关于公布2022年度中小企业特色产业集群名单的通告》（工信部企业函<span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; text-align: justify; line-height: 1.8 !important;">〔2023〕</span>3号）同时废止。</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">附件:1.2025年度（第四批）中小企业特色产业集群名单</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.2022 年度（第一批）中小企业特色产业集群复核通过名单</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 工业和信息化部</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-wrap: wrap; text-indent: 2em; line-height: 1.8 !important;"><span style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; font-family: &quot;times new roman&quot;; line-height: 1.8 !important;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2025年10月13日</span></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><p style="padding: 0px; box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; outline: 0px; font-family: SimSun; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; list-style: none; color: rgb(7, 7, 7); text-align: justify; text-wrap: wrap; line-height: 1.8 !important;"><br data-filtered="filtered" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; line-height: 1.8 !important;"/></p><ul class="fileArry list-paddingleft-2" style="list-style-type: none;"><li><p><iframe src="https://www.miit.gov.cn/cms_files/demo/pdfjs/web/viewer.html?file=/cms_files/filemanager/1226211233/attach/202510/b38d359736bc48408f7977561e84bd02.pdf" fileurl="/cms_files/filemanager/1226211233/attach/202510/b38d359736bc48408f7977561e84bd02.pdf" width="900" height="700" id="ariagcc8ckztszc" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; border-width: 0px; border-style: initial; line-height: 1.8 !important;"></iframe></p></li><li><p><iframe src="https://www.miit.gov.cn/cms_files/demo/pdfjs/web/viewer.html?file=/cms_files/filemanager/1226211233/attach/202510/f9f5b17a312242b489be012fb37359c5.pdf" fileurl="/cms_files/filemanager/1226211233/attach/202510/f9f5b17a312242b489be012fb37359c5.pdf" width="900" height="700" id="aria9kn37jpw2rc" style="padding: 0px; box-sizing: content-box; margin: 0px; outline: 0px; border-width: 0px; border-style: initial; line-height: 1.8 !important;"></iframe></p></li></ul><p><br/></p></p>
+                 </div>
+
+                 <div style="margin-top: 20px;" class="zcjd">
+                 
+                 	<!--| <a href="javascript:void(0)" id="zctj" class="zc2">政策推荐</a> -->
+                 </div>
+                 <div id="jd">
+                    
+                 </div>
+                 <div id="tj">
+                 	
+                 </div>
+			</div>
+		</div>
+		<!-- 首页结束 -->
+
+	</div>
+
+	
+
+<!-- bottom开始 -->
+  <div class="footer" style="margin-top:50px;">
+      <div class="footer-info">
+          <div class="page-middle flbc">
+              <div id="footerContext">
+
+              </div>
+              <div class="flsc" id="footerPhotos">
+              </div>
+          </div>
+      </div>
+      <div class="footer-number flcc">
+          <p>备案编号:<span style="cursor: pointer;" onclick="window.open('https://beian.miit.gov.cn/#/Integrated/index')" >冀ICP备05003376号-14</span></p>
+          <p class="ml14 mr14">网站标识码1300000003</p>
+          <p>冀公网安备 <span style="cursor: pointer;" onclick="window.open('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13010502001777')">13010502001777号</span></p>
+      </div>
+  </div>
+<!-- bottom结束 -->
+<div class="login-box2-bg"></div>
+<div id="login-box2">
+    <div id="login2-closed">
+        <i class="iconfont iconxiguanbi"
+           onclick="$('#login-box2').fadeOut();$('.login-box2-bg').fadeOut();"></i>
+    </div>
+    <h1>登录提示</h1>
+    <p>请使用平台账号登录后再进行业务办理，谢谢！</p>
+    <div class="login-box2_a">
+        <a href="/main/loginAndOut/enterprise" 
+           onclick="$('#login-box2').fadeOut();$('.login-box2-bg').fadeOut();"
+           target="_blank" class="user">前往登录</a> 
+        <a href="javascript:void(0)" class="zwwuser"
+           onclick="$('#login-box2').fadeOut();$('.login-box2-bg').fadeOut();initEnt();">取消</a>
+    </div>
+</div>
+<!-- 统计 -->
+<script type="text/javascript" src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript" src="/main/resources/js/chek_browser.js"></script>
+<script type="text/javascript">
+var hit_id = null;
+$(document).ready(function () {
+	var datas = BrowserType();
+	datas["titleText"] = document.title;
+	datas["urlText"] = window.location.href;
+	if(datas["urlText"].indexOf("smehb.cn") > -1){
+ 		$("#footer_text").text("备案编号：冀ICP备14013025号-4");
+ 		$("#footer_text").css("cursor","pointer");
+ 		$("#footer_text").click(function(){
+ 			window.open('https://beian.miit.gov.cn/#/Integrated/index');
+ 		})
+ 	}	
+	$.ajax({
+        url: "/main/portal/getWebhit",//请求路径
+        async: true,//异步请求,默认值: true
+        type: "post",//请求方式
+        data:datas,
+        dataType: "json",//响应格式
+        ContentType: "application/json;charset=UTF-8",//请求格式：application/x-www-form-urlencoded；application/json;charset=UTF-8
+        success: function (data) {
+        	hit_id = data.uuid;
+        }
+    })
+})
+</script>
+
+</div>
+</div>
+</div>
+</body>
+</html>

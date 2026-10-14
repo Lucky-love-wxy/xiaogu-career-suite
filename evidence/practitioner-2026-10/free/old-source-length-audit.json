@@ -1,0 +1,175 @@
+{
+  "counting_note": "同时给原desc字符数和去话题/表情标记/空白保守正文字符数，不把任一数冒称汉字数；旧短文不混新验收。",
+  "records": [
+    {
+      "source_file": "free/nowcoder-algorithm-day366.json",
+      "title": "算法工程师打工日记 Day 366",
+      "raw_desc_char_n": 271,
+      "body_without_hashtags_emote_whitespace_char_n": 241,
+      "new_threshold": 800,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "free/nowcoder-pdd-year.json",
+      "title": "入职拼多多一年工作体验",
+      "raw_desc_char_n": 1506,
+      "body_without_hashtags_emote_whitespace_char_n": 1399,
+      "new_threshold": 800,
+      "meets_raw_char_threshold": true,
+      "meets_conservative_body_threshold": true,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-003-0.json",
+      "title": "24届毕业算法工程师的一天",
+      "raw_desc_char_n": 322,
+      "body_without_hashtags_emote_whitespace_char_n": 291,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-005-0.json",
+      "title": "技术支持的日常之修完你的修你的",
+      "raw_desc_char_n": 20,
+      "body_without_hashtags_emote_whitespace_char_n": 0,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-006-0.json",
+      "title": "医疗器械临床支持的一天，到底在忙什么？",
+      "raw_desc_char_n": 404,
+      "body_without_hashtags_emote_whitespace_char_n": 287,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-007-0.json",
+      "title": "差log：沉浸体验海外医械技术支持的一天-1",
+      "raw_desc_char_n": 300,
+      "body_without_hashtags_emote_whitespace_char_n": 257,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-009-0.json",
+      "title": "药企打工人｜珠海探店｜幸福来源",
+      "raw_desc_char_n": 368,
+      "body_without_hashtags_emote_whitespace_char_n": 236,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-010-0.json",
+      "title": "药企分析研发加班两小时的一天",
+      "raw_desc_char_n": 505,
+      "body_without_hashtags_emote_whitespace_char_n": 424,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": true,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-012-0.json",
+      "title": "CRA的真实一天｜只有同行才懂的日常",
+      "raw_desc_char_n": 893,
+      "body_without_hashtags_emote_whitespace_char_n": 755,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": true,
+      "meets_conservative_body_threshold": true,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-013-0.json",
+      "title": "CRA新手期没人教？我总结了几条野路子",
+      "raw_desc_char_n": 882,
+      "body_without_hashtags_emote_whitespace_char_n": 711,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": true,
+      "meets_conservative_body_threshold": true,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-014-0.json",
+      "title": "（API未提供标题）",
+      "raw_desc_char_n": 286,
+      "body_without_hashtags_emote_whitespace_char_n": 224,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-016-0.json",
+      "title": "药代实习生-第一天跑市场",
+      "raw_desc_char_n": 358,
+      "body_without_hashtags_emote_whitespace_char_n": 317,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-017-0.json",
+      "title": "新人医药代表的第17天",
+      "raw_desc_char_n": 179,
+      "body_without_hashtags_emote_whitespace_char_n": 129,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-019-0.json",
+      "title": "理赔员的一天",
+      "raw_desc_char_n": 191,
+      "body_without_hashtags_emote_whitespace_char_n": 89,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-020-0.json",
+      "title": "📝记录：保险理赔员的被骂日常",
+      "raw_desc_char_n": 325,
+      "body_without_hashtags_emote_whitespace_char_n": 225,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-022-0.json",
+      "title": "（API未提供标题）",
+      "raw_desc_char_n": 179,
+      "body_without_hashtags_emote_whitespace_char_n": 137,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    },
+    {
+      "source_file": "tikhub/details/detail-023-0.json",
+      "title": "体检中心健康顾问的日常",
+      "raw_desc_char_n": 143,
+      "body_without_hashtags_emote_whitespace_char_n": 69,
+      "new_threshold": 500,
+      "meets_raw_char_threshold": false,
+      "meets_conservative_body_threshold": false,
+      "acceptance_batch": "old_short_form_batch_not_new_longform_acceptance"
+    }
+  ]
+}

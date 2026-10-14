@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.459,
+  "access_date": "2026-10-12",
+  "sha256": "c790a4291f3a7ce7a46b39d4c72a1e3cae9008004da08c1193515d4047e89611",
+  "blocked": null,
+  "id": "bytedance-saas-search",
+  "company": "bytedance",
+  "query": "飞书 商业版 付费 企业 定价",
+  "include_domains": [
+    "feishu.cn"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-saas-search.json"
+}

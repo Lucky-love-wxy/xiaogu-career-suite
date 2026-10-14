@@ -1,0 +1,92 @@
+{
+  "name": [
+    {
+      "text": "美容师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "美容师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，3份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYy5zt5a5",
+        "vmy5Mznzn",
+        "vr85MZnC5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 3,
+        "denominator": 3,
+        "matched_ids": [
+          "vYy5zt5a5",
+          "vmy5Mznzn",
+          "vr85MZnC5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYy5zt5a5",
+        "vmy5Mznzn",
+        "vr85MZnC5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vmy5Mznzn",
+          "vr85MZnC5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "头疗美容师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vr85MZnC5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "美容师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYy5zt5a5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "美容师头疗师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmy5Mznzn"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

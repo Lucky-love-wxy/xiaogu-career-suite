@@ -1,0 +1,3607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上海交通大学-学生就业服务和职业发展中心</title>
+	<meta name="description" content="上海交通大学就业网、智慧就业管理系统、就业管理、智慧就业中心、智慧就业平台、大学生就业网、就业指导中心、招聘系统、就业数据分析系统、北京孔博数据科技有限公司"/>
+	<meta name="Keywords" content="上海交通大学就业网就业网、智慧就业管理系统、就业管理、智慧就业中心、智慧就业平台、大学生就业网、就业指导中心、招聘系统、就业数据分析系统、北京孔博数据科技有限公司"/>
+</head>
+<style>
+	body {
+		background: #F9F9F9;
+	}
+	.laydate-day-mark{
+		height: 40px !important;
+	}
+	#time .duihua .dataList li {
+		padding-left: 0;
+		padding-right: 15px;
+		line-height: 18px;
+		background: 0 0;
+		color: #666;
+		display: block;
+		word-break: keep-all;
+		white-space: nowrap; /*内容超宽后禁止换行显示*/
+		overflow: hidden; /*超出部分隐藏*/
+		text-overflow: ellipsis; /*文字超出部分以省略号显示*/
+		width: 390px;
+	}
+	
+	.duihua:before {
+		box-sizing: content-box;
+		width: 0px;
+		height: 0px;
+		position: absolute;
+		top: 12px;
+		left: -16px;
+		padding: 0;
+		border-left: 8px solid #fff;
+		border-top: 8px solid transparent;
+		border-bottom: 8px solid transparent;
+		border-right: 8px solid transparent;
+		display: block;
+		content: '';
+		z-index: 12;
+		transform: rotate(180deg);
+	}
+	
+	.duihua:after {
+		box-sizing: content-box;
+		width: 0px;
+		height: 0px;
+		position: absolute;
+		top: 11px;
+		left: -18px;
+		padding: 0;
+		border-left: 9px solid #cccccc;
+		border-top: 9px solid transparent;
+		border-bottom: 9px solid transparent;
+		border-right: 9px solid transparent;
+		display: block;
+		content: '';
+		z-index: 10;
+		transform: rotate(180deg);
+	}
+	
+	.kstdListCon {
+		position: relative;
+		
+	}
+	
+	#cepingTip {
+		display: none;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-200%, -50%);
+		background: #fff;
+	}
+	
+	#cepingTip img {
+		display: block;
+		width: 130px;
+		height: 45px;
+		margin-bottom: 15px;
+		cursor: pointer;
+	}
+	
+	#cepingTip div {
+		position: relative;
+		box-shadow: 0 0 4px 2px #ccc;
+		padding: 10px;
+		
+	}
+	
+	.cepingTipClose {
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		right: -5px;
+		top: -5px;
+		cursor: pointer;
+		background: #fff;
+		border-radius: 50%;
+		box-shadow: 0 0 4px 2px #ccc;
+		text-align: center;
+		line-height: 20px;
+		
+	}
+	
+	.indexTabTime {
+		line-height: 42px !important;
+		width: 17% !important;
+	}
+	
+	.indexTabListCon {
+		width: 81% !important;
+	}
+	
+	.noticeConListTime {
+		width: 17% !important;;
+	}
+	
+	.noticeConListText {
+		width: 81% !important;;
+	}
+</style>
+<body>
+<div><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上海交通大学-学生就业服务和职业发展中心</title>
+	<link rel="stylesheet" href="/career/static/layuiadmin/layui/css/layui.css" media="all">
+	<link rel="stylesheet" href="/career/static/index/css/swiper-bundle.min.css" media="all">
+	<link rel="stylesheet" href="/career/static/index/sjtu2/css/theme.css" media="all">
+	<link rel="stylesheet" href="/career/static/index/sjtu2/css/red/theme.css" media="all">
+	<style>
+		.headerSearch {
+			float: left;
+			width: 200px;
+			height: 25px;
+			margin-left: 20px;
+			background: #fff;
+			border-radius: 15px;
+			margin-top: 8px;
+			position: relative;
+		}
+		
+		.headerSearch input {
+			outline: 0;
+			width: 170px;
+			position: absolute;
+			top: 0;
+			height: 20px;
+			border: 0;
+			padding-left: 15px;
+			box-sizing: border-box;
+			border-radius: 15px 0 0 15px;
+		}
+		
+		.headerSearch > label {
+			position: absolute;
+			right: 2px;
+			top: 1px;
+			line-height: 20px;
+			color: #000;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 40px;
+			height: 22px;
+			border-radius: 11px;
+			background: linear-gradient(143deg, #AB0011 0%, #730007 100%);
+		}
+		
+		.indexNavBox {
+			background-image: url('/career//static/images/user//10248/20230528/7612587124205813778.png') !important;
+		}
+		
+		.indexFootCon {
+			background-image: url('/career//static/index/img/foot-bg.png') !important;
+		}
+		
+		/*院系介绍**/
+		.headBox{
+            position: relative;
+            cursor: pointer;
+            overflow: initial;
+        }
+        .modal-box{
+            font-family: "Bodoni 72 Oldstyle", "Times", "宋体", "SongTi SC", "Microsoft YaHei", arial;
+            display:none;
+            position: absolute;
+            top: 40px;
+            width: 66%;
+            left: 0px;
+            border-radius: 3px;
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, .15);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            z-index:99999999;
+        }
+        .modal-item{
+            border-bottom: 2px solid #e8e8e8;
+            border-right: none;
+        }
+        
+        .modal-list-item a:hover{
+		   color: #ff5d5d;
+		  }
+        
+        .modal-item-title{
+            line-height: 1.1;
+            font-size: 17px;
+            font-weight: 600;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 15px;
+            padding-left: 25px;
+            color: #ff5d5d;
+            margin: 0;
+        }
+        .modal-item-list{
+            border-left: 1px solid #e8e8e8;
+            font-weight: bold;
+            font-size: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 15px;
+        }
+        .modal-list-item{
+            box-sizing: border-box;
+            width: 25%;
+            display: inline-block;
+            padding: 3px 0;
+            border: none;
+            text-align: left;
+        }
+        .modal-list-item a{
+            padding: 10px;
+            line-height: 20px !important;
+            font-size: 14px !important;
+            display: block;
+            color: #4a4a4a;
+            text-decoration: none;
+        }
+        .show{
+            display:block;
+        }
+		.header-box{
+		  position:relative;
+		}
+	</style>
+</head>
+<body>
+<div class="header-box">
+	<!-- 顶部导航 -->
+	<div class="indexNavBox" id="navigation">
+		<!--    <div class="indexNavBoxCenter" style="border: 1px solid blue;width: 1200px;margin: 0 auto">-->
+		<div id="head">
+			<div class="headBox">
+				<div class="headLeft" onclick="windowOpen(&quot;https:\/\/www.sjtu.edu.cn\/&quot;)">
+					<img src="/career/static/index/sjtu2/img/home.png" alt="" 
+					   style="width: 16px;">
+					<a href="" style="margin-right: 25px;">交大首页</a>
+				</div>
+				<div class="yxjs-box headLeft" id="yxjs">
+				    <img src="/career/static/index/sjtu2/img/depart.png" alt="" 
+				         style="width: 16px;float:left;margin-top: 12px;margin-right: 3px;">
+				    <a class="headLeft">院系导航</a>
+				</div>
+				
+				<div class="headerSearch">
+					<input type="text" id="searchInput">
+					<label for=""><i class="layui-icon"><img src="/career/static/index/sjtu2/img/search.png" style="width: 16px;" alt=""></i></label>
+				</div>
+				<div class="headRight">
+				        <div onclick="tysfrz()" style="cursor: pointer;">
+                        <img src="/career/static/index/sjtu2/img/user.png" style="width: 12px;height: 14px;vertical-align: middle;margin-right: 5px">
+                            jAccount登录 
+                        </div>
+                        <div></div>
+                        <div>
+                            
+                            <a href="/career/login?loginType=xsjs">
+                            <img src="/career/static/index/sjtu2/img/qtfslogin.png" style="width: 12px;height: 14px;vertical-align: middle;margin-right: 5px">                                            
+                                                                                其它方式登录
+                            </a>
+                        </div>
+                        <div></div>
+                        <div>
+                            <a href="/career/news/lxzpzn"><img src="/career/static/index/sjtu2/img/comp.png" style="width: 12px;height: 14px;vertical-align: middle;margin-right: 5px">单位招聘指南</a>
+                        </div>
+                        <div></div>
+						<div>
+							<a href="/career/index/bzwd"><img src="/career/static/index/sjtu2/img/help.png" style="width: 12px;height: 14px;vertical-align: middle;margin-right: 5px">使用帮助</a>
+						</div>
+				</div>
+			</div>
+			   
+		</div>
+		<div class="indexLogoBox">
+			<div class="indexLogo">
+				<a href="/career/index">
+					<img src="/career//static/images/user//10248/20230329/7434752113529323524.png"> </a>
+			</div>
+			<ul id="nav" class="nav indexNav">
+				<a href="/career/index">
+					<li class="nLi">
+						<div class="firstNav">首页</div>
+						<div class="secondNav">HOME</div>
+					</li>
+				</a> 
+				<a href="/career//sso/sjtu/login">
+					<li class="nLi">
+						<div class="firstNav">学生</div>
+						<div class="secondNav">STUDENT</div>
+					</li>
+				</a> 
+				<a href="/career/login?loginType=dw">
+					<li class="nLi">
+						<div class="firstNav">单位</div>
+						<div class="secondNav">EMPLOYER</div>
+					</li>
+				</a>
+				<a href="/career//sso/sjtu/login">
+					<li class="nLi">
+						<div class="firstNav">教师</div>
+						<div class="secondNav">TEACHER</div>
+					</li>
+				</a>
+				<a href="/career/gywm">
+					<li class="nLi">
+						<div class="firstNav">关于我们</div>
+						<div class="secondNav">ABOUT US</div>
+					</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+	
+	 <!-- 院系介绍 -->
+	 <div style="width:1200px;margin-left: -600px;position: absolute;left: 50%;">
+	   <div class="modal-box">
+	     <div class="modal-item">
+	        <h3 class="modal-item-title">工科</h3>
+	        <div class="modal-item-list">
+	            <div class="modal-list-item">
+	                <a  href="http://naoce.sjtu.edu.cn" target="_blank">船舶海洋与建筑工程学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://me.sjtu.edu.cn" target="_blank">机械与动力工程学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.seiee.sjtu.edu.cn" target="_blank">电子信息与电气工程学院</a>
+	            </div>
+				<div class="modal-list-item">
+					<a href="https://www.sjtu.edu.cn" target="_blank">电气工程学院</a>
+				</div>
+				<div class="modal-list-item">
+					<a href="https://www.sjtu.edu.cn" target="_blank">自动化与感知学院</a>
+				</div>
+				<div class="modal-list-item" style="width: 60%">
+					<a href="https://www.sjtu.edu.cn" target="_blank">计算机学院（网络空间安全学院、密码学院）</a>
+				</div>
+				<div class="modal-list-item" style="width: 50%">
+					<a href="https://icisee.sjtu.edu.cn" target="_blank">集成电路学院（信息与电子工程学院）</a>
+				</div>
+	           <div class="modal-list-item">
+	                <a href="http://smse.sjtu.edu.cn" target="_blank">材料科学与工程学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a  href="http://sese.sjtu.edu.cn" target="_blank">环境科学与工程学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://bme.sjtu.edu.cn" target="_blank">生物医学工程学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.aero.sjtu.edu.cn" target="_blank">航空航天学院</a>
+	            </div>
+	        </div>
+	    </div>
+	     <div class="modal-item">
+	        <h3 class="modal-item-title">理科</h3>
+	        <div class="modal-item-list">
+	           <div class="modal-list-item">
+	                <a  href="http://www.math.sjtu.edu.cn" target="_blank">数学科学学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.physics.sjtu.edu.cn" target="_blank">物理与天文学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://scce.sjtu.edu.cn" target="_blank">化学化工学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a  href="http://soo.sjtu.edu.cn/" target="_blank">海洋学院</a>
+	            </div>
+	        </div>
+	    </div>
+	     <div class="modal-item">
+	        <h3 class="modal-item-title">生命科学</h3>
+	        <div class="modal-item-list">
+	           <div class="modal-list-item">
+	                <a  href="http://life.sjtu.edu.cn" target="_blank">生命科学技术学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.agri.sjtu.edu.cn" target="_blank">农业与生物学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.shsmu.edu.cn" target="_blank">医学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://pharm.sjtu.edu.cn" target="_blank">药学院</a>
+	            </div>
+	        </div>
+	    </div>
+	     <div class="modal-item">
+	        <h3 class="modal-item-title">人文社科</h3>
+	        <div class="modal-item-list">
+	           <div class="modal-list-item">
+	                <a  href="http://www.acem.sjtu.edu.cn" target="_blank">安泰经济与管理学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://law.sjtu.edu.cn" target="_blank">凯原法学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://sfl.sjtu.edu.cn" target="_blank">外国语学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://shss.sjtu.edu.cn" target="_blank">人文学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a  href="https://ma.sjtu.edu.cn/" target="_blank">马克思主义学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.sipa.sjtu.edu.cn" target="_blank">国际与公共事务学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://smc.sjtu.edu.cn/" target="_blank">媒体与传播学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="https://designschool.sjtu.edu.cn" target="_blank">设计学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a  href="http://tiyuxi.sjtu.edu.cn" target="_blank">体育系</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://www.saif.sjtu.edu.cn" target="_blank">上海高级金融学院</a>
+	            </div>
+	        </div>
+	    </div>
+	     <div class="modal-item">
+	        <h3 class="modal-item-title">国际化办学</h3>
+	        <div class="modal-item-list">
+	           <div class="modal-list-item">
+	                <a  href="http://umji.sjtu.edu.cn" target="_blank">上海交大密西根学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://speit.sjtu.edu.cn" target="_blank">巴黎卓越工程师学院</a>
+	            </div>
+	           <div class="modal-list-item" style="width: 50%">
+	                <a  href="http://icci.sjtu.edu.cn" target="_blank">上海交大-南加州大学文化创意产业学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a href="http://cn.ceibs.edu" target="_blank">中欧国际工商学院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a  href="http://lcc.sjtu.edu.cn" target="_blank">中英国际低碳学院</a>
+	            </div>
+	        </div>
+	    </div>
+
+		   <div class="modal-item">
+			   <h3 class="modal-item-title">交叉学科</h3>
+			   <div class="modal-item-list">
+				   <div class="modal-list-item">
+					   <a href="https://zhiyuan.sjtu.edu.cn/html/zhiyuan" target="_blank">致远学院</a>
+				   </div>
+				   <div class="modal-list-item">
+					   <a href="https://soe.sjtu.edu.cn" target="_blank">教育学院</a>
+				   </div>
+				   <div class="modal-list-item">
+					   <a href="https://www.senergy.sjtu.edu.cn" target="_blank">智慧能源创新学院</a>
+				   </div>
+				   <div class="modal-list-item">
+					   <a href="https://gift.sjtu.edu.cn" target="_blank">溥渊未来技术学院</a>
+				   </div>
+				   <div class="modal-list-item">
+					   <a href="https://soai.sjtu.edu.cn" target="_blank">人工智能学院</a>
+				   </div>
+				   <div class="modal-list-item">
+					   <a href="https://psychology.sjtu.edu.cn" target="_blank">心理学院</a>
+				   </div>
+			   </div>
+		   </div>
+	    
+	    <div class="modal-item">
+	        <h3 class="modal-item-title">研究院·基础研究</h3>
+	        <div class="modal-item-list">
+	           <div class="modal-list-item">
+	                <a  href="https://scsb.sjtu.edu.cn/" target="_blank" >系统生物医学研究院</a>
+	            </div>
+	           <div class="modal-list-item">
+	                <a  href="https://tdli.sjtu.edu.cn/" target="_blank" >李政道研究所</a>
+	            </div>
+	        </div>
+	    </div>
+	 </div>
+	 </div>
+	
+	<div style="height: 140px"></div>
+</div>
+<script>
+	var contextPath = "\/career\/";
+</script>
+<script src="/career/static/main/js/jquery-3.7.1.min.js"></script>
+<script src="/career/static/index/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/career/static/layuiadmin/layui/layui.all.js"></script>
+<script src="/career/static/js/base64.js"></script>
+<script src="/career/static/main/js/common.js?v=1790657252634"></script>
+<script src="/career/static/main/js/fileLoad.js?v=1790657252634"></script>
+<script src="/career/static/plugins/qrcode.min.js"></script>
+<script src="/career/static/main/js/template-native.js"></script>
+<script>
+	jQuery("#nav").slide({
+		type: "menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+		titCell: ".nLi", //鼠标触发对象
+		targetCell: ".sub", //titCell里面包含的要显示/消失的对象
+		effect: "slideDown", //targetCell下拉效果
+		delayTime: 300, //效果时间
+		triggerTime: 0, //鼠标延迟触发时间（默认150）
+		returnDefault: true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+	});
+	$(".nLi").hover(function () {
+		$(this).find("img").attr("src", contextPath + 'static/index/img/top.png')
+		$(this).css("color", "#fff")
+	})
+	$(".nLi").mouseleave(function () {
+		$(this).find("img").attr("src", contextPath + 'static/index/img/buttomFFF.png')
+		$(this).css("color", "#000")
+	})
+	window.onscroll = function () {
+		var topScroll = $(document).scrollTop();//滚动的距离,距离顶部的距离
+		var bignav = document.getElementById("navigation");//获取到导航栏id
+		if (topScroll > 20) {  //当滚动距离大于190px时执行下面的东西
+			bignav.style.boxShadow = '0 3px 5px #ccc';
+		} else {
+			bignav.style.boxShadow = '0 0px 0px #fff';
+		}
+	}
+	
+	/**
+	 * 统一身份认证登录
+	 */
+	function tysfrz() {
+		var sfqydddl = '是';
+		if ("是" == sfqydddl) {
+			var ssoLoginUrl = '/sso/sjtu/login';
+			windowOpen(contextPath + ssoLoginUrl);
+		} else {
+			layer.msg('暂未开通',{icon:7});
+		}
+	}
+	
+	/**
+	 * 搜索框的回车事件
+	 */
+	$('body').on('keypress', '.headerSearch input', function (even) {
+		if (even.which === 13) {
+			search();
+		}
+	})
+	
+	/**
+	 * 搜索按钮点击事件
+	 */
+	$('body').on('click', '.headerSearch label', function () {
+		search();
+	})
+	
+	/**
+	 * 首页搜索新闻信息
+	 */
+	function search() {
+		windowOpen(contextPath + 'index/search?s=' + encodeURI($('#searchInput').val()));
+	}
+	/**
+     * 院系介绍
+     */
+	$('#yxjs').click(function(){
+		let top = $(window).scrollTop() + 40;
+		$('.modal-box').css('top',top+'px')
+		$('.modal-box').toggle();
+	})
+	/*
+	$(window).scroll(function(){
+        let top = $(this).scrollTop() + 40
+        $('.modal-box').css('top',top+'px')
+    })
+	
+	*/
+	
+</script>
+</body>
+</html>
+</div>
+<div id="yxjsClose">
+	<div id="indexBox">
+		<div class="indexBanner">
+			<div class="indexBannerLogo">
+				<div class="swiper swiper-containerFirst ">
+					<div class="swiper-wrapper">
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/www.job.sjtu.edu.cn\/career\/zphxx\/view\/244056696715087872&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20260926/244095021245140992.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">上海交通大学2027届毕业生秋季招聘会</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/mp.weixin.qq.com\/s\/YIOPXm2FIn-drkmM-PXmLQ&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20260330/178818417518841856.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">上海市2026届高校毕业生就业协议书1-20号</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/www.iguopin.com\/&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20260604/202793547634708480.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">国聘行动第七季</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/mp.weixin.qq.com\/s\/dtFpmoFQ2t7Zg9Rf-6IjeQ&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20250625/78199872360157184.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">交大毕业生的「热爱」</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/mp.weixin.qq.com\/s\/upsZYqxYufvo_cbm5N2DfA&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20250331/47008409060511744.png">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">这就是，交大学子的选择！</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/jobone.51job.com\/School\/SJTU&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20260310/171638422484684800.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">上海交通大学-前程无忧专场双选会</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/www.job.sjtu.edu.cn\/career\/news\/view\/qzjn\/7959139342306250485&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20240918/9034669109651964534.png">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">ai求职系统上线</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/news.sjtu.edu.cn\/jdyw\/20260327\/220829.html&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20260331/179276802336886784.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">上海交大举办2026年赴重点行业单位就业毕业生座谈会暨“黄旭华奖学金”颁奖仪式</a>
+									</div>
+									
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(null)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20260629/211888089210163200.jpeg">
+								
+									
+									<div>
+										<div class="bannerImgSm">上海交通大学2026年本科毕业生座谈会</div>
+									</div>
+								
+							</div>
+						
+						
+							<div class="swiper-slide" onclick="windowOpen(&quot;https:\/\/mp.weixin.qq.com\/s\/dnO0851Mxxvh2r2oIGbSbg&quot;)" style="cursor: pointer;;height:371px;">
+								<img src="/career//static/images/user//10248/20251226/144793015741976576.jpg">
+								
+									<div>
+										<a class="bannerImgSm" href="javascript:void(0) ">2025年度就业引导名师</a>
+									</div>
+									
+								
+							</div>
+						
+					</div>
+					<div class="swiper-pagination swiper-paginationFirst"></div>
+				</div>
+			</div>
+			
+			<!-- F1-1 -->
+			
+				<div class="indexInformation">
+					<div class="indexTabTitle">
+						<div>
+							
+								<div class="indexTabCon" data-url="news/zprd">招聘热点</div>
+							
+							
+								<div class="indexTabCon" data-url="news/tzgg">通知公告</div>
+							
+							
+								<div class="indexTabCon" data-url="news/jyyw">新闻快讯</div>
+							
+						</div>
+						
+						<div class="indexMore">
+							
+								
+									<a href="/career/news/zprd" target="_blank">MORE></a>
+								
+							
+							
+							
+						</div>
+					</div>
+					
+					
+						<div class="indexTabConText">
+							
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/241611874083409920&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】中国兵器工业集团2027届秋季招聘——上海交通大学双选会</div>
+											<div class="indexTabTime">2026/09/19</div>
+										</div>
+									
+								
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/240578238160703488&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】中国广核集团2027届秋季校园招聘宣讲会</div>
+											<div class="indexTabTime">2026/09/16</div>
+										</div>
+									
+								
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/239099578983518208&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】湖北省定向选调（选聘）2027届优秀大学毕业生宣讲会</div>
+											<div class="indexTabTime">2026/09/12</div>
+										</div>
+									
+								
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/238746525042348032&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】智汇东方 才聚未来  中国东方资产管理股份有限公司2027年度校园招聘</div>
+											<div class="indexTabTime">2026/09/11</div>
+										</div>
+									
+								
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/238245766261510144&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】国防科技大学2027人才引进宣讲会</div>
+											<div class="indexTabTime">2026/09/10</div>
+										</div>
+									
+								
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/237518744266608640&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】上海电气集团2027届秋季校园招聘宣讲会</div>
+											<div class="indexTabTime">2026/09/08</div>
+										</div>
+									
+								
+								
+									
+									
+									
+										<div class="indexTabList" onclick="windowOpen(&quot;\/career\/xjhxx\/view\/235345848735764480&quot;)">
+											<div class="indexNoticeSign"></div>
+											<div class="indexTabListCon">【宣讲会】中航工业2027届校园招聘会—上海交通大学专场</div>
+											<div class="indexTabTime">2026/09/02</div>
+										</div>
+									
+								
+								
+								
+								
+								
+								
+							
+							
+						</div>
+					
+					
+					
+						<div class="indexTabConText indexTabConTextBJ">
+							
+							
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/8573161335959850868&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">关于进一步规范做好自由职业、自主创业、其他录用形式就业毕业去向登记工作的通知</div>
+									<div class="indexTabTime">2024/04/16</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/60306023268880384&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">关于做好2026年非上海生源应届普通高校毕业生进沪就业工作的通知</div>
+									<div class="indexTabTime">2026/05/09</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/142308759480438784&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【江苏 补充公示】江苏省2026年应届优秀大学毕业生（名校优生）考察人选的补充公示</div>
+									<div class="indexTabTime">2025/12/19</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/138952923005718528&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">关于公布青岛西海岸新区2026年“优选计划”选聘综合测试成绩及有关事宜的公告</div>
+									<div class="indexTabTime">2025/12/10</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/21541604980559872&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">关于福州市2025届引进生拟选拔人选公示的公告（第一批）</div>
+									<div class="indexTabTime">2025/01/20</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/19459354109546496&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">关于开展2024年度上海交通大学优秀博士毕业生发展奖学金评审工作的通知</div>
+									<div class="indexTabTime">2025/01/14</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/tzgg\/18023759323729920&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">关于2025年春季暨暑期上海发展研究奖学金候选人招募工作的通知</div>
+									<div class="indexTabTime">2025/01/10</div>
+								</div>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							
+						</div>
+					
+					
+					
+						<div class="indexTabConText indexTabConTextBJ">
+							
+							
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/242232340837961728&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】“百万英才汇南粤”2026年N城联动秋季招聘活动启动式 和江浙沪地区首场招聘会在上海交通大学举行</div>
+									<div class="indexTabTime">2026/09/21</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/241862936094707712&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】上海交通大学举行2026年上海静安城区推介暨毕业生双选会</div>
+									<div class="indexTabTime">2026/09/20</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/226074630740381696&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】上海交大校领导赴中船大连造船调研交流</div>
+									<div class="indexTabTime">2026/08/07</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/217353567089070080&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】上海交大校领导赴广州市访企拓岗</div>
+									<div class="indexTabTime">2026/07/14</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/211886020235497472&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】上海交大举行2026年本科毕业生代表座谈会</div>
+									<div class="indexTabTime">2026/06/29</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/198070691143225344&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】校领导赴校友企业米哈游调研交流</div>
+									<div class="indexTabTime">2026/05/22</div>
+								</div>
+								<div class="indexTabList" onclick="windowOpen(&quot;\/career\/news\/view\/jyyw\/198069957039362048&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="indexTabListCon">【新闻】太原市委常委、组织部部长胡坚一行到访上海交大</div>
+									<div class="indexTabTime">2026/05/22</div>
+								</div>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+							
+						</div>
+					
+				</div>
+			
+		</div>
+		<!-- F2-1 -->
+		<div class="indexInvite">
+			<div class="indexInviteCon">
+				
+					<div class="indexInviteTitle">
+						<div>
+							
+								<div class="indexInviteTitleType" data-url="xjhxx?nrdm=zcxjh1">专场宣讲会</div>
+							
+							
+								<div class="indexInviteTitleType" data-url="zphxx">大型双选会</div>
+							
+							
+								<div class="indexInviteTitleType" data-url="xjhxx/kzxj?nrdm=kzxj1">空中宣讲会</div>
+							
+							
+								<div class="indexInviteTitleType" data-url="news/zpgg">招聘公告</div>
+							
+							
+								<div class="indexInviteTitleType" data-url="zpxx/zpxx">招聘信息</div>
+							
+							
+								<div class="indexInviteTitleType" data-url="zpxx/sxzpxx">实习信息</div>
+							
+						</div>
+						
+						<div class="inviteMore">
+							<a href="" target="_blank">MORE></a>
+						</div>
+					</div>
+					
+					
+						
+							<!--空中宣讲-->
+							
+							<!--空中宣讲 END-->
+							<!--专场宣讲会-->
+							<div class="inviteTypeCon inviteTypeConbj">
+								
+									<div class="inviteTypeConList">
+										
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/xjhxx\/view\/245201778130423808&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">10月12日</div>
+													<div class="sxhsj">10:00</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">
+														
+														
+														<div>中国国新控股有限责任公司</div>
+													</div>
+													<div class="inviteUnit">
+														<div class="inviteUnitPosition"></div>
+														<div>学生中心C202多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+													</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/xjhxx\/view\/245649584741814272&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">10月12日</div>
+															<div class="sxhsj">10:00</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">
+																
+																
+																<div>同济大学科技中学</div>
+															</div>
+															<div class="inviteUnit">
+																<div class="inviteUnitPosition"></div>
+																<div>学生中心B205多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+															</div>
+														</div>
+													</div>
+												
+											
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/xjhxx\/view\/243029030322966528&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">10月12日</div>
+													<div class="sxhsj">14:00</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">
+														
+														
+														<div>酷睿程（北京）科技有限公司</div>
+													</div>
+													<div class="inviteUnit">
+														<div class="inviteUnitPosition"></div>
+														<div>学生中心C202多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+													</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/xjhxx\/view\/241959698016899072&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">10月12日</div>
+															<div class="sxhsj">14:00</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">
+																
+																
+																<div>中国航发商用航空发动机有限责任公司</div>
+															</div>
+															<div class="inviteUnit">
+																<div class="inviteUnitPosition"></div>
+																<div>学生中心D200多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+															</div>
+														</div>
+													</div>
+												
+											
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/xjhxx\/view\/241614746007244800&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">10月12日</div>
+													<div class="sxhsj">14:00</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">
+														
+														
+														<div>西北有色金属研究院</div>
+													</div>
+													<div class="inviteUnit">
+														<div class="inviteUnitPosition"></div>
+														<div>学生中心B205多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+													</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/xjhxx\/view\/241604000582078464&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">10月12日</div>
+															<div class="sxhsj">18:00</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">
+																
+																
+																<div>北京嘀嘀无限科技发展有限公司</div>
+															</div>
+															<div class="inviteUnit">
+																<div class="inviteUnitPosition"></div>
+																<div>学生中心C204多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+															</div>
+														</div>
+													</div>
+												
+											
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/xjhxx\/view\/241611379302338560&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">10月12日</div>
+													<div class="sxhsj">18:00</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">
+														
+														
+														<div>美的集团股份有限公司</div>
+													</div>
+													<div class="inviteUnit">
+														<div class="inviteUnitPosition"></div>
+														<div>学生中心D200多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+													</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/xjhxx\/view\/242728978509598720&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">10月12日</div>
+															<div class="sxhsj">18:00</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">
+																
+																
+																<div>百度在线网络技术（北京）有限公司</div>
+															</div>
+															<div class="inviteUnit">
+																<div class="inviteUnitPosition"></div>
+																<div>学生中心C202多功能厅(上海市闵行区东川路800号学生中心大楼)</div>
+															</div>
+														</div>
+													</div>
+												
+											
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+								
+							</div>
+							<!--专场宣讲会 END-->
+							<!--全部宣讲会信息-->
+							
+							<!--全部宣讲会信息 END-->
+							<!--在线招聘-->
+							
+							<!--在线招聘 END-->
+							<!--实习招聘-->
+							
+							<!--实习招聘 END-->
+							<!--全部招聘信息-->
+							
+							<!--全部招聘信息 END-->
+							<!--在线职位信息-->
+							
+							<!--在线职位信息 END-->
+							<!--招聘会信息-->
+							
+							<!--招聘会信息 END-->
+							<!--空中招聘会-->
+							
+							<!--空中招聘会 END-->
+							<!--组团招聘会信息-->
+							
+							<!--组团招聘会信息 END-->
+							<!--新闻信息-->
+							
+							<!--新闻信息 END-->
+						
+						
+							<!--空中宣讲-->
+							
+							<!--空中宣讲 END-->
+							<!--专场宣讲会-->
+							
+							<!--专场宣讲会 END-->
+							<!--全部宣讲会信息-->
+							
+							<!--全部宣讲会信息 END-->
+							<!--在线招聘-->
+							
+							<!--在线招聘 END-->
+							<!--实习招聘-->
+							
+							<!--实习招聘 END-->
+							<!--全部招聘信息-->
+							
+							<!--全部招聘信息 END-->
+							<!--在线职位信息-->
+							
+							<!--在线职位信息 END-->
+							<!--招聘会信息-->
+							<div class="inviteTypeCon inviteTypeConbj">
+								
+									
+										<div class="inviteSxhList" onclick="windowOpen(&quot;\/career\/zphxx\/view\/244056696715087872&quot;)">
+											<div class="SxhTime">
+												<div class="sxhrq">10-14</div>
+												<div class="sxhsj">13:30</div>
+											</div>
+											<div class="sxhCon">
+												<div class="sxhzbf">上海交通大学2027届毕业生秋季招聘会</div>
+												<div class="sxhAddress">
+													<div>举办日期：2026-10-14 13:30</div>
+													<div class="sxhAddressPos" style="margin-left: 20px"></div>
+													<div>闵行校区霍英东体育中心二楼</div>
+												</div>
+											</div>
+										</div>
+										
+									
+									
+										<div class="inviteSxhList" onclick="windowOpen(&quot;\/career\/zphxx\/view\/244775343074971648&quot;)">
+											<div class="SxhTime">
+												<div class="sxhrq">10-15</div>
+												<div class="sxhsj">13:30</div>
+											</div>
+											<div class="sxhCon">
+												<div class="sxhzbf">上海交通大学“青春报国 责任担当”2027届毕业生国家重点单位招聘双选会（生物医药专场）</div>
+												<div class="sxhAddress">
+													<div>举办日期：2026-10-15 13:30</div>
+													<div class="sxhAddressPos" style="margin-left: 20px"></div>
+													<div>闵行校区转化医学大楼</div>
+												</div>
+											</div>
+										</div>
+										
+									
+									
+										<div class="inviteSxhList" onclick="windowOpen(&quot;\/career\/zphxx\/view\/248401504468340736&quot;)">
+											<div class="SxhTime">
+												<div class="sxhrq">10-22</div>
+												<div class="sxhsj">14:00</div>
+											</div>
+											<div class="sxhCon">
+												<div class="sxhzbf">上海交通大学“青春报国 责任担当”2027届毕业生国家重点单位招聘双选会（集成电路专场）</div>
+												<div class="sxhAddress">
+													<div>举办日期：2026-10-22 14:00</div>
+													<div class="sxhAddressPos" style="margin-left: 20px"></div>
+													<div>闵行校区电院群楼东侧长廊</div>
+												</div>
+											</div>
+										</div>
+										
+									
+									
+										<div class="inviteSxhList" onclick="windowOpen(&quot;\/career\/zphxx\/view\/231838300393050112&quot;)">
+											<div class="SxhTime">
+												<div class="sxhrq">09-22</div>
+												<div class="sxhsj">14:00</div>
+											</div>
+											<div class="sxhCon">
+												<div class="sxhzbf">上海交通大学“青春报国 责任担当”2027届毕业生国家重点单位招聘双选会（电子信息专场）</div>
+												<div class="sxhAddress">
+													<div>举办日期：2026-09-22 14:00</div>
+													<div class="sxhAddressPos" style="margin-left: 20px"></div>
+													<div>闵行校区电院群楼东侧长廊</div>
+												</div>
+											</div>
+										</div>
+										
+									
+									
+									
+									
+									
+									
+								
+							</div>
+							<!--招聘会信息 END-->
+							<!--空中招聘会-->
+							
+							<!--空中招聘会 END-->
+							<!--组团招聘会信息-->
+							
+							<!--组团招聘会信息 END-->
+							<!--新闻信息-->
+							
+							<!--新闻信息 END-->
+						
+						
+							<!--空中宣讲-->
+							<div class="inviteTypeCon inviteTypeConbj">
+								
+									<div class="inviteTypeConList">
+										<div class="inviteTypeConListLeft"
+												onclick="windowOpen(&quot;\/career\/xjhxx\/view\/243350508146921472&quot;)">
+											<div class="SxhTime">
+												<div class="sxhrq">10月16日</div>
+												<div class="sxhsj">15:00</div>
+											</div>
+											<div class="inviteAddress">
+												<div class="inviteUnit">
+													
+													
+													<div>南京天洑软件有限公司</div>
+												</div>
+												<div class="inviteUnit">
+													<div class="inviteUnitPosition"></div>
+													<div>https://work.weixin.qq.com/webapp/tm/sRyKTd2Ocmc</div>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								
+							</div>
+							<!--空中宣讲 END-->
+							<!--专场宣讲会-->
+							
+							<!--专场宣讲会 END-->
+							<!--全部宣讲会信息-->
+							
+							<!--全部宣讲会信息 END-->
+							<!--在线招聘-->
+							
+							<!--在线招聘 END-->
+							<!--实习招聘-->
+							
+							<!--实习招聘 END-->
+							<!--全部招聘信息-->
+							
+							<!--全部招聘信息 END-->
+							<!--在线职位信息-->
+							
+							<!--在线职位信息 END-->
+							<!--招聘会信息-->
+							
+							<!--招聘会信息 END-->
+							<!--空中招聘会-->
+							
+							<!--空中招聘会 END-->
+							<!--组团招聘会信息-->
+							
+							<!--组团招聘会信息 END-->
+							<!--新闻信息-->
+							
+							<!--新闻信息 END-->
+						
+						
+							<!--空中宣讲-->
+							
+							<!--空中宣讲 END-->
+							<!--专场宣讲会-->
+							
+							<!--专场宣讲会 END-->
+							<!--全部宣讲会信息-->
+							
+							<!--全部宣讲会信息 END-->
+							<!--在线招聘-->
+							
+							<!--在线招聘 END-->
+							<!--实习招聘-->
+							
+							<!--实习招聘 END-->
+							<!--全部招聘信息-->
+							
+							<!--全部招聘信息 END-->
+							<!--在线职位信息-->
+							
+							<!--在线职位信息 END-->
+							<!--招聘会信息-->
+							
+							<!--招聘会信息 END-->
+							<!--空中招聘会-->
+							
+							<!--空中招聘会 END-->
+							<!--组团招聘会信息-->
+							
+							<!--组团招聘会信息 END-->
+							<!--新闻信息-->
+							<div class="inviteTypeCon inviteTypeConbj">
+								
+									<div class="inviteTypezpggListCon">
+										<div class="inviteTypezpggLeft"
+												onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/248432235764649984&quot;)" style="color:null">
+											<div class="indexNoticeSign"></div>
+											<div class="zpgg">国网北京市电力公司2027年高校毕业生招聘宣讲会(上海交通大学专场)公告</div>
+											<div class="zpggtime">10-08</div>
+										</div>
+										
+											
+												<div class="inviteTypezpggLeft"
+														onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/245167742355902464&quot;)" style="color:null">
+													<div class="indexNoticeSign"></div>
+													<div class="zpgg">国家电网有限公司直属单位2027年高校毕业生招聘校园宣讲公告</div>
+													<div class="zpggtime">09-29</div>
+												</div>
+											
+										
+									</div>
+								
+								
+								
+									<div class="inviteTypezpggListCon">
+										<div class="inviteTypezpggLeft"
+												onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/195587754850127872&quot;)" style="color:null">
+											<div class="indexNoticeSign"></div>
+											<div class="zpgg">海信集团2027届信动力计划及2026年度实习生计划招聘</div>
+											<div class="zpggtime">05-15</div>
+										</div>
+										
+											
+												<div class="inviteTypezpggLeft"
+														onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/185322669858754560&quot;)" style="color:null">
+													<div class="indexNoticeSign"></div>
+													<div class="zpgg">江苏省扬州市2026年国有企业选聘优秀青年人才公告</div>
+													<div class="zpggtime">04-17</div>
+												</div>
+											
+										
+									</div>
+								
+								
+								
+									<div class="inviteTypezpggListCon">
+										<div class="inviteTypezpggLeft"
+												onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/182224759780675584&quot;)" style="color:null">
+											<div class="indexNoticeSign"></div>
+											<div class="zpgg">中国兵器工业第二〇六研究所2026届招聘公告</div>
+											<div class="zpggtime">04-08</div>
+										</div>
+										
+											
+												<div class="inviteTypezpggLeft"
+														onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/182090245578297344&quot;)" style="color:null">
+													<div class="indexNoticeSign"></div>
+													<div class="zpgg">2026年青岛市即墨区“优秀青年人才选育计划（事业单位工作人员）”公告</div>
+													<div class="zpggtime">04-08</div>
+												</div>
+											
+										
+									</div>
+								
+								
+								
+									<div class="inviteTypezpggListCon">
+										<div class="inviteTypezpggLeft"
+												onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/179165974203863040&quot;)" style="color:null">
+											<div class="indexNoticeSign"></div>
+											<div class="zpgg">安徽工业大学2026年度专职辅导员招聘公告</div>
+											<div class="zpggtime">03-31</div>
+										</div>
+										
+											
+												<div class="inviteTypezpggLeft"
+														onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/178800338084696064&quot;)" style="color:null">
+													<div class="indexNoticeSign"></div>
+													<div class="zpgg">南通市海门区区属国有企业2026年度 春季校园招聘公告</div>
+													<div class="zpggtime">03-30</div>
+												</div>
+											
+										
+									</div>
+								
+								
+								
+									<div class="inviteTypezpggListCon">
+										<div class="inviteTypezpggLeft"
+												onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/172029546013528064&quot;)" style="color:null">
+											<div class="indexNoticeSign"></div>
+											<div class="zpgg">农业农村部在京事业单位2026年度公开招聘高校毕业生公告</div>
+											<div class="zpggtime">03-11</div>
+										</div>
+										
+											
+												<div class="inviteTypezpggLeft"
+														onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/144858243053785088&quot;)" style="color:null">
+													<div class="indexNoticeSign"></div>
+													<div class="zpgg">中央国家机关某部委所属事业单位 招聘高校毕业生公告</div>
+													<div class="zpggtime">12-26</div>
+												</div>
+											
+										
+									</div>
+								
+								
+								
+									<div class="inviteTypezpggListCon">
+										<div class="inviteTypezpggLeft"
+												onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/143754021742710784&quot;)" style="color:null">
+											<div class="indexNoticeSign"></div>
+											<div class="zpgg">辽宁建筑职业学院2025年招聘工作人员公告</div>
+											<div class="zpggtime">12-23</div>
+										</div>
+										
+											
+												<div class="inviteTypezpggLeft"
+														onclick="windowOpen(&quot;\/career\/news\/view\/zpgg\/141277734071570432&quot;)" style="color:null">
+													<div class="indexNoticeSign"></div>
+													<div class="zpgg">河北雄安新区面向2026年优秀应届毕业生选聘急需紧缺人才公告</div>
+													<div class="zpggtime">12-16</div>
+												</div>
+											
+										
+									</div>
+								
+								
+								
+									
+								
+								
+								
+									
+								
+								
+								
+									
+								
+								
+								
+									
+								
+								
+							</div>
+							<!--新闻信息 END-->
+						
+						
+							<!--空中宣讲-->
+							
+							<!--空中宣讲 END-->
+							<!--专场宣讲会-->
+							
+							<!--专场宣讲会 END-->
+							<!--全部宣讲会信息-->
+							
+							<!--全部宣讲会信息 END-->
+							<!--在线招聘-->
+							<div class="inviteTypeCon inviteTypeConbj">
+								
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249206719207575552&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-10</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">古北物业2027届招聘简章</div>
+													<div class="inviteUnit">上海古北物业管理有限公司</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249207693267570688&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-10</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">重庆奥普泰通信技术有限公司2027届秋招</div>
+															<div class="inviteUnit">重庆奥普泰通信技术有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249134647752134656&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-10</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">鼎桥技术2027届秋季校园招聘</div>
+													<div class="inviteUnit">鼎桥技术有限公司</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249206768553562112&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-10</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">【2027校园招聘】四川郎酒股份有限公司——销售郎培生&amp;市场营销岗</div>
+															<div class="inviteUnit">四川郎酒股份有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249209426853105664&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-10</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">中国品牌价值100强——以岭药业</div>
+													<div class="inviteUnit">石家庄以岭药业股份有限公司</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249210078345957376&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-10</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">高等教育出版社有限公司公开招聘2027年应届高校毕业生公告</div>
+															<div class="inviteUnit">高等教育出版社有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/245515006869901312&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-10</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">国泰海通证券湖南分公司2027届校园招聘简章</div>
+													<div class="inviteUnit">国泰海通证券股份有限公司湖南分公司</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249138298721800192&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-10</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">深圳市海柔创新科技有限公司招聘</div>
+															<div class="inviteUnit">深圳市海柔创新科技有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+								
+							</div>
+							<!--在线招聘 END-->
+							<!--实习招聘-->
+							
+							<!--实习招聘 END-->
+							<!--全部招聘信息-->
+							
+							<!--全部招聘信息 END-->
+							<!--在线职位信息-->
+							
+							<!--在线职位信息 END-->
+							<!--招聘会信息-->
+							
+							<!--招聘会信息 END-->
+							<!--空中招聘会-->
+							
+							<!--空中招聘会 END-->
+							<!--组团招聘会信息-->
+							
+							<!--组团招聘会信息 END-->
+							<!--新闻信息-->
+							
+							<!--新闻信息 END-->
+						
+						
+							<!--空中宣讲-->
+							
+							<!--空中宣讲 END-->
+							<!--专场宣讲会-->
+							
+							<!--专场宣讲会 END-->
+							<!--全部宣讲会信息-->
+							
+							<!--全部宣讲会信息 END-->
+							<!--在线招聘-->
+							
+							<!--在线招聘 END-->
+							<!--实习招聘-->
+							<div class="inviteTypeCon inviteTypeConbj">
+								
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249118348955226112&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-10</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">ECD半导体电镀设备厂商-聚焦先进封装-经纬天地半导体</div>
+													<div class="inviteUnit">江苏无锡经纬天地半导体科技有限公司</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/249119634626842624&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-10</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">釜固科技2026高校校园实习招聘简章（可转正）</div>
+															<div class="inviteUnit">釜固科技（深圳）有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/248824132232417280&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-09</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">用户体验设计实习生（UX Intern）</div>
+													<div class="inviteUnit">赛轮思通讯科技（上海）有限公司</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/248474929673146368&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-08</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">【百亿私募 · “星火计划”】 —— 寻找未来的行业领军者与掌舵人 ——</div>
+															<div class="inviteUnit">上海开思私募基金管理有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/245584197564108800&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-08</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">上海市临港公证处公证员助理</div>
+													<div class="inviteUnit">上海市临港公证处</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/248411912910540800&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">10-08</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">校园招聘</div>
+															<div class="inviteUnit">西安眼得乐医疗科技有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										<div>
+											<div class="inviteTypeConListLeft"
+													onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/248445640714096640&quot;)">
+												<div class="SxhTime">
+													<div class="sxhrq">2026</div>
+													<div class="sxhsj">10-08</div>
+												</div>
+												<div class="inviteAddress">
+													<div class="inviteUnit">【实习】网络安全数据研究-数据平台中心</div>
+													<div class="inviteUnit">上海人工智能创新中心</div>
+												</div>
+											</div>
+											
+												
+													<div class="inviteTypeConListLeft"
+															onclick="windowOpen(&quot;\/career\/zpxx\/view\/zpxx\/245516348380286976&quot;)">
+														<div class="SxhTime">
+															<div class="sxhrq">2026</div>
+															<div class="sxhsj">09-30</div>
+														</div>
+														<div class="inviteAddress">
+															<div class="inviteUnit">Klook2026全球校园产研实习生招聘</div>
+															<div class="inviteUnit">深圳市客路网络科技有限公司</div>
+														</div>
+													</div>
+												
+											
+										</div>
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+									<div class="inviteTypeConList">
+										
+									</div>
+									
+								
+							</div>
+							<!--实习招聘 END-->
+							<!--全部招聘信息-->
+							
+							<!--全部招聘信息 END-->
+							<!--在线职位信息-->
+							
+							<!--在线职位信息 END-->
+							<!--招聘会信息-->
+							
+							<!--招聘会信息 END-->
+							<!--空中招聘会-->
+							
+							<!--空中招聘会 END-->
+							<!--组团招聘会信息-->
+							
+							<!--组团招聘会信息 END-->
+							<!--新闻信息-->
+							
+							<!--新闻信息 END-->
+						
+					
+				
+			
+			</div>
+			
+			
+			<div class="indexInviteCalendar">
+				<div class="indexInviteCalendarTitle">
+					<div class="sign"></div>
+					<div class="jyrl">招聘日历</div>
+				
+				</div>
+				<div class="">
+					<div id="time">
+						<div class="duihua">
+							<ul class="dataList"></ul>
+						</div>
+					</div>
+					<div id="hide" style="display: none"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="indexBannerSecond">
+			<div class="swiper swiper-containerSecond">
+				<div class="swiper-wrapper">
+					
+						<div class="swiper-slide" style="cursor: pointer;height: 147px;" onclick="windowOpen(null)">
+							<img src="/career//static/images/user//10248/20241028/9120717301958579504.png">
+						</div>
+					
+				</div>
+				<div class="swiper-pagination swiper-paginationSecond"></div>
+			</div>
+		</div>
+		<!-- F3-1 -->
+		<div class="notice">
+			<div class="noticeList">
+				<div class="noticeTitle">
+					
+						<div>
+							
+								<div class="noticeTitleType" data-url="news/dxxdnews">定向选调</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/dsyc">地市引才</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/xinxigonggao">信息公告</div>
+							
+							
+								<div class="noticeTitleType" data-url="index/gzxmxx/gzsj.so">实习实践</div>
+							
+						</div>
+					
+					<div class="noticeMore"><a href="" target="_blank">MORE></a></div>
+				</div>
+				
+				
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/248814606334693376&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【安徽 选调】安徽省2027年度面向上海交通大学定向招录选调生公告</div>
+									<div class="noticeConListTime">2026/10/09</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/248785037212913664&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【浙江 选调生】2027年度浙江省党政机关选调应届优秀大学毕业生公告</div>
+									<div class="noticeConListTime">2026/10/09</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/248512804598976512&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【重庆 选调生】重庆市面向上海交通大学定向选调2027届急需紧缺专业应届优秀大学毕业生</div>
+									<div class="noticeConListTime">2026/10/08</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/248455152896446464&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【山东 选调】山东省2027年度选拔录用选调生公告</div>
+									<div class="noticeConListTime">2026/10/08</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/248361891192246272&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【黑龙江 选调】黑龙江省2027年度定向选调应届优秀大学毕业生公告</div>
+									<div class="noticeConListTime">2026/10/08</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/243105856869240832&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【甘肃 选调】甘肃省2027年选调应届优秀大学毕业生公告</div>
+									<div class="noticeConListTime">2026/09/23</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/243068885933363200&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【贵州 选调】贵州省2027年度党政机关定向选调和省管企业招聘优秀大学毕业生公告</div>
+									<div class="noticeConListTime">2026/09/23</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dxxdnews\/242298659461533696&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【湖南 选调】湖南省2027年定向选调公告</div>
+									<div class="noticeConListTime">2026/09/21</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+						
+						
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/239025706326167552&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【武汉 选聘生/管培生】武汉市2027年选聘生管培生招聘公告</div>
+									<div class="noticeConListTime">2026/09/12</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/210442526426009600&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【江苏泰州 人才引进】泰州医药高新区（高港区）人才发展中心2026年校园公开招聘高层次人才公告</div>
+									<div class="noticeConListTime">2026/06/25</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/179229910320156672&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【新疆 克拉玛依 事业单位】克拉玛依市2026年春季面向高校毕业生公开招聘事业单位工作人员公告</div>
+									<div class="noticeConListTime">2026/03/31</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/179228544331812864&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【新疆 克拉玛依】2026年克拉玛依市企事业单位高层次、 急需紧缺人才引进公告</div>
+									<div class="noticeConListTime">2026/03/31</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/176646334697312256&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【江苏沐阳 人才引进】沭阳县公办学校2026年公开招聘高层次专业人才公告</div>
+									<div class="noticeConListTime">2026/03/24</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/159070472955367424&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【云南省】云南省公安机关2026年度招录专业人才公告</div>
+									<div class="noticeConListTime">2026/02/03</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/157543428295626752&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【国家某政法单位】国家某部委直属事业单位校园招聘</div>
+									<div class="noticeConListTime">2026/01/30</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/dsyc\/151684790012219392&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【山东烟台 人才选聘】2026年烟台市青年干部人才“菁英计划” 选聘公告</div>
+									<div class="noticeConListTime">2026/01/14</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+						
+						
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/207261668642787328&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【江西选调 公示】江西省2026年度从上海交通大学选调应届优秀大学毕业生拟录用人员补充公示公告</div>
+									<div class="noticeConListTime">2026/06/16</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/204999063555411968&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【安徽选调 公示】安徽省2026年度面向上海交通大学定向招录选调生拟录用人选公示</div>
+									<div class="noticeConListTime">2026/06/11</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/200178480565063680&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【江西 选调】江西省2026年度从上海交通大学选调应届优秀大学毕业生拟录用人员公示公告</div>
+									<div class="noticeConListTime">2026/05/28</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/189334244647112704&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">江苏省2026年应届优秀大学毕业生选调乡镇（街道）职位拟录用人选公示</div>
+									<div class="noticeConListTime">2026/04/28</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/176305959893864448&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【江苏 公示】江苏省2026年应届优秀大学毕业生选调乡镇（街道）职位考察人选公示</div>
+									<div class="noticeConListTime">2026/03/23</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/169490085966909440&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【山西 通知】山西省2026年定向选调优秀高校毕业生公布成绩等有关事宜的通知</div>
+									<div class="noticeConListTime">2026/03/04</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/154961205587480576&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【江苏 公示】江苏省2026年应届优秀大学毕业生选调县级以上机关职位（名校优生）拟录用人选公示</div>
+									<div class="noticeConListTime">2026/01/23</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xinxigonggao\/149437127761989632&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【陕西选调 笔试通知】关于陕西省2026年度选调生招录笔试有关事项的通知</div>
+									<div class="noticeConListTime">2026/01/08</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+						
+						
+					
+					
+						
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206732551446990848&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年广东省广州市海珠区暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206732724977930240&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年广东省深圳市福田区暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206731459661271040&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年上海市长宁区暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206732018833297408&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年上海市金山区暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206732276745244672&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年山东省青岛市暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206733630834348032&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年江苏省常州市武进区暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206734124650729472&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年浙江省绍兴市暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpenById(&quot;index\/gzxmxx\/gzsjView.so&quot;,&#39;206736655225327616&#39;)">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年吉林省梅河口市暑期政务见习</div>
+									<div class="noticeConListTime">2026/06/15</div>
+								</div>
+							
+							
+								
+							
+						</div>
+						
+					
+				
+			</div>
+			
+			<!-- F3-2 -->
+			<div class="noticeList">
+				<div class="noticeTitle">
+					
+						<div>
+							
+								<div class="noticeTitleType" data-url="news/gjzc">政策文件</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/jylc">就业流程</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/xgxz">下载专区</div>
+							
+						</div>
+					
+					
+					<div class="noticeMore"><a href="" target="_blank">MORE></a></div>
+				</div>
+				
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/8769103860036796605&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">普通高校毕业生基层就业政策公告</div>
+									<div class="noticeConListTime">2024/06/21</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/8769103860036796597&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">普通高校毕业生就业服务公告</div>
+									<div class="noticeConListTime">2024/06/21</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/8769103860036796589&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">普通高校学生应征入伍政策公告</div>
+									<div class="noticeConListTime">2024/06/21</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/8769103860036796567&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">普通高校学生自主创业政策公告</div>
+									<div class="noticeConListTime">2024/06/21</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/101815&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">国务院办公厅关于进一步做好高校毕业生等青年就业创业工作的通知</div>
+									<div class="noticeConListTime">2022/10/20</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/101693&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海交通大学关于印发优秀毕业生评选工作实施办法的通知</div>
+									<div class="noticeConListTime">2021/11/12</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/101228&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">广东省教育厅关于广东省接收2019年外省普通高校毕业生有关事项的函</div>
+									<div class="noticeConListTime">2019/05/13</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/gjzc\/100813&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">《关于进一步做好本市青年就业创业见习工作的通知》（沪人社规〔2017〕22号）</div>
+									<div class="noticeConListTime">2019/03/01</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+						
+						
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/8573161335959850868&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">关于进一步规范做好自由职业、自主创业、其他录用形式就业毕业去向登记工作的通知</div>
+									<div class="noticeConListTime">2024/04/16</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/121641842096869376&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2026年毕业生就业导航</div>
+									<div class="noticeConListTime">2025/10/23</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/9096466714014517210&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">2025年毕业生就业导航</div>
+									<div class="noticeConListTime">2024/10/10</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/7970384288241683013&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">推荐表制作</div>
+									<div class="noticeConListTime">2023/09/26</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/7970384288241683002&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">网上签约及网签信息完善注意事项</div>
+									<div class="noticeConListTime">2023/09/26</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/7970384288241682985&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">档案寄送地址、户口迁移信息修改流程</div>
+									<div class="noticeConListTime">2023/09/26</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/7970384288241682972&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">毕业去向登记流程及类型</div>
+									<div class="noticeConListTime">2023/09/26</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jylc\/7595766760964359704&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">毕业生签订就业协议书办理流程</div>
+									<div class="noticeConListTime">2023/05/22</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+						
+						
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xgxz\/8573161335959851046&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海市高校毕业生毕业去向登记表（自由职业、自主创业、其他录用形式就业）</div>
+									<div class="noticeConListTime">2024/04/16</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xgxz\/8783032095380341899&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">学生获得已授权专利证书在学校网站公示证明</div>
+									<div class="noticeConListTime">2024/06/25</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xgxz\/8783032370258248304&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海市普通高校非上海生源应届毕业生入伍及退役情况证明</div>
+									<div class="noticeConListTime">2024/06/25</div>
+								</div>
+							
+						</div>
+						
+						
+					
+				
+			</div>
+			
+			<div class="kstd">
+				<div class="kstdTitleBox">
+					<div class="kstdTitle">快速通道</div>
+					<div class="kstdTitleMore"></div>
+				</div>
+				<div class="kstdListCon" style="overflow:inherit;">
+					
+						
+							<div id="kstdList0" class="kstdList kstdListl layui-anim" onclick="windowOpen(&quot;https:\/\/www.job.sjtu.edu.cn\/career\/news\/view\/jylc\/121641842096869376&quot;)" data-anim="layui-anim-scale">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323614.png" alt="就业导航" title="就业导航">
+							</div>
+						
+						
+							<div id="kstdList1" class="kstdList layui-anim" onclick="windowOpen(&quot;index\/il?subCode=jyglxsgz\u0026modCode=jygl_xsbyqxdj&quot;)" data-anim="layui-anim-scale">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323617.png" alt="去向登记" title="去向登记">
+							</div>
+						
+						
+							<div id="kstdList2" class="kstdList kstdListl layui-anim" onclick="windowOpen(null)" data-anim="layui-anim-scale">
+								<img src="/career//static/images/user//10248/20230925/7959140201299705859.png" alt="职业测评" title="职业测评">
+							</div>
+						
+						
+							<div id="kstdList3" class="kstdList layui-anim" onclick="windowOpen(&quot;index\/zxyy\/zxyySelect&quot;)" data-anim="layui-anim-scale">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323623.png" alt="咨询预约" title="咨询预约">
+							</div>
+						
+						
+							<div id="kstdList4" class="kstdList kstdListl layui-anim" onclick="windowOpen(&quot;index\/il?subCode=jyglxsgzxds\u0026modCode=jygl_xmbm_xdsbm&quot;)" data-anim="layui-anim-scale">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323626.png" alt="基层就业" title="基层就业">
+							</div>
+						
+						
+							<div id="kstdList5" class="kstdList layui-anim" onclick="windowOpen(&quot;https:\/\/rsc2.sjtu.edu.cn\/DAStateQuery\/ChooseClassify.aspx&quot;)" data-anim="layui-anim-scale">
+								<img src="/career//static/images/user//10248/20230510/7556710527397797178.png" alt="档案查询" title="档案查询">
+							</div>
+						
+					
+					<!--  
+					<div id="cepingTip">
+						<div>
+							<span class="cepingTipClose">X</span>
+							<img th:src="@{/static/index/sjtu2/img/ceping01.png}" onclick="window.open('http://sjtu.careersky.cn/jixun/Account/signIn')"/>
+							<img th:src="@{/static/index/sjtu2/img/ceping02.png}" onclick="window.open('https://xz.chsi.com.cn/home.action')"/>
+							<img th:src="@{/static/index/sjtu2/img/ceping03.png}" onclick="window.open('http://dz.rennengda.com/sjtu/login.aspx')"/>
+							<img th:src="@{/static/index/sjtu2/img/ceping04.png}" onclick="window.open('http://sjtu.wnssedu.com')"/>
+							<img th:src="@{/static/index/sjtu2/img/aims.jpg}" onclick="window.open('https://www.job.sjtu.edu.cn/career/news/view/qzjn/7959139342306250485')"/>
+							<img th:src="@{/static/index/sjtu2/img/qbjl.png}" onclick="window.open('https://jobup.top/scdp/sjtu')"/>
+						</div>
+					</div>
+				-->
+				</div>
+			</div>
+		</div>
+		
+		<div class="notice">
+			<!-- F4-1 -->
+			<div class="noticeList">
+				<div class="noticeTitle">
+					
+						<div>
+							
+								<div class="noticeTitleType" data-url="news/qzjn">求职技能</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/kcjs">课程建设</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/xshd">学生活动</div>
+							
+						</div>
+					
+					
+					<div class="noticeMore"><a href="" target="_blank">MORE></a></div>
+				</div>
+				
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7959139342306250485&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">学生AI模拟面试和简历系统上线啦 ！</div>
+									<div class="noticeConListTime">2025/09/30</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524910&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第8期 帮你从细节打动面试官</div>
+									<div class="noticeConListTime">2023/04/20</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524850&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第7期 大学生如何树立职业目标</div>
+									<div class="noticeConListTime">2023/04/13</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524809&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第6期 高质量简历的诞生技巧</div>
+									<div class="noticeConListTime">2023/04/09</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524800&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第5期 大学生择业小建议</div>
+									<div class="noticeConListTime">2023/03/28</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524530&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第4期 面试时，如何恰当运用谈话技巧？</div>
+									<div class="noticeConListTime">2023/03/18</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524524&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第3期 大学生就业，该从众吗？</div>
+									<div class="noticeConListTime">2023/03/07</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/qzjn\/7511933191234524517&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第2期 求职准备四步走</div>
+									<div class="noticeConListTime">2023/02/28</div>
+								</div>
+							
+							
+								
+							
+						</div>
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/209674319847100416&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">《职业生涯发展与规划》课程教学质量中期检查会举行</div>
+									<div class="noticeConListTime">2026/05/19</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/169023265648545792&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">《职业生涯发展与规划》集体备课邀请专家讲解通用教学法</div>
+									<div class="noticeConListTime">2025/03/14</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/17621968018870272&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">交大师生赴招商蛇口华东区域总部参观交流</div>
+									<div class="noticeConListTime">2024/12/19</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/17617322063826944&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">交大师生赴中国科学院上海技术物理研究所参访交流</div>
+									<div class="noticeConListTime">2024/12/12</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/17611926339194880&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">交大师生前往中国联合网络通信有限公司上海市分公司参观交流</div>
+									<div class="noticeConListTime">2024/12/12</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/17273620355223552&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">交大师生赴中国银行徐汇支行参观交流</div>
+									<div class="noticeConListTime">2024/12/04</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/7627584394089206519&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">交大师生赴上海收钱吧互联网科技股份有限公司参观交流</div>
+									<div class="noticeConListTime">2023/05/31</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/kcjs\/7577794590573335367&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">交大师生赴宝山钢铁股份有限公司参观交流</div>
+									<div class="noticeConListTime">2023/05/10</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/209704567187836928&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海交通大学分行业训练营之核工程与核技术专场圆满收官</div>
+									<div class="noticeConListTime">2026/05/25</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/220189271640903680&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海交通大学举办第六十八期“生涯讲堂”</div>
+									<div class="noticeConListTime">2026/04/08</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/220186986948988928&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">XIN创未来 共谱华章 ——上海交通大学第六十七期“生涯讲堂”活动顺利举行</div>
+									<div class="noticeConListTime">2026/04/06</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/220184435239292928&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">第六十六期“生涯讲堂”在机械与动力工程学院举行</div>
+									<div class="noticeConListTime">2026/03/26</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/220129651765415936&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海交通大学第六十五期“生涯讲堂”暨中建八局-上海交通大学“育星链计划”启动仪式举行</div>
+									<div class="noticeConListTime">2026/03/24</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/220121902700695552&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">传统能源如何“智能觉醒”？第六十四期“生涯讲堂”带你解码AI赋能产业新路径</div>
+									<div class="noticeConListTime">2025/12/22</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/219848516703490048&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海交通大学第六十二期“生涯讲堂”暨集成电路学院行业前沿报告会举行</div>
+									<div class="noticeConListTime">2025/12/03</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/xshd\/219844911078445056&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									
+									<div class="noticeConListText">上海交通大学举办第六十一期“生涯讲堂”</div>
+									<div class="noticeConListTime">2025/12/03</div>
+								</div>
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+							
+								
+							
+						</div>
+					
+				
+			</div>
+			<!-- F4-2 -->
+			<div class="noticeList">
+				<div class="noticeTitle">
+					
+						<div>
+							
+								<div class="noticeTitleType" data-url="news/flyz">在线法律咨询</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/jzal">援助案例</div>
+							
+							
+								<div class="noticeTitleType" data-url="news/jgjj">机构简介</div>
+							
+						</div>
+					
+					
+					<div class="noticeMore"><a href="" target="_blank">MORE></a></div>
+				</div>
+				
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/flyz\/14338217943896064&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">【在线法律咨询介绍】交大学子，您有一份24小时律师服务权益待使用</div>
+									<div class="noticeConListTime">2024/12/31</div>
+								</div>
+							
+						</div>
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jzal\/12845352914915328&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">援助案例3：遇到试用期延长怎么办？这些知识需知道！</div>
+									<div class="noticeConListTime">2024/12/27</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jzal\/12845000798900224&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">援助案例2：花钱请私教，退费却受阻？</div>
+									<div class="noticeConListTime">2024/12/27</div>
+								</div>
+							
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jzal\/12567970920402944&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">援助案例1：邻居可以在家门口随便安装监控吗？</div>
+									<div class="noticeConListTime">2024/12/26</div>
+								</div>
+							
+						</div>
+					
+					
+						<div class="noticeCon" style="display: none">
+							
+								<div class="noticeConList" onclick="windowOpen(&quot;\/career\/news\/view\/jgjj\/12848314110316544&quot;)" style="color:null">
+									<div class="indexNoticeSign"></div>
+									<div class="noticeConListText">上海律保科技有限公司介绍</div>
+									<div class="noticeConListTime">2024/12/27</div>
+								</div>
+							
+						</div>
+					
+				
+			</div>
+			
+			<div class="kstd">
+				<div class="kstdTitleBox">
+					<div class="kstdTitle">友情链接</div>
+				</div>
+				<div class="kstdListCon">
+					
+						
+							<div class="yqlj" onclick="windowOpen(&quot;https:\/\/www.sjtu.edu.cn\/&quot;)">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323632.png">
+							</div>
+						
+						
+							<div class="yqlj" onclick="windowOpen(&quot;https:\/\/sjtu.ncss.cn\/student\/index.html&quot;)">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323635.png">
+							</div>
+						
+						
+							<div class="yqlj" onclick="windowOpen(&quot;https:\/\/gj.ncss.cn\/&quot;)">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323638.png">
+							</div>
+						
+						
+							<div class="yqlj" onclick="windowOpen(&quot;www.firstjob.shec.edu.cn&quot;)">
+								<img src="/career//static/images/user//10248/20230329/7434752113529323644.png">
+							</div>
+						
+					
+				
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="rightTool">
+			<div class="collectBox rightToolDiv">
+				<div class="rightToolName" onclick="addfavorite()">收藏本页</div>
+				<a class="rightToolIcon"><img src="/career/static/index/img/start.png"></a>
+			</div>
+			<div class="toolEwm">
+				<span class="toolEwmIcon"><img src="/career/static/index/img/ewmSgin.png"></span>
+				<div class="toolEwmName">二维码</div>
+				<div class="ewmDetail"></div>
+				<div class="ewmDetailCon">
+					<img src="/career//static/images/user//10248/20230329/7434752113529323532.png">
+				</div>
+			</div>
+			<div class="toolTop rightToolDiv">
+				<div class="rightToolName" onclick=" window.scrollTo(0, 0)">返回顶部</div>
+				<a class="rightToolIcon"><img src="/career/static/index/img/Tooltop.png"></a>
+			</div>
+		</div>
+	</div>
+	<div><div class="indexFoot">
+    <div class="indexFootCon2">
+        <div class="indexFootLeft"><div>
+		        <div class="indexFootHead">联系方式</div>
+		        <div>
+			        <p>电话总机：021-54745994</p>
+			        <p>邮政编码：200240 </p>
+			        <p>地址：上海市闵行区东川路800号上海交通大学</p>
+		        </div>
+	        </div>
+	        <div>
+		        <div class="indexFootHead">用人单位服务</div>
+		        <div>
+			        <p>电话：021-54745721转886、887、888</p>
+			        <p>邮箱：career@sjtu.edu.cn </p>
+			        <p>地址：闵行校区学生中心大楼B502</p>
+		        </div>
+	        </div>
+	        <div>
+		        <div class="indexFootHead">学生就业事务</div>
+		        <div>
+			        <p>电话：021-54742194、54742354（闵行校区）、<br/>021-62934786*802（徐汇校区）、<br/>021-63846590*776205（黄浦校区） </p>
+			        <p>邮箱：sjtucdc@sjtu.edu.cn</p>
+			        <p>地址：闵行校区学生中心大楼一楼、<br/>徐汇校区学生服务中心、<br/>黄浦校区东4舍（仅医学院）</p>
+		        </div>
+	        </div>
+	        <div>
+		        <div class="indexFootHead">学生生涯服务</div>
+		        <div>
+			        <p>电话：021-54745994</p>
+			        <p>邮箱：sjtucdc@sjtu.edu.cn</p>
+			        <p>地址：上海市闵行区东川路800号上海交通大学</p>
+		        </div>
+	        </div></div>
+        <div class="indexFootRight" >
+            <div class="ewm" style="margin-left: 29px">
+                <div class="ewmTxt" >
+                    <img src="/career/static/index/sjtu2/img/sjtu_jcjy.png">
+                </div>
+		        <div class="gzwm">基层就业</div>
+            </div>
+	        <div class="ewm" style="margin-left: 40px">
+		        <div class="ewmTxt" >
+			        <img src="/career//static/images/user//10248/20230329/7434752113529323532.png">
+		        </div>
+                <div class="gzwm">交大就业</div>
+	        </div>
+        </div>
+    </div>
+	<div class="copyright2">
+		Copyright © 2024  上海交通大学  学生就业服务和职业发展中心
+		<div>技术支持：<a target="_blank" href="https://www.bysxx.com/" style="color: #666">易就业</a></div>
+	</div>
+</div>
+</div>
+</div>
+
+</body>
+<script src="/career/static/main/js/common.js?v=1790657252634"></script>
+<script src="/career/static/main/js/jquery-3.7.1.min.js"></script>
+<script src="/career/static/layuiadmin/layui/layui.all.js"></script>
+<script src="/career/static/index/js/swiper-bundle.min.js"></script>
+<script src="/career/static/index/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/career/static/index/js/rollpic.js"></script>
+<script>
+	$('.cepingTipClose').click(function () {
+		//$('#cepingTip').hide()
+	});
+	$('#kstdList2').click(function () {
+		//$('#cepingTip').show()
+	});
+	
+	var laydate = layui.laydate;
+	var currentDateStr = dateFormat('yyyy-MM-dd', new Date());
+	
+	function addfavorite() {
+		var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
+		try {
+			if (document.all) { //IE类浏览器
+				try {
+					window.external.toString(); //360浏览器不支持window.external，无法收藏
+					window.alert("国内开发的360浏览器等不支持主动加入收藏。\n您可以尝试通过浏览器菜单栏 或快捷键 ctrl+D 试试。");
+				} catch (e) {
+					try {
+						window.external.addFavorite(window.location, document.title);
+					} catch (e) {
+						window.external.addToFavoritesBar(window.location, document.title);  //IE8
+					}
+				}
+			} else if (window.sidebar) { //firfox等浏览器
+				window.sidebar.addPanel(document.title, window.location, "");
+			} else {
+				alert('您可以尝试通过快捷键' + ctrl + ' + D 加入到收藏夹~');
+			}
+		} catch (e) {
+			window.alert("因为IE浏览器存在bug，添加收藏失败！\n解决办法：在注册表中查找\n HKEY_CLASSES_ROOT\\TypeLib\\{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}\\1.1\\0\\win32 \n将 C:\\WINDOWS\\system32\\shdocvw.dll 改为 C:\\WINDOWS\\system32\\ieframe.dll ");
+		}
+	}
+	
+	var swiper = new Swiper('.swiper-containerFirst', {
+		pagination: {
+			el: '.swiper-paginationFirst',
+			clickable: true,
+			renderBullet: function (index, className) {
+				return '<span class="' + className + '">' + (index + 1) + "</span>";
+			}
+		},
+		autoplay: {
+			delay: 5000,//1秒切换一次
+		},
+		speed: 2000,
+		loop: true,
+	});
+	var swipers = new Swiper('.swiper-containerSecond', {
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-paginationSecond',
+			clickable: true,
+			renderBullet: function (index, className) {
+				return '<span class="' + className + '">' + (index + 1) + "</span>";
+			}
+		},
+		autoplay: {
+			delay: 5000,//1秒切换一次
+		},
+		speed: 6000,
+		loop: true,
+	});
+	
+	//鼠标覆盖停止自动切换
+	swipers.el.onmouseover = function () {
+		swipers.autoplay.stop();
+	}
+	//鼠标离开开始自动切换
+	swipers.el.onmouseleave = function () {
+		swipers.autoplay.start();
+	}
+	swiper.el.onmouseover = function () {
+		swiper.autoplay.stop();
+	}
+	swiper.el.onmouseleave = function () {
+		swiper.autoplay.start();
+	}
+	$(".indexTabCon").hover(function () {
+		$(".indexTabCon").removeClass("indexTabTitle-this")
+		$(this).addClass("indexTabTitle-this");
+		var nowIndex = $(this).index();
+		$(".indexTabConText").hide()
+		$(".indexTabConText").eq(nowIndex).show()
+		var url = $(this).attr('data-url')
+		$(this).parent().siblings().find("a").attr("href", contextPath + url)
+	})
+	$(".indexInviteTitleType").hover(function () {
+		$(".indexInviteTitleType").removeClass("indexInviteTitleType-this")
+		$(this).addClass("indexInviteTitleType-this");
+		var nowIndex = $(this).index();
+		$(".inviteTypeCon").hide()
+		$(".inviteTypeCon").eq(nowIndex).show()
+		var url = $(this).attr('data-url')
+		
+		$(this).parent().siblings().find("a").attr("href", contextPath + url)
+	})
+	$(".noticeTitleType").hover(function () {
+		$(this).siblings().removeClass("noticeTitleType-this")
+		$(this).addClass("noticeTitleType-this");
+		var nowIndex = $(this).index();
+		$(this).parent().parent().siblings(".noticeCon").hide()
+		$(this).parent().parent().siblings(".noticeCon").eq(nowIndex).show()
+		var url = $(this).attr('data-url')
+		
+		$(this).parent().siblings().find("a").attr("href", contextPath + url)
+	})
+	var currentTime = new Date();
+	var defaultDateObj = {};
+	var curentDateYear = currentTime.getFullYear();
+	defaultDateObj.year = curentDateYear;
+	var curentDateMonth = currentTime.getMonth() + 1;
+	defaultDateObj.month = curentDateMonth;
+	defaultDateObj.date = currentTime.getDate();
+	var currentDate = '' + curentDateYear + "-" + curentDateMonth + "-" + currentTime.getDate();
+	currentTime = Date.parse(currentDate + " 00:00:00");
+	fate("", "");
+	
+	function fate(time, nowTime) {
+		postAjax(contextPath + 'index/common/jyrl', {date: time}, function (result) {
+			var datelists = function () {
+				var time = {}
+				for (var i = 0; i < result.data.length; i++) {
+					time[dislodgeZero(result.data[i].mark)] = ""
+				}
+				return time
+			}
+			$("#layui-laydate1").remove();
+			//var currentTime = new Date(currentDateStr).getTime();
+			laydate.render({
+				elem: '#time' //指定元素
+				, position: 'static'
+				, mark: datelists()
+				, isInitValue: false
+				, showBottom: false
+				, value: nowTime
+				, ready: function (date) {
+					if ((date.year + "-" + date.month + "-" + date.date) == currentDate) {
+						$(".layui-laydate table tr .layui-this").attr("data-this", "thisDate")
+						$(".layui-laydate table tr .layui-this").addClass("thisDate")
+						
+					}
+					$('#time .layui-laydate-content td').each(function (index, item) {
+						var ymd = $(item).attr('lay-ymd');
+						if (new Date(ymd).getTime() < currentTime) {
+							$(item).addClass('laydate-day-expire');
+						}
+					})
+					$("td").mouseover(function () {
+						var sd = $(this).attr("lay-ymd")
+						var dataArr = result.data.find(function (value, index, arr) {
+							return dislodgeZero(value.mark) === sd;
+						})
+						if (dataArr == undefined) {
+							$(".duihua").css("display", 'none')
+						} else {
+							var con = [];
+							for (var i = 0; i < dataArr.con.length; i++) {
+								con.push("<li >");
+								con.push("<span class='calendar-type calendar-type-circle");
+								if ('zph' == dataArr.con[i].type) {
+									con.push(' calendar-type-zph');
+								}
+								con.push("' style='margin-right: 10px'>");
+								con.push('zph' == dataArr.con[i].type ? '招' : ('02' == dataArr.con[i].jbxs ? '空' : '宣'));
+								con.push("</span>");
+								con.push("<span style='margin-right: 10px'>");
+								con.push(dataArr.con[i].jbsj);
+								if (dataArr.con[i].zprd == '是') {
+									con.push("<img src='" + contextPath + "static/index/img/red/hot.png' style='margin-left:10px;width: 32px;height: 15px;margin-top:-3px;'>");
+								}
+								con.push("</span>"
+										, "<a href='" + contextPath + dataArr.con[i].a + "' target='_blank'>" + dataArr.con[i].con + "</a>"
+										, "</li>");
+							}
+							$(".dataList").html(con.join(''))
+							var setting = $(this).offset();
+							$(".duihua").css("display", 'block')
+							$(".duihua").css("position", 'absolute')
+							$(".duihua").css("top", setting.top - 5)
+							$(".duihua").css("left", setting.left + 55)
+						}
+						
+					})
+				}
+				, change: function (value, date, endDate) {
+					//切换月份时重新加载数据
+					if (curentDateYear != date.year || curentDateMonth != date.month) {
+						var nowTime = date.year + "-" + date.month
+						var nowTimes = date.year + "-" + date.month + "-" + date.date
+						//切换到当前日期月份
+						if (defaultDateObj.year == date.year && defaultDateObj.month == date.month) {
+							nowTime = defaultDateObj.year + "-" + defaultDateObj.month
+							nowTimes = defaultDateObj.year + "-" + defaultDateObj.month + "-" + defaultDateObj.date
+						}
+						fate(nowTime, nowTimes);
+						laydate.render();
+						curentDateYear = date.year;
+						curentDateMonth = date.month
+					} else {
+						//当前月份点击事件
+						$('#time .layui-laydate-content td').each(function (index, item) {
+							var ymd = $(item).attr('lay-ymd');
+							let thisDate = $(item).attr("data-this");
+							if (new Date(ymd).getTime() < currentTime) {
+								$(item).addClass('laydate-day-expire');
+							}
+							if (currentDate == ymd) {
+								$(item).attr("data-this", "thisDate")
+								$(item).addClass('thisDate');
+							}
+							
+						});
+					}
+					return;
+				}
+				
+			});
+		})
+	}
+	
+	
+	$(".duihua").mouseleave(function () {
+		$(".duihua").hide()
+	})
+	$("#time").mouseleave(function () {
+		$(".duihua").hide()
+	})
+	
+	function dislodgeZero(str) {
+		let strArray = str.split('-');
+		strArray = strArray.map(function (val) {
+			if (val[0] == '0') {
+				return val = val.slice(1);
+			} else {
+				return val;
+			}
+		})
+		return strArray.join('-');
+	}
+	
+	
+	$(".toolEwm").hover(function () {
+		$(".ewmDetailCon").css("display", "block")
+		$(".ewmDetail").css("display", "block")
+		$(".toolEwmIcon").css("display", "none")
+		$(".toolEwmName").css("display", "block")
+	})
+	$(".toolEwm").mouseleave(function () {
+		$(".ewmDetailCon").css("display", "none")
+		$(".ewmDetail").css("display", "none")
+		$(".toolEwmIcon").css("display", "block")
+		$(".toolEwmName").css("display", "none")
+	})
+	$(".rightToolDiv").hover(function () {
+		$(this).find(".rightToolName").css("display", 'block')
+		$(this).find(".rightToolIcon").css("display", 'none')
+	})
+	$(".rightToolDiv").mouseleave(function () {
+		$(this).find(".rightToolName").css("display", 'none')
+		$(this).find(".rightToolIcon").css("display", 'block')
+	})
+	window.onscroll = function () {
+		var topScroll = $(document).scrollTop();//滚动的距离,距离顶部的距离
+		if (topScroll > 400) {
+			$(".toolTop").css("display", 'block')
+		} else {
+			$(".toolTop").css("display", 'none')
+		}
+		var bignav = document.getElementById("navigation");//获取到导航栏id
+		if (topScroll > 20) {  //当滚动距离大于190px时执行下面的东西
+			bignav.style.boxShadow = '0 3px 5px #ccc';
+		} else {
+			bignav.style.boxShadow = '0 0px 0px #fff';
+		}
+	}
+	
+	$(function () {
+		$('.indexTabTitle').each(function (index, item) {
+			$(item).find('.indexTabCon').eq(0).addClass("indexTabTitle-this");
+		})
+		$('.indexInformatio').each(function (index, item) {
+			$(item).find('.indexTabConText').eq(0).show();
+		})
+		$('.indexInviteTitle').each(function (index, item) {
+			$(item).find('.indexInviteTitleType').eq(0).addClass("indexInviteTitleType-this");
+			var dataUrl = $(item).find('.indexInviteTitleType').eq(0).attr("data-url")
+			$(item).find('a').attr('href', dataUrl);
+		})
+		$('.indexInviteCon').each(function (index, item) {
+			$(item).find('.inviteTypeCon').eq(0).show();
+		})
+		$('.noticeList').each(function () {
+			$(this).find("a").attr("href", $(this).find('.noticeTitle .noticeTitleType').eq(0).attr("data-url"))
+			$(this).find('.noticeTitle .noticeTitleType').eq(0).addClass("noticeTitleType-this");
+			$(this).find('.noticeCon').hide();
+			$(this).find('.noticeCon').eq(0).show();
+		})
+		
+		// 加载浮动图片
+		loadRollPic({elemid: '_rollpicdiv'})
+	})
+	
+	/**
+	 * 根据ID跳转页面
+	 * @param preUrl 跳转前缀url
+	 * @param id 跳转页面数据ID
+	 */
+	function windowOpenById(preUrl, id) {
+		windowOpen(contextPath + preUrl + '?id=' + id);
+	}
+
+	/**
+	 * 打开校外招聘会
+	 */
+	function openXwzph(url){
+		if (isNotBlank(url)){
+			windowOpen(url);
+		}
+	}
+	
+	$('#yxjsClose').click(function () {
+		$('.modal-box').hide();
+	})
+	$(window).scroll(function () {
+		let top = Math.trunc($(this).scrollTop());
+		if (top > 40) {
+			$('#yxjs').hide();
+		} else {
+			$('#yxjs').show();
+		}
+		/**
+		 let boxTop = Math.trunc($('.modal-box').attr('scrollTop2')) || 0;
+		 if($('.modal-box').css('display') === 'block'){
+
+            if(top<boxTop){
+            	$('.modal-box').hide();
+            	$('.modal-box').attr('scrollTop2',top);
+            	console.log(top-boxTop,'1')
+            }else{
+            	console.log(top-boxTop,'2')
+            }
+    	}
+		 */
+	})
+</script>
+<!-- 百度统计 -->
+<script>
+</script>
+</html>

@@ -1,0 +1,2443 @@
+[
+  {
+    "id": "role_be14ab781425",
+    "name": "科研岗（博士后/研究助理）",
+    "tier": "P1",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_d00304fb77e7",
+    "name": "算法工程师",
+    "tier": "P1",
+    "sample_n": 22,
+    "evidence_level": "full",
+    "practitioner_author_n": 2,
+    "daily_work_n": 11,
+    "missing": [
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_2090996d1765",
+    "name": "医疗产品技术支持",
+    "tier": "P1",
+    "sample_n": 38,
+    "evidence_level": "partial",
+    "practitioner_author_n": 1,
+    "daily_work_n": 9,
+    "missing": [
+      "从业者本人经历仍少于2不同作者",
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+      "metrics未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_c0c760f18848",
+    "name": "医学事务/医学信息",
+    "tier": "P1",
+    "sample_n": 17,
+    "evidence_level": "partial",
+    "practitioner_author_n": 2,
+    "daily_work_n": 8,
+    "missing": [
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full"
+    ]
+  },
+  {
+    "id": "role_cbb4a0d86429",
+    "name": "药物分析",
+    "tier": "P1",
+    "sample_n": 17,
+    "evidence_level": "full",
+    "practitioner_author_n": 3,
+    "daily_work_n": 13,
+    "missing": [
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_bd628efdd859",
+    "name": "临床协调员",
+    "tier": "P1",
+    "sample_n": 13,
+    "evidence_level": "full",
+    "practitioner_author_n": 2,
+    "daily_work_n": 8,
+    "missing": [
+      "metrics未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_ef5c6af42122",
+    "name": "医药代表",
+    "tier": "P1",
+    "sample_n": 28,
+    "evidence_level": "full",
+    "practitioner_author_n": 3,
+    "daily_work_n": 15,
+    "missing": [
+      "growth未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_210642b89818",
+    "name": "临床监查员",
+    "tier": "P1",
+    "sample_n": 19,
+    "evidence_level": "full",
+    "practitioner_author_n": 2,
+    "daily_work_n": 10,
+    "missing": [
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_e29b61e76c97",
+    "name": "针灸推拿",
+    "tier": "P1",
+    "sample_n": 8,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_9532388099aa",
+    "name": "医学理赔/核保",
+    "tier": "P1",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 2,
+    "daily_work_n": 8,
+    "missing": [
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_93694edfe3ec",
+    "name": "产品经理",
+    "tier": "P1",
+    "sample_n": 18,
+    "evidence_level": "partial",
+    "practitioner_author_n": 1,
+    "daily_work_n": 9,
+    "missing": [
+      "从业者本人经历仍少于2不同作者",
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_5d54e69fbc7f",
+    "name": "健康顾问",
+    "tier": "P1",
+    "sample_n": 13,
+    "evidence_level": "partial",
+    "practitioner_author_n": 1,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者本人经历仍少于2不同作者",
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+      "metrics未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_1e1b19b79c5b",
+    "name": "药物合成",
+    "tier": "P1",
+    "sample_n": 13,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_b739b41ecdff",
+    "name": "药品注册",
+    "tier": "P1",
+    "sample_n": 8,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_f9fa1c88d02a",
+    "name": "营养师/健康管理师",
+    "tier": "P1",
+    "sample_n": 19,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_5f6a390e3430",
+    "name": "制剂研发",
+    "tier": "P1",
+    "sample_n": 14,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_af811abd2b99",
+    "name": "康复治疗师",
+    "tier": "P1",
+    "sample_n": 11,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_c040cd053783",
+    "name": "药物警戒",
+    "tier": "P1",
+    "sample_n": 5,
+    "evidence_level": "full",
+    "practitioner_author_n": 2,
+    "daily_work_n": 8,
+    "missing": [
+      "growth未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_c14af42bd719",
+    "name": "生物信息工程师",
+    "tier": "P1",
+    "sample_n": 9,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 9,
+    "missing": [
+      "从业者本人经历仍少于2不同作者",
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_a7299aee7c35",
+    "name": "数据标注/AI训练师",
+    "tier": "P1",
+    "sample_n": 10,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_489221a0bdd9",
+    "name": "医学编辑",
+    "tier": "P1",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_71c8e09014f8",
+    "name": "保险理赔",
+    "tier": "P1",
+    "sample_n": 13,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_8f7c7258beb3",
+    "name": "医学AI/生物医学大模型",
+    "tier": "P1",
+    "sample_n": 9,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_ca4821da2106",
+    "name": "理疗师",
+    "tier": "P1",
+    "sample_n": 10,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_952b7d40716d",
+    "name": "药理毒理研究员",
+    "tier": "P1",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_b2900cdc15b9",
+    "name": "大模型算法",
+    "tier": "P1",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_be3bfc4de8aa",
+    "name": "临床医学经理/专员",
+    "tier": "P1",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_8bad0ae01069",
+    "name": "公共卫生/疾控",
+    "tier": "P1",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_a268855b6bd7",
+    "name": "期刊/学术编辑",
+    "tier": "P1",
+    "sample_n": 7,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_032e57fa68ea",
+    "name": "医疗器械销售",
+    "tier": "P1",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 10,
+    "missing": [
+      "从业者本人经历仍少于2不同作者",
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_d5b1642664ee",
+    "name": "医疗机构运营管理",
+    "tier": "P1",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_b3a897e610b8",
+    "name": "生物学研究人员",
+    "tier": "P1",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_255bd351bfc1",
+    "name": "医学运营",
+    "tier": "P1",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_3984f026debe",
+    "name": "药品生产",
+    "tier": "P1",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_4b3f7624c815",
+    "name": "心理咨询师",
+    "tier": "P1",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_b834820b7068",
+    "name": "医美咨询",
+    "tier": "P1",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_e72f8347e452",
+    "name": "英语翻译",
+    "tier": "P1",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_ac29e30a089f",
+    "name": "试剂研发",
+    "tier": "P1",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_4db8b06222ed",
+    "name": "医保/医院管理",
+    "tier": "P1",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_7605c1bad8bc",
+    "name": "临床数据管理/生物统计",
+    "tier": "P1",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_1549b85dbb22",
+    "name": "药店店员",
+    "tier": "P1",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_2c711929d6c9",
+    "name": "算法研究员",
+    "tier": "P1",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_93064f6b2dce",
+    "name": "医务管理",
+    "tier": "P1",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_a64eeebbcdb1",
+    "name": "医药项目经理",
+    "tier": "P1",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_92aeb4b66a87",
+    "name": "图像算法",
+    "tier": "P1",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 1,
+    "daily_work_n": 4,
+    "missing": [
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数",
+      "从业者本人经历仍少于2不同作者",
+      "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+      "metrics未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_b98a9f70c22e",
+    "name": "医学写作",
+    "tier": "P1",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_d9ab6dc6262c",
+    "name": "医疗器械注册",
+    "tier": "P1",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 1,
+    "daily_work_n": 9,
+    "missing": [
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "从业者本人经历仍少于2不同作者",
+      "metrics未找到可入卡本人经历证据，留空",
+      "growth未找到可入卡本人经历证据，留空",
+      "risks未找到可入卡本人经历证据，留空"
+    ]
+  },
+  {
+    "id": "role_f0abdd3b5d94",
+    "name": "执业药师/驻店药师",
+    "tier": "P1",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_d78cd6d4558a",
+    "name": "口腔咨询师",
+    "tier": "P1",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_1644adc6b4fe",
+    "name": "医药市场（产品/品牌）",
+    "tier": "P1",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_f6be1d56f8ad",
+    "name": "教师",
+    "tier": "P2",
+    "sample_n": 59,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_7313f8dd0a24",
+    "name": "软件开发工程师（未细分）",
+    "tier": "P2",
+    "sample_n": 24,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_5e6b846fc3bb",
+    "name": "机械工程师",
+    "tier": "P2",
+    "sample_n": 23,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_13ef4c2fa681",
+    "name": "市场营销策划",
+    "tier": "P2",
+    "sample_n": 22,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_61b69c138379",
+    "name": "人力资源专员/助理",
+    "tier": "P2",
+    "sample_n": 17,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_7f03f206eab8",
+    "name": "信息安全工程师",
+    "tier": "P2",
+    "sample_n": 11,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_0b155f51df06",
+    "name": "自动化工程师",
+    "tier": "P2",
+    "sample_n": 18,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_17d41ed9c15b",
+    "name": "高校教师/辅导员",
+    "tier": "P2",
+    "sample_n": 18,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_b07b677e5ce5",
+    "name": "管理培训生",
+    "tier": "P2",
+    "sample_n": 35,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_ab57c82ea865",
+    "name": "英语教师",
+    "tier": "P2",
+    "sample_n": 13,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_f71452ca776d",
+    "name": "工程造价",
+    "tier": "P2",
+    "sample_n": 13,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_14ad54c25b4f",
+    "name": "行政专员/助理",
+    "tier": "P2",
+    "sample_n": 33,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_9f63221e9807",
+    "name": "人工智能工程师（未细分）",
+    "tier": "P2",
+    "sample_n": 8,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_51fbcf3a47bf",
+    "name": "编辑",
+    "tier": "P2",
+    "sample_n": 26,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_bff81af0cca7",
+    "name": "实验室/检测技术员",
+    "tier": "P2",
+    "sample_n": 13,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_7e4d0c2e275b",
+    "name": "项目经理/主管",
+    "tier": "P2",
+    "sample_n": 12,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_e428230212eb",
+    "name": "新媒体运营",
+    "tier": "P2",
+    "sample_n": 12,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_b9da63c7e5ab",
+    "name": "会计",
+    "tier": "P2",
+    "sample_n": 12,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_1a5292b9b3af",
+    "name": "礼仪/迎宾/接待",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_cf3239c8f52e",
+    "name": "物理教师",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_910e37828584",
+    "name": "物流专员",
+    "tier": "P2",
+    "sample_n": 7,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_2a63fb2b5935",
+    "name": "医疗器械生产/质量管理",
+    "tier": "P2",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_7c4743f59761",
+    "name": "网络工程师",
+    "tier": "P2",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_f5c7902ef580",
+    "name": "销售工程师",
+    "tier": "P2",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_8f7b867b3fe2",
+    "name": "国内电商运营",
+    "tier": "P2",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_b27061a9d8d9",
+    "name": "化学教师",
+    "tier": "P2",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_44a52e250597",
+    "name": "通信技术工程师",
+    "tier": "P2",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_767bdb61d27a",
+    "name": "商务专员",
+    "tier": "P2",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_7afcc0bfd114",
+    "name": "工艺工程师",
+    "tier": "P2",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_97f7ed96fd4b",
+    "name": "数据采集",
+    "tier": "P2",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_ab89209f2475",
+    "name": "电子工程师",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_3bd81cf60b64",
+    "name": "法务专员/助理",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_5843df567a4c",
+    "name": "审计",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_777d456d8873",
+    "name": "体育/体能老师",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_211edc71b8c8",
+    "name": "土木/土建/结构工程师",
+    "tier": "P2",
+    "sample_n": 4,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_b76200fd9423",
+    "name": "客户经理",
+    "tier": "P2",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_1055606ff1cb",
+    "name": "数学教师",
+    "tier": "P2",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_19de12ae46b4",
+    "name": "社工",
+    "tier": "P2",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_f2ad2ba193a7",
+    "name": "数据分析师",
+    "tier": "P2",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_97565a64824a",
+    "name": "电气工程师",
+    "tier": "P2",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_0bf0a0ca7626",
+    "name": "质检员",
+    "tier": "P2",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_347695d219d3",
+    "name": "环保工程师",
+    "tier": "P2",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_77431b045fd8",
+    "name": "保育员",
+    "tier": "P2",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_0be87bd4faca",
+    "name": "建筑设计师",
+    "tier": "P2",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_7c783ffee029",
+    "name": "律师助理",
+    "tier": "P2",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_818bb2b6431f",
+    "name": "运维工程师",
+    "tier": "P3",
+    "sample_n": 8,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_0d58637059e7",
+    "name": "知识产权/专利/商标代理人",
+    "tier": "P3",
+    "sample_n": 6,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_1bb851e19eac",
+    "name": "园林/景观设计",
+    "tier": "P3",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_4a4bd06fcf28",
+    "name": "项目专员/助理",
+    "tier": "P3",
+    "sample_n": 5,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_c3737ae6f0e0",
+    "name": "课程顾问",
+    "tier": "P3",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_44c2021b8892",
+    "name": "美容师",
+    "tier": "P3",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_777b90589a72",
+    "name": "教学管理",
+    "tier": "P3",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_2de18e0b9fba",
+    "name": "作者/撰稿人",
+    "tier": "P3",
+    "sample_n": 3,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+    ]
+  },
+  {
+    "id": "role_ac7bb39752c8",
+    "name": "测试工程师",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_8ba653d9f2c2",
+    "name": "网络安全",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_47f25e21e623",
+    "name": "硬件工程师",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 6,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_af168310e917",
+    "name": "销售专员",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_e79c66a4a089",
+    "name": "销售经理/主管",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_dc0c985673a2",
+    "name": "经理助理",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_a3c2c87e3f83",
+    "name": "文员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_1a2db5b65432",
+    "name": "舞蹈老师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_ae6067e2e2e8",
+    "name": "花艺师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_ef1017de7577",
+    "name": "计调",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_cf3c2dd93e35",
+    "name": "助教",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_1c4b25462f84",
+    "name": "物流/仓储项目经理",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_26c82e9b153f",
+    "name": "投资经理",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 8,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_d33b8663929f",
+    "name": "法语翻译",
+    "tier": "P3",
+    "sample_n": 2,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 5,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前2份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_66cf5d8cdc28",
+    "name": "细胞培养员",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_21fac504cd67",
+    "name": "C/C++",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_8d93f344b4da",
+    "name": "系统工程师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_6e15ec8fd337",
+    "name": "数据开发",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_2769f6d780a8",
+    "name": "技术经理",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_7736629fb826",
+    "name": "电路设计",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_1d099b790f8a",
+    "name": "系统集成",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_2054d278b3cb",
+    "name": "机电工程师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_35625fe7948e",
+    "name": "硬件产品经理",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_c1e743aa5fbd",
+    "name": "售后客服",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_488f092e89df",
+    "name": "运营助理/专员",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_9c9bb8267075",
+    "name": "网站运营",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_e606b31b9b23",
+    "name": "运营经理/主管",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_5c5e5cc3276d",
+    "name": "销售助理",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_680e04535719",
+    "name": "销售运营",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_9c738eb66ed9",
+    "name": "商务经理",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_efa1134a447e",
+    "name": "外贸业务员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_828178b6c4a1",
+    "name": "HRBP",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_2b79c3c3c183",
+    "name": "行政经理/主管",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 3,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_d0ac88cb7682",
+    "name": "前台",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_bb2a52c39901",
+    "name": "税务",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_e8a94e55a03f",
+    "name": "风控",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_f82f935efe78",
+    "name": "车工",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_3c9e5999a97e",
+    "name": "实验室技术员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_5e5771befe25",
+    "name": "体系工程师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_6c3ed13d29f5",
+    "name": "材料工程师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_cafc0036bd46",
+    "name": "化工工程师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_4603261ad5d1",
+    "name": "环境采样/检测员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 1,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_17acdb670cc9",
+    "name": "店员/营业员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_24ab31aa83ee",
+    "name": "养发师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_1c801156e5bb",
+    "name": "安检员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_e1857f183422",
+    "name": "讲解员",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_a6c0331c69ef",
+    "name": "小学教师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 2,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_9861c2c4e7d7",
+    "name": "设计师助理",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_3a0d18992bfa",
+    "name": "工业设计",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_8baad38759b6",
+    "name": "施工员",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_dfd3ca2846ff",
+    "name": "测绘/测量",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_ae3f6cc350fe",
+    "name": "主播",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_a9224748995d",
+    "name": "导演/编导",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 7,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_47e57a8a3a10",
+    "name": "编剧",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_52ed10719e79",
+    "name": "记者/采编",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_f12a8c8187eb",
+    "name": "采购专员/助理",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_0f1b6d543bb9",
+    "name": "西班牙语翻译",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_e5741d740999",
+    "name": "分公司/代表处负责人",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_8682d02921a9",
+    "name": "通信研发工程师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 4,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "招聘正文样本不足3：当前1份；联网补抓未执行"
+    ]
+  },
+  {
+    "id": "role_fdd43d036c57",
+    "name": "文案编辑",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_a73ac2e72c39",
+    "name": "日语教师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_e50caa92db33",
+    "name": "早教老师",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_58d5b039c9ba",
+    "name": "培训师",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_728ca8082e37",
+    "name": "城乡规划设计",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_f8000c69b3b1",
+    "name": "政策研究",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_4b59d77750ec",
+    "name": "投资助理",
+    "tier": "P3",
+    "sample_n": 1,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前1份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  },
+  {
+    "id": "role_faaf9e2e8d4e",
+    "name": "日语翻译",
+    "tier": "P3",
+    "sample_n": 0,
+    "evidence_level": "partial",
+    "practitioner_author_n": 0,
+    "daily_work_n": 0,
+    "missing": [
+      "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+      "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+      "未抽出职责句，plain_language与daily_work留空",
+      "招聘正文样本不足3：当前0份；联网补抓未执行",
+      "可核职责少于4条，不凑数"
+    ]
+  }
+]

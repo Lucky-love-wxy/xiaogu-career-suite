@@ -1,0 +1,20 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.906,
+  "access_date": "2026-10-12",
+  "sha256": "94e1679aad76deef319e8f1247b402e98f48bbc9663f95fd08b017ca7963ba27",
+  "blocked": null,
+  "id": "baichuan-event-refine",
+  "company": "baichuan",
+  "query": "\"百川智能\" 2026 医疗 融资 收缩",
+  "include_domains": [
+    "yicai.com",
+    "cls.cn"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/baichuan-event-refine.json"
+}

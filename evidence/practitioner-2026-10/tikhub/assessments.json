@@ -1,0 +1,32 @@
+[
+  {
+    "source_file": "tikhub/details/detail-005-0.json",
+    "role": "医疗产品技术支持",
+    "accepted": false,
+    "reason": "正文只有话题标签，未审图，不能仅凭标题认定本人任务。"
+  },
+  {
+    "source_file": "tikhub/details/detail-007-0.json",
+    "role": "医疗产品技术支持",
+    "accepted": false,
+    "status": "pending_overseas_transfer_scope",
+    "reason": "本人欧洲现场支持任务明确，中国职业身份未核；brief2.4暂准10个角色名单未含本角色，等待主agent可迁移对照结论。",
+    "potential_task_quotes": [
+      "帮医生调整一下设备现场设置",
+      "收集一下市场反馈",
+      "归纳整理一下当天的现场情况"
+    ]
+  },
+  {
+    "source_file": "tikhub/details/detail-012-0.json",
+    "role": "临床监查员",
+    "accepted": false,
+    "reason": "作者在结尾明说前文是理想化监查日常，不能取其EDC录入/无午休/07-22时间表；末尾电话/tracker/催进度/监查/会议泛列举无可辨识本人具体经历，保守不计作者。"
+  },
+  {
+    "source_file": "tikhub/details/detail-014-0.json",
+    "role": "临床监查员",
+    "accepted": false,
+    "reason": "新人账号自我介绍，承诺今后记录出差/感悟，无具体已发生任务或场景；未审图，不用图片猜经历。"
+  }
+]

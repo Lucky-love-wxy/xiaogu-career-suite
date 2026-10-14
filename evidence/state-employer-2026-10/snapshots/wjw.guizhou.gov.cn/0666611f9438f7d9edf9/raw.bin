@@ -1,0 +1,1361 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>贵州省卫生健康委员会</title>
+<meta name="SiteName" content="贵州省卫生健康委员会">
+<meta name="SiteDomain" content="wjw.guizhou.gov.cn">
+<meta name="SiteIDCode" content='5200000034'>
+<meta name="keywords" content="贵州省卫生和计划生育委员会网站,卫生和计划生育委员会网站">
+<meta name="description" content="根据《中共中央办公厅国务院办公厅关于印发〈贵州省人民政府职能转变和机构改革方案〉的通知》(厅字〔2014〕13号)和《中共贵州省委贵州省人民政府关于省人民政府职能转变和机构改革的实施意见》(黔党发〔2014〕3号)，设立贵州省卫生和计划生育委员会，为省人民政府组成部门。">
+<!--栏目标签-->
+<meta name="ColumnName" content="贵州省卫生健康委员会">
+<meta name="ColumnType" content="贵州省卫生健康委员会">
+<meta name="ColumnKeywords" content="贵州省卫生健康委员会">
+<meta name="ColumnDescription" content="公开贵州省卫生健康委员会信息">
+
+<!--link rel="icon" href="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/favicon.ico" type="image/gif" ignoreapd="1" /-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="/material/trsigi/js/sm2.js"></script>
+
+<script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/jquery.SuperSlide.2.1.3.js"></script>
+<script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/wow.min.js"></script>
+<script type="text/javascript" src="/material/trsigi/layui/layui.js"></script>
+<script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/index.js"></script>
+<script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/mobile_index.js"></script>
+<link rel="stylesheet" type="text/css" href="/material/trsigi/layui/css/layui.css" />
+<script type="text/javascript">
+	var layer;
+	layui.use('layer', function(){
+	  	layer = layui.layer;
+	});
+</script>
+
+
+<!-- 省政府字体倾斜插件 -->
+<script type="text/javascript" src="//www.guizhou.gov.cn/images/Arctext.js"></script>
+<script>
+/*添加归档图章*/
+function SetIsArchive() {
+	let DocIsArchive = ($("meta[name='DocIsArchive']").length>0)?($("meta[name='DocIsArchive']").attr("content").split("|")):[0,0];
+	let ChannelIsArchive = ($("meta[name='ChannelIsArchive']").length>0)?($("meta[name='ChannelIsArchive']").attr("content").split("|")):[0,0];
+	if(parseInt(DocIsArchive[0]) == 1){
+		AddArchiveHtml(DocIsArchive[1]);
+	}else if(parseInt(ChannelIsArchive[0]) == 1){
+		//AddArchiveHtml(ChannelIsArchive[1]);
+		if(ChannelIsArchive[1] && ChannelIsArchive[1].indexOf('归档时间【')>-1){
+			let gdsj = ChannelIsArchive[1].substring(ChannelIsArchive[1].indexOf('归档时间【')+5,ChannelIsArchive[1].indexOf('】'));
+			AddArchiveHtml(gdsj);
+		}else{
+			AddArchiveHtml(ChannelIsArchive[2]);
+		}
+	}
+}
+/*填充图章html结构，根据图章情况编写*/
+function AddArchiveHtml(date) {
+	$("body").append(`
+		 <div class="ArchiveGdPart">
+            <p>`+ date +`</p>
+            <style type="text/css">
+                .ArchiveGdPart{ position: absolute; width: 200px; background: url(//www.guizhou.gov.cn/images/gd_red.png) no-repeat center top; padding: 120px 0 25px; z-index: 99; top: 380px; right: 50%; margin-right:-532px; transform: rotateZ(-20deg); }
+                .ArchiveGdPart p{ font-size: 12px; color: #F00; display: block; text-align: center; line-height: 20px; letter-spacing: -1px;}
+                @media screen and (max-width:750px ) {
+                    .ArchiveGdPart{margin-right: 0px;right: 0;zoom: 0.7;}
+                }
+            </style>
+            
+        </div>
+	`);
+	$(".ArchiveGdPart p").arctext({dir:0,radius:60}); // 执行文字弯曲
+}
+$(function () {
+
+
+        // 加载归档图章
+        SetIsArchive();
+
+    });
+</script>
+<script src="/material/siteFile/web2022/images/hyMailbox.js"></script>
+<link rel="stylesheet" type="text/css" href="/material/siteFile/web2022/images/index_v1.css?t=2" />
+<style>
+.HomeHfBox,.HomeHfBox .bd,.HomeHfBox .bd ul{height:auto;}
+.HomeHfBox .bd ul, .HomeHfBox .bd ul li, .HomeHfBox .bd ul li img{height:auto;}
+/*广告*/
+.guanggao {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    display:none;
+}
+
+.guanggao img {
+    width: 100%;
+}
+
+.guanggao span {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: 587px;
+    background: url(//gat.guizhou.gov.cn/material/siteFile/2022/images/close.png) left center no-repeat;
+}
+
+.guanggao span:hover {
+    font-weight: bold;
+}
+.HomeHfBox>a.hf_prev,.HomeHfBox>a.hf_next{display:none;}
+
+@media screen and (max-width:750px ) {
+     .guanggao.{max-width: 100%;}
+     .guanggao img{width:100%;}
+     .guanggao span{padding-left: 25px;font-size: 14px;left: auto;right: 10px;top: 0px;margin-left: 0px;background-size: 20px;}
+     .guanggao span:hover{font-weight: bold;}
+.health_img a img{height:50px !important;}
+.HomeHfBox .bd ul, .HomeHfBox .bd ul li, .HomeHfBox .bd ul li img{        height: auto !important;    min-height: 7vh;}
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="/material/siteFile/web2022/images/mobile_index.css?t=2" name="mobile" media="screen and (max-width:600px)" />
+
+</head>
+
+<body class="ScrollStyle">
+<div id="NewsEditionNumber" style="display:none;">5922767</div>
+<div id="NewsEditionName" style="display:none;">贵州省卫生健康委员会</div>
+<div class="warp"> 
+        <div class="guanggao">
+                <a href="https://wjw.guizhou.gov.cn/ztzl_500663/xxgcxjpxsdtsshzysxztjy/" target="_blank"><img src="/images/swjw_index_top_ztlink.jpg" /></a>
+		<span>关闭</span>
+		<script type="text/javascript">
+			$(".guanggao span").click(function(){
+				$(".guanggao").remove();
+			})
+		</script>
+	</div>
+	<!--头部-->
+    <div class="TopMain aBox">
+    
+    <!--顶部信息条-->
+    <div class="dbText aBox">
+        <div class="w1200 aBox auto">
+            
+            <div class="Top_Btns aBox f_l">
+                <ul>
+                    <li>今天是：<font class="Top_Date"></font>&ensp;<font class="Top_Time">00:00:00</font>&ensp;农历：<font class="Top_Lunar"></font></li>
+                    <script type="text/javascript" src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/calendar.js"></script>
+                    <script type="text/javascript">
+                        var _TheLunar = calendar.solar2lunar();
+                        $(".Top_Date").html(_TheLunar.cYear+"年"+_TheLunar.cMonth+"月"+_TheLunar.cDay+"日");
+                        $(".Top_Lunar").html(_TheLunar.gzYear+"年"+"("+ _TheLunar.Animal +")"+_TheLunar.IMonthCn+_TheLunar.IDayCn);
+                        window.onload=function showTime(){
+                            var TimeNow = new Date();
+                            var Top_Time = (TimeNow.getHours()<10?'0'+TimeNow.getHours():TimeNow.getHours())+':'+(TimeNow.getMinutes()<10?'0'+TimeNow.getMinutes():TimeNow.getMinutes())+':'+(TimeNow.getSeconds()<10?'0'+TimeNow.getSeconds():TimeNow.getSeconds());
+                            $(".Top_Time").html(Top_Time);
+                            setTimeout(showTime,1000);
+                        }
+                    </script>
+                </ul>
+            </div>
+            <div class="Top_Btns f_r">
+                <ul>
+                    <li><a href="https://www.gov.cn" target="_blank">中国政府网</a></li>
+                    <li>丨</li>
+                    <li><a href="https://www.guizhou.gov.cn" target="_blank">贵州省人民政府网</a></li>
+                    <li class="Personl">
+                        <a id="personText" style="cursor: pointer;"
+            onClick="javascript:window.open('https://smrz.zwfw.guizhou.gov.cn/sso/login?utype=0&redirect=istrue&client_id=MBFSQUBNF&goto='+window.location.href.replace(/\&/g,'?'),'_top')">个人中心</a>
+                        <script type="text/javascript">
+                            var ZuJi_SSOKye = $.grep(document.location.href.split('?'), function( a ) {
+                                return a.indexOf("=") == -1;
+                            });
+                            if(ZuJi_SSOKye[1]&&ZuJi_SSOKye[1]!=''){
+                                setCookie('SSOSign', ZuJi_SSOKye[1]);
+                                ZuJi_Main({Reset:true});
+                            }else{
+                                ZuJi_Main({Reset:false});
+                            }                        
+                        </script>
+                    </li>
+                </ul>
+        	</div>
+        </div>
+    </div>
+    
+    <!--头部主体部分-->
+    <div class="topCon aBox auto w1200">
+        <!--LOGO-->
+        <div class="Home_Logo aBox">
+            <a href="/"><img src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/Home_Logo.png" /></a>
+        </div>
+        
+        <!--一网通办-->
+        <div class="YwtbBtn"><a href="https://zwfw.guizhou.gov.cn/bmqjd/35101.html?areacode=520000" target="_blank"><img src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/Top_ico_4.png" /></a></div>
+        
+        <!--检索-->
+        <div class="Home_Search aBox">
+            <div class="SeInBox aBox">
+                <input type="text" placeholder="请输入检索关键字" autocomplete="off" id="keyword" onkeydown="entersearch()" />
+                <a class="but" onclick="searchval()">搜索一下</a>
+            </div>
+            <div class="HotWords aBox">
+                <ul>
+                 
+                    <li><a>生育政策</a></li>
+                    <li>丨</li>
+                    <li><a>疾病防控</a></li>
+                    <li>丨</li>
+                    <li><a>医保政策</a></li>
+                    <li>丨</li>
+                    <li><a>食品安全标准</a></li>
+                    <li>丨</li>
+                    <li><a>职业病查询</a></li>
+                </ul>
+                <script type="text/javascript">
+                    $(".HotWords a").each(function(){
+                        $(this).attr("href","/so/search.shtml?tenantId=285&tenantIds=&configTenantId=&searchWord=" + $(this).html()).attr("target","_blank");
+                    })
+                </script>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+	 
+    
+    <!--导航-->
+    <div class="NavBox Box">
+        <div class="aBox w1200 auto">
+            <ul id="NavUl">       
+                <li><a href="/">首&ensp;页</a></li>
+                <li><a href="https://wjw.guizhou.gov.cn/xwzx/">新闻中心</a></li>
+                <li><a href="https://wjw.guizhou.gov.cn/zwgk/">政务公开</a></li>
+                <li><a href="https://wjw.guizhou.gov.cn/ywgz/">业务工作</a></li>
+                <li><a href="https://wjw.guizhou.gov.cn/zwfw/">政务服务</a></li>
+                <li><a href="https://wjw.guizhou.gov.cn/gzcy/">公众参与</a></li>
+                <li><a href="https://wjw.guizhou.gov.cn/ztzl_500663/">专题专栏</a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            $(function(){
+                if(isMobile){
+                    calcUlWidth("#NavUl");
+                } 
+            })
+        </script>
+    </div>
+</div>
+    
+    <!--内容开始-->
+    <div class="Main aBox">
+    <style type="text/css">
+       .dl-box{position:fixed;top:495px;    z-index: 100;} .left-box{left:50%;margin-left:-780px;}.right-box{left:50%;margin-left:690px;} .dl-box p{text-align:center;background:#c5c4c4;cursor: pointer;line-height: 30px;}
+       .left-box1{top: 495px;  margin-left: -780px; left: 50%; display:none;} .right-box1{top: 495px;  left:50%;margin-left:690px;}
+    </style>
+    <!--对联开始-->
+    <div class="left-box dl-box">
+         <div><a href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202504/t20250401_87326048.html"><img src="/material/siteFile/images/left_box_dl.jpg" /></a></div>
+         <p class="close_dl_left">关闭</p>
+    </div>
+    <div class="left-box1 dl-box" >
+         <div></div>
+         <p class="close_dl_left1">关闭</p>
+    </div>
+    <div class="right-box dl-box">
+         <div><a href="https://wjw.guizhou.gov.cn/opinion/202503/tOpinion_18117.html"><img src="/material/siteFile/images/right_box_dl.jpg" /></a></div>
+         <p  class="close_dl_right">关闭</p>
+    </div>
+
+    <script>
+           $('.close_dl_right').click(function(){$('.right-box').hide();}) 
+           $('.close_dl_left').click(function(){$('.left-box').hide();})
+        //   $('.close_dl_left1').click(function(){$('.left-box1').hide();})
+         //  $('.close_dl_right1').click(function(){$('.right-box1').hide();})
+    </script>
+    <!--对联结束-->
+        <!--头条-->
+        <div class="HomeHots aBox">
+            <div class="aBox w1200 auto">
+                
+<h1><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/ttxw/202610/t20261011_90975517.html" title="省人民政府关于印发《贵州省国民健康“十五五”规划》的通知（黔府发〔2026〕5号）">省人民政府关于印发《贵州省国民健康“十五五”规划》的通知（黔府发〔2026〕5号）</a></h1>
+<div class="desc">
+    
+        
+    
+    
+        
+            省人民政府关于印发
+　　《贵州省国民健康“十五五”规划》的通知
+　　黔府发〔2026〕5号
+　　各市、自治州人民政府，各县（市、区、特区）人民政府，省政府各部门、各直属机构：
+　　现将《贵州省国民健康“十五...
+        
+    
+</div>
+
+            </div>
+        </div>
+        
+        <!--焦点图、要闻-->
+        <div class="Part1 aBox w1200 auto">
+            <!--焦点图-->
+            <div class="Focus aBox f_l" id="Focus">
+                <div class="bd">
+    <ul>
+        
+            <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260930_90952665.html" title="援所罗门群岛中国医疗队成功救治颅脑损伤危重患者"><img src="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/W020261011513754902510.png"/></a></li>
+        
+            <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260921_90922757.html" title="2026贵州省医疗卫生机构科技成果转化专题培训班在贵阳开班"><img src="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/W020260921355559448369.jpg"/></a></li>
+        
+            <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260917_90886863.html" title="邓麟宇到毕节市调研卫生健康工作"><img src="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/W020260917334163718626.jpg"/></a></li>
+        
+            <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260909_90855209.html" title="贵州省2026年托育服务宣传月启动仪式在遵义举行"><img src="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/W020260914335374223899.jpg"/></a></li>
+        
+            <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260904_90823100.html" title="全省卫生健康重点工作推进会议召开"><img src="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/W020260904680492037709.jpg"/></a></li>
+        
+    </ul>
+</div>
+<div class="bg"></div>
+<ul class="text">
+    
+    <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260930_90952665.html" title="援所罗门群岛中国医疗队成功救治颅脑损伤危重患者">援所罗门群岛中国医疗队成功救治颅脑损伤危重患者</a></li>
+    
+    <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260921_90922757.html" title="2026贵州省医疗卫生机构科技成果转化专题培训班在贵阳开班">2026贵州省医疗卫生机构科技成果转化专题培训班在贵阳开班</a></li>
+    
+    <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260917_90886863.html" title="邓麟宇到毕节市调研卫生健康工作">邓麟宇到毕节市调研卫生健康工作</a></li>
+    
+    <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260909_90855209.html" title="贵州省2026年托育服务宣传月启动仪式在遵义举行">贵州省2026年托育服务宣传月启动仪式在遵义举行</a></li>
+    
+    <li><a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260904_90823100.html" title="全省卫生健康重点工作推进会议召开">全省卫生健康重点工作推进会议召开</a></li>
+    
+</ul>
+                <ul class="num"></ul>
+                <a class="prev"></a>
+                <a class="next"></a>
+            </div>
+            <script type="text/javascript">
+                if(!isMobile){
+                    $(".Focus").slide({titCell:".num",mainCell:".bd ul",targetCell:".text li",effect:"fold",autoPlay:true,autoPage:true})
+                }else{
+                    TouchSlide({ slideCell:"#Focus", titCell:".num", mainCell:".bd ul", effect:"left", autoPlay:true, autoPage:true
+                        ,startFun:function(i){
+                            $("#Focus .text li").eq(i).show().siblings("li").hide();
+                        }
+                    });
+                }
+            </script>
+            
+            <div class="FocusNews aBox f_r">
+                
+                <div class="NewsSlide aBox" id="NewsSlide">
+                    <div class="hd">
+                        <ul>
+                            <li class="T"><a href="https://wjw.guizhou.gov.cn/xwzx/zwyw/">政务要闻</a></li>
+                            <li>丨</li>
+                            <li class="T"><a href="https://wjw.guizhou.gov.cn/xwzx/gzdt/">工作动态</a></li>
+                            <li>丨</li>
+                            <li class="T"><a href="https://wjw.guizhou.gov.cn/xwzx/sndt/">省内动态</a></li>
+                            <li>丨</li>
+                            <li class="T"><a href="https://wjw.guizhou.gov.cn/xwzx/yxfc/">一线风采</a></li>
+                            <li>丨</li>
+                            <li class="T"><a href="https://wjw.guizhou.gov.cn/xwzx/tzgg/">通知公告</a></li>
+                        </ul>
+                    </div>
+                    <div class="bd">
+                        <ul class="ulList aBox">
+                            
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202609/t20260930_90952775.html" title="2026年世界互联网大会乌镇峰会将聚焦开源开放与共建共享">2026年世界互联网大会乌镇峰会将聚焦开源开放与共建共享</a>
+	<span>2026-09-30</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202609/t20260925_90941240.html" title="徐麟在遵义市调研">徐麟在遵义市调研</a>
+	<span>2026-09-25</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202609/t20260919_90910650.html" title="李强主持召开国务院常务会议 听取老龄工作情况汇报等">李强主持召开国务院常务会议 听取老龄工作情况汇报等</a>
+	<span>2026-09-19</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202609/t20260912_90865629.html" title="李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署">李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署</a>
+	<span>2026-09-12</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202609/t20260909_90851075.html" title="携手推进平等有序的世界多极化——习近平主席中亚中东之行推动全球治理倡议走深走实">携手推进平等有序的世界多极化——习近平主席中亚中东之行推动全球治理倡议走深走实</a>
+	<span>2026-09-09</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202609/t20260901_90806413.html" title="李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作时的重要讲话精神">李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作时的重要讲话精神</a>
+	<span>2026-09-01</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202608/t20260828_90792596.html" title="习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩">习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩</a>
+	<span>2026-08-28</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/zwyw/202608/t20260822_90771615.html" title="李强主持召开国务院常务会议 听取新一代通信网建设情况汇报等">李强主持召开国务院常务会议 听取新一代通信网建设情况汇报等</a>
+	<span>2026-08-22</span>
+</li>
+
+                        </ul>
+                        <ul class="ulList aBox">
+                            
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260930_90952732.html" title="贵州省卫生健康委员会与中国联通贵州省分公司签订战略合作协议">贵州省卫生健康委员会与中国联通贵州省分公司签订战略合作协议</a>
+	<span>2026-09-30</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260930_90952665.html" title="援所罗门群岛中国医疗队成功救治颅脑损伤危重患者">援所罗门群岛中国医疗队成功救治颅脑损伤危重患者</a>
+	<span>2026-09-30</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260922_90930742.html" title="省卫生健康委举办抓项目稳投资工作培训班">省卫生健康委举办抓项目稳投资工作培训班</a>
+	<span>2026-09-22</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260922_90927336.html" title="省卫生健康委党组召开9月理论学习中心组集中学习研讨会">省卫生健康委党组召开9月理论学习中心组集中学习研讨会</a>
+	<span>2026-09-22</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260921_90922757.html" title="2026贵州省医疗卫生机构科技成果转化专题培训班在贵阳开班">2026贵州省医疗卫生机构科技成果转化专题培训班在贵阳开班</a>
+	<span>2026-09-21</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260920_90917489.html" title="省人民医院云岩院区关键工程交付暨建设调度专题会议召开">省人民医院云岩院区关键工程交付暨建设调度专题会议召开</a>
+	<span>2026-09-20</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260918_90895411.html" title="2026年网络和数据安全意识培训班举办">2026年网络和数据安全意识培训班举办</a>
+	<span>2026-09-18</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/gzdt/202609/t20260917_90886863.html" title="邓麟宇到毕节市调研卫生健康工作">邓麟宇到毕节市调研卫生健康工作</a>
+	<span>2026-09-17</span>
+</li>
+
+                        </ul>
+                        <ul class="ulList aBox">
+                            
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202610/t20261010_90973168.html" title="优质资源“沉”下去，基层群众有“医”靠">优质资源“沉”下去，基层群众有“医”靠</a>
+	<span>2026-10-10</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260930_90954186.html" title="双重病灶一次切除！广东省中医院贵州医院完成高难度内镜微创手术">双重病灶一次切除！广东省中医院贵州医院完成高难度内镜微创手术</a>
+	<span>2026-09-30</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260924_90937143.html" title="贵州省代表队在浙苏皖赣黔五省住培教学能力竞赛中斩获 18 项殊荣">贵州省代表队在浙苏皖赣黔五省住培教学能力竞赛中斩获 18 项殊荣</a>
+	<span>2026-09-24</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260921_90923540.html" title="贵州68家三级公立综合医院体重管理门诊全覆盖，累计接诊6万余人次｜为民服务办实事">贵州68家三级公立综合医院体重管理门诊全覆盖，累计接诊6万余人次｜为民服务办实事</a>
+	<span>2026-09-21</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260920_90916788.html" title="专业照护，消费补贴  贵州用心用情办好托育民生实事">专业照护，消费补贴  贵州用心用情办好托育民生实事</a>
+	<span>2026-09-20</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260914_90868565.html" title="贵州：普惠托育 放心安心">贵州：普惠托育 放心安心</a>
+	<span>2026-09-14</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260911_90862134.html" title="贵州：借力省外优质医疗资源 赋能县域医疗提质升级">贵州：借力省外优质医疗资源 赋能县域医疗提质升级</a>
+	<span>2026-09-11</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/sndt/202609/t20260909_90850808.html" title="千里送医  国家巡回医疗队把优质诊疗送到群众家门口">千里送医  国家巡回医疗队把优质诊疗送到群众家门口</a>
+	<span>2026-09-09</span>
+</li>
+
+                        </ul>
+                        <ul class="ulList aBox">
+                            
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202609/t20260928_90946279.html" title="大山里建起“放疗舱”！">大山里建起“放疗舱”！</a>
+	<span>2026-09-28</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202609/t20260918_90897583.html" title="面对多家医院无法确诊的“怪病”，贵医附院依托精准微创技术揪出“元凶”">面对多家医院无法确诊的“怪病”，贵医附院依托精准微创技术揪出“元凶”</a>
+	<span>2026-09-18</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202609/t20260907_90824482.html" title="贵阳市口腔医院：“一站式”贴心服务老年患者">贵阳市口腔医院：“一站式”贴心服务老年患者</a>
+	<span>2026-09-07</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202608/t20260828_90794186.html" title="珠海来了位帮扶院长，让务川百姓在家门口看好病">珠海来了位帮扶院长，让务川百姓在家门口看好病</a>
+	<span>2026-08-28</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202608/t20260817_90737237.html" title="大方：帮扶协作打造一体化指挥中心 为急危重症患者架起生命“高速路”">大方：帮扶协作打造一体化指挥中心 为急危重症患者架起生命“高速路”</a>
+	<span>2026-08-17</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202608/t20260813_90728713.html" title="粤黔协作打造重点专科 丹寨群众家门口享优质康复服务">粤黔协作打造重点专科 丹寨群众家门口享优质康复服务</a>
+	<span>2026-08-13</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202608/t20260804_90691506.html" title="暑期带娃手术不用等！ 这家医院推出“潮汐病房”缓解“一床难求”">暑期带娃手术不用等！ 这家医院推出“潮汐病房”缓解“一床难求”</a>
+	<span>2026-08-04</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/yxfc/202607/t20260729_90670752.html" title="从“慌神”到“心安”，山东一家人在贵州感受到家的温暖丨让群众“近”享高水平医疗服务">从“慌神”到“心安”，山东一家人在贵州感受到家的温暖丨让群众“近”享高水平医疗服务</a>
+	<span>2026-07-29</span>
+</li>
+
+                        </ul>
+                        <ul class="ulList aBox">
+                            
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202610/t20261008_90962138.html" title="贵州省卫生健康委关于公开征集卫生健康领域涉黑涉恶违法犯罪线索的通告">贵州省卫生健康委关于公开征集卫生健康领域涉黑涉恶违法犯罪线索的通告</a>
+	<span>2026-10-08</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260930_90952732.html" title="贵州省卫生健康委员会与中国联通贵州省分公司签订战略合作协议">贵州省卫生健康委员会与中国联通贵州省分公司签订战略合作协议</a>
+	<span>2026-09-30</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260923_90934523.html" title="省卫生健康委关于推荐贵州省中毒救治专家委员会专家人选的函">省卫生健康委关于推荐贵州省中毒救治专家委员会专家人选的函</a>
+	<span>2026-09-23</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260920_90921286.html" title="贵州省卫生健康委员会医师资格考试领导小组办公室 2026年医师资格考试医学综合考试“一年两试” 相关事项的公告">贵州省卫生健康委员会医师资格考试领导小组办公室 2026年医师资格考试医学综合考试“一年两试” 相关事项的公告</a>
+	<span>2026-09-20</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260918_90897530.html" title="2026年贵州省健康科普资源库入库作品公示">2026年贵州省健康科普资源库入库作品公示</a>
+	<span>2026-09-18</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260917_90893596.html" title="2026年贵州省第六届健康科普作品征集大赛获奖名单公示">2026年贵州省第六届健康科普作品征集大赛获奖名单公示</a>
+	<span>2026-09-17</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260917_90886961.html" title="关于健康知识普及行动——2026年新时代健康科普作品征集活动推荐作品名单的公示">关于健康知识普及行动——2026年新时代健康科普作品征集活动推荐作品名单的公示</a>
+	<span>2026-09-17</span>
+</li>
+
+<li>
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/xwzx/tzgg/202609/t20260909_90854616.html" title="关于公布省卫生健康委选聘贵州健康报传媒有限责任公司总编辑笔试成绩及资格复审安排的通知">关于公布省卫生健康委选聘贵州健康报传媒有限责任公司总编辑笔试成绩及资格复审安排的通知</a>
+	<span>2026-09-09</span>
+</li>
+
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        if(!isMobile){
+                            $(".NewsSlide").slide({titCell:".hd li.T",mainCell:".bd",effect:"fold"})
+                        }else{
+                            calcUlWidth("#NewsSlide .hd ul");
+                            TouchSlide({ slideCell:"#NewsSlide", titCell:".hd li.T", mainCell:".bd", effect:"left"
+                                ,startFun:function(i){
+                                    $("#NewsSlide .hd li.T").eq(i).addClass("on").siblings("li").removeClass("on");
+                                },endFun:function(i){
+                                    if(i>=2){
+                                        $("#NewsSlide .hd").animate({scrollLeft: $("#NewsSlide .hd ul").scrollLeft() + $("#NewsSlide .hd li.T").eq(i).position().left},200);
+                                    }else{
+                                        $("#NewsSlide .hd").animate({scrollLeft: 0},200);
+                                    }
+                                }       
+                            });
+                        }
+                    </script>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+
+         <!--横幅-->
+        <div class="Part2 HomeHfBox aBox w1200 auto" id="HomeHfBox">
+            <div class="bd">
+                <ul>
+                    
+                </ul>
+            </div>
+            <ul class="hd"></ul>
+            <a class="hf_prev"></a>
+            <a class="hf_next"></a>
+            <script type="text/javascript">
+                $(".HomeHfBox").slide({titCell:".hd", mainCell:".bd ul", effect:"fold", autoPage:true, autoPlay:true, prevCell:".hf_prev", nextCell:".hf_next"})
+            </script>
+        </div>
+        
+        <!--机构设置等按钮-->
+        <div class="HotBtns aBox w1200 auto">
+            <ul>
+                <li class="btn1"><a href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/jgsz/"><h1><img src="/material/siteFile/web2022/images/Home_ico_1.png" /></h1><p>机构设置</p></a></li>
+                <li class="btn2"><a href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/ldjj/"><h1><img src="/material/siteFile/web2022/images/Home_ico_2.png" /></h1><p>领导信息</p></a></li>
+                <li class="btn3"><a href="https://www.gov.cn/zhengce/index.htm" target="_blank"><h1><img src="/material/siteFile/web2022/images/Home_ico_3.png" /></h1><p>国务院文件</p></a></li>
+                <li class="btn4"><a href="https://www.gov.cn/pushinfo/v150203/index.htm" target="_blank"><h1><img src="/material/siteFile/web2022/images/Home_ico_4.png" /></h1><p>国务院信息</p></a></li>
+                <li class="btn5"><a href="https://www.guizhou.gov.cn/zwgk/zcfg/szfwj/" target="_blank"><h1><img src="/material/siteFile/web2022/images/Home_ico_5.png" /></h1><p>省政府文件</p></a></li>
+            </ul>
+        </div>
+        
+        <!--政务公开、政务服务、互动交流-->
+        <div class="Part3 aBox">
+            <div class="w1200 auto aBox">
+                <div class="PartHd">
+                    <div class="onBar"></div>
+                    <ul>
+                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/"><font>政务公开</font></a></li>
+                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/"><font>政务服务</font></a></li>
+                        <li><a href="https://wjw.guizhou.gov.cn/gzcy/"><font>公众参与</font></a></li>
+                    </ul>
+                </div>
+
+                <div class="PartBd">
+                    <div class="ZwgkPart aBox">
+                        <div class="MobilePartHd none">
+                            <h1><a href="https://wjw.guizhou.gov.cn/zwgk/"><font>政务公开</font></a></h1>
+                        </div>
+                        <div class="mobileBg">
+                            <div class="Part_T">
+                                <!--政策文件-->
+                                <div class="ZcwjPart aBox f_l">
+                                    <div class="Tit aBox">
+                                        <h1><a href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/">政策文件</a></h1>
+                                        <div class="zcSearch aBox f_r">
+                                            <label>我要找政策:</label>
+                                            <input type="text" name="ZcwjKeyWords" placeholder="请输入关键词查询政策文件" onkeydown="ZcwjEnterFun()" />
+                                            <script type="text/javascript">
+                                                function ZcwjEnterFun(){
+                                                    var event = window.event || arguments.callee.caller.arguments[0];
+                                                    if (event.keyCode == 13){
+                                                        var ZcSeKey = $("input[name='ZcwjKeyWords']").val();
+                                                        if(ZcSeKey && ZcSeKey!=''){
+                                                            window.location.href = "https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/search.html?title=" + ZcSeKey;
+                                                        }
+                                                    }
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+
+                                    
+
+<div class="NewZc aBox">
+    <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/flfg/202608/t20260826_90781379.html" title="中华人民共和国职业病防治法">中华人民共和国职业病防治法</a>
+    <span>时间：2026-08-26 09:40</span>
+</div>
+
+<ul class="ulList aBox">
+    
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/flfg/202608/t20260826_90781351.html" title="中华人民共和国疫苗管理法">中华人民共和国疫苗管理法</a>
+        <span>2026-08-26</span>
+    </li>
+    
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/flfg/202608/t20260826_90781304.html" title="中华人民共和国精神卫生法">中华人民共和国精神卫生法</a>
+        <span>2026-08-26</span>
+    </li>
+    
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/flfg/202608/t20260826_90781282.html" title="中华人民共和国基本医疗卫生与健康促进法">中华人民共和国基本医疗卫生与健康促进法</a>
+        <span>2026-08-26</span>
+    </li>
+    
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcwj/flfg/202608/t20260826_90781255.html" title="血吸虫病防治条例">血吸虫病防治条例</a>
+        <span>2026-08-26</span>
+    </li>
+    
+</ul>
+
+                                </div>
+
+                                <!--政策解读-->
+                                <div class="ZcjdPart aBox f_r">
+                                    <div class="Tit aBox">
+                                        <h1><a href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/">政策解读</a></h1>
+                                    </div>
+
+                                    <div class="ZcjdSlideCard aBox">
+                                        <div class="bd">
+                                            <ul>
+                                                
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202304/t20230410_78973432.html" title="【图解】《关于在贵州省卫生健康领域推行初次轻微违法行为不予行政处罚的意见（试行）》"><img src="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202304/W020230410613940480390.png"/><p>【图解】《关于在贵州省卫生健康领域推行初次轻微违法行为不予行政处罚的意见（试行）》</p></a>
+    </li>
+
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202303/t20230324_78925289.html" title="【图解】《2023年全省整体提升卫生健康水平攻坚行动计划“七个专项行动”工作实施方案》"><img src="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202303/W020230410336893755966.png"/><p>【图解】《2023年全省整体提升卫生健康水平攻坚行动计划“七个专项行动”工作实施方案》</p></a>
+    </li>
+
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202303/t20230309_78925291.html" title="【图解】《贵州省免疫规划疫苗预防接种异常反应基础保险补偿实施方案》"><img src="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202303/W020230410337370788849.png"/><p>【图解】《贵州省免疫规划疫苗预防接种异常反应基础保险补偿实施方案》</p></a>
+    </li>
+
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202302/t20230214_78925293.html" title="【图解】关于探索建立总药师制度的指导意见政策"><img src="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202302/W020230410337699907085.png"/><p>【图解】关于探索建立总药师制度的指导意见政策</p></a>
+    </li>
+
+    <li>
+        <a target="_blank" href="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202301/t20230105_78925297.html" title="图解：《贵州省职业病诊断与鉴定工作实施细则》 政策解读"><img src="https://wjw.guizhou.gov.cn/zwgk/jcxxgk/zcjd/tpjd/202301/W020230410337979191165.png"/><p>图解：《贵州省职业病诊断与鉴定工作实施细则》 政策解读</p></a>
+    </li>
+
+                                            </ul>
+                                        </div>
+                                        <ul class="hd"></ul>
+                                        <a class="prev"></a>
+                                        <a class="next"></a>
+                                    </div>
+                                    <script type="text/javascript">
+                                        $(".ZcjdSlideCard").slide({titCell:".hd",mainCell:".bd ul",effect:"fade",autoPage:true
+                                            ,startFun:function(i,c,s){
+                                                s.find(".bd li").eq(i).addClass("on").siblings().removeClass("on");
+                                                s.find(".bd li").each(function(j){
+                                                    if(j<i){
+                                                        var n = i-j;
+                                                        //console.log("上："+n);
+                                                        $(this).stop().css({"transform":"translateY(-"+ (n*10/2) +"px) scale("+ (1-n/10) +")","z-index":(5-n)});
+                                                    }else if(j>i){
+                                                        var n = j-i;
+                                                        //console.log("下："+n);
+                                                        $(this).stop().css({"transform":"translateY(-"+ (n*10/2) +"px) scale("+ (1-n/10) +")","z-index":(5-n)})
+                                                    }else if(j==i){
+                                                        $(this).removeAttr("style");
+                                                    }
+                                                })
+                                                //console.log("=========")
+                                            }
+                                        })
+                                    </script>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="Part_B">
+                                <div class="JgszBtns aBox">
+                                    <ul>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/zfxxgk/zfxxgkzn/"><i><img src="/material/siteFile/web2022/images/Home_ico_16.png" /></i><span>政府信息公开指南</span></a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/zfxxgk/zfxxgkzd/"><i><img src="/material/siteFile/web2022/images/Home_ico_17.png" /></i><span>政府信息公开制度</span></a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/zfxxgk/fdzdgknr/"><i><img src="/material/siteFile/web2022/images/Home_ico_18.png" /></i><span>法定主动公开内容</span></a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/zfxxgk/zfxxgknb/"><i><img src="/material/siteFile/web2022/images/Home_ico_19.png" /></i><span>政府信息公开年报</span></a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/ysqgk/"><i><img src="/material/siteFile/web2022/images/Home_ico_20.png" /></i><span>依申请公开</span></a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwgk/zdlyxx/"><i><img src="/material/siteFile/web2022/images/Home_ico_21.png" /></i><span>重点领域信息</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="ZwfwPart">
+                        <div class="MobilePartHd none">
+                            <h1><a href="https://wjw.guizhou.gov.cn/zwfw/"><font>政务服务</font></a></h1>
+                        </div>
+                        <div class="mobileBg">
+                            <div class="ConPart aBox">
+                                <!--便民利企服务查询平台-->
+                                <div class="Bmlqfwcxpt aBox f_l">
+                                    <h1>—  便民利企服务查询平台  — </h1>
+                                    <ul>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/">行政许可</a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/">行政强制</a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/">行政确认</a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/">公共服务</a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/">行政处罚</a></li>
+                                        <li><a href="https://wjw.guizhou.gov.cn/zwfw/">其他行政权力</a></li>
+                                    </ul>
+                                    <h2><a href="https://wjw.guizhou.gov.cn/zwfw/">查看更多>></a></h2>
+                                </div>
+
+                                <div class="ZwfwCardPart aBox f_r">
+                                    <ul>
+                                        <li class="link"><a href="//zwfw.guizhou.gov.cn/bmqjd.do?ocode=4130465240220517062&areacode=520000" target="_blank"><img src="/material/siteFile/web2022/images/Home_ico_24.png" /></a></li>
+                                        <li class="link"><a><img src="/material/siteFile/web2022/images/Home_ico_25.png" /></a></li>
+                                        <!--li class="card"><a href="" target="_blank"><div class="t"><h1>预约挂号</h1><p>挂号快捷通道</p><p>快速定位专家</p></div><img src="/material/siteFile/web2022/images/Home_ico_26.png" /></a></li-->
+                                        <!--li class="card"><a href="" target="_blank"><div class="t"><h1>生育登记服务</h1><p>生育登记便民服务</p><p>快来给宝贝登记吧</p></div><img src="/material/siteFile/web2022/images/Home_ico_27.png" /></a></li-->
+                                        <li class="card" style="width:49%;"><a href="https://spqb.gzscdc.org.cn/main?redirect=/" target="_blank"><div class="t"><h1>贵州省食品安全企业标准服务平台</h1></div></a></li>
+                                        <li class="card" style="width:48%;"><a href="https://spdb.gzscdc.org.cn/home" target="_blank"><div class="t"><h1>贵州省食品安全地方标准平台</h1></div></a></li>
+                                        
+                                        <li class="card sm"><a href="http://gzcme.yiboshi.com" target="_blank"><div class="t"><h1>贵州省继续医学<br>教育管理平台</h1></div><img src="/material/siteFile/web2022/images/Home_ico_38(1).png" /></a></li>
+                                        <li class="card sm"><a href="https://gzgp.yiboshi.com/Web/Index/F85C05F5-DCBA-4DDC-963E-A21210CF94DA?index=0" target="_blank"><div class="t"><h1>贵州省住院医师<br>（毕业后医学教育）<br> 信息平台</h1></div><img src="/material/siteFile/web2022/images/Home_ico_39.png" /></a></li>
+                                        <li class="card sm"><a href="https://gzzp.yiboshi.com" target="_blank"><div class="t"><h1>贵州助理<br>全科平台</h1></div><img src="/material/siteFile/web2022/images/Home_ico_39.png" /></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="HdjlPart">
+                        <div class="MobilePartHd none">
+                            <h1><a href="https://wjw.guizhou.gov.cn/gzcy/"><font>公众参与</font></a></h1>
+                        </div>
+                        <div class="mobileBg">
+                            <div class="ConPart aBox">
+                                <div class="Part_L aBox f_l">
+                                    <div class="ZwxxPart aBox">
+                                        <div class="Tit">
+                                            <h1><a href="https://wjw.guizhou.gov.cn/gzcy/zwxx/xjgklb/">来信选登</a></h1>
+                                            <ul class="sonNav">
+                                                <li><a href="https://wjw.guizhou.gov.cn/gzcy/zwxx/xxxz/">写信须知</a></li>
+                                                <li>丨</li>
+                                                <li><a href="https://wjw.guizhou.gov.cn/gzcy/zwxx/wyxx/">我要写信</a></li>
+                                                <li>丨</li>
+                                                <li><a href="https://wjw.guizhou.gov.cn/personalhomepage/#/list?type=wdzx" target="_blank">信件查询</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="Con aBox">
+                                            <ul class="ulList aBox" id="ZwxxList"></ul>
+                                            <script type="text/javascript">
+                                                $.ajax({
+                                                    url: '/IGI/nbhd/openGovmsgbox.do?method=listGovmsgboxs',
+                                                    data: {
+                                                        pageIndex : 1,
+                                                        pageSize : 5,
+                                                        siteId : 500663,
+                                                        appId : 321,
+                                                        orderby : 'submitTime_desc'
+                                                    },
+                                                    type: 'get',
+                                                    dataType: 'json',
+                                                    success: function (data) {
+                                                        var docList = data.datas;
+                                                        var html = "";
+                                                        $.each(docList.data, function (i, v) {
+                                                            html += '<li><a href="'+ v.PUBLISHURL +'" target="_blank">' + v.TITLE + '</a><span>' + getMyDate(v.SUBMITTIME).substring(0,10) + '</span></li>';
+                                                        })
+                                                        $("#ZwxxList").html(html);
+                                                    }
+                                                })
+                                            </script>
+                                        </div>
+                                    </div>
+                                    <div class="ZskLinkBtn aBox">
+                                        <ul>
+                                            <li><a href="https://wjw.guizhou.gov.cn/gzcy/cjwtzsk/" target="_blank"><img src="/material/siteFile/web2022/images/Home_ico_30.png" /><span>常见问题知识库</span></a></li>
+                                            <li><a href="https://wjw.guizhou.gov.cn/gzcy/rdhy/"><img src="/material/siteFile/web2022/images/Home_ico_31.png" /><span>热点回应</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="ZjdcBox aBox f_r" id="ZjdcBox">
+                                    <div class="PubHd">
+                                        <ul>
+                                            <li><a href="https://wjw.guizhou.gov.cn/gzcy/zjdc/yjzj/">意见征集</a></li>
+                                            <li><a href="https://wjw.guizhou.gov.cn/gzcy/zjdc/wsdc/">网上调查</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="bd">
+                                        <div class="aBox">
+                                            <div class="WsdcPart aBox">
+                                                <div class="inbd">
+                                                    <ul id="wszj"></ul>
+                                                </div>
+                                                <ul class="inhd"></ul>
+                                            </div>
+                                        </div>
+                                        <div class="aBox">
+                                            <div class="WsdcPart aBox">
+                                                <div class="inbd">
+                                                    <ul id="wsdc">
+                                                        <!--<li>
+                                                            <h1><a href="">开始征求《贵州省食品安全企业标准备案实施细则（修订）》的意见了</a></h1>
+                                                            <div class="date">有效时间： 2022.5.5 至 2022.6.30</div>
+                                                            <div class="desc">为了给您提供更好的服务，希望您能抽出几分钟时间，将您的感受和建议告诉我们，我们非常重视每位用户的宝贵意见，期待您的参与！现在我们就马上开始吧!</div>
+                                                            <div class="Btns">
+                                                                <a class="ing" href="">调查进行中</a>
+                                                                <a class="join" href="">我要参与</a>
+                                                            </div>
+                                                        </li>-->
+                                                    </ul>
+                                                </div>
+                                                <ul class="inhd"></ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+                <script type="text/javascript">
+                    //网上调查
+                    $.ajax({
+                        url: '/IGI/open/survey/list',
+                        data: {
+                            pageIndex : 1,
+                            pageSize : 3,
+                            siteId : 500663,
+                            orderby : 'endTime_desc'
+                        },
+                        type: 'get',
+                        asyn: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            var docList = data.datas;
+                            var html = "";
+                            $.each(docList.data, function (i, v) {
+                                if(v.exLink && v.exLink!=''){
+                                    v.publishUrl = v.exLink;
+                                }
+                                html += '<li>';
+                                html += '<h1><a href="' + v.publishUrl+ '" target="_blank">' + v.title + '</a></h1>';
+                                if(v.startTime&&v.startTime!=''){
+                                    html += '<div class="date">有效时间：' + getMyDate(v.startTime).substring(0,10).replace(/-/g,".") + ' 至 ' + getMyDate(v.endTime).substring(0,10).replace(/-/g,".") + '</div>';
+                                }else{
+                                    html += '<div class="date">有效时间：' + getMyDate(v.publicTime).substring(0,10).replace(/-/g,".") + '</div>';
+                                }
+                                html += '<div class="desc">'+ v.prefix +'</div>';
+                                html += '<div class="Btns">';
+                                if(v.status == 9){
+                                    html += '<a class="ing" href="' + v.publishUrl+ '" target="_blank">调查已结束</a>';
+                                    html += '<a class="join" href="' + v.publishUrl+ '" target="_blank">查看详情</a>';
+                                }else{
+                                    html += '<a class="ing" href="' + v.publishUrl+ '" target="_blank">调查进行中</a>';
+                                    html += '<a class="join" href="' + v.publishUrl+ '" target="_blank">我要参与</a>';
+                                }
+                                html += '</div></li>';
+                            })
+                            $("#wsdc").html(html);
+                        }
+                    })
+                    
+                    function removeHTMLTag(str) {
+                        str = str.replace(/<\/?[^>]*>/g,''); //去除HTML tag
+                        str = str.replace(/[ | ]*\n/g,'\n'); //去除行尾空白
+                        str = str.replace(/\n[\s| | ]*\r/g,'\n'); //去除多余空行
+                        str=str.replace(/&nbsp;/ig,'');//去掉&nbsp;
+                        str=str.replace(/\s/g,''); //将空格去掉
+                        return str;
+                    }
+                    
+                    //意见征集
+                    $.ajax({
+                        url: '/IGI/opinion/web/list',
+                        data: {
+                            pageIndex : 1,
+                            pageSize : 3,
+                            siteId : 500663,
+                            orderby:"endTime_desc"
+                        },
+                        type: 'get',
+                        asyn: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            var docList = data.datas;
+                            var html = "";
+                            $.each(docList.data, function (i, v) {
+                                if(v.exLink && v.exLink!=''){
+                                    v.publishUrl = v.exLink;
+                                }
+                                html += '<li>';
+                                html += '<h1><a href="' + v.publishUrl+ '" target="_blank">' + v.theme + '</a></h1>';
+                                if(v.beginTime&&v.beginTime!=''){
+                                    html += '<div class="date">有效时间：' + getMyDate(v.beginTime).substring(0,10).replace(/-/g,".") + ' 至 ' + getMyDate(v.endTime).substring(0,10).replace(/-/g,".") + '</div>';
+                                }else{
+                                    html += '<div class="date">有效时间：' + getMyDate(v.publicTime).substring(0,10).replace(/-/g,".") + '</div>';
+                                }
+                                html += '<div class="desc">';
+                                if(v.htmlContent && v.htmlContent!=''){
+                                    html += removeHTMLTag(v.htmlContent);
+                                }else{
+                                    html += v.theme;
+                                }
+                                html += '</div><div class="Btns">';
+                                if(v.status == 1){
+                                    html += '<a class="ing" href="' + v.publishUrl+ '" target="_blank">征集已结束</a>';
+                                    html += '<a class="join" href="' + v.publishUrl+ '" target="_blank">查看详情</a>';
+                                }else if(v.status == 0){
+                                    html += '<a class="ing" href="' + v.publishUrl+ '" target="_blank">征集进行中</a>';
+                                    html += '<a class="join" href="' + v.publishUrl+ '" target="_blank">我要参与</a>';
+                                }
+                                html += '</div></li>';
+                            })
+                            $("#wszj").html(html);
+                            
+                            if(!isMobile){
+                                $(".WsdcPart").slide({titCell:".inhd",mainCell:".inbd ul",effect:"fade",autoPage:true})
+                            }
+                        }
+                    })
+                    
+                    if(!isMobile){
+                        $(".ZjdcBox").slide({titCell:".PubHd li",mainCell:".bd",effect:"fade"})
+                        $(".Part3").slide({titCell:".PartHd li",mainCell:".PartBd",effect:"fold",prevCell:".00",nextCell:".00"
+                            ,startFun:function(i,c,s){
+                                var lnum = s.find(".PartHd li").eq(i).position().left + 50;
+                                $(".PartHd .onBar").stop().animate({left:lnum+"px"},500);
+                            }
+                        })
+                    }else{
+                        TouchSlide({ slideCell:"#ZjdcBox", titCell:".PubHd li", mainCell:".bd", effect:"left"});
+                    }
+                </script>
+            </div>
+        </div>
+        
+        <!--专题专栏-->
+        <div class="Part4 aBox">
+            <div class="w1200 auto aBox">
+                <div class="AlertImgPart aBox">
+
+                    <ul>
+                        <li class="Alimg">
+                            <a><p>省纪委省监委派驻</p><img src="/material/siteFile/web2022/images/Home_ico_34.png" /></a>
+                            <img src="/material/siteFile/images/dessjjjcz.png" style="display: none" />
+                        </li>
+                        <li class="Alimg">
+                            <a><p>机关纪委</p><img src="/material/siteFile/web2022/images/Home_ico_35.png" /></a>
+                            <img src="/material/siteFile/web2022/images/xfjb.jpg" style="display: none" />
+                        </li>
+                        <li>
+                            <a href="https://wjw.guizhou.gov.cn/ztzl_500663/swsjksgs/" target="_blank"><p>贵州省卫生健康</p><img src="/material/siteFile/web2022/images/Home_ico_36.png" /></a>
+                        </li>
+                        <!--<li class="Alimg">
+                            <a><p>打击整治养老诈骗</p><img src="/material/siteFile/web2022/images/Home_ico_37.png" /></a>
+                            <img src="/material/siteFile/web2022/images/djzzylzp.jpg" style="display: none" />
+                        </li>-->
+                        <li>
+                            <a><p>全国国家安全机关举报</p><img src="/material/siteFile/web2022/images/Home_ico_38.png" /></a>
+                        </li>
+                    </ul>
+                    <script type="text/javascript">
+                        $(".AlertImgPart li.Alimg a").click(function(){
+                            var area = ['1200px', '600px'];
+                            if(window_Width < 1260){
+                                area = [(window_Width/1360*1200)+'px',(window_Width/1360*1200/2)+'px']
+                            }
+                            layer.open({
+                                type: 1,
+                                area: area,
+                                title: false, //不显示标题
+                                shadeClose: true,
+                                content: '<img src='+ $(this).next("img").attr("src") +' width="100%" />'
+                            });
+                        })
+                    </script>
+                </div>
+                
+                <div class="Title">
+                    <h1><a href="https://wjw.guizhou.gov.cn/ztzl_500663/">专题专栏</a></h1>
+                    <div class="More"><a href="https://wjw.guizhou.gov.cn/ztzl_500663/">更多</a></div>
+                </div>
+                <div class="ZtzlSlide">
+                    <div class="bd">
+                        <ul>
+                            
+<li>
+    <div class="Pic"><a target="_blank" href="https://wjw.guizhou.gov.cn/ztzl_500663/dktxzc/index.html" title="贷款贴息政策"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202609/W020260922427206136446.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2026-09-22</span></div>
+        <h1><a target="_blank" href="https://wjw.guizhou.gov.cn/ztzl_500663/dktxzc/index.html" title="贷款贴息政策">贷款贴息政策</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="https://www.guizhou.gov.cn/ztzl/2026nqzsbbzzfhfbwtxszj/" title="群众身边不正之风和腐败问题线索征集"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202504/W020260302426147470373.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2025-04-03</span></div>
+        <h1><a target="_blank" href="https://www.guizhou.gov.cn/ztzl/2026nqzsbbzzfhfbwtxszj/" title="群众身边不正之风和腐败问题线索征集">群众身边不正之风和腐败问题线索征集</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="https://www.guizhou.gov.cn/zmhd/znwz/" title="智能问答助手小贵"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202503/W020250318348268356327.png"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2025-03-18</span></div>
+        <h1><a target="_blank" href="https://www.guizhou.gov.cn/zmhd/znwz/" title="智能问答助手小贵">智能问答助手小贵</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="https://www.guizhou.gov.cn/ztzl/zggzqstyydyypt/" title="“中国·贵州”全省统一移动应用平台"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202411/W020241106567106802634.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2024-11-06</span></div>
+        <h1><a target="_blank" href="https://www.guizhou.gov.cn/ztzl/zggzqstyydyypt/" title="“中国·贵州”全省统一移动应用平台">“中国·贵州”全省统一移动应用平台</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="https://www.gov.cn/zhengce/zczhjd/" title="重要政策举措及实施效果"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202307/W020230731568691533981.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2023-07-31</span></div>
+        <h1><a target="_blank" href="https://www.gov.cn/zhengce/zczhjd/" title="重要政策举措及实施效果">重要政策举措及实施效果</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="/ztzl_500663/gzjkb/" title="卫生健康宣传栏"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202008/W020230421657317735120.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2020-08-19</span></div>
+        <h1><a target="_blank" href="/ztzl_500663/gzjkb/" title="卫生健康宣传栏">卫生健康宣传栏</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="https://wjw.guizhou.gov.cn/ztzl_500663/jkkpzl/index.html" title="健康科普专栏"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202303/W020230421756881055378.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2023-03-01</span></div>
+        <h1><a target="_blank" href="https://wjw.guizhou.gov.cn/ztzl_500663/jkkpzl/index.html" title="健康科普专栏">健康科普专栏</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/lycyh/" title="加快推动旅游产业化 奋力实现旅游大提质"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202107/W020230421655457375431.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2021-07-09</span></div>
+        <h1><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/lycyh/" title="加快推动旅游产业化 奋力实现旅游大提质">加快推动旅游产业化 奋力实现旅游大提质</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/sdnyxdh/" title="加快山地农业现代化 推动农业高质量发展"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202106/W020230421656078467634.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2021-06-24</span></div>
+        <h1><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/sdnyxdh/" title="加快山地农业现代化 推动农业高质量发展">加快山地农业现代化 推动农业高质量发展</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/gzltjxxczhjsfltdczdts/" title="高质量推进新型城镇化建设 奋力推动城镇大提升"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202106/W020230421656251323545.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2021-06-07</span></div>
+        <h1><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/gzltjxxczhjsfltdczdts/" title="高质量推进新型城镇化建设 奋力推动城镇大提升">高质量推进新型城镇化建设 奋力推动城镇大提升</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/ssgybzxdflsxgydtp/" title="实施工业倍增行动 奋力实现工业大突破”"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202104/W020230421759117010506.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2021-04-08</span></div>
+        <h1><a target="_blank" href="http://www.guizhou.gov.cn/ztzl/ssgybzxdflsxgydtp/" title="实施工业倍增行动 奋力实现工业大突破”">实施工业倍增行动 奋力实现工业大突破”</a></h1>
+    </div>
+</li>
+
+<li>
+    <div class="Pic"><a target="_blank" href="http://wjw.guizhou.gov.cn/ztzl_500663/gzjkrc/index.html" title="贵州卫生健康人才"><img src="https://wjw.guizhou.gov.cn/ztzl_500663/rdzt_5813848/202012/W020230421656672094034.jpg"/></a></div>
+    <div class="Con">
+        <div class="date"><p>热点专题</p><span>2020-12-23</span></div>
+        <h1><a target="_blank" href="http://wjw.guizhou.gov.cn/ztzl_500663/gzjkrc/index.html" title="贵州卫生健康人才">贵州卫生健康人才</a></h1>
+    </div>
+</li>
+
+                        </ul>
+                    </div>
+                    <div class="hd"><ul></ul></div>
+                    <a class="prev"></a>
+                    <a class="next"></a>
+                    <script type="text/javascript">
+                        if(!isMobile){
+                            jQuery(".ZtzlSlide").slide({titCell:".hd ul",mainCell:".bd ul",effect:"leftLoop",autoPlay:true,autoPage:true,vis:4,scroll:4});
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+    </div><!--内容结束-->
+    
+    <!--Footer-->
+    <div class="FsLinks aBox" style="height: 10px;">
+    <!--div class="w1200 auto aBox">
+        <ul id="YqljUlList">
+            <li class="d" id="Friendship_A">
+                <font>各省市政府</font>
+                <ul class="layui-menu layui-dropdown-menu"><-TRS_SSI  ID='各省市政府2022' TEMPLATENAME="SSI-改版-友情链接-列表"/-></ul>
+            </li>
+            <li class="d" id="Friendship_B">
+                <font>各省直部门</font>
+                <ul class="layui-menu layui-dropdown-menu"><-TRS_SSI  ID='各省直部门2022' TEMPLATENAME="SSI-改版-友情链接-列表"/-></ul>
+            </li>
+            <li class="d" id="Friendship_C">
+                <font>各省市卫生健康部门</font>
+                <ul class="layui-menu layui-dropdown-menu"><-TRS_SSI  ID='各省市卫生健康部门2022' TEMPLATENAME="SSI-改版-友情链接-列表"/-></ul>
+            </li>
+            <li class="d" id="Friendship_D">
+                <font>其他相关链接</font>
+                <ul class="layui-menu layui-dropdown-menu"><-TRS_SSI  ID='其他相关链接2022' TEMPLATENAME="SSI-改版-友情链接-列表"/-></ul>
+            </li>
+        </ul>
+        <script type="text/javascript">
+            layui.use('dropdown', function(){
+                var dropdown = layui.dropdown;
+                $("#YqljUlList>li.d").each(function(index){
+                    var DropArr = [/*{title:'请选择',id:'0',templet: '<span style="color:#9e8b8b;">{{d.title}}</span>'}*/], _this=$(this);
+                    _this.find('ul.layui-menu li').each(function(){
+                        var arr = {};
+                        arr.title = $(this).find('a').text();
+                        arr.id = $(this).attr('docid');
+                        arr.href = $(this).find('a').attr('href');
+                        arr.target = $(this).find('a').attr('target');
+                        DropArr.push(arr);
+                    })
+                    dropdown.render({
+                        elem: "#" + _this.attr('id')
+                        ,className: 'YqljDropDown'
+                        ,data: DropArr
+                        ,ready: function(elemPanel, elem){//弹出下拉菜单的回调
+                            OutsideChainJump(elemPanel);//外链跳转提示
+                        }
+                    })
+                })
+            });
+        </script>
+    </div-->
+</div>
+<div class="FooterBox aBox">
+    <div class="w1200 aBox auto">
+        <div class="BottomNavs Box">
+            <ul>
+                <li><a href="https://wjw.guizhou.gov.cn/syqt/wzbz/">网站帮助</a></li>
+                <li>丨</li>
+                <li><a href="https://wjw.guizhou.gov.cn/syqt/wzdt/">网站地图</a></li>
+                <li>丨</li>
+                <li><a href="https://wjw.guizhou.gov.cn/syqt/gywm/">关于我们</a></li>
+                <li>丨</li>
+                <li><a href="https://wjw.guizhou.gov.cn/syqt/ldxfs/">联系方式</a></li>
+                <li>丨</li>
+                <li><a href="https://wjw.guizhou.gov.cn/ztzl_500663/wzgzndbb/">网站年报</a></li>
+            </ul>
+        </div>
+        <div class="BottomTextCon Box">
+            <p>
+                <span>主办单位：贵州省卫生健康委员会</span>
+                <span>政府网站标识码：5200000034</span>
+                <span>中文域名：贵州省卫生健康委员会.政务</span>
+                <span><a href="https://beian.miit.gov.cn" target="_blank">黔ICP备14006722号-9</a></span>
+            </p>
+            <p>
+                <span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52010302003127" target="_blank"><img src="//wjw.guizhou.gov.cn/material/siteFile/web2022/images/Top_ico_7.png" style="padding-right: 5px;" />贵公网安备 52010302003127号</a></span>
+                <span>联系地址：贵阳市中华北路242号省政府大院7号楼</span>
+            </p>
+            <p>
+                <span>联系电话：0851-86870000</span>
+                <span>管理单位：贵州省卫生健康宣传教育中心</span>
+            </p>
+            <p>
+                为确保最佳浏览效果，建议您使用Microsoft Edge、Firefox、360极速版等主流浏览器浏览本网站，如果您使用的是双核浏览器，请切换至极速模式访问
+            </p>
+        </div>
+        <!--党政机关-->
+        <div class="BottomImgBtns">
+            <div class="dzjgBox"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/24/000/0000/60408941/CA240000000604089410001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+            <div class="wzzcBox"><script id="_jiucuo_" sitecode="5200000034" src="https://zfwzgl.www.gov.cn/exposure/jiucuo.js"></script></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4188" async="async" defer="defer"></script>
+    <style>
+.navBar{position:unset;}
+</style>
+<div id="wangSYP_img" >
+        
+    </div>
+    <script type="text/javascript" src="/material/siteFile/js/floatadv.js"></script>
+<script type="text/javascript">
+    var j=0;
+    
+    for (var i=1;i<=j;i++)
+    {
+        var ad = new AdMove("img"+i, true);
+        ad.Run();
+    }
+</script>
+<script type="text/javascript">
+    function turnoff(obj) {
+        document.getElementById(obj).style.display = "none";
+    }
+</script>
+</div>
+<!--上线公告
+<div class="Home_Sxgg" style="display: none;">
+    <p style="text-indent: 2em;">为进一步加强网站建设，不断提升网站的服务质量和服务水平，贵州省卫生健康委员会网站进行了全面改版升级，新版网站于2023年4月21日上线试运行。试运行期间，网站可能存在问题和不足，由此给您带来不便，敬请谅解。我们在加大巡网和整改的同时，也真诚欢迎您提出宝贵意见和建议。</p>
+    <p style="text-indent: 2em;">衷心感谢您对贵州省卫生健康委员会网站建设的关注和支持！</p>
+    <p style="text-align: right">联系电话：0851-86812208</p>
+    <p style="text-align: right">贵州省卫生健康委员会</p>
+    <p style="text-align: right">2023年4月21日</p>
+</div>
+<style type="text/css">
+    .Home_Sxgg{ padding: 15px; }
+    .Home_Sxgg h1{ font-size: 20px; font-weight: bold; text-align: center; line-height: 2;}
+    .Home_Sxgg p{ font-size: 16px; line-height: 1.5; margin-bottom: 10px;}
+    .Home_Sxgg p[style="text-align: right"]{ font-size: 14px; margin-bottom: 0; }
+    @media screen and (max-width:600px ) {
+        .layui-layer.layui-layer-lan .layui-layer-title h1{ padding-left:0 !important; font-size: 16.5px !important;}
+    }
+</style>
+<script type="text/javascript">
+    var offsetType = 'auto',areaType='500px';
+    if(isMobile){
+        offsetType = 'auto';
+        areaType = 'auto';
+    }
+    layer.open({
+        title: '<h1 style="font-size: 18px;font-weight: bold;text-align: center;padding-left: 50px;">公告</h1>',
+        type: 1,
+        skin: 'layui-layer-lan',
+        offset: offsetType,
+        shade: 0.3,
+        shadeClose: true,
+        anim: 2,
+        //time: 11000,
+        area: areaType,
+        content: $('.Home_Sxgg')
+    });
+</script>-->
+
+
+</body>
+</html>

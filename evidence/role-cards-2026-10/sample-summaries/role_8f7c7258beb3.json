@@ -1,0 +1,501 @@
+{
+  "name": [
+    {
+      "text": "医学AI/生物医学大模型",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学AI/生物医学大模型"
+        }
+      ]
+    }
+  ],
+  "sample_n": 9,
+  "excluded": [
+    {
+      "id": "vmU5t5zzZ",
+      "url": "https://campus.niuqizp.com/job-vmU5t5zzZ.html",
+      "role": "医学人工智能临床复合型医师|医学数据治理工程师|医学智能体工程师",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-22",
+      "url": "user-provided://2026-10-06/biomed-llm",
+      "role": "生物医学大模型研发",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "模型应用样本：搭建医疗对话机器人与智能体。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "医疗对话机器人、AIAgent（智能体）的架构设计与搭建"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "模型应用样本：构建和优化医疗RAG检索系统。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "医疗垂直领域RAG（检索增强生成）系统的开发、优化与落地"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "AIDD样本：设计和优化分子生成算法。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk85CZzzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk85CZzzN",
+          "text": "负责AI分子生成项目的算法设计与优化"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "实验化学样本：设计合成路线并执行实验。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5M55zN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "独立完成复杂多步有机合成反应"
+        },
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "设计较优合成路线"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "标注样本：标注、审阅、编辑并生成医学数据。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5ntMZa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5ntMZa",
+          "text": "医学护理相关的数据样本标注，审阅，编辑和生成"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "推广样本：拜访客户、演示产品并对接项目。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYm55aMCZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYm55aMCZ",
+          "text": "客户拜访、产品演示、行业交流及商务洽谈"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "9份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 9,
+        "matched_ids": [
+          "vsl5Z5LZC"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYl5M55zN",
+          "vrk5ntMZa"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYm55aMCZ",
+          "vrm5aatLZ"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，4份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 4,
+        "denominator": 9,
+        "matched_ids": [
+          "v8Y5na5NZ",
+          "v8kNLZMaZ",
+          "vk85CZzzN",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，3份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 3,
+        "denominator": 9,
+        "matched_ids": [
+          "vk85CZzzN",
+          "vrk5ntMZa",
+          "vrm5aatLZ"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份专业类字段为“化学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化学类",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYm55aMCZ",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYm55aMCZ",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 9,
+        "matched_ids": [
+          "v8kNLZMaZ"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，4份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 4,
+        "denominator": 9,
+        "matched_ids": [
+          "vYl5M55zN",
+          "vYm55aMCZ",
+          "vmk55aMCt",
+          "vsl5Z5LZC"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "v8Y5na5NZ",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vrk5ntMZa",
+          "vrm5aatLZ"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "2027届-AIDD研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk85CZzzN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AIDD研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AIDD科学家",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8kNLZMaZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI化学高级研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5M55zN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗反向工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8Y5na5NZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗大模型应用开发实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗行业—数据标注实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrk5ntMZa"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "制药知识AI应用推广专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYm55aMCZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "制药知识AI应用研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmk55aMCt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "name": [
+    {
+      "text": "临床数据管理/生物统计",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "临床数据管理/生物统计"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "执行原始数据传输",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885tMtLa",
+          "text": "执行原始数据传输"
+        },
+        {
+          "evidence_id": "vws5N5ttN",
+          "text": "执行原始数据传输"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "管理EDC系统账户",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885tMtLa",
+          "text": "管理EDC系统账户"
+        },
+        {
+          "evidence_id": "vws5N5ttN",
+          "text": "管理EDC系统账户"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责本地实验室范围的管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885tMtLa",
+          "text": "负责本地实验室范围的管理"
+        },
+        {
+          "evidence_id": "vws5N5ttN",
+          "text": "负责本地实验室范围的管理"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与EDC系统建库并执行UAT",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885tMtLa",
+          "text": "参与EDC系统建库并执行UAT"
+        },
+        {
+          "evidence_id": "vws5N5ttN",
+          "text": "参与EDC系统建库并执行UAT"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据方案和CRF撰写数据核查计划",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885tMtLa",
+          "text": "根据方案和CRF撰写数据核查计划"
+        },
+        {
+          "evidence_id": "vws5N5ttN",
+          "text": "根据方案和CRF撰写数据核查计划"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "执行临床数据清理（数据审阅、质疑管理及外部数据一致性核对等）",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885tMtLa",
+          "text": "执行临床数据清理（数据审阅、质疑管理及外部数据一致性核对等）"
+        },
+        {
+          "evidence_id": "vws5N5ttN",
+          "text": "执行临床数据清理（数据审阅、质疑管理及外部数据一致性核对等）"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "撰写与审核统计分析报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5tLCaC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5tLCaC",
+          "text": "撰写与审核统计分析报告"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与研究结果发表的撰写，并对统计相关内容进行审核",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5tLCaC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5tLCaC",
+          "text": "参与研究结果发表的撰写，并对统计相关内容进行审核"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vmm5tLCaC",
+        "vws5N5ttN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vmm5tLCaC",
+          "vws5N5ttN"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vmm5tLCaC",
+        "vws5N5ttN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "v885tMtLa"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vmm5tLCaC",
+        "vws5N5ttN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "v885tMtLa",
+          "vws5N5ttN"
+        ]
+      }
+    },
+    {
+      "text": "3份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vmm5tLCaC",
+        "vws5N5ttN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vmm5tLCaC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "助理临床数据管理员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885tMtLa",
+        "vws5N5ttN"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "生物统计师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmm5tLCaC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

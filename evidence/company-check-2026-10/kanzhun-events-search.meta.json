@@ -1,0 +1,24 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 2.938,
+  "access_date": "2026-10-12",
+  "sha256": "244272a6e87ee70414d7a72050d89b00f3cce935142963d97cd0ae4fe1de7da0",
+  "blocked": null,
+  "id": "kanzhun-events-search",
+  "company": "kanzhun",
+  "query": "BOSS直聘 看准 2026 2025 裁员 收缩 融资 上市 业务 调整",
+  "include_domains": [
+    "cls.cn",
+    "caixin.com",
+    "yicai.com",
+    "reuters.com",
+    "stcn.com",
+    "21jingji.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/kanzhun-events-search.json"
+}

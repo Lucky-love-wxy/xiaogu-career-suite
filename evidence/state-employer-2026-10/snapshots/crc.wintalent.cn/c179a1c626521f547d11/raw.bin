@@ -1,0 +1,2194 @@
+
+
+
+          
+<!DOCTYPE html>
+<script type="text/javascript">
+    (typeof baseContextPath=="undefined")  &&(baseContextPath = "/wt")
+    // resolve dialog zIndex conflict
+    var commonDialogIndex = 1024,_wtCurrentLang_ = 'zh_CN';
+    var getCommonDialogIndex = function () {
+        return ++commonDialogIndex;
+    }
+
+    var getCookie = function (name){
+        var name = escape(name);
+        //è¯»cookieå±æ§ï¼è¿å°è¿åææ¡£çææcookie
+        var allcookies = document.cookie;
+
+        //æ¥æ¾åä¸ºnameçcookieçå¼å§ä½ç½®
+        name += "=";
+        var pos = allcookies.indexOf(name);
+
+        //å¦ææ¾å°äºå·æè¯¥åå­çcookieï¼é£ä¹æåå¹¶ä½¿ç¨å®çå¼
+        if (pos != -1){
+            var start = pos + name.length;
+            var end = allcookies.indexOf(";",start);
+            if (end == -1) end = allcookies.length;
+            var value = allcookies.substring(start,end);
+            return unescape(value);
+        }
+        else return "";
+    }
+
+
+if (!window.isInitLocale) {
+    var translationMessagesList = null;
+    var localeMap = {
+        1: 'zh',
+        2: 'en',
+        3: 'yue',
+        100: 'in',  // å°å°¼è¯­
+        101: 'vi', // è¶åè¯­
+        102: 'es', // è¥¿ç­çè¯­
+        103: 'pt', // è¡èçè¯­
+        104: 'de', // å¾·è¯­
+        105: 'tr', // åè³å¶è¯­
+        106: 'ja', // æ¥è¯­
+    };
+    try {
+        var $locale = getCookie('wintalent3.locale');
+        var isTraditional = getCookie('isTraditional');
+
+        window.wtspeLocale = localeMap[$locale];
+
+        if ($locale === '1' && isTraditional === 'Y') {
+            window.wtspeLocale = 'yue';
+        }
+
+        
+
+        window.wtspeLocale = window.wtspeLocale || 'zh';
+        localStorage.setItem('tlf_locale', window.wtspeLocale);
+        window.isInitLocale = true;
+    } catch (e) {
+        window.wtspeLocale = 'zh';
+        localStorage.setItem('tlf_locale', window.wtspeLocale);
+    }
+
+
+    try {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/wt/languages/' + window.wtspeLocale + '.json', false); // ç¬¬ä¸ä¸ªåæ°è®¾ç½®ä¸ºfalseè¡¨ç¤ºåæ­¥è¯·æ±
+        xhr.send();
+
+        if (xhr.status === 200) {
+            console.log('æåå è½½è¯­è¨: ', window.wtspeLocale);
+            // console.log(xhr.responseText); // å¤çååº
+            translationMessagesList = JSON.parse(xhr.responseText);
+            window.translationMessagesList = translationMessagesList;
+        } else {
+            console.error('è¯·æ±å¤±è´¥ï¼ç¶æç ï¼', xhr.status);
+        }
+    }catch (e) {
+        console.error("AJAXè¯·æ±å¤±è´¥");
+    }
+
+
+    try {
+        var render = (template, data) => template.replace(/\{(.*?)\}/g, (match, key) => data[key]);
+        function T(chName, key, context, useCh) {
+            let msg = '';
+
+            if (useCh) {
+                msg = chName;
+            } else {
+                if (!translationMessagesList) {
+                    console.log('------error:T----');
+                } else {
+                    msg = translationMessagesList[key];
+                }
+                msg = msg || chName;
+            }
+
+            if (!context || Object.keys(context).length === 0) {
+                return msg;
+            }
+
+            msg = render(msg, context);
+            return msg;
+        }
+        window.T = T;
+    } catch (e) {
+
+    }
+}
+
+</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width"/>
+    <title>云招聘系统 TRM.AI 2.0</title>
+    
+    <link href="/wt/v9/static/assets/pg_global.bundle.css?vn=1c86295f66e6c15d40bbac5cd737cdc8" rel="stylesheet" type="text/css" />
+    <!-- 登录页没有主题颜色的处理 -->
+    <style>.wtspe-button-tme-1{background-color: #e81118 !important;color: #ffffff;border: 1px solid #e81118 !important;}</style>
+    <link href="/wt/v9/static/styles/candidate/candidate.css?vn=90a872c312411cb4846a0f4caf30440c" type="text/css" rel="stylesheet" />
+    <link href="/wt/v9/static/styles/public/browser-tip.css?vn=034b0f9549a701c116e37cb4c0048696" type="text/css" rel="stylesheet" />
+    
+    <link href="/wt/styles/v7/login.css?vn=a6e5fe92fcb8a93e8df765017e211fe4" rel="stylesheet" type="text/css" />
+    <link href="/wt/styles/v7/layout.css?vn=779b4525016f91a9bcf78343d35dc187" rel="stylesheet" type="text/css" />
+    <link href="/wt/styles/v7/reset.css?vn=adccf2eab12061ec1c86334397351413" rel="stylesheet" type="text/css" />
+    <link href="/wt/styles/v7/headerfooter.css?vn=4b39dcbb5b5b3dfbb0b97547598e3115" rel="stylesheet" type="text/css" />
+    <link href="/wt/styles/v7/form.css?vn=9df746510ce7596a284c25fb395d57e3" rel="stylesheet" type="text/css" />
+    <link href="/wt/styles/v7/common.css?vn=d6f10323a0bafee4e530eaceb49f2d12" rel="stylesheet" type="text/css" />
+    <link href="/wt/styles/v7/css.css?vn=1d697da32ddd4fb76584dddcbdf164c4" rel="stylesheet" type="text/css" />
+    <link href="/wt/v9/static/assets/pg_new_login.bundle.css?vn=6c39daee3ed23e0bdbfefe0d9d7e472b" type="text/css" rel="stylesheet" />
+    <link href="/wt/v9/static/styles/candidate/validatePrivacy.css?vn=777254540fb21ee4a89335eb799da1f7" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/wt/v9/static/assets/wtspeStyle.bundle.css?vn=0e19c88ccf6f51a77ef57d16df893939" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/wt/v9/static/assetsV10/wtspeStyle.bundle.css?vn=e7f411bd0391409d2a3a092450e30642" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/wt/v9/static/assetsV10/otherLoginWay.css?vn=a3c0731852704c40e9dc163e711535e0" type="text/css" rel="stylesheet"/>
+    <!-- 表单验证 -->
+    
+    
+
+
+          
+
+
+
+
+          
+
+          
+<script type="text/javascript">
+    var confirmTitle="提示",tipCancel="取 消",
+        tipSure="确 定",tipSuccess="操作成功",tipFail="操作失败",
+        dialogTitle="标题",tipSelect = "请选择",
+        selectSure= "确定",selectCancel="取 消",
+        pleaseInput="请输入，按回车确认",autoInput="自动匹配",
+        autoInputLikeMatch="请输入,可模糊匹配",containKeyWord="包含任一关键词",
+        candidatesSearchTip="<p>1、如希望包含多个词搜索，可以通过空格或逗号来区分每个词，如Java Oracle，表示文字中包含Java或Oracle</p><p>2、如需要同时存在的关键词，则用+号标识，如不允许出现的关键词，则用-号标识，如Java+Oracle-SAP则表示包含Java和Oracle但不包含SAP<br/><i class='pl10'></i>注：中间不要空格</p><p>3、如果是一句话，则用引号表示，如：“Human Resource”表示要包含这个词</p>",commRetracting="收起",
+        commEexpend="展开",systemErrorTip="系统出错！",
+        commMore="更多",commNoData="暂无数据",
+        commSetting="设置",commSetPageColumnOrder="配置页面列表排序",
+        commShowDetail="显示详细",commFullScreen="全屏",
+        commSetPageColumn="配置页面显示列表",commPrePage="上一页",
+        commNextPage="下一页",commShowList="显示列表",
+        commRecover="恢复",commNoChooseFile="未选择任何文件",
+        commTime="时间",commAdd="添加",
+        commTimeFormateError="时间不合法，输入格式为“XX:XX”",commSuccess="成功",
+        commAllDay="全日制",commStudyAbroad="海外留学",
+        comm211School="211院校",commTransfer="统招",
+        commNextStep="下一环节",commJumpStep="跳转环节",
+        commAbroadExpe="海外经验",
+        commBeginDate="开始日期",commEndDate="结束日期",
+        commHiddenTemplate="收起模板",commExpendTemplate="展开模板",
+        recentwork = "最近工作",
+        eduExperience = "教育经历",practice = "实习经历",
+        historywork = "历史工作",remark = "备注",
+        resonForLeaving = "离职原因",noSchedule = "暂无日程",
+        preview = "预览",jobmob = "立即使用",
+        inputModeDic = "渠道字典",channelname = "渠道名称",
+        userName = "用户名",Operate = "操作",
+        pluginsPublish = "插件发布",channelTips = "以下渠道需要使用插件操作，请点击“去发布”进入相应的招聘网站进行后续操作！",
+        goPublish = "去发布",openAll = "展开全部",
+        foldAll = "收起全部",minimizePages = "最小化页面",
+        choosePost = "请选择职位",plsInput = "请输入",
+        unfold = "展开",packUp = "收起",
+        tempSave = "暂存",allPost = "全部职位",
+        virtual = "虚拟",commonAddLabel = "添加标签",
+        commonPostName = "职位名称",commonOrgName = "机构名称",
+        commonWorkPlace = "工作地点",commonNoPostData = "暂无职位数据",
+        commonSaveTelentPoolResumeTips1 = "您尚未完成简历的填写，您希望：",commonSaveTelentPoolResumeTips2 = "继续填写",
+        commonSaveTelentPoolResumeTips3 = "稍后再说",commonSaveTelentPoolResumeTips4 = "您尚未完成简历的填写，请继续填写！",
+        pluginInstallTip = '系统检测到您尚未安装渠道助手插件，请点击“去安装”并按照安装步骤安装后再进行操作。',pluginInstallTip2 = '系统检测到您尚未安装渠道通，此功能需要渠道通支持，请点击按钮并按照安装步骤安装渠道通，然后刷新此页面再进行操作。',
+        pluginUpdateTip = '系统检测到您安装的渠道助手不是最新版本，请点击“去更新”并按照更新步骤更新后再进行操作。',pluginInstall = '去安装',
+        pluginUpdate = '去更新',tempNotInstall = '暂不安装',
+        tempNotUpdate = '暂不更新',editInterviewEV = '修改面试评价',
+        labelName = '请输入标签名称！',sixWords = '标签内容请保持在六个字以内，请重新编写',
+        failEdit = '修改失败',failedDelete = '删除失败',
+        deletelabel = '确认删除该标签？',addFailed = '添加失败',
+        itemIsRequired = '该项是必填项！',mustChooseHeadhunting = '必须选择猎头！',
+        labelAll = '全部',labelGroup = '组别',
+        columnEdit = '编辑',contactName = '姓名',
+        email = '邮箱',phoneNum = '手机号',
+        contactGroup = '联系人分组',commonSave = '保存',
+        chooseInvType = '请选择面试类型',intvSeqInfo = '请选择面试场次信息！',
+        intvTemplate = '请选择面试评价模板！',scheduledRecondRounds = '请为第二轮及以后的轮次选择非预约的场次',
+        doNotChoSameSeq = '请不要选择相同的场次',arrangedAtMost = '当前场次最多可安排',
+        confirmAndSubmit = '人，请确认后提交！',intvCannotEmpty = '面试场次小组数不能为空！',
+        intvPeriodCannotEmpty = '面试时间段不能为空！',intvGroupCannotEmpty = '面试官组不能为空！',
+        intverConflict = '同一时间段内面试官冲突！',sequenceFully = '该场次已经预约满，请选择其他场次！',
+        emailEmpty = '抄送人邮箱未填写或者邮箱格式不正确',selectSearchCondition = '请选择搜索条件',
+        successfullySavedSearcher = '保存成功',enterSearcherName = '请输入搜索器名称',tipBack="返 回",
+        once = '曾',_continue = '继续',
+        selectPost = '同一时间段内面试官冲突！',otherUserEdit = '该简历有其他用户正在编辑中',
+        folder = '新增文件夹', // 新增文件夹
+        iwInfo = '面试、笔试信息：Word、PDF支持移动至顶部或者底部，不支持移动至中间，excel格式不支持顺序调整', // 面试、笔试信息：Word、PDF支持移动至顶部或者底部，不支持移动至中间，excel格式不支持顺序调整
+        searchKeywords = '搜索关键字', // 搜索关键字
+        selectAllStr = '全选', // 全选
+        exportPersForm = '导出个性表单', // 导出个性表单
+        selectForm = '选择表单', // 选择表单
+        correspondingResume = '对应简历、人员信息采集表、应聘登记表语言版本', // 对应简历、人员信息采集表、应聘登记表语言版本
+        chinese = '中文', // 中文
+        english = '英文', // 英文
+        exportStr = '导出', // 导出
+        pdfExport = '转PDF导出', // 转PDF导出
+        selectResumeSource = '请选择简历来源', // 请选择简历来源
+        rejectOfferStr = '回绝offer', // 回绝offer
+        aiRecommendation = '智能推荐',
+        filter = '筛选条件',  // 筛选条件
+        allSchool = '全部目标学校', // 全部目标学校
+        advanced = '高级', // 高级
+        management = '管理', // 管理
+        confirmButton = '确定', // 确定
+        differentRec = '支持不同招聘类型单独配置', // 支持不同招聘类型单独配置
+        workRange = '工作经历显示范围', // 工作经历显示范围
+        modify = '修改', // 修改
+        newButton = '新增', // 新增
+        group = ' 组别', // 组别
+        educRange = '教育经历显示范围', // 教育经历显示范围
+        educExpe = '教育经历', // 教育经历
+        workExpe = '工作经历', // 工作经历
+        displaySorting = '显示排序', // 显示排序
+        displayFields= '显示字段', // 显示字段
+        photo = '照片', // 照片
+        label = '标签', // 标签
+        recentRemarks = '最近备注', // 最近备注
+        workExpeDisplay= '最近一段工作经历描述是否展示', // 最近一段工作经历描述是否展示
+        last = '最近 ', // 最近
+        segments = '段', // 段
+        educFirst = '教育经历在前', // 教育经历在前
+        workFirst = '工作经历在前', // 工作经历在前
+        labelYes = '是', // 是
+        labelNo = '否', // 否
+        allCvs = '全部简历', // 全部简历
+        unlockedCvs = '只看非锁定简历', // 只看非锁定简历
+        lockedCvs = '只看锁定简历', // 只看锁定简历
+        adjustOrderStr = '调整顺序', // 调整顺序
+        fillInfo = '可以填写正整数，在简历列表查看标 签时，其展示顺序会根据当前数字从 小到大进行展示。', // 可以填写正整数，在简历列表查看标 签时，其展示顺序会根据当前数字从 小到大进行展示。
+        homeAllTypes = '全部类型', // 全部类型
+        homeSocial = '社会招聘', // 社会招聘
+        homeCampus = '校园招聘', // 校园招聘
+        contactNameRequired = '用户姓名必填', // 用户姓名必填
+        contactInterviewerType = "面试官类型", // 面试官类型
+        nameCannotEmpty = "姓名不能为空，请输入", // 姓名不能为空，请输入
+        emailCannotEmpty = "邮箱不能为空", // 邮箱不能为空
+        emailIncorrect = "邮箱格式不正确", // 邮箱格式不正确
+        autoInterviewRangeModify = '修改自动面试安排模板', // 修改自动面试安排模板
+        templateName = '模板名称', // 模板名称
+        candidateInvitationSettings = '候选人邀约设置项', // 候选人邀约设置项
+        validityPeriod = '有效期', // 有效期
+        automaticallyExpire = '超过有效期后，候选人邀约链接自动失效', // 超过有效期后，候选人邀约链接自动失效
+        hourStr = '小时', // 小时
+        dayStr = '天', // 天
+        noticeType = '通知方式', // 通知方式
+        notSend = '若当前账套未开启邮件/短信，则对应消息不会发送', // 若当前账套未开启邮件/短信，则对应消息不会发送
+        interviewArrangementSettings = '面试安排设置项', // 面试安排设置项
+        interviewStage = '面试阶段', // 面试阶段
+        interviewLocation = '面试地点', // 面试地点
+        ifLeftBlank = '若为空，则面试官在发起候选人邀约时，也可以进行补充', // 若为空，则面试官在发起候选人邀约时，也可以进行补充
+        interviewEvaluationTemplate = '面试评价模板', // 面试评价模板
+        notifyInterview = '通知面试官', // 通知面试官
+        selectLetterTemplate = '选择信函模板', // 选择信函模板
+        notifyCandidates = '通知候选人', // 通知候选人
+        cancelStr = '取消', // 取消
+        saveStr = '确定', // 确定
+        bindingInstitutions = '与机构绑定', // 与机构绑定
+        bindPosition = '与职位绑定', // 与职位绑定
+        bindPositionCategory = '与职位类别绑定', // 与职位类别绑定
+        selectPosition = '请选择职位', // 请选择职位
+        selectOrgStr = '请选择机构', // 请选择机构
+        selectPositionCategory = '请选择职位类别', // 请选择职位类别
+        noSelectionRequired = '当前为聚合模板，无需选择', // 当前为聚合模板，无需选择
+        convergeMsg = '通知发送时间', // 通知发送时间
+        convergeMsgRightNow = '立即发送', // 立即发送
+        convergeMsgTimed = '定时发送', // 定时发送
+        recentSendDate = '最近发送时间为', // 最近发送时间为
+        sendingEmailToUnresponsiveInterviewer = '对未反馈的面试官邮件催办中！', // 对未反馈的面试官邮件催办中！
+        labelAssessStatus = 'label.assess.status ', // 测评状态
+        labelInterviewStatus = 'label.candidates.evaluateStatus ', // 面试状态
+        labelWrittenExam = '笔试状态', // 笔试状态
+        labelAuditStatus = '审批状态', //审批状态
+        labelEntryStatus = '入职状态', // 入职状态
+        labelOfferStatus = 'Offer状态', // offer 状态
+        labelNoRemark = '暂无备注', //暂无备注
+        toSupply = '去补充', // 去补充
+        startDownload = '开始下载', // 开始下载
+        importInterviewBtnName= "批量导入单个面";// 批量导入个面
+        tripAgreementTips= "三方协议未签订，请先维护三方协议内容";// 三方协议未签订，请先维护三方协议内容
+    // 国际数据的储存
+    window.IN18 = {
+        commonSetOperate:'设置常用操作', // 设置常用操作
+        commonResume:'简历', // 简历
+        commonMainAll:'全部', // 全部:
+        commonRange:'范围', // 范围:
+        commonStatus:'状态', // 状态:
+        selectAll:'选中全部记录', //选中全部记录
+        plsInput:"请输入", // 请选择
+        choosePost:"请选择职位", // 选择职位
+        weekArray: ['周日','周一','周二','周三','周四','周五','周六'], // ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+        commonPostName:"职位名称",
+        commonOrgName:"机构名称",
+        contactEmpty1 : "该候选人{0}为空，无法发送",
+        contactEmpty2 : "选择的候选人{0}都为空，无法发送",
+        contactEmpty3 : "已自动过滤{0}个没有{1}的候选人",
+        contactEmpty4 : "以下候选人{0}不完成，将无法发送，是否继续？",
+        email : "邮箱",
+        mobilePhone : "手机",
+        contactInformation : "联系方式",
+        auditFlowOnePass : "或签",
+        auditFlowOnePassTips : "或签（任一名审批人通过或驳回即可）",
+        auditFlowAllPass : "会签",
+        auditFlowAllPassTips : "会签（必须所有审批人通过即通过，任一人驳回即驳回）",
+        auditFlowAuditLevel : "审批级别",
+        approvalMethod : "审批方式",
+        auditFlowAuditUser : "审批人",
+        auditFlowAuditLevelTips1 : "第",
+        auditFlowAuditLevelTips3 : "级审批人",
+        deleteButton : "删 除",
+        editContact : "编辑联系方式",
+        name : "姓名",
+        mobilePhone : "手机号",
+        plsInputPhone : "请输入手机号码",
+        plsInputEmail : "请输入邮箱",
+        plsInputUserName : "请输入姓名",
+        veryHealthy : ' 非常健康',
+        healthy : ' 健康',
+        notHealthy : ' 异常',
+        poorHealthy : ' 有风险',
+        vocationalMentalHealth : ' 职业心理健康总评',
+        remindTipOfFeedback : ' 系统将对未反馈的用户重新发送催办',
+        recommendAcceptMsg1 : "确认将简历推荐到",
+        recommendAcceptMsg2 : "职位下？",
+        recommendPost : "被推荐人应聘职位",
+        intoTalentReasonMsg1 : "新增入库原因",
+        intoTalentReasonMsg2 : "上级原因类别",
+        intoTalentReasonMsg3 : "简历入库原因(中)",
+        intoTalentReasonMsg4 : "简历入库原因(EN)",
+        intoTalentReasonMsg5 : "请选择上级原因类别",
+        intoTalentReasonCommonInput : "输入不超过10个字符。不支持特殊字符",
+        intoTalentReasonCommonWordLimit : "不超过10个字符。",
+        intoTalentResumeTypeMsg1 : "新增简历类别",
+        intoTalentResumeTypeMsg2 : "上级简历类别",
+        intoTalentResumeTypeMsg3 : "简历类别名称(中)",
+        intoTalentResumeTypeMsg4 : "简历类别名称(EN)",
+        intoTalentResumeTypeMsg5 : "请选择上级简历类别",
+        intoTalentFolderMsg1 : "新增文件夹",
+        intoTalentFolderMsg2 : "上级文件夹",
+        intoTalentFolderMsg3 : "文件夹名称",
+        intoTalentFolderMsg4 : "请输入文件夹名称",
+        intoTalentFavoritesMsg1 : "新增收藏夹",
+        intoTalentFavoritesMsg2 : "上级收藏夹",
+        intoTalentFavoritesMsg3 : "收藏夹名称",
+        intoTalentFavoritesMsg4 : "请输入收藏夹名称",
+        talentSearchTypeAll : "全部人才库",
+        talentSearchInputTips : "按公司/职位/学校/专业搜索",
+        talentSearchHistoryCondition : "历史搜索条件",
+        talentSearchHistoryClear : "清空历史记录",
+        talentSearchSavedSearchCondition : "保存的搜索条件",
+        talentSearchWorkLocation : "期望工作地",
+        talentSearchCurrentLocation : "现居住地",
+        talentSearchWorkExperience : "工作年限",
+        talentSearchEducation : "学历",
+        talentSearchPageSetting : "配置页面操作",
+
+        updateResumeContent:"您现在可以更新简历联系方式了。",
+        updateResumeClose:"关闭",
+        updateResumeTo:"前去更新",
+        updateResumeToTip:"您的插件需要更新后才能使用哦！",
+        pluginLoginSuccess:"插件登录成功",
+        mainReSend:"重发"
+
+    }
+</script>
+<script type="text/javascript">
+    function setTempCookie(name,value){
+
+        var name = escape(name);
+        var value = escape(value);
+
+        var path =  ";path=/";
+
+        document.cookie = name + "=" + value + path;
+
+    }
+
+    //删除cookie
+    function loadPageDeleteCookie(name) {
+        var name = escape(name);
+        var expires = new Date(0);
+        var path = ";path=/";
+        document.cookie = name + "=" + ";expires=" + expires.toUTCString() + path;
+    }
+    loadPageDeleteCookie('thePageUrl');  // 工作台用到的cookie 删除避免 请求头超长
+    // loadPageDeleteCookie('corpCodeStr'); // 工作台用到的cookie 删除避免 请求头超长
+</script>
+<script type="text/javascript" src="/wt/v9/static/javascript/libs/common/js/componentDepend.bundle.js?vn=ecca8a6c03751f82a3b9266e59f45b24"></script>
+<script type="text/javascript" src="/wt/v9/static/javascript/libs/common/js/component.bundle.js?vn=dc50d2ad5425a7c3134da028114782b2"></script>
+<link href="/wt/v9/static/styles/candidate/validatePrivacy.css?vn=777254540fb21ee4a89335eb799da1f7" type="text/css" rel="stylesheet"/>
+<script type="text/javascript">
+    window.isJsCommonPage = function () {
+        // 登录页的判断
+        if(window.location.href.indexOf('/wt/login') > -1) {
+            return false;
+        }
+        return true;
+    }
+
+    var contextPath = "/wt";
+    window.BASEINFO = {corpCode: '\u4F01\u4E1A\u540D'};
+    window.openRightCard = "false";
+    var splitRecruitType = "1";
+    window.isVersion9 = true
+    // 简历详情页，有些地方的js用到了 isVersion10 补一下
+    window.isVersion10 = splitRecruitType === '0' ? true : false; // 当前页面为V9资源引用，所以v10资源引用为false
+    //插件安装帮助页面URL
+    var extensionInstallUrl = '/wt/extension/index?operational=c4eff34cd0389ef68622f3041c1bc0f88b27538c3469f075d21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    var isShowContactor = 'false';
+    isShowContactor = (isShowContactor === "true" ? true : false);
+    var requestIsFromMail = '';
+    // 消息中心  任务看板 规则
+    var messageCenterStatus = "false"
+    var checkSendResumeVersionUrl = "/wt/candidates/screening/untreated/recommend!checkSendResumeVersion?operational=d564fe1e9587bfb528483f97eb43d0844c7aa35bebd5eccd4f99cb99b178efd2af65815e65d65aa0953c33b2e9485f6c26cb5588151c70db233c1706730ae3a035c456a17f2497d0d21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a"
+    var isOpenRepeatPoolRemind = "/wt/personal/settings/listRepeatPoolRemind?operational=576ac9dc6d8f63989de0315430836b4c8b33384a34c4cd3128fc5ab9e20bd8d152394c613f289b59ac6b7fd9fead0f6828cd2f240529f1e1b3879f59687584db3541daf71a0e96ec"
+    var repeatRemindNum = "/wt/all/candidatesSearch/listResumeTable!getRepeatRemindNum?showRepeatRemind=0&operational=df4532b31ea7a89259a4608442d2de737b29e1245d4f96bc2e90abb9c29c78f2669781ef39b811f806107801ddff0ca68efff2125612213d046a077d5ad1cdba87a62ec8269ca5cda9101da345f409f86e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9"
+    var rpeatPoolRemindEditTime = "/wt/personal/settings/listRepeatPoolRemind!editRemindTime?operational=576ac9dc6d8f63989de0315430836b4c8b33384a34c4cd3128fc5ab9e20bd8d152394c613f289b59628d8cd622791bbdfb27993603c5eb90abc9f515098c0c9dd8bdff4d56eede6a2e6f97f64e10930a"
+    var repeatPoolRemindChecked = "/wt/all/candidatesSearch/listResumeTable!search?showRepeatRemind=0&operational=df4532b31ea7a89259a4608442d2de737b29e1245d4f96bc2e90abb9c29c78f2669781ef39b811f8a7c332f9887f84831ed3a2b6ee3174528efff2125612213df45a28a02bc143f728cd2f240529f1e1b3879f59687584db3541daf71a0e96ec";
+    // 标签数据的储存
+    var JSPLABELJSON = {}, JSPLABELURL = {};
+
+    var checkIntoOfferSegmentAloneUrl = '/wt/candidates/interviewEvaluation/unevaluated/intoOfferManage!checkIntoOfferSegmentAlone?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e871e39caed98e797242be20f6d6e5a1a76d5745260ac12ebf6f4d5f3938b0d7493a0acb8a45100e7ccd1300a1044d13b6fea28d8d129856e97dee5019e01968b6abc9f515098c0c9dd8bdff4d56eede6a2e6f97f64e10930a';
+
+    var checkIntoOfferSegmentBatchUrl = '/wt/candidates/interviewEvaluation/unevaluated/intoOfferManage!checkIntoOfferSegmentBatch?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e871e39caed98e797242be20f6d6e5a1a76d5745260ac12ebf6f4d5f3938b0d7493a0acb8a45100e7ccd1300a1044d13b6fea28d8d129856e990f304d3cae6757b8f75fdb80fb27190d8bdff4d56eede6a2e6f97f64e10930a';
+
+    var checkCandiataeEvaluateRoundsSingle = '/wt/candidates/interview/checkCandidates!checkIntoSegmentAlone?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e87c0b770f4679a7d5946bc86d8eaadc973f3e7ebc609a49ff025b686a2e573112036c8d6e5e9023f86e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9';
+
+    var checkCandiataeEvaluateRoundsBatch = '/wt/candidates/interview/checkCandidates!checkIntoSegmentBatch?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e87c0b770f4679a7d5946bc86d8eaadc973f3e7ebc609a49ff025b686a2e573112e858243ee37628f96e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9';
+
+    var intoOfferManage = '/wt/candidates/interviewEvaluation/unevaluated/intoOfferManage?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e871e39caed98e797242be20f6d6e5a1a76d5745260ac12ebf6f4d5f3938b0d74960938ab0e8332ca96e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9';
+
+    var intoOfferManageBatch = '/wt/candidates/interviewEvaluation/unevaluated/intoOfferManage!batch?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e871e39caed98e797242be20f6d6e5a1a76d5745260ac12ebf6f4d5f3938b0d749a3a085eb8101f51a0ccfc3c9fe9f51df165876aa4d426225d7de5fa95953b823da45cdbf9caaee62';
+
+    var proposedEmploymentManagementUrl = '/wt/candidates/preHired/submitAudit!checkSubmitAudit?operational=d564fe1e9587bfb505df6905f92f035726edc611efdc30077a316baaac81bce7fb0ac6a0e3e1119d05901b7f87262e6a12a12f08338ed204165876aa4d426225d7de5fa95953b823da45cdbf9caaee62';
+    var proposedEmploymentManagementBatchUrl = '/wt/candidates/preHired/submitAudit!checkSubmitAuditBatch?operational=d564fe1e9587bfb505df6905f92f035726edc611efdc30077a316baaac81bce7fb0ac6a0e3e1119d05901b7f87262e6a847918e390b6a3148f75fdb80fb27190d8bdff4d56eede6a2e6f97f64e10930a';
+    var backSendOfferBatchUrl = '/wt/candidates/enterDuty/unenter/backSendOffer!batch?operational=d564fe1e9587bfb5c78f4380a3b262608467a27d7b8d238d92380c9a6dc23cb3a21b60e97706b28c1772850a0440fba70ccfc3c9fe9f51df165876aa4d426225d7de5fa95953b823da45cdbf9caaee62';
+    var checkBatchSubmitDataUrl = '/wt/candidates/enterDuty/unenter/backSendOffer!checkBatchSubmitData?operational=d564fe1e9587bfb5c78f4380a3b262608467a27d7b8d238d92380c9a6dc23cb3a21b60e97706b28cd74d03dd36dfb537e1e08042f122334c96fc0e26992c6958a4a813f7ca1f1c6dd21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    //ATS-81239 进入淘汰库
+    var getDisusePersonalizedSettings='/wt/personal/settings/getDisusePersonalizedSettings!getDisuseInfo?operational=576ac9dc6d8f63989de0315430836b4cbbd0748db5d6328a8136364d78e43d4643e4317764881f7b8e619e56299817c544f6ecc6de91cfe7d08aee4f2fca757be12de504f031c86dd8bdff4d56eede6a2e6f97f64e10930a';
+    var saveDisusePersonalizedSettings='/wt/personal/settings/saveDisusePersonalizedSettings!saveDisuseInfo?operational=576ac9dc6d8f63989de0315430836b4c2a505b3035d00d6c0e3a18184345ef2d099b0926b5582b39bee317bae1eb7bca11a0a4290a1a7acddec7649e5d83c7e9794e47ca0c699e2fd21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    var resumeInfoCheckCanJump = '/wt/candidates/resumeInfo!checkCanJump?operational=d564fe1e9587bfb55f49b2b2a1909db2f596d49b2e7be843d323c2732f739cc0b610f6b9d6800f5e6e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9'; //跳转环节前置校验接口
+    var resumeInfoCheckExportResumePurview = '/wt/candidates/resumeInfo!checkExportResumePurview?operational=d564fe1e9587bfb55f49b2b2a1909db2f596d49b2e7be843a1ab4cc379696ebc8e0d04c2fbd6210b1dbf2d2ecd0e32b57133643867fcff0528cd2f240529f1e1b3879f59687584db3541daf71a0e96ec';  //导出简历校验权限前置接口
+    var resumeInfoCheckIsFinished = '/wt/candidates/resumeInfo!checkIsFinished?operational=d564fe1e9587bfb55f49b2b2a1909db2f596d49b2e7be843c2000c0cf56a4907dbfba6bfb91908a954f7a03d1dd2df30d8bdff4d56eede6a2e6f97f64e10930a'; //待入职、入职时校验接口
+    var ajaxCheckDelotteChinaEhResumeParam = '/wt/candidates/screening/untreated/intoUnenterDuty!ajaxCheckDelotteChinaEhResumeParam?operational=d564fe1e9587bfb528483f97eb43d0844c7aa35bebd5eccd4f99cb99b178efd2058d39f0ad690a03834c0f18a08c24aceb846e66c52575b95b71487be47876d9f5fc6b07935ce811ed57dc1c27af5d6843e3ca7b445cd63158e6f29c784965fad78a2ba4a33e673327f88b5b1e92b26d'; //【德勤社招】简历同步接口优化
+    var resumeInfoCheckResumePurview = '/wt/candidates/resumeInfo!checkEditPurview?operational=d564fe1e9587bfb55f49b2b2a1909db2f596d49b2e7be843a1ab4cc379696ebc0da0fb50ea1db5d27133643867fcff0528cd2f240529f1e1b3879f59687584db3541daf71a0e96ec';  //去补充校验编辑权限
+    var showWhichTalentPoolToEnterBool ='false'; // 规则-简历进入人才库时是否显示合并去向
+    var preHiredCheckUserAuthUrl ='/wt/candidates/preHired/submitAudit!checkUserAuth?operational=d564fe1e9587bfb505df6905f92f035726edc611efdc30077a316baaac81bce7fb0ac6a0e3e1119d693e52be8f4f55b08f75fdb80fb27190d8bdff4d56eede6a2e6f97f64e10930a';
+    var resumeInfoCheckCanOperateUrl ='/wt/candidates/resumeInfo!checkCanOperate?operational=d564fe1e9587bfb55f49b2b2a1909db2f596d49b2e7be843d323c2732f739cc0e5491834c0005f1cabc9f515098c0c9dd8bdff4d56eede6a2e6f97f64e10930a';
+
+	// 新版人才库转库逻辑提交接口
+	var changePoolSubmitUrl = "/wt/talentPool/saveResumeType?operational=b415569806b454424931cf8f8ec3063f59eaf896d175a7509d4c34aedc51ff5658e6f29c784965fad78a2ba4a33e673327f88b5b1e92b26d";
+
+    var needPhoneMust = false;
+    // 重置top
+    var ATS_parentArrLength = 1;
+    var ATS_TopWindow = window;
+    for(var getTop = 0;getTop<ATS_parentArrLength;getTop++){
+        try {
+            ATS_TopWindow.parent.global; // 通过global判断是否跨域
+            ATS_TopWindow = ATS_TopWindow.parent;
+            ATS_parentArrLength++;
+        }
+        catch (e) {
+            console.log(ATS_parentArrLength);
+        }
+        if(ATS_parentArrLength > 5){
+            break;
+        }
+    }
+    // 新版编辑offer
+    var useNewEditOffer = 'false';
+    // 新版提交拟录用
+    var useNewPreHiredSubmitAudit = 'false';
+    // 新版安排笔试
+    var useNewWritten = 'false';
+    // ATS轻装修样式2023
+    var systemNewStyle = 'false';
+    if(ATS_TopWindow === self){
+        if(systemNewStyle === 'true'){
+            systemNewStyle = true;
+        }else {
+            systemNewStyle = false;
+        }
+    } else {
+        if(ATS_TopWindow.systemNewStyle){
+            systemNewStyle = ATS_TopWindow.systemNewStyle;
+        }else{
+            if(systemNewStyle === 'true'){
+                systemNewStyle = true;
+            }else {
+                systemNewStyle = false;
+            }
+        }
+    }
+
+</script>
+
+
+<script type="text/javascript" src="/wt/v9/partition/v10/talentCloud.js?vn=dee7235accbf8a08b898176b4ab1c7a7"></script>
+<script type="text/javascript" src="/wt/v9/partition/v10/tcMesHandler.js?vn=747f8eb404c65d0fe738f02f6b46148a"></script>
+<script>
+    // 主体颜色
+    window.themeMainColor = '';
+    var themeStyle = getSharedParams('themeStyle');
+    (!themeStyle || themeStyle.themeColor !== themeMainColor) && window.setSharedParams('themeStyle', {themeColor: window.themeMainColor});
+    var _getCookie = function(name){
+        var name = escape(name);
+        //读cookie属性，这将返回文档的所有cookie
+        var allcookies = document.cookie;
+
+        //查找名为name的cookie的开始位置
+        name += "=";
+        var pos = allcookies.indexOf(name);
+
+        //如果找到了具有该名字的cookie，那么提取并使用它的值
+        if (pos != -1) {
+            var start = pos + name.length;
+            var end = allcookies.indexOf(";", start);
+            if (end == -1) end = allcookies.length;
+            var value = allcookies.substring(start, end);
+            return unescape(value);
+        } else return "";
+    }
+    window.themeMainColor && window.setSharedParams("tlf_theme_color", {themeColor: window.themeMainColor});
+    var langStr = "zh-cn";
+    // cookie-corpCode
+    if(_getCookie('corpCode') === '') {
+        setTempCookie('corpCode', '')
+    }
+</script>
+<script type="text/javascript" src="/wt/v9/static/assets/localforage.min.js?vn=e09b9c3824f5c545f5af7ebc22009403"></script>
+<script type="text/javascript" src="/wt/v9/static/assets/wtspe.bundle.js?vn=1ac5bd0d699d5926c5d26af9f026b6cc"></script>
+<script type="text/javascript" src="/wt/v9/static/assets/config.bundle.js?vn=4c0ed34b49dbb3142344a7eae3584888"></script>
+<script type="text/javascript" src="/wt/javascript/other/base64.js?vn=69b39eb2a8edd859f31b065f553417ad"></script>
+<script>
+    // pm 62828 , 20191216 clgu -----------------------  start ------------------
+    window.inProtectionSettings = null,window.isRequestProtectionSettings = false;
+    window.getOperateListByHunterRule = '/wt/candidates/deleteResumeLock!getOperateListByHunterRule?operational=d564fe1e9587bfb50e9a7d140b28664f131f16707365ca0095899157276901cc86efba1ba10e54e1fe1829e84f437489f35fd5d3fb140d722ffdfd7fa113b1a928cd2f240529f1e1b3879f59687584db3541daf71a0e96ec';
+    window.checkInProtectionInCand = '/wt/candidates/deleteResumeLock!checkInProtectionInCand?operational=d564fe1e9587bfb50e9a7d140b28664f131f16707365ca0095899157276901ccedf69f6d369d0d128c75afc3273d2a64ea6a2e4ef7d6fa5b2ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718';
+    window.checkInProtectionInTalent= '/wt/candidates/deleteResumeLock!checkInProtectionInTalent?operational=d564fe1e9587bfb50e9a7d140b28664f131f16707365ca0095899157276901ccedf69f6d369d0d128c75afc3273d2a64299e5f8c960155aa55c1ecf51a1f43d7d8bdff4d56eede6a2e6f97f64e10930a';
+    window.getOperateListByHunterRuleMl = '/wt/mailResponse/deleteResumeLock!getOperateListByHunterRule?operational=d018cd3257ab8dc468626c2a67712651168c7850dddaa505634df10e4470fcbdc4914167c2963df98683e22f09066198ec57390595568cafc69d4e2d05d098b0165876aa4d426225d7de5fa95953b823da45cdbf9caaee62';
+    window.checkInProtectionInCandMl = '/wt/mailResponse/deleteResumeLock!checkInProtectionInCand?operational=d018cd3257ab8dc468626c2a67712651168c7850dddaa505634df10e4470fcbdc302107991ed68a8b948851a8c3b803c52630dadda52e8e854f7a03d1dd2df30d8bdff4d56eede6a2e6f97f64e10930a';
+    window.checkInProtectionInTalentMl= '/wt/mailResponse/deleteResumeLock!checkInProtectionInTalent?operational=d018cd3257ab8dc468626c2a67712651168c7850dddaa505634df10e4470fcbdc302107991ed68a8b948851a8c3b803cc459aed426e0e7366342df5813082f69d21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    var hunterProtectionPeriod = '尚在猎头保护期内，使用将涉及费用，请确认是否继续？';
+    // 全局表格页面条数的控制
+    var pageArray = [{"text":"5条","value":"5"},{"text":"10条","value":"10"},{"text":"15条","value":"15"},{"text":"20条","value":"20"},{"text":"30条","value":"30"},{"text":"50条","value":"50"},{"text":"100条","value":"100"},{"text":"200条","value":"200"},{"text":"300条","value":"300"},{"text":"500条","value":"500"},{"text":"1000条","value":"1000"}];
+    var resizeLogoUrl = '/wt/mailResponse/config/logo!retLogoWeightAndHeight?operational=d018cd3257ab8dc468626c2a67712651954d3c5efebf682672f6a18770cf07f54b91bae10ced9dd8a6e74e48277011cb1caa86802c1ceebbd21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a',
+        defaultLogoUrl = "/wt/config/logo!img?uniqueKey=1&operational=c0b712488cd06407cc6ca334c55fcdc44772c782b922a4058f6dadc3f84bc6742ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718",
+        defaultLogoNewUrl = "/wt/config/logo!newImg?operational=c0b712488cd06407cc6ca334c55fcdc43e6758d17146f8ad6e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9";
+    
+    var testLantype = "zh-cn";
+    var currentLocale = localStorage.getItem("tlf_locale");
+    var isNewDeliverUrl = '/wt/candidates/doubtResume/listResume?operational=d564fe1e9587bfb50e9a7d140b28664f15cd8e91efbd908519e88eb41ac791a57f747e30674ba15d58e6f29c784965fad78a2ba4a33e673327f88b5b1e92b26d';//判断新的投递
+    // 维护目标公司的关键信息
+    var enableCompanyRemark =  'false';
+        enableCompanyRemark === 'true' ? enableCompanyRemark = true : enableCompanyRemark = false;
+    // 维护目标公司的关键信息存储的对象
+    try{
+        window.top.openTargetCompanyRemarkData = {};
+    }
+    catch (e) {
+        window.openTargetCompanyRemarkData = {};
+    }
+    //ATS-81239 进入淘汰库
+    var getDisusePersonalizedSettings='/wt/personal/settings/getDisusePersonalizedSettings!getDisuseInfo?operational=576ac9dc6d8f63989de0315430836b4cbbd0748db5d6328a8136364d78e43d4643e4317764881f7b8e619e56299817c544f6ecc6de91cfe7d08aee4f2fca757be12de504f031c86dd8bdff4d56eede6a2e6f97f64e10930a';
+    var saveDisusePersonalizedSettings='/wt/personal/settings/saveDisusePersonalizedSettings!saveDisuseInfo?operational=576ac9dc6d8f63989de0315430836b4c2a505b3035d00d6c0e3a18184345ef2d099b0926b5582b39bee317bae1eb7bca11a0a4290a1a7acddec7649e5d83c7e9794e47ca0c699e2fd21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    
+    var getWebScketUrl = "/wt/ws/getUrl?operational=1ba2b73fe3ae593bab84b3210e1bf8b758e6f29c784965fad78a2ba4a33e673327f88b5b1e92b26d";
+    // ATS-63539 批量提交不同岗位的offer审核
+    var checkIntoAuditingUrl = '/wt/candidates/offerManage/preparing/intoAuditing!checkIntoAuditing?operational=d564fe1e9587bfb5e943b5fef015faa2632581e03ff7d71203d663035c57c06888ad8231f7bef3df0e88bd982c23671855c2efeeb6a4c1f93cbb37e0a1400905fc73fe40b79da0aed21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    var submitIntoAuditingUrl = '/wt/candidates/offerManage/preparing/submitIntoAuditing!batch?operational=d564fe1e9587bfb5e943b5fef015faa2632581e03ff7d71203d663035c57c068a3b310b4ba4209efc20b4115274df5dfcef1ad3797c892f23d2220b349f54c6158e6f29c784965fad78a2ba4a33e673327f88b5b1e92b26d';
+    var intoAuditingBatchUrl = '/wt/candidates/offerManage/preparing/intoAuditing!batch?operational=d564fe1e9587bfb5e943b5fef015faa2632581e03ff7d71203d663035c57c06888ad8231f7bef3df0e88bd982c236718c26a73364089d3722ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718';
+
+    // 获取面试官类型数据
+    var getInterviewerTypeUrl = '/wt/candidates/interview/initInterviewerType?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e824fd77fda565cec900de62485007253db6afc1ca99d28cef165876aa4d426225d7de5fa95953b823da45cdbf9caaee62'
+</script>
+<script type="text/javascript" src="/wt/v9/static/partition/candidates/hunterProtection.js?vn=0b81fc3e4986d3ba5468cc61e6c3311e"></script>
+<script type="text/javascript" src="/wt/v9/static/assets/specialized.js?vn=ecc18841f4e3f7404afb09a097e17bfc"></script>
+<script type="text/javascript" src="/wt/v9/static/assets/bussiness.bundle.js?vn=b7e2e8b767ca8790536ea917bcfd5aaf"></script>
+<script type="text/javascript" src="/wt/v9/static/javascript/commonjsLinkedInit.js?vn=57773cba2f08adea5d101c6cef941e11"></script>
+
+
+
+
+<script type="text/javascript">
+    var validatePrivacyFlag = false;
+    var validatePrivacyUrl = '/wt/corpmgr/confirmationInfo/getConfirmationInfoStatus?operational=8096473c0303bb11f410f9f8cfc4f6c14765f9fa1f894bf0306c9aeefbcdcef2e69b16bc261f486d27897a7990ca1fca1726b9fe183817916e1e2cc5d9612b0fc9b8fb5778021fc816210a46653b99d9';
+    var updateValidatePrivacyUrl = '/wt/corpmgr/confirmationInfo/updateConfirmationInfoStatus?operational=8096473c0303bb11f410f9f8cfc4f6c14765f9fa1f894bf0c4314c3c907eff7e204a370e855adf8079fc5afd7ec3c93f6b959456dae7f6e70783b57cc2956d35d8bdff4d56eede6a2e6f97f64e10930a';
+    // 简历过期提醒
+    var resumePrivacyUrl = '/wt/all/candidatesSearch/listResume?operational=df4532b31ea7a89259a4608442d2de737b29e1245d4f96bc2e90abb9c29c78f20f69c814f09cba0dd21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    var resumePrivacyValidateUrl = '/wt/corpmgr/confirmationInfo/getResumeRetentionPeriodNoticeInfo?operational=8096473c0303bb11f410f9f8cfc4f6c14765f9fa1f894bf0306c9aeefbcdcef2694df89ea7e33443ce880fe3e21de7b3c36bd07599f0617fb31b6a2ecc963ef72ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718';
+    var resumePrivacyUpdateUrl = '/wt/corpmgr/confirmationInfo/updateResumeRetentionPeriodNoticeInfo?operational=8096473c0303bb11f410f9f8cfc4f6c14765f9fa1f894bf0c4314c3c907eff7edaca0059eb332598722f27c0f83f4c5518d713b54caa3f964e7bbe1c573c4ca83243f90e8c97ba3828cd2f240529f1e1b3879f59687584db3541daf71a0e96ec';
+
+
+    // 目标公司的备注右推的数据
+    try {
+        window.top.openTargetCompanyRemark = function (data) {
+            var targetCompanyList =  window.top.openTargetCompanyRemarkData[data] ;
+            if (targetCompanyList && targetCompanyList.length > 0 ){
+                Wtspe.wtspeWaiting.show();
+                window.top.toTalentCloud(2, '/wt/tc/page/CompanyNotesMaintenance', { key: 'CompanyNotesMaintenance', value: {  targetCompanyListData:targetCompanyList  } }, '100%', function () {
+                    Wtspe.wtspeWaiting.hide();
+                });
+            }
+
+        }
+    }
+    catch (e) {
+        window.openTargetCompanyRemark = function (data) {
+            if(window.openTargetCompanyRemarkData != null){
+                var targetCompanyList =  window.openTargetCompanyRemarkData[data] ;
+                if (targetCompanyList && targetCompanyList.length > 0 ){
+                    Wtspe.wtspeWaiting.show();
+                    window.toTalentCloud(2, '/wt/tc/page/CompanyNotesMaintenance', { key: 'CompanyNotesMaintenance', value: {  targetCompanyListData:targetCompanyList  } }, '100%', function () {
+                        Wtspe.wtspeWaiting.hide();
+                    });
+                }
+            }
+        }
+    }
+    // 导出全部面评模板接口
+    var exportAllEvTempUrl = '/wt/candidates/interviewEvaluation/unevaluated/exportAllEvTemp!canExport?operational=d564fe1e9587bfb574d97fc7e730808d8fec30769ed1d9e871e39caed98e797242be20f6d6e5a1a748c4f42a121974804b6fe731c1ab18da2ba06d37d4ba9bc861b2006b945757fd791acce9a88c9ab6633d222d1b0ad4198caf225bb8bca677';
+
+    var isEnglishLocale= "false";
+</script>
+
+
+
+          
+<script id="loadJavascript">
+    var JS_forwardResume = '/wt/v9/static/partition/candidates/forwardResume.js?vn=d90bea6027ae1a8031beed9cdb1ad9d9';
+    var JS_contactCandidates = '/wt/v9/static/partition/candidates/contactCandidates.js?vn=51b123ffe4d5df843e355edbf69e84da';
+    var JS_qanjingBackground = '/wt/v9/static/partition/candidates/qanjingBackground.js?vn=6cbd8b411f3c863a8f34dffb6c403282';
+    var JS_taiHeDingXinBackground = '/wt/v9/static/partition/candidates/taiHeDingXinBackground/taiHeDingXinBackground.js?vn=e8d7f623d6e91e92b8111e24dfe32372';
+    var JS_baFangjinchengBackground = '/wt/v9/static/partition/candidates/baFangjinchengBackground/baFangjinchengBackground.js?vn=55334f2e1ba704e7490b1383db854d6a'
+    var JS_yiqiBackground = '/wt/v9/static/partition/candidates/yiqiBackground.js?vn=c807c0ead59ac77afaf2c5442e028282'
+    var JS_interviewHrtps = '/wt/v9/static/partition/candidates/interviewHrtps.js?vn=eb6576038ea5c04c7a06e1a04edeea05'
+    var JS_candidatesNameHover = '/wt/v9/static/javascript/candidatesNameHover/candidatesNameHover.js?vn=289b9992932c805df3828bb33d8ed4f2'
+    var JS_ApplicationForApproval = '/wt/v9/static/partition/candidates/ApplicationForApproval/ApplicationForApproval.js?vn=6bb78a151fc9f7d01b5107050061f7a5'
+    var JS_ExportInterviewEvaluationTable = '/wt/v9/static/partition/candidates/ExportInterviewEvaluationTable/ExportInterviewEvaluationTable.js?vn=fa21a92f723ef7d0dc1ca58d52bafbb2'
+    var JS_HaoLaEvaluation = '/wt/v9/static/partition/candidates/HaoLaEvaluation/HaoLaEvaluation.js?vn=2942087a47c33a59b9869935ce49c6a3'
+    var JS_NewAiVideoInterview = '/wt/v9/static/partition/candidates/NewAiVideoInterview/NewAiVideoInterview.js?vn=086c420aa54bbc60b6e706da279d3525'
+    var JS_InitiateAMeeting = '/wt/v9/static/partition/candidates/InitiateAMeeting/InitiateAMeeting.js?vn=3c9455a491cc60d9ea4e119cc3402d6c'
+    var JS_xuanDuBackground = '/wt/v9/static/partition/candidates/xuanDuBackground/xuanDuBackground.js?vn=132a9c5353904d0226922d24c9abe43a'
+    var JS_partnerBackground = '/wt/v9/static/partition/candidates/partnerBackground/partnerBackground.js?vn=1eb3e31baf8cb0cc38dd58ac0e80e282'
+    var JS_modifyEcologicalAssessTime = '/wt/v9/static/partition/candidates/modifyEcologicalAssessTime/modifyEcologicalAssessTime.js?vn=4b60e09182ca0bec9859faa05d3f6c04'
+    var JS_electronicSigning = '/wt/v9/static/partition/candidates/electronicSigning/electronicSigning.js?vn=a7d4b23a96ba5d6d59eeaca1b0d3b7c5'
+    var JS_electricAggregationTrusted = '/wt/v9/static/partition/candidates/electricAggregationTrusted/electricAggregationTrusted.js?vn=1009e80c344de216dcb17500c1a90d27'
+    var JS_electronicSignatureInvalid = '/wt/v9/static/partition/candidates/electronicSignatureInvalid/electronicSignatureInvalid.js?vn=b0c807f8053c545fffb2ee945005b40a'
+    var JS_chooseUserv10 = '/wt/v9/static/javascript/chooseUserv10/index.js?vn=4be471edbc0f4d293433f9e56bb85a88';
+    var JS_interviewSelect = '/wt/v9/static/partition/setInterview/interviewSelect.js?vn=e869585e8631786200d0c94d9cb38b52';
+    var JS_interviewPop = '/wt/v9/static/partition/setInterview/interviewPop.js?vn=11197b80b4b29df23b458e2840ad0169';
+    var JS_singleInterview = '/wt/v9/static/partition/setInterview/singleInterview.js?vn=6002f1d4f69fd35b7e0890b93cab6362'; //单个面试安排
+    var JS_multipleInterview = '/wt/v9/static/partition/setInterview/multipleInterview.js?vn=16b697669be1d25ebc3ba402d52b59a2';//批量面试安排
+    var JS_singleSequence = '/wt/v9/static/partition/setInterview/singleSequence.js?vn=8a8838f36f28fe37e2fbd6bc004cf782';//单个加入场次
+    var JS_multipleSequence = '/wt/v9/static/partition/setInterview/multipleSequence.js?vn=0525f1487a9bf112a725bdd79143c7f9';//批量加入场次
+    var JS_importInterviewBatch = '/wt/v9/static/partition/setInterview/importInterviewBatch.js?vn=a39264dea0fae222748823ff0f9dddaa';
+    var JS_importInterviewEVBatch = '/wt/v9/static/partition/setInterview/importInterviewEVBatch.js?vn=28cbab8194e2a19cfa572103cb53580f';//面试评价导入 - 只有批量
+    var JS_creatVideo = '/wt/v9/static/javascript/creatVideo/index.js?vn=0cb9e2b57f1a001a0c61013b5d43a851'
+    var JS_ckeditorPk = '/wt/v9/static/thirdpartV10/ckeditor/ckeditor-pk.js?vn=85dcf5cbe3a35348410bc67b72baaad8'
+    var JS_ckeditorZh = '/wt/v9/static/thirdpartV10/ckeditor/translations/zh-cn.js?vn=6ca30b76f328d84e93ac0a79822f0d02'
+    var JS_ckeditor = '/wt/v9/static/thirdpartV10/ckeditor/ckeditor.js?vn=de72a38708c8310e72cdd5a598700d00'
+    // 意向地点
+    var JS_intendedWorkplace = "/wt/v9/static/javascript/candidate/intendedWorkplace.js?vn=8078264403ab28f36e70e5ac78777a11";
+    var JS_showOutcall = '/wt/v9/static/partition/candidates/header_assets/header.js?vn=bd9d579c145a8bcbd9bf37b49dfebb4d'
+
+    // 面试看板-详情页
+    var JS_interviewDetail = '/wt/v9/static/partition/interviewView/interviewDetail.js?vn=10dfef93553b1642a601dae8189c5efa';
+    var JS_interviewDetailTemplate = '/wt/v9/static/partition/interviewView/interviewDetailTemplate.js?vn=1e3129aeb4c601cea62119bfdb0c4e1b';
+    var JS_interviewDetailPreviewProgressTemplate = '/wt/v9/static/partition/interviewView/previewProgress.js?vn=897d882321d1cf09b348b952b55cfc46';
+    var JS_interviewDetailHistoryOperateTemplate = '/wt/v9/static/partition/interviewView/historyOperate.js?vn=42b5404cd0a1e6c0a4ff243337c99706';
+    var JS_interviewDetailViewDetailListThirdTemplate = '/wt/v9/static/partition/interviewView/viewDetailList.js?vn=bf2ac8ba5ce6e3d4e630201568291504';
+    var JS_interviewDetailArrangeInfoAdjuDetailTemplate = '/wt/v9/static/partition/interviewView/arrangeInfoAdjuDetail.js?vn=6b7a39af9f764395790d3174023f8500';
+    var JS_interviewDetailCancelReasonTemplate = '/wt/v9/static/partition/interviewView/cancelReason.js?vn=b24c2af38cb9af05d6951b6b0d7e38ad';
+
+    var CSS_taiHeDingXinBackground = '/wt/v9/static/partition/candidates/taiHeDingXinBackground/taiHeDingXinBackground.css?vn=50b26473218c8a35a548ad6acff0c40d'
+    var CSS_baFangjinchengBackground = '/wt/v9/static/partition/candidates/baFangjinchengBackground/baFangjinchengBackground.css?vn=0954e7da3b7fd0a7d5d8c29bff55cc9b'
+    var CSS_HaoLaEvaluation = '/wt/v9/static/partition/candidates/HaoLaEvaluation/HaoLaEvaluation.css?vn=c04dda870d5a4a51634485cb90213f15'
+    var CSS_NewAiVideoInterview = '/wt/v9/static/partition/candidates/NewAiVideoInterview/NewAiVideoInterview.css?vn=171796592595aa86e591b5ae19ff7b01'
+    var CSS_InitiateAMeeting = '/wt/v9/static/partition/candidates/InitiateAMeeting/InitiateAMeeting.css?vn=e8c578a74296cb53101bef24067bcffd'
+    var CSS_xuanDuBackground = '/wt/v9/static/partition/candidates/xuanDuBackground/xuanDuBackground.css?vn=3530a867bb2739322b940c541c63d880'
+    var CSS_partnerBackground = '/wt/v9/static/partition/candidates/partnerBackground/partnerBackground.css?vn=10556a3bc029fece5172294a70028a45'
+    var CSS_modifyEcologicalAssessTime = '/wt/v9/static/partition/candidates/modifyEcologicalAssessTime/modifyEcologicalAssessTime.css?vn=7c8df3a8ba71d236847371b058c553c2'
+    var CSS_electronicSigning = '/wt/v9/static/partition/candidates/electronicSigning/electronicSigning.css?vn=8455948e238b7c75fac2e39c10d1753e'
+    var CSS_electricAggregationTrusted = '/wt/v9/static/partition/candidates/electricAggregationTrusted/electricAggregationTrusted.css?vn=3ff6bc8783fe9edd5cdada95ed66517d'
+    var CSS_electronicSignatureInvalid = '/wt/v9/static/partition/candidates/electronicSignatureInvalid/electronicSignatureInvalid.css?vn=a1c59a3bfc712db1c0d3877294077049'
+    var CSS_chooseUserv10 = '/wt/v9/static/javascript/chooseUserv10/index.css?vn=75a368f3ee71b15a2c70bfd5b663606c'
+    var CSS_creatVideo = '/wt/v9/static/javascript/creatVideo/index.css?vn=142109a565315518502e0dc994937e58'
+    var CSS_ckeditor = '/wt/v9/static/thirdpartV10/ckeditor/ckeditor.css?vn=6cefb26d727684010f899cf9b421ad93'
+    var CSS_listAllResumeByPost = '/wt/v9/static/partition/candidates/listAllResumeByPost_assets/listAllResumeByPost.css?vn=58191420541434d74780cfd9419b5110'
+    var CSS_importInterviewCss = "/wt/v9/static/partition/setInterview/importInterviewCss.css?vn=09c2b2aa2734cfa86b15994fb371b6c3"
+    // 候选人下载简历/自定义表单
+    var CSS_exportCustomFormCss = "/wt/v9/static/styles/candidate/exportCustomFormCss.css?vn=e9884e69e6f17102196a6201501abeab" ;
+    // 面试看板-详情页
+    var CSS_interviewDetail = '/wt/v9/static/partition/interviewView/interviewDetail.css?vn=d7ffd87a28e2283a42751e45b366cd2a'
+
+    // 生成面评链接
+    var JS_createInterviewLink = '/wt/v9/static/partition/candidates/createInterviewLink.js?vn=b7e292ca56413c831843d902d91f7d4d';
+
+    // 现场叫号-新建场次/修改场次
+    var JS_newVersionSequenceForAE = '/wt/v9/partition/candidates/interviewEvaluation/interviewSequence/version2/newVersionSequenceForAE.js?vn=91d7a00f40c52f1fabed3094b778fb79';
+    var JS_newVersionAddCandidatesSequence = '/wt/v9/partition/candidates/interviewEvaluation/interviewSequence/version2/newVersionAddCandidatesSequence.js?vn=1438b3ae233b5a71a773b6da252475a3';
+    var JS_newVersionSelectShareObjectSequence = '/wt/v9/partition/candidates/interviewEvaluation/interviewSequence/version2/newVersionSelectShareObjectSequence.js?vn=9d2e4e693c154e54b1d03bea7a563bd1';
+    var JS_NVSTemplate = '/wt/v9/partition/candidates/interviewEvaluation/interviewSequence/version2/NVSTemplate.js?vn=fbd3ae9344853f7ba0fc75d3a8d5049d';
+
+    // 针对任意地方打开右推卡片，公共jsp里面对只有候选库需要的js 进行按需加载
+    var JS_candidateTemplate =  "/wt/v9/static/partition/candidates/candidateTemplate_assets/candidateTemplate.js?vn=e36872f0d83ee78defaa0432a9abe240" ;
+    var JS_showResumeQueryConditionVersion6  ="/wt/v9/static/partition/candidates/showResumeQueryConditionVersion6_assets/showResumeQueryConditionVersion6.js?vn=6d3050840c6efbe874a5b86697aae9c5"
+    var CSS_showResumeInfo  ="/wt/v9/static/styles/candidate/showResumeInfo.css?vn=d23b3c3e5767dbb5876b155c415a7318"
+    // header头  批量导入职位
+    var JS_ajaxfileupload = "/wt/v9/static/javascript/ajaxfileupload.js?vn=648f1e02f7f6d2b6879df07e28836e4a";
+
+    // 简历右推插件
+    var JS_chromeExtension  = "/wt/v9/static/javascript/plugin/chrome-extension.js?vn=e10cd4d81fade8ea643eeceec0967369";
+    // 候选人下载简历/自定义表单
+    var JS_exportCustomForm =  "/wt/v9/static/partition/candidates/exportCustomForm.js?vn=acdc469e13b34dc6b5f75856f5845744";
+    // 候选人 操作-猎头保护
+    var JS_hunterProtection = "/wt/v9/static/partition/candidates/hunterProtection.js?vn=0b81fc3e4986d3ba5468cc61e6c3311e"
+    // 导入HC
+    var JS_newHcModalFunc = "/wt/v9/static/javascript/newHcModalFunc.js?vn=d5dd6f6854b964752523ec4ae1d4b8c8"
+    // 最近搜索
+    var JS_userRecentSearch = "/wt/v9/static/javascript/userRecentSearch.js?vn=40feba52f5c9fe07f2a6081bd950befe";
+    // 旧版卡片
+    var JS_cardmode = "/wt/v9/static/assets/cardmode.js?vn=3dbc1f49a729799655a5e246c8e949af";
+    // 新版卡片
+    var JS_cardmodeNew = "/wt/v9/static/assetsV10/cardmodeNew.js?vn=8d922288ef3c8842c8ee03e85d3b4ed7";
+
+    // 右推右上角功能
+    var JS_oldNameHoverCommonFunc = "/wt/v9/static/javascript/candidatesNameHover/oldNameHoverCommonFunc.js?vn=603afc94ff9730a65b1f84a698b95767"
+    // hc到期提醒
+    var JS_hcExpireTip= "/wt/v9/static/javascript/hcExpireTip.js?vn=0d1a7db7db808df37d5dfc28fd10c1a9";
+
+    // 修改面试官静态资源
+    var JS_changeInterviewer= "/wt/v9/static/partition/candidates/changeInterviewer.js?vn=04272bd0e29a063dbec9fb3af8aae717";
+    var CSS_changeInterviewer = '/wt/v9/static/partition/candidates/changeInterviewer.css?vn=3d24062d3c937c090eaa2428d92735d1';
+
+    // 快速面试评价静态资源
+    var JS_quickEvaluate= "/wt/v9/static/partition/evaluate/quickEvaluate.js?vn=bc795d2f339be211ca97a629923de97d";
+    var CSS_quickEvaluate = '/wt/v9/static/partition/evaluate/quickEvaluate.css?vn=61628f30d59beb088a0ae768c62b40f3';
+    // 快速面试评价的单个面试组件
+    var JS_userList= "/wt/v9/static/partition/evaluate/userList.js?vn=e9d01f52fce11c2949f3feb402e95ea3";
+    // timezone 库，面试安排，新增场次用到转换时区
+    var JS_moment= "/wt/v9/static/javascript/libs/moment/moment.min.js?vn=03c1d3ad0acf482f87368e3ea7af14c2";
+    var JS_timezone= "/wt/v9/static/javascript/libs/moment/moment-timezone-with-data.min.js?vn=7dd827ed873b280985ea8b75f0014f97";
+    var JS_timzoneModal = "/wt/v9/static/partition/timezone/index.js?vn=ca6994fd200d1eccdacfed5f17a45639";
+    var CSS_timzoneModal = "/wt/v9/static/partition/timezone/index.css?vn=99626bb20405da804419c46d79a028ae";
+    var JS_editEcologicalJqueryUi = "/wt/v9/static/javascript/libs/jquery-ui-1.12.0/jquery-ui.js?vn=22f26335acf630d143c0cbe77c10ac50"
+    function checkLoadSource(option){
+        if(!!option && option.isTc){
+            return true
+        }
+        if(!!option && option.forceLoad){
+            return true
+        }
+        return (!!option && option.flag && (option.flag === "interviewDetail"
+            || option.flag === "interviewDetailTemplate"
+            || option.flag === "interviewDetailPreviewProgressTemplate"
+            || option.flag === "interviewDetailHistoryOperateTemplate"
+            || option.flag === "interviewDetailViewDetailListThirdTemplate"
+            || option.flag === "interviewDetailArrangeInfoAdjuDetailTemplate"
+            || option.flag === "interviewDetailCancelReasonTemplate"
+            || option.flag === "createInterviewLink"
+            || option.flag === "newVersionSequenceForAE"
+            || option.flag === "newVersionAddCandidatesSequence"
+            || option.flag === "newVersionSelectShareObjectSequence"
+            || option.flag === "NVSTemplate" //面试看板-详情页，没有候选人左侧导航，但仍需要按需加载拆分；简历详情页的生成面评链接；现场叫号-新增/修改场次
+            || option.flag === "singleInterview"  // 面试安排拆分
+            || option.flag === "multipleInterview"   // 面试安排拆分
+            || option.flag === "singleSequence"   // 面试安排拆分
+            || option.flag === "multipleSequence"   // 面试安排拆分
+            || option.flag === "changeInterviewer"   // 修改面试官
+            || option.flag === "quickEvaluate"   // 快速面试评价
+            || option.flag === "importInterviewEVBatch"   // 面试评价导入 - 只有批量
+            || option.flag === "userList"   // 快速面试评价面试官组件
+    ))
+    }
+
+    window.loadJavascriptArr = []
+    window.loadJavascript = function(jsPath, cb, option){
+        if(window.loadJavascriptArr.indexOf(jsPath) == -1 && (splitRecruitType == '0' || (typeof candidatesLefts !== 'undefined') || checkLoadSource(option))){
+            window.loadJavascriptArr.push(jsPath)
+            // 批量操作加载资源的时候存在批量operateObjStr被清空的情况
+            var operateObjStrVal = $('#operateObjStr').val()
+
+            $.ajaxSetup({
+                cache: true
+            });
+            $.getScript(new Function('return JS_'+jsPath)(), function(res, status){
+                $.ajaxSetup({
+                    cache: false
+                });
+                if(status === 'success'){
+                    $('#operateObjStr').val(operateObjStrVal)
+                    typeof cb === 'function' && cb()
+                }else{
+                    console.log('loading ' + jsPath + ' failed!')
+                }
+            });
+        }else{
+            typeof cb === 'function' && cb()
+        }
+    }
+
+    window.loadCssArr = []
+    window.loadCss = function(cssPath, cb, option){
+        if(window.loadCssArr.indexOf(cssPath) == -1 || checkLoadSource(option)){
+            // 批量操作加载资源的时候存在批量operateObjStr被清空的情况
+            var operateObjStrVal = $('#operateObjStr').val()
+            var cssTag = document.getElementById('CSS_'+cssPath);
+            var head = document.getElementsByTagName('head').item(0);
+            if(cssTag) head.removeChild(cssTag);
+            css = document.createElement('link');
+            css.href = new Function('return CSS_'+cssPath)();
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            css.id = 'CSS_'+cssPath;
+            css.onload = function(){
+                typeof cb === 'function' && cb()
+            }
+            head.appendChild(css);
+
+        }else{
+            typeof cb === 'function' && cb()
+        }
+    }
+
+    window.loadSource = function(sourceTag, cb, option){
+        // 批量操作加载资源的时候存在批量operateObjStr被清空的情况
+        var sourceTagMap = {
+            ckeditor: function(cb){
+                window.loadJavascript('ckeditor', function(){
+                  window.loadJavascript('ckeditorZh', function(){
+                    window.loadJavascript('ckeditorPk', function(){
+                        window.loadCss('ckeditor', function(){
+                            typeof cb === 'function' && cb()
+                        },option)
+                    },option)
+                  },option)
+                },option)
+            },
+            _interviewerSchedule: function(cb){
+                window.loadJavascript('chooseUserv10', function () {
+                    window.loadJavascript('interviewSelect', function (){
+                        window.loadJavascript('timezone', function(){
+                            window.loadJavascript('interviewPop', function () {
+                                window.loadJavascript('timzoneModal', function () {
+                                    window.loadCss('timzoneModal', function () {
+                                        window.loadCss('chooseUserv10', function () {
+                                            typeof cb === 'function' && cb()
+                                        },option)
+                                    },option)
+                                },option)
+                            },option)
+                        },option)
+                    },option)
+                },option)
+            },
+            showOutcall: function(cb){
+                window.loadJavascript('showOutcall', function () {
+                    typeof cb === 'function' && cb()
+                },option)
+            },
+            interviewDetail: function(cb){
+                window.loadJavascript('interviewDetail', function () {
+                    typeof cb === 'function' && cb()
+                }, option)
+            }
+        }
+        sourceTagMap[sourceTag](cb)
+    }
+</script>
+
+
+
+          
+
+
+
+
+<script type="text/javascript" src="/wt/v9/static/javascript/zhuge/zhugeSDK.js?vn=fe69543ae0a4112da1bab91186470718"></script>
+<script type = "text/javascript">
+    var isOpenZhugeBuried = "";
+    var zhugeBuriedAppKey = "";
+    var userId = "";
+    var corpCode = "";
+    var corpCodeEncode = "";
+    localStorage.setItem('zhugeInfo', JSON.stringify({
+        isOpenZhugeBuried:isOpenZhugeBuried,
+        zhugeBuriedAppKey:zhugeBuriedAppKey,
+        userId:userId,
+        corpCode:corpCode
+    }))
+
+</script>
+
+
+
+    <script type="text/javascript" src="/wt/javascript/manage/validator.js?vn=a411e842ae5d50d17345690f1ebc1867"></script>
+    <script type="text/javascript"> 
+
+     var bCancel = false; 
+
+    function validateLoginAction(form) {                                                                   
+        if (bCancel) 
+      return true; 
+        else 
+       return validateRequired(form); 
+   } 
+
+    function required () { 
+     this.aa = new Array("corpCode", "“企业名”是必须录入项！", new Function ("varName", " return this[varName];"));
+     this.ab = new Array("userName", "“用户名”是必须录入项！", new Function ("varName", " return this[varName];"));
+     this.ac = new Array("password", "“密　码”是必须录入项！", new Function ("varName", " return this[varName];"));
+    } 
+
+
+</script>
+
+
+    <script type="text/javascript" src="/wt/javascript/manage/cookies.js?vn=655e192a78f4a978fb3dad588fd987a7"></script>
+    <script type="text/javascript" src="/wt/javascript/web/md5.js?vn=a2eba4111dcf18a9e8e42bca9badf429"></script>
+    <script type="text/javascript" src="/wt/v9/static/javascript/crypto/crypto-js.js?vn=af87b6673fb6087b22fb6f6e2303549b"></script>
+    <script type="text/javascript" src="/wt/v9/static/javascript/manage/dateUtils.js?vn=69b5f077f60bcf804ddd4b7819d4b369"></script>
+    <script src="/wt/v9/static/javascript/jquery.form.js?vn=21b03ae488aafea07a393d0c35b9577f" type="text/javascript"></script>
+    <script src="/wt/v9/static/javascript/jquery.cookie.js?vn=d5528dde0006c78be04817327c2f9b6f" type="text/javascript"></script>
+    <script src="/wt/v9/static/javascript/validatePrivacyLogin.js?vn=64114fa00deb90e1c8d66d138c4951b5" type="text/javascript"></script>
+
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script type="text/javascript" src="https://open.work.weixin.qq.com/wwopen/js/jwxwork-1.0.0.js"></script>
+    <script src="https://wwcdn.weixin.qq.com/node/wework/wwopen/js/wwLogin-1.2.7.js"></script>
+
+
+    <script type="text/javascript">
+        var isChangHong = window.location.href.includes('changhong');
+        var changHongTitle = '长虹招聘';
+        var haveMessage = false;
+        var linkCorp =  "请选择企业微信号关联企业",
+            wechatScanQrcode = "微信扫码登录",
+            weComScanQrcode = "企业微信扫码登录",
+            validateCodeSended = "验证码已发送",
+            phonePlaceholder = "请输入手机号",
+            corpIdPlaceholder = "请输入企业号",
+            VerificationCode = "获取验证码"
+
+
+
+
+        var isFirefox = false,
+            isSafari = false,
+            isCamino = false,
+            isMozilla = false;
+
+        $(document).ready(function () {
+            $.ajax({
+                url: "/wt/console/config/illustration/now?operational=d6d6f96f59d584bbda24d5fa1c653b3e0c66a84d0db6865c021040a8867fdd1a7e64a71b5ef9d726d21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a",
+                type: "post",
+                dataType: "json",
+                data: null,
+                success: function (result) {
+                    if (result) {
+                        if ( (typeof result.imgUrl !== 'undefined') && result.imgUrl) {
+                            var img = "/wt/console/config/illustration/file?imgUrl=" + result.imgUrl;
+                            $(".logoBg").css("background-image", 'url(' + img + ')');
+                        } else {
+                            if (isChangHong) {
+                                var img = '/wt/v9/static/assets/loginbg_default_changhong_min.png';
+                            } else {
+                                var img = '/wt/v9/static/assets/loginbg_default.jpg';
+                            }
+                            $(".logoBg").css("background-image", 'url(' + img + ')');
+                        }
+                        //图片跳转链接
+                        if( (typeof result.imgLinkUrl !== 'undefined') && result.imgLinkUrl){
+                            $(".logoBg").click(function(e){
+                                if(e.target == this){
+                                    window.open(result.imgLinkUrl)
+                                }
+                            })
+                        }
+                        if( (typeof result.videoUrl !== 'undefined') && result.videoUrl){
+                            $(".logoBg").html('<video class="video-box" controls="controls"  playsinline="true" webkit-playsinline="true" x5-playsinline="true" x5-video-orientation="portraint" x5-video-player-fullscreen="true" x5-video-player-type="h5">'+
+                                '<source src="'+ result.videoUrl +'" /></video>')
+                        }
+
+
+                        /* if ( (typeof result.logoUrl !== 'undefined') && result.logoUrl) {
+                            var logoImg = "/wt/console/config/illustration/file?imgUrl=" + result.logoUrl;
+                            $("#logoImg").attr("src", logoImg);
+                        } */
+
+                        if ( (typeof result.sloganUrl !== 'undefined') && result.sloganUrl) {
+                            var sloganImg = "/wt/console/config/illustration/file?imgUrl=" + result.sloganUrl;
+                            $("#sloganImg").attr("src", sloganImg);
+                        }
+
+                        if(!result.imgUrl && !result.videoUrl) {
+                            $(".loginBg").addClass('loginBg-no-data');
+                        } else {
+                            $('.loginBg').css('border-top-right-radius', '0px');
+                            $('.loginBg').css('border-bottom-right-radius', '0px');
+                            $('.banner').css('border-top-left-radius', '0px');
+                            $('.banner').css('border-bottom-left-radius', '0px');
+                        }
+                    }
+                }, error: function (XMLHttpRequest, textStatus, errorThrown) {
+                }
+            });
+        });
+
+        function GetQueryString(name){
+            var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if(r!=null)return  unescape(r[2]); return null;
+        };
+        $(function(){    //根据登录页面url参数初始化cookies值
+            if (isChangHong) {
+                $('.footer_login').hide()
+                document.title = changHongTitle;
+                $('.login-subtitle-ltext').html(changHongTitle)
+                $('.login-subtitle-rtext').html('')
+                $("#password").css("padding-right", "120px");
+            } else if(GetQueryString("request_locale") == "en" || GetQueryString("request_locale") == "in_ID"
+                || GetQueryString("request_locale") == "vi_VN"
+                || GetQueryString("request_locale") == "es_ES"
+                || GetQueryString("request_locale") == "pt_PT"
+                || GetQueryString("request_locale") == "de_DE"
+                || GetQueryString("request_locale") == "tr_TR"
+                || GetQueryString("request_locale") == "ja_JP"){
+                $('.login-subtitle-ltext').html('云招聘系统')
+                $('.login-subtitle-rtext').html('')
+                // setTempCookie("wintalent3.locale", 2);
+                $("#password").css("padding-right", "160px");
+            }else{
+                $('.login-subtitle-ltext').html('云招聘系统')
+                $('.login-subtitle-rtext').html('TRM.AI 2.0')
+                // setTempCookie("wintalent3.locale", 1);
+                $("#password").css("padding-right", "120px");
+            }
+        });
+        function getOs() {
+            var OsObject = "";
+            if (navigator.userAgent.indexOf("MSIE") > 0) {
+                return "MSIE";
+            }
+            if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
+                return "Firefox";
+            }
+            if (isSafari = navigator.userAgent.indexOf("Safari") > 0) {
+                return "Safari";
+            }
+            if (isCamino = navigator.userAgent.indexOf("Camino") > 0) {
+                return "Camino";
+            }
+            if (isMozilla = navigator.userAgent.indexOf("Gecko/") > 0) {
+                return "Gecko";
+            }
+        }
+
+        function is_iPad() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/iPad/i) == "ipad") {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        function loadOs() {
+            var vOs = getOs();
+            var ipadFlag = is_iPad();
+            if (ipadFlag) {
+                var contentObj = document.getElementById("content");
+                contentObj.style.left = "128px";
+            }
+        }
+
+        function fTrim(str) {
+            return str.replace(/(^\s*)|(\s*$)/g, "");
+        }
+        var corpDefaultText = "企业名";
+        var userNameDefaultText = "用户名";
+        var requiredText = "“{0}”是必须录入项！"
+        var verifyCodeText = "验证码"
+        var mobilePhoneLabel =  "手机号码"
+
+
+
+        function loadCookie() {
+            // //cookie取值
+            var username = $.cookie('username');
+            var corpCode = $.cookie('corpCode');
+            var phoneNum = $.cookie("phoneNum");
+            var verification = $.cookie("verification");
+
+            //将获取的值填充入输入框中
+            $('#userName').val(username);
+            $('#corpCode').val(corpCode);
+            $('#phoneNum').val(phoneNum);
+            $('#verification').val(verification);
+            if(username != null && username != '' && corpCode != null && corpCode != ''){
+                //选中保存秘密的复选框
+                $("#rememberMe").attr('checked',true);
+            }
+
+
+            var corpInput = document.getElementById("corpCode");
+            var userInput = document.getElementById("userName");
+            if (corpInput.value == "" || corpInput.value == corpDefaultText) {
+                corpInput.focus();
+            } else if (userInput.value == "" || userInput.value == userNameDefaultText) {
+                userInput.focus();
+            } else if (document.getElementById("password").value == "") {
+                document.getElementById("password").focus();
+            } else if (document.getElementById("verifyCode") != null && document.getElementById("verifyCode").value == "") {
+                document.getElementById("verifyCode").focus();
+            }
+        }
+
+        document.onkeydown = keyDown;
+        function keyDown(e) {
+            e = e || event;
+            var currKey = e.keyCode || e.which || e.charCode;
+
+            if (currKey == 13) {
+                if(document.getElementsByClassName('wt-modal-panel').length==0){
+                    doLogin();
+                }
+            }
+        }
+
+        function wtspeModalWarning(text){
+            window.top.Wtspe.wtspeModalWarning({
+                html: text,
+                onOk: {
+                    enable: true,
+                    callback: function(destroy){
+                        destroy()
+                    }
+                },
+            })
+        }
+
+        var checkNum = 0;
+        var localeType = 1;
+        function formatCurrentDate() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = String(date.getMonth() + 1).padStart(2, '0'); // 月份从0开始需+1
+            var day = String(date.getDate()).padStart(2, '0');
+            return year + '-' + month + '-' + day;
+        }
+        var currentDate = formatCurrentDate();
+        function doLogin() {//v2.0
+
+            if($(".isCodeImgLogin").is(":visible") || $(".isWecomLoginCorp").is(":visible")){
+                getCodeImgFn();
+                return;
+            }
+
+            // 清空localstorage
+            var candidatesLeftsSwitchStatus = localStorage.getItem("candidatesLeftsSwitchStatus") || JSON.stringify({
+                1: 1,
+                2: 1,
+                3: 1
+            })
+            var type = $(".loginItem.active").attr('type'); // 登录方式
+            var dateUnitFlag = localStorage.getItem('dateUnitFlag')||"";//保留的上一次的日历单位操作
+            var AIProcessShowedFlag = localStorage.getItem('AIProcessShowed')||"";//保留的上一次AI提醒框
+            var dateUnitFlag = localStorage.getItem('dateUnitFlag')||"";//保留的上一次的日历单位操作
+            var uidValue=localStorage.getItem('uidCorpkey');
+            var tlf_locale = localStorage.getItem('tlf_locale')
+            var dt_corpCode = localStorage.getItem('dingtalkCorpCode-146954')
+            // 获取智能推荐 采纳当天是否显示
+            var getNoCardReminderStorageKey = localStorage.getItem('smart_recommend_boss_no_card_'+ currentDate) ||"";//保留的上一次的日历单位操作
+
+            // 缓存 table 列宽 列/表 双模式
+            var resizeColumnsCache = localStorage.getItem('resizeColumnsCacheKey');
+            var resizeColumnsCaches = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const k = localStorage.key(i);
+                if (k.startsWith('resizeColumnsCacheKey-') || k.startsWith('screeningRequirementsKey')) {
+                    resizeColumnsCaches.push([k, localStorage.getItem(k)]);
+                }
+            }
+            localStorage.clear();
+            localStorage.setItem('dingtalkCorpCode-146954',dt_corpCode);
+            localStorage.setItem('uidCorpkey',uidValue);
+            localStorage.setItem('JudgementRepeatResumeFlag','1')//判断重复简历只在登陆后显示一次
+            localStorage.setItem('JudgementDueResumeFlag','1')//判断到期简历只在登陆后显示一次
+            localStorage.setItem('JudgementOrgRemindMsgFlag','1')//判断定制化 机构编制强控制文案只提示一次
+            localStorage.setItem('JudgementRepeatRemindFlag','1')//判断重复简历合并提示只在登陆后显示一次
+            localStorage.setItem('tlf_locale',tlf_locale)//判断重复简历合并提示只在登陆后显示一次
+            sessionStorage.removeItem('ATS_TOKEN');
+            localStorage.setItem("AIProcessShowed", AIProcessShowedFlag);
+            localStorage.setItem("candidatesLeftsSwitchStatus", candidatesLeftsSwitchStatus);
+            localStorage.setItem('smart_recommend_boss_no_card_'+ currentDate,getNoCardReminderStorageKey);//保留上一次的日历单位操作
+            localStorage.setItem('isLoginFromLoginPage','true') // 从登录页登录进来
+            if(dateUnitFlag) localStorage.setItem('dateUnitFlag',dateUnitFlag);//保留上一次的日历单位操作
+            // 缓存 table 列宽 列/表 双模式
+            resizeColumnsCache && localStorage.setItem('resizeColumnsCacheKey', resizeColumnsCache);
+            if (resizeColumnsCaches.length) {
+                resizeColumnsCaches.forEach(([k, v]) => {
+                    localStorage.setItem(k, v);
+            });
+            }
+
+
+            var corpInput = document.getElementById("corpCode");
+            if(false){
+                corpInput.value = '企业名';
+            }
+            var userInput = document.getElementById("userName");
+            var corpName = fTrim(corpInput.value);
+            var userName = fTrim(userInput.value);
+            if (corpName == corpDefaultText) {
+                // alert(requiredText.replace("{0}", corpDefaultText));
+                wtspeModalWarning(requiredText.replace("{0}", corpDefaultText))
+                corpInput.focus();
+                return;
+            }
+
+
+            /* if(document.getElementById('privaryCheckbox').checked ==false){
+                 // alert('请先阅读并勾选隐私协议')
+                 Wtspe.wtspeModalWarning({type:'mini', duration: 2000,html:'<div>请勾选隐私协议</div>'})
+                 return;
+             }*/
+
+
+            if(type === 'sms'){
+                var phoneNumObj = document.getElementById("phoneNum");
+                var verificationObj = document.getElementById("verification");
+                phoneNum = fTrim(phoneNumObj.value);
+                verification = fTrim(verificationObj.value);
+
+                $("#loginMode").val(1)
+
+                if (phoneNum == mobilePhoneLabel||phoneNum=='' && $("#phoneNum").is(":visible")) {
+                    In_errorToast({
+                        contentText: requiredText.replace("{0}", mobilePhoneLabel),
+                    });
+                    phoneNumObj.focus();
+                    return;
+                }
+
+                if (verification == verifyCodeText||verification=='') {
+                    In_errorToast({
+                        contentText: requiredText.replace("{0}", verifyCodeText),
+                    });
+                    verificationObj.focus();
+                    return;
+                }
+
+            } else {
+                if (userName == userNameDefaultText) {
+                    // alert(requiredText.replace("{0}", userNameDefaultText));
+                    wtspeModalWarning(requiredText.replace("{0}", userNameDefaultText))
+                    userInput.focus();
+                    return;
+                }
+            }
+
+            // add by yuluo 个保协议增加
+            // 判断是否同意标识 以及是否需要展示
+            // 如果不同意且需要展示
+            // 短信登录不调用这个接口
+            if(!recruitmentPolicy.options.isAgree && recruitmentPolicy.options.isDispaly && type !== 'sms'){
+                // todo api调用
+                // 接口判断是否需要展示  如果需要展示 显示个保窗口， 不需要  修改isdisplay=false;
+                recruitmentPolicy.methods.validatePrivacy(function(res){
+                    if(res.code != 0){
+                        recruitmentPolicy.options.isDispaly = false;
+                        doLogin();
+                        return;
+                    }else{
+                        recruitmentPolicy.options.confirmAfter = function(){
+                            recruitmentPolicy.options.isAgree = true;
+                            $('#infoType').val(recruitmentPolicy.options.infotypeArr.join(','));
+                            $('#loginConfirmationInfo').val(true);
+
+                            // 再次执行dologin
+                            doLogin()
+                        }
+                    }
+                })
+                // 不执行下面逻辑
+                return;
+            }
+            // 如果同意  或者不需要展示，则不执行上述程序
+            // end by yuluo 个保协议增加
+            if (type !== 'sms') {
+                var validateFlag = document.getElementById("form1").onsubmit();
+            } else {
+                var validateFlag = true;
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+
+            if (validateFlag) {
+                localStorage.setItem("privaryCheckFlag", 0);
+                
+                // ATS-96099
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    data: {corpCode:corpName},
+                    // async: false,
+                    url: '/wt/loginInfo?r='+Math.random(),
+                    error: function (request) {
+                        // alert("Connection error");
+                        wtspeModalWarning("Connection error")
+                    },
+                    success: function (datas) {
+                        //debugger;
+                        // console.log("datas:"+datas);
+                        var ts = datas.time;
+                        document.getElementById("timeSign").value= fTrim(ts);
+                        localStorage.setItem('atsPassType',datas.atsPassType);
+                        localStorage.setItem('atsPassKey',datas.atsPassKey);
+                        // document.getElementById("timeSign").value= fTrim(ts);
+                        // Add by Y.Z. on 2011-11-27 14:46:44. Start.
+                        //saveCookie();
+                        document.getElementById("remremberMeInput").value = document.getElementById("remremberMe").checked;
+                        // encryption();
+                        if (type !== 'sms') {
+                            encryption(function () {
+                                checkNum = 0;
+                                // if(!checkPasswod()) {
+                                //     return;
+                                // }
+                                document.getElementById("loginImg").onclick = "#";
+                                document.getElementById("form1").submit();
+                                $.cookie("phoneNum", '',{ expires: 7 });
+                                $.cookie("verification", '',{ expires: 7 });
+                                //存入cookie中
+                                if ($("#remremberMe").attr("checked")) {
+                                    $.cookie("rmbUser", "true",{ expires: 7 });
+                                    $.cookie("username", userName,{ expires: 7 });
+                                    $.cookie("corpCode", corpName,{ expires: 7 });
+                                }
+                                else {
+                                    $.cookie("rmbUser", "false", { expire: -1 });
+                                    $.cookie("username", "", { expires: -1 });
+                                    $.cookie("corpCode", "", { expires: -1 });
+                                }
+                            })
+                        } else {
+                            encryptionPhone(function (phone, code) {
+                                checkNum = 0;
+                                // if(!checkPasswod()) {
+                                //     return;
+                                // }
+                                document.getElementById("loginImg").onclick = "#";
+                                var verificationInput = $('<input>', {
+                                    'name': 'phoneNum',
+                                    'value': phone,
+                                    'type': 'hidden'
+                                });
+                                var phoneNumInput = $('<input>', {
+                                    'name': 'verification',
+                                    'value': code,
+                                    'type': 'hidden'
+                                });
+                                $('#form1').append(verificationInput);
+                                $('#form1').append(phoneNumInput);
+                                document.getElementById("form1").submit();
+
+                                var phoneInp = document.getElementById('phoneNum');
+                                var codeInp = document.getElementById('verification');
+                                //存入cookie中
+                                if ($("#remremberMe").attr("checked")) {
+                                    $.cookie("rmbUser", "true",{ expires: 7 });
+                                    $.cookie("phoneNum", fTrim(phoneInp.value),{ expires: 7 });
+                                    $.cookie("verification", fTrim(codeInp.value),{ expires: 7 });
+                                    $.cookie("corpCode", corpName,{ expires: 7 });
+                                }
+                                else {
+                                    $.cookie("rmbUser", "false", { expire: -1 });
+                                    $.cookie("phoneNum", '',{ expires: 7 });
+                                    $.cookie("verification", '',{ expires: 7 });
+                                    $.cookie("corpCode", "", { expires: -1 });
+                                }
+                            })
+                        }
+                    }
+                });
+            }
+        }
+
+        function checkPasswod() {
+            checkNum++;
+            // var pwd = document.getElementById("password").value;
+            var pwd = document.getElementById("hidden-pwd").value;
+            if(pwd.length != 32) {
+                // if(checkNum > 50) {
+                // if(checkNum > 50) {
+                //     alert("使用浏览器记录的密码无法登录，请再次点击登录按钮尝试，或重新输入密码登录！");
+                //     return false;
+                // }
+                // encryption();
+                encryption(function () {
+                    return checkPasswod();
+                });
+                // return checkPasswod();
+            }
+            return true;
+        }
+        function encryptionPhone(cb) {
+            var atsPassType = localStorage.getItem("atsPassType");
+            var atsPassKey = localStorage.getItem("atsPassKey");
+            var phoneInp = document.getElementById('phoneNum');
+            var codeInp = document.getElementById('verification');
+            var phone = fTrim(phoneInp.value);
+            var code = fTrim(codeInp.value);
+            if(atsPassType==3){
+                phone = sm4Encrypt_ECB(phone,atsPassKey);
+                code = sm4Encrypt_ECB(code,atsPassKey);
+            }else{
+                var key = CryptoJS.enc.Utf8.parse(atsPassKey);
+                var srcsPhone = CryptoJS.enc.Utf8.parse(phone);
+                var srcsCode = CryptoJS.enc.Utf8.parse(code);
+                var encryptedPhone = CryptoJS.AES.encrypt(srcsPhone, key, {
+                    mode: CryptoJS.mode.ECB,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                var encryptedCode = CryptoJS.AES.encrypt(srcsCode, key, {
+                    mode: CryptoJS.mode.ECB,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                phone = encryptedPhone.ciphertext.toString();
+                code = encryptedCode.ciphertext.toString();
+            }
+            ( typeof cb === 'function' ) && cb(phone, code);
+        }
+        function encryption(cb) {
+            // var sign = getServerTime();
+            //document.getElementById("timeSign").value= sign;
+            // var sign = document.getElementById("timeSign").value;
+            var atsPassType = localStorage.getItem("atsPassType");
+            var atsPassKey = localStorage.getItem("atsPassKey");
+            var pwdInput = document.getElementById("password");
+            var hiddenPwdInput = document.getElementById("hidden-pwd");
+            var pwd = fTrim(pwdInput.value);
+            if(atsPassType==3){
+                pwd = sm4Encrypt_ECB(pwd,atsPassKey);
+            }else{
+                var key = CryptoJS.enc.Utf8.parse(atsPassKey);
+                var encrypted = '';
+                var srcs = CryptoJS.enc.Utf8.parse(pwd);
+                encrypted = CryptoJS.AES.encrypt(srcs, key, {
+                    mode: CryptoJS.mode.ECB,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                pwd = encrypted.ciphertext.toString();
+            }
+            // pwd = hex_md5(pwd,1);
+            // pwd = hex_md5(pwd+"+"+sign,1);
+            pwdInput.focus();
+            // pwdInput.value= pwd;
+            hiddenPwdInput.value = pwd;
+            ( typeof cb === 'function' ) && cb();
+        }
+
+        function getSysteTime() {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                async: false,
+                url: '/wt/systemTime?r='+Math.random(),
+                error: function (request) {
+                    // alert("Connection error");
+                    wtspeModalWarning("Connection error")
+                },
+                success: function (datas) {
+                    document.getElementById("timeSign").value= fTrim(datas);
+                }
+            });
+        }
+
+        var i = 1;
+        function changeVerifyCode() {
+            i = i + 1;
+            var validateFlag = document.getElementById("verifyCodeImg");
+            validateFlag.src = "/wt/img/verifyCode" + "?type=Corp&" + i;
+        }
+        function forceLogout(url) {
+            // 清理缓存
+            clearCookie()
+            if (confirm('是否将已登录的该用户强制退出？')) {
+                document.location = url;
+            }
+        }
+
+        function openFindPassword(){
+            var url = '/wt/tlf/forget-password/forget';
+            var username = $('#userName').val();
+            var corpCode = $('#corpCode').val();
+            window.open(url + '?username='+username+'&corpcode='+corpCode)
+
+        }
+
+        function clearCookie() {
+            var keys = document.cookie.match(/[^ =;]+(?=\=)/g);
+            if (keys) {
+                for (var i = keys.length; i--;) {
+                    document.cookie = keys[i] + '=0;path=/;expires=' + new Date(0).toUTCString();//清除当前域名下的
+                    document.cookie = keys[i] + '=0;path=/;domain=' + document.domain + ';expires=' + new Date(0).toUTCString();//清除当前域名下的
+                }
+            }
+        }
+        var needHidden = true;
+
+        function inputOnblur(defaultValue, obj, spanId) {
+            var value = obj.value;
+            // if (value == "") {
+            //     obj.value = defaultValue;
+            // }
+            if (needHidden) {
+                $("#" + spanId).css("display", "none");
+                //needHidden=false;
+            }
+            // 企业code 失焦时判断是否为扫码登录，如果是请求二维码接口
+
+            setTimeout(function(){
+                setLoginBtnState()
+                if(spanId === 'corpCodeSpan'){
+                    if(value.trim() === '' && currentCodeImgLoginType){
+                        In_errorToast({
+                            contentText: corpIdPlaceholder,
+                        });
+                    } else if(spanId === 'corpCodeSpan' && $(".isCodeImgLogin").is(":visible")){
+                        getCodeImgFn();
+                    }
+                }
+            }, 100);
+
+            return;
+        }
+        function inputOnFocus(defaultValue, obj, spanId) {
+            var value = obj.value;
+            if (value == defaultValue) {
+                var a = obj.createTextRange();
+                a.moveStart('character', 0);
+                a.collapse(true);
+                a.select();
+            }
+            //$("#"+spanId).css("display","");
+            needHidden = true;
+            $("#" + spanId).css("display", "block");
+        }
+        function inputOnKeyDown(defaultValue, obj) {
+            var value = obj.value;
+            if (value == defaultValue) {
+                obj.value = "";
+            }
+        }
+
+        function clearInput(inputId) {
+            //alert("111");
+            $("#" + inputId).val("");
+
+            $("#" + inputId + "Span").css("display", "none");
+            needHidden = true;
+        }
+        function clearPwd(flg, inputId) {
+            setLoginBtnState()
+            if (flg == 'in') {
+                // $("#"+inputId).css("display","");
+                $("#" + inputId).css("display", "block");
+                needHidden = true;
+            } else {
+                if (needHidden) {
+                    $("#" + inputId).css("display", "none");
+                }
+            }
+        }
+
+        function spanMouseOver() {
+            needHidden = false;
+        }
+        function spanMouseOut() {
+            needHidden = true;
+        }
+        function changelocale(lang, locale = 'zh_CN') {
+            setTempCookie("wintalent3.locale", lang);
+            var link = "/wt/login!input?operational=8465e1e115636bdd3d1f78de7cf351762ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718";
+            link += (link.indexOf('?') > -1 ? '&' : '?') + "request_locale=" + locale;
+
+            document.location = link;
+        }
+        var validatePrivacyLoginUrl = '/wt/common/getLoginConfirmationInfo';
+    </script>
+    <style>
+        /* 默认字体堆栈 */
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', SegoeUI, 'Microsoft YaHei', Helvetica, Arial, sans-serif !important;
+        }
+        .qrCodeMain{width:300px;height:300px;background:#f1f1f1;text-align:center}
+        .qrCodeSuccess{width:300px;height:300px;background:#f1f1f1;text-align:center;padding-top:50px;box-sizing:border-box}
+        .qrCodeIcon{font-size:20px;color:#58a7f5;cursor:pointer}
+        .computerIcon{font-size:20px;color:#58a7f5;cursor:pointer}
+        .tickStyle{font-size:34px;font-weight:bold;color:#67d448;border:2px solid #67d448;border-radius:50%;padding:5px}
+        .other-login{margin-top:130px;display:none}
+        .other-login .other-login-title{display:flex;align-items:center;font-size:18px;font-weight:600;color:rgba(0,0,0,.85);width:100%;margin-bottom:17px;} /*white-space:nowrap*/
+        .other-login .other-login-title img{width:24px;height:24px;margin-right:8px}
+        .other-login .other-login-der{width:100%;font-size:14px;line-height:24px;color:rgba(0,0,0,.65);font-family:MicrosoftYaHei;margin-bottom:56.16px}
+        .other-login .other-login-btn{width:160px;font-size:18px;font-weight:bold;background-color:#282828;height:50px;line-height:50px;border-radius:6px;cursor:pointer;text-align:center;color:#fff;margin-bottom:23.78px}
+        .other-login .other-login-returnBtn{display:flex;align-items:center;width:100%;font-size:14px;line-height:24px;color:rgba(0,0,0,.65);cursor:pointer}
+        .other-login .other-login-returnBtn img{width:14px;margin-right:4px}
+        #currentYear{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            line-height: 20px;
+        }
+        .footer.footer_login{
+            width: 510px;
+        }
+        .wtspe-modal-button{
+            background: #05F;
+        }
+    </style>
+
+    <script src="/wt/v9/static/javascript/otherLoginWay.js?vn=3e48d6c99365c4d20b572af323c31776" type="text/javascript"></script>
+</head>
+
+<body onload="javascript:loadCookie();loadOs();" style="background-color: #EFF3FB;">
+<div class="loginRecommend" style="display:none;">
+    <div class="recommendHeader">
+        <div class="iconContainer">
+            <i class="wtspeicon wtspeicon-dayee"></i>
+        </div>
+    </div>
+    <div class="recommendContent">
+        <div class="recommendInfo">
+            <div class="infoImg">
+                <img class="info-style" src="/wt/v9/static/images/login/infotitle.png"  loading="lazy" >
+            </div>
+            <p class="infoWords">啊噢～，您的浏览器不兼容当前系统页面，<br>建议使用以下浏览器登录... </p>
+        </div>
+        <div class="downloadInfo">
+            <ul class="downloadIcon">
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/chorm.png"  loading="lazy"/>
+                    </div>
+                    <p>Chrome</p>
+                </li>
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/firefox.png"  loading="lazy" />
+                    </div>
+                    <p>Firefox</p>
+                </li>
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/IE.png"  loading="lazy" />
+                    </div>
+                    <p>IE10+</p>
+                </li>
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/safari.png" loading="lazy" />
+                    </div>
+                    <p>Safari</p>
+                </li>
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/Sogou.png" loading="lazy" />
+                    </div>
+                    <p>Sogou</p>
+                </li>
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/Edge.png" loading="lazy" />
+                    </div>
+                    <p>Edge</p>
+                </li>
+                <li class="icon-style">
+                    <div>
+                        <img class="img-style" src="/wt/v9/static/images/login/360.png" loading="lazy"/>
+                    </div>
+                    <p>360极速</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="loginAll">
+    <img class="login_all_bg" src="/wt/v9/static/images/login_bg.svg" />
+    <div class="login-content">
+        <div class="loginBg">
+            <!--左侧背景图片-->
+            <div class="logoBg"></div>
+            
+        </div>
+        <form id="form1" class="form" name="form1" action="/wt/login" method="post" onsubmit="return validateLoginAction(this);">
+            <input type="hidden" id="remremberMeInput" name="remremberMeInput" value="false" /> <input type="hidden" id="timeSign" name="timeSign" value="" />
+            <input type="hidden" id="actycoStatus" name="actycoStatus" value=""/>
+            <input type="hidden" id="loginConfirmationInfo" name="loginConfirmationInfo" />
+            <input type="hidden" id="infoType" name="infoType"/>
+            <input type="hidden" id="loginMode" name="loginMode"/>
+            <input type="hidden" id="localeType" name="localeType"/>
+            <input type="hidden" id="targetUrl" name="targetUrl" value=""/>
+            <input type="hidden" id="targetUrlParam" name="targetUrlParam" value=""/>
+
+            <!--扫码登录/账号登录-->
+
+            <!--登录信息  banner start-->
+            <div class="banner">
+                <div class="topmenu"  style="width:100%">
+                    <div class="login-subtitle">
+                        <div class="login-subtitle-ltext"></div>
+                        <div class="login-subtitle-rtext"></div>
+                        
+                        
+                    </div>
+
+                    <div class="codeImgLoginTitle">
+                <span class="showInitLoginBtn" onclick="javascript:initLoginFn();">
+                    <span class="wtspeicon wtspeicon-left-hollow"></span>
+                </span>
+                        <span class="title-text"></span>
+                    </div>
+
+                    <div id="site-nav" class="clearfix" style="margin-top: 3%;">
+
+                    </div>
+
+                </div>
+                <div class="bannerbox clearfix" style="width:100%">
+
+                    <ul class="changeLogin">
+                        <li class="loginItem account active" type="account" onclick="javascript:changeLoginFn(this, 'account', true);">
+                            <span data-showtext="In_accountLogin">账号登录</span>
+                        </li>
+                        <li class="loginItem sms" type="sms" onclick="javascript:changeLoginFn(this, 'SMS', true);">
+                            <span data-showtext="In_verificationCodeLogin">手机号登录</span>
+                        </li>
+                    </ul>
+
+                    <div class="login" style="padding: 18px 20px;">
+                        <dl>
+                            <!-- 用户登录 -->
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="erweima">
+                                <div class="hand ">
+
+                                    <dd class="login-form-item-dd corpCodeFormItem" style="display: ">
+                                        
+                                        <input type="text" oninput="inputchange(event)" name="corpCode" id="corpCode" placeholder="企业名" class="form-text"
+                                               onfocus="inputOnFocus(corpDefaultText,this,'corpCodeSpan');" onkeydown="inputOnKeyDown(corpDefaultText,this);"
+                                               onblur="inputOnblur(corpDefaultText,this,'corpCodeSpan');" />
+                                        <i class="login-form-item-left-icon icon-ats icon-ats-qiyeming"></i>
+                                        <span class="login_clear" onmouseover="javascript:spanMouseOver()" onmouseover="javascript:spanMouseOut()" onclick="javascript:clearInput('corpCode')" id="corpCodeSpan" style="display:none">
+
+                                            <i class="login-form-item-right-icon icon-ats icon-ats-shanchu2"></i>
+                                        </span>
+                                    </dd>
+
+                                    <div class="isEnterLogin">
+                                        <div class="isPasswordLogin">
+
+                                            <dd class="login-form-item-dd">
+                                                
+                                                <input type="text" oninput="inputchange(event)" placeholder="用户名"  class="form-text"
+                                                       name="userName" id="userName" onfocus="inputOnFocus(userNameDefaultText,this,'userNameSpan');"
+                                                       onkeydown="inputOnKeyDown(userNameDefaultText,this);" onblur="inputOnblur(userNameDefaultText,this,'userNameSpan');" />
+                                                <i class="login-form-item-left-icon icon-ats icon-ats-yonghuming"></i>
+                                                <span class="login_clear" onmouseover="javascript:spanMouseOver()" onmouseover="javascript:spanMouseOut()" onclick="clearInput('userName')" id="userNameSpan" style="display:none">
+    
+                                                <i class="login-form-item-right-icon icon-ats icon-ats-shanchu2"></i>
+                                            </span>
+                                            </dd>
+
+                                            <dd class="passwordCon login-form-item-dd ">
+
+                                                
+                                                
+                                                
+                                                <input type="password" style="" placeholder="密码" autocomplete="off"
+                                                       id="password" class="form-text" oninput="passwordchange(event)" onporpertychange="passwordchange(event)" onblur="clearPwd('out','passwordSpan');" />
+                                                <i class="login-form-item-left-icon icon-ats icon-ats-mima"></i>
+                                                <div class="passwordLast">
+                                                    <i class="login-form-item-right-icon passwordView icon-ats icon-ats-yincang" id="passwordView"></i>
+                                                    
+                                                    <input type="hidden" autocomplete="off" name="password" id="hidden-pwd" />
+
+                                                </div>
+
+                                                
+                                            </dd>
+
+
+                                            
+                                        </div>
+
+                                        
+                                        <div class="isSMSLogin">
+                                            <dd>
+                                                <i class="login-form-item-left-icon icon-ats icon-ats-phone"></i>
+                                                <input type="text" data-showtextplace="In_loginTips2" placeholder="请输入手机号"
+                                                       class="form-text"
+                                                       name="" id="phoneNum"
+                                                       oninput="inputchange(event)"
+                                                       onfocus="inputOnFocus(userNameDefaultText,this,'phoneNameSpan');"
+                                                       onkeydown="inputOnKeyDown(userNameDefaultText,this);"
+                                                       onblur="inputOnblur(userNameDefaultText,this,'phoneNameSpan');" />
+                                                <span class="login_clear" onmouseover="spanMouseOver()" onmouseover="spanMouseOut()" onclick="clearInput('phoneNum')" id="phoneNameSpan" style="display:none;">
+    <!--                                            <img src="../../../static/images/login/close.png" alt="" style="width:14px;height:14px;">-->
+                                                <i class="login-form-item-right-icon icon-ats icon-ats-shanchu2"></i>
+                                            </span>
+                                            </dd>
+                                            <dd>
+                                                <i class="login-form-item-left-icon icon-ats icon-ats-verificationCode"></i>
+
+                                                <input type="text" data-showtextplace="In_loginTips3" placeholder="请输入短信验证码"  class="form-text"
+                                                       name="" id="verification" oninput="inputchange(event)" onfocus="inputOnFocus(userNameDefaultText,this,'verificationSpan');"
+                                                       onkeydown="inputOnKeyDown(userNameDefaultText,this);" onblur="inputOnblur(userNameDefaultText,this,'verificationSpan');" />
+                                                <span class="verification-btn" data-showtext="In_loginGetVerification" onclick="javascript:getVerification();">
+                                                获取验证码
+                                            </span>
+                                            </dd>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="isWecomLoginCorp" style="display: none;">
+                                        <dd>
+                                        <span class="left-cion">
+                                            <span class="icon iconfont icon-corplink" style="margin-top: 2px;"></span>
+                                        </span>
+                                            <select type="" data-showtextplace="请选择企业微信号关联企业" placeholder="corpId"  class="form-text"
+                                                    id="corpId" onchange="initWeicomCode(this.value)" />
+
+                                            </select>
+                                        </dd>
+                                    </div>
+
+                                    
+                                    <div class="isCodeImgLogin">
+
+                                        <div class="codeImg-box" id="wechatLoginCode" style="display: none;margin-top: 32px;">
+                                            <div class="wechat-mark">
+                                                <i class="icon icon-ats icon-ats-warning"></i>
+                                                <p class="text" data-showtext="In_loginTips5">当前二维码已过期</p>
+                                                <p class="text" data-showtext="In_loginTips7">请点击下方刷新按钮</p>
+                                            </div>
+                                            
+                                            <img id="loginCode" src="" alt="">
+                                        </div>
+                                        <div class="codeImg-box" id="wecomLoginCode" style="display: none;">
+                                        </div>
+                                        <div class="refresh-btn" onclick="javascript:getCodeImgFn();">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <g clip-path="url(#clip0_39_5679)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2516 6.4489C9.97753 6.41504 9.78281 6.16543 9.81666 5.89137C9.85051 5.61731 10.1001 5.42259 10.3742 5.45644L11.4349 5.58747C10.8568 4.86694 10.0528 4.31792 9.0921 4.06049C6.6915 3.41725 4.22398 4.84187 3.58075 7.24247C2.93751 9.64307 4.36213 12.1106 6.76273 12.7538C9.16332 13.3971 11.6308 11.9724 12.2741 9.57184C12.3455 9.30511 12.6197 9.14682 12.8865 9.21829C13.1532 9.28976 13.3115 9.56393 13.24 9.83066C12.4538 12.7647 9.43797 14.5059 6.50391 13.7197C3.56984 12.9336 1.82864 9.91772 2.61482 6.98365C3.401 4.04959 6.41685 2.30838 9.35092 3.09456C10.5156 3.40664 11.4928 4.07065 12.1981 4.94089L12.3267 3.9002C12.3605 3.62614 12.6101 3.43142 12.8842 3.46527C13.1582 3.49912 13.353 3.74874 13.3191 4.0228L13.0392 6.28894L13.0391 6.28943C13.0053 6.56349 12.7557 6.75821 12.4816 6.72436L10.2516 6.4489Z" fill="#0055FF"/>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_39_5679">
+                                                        <rect width="16" height="16" fill="white"/>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <span data-showtext="In_refresh">刷新</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                                
+
+                                <div class="rememberChoiceCon">
+                                <span class="rememberChoice">
+                                    <label class="rememberRadio">
+                                        记住账号
+                                        <input class="form-checkbox" type="checkbox"  value="true" id="remremberMe" name="remremberMe" style="margin-left: 8%;width:18px;height:18px;"/>&nbsp;&nbsp;
+                                        <i></i>
+                                    </label>
+                                </span>
+                                    
+                                    <a href="javascript:openFindPassword()"  class="right" style="line-height: 22px;height: 22px;font-size: 14px;color:#1E2126;">忘记密码?
+                                    </a>
+                                </div>
+                                <dd class="login-btn ">
+                                    <input type="button" id="loginImg" value="登 录" class="btn_blue_new" onclick="javascript:doLogin();"  />
+                                </dd>
+                                <div>
+                                    
+                                </div>
+                            </div>
+                        </dl>
+
+                        <div class="other-login-way">
+                            <div class="other-title">
+                                
+                                <span class="other-title-text" data-showtext="In_loginTips4">
+                                其他登录方式
+                            </span>
+                            </div>
+                            <ul class="other-body">
+                                <li class="login-item login_way_wechat" onclick="javascript:otherLoginFn('wechat', 'In_otherLoginTitle1')">
+                                    <span class="appLogoBox"><img src="/wt/v9/static/images/loginWayWechat.png" alt=""></span>
+                                    <span class="appName" data-showtext="In_loginApp1">微信</span>
+                                </li>
+                                
+                                <li class="login-item login_way_wecom"  style="display: none !important;" onclick="javascript:otherLoginFn('wecom', 'In_otherLoginTitle2')">
+                                    <span class="appLogoBox"><img src="/wt/v9/static/images/loginWayWeCom.png" alt=""></span>
+                                    <span class="appName" data-showtext="In_loginApp2">企业微信</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="other-login">
+                        <p class="other-login-title"><img src="/wt/v9/static/images/errorMsgTanHao.png" alt="">您使用的账号已在别处登录</p>
+                        <p class="other-login-der">继续登录后会让已登录的用户下线，并可能导致已登录此账号的用户丢失尚未保存的内容</p>
+                        <p class="other-login-btn" data-url='/wt/forceLogout.s?type=force&operational=7e55ad7065d76717a7cdceadb2a788f7f10e19c934a5c4ca7f4da026e71b67ef165876aa4d426225d7de5fa95953b823da45cdbf9caaee62'>继续登录</p>
+                        <p class="other-login-returnBtn"><img src="/wt/v9/static/images/rigthArrowIcon.png" alt="">使用其他账号登录</p>
+                    </div>
+                </div>
+            </div>
+            <!--登录信息  banner end-->
+            <!--版权信息 start-->
+            <div class="footer footer_login">
+                <!-- 版权所有 &copy; 2007-2014 大易信息科技有限公司-->
+                
+                <p style="text-align: center;">上海大易云计算有限公司已通过ISO27001:2022 信息安全认证</p>
+                
+                
+                    <p id="currentYear">版权所有 © 2007-2026 上海大易云计算有限公司
+                        <a id="beianId" href="https://beian.miit.gov.cn/" target="_blank"><img class="footer_login_gh" src="/wt/v9/static/images/login_gh.png" alt="">沪ICP备10000326号-1</a></p>
+                
+            </div>
+        </form>
+    </div>
+    <!--版权信息 end-->
+    <div class="wt-browser-panel" id="wt-browser-panel">
+        <div class="browser-main">
+            <div class="head">
+                <i id="browser-close"></i>
+            </div>
+            <div class="content">
+                <div class="title">
+                    <i></i>改善您的体验
+                </div>
+                <div class="description">
+                    <p>经检测，您的浏览器版本过低，部分功能可能无法正常使用。</p>
+                    <p>建议您下载以下浏览器获得更好的体验。</p>
+                </div>
+                <ul>
+                    <li class="chrome-browser"><a href="http://www.google.cn/chrome/browser/desktop/index.html" target="_blank"> <i></i> <span>Chrome浏览器</span> </a></li>
+                    <li class="firefox-browser"><a href="http://www.firefox.com.cn/download/" target="_blank"> <i></i> <span>火狐浏览器</span> </a></li>
+                    <li class="safari-browser"><a href="https://developer.apple.com/safari/download/" target="_blank"> <i></i> <span>Safari浏览器</span> </a></li>
+                    <li class="thas-browser"><a href="http://chrome.360.cn/" target="_blank"> <i></i> <span>360极速浏览器</span> </a></li>
+                    <li class="ie-browser"><a href="https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads" target="_blank"> <i></i> <span>IE9及以上</span> </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="browser-mask"></div>
+    </div>
+</div>
+<!--浏览器兼容判断-->
+<script src="/wt/v9/static/thirdpartV10/magnify/browser/brower.js?vn=61e714234a068ffeddbb340a87250a51" type="text/javascript"></script>
+<script type="text/javascript">
+    /*切换登录方式相关 start*/
+    var loginRestrict = '/wt/loginRestrict?operational=8465e1e115636bdd99b36c2ceea9333555c1ecf51a1f43d7d8bdff4d56eede6a2e6f97f64e10930a';
+    var wechatLoginWeComCorpId = '/wt/wechatLoginWeComCorpId?operational=3ab0ad5a4e51dcd260f62d1abf84899be0807c81641df051c47361110f3d178a28cd2f240529f1e1b3879f59687584db3541daf71a0e96ec';
+    var wechatLoginGzhQrcode = '/wt/wechatLoginGzhQrcode?operational=3ab0ad5a4e51dcd2588b5ba6f844131773221e262590bd84791acce9a88c9ab6633d222d1b0ad4198caf225bb8bca677';
+    var wechatLoginCheckStatus = '/wt/wechatLogin!checkStatus?operational=3ab0ad5a4e51dcd2bd0a79821f4a265750c5bc45a02b42e234daadde3b98522bd21bf18f3ea5c4c5c5137f5b1019c86b8eb1c4d79e5ac29a';
+    var forceLogout = '/wt/forceLogout.s?type=force&operational=7e55ad7065d76717a7cdceadb2a788f7f10e19c934a5c4ca7f4da026e71b67ef165876aa4d426225d7de5fa95953b823da45cdbf9caaee62';
+    var wechatLogin = '/wt/wechatLogin?operational=3ab0ad5a4e51dcd23e1c57925517fbcf2ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718';
+    var getVerificationCode = '/wt/getVerificationCode?operational=5f68d13c3031d4b3fa55760b6c86818e5f41f8d5d3dc19ae2ec6a81dafe13e55cc2f1016d89e19d105cf04c70be83718';
+    var loginInfoApiUrl = '/wt/loginInfo';
+
+
+    /*切换登录方式相关 end*/
+    //浏览器版本过低提示
+    (function () {
+        var lessThenIE9 = function () {
+            var UA = navigator.userAgent,
+                isIE = UA.indexOf('MSIE') > -1,
+                v = isIE ? /\d+/.exec(UA.split(';')[1]) : 'no ie';
+            return v < 9;
+        };
+
+        if (lessThenIE9()) {
+            $("#wt-browser-panel").show();
+            $("#browser-close").click(function () {
+                $("#wt-browser-panel").hide();
+            })
+        }
+        getLoginInfo()
+    })();
+    $(".qrCodeIcon").on("click",function(){
+        $(this).hide();
+        $(".accountNumber").show();
+        $(".erweima").hide();
+        $(".computerIcon").show();
+    });
+    $(".computerIcon").on("click",function(){
+        $(this).hide();
+        $(".erweima").show();
+        $(".accountNumber").hide();
+        $(".qrCodeIcon").show();
+    });
+    //账号，二维码切换登陆
+    $(".swichChangeNumber").on("click",function(){
+        $(".erweima").fadeOut(360);
+        $(".accountNumber").fadeIn(360);
+    });
+    $(".swichChangeErweima").on("click",function(){
+        $(".accountNumber").fadeOut(360);
+        $(".erweima").fadeIn(360);
+    });
+    /////////////////////////////////点击显示密码明文//////////////////////////////
+
+    function passwordchange (ee) {
+        //console.log(ee.target.value)
+        if(ee.target) {
+            if(ee.target.value) {
+                $("#passwordView").attr("style", "display:block;width: 20px;height: 14px;");
+            }else{
+                $("#passwordView").attr("style", "display:none;width: 20px;height: 14px;");
+            }
+        }else{
+            $("#passwordView").attr("style", "display:block;width: 20px;position: absolute;font-size: 14px;height: 14px;");
+        }
+        setLoginBtnState()
+    }
+
+    function inputchange (ee){
+        setLoginBtnState()
+    }
+
+    // $(".passwordCon").on("click", ".passwordView", function () {
+    //     if($("#password").attr("type") === 'password') {
+    //         $("#password").attr("type", "text");
+    //         $("#passwordView").removeClass('icon-ats-yincang').addClass('icon-ats-chakan');
+    //     } else {
+    //         $("#password").attr("type", "password");
+    //         $("#passwordView").removeClass('icon-ats-chakan').addClass('icon-ats-yincang');
+    //     }
+    // });
+    $(".passwordCon").on("mousedown", "#passwordView", function () {
+        $("#password").attr("type", "text");
+        $("#passwordView").removeClass('icon-ats-yincang').addClass('icon-ats-chakan');
+    });
+
+    $(".passwordCon").on("mouseup", "#passwordView", function () {
+        $("#password").attr("type", "password");
+        $("#passwordView").removeClass('icon-ats-chakan').addClass('icon-ats-yincang');
+    });
+    ////////////////////////////////////////////////////////////////////////////
+    $(function () {
+        $(document.body).on("keydown", function (event) {
+            var e = event || window.event || arguments.callee.caller.arguments[0];
+            var currKey = e.keyCode || e.which || e.charCode;
+            if (currKey == 13) {
+                if (document.getElementsByClassName('wt-modal-panel').length == 0) {
+                    doLogin();
+                }
+            }
+        });
+    })
+    $(function () {
+        //ATS-33175
+        //  控制login box 显示隐藏
+        function changeShowLoginBox (isShow) {
+            var $login = $('.login');
+            isShow? $login.show():$login.hide();
+        }
+        // 控制 已登录 box 显示隐藏
+        function changeShowOtherLoginBox(isShow) {
+            var $otherLogin = $('.other-login');
+            isShow? $otherLogin.show():$otherLogin.hide();
+        }
+
+
+        //如果要强制登录 显示继续登录box 隐藏原本的login box
+        
+
+
+        function bindOtherEvent() {
+            // 使用其他账号登录 点击事件
+            $('.other-login-returnBtn').on('click',function () {
+                // changeShowLoginBox(true);
+                // changeShowOtherLoginBox(false);
+                location.href = '/wt/login'
+            });
+            // 继续登录
+            $('.other-login-btn').on('click',function () {
+                var url = $(this).attr('data-url');
+                location.href = url;
+
+            });
+
+        }
+        bindOtherEvent();
+
+    })
+    // 替换备案号 begin
+    function replaceBeiAn(){
+        var host = location.host;
+        var _arr = [
+            'wintalent.com',
+            'wintalent.net',
+            // 'localhost:8080'
+        ];
+        var _obj = {
+            'wintalent.com':'沪ICP备10000326号-7',
+            'wintalent.net':'沪ICP备10000326号-8',
+            // 'localhost:8080':'yuluoceshi'
+        }
+        for(var i = 0; i < _arr.length;i++){
+            var item = _arr[i];
+            if(host.includes(item)){
+                $('#beianId').text(_obj[item]);
+                return;
+            }
+        }
+    }
+    $(function (){
+        var flag = localStorage.getItem("privaryCheckFlag")
+        if(flag == 0){
+            // document.getElementById('privaryCheckbox').checked = true;
+        }
+    })
+    replaceBeiAn();
+    // 替换备案号 end
+
+    function handleInnerHeight() {
+        var windowHeight = window.innerHeight;
+        
+    }
+
+    window.addEventListener('resize', function() {
+        handleInnerHeight();
+    });
+    document.addEventListener('DOMContentLoaded', function(event) {
+        handleInnerHeight();
+    });
+</script>
+</body>
+</html>

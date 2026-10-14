@@ -1,0 +1,131 @@
+{
+  "name": [
+    {
+      "text": "心理咨询师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "心理咨询师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责学校心理健康教育项目的策划与实施",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmr5t5CNC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmr5t5CNC",
+          "text": "负责学校心理健康教育项目的策划与实施"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5CtatC",
+        "vmr5t5CNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vmr5t5CNC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5CtatC",
+        "vmr5t5CNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vYl5CtatC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“心理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5CtatC",
+        "vmr5t5CNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "心理学类",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "vYl5CtatC",
+          "vmr5t5CNC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5CtatC",
+        "vmr5t5CNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vYl5CtatC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "学生心理咨询师II",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmr5t5CNC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "心理咨询师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5CtatC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

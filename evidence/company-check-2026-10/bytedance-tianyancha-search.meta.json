@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 4.715,
+  "access_date": "2026-10-12",
+  "sha256": "058c427fc3db09a043af482743d90d446fb3a54e047ad676c7d07a7fbb4762f9",
+  "blocked": null,
+  "id": "bytedance-tianyancha-search",
+  "company": "bytedance",
+  "query": "字节跳动有限公司 企业 成立日期",
+  "include_domains": [
+    "tianyancha.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/bytedance-tianyancha-search.json"
+}

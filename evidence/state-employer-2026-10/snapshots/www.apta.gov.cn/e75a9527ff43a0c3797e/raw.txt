@@ -1,0 +1,850 @@
+<html>
+<head>
+    <title>安徽省人事考试网</title>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <link href="/Content/main.css" rel="stylesheet"/>
+
+    
+    <style type="text/css">
+        .spanA {
+            background: #666;
+            cursor: pointer;
+            padding: 5px;
+            margin: 1px;
+            font-size: 14px;
+        }
+
+        #img {
+            height: 290px;
+            width: 340px;
+            background: transparent;
+        }
+
+        #imgNum {
+            float: right;
+            color: #fff;
+            line-height: 20px;
+            margin-right: 2px;
+        }
+
+        #font_hd0 {
+            margin-top: 0px;
+            background: #808080;
+            width: 100%;
+            height: 30px;
+        }
+
+            #font_hd0 td {
+                overflow: hidden;
+                height: 25px;
+            }
+
+                #font_hd0 td A {
+                    font-size: 12px;
+                    width: 220px;
+                    line-height: 25px;
+                    height: 25px;
+                    color: white;
+                    margin-left: 5px;
+                }
+
+        #font_hd {
+            margin-top: 0px;
+            background: #343434;
+            width: 100%;
+            height: 30px;
+        }
+
+            #font_hd td {
+                overflow: hidden;
+                height: 25px;
+            }
+
+                #font_hd td A {
+                    font-size: 12px;
+                    width: 220px;
+                    line-height: 25px;
+                    height: 25px;
+                    color: white;
+                    margin-left: 5px;
+                }
+
+        #imgTitle A {
+            display: block;
+            vertical-align: middle;
+            overflow: hidden;
+            font-family: Arial;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            #imgTitle A:hover {
+                text-decoration: underline;
+            }
+
+        .lightbox {
+            width: 300px;
+            height: 200px;
+            background: #FFFFFF;
+            border: 5px solid #ccc;
+            line-height: 20px;
+            display: none;
+            margin: 0;
+        }
+
+            .lightbox dt {
+                background: #f4f4f4;
+                padding: 5px;
+            }
+
+            .lightbox dd {
+                padding: 20px;
+                margin: 0;
+            }
+
+        .list {
+            font: Georgia, "Times New Roman", Times, serif;
+            font-size: 14px;
+            width: 450px;
+            display: inline-block;
+            height: 20px;
+            overflow: hidden;
+            word-break: keep-all;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .aa {
+            color: #000000;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            background-color: #009BAD;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+            display: inline-block;
+            *zoom: 1;
+            *display: inline;
+            min-width: 260px;
+            min-height: 40px;
+            line-height: 40px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+        .weblj a {
+            text-decoration: none;
+        }
+        .ab {
+            color: #000000;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            background-color: #009BAD;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+            display: inline-block;
+            *zoom: 1;
+            *display: inline;
+            min-width: 260px;
+            min-height: 40px;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .a1:active {
+            background-color: #bec3c6;
+        }
+    </style>
+
+    <script src="/Scripts/modernizr-2.5.3.js"></script>
+
+    <script src="/Scripts/jquery-3.5.0.min.js"></script>
+
+</head>
+<body>
+    <div align="center">
+        <table width="1000" height="120" bgcolor="#009bad" border="0" align="center" cellpadding="0" cellspacing="0" id="getbgcolor">
+    <tr>
+        <td width="540" rowspan="3">
+            <img src="/images/logo.png" width="540" height="120"></td>
+        <td width="460" height="40" align="right" class="yahei">
+            <!--<a class="yahei" href="http://220.180.239.166:13100/apta/" CLASS ="yahei" target="_blank">老版网站</a> |--> 
+            <!--<a class="yahei" href="http://www.apta.gov.cn:10080" CLASS ="yahei" target="_blank">手机网站</a>-->
+            &nbsp;&nbsp;
+        </td>
+    </tr>
+    <tr>
+        <td height="40">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="40" align="right" class="yahei">今天是：2026年10月11日，周日&nbsp;</td>
+    </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" class="zixun_nav_bg">
+    <tr>
+       
+        <td align="center" class="zixun_nav_font_current" width=25%>
+            <a href="/Information">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资讯中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+        <td align="center" class="zixun_nav_font">
+            <img src="/images/line2.jpg" width="1" height="40"></td>
+        <td align="center" class="zixun_nav_font" width=25%>
+            <a href="/ProfTech_NoticeIndex">专业技术人员职业资格考试</a></td>
+        <td align="center" class="zixun_nav_font">
+            <img src="/images/line2.jpg" width="1" height="40"></td>
+        <td align="center" class="zixun_nav_font" width=25%>
+            <a href="/Officer">公务员与事业单位考试</a></td>
+        <td align="center" class="zixun_nav_font">
+            <img src="/images/line2.jpg" width="1" height="40"></td>
+        <td align="center" class="zixun_nav_font" >
+            <a href="/CityExams">考试信息服务平台</a></td>
+      
+    </tr>
+</table>
+
+
+        
+    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center" class="zhuanji_nav2_bg" style="border-bottom-style: none; border-left-style: none; border-right-style: none;"></td>
+        </tr>
+    </table>
+
+    </div>
+    
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        
+        <td width="70%" align="center" valign="top">
+            <div style="min-height: 520px">
+                <table width="95%" border="0" style="height: 49%" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="35" colspan="2" class=" zhuanji_news_line1 zhuanji_title1">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="87%" class="zixunzhongxin_title1">最新资讯
+                                    </td>
+                                    <td width="13%" height="35" align="right" class="zhuanji_title1_more">
+                                        <a href="/Information/ActivityList">更多</a>&gt;&gt;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr style="height: 10px"></tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;                                    <img src='../Images/new.gif'  style="vertical-align: text-top;" />  
+
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1693" title="2026年度安徽省二级造价工程师职业资格考试现场人工核查安排" target="_blank" style =  >2026年度安徽省二级造价工程师职业资格考试现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.10.10
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1691" title="2026年度安徽省二级造价工程师职业资格考试公告" target="_blank" style =  >2026年度安徽省二级造价工程师职业资格考试公告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.24
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="https://www.ruankao.org.cn/article/content/2609232253243276140690048.html" title="2026年下半年计算机软件资格考试计算机化考试系统模拟练习及有关事项的通告" target="_blank" style =  >2026年下半年计算机软件资格考试计算机化考试系统模拟练习及有关事项的通告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.24
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="https://www.ruankao.org.cn/article/content/2609211354254868000700041.html" title="关于2026年下半年计算机软件资格考试批次安排的通告" target="_blank" style =  >关于2026年下半年计算机软件资格考试批次安排的通告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.21
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1689" title="2026年度安徽省档案专业技术资格考试现场人工核查安排" target="_blank" style =  >2026年度安徽省档案专业技术资格考试现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.21
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="https://www.txks.org.cn/article/content/2609031619203918130690035.html" title="2026年度全国通信专业技术人员职业水平考试计算机化考试系统模拟练习及有关事项的通告" target="_blank" style =  >2026年度全国通信专业技术人员职业水平考试计算机化考试系统模拟练习及有关事项的通告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.16
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="https://www.ahsdag.org.cn/zckp/517556.html" title="2026年度安徽省档案专业技术资格考试公告" target="_blank" style =  >2026年度安徽省档案专业技术资格考试公告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.11
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1686" title="2026年度一级注册消防工程师资格考试安徽考区现场人工核查安排" target="_blank" style =  >2026年度一级注册消防工程师资格考试安徽考区现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.09.04
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1685" title="2026年度全国勘察设计注册工程师执业资格考试安徽考区现场人工核查安排" target="_blank" style =  >2026年度全国勘察设计注册工程师执业资格考试安徽考区现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.24
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="https://sft.ah.gov.cn/zhzx/tzgg/58335431.html" title="2026年度全省公共法律服务系列律师专业技术资格（初、中级）考试公告" target="_blank" style =  >2026年度全省公共法律服务系列律师专业技术资格（初、中级）考试公告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.21
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1683" title="2026年度一级注册消防工程师资格考试安徽考区公告" target="_blank" style =  >2026年度一级注册消防工程师资格考试安徽考区公告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.18
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1682" title="2026年度安徽省标准化专业技术资格考试现场人工核查安排" target="_blank" style =  >2026年度安徽省标准化专业技术资格考试现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.18
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1679" title="2026年度新闻记者职业资格考试安徽考区现场人工核查安排" target="_blank" style =  >2026年度新闻记者职业资格考试安徽考区现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.13
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1680" title="2026年度执业药师职业资格考试安徽考区现场人工核查安排" target="_blank" style =  >2026年度执业药师职业资格考试安徽考区现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.13
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1681" title="2026年度中级注册安全工程师职业资格考试安徽考区现场人工核查安排" target="_blank" style =  >2026年度中级注册安全工程师职业资格考试安徽考区现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.13
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1677" title="2026年度安徽省初级注册安全工程师职业资格考试安徽考区现场人工核查安排" target="_blank" style =  >2026年度安徽省初级注册安全工程师职业资格考试安徽考区现场人工核查安排</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.10
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1678" title="2026年度全国勘察设计注册工程师执业资格考试安徽考区公告" target="_blank" style =  >2026年度全国勘察设计注册工程师执业资格考试安徽考区公告</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.10
+                            </td>
+                        </tr>
+                        <tr>
+                                <td width="85%" align="left" class="news">&middot;
+                                    <a class="list" href="http://www.apta.gov.cn/ProfTech_NoticeIndex/ProfTechActivityDetail?aid=1676" title="关于2026年度安徽省标准化专业技术资格考试考务工作的通知" target="_blank" style =  >关于2026年度安徽省标准化专业技术资格考试考务工作的通知</a>
+                                </td>
+
+                            <td width="15%" align="right" style="font-size: small; color: gray">
+                                2026.08.06
+                            </td>
+                        </tr>
+                </table>
+            </div>
+            <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="35" class=" zhuanji_news_line1 zhuanji_title1" colspan="2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr style="height: 10px"></tr>
+                            <tr>
+                                <td class="zixunzhongxin_title1">政策法规
+                                </td>
+                                <td height="35" align="right" class="  zhuanji_title1_more">
+                                    <a href="/Information/LawsList">更多</a>&gt;&gt;
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table style="border-collapse: separate; border-spacing: 10px 0px;">
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=55" style="" target="_blank" title="中华人民共和国公务员法">中华人民共和国公务员法</a>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=34" style="" target="_blank" title="公务员录用违规违纪行为处理办法">公务员录用违规违纪行为处理办法</a>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=13" style="" target="_blank" title="事业单位公开招聘违纪违规行为处理规定">事业单位公开招聘违纪违规行为处理规定</a>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=12" style="" target="_blank" title="专业技术人员资格考试违纪违规行为处理规定（中华人民共和国人力资源和社会保障部令第31号）">专业技术人员资格考试违纪违规行为处理规..</a>
+                                    </td>
+                                    
+                                </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=8" style="" target="_blank" title="人事考试工作人员纪律规定（人社部发〔2013〕36号）">人事考试工作人员纪律规定（人社部发〔20..</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=14" style="" target="_blank" title="专业技术人员职业资格考试考务工作规程">专业技术人员职业资格考试考务工作规程</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=1" style="" target="_blank" title="安徽省人事考试考务工作规则（皖人社发〔2013〕2号）">安徽省人事考试考务工作规则（皖人社发〔..</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=2" style="" target="_blank" title="安徽省人事考试违纪处理规定（皖人发〔2002〕77号）">安徽省人事考试违纪处理规定（皖人发〔20..</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" class="news">&middot;                                        <a href="/Information/LawsDetail?lid=4" style="" target="_blank" title="安徽省人事考试考点考场管理细则（试行）（皖人社发〔2013〕5号）">安徽省人事考试考点考场管理细则（试行）..</a>
+                                    </td>
+                                </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+
+            <!--<table width="450" border="0" style="height: 49%" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td height="35" colspan="2" class=" zhuanji_news_line1 zhuanji_title1">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td class="zixunzhongxin_title1">市县工作动态</td>
+                                
+                                <td width="13%" height="35" align="right" class="zhuanji_title1_more">
+                                    <a href="/CityExams/ActivityList">更多</a>&gt;&gt;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>-->
+        </td>
+        <td width="30%" align="right" valign="top">
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                            <div id="img_1" style="">
+                                <a href="http://www.cpta.com.cn/topic/1284.html" target="_blank">
+                                    <img style="border-color: Yellow; width:295px; height:200px;" src="../uploads/Infomation/2022_9/tugz.jpg" alt="01" />
+                                </a>
+                            </div>
+                            <div id="img_2" style="display:none;">
+                                <a href="http://hrss.ah.gov.cn/zxzx/gsgg/8731195.html" target="_blank">
+                                    <img style="border-color: Yellow; width:295px; height:200px;" src="../uploads/Infomation/2022_5/f0425a22-85bd-4b27-ae39-2fbd0443155b.jpg" alt="01" />
+                                </a>
+                            </div>
+                            <div id="img_3" style="display:none;">
+                                <a href="http://www.cpta.com.cn/topic/755.html" target="_blank">
+                                    <img style="border-color: Yellow; width:295px; height:200px;" src="../uploads/Infomation/2022_5/e49b1586-44df-444c-959b-ef4120fe2287.jpg" alt="01" />
+                                </a>
+                            </div>
+                            <div id="img_4" style="display:none;">
+                                <a href="http://www.cpta.com.cn/topic/757.html" target="_blank">
+                                    <img style="border-color: Yellow; width:295px; height:200px;" src="../uploads/Infomation/2022_5/37586468-7c02-4680-a9c5-25732e155f1c.jpg" alt="01" />
+                                </a>
+                            </div>
+                            <div id="img_5" style="display:none;">
+                                <a href="http://www.cpta.com.cn/topic/759.html" target="_blank">
+                                    <img style="border-color: Yellow; width:295px; height:200px;" src="../uploads/Infomation/2022_5/89d393f6-e533-40fb-a79e-919b61180b1d.jpg" alt="01" />
+                                </a>
+                            </div>
+                        
+                        <table id="font_hd" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td valign="middle" style="background-color: white;">
+                                    <div id="imgNum">
+                                        <div>
+                                                <span class="spanA" id="button_1">1</span> 
+                                                <span class="spanA" id="button_2">2</span> 
+                                                <span class="spanA" id="button_3">3</span> 
+                                                <span class="spanA" id="button_4">4</span> 
+                                                <span class="spanA" id="button_5">5</span> 
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellspacing="0" cellpadding="0" class="weblj">
+                
+                 <tr>
+                    <td height="70" align="right">
+                        <a href="/ProfTech_NoticeIndex/ProfTechGuideDetail?aid=225" target='_blank' class="ab">专业技术人员职业资格考试<br/>常见问题解答
+                           
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="70" align="right">
+                        <a href="/ProfTech_NoticeIndex/ProfTechGuideDetail?aid=154" target='_blank' class="aa" >专业技术人员职业资格考试报考条件
+                           
+                        </a>
+                    </td>
+                </tr>
+
+                <!--<tr>
+                    <td height="75" align="right">
+                        <a href="http://ahcity.tdtah.cn/common" target='_blank' class="aa" >安徽省人事考试赶考地图
+                            
+
+                        </a>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td height="70" align="right">
+                        <a href="http://www.cpta.com.cn/certQuery.html" target='_blank' class="aa" >全国专业技术人员职业资格证书查验
+                           
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="70" align="right">
+                        <a href="http://www.cpta.com.cn/promise.html" target='_blank' class="aa">资格考试报名证明事项告知承诺制
+                            
+
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="70" align="right">
+                        <a href="https://jsfs.yeepay.com/xzjy-ahnontax-app/invoice?merchantNo=10033999930" target='_blank' class="aa">报名费票据打印
+                           
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="70" align="right">
+                        <a href="https://zjpt.ahrs.org.cn:8009/#/qualificationlogin" target='_blank' class="ab">安徽省专业技术人员综合管理<br/>服务平台电子证书查询
+                           
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="70" align="right">
+                        <a href="http://www.apta.gov.cn/ProfTech_Cert" target='_blank' class="aa">证书领取信息
+                           
+                        </a>
+                    </td>
+                </tr>
+                <!--<tr>
+                    <td height="75" align="right">
+                        <a href="http://wjw.ah.gov.cn/public/7001/56027921.html" target='_blank' class="aa">提供24小时核酸检测服务机构名单
+                           
+                        </a>
+                    </td>
+                </tr>-->
+                <!--<tr>
+                    <td height="75" align="right">
+                        <img src="/images/t3.jpg" width="221" height="52">
+                    </td>
+                </tr>-->
+
+            </table>
+            
+        </td>
+    </tr>
+</table>
+
+<div id='one'>
+    <div id="codefans_net" style="position: absolute; z-index: 9999;">
+        <div style="text-align: right; font-size: 8px;">
+            <a id='close' style="cursor: pointer;"></a>
+        </div>
+        
+    </div>
+</div>
+
+
+    <div align="center">
+<style type="text/css">
+    a {
+        cursor: pointer;
+    }
+    #dishi > a {
+        margin-right: 10px;
+        margin-left:10px;
+    }
+
+    .a1 {
+        color: #000000;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: #009BAD;
+        margin-left: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        display:inline-block; 
+        *zoom:1; 
+        *display:inline;
+        width:260px;
+        border-radius: 5px; 
+        text-align:center;
+        color:white;
+        font-weight:bold;
+        
+    }
+
+        .a1:active {
+            background-color: #bec3c6;
+        }
+
+
+    .a2 {
+        background-color: #F1EFC7;
+        color: #000000;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 16px;
+        box-shadow: #666 0px 0px 6px;
+    }
+
+        .a2:active {
+            background-color: #bdbc9d;
+        }
+</style>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td height="15" align="center" valign="middle">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="100" class="link1">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate; border-spacing:0px 10px;">
+                <tr>
+                    
+                    <td style="text-align: center;">
+                        <a class="a1" href="http://www.cpta.com.cn/" target='_blank' style="text-decoration:none;">中国人事考试网</a>
+                        <a class="a1" href="https://rsks.class.com.cn/index?channel=anhui" target='_blank' style="text-decoration:none;">中国人事考试图书网</a>
+                        <a class="a1" href="http://hrss.ah.gov.cn/" target='_blank' style="text-decoration:none;">安徽省人力资源和社会保障厅</a>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td align="center" style="vertical-align:middle;" colspan="2" height="38" id="dishi" >
+                        <a href="http://www.hfpta.com/" target='_blank'>合肥</a>
+                        <a href="https://rsj.huaibei.gov.cn/gggs/index.html" target='_blank'>淮北</a>
+                        <a href="http://rsj.bozhou.gov.cn/News/showList/6074/page_1.html" target='_blank'>亳州</a>
+                        <a href="http://rsj.ahsz.gov.cn/rsks/rsks/index.html" target='_blank'>宿州</a>
+                        <a href="http://www.bbrsksfwdt.cn/web/login/index.html" target='_blank'>蚌埠</a>
+                        <a href="https://rsj.fy.gov.cn/Content/showList/8586/page_1.html" target='_blank'>阜阳</a>
+                        <a href="https://rsj.huainan.gov.cn/rsrc/rsks/index.html" target='_blank'>淮南</a>
+                        <a href="http://rsj.chuzhou.gov.cn/index.html" target='_blank'>滁州</a>
+                        <a href="http://rsj.luan.gov.cn/rsgz/rsks/index.html" target='_blank'>六安</a>
+                        <a href="http://rsj.mas.gov.cn/zyzx/ywzl/rsks/index.html" target='_blank'>马鞍山</a>
+                        <a href="https://rsj.wuhu.gov.cn/ztzl/rsks/index.html" target='_blank'>芜湖</a>
+                        <a href="https://rsj.xuancheng.gov.cn/News/showList/44826/page_1.html" target='_blank'>宣城</a>
+                        <a href="https://rsj.tl.gov.cn/tlsrlzyhshbzj/c00097/pc/list.html" target='_blank'>铜陵</a>
+                        <a href="https://czsrsj.chizhou.gov.cn/rskszx/" target='_blank'>池州</a>
+                        <a href="http://www.aqpta.com/portal/web/" target='_blank'>安庆</a>
+                        <a href="https://rsj.huangshan.gov.cn/index.html" target='_blank'>黄山</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+
+        <table width="1000" height="110" bgcolor="#009bad" border="0" align="center" cellpadding="0"
+    cellspacing="0">
+    <tr>
+        <td align="center" class="copyright" style="font-size:16px;">
+            <a href="https://beian.miit.gov.cn/" target="_blank" class="copyright" style="display:inline-block;height:20px;line-height:20px;font-size:16px;" >[皖ICP备13015656号-1]</a>|[<img src="/images/batb.png" height="16" /><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34011102000264" class="copyright" style="display:inline-block;height:20px;line-height:20px;font-size:16px;"  >皖公网安备 34011102000264号]</a>
+            <br>
+            安徽省人事考试院（合肥市徽州大道与太湖路交口恒生阳光城8号写字楼四楼 邮编230001）
+           
+            
+        </td>
+   <td rowspan="2" valign="top">
+           <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/13/000/0000/40694840/CA130000000406948400001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+       </td>
+    </tr>
+    <tr>
+        <td class="copyright" style="font-size:16px;padding-left:20px;" colspan="2">
+            <font style="font-size:20px;font-weight:bold;margin-left:45px ">联系电话（工作时间）</font>&nbsp;<font style="font-size:20px;font-weight:bold ">0551-62862409</font><font style="font-size:13px">（证书咨询）</font>&nbsp;<font style="font-size:20px;font-weight:bold ">0551-63457903</font><font style="font-size:13px">（公务员、事业单位考试考务咨询）</font><br>
+             <font style="font-size:20px;font-weight:bold;margin-left:85px ">0551-63457905</font><font style="font-size:13px">（专业技术资格考试考务咨询）</font>
+           
+            <font style="font-size:20px;font-weight:bold ">0551-12333<font style="font-size:5px;">&nbsp;</font>接通后按2</font><font style="font-size:13px">（专业技术资格考试报名技术咨询）</font> 
+            <br>         
+        </td>
+    </tr> 
+</table>
+
+    </div>
+    
+    
+    <script src="/Scripts/jquery-3.5.0.min.js"></script>
+
+    <script lang="javascript" type="text/javascript">
+        ////设置WebLink按钮颜色
+        //$(function () {
+        //    console.log($("#getbgcolor").css('background-color'));
+        //    $(".a1").css("background-color", $("#getbgcolor").css('background-color'));
+        //})
+        var total = $("#imgNum").find("span.spanA").length;
+        var current = 1;
+        var auto_play_on = true;
+
+        $(document).ready(function () {
+            $("#button_1").css({ "background": "#d6d6d6" });
+        });
+
+        $("#button_1").css({ "background": "#d6d6d6" });
+
+        $("span").each(function (event) {
+            var num1 = $(this).html();
+            $(this).mouseover(function (event) {
+                auto_play_on = false;
+                $(this).css({ cursor: 'pointer' });
+            });
+
+            $(this).mouseout(function (event) {
+                auto_play_on = true;
+            });
+
+            $(this).bind("click", function (event) {
+                $("#img_" + current).hide();
+                $("#img_" + num1).show();
+                $("#imgTitle_" + current).hide();
+                $("#imgTitle_" + num1).show();
+
+                $("#button_" + current).css({ "background": "#666" });
+                $("#button_" + num1).css({ "background": "#d6d6d6" });
+                current = num1;
+            });
+        });
+
+        var autoPlay = function () {
+            if (total !== 0 && auto_play_on) {
+                current = parseInt(current);
+                var next = (current < total ? (current + 1) : 1);
+                if (current !== next) {
+                    $("#img_" + current).show(500);
+                    $("#imgTitle_" + current).show(500);
+                    $("#img_" + current).hide();
+                    $("#imgTitle_" + current).hide();
+                    $("#img_" + next).show();
+                    $("#imgTitle_" + next).show();
+                    $("#button_" + current).css({ "background": "#666" });
+                    $("#button_" + next).css({ "background": "#d6d6d6" });
+                    current = next;
+                }
+            }
+        };
+        setInterval(autoPlay, 5000);
+
+        $("#searchSubmit").click(function () {
+            location.href = "/Information/LawsList?keywords="
+                + escape($("#textfield1").val());
+        });
+
+        var x = 50, y = 60
+        var xin = true, yin = true
+        var step = 1
+        var delay = 20
+        var obj = document.getElementById("codefans_net")
+        function float() {
+            var L = T = 0
+            var R = document.body.clientWidth - obj.offsetWidth
+            var B = document.body.clientHeight - obj.offsetHeight
+            obj.style.left = x + document.body.scrollLeft
+            obj.style.top = y + document.body.scrollTop
+            x = x + step * (xin ? 1 : -1)
+            if (x < L) { xin = true; x = L }
+            if (x > R) { xin = false; x = R }
+            y = y + step * (yin ? 1 : -1)
+            if (y < T) { yin = true; y = T }
+            if (y > B) { yin = false; y = B }
+        }
+        var itl = setInterval("float()", delay)
+        obj.onmouseover = function () { clearInterval(itl) }
+        obj.onmouseout = function () { itl = setInterval("float()", delay) }
+
+
+        $('#close').click(function () {
+            $('#one').css('display', 'none');
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $("td.copyright").find("iframe").prev().attr("href", "javascript:void(0)");
+        $("td.copyright").find("iframe").prev().attr("title", "");
+        $(function () {
+            $(".a1").css("background-color", $("#getbgcolor").css('background-color'));
+        })
+    </script>
+</body>
+</html>

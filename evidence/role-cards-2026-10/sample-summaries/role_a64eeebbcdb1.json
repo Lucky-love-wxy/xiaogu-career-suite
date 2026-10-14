@@ -1,0 +1,67 @@
+{
+  "name": [
+    {
+      "text": "医药项目经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医药项目经理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vry5nNCMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vry5nNCMM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vry5nNCMM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vry5nNCMM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医药项目培训/管理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vry5nNCMM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}
