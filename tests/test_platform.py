@@ -456,3 +456,13 @@ class CreditUnitTests(unittest.TestCase):
                 c.execute("PRAGMA user_version = 0")
             self.assertAlmostEqual(Store(path).balance("u"), 500.0)
             self.assertAlmostEqual(Store(path).balance("u"), 500.0)  # 再开一次不会再乘 100
+
+
+class MessageLimitTests(PlatformCase):
+    def test_message_over_2000_chars_is_rejected_with_count(self):
+        client = self.login()
+        res = self.chat(client, "字" * 2001)
+        self.assertEqual(res.status_code, 413)
+        self.assertIn("2001", res.json()["error"])
+        self.assertEqual(self.chat(client, "字" * 2000).status_code, 200)
+        self.assertEqual(client.get("/api/meta").json()["max_message"], 2000)

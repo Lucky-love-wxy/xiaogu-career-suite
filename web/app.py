@@ -40,7 +40,7 @@ from auth import Auth, AuthError, ConsoleSender  # noqa: E402
 from store import FEATURES, Store, day_start, mask, now  # noqa: E402
 
 STATIC = HERE / "static"
-MAX_MESSAGE = 60_000          # 一条消息最多字符数（整份简历 + JD 足够）
+MAX_MESSAGE = 2000            # 一条消息最多 2000 字（10-14 用户定：控制每轮输入的 token；前端同步提示）
 RESERVE_CREDITS = 25          # 每轮预扣上限（25 credits = ¥0.5，1 credit = ¥0.02）；本轮扣费不超过它，超出部分记为平台损耗
 MIN_START_CREDITS = 1         # 余额低于它（¥0.02）不能开始新一轮；开发库实测单轮平均成本 ¥0.006、最高 ¥0.047
 TOKEN_COOKIE, ADMIN_COOKIE = "xg_token", "xg_admin"
@@ -279,7 +279,7 @@ class Platform:
         if not message:
             raise HTTPException(400, "消息是空的")
         if len(message) > MAX_MESSAGE:
-            raise HTTPException(413, "内容太长，请分段发送")
+            raise HTTPException(413, f"一次最多 {MAX_MESSAGE} 字，现在 {len(message)} 字，请删短一点或分两次发")
         session = self.owned_session(user["id"], session_id)
         feature = guess_feature(session, message)
         self.check_open(user, feature)
@@ -428,7 +428,7 @@ def create_app(platform: Platform) -> FastAPI:
                 "icp": cfg.icp, "model_filing": cfg.model_filing, "maintenance": flags.get("maintenance") == "1",
                 "maintenance_reason": flags.get("maintenance_reason") if flags.get("maintenance") == "1" else "",
                 "features": {f: flags.get(f"feature.{f}", "1") == "1" for f in FEATURES},
-                "signup_open": flags.get("signup_open") == "1"}
+                "signup_open": flags.get("signup_open") == "1", "max_message": MAX_MESSAGE}
 
     @app.get("/api/sample")
     def sample(request: Request):

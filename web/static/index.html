@@ -232,6 +232,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
 .send:disabled{opacity:.25; cursor:default; transform:none}
 .box.drop{border-color:var(--ink-2); border-style:dashed}
 .ocr-note{max-width:768px; margin:8px auto 0; padding:0 16px; font-size:12px; color:var(--ink-2)}
+.len-note{text-align:right; font-family:var(--mono)} .len-note.over{color:var(--shu)}
 .foot-note{max-width:768px; margin:8px auto 0; text-align:center; font-size:11px; color:var(--ink-3)}
 
 /* 右侧运行记录（只在开发 / 测试环境出现） */
@@ -375,6 +376,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
       <input type="file" id="ocrFile" accept="image/png,image/jpeg,image/webp" multiple hidden>
     </div>
     <p class="ocr-note" id="ocrNote" role="status" hidden></p>
+    <p class="ocr-note len-note" id="lenNote" role="status" hidden></p>
     <div class="chips" id="chips">
       <button data-q="我想看懂一个岗位"><svg class="i"><use href="#i-job"/></svg>看懂岗位</button>
       <button data-q="帮我按岗位改简历"><svg class="i"><use href="#i-target"/></svg>按岗位改简历</button>
@@ -541,7 +543,7 @@ function setPractice(p){
 
 async function send(text){
   const message = (text ?? $("#input").value).trim();
-  if (!message || state.busy) return;
+  if (!message || state.busy || message.length > (state.maxLen || 2000)) return;
   closeMenus();
   state.busy = true; $("#send").disabled = true; $("#input").value = ""; grow(); $("#ocrNote").hidden = true;
   const isNew = !state.session;
@@ -603,7 +605,7 @@ async function send(text){
     xg.querySelector(".status")?.remove();
     xg.querySelector(".body").innerHTML = `<p>这次没有发出去：${esc(String(err.message || err))}</p>`;
   } finally {
-    state.busy = false; $("#send").disabled = false; $("#input").focus();
+    state.busy = false; grow(); $("#input").focus();  // 由 grow() 按字数决定能不能发
     // 长回答从开头读：把小谷的名字滚到可视区顶部，而不是直接滚到底
     xg.previousElementSibling.scrollIntoView({block: "start", behavior: "smooth"});
   }
@@ -752,7 +754,15 @@ $("#searchRail").onclick = () => { collapse(false); setTimeout(() => $("#q").foc
 $("#menu").onclick = () => document.body.classList.add("drawer");
 $("#scrim").onclick = () => document.body.classList.remove("drawer");
 
-function grow(){ const t = $("#input"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 220) + "px"; }
+function grow(){
+  const t = $("#input"); t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 220) + "px";
+  // 一条最多 2000 字（数字以服务端为准）：快到上限时显示字数，超了不让发，不偷偷截断
+  const n = t.value.trim().length, max = state.maxLen || 2000, over = n > max;
+  $("#lenNote").hidden = n < max * 0.8;
+  $("#lenNote").textContent = over ? `一次最多 ${max} 字，现在 ${n} 字，删短一点或分两次发` : `${n} / ${max} 字`;
+  $("#lenNote").classList.toggle("over", over);
+  $("#send").disabled = state.busy || over;
+}
 
 $("#send").onclick = () => send();
 $("#input").addEventListener("input", grow);
@@ -928,6 +938,7 @@ fetch("/api/meta").then(r => r.json()).then(m => {
   $("#filing").hidden = !filing.length;
   if (m.maintenance) $("#emptySub").textContent = "小谷暂停服务中：" + (m.maintenance_reason || "请稍后再来");
   $("#provider").textContent = m.provider === "mock" ? "模拟模型（离线）" : m.model;
+  if (m.max_message) state.maxLen = m.max_message;
 });
 </script>
 </body>
