@@ -2,6 +2,7 @@
 全部用假模型，不花钱。需要 web/requirements-dev.txt（httpx）。"""
 
 import json
+import math
 import sys
 import tempfile
 import threading
@@ -141,12 +142,14 @@ class BillingTests(PlatformCase):
         self.assertGreaterEqual(len(calls), 1)
         self.assertAlmostEqual(calls[0]["cost_cny"], CALL_COST, places=6)
         self.assertEqual(calls[0]["cache_hit_tokens"], 2000)
-        expected = -(-int(len(calls) * CALL_COST * 100 * 1e6) // int(1e6))  # 向上取整到 1 credit
-        self.assertEqual(body["credits"]["charged"], expected)
-        self.assertEqual(body["credits"]["balance"], 500 - expected)
+        # 1 credit = ¥0.02（100 credits 对应后台 ¥2），按实际消耗向上取到 0.01 credit
+        units = math.ceil(round(len(calls) * CALL_COST * 50 * 100, 6))
+        expected = units / 100
+        self.assertAlmostEqual(body["credits"]["charged"], expected, places=6)
+        self.assertAlmostEqual(body["credits"]["balance"], 500 - expected, places=6)
         turn = self.store.one("SELECT * FROM turns")
         self.assertEqual(turn["feature"], "chat")
-        self.assertEqual(turn["credits_charged"], expected)
+        self.assertEqual(turn["credits_charged"], units)  # 库里按 0.01 credit 记整数
         # 预扣已经全部退回：台账里 reserve 与 release 相抵
         r = self.store.one("SELECT SUM(credits) AS s FROM credit_ledger WHERE type IN ('reserve','release')")
         self.assertEqual(r["s"], 0)
@@ -154,7 +157,7 @@ class BillingTests(PlatformCase):
     def test_exhausted_credits_return_402(self):
         client = self.login()
         user = self.store.user_by_contact("13800001111")
-        self.store.adjust_credits(user["id"], -499, "测试")
+        self.store.adjust_credits(user["id"], -499.5, "测试")  # 剩 0.5，低于开始一轮的最低 1 credit
         res = self.chat(client, "你好")
         self.assertEqual(res.status_code, 402)
         self.assertEqual(self.store.one("SELECT COUNT(*) AS n FROM llm_calls")["n"], 0)
@@ -164,7 +167,7 @@ class BillingTests(PlatformCase):
         self.store.set_flag("markup", "2.0", "test")
         body = self.chat(client, "帮我看看这个岗位：\n" + JD).json()
         n = self.store.one("SELECT COUNT(*) AS n FROM llm_calls")["n"]
-        self.assertEqual(body["credits"]["charged"], -(-int(n * CALL_COST * 200 * 1e6) // int(1e6)))
+        self.assertAlmostEqual(body["credits"]["charged"], math.ceil(round(n * CALL_COST * 50 * 2 * 100, 6)) / 100, places=6)
 
 
 class BlockedTurnTests(PlatformCase):
@@ -432,3 +435,24 @@ class ProfileCardTests(PlatformCase):
             states = [r["state"] for r in c.execute("SELECT state FROM chat_sessions")]
         self.assertTrue(states)
         self.assertFalse(any("在校报社写过 20 篇稿子" in s for s in states))
+
+
+class CreditUnitTests(unittest.TestCase):
+    """10-14：100 credits = 后台 ¥2，按实际消耗扣到 0.01 credit；账本按 0.01 credit 记整数。"""
+
+    def test_small_cost_is_charged_precisely_not_rounded_to_whole_credit(self):
+        store = Store(":memory:")
+        self.assertAlmostEqual(store.charge_for(0.0059), 0.3, places=6)   # 开发库实测单轮平均成本
+        self.assertAlmostEqual(store.charge_for(0.00001), 0.01, places=6)  # 最少 0.01
+        self.assertEqual(store.charge_for(0), 0)
+
+    def test_old_ledger_is_migrated_once(self):
+        import sqlite3
+        with tempfile.TemporaryDirectory() as tmp:
+            path = str(Path(tmp) / "old.db")
+            Store(path)
+            with sqlite3.connect(path) as c:  # 模拟迁移前的旧库：整数 credit，user_version=0
+                c.execute("INSERT INTO credit_ledger(user_id, type, credits, created_at) VALUES ('u', 'grant', 500, 0)")
+                c.execute("PRAGMA user_version = 0")
+            self.assertAlmostEqual(Store(path).balance("u"), 500.0)
+            self.assertAlmostEqual(Store(path).balance("u"), 500.0)  # 再开一次不会再乘 100

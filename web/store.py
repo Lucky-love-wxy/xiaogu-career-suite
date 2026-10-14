@@ -21,7 +21,10 @@ from pathlib import Path
 from typing import Any, Iterator
 
 CN_TZ = timezone(timedelta(hours=8))  # 看板按北京时间切日
-CREDITS_PER_CNY = 100  # 1 credit = ¥0.01
+CREDITS_PER_CNY = 50  # 1 credit = ¥0.02：100 credits 对应后台 ¥2 实际消耗（10-14 用户定）
+# 账本按 0.01 credit 记整数，界面显示两位小数（500.00 而不是 500）：按实际消耗扣，不再向上取整到 1 credit；
+# 用整数而不是浮点，账目求和不会累积误差
+UNITS = 100
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS users (
@@ -203,6 +206,11 @@ class Store:
             c.executescript(SCHEMA)
             if self.path != ":memory:":
                 c.execute("PRAGMA journal_mode=WAL")
+            if c.execute("PRAGMA user_version").fetchone()[0] < 1:
+                # 2026-10-14：账本单位从 1 credit 改成 0.01 credit；旧数据按原 credit 数换算（不追溯汇率变化）
+                c.execute("UPDATE credit_ledger SET credits = credits * 100")
+                c.execute("UPDATE turns SET credits_charged = credits_charged * 100")
+                c.execute("PRAGMA user_version = 1")
             for key, value in DEFAULT_FLAGS.items():
                 c.execute("INSERT OR IGNORE INTO flags(key, value, updated_by, updated_at) VALUES (?,?,?,?)",
                           (key, value, "default", now()))
@@ -278,7 +286,7 @@ class Store:
                       (user_id, contact, invite, now(), now()))
             c.execute("UPDATE invites SET used = used + 1 WHERE code=?", (invite,))
             c.execute("INSERT INTO credit_ledger(user_id, type, credits, ref, note, created_at) VALUES (?,?,?,?,?,?)",
-                      (user_id, "grant", row["credits"], invite, "注册赠送", now()))
+                      (user_id, "grant", row["credits"] * UNITS, invite, "注册赠送", now()))  # 邀请码上写的是 credit
         return self.user(user_id)
 
     def set_user_status(self, user_id: str, status: str) -> None:
@@ -287,11 +295,11 @@ class Store:
         with self._write, self.conn() as c:
             c.execute("UPDATE users SET status=? WHERE id=?", (status, user_id))
 
-    def adjust_credits(self, user_id: str, credits: int, note: str) -> None:
-        """后台手动加减额度（补偿、内测加额度）。"""
+    def adjust_credits(self, user_id: str, credits: float, note: str) -> None:
+        """后台手动加减额度（补偿、内测加额度），单位 credit，可带两位小数。"""
         with self._write, self.conn() as c:
             c.execute("INSERT INTO credit_ledger(user_id, type, credits, note, created_at) VALUES (?,?,?,?,?)",
-                      (user_id, "adjust", int(credits), note, now()))
+                      (user_id, "adjust", round(credits * UNITS), note, now()))
 
     def touch(self, user_id: str) -> None:
         with self.conn() as c:
@@ -299,30 +307,31 @@ class Store:
 
     # ------------------------------------------------------------ 额度
 
-    def balance(self, user_id: str) -> int:
+    def balance(self, user_id: str) -> float:
+        """余额，单位 credit，两位小数。"""
         row = self.one("SELECT COALESCE(SUM(credits),0) AS b FROM credit_ledger WHERE user_id=?", (user_id,))
-        return int(row["b"])
+        return row["b"] / UNITS
 
-    def reserve(self, user_id: str, credits: int, minimum: int, ref: str) -> int:
-        """预扣 min(credits, 余额)；余额低于 minimum 返回 0 表示不能开始。
+    def reserve(self, user_id: str, credits: float, minimum: float, ref: str) -> float:
+        """预扣 min(credits, 余额)；余额低于 minimum 返回 0 表示不能开始。参数和返回值单位都是 credit。
         查余额和写预扣在同一把写锁里，同一用户开两个标签页也扣不成负数。本轮扣费不会超过预扣数。"""
         with self._write, self.conn() as c:
             bal = c.execute("SELECT COALESCE(SUM(credits),0) FROM credit_ledger WHERE user_id=?", (user_id,)).fetchone()[0]
-            if bal < minimum:
+            if bal < round(minimum * UNITS):
                 return 0
-            amount = min(credits, bal)
+            amount = min(round(credits * UNITS), bal)
             c.execute("INSERT INTO credit_ledger(user_id, type, credits, ref, created_at) VALUES (?,?,?,?,?)",
                       (user_id, "reserve", -amount, ref, now()))
-        return amount
+        return amount / UNITS
 
-    def settle(self, user_id: str, reserved: int, charge: int, ref: str) -> None:
-        """结算：退回预扣，再按实际扣费。charge 由调用方保证不超过 reserved。"""
+    def settle(self, user_id: str, reserved: float, charge: float, ref: str) -> None:
+        """结算：退回预扣，再按实际扣费（单位 credit）。charge 由调用方保证不超过 reserved。"""
         with self._write, self.conn() as c:
             c.execute("INSERT INTO credit_ledger(user_id, type, credits, ref, created_at) VALUES (?,?,?,?,?)",
-                      (user_id, "release", reserved, ref, now()))
+                      (user_id, "release", round(reserved * UNITS), ref, now()))
             if charge:
                 c.execute("INSERT INTO credit_ledger(user_id, type, credits, ref, created_at) VALUES (?,?,?,?,?)",
-                          (user_id, "consume", -charge, ref, now()))
+                          (user_id, "consume", -round(charge * UNITS), ref, now()))
 
     # ------------------------------------------------------------ 计量
 
@@ -361,9 +370,9 @@ class Store:
                        turn.get("user_message"), turn.get("final_text"), now()))
         return total
 
-    def set_turn_charge(self, turn_id: str, credits: int) -> None:
+    def set_turn_charge(self, turn_id: str, credits: float) -> None:
         with self.conn() as c:
-            c.execute("UPDATE turns SET credits_charged=? WHERE id=?", (credits, turn_id))
+            c.execute("UPDATE turns SET credits_charged=? WHERE id=?", (round(credits * UNITS), turn_id))
 
     def cost_since(self, since: float) -> float:
         row = self.one("SELECT COALESCE(SUM(cost_cny),0) AS s FROM llm_calls WHERE created_at>=?", (since,))
@@ -374,12 +383,12 @@ class Store:
         row = self.one("SELECT COALESCE(SUM(prompt_tokens + completion_tokens),0) AS s FROM llm_calls")
         return int(row["s"])
 
-    def charge_for(self, cost_cny: float) -> int:
-        """用户扣费：成本 × 倍率，向上取整到 1 credit；成本为 0（模拟模型）不扣。"""
+    def charge_for(self, cost_cny: float) -> float:
+        """用户扣费：成本 × 倍率换成 credit，向上取到 0.01 credit（按实际消耗，不再取整到 1 credit）；成本为 0（模拟模型）不扣。"""
         if cost_cny <= 0:
             return 0
         markup = float(self.flag("markup") or 1)
-        return max(1, math.ceil(cost_cny * CREDITS_PER_CNY * markup))
+        return max(1, math.ceil(cost_cny * CREDITS_PER_CNY * markup * UNITS - 1e-9)) / UNITS
 
     # ------------------------------------------------------------ 会话
 
@@ -449,7 +458,7 @@ class Store:
             new_users = self.one("SELECT COUNT(*) AS n FROM users WHERE created_at>=?", (since,))["n"]
             return {"cost_cny": round(cost, 4), "revenue_cny": round(float(revenue), 2),
                     "gross_profit_cny": round(float(revenue) - cost, 4),
-                    "credits_consumed": int(consumed), "turns": turns["n"], "active_users": turns["u"], "new_users": new_users}
+                    "credits_consumed": consumed / UNITS, "turns": turns["n"], "active_users": turns["u"], "new_users": new_users}
 
         granted = self.one("SELECT COALESCE(SUM(credits),0) AS s FROM credit_ledger WHERE type IN ('grant','adjust')")["s"]
         outstanding = self.one("SELECT COALESCE(SUM(credits),0) AS s FROM credit_ledger")["s"]
@@ -463,6 +472,7 @@ class Store:
         for u in users:
             u["contact"] = mask(u["contact"])
             u["cost_cny"] = round(u["cost_cny"], 4)
+            u["balance"], u["consumed"] = u["balance"] / UNITS, u["consumed"] / UNITS
         since30 = day_start(29)
         features = self.rows("""
             SELECT feature, COUNT(*) AS turns, COUNT(DISTINCT user_id) AS users,
@@ -496,8 +506,8 @@ class Store:
             "generated_at": now(),
             "provider_balance": provider_balance,
             "tokens": {"used": self.tokens_used(), "cap": int(float(self.flag("global_token_cap") or 0))},
-            "liability": {"credits_outstanding": int(outstanding), "cny_outstanding": round(outstanding / CREDITS_PER_CNY, 2),
-                          "credits_granted_total": int(granted)},
+            "liability": {"credits_outstanding": outstanding / UNITS, "cny_outstanding": round(outstanding / UNITS / CREDITS_PER_CNY, 2),
+                          "credits_granted_total": granted / UNITS},
             "today": window(day_start(0)), "d7": window(day_start(6)), "d30": window(since30),
             "daily": daily,
             "users": users,
@@ -513,7 +523,7 @@ class Store:
     def recent_activity(self, limit: int = 20) -> dict[str, list[dict]]:
         """后台「实时」：所有用户最近的对话和埋点事件，按时间倒序。联系方式和正文打码，正文只取开头。"""
         turns = self.rows("""
-            SELECT t.created_at, u.contact, t.feature, t.status, t.credits_charged, t.cost_cny, t.ms, t.user_message
+            SELECT t.created_at, u.contact, t.feature, t.status, t.credits_charged / 100.0 AS credits_charged, t.cost_cny, t.ms, t.user_message
             FROM turns t LEFT JOIN users u ON u.id = t.user_id ORDER BY t.created_at DESC LIMIT ?""", (limit,))
         for t in turns:
             t["contact"] = mask(t["contact"])
@@ -528,7 +538,7 @@ class Store:
 
     def user_turns(self, user_id: str, limit: int = 100) -> list[dict]:
         """后台查看某用户的对话（含已被用户删除但仍在留存期的，标记出来）。联系方式和证件号打码。"""
-        rows = self.rows("SELECT id, session_id, feature, intent, status, credits_charged, cost_cny, attempts, ms, "
+        rows = self.rows("SELECT id, session_id, feature, intent, status, credits_charged / 100.0 AS credits_charged, cost_cny, attempts, ms, "
                          "user_message, final_text, created_at, deleted_at FROM turns WHERE user_id=? "
                          "ORDER BY created_at DESC LIMIT ?", (user_id, limit))
         for r in rows:

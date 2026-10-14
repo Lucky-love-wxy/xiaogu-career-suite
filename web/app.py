@@ -41,8 +41,8 @@ from store import FEATURES, Store, day_start, mask, now  # noqa: E402
 
 STATIC = HERE / "static"
 MAX_MESSAGE = 60_000          # 一条消息最多字符数（整份简历 + JD 足够）
-RESERVE_CREDITS = 50          # 每轮预扣上限（¥0.5）；本轮扣费不超过它，超出部分记为平台损耗
-MIN_START_CREDITS = 3         # 余额低于它不能开始新一轮
+RESERVE_CREDITS = 25          # 每轮预扣上限（25 credits = ¥0.5，1 credit = ¥0.02）；本轮扣费不超过它，超出部分记为平台损耗
+MIN_START_CREDITS = 1         # 余额低于它（¥0.02）不能开始新一轮；开发库实测单轮平均成本 ¥0.006、最高 ¥0.047
 TOKEN_COOKIE, ADMIN_COOKIE = "xg_token", "xg_admin"
 EVENT_NAMES = {"page_view", "feature_open", "resume_export", "interview_start", "interview_end",
                "credits_exhausted", "pay_open", "feedback_submit", "theme_change", "login_view"}
@@ -62,7 +62,7 @@ class Config:
         self.sender = e.get("XIAOGU_LOGIN_SENDER", "console")
         self.icp = e.get("XIAOGU_ICP_NO", "")                  # 网站 ICP 备案号，页脚公示
         self.model_filing = e.get("XIAOGU_MODEL_FILING", "")   # 所用大模型备案号，页脚公示
-        self.signup_credits = int(e.get("XIAOGU_SIGNUP_CREDITS", "500"))
+        self.signup_credits = int(e.get("XIAOGU_SIGNUP_CREDITS", "100"))  # 新用户免费额度：100 credits ≈ 后台 ¥2（10-14 用户定）
         if self.env == "prod":
             # 生产不允许静默降级成模拟模型：没有 key 就启动失败，而不是给真实用户看“（模拟模型）”回答
             if self.provider not in ("auto", "deepseek"):
@@ -676,7 +676,7 @@ def create_app(platform: Platform) -> FastAPI:
         return {"user": {"id": user["id"], "contact": mask(user["contact"]), "status": user["status"],
                          "balance": store.balance(user_id)},
                 "turns": store.user_turns(user_id),
-                "ledger": store.rows("SELECT type, credits, note, created_at FROM credit_ledger WHERE user_id=? "
+                "ledger": store.rows("SELECT type, credits / 100.0 AS credits, note, created_at FROM credit_ledger WHERE user_id=? "
                                      "AND type NOT IN ('reserve','release') ORDER BY id DESC LIMIT 50", (user_id,))}
 
     @app.post("/api/admin/flags")
@@ -704,7 +704,7 @@ def create_app(platform: Platform) -> FastAPI:
     @app.post("/api/admin/users/{user_id}/credits")
     def admin_user_credits(user_id: str, request: Request, data: dict = Body(...)):
         require_admin(request)
-        credits = int(data.get("credits") or 0)
+        credits = round(float(data.get("credits") or 0), 2)  # 单位 credit，可带两位小数
         if not credits or abs(credits) > 100_000:
             raise HTTPException(400, "额度数不对")
         store.adjust_credits(user_id, credits, str(data.get("note") or "后台调整")[:100])

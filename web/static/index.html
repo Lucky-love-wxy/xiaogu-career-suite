@@ -314,7 +314,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
   <div class="account">
     <button class="me-btn" id="meBtn" aria-haspopup="menu" aria-expanded="false" title="账号">
       <span class="avatar">谷</span>
-      <span class="meta"><b id="contact"></b><span id="credits" title="100 credits = ¥1"></span></span>
+      <span class="meta"><b id="contact"></b><span id="credits" title="按实际消耗扣费"></span></span>
       <svg class="i chev"><use href="#i-chev"/></svg>
     </button>
   </div>
@@ -412,13 +412,13 @@ const local = {  // 本机偏好（侧栏宽度、是否收起）；读写失败
   get(k){ try { return localStorage.getItem(k); } catch { return null; } },
   set(k, v){ try { localStorage.setItem(k, v); } catch {} },
 };
-const GRANT = 500;  // 注册赠送额度，用来画额度条
+const GRANT = 100;  // 注册赠送额度（100 credits），用来画额度条
 function setCredits(n){
   if (n == null) return;
   state.balance = n;
-  $("#credits").textContent = `${n} credits`;
-  $("#credits").classList.toggle("low", n < 50);
-  $("#mCredits").textContent = `剩余 ${n} credits ≈ ¥${(n / 100).toFixed(2)}`;
+  $("#credits").textContent = `${Number(n).toFixed(2)} credits`;  // 按实际消耗扣到 0.01，显示两位小数
+  $("#credits").classList.toggle("low", n < 10);  // 不到 10 credits（≈ 30 轮）标红
+  $("#mCredits").textContent = `剩余 ${Number(n).toFixed(2)} credits`;
   $("#mMeter").style.width = Math.max(2, Math.min(100, n / GRANT * 100)) + "%";
 }
 

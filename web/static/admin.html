@@ -295,7 +295,7 @@ tr.muted td{color:var(--ink-3)}
         <div class="h"><i>10</i><h2>邀请码</h2><p id="signupState"></p></div>
         <form class="form" id="inviteForm">
           <label class="field">数量<input type="number" id="invCount" value="5" min="1" max="50"></label>
-          <label class="field">每码额度<input type="number" id="invCredits" value="500" min="1"></label>
+          <label class="field">每码额度<input type="number" id="invCredits" value="100" min="1"></label>
           <label class="field">可用次数<input type="number" id="invUses" value="1" min="1"></label>
           <label class="field">备注<input class="wide" id="invNote" placeholder="比如：小红书第一批"></label>
           <button class="btn" type="submit">生成</button>
@@ -321,6 +321,7 @@ tr.muted td{color:var(--ink-3)}
 <script>
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cr = v => v == null ? "—" : Number(v).toLocaleString("zh-CN", {minimumFractionDigits: 2, maximumFractionDigits: 2});  // credits 一律两位小数
 const yuan = v => v == null ? "—" : (Math.abs(v) < 1 && v !== 0 ? v.toFixed(4) : v.toFixed(2));
 const signed = v => (v < 0 ? "−" : "") + yuan(Math.abs(v));
 const ago = t => {
@@ -377,7 +378,7 @@ function render() {
     $("#kBalSub").textContent = `充值 ¥${yuan(b.topped_up_cny)} · 赠送 ¥${yuan(b.granted_cny)} · ${ago(b.checked_at)}查询`;
   }
   $("#kLia").innerHTML = `<small>¥</small>${yuan(d.liability.cny_outstanding)}`;
-  $("#kLiaSub").textContent = `${d.liability.credits_outstanding.toLocaleString()} credits 未用 · 累计发放 ${d.liability.credits_granted_total.toLocaleString()}`;
+  $("#kLiaSub").textContent = `${cr(d.liability.credits_outstanding)} credits 未用 · 累计发放 ${cr(d.liability.credits_granted_total)}`;
   $("#kCost").innerHTML = `<small>¥</small>${yuan(d.today.cost_cny)}`;
   const cap = parseFloat(f.daily_cost_cap_cny || 0);
   const tk = d.tokens;
@@ -393,7 +394,7 @@ function render() {
     <td class="num" style="white-space:nowrap">${when(x.created_at)}</td><td class="l num">${esc(x.contact)}</td>
     <td class="l"><span class="tag">${FEATURE[x.feature] || x.feature}</span></td>
     <td class="l" style="max-width:260px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap">${esc(x.user_message)}</td>
-    <td class="num">扣 ${x.credits_charged}</td><td class="num">¥${yuan(x.cost_cny)}</td>
+    <td class="num">扣 ${cr(x.credits_charged)}</td><td class="num">¥${yuan(x.cost_cny)}</td>
     <td class="l">${STATUS[x.status] || x.status}</td></tr>`).join("") : `<tr><td class="empty">还没有对话</td></tr>`;
   $("#liveEvents").innerHTML = d.recent.events.length ? d.recent.events.map(x => `<tr>
     <td class="num" style="white-space:nowrap">${when(x.created_at)}</td><td class="l num">${esc(x.name)}</td>
@@ -402,7 +403,7 @@ function render() {
   // 03 盈亏
   $("#windows").innerHTML = [["今日", d.today], ["7 日", d.d7], ["30 日", d.d30]].map(([n, w]) => `
     <tr><td>${n}</td><td class="num">${yuan(w.revenue_cny)}</td><td class="num">${yuan(w.cost_cny)}</td>
-    <td class="num">${signed(w.gross_profit_cny)}</td><td class="num">${w.credits_consumed.toLocaleString()}<span style="color:var(--ink-3)"> ≈ ¥${yuan(w.credits_consumed / 100)}</span></td>
+    <td class="num">${signed(w.gross_profit_cny)}</td><td class="num">${cr(w.credits_consumed)}<span style="color:var(--ink-3)"> ≈ ¥${yuan(w.credits_consumed / 50)}</span></td>
     <td class="num">${w.turns}</td><td class="num">${w.active_users}</td><td class="num">${w.new_users}</td></tr>`).join("");
 
   drawChart(d.daily);
@@ -414,7 +415,7 @@ function render() {
     <tr class="${u.status === "active" ? "" : "muted"}">
       <td class="num">${esc(u.contact)}</td>
       <td class="l">${u.status === "active" ? '<span class="tag">正常</span>' : '<span class="tag solid">已暂停</span>'}</td>
-      <td class="num">${u.balance.toLocaleString()}</td><td class="num">${u.consumed.toLocaleString()}</td>
+      <td class="num">${cr(u.balance)}</td><td class="num">${cr(u.consumed)}</td>
       <td class="num">${yuan(u.cost_cny)}</td><td class="num">${u.turns}</td><td>${ago(u.last_seen)}</td>
       <td class="acts"><button data-act="turns" data-id="${u.id}">对话</button><button data-act="credits" data-id="${u.id}">加额度</button>
       <button data-act="${u.status === "active" ? "suspend" : "resume"}" data-id="${u.id}">${u.status === "active" ? "暂停" : "恢复"}</button></td>
@@ -487,15 +488,15 @@ async function openTurns(id) {
   const t = await api(`/api/admin/users/${id}/turns`);
   $("#drawer").innerHTML = `<button class="link" id="closeDrawer" style="float:right">关闭</button>
     <h3>${esc(t.user.contact)}</h3>
-    <div class="sub">剩余 ${t.user.balance} credits · 联系方式与证件号已打码 · 灰色为用户已删除、仍在 6 个月留存期内</div>
+    <div class="sub">剩余 ${cr(t.user.balance)} credits · 联系方式与证件号已打码 · 灰色为用户已删除、仍在 6 个月留存期内</div>
     ${t.turns.map(x => `<div class="turn ${x.deleted_at ? "deleted" : ""}">
       <div class="row"><span>${new Date(x.created_at * 1000).toLocaleString("zh-CN", {hour12: false})}</span>
       <span class="tag">${FEATURE[x.feature] || x.feature}</span><span class="tag ${x.status === "blocked" || x.status === "error" ? "solid" : ""}">${STATUS[x.status] || x.status}</span>
-      <span class="num">扣 ${x.credits_charged} · 成本 ¥${yuan(x.cost_cny)} · ${x.attempts} 次调用 · ${x.ms ? (x.ms / 1000).toFixed(1) + "s" : ""}</span></div>
+      <span class="num">扣 ${cr(x.credits_charged)} · 成本 ¥${yuan(x.cost_cny)} · ${x.attempts} 次调用 · ${x.ms ? (x.ms / 1000).toFixed(1) + "s" : ""}</span></div>
       <div class="q">${esc(x.user_message)}</div><div class="a">${esc(x.final_text)}</div></div>`).join("") || '<p class="empty">还没有对话</p>'}
     <div class="h" style="margin-top:36px"><i>—</i><h2 style="font-size:15px">额度流水</h2></div>
     <table><tbody>${t.ledger.map(l => `<tr><td>${new Date(l.created_at * 1000).toLocaleString("zh-CN", {hour12: false})}</td>
-      <td class="l">${esc(l.type)}</td><td class="num">${l.credits > 0 ? "+" : ""}${l.credits}</td><td class="l">${esc(l.note)}</td></tr>`).join("")}</tbody></table>`;
+      <td class="l">${esc(l.type)}</td><td class="num">${l.credits > 0 ? "+" : ""}${cr(l.credits)}</td><td class="l">${esc(l.note)}</td></tr>`).join("")}</tbody></table>`;
   $("#drawer").classList.add("open"); $("#scrim").classList.add("open");
   $("#closeDrawer").onclick = closeDrawer;
 }
@@ -509,7 +510,7 @@ document.addEventListener("click", async e => {
   const id = act.dataset.id;
   if (act.dataset.act === "turns") return openTurns(id);
   if (act.dataset.act === "credits") {
-    const n = parseInt(prompt("加多少 credits？（负数为扣减，100 credits = ¥1）", "500"), 10);
+    const n = parseFloat(prompt("加多少 credits？（负数为扣减，可带两位小数；100 credits = 后台 ¥2）", "100"));
     if (n) { await api(`/api/admin/users/${id}/credits`, {credits: n, note: prompt("备注", "内测补充额度") || "后台调整"}); load(); }
     return;
   }

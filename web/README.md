@@ -1,6 +1,6 @@
 # 小谷上线版（app.py）
 
-`app.py` 是给真实用户用的服务：账号（邀请码 + 验证码）、额度（注册送 500 credits，1 credit = ¥0.01）、按每次模型调用计费、四层停止开关、埋点、后台看板 `/admin`。`server.py` 保留为本机模拟环境，两者共用 `agent.py`。
+`app.py` 是给真实用户用的服务：账号（邀请码 + 验证码）、额度（注册送 100 credits；1 credit = 后台实际消耗 ¥0.02，按实际消耗扣到 0.01 credit，界面显示两位小数）、按每次模型调用计费、四层停止开关、埋点、后台看板 `/admin`。`server.py` 保留为本机模拟环境，两者共用 `agent.py`。
 
 ```bash
 cd /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch && XIAOGU_ENV=dev XIAOGU_PROVIDER=deepseek XIAOGU_MODEL=deepseek-flash XIAOGU_ADMIN_TOKEN=dev-admin .venv/bin/python web/app.py --port 8781
