@@ -1,0 +1,8 @@
+{
+  "pytest": "110 passed, 66 subtests passed in 12.32s",
+  "test_command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q -p no:cacheprovider -p no:warnings",
+  "sandbox_note": "first attempt blocked localhost socket.bind; authorized unsandboxed rerun passed",
+  "bash_syntax": "bash -n deploy/deploy.sh passed",
+  "template": "all configuration values preserved; assignment lines have no trailing comments",
+  "remote_deployment": "not executed"
+}

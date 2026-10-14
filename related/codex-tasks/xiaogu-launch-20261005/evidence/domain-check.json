@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-06 12:08 Asia/Shanghai",
+  "platform": "Aliyun Wanwang authenticated UI",
+  "domains": {
+    "xiaogu.com": {
+      "status": "registered"
+    },
+    "xiaogu.cn": {
+      "status": "resale",
+      "price_cny": 23000
+    },
+    "xiaogu.net": {
+      "search": "appeared registrable;95 first year",
+      "checkout": "Invalid; Aliyun checkout says MIIT blacklist prevents registration"
+    },
+    "myxiaogu.com": {
+      "checkout": "valid item; no owner template available",
+      "first_year_cny": 85,
+      "renewal": "not verified"
+    },
+    "xiaogu.net.cn": {
+      "checkout": "valid item; no owner template available",
+      "first_year_cny": 38,
+      "search_renewal_cny_per_year": 42
+    },
+    "xiaogu.icu": {
+      "checkout": "valid item; no owner template available",
+      "first_year_cny": 10,
+      "search_renewal_cny_per_year": 125,
+      "checkout_warning": ".pro/.kim/.red/.asia/.social/.icu等后缀域名暂不能在北京备案。",
+      "approved_suffix_source": "https://help.aliyun.com/zh/icp-filing/basic-icp-service/user-guide/prepare-and-check-the-domain-name",
+      "actions": "No identity data entered, no order submitted, no payment",
+      "zhejiang_check": {
+        "source": "https://help.aliyun.com/zh/icp-filing/icp-filing-regulations-for-zhejiang/",
+        "finding": "No ICU-specific restriction found in current Zhejiang rules; national approved suffix list includes ICU; final website application subject to review",
+        "requirement": "Domain owner equals applicant; Zhejiang identity address or local residence certificate"
+      },
+      "post_payment": {
+        "checked_at": "2026-10-06T12:16:43.767207+08:00",
+        "status": "Registered, domain not identity verified",
+        "registered_at": "2026-10-06 12:14:18",
+        "expires_at": "2027-10-07 07:59:59",
+        "template_status": "Existing personal template: identity unverified; email verification pending",
+        "dns": "dns13.hichina.com | dns14.hichina.com",
+        "actions": "Read registration/template state; no DNS mutation, no public web access enabled. Default-template confirmation was opened by an imprecise selector and cancelled without saving."
+      },
+      "identity_submission_followup": {
+        "user_report": "Submitted",
+        "at": "2026-10-06T13:08:47.610299+08:00",
+        "verified_status": "Unknown; latest browser read blocked",
+        "error": "CDP_CONNECT_TIMEOUT: Chrome 调试连接在 20 秒内未获响应；检查授权提示，后续请求可重新连接。",
+        "action": "No retry through alternative network tools; no filing or DNS changes"
+      },
+      "latest_verification": {
+        "checked_at": "2026-10-06T13:17:27.550764+08:00",
+        "browser_connection": "restored",
+        "email": "verification succeeded",
+        "template": "identity unverified",
+        "domain": "identity unverified",
+        "caveat": "No pending/approved identity status observed; user reports submission, need distinguish email verification from document identity submission",
+        "documentation_error": "https://help.aliyun.com/document_detail/101438.html returned Internal Error, URL not accessible via tool; no alternate networking route attempted",
+        "actions": "Read-only status check and template view button; no filing/DNS/public service changes"
+      }
+    }
+  },
+  "actions": "Opened xiaogu.icu personal identity template and foregrounded Chrome; no identity entered/submitted, no order or payment",
+  "user_plan": {
+    "filing_subject": "individual",
+    "province": "Zhejiang",
+    "planned_operation": "one year"
+  }
+}

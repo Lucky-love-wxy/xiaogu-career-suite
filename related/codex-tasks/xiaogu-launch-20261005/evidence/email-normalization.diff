@@ -1,0 +1,22 @@
+--- web/auth.py.before
++++ web/auth.py
+@@ -36,11 +36,15 @@
+ 
+ 
+ def normalize(contact: str) -> str:
+-    contact = re.sub(r"\s|-", "", contact or "").lower()
+-    if contact.startswith("+86"):
+-        contact = contact[3:]
+-    if PHONE.match(contact) or EMAIL.match(contact):
++    contact = (contact or "").strip().lower()
++    # 邮箱中的连字符和加号属于真实地址，不能按手机号格式清除。
++    if EMAIL.fullmatch(contact):
+         return contact
++    phone = re.sub(r"\s|-", "", contact)
++    if phone.startswith("+86"):
++        phone = phone[3:]
++    if PHONE.fullmatch(phone):
++        return phone
+     raise AuthError("请输入正确的手机号或邮箱")
+ 
+ 
