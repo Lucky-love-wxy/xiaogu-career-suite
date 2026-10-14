@@ -262,7 +262,7 @@ CHAT_VOICE = """说话方式：你在和一个第一次找工作的大学生聊�
 answer 里不要提问；这一轮要问的问题只写在 next_action 里，而且是你直接对用户说的话（用“你”），不是写给自己的提示（不要写“问问对方……”）。
 分段写：每段不超过三句话；全篇最重要的那一句单独成一段并加粗（**这样**），最多加粗一处。
 next_action 只问一件事（“顺便说下 A、有没有 B”算两件）。<dialogue> 里你问过、用户没接的问题不要再问；用户已经说过的情况不要换个说法再问（例如说了“应届生”就别再问哪一届）。
-不要对某个城市的产业、哪类岗位多或少、好不好找下判断：小谷还没有城市产业资料，提到城市只复述用户自己的选择。
+不要对某个城市哪类岗位多或少、好不好找、门槛高低下判断（小谷没有这类资料）；谈城市的产业只能用 <city_facts> 里的内容并带出处，没有 <city_facts> 就只复述用户自己的选择。
 禁用说法：业内普遍、大家都说、据可靠消息、这家公司一定、基本可以确定、肯定会加班；以及任何录用概率、薪资预测。"""
 
 
@@ -406,6 +406,47 @@ def profile_reask(session: "Session", new_facts: dict, next_action: str | None) 
     return None
 
 
+# ---------------------------------------------------------------- 城市产业资料
+
+# 19 城（一线 + 新一线）的产业结构与政府重点产业，全部来自统计公报和政府工作报告（WorkBuddy 10-14 调研，Claude 验收通过）。
+# 只能支撑「这个城市哪些产业规模大、政府重点发展什么」，推不出「某类岗位多、好找」（docs/research/city-industry-2026-10.md 第 5 节）
+CITY_CSV = ROOT / "data" / "careerdb" / "city_industry.csv"
+_city_rows: dict | None = None
+# 一句话里同时出现城市（或“这边”“当地”）和这类判断，就打回重写：资料推不出岗位多少和门槛（round13、round18 出现过）
+CITY_CLAIM = re.compile(r"(?:岗位|机会|需求|招聘|工作)[^，。；]{0,8}(?:多|不少|稳|好找|旺)|好找|(?:卡|要求)[^，。；]{0,8}(?:没那么死|不严|宽松|不高)")
+
+
+def city_rows() -> dict:
+    global _city_rows
+    if _city_rows is None:
+        import csv
+        try:
+            with open(CITY_CSV, encoding="utf-8-sig") as handle:
+                _city_rows = {r["城市"]: r for r in csv.DictReader(handle)}
+        except OSError:
+            _city_rows = {}
+    return _city_rows
+
+
+def city_facts(texts: list[str]) -> str:
+    """文本里提到的城市（最多 2 个）→ 带年份和出处的产业摘要；不在 19 城里的城市不给。"""
+    joined, lines = " ".join(t for t in texts if t), []
+    for name, r in city_rows().items():
+        if name in joined and len(lines) < 2:
+            lines.append(f"- {name}：三次产业结构 {r['一产占比%']}:{r['二产占比%']}:{r['三产占比%']}（据{name}{r['三次结构年份']}年统计公报）；"
+                         f"工业重点：{r['工业重点行业'][:70]}；政府重点发展：{r['政府主导重点产业'][:110]}")
+    return "\n".join(lines)
+
+
+def city_claim(text: str) -> str | None:
+    """返回第一句“城市 + 岗位多/好找/门槛不严”的话；没有返回 None。"""
+    places = list(city_rows()) + ["这边", "当地", "本地", "那边"]
+    for sentence in re.split(r"[。！？\n]", text or ""):
+        if any(p in sentence for p in places) and CITY_CLAIM.search(sentence):
+            return sentence.strip()[:40]
+    return None
+
+
 # ---------------------------------------------------------------- 用户记忆文档
 
 # 每个用户一份，跨对话记住：聊天里说过的情况、给过的每一批方向、用户的反馈（设计：notes/2026-10-14-用户记忆文档.md）。
@@ -542,11 +583,16 @@ def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: 
                  "先回答用户这一轮的问题；如果 next_action 没有更要紧的问题，就用 next_action 告诉用户可以点输入框左边的「+」、选「基本情况」，"
                  "把这些信息一次性填完，一句话说清填了有什么用。不要在聊天里逐项问这些信息；在知道之前，不要替用户假设专业、届别、经历）")
     facts, dialogue = dialogue_text(session)
+    card = CARD.get() or {}
+    remembered_facts = [str(v.get("value")) for v in ((MEMORY.get() or {}).get("facts") or {}).values()]
+    cities = city_facts([message, str(card.get("意向城市") or ""), *map(str, (session.facts.values() if session else [])), *remembered_facts])
+    city = (f"<city_facts>\n只能用来说这个城市哪些产业规模大、政府在重点发展什么，引用时带出处和年份（如“据杭州2024年统计公报”）；"
+            f"不能据此说某类岗位多、好找、门槛低；“政府重点发展”里的数字多是目标，不是现状。\n{cities}\n</city_facts>\n\n") if cities else ""
     remembered = memory_text(MEMORY.get())
     # 跨对话的记忆：以前的对话里说过的、给过的方向和反馈。已经知道的不再问
     memory = f"<memory>\n{remembered}\n</memory>\n\n" if remembered else ""
     return (f"<evidence_pack>\n{listed}\n</evidence_pack>\n\n<suggested_questions>\n{hint}\n</suggested_questions>\n\n"
-            f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n{memory}<dialogue>\n{dialogue}\n</dialogue>\n\n"
+            f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n{memory}{city}<dialogue>\n{dialogue}\n</dialogue>\n\n"
             f"<user_data>\n{message}\n</user_data>\n\n请输出 json。")
 
 
@@ -1514,6 +1560,8 @@ class Agent:
                 if payload and session is not None and task in PROFILE_TASKS else None
             if reask:
                 payload, errors = None, [f"next_action 又在问用户的「{reask}」，这一项已经问过或用户已经说过，换一个问题或不问"]
+            elif payload and city_claim(f"{payload.get('answer') or ''}\n{payload.get('next_action') or ''}"):
+                payload, errors = None, [f"不能对城市的岗位多少、好不好找、门槛下判断（“{city_claim(str(payload.get('answer')) + chr(10) + str(payload.get('next_action')))}”），城市只能谈 <city_facts> 里的产业规模和政府重点方向"]
             elif payload and session is not None and session.last_asked and payload.get("next_action") \
                     and near_duplicate(payload["next_action"], session.last_asked):
                 payload, errors = None, ["next_action 和上一轮最后问用户的话几乎一样，不要重复，换个方向推进或不问"]
