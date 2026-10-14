@@ -35,6 +35,7 @@ MAX_ATTEMPTS = 3
 MAX_EVIDENCE = 8
 MAX_INFERENCES = 2
 PROPOSE_AFTER = 3  # 方向探索最多追问到第 3 轮就必须给出可选方向，避免无限追问
+COMPRESS_AT, KEEP_RECENT = 12, 6  # 一个对话满 12 轮就压缩上下文，只留最近 6 轮原文（10-14 用户定）
 # 每个请求自己的上下文：多用户并发时不共享。由上线平台层（app.py）在一次 handle() 前后设置和读取。
 EMIT = contextvars.ContextVar("xiaogu_emit", default=None)  # 本次请求的过程事件回调
 USAGE = contextvars.ContextVar("xiaogu_usage", default=None)  # list：本次请求每次模型调用的 token 用量，计费用
@@ -72,6 +73,7 @@ class Session:
     last_asked: str | None = None  # 上一轮小谷最后问用户的话（追问或下一步），给分类和续答当上下文
     # 结构化记忆：每轮“用户说了什么 + 小谷接着问了什么”，全部保留不截模板字；已知信息表由模型抽取、服务端合并
     history: list = field(default_factory=list)
+    summary: str = ""  # 对话满 12 轮时把较早的轮次压缩成要点（10-14 用户定），history 只留最近 6 轮
     facts: dict = field(default_factory=dict)
     direction_turns: int = 0  # 方向探索已进行的轮数；到 PROPOSE_AFTER 轮强制给候选方向
     candidates: list = field(default_factory=list)  # 上一轮给出的候选岗位，等用户挑
@@ -249,7 +251,7 @@ TASKS = {
     "interview": "根据面试记录（T 编号）逐题复盘：在 answer 里列出最该改的不超过 3 个问题，每个问题写“原话问题 → 怎么改”。回忆的记录要说明是本人回忆。示范回答只能使用记录和经历里已有的事实；用户没做过的事（例如上线、做过某项分析）只能写成“可以补做……”或“如果有机会，我会……”，绝不能写成让用户声称已经做过；未知数字用“X”占位并提醒用户填真实值。",
     "master": "用户在说求职进展或第一次使用。先回应用户说的情况，不擅自认定原因（例如投递没回复不等于简历差），然后给一个最有用的下一步。不要复述 <known_facts> 里已有的信息。",
     "direction": "用户在找求职方向。读 <known_facts> 和 <dialogue>：已经知道的事绝不再问，不要在开头复述用户说过的情况。像一个懂行的学长学姐在聊天：先接住用户这一轮说的具体内容（可以给出你的看法、指出其中有价值的点），再往前推进一步，一般 2 到 4 句。不列职业清单，不给薪资、就业率、前景之类的数字，不要描述“招聘说明通常写什么”。next_action 问一个新的、最能缩小方向的问题，问法贴着上下文、口语化，不要用“用一句话告诉我”“一句话讲清”这类填表式说法。把用户这一轮透露的新信息写进 facts。",
-    "propose": "根据 <known_facts> 和 <dialogue>，给出 3 到 5 个可选的具体岗位方向，写进 candidates，每个包含 role（具体岗位名称）和 reason（一句话，说明和用户已知情况的对应关系）。answer 先用一两句回应用户这一轮刚说的具体内容（说出你从中看到了什么），再自然过渡到“结合这些，可以先看看这几个方向”；不要写“这是一般性建议、不来自资料库”之类的声明（界面会单独标注），不要在 answer 里罗列候选（服务端会排版）。如果用户这一轮补充了新偏好，候选必须优先满足它，不再沿用上一轮不符合新偏好的候选。<known_facts> 里有「基本情况」卡片时按卡片出候选：工作意愿（校招、社招、事业编、国央企）、城市和公司规模都要对得上；学校层级一般时优先不卡学校的岗位，学校层级好时用足学校优势（例如偏好名校的校招、管培）。有实习经历时，候选从三个角度出：延伸同一个行业、同类岗位往更高层次的公司走、从经历里抽象出能力换到新领域；reason 里说清是哪个角度、对应经历里的哪件事。经历不多（暂无实习、项目或作品）时，第一批先放能入门的岗位，reason 里说清它能作为跳板、往后可以往哪走（先入门，再一步步往上走）。期望月薪只用来理解偏好，不复述数字。不给数字。next_action 用口语问用户更想先了解哪一个。",
+    "propose": "根据 <known_facts> 和 <dialogue>，给出 3 到 5 个可选的具体岗位方向，写进 candidates，每个包含 role（具体岗位名称）和 reason（一句话，说明和用户已知情况的对应关系）。answer 先用一两句回应用户这一轮刚说的具体内容（说出你从中看到了什么），再自然过渡到“结合这些，可以先看看这几个方向”；不要写“这是一般性建议、不来自资料库”之类的声明（界面会单独标注），不要在 answer 里罗列候选（服务端会排版）。如果用户这一轮补充了新偏好，候选必须优先满足它，不再沿用上一轮不符合新偏好的候选。<known_facts> 里有「基本情况」卡片时按卡片出候选：工作意愿（校招、社招、事业编、国央企）、城市和公司规模都要对得上；学校层级一般时优先不卡学校的岗位，学校层级好时用足学校优势（例如偏好名校的校招、管培）。有实习经历时，候选从三个角度出：延伸同一个行业、同类岗位往更高层次的公司走、从经历里抽象出能力换到新领域；reason 里说清是哪个角度、对应经历里的哪件事。经历不多（暂无实习、项目或作品）时，第一批先放能入门的岗位，reason 里说清它能作为跳板、往后可以往哪走（先入门，再一步步往上走）。期望月薪只用来理解偏好，不复述数字。<memory> 里有以前给过的方向和用户反馈时，这一批要接着上一批走：用户选过、感兴趣的往深处展开或往上走，用户说不喜欢、想换的不要再给，answer 里用一句话说清这一批和上一批有什么不同。不给数字。next_action 用口语问用户更想先了解哪一个。",
     "general": "不要复述 <known_facts> 里已有的信息，结合 <dialogue> 接着聊。这个问题小谷没有专门的资料库支撑（例如 offer 选择、谈薪、国企、校招流程、群面、笔试、面试准备、简历通用写法，或与求职无关的问题）。像懂行的朋友一样直接回答，不要写“这是一般性建议、不来自资料库”之类的声明（界面会单独标注）；不给任何数字、薪资范围、录用概率；涉及具体公司或行业的说法用“可能”“需要确认”的口吻；与求职无关的问题，礼貌说明小谷只帮求职。next_action 在合适时引导到小谷能做的事（看懂具体岗位的招聘说明、按招聘说明改简历、复盘已经发生的面试），并且不要和 answer 里已经说过的话重复。",
 }
 
@@ -294,7 +296,8 @@ answer 和 inferences 里不要自己写“结论”“依据”“待核实推�
   "unknown": ["材料没说明、需要用户或招聘方确认的关键点"],
   "next_action": "一个最有价值的下一步，单行；或 null",
   "facts": {{"可选：本轮从用户话里新得到的信息，键名优先用 专业 / 毕业时间 / 学历 / 经历 / 意向城市（“应届生”记在 毕业时间 下，学历只写本科、硕士这类），如 专业": "临床医学"}},
-  "candidates": [{{"role": "仅 propose 任务需要", "reason": "一句话理由"}}]
+  "candidates": [{{"role": "仅 propose 任务需要", "reason": "一句话理由"}}],
+  "feedback": [{{"kind": "可选：用户这一轮说的求职行动或对之前方向的反馈，kind 只能是 {"/".join(FEEDBACK_KINDS)} 之一", "detail": "对应的方向或一句原话"}}]
 }}
 """
 
@@ -370,7 +373,8 @@ def profile_known(session: "Session", slot: str) -> bool:
     if slot == "经历" and (session.experience or session.resume):
         return True
     words = PROFILE[slot][0]
-    return any(w in (str(v) if slot == "学历" else f"{k}{v}") for k, v in session.facts.items() for w in words)
+    remembered = {k: v.get("value") for k, v in ((MEMORY.get() or {}).get("facts") or {}).items()}
+    return any(w in (str(v) if slot == "学历" else f"{k}{v}") for k, v in {**remembered, **session.facts}.items() for w in words)
 
 
 def card_ready(session: "Session", message: str = "") -> bool:
@@ -402,6 +406,100 @@ def profile_reask(session: "Session", new_facts: dict, next_action: str | None) 
     return None
 
 
+# ---------------------------------------------------------------- 用户记忆文档
+
+# 每个用户一份，跨对话记住：聊天里说过的情况、给过的每一批方向、用户的反馈（设计：notes/2026-10-14-用户记忆文档.md）。
+# 和卡片一样只放请求上下文，由平台层每轮读出、结束后存回 user_memory 表，不复制进会话状态。
+# 不给用户看、不做删除功能（10-14 用户定）；对话满 10 个时提醒用户可以回复「清理记忆」压缩它。
+MEMORY = contextvars.ContextVar("xiaogu_memory", default=None)
+FEEDBACK_KINDS = ("选了方向", "看了招聘说明", "不喜欢", "想换方向", "投了", "没投", "没回音", "有面试", "拿到offer", "其他")
+MEMORY_RECENT_BATCHES = 3  # 提示词里只放最近 3 批，更早的合成摘要，控制每轮 token
+NEXT_BATCH = re.compile(r"(?:再|重新)(?:给|来|推荐|推)(?:我)?(?:一|几)?(?:批|些|组)|下一批|换一批|新的一批")
+CLEAN_MEMORY = re.compile(r"^\s*(?:清理|压缩)(?:一下)?(?:记忆|资料|对话资料)\s*$")
+
+
+def _today() -> str:
+    return time.strftime("%m-%d")
+
+
+def memory_note_facts(facts: dict) -> None:
+    """模型从对话里抽到的情况和偏好：同一项有新说法时记新的，旧的留在 previous 里，不直接删（借 Graphiti 的时间失效思路）。"""
+    mem = MEMORY.get()
+    if mem is None or not facts:
+        return
+    table = mem.setdefault("facts", {})
+    for key, value in facts.items():
+        old = table.get(key)
+        if old and old.get("value") == value:
+            continue
+        entry = {"value": value, "at": _today()}
+        if old:
+            entry["previous"] = (old.get("previous") or [])[-2:] + [{"value": old["value"], "at": old.get("at")}]
+        table[key] = entry
+
+
+def memory_add_batch(directions: list[str]) -> None:
+    mem = MEMORY.get()
+    if mem is not None and directions:
+        mem.setdefault("batches", []).append({"at": _today(), "t": time.time(), "directions": list(directions)})
+
+
+def memory_add_feedback(kind: str, detail: str) -> None:
+    mem = MEMORY.get()
+    if mem is None or kind not in FEEDBACK_KINDS:
+        return
+    items = mem.setdefault("feedback", [])
+    items.append({"at": _today(), "t": time.time(), "kind": kind, "detail": str(detail)[:80]})
+    del items[:-100]  # 只留最近 100 条，更早的靠清理时的摘要
+
+
+def memory_text(mem: dict | None) -> str:
+    """渲染成提示词：当前情况 + 最近 3 批方向和各自之后的反馈 + 更早的摘要。"""
+    if not mem:
+        return ""
+    lines = []
+    facts = mem.get("facts") or {}
+    if facts:
+        lines.append("聊天里说过的情况和偏好：")
+        lines += [f"- {k}：{v['value']}（{v.get('at', '')}）" for k, v in facts.items()]
+    batches = mem.get("batches") or []
+    feedback = mem.get("feedback") or []
+    if batches:
+        lines.append(f"小谷给过的方向（最近 {MEMORY_RECENT_BATCHES} 批，旧的在前）：")
+        recent = batches[-MEMORY_RECENT_BATCHES:]
+        for i, batch in enumerate(recent):
+            lines.append(f"- {batch['at']} 这一批：{'、'.join(batch['directions'])}")
+            end = recent[i + 1]["t"] if i + 1 < len(recent) else float("inf")
+            after = [f"{f['kind']}：{f['detail']}" for f in feedback if batch["t"] <= f["t"] < end]
+            if after:
+                lines.append("  之后用户的反馈和行动：" + "；".join(after))
+    if feedback and not batches:  # 还没给过方向时，反馈（如看过的 JD）单列
+        lines.append("用户的反馈和行动：" + "；".join(f"{f['kind']}：{f['detail']}" for f in feedback[-10:]))
+    if mem.get("summary"):
+        lines.append("更早的摘要：" + mem["summary"])
+    return "\n".join(lines)
+
+
+def compress_memory(mem: dict) -> tuple[int, int]:
+    """清理（方案 A）：只留当前有效的情况、最近 3 批方向和它们之后的反馈；更早的合成一段摘要。旧对话不动。
+    纯代码完成，不调模型、不扣额度。返回（合进摘要的批数，删掉的旧说法数）。"""
+    batches, feedback = mem.get("batches") or [], mem.get("feedback") or []
+    old = batches[:-MEMORY_RECENT_BATCHES]
+    cut = batches[-MEMORY_RECENT_BATCHES:][0]["t"] if batches else float("inf")
+    old_feedback = [f for f in feedback if f["t"] < cut]
+    parts = [mem["summary"]] if mem.get("summary") else []
+    if old:
+        parts.append("更早给过的方向：" + "；".join(f"{b['at']} {'、'.join(b['directions'])}" for b in old))
+    if old_feedback:
+        parts.append("更早的反馈：" + "；".join(f"{f['kind']}：{f['detail']}" for f in old_feedback[-8:]))
+    mem["summary"] = "。".join(parts)[-600:]
+    mem["batches"], mem["feedback"] = batches[-MEMORY_RECENT_BATCHES:], [f for f in feedback if f["t"] >= cut]
+    dropped = 0
+    for entry in (mem.get("facts") or {}).values():
+        dropped += len(entry.pop("previous", []) or [])
+    return len(old), dropped
+
+
 def dialogue_text(session: "Session | None") -> tuple[str, str]:
     """把结构化记忆排成提示词：已知信息表 + 全部往来（用户原话与小谷追问，不含模板字）。"""
     if session is None:
@@ -410,7 +508,7 @@ def dialogue_text(session: "Session | None") -> tuple[str, str]:
     if CARD.get():
         facts = "用户在「基本情况」卡片里填的（本人填写的事实；期望月薪只用来理解偏好，回答里不要复述薪资数字）：\n" + card_text(CARD.get()) \
             + "\n聊天里说过的：\n" + facts
-    lines = []
+    lines = [f"（更早的对话要点）{session.summary}"] if session.summary else []
     for turn in session.history[-12:]:
         lines.append(f"用户：{turn['user']}")
         if turn.get("said"):
@@ -444,8 +542,11 @@ def user_prompt(message: str, pack: dict[str, dict], hints: list[str], session: 
                  "先回答用户这一轮的问题；如果 next_action 没有更要紧的问题，就用 next_action 告诉用户可以点输入框左边的「+」、选「基本情况」，"
                  "把这些信息一次性填完，一句话说清填了有什么用。不要在聊天里逐项问这些信息；在知道之前，不要替用户假设专业、届别、经历）")
     facts, dialogue = dialogue_text(session)
+    remembered = memory_text(MEMORY.get())
+    # 跨对话的记忆：以前的对话里说过的、给过的方向和反馈。已经知道的不再问
+    memory = f"<memory>\n{remembered}\n</memory>\n\n" if remembered else ""
     return (f"<evidence_pack>\n{listed}\n</evidence_pack>\n\n<suggested_questions>\n{hint}\n</suggested_questions>\n\n"
-            f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n<dialogue>\n{dialogue}\n</dialogue>\n\n"
+            f"{known_jd}<known_facts>\n{facts}\n</known_facts>\n\n{memory}<dialogue>\n{dialogue}\n</dialogue>\n\n"
             f"<user_data>\n{message}\n</user_data>\n\n请输出 json。")
 
 
@@ -609,7 +710,7 @@ NOTE_TASKS = {"general", "propose"}  # 这些回答没有资料库支撑：由�
 def assemble(raw: str, pack: dict[str, dict], extra_unknown: list[str], task: str = "suite",
              jd_known: bool = False, chat: bool | None = None) -> tuple[dict | None, list[str], dict]:
     """模型输出 → 渲染器 payload。证据只能来自服务端证据包。第三项返回要写回会话的 facts / candidates。"""
-    extras: dict = {"facts": {}, "candidates": []}
+    extras: dict = {"facts": {}, "candidates": [], "feedback": []}
     if not raw or not raw.strip():
         return None, ["empty content"], extras
     try:
@@ -638,6 +739,8 @@ def assemble(raw: str, pack: dict[str, dict], extra_unknown: list[str], task: st
         inferences, unknown = [], []
     if isinstance(out.get("facts"), dict):
         extras["facts"] = {str(k)[:20]: str(v)[:60] for k, v in out["facts"].items() if str(k).strip() and str(v).strip()}
+    if isinstance(out.get("feedback"), list):
+        extras["feedback"] = [f for f in out["feedback"] if isinstance(f, dict) and f.get("kind") in FEEDBACK_KINDS][:5]
     answer = strip_label(out["answer"]) if isinstance(out.get("answer"), str) else out.get("answer")
     if task == "propose":
         cands = out.get("candidates")
@@ -787,6 +890,8 @@ class MockProvider:
             return json.dumps({"items": [{"n": i, "accuracy": 60, "completeness": 60, "depth": 60, "expression": 60,
                                           "feedback": "（模拟模型）示例点评"} for i in range(1, n + 1)],
                                "top_fixes": ["（模拟模型）示例建议"]}, ensure_ascii=False)
+        if "【对话压缩】" in system:
+            return json.dumps({"summary": "（模拟模型）早期对话要点"}, ensure_ascii=False)
         if "给出 3 到 5 个可选" in system:
             return json.dumps({"answer": "（模拟模型）这些是一般性建议。", "evidence_ids": [], "next_action": "你对哪一个最感兴趣？",
                                "candidates": [{"role": "示例岗位甲", "reason": "模拟理由"}, {"role": "示例岗位乙", "reason": "模拟理由"},
@@ -871,9 +976,15 @@ def practice_role(message: str) -> str | None:
 ORDINAL = {"一": 0, "1": 0, "二": 1, "2": 1, "三": 2, "3": 2, "四": 3, "4": 3, "五": 4, "5": 4}
 
 
+REJECT = re.compile(r"不(?:太|是很|怎么)?(?:想|喜欢|要|考虑|适合|感兴趣|行)|排除|算了|别给|换一批|都不")
+
+
 def pick_candidate(message: str, candidates: list[str]) -> str | None:
-    """用户在候选方向里挑一个：按名称或“第二个”这类序号确定性识别，不交给分类器猜。"""
+    """用户在候选方向里挑一个：按名称或“第二个”这类序号确定性识别，不交给分类器猜。
+    句子里有拒绝的说法时不算挑选（“内容运营我不太想做”曾被当成选了内容运营，10-14 记忆测试发现）。"""
     text = re.sub(r"\s+", "", message)
+    if REJECT.search(text):
+        return None
     for role in candidates:
         compact = re.sub(r"\s+", "", role)
         if compact and (compact in text or (len(text) >= 2 and text in compact)):
@@ -905,12 +1016,15 @@ class Agent:
         return created
 
     def handle(self, session_id: str | None, message: str, scenario: str | None = None, emit=None,
-               card: dict | None = None) -> dict[str, Any]:
+               card: dict | None = None, memory: dict | None = None) -> dict[str, Any]:
+        """memory 是用户记忆文档（dict），本轮会原地追加；调用方在结束后存回。不传就不读不写记忆。"""
         token = EMIT.set(emit)  # 挂在请求上下文而不是实例上：去掉全局锁后，并发请求不会互推过程事件
         card_token = CARD.set(card or None)  # 基本情况卡片同样只放请求上下文，不进会话状态
+        memory_token = MEMORY.set(memory)
         try:
             return self._handle(session_id, message, scenario)
         finally:
+            MEMORY.reset(memory_token)
             CARD.reset(card_token)
             EMIT.reset(token)
 
@@ -925,8 +1039,20 @@ class Agent:
             trace = {"provider": self.provider.name, "model": self.provider.model, "stored": [], "_raw": [],
                      "route_by": "regex", "intent": "interview_practice", "route": {"task": "practice"}, "beta": True}
             return self._finish(session, message, self._practice_turn(session, message, trace), trace, started)
+        trace: dict[str, Any] = {"provider": self.provider.name, "model": self.provider.model, "stored": [], "_raw": []}
+        if CLEAN_MEMORY.match(message) and MEMORY.get() is not None:
+            # 用户回复「清理记忆」：代码直接压缩记忆文档（方案 A），不调模型、不扣额度
+            merged, dropped = compress_memory(MEMORY.get())
+            trace["route_by"], trace["intent"], trace["route"] = "regex", "clean_memory", {"task": "clean_memory"}
+            kept = len(MEMORY.get().get("batches") or [])
+            answer = (f"清理好了：留下了你现在的情况和最近 {kept} 批方向，" + (f"更早的 {merged} 批合成了一段摘要，" if merged else "")
+                      + (f"去掉了 {dropped} 条已经过时的旧说法，" if dropped else "") + "以前的对话记录还在左边列表里")
+            return self._finish(session, message, {"status": "complete", "style": "chat", "answer": answer, "evidence": [],
+                                                   "unknown": [], "next_action": None}, trace, started)
         stored = session.absorb(message)
-        trace: dict[str, Any] = {"provider": self.provider.name, "model": self.provider.model, "stored": stored, "_raw": []}
+        trace["stored"] = stored
+        if "job" in stored:
+            memory_add_feedback("看了招聘说明", (session.jd or "").strip().splitlines()[0][:40])
         reg = router.route(message, session.context())
         chosen = pick_candidate(message, session.candidates) if session.candidates and not stored else None
         role_reply = session.last_question == MISSING_QUESTIONS["想练的岗位"] and not stored
@@ -935,6 +1061,11 @@ class Agent:
             role = message.strip()[:20] if role_reply else practice_role(message)
             route = route_from_intent("interview_practice", role, message, session)
             trace["route_by"], trace["intent"], trace["role"] = "regex", "interview_practice", role
+        elif NEXT_BATCH.search(message) and (session.proposed or (MEMORY.get() or {}).get("batches")):
+            # 给过方向之后说“再给一批”：要的是下一批方向，不是替他去招聘网站搜岗位（round17：分类器判成了搜岗位、被拦）
+            route = {"status": "routed", "pipeline": ["xiaogu-career-master"], "missing_inputs": [], "live_sources": [], "task": "propose"}
+            trace["route_by"], trace["intent"] = "regex", "direction"
+            session.candidates = []
         elif message.strip() == CARD_DONE:
             # 卡片刚提交：不经过分类器（可能被判成打招呼），直接按卡片给第一批候选
             route = {"status": "routed", "pipeline": ["xiaogu-career-master"], "missing_inputs": [], "live_sources": [], "task": "propose"}
@@ -950,6 +1081,7 @@ class Agent:
             route["analysis_text"] = chosen
             trace["route_by"], trace["intent"], trace["role"] = "candidate", "job_understanding", chosen
             session.candidates = []
+            memory_add_feedback("选了方向", chosen)
         elif regex_is_reliable(stored, message, reg):
             route, trace["route_by"] = reg, "regex"
         else:
@@ -966,6 +1098,7 @@ class Agent:
                 route["analysis_text"] = picked
                 trace["route_by"], trace["intent"], trace["role"] = "candidate", "job_understanding", picked
                 session.candidates = []
+                memory_add_feedback("选了方向", picked)
             else:
                 guarded = guard_heavy_intent(intent, message, session)
                 if guarded != intent:
@@ -1020,6 +1153,8 @@ class Agent:
         said = payload.get("answer") if payload["status"] == "complete" and isinstance(payload.get("answer"), str) else ""
         # 记下自己说过的话（节选），否则模型看不到上一轮回答，会把同样的内容再讲一遍（2026-10-12 回归第 2 项）
         session.history.append({"user": message[:300], "asked": asked, "said": re.sub(r"\s+", " ", said)[:200]})
+        if len(session.history) >= COMPRESS_AT:
+            self._compress_history(session, trace)
         trace["ms"] = int((time.time() - started) * 1000)
         raw = trace.pop("_raw", [])
         self._log(session, message, payload, text, trace, raw)
@@ -1032,6 +1167,24 @@ class Agent:
                 "practice": {"active": True, "question": practice["i"] + 1, "total": len(practice["questions"]),
                              "stage": practice["stage"]} if practice else {"active": False},
                 "say": re.sub(r"(?m)^(?:结论|依据|仍需确认|下一步|受阻原因) ?", "", text.replace("**", "")).strip()}
+
+    def _compress_history(self, session: Session, trace: dict) -> None:
+        """对话满 12 轮：把最早的 6 轮压成不超过 300 字的要点（并入已有要点），history 只留最近 6 轮（10-14 用户定）。
+        模型压缩失败就用代码拼一段（用户原话节选），不让这一轮因此失败。"""
+        old, session.history = session.history[:-KEEP_RECENT], session.history[-KEEP_RECENT:]
+        lines = "\n".join(f"用户：{t['user'][:120]}" + (f"\n小谷：{t['said'][:120]}" if t.get("said") else "") for t in old)
+        prompt = [{"role": "system", "content": "【对话压缩】把下面这段较早的求职对话压缩成要点，不超过 300 字：用户说过的情况和偏好、"
+                                                 "小谷给过的建议或方向、还没解决的问题。只写对话里出现过的内容，不推测。只输出 json：{\"summary\": \"...\"}"},
+                  {"role": "user", "content": (f"已有要点：{session.summary}\n\n" if session.summary else "") + f"<dialogue>\n{lines}\n</dialogue>"}]
+        try:
+            summary = str(json.loads(self.provider.complete(prompt)).get("summary") or "").strip()
+        except Exception:  # 模型不可用、输出不是 json：降级为代码拼接
+            summary = ""
+        if not summary:
+            summary = "；".join(t["user"][:40] for t in old)
+            trace["compress"] = "fallback"
+        session.summary = summary[:300]
+        trace["compressed_turns"] = len(old)
 
     def _log(self, session: Session, message: str, payload: dict, text: str, trace: dict, raw: list[str]) -> None:
         """本地运行日志（用户 2026-10-04 同意）：方便排查。只写本机，不含 key 和系统提示词。"""
@@ -1370,6 +1523,9 @@ class Agent:
                 trace["attempts"] = attempts
                 if session is not None:
                     session.facts.update(extras["facts"])
+                    memory_note_facts(extras["facts"])
+                    for item in extras["feedback"]:
+                        memory_add_feedback(item["kind"], item.get("detail", ""))
                     if "基本情况" in (payload.get("next_action") or ""):
                         # 小谷请用户填卡：界面在这条回答下放一个打开卡片的按钮；同一会话不再引导
                         payload["action"] = "profile_card"
@@ -1379,6 +1535,7 @@ class Agent:
                     if extras["candidates"]:
                         session.candidates = extras["candidates"]
                         session.proposed = True
+                        memory_add_batch(extras["candidates"])  # 每批方向由代码记，不靠模型自己总结
                 return payload
             messages += [{"role": "assistant", "content": raw or "（空）"},
                          {"role": "user", "content": "上一次输出没有通过校验：" + "；".join(errors) + "。请修正后只输出 json。"}]

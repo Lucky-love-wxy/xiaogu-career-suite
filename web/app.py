@@ -42,6 +42,7 @@ from store import FEATURES, Store, day_start, mask, now  # noqa: E402
 STATIC = HERE / "static"
 MAX_MESSAGE = 2000            # 一条消息最多 2000 字（10-14 用户定：控制每轮输入的 token；前端同步提示）
 RESERVE_CREDITS = 25          # 每轮预扣上限（25 credits = ¥0.5，1 credit = ¥0.02）；本轮扣费不超过它，超出部分记为平台损耗
+MEMORY_REMIND_EVERY = 10     # 对话数每到 10 个的整数倍，提醒一次可以清理记忆
 MIN_START_CREDITS = 1         # 余额低于它（¥0.02）不能开始新一轮；开发库实测单轮平均成本 ¥0.006、最高 ¥0.047
 TOKEN_COOKIE, ADMIN_COOKIE = "xg_token", "xg_admin"
 EVENT_NAMES = {"page_view", "feature_open", "resume_export", "interview_start", "interview_end",
@@ -290,6 +291,17 @@ class Platform:
             raise HTTPException(402, "额度已用完。内测期间可以联系我们补充额度")
         return session, feature, reserved, turn_id
 
+    def remind_memory(self, user_id: str, memory: dict, result: dict) -> None:
+        """新对话的第一轮：对话数第一次到 10、20、30……个时，在回答末尾提醒一次可以清理记忆（10-14 用户定）。
+        只在有记忆可清时提醒；同一档只提醒一次。"""
+        mark = (self.store.count_sessions(user_id) + 1) // MEMORY_REMIND_EVERY * MEMORY_REMIND_EVERY  # +1：这一轮的新对话还没存
+        if mark < MEMORY_REMIND_EVERY or mark in memory.get("reminded", []) or not (memory.get("batches") or memory.get("facts")):
+            return
+        memory.setdefault("reminded", []).append(mark)
+        result["text"] = (result.get("text") or "").rstrip() + (
+            f"\n\n（顺便提一句：你已经有 {mark} 个对话了。小谷每次都会先读一遍以前记下的资料，资料越多越费额度。"
+            "想清理的话回复「清理记忆」：会留下你现在的情况和最近 3 批方向，更早的合成一段摘要，对话记录不会删）")
+
     def run(self, user: dict, session: agent.Session | None, message: str, scenario: str | None,
             reserved: int, turn_id: str, emit=None) -> dict[str, Any]:
         """执行一轮并结算。无论成功失败都会退回预扣、记下成本。"""
@@ -301,9 +313,15 @@ class Platform:
         try:
             if lock:
                 lock.acquire()
-            # 基本情况卡片每轮现读：用户改了马上生效，清空后也不会残留在会话里
+            # 基本情况卡片、记忆文档每轮现读：卡片改了马上生效；记忆在本轮里原地追加，结束后存回
+            memory = self.store.get_memory(user["id"])
+            before = json.dumps(memory, sort_keys=True, ensure_ascii=False)
             result = self.agent.handle(session.id if session else None, message.strip(), scenario, emit=emit,
-                                       card=self.store.get_profile(user["id"]))
+                                       card=self.store.get_profile(user["id"]), memory=memory)
+            if session is None:
+                self.remind_memory(user["id"], memory, result)
+            if json.dumps(memory, sort_keys=True, ensure_ascii=False) != before:
+                self.store.set_memory(user["id"], memory)
             status = result["status"]
         finally:
             if lock:

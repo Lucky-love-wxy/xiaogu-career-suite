@@ -73,6 +73,13 @@ CREATE TABLE IF NOT EXISTS user_profile (
   data TEXT NOT NULL,      -- JSON：字段见 agent.CARD_FIELDS
   updated_at REAL NOT NULL
 );
+-- 用户记忆文档：每个用户一份，跨对话记住说过的情况、给过的方向和反馈（notes/2026-10-14-用户记忆文档.md）。
+-- 不给用户看、不做删除功能（10-14 用户定）；用户要求删除时由后台按 user_id 删行
+CREATE TABLE IF NOT EXISTS user_memory (
+  user_id TEXT PRIMARY KEY,
+  data TEXT NOT NULL,      -- JSON：facts / batches / feedback / summary / reminded
+  updated_at REAL NOT NULL
+);
 CREATE TABLE IF NOT EXISTS chat_sessions (
   id TEXT PRIMARY KEY,
   user_id TEXT NOT NULL,
@@ -413,6 +420,25 @@ class Store:
                           (user_id, json.dumps(data, ensure_ascii=False), now()))
             else:
                 c.execute("DELETE FROM user_profile WHERE user_id=?", (user_id,))
+
+    def get_memory(self, user_id: str) -> dict:
+        row = self.one("SELECT data FROM user_memory WHERE user_id=?", (user_id,))
+        return json.loads(row["data"]) if row else {}
+
+    def set_memory(self, user_id: str, data: dict) -> None:
+        with self._write, self.conn() as c:
+            c.execute("INSERT INTO user_memory(user_id, data, updated_at) VALUES (?,?,?) "
+                      "ON CONFLICT(user_id) DO UPDATE SET data=excluded.data, updated_at=excluded.updated_at",
+                      (user_id, json.dumps(data, ensure_ascii=False), now()))
+
+    def delete_memory(self, user_id: str) -> None:
+        """用户要求删除时由后台调用（个人信息保护法第 47 条）；界面不提供。"""
+        with self._write, self.conn() as c:
+            c.execute("DELETE FROM user_memory WHERE user_id=?", (user_id,))
+
+    def count_sessions(self, user_id: str) -> int:
+        """用户开过的对话数（含已删除的）：10 个对话提醒清理记忆用。"""
+        return self.one("SELECT COUNT(*) AS n FROM chat_sessions WHERE user_id=?", (user_id,))["n"]
 
     def save_session(self, session_id: str, user_id: str, state: dict, title: str) -> None:
         with self._write, self.conn() as c:

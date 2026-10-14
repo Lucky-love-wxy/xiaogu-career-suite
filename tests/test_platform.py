@@ -466,3 +466,30 @@ class MessageLimitTests(PlatformCase):
         self.assertIn("2001", res.json()["error"])
         self.assertEqual(self.chat(client, "字" * 2000).status_code, 200)
         self.assertEqual(client.get("/api/meta").json()["max_message"], 2000)
+
+
+class MemoryDocTests(PlatformCase):
+    """用户记忆文档：按用户存、跨对话读、不进会话状态；对话满 10 个提醒一次清理。"""
+
+    def test_memory_persists_across_conversations_and_stays_out_of_session_state(self):
+        client = self.login()
+        user = self.store.user_by_contact("13800001111")
+        self.store.set_memory(user["id"], {"facts": {"意向城市": {"value": "杭州", "at": "10-14"}}})
+        sid = self.chat(client, "你好").json()["session_id"]
+        self.assertEqual(self.store.get_memory(user["id"])["facts"]["意向城市"]["value"], "杭州")
+        state = self.store.one("SELECT state FROM chat_sessions WHERE id=?", (sid,))["state"]
+        self.assertNotIn("杭州", state)
+
+    def test_tenth_conversation_reminds_once(self):
+        client = self.login()
+        user = self.store.user_by_contact("13800001111")
+        self.store.set_memory(user["id"], {"batches": [{"at": "10-14", "t": 1, "directions": ["A", "B", "C"]}]})
+        texts = [self.chat(client, "你好").json()["text"] for _ in range(11)]  # 每次都是新对话
+        reminded = [i for i, t in enumerate(texts) if "清理记忆" in t]
+        self.assertEqual(reminded, [9])  # 第 10 个对话提醒，第 11 个不再提醒
+        self.assertEqual(self.store.get_memory(user["id"])["reminded"], [10])
+
+    def test_no_reminder_without_memory(self):
+        client = self.login()
+        texts = [self.chat(client, "你好").json()["text"] for _ in range(10)]
+        self.assertFalse(any("清理记忆" in t for t in texts))

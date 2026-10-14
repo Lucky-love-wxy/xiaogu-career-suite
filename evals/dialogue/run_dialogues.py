@@ -28,6 +28,7 @@ CARD_LIT = {"学校层级": "普通一本", "学历": "本科", "专业": "汉�
             "城市偏好": ["新一线"], "公司规模": ["中型公司", "小公司或初创"], "期望月薪": "5千-8千",
             "实习经历": "暂无公司实习；在校报社做了两年编辑，写过二十多篇稿子；运营过学院公众号"}
 
+NEW_CONV = "<<新对话>>"  # 脚本里遇到它就另开一个对话（同一个账号，记忆文档还在）
 # 每个脚本：轮次列表；可选 card（这个脚本开始前把基本情况卡片设成它，没有就清空）
 SCRIPTS = {
     "1 医学生想做PM（重放 10-12 试运行）": ["你好", "我不知道该投什么岗位", "我今年上半年刚参加完大创赛，但是没有获奖，绩点也不高\n我是一名医学生，但是对于PM感兴趣",
@@ -38,6 +39,9 @@ SCRIPTS = {
     "5 带情绪的迷茫": ["投了50份简历都没回音，好焦虑", "我是汉语言文学专业的", "其实我挺喜欢写东西的，想过做新媒体"],
     "6 填好基本情况后要方向": {"card": CARD_LIT, "turns": [CARD_DONE, "第一个具体每天做什么"]},
     "7 不填卡、在聊天里说清情况": ["我是汉语言文学专业的，26届，不知道该投什么岗位", "我更想留在杭州"],
+    # 跨对话记忆：第一个对话拿到一批、拒掉一个；新开对话要下一批，应接着上一批走、不再给被拒的（10-14 记忆文档）
+    "8 隔一个对话再要下一批": {"card": CARD_LIT, "turns": [CARD_DONE, "第一个不太想做，每天追热点太累了", NEW_CONV,
+                                                       "上次那几个方向我想了想，再给我一批"]},
 }
 
 # 单轮检查：(脚本名, 第几轮从 0 数, 检查名, 函数, 对应标注)
@@ -49,6 +53,8 @@ TURN_CHECKS = [
     ("1 医学生想做PM（重放 10-12 试运行）", 1, "没填卡时先请用户填卡，不急着给方向", lambda r: r.get("action") == "profile_card" and not re.search(r"(?m)^1\. ", r["text"]), "第 1 段第 2、4 轮"),
     ("1 医学生想做PM（重放 10-12 试运行）", 1, "在对话里说清去哪一次性填（「+」→「基本情况」），不是按钮", lambda r: "「+」" in r["text"] and "基本情况" in r["text"], "10-14 用户：对话时提示去这个地方一次性填写"),
     ("6 填好基本情况后要方向", 0, "每批 3 到 5 个方向", lambda r: 3 <= len(re.findall(r"(?m)^\d\. ", r["text"])) <= 5, "10-14 用户：每批三到五个"),
+    ("8 隔一个对话再要下一批", 3, "新对话里接着上一批：说到上一批，且不再给被拒的第一个方向",
+     lambda r: bool(re.search(r"上次|上一批|之前", r["text"])) and bool(re.search(r"(?m)^1\. ", r["text"])), "10-14 记忆文档"),
     ("7 不填卡、在聊天里说清情况", 0, "每批 3 到 5 个方向", lambda r: 3 <= len(re.findall(r"(?m)^\d\. ", r["text"])) <= 5, "10-14 用户：每批三到五个"),
     ("3 问黑话（含库外说法）", 2, "教了怎么问，也说了对方不正面回答怎么办", lambda r: bool(re.search(r"面聊|不正面|回避|含糊|不回答|不愿意说", r["text"])), "第 3 段第 3 轮"),
     ("6 填好基本情况后要方向", 0, "提交卡片后直接给候选，且引用卡片内容", lambda r: bool(re.search(r"(?m)^1\. ", r["text"])) and bool(re.search(r"校报|公众号|汉语言|杭州", r["text"])), "第 1 段第 4 轮"),
@@ -90,16 +96,21 @@ def login(post):
 
 def main():
     label = sys.argv[1] if len(sys.argv) > 1 else "run"
-    post = client()
-    contact = login(post)
-    lines = [f"# 对话回归 · {label}", "", f"- 时间：{time.strftime('%Y-%m-%d %H:%M')}；服务：{BASE}；测试账号：{contact}", ""]
+    lines = [f"# 对话回归 · {label}", "", f"- 时间：{time.strftime('%Y-%m-%d %H:%M')}；服务：{BASE}；每段脚本一个新测试账号（记忆按用户存，避免互相串）", ""]
     failures, checked = [], 0
     for name, spec in SCRIPTS.items():
         turns, card = (spec["turns"], spec.get("card")) if isinstance(spec, dict) else (spec, None)
-        post("/api/me/profile", {"profile": card or {}})  # 卡片按用户存：每个脚本开始前设好或清空
+        post = client()
+        login(post)
+        if card:
+            post("/api/me/profile", {"profile": card})
         sid, card_asks = None, 0
         lines += [f"## {name}", ""] + ([f"（本段开始前已填基本情况卡片：{json.dumps(card, ensure_ascii=False)}）", ""] if card else [])
         for i, msg in enumerate(turns):
+            if msg == NEW_CONV:
+                sid, card_asks = None, 0
+                lines += ["**（另开一个新对话）**", "", "---", ""]
+                continue
             t = time.time()
             r = post("/api/chat", {"message": msg, "session_id": sid})
             sid = r.get("session_id")
@@ -118,7 +129,6 @@ def main():
             lines += [f"**用户**：{msg}", "", f"**小谷**（{r.get('status')}，{r.get('style')}，{time.time()-t:.1f}s）：{note}{action}", "",
                       r.get("text", "").strip(), ""] + ([f"> 自动检查未通过：{'；'.join(b.split('：', 1)[1] for b in bad)}", ""] if bad else []) + ["---", ""]
             print(f"[{name}] {msg[:20]} → {r.get('status')} {r.get('style')}{' ✗' if bad else ''}", flush=True)
-    post("/api/me/profile", {"profile": {}})
     summary = [f"## 自动检查：{'全部通过' if not failures else f'{len(failures)} 处未通过'}（单轮检查 {checked} 项 + 每轮的全局检查）", ""]
     summary += [f"- {f}" for f in failures] + [""]
     lines[4:4] = summary
