@@ -35,13 +35,14 @@ def good(ids):
 
 
 class WebAgentHarnessTests(unittest.TestCase):
-    def test_job_understanding_is_rendered_by_renderer_with_live_posts(self):
+    def test_job_understanding_is_rendered_without_practitioner_posts(self):
+        # 10-14 起网页版不查从业者帖子，只用招聘说明和小谷数据库
         a = agent.Agent(agent.MockProvider())
         result = a.handle(None, "帮我看看这个岗位：\n" + JD)
         self.assertEqual(result["status"], "complete")
         self.assertIn("**结论**", result["text"])
-        self.assertIn("从业者分享（未核实）", result["text"])
-        self.assertEqual(result["trace"]["live"]["sources"]["maimai"], "skipped_robots")
+        self.assertNotIn("从业者", result["text"])
+        self.assertNotIn("live", result["trace"])
 
     def test_jargon_only_question_does_not_touch_live_sources(self):
         result = agent.Agent(agent.MockProvider()).handle(None, "招聘上写“结果导向”是什么意思？")
@@ -301,7 +302,7 @@ class ProcessStreamTests(unittest.TestCase):
         keys = [e["key"] for e in events]
         self.assertEqual(keys[0], "understand")
         self.assertLess(keys.index("lookup"), keys.index("generate"))
-        self.assertLess(keys.index("live"), keys.index("generate"))
+        self.assertNotIn("live", keys)  # 不再有“查从业者说法”这一步
         self.assertEqual(keys[-1], "check")
         answer = result["text"].split("\n")[0].replace("**结论** ", "")
         for e in events:

@@ -123,10 +123,13 @@ class AuthTests(PlatformCase):
         with self.assertRaises(SystemExit) as mock:
             webapp.Config({**ready, "XIAOGU_PROVIDER": "mock"})
         self.assertIn("mock", str(mock.exception))
-        # 从业者来源仍是模拟帖子时（当前代码就是），生产必须拒绝启动
-        with self.assertRaises(SystemExit) as live:
+        # 10-14 起网页版不再查从业者帖子（原来读的是模拟帖子，RUNBOOK B5），这道检查不再挡；
+        # 但检查本身留着：以后谁把模拟来源接回 Agent，生产仍会拒绝启动
+        import inspect
+        self.assertNotIn("simulated_live_sources(", inspect.getsource(agent.Agent))
+        with self.assertRaises(SystemExit) as gate:
             webapp.Config(ready)
-        self.assertIn("B5", str(live.exception))
+        self.assertNotIn("B5", str(gate.exception))
 
     def test_staging_defaults_to_mock_model(self):
         self.assertEqual(webapp.Config({"XIAOGU_ENV": "staging"}).provider, "mock")
@@ -502,3 +505,63 @@ class SenderGateTests(unittest.TestCase):
         with self.assertRaises(SystemExit) as caught:
             webapp.Config(env)
         self.assertTrue("sms" in str(caught.exception) or "模拟数据" in str(caught.exception))
+
+
+class OffTaskTests(PlatformCase):
+    """10-14：简历美化、模拟面试、面试复盘暂时下线；后台开关打开就恢复。"""
+    RESUME = ("张三\n手机：13812345678\n教育经历\n某某大学 统计学 本科 2022.09-2026.06\n"
+              "项目经历\n课程推荐项目：用 Python 清洗选课日志\n实习经历\n某公司 数据分析实习生：整理周报数据")
+
+    def test_mock_interview_is_off_by_default_without_charge(self):
+        client = self.login()
+        body = self.chat(client, "帮我模拟面试：推荐算法工程师").json()
+        self.assertIn("还在打磨", body["text"])
+        self.assertFalse(body["practice"]["active"])
+        self.assertEqual(body["credits"]["charged"], 0)
+
+    def test_resume_polish_is_off_but_resume_is_kept(self):
+        client = self.login()
+        body = self.chat(client, self.RESUME).json()
+        self.assertIn("简历美化这个功能还在打磨", body["text"])
+        self.assertIsNone(body.get("artifact"))
+        self.assertEqual(self.platform.agent.sessions[body["session_id"]].resume, self.RESUME)
+
+    def test_admin_flag_turns_interview_back_on(self):
+        client = self.login()
+        self.store.set_flag("task.interview", "1", "test")
+        body = self.chat(client, "帮我模拟面试：推荐算法工程师").json()
+        self.assertTrue(body["practice"]["active"])
+
+
+class SmsSenderTests(unittest.TestCase):
+    """阿里云短信（10-14 用户选定）：签名算法、只收手机号、生产配置检查。"""
+
+    def test_signature_matches_aliyun_doc_example(self):
+        from auth import aliyun_signature
+        # 阿里云 RPC 签名 v1 官方文档示例（ECS DescribeRegions，AccessKeySecret=testsecret）
+        params = {"AccessKeyId": "testid", "Action": "DescribeRegions", "Format": "XML", "SignatureMethod": "HMAC-SHA1",
+                  "SignatureNonce": "3ee8c1b8-83d3-44af-a94f-4e0ad82fd6cf", "SignatureVersion": "1.0",
+                  "Timestamp": "2016-02-23T12:46:24Z", "Version": "2014-05-26"}
+        self.assertEqual(aliyun_signature(params, "testsecret"), "OLeaidS1JvxuMvnyHOwuJ+uX5qY=")
+
+    def test_email_is_rejected_before_any_code(self):
+        from auth import AliyunSmsSender, Auth, AuthError
+        sent = []
+        sender = AliyunSmsSender("id", "secret", "小谷求职", "SMS_1")
+        sender.send = lambda contact, code: sent.append(contact)
+        auth = Auth(Store(":memory:"), sender, "s")
+        with self.assertRaises(AuthError) as caught:
+            auth.request_code("someone@example.com")
+        self.assertIn("手机号", str(caught.exception))
+        auth.request_code("13800001111")
+        self.assertEqual(sent, ["13800001111"])
+
+    def test_prod_with_aliyun_needs_all_keys(self):
+        env = {"XIAOGU_ENV": "prod", "XIAOGU_SECRET": "s" * 32, "XIAOGU_ADMIN_TOKEN": "a" * 24, "XIAOGU_LOGIN_SENDER": "aliyun"}
+        with self.assertRaises(SystemExit) as caught:
+            webapp.Config(env)
+        self.assertIn("ALIYUN_SMS_ACCESS_KEY_ID", str(caught.exception))
+        full = {**env, "ALIYUN_SMS_ACCESS_KEY_ID": "id", "ALIYUN_SMS_ACCESS_KEY_SECRET": "k",
+                "ALIYUN_SMS_SIGN_NAME": "小谷求职", "ALIYUN_SMS_TEMPLATE_CODE": "SMS_1"}
+        cfg = webapp.Config(full)  # 协议已定稿、模拟来源已去掉：齐了就能启动
+        self.assertEqual(cfg.sender, "aliyun")

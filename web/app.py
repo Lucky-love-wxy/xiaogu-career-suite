@@ -36,7 +36,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import agent  # noqa: E402
 import ocr  # noqa: E402
-from auth import Auth, AuthError, ConsoleSender  # noqa: E402
+from auth import AliyunSmsSender, Auth, AuthError, ConsoleSender  # noqa: E402
 from store import FEATURES, Store, day_start, mask, now  # noqa: E402
 
 STATIC = HERE / "static"
@@ -49,7 +49,13 @@ EVENT_NAMES = {"page_view", "feature_open", "resume_export", "interview_start", 
                "credits_exhausted", "pay_open", "feedback_submit", "theme_change", "login_view"}
 
 
-SENDERS = {"console": ConsoleSender}  # 已实现的验证码发送器；接入短信 / 邮件服务后在这里登记，Platform 按配置选用
+# 已实现的验证码发送器：名字 → 用 Config 构造。接入新的服务后在这里登记，Platform 按 XIAOGU_LOGIN_SENDER 选用
+SENDERS = {
+    "console": lambda cfg: ConsoleSender(),
+    "aliyun": lambda cfg: AliyunSmsSender(**cfg.sms),
+}
+ALIYUN_ENV = {"key_id": "ALIYUN_SMS_ACCESS_KEY_ID", "key_secret": "ALIYUN_SMS_ACCESS_KEY_SECRET",
+              "sign_name": "ALIYUN_SMS_SIGN_NAME", "template_code": "ALIYUN_SMS_TEMPLATE_CODE"}
 
 
 class Config:
@@ -64,6 +70,7 @@ class Config:
         self.secret = e.get("XIAOGU_SECRET") or ""
         self.admin_token = e.get("XIAOGU_ADMIN_TOKEN") or ""
         self.sender = e.get("XIAOGU_LOGIN_SENDER", "console")
+        self.sms = {k: e.get(v, "") for k, v in ALIYUN_ENV.items()}  # 阿里云短信：AccessKey 只从环境变量来
         self.icp = e.get("XIAOGU_ICP_NO", "")                  # 网站 ICP 备案号，页脚公示
         self.model_filing = e.get("XIAOGU_MODEL_FILING", "")   # 所用大模型备案号，页脚公示
         self.signup_credits = int(e.get("XIAOGU_SIGNUP_CREDITS", "100"))  # 新用户免费额度：100 credits ≈ 后台 ¥2（10-14 用户定）
@@ -86,6 +93,9 @@ class Config:
             if self.sender == "console":
                 # 控制台验证码只打印在服务器日志里，真实用户收不到：生产环境必须先接短信或邮件服务
                 raise SystemExit("生产环境不能用 console 验证码发送器；先接入短信 / 邮件服务（设计文档第 6 节问题 1）")
+            if self.sender == "aliyun" and not all(self.sms.values()):
+                missing_sms = [ALIYUN_ENV[k] for k, v in self.sms.items() if not v]
+                raise SystemExit(f"阿里云短信缺少 {', '.join(missing_sms)}")
             if self.sender not in SENDERS:
                 # 以前随便写一个非 console 的值就能通过这道检查，但实际仍用控制台发送，真实用户收不到验证码（10-14 上线前检查发现）
                 raise SystemExit(f"验证码发送器 {self.sender} 还没实现（已实现：{', '.join(SENDERS)}）；接好短信 / 邮件服务再上生产")
@@ -132,7 +142,7 @@ class Platform:
         if str(config.db) != ":memory:":
             # 库外黑话待审清单放在数据库旁（web/data/，不进 git）；只记用户问的那个说法，不记会话
             self.agent.jargon_queue_dir = Path(config.db).parent
-        self.auth = Auth(self.store, sender or SENDERS.get(config.sender, ConsoleSender)(), config.secret)
+        self.auth = Auth(self.store, sender or SENDERS.get(config.sender, SENDERS["console"])(config), config.secret)
         self.locks: dict[str, threading.Lock] = {}
         self.locks_guard = threading.Lock()
         self.owners: dict[str, str] = {}      # 内存里的会话 → 用户，避免每轮查库
@@ -322,8 +332,11 @@ class Platform:
             # 基本情况卡片、记忆文档每轮现读：卡片改了马上生效；记忆在本轮里原地追加，结束后存回
             memory = self.store.get_memory(user["id"])
             before = json.dumps(memory, sort_keys=True, ensure_ascii=False)
+            flags = self.store.flags()
+            off = {t for t, key in (("polish", "task.polish"), ("practice", "task.interview"), ("interview", "task.interview"))
+                   if flags.get(key, "0") != "1"}  # 暂时下线的任务，后台开关打开才放行
             result = self.agent.handle(session.id if session else None, message.strip(), scenario, emit=emit,
-                                       card=self.store.get_profile(user["id"]), memory=memory)
+                                       card=self.store.get_profile(user["id"]), memory=memory, off=frozenset(off))
             if session is None:
                 self.remind_memory(user["id"], memory, result)
             if json.dumps(memory, sort_keys=True, ensure_ascii=False) != before:
@@ -452,7 +465,8 @@ def create_app(platform: Platform) -> FastAPI:
                 "icp": cfg.icp, "model_filing": cfg.model_filing, "maintenance": flags.get("maintenance") == "1",
                 "maintenance_reason": flags.get("maintenance_reason") if flags.get("maintenance") == "1" else "",
                 "features": {f: flags.get(f"feature.{f}", "1") == "1" for f in FEATURES},
-                "signup_open": flags.get("signup_open") == "1", "max_message": MAX_MESSAGE}
+                "signup_open": flags.get("signup_open") == "1", "max_message": MAX_MESSAGE,
+                "phone_only": cfg.sender == "aliyun"}  # 短信只能发手机号：登录页据此只收手机号
 
     @app.get("/api/sample")
     def sample(request: Request):

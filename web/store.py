@@ -171,6 +171,8 @@ DEFAULT_FLAGS = {
     "feature.chat": "1",                # 单功能开关
     "feature.resume": "1",
     "feature.interview": "1",
+    "task.polish": "0",                 # 整份简历美化：10-14 上线先关（还在打磨），后台可打开
+    "task.interview": "0",              # 模拟面试 + 面试复盘：同上
     "signup_open": "1",                 # 是否允许新用户凭邀请码注册
     "markup": "1.0",                    # 用户扣费 = 成本 × 倍率；内测期 1.0 不赚钱
     "daily_cost_cap_cny": "50",         # 当日模型成本超过它自动全局停止
