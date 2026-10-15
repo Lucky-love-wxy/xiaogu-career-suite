@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>小谷 · 录屏式演示</title>
+<!-- 界面 CSS 移植自 xiaogu-launch/platform/static/index.html（黑底白线主题），只保留片中出现的部分；
+     字体：小谷用系统字体（苹方），片中用 Noto Sans SC / Noto Serif SC 本地子集代替（fonts.json → fonts.mjs）。 -->
+<link rel="stylesheet" href="fonts.css">
+<style>
+:root{
+  --paper:#0a0a0a; --paper-2:#131312; --paper-3:#1f1f1d; --ink:#f2f2ee; --ink-2:#a3a39e; --ink-3:#6b6b67;
+  --rule:#3d3d3a; --shu:#f2f2ee; --take:#a3a39e; --hover:rgba(242,242,238,.08); --active:rgba(242,242,238,.13);
+  --r:10px; --r-sm:8px; --ease:cubic-bezier(.2,.7,.2,1);
+  --serif:'Noto Serif SC',serif; --sans:'Noto Sans SC',sans-serif; --mono:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:var(--W,1920px);height:var(--H,1080px);overflow:hidden;background:var(--paper)}
+body{font:15px/1.85 var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;inset:0;overflow:hidden}
+.layer{position:absolute;left:0;top:0;width:var(--W,1920px);height:var(--H,1080px);transform-origin:0 0}
+.world{color:var(--ink)}
+.app{position:absolute;inset:0;display:grid;background:var(--paper)}
+.i{width:18px;height:18px;flex:none}
+/* 左侧栏 */
+.side{display:flex;flex-direction:column;min-width:0;height:1080px;overflow:hidden;background:var(--paper-2);border-right:1px solid var(--rule)}
+.side-top{display:flex;align-items:center;gap:4px;padding:12px 10px 8px 18px;min-height:60px}
+.brand{display:flex;align-items:center;color:var(--ink)}.brand .logo{height:28px;width:auto;display:block}
+.side-top .tb{margin-left:auto;color:var(--ink-2);display:grid;place-items:center;width:32px;height:32px}
+.actions{display:flex;flex-direction:column;gap:2px;padding:0 10px 4px}
+.item{display:flex;align-items:center;gap:10px;width:100%;padding:8px 10px;border-radius:var(--r-sm);font-size:14px;color:var(--ink);white-space:nowrap;overflow:hidden}
+.item.hot{background:var(--hover)}.item.active{background:var(--active)}
+.item .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.search{display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:var(--r-sm);color:var(--ink-3);font-size:14px}
+.side-scroll{flex:1;min-height:0;padding:14px 10px 12px}
+.account{padding:8px 10px 10px;border-top:1px solid var(--rule)}
+.me-btn{display:flex;align-items:center;gap:10px;width:100%;padding:8px 10px;border-radius:var(--r)}
+.avatar{width:30px;height:30px;flex:none;border-radius:var(--r-sm);background:var(--ink);color:var(--paper);display:grid;place-items:center;font:700 13px/1 var(--serif)}
+.me-btn .meta{flex:1}.me-btn .chev{color:var(--ink-3)}
+/* 中间 */
+main{display:flex;flex-direction:column;min-width:0;height:1080px}
+.bar{display:flex;align-items:center;gap:8px;padding:10px 16px;min-height:60px;font-size:13px;color:var(--ink-2)}
+.bar .title{font:500 15px/1 var(--sans);color:var(--ink);padding:0 6px;white-space:nowrap}
+.bar .spacer{flex:1}
+.trace-btn{padding:6px 10px;border-radius:var(--r-sm);font-size:13px;color:var(--ink-2)}.trace-btn.hot{background:var(--hover);color:var(--ink)}
+.log{flex:1;overflow:hidden;padding:24px}
+.col{max-width:768px;margin:0 auto}
+.fresh .log{flex:0 0 auto;overflow:visible;margin-top:auto;padding-bottom:10px}
+.fresh .compose{margin-bottom:auto;padding-bottom:130px}
+.empty{text-align:center}
+.empty h2{font:700 30px/1.4 var(--serif);margin:0 0 6px;letter-spacing:.04em}
+.empty p{color:var(--ink-2);margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:768px;margin:14px auto 0}
+.chips span{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--rule);border-radius:var(--r);font-size:13px;color:var(--ink-2)}
+.turn{margin:0 0 36px}
+.me{margin-left:auto;max-width:78%;width:fit-content;background:var(--paper-3);border-radius:18px;padding:10px 18px;white-space:pre-wrap;max-height:11em;overflow:hidden;position:relative;transform-origin:100% 100%}
+.me.long::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3em;background:linear-gradient(transparent,var(--paper-3))}
+.who{font:500 11px/1 var(--sans);letter-spacing:.2em;color:var(--ink-3);margin:22px 0 8px}
+.xg p{margin:0 0 14px}
+.xg strong{font:700 13px/1 var(--serif);letter-spacing:.2em;display:inline-block;margin-right:10px;color:var(--ink)}
+.xg .sec{border-top:1px solid var(--rule);padding-top:14px;margin-top:18px}
+.xg ul{margin:6px 0 0;padding:0;list-style:none}
+.xg li{padding:5px 0 5px 16px;position:relative;color:var(--ink)}
+.xg li::before{content:"";position:absolute;left:0;top:15px;width:6px;height:1px;background:var(--ink-3)}
+.xg .k{font-size:12px;letter-spacing:.06em;margin-right:6px;padding:1px 6px;border:1px solid currentColor;border-radius:5px}
+.status{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:13px;color:var(--ink-3)}
+.dots{display:inline-flex;gap:4px}.dots i{width:6px;height:6px;border-radius:50%;background:var(--ink-2)}
+/* 输入框 */
+.compose{padding:8px 24px 14px}
+.box{position:relative;max-width:768px;margin:0 auto;display:flex;align-items:flex-end;gap:8px;padding:8px;background:var(--paper-2);border:1px solid var(--rule);border-radius:24px}
+.box.focus{border-color:var(--ink-2);box-shadow:0 0 0 4px rgba(242,242,238,.04)}
+.box .plus{width:36px;height:36px;padding:9px;color:var(--ink-2)}
+.ta{flex:1;max-height:220px;overflow:hidden;font:16px/1.75 var(--sans);color:var(--ink);padding:5px 4px;min-height:36px}
+.ta-in{white-space:pre-wrap}
+.caret{display:inline-block;width:2px;height:20px;background:var(--ink);vertical-align:-4px;margin-left:1px}
+.send{flex:none;width:36px;height:36px;display:grid;place-items:center;border-radius:var(--r);background:var(--ink);color:var(--paper)}
+.send.dim{opacity:.25}.send.hot{transform:scale(.92)}
+.foot-note{max-width:768px;margin:8px auto 0;text-align:center;font-size:11px;color:var(--ink-3)}
+/* 右侧运行记录 */
+.trace{overflow:hidden;border-left:1px solid var(--rule);background:var(--paper-2);height:1080px}
+.trace .in{width:340px;height:100%;padding:24px 20px;font:12px/1.7 var(--mono);color:var(--ink-2)}
+.trace h3{font:700 13px/1 var(--serif);letter-spacing:.3em;color:var(--ink);margin:0 0 18px}
+.trace .t-item{border-top:1px solid var(--rule);padding:12px 0}
+.trace .t-item b{color:var(--ink);font-weight:400;font-family:var(--sans)}
+.trace .ok{color:var(--take)}
+/* 精灵层 */
+.px{position:absolute;image-rendering:pixelated;overflow:visible}
+.ring{position:absolute;border-radius:50%;border:3px solid #f2f2ee}
+/* HUD（录屏式风格的信息层；黑底主题下统一用深色胶囊） */
+#hud{position:absolute;inset:0;pointer-events:none;z-index:10}
+.cap{position:absolute;left:50%;bottom:52px;max-width:90%;text-align:center;font:500 34px/1.3 var(--sans);white-space:nowrap;
+  color:#f2f2ee;background:rgba(31,31,29,.86);backdrop-filter:blur(14px);padding:12px 28px;border-radius:16px;box-shadow:0 0 0 1px rgba(242,242,238,.12),0 8px 28px rgba(0,0,0,.5)}
+.cap em{font-style:normal;font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+.keys{position:absolute;left:56px;bottom:56px;display:flex;align-items:center;gap:8px;font-size:17px;font-weight:600;color:#f2f2ee;background:rgba(31,31,29,.92);padding:10px 14px;border-radius:14px;box-shadow:0 0 0 1px rgba(242,242,238,.12)}
+.keys i{font-style:normal;min-width:38px;height:38px;padding:0 9px;border-radius:8px;background:#2c2c2a;display:grid;place-items:center;box-shadow:inset 0 -3px 0 rgba(0,0,0,.5);font-size:18px}
+.keys i.dn{transform:translateY(2px);box-shadow:inset 0 -1px 0 rgba(0,0,0,.5);background:#f2f2ee;color:#0a0a0a}
+.keys span{margin-left:6px;color:#a3a39e;font-weight:500}
+.chap{position:absolute;left:56px;top:48px;display:flex;align-items:center;gap:14px;font:700 26px/1.2 var(--serif);letter-spacing:.06em;color:#f2f2ee;background:rgba(31,31,29,.9);padding:10px 20px 10px 12px;border-radius:14px;box-shadow:0 0 0 1px rgba(242,242,238,.12);white-space:nowrap}
+.chap b{font:700 15px/1 var(--mono);color:#0a0a0a;background:#f2f2ee;border-radius:7px;padding:6px 9px;letter-spacing:.04em}
+.ramp{position:absolute;right:56px;top:48px;font:700 22px/1 var(--mono);color:#0a0a0a;background:#f2f2ee;padding:9px 14px;border-radius:10px}
+.wipe{position:absolute;inset:0}.wipe b{position:absolute;display:block}
+.wlabel{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;color:#f2f2ee;white-space:nowrap}
+.wlabel .no{font:700 30px/1 var(--mono);letter-spacing:.2em;opacity:.8;margin-bottom:18px}
+.wlabel .nm{font:700 96px/1.15 var(--serif);letter-spacing:.06em}
+.spot{position:absolute;inset:0}.flash{position:absolute;inset:0;background:#fff}
+.toast{position:absolute;background:#f2f2ee;color:#0a0a0a;border-radius:10px;padding:9px 15px;font-size:15px;font-weight:600;white-space:nowrap}
+.fade{position:absolute;inset:0;background:#0a0a0a}
+.uline{position:absolute;image-rendering:pixelated}
+</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute"><filter id="mb" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur id="mbg" stdDeviation="0 0"/></filter></svg>
+<div id="stage">
+  <div id="mbw" style="position:absolute;inset:0">
+    <div id="wL" class="layer world"></div>
+    <div id="wD" class="layer world"></div>
+    <div id="spr" class="layer" style="z-index:5"></div>
+  </div>
+  <div id="hud"></div>
+</div>
+<audio src="assets/audio/music.wav" data-start="0" data-volume="0.8"></audio>
+<audio src="assets/audio/foley.wav" data-start="0" data-volume="1"></audio>
+<script type="module" src="main.js"></script>
+</body></html>
