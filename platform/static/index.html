@@ -198,6 +198,51 @@ body.fresh .chips{display:flex}
   transition:background .15s,color .15s,border-color .15s}
 .card .opts button:hover{background:var(--hover); color:var(--ink)}
 .card .opts button[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--paper)}
+/* 求职进度（测试版）：五段节点串在一根细线上，到达过的段实心点亮、显示人数；没到达的是空心环 */
+.prog{width:min(720px, calc(100vw - 32px))}
+.prog .plan{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin:0 0 6px}
+.prog .plan .big{font:600 30px/1 var(--serif); letter-spacing:.02em}
+.prog .plan .big small{font-size:15px; color:var(--ink-3); margin-left:4px}
+.prog .plan .sub{font-size:12px; color:var(--ink-3)}
+.prog .pbar{height:2px; background:var(--rule); margin:10px 0 4px; position:relative; overflow:hidden}
+.prog .pbar i{position:absolute; inset:0 auto 0 0; background:var(--ink); transition:width .6s var(--ease)}
+.prog .planform{display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-top:12px}
+.prog .planform label{display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--ink-3)}
+.prog .planform input, .prog .addform input, .prog .addform select{font:15px/1.5 var(--sans); color:var(--ink); background:transparent; border:0;
+  border-bottom:1px solid var(--rule); padding:4px 2px; outline:none; min-width:0}
+.prog .planform input{width:110px}
+.prog .addform select{background:var(--pop)}
+.prog .funnel{display:grid; grid-template-columns:repeat(5, 1fr); position:relative; margin:22px 0 8px}
+.prog .funnel::before{content:""; position:absolute; left:10%; right:10%; top:17px; height:1px; background:var(--rule)}
+.prog .node{position:relative; display:flex; flex-direction:column; align-items:center; gap:8px; text-align:center}
+.prog .node b{width:34px; height:34px; border-radius:50%; display:grid; place-items:center; border:1px solid var(--rule); background:var(--pop);
+  font:600 14px/1 var(--serif); color:var(--ink-3); transition:background .4s var(--ease), color .4s, border-color .4s}
+.prog .node.lit b{background:var(--ink); border-color:var(--ink); color:var(--paper); animation:rise .4s var(--ease) both}
+.prog .node span{font-size:12px; color:var(--ink-2)}
+.prog .node.lit span{color:var(--ink)}
+.prog .meta{font-size:12px; color:var(--ink-3); text-align:center; margin:0}
+.prog .addform{display:grid; grid-template-columns:1.3fr 1.1fr .9fr auto; gap:10px; align-items:end}
+.prog .addform button, .prog .planform button{all:unset; cursor:pointer; padding:7px 14px; border:1px solid var(--rule); border-radius:var(--r); font-size:13px}
+.prog .addform button:hover, .prog .planform button:hover{background:var(--hover)}
+.prog .apps{list-style:none; margin:0; padding:0}
+.prog .apps li{display:grid; grid-template-columns:1fr auto; gap:6px 14px; padding:12px 0; border-top:1px solid var(--rule)}
+.prog .apps .co{font-size:15px; color:var(--ink)} .prog .apps .co b{font-weight:500} .prog .apps .co em{font-style:normal; color:var(--ink-3); margin-left:8px; font-size:13px}
+.prog .apps .when{font-size:12px; color:var(--ink-3)}
+.prog .chain{display:flex; align-items:center; gap:0; justify-content:flex-end}
+.prog .chain .now{font-size:12px; color:var(--ink-2); margin-right:14px; min-width:4.5em; text-align:right}
+.prog .chain button{all:unset; cursor:pointer; width:11px; height:11px; border-radius:50%; border:1px solid var(--ink-3); position:relative}
+.prog .chain button + button{margin-left:16px}
+.prog .chain .now + button{margin-left:0}
+.prog .chain button + button::before{content:""; position:absolute; right:12px; top:4px; width:16px; height:1px; background:var(--rule)}
+.prog .chain button.on{background:var(--ink); border-color:var(--ink)}
+.prog .chain button:focus-visible{outline:1px solid var(--ink-2); outline-offset:3px}
+.prog .ends{display:flex; gap:12px; justify-content:flex-end; font-size:12px; margin-top:10px}
+.prog .ends button{all:unset; cursor:pointer; color:var(--ink-3)} .prog .ends button:hover{color:var(--ink)}
+.prog .ends button[aria-pressed="true"]{color:var(--ink); text-decoration:underline; text-underline-offset:3px}
+.prog .stale{grid-column:1 / -1; font-size:12px; color:var(--shu)}
+.prog li.done .co, .prog li.done .chain{opacity:.45}  /* .who 是对话标签的类名，这里用 .co 避免撞名 */
+.prog .empty-note{font-size:13px; color:var(--ink-3); padding:14px 0}
+@media (max-width:520px){ .prog .addform{grid-template-columns:1fr 1fr} .prog .apps li{grid-template-columns:1fr} .prog .ends{justify-content:flex-start} }
 .card .opts button:focus-visible{outline:1px solid var(--ink-2); outline-offset:2px}
 .card footer{display:flex; align-items:center; gap:8px; padding:14px 20px calc(14px + env(safe-area-inset-bottom)); border-top:1px solid var(--rule)}
 .card footer .err{flex:1; min-width:0; font-size:12px; color:var(--shu)}
@@ -208,6 +253,30 @@ body.fresh .chips{display:flex}
 .card header{position:relative}
 .card .x{position:absolute; top:18px; right:16px}
 @media (max-width:520px){ .card header{padding:22px 20px 14px} .card .fields{padding:4px 20px 8px} .card footer{padding-left:12px; padding-right:12px; gap:4px} }
+/* 简历表单（R1，beta）：沿用卡片的对话框、分节和 chip；每段经历是可折叠块，默认只露一行摘要 */
+.card.rform{width:min(680px, calc(100vw - 32px))}
+.rform h2 .beta{vertical-align:middle; margin-left:10px; letter-spacing:.04em}
+.rform .grid{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:0 16px}
+.rform .grid.g3{grid-template-columns:repeat(3, minmax(0,1fr))}
+.rform textarea{min-height:64px}
+.rform .remind{margin:0 0 16px; padding:2px 0 2px 12px; border-left:2px solid var(--rule); font-size:13px; line-height:1.7; color:var(--ink-2); white-space:pre-wrap}
+.rform .remind b{display:block; font-weight:500; color:var(--ink-3); font-size:12px; margin-bottom:2px}
+.rform .exp, .rform .edu{border:1px solid var(--rule); border-radius:var(--r); margin:0 0 12px}
+.rform .exp > summary{list-style:none; cursor:pointer; display:flex; align-items:center; gap:12px; padding:12px 14px; font-size:14px; border-radius:var(--r)}
+.rform .exp > summary::-webkit-details-marker{display:none}
+.rform .exp > summary:hover{background:var(--hover)}
+.rform .exp > summary:focus-visible{outline:1px solid var(--ink-2); outline-offset:-1px}
+.rform .exp[open] > summary{border-bottom:1px solid var(--rule); border-radius:var(--r) var(--r) 0 0}
+.rform .no{flex:none; font:500 11px/1 var(--mono); letter-spacing:.12em; color:var(--ink-3)}
+.rform .sum{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--ink)}
+.rform .sum span{color:var(--ink-3); margin-left:8px}
+.rform .chev{flex:none; color:var(--ink-3); transition:transform .2s var(--ease)}
+.rform .exp[open] .chev{transform:rotate(90deg)}
+.rform .body, .rform .edu{padding:14px 14px 2px}
+.rform .qn{font:500 11px/1 var(--mono); color:var(--ink-3); margin-right:6px}
+.rform .rowend{display:flex; justify-content:flex-end; margin:-8px 0 10px}
+.rform .addrow{margin:2px 0 8px}
+@media (max-width:520px){ .rform .grid, .rform .grid.g3{grid-template-columns:1fr} }
 .xg .pq{margin:2px 0 0; font-size:12px; letter-spacing:.1em; color:var(--ink-3)}
 .xg .betatag{display:flex; align-items:center; gap:8px; margin:0 0 10px; font-size:12px; color:var(--ink-3)}
 /* 正在处理：三个跳动的点 + 当前阶段 */
@@ -279,6 +348,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
   <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
   <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-chev" viewBox="0 0 24 24"><path d="m8 10 4-4 4 4M8 14l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-job" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 12h18" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
   <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z M14 3v5h5M8.5 13h7M8.5 17h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
@@ -326,6 +396,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
 <!-- 用户菜单 -->
 <div class="menu-pop" id="meMenu" role="menu">
   <div class="head"><b id="mContact"></b><span id="mCredits"></span><div class="meter"><i id="mMeter" style="width:0"></i></div></div>
+  <button class="mi" id="progPick" role="menuitem" hidden><svg class="i"><use href="#i-target"/></svg>我的求职进度<span class="r beta">beta</span></button>
   <button class="mi" id="theme" role="menuitem"><svg class="i"><use href="#i-theme"/></svg>配色<span class="r" id="themeName">黑底白线</span></button>
   <a class="mi" href="/legal/terms" target="_blank" role="menuitem"><svg class="i"><use href="#i-file"/></svg>用户协议</a>
   <a class="mi" href="/legal/privacy" target="_blank" role="menuitem"><svg class="i"><use href="#i-file"/></svg>隐私政策</a>
@@ -338,6 +409,7 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
 <div class="menu-pop" id="plusMenu" role="menu">
   <button class="mi" id="cardPick" role="menuitem"><svg class="i"><use href="#i-card"/></svg><span>基本情况<span class="d">填一次，小谷按它给方向建议</span></span></button>
   <button class="mi" data-q="我想看懂一个岗位" role="menuitem"><svg class="i"><use href="#i-job"/></svg><span>看懂岗位<span class="d">拆招聘说明里的原句和黑话</span></span></button>
+  <button class="mi" id="resumePick" role="menuitem" hidden><svg class="i"><use href="#i-doc"/></svg><span>简历表单<span class="d">逐段回答几个问题，小谷整理成简历</span></span><span class="r beta">beta</span></button>
   <button class="mi" data-q="帮我按岗位改简历" role="menuitem"><svg class="i"><use href="#i-target"/></svg><span>按岗位改简历<span class="d">换成招聘说明的说法</span></span><span class="r beta">beta</span></button>
   <hr>
   <button class="mi" id="ocrPick" role="menuitem"><svg class="i"><use href="#i-image"/></svg><span>从截图识别文字<span class="d">招聘说明或简历截图，可一次选多张</span></span></button>
@@ -383,6 +455,21 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
   </div>
 </main>
 
+<dialog class="card rform" id="rform" aria-labelledby="rformTitle">
+  <header>
+    <h2 id="rformTitle">简历表单<span class="beta">beta</span></h2>
+    <button class="tb icon x" id="rformClose" type="button" aria-label="关闭"><svg class="i"><use href="#i-x"/></svg></button>
+    <p>每段经历回答几个问题，小谷只用你写的内容整理成要点，没写的不会替你补。只有「具体怎么做」必填，想不起来的先空着。这是 beta 功能，还没有经过真实用户测试，整理结果请自己核对。</p>
+  </header>
+  <form class="fields" id="rformFields" method="dialog"></form>
+  <footer>
+    <span class="err" id="rformErr" role="alert"></span>
+    <button class="tb clear" id="rformClear" type="button">清空</button>
+    <button class="tb" id="rformSave" type="button">只保存</button>
+    <button class="primary" id="rformGo" type="button">保存，整理成简历</button>
+  </footer>
+</dialog>
+
 <dialog class="card" id="card" aria-labelledby="cardTitle">
   <header>
     <h2 id="cardTitle">基本情况</h2>
@@ -396,6 +483,15 @@ textarea{flex:1; resize:none; min-height:36px; max-height:220px; font:16px/1.75 
     <button class="tb" id="cardSave" type="button">只保存</button>
     <button class="primary" id="cardGo" type="button">保存，给我方向建议</button>
   </footer>
+</dialog>
+
+<dialog class="card prog" id="progDialog" aria-labelledby="progTitle">
+  <header>
+    <h2 id="progTitle">我的求职进度</h2>
+    <button class="tb icon x" id="progClose" type="button" aria-label="关闭"><svg class="i"><use href="#i-x"/></svg></button>
+    <p>测试版。定一个计划，每投一份记一条；在对话里说「投了某某公司」也会自动记进来。</p>
+  </header>
+  <div class="fields" id="progBody"></div>
 </dialog>
 
 <aside class="trace" id="trace"><div class="in"><h3>运行记录</h3><div id="traceItems"><div class="t-item">发送消息后，这里显示路由、检索、来源和校验次数。</div></div></div></aside>
@@ -767,7 +863,7 @@ $("#newchat").onclick = newChat;
 $("#newchatRail").onclick = newChat;
 // 功能入口（+ 菜单和首页快捷按钮）只发起手句，缺什么材料由服务端判断后追问，前端不做第二套路由
 const featureOf = q => /面试/.test(q) ? "interview" : /简历/.test(q) ? "resume" : "chat";
-document.querySelectorAll("#plusMenu .mi:not(#ocrPick):not(#cardPick), #chips button").forEach(b => b.onclick = () => {
+document.querySelectorAll("#plusMenu .mi:not(#ocrPick):not(#cardPick):not(#resumePick), #chips button").forEach(b => b.onclick = () => {
   closeMenus();
   const entry = b.dataset.sample ? "示例招聘说明" : b.textContent.trim().split(/\s/)[0];
   track("feature_open", {feature: b.dataset.sample ? "chat" : featureOf(b.dataset.q), entry, from: b.closest("#chips") ? "chips" : "plus"});
@@ -893,6 +989,164 @@ $("#cardClear").onclick = async () => {
 $("#cardPick").onclick = () => openCard("plus");
 $("#cardClose").onclick = () => $("#card").close();  // 手机上没有 Esc 键
 
+// 简历表单（R1，beta）：字段、六问的编号和文字都从接口拿；名称、角色、时间原样进成品，模型只按回答写要点
+const RF_HINT = {situation: "遇到了什么情况、为什么要做这件事", part: "你自己完成的部分；和几个人一起、怎么分工",
+                 origin: "领导或老师安排的，还是自己发现后提出来的；做完谁在用", how: "先做了什么、再做了什么，用了哪些工具或方法",
+                 scale: "数据量、人数、场次、持续时间，记得多少写多少", result: "最后的数字、有没有被采用或上线、得到了什么评价"};
+let rfMeta = null;
+const rfVal = v => esc(v || "");
+const rfSum = (kind, name, role) => `${esc(kind)} · ${name ? esc(name) : "还没填名称"}${role ? `<span>${esc(role)}</span>` : ""}`;
+function rfExp(e, i, open){
+  const a = e.answers || {}, kind = e["类型"] || "项目";
+  return `<details class="exp" data-exp${open ? " open" : ""}><summary><span class="no">${String(i + 1).padStart(2, "0")}</span>` +
+    `<span class="sum">${rfSum(kind, e["名称"], e["角色"])}</span><svg class="i chev"><use href="#i-chev-r"/></svg></summary><div class="body">` +
+    `<div class="row" role="group" aria-label="类型"><span class="lab">类型</span><div class="opts" data-name="类型" data-multi="0">` +
+    rfMeta.kinds.map(k => `<button type="button" aria-pressed="${k === kind}">${esc(k)}</button>`).join("") + "</div></div>" +
+    `<div class="grid g3">` + Object.entries(rfMeta.head).map(([k, n]) =>
+      `<label class="row"><span class="lab">${esc(k === "名称" ? "单位或项目名" : k === "角色" ? "岗位或角色" : k)}</span>` +
+      `<input type="text" data-k="${esc(k)}" maxlength="${n}" value="${rfVal(e[k])}"></label>`).join("") + "</div>" +
+    rfMeta.questions.map((q, n) => `<label class="row"><span class="lab"><span class="qn">${n + 1}</span>${esc(q.label)}${q.id === "how" ? "<em>必填</em>" : ""}</span>` +
+      `<textarea data-q="${esc(q.id)}" maxlength="${q.max}" placeholder="${esc(RF_HINT[q.id] || "")}">${rfVal(a[q.id])}</textarea></label>`).join("") +
+    `<div class="rowend"><button class="tb" type="button" data-del>删除这段</button></div></div></details>`;
+}
+function rfRender(form, openIdx){
+  const b = form.basics || {}, edus = form.education && form.education.length ? form.education : [{}];
+  const exps = form.experiences && form.experiences.length ? form.experiences : [{}];
+  const card = (rfMeta.card_experience || "").trim();
+  $("#rformFields").innerHTML =
+    `<section><p class="sec">一<b>基本信息</b></p><div class="grid" data-basics>` + Object.entries(rfMeta.basics).map(([k, n]) =>
+      `<label class="row"><span class="lab">${esc(k)}</span><input type="text" data-k="${esc(k)}" maxlength="${n}" value="${rfVal(b[k])}"></label>`).join("") + "</div></section>" +
+    `<section><p class="sec">二<b>教育</b></p>` + edus.map(e => `<div class="edu" data-edu><div class="grid">` + Object.entries(rfMeta.education).map(([k, n]) =>
+      `<label class="row"><span class="lab">${esc(k)}${["成绩或排名", "相关课程", "荣誉"].includes(k) ? "<em>选填</em>" : ""}</span><input type="text" data-k="${esc(k)}" maxlength="${n}" value="${rfVal(e[k])}"></label>`).join("") + "</div></div>").join("") +
+    (edus.length < rfMeta.limits.education ? `<div class="addrow"><button class="tb" type="button" data-add-edu>＋ 再加一段教育</button></div>` : "") + "</section>" +
+    `<section><p class="sec">三<b>经历</b></p>` + (card ? `<p class="remind"><b>你在基本情况里写过</b>${esc(card)}</p>` : "") +
+    exps.map((e, i) => rfExp(e, i, i === openIdx)).join("") +
+    (exps.length < rfMeta.limits.experiences ? `<div class="addrow"><button class="tb" type="button" data-add-exp>＋ 加一段经历</button></div>` : "") + "</section>" +
+    `<section><p class="sec">四<b>技能与证书</b></p><label class="row"><span class="lab">一行一项，可以按「了解 / 熟悉 / 掌握」标出程度<em>选填</em></span>` +
+    `<textarea data-skills placeholder="例如：Excel（熟悉）">${rfVal((form.skills || []).join("\n"))}</textarea></label></section>`;
+}
+function rfRead(){
+  const pick = (box, sel) => Object.fromEntries([...box.querySelectorAll(sel)].map(i => [i.dataset.k, i.value.trim()]).filter(([, v]) => v));
+  const form = {basics: pick($("#rformFields [data-basics]"), "input[data-k]")};
+  form.education = [...$("#rformFields").querySelectorAll("[data-edu]")].map(box => pick(box, "input[data-k]")).filter(e => Object.keys(e).length);
+  form.experiences = [...$("#rformFields").querySelectorAll("[data-exp]")].map(box => {
+    const e = pick(box, "input[data-k]");
+    e["类型"] = box.querySelector('.opts button[aria-pressed="true"]')?.textContent || "项目";
+    e.answers = Object.fromEntries([...box.querySelectorAll("textarea[data-q]")].map(t => [t.dataset.q, t.value.trim()]).filter(([, v]) => v));
+    return e;
+  });
+  form.skills = $("#rformFields [data-skills]").value.split("\n").map(x => x.trim()).filter(Boolean);
+  return form;
+}
+async function openResumeForm(from){
+  closeMenus();
+  const res = await fetch("/api/me/resume");
+  if (res.status === 401) { location.href = "/login"; return; }
+  rfMeta = await res.json();
+  rfRender(rfMeta.form || {}, rfMeta.form && rfMeta.form.experiences ? -1 : 0);
+  $("#rformErr").textContent = "";
+  $("#rform").showModal();
+  track("feature_open", {feature: "resume", entry: "简历表单", from});
+}
+$("#rformFields").addEventListener("click", e => {
+  const chip = e.target.closest(".opts button");
+  if (chip) { chip.parentElement.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === chip))); return; }
+  if (e.target.closest("[data-add-exp]")) { const f = rfRead(); f.experiences.push({}); rfRender(f, f.experiences.length - 1); return; }
+  if (e.target.closest("[data-add-edu]")) { const f = rfRead(); f.education.push({}); rfRender(f, -1); return; }
+  const del = e.target.closest("[data-del]");
+  if (del) {
+    const boxes = [...$("#rformFields").querySelectorAll("[data-exp]")], at = boxes.indexOf(del.closest("[data-exp]"));
+    const f = rfRead(); f.experiences.splice(at, 1); rfRender(f, -1);
+  }
+});
+// 摘要行跟着名称、角色、类型实时变，折叠后也认得出是哪段
+$("#rformFields").addEventListener("input", e => {
+  const box = e.target.closest("[data-exp]");
+  if (!box || !e.target.matches("input[data-k]")) return;
+  const name = box.querySelector('[data-k="名称"]').value.trim(), role = box.querySelector('[data-k="角色"]').value.trim();
+  const kind = box.querySelector('.opts button[aria-pressed="true"]')?.textContent || "项目";
+  box.querySelector(".sum").innerHTML = rfSum(kind, name, role);
+});
+async function saveResumeForm(form){
+  const res = await post("/api/me/resume", {form});
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) { $("#rformErr").textContent = data.error || "没保存上，请再试一次"; return false; }
+  return true;
+}
+$("#rformSave").onclick = async () => { if (await saveResumeForm(rfRead())) $("#rform").close(); };
+$("#rformGo").onclick = async () => {
+  if (state.busy) { $("#rformErr").textContent = "小谷还在回答上一句，稍等一下"; return; }
+  if (await saveResumeForm(rfRead())) { $("#rform").close(); send(rfMeta.done_message); }
+};
+$("#rformClear").onclick = async () => {
+  if (!confirm("清空后表单里的内容会删掉，确定吗？")) return;
+  if (await saveResumeForm({})) $("#rform").close();
+};
+$("#resumePick").onclick = () => openResumeForm("plus");
+$("#rformClose").onclick = () => $("#rform").close();
+
+// 求职进度（测试版）：计划进度条 + 五段逐段点亮 + 投递列表；所有数字都来自服务端汇总
+let progData = null;
+const progCall = async (url, body, method) => {
+  const res = await fetch(url, body === undefined && !method ? undefined : {method: method || "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body || {})});
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || res.status);
+  progData = data; renderProg();
+};
+function renderProg(){
+  const {summary: s, applications: apps, stages} = progData;
+  const pp = s.plan_progress, plan = s.plan || {};
+  const nodes = s.stages.map((x, i) => `<div class="node${x.lit ? " lit" : ""}" style="animation-delay:${i * .06}s"><b>${x.count}</b><span>${esc(x.label)}</span></div>`).join("");
+  const stale = new Set(s.stale);
+  const rows = apps.map(a => {
+    const idx = stages.findIndex(x => x.key === a.stage);
+    const dots = stages.map((x, i) => `<button type="button" class="${i <= idx ? "on" : ""}" data-id="${a.id}" data-stage="${x.key}" title="${esc(x.label)}" aria-label="${esc(a.company)}：${esc(x.label)}"></button>`).join("");
+    const end = (k, t) => `<button type="button" data-id="${a.id}" data-outcome="${k}" aria-pressed="${a.outcome === k}">${t}</button>`;
+    return `<li class="${a.outcome ? "done" : ""}"><div><div class="co"><b>${esc(a.company)}</b>${a.role ? `<em>${esc(a.role)}</em>` : ""}</div>
+      <div class="when">${esc(a.channel || "")}${a.channel && a.applied_at ? " · " : ""}${a.applied_at ? esc(a.applied_at) + " 投递" : "还没投"}${a.source === "chat" ? " · 对话里记的" : ""}</div></div>
+      <div><div class="chain"><span class="now">${esc(a.outcome === "rejected" ? "被拒" : a.outcome === "no_reply" ? "无回音" : stages[idx]?.label || "")}</span>${dots}</div><div class="ends">${end("rejected", "被拒")}${end("no_reply", "无回音")}<button type="button" data-del="${a.id}">删除</button></div></div>
+      ${stale.has(a.id) ? '<p class="stale">投了 7 天没动静：可以跟进一下，或者标成「无回音」</p>' : ""}</li>`;
+  }).join("");
+  $("#progBody").innerHTML = `
+    <section><p class="sec">一<b>计划</b></p>
+      <div class="plan"><span class="big">${pp.applied}<small>/ ${pp.target || "—"} 份</small></span>
+        <span class="sub">${pp.target ? `已完成 ${pp.percent}%` : "还没定计划"}${plan.deadline ? ` · 截止 ${esc(plan.deadline)}` : ""}${plan.target_offers ? ` · 目标 ${plan.target_offers} 个 offer` : ""}</span></div>
+      <div class="pbar"><i style="width:${Math.min(100, pp.percent || 0)}%"></i></div>
+      <form class="planform" id="planForm"><label>计划投几份<input name="target_count" type="number" min="1" max="2000" value="${plan.target_count || ""}" required></label>
+        <label>截止日期<input name="deadline" type="date" value="${esc(plan.deadline || "")}"></label>
+        <label>目标 offer 数<input name="target_offers" type="number" min="0" max="50" value="${plan.target_offers ?? ""}"></label>
+        <button type="submit">${s.plan ? "更新计划" : "定下计划"}</button></form></section>
+    <section><p class="sec">二<b>走到哪了</b></p><div class="funnel">${nodes}</div>
+      <p class="meta">进行中 ${s.active} · 被拒 ${s.rejected} · 无回音 ${s.no_reply}</p></section>
+    <section><p class="sec">三<b>投递记录</b></p>
+      <form class="addform" id="addForm"><input name="company" placeholder="公司" maxlength="40" required aria-label="公司">
+        <input name="role" placeholder="岗位" maxlength="40" aria-label="岗位">
+        <select name="channel" aria-label="渠道"><option value="">渠道</option><option>官网</option><option>BOSS 直聘</option><option>牛客</option><option>内推</option><option>其他</option></select>
+        <button type="submit">记一条</button></form>
+      ${rows ? `<ul class="apps">${rows}</ul>` : '<p class="empty-note">还没有记录。投了一份就记一条，或者在对话里告诉小谷。</p>'}</section>`;
+}
+async function openProg(){
+  closeMenus();
+  try { await progCall("/api/progress"); } catch (err) { return; }
+  $("#progDialog").showModal();
+  track("feature_open", {feature: "chat", entry: "求职进度", from: "menu"});
+}
+$("#progPick").onclick = openProg;
+$("#progClose").onclick = () => $("#progDialog").close();  // 注意：#prog 是顶栏的模拟面试题号，不能重名
+$("#progBody").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = Object.fromEntries(new FormData(e.target));
+  if (e.target.id === "planForm") progCall("/api/progress/plan", f).catch(err => alert(err.message));
+  else progCall("/api/applications", f).catch(err => alert(err.message));
+});
+$("#progBody").addEventListener("click", e => {
+  const b = e.target.closest("button[data-id], button[data-del]");
+  if (!b) return;
+  if (b.dataset.del) { if (confirm("删除这条投递记录？")) progCall(`/api/applications/${b.dataset.del}`, {}, "DELETE").catch(() => {}); return; }
+  const body = b.dataset.stage ? {stage: b.dataset.stage, outcome: null} : {outcome: b.getAttribute("aria-pressed") === "true" ? null : b.dataset.outcome};
+  progCall(`/api/applications/${b.dataset.id}`, body).catch(err => alert(err.message));
+});
+
 // 打开简历成品页（对话里的按钮或侧栏「我的简历」）记为一次导出
 document.addEventListener("click", e => {
   const a = e.target.closest('a[href^="/resume/"]');
@@ -934,6 +1188,8 @@ fetch("/api/meta").then(r => r.json()).then(m => {
   if (m.maintenance) $("#emptySub").textContent = "小谷暂停服务中：" + (m.maintenance_reason || "请稍后再来");
   $("#provider").textContent = m.provider === "mock" ? "模拟模型（离线）" : m.model;
   if (m.max_message) state.maxLen = m.max_message;
+  $("#progPick").hidden = !m.beta?.progress;  // 测试版功能：后台开关打开才出现
+  $("#resumePick").hidden = !(m.tasks && m.tasks.polish);  // 简历表单跟 task.polish 走，关着不露入口
 });
 </script>
 </body>

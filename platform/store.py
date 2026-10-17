@@ -73,6 +73,12 @@ CREATE TABLE IF NOT EXISTS user_profile (
   data TEXT NOT NULL,      -- JSON：字段见 agent.CARD_FIELDS
   updated_at REAL NOT NULL
 );
+-- 简历表单（R1）：每个用户一份，用户本人逐栏填写、随时可改可清空；同卡片一样不复制进会话状态（notes/2026-10-16-简历lab.md）
+CREATE TABLE IF NOT EXISTS user_resume (
+  user_id TEXT PRIMARY KEY,
+  data TEXT NOT NULL,      -- JSON：字段见 web/resume_tools.py 的 FORM_*
+  updated_at REAL NOT NULL
+);
 -- 用户记忆文档：每个用户一份，跨对话记住说过的情况、给过的方向和反馈（notes/2026-10-14-用户记忆文档.md）。
 -- 不给用户看、不做删除功能（10-14 用户定）；用户要求删除时由后台按 user_id 删行
 CREATE TABLE IF NOT EXISTS user_memory (
@@ -80,6 +86,29 @@ CREATE TABLE IF NOT EXISTS user_memory (
   data TEXT NOT NULL,      -- JSON：facts / batches / feedback / summary / reminded
   updated_at REAL NOT NULL
 );
+-- 求职进度看板（测试版，beta.progress 开关；notes/2026-10-17-求职进度看板与校招日历.md）
+CREATE TABLE IF NOT EXISTS job_plan (
+  user_id TEXT PRIMARY KEY,
+  target_count INTEGER NOT NULL,   -- 计划投多少份
+  deadline TEXT,                   -- YYYY-MM-DD
+  target_offers INTEGER,
+  updated_at REAL NOT NULL
+);
+CREATE TABLE IF NOT EXISTS applications (
+  id TEXT PRIMARY KEY,
+  user_id TEXT NOT NULL,
+  company TEXT NOT NULL,
+  role TEXT NOT NULL DEFAULT '',
+  channel TEXT NOT NULL DEFAULT '',
+  stage TEXT NOT NULL,             -- want / applied / test / interview / offer
+  outcome TEXT,                    -- NULL 进行中 / rejected / no_reply
+  applied_at TEXT,                 -- YYYY-MM-DD，进入“已投递”的日期
+  stage_at REAL NOT NULL,          -- 最近一次阶段变化，算“7 天没动静”用
+  note TEXT NOT NULL DEFAULT '',
+  source TEXT NOT NULL DEFAULT 'manual',  -- manual / chat（从对话里自动记的）
+  created_at REAL NOT NULL
+);
+CREATE INDEX IF NOT EXISTS ix_apps_user ON applications(user_id);
 CREATE TABLE IF NOT EXISTS chat_sessions (
   id TEXT PRIMARY KEY,
   user_id TEXT NOT NULL,
@@ -171,6 +200,7 @@ DEFAULT_FLAGS = {
     "feature.chat": "1",                # 单功能开关
     "feature.resume": "1",
     "feature.interview": "1",
+    "beta.progress": "0",               # 测试版：求职进度看板（计划、投递记录、逐段点亮），后台打开才可用
     "task.polish": "0",                 # 整份简历美化：10-14 上线先关（还在打磨），后台可打开
     "task.interview": "0",              # 模拟面试 + 面试复盘：同上
     "signup_open": "1",                 # 是否允许新用户凭邀请码注册
@@ -422,6 +452,76 @@ class Store:
                           (user_id, json.dumps(data, ensure_ascii=False), now()))
             else:
                 c.execute("DELETE FROM user_profile WHERE user_id=?", (user_id,))
+
+    def get_resume_form(self, user_id: str) -> dict:
+        row = self.one("SELECT data FROM user_resume WHERE user_id=?", (user_id,))
+        return json.loads(row["data"]) if row else {}
+
+    def set_resume_form(self, user_id: str, data: dict) -> None:
+        """空表单即清空：直接删行，不留旧内容。"""
+        with self._write, self.conn() as c:
+            if data:
+                c.execute("INSERT INTO user_resume(user_id, data, updated_at) VALUES (?,?,?) "
+                          "ON CONFLICT(user_id) DO UPDATE SET data=excluded.data, updated_at=excluded.updated_at",
+                          (user_id, json.dumps(data, ensure_ascii=False), now()))
+            else:
+                c.execute("DELETE FROM user_resume WHERE user_id=?", (user_id,))
+
+    # ------------------------------------------------------------ 求职进度（测试版）
+
+    STAGES = ("want", "applied", "test", "interview", "offer")
+
+    def get_plan(self, user_id: str) -> dict | None:
+        row = self.one("SELECT target_count, deadline, target_offers FROM job_plan WHERE user_id=?", (user_id,))
+        return dict(row) if row else None
+
+    def set_plan(self, user_id: str, target_count: int, deadline: str | None, target_offers: int | None) -> None:
+        with self._write, self.conn() as c:
+            c.execute("INSERT INTO job_plan(user_id, target_count, deadline, target_offers, updated_at) VALUES (?,?,?,?,?) "
+                      "ON CONFLICT(user_id) DO UPDATE SET target_count=excluded.target_count, deadline=excluded.deadline, "
+                      "target_offers=excluded.target_offers, updated_at=excluded.updated_at",
+                      (user_id, target_count, deadline, target_offers, now()))
+
+    def list_applications(self, user_id: str) -> list[dict]:
+        return self.rows("SELECT id, company, role, channel, stage, outcome, applied_at, stage_at, note, source, created_at "
+                         "FROM applications WHERE user_id=? ORDER BY created_at DESC LIMIT 500", (user_id,))
+
+    def add_application(self, user_id: str, company: str, role: str = "", channel: str = "", stage: str = "applied",
+                        applied_at: str | None = None, note: str = "", source: str = "manual") -> str:
+        app_id = secrets.token_hex(6)
+        if stage != "want" and not applied_at:
+            applied_at = time.strftime("%Y-%m-%d")
+        with self._write, self.conn() as c:
+            c.execute("INSERT INTO applications(id, user_id, company, role, channel, stage, outcome, applied_at, stage_at, note, source, created_at) "
+                      "VALUES (?,?,?,?,?,?,NULL,?,?,?,?,?)",
+                      (app_id, user_id, company, role, channel, stage, applied_at, now(), note, source, now()))
+        return app_id
+
+    def update_application(self, user_id: str, app_id: str, fields: dict) -> bool:
+        """只改给出的字段；阶段变化时刷新 stage_at，第一次进入“已投递”之后的阶段时补上投递日期。"""
+        row = self.one("SELECT stage, applied_at FROM applications WHERE id=? AND user_id=?", (app_id, user_id))
+        if not row:
+            return False
+        sets, args = [], []
+        for key in ("company", "role", "channel", "stage", "outcome", "note", "applied_at"):
+            if key in fields:
+                sets.append(f"{key}=?")
+                args.append(fields[key])
+        if "stage" in fields and fields["stage"] != row["stage"]:
+            sets.append("stage_at=?")
+            args.append(now())
+            if fields["stage"] != "want" and not row["applied_at"] and "applied_at" not in fields:
+                sets.append("applied_at=?")
+                args.append(time.strftime("%Y-%m-%d"))
+        if not sets:
+            return True
+        with self._write, self.conn() as c:
+            c.execute(f"UPDATE applications SET {', '.join(sets)} WHERE id=? AND user_id=?", (*args, app_id, user_id))
+        return True
+
+    def delete_application(self, user_id: str, app_id: str) -> bool:
+        with self._write, self.conn() as c:
+            return c.execute("DELETE FROM applications WHERE id=? AND user_id=?", (app_id, user_id)).rowcount > 0
 
     def get_memory(self, user_id: str) -> dict:
         row = self.one("SELECT data FROM user_memory WHERE user_id=?", (user_id,))

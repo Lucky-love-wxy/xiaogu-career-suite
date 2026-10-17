@@ -38,6 +38,7 @@ sys.path.insert(0, str(HERE.parent / "web"))
 sys.path.insert(0, str(HERE))
 import agent  # noqa: E402
 import ocr  # noqa: E402
+import progress  # noqa: E402
 from auth import AliyunSmsSender, Auth, AuthError, ConsoleSender  # noqa: E402
 from store import FEATURES, Store, day_start, mask, now  # noqa: E402
 
@@ -334,15 +335,23 @@ class Platform:
             # 基本情况卡片、记忆文档每轮现读：卡片改了马上生效；记忆在本轮里原地追加，结束后存回
             memory = self.store.get_memory(user["id"])
             before = json.dumps(memory, sort_keys=True, ensure_ascii=False)
+            turn_started = time.time()
             flags = self.store.flags()
             off = {t for t, key in (("polish", "task.polish"), ("practice", "task.interview"), ("interview", "task.interview"))
                    if flags.get(key, "0") != "1"}  # 暂时下线的任务，后台开关打开才放行
             result = self.agent.handle(session.id if session else None, message.strip(), scenario, emit=emit,
-                                       card=self.store.get_profile(user["id"]), memory=memory, off=frozenset(off))
+                                       card=self.store.get_profile(user["id"]), memory=memory, off=frozenset(off),
+                                       resume_form=self.store.get_resume_form(user["id"]))
             if session is None:
                 self.remind_memory(user["id"], memory, result)
             if json.dumps(memory, sort_keys=True, ensure_ascii=False) != before:
                 self.store.set_memory(user["id"], memory)
+            if flags.get("beta.progress") == "1":
+                # 测试版：对话里说了“投了某公司 / 某公司约面试 / 拿到某公司 offer”，记进求职进度看板
+                fresh = [f for f in memory.get("feedback", []) if f.get("company") and f.get("t", 0) >= turn_started]
+                noted = progress.apply_feedback(self.store, user["id"], fresh)
+                if noted:
+                    result["text"] = (result.get("text") or "").rstrip() + f"\n\n（已记到「我的求职进度」：{'、'.join(noted)}）"
             status = result["status"]
         finally:
             if lock:
@@ -467,8 +476,11 @@ def create_app(platform: Platform) -> FastAPI:
                 "icp": cfg.icp, "model_filing": cfg.model_filing, "maintenance": flags.get("maintenance") == "1",
                 "maintenance_reason": flags.get("maintenance_reason") if flags.get("maintenance") == "1" else "",
                 "features": {f: flags.get(f"feature.{f}", "1") == "1" for f in FEATURES},
+                # 暂时下线的任务：前端据此决定显不显示入口（简历表单跟 task.polish 走，关时不显示）
+                "tasks": {"polish": flags.get("task.polish", "0") == "1", "interview": flags.get("task.interview", "0") == "1"},
                 "signup_open": flags.get("signup_open") == "1", "max_message": MAX_MESSAGE,
-                "phone_only": cfg.sender == "aliyun"}  # 短信只能发手机号：登录页据此只收手机号
+                "phone_only": cfg.sender == "aliyun",
+                "beta": {"progress": flags.get("beta.progress") == "1"}}  # 测试版功能是否对用户可见  # 短信只能发手机号：登录页据此只收手机号
 
     @app.get("/api/sample")
     def sample(request: Request):
@@ -525,6 +537,71 @@ def create_app(platform: Platform) -> FastAPI:
             c.execute("UPDATE users SET theme=? WHERE id=?", (theme, user["id"]))
         return {"ok": True}
 
+    # ------------------------------------------------------------ 求职进度（测试版，beta.progress）
+
+    def progress_user(request: Request) -> dict:
+        user = current_user(request)
+        if store.flag("beta.progress") != "1":
+            raise HTTPException(404, "这个功能还没开放")
+        return user
+
+    def progress_view(user_id: str) -> dict:
+        apps = store.list_applications(user_id)
+        return {"summary": progress.summarize(store.get_plan(user_id), apps), "applications": apps,
+                "stages": [{"key": s, "label": progress.STAGE_LABEL[s]} for s in progress.STAGES]}
+
+    @app.get("/api/progress")
+    def get_progress(request: Request):
+        return progress_view(progress_user(request)["id"])
+
+    @app.post("/api/progress/plan")
+    def set_progress_plan(request: Request, data: dict = Body(...)):
+        user = progress_user(request)
+        try:
+            target = int(data.get("target_count") or 0)
+            offers = int(data["target_offers"]) if data.get("target_offers") not in (None, "") else None
+        except (TypeError, ValueError):
+            raise HTTPException(400, "份数要填数字") from None
+        deadline = str(data.get("deadline") or "")[:10] or None
+        if not 1 <= target <= 2000:
+            raise HTTPException(400, "计划份数在 1 到 2000 之间")
+        store.set_plan(user["id"], target, deadline, offers)
+        return progress_view(user["id"])
+
+    @app.post("/api/applications")
+    def add_application(request: Request, data: dict = Body(...)):
+        user = progress_user(request)
+        company = str(data.get("company") or "").strip()[:40]
+        stage = data.get("stage") or "applied"
+        if not company or stage not in progress.STAGES:
+            raise HTTPException(400, "公司名必填，阶段要在五段里")
+        store.add_application(user["id"], company, str(data.get("role") or "").strip()[:40], str(data.get("channel") or "")[:20],
+                              stage, str(data.get("applied_at") or "")[:10] or None, str(data.get("note") or "")[:200])
+        return progress_view(user["id"])
+
+    @app.post("/api/applications/{app_id}")
+    def update_application(app_id: str, request: Request, data: dict = Body(...)):
+        user = progress_user(request)
+        fields = {k: str(v)[:200] for k, v in data.items() if k in ("company", "role", "channel", "note", "applied_at") and v is not None}
+        if "stage" in data:
+            if data["stage"] not in progress.STAGES:
+                raise HTTPException(400, "阶段不对")
+            fields["stage"] = data["stage"]
+        if "outcome" in data:
+            if data["outcome"] not in (None, "", *progress.OUTCOMES):
+                raise HTTPException(400, "结果只能是被拒或无回音")
+            fields["outcome"] = data["outcome"] or None
+        if not store.update_application(user["id"], app_id, fields):
+            raise HTTPException(404, "没有这条记录")
+        return progress_view(user["id"])
+
+    @app.delete("/api/applications/{app_id}")
+    def delete_application(app_id: str, request: Request):
+        user = progress_user(request)
+        if not store.delete_application(user["id"], app_id):
+            raise HTTPException(404, "没有这条记录")
+        return progress_view(user["id"])
+
     @app.get("/api/me/profile")
     def get_profile(request: Request):
         """基本情况卡片：字段和可选值一起给前端，前端不写死第二份。"""
@@ -544,6 +621,28 @@ def create_app(platform: Platform) -> FastAPI:
             raise HTTPException(400, "请先填：" + "、".join(missing))
         store.set_profile(user["id"], card)
         return {"profile": card}
+
+    @app.get("/api/me/resume")
+    def get_resume_form(request: Request):
+        """R1 简历表单：六问的编号和问题文字、各栏上限一起给前端，前端不写死第二份。卡片里的实习经历只读带回，作提醒。"""
+        user = current_user(request)
+        rt = agent.rt
+        return {"form": store.get_resume_form(user["id"]),
+                "questions": [{"id": q, "label": label, "max": n} for q, label, n in rt.FORM_QUESTIONS],
+                "kinds": list(rt.FORM_KINDS), "basics": rt.FORM_BASICS, "education": rt.FORM_EDU, "head": rt.FORM_EXP_HEAD,
+                "limits": {"education": rt.FORM_MAX_EDU, "experiences": rt.FORM_MAX_EXP, "skills": rt.FORM_MAX_SKILLS},
+                "card_experience": store.get_profile(user["id"]).get("实习经历", ""), "done_message": agent.RESUME_DONE}
+
+    @app.post("/api/me/resume")
+    def set_resume_form(request: Request, data: dict = Body(...)):
+        """保存表单；提交空表即清空（删行）。至少一段经历写了「具体怎么做」才保存，否则提示，不存半张空表。"""
+        user = current_user(request)
+        raw = data.get("form") if isinstance(data.get("form"), dict) else {}
+        form = agent.rt.clean_form(raw)
+        if raw and any(raw.values()) and not form:
+            raise HTTPException(400, "至少填一段经历的名称和「具体怎么做」")
+        store.set_resume_form(user["id"], form)
+        return {"form": form}
 
     # ------------------------------------------------------------ 会话
 

@@ -77,6 +77,10 @@ python3 /Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/web/server.py 
 
 `GET /api/me/profile` → `{profile, fields, required, done_message}`：字段、可选值、必填项都由服务端给，前端不写死第二份。`POST /api/me/profile` `{"profile": {...}}` 保存（只收 `agent.CARD_FIELDS` 里的字段和可选值；必填项缺了返回 400）；提交空对象即清空（删行）。卡片存在 `user_profile` 表，每轮由 `Platform.run` 现读后传给 `agent.handle(card=...)`，放在请求上下文里，不写进会话状态。回答里带 `action: "profile_card"` 时，前端在回答下放「填写基本情况」按钮。设计见 `notes/2026-10-14-基本情况卡片与对话标注修复.md`。
 
+## 简历表单（R1，beta，2026-10-17）
+
+`GET /api/me/resume` → `{form, questions, kinds, basics, education, head, limits, card_experience, done_message}`：六问的编号和文字、各栏上限由服务端给（`web/resume_tools.py` 的 `FORM_*`）。`POST /api/me/resume` `{"form": {...}}` 保存，经 `rt.clean_form` 清洗；没有任何一段写了「具体怎么做」返回 400；提交空对象即清空（删行）。表单存在 `user_resume` 表，每轮由 `Platform.run` 现读后传给 `agent.handle(resume_form=...)`，不写进会话状态。入口在「+」菜单，跟后台开关 `task.polish` 走（`/api/meta` 的 `tasks.polish`），关时不显示；表单提交后前端发 `done_message`，由规则直接路由到美化，模型只写每段要点、按段检查。设计见 `notes/2026-10-16-简历lab.md`。
+
 ## 用户记忆文档与上下文压缩（2026-10-14）
 
 每个用户一份记忆文档（`user_memory` 表），跨对话记住三类：聊天里说过的情况和偏好（新说法覆盖时旧值留在 previous）、给过的每一批方向（代码在出候选时记）、用户的反馈和行动（选了哪个方向、贴过的 JD 由代码记；“不喜欢”“投了没回音”等来自模型输出的可选 `feedback` 字段，类别固定）。平台层每轮读出、传给 `agent.handle(memory=...)` 原地追加、结束后存回；和卡片一样不进会话状态。提示词只放当前情况、最近 3 批方向和各自之后的反馈、更早的摘要。不给用户看、不做删除界面；用户要求删除时后台调 `Store.delete_memory`。用户开到第 10、20……个对话时，新对话第一轮末尾提醒一次；用户回复「清理记忆」由代码压缩（留最近 3 批，更早的合成摘要，旧对话不删），不调模型不扣费。

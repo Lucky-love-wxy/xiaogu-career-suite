@@ -267,7 +267,7 @@ answer 和 inferences 里不要自己写“结论”“依据”“待核实推�
   "next_action": "一个最有价值的下一步，单行；或 null",
   "facts": {{"可选：本轮从用户话里新得到的信息，键名优先用 专业 / 毕业时间 / 学历 / 经历 / 意向城市（“应届生”记在 毕业时间 下，学历只写本科、硕士这类），如 专业": "临床医学"}},
   "candidates": [{{"role": "仅 propose 任务需要", "reason": "一句话理由"}}],
-  "feedback": [{{"kind": "可选：用户这一轮说的求职行动或对之前方向的反馈，kind 只能是 {"/".join(FEEDBACK_KINDS)} 之一", "detail": "对应的方向或一句原话"}}]
+  "feedback": [{{"kind": "可选：用户这一轮说的求职行动或对之前方向的反馈，kind 只能是 {"/".join(FEEDBACK_KINDS)} 之一", "detail": "对应的方向或一句原话", "company": "投了、有面试、拿到offer 时用户说出的公司名，没说就空", "role": "同上，岗位名"}}]
 }}
 """
 
@@ -291,6 +291,9 @@ PROFILE_TASKS = {"suite", "jd_followup", "direction", "master", "general"}  # �
 # 基本情况卡片（notes/2026-10-14-基本情况卡片与对话标注修复.md）：小谷定位是工具，用户一次填完、随时可改。
 # 卡片只存在 user_profile 表里，每轮由平台层放进请求上下文，不写进会话状态——否则每个对话都留一份副本，清空卡片清不干净
 CARD = contextvars.ContextVar("xiaogu_card", default=None)
+# R1 简历表单（notes/2026-10-16-简历lab.md）：同卡片的做法，只存在 user_resume 表里，每轮由平台层传入，不写进会话状态
+RESUME_FORM = contextvars.ContextVar("xiaogu_resume_form", default=None)
+RESUME_DONE = "我填好了简历表单，帮我整理成简历"  # 表单提交后前端自动发的那句，由规则直接路由到美化
 # 暂时下线的任务（10-14 用户定：简历美化和面试先去掉）。由平台层按后台开关每轮传入；直接调 Agent（测试、模拟环境）时全部开放
 OFF = contextvars.ContextVar("xiaogu_off", default=frozenset())
 OFF_REPLY = {
@@ -463,12 +466,15 @@ def memory_add_batch(directions: list[str]) -> None:
         mem.setdefault("batches", []).append({"at": _today(), "t": time.time(), "directions": list(directions)})
 
 
-def memory_add_feedback(kind: str, detail: str) -> None:
+def memory_add_feedback(kind: str, detail: str, company: str = "", role: str = "") -> None:
     mem = MEMORY.get()
     if mem is None or kind not in FEEDBACK_KINDS:
         return
     items = mem.setdefault("feedback", [])
-    items.append({"at": _today(), "t": time.time(), "kind": kind, "detail": str(detail)[:80]})
+    entry = {"at": _today(), "t": time.time(), "kind": kind, "detail": str(detail)[:80]}
+    if company:  # 求职进度看板据此新增或推进一条（平台层处理）
+        entry.update(company=str(company)[:40], role=str(role or "")[:40])
+    items.append(entry)
     del items[:-100]  # 只留最近 100 条，更早的靠清理时的摘要
 
 
@@ -660,11 +666,11 @@ def route_from_intent(intent: str, role: str | None, message: str, session: Sess
         route.update(pipeline=["xiaogu-career-suite", "xiaogu-resume"], task="resume")
         if not has_job:
             route["missing_inputs"].append("目标岗位的招聘说明")
-        if not (ctx["has_candidate_experience"] or router.has_material(message, "experience", {})):
+        if not (ctx["has_candidate_experience"] or RESUME_FORM.get() or router.has_material(message, "experience", {})):
             route["missing_inputs"].append("经过本人确认的经历或现有简历")
     elif intent == "resume_polish":
         route.update(pipeline=["xiaogu-resume"], task="polish")
-        if not (session.resume or rt.looks_like_resume(message)):
+        if not (session.resume or RESUME_FORM.get() or rt.looks_like_resume(message)):
             route["missing_inputs"].append("整份简历")
     elif intent == "interview_practice":
         route.update(pipeline=["xiaogu-interview-practice"], task="practice", role=role)
@@ -893,6 +899,12 @@ class MockProvider:
             jd = re.search(r"<jd>\n(.*?)\n</jd>", user, re.S).group(1)
             words = list(dict.fromkeys(re.findall(r"[A-Za-z][A-Za-z+#]{1,}", jd)))[:6] or [jd.strip()[:4]]
             return json.dumps({"role": "", "required_skills": words, "preferred_skills": [], "keywords": []}, ensure_ascii=False)
+        if "【简历表单整理】" in system:
+            # 模拟模型不改写：每段经历照抄“具体怎么做”那一问，保证按段检查能过
+            exps = []
+            for ref, how in re.findall(r"^(exp-\d+)\.how（[^）]*）：(.*)$", user, re.M):
+                exps.append({"ref": ref, "bullets": [{"text": how.strip(), "from": [f"{ref}.how"]}]})
+            return json.dumps({"experiences": exps}, ensure_ascii=False)
         if "【简历结构化】" in system:
             # 模拟模型不改写：原文逐行照搬，保证能过真实性校验
             source = re.search(r"<resume>\n(.*?)\n</resume>", user, re.S).group(1)
@@ -1038,10 +1050,12 @@ class Agent:
         return created
 
     def handle(self, session_id: str | None, message: str, scenario: str | None = None, emit=None,
-               card: dict | None = None, memory: dict | None = None, off: frozenset = frozenset()) -> dict[str, Any]:
+               card: dict | None = None, memory: dict | None = None, off: frozenset = frozenset(),
+               resume_form: dict | None = None) -> dict[str, Any]:
         """memory 是用户记忆文档（dict），本轮会原地追加；调用方在结束后存回。不传就不读不写记忆。"""
         token = EMIT.set(emit)  # 挂在请求上下文而不是实例上：去掉全局锁后，并发请求不会互推过程事件
         card_token = CARD.set(card or None)  # 基本情况卡片同样只放请求上下文，不进会话状态
+        form_token = RESUME_FORM.set(resume_form or None)
         memory_token = MEMORY.set(memory)
         off_token = OFF.set(frozenset(off))
         try:
@@ -1049,6 +1063,7 @@ class Agent:
         finally:
             OFF.reset(off_token)
             MEMORY.reset(memory_token)
+            RESUME_FORM.reset(form_token)
             CARD.reset(card_token)
             EMIT.reset(token)
 
@@ -1094,6 +1109,11 @@ class Agent:
             # 卡片刚提交：不经过分类器（可能被判成打招呼），直接按卡片给第一批候选
             route = {"status": "routed", "pipeline": ["xiaogu-career-master"], "missing_inputs": [], "live_sources": [], "task": "propose"}
             trace["route_by"], trace["intent"] = "regex", "direction"
+        elif message.strip() == RESUME_DONE:
+            # 表单刚提交：不经过分类器，直接按表单整理成简历（有招聘说明也先出通用版，按岗位改由用户再说）
+            route = {"status": "routed", "pipeline": ["xiaogu-resume"], "missing_inputs": [] if RESUME_FORM.get() else ["整份简历"],
+                     "live_sources": [], "task": "polish"}
+            trace["route_by"], trace["intent"] = "regex", "resume_polish"
         elif "resume" in stored:
             # 贴了整份简历：已有招聘说明就按它定制，没有就做通用美化
             task = "tailor" if session.jd else "polish"
@@ -1252,7 +1272,7 @@ class Agent:
             return self._generate(route.get("task") or "master", message, {}, [], [], trace, session)
         if route.get("task") == "polish":
             return self._resume_polish(session, trace)
-        if route.get("task") == "tailor" or ("xiaogu-resume" in pipeline and session.resume and session.jd):
+        if route.get("task") == "tailor" or ("xiaogu-resume" in pipeline and (session.resume or RESUME_FORM.get()) and session.jd):
             return self._resume_tailor(session, trace)
         if route.get("task") == "practice":
             return self._practice_start(session, route, trace)
@@ -1352,9 +1372,46 @@ class Agent:
         return {"status": "blocked", "style": "chat", "answer": answer, "evidence": [], "unknown": [], "blocker": blocker,
                 "next_action": next_action}
 
+    @staticmethod
+    def _use_form(session: Session, trace: dict) -> dict | None:
+        """简历原文从哪来：本轮刚贴的整份简历优先；否则有表单用表单；都没有再用之前贴过的。"""
+        form = RESUME_FORM.get()
+        if form and ("resume" not in trace.get("stored", []) or not session.resume):
+            return form
+        return None
+
+    def _resume_from_form(self, session: Session, trace: dict, form: dict) -> dict:
+        """R1：按表单逐段写要点。名称、角色、时间、教育、技能由代码原样排版，模型只写要点，且按段检查不许跨段挪事实。"""
+        trace["source"] = "form"
+        user = f"<experiences>\n{rt.form_prompt_text(form)}\n</experiences>\n请输出 json。"
+        try:
+            bullets = self._structured("按表单整理简历", rt.COMPOSE_SYSTEM, user, lambda d: rt.check_compose(d, form), trace)
+        except ProviderError:
+            return self._blocked("抱歉，我这边暂时连不上，", "回答模型没有响应。", "过一会儿再发一次试试。")
+        if bullets is None:
+            return self._blocked("这次没能整理出不改动事实的版本。", "整理结果连续三次没有通过真实性校验。", "请再发一次，或者检查一下表单里的回答。")
+        resume = rt.form_resume(form, bullets)
+        session.resume_data = resume
+        thin = [e.get("名称", "") for e in form.get("experiences") or [] if not (e["answers"].get("result") or e["answers"].get("scale"))]
+        missing = [label for key, label in (("name", "姓名"), ("phone", "电话"), ("email", "邮箱")) if not resume["basics"][key]]
+        unknown = []
+        if thin:
+            unknown.append(f"这几段没填规模和结果，要点里就没写：{'、'.join(thin)}。想起来了补进表单，再整理一次会更有说服力")
+        if missing:
+            unknown.append(f"表单里没填{'、'.join(missing)}，打印前请补上")
+        return {"status": "complete", "style": "report", "evidence": [],
+                "answer": ("按你填的表单整理好了一版简历：每段经历的要点只用了你在这一段里写的内容，没写的没有补。"
+                           "单栏、纯文字标题，是招聘系统最容易读取的版式。点下面的按钮打开，可以直接打印或存成 PDF。"),
+                "unknown": unknown,
+                "next_action": "有想投的岗位，就把它的招聘说明贴过来，我按它再改一版。",
+                "artifact": self._save_artifact(session, resume, "通用版")}
+
     def _resume_polish(self, session: Session, trace: dict) -> dict:
         """简历美化：结构化 + 轻度润色 + 单栏排版。条目不增加，数字和技能不新增。"""
         trace["beta"] = True  # 贝塔功能：前端在回答顶部标注“未经真实用户测试”
+        form = self._use_form(session, trace)
+        if form:
+            return self._resume_from_form(session, trace, form)
         source = session.resume
         changes: list[str] = []
 
@@ -1385,6 +1442,10 @@ class Agent:
         """JD 定制改写（Resume-Matcher 流程）：抽关键词 → 改前覆盖率 → 在已有证据处换说法 → 改后覆盖率。"""
         jd, source = session.jd, session.resume
         trace["beta"] = True
+        form = self._use_form(session, trace)
+        if form:
+            # 按岗位改写暂时沿用整份文字的流程，表单摊平成原文；按段检查只在表单整理里做（R1 范围）
+            source, trace["source"] = rt.form_source(form), "form"
 
         def check_keywords(data):
             if not isinstance(data, dict):
@@ -1555,7 +1616,7 @@ class Agent:
                     session.facts.update(extras["facts"])
                     memory_note_facts(extras["facts"])
                     for item in extras["feedback"]:
-                        memory_add_feedback(item["kind"], item.get("detail", ""))
+                        memory_add_feedback(item["kind"], item.get("detail", ""), item.get("company", ""), item.get("role", ""))
                     if "基本情况" in (payload.get("next_action") or ""):
                         # 小谷请用户填卡：界面在这条回答下放一个打开卡片的按钮；同一会话不再引导
                         payload["action"] = "profile_card"
