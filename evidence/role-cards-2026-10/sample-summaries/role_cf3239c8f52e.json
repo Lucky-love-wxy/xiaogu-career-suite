@@ -1,0 +1,137 @@
+{
+  "name": [
+    {
+      "text": "物理教师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "物理教师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUs55nNaa",
+        "vsm5anna5",
+        "vyU5nzMtt",
+        "vym5M5CLZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "vsm5anna5",
+          "vyU5nzMtt",
+          "vym5M5CLZ"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUs55nNaa",
+        "vsm5anna5",
+        "vyU5nzMtt",
+        "vym5M5CLZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vUs55nNaa"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“教育学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUs55nNaa",
+        "vsm5anna5",
+        "vyU5nzMtt",
+        "vym5M5CLZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "教育学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vUs55nNaa"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，4份专业类字段为“物理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUs55nNaa",
+        "vsm5anna5",
+        "vyU5nzMtt",
+        "vym5M5CLZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "物理学类",
+        "n": 4,
+        "denominator": 4,
+        "matched_ids": [
+          "vUs55nNaa",
+          "vsm5anna5",
+          "vyU5nzMtt",
+          "vym5M5CLZ"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "物理教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUs55nNaa",
+        "vym5M5CLZ"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "中学物理教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyU5nzMtt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "初高中物理教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsm5anna5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

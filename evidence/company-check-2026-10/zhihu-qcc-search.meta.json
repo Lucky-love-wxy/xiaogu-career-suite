@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 2.672,
+  "access_date": "2026-10-12",
+  "sha256": "64575f433fba38990e6993a7ec4b2f1f36aa8b41d117a9e9355e816f437eb978",
+  "blocked": null,
+  "id": "zhihu-qcc-search",
+  "company": "zhihu",
+  "query": "知乎 北京智者天下科技有限公司 企业 成立日期",
+  "include_domains": [
+    "qcc.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/zhihu-qcc-search.json"
+}

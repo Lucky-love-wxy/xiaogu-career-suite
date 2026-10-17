@@ -1,0 +1,14 @@
+{
+  "accessed_at": "2026-10-05",
+  "url": "https://www.zhipin.com/robots.txt",
+  "method": "web-access WebFetch",
+  "error": "Internal Error; Total lines: 1; no robots body returned",
+  "network_action": "停止本轮联网；未切CDP/CLI重试",
+  "existing_robots": "evidence/live-sources-2026-10/114c2866f407/page.json（2026-10-04）；仅历史证据，不能冒充本轮更新",
+  "cli": "boss已安装；detail.py快速HTTP失败自动降级browser，auth/browser.py使用patchright.sync_api.sync_playwright；未执行、未读凭证",
+  "raw_queries": [
+    "site:zhipin.com/job_detail 医学编辑 本科",
+    "site:zhipin.com/job_detail 临床研究协调员 泰格"
+  ],
+  "result": "5公司聚合页候选，完整详细JD=0"
+}

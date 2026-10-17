@@ -1,0 +1,606 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_b2900cdc15b9",
+  "node": "互联网/AI › 人工智能 › 大模型算法",
+  "family": "互联网/AI",
+  "parent_id": "互联网/AI › 人工智能",
+  "tier": "P1",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 6,
+  "upstream_sample_n": 6,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "互联网/AI › 人工智能 › 大模型算法",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8U5MLntn",
+      "type": "recruitment_jd",
+      "title": "大模型算法工程师",
+      "company": "深圳乐动机器人股份有限公司B3",
+      "url": "https://campus.niuqizp.com/job-v8U5MLntn.html",
+      "date": "2026-09-22",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "【岗位职责】1.  参与多模态大模型（视觉/语音/文本等模态）的后训练与对齐工作，包括  SFT、RLHF  /  DPO  等训练流程的设计与落地；2.  负责大模型的指令微调（Fine-tuning）、参数高效微调（LoRA  /  QLoRA  /  Prefix  Tuning  等）实验，针对垂域任务持续迭代模型效果；3.  负责训练数据的构建与治理，包括多模态数据的采集、清洗、标注规范制定、数据增强与质量评估，沉淀可复用的数据  pipeline；4.  跟踪多模态大模型与后训练方向的前沿进展（如  RLHF  新范式、多模态对齐、奖励建模等），完成论文复现与效果验证；5.  与  Agent、工程团队协作，将训练完成的模型对接到产品链路中，并基于线上反馈持续优化。【任职要求】1.  计算机、人工智能、自动化、数学等相关专业，本科及以上学历；2.  扎实的机器学习  /  深度学习基础，熟悉  Transformer  架构，理解注意力机制、预训练与微调原理；3.  熟练使用  Python，有  PyTorch  或  JAX  实操经验，能独立完成模型训练与调试；4.  至少熟悉一种主流大模型训练  /  推理框架（如  HuggingFace  Transformers、DeepSpeed、Megatron-LM、vLLM  等）；5.  有过  LLM  /  多模态模型的微调或对齐项目经验，了解  LoRA、SFT、RLHF、DPO  等至少一种方法；6.  良好的论文阅读与复现能力，能跟踪  NeurIPS  /  ICLR  /  ACL  /  CVPR  等顶会工作。加分项：1.  有多模态（VLM  /  语音大模型  /  视觉-语言对齐）相关研究或实习经验；2.  有大规模预训练  /  分布式训练（多机多卡、DeepSpeed  /  Megatron）实操经验；3.  在  Kaggle  等算法竞赛、或顶级会议上有论文发表  /  在  GitHub  有高星项目；4.  了解数据构造与评测体系，有  SFT  数据集构建或  Reward  Model  训练经验。【专业要求】计算机科学与技术/人工智能（AI）/数据科学与大数据技术",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8U5MLntn.html",
+      "cache_sha256": "7cd3d3d3ade57b18a67ce88c0ff4d5b8e4c839cabca8bb90368f477935beb4ad"
+    },
+    {
+      "id": "vYl5azaaL",
+      "type": "recruitment_jd",
+      "title": "VLM方向多模态大模型算法工程师",
+      "company": "北京人形机器人创新中心有限公司",
+      "url": "https://campus.niuqizp.com/job-vYl5azaaL.html",
+      "date": "2026-09-03",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "多模态大模型算法工程师 （VLM方向） 35万元/年\n2026-09-02 17:12:22发布\n职位要求：\n职位性质：全职\n工作城市：北京市通州区\n招聘人数：20\n学历要求：硕士\n职位类别：其他专业技术人员\n需求专业：电子信息类,计算机类,通信类,集成电路类\n职位描述：\n岗位职责\n职位描述\n1、负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作；\n2、跟踪国内外多模态与机器人相关的最新研究进展，能够快速理解并评价相关研究，并能够提出创新性观点，写作论文并推动相关研究发展；\n3、与团队配合完成数据集的收集，整理与清洗，设计和改进模型架构，独立完成模型优化和参数整定，并训练模型；\n4、与团队配合在云或端完成算法的部署，并与实际机器人交互实现自主化作业能力。\n任职资格\n职位要求\n1、教育背景：计算机科学，人工智能，电子工程，自动化或相关领域的硕士或博士研究生学历优先；\n2、多模态算法核心能力：\n- 在多模态学习领域有深入的研究和扎实的理论基础，对图像/视频理解与自然语言处理（NLP）的交叉领域有深刻见解；\n- 精通至少一个或多个前沿多模态研究方向，例如：视觉问答（VQA），视频字幕/摘要，视觉语言导航（VLN），多模态知识推理，扩散模型（Diffusion Models）在多模态内容生成与理解中的应用等；\n- 有在高水平会议或期刊上发表相关论文者优先;\n3、深度学习与框架要求：\n- 具备深厚的深度学习理论基础，精通PyTorch等至少一种主流深度学习框架；\n- 熟悉并有实际使用经验，例如：Transformers, ViT, CLIP, BLIP, Flamingo等主流的多模态模型架构；\n- 有大规模模型训练、微调（Fine-tuning）和推理优化经验（如LoRA, PEFT, vLLM）者将是重要的加分项;\n4、编程与工程能力：具备卓越的Python编程能力和良好的代码规范，能够高效地实现和验证算法原型。\n加分项：\n1.有视频理解（Video\n薪资福利\n25-50k*14薪\n公司介绍：\n北京人形机器人创新中心有限公司于2023年11月成立，是国内首家具身智能软硬件全栈科技公司，聚焦于具身智能机器人核心技术、产品研发和应用落地，汇聚全球顶尖人才，围绕通用机器人平台“具身天工”和通用具身智能平台“慧思开物”两大核心任务开展攻坚，致力于打造具有全球影响力的具身智能创新策源地和应用示范高地。\n2024年10月，工业和信息化部与北京市人民政府在北京共同为国家地方共建具身智能机器人创新中心揭牌，北京人形机器人创新中心有限公司正式挂牌为“国家地方共建具身智能机器人创新中心”。\n公司基本信息\n北京人形机器人创新中心有限公司\n单位行业：互联网和相关服务\n单位性质：其他企业（含民营企业等）\n单位规模：301-1000人\n单位标签：管理规范,环境好,交通方便,晋升快,年终奖,双休,五险一金\n申请职位：\nnj***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYl5azaaL.html",
+      "cache_sha256": "21cb87c94b29053b0bbf74454a0295f6d81b467b5e2d60165c0bb587a60f00ea"
+    },
+    {
+      "id": "vlY5azazZ",
+      "type": "recruitment_jd",
+      "title": "2027招聘世界模型方向多模态大模型算法工程师",
+      "company": "北京人形机器人创新中心有限公司2027",
+      "url": "https://campus.niuqizp.com/job-vlY5azazZ.html",
+      "date": "2026-09-03",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "多模态大模型算法工程师（世界模型方向） 35万元/年\n2026-09-02 17:13:22发布\n职位要求：\n职位性质：全职\n工作城市：北京市通州区\n招聘人数：20\n学历要求：硕士\n职位类别：其他专业技术人员\n需求专业：电子信息类,计算机类,通信类,集成电路类\n职位描述：\n岗位职责\n工作职责\n1.负责人形机器人自主行为系统研发，构建机器人大小脑协同架构（Fast & Slow Intelligence），实现机器人在开放环境中的自主理解、规划、决策与全身任务执行，并持续提升机器人复杂任务执行效率、稳定性及泛化能力；\n2.研究 Vision-Language-Action（VLA）、World Model 等具身基础模型（包括 WAM 等相关方向），结合机器人行为学习、技能生成等方法，构建机器人全身自主任务执行能力，如支持取放、搬运、开关门、工具使用、物品整理、移动操作（loco-manipulation）等复杂任务；\n3.搭建机器人自主任务系统的仿真与真机验证流程，参与建立数据采集、模型评测、任务回归及 Demo 验证体系，持续推动算法迭代、系统优化及真实机器人平台落地；\n4.跟踪具身智能领域前沿技术，快速复现并验证 VLA、World Model等方向最新成果，与机器人平台、控制、感知及数据团队协同推进下一代机器人自主行为系统建设。\n任职资格\n职位要求\n1.硕士及以上学历，计算机、机器人、自动化、人工智能、控制、软件工程等相关专业；\n2.扎实的Python、C++编程能力，熟悉 Linux 开发环境及 Git 工具链，具有机器人仿真或真机开发经验；\n3.在以下至少一个方向具备深入研究或项目经验，并能够将相关前沿算法应用于真实机器人任务：\nVision-Language-Action（VLA）、World Model / World Action Model（WAM）、Embodied Agent、多模态大模型\n视频生成、视频预测、具身推理等相关方向；\n4.具有较强的问题分析能力和创新意识，关注具身智能领域前沿技术，能够推动机器人自主行为算法持续演进并落地到真实机器人平台。\n加分项\n1.熟悉 OpenVLA、π0、GR00T、Helix、World Model、Embodied Agent 等相关工作，具有模型训练、微调或部署经验；\n2.具有人形机器人、移动操作（Loco-Manipulation）、全身控制、双臂协作等相关研发经验；\n3.在机器人、人工智能等相关领域国际顶级会议或期刊发表论文，或具有高质量开源项目贡献者优先。\n薪资福利\n25-50k*14薪\n公司介绍：\n北京人形机器人创新中心有限公司于2023年11月成立，是国内首家具身智能软硬件全栈科技公司，聚焦于具身智能机器人核心技术、产品研发和应用落地，汇聚全球顶尖人才，围绕通用机器人平台“具身天工”和通用具身智能平台“慧思开物”两大核心任务开展攻坚，致力于打造具有全球影响力的具身智能创新策源地和应用示范高地。\n2024年10月，工业和信息化部与北京市人民政府在北京共同为国家地方共建具身智能机器人创新中心揭牌，北京人形机器人创新中心有限公司正式挂牌为“国家地方共建具身智能机器人创新中心”。\n公司基本信息\n北京人形机器人创新中心有限公司\n单位行业：互联网和相关服务\n单位性质：其他企业（含民营企业等）\n单位规模：301-1000人\n单位标签：管理规范,环境好,交通方便,晋升快,年终奖,双休,五险一金\n申请职位：\nnj***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vlY5azazZ.html",
+      "cache_sha256": "845a25d8b71a40d4fc9458628abdff46cccc266774d6751d0d7ee606fcbe2fdf"
+    },
+    {
+      "id": "vls5ztMMz",
+      "type": "recruitment_jd",
+      "title": "2026招聘大模型算法工程师",
+      "company": "北京医者信息科技有限责任公司2026",
+      "url": "https://campus.niuqizp.com/job-vls5ztMMz.html",
+      "date": "2026-06-04",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "招聘信息\n招聘信息\n实习信息\n宣讲会\n双选会\n（北京市招聘）北京医者信息科技有限责任公司招聘\n日期:2026-06-04 |\n一、公司简介\n医者AI 来自全球最大的人机交互实验室 ，是清华技转项目落地成果赋能 消费医疗及健康管理千行百业 依托医者AI增强智能技术，构建健康孪生智能体，为做企业定制AI解决方案。\n二、职位详情\n大模型算法工程师\n招聘10人\n学历：本科\n专业：计算机类,自动化类\n工作地点：北京市海淀区,\n职位描述： 岗位要求：\n1. 调研大模型算法相关前沿工作、论文，协助团队设计和实施模型算法实验；\n2. 记录实验设计和实验结果，分析和评估模型效果，讨论优化方案；\n3. 熟悉Python语言，熟练使用Transformers、Pytorch等；\n4. 拥有扎实的NLP算法基础，拥有大模型预训练/微调/模型评估等实践经验；\n5. 了解deepspeed、vllm等训练和推理框架；\n6. 具有较强的学习能力，具有钻研探索精神，能独立分析和解决问题；责任心强，具备良好的团队合作精神。\n7、一周之内可到岗\n加分项：\n1. 曾发表相关方向顶会论文；\n2. NOI、ICPC、CCPC等算法竞赛获奖者；\n3. 熟悉Docker等技术，有相关应用经验；\n4. 拥有广泛的技术视野。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vls5ztMMz.html",
+      "cache_sha256": "e52832850776782a027b045a562ba1b94248d376ed877631ab7c96c01ed72e59"
+    },
+    {
+      "id": "vslNLzMC5",
+      "type": "recruitment_jd",
+      "title": "大模型算法研发",
+      "company": "公安部交通管理科学研究所",
+      "url": "https://campus.niuqizp.com/job-vslNLzMC5.html",
+      "date": "2026-10-05",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1、负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型。2、负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用。3、负责研发特定场景下的目标检测、属性分类、场景分割等深度学习算法。4、负责算法模型与应用软件的对接开发。5、参与行业数据集建设，根据应用场景需求收集、清洗、标注数据。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vslNLzMC5.html",
+      "cache_sha256": "a1fa2d50702c38f0471e25f533756a026b46862ef2296d8d598bba756086f881"
+    },
+    {
+      "id": "vyk5CtnNL",
+      "type": "recruitment_jd",
+      "title": "【源点顶尖人才计划】大模型算法工程师(A130665)",
+      "company": "百川智能科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vyk5CtnNL.html",
+      "date": "2026-09-10",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "职责描述：\n1、参与大语言模型核心算法研发，覆盖预训练、后训练（SFT/RL）、模型架构创新与能力评测全链路；\n2、围绕数据配比与课程设计、训练目标、ScalingLaw、长上下文、推理时计算（Test-timeCompute）和训练稳定性开展模型研究，持续突破模型能力边界；\n3、设计并建设自动化评测体系与合成数据流水线，基于模型失败案例驱动算法迭代，推动方案在医疗等真实业务场景中验证落地；\n4、跟踪并复现前沿研究，探索Agent能力、工具使用、多模态对齐等开放问题，将研究洞察转化为可工程化的模型改进。\n任职要求：\n1、面向毕业时间为2025年至2027年的应届生，计算机、人工智能、数学等相关专业，硕士及以上学历；\n2、扎实的机器学习与深度学习基础，深入理解Transformer架构、注意力机制及大模型训练全流程（预训练-SFT-RL）；\n3、熟练使用Python和PyTorch，至少掌握一种大规模训练框架（Megatron-LM/DeepSpeed/FSDP），了解分布式并行训练原理；\n4、具备优秀的算法实现、实验设计和问题定位能力，能在信号模糊、路径不明确的开放问题中独立推进研究；\n5、对大模型能力边界有独立判断，关注产品实际效果而非仅基准分数，有将研究成果工程化落地的意识。\n加分项：\n1、在NeurIPS/ICML/ICLR/ACL等国际顶会发表过高质量论文，或在顶级开源项目中有核心贡献；\n2、有大规模预训练、后训练对齐（RLHF/DPO/GRPO）、合成数据生成或评测体系建设的实战经验；\n3、在Kaggle等知名竞赛中取得优异成绩；\n4、有医疗NLP、生物医学或多模态大模型相关研究经历。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vyk5CtnNL.html",
+      "cache_sha256": "7901a47422eadec2e3a209f467f6241b6265f47707bbc99756ff60d0211f9614"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "大模型算法",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "大模型算法"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "2026招聘大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vls5ztMMz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "2027招聘世界模型方向多模态大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlY5azazZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "VLM方向多模态大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5azaaL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "【源点顶尖人才计划】大模型算法工程师(A130665)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8U5MLntn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "大模型算法研发",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责算法模型与应用软件的对接开发",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责算法模型与应用软件的对接开发"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责算法模型与应用软件的对接开发",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责算法模型与应用软件的对接开发"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与行业数据集建设，根据应用场景需求收集、清洗、标注数据",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "参与行业数据集建设，根据应用场景需求收集、清洗、标注数据"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责研发特定场景下的目标检测、属性分类、场景分割等深度学习算法",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责研发特定场景下的目标检测、属性分类、场景分割等深度学习算法"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5azaaL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5azaaL",
+          "text": "负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "设计并建设自动化评测体系与合成数据流水线，基于模型失败案例驱动算法迭代，推动方案在医疗等真实业务场景中验证落地",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyk5CtnNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyk5CtnNL",
+          "text": "设计并建设自动化评测体系与合成数据流水线，基于模型失败案例驱动算法迭代，推动方案在医疗等真实业务场景中验证落地"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5azaaL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5azaaL",
+          "text": "负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "负责算法模型与应用软件的对接开发",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责算法模型与应用软件的对接开发"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "6份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vls5ztMMz"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，5份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 5,
+        "denominator": 6,
+        "matched_ids": [
+          "v8U5MLntn",
+          "vYl5azaaL",
+          "vlY5azazZ",
+          "vslNLzMC5",
+          "vyk5CtnNL"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vyk5CtnNL"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，3份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 3,
+        "denominator": 6,
+        "matched_ids": [
+          "v8U5MLntn",
+          "vlY5azazZ",
+          "vslNLzMC5"
+        ]
+      }
+    },
+    {
+      "text": "6份保留样本中，3份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 3,
+        "denominator": 6,
+        "matched_ids": [
+          "v8U5MLntn",
+          "vls5ztMMz",
+          "vyk5CtnNL"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "2026招聘大模型算法工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vls5ztMMz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "2027招聘世界模型方向多模态大模型算法工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vlY5azazZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "VLM方向多模态大模型算法工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYl5azaaL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "【源点顶尖人才计划】大模型算法工程师(A130665)",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "大模型算法工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8U5MLntn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "大模型算法研发",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

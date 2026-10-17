@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+       <meta name="SiteName" content="海南省卫生健康委员会"/>
+<meta name="SiteDomain" content="http://wst.hainan.gov.cn/"/>
+<meta name="SiteIDCode" content="4600000044"/>
+<meta name="ColumnName" content="海南省卫生健康委员会" />
+<meta name="ColumnDescription" content="海南省卫生健康委员会"/>
+<meta name="ColumnKeywords" content="海南省卫生健康委员会"/> 
+<meta name="ColumnType" content="海南省卫生健康委员会"/>
+	<meta name="description" content="海南省卫生厅是主管全省医药卫生工作的省政府组成部门，负责贯彻执行党和国家卫生工作方针、政策和法规；拟定全省卫生事业发展的总体规划和计划，制定各项医疗卫生技术标准，并组织实施有关我省卫生工作的政策、规章制度。（办公地点：海口市海府路42号，邮政编码：570203）"/>
+<meta name="keywords" content="海南省卫生厅 wst.hainan.gov.cn" />
+	<title>海南省卫生健康委员会</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" type="text/css" href="./images/wswreset.css">
+	<link rel="stylesheet" type="text/css" href="./images/wswstyle.css">
+	<script type="text/javascript">
+	var num=10;
+	function redirect(){
+		num--;
+		document.getElementById("num").innerHTML=num;
+		if(num<0){
+			document.getElementById("num").innerHTML=0;
+			location.href="http://wst.hainan.gov.cn/";
+			}
+		}
+	setInterval("redirect()", 1000);
+</script>
+</head>
+<body>
+	
+	<!--头部开始-->
+<div class="top-bj">
+		<div class="top">
+			<div class="top-l"><img src="https://wst.hainan.gov.cn/swjw/images/gbimg_jyh-czt-bj1.png" alt="" /></div>
+			<div class="top-r">
+				<div class="kong25"></div>
+				<div class="top-r-t clear">
+					<a title="點擊以繁體中文方式瀏覽" class="wenzi Languageft icon fan" id="StranLink" href="javascript:StranBody()">繁</a>
+					
+					<a title="公务员邮箱" class="youxiang" href="https://mail.hainan.gov.cn/mail/userLogin" target="_blank"></a>
+					
+					
+					<a title="手机应用" class="shouji" href="https://wst.hainan.gov.cn/swjw/ptjs/sj/201901/t20190102_2096260.html" target="_blank"></a>
+					
+					<a title="智能机器人" class="jiqiren" target="_blank" href="https://wssp.hainan.gov.cn/hnwt/frame?url=https%3A%2F%2Fchat-smart.digitalhainan.com.cn%3FrobotId%3D1653969639069274113&height=800&title=%E6%99%BA%E8%83%BD%E5%B0%8F%E6%A4%B0&isShowSideBar=false&isShowAIKF=false"></a>
+					
+					<!--<a title="微博" class="weibo" href="" target="_blank"></a>-->
+					
+				    <a title="微信" class="weixin" href="https://wst.hainan.gov.cn/swjw/ptjs/wx/201812/t20181221_1849676.html" target="_blank"></a>
+				    
+                                <a title="无障碍浏览" class="wenzi" href="javascript:;" onclick="aria.start()">无障碍浏览 |</a>
+				<a title="关怀版" class="wenzi" href="javascript:;" onclick="aria.oldFixedStart()">关怀版</a>
+				</div>
+				<script>
+                    function checkSubmit() {
+                        if (document.getElementById('keywords').value == '' || document.getElementById('keywords').value == '请输入关键词搜索')
+                            alert('请输入关键词搜索！');
+                        else {
+                            document.pageform.submit();
+                            $("#keywords").attr("value", "");
+                        }
+                    }
+                </script>
+				<form name="pageform" method="get" action="https://wst.hainan.gov.cn/swjw/wzss/search.html?siteId=16&pageSize=10" id="pageform" target="_blank">
+				<input type="hidden" name="siteId" value="16" />
+                    <input type="hidden" name="pageSize" value="10" />
+				<div class="top-r-x">
+					<input type="text" value="请输入关键词搜索" onblur="if(this.value==''){this.value='请输入关键词搜索'}" onfocus="this.value=''" name="searchWord" id="keywords" />
+					<button type="button" onclick="checkSubmit();" value="检索"></button>
+				</div>
+				 </form>
+			</div>
+		</div>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="https://wst.hainan.gov.cn/swjw/" target="_blank">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+<li><a href="https://wst.hainan.gov.cn/swjw/xxgk/0100/" target="_blank">机构介绍</a></li>
+<li><a href="https://wst.hainan.gov.cn/swjw/ywdt/" target="_blank">要闻动态</a></li>
+<li><a href="https://wst.hainan.gov.cn/swjw/xxgk/" target="_blank">信息公开</a></li>
+<li><a href="https://wst.hainan.gov.cn/swjw/jdhy/" target="_blank">解读回应</a></li>
+<li><a href="https://wssp.hainan.gov.cn/hnwt/department?regionId=HZ2881f4424539dd0142453c856b0025&orgId=HZ28810342933aa9014298d1aae00b61&serviceSubType=org" target="_blank">政务服务</a></li>
+<li><a href="https://wst.hainan.gov.cn/swjw/hdjl/" target="_blank">互动交流</a></li>
+<li><a href="https://wst.hainan.gov.cn/swjw/xxgk/0900/" target="_blank">数据</a></li>
+		</ul>
+	</div>
+<!--头部结束-->
+	<style>
+		.baocuo{
+			width: 677px;
+			margin: 0 auto;
+			height: 600px;
+			position: relative;
+		}
+		.baocuonr{
+			width: 677px;
+			height: 416px;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			margin-top: -208px;
+		}
+		.baocuonr img{
+			width: 100%;
+			height: 100%;
+		}
+		.baocuonr p{
+			width: 100%;
+			text-align: center;
+			position: absolute;
+			left: 0;
+			bottom: 20px;
+			line-height: 48px;
+			font-size: 35px;
+			color: #cd0101;
+			font-family: SimHei;
+		}
+	</style>
+	<div class="baocuo">
+		<div class="baocuonr">
+			<img src="./images/baocuo404.png" alt="" />
+			<p>抱歉，您访问的网页不存在或已删除！<br/><span id="num"></span>秒后将自动返回首页</p>
+		</div>
+	</div>
+
+	
+	<div class="ww">
+<div class="wzdh">
+			<div class="wzdh-lm3 clear">
+				<div class="wzdh-lm3-l1" style=" padding-top:15px;">
+				    <p><a href="https://wst.hainan.gov.cn/swjw/ptjs/wzdt/201812/t20181229_2063649.html" target="_blank">网站地图</a>　|　<a href="https://wst.hainan.gov.cn/swjw/ptjs/lxwm/201812/t20181229_2051930.html" target="_blank">联系我们</a></p>
+					<p>主办单位：海南省卫生健康委员会&nbsp;&nbsp;&nbsp;地址：海南省海口市美兰区海府路40号&nbsp;&nbsp;&nbsp;中文域名：海南省卫生健康委员会.政务</p>
+					<p>任何建议和意见请联系：hnswshjhsywyh@126.com　技术支持：海南省卫生健康委员会信息中心、海南信息岛技术服务中心</p>
+					<p><a href="https://beian.miit.gov.cn" target="_blank">琼ICP备2023011375号-4</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=46010802000007" target="_blank" style="color:#000000;display:inline-block;text-decoration:none;"><img src="https://wst.hainan.gov.cn/swjw/images/batb.png" />&nbsp;琼公网安备 46010802000007号</a>&nbsp;&nbsp;政府网站标识码：4600000044  邮编：570203</p>
+				</div>
+				<div class="wzdh-lm3-l2">
+					<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/22/000/0000/40700298/CA220000000407002980003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+				</div>
+				<div class="wzdh-lm3-l3">
+					<script id="_jiucuo_" sitecode='4600000044' src='https://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--非本域名链接跳转弹窗-->
+<style>
+         .alert-mengban{position: fixed;top: 0px;left: 0px;z-index: 1000;background: #000000;opacity: 0.8 !important;filter: alpha(opacity=80) !important;width: 100%;height: 100%;display: none;}
+        .alert-warning{position: fixed;left: 50%;top:-400px;margin-left:-300px; width: 600px;height: 270px;background:#fff;z-index: 1001;display: none;}
+        .alert-delete{width: 100%;height: 38px;position: relative;}
+        .alert-delete span{position: absolute;top:10px;right: 10px; width: 19px;height: 19px;background: url(https://wst.hainan.gov.cn/swjw/images/feibenyumingtz.png) center center no-repeat;cursor:pointer;}
+        .alert-wzsm{width: 560px;height: 100px;margin: 15px auto 0; line-height: 35px;font-size: 24px;color: #000;text-align: center;font-family:"Microsoft YaHei"; padding-bottom: 15px;border-bottom: 1px solid #d4d4d4;}
+        .alert-wzsm p{font-size:24px;font-family:"Microsoft YaHei";}
+        .alert-footer{width: 100%; height: 105px;font-size: 20px;color: #000;}
+        .alert-footer span{cursor: pointer;float: left;font-family:"Microsoft YaHei";}
+        .continue{width: 124px;height: 42px;display:inline-table; background-color:#347bd7;border:2px solid;border-radius:25px; color:#FFFFFF; text-align:center; line-height:42px;}
+        .fangqi{line-height: 42px;font-size: 20px;color: #347bd7;margin-left: 30px;}
+        .xuanze{width: 210px;height: 42px;margin: 25px auto 0;}
+
+
+        @media only screen and (max-width: 414px) {
+            .alert-warning{position: fixed;left:2%;top:-400px;margin-left:0; width: 96%;height: auto;background: #fff;background-size: 100%; z-index: 1001;}
+            .alert-wzsm{width: 80%;height: auto;margin: 15px auto 0; line-height: 28px;font-size: 18px;color: #000;text-align: center; }
+            .alert-wzsm p{font-size:18px;}
+            .alert-footer{width: 100%; height: 70px;line-height: 70px;font-size: 18px;color: white;margin-top: 10px;}
+            .continue{ width: 124px;height: 42px;background-size: 100%; display:inline-table; background-color:#000099;}
+
+        }
+        
+    </style>
+
+
+<a id="hash"  href="javascript:void(0)" onclick="return false;"></a>
+	<div class="alert-warning">
+	          <div class="alert-delete">
+		   <span id="closets"></span>
+		</div>	
+		<div class="alert-wzsm">
+			<p>您访问的链接即将离开“海南省卫生健康委员会”门户网站<br />是否继续？</p>
+			<p id="outUrl" style="display: none"></p>
+		</div>
+		<div class="alert-footer">		
+		     <div class="xuanze">
+                              <span class="continue" onclick="window.open(outUrl.innerText);document.getElementById('closets').click();">继续访问</span>	
+			<span class="fangqi">放弃</span>	
+		     </div>
+		</div>
+
+	</div>
+	<div class="alert-mengban"></div>
+
+<div class="Whidden" style="display:none">
+
+</div>
+
+
+<script>
+
+$("a").each(function(){
+    var htm=$(this).html();
+    $(this).click(function(){
+		if(this.href!=""&&this.href.toLowerCase().indexOf("javascript")==-1&&this.href.toLowerCase().indexOf("gov.cn")==-1&&this.href.toLowerCase().indexOf("www.gov.mo")==-1&&this.href.toLowerCase().indexOf("www.taiwan.cn")==-1&&this.href.toLowerCase().indexOf("javascript:preVious")==-1&&this.href.toLowerCase().indexOf("javascript:next")==-1){
+
+		document.getElementById('outUrl').innerText=this.href;
+	          document.getElementById('hash').click();
+		$(".alert-mengban").fadeIn(200);
+		$(".alert-warning").delay(200).show().animate({top:"75px"}, 300);
+		$("#closets,.fangqi,.alert-mengban").click(function() {
+			$(".alert-warning").animate({top:"-400px"}, 200).hide(300);
+			$(".alert-mengban").delay(300).fadeOut(300);
+		});
+		$(".continue").click(function(){			
+		       $(".alert-warning").hide(200);
+	                 $(".alert-mengban").delay(200).fadeOut(200);
+		})
+		
+
+		return false;
+
+		}
+        });
+    });
+
+
+
+$("select").on("change",function () {
+ var opVal = $(this).find("option:selected").val();
+ 
+ if(opVal!=""&&opVal.toLowerCase().indexOf("javascript")==-1&&opVal.toLowerCase().indexOf("gov.cn")==-1&&this.href.toLowerCase().indexOf("www.gov.mo")==-1&&this.href.toLowerCase().indexOf("www.taiwan.cn")==-1&&opVal.toLowerCase().indexOf("javascript:preVious")==-1&&opVal.toLowerCase().indexOf("javascript:next")==-1){
+
+                document.getElementById('outUrl').innerText=opVal;
+                document.getElementById('hash').click();
+                $(".alert-mengban").fadeIn(200);
+                $(".alert-warning").delay(200).show().animate({top:"75px"}, 300);
+                $("#closets,.fangqi,.alert-mengban").click(function() {
+                    $(".alert-warning").animate({top:"-400px"}, 200).hide(300);
+                    $(".alert-mengban").delay(300).fadeOut(300);
+                });
+                $(".continue").click(function(){
+                    $(".alert-warning").hide(200);
+                    $(".alert-mengban").delay(200).fadeOut(200);
+                })
+
+
+                return false;
+
+            }
+
+})
+
+
+
+</script>
+<!--非本域名链接跳转弹窗-->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4526" async="async" defer="defer"></script>
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=a866f1ce468e540fd1695c5faea7e0ee" charset="utf-8"></script>
+<script type="text/javascript" src="https://wst.hainan.gov.cn/swjw/material/js/fanti.js"></script>
+</body>
+</html>

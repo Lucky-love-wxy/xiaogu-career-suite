@@ -1,0 +1,2325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- 兼容性设置 -->
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit" />
+  <!-- 视口设置，移动端必须，PC端非响应式可以去掉 -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <title>
+    云南省人民政府国有资产监督管理委员会
+  </title>
+  <!--站点类-->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="author" content="云南省人民政府国有资产监督管理委员会">
+<meta name="Copyright" content="云南省人民政府国有资产监督管理委员会">
+<meta name="keywords" content="云南省人民政府国有资产监督管理委员会">
+<meta name="description" content="云南省人民政府国有资产监督管理委员会">
+<meta name="SiteName" content="云南省人民政府国有资产监督管理委员会">
+<meta name="SiteDomain" content="gzw.yn.gov.cn">
+<meta name="SiteIDCode" content="5300000017">
+
+<link rel="icon" href="./images/gh.png" />
+
+  <link rel="stylesheet" href="./images/swiper.min.css" />
+  <link rel="stylesheet" href="./images/animate.min.css" />
+  <link rel="stylesheet" href="./images/common.css" />
+  <link rel="stylesheet" href="./images/ui.css" />
+  <link rel="stylesheet" href="./images/index.css" />
+  <script src="./images/jquery-3.6.0.min.js"></script>
+  <script src="./images/flexible.js"></script>
+  <script src="./images/swiper.min.js"></script>
+  <script src="./images/coon.min.js"></script>
+
+  <link rel="stylesheet" id="layuicss-layer" href="./images/layer.css" />
+  <link rel="stylesheet" id="layuicss-skincodecss" href="./images/code.css" />
+  <link rel="stylesheet" id="layuicss-laydate" href="./images/laydate.css" />
+  <script src="./images/layui.js"></script>
+  <style>
+    .gwyxx_szfxx li:nth-child(n + 8) {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- DOM 开始 -->
+  <div class="wrap">
+    <!-- header开始 -->
+    <style>
+    .nav>li.has-dropdown:hover .dropdown {
+        pointer-events: auto;
+    }
+
+    .nav>li.has-dropdown .dropdown {
+        pointer-events: none;
+    }
+</style>
+
+<div class="header no-print">
+    <!-- 页面顶部 -->
+    <!-- header开始 -->
+<style>
+    .oldmanout {
+        height: auto !important;
+        width: 100px !important;
+        line-height: inherit !important;
+    }
+
+    .oldmanfontout {
+        line-height: 24px !important;
+        font-size: 16px !important;
+    }
+
+    .oldmanwza {
+        line-height: 24px !important;
+        color: white;
+        font-size: 16px;
+    }
+</style>
+
+<link rel="stylesheet" href="https://gzw.yn.gov.cn/images/ui.css" />
+
+
+<script src='https://auth.mangren.com/boots/gzw.yn.gov.cn/esdToolsInit.js' charset='UTF-8' async='async' defer='defer'></script>
+<script>
+    function zzms() {
+        var h = window.location.href;
+        var oldUrl = "https://gzw.yn.gov.cn/ggbf/old/";
+        if (!oldUrl.endsWith('old.html')) {
+            oldUrl += 'old.html';
+        }
+        window.location.href = oldUrl + "?u=" + h
+    }
+</script>
+
+<div class="header_info">
+    <div class="inner clearfix">
+        <div class="header_toolbar fl list1">
+            <a href="//www.gov.cn/" target="_blank">中央人民政府门户网站</a> |
+            <a href="//www.yn.gov.cn/" target="_blank">云南省人民政府门户网站</a>
+        </div>
+        <div class="header_toolbar fr header_toolbar_right list2">
+            <div class="header_toolbar_lang">
+                <a href="javascript:StranLink.text='简体';StranBody();">简体</a>
+                |
+                <a href="javascript:StranLink.text='繁体';StranBody();">繁体</a>
+                <a href="javascript:StranBody()" id="StranLink" style="display: none">简体</a>
+            </div>
+            <div class="header_toolbar_mode hidden-xs">
+                <a href="javascript:void(0);" class="mode-a" onclick="EsdInit.openClickFunc();"
+                    onkeydown="EsdInit.openKeydownFunc(event);">
+                    <img src="https://gzw.yn.gov.cn/images/wza.png" alt="无障碍浏览" />
+                    无障碍浏览</a>
+                <a href="javascript:void(0);" class="mode-b" onclick="zzms()">长者模式</a>
+            </div>
+        </div>
+    </div>
+    <div class="xy-head-sec1"></div>
+</div>
+<script src="https://gzw.yn.gov.cn/images/zhuan.js" charset='UTF-8'></script>
+
+    <div class="header_main inner">
+        <div class="">
+            <a href="https://gzw.yn.gov.cn/" target="_self">
+                <h1 class="header_logo">
+                    <img src="https://gzw.yn.gov.cn/images/gh.png" style="height: 70px; width: auto" alt="logo" />
+                    <div class="header_logo_text">
+                        <h2 class="header_logo_text_h2">
+                            云南省人民政府国有资产监督管理委员会
+                        </h2>
+                        <h3 class="header_logo_text_h3">
+                            State-owned Assets Supervision and Administration Commission
+                            of Yunnan Provincial People's Government
+                        </h3>
+                    </div>
+                </h1>
+            </a>
+        </div>
+        <div class="header_right fr">
+            <div class="search">
+                <div class="search_box">
+                    <form action="https://gzw.yn.gov.cn/irs-c-web/search.shtml" target="_blank">
+                        <input type='hidden' id="code" name='code' value='198dfd4688c' />
+                        <input type='hidden' id="dataTypeId" name='dataTypeId' value='381' />
+                        <input type="text" id="searchWord" name="searchWord" maxlength="20" onclick="if(this.value=='请输入关键字'){this.value='';}" placeholder="请输入关键字..." />
+                        <button type="submit">
+                            <img src="https://gzw.yn.gov.cn/images/ss.png" class="search_img" text="搜索" />
+                            搜索
+                        </button>
+                        <div id="search-results"></div>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="hotwords">
+                <img class="hotwords_img" src="https://gzw.yn.gov.cn/images/rsc.png" alt="热词搜索" />
+                <span>热词搜索：</span>
+                <a ignoreapd='true' href="javascript:void(0);" target="_blank">投资</a>
+                <a ignoreapd='true' href="javascript:void(0);" target="_blank">项目批复</a>
+                <a ignoreapd='true' href="javascript:void(0);" target="_blank">民生商品价格</a>
+            </div> -->
+        </div>
+    </div>
+    <!-- 移动端菜单开始 -->
+    <div class="menu-btn"><span></span><span></span><span></span></div>
+    <div class="menu mobile-menu">
+        <ul>
+            <li><a ignoreapd='true' href="https://gzw.yn.gov.cn/">网站首页</a></li>
+            <li class="has-mobile-dropdown">
+                <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/">
+                    机构概况
+                    <span class="mobile-arrow">▼</span>
+                </a>
+                <ul class="mobile-dropdown">
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/jgzz/">
+                                机构职责
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/wld/">
+                                委领导
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/nsjg/">
+                                内设机构
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/ssqyml/">
+                                省属企业名录
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/zsgzml/">
+                                州市国资名录
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/lxfs/">
+                                联系方式
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+            <li class="has-mobile-dropdown">
+                <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/">新闻资讯 <span class="mobile-arrow">▼</span></a>
+                <ul class="mobile-dropdown">
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/xwtt/">
+                                新闻头条
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/gzyw/">
+                                国资要闻
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/gzxx/">
+                                国资信息
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/ssqy/">
+                                省属企业
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/zsgz/">
+                                州市国资
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/xwfb/">
+                                新闻发布
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/tpxw/">
+                                图片新闻
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+            <li class="has-mobile-dropdown">
+                <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/">政府信息公开 <span class="mobile-arrow">▼</span></a>
+                <ul class="mobile-dropdown">
+
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zc/">
+                                政策
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfxxgkzn/">
+                                政府信息公开指南
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfxxgkzd/">
+                                政府信息公开制度
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/">
+                                法定主动公开内容
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfxxgknb/">
+                                政府信息公开年报
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfwzndgzbb/">
+                                政府网站年度工作报表
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="http://ysqgk.yn.gov.cn/YSQGK/ShenQingZZ/ShenQingRLX?bmid=047d18a6-217c-4074-bfa8-09dd4ec456c9">
+                                依申请公开
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+            <li class="has-mobile-dropdown">
+                <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/">国资监管 <span class="mobile-arrow">▼</span></a>
+                <ul class="mobile-dropdown">
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/fzjs/">
+                                法治建设
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/ghfz/">
+                                规划发展
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/cqgl/">
+                                产权管理
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/zbyy/">
+                                资本运营
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/tjpjycwjd/">
+                                统计评价与财务监督
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/khfp/">
+                                考核分配
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/qyldgl/">
+                                企业领导管理
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/djgz/">
+                                党建工作
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/jjjc/">
+                                纪检监察
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/jgjs/">
+                                机关建设
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+            <li class="has-mobile-dropdown">
+                <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/">网上服务 <span class="mobile-arrow">▼</span></a>
+                <ul class="mobile-dropdown">
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/bszn/">
+                                办事指南
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/sjxz/">
+                                数据下载
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/cjwthd/">
+                                常见问题回答
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/sgzwjgqycqxxcx/">
+                                省国资委监管企业产权信息查询平台
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+            <li class="has-mobile-dropdown">
+                <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/">专题专栏 <span class="mobile-arrow">▼</span></a>
+                <ul class="mobile-dropdown">
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/clgqppzxgzdd/">
+                                擦亮国企品牌展现国资担当
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/gqggsnxd/">
+                                国企改革三年行动
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/gyqyxxgk/">
+                                国有企业信息公开
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/xczx/">
+                                乡村振兴
+                            </a>
+                        </li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="mask"></div>
+    <!-- 移动端菜单结束 -->
+</div>
+
+<!-- nav开始 -->
+<ul class="nav inner no-print pc-nav">
+    <li class="cur"><a ignoreapd='true' href="https://gzw.yn.gov.cn/">网站首页</a></li>
+    <li class="has-dropdown" data-path="jgzn">
+        <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/">机构概况</a>
+        <ul class="dropdown">
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/jgzz/">
+                        机构职责
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/wld/">
+                        委领导
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/nsjg/">
+                        内设机构
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/ssqyml/">
+                        省属企业名录
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/jgzn/zsgzml/">
+                        州市国资名录
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+    <li class="has-dropdown" data-path="xwzx">
+        <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/">新闻资讯</a>
+        <ul class="dropdown">
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/xwtt/">
+                        新闻头条
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/gzyw/">
+                        国资要闻
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/gzxx/">
+                        国资信息
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/ssqy/">
+                        省属企业
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/zsgz/">
+                        州市国资
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/xwfb/">
+                        新闻发布
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/xwzx/tpxw/">
+                        图片新闻
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+    <li class="has-dropdown" data-path="zfxxgk">
+        <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/">政府信息公开</a>
+        <ul class="dropdown">
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zc/">
+                        政策
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfxxgkzn/">
+                        政府信息公开指南
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfxxgkzd/">
+                        政府信息公开制度
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/fdzdgknr/">
+                        法定主动公开内容
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfxxgknb/">
+                        政府信息公开年报
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/zfxxgk/zfwzndgzbb/">
+                        政府网站年度工作报表
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="http://ysqgk.yn.gov.cn/YSQGK/ShenQingZZ/ShenQingRLX?bmid=047d18a6-217c-4074-bfa8-09dd4ec456c9">
+                        依申请公开
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+    <li class="has-dropdown" data-path="gzjg">
+        <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/">国资监管</a>
+        <ul class="dropdown">
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/fzjs/">
+                        法治建设
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/ghfz/">
+                        规划发展
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/cqgl/">
+                        产权管理
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/zbyy/">
+                        资本运营
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/tjpjycwjd/">
+                        统计评价与财务监督
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/khfp/">
+                        考核分配
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/qyldgl/">
+                        企业领导管理
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/djgz/">
+                        党建工作
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/jjjc/">
+                        纪检监察
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/gzjg/jgjs/">
+                        机关建设
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+    <li class="has-dropdown" data-path="wsfw">
+        <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/">网上服务</a>
+        <ul class="dropdown">
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/bszn/">
+                        办事指南
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/sjxz/">
+                        数据下载
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/cjwthd/">
+                        常见问题回答
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/wsfw/sgzwjgqycqxxcx/">
+                        省国资委监管企业产权信息查询平台
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+    <li class="has-dropdown" data-path="ztzl">
+        <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/">专题专栏</a>
+        <ul class="dropdown">
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/clgqppzxgzdd/">
+                        擦亮国企品牌展现国资担当
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/gqggsnxd/">
+                        国企改革三年行动
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/gyqyxxgk/">
+                        国有企业信息公开
+                    </a>
+                </li>
+            
+                <li>
+                    <a ignoreapd='true' href="https://gzw.yn.gov.cn/ztzl/xczx/">
+                        乡村振兴
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+</ul>
+
+<!-- DOM 结束 -->
+<script src="https://gzw.yn.gov.cn/images/common_2.js"></script>
+
+<script src="https://gzw.yn.gov.cn/images/swiper.min.js"></script>
+<script src="https://gzw.yn.gov.cn/images/main.js"></script>
+
+<script>
+    $(function () {
+        let liList = $('.pc-nav>li');
+        let hasCur = false;
+        liList.removeClass('cur');
+        liList.each((index, item) => {
+            if (hasCur) {
+                return;
+            }
+            const path = $(item).data('path');
+            if (!path) {
+                return;
+            }
+            if (window.location.href.indexOf('/' + path + '/') !== -1) {
+                $(item).addClass('cur');
+                hasCur = true;
+            }
+        });
+        if (!hasCur && liList.length > 0) {
+            liList.eq(0).addClass('cur');
+        }
+    })
+</script>
+    <!-- header结束 -->
+
+    <!-- content 开始 -->
+    <div class="content">
+      <div class="p1">
+        <div class="inner bgc-fff1">
+          <div class="cloumn1">
+            <div class="w720">
+              <div class="gsgg_hd">
+                <a href="./zfxxgk/fdzdgknr/jcxx/gsgg/" target="_blank">公示公告</a>
+              </div>
+              <div class="gsgg_focus">
+                <div class="gsggTxt">
+                  <div class="gsggList">
+                    <ul>
+                      
+                        <li>
+                          <span class="gsggTitle"></span>
+                          <a href="./zfxxgk/fdzdgknr/jcxx/gsgg/202607/P020260731560808061725.pdf" target="_blank" class="bt">
+                            关于公布2026年第二批拖欠农民工工资失信联合惩戒对象名单的公告
+                          </a>
+                          <span class="gsggDate">
+                            2026-07-31
+                          </span>
+                        </li>
+                      
+                        <li>
+                          <span class="gsggTitle"></span>
+                          <a href="./zfxxgk/fdzdgknr/jcxx/gsgg/202607/P020260731560562144083.pdf" target="_blank" class="bt">
+                            关于公布2026年第二批重大劳动保障违法案例的公告
+                          </a>
+                          <span class="gsggDate">
+                            2026-07-31
+                          </span>
+                        </li>
+                      
+                        <li>
+                          <span class="gsggTitle"></span>
+                          <a href="./zfxxgk/fdzdgknr/jcxx/gsgg/202606/t20260629_3058731.html" target="_blank" class="bt">
+                            国家第二批资金已下达！云南消费品以旧换新正在火热进行中
+                          </a>
+                          <span class="gsggDate">
+                            2026-05-08
+                          </span>
+                        </li>
+                      
+                        <li>
+                          <span class="gsggTitle"></span>
+                          <a href="./zfxxgk/fdzdgknr/jcxx/gsgg/202606/P020260629438635028096.pdf" target="_blank" class="bt">
+                            关于公布2026年第一批重大劳动保障违法案例的公告
+                          </a>
+                          <span class="gsggDate">
+                            2026-05-06
+                          </span>
+                        </li>
+                      
+                        <li>
+                          <span class="gsggTitle"></span>
+                          <a href="./zfxxgk/fdzdgknr/jcxx/gsgg/202606/P020260629437978696263.pdf" target="_blank" class="bt">
+                            关于公布2026年第一批拖欠农民工工资失信联合惩戒对象名单的公告
+                          </a>
+                          <span class="gsggDate">
+                            2026-05-06
+                          </span>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                  <div class="gsgg_buttons">
+                    <span class="prev"></span>
+                    <span class="next"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p1">
+        <div class="inner p-30r bgc-fff1" style="padding-top: 0">
+          <div class="swiper-container mb-30r" id="Swipertt">
+            <div class="swiper-wrapper">
+              
+                <div class="swiper-slide">
+                  <div class="toutiao" style="text-align: center">
+                    <a href="./xwzx/xwtt/202609/t20260908_4202388.html" target="_blank" data-test="test" title="5年来，云南这份“生物多样性保护答卷”很硬核！">
+                      5年来，云南这份“生物多样性保护答卷”很硬核！
+                    </a>
+                    <p class="toutiao_descs">
+                      
+                    </p>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="toutiao" style="text-align: center">
+                    <a href="./xwzx/xwtt/202603/t20260309_2947189.html" target="_blank" data-test="test" title="读懂“十五五”主要指标的深意">
+                      读懂“十五五”主要指标的深意
+                    </a>
+                    <p class="toutiao_descs">
+                      
+                    </p>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide">
+                  <div class="toutiao" style="text-align: center">
+                    <a href="./xwzx/xwtt/202603/t20260309_2947192.html" target="_blank" data-test="test" title="政府工作报告里的变与不变">
+                      政府工作报告里的变与不变
+                    </a>
+                    <p class="toutiao_descs">
+                      
+                    </p>
+                  </div>
+                </div>
+              
+
+              <script>
+                $("#Swipertt .toutiao_descs").each(function (index, item) {
+                  const text = $(item).text();
+                  if (!text || text.trim().length === 0) {
+                    $(item).hide();
+                  }
+                });
+              </script>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination" id="SwiperttPag"></div>
+            <!-- 如果需要导航按钮 -->
+          </div>
+          <div class="row">
+            <div class="col-md-l" style="width: 560px">
+              <div class="swiper-container" id="Swiper1">
+                <div class="swiper-wrapper">
+                  
+                    <div class="swiper-slide">
+                      <div class="img_mask_box">
+                        <a href="./xwzx/tpxw/202608/t20260826_3754055.html" target="_blank" title="省国资委举办为基层减负业务培训">
+                          <img src="./xwzx/tpxw/202608/W020260826562929433058_800.jpg" alt="" height="464" width="670" />
+                          <div class="mask_title">
+                            <h3>
+                              省国资委举办为基层减负业务培训
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  
+                    <div class="swiper-slide">
+                      <div class="img_mask_box">
+                        <a href="./xwzx/tpxw/202608/t20260813_3401695.html" target="_blank" title="强基固本抓党建 引领高质量发展！<div>省国资委召开夯实基层基础深化党建引领高质量发展专项行动工作推进会</div>">
+                          <img src="./xwzx/tpxw/202608/W020260813578164697664_800.jpg" alt="" height="464" width="670" />
+                          <div class="mask_title">
+                            <h3>
+                              强基固本抓党建 引领高质量发展！<div>省国资委召开夯实基层基础深化党建引领高质量发展专项行动工作推进会</div>
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  
+                    <div class="swiper-slide">
+                      <div class="img_mask_box">
+                        <a href="./xwzx/tpxw/202606/t20260629_3058735.html" target="_blank" title="省国资委开展党委书记讲授专题党课">
+                          <img src="./xwzx/tpxw/202606/W020260629465400802565_800.jpg" alt="" height="464" width="670" />
+                          <div class="mask_title">
+                            <h3>
+                              省国资委开展党委书记讲授专题党课
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  
+                    <div class="swiper-slide">
+                      <div class="img_mask_box">
+                        <a href="https://liuyan.www.gov.cn/2024wwzfgzbgtjy/bmdf.html?q=yn" target="_blank" title="@国务院 我来说">
+                          <img src="./xwzx/tpxw/202312/W020260323618134063025_800.jpg" alt="" height="464" width="670" />
+                          <div class="mask_title">
+                            <h3>
+                              @国务院 我来说
+                            </h3>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination" id="Swiper1Pag"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev" id="Swiper1Prev"></div>
+                <div class="swiper-button-next" id="Swiper1Next"></div>
+              </div>
+            </div>
+            <div class="col-md-r" style="width: calc(100% - 580px)">
+              <div class="tab_pane hover tab_pane1">
+                <h3 class="tab">
+                  <a href="./xwzx/gzyw/" class="cur" target="_blank" title="国资要闻">国资要闻</a>
+                  <a ignoreapd="true" href="https://www.yn.gov.cn/" title="省政府信息">省政府信息</a>
+                  <a ignoreapd="true" href="https://www.gov.cn/pushinfo/v150203/" target="_blank" title="国务院新闻">国务院新闻</a>
+                  <a onClick="javascript:window.open($(this).parent().find('a.cur').attr('href'), '_blank')" class="enter more_links" title="查看更多">
+                    查看更多
+                    <img src="./images/right.png" alt="" />
+                  </a>
+                </h3>
+                <div class="pane gwyxx_szfxx" style="margin-top: -15px">
+                  <ul class="list_t list_t_22">
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202609/t20260901_3849142.html" target="_blank" title="省国资委召开云南省国企系统农村集体“三资”数据资料收集工作部署动员会">
+                          省国资委召开云南省国企系统农村集体“三资”数据资料收集工作部署动员会
+                        </a>
+                        <span>
+                          2026-09-01
+                        </span>
+                      </li>
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202608/t20260828_3815878.html" target="_blank" title="省国资委召开挂职干部座谈会">
+                          省国资委召开挂职干部座谈会
+                        </a>
+                        <span>
+                          2026-08-28
+                        </span>
+                      </li>
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202608/t20260826_3753989.html" target="_blank" title="省国资委举办为基层减负业务培训">
+                          省国资委举办为基层减负业务培训
+                        </a>
+                        <span>
+                          2026-08-26
+                        </span>
+                      </li>
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202608/t20260826_3753794.html" target="_blank" title="省国资委召开2026年度上半年外部董事工作调度会议">
+                          省国资委召开2026年度上半年外部董事工作调度会议
+                        </a>
+                        <span>
+                          2026-08-24
+                        </span>
+                      </li>
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202608/t20260813_3401693.html" target="_blank" title="强基固本抓党建 引领高质量发展！<div>省国资委召开夯实基层基础深化党建引领高质量发展专项行动工作推进会</div>">
+                          强基固本抓党建 引领高质量发展！<div>省国资委召开夯实基层基础深化党建引领高质量发展专项行动工作推进会</div>
+                        </a>
+                        <span>
+                          2026-08-13
+                        </span>
+                      </li>
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202608/t20260813_3401692.html" target="_blank" title="省国资委举办云南国资国企综合素质能力提升培训班">
+                          省国资委举办云南国资国企综合素质能力提升培训班
+                        </a>
+                        <span>
+                          2026-08-12
+                        </span>
+                      </li>
+                    
+                      <li>
+                        <a class="list_a" href="./xwzx/gzyw/202608/t20260807_3386266.html" target="_blank" title="数读云南丨一组动图看云南经济半年报">
+                          数读云南丨一组动图看云南经济半年报
+                        </a>
+                        <span>
+                          2026-08-07
+                        </span>
+                      </li>
+                    
+                  </ul>
+                  <div class="list_t list_t_22" style="display: none">
+                    <script language="javascript" type="text/javascript" charset="utf-8" src="//www.yn.gov.cn/zfxx/index.js"></script>
+                  </div>
+                  <div class="list_t list_t_22" style="display: none">
+                    <script language="javascript" type="text/javascript" charset="utf-8" src="//www.gov.cn/pushinfo/v150203/pushinfo.js"></script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 专题 -->
+      <div class="ztzl_box">
+        <div class="inner">
+          <div class="swiper_box2">
+            <div class="swiper-container" id="Swiper2">
+              <div class="swiper-wrapper swiper-wrapper-bg-tip">
+                
+                  <div class="swiper-slide">
+                    <a href="https://zwfw.yn.gov.cn/ynjg/module/duchareport.html" class="img_box" target="_blank" title="云南省“互联网+督查”">
+                      <img src="./hxztlm/2815/images/P020251010722258199070.png" alt="云南省“互联网+督查”" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://tousu.www.gov.cn/dc/index.htm" class="img_box" target="_blank" title="国务院“互联网+督查”">
+                      <img src="./hxztlm/2814/images/P020251010721711227474.jpg" alt="国务院“互联网+督查”" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://www.yn.gov.cn/zwgk/zfgb/" class="img_box" target="_blank" title="政府公报">
+                      <img src="./hxztlm/2818/images/P020251010725514202362.jpg" alt="政府公报" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://www.yn.gov.cn/ztgg/shce/" class="img_box" target="_blank" title="扫黑除恶">
+                      <img src="./hxztlm/2820/images/P020251010726268808144.jpg" alt="扫黑除恶" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://www.gov.cn/hudong/index.htm" class="img_box" target="_blank" title="国务院@你来说">
+                      <img src="./hxztlm/2819/images/P020251010725438509202.jpg" alt="国务院@你来说" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://www.yn.gov.cn/ztgg/qszzxszywjcjf/index.html" class="img_box" target="_blank" title="整治形式主义为基层减负云南在行动">
+                      <img src="./hxztlm/2813/images/P020251010720922550356.jpg" alt="整治形式主义为基层减负云南在行动" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://www.gov.cn/zhengce/zczhjd/" class="img_box" target="_blank" title="重要政策举措及实施效果">
+                      <img src="./hxztlm/2817/images/P020251010724259131728.jpg" alt="重要政策举措及实施效果" height="112" width="311" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="https://www.yn.gov.cn/ztgg/tjzfgmjqjgxnjs/index.html" class="img_box" target="_blank" title="推进作风革命加强机关效能建设">
+                      <img src="./hxztlm/2816/images/P020251010723227766117.jpg" alt="推进作风革命加强机关效能建设" height="112" width="311" />
+                    </a>
+                  </div>
+                
+              </div>
+            </div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev" id="Swiper2Prev"></div>
+            <div class="swiper-button-next" id="Swiper2Next"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p3">
+        <div class="inner py-30r">
+          <div class="row mb-30r">
+            <div class="col-md-l" style="width: 80%">
+              <div class="hover">
+                <h3 class="tab" style="margin-bottom: 14px">
+                  <a href="./zfxxgk/" class="cur tab-btn tab-btn-info" title="信息公开">信息公开</a>
+                  <a href="./wsfw/" class="tab-btn tab-btn-service" title="国资监管">网上服务</a>
+                  <a href="./gzjg/" class="tab-btn tab-btn-supervision" title="国资监管">国资监管</a>
+                  <a onClick="javascript:window.open($(this).parent().find('a.cur').attr('href'), '_blank')" class="enter more_links" title="查看更多">
+                    查看更多
+                    <img src="./images/right.png" alt="" />
+                  </a>
+                </h3>
+                <div class="pane row" id="tab-content-info">
+                  <div class="col-md-l" style="width: 72%">
+                    <div class="tab_pane hover zfxkgk_tab">
+                      <div class="tab">
+                        <a href="./zfxxgk/zc/zcwj/" class="cur zfxkgk_zcwj" title="政策文件">
+                          政策文件
+                        </a>
+                        <a href="./zfxxgk/fdzdgknr/zcjd/" class="zfxkgk_zcjd" title="政策解读">
+                          政策解读
+                        </a>
+                        <a href="./zfxxgk/fdzdgknr/zhsw/czyjs/" class="zfxkgk_zcjd" title="财政预决算">
+                          财政预决算
+                        </a>
+                        <a href="./zfxxgk/zfxxgknb/" class="zfxkgk_zcjd" title="政府信息公开年报">
+                          政府信息公开年报
+                        </a>
+                      </div>
+                      <div class="pane">
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px">
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zc/zcwj/202606/t20260625_3054372.html" target="_blank" title="云南省国资委关于印发《云南省省属企业违规经营投资责任追究实施办法》的通知">
+                                云南省国资委关于印发《云南省省属企业违规经营投资责任追究实施办法》的通知
+                              </a>
+                              <span>
+                                2026-06-09
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zc/zcwj/202407/t20240726_2955125.html" target="_blank" title="云南省国资委关于印发《省属企业突发事件应急管理办法》的通知">
+                                云南省国资委关于印发《省属企业突发事件应急管理办法》的通知
+                              </a>
+                              <span>
+                                2024-07-26
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zc/zcwj/202310/t20231009_2955137.html" target="_blank" title="云南省国资委关于印发《省属企业安全生产“吹哨人”管理办法》的通知">
+                                云南省国资委关于印发《省属企业安全生产“吹哨人”管理办法》的通知
+                              </a>
+                              <span>
+                                2023-10-09
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zc/zcwj/202310/t20231009_2955160.html" target="_blank" title="云南省国资委关于印发《省属国有企业安全总监制度的实施意见》的通知">
+                                云南省国资委关于印发《省属国有企业安全总监制度的实施意见》的通知
+                              </a>
+                              <span>
+                                2023-10-09
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zc/zcwj/202309/t20230905_2955127.html" target="_blank" title="云南省国资委 云南省财政厅关于印发《云南省国有企业反商业贿赂监管办法》的通知">
+                                云南省国资委 云南省财政厅关于印发《云南省国有企业反商业贿赂监管办法》的通知
+                              </a>
+                              <span>
+                                2023-09-05
+                              </span>
+                            </li>
+                          
+                        </ul>
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px; display: none" bfdi="508">
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zcjd/202606/t20260625_3054383.html" target="_blank" title="《云南省省属企业违规经营投资责任追究实施办法》政策解读">
+                                《云南省省属企业违规经营投资责任追究实施办法》政策解读
+                              </a>
+                              <span>
+                                2026-06-11
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zcjd/202409/t20240903_2955055.html" target="_blank" title="一图读懂《云南省国有企业反商业贿赂监管办法》">
+                                一图读懂《云南省国有企业反商业贿赂监管办法》
+                              </a>
+                              <span>
+                                2024-09-03
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zcjd/202407/t20240728_2955050.html" target="_blank" title="一图读懂《省属企业突发事件应急管理办法》">
+                                一图读懂《省属企业突发事件应急管理办法》
+                              </a>
+                              <span>
+                                2024-07-28
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zcjd/202310/t20231010_2955069.html" target="_blank" title="省国资委关于《省属国有企业安全总监制度的实施意见》的解读">
+                                省国资委关于《省属国有企业安全总监制度的实施意见》的解读
+                              </a>
+                              <span>
+                                2023-10-10
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zcjd/202310/t20231010_2955074.html" target="_blank" title="省国资委关于《省属企业安全生产“吹哨人”管理办法》的解读">
+                                省国资委关于《省属企业安全生产“吹哨人”管理办法》的解读
+                              </a>
+                              <span>
+                                2023-10-10
+                              </span>
+                            </li>
+                          
+                        </ul>
+
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px; display: none" bfdi="508">
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zhsw/czyjs/202608/t20260824_3722426.html" target="_blank" title="云南省2025年省级国有资本经营预算财政拨款支出决算公开表">
+                                云南省2025年省级国有资本经营预算财政拨款支出决算公开表
+                              </a>
+                              <span>
+                                2026-08-24
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zhsw/czyjs/202608/t20260817_3548982.html" target="_blank" title="云南省人民政府国有资产监督管理委员会2025年度部门决算">
+                                云南省人民政府国有资产监督管理委员会2025年度部门决算
+                              </a>
+                              <span>
+                                2026-08-17
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zhsw/czyjs/202602/t20260209_2955225.html" target="_blank" title="云南省人民政府国有资产监督管理委员会2026年预算公开">
+                                云南省人民政府国有资产监督管理委员会2026年预算公开
+                              </a>
+                              <span>
+                                2026-02-09
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zhsw/czyjs/202602/t20260209_2955226.html" target="_blank" title="云南省人民政府国有资产监督管理委员会2026年机关本级预算公开">
+                                云南省人民政府国有资产监督管理委员会2026年机关本级预算公开
+                              </a>
+                              <span>
+                                2026-02-09
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/fdzdgknr/zhsw/czyjs/202508/t20250829_2955227.html" target="_blank" title="云南省2024年省级国有资本经营预算财政拨款支出决算公开表">
+                                云南省2024年省级国有资本经营预算财政拨款支出决算公开表
+                              </a>
+                              <span>
+                                2025-08-29
+                              </span>
+                            </li>
+                          
+                        </ul>
+
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px; display: none" bfdi="508">
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zfxxgknb/202601/t20260128_2952456.html" target="_blank" title="云南省国资委2025年政府信息公开工作年度报告">
+                                云南省国资委2025年政府信息公开工作年度报告
+                              </a>
+                              <span>
+                                2026-01-28
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zfxxgknb/202501/t20250124_2952452.html" target="_blank" title="云南省国资委2024年政府信息公开工作年度报告">
+                                云南省国资委2024年政府信息公开工作年度报告
+                              </a>
+                              <span>
+                                2025-01-24
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zfxxgknb/202401/t20240131_2952451.html" target="_blank" title="云南省国资委2023年政府信息公开工作年度报告">
+                                云南省国资委2023年政府信息公开工作年度报告
+                              </a>
+                              <span>
+                                2024-01-31
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zfxxgknb/202301/t20230130_2952463.html" target="_blank" title="云南省国资委2022年政府信息公开工作年度报告">
+                                云南省国资委2022年政府信息公开工作年度报告
+                              </a>
+                              <span>
+                                2023-01-30
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./zfxxgk/zfxxgknb/202201/t20220125_2952471.html" target="_blank" title="云南省国资委2021年政府信息公开工作年度报告">
+                                云南省国资委2021年政府信息公开工作年度报告
+                              </a>
+                              <span>
+                                2022-01-25
+                              </span>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-r" style="width: 25%">
+                    <div class="zfxkgk_btn_box">
+                      <a href="./zfxxgk/zfxxgknb/" title="政府信息公开年报">
+                        <img src="./zfxxgk/zfxxgknb/images/P020251020404106802365.png" alt="" />
+                        政府信息公开年报
+                      </a>
+                      <a href="./zfxxgk/zfxxgkzn/" title="政府信息公开指南">
+                        <img src="./zfxxgk/zfxxgkzn/images/P020251020404222331842.png" alt="" />
+                        政府信息公开指南
+                      </a>
+                      <a href="./zfxxgk/zfxxgkzd/" title="政府信息公开制度">
+                        <img src="./zfxxgk/zfxxgkzd/images/P020251020404419347547.png" alt="" />
+                        政府信息公开制度
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="pane row" id="tab-content-service">
+                  <div class="col-md-l" style="width: 97%">
+                    <div class="tab_pane hover zfxkgk_tab">
+                      <div class="tab">
+                        <a href="./wsfw/bszn/" class="cur zfxkgk_zcwj" title="办事指南">
+                          办事指南
+                        </a>
+                        <a href="./wsfw/sjxz/" class="zfxkgk_zcjd" title="数据下载">
+                          数据下载
+                        </a>
+                      </div>
+                      <div class="pane">
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px" bfdi="508">
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/bszn/202411/t20241108_2952037.html" target="_blank" title="常见问题问答">
+                                常见问题问答
+                              </a>
+                              <span>
+                                2024-11-08
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/bszn/201507/t20150731_2952039.html" target="_blank" title="办理国家出资企业产权登记事项">
+                                办理国家出资企业产权登记事项
+                              </a>
+                              <span>
+                                2015-07-31
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/bszn/201507/t20150730_2952038.html" target="_blank" title="省属企业资产评估备案">
+                                省属企业资产评估备案
+                              </a>
+                              <span>
+                                2015-07-30
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/bszn/201507/t20150730_2952040.html" target="_blank" title="企业国有产权转让办理事项">
+                                企业国有产权转让办理事项
+                              </a>
+                              <span>
+                                2015-07-30
+                              </span>
+                            </li>
+                          
+                        </ul>
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px; display: none" bfdi="508">
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/sjxz/202310/t20231018_2952055.html" target="_blank" title="省属企业生产安全事故季报表">
+                                省属企业生产安全事故季报表
+                              </a>
+                              <span>
+                                2023-10-18
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/sjxz/202212/t20221221_2952049.html" target="_blank" title="云南省国资国企咨询专家申请表">
+                                云南省国资国企咨询专家申请表
+                              </a>
+                              <span>
+                                2022-12-21
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./wsfw/sjxz/202206/t20220604_2952053.html" target="_blank" title="2022年国有房屋租金减免政策落实情况统计表">
+                                2022年国有房屋租金减免政策落实情况统计表
+                              </a>
+                              <span>
+                                2022-06-04
+                              </span>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pane row" id="tab-content-supervision">
+                  <div class="col-md-l" style="width: 97%">
+                    <div class="tab_pane hover zfxkgk_tab">
+                      <div class="pane">
+                        <ul class="list_t animated slideInRight" style="margin-top: -15px" bfdi="508">
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/tjpjycwjd/202608/t20260821_3654413.html" target="_blank" title="省属企业2026年1-6月经济运行概况">
+                                省属企业2026年1-6月经济运行概况
+                              </a>
+                              <span>
+                                2026-08-21
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/tjpjycwjd/202608/t20260821_3654412.html" target="_blank" title="省属企业2026年1-5月经济运行概况">
+                                省属企业2026年1-5月经济运行概况
+                              </a>
+                              <span>
+                                2026-08-21
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/fzjs/202608/t20260821_3654403.html" target="_blank" title="强化穿透监管，夯实合规根基——<div>省属企业法治工作第五协作组2026年交流会在能源集团召开</div>">
+                                强化穿透监管，夯实合规根基——<div>省属企业法治工作第五协作组2026年交流会在能源集团召开</div>
+                              </a>
+                              <span>
+                                2026-08-21
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/djgz/202608/t20260813_3401691.html" target="_blank" title="淬炼党性强担当 凝心聚力促发展 省国资委2026年度党员基本培训班圆满结业">
+                                淬炼党性强担当 凝心聚力促发展 省国资委2026年度党员基本培训班圆满结业
+                              </a>
+                              <span>
+                                2026-08-13
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/djgz/202608/t20260813_3401672.html" target="_blank" title="党建联建聚合力 企地协同促振兴——<div>省国资委驻村工作队搭建平台开展国企地方党组织共建主题党日</div>">
+                                党建联建聚合力 企地协同促振兴——<div>省国资委驻村工作队搭建平台开展国企地方党组织共建主题党日</div>
+                              </a>
+                              <span>
+                                2026-08-13
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/jgjs/202608/t20260805_3386186.html" target="_blank" title="云南省国资委开展庆祝建军99周年暨纪念长征胜利90周年主题活动">
+                                云南省国资委开展庆祝建军99周年暨纪念长征胜利90周年主题活动
+                              </a>
+                              <span>
+                                2026-08-03
+                              </span>
+                            </li>
+                          
+                            <li>
+                              <a class="list_a" href="./gzjg/khfp/202607/P020260731559213796770.pdf" target="_blank" title="关于公布2026年第二批拖欠农民工工资失信联合惩戒对象名单的公告">
+                                关于公布2026年第二批拖欠农民工工资失信联合惩戒对象名单的公告
+                              </a>
+                              <span>
+                                2026-07-31
+                              </span>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-r" style="width: 18%">
+              <div class="image-gallery">
+                
+                  <div class="gallery-item">
+                    <a href="https://gzw.yn.gov.cn/ztzl/gqggsnxd/" class="gallery-link">
+                      <img src="./sxztlm/56365/images/P020251118361940720413.jpg" alt="国企改革三年行动展示" class="gallery-image" />
+                      <div class="gallery-overlay">
+                        <span class="gallery-title">
+                          国企改革三年行动展示
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                
+                  <div class="gallery-item">
+                    <a href="https://gzw.yn.gov.cn/ztzl/clgqppzxgzdd/" class="gallery-link">
+                      <img src="./sxztlm/56366/images/P020251118362003178084.jpg" alt="擦亮国企品牌展示" class="gallery-image" />
+                      <div class="gallery-overlay">
+                        <span class="gallery-title">
+                          擦亮国企品牌展示
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                
+                  <div class="gallery-item">
+                    <a href="https://gzw.yn.gov.cn/ztzl/gyqyxxgk/" class="gallery-link">
+                      <img src="./sxztlm/56364/images/P020251118361846109549.jpg" alt="国有企业信息公开展示" class="gallery-image" />
+                      <div class="gallery-overlay">
+                        <span class="gallery-title">
+                          国有企业信息公开展示
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="inner mb-30px mt-20px">
+        <div>
+          <h3 class="tab">
+            <a href="./hdjl/" target="_blank" class="cur">互动交流</a>
+          </h3>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <a href="./hdjl/zfzx/" title="政务咨询" target="_blank" class="card-link">
+              <div class="card-image">
+                <img src="./images/zwzx.jpg" alt="政务咨询" class="card-img" />
+                <div class="card-overlay">
+                  <div class="card-content">
+                    <h3 class="card-title">政务咨询</h3>
+                    <p class="card-desc">在线咨询政务服务相关问题</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="gallery-card">
+            <a href="./hdjl/zxts/" title="在线投诉" target="_blank" class="card-link">
+              <div class="card-image">
+                <img src="./images/zxts.jpg" alt="在线投诉" class="card-img" />
+                <div class="card-overlay">
+                  <div class="card-content">
+                    <h3 class="card-title">在线投诉</h3>
+                    <p class="card-desc">快速反馈问题，及时处理投诉</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="gallery-card">
+            <a href="./hdjl/yjzj/" title="意见征集" target="_blank" class="card-link">
+              <div class="card-image">
+                <img src="./images/yjzj.jpg" alt="意见征集" class="card-img" />
+                <div class="card-overlay">
+                  <div class="card-content">
+                    <h3 class="card-title">意见征集</h3>
+                    <p class="card-desc">参与政府决策，共建美好家园</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="gallery-card">
+            <a href="./hdjl/xszj/" title="线索征集" target="_blank" class="card-link">
+              <div class="card-image">
+                <img src="./images/xszj.png" alt="线索征集" class="card-img" />
+                <div class="card-overlay">
+                  <div class="card-content">
+                    <h3 class="card-title">线索征集</h3>
+                    <p class="card-desc">举报违法违纪，维护社会正义</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ztzl_box pt-30px pb-30px">
+        <div class="inner py-30r" bfdi="489">
+          <h3 class="tab" bfdi="568">
+            <a href="./xwzx/ssqy/" target="_blank" class="cur" bfdi="569">
+              省属企业
+            </a>
+            <a onClick="javascript:window.open($(this).parent().find('a.cur').attr('href'), '_blank')" class="enter more_links" title="查看更多">
+              查看更多
+              <img src="./images/right.png" alt="" />
+            </a>
+          </h3>
+          <!-- 内容列表 -->
+          <div class="content-list-wrapper">
+            <div class="content-list-columns">
+              <div class="dynamic-list-container">
+                <ul class="list_t">
+                  
+                    <li>
+                      <a class="list_a" href="./xwzx/ssqy/202609/t20260929_4341092.html" target="_blank" title="云南农发（农垦）集团昭通农投公司: 硕果满枝头 产业庆丰收">
+                        云南农发（农垦）集团昭通农投公司: 硕果满枝头 产业庆丰收
+                      </a>
+                      <span>
+                        2026-09-29
+                      </span>
+                    </li>
+                  
+                    <li>
+                      <a class="list_a" href="./xwzx/ssqy/202609/t20260929_4341132.html" target="_blank" title="云南建投集团抢抓施工黄金期  云南高速公路建设又有新进展">
+                        云南建投集团抢抓施工黄金期  云南高速公路建设又有新进展
+                      </a>
+                      <span>
+                        2026-09-28
+                      </span>
+                    </li>
+                  
+                    <li>
+                      <a class="list_a" href="./xwzx/ssqy/202609/t20260917_4339110.html" target="_blank" title="云南农发（农垦）集团科技项目攻克关键技术 推动云南天然橡胶高质量发展">
+                        云南农发（农垦）集团科技项目攻克关键技术 推动云南天然橡胶高质量发展
+                      </a>
+                      <span>
+                        2026-09-17
+                      </span>
+                    </li>
+                  
+                    <li>
+                      <a class="list_a" href="./xwzx/ssqy/202609/t20260917_4339109.html" target="_blank" title="云锡控股2项成果获云南省2025年度科学技术奖励">
+                        云锡控股2项成果获云南省2025年度科学技术奖励
+                      </a>
+                      <span>
+                        2026-09-16
+                      </span>
+                    </li>
+                  
+                    <li>
+                      <a class="list_a" href="./xwzx/ssqy/202609/t20260917_4339108.html" target="_blank" title="人民日报整版推介云天化集团：推进数智化转型 赋能高质量发展">
+                        人民日报整版推介云天化集团：推进数智化转型 赋能高质量发展
+                      </a>
+                      <span>
+                        2026-09-16
+                      </span>
+                    </li>
+                  
+                    <li>
+                      <a class="list_a" href="./xwzx/ssqy/202609/t20260917_4339107.html" target="_blank" title="从 “看天吃饭” 到 “活水护田” 云南建投集团书写边疆惠民新答卷">
+                        从 “看天吃饭” 到 “活水护田” 云南建投集团书写边疆惠民新答卷
+                      </a>
+                      <span>
+                        2026-09-14
+                      </span>
+                    </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- 轮播图 -->
+          <div class="swiper_box2" bfdi="570">
+            <div class="swiper-container swiper-container-initialized swiper-container-horizontal" id="Swiper3" bfdi="571">
+              <div class="swiper-wrapper" bfdi="572">
+                
+                  <div class="swiper-slide">
+                    <a href="./xwzx/ssqy/202609/t20260907_4190493.html" target="_blank" title="营收利润现金流“三增”背后——云南白药的产业内核与政策共振" class="img_box">
+                      <img src="./xwzx/ssqy/202609/W020260907416267567586.png" alt="营收利润现金流“三增”背后——云南白药的产业内核与政策共振" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="./xwzx/ssqy/202608/t20260826_3754663.html" target="_blank" title="云天化聚甲醛纤维成功应用于地下空间支护" class="img_box">
+                      <img src="./xwzx/ssqy/202608/W020260826567551235887.png" alt="云天化聚甲醛纤维成功应用于地下空间支护" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="./xwzx/ssqy/202607/t20260730_3263727.html" target="_blank" title="深耕绿色金融 赋能能源转型——<div>富滇银行助力云南省首个全钒液流储能项目落地</div>" class="img_box">
+                      <img src="./xwzx/ssqy/202607/W020260730373539591135.jpg" alt="深耕绿色金融 赋能能源转型——<div>富滇银行助力云南省首个全钒液流储能项目落地</div>" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="./xwzx/ssqy/202607/t20260724_3253188.html" target="_blank" title="云南农发（农垦）集团下属云粮集团实施的国家重点研发项目取得阶段性成效" class="img_box">
+                      <img src="./xwzx/ssqy/202607/W020260724425721295461.jpg" alt="云南农发（农垦）集团下属云粮集团实施的国家重点研发项目取得阶段性成效" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="./xwzx/ssqy/202603/t20260316_2949399.html" target="_blank" title="云南能源集团蹚出政企协同助力乡村振兴新路子——绿电赋能兴乡村 国企担当惠民生" class="img_box">
+                      <img src="./xwzx/ssqy/202603/W020260323586694508840.png" alt="云南能源集团蹚出政企协同助力乡村振兴新路子——绿电赋能兴乡村 国企担当惠民生" />
+                    </a>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <a href="./xwzx/ssqy/202603/t20260309_2948969.html" target="_blank" title="实干启新！云南省能源集团两个光伏项目投产" class="img_box">
+                      <img src="./xwzx/ssqy/202603/W020260323579412953320.jpg" alt="实干启新！云南省能源集团两个光伏项目投产" />
+                    </a>
+                  </div>
+                
+              </div>
+            </div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev" id="Swiper3Prev" bfdi="633" tabindex="0" role="button" aria-label="Previous slide"></div>
+            <div class="swiper-button-next" id="Swiper3Next" bfdi="634" tabindex="0" role="button" aria-label="Next slide"></div>
+          </div>
+
+          <div class="dbewm">
+            <img src="./images/dbgntp.jpg" class="_87ae6fb631f7c8a627e8e28785d9992d" />
+
+            <a href="//zwfw.yn.gov.cn/wenjuan/papersurvey/WebDefault.action?prcode=20211027090308ozhqoy" title="问卷调查" target="_blank" aria-label="(另开新窗口)" style="right: 60px; top: 80px"></a>
+            <a href="//zwfw.yn.gov.cn/portal/#/complaint-form-test" title="投诉建议" target="_blank" aria-label="(另开新窗口)" style="right: 163px; top: 80px"></a>
+            <a href="//zwfw.yn.gov.cn/ynjg/module/duchareport.html" title="督查举报" target="_blank" aria-label="(另开新窗口)" style="right: 340px; top: 80px"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content 结束 -->
+
+    <!-- footer 开始 -->
+    <!-- footer 开始 -->
+
+
+<style>
+  .copyright_box a {
+    color: #fff;
+  }
+
+  .dfb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #_span_jiucuo img {
+    width: 110px;
+  }
+</style>
+<div class="footer no-print">
+  <!-- links 开始 -->
+  <div class="links inner dfb aic">
+    <span class="yqlj" style="width: 160px">友情链接：</span>
+    <ul>
+      <li class="more_links custom_icon">
+        <a ignoreapd="true" href="javascript:;">全国国资系统网站</a>
+        <ul>
+          
+            <li>
+              <a href="http://www.sasac.gov.cn/index.html" title="国务院国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                国务院国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.beijing.gov.cn/" title="北京市国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                北京市国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://sasac.tj.gov.cn/" title="天津市国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                天津市国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://hbsa.hebei.gov.cn/" title="河北省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                河北省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.shanxi.gov.cn/" title="山西省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                山西省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.nmg.gov.cn/" title="内蒙古自治区国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                内蒙古自治区国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://gzw.ln.gov.cn/" title="辽宁省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                辽宁省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://gzw.jl.gov.cn/" title="吉林省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                吉林省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://gzw.hlj.gov.cn/" title="黑龙江省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                黑龙江省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://www.gzw.sh.gov.cn/" title="上海市国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                上海市国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://jsgzw.jiangsu.gov.cn/index.html" title="江苏省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                江苏省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.zj.gov.cn/" title="浙江省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                浙江省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.ah.gov.cn/" title="安徽省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                安徽省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.fujian.gov.cn/" title="福建省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                福建省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.jiangxi.gov.cn/" title="江西省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                江西省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.shandong.gov.cn/" title="山东省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                山东省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://gzw.henan.gov.cn/" title="河南省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                河南省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.hubei.gov.cn/" title="湖北省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                湖北省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.hunan.gov.cn/" title="湖南省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                湖南省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.gd.gov.cn/" title="广东省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                广东省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.gxzf.gov.cn/" title="广西壮族自治区国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                广西壮族自治区国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://gzw.hainan.gov.cn/" title="海南省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                海南省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.cq.gov.cn/" title="重庆市国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                重庆市国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.sc.gov.cn/" title="四川省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                四川省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.guizhou.gov.cn/" title="贵州省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                贵州省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="" title="西藏自治区国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                西藏自治区国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://sxgz.shaanxi.gov.cn/" title="陕西省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                陕西省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.gansu.gov.cn/" title="甘肃省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                甘肃省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.qinghai.gov.cn/" title="青海省国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                青海省国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.nx.gov.cn/" title="宁夏回族自治区国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                宁夏回族自治区国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.xinjiang.gov.cn/" title="新疆维吾尔自治区国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                新疆维吾尔自治区国有资产监督管理委员会
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://gyzc.xjbt.gov.cn/" title="新疆生产建设兵团国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                新疆生产建设兵团国有资产监督管理委员会
+              </a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="more_links custom_icon">
+        <a ignoreapd="true" href="javascript:;">省属企业网站</a>
+        <ul>
+          
+            <li>
+              <a href="https://www.cnyig.com/html/cnyig/index.html" title="云南省投资控股集团有限公司" target="_blank" rel="noopener noreferrer">
+                云南省投资控股集团有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.ytc.cn" title="云南锡业集团(控股）有限责任公司" target="_blank" rel="noopener noreferrer">
+                云南锡业集团(控股）有限责任公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://yth.cn/" title="云天化集团有限责任公司" target="_blank" rel="noopener noreferrer">
+                云天化集团有限责任公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.cnyeig.com" title="云南省能源集团有限公司" target="_blank" rel="noopener noreferrer">
+                云南省能源集团有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.ynairport.com" title="云南航空产业投资集团有限责任公司" target="_blank" rel="noopener noreferrer">
+                云南航空产业投资集团有限责任公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.ynjstzkg.com" title="云南省建设投资控股集团有限公司" target="_blank" rel="noopener noreferrer">
+                云南省建设投资控股集团有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.ynyunken.com" title="云南省现代农业发展集团有限责任公司（云南农垦集团有限责任公司）" target="_blank" rel="noopener noreferrer">
+                云南省现代农业发展集团有限责任公司（云南农垦集团有限责任公司）
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.ygtgp.com" title="云南省工业投资控股集团有限责任公司" target="_blank" rel="noopener noreferrer">
+                云南省工业投资控股集团有限责任公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.hct.cn" title="云南省康旅控股集团有限公司" target="_blank" rel="noopener noreferrer">
+                云南省康旅控股集团有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.ynkg.com" title="昆明钢铁控股有限公司" target="_blank" rel="noopener noreferrer">
+                昆明钢铁控股有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.fudian-bank.com" title="富滇银行股份有限公司" target="_blank" rel="noopener noreferrer">
+                富滇银行股份有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://www.sino-precious.com" title="云南省贵金属新材料控股集团股份有限公司" target="_blank" rel="noopener noreferrer">
+                云南省贵金属新材料控股集团股份有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://www.ydi.cn/" title="云南省设计院集团有限公司" target="_blank" rel="noopener noreferrer">
+                云南省设计院集团有限公司
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://www.cynee.net" title="云南省产权交易所集团有限公司" target="_blank" rel="noopener noreferrer">
+                云南省产权交易所集团有限公司
+              </a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="more_links custom_icon">
+        <a ignoreapd="true" href="javascript:;">州市国资机构网站</a>
+        <ul>
+          
+            <li>
+              <a href="http://gzw.km.gov.cn/" title="昆明市国有资产监督管理委员会" target="_blank" rel="noopener noreferrer">
+                昆明市国有资产监督管理委员会
+              </a>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- links 结束 -->
+  <!-- copyright 开始 -->
+  <div class="copyright_box" style="background-color: #980b04">
+    <div class="inner">
+      <div class="copyright_wrapper">
+        <p class="copyright_item" style="font-size: 16px">
+          <a ignoreapd="true" href="https://gzw.yn.gov.cn/ggbf/sitemap/" target="_blank">
+            <img class="copyright_item_icon" style="display: block; margin: 10px auto" src="https://gzw.yn.gov.cn/images/sitemap.png" alt="" />
+            网站地图
+          </a>
+        </p>
+        <p class="copyright_item" style="font-size: 16px">
+          <a ignoreapd="true" href="https://gzw.yn.gov.cn/ggbf/wzsm/" target="_blank">
+            <img class="copyright_item_icon" style="display: block; margin: 10px auto" src="https://gzw.yn.gov.cn/images/contact.png" alt="" />
+            网站声明
+          </a>
+        </p>
+
+        <div class="copyright_item_info">
+          <p>
+            <span>Copyright © 主办单位：云南省人民政府国有资产监督管理委员</span>
+          </p>
+          <p>
+            <span><a ignoreapd="true" href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">滇ICP备05008927号-2</a>&nbsp;&nbsp;网站标识码：5300000017</span>
+          </p>
+          <p>
+            <span>通讯地址：昆明市龙井街1号 邮政编码：650031</span>
+          </p>
+          <p>
+            <span>联系电话：0871-63611063 传真：0871-63611167</span>
+          </p>
+          <p>
+            <span style="display: inline-flex; align-items: center">
+              <img style="padding-right: 4px" src="https://gzw.yn.gov.cn/images/footer_gh.png" alt="" />
+              <a ignoreapd="true" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=53010202000470" target="_blank">滇公网安备：53010202000470号</a>
+            </span>
+          </p>
+        </div>
+
+        <div class="copyright_item_img_container">
+          <a ignoreapd="true" href="https://bszs.conac.cn/sitename?method=show&id=09700138718735E7E053022819ACA0AD" target="_blank" class="ariaskiptheme"><img id="imgConac" vspace="0" hspace="0" border="0" src="https://dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" /></a>
+        </div>
+
+        <div class="copyright_item_img_container">
+          <span id="_span_jiucuo" sitecode="5300000017"></span>
+        </div>
+
+        <div class="copyright_item_img_container">
+          <a ignoreapd="true" href="https://gzw.yn.gov.cn/ggbf/bgt/" target="_blank" class="ariaskiptheme"><img src="//www.yn.gov.cn/material/bgt.png" /></a>
+        </div>
+
+        <div class="copyright_item_img_container">
+          <a ignoreapd="true" href="http://wza.isc.org.cn/rzpt/bsgl/dt/20240926/3562.html" target="_blank" class="ariaskiptheme"><img src="https://gzw.yn.gov.cn/images/footer_wza.png" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- copyright 结束 -->
+</div>
+
+<script src="https://gzw.yn.gov.cn/images/videoReplace.js"></script>
+<script id="_jiucuo_" sitecode='5300000017' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=6658" async="async" defer="defer"></script>
+
+<script>
+  $(function () {
+    //点击链接时 判断是否是外链，如果是弹出提示框
+    var outReg = /^(https?:)?\/\/[a-zA-Z0-9\.]+\.gov\.cn/;
+    var siteDesc = '云南省人民政府国有资产监督管理委员会';
+    jQuery(document).undelegate("a");
+    jQuery(document).delegate("a", "click", function (event) {
+      var iCurrHerf = jQuery(this).attr("href");
+      var iCurrId = jQuery(this).attr("id");
+
+      var isOldHtml = false;
+
+      try {
+        if (window.top && window.top.location.href.indexOf("old.html") >= 0) {
+          isOldHtml = true;
+        }
+        // 如果是在长者模式下，并且是外部链接，并且是新窗口打开，则在当前窗口中打开
+        if (
+          isOldHtml &&
+          window.top.location.origin === jQuery(this)[0].origin &&
+          jQuery(this).attr("target") == "_blank"
+        ) {
+          event.preventDefault();
+          isOldHtml = true;
+          window.location.href = jQuery(this).attr("href");
+        }
+      } catch (e) {
+        console.error(e);
+      }
+
+      if (iCurrHerf) {
+        if (iCurrId != "outLinkA") {
+          if (iCurrHerf.indexOf(".cn") >= 0 || iCurrHerf.indexOf(".com") >= 0) {
+            if (!outReg.test(iCurrHerf)) {
+              event.preventDefault();
+              var iPs =
+                "您打开的是外部链接，该网页内容并非由" +
+                siteDesc +
+                "提供，请注意甄别、确保上网安全。";
+              jQuery("body").append(
+                '<div class="otherlink-bg"></div><div class="otherlink-pop"><a href="javascript:;" class="closeBtn offBtn">×</a><h2>' +
+                iPs +
+                '</h2><p class="btns"><a href="javascript:;" class="closeBtn">放弃</a><a href="' +
+                jQuery(this).attr("href") +
+                '" id="outLinkA" class="toOtherLink" tag="' +
+                jQuery(this).attr("href") +
+                '" target="_blank"  rel="noopener noreferrer">继续访问</a></p></div>',
+              );
+              setTimeout(function () {
+                jQuery(".otherlink-bg").addClass("in");
+                jQuery(".otherlink-pop").addClass("in");
+              }, 300);
+
+              jQuery(".otherlink-pop a.closeBtn").click(function () {
+                jQuery(".otherlink-bg").removeClass("in");
+                jQuery(".otherlink-pop").removeClass("in");
+                setTimeout(function () {
+                  jQuery(".otherlink-bg").remove();
+                  jQuery(".otherlink-pop").remove();
+                }, 300);
+              });
+              jQuery(".otherlink-pop a.toOtherLink").click(function () {
+                jQuery(".otherlink-bg").hide();
+                jQuery(".otherlink-pop").hide();
+              });
+
+              if (isOldHtml) {
+                // window.top  body 元素滚动到屏幕中间
+                window.top.scrollTo(
+                  0,
+                  (jQuery(window.top.document.body).height() - 100) / 2,
+                );
+              }
+            }
+          }
+        }
+      }
+    });
+  });
+</script>
+
+    <!-- 飘窗 -->
+    <!-- 飘窗 -->
+<div class="fiexd_box mobile-hidden">
+  <div class="leftbar" style="top: 400px">
+    <div
+      class="close-bar bar"
+      onclick="this.parentNode.parentNode.removeChild(this.parentNode);return false;"
+    >
+      X
+    </div>
+
+    <div class="bar showBar" style="padding: 0 0 0 0">
+      <a
+        ignoreapd="true"
+        href="https://gzw.yn.gov.cn/hdjl/xszj/"
+        target="_blank"
+      >
+        <img src="https://gzw.yn.gov.cn/images/tkxszj.jpg" style="height: auto; width: 200px" />
+      </a>
+      <!-- <p></p> -->
+    </div>
+
+    <div class="bar showBar" style="padding: 0 0 0 0">
+      <a
+        ignoreapd="true"
+        href="https://gzw.yn.gov.cn/ggbf/zybsyjjy/"
+        target="_blank"
+      >
+        <img src="https://gzw.yn.gov.cn/images/tkyjjy.jpg" style="height: auto; width: 200px" />
+      </a>
+      <!-- <p></p> -->
+    </div>
+  </div>
+  <div class="rightbar" style="top: 100px">
+    <div
+      class="close-bar bar"
+      onclick="this.parentNode.parentNode.removeChild(this.parentNode);return false;"
+    >
+      X
+    </div>
+
+    <div class="bar showBar" style="padding: 0 0 0 0">
+      <a
+        ignoreapd="true"
+        href="https://zwfw.yn.gov.cn/portal/#/home"
+        target="_blank"
+      >
+        <img src="https://gzw.yn.gov.cn/images/pc2.jpg" alt="640-416.jpg" style="height: 380px; width: 140px" />
+      </a>
+      <!-- <p></p> -->
+    </div>
+    <div class="bar showBar" style="padding: 0 0 0 0">
+      <img src="https://gzw.yn.gov.cn/images/pc1.png" alt="640-416.jpg" style="height: 347px; width: 140px" />
+      <!-- <p></p> -->
+    </div>
+  </div>
+</div>
+<style>
+  .mobile-hidden {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .mobile-hidden {
+      display: block;
+    }
+  }
+</style>
+    <!--访问统计-->
+    <!-- footer 结束 -->
+  </div>
+  <script>
+
+    // 处理列表中的链接，添加title属性
+    $(".list_a").each(function (index, item) {
+      const text = $(item).text().trim();
+      $(item).html(text);
+      $(item).attr("title", text);
+    });
+    // 主tab切换功能
+    $(function () {
+      // 隐藏所有面板，只显示第一个
+      $("#tab-content-service, #tab-content-supervision").hide();
+      $("#tab-content-info").show();
+
+      // 主tab悬停事件
+      $(".tab-btn-info, .tab-btn-service, .tab-btn-supervision").hover(
+        function () {
+          // 移除所有tab的cur类
+          $(
+            ".tab-btn-info, .tab-btn-service, .tab-btn-supervision"
+          ).removeClass("cur");
+          // 给当前悬停的tab添加cur类
+          $(this).addClass("cur");
+
+          // 隐藏所有面板
+          $(
+            "#tab-content-info, #tab-content-service, #tab-content-supervision"
+          ).hide();
+
+          // 根据悬停的tab显示对应面板
+          if ($(this).hasClass("tab-btn-info")) {
+            $("#tab-content-info").show();
+          } else if ($(this).hasClass("tab-btn-service")) {
+            $("#tab-content-service").show();
+          } else if ($(this).hasClass("tab-btn-supervision")) {
+            $("#tab-content-supervision").show();
+          }
+        }
+      );
+    });
+  </script>
+</body>
+
+</html>

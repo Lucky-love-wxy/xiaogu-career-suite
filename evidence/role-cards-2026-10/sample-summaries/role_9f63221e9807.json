@@ -1,0 +1,574 @@
+{
+  "name": [
+    {
+      "text": "人工智能工程师（未细分）",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "人工智能工程师（未细分）"
+        }
+      ]
+    }
+  ],
+  "sample_n": 8,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "参与人工智能高质量数据集的规划与建设",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5ntZZL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5ntZZL",
+          "text": "参与人工智能高质量数据集的规划与建设"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与编写相关需求、设计、方案、报告等相关文档",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwy5ZLz5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwy5ZLz5M",
+          "text": "参与编写相关需求、设计、方案、报告等相关文档"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与AI项目、AI产品的研发、调优、落地等工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwy5ZLz5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwy5ZLz5M",
+          "text": "参与AI项目、AI产品的研发、调优、落地等工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与人工智能相关产品的运营与效果迭代，分析用户反馈并持续优化",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5ntZZL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5ntZZL",
+          "text": "参与人工智能相关产品的运营与效果迭代，分析用户反馈并持续优化"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与数据算法建模的分析、设计和研发，并协作其它团队完成相关交付",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwy5ZLz5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwy5ZLz5M",
+          "text": "参与数据算法建模的分析、设计和研发，并协作其它团队完成相关交付"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与人工智能相关项目和产品的技术设计、开发和维护，推动AI技术在出版与知识服务场景的落地",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5ntZZL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5ntZZL",
+          "text": "参与人工智能相关项目和产品的技术设计、开发和维护，推动AI技术在出版与知识服务场景的落地"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与出版与科技融合发展相关项目，探索大语言模型、知识图谱、智能检索等技术在内容生产与传播中的创新应用",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5ntZZL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5ntZZL",
+          "text": "参与出版与科技融合发展相关项目，探索大语言模型、知识图谱、智能检索等技术在内容生产与传播中的创新应用"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "8份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vky5Mttnn"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt",
+          "vsy5azn5M",
+          "vyk5CNZLa"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，4份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 4,
+        "denominator": 8,
+        "matched_ids": [
+          "vky5C5ZC5",
+          "vmm5MZ5MC",
+          "vrm5ntZZL",
+          "vwy5ZLz5M"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，3份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 3,
+        "denominator": 8,
+        "matched_ids": [
+          "vky5Mttnn",
+          "vmm5MZ5MC",
+          "vsy5azn5M"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“建筑类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "建筑类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“数学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "数学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vyk5CNZLa"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“电子信息类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电子信息类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vky5C5ZC5"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“电气类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电气类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“管理科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "管理科学与工程类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vwy5ZLz5M"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“统计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "统计学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vwy5ZLz5M"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，5份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 5,
+        "denominator": 8,
+        "matched_ids": [
+          "vky5C5ZC5",
+          "vlm5nZNNt",
+          "vrm5ntZZL",
+          "vwy5ZLz5M",
+          "vyk5CNZLa"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“设计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "设计学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt"
+        ]
+      }
+    },
+    {
+      "text": "8份保留的校招平台样本中，1份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 1,
+        "denominator": 8,
+        "matched_ids": [
+          "vwy5ZLz5M"
+        ]
+      }
+    },
+    {
+      "text": "8份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vky5Mttnn",
+        "vlm5nZNNt",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vsy5azn5M",
+        "vwy5ZLz5M",
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 8,
+        "matched_ids": [
+          "vlm5nZNNt",
+          "vwy5ZLz5M"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "人工智能工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vky5C5ZC5",
+        "vmm5MZ5MC",
+        "vrm5ntZZL",
+        "vwy5ZLz5M"
+      ],
+      "quotes": [],
+      "count": 4
+    },
+    {
+      "text": "人工智能工程师-27届校招",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsy5azn5M"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "人工智能工程师-27届校招（北京、广州）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyk5CNZLa"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "人工智能工程师（地点 武汉）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vky5Mttnn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "建筑设计师,结构工程师,给排水工程师,暖通工程师,能源工程师,电气设计师,景观设计师,室内设计师,城乡规划师,总图设计师,工程管理人员,人工智能工程师,计算机工程师,安全工程师,消防工程师,机械工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlm5nZNNt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

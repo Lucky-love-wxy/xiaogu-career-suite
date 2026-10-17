@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="SiteName" content="上海市卫生健康委员会" />
+    <meta name="SiteDomain" content="wsjkw.sh.gov.cn" />
+    <meta name="SiteIDCode" content="3100000010" />
+    <title>上海市卫生健康委员会</title>
+    <meta name="ColumnName" content="上海市卫生健康委员会" />
+    <meta name="ColumnDescription" content="首页" />
+    <meta name="ColumnKeywords" content="首页" />
+    <meta name="ColumnType" content="首页">
+    <meta name="applicable-device" content="pc;mobile">
+    <meta name="location" content="北纬N31°11′51.89″ 东经E121°30′5.42″">
+
+    <!-- min CSS -->
+    <link rel="stylesheet" href="/assets/css/ETUI/ETUI3.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/plugin/owl/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/iconfont/iconfont.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/ETUI/ETUI3.Utility.css">
+    <!-- icons -->
+    <link rel="shortcut icon" href="/assets/img/ico/favicon.png">
+
+    <script type="text/javascript">
+        function onsubmmit(pageIndex) {
+            $("#pageIndex").val(1);
+            $("#searchField").val("0");
+            $("#timeScope").val("0");
+            $("#cmsSearchId").val("0");
+            $("#searchForm").submit();
+        }
+        function onselsubmmit() {
+            $("#pageIndex").val(1);
+            $("#searchForm").submit();
+        }
+        function psubmmit(pageIndex) {
+            $("#pageIndex").val(pageIndex);
+            $("#searchForm").submit();
+        }
+        // 栏目
+        function chsubmmit(searchChId) {
+            $("#pageIndex").val(1);
+            $("#searchField").val("0");
+            $("#timeScope").val("0");
+            $("#cmsSearchId").val(searchChId);
+            $("#searchForm").submit();
+        }
+    </script>
+    <style type="text/css">
+        /* 无障碍工具条 */
+
+        ul.btn-list.btn-list-info li {
+            margin-bottom: 3px;
+        }
+
+        .public-btn .btn-line a.btn01 {
+            padding: 14px 0;
+        }
+
+        ul.btn-list li a.btn01,
+        ul.btnicon-lg li a p {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            display: block;
+        }
+
+        .btn01 {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.42857143;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            margin-left: 81px;
+            color: #2147af;
+        }
+
+        .public-btn {
+            margin-top: 0px;
+            width: 33%;
+            float: right;
+        }
+
+        .qa-float {
+            position: fixed;
+            right: 7px;
+            bottom: 20%;
+            background: #1e86f1;
+            padding: 10px;
+            border-radius: 6px;
+
+        }
+
+        @media (max-width:991px) {
+            .public-btn {
+                margin-top: 0px;
+                width: 102%;
+                float: right;
+            }
+
+            .btn01 {
+                margin-left: 119px;
+            }
+        }
+
+        .move_port {
+            position: fixed;
+            width: 360px;
+            height: 200px;
+            left: 0;
+            top: 0;
+            cursor: pointer;
+            z-index: 50;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--首页挂边-->
+    <!-- <div id="leftDIV1" style="left: -1px; position: absolute; top: 150px; z-index: 99999;">
+        <div>
+            <a href="/yqfk2020/" target="_blank"  name="dllink">
+                <img class="leftdivimg0001" src="/assets/img/yqfkgb.png" alt="疫情防控" border="0" name="dlimage" style="width:127px ;height:250px ;">
+            </a>
+        </div>
+        <div><a style="cursor:pointer;font-size:12px;" onclick="closeleft1()">关闭</a></div>
+    </div> -->
+
+    <!--<div id="leftDIV2" style="left: -1px; position: absolute; top: 430px; z-index: 99999;">  
+        <div><a target='_blank' href="" target="_blank" name="dllink">
+           <img class="" src="" alt="" border="0" name="dlimage"></a></div>
+        <div><a style="cursor:pointer;font-size:12px;" onclick="closeleft2()">关闭</a></div>
+    </div>-->
+
+    <!--<div id="rightDIV1" style="right: 8px; position: absolute; top: 150px; z-index: 99999;">
+    <div><a target='_blank' href="https://n.wdjky.com" target="_blank" name="dllink"><img class="rightdivimg0001" src="http://wsjkw.sh.gov.cn/assets/img/ybgbt.jpg" alt="申报" border="0" name="dlimage" style="width:127px ;height:250px ;"></a></div>
+    <div><a style="cursor:pointer;font-size:12px;" onclick="closeright1()">关闭</a></div>
+    </div> -->
+
+    <!--<div id="rightDIV2" style="right: 8px; position: absolute; top: 430px; z-index: 99999;">scrollTop
+    <div><a href=""  target="_blank" name="dllink"><img class="rightdivimg0002" src="" alt="" border="0" name="dlimage"></a></div>
+    <div><a style="cursor:pointer;font-size:12px;" onclick="closeright2()">关闭</a></div>
+    </div>-->
+    <script>
+        window.setInterval('heartBeat()', 1);
+        var lastscroll = 0
+        function heartBeat() {
+            var diffY = 0;
+            if (document.documentElement && document.documentElement.scrollTop) {
+                diffY = document.documentElement.scrollTop;
+            } else if (document.body) {
+                diffY = document.body.scrollTop
+            }
+            // console.log(diffY);
+
+            var percent = diffY - lastscroll;
+
+            // document.getElementById("leftDIV1").style.top=parseInt(document.getElementById("leftDIV1").style.top)+percent+"px";
+            // document.getElementById("rightDIV1").style.top=parseInt(document.getElementById("rightDIV1").style.top)+percent+"px";
+            // document.getElementById("leftDIV2").style.top=parseInt(document.getElementById("leftDIV2").style.top)+percent+"px";
+            // document.getElementById("rightDIV2").style.top=parseInt(document.getElementById("rightDIV2").style.top)+percent+"px";
+            lastscroll = diffY;
+        }
+
+        //下面这段删除后，对联将不跟随屏幕而移动。
+        window.setInterval("heartBeat()", 1);
+        //
+        function closeleft1() {
+            document.getElementById("leftDIV1").style.display = 'none';
+        }
+        function closeleft2() {
+            document.getElementById("leftDIV2").style.display = 'none';
+        }
+        function closeright1() {
+            document.getElementById("rightDIV1").style.display = 'none';
+        }
+        function closeright2() {
+            document.getElementById("rightDIV2").style.display = 'none';
+        }
+    </script>
+    <!--首页挂边结束-->
+
+    <div class="hidden"></div>
+    <div id="accessNull"></div>
+    <div id="container">
+        <!-- 导航条 -->
+        <div id="header">
+            <div id="skip"></div>
+            <div class="header" data-trout-elder-style-src="/assets/css/ageing.css">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 no-padding-right wd56">
+                            <div class="navbar-brand hidden-xs">
+                                <h1 class="no-margin">
+                                    <a href="/index.html" title="上海市卫生和计划生育委员会">
+                                        <img src="/assets/img/logo2.png" alt="上海市卫生和计划生育委员会">
+                                    </a>
+                                </h1>
+                            </div>
+                            <div class="navbar-brand visible-xs-block">
+                                <h1 class="no-margin">
+                                    <a href="/index.html" title="上海市卫生和计划生育委员会">
+                                        <img src="/assets/img/logo3.png" alt="上海市卫生和计划生育委员会">
+                                    </a>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-md-7 wd57">
+                            <div class="toolbar trout-region-service" id="wzazzb">
+                                <span class="visible-lg-inline">上海城市精神：海纳百川 追求卓越 开明睿智 大气谦和</span>
+                                <a class="hidden-xs" id="cniil_wza" href="javascript:void(0);"
+                                    onclick="toggleToolBarTTSOpen()" title="无障碍">无障碍</a>
+                                <a class="mobile-wza" id="cniil_wza" href="javascript:void(0);"
+                                    onclick="toggleToolBarTTSOpen()" title="关怀版">关怀版</a>
+                                <a class="hidden-xs" id="wjw-zzb" style="display: none;"
+                                    href="https://wsjkw.sh.gov.cn/slhzb/index.html" title="长者版">长者版</a>
+                                <a class="hidden-xs" id="slb" href="javascript:void(0);" title="关怀版">关怀版</a>
+                                <a class="hidden-xs" id="slbClose" href="javascript:void(0);" style="display: none;"
+                                    title="退出关怀版">退出关怀版</a>
+                                <a name="ft" class="ivs_fjt hidden-xs" title="繁体版">繁体版</a>
+                            </div>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="collapse navbar-collapse no-padding" id="navbar">
+                                <ul class="nav navbar-nav trout-region-nav" id="mainNav">
+                                    <li class="active"><a href="/index.html" title="首页">首页</a></li>
+                                    <li><a href="/xwzx/" title="新闻中心">新闻中心</a></li>
+                                    <li><a href="/xxgk/" title="政务公开">政务公开</a></li>
+                                    <li><a href="https://zwdt.sh.gov.cn/govPortals/organ_index.do?organ=SHWSSH"
+                                            target="_blank" title="网上政务大厅">网上政务大厅</a></li>
+                                    <li><a href="/bmfw/" title="便民服务">便民服务</a></li>
+                                    <li><a href="/wshd/" title="网上互动">网上互动</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main main-bg" id="main">
+            <!-- 头部内容块 -->
+            <div class="search-bar clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 zwdt trout-region-service">
+                            <h2>网上政务大厅</h2>
+                            <ul class="zwdt-icon clearfix">
+                                <li>
+                                    <a href="https://zwdt.sh.gov.cn/govPortals/organ_index.do?organ=SHWSSH"
+                                        target="_blank" title="进入一网通办">
+                                        <span><i class="iconfont icon-diannao"></i></span>
+                                        <p>进入一网通办</p>
+                                    </a>
+                                </li>
+                                <!--<li>
+                                    <iframe src="https://jds.wsjkw.sh.gov.cn/%E8%A1%8C%E6%94%BF%E6%9F%A5%E8%AF%A2%E5%8D%AB%E8%AE%A1%E5%A7%94" frameborder="0" class="frame-bszt" scrolling="no" height="90" target="_parent"></iframe>
+                                </li>-->
+                            </ul>
+                        </div>
+                        <div id='searchForm'>
+                            <div class="col-md-5">
+                                <div class="search-box clearfix trout-region-mutual">
+                                    <h2 class="search-title">全文检索</h2>
+                                    <div class="search">
+                                        <div class='search pull-left'>
+                                            <input type='text' id='textfield' name='query' placeholder='请输入检索关键字'
+                                                title='请输入检索关键字'>
+                                        </div>
+                                        <button title='检索' type='submit'
+                                            style='display: block;position: absolute;top: 35px;right: 49px;font-size: 29px;color: #f96000;'
+                                            onclick="searchQwjs();">
+                                            <i class='iconfont icon-search'></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            // 统一社会信用代码
+                            function searchQwjs() {
+                                var search = $("#textfield").val();
+                                if (search == "" || search == "请输入检索关键字") {
+                                    alert("请输入检索关键字！");
+                                    $("#textfield").focus();
+                                    return;
+                                }
+                                var url = "//wsjkw.sh.gov.cn/search/index.html#search/";
+                                window.location.href = url + "query=" + search;
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!-- 头部内容块 end -->
+
+            <!-- 新闻内容 -->
+            <div class="main-container">
+                <div class="container relitive trout-region-info">
+                    <h2 style="display: none;">新闻专栏区域，本区域包含新闻中心、政务公开、便民服务、网上互动</h2>
+                    <div class="date">
+                        <i class="iconfont">&#xe60b;</i> <span id="time"></span>
+                    </div>
+                    <ul class="nav nav-tabs main-tab" role="tablist">
+                        <li role="presentation" class="active"><a href="#tab1-1" aria-controls="xwzx" role="tab"
+                                data-toggle="tab" title="新闻中心"><i
+                                    class="iconfont icon-xinwen-copy"></i>新闻中心</a></li>
+                        <li role="presentation"><a href="#tab1-2" aria-controls="xxgk" role="tab" data-toggle="tab"
+                                title="政务公开"><i class="iconfont icon-wenjianjia"></i>政务公开</a>
+                        </li>
+                        <li role="presentation"><a href="#tab1-3" aria-controls="bmfw" role="tab" data-toggle="tab"
+                                title="便民服务"><i class="iconfont icon-icon-test"></i>便民服务</a>
+                        </li>
+                        <li role="presentation"><a href="#tab1-4" aria-controls="wshd" role="tab" data-toggle="tab"
+                                title="网上互动"><i class="iconfont icon-hudong"></i>网上互动</a></li>
+                    </ul>
+                    <div class="tab-content main-content">
+                        <div role="tabpanel" class="tab-pane active" id="tab1-1">
+
+                            <div class="hotnews">
+                                <a href="/ggl1/index.html" target="_blank" title="通知公告"><em
+                                        class="label label-warning">通知公告</em></a>
+                                <a href="/ggl1/20261009/90a455b599ad4be190bad2b1befb79bd.html" title="关于《上海市医疗机构安宁疗护（临终关怀）科设置标准（征求意见稿）》征询公众意见的公告"><span>关于《上海市医疗机构安宁疗护（临终关怀）科设置标准（征求意见稿）》征询公众意见的公告</span></a>
+                            </div>
+                            <div class="news clearfix">
+                                <div class="news-slider-cont">
+                                    <div class="page-header-1 margin-bottom-10">
+                                        <h2><a href="/tpxw/index.html" title="图片新闻">图片新闻</a></h2>
+                                        <a href="/tpxw/index.html" class="more" title="更多">更多></a>
+                                    </div>
+                                    <div class="news-slider owl-carousel">
+
+                                        <!--
+                                    <div class="item">
+                                        <a href="https://tousu.www.gov.cn/dc/index.htm" target="_blank" title="互联网+督查">
+                                            <img src="/assets/img/gwyhlw.jpg" alt="互联网+督查">
+                                            <h4 class="title"><span>互联网+督查</span></h4>
+                                        </a>
+                                    </div>
+                                    -->
+
+                                        <div class="item">
+                                            <a href="/gzdt1/20260930/c2cee3897fcd4ed6a9923a4a433383d3.html" title="“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办" target="_blank">
+
+                                                <img src="/cmsres/96/967c1f69360f4fd7807df808e3bad5a3/ca19848c36507e77fb4fbefd0be098ce.jpg" alt="“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办">
+
+                                                <h4 class="title"><span>“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办</span></h4>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="/gzdt1/20260922/60a710a856444f07bf758f3537a9cbbe.html" title="早一步识别，多一份记忆——上海市2026年世界阿尔茨海默病月主题宣传活动" target="_blank">
+
+                                                <img src="/cmsres/45/45aa0f65a7da499ba358fc63f08abce1/1aefc20699cb8037a522c2c2bb5955a9.jpg" alt="早一步识别，多一份记忆——上海市2026年世界阿尔茨海默病月主题宣传活动">
+
+                                                <h4 class="title"><span>早一步识别，多一份记忆——上海市2026年世界阿尔茨海默病月主题宣传活动</span></h4>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="/gzdt1/20260922/ee2b78da0b73490aa98f1dc78dbc2213.html" title="2026年度上海市疾控系统领导干部培训班顺利举办" target="_blank">
+
+                                                <img src="/cmsres/80/80e46e276ced4decabe4580c734302fa/428f588ca3db384b1ba8e9cc76663924.jpg" alt="2026年度上海市疾控系统领导干部培训班顺利举办">
+
+                                                <h4 class="title"><span>2026年度上海市疾控系统领导干部培训班顺利举办</span></h4>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="/gzdt1/20260920/7c3c21379c754c56864406dcfb35027a.html" title="市卫生健康委党组书记、主任带队调研慰问第48届世界技能大赛医疗卫生服务保障工作人员" target="_blank">
+
+                                                <img src="/cmsres/60/60c04fde2c3d46f0ac57c719cec897bf/4ffce04d92a4d6cb21c1494cdfcd6dc1.webp" alt="市卫生健康委党组书记、主任带队调研慰问第48届世界技能大赛医疗卫生服务保障工作人员">
+
+                                                <h4 class="title"><span>市卫生健康委党组书记、主任带队调研慰问第48届世界技能大赛医疗卫生服务保障工作人员</span></h4>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="news-list">
+
+                                    <ul class="nav nav-tabs nav-line" role="tablist">
+                                        <li role="presentation" class="active"><a href="#tab2-2"
+                                                onclick="javascript:window.open('/xwfb/index.html')" aria-controls="xwfb"
+                                                role="tab" data-toggle="tab" title="新闻发布">新闻发布</a></li>
+                                        <li role="presentation"><a href="#tab2-3"
+                                                onclick="javascript:window.open('/gzdt1/index.html')" aria-controls="gzdt"
+                                                role="tab" data-toggle="tab" title="工作动态">工作动态</a></li>
+                                        <li role="presentation"><a href="#tab2-37"
+                                                onclick="javascript:window.open('/hzjl/index.html')" aria-controls="gzdt"
+                                                role="tab" data-toggle="tab" title="合作交流">合作交流</a></li>
+                                        <li role="presentation"><a href=""
+                                                onclick="javascript:window.open('https://video.wsjkw.sh.gov.cn/video.html?testpara=')"
+                                                aria-controls="gzdt" role="tab" data-toggle="tab"
+                                                title="视频新闻">视频新闻</a></li>
+                                        <!--<li role="presentation"><a href="" onclick="javascript:window.open('http://wsjkw.sh.gov.cn/weihu/')" aria-controls="gzdt" role="tab" data-toggle="tab">视频新闻</a></li> -->
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active " id="tab2-2">
+                                            <ul class="uli16 nowrapli list-date border padding-top-5">
+                                                <li><a href="/gzdt1/20260930/c2cee3897fcd4ed6a9923a4a433383d3.html" title="“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办"
+                                                        target="_blank">“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办</a><span
+                                                        class="time">09-30</span></li>
+                                                <li><a href="/xwfb/20260930/8b2378cafa754f83b0fd40a69f40335d.html" title="“美好青春我做主”2026年红丝带青春校园行活动走进上海立信会计金融学院"
+                                                        target="_blank">“美好青春我做主”2026年红丝带青春校园行活动走进上海立信会计金融学院</a><span
+                                                        class="time">09-30</span></li>
+                                                <li><a href="/xwfb/20260909/399f7e644cca4c369d73db9028ae8041.html" title="以高质量党建引领教育强市、健康上海建设上水平上台阶！陈吉宁调研市教卫工作党委"
+                                                        target="_blank">以高质量党建引领教育强市、健康上海建设上水平上台阶！陈吉宁调研市教卫工作党委</a><span
+                                                        class="time">09-09</span></li>
+                                                <li><a href="/gzdt1/20260701/4839ba993eaa46f29af689f02c723847.html" title="市卫生健康委党组召开树立和践行正确政绩观学习教育警示教育会暨全面从严治党工作会议"
+                                                        target="_blank">市卫生健康委党组召开树立和践行正确政绩观学习教育警示教育会暨全面从严治党工作会议</a><span
+                                                        class="time">07-01</span></li>
+                                                <li><a href="/xwfb/20260625/b7fa5367e8484d84b2f602a818ed2a19.html" title="李强主持召开国务院常务会议"
+                                                        target="_blank">李强主持召开国务院常务会议</a><span
+                                                        class="time">06-22</span></li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane " id="tab2-3">
+                                            <ul class="uli16 nowrapli list-date border padding-top-5">
+                                                <li><a href="/gzdt1/20260930/c2cee3897fcd4ed6a9923a4a433383d3.html" title="“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办"
+                                                        target="_blank">“共建生育友好型社会 我们在行动”——上海市第三届生育友好主题宣传活动顺利举办</a><span
+                                                        class="time">09-30</span></li>
+                                                <li><a href="/gzdt1/20260922/60a710a856444f07bf758f3537a9cbbe.html" title="早一步识别，多一份记忆——上海市2026年世界阿尔茨海默病月主题宣传活动"
+                                                        target="_blank">早一步识别，多一份记忆——上海市2026年世界阿尔茨海默病月主题宣传活动</a><span
+                                                        class="time">09-22</span></li>
+                                                <li><a href="/gzdt1/20260922/ee2b78da0b73490aa98f1dc78dbc2213.html" title="2026年度上海市疾控系统领导干部培训班顺利举办"
+                                                        target="_blank">2026年度上海市疾控系统领导干部培训班顺利举办</a><span
+                                                        class="time">09-21</span></li>
+                                                <li><a href="/gzdt1/20260920/7c3c21379c754c56864406dcfb35027a.html" title="市卫生健康委党组书记、主任带队调研慰问第48届世界技能大赛医疗卫生服务保障工作人员"
+                                                        target="_blank">市卫生健康委党组书记、主任带队调研慰问第48届世界技能大赛医疗卫生服务保障工作人员</a><span
+                                                        class="time">09-20</span></li>
+                                                <li><a href="/gzdt1/20260920/a16a4ae3cb0849cab4798304a99511cc.html" title="第48届世界技能大赛医疗卫生保障动员部署会顺利召开"
+                                                        target="_blank">第48届世界技能大赛医疗卫生保障动员部署会顺利召开</a><span
+                                                        class="time">09-20</span></li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane " id="tab2-37">
+                                            <ul class="uli16 nowrapli list-date border padding-top-5">
+                                                <li><a href="/hzjl/20260825/d7a92465b895451b9b8b9e0c188a4271.html" title="罗蒙副主任出席“援摩洛哥医疗队员 奉贤义诊基地”启用仪式"
+                                                        target="_blank">罗蒙副主任出席“援摩洛哥医疗队员 奉贤义诊基地”启用仪式</a><span
+                                                        class="time">08-25</span></li>
+                                                <li><a href="/hzjl/20260817/aa1ccc00dbe04768b808df9d91ab75ce.html" title="闻大翔主任会见新加坡驻上海总领事一行"
+                                                        target="_blank">闻大翔主任会见新加坡驻上海总领事一行</a><span
+                                                        class="time">08-17</span></li>
+                                                <li><a href="/hzjl/20260727/923a605c3b7f49b2aac34d11a4fd7e0b.html" title="第十九届“中泰传统医学研讨会”在沪举行"
+                                                        target="_blank">第十九届“中泰传统医学研讨会”在沪举行</a><span
+                                                        class="time">07-27</span></li>
+                                                <li><a href="/hzjl/20260605/c393d0bd3738466ab4dabce398920036.html" title="闻大翔主任会见以色列驻上海总领事一行"
+                                                        target="_blank">闻大翔主任会见以色列驻上海总领事一行</a><span
+                                                        class="time">06-05</span></li>
+                                                <li><a href="/hzjl/20260417/474aac0ce1d74101a13586e3290e8cb0.html" title="狄建忠副主任会见诺和诺德全球高级副总裁兼大中国区总裁一行"
+                                                        target="_blank">狄建忠副主任会见诺和诺德全球高级副总裁兼大中国区总裁一行</a><span
+                                                        class="time">04-17</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab1-2">
+                            <div class="public clearfix">
+                                <div class="public-list margin-top-5">
+                                    <ul class="nav nav-tabs nav-line" role="tablist">
+                                        <li role="presentation" class="active"><a href="#tab3-1"
+                                                onclick="javascript:window.open('/zxgkzfxx/index.html')"
+                                                aria-controls="zxzfxxgk" role="tab" data-toggle="tab"
+                                                title="最新公开政府信息">最新公开政府信息</a></li>
+                                        <li role="presentation"><a href="#tab3-2"
+                                                onclick="javascript:window.open('/zcjd/index.html')" aria-controls="zcjd"
+                                                role="tab" data-toggle="tab"
+                                                title="政策解读">政策解读</a></li>
+                                        <li role="presentation"><a href="#tab3-3"
+                                                onclick="javascript:window.open('/yqxx/index.html')" aria-controls="yqxx"
+                                                role="tab" data-toggle="tab"
+                                                title="疫情信息">疫情信息</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active " id="tab3-1">
+                                            <ul class="uli16 nowrapli list-date border padding-top-5">
+                                                <li><a href="/zyygz2/20260930/bbe471232da44023976cda976349793f.html" title="上海市卫生健康委员会 上海市中医药管理局关于公布2026年中医药文化与科普资源建设项目立项结果的通知"
+                                                        target="_blank">上海市卫生健康委员会 上海市中医药管理局关于公布2026年中医药文化与科普资源建设项目立项结果的通知</a><span
+                                                        class="time">09-30</span></li>
+                                                <li><a href="/zcfg2/20260928/e1a4b7d3842e4098856db6cee84301ef.html" title="上海市卫生健康委员会 上海市疾病预防控制局关于印发《上海市职业健康行政处罚裁量权基准》的通知"
+                                                        target="_blank">上海市卫生健康委员会 上海市疾病预防控制局关于印发《上海市职业健康行政处罚裁量权基准》的通知</a><span
+                                                        class="time">09-28</span></li>
+                                                <li><a href="/zcjd/20260928/2c0e923a043a4c78961aa4bb42801510.html" title="《上海市职业健康行政处罚裁量权基准》 政策解读"
+                                                        target="_blank">《上海市职业健康行政处罚裁量权基准》 政策解读</a><span
+                                                        class="time">09-28</span></li>
+                                                <li><a href="/zcjd/20260924/d5aa8c4aaa26454293c1ecab053af5f6.html" title="《上海市公共场所卫生行政处罚 裁量权基准》政策解读"
+                                                        target="_blank">《上海市公共场所卫生行政处罚 裁量权基准》政策解读</a><span
+                                                        class="time">09-24</span></li>
+                                                <li><a href="/zcfg2/20260924/a073c82dd73b4be4bcdfd04d61430d96.html" title="关于印发《上海市公共场所卫生行政处罚裁量权基准》的通知"
+                                                        target="_blank">关于印发《上海市公共场所卫生行政处罚裁量权基准》的通知</a><span
+                                                        class="time">09-24</span></li>
+                                                <li><a href="/zcjd/20260924/7ddf8421218c4e77bd2869b877b4d0e5.html" title="《上海市饮用水卫生行政处罚裁量权基准》政策解读"
+                                                        target="_blank">《上海市饮用水卫生行政处罚裁量权基准》政策解读</a><span
+                                                        class="time">09-24</span></li>
+                                                <li><a href="/zcjd/20260924/c9c18c6795704946ba281d3efba5d73e.html" title="《上海市医疗事故行政处罚裁量权基准》 政策解读"
+                                                        target="_blank">《上海市医疗事故行政处罚裁量权基准》 政策解读</a><span
+                                                        class="time">09-24</span></li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane " id="tab3-2">
+                                            <ul class="uli16 nowrapli list-date border padding-top-5">
+                                                <li><a href="/zcjd/20260928/2c0e923a043a4c78961aa4bb42801510.html" title="《上海市职业健康行政处罚裁量权基准》 政策解读"
+                                                        target="_blank">《上海市职业健康行政处罚裁量权基准》 政策解读</a><span
+                                                        class="time">09-28</span></li>
+                                                <li><a href="/zcjd/20260924/d5aa8c4aaa26454293c1ecab053af5f6.html" title="《上海市公共场所卫生行政处罚 裁量权基准》政策解读"
+                                                        target="_blank">《上海市公共场所卫生行政处罚 裁量权基准》政策解读</a><span
+                                                        class="time">09-24</span></li>
+                                                <li><a href="/zcjd/20260924/7ddf8421218c4e77bd2869b877b4d0e5.html" title="《上海市饮用水卫生行政处罚裁量权基准》政策解读"
+                                                        target="_blank">《上海市饮用水卫生行政处罚裁量权基准》政策解读</a><span
+                                                        class="time">09-24</span></li>
+                                                <li><a href="/zcjd/20260924/c9c18c6795704946ba281d3efba5d73e.html" title="《上海市医疗事故行政处罚裁量权基准》 政策解读"
+                                                        target="_blank">《上海市医疗事故行政处罚裁量权基准》 政策解读</a><span
+                                                        class="time">09-24</span></li>
+                                                <li><a href="/zcjd/20260922/5dda908825f84a24b001676462bb0c92.html" title="关于修订后的《上海市护理站管理办法》政策解读"
+                                                        target="_blank">关于修订后的《上海市护理站管理办法》政策解读</a><span
+                                                        class="time">09-18</span></li>
+                                                <li><a href="/zcjd/20260918/c220e1b70a434ec8ae7c3f7fc818c375.html" title="《上海市疾病预防控制发展“十五五”规划》政策解读"
+                                                        target="_blank">《上海市疾病预防控制发展“十五五”规划》政策解读</a><span
+                                                        class="time">09-18</span></li>
+                                                <li><a href="/zcjd/20260731/5de8291583ab4e53beaf06e3d10a1ae1.html" title="《上海市卫生健康发展“十五五”规划》解读"
+                                                        target="_blank">《上海市卫生健康发展“十五五”规划》解读</a><span
+                                                        class="time">07-31</span></li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane " id="tab3-3">
+                                            <ul class="uli16 nowrapli list-date border padding-top-5">
+                                                <li><a href="/yqxx/20260915/e93d3602e4d14d26a500bd10975f0a43.html" title="2026年8月上海市传染病疫情报告"
+                                                        target="_blank">2026年8月上海市传染病疫情报告</a><span
+                                                        class="time">09-15</span></li>
+                                                <li><a href="/yqxx/20260820/e86b3088a407415fb901d0c3d9217523.html" title="2026年7月上海市传染病疫情报告"
+                                                        target="_blank">2026年7月上海市传染病疫情报告</a><span
+                                                        class="time">08-20</span></li>
+                                                <li><a href="/yqxx/20260731/26edc5987dc44222984840d55f8d0528.html" title="2026年6月上海市传染病疫情报告"
+                                                        target="_blank">2026年6月上海市传染病疫情报告</a><span
+                                                        class="time">07-31</span></li>
+                                                <li><a href="/yqxx/20260616/abc9d3c20cc147888ffeb80b806dbe0e.html" title="2026年5月上海市传染病疫情报告"
+                                                        target="_blank">2026年5月上海市传染病疫情报告</a><span
+                                                        class="time">06-16</span></li>
+                                                <li><a href="/yqxx/20260528/bc05f1182eed4f5191f59c1b1baadc09.html" title="2026年4月上海市传染病疫情报告"
+                                                        target="_blank">2026年4月上海市传染病疫情报告</a><span
+                                                        class="time">05-28</span></li>
+                                                <li><a href="/yqxx/20260428/aceb2509a873486ca6b72645576a6a3d.html" title="2026年3月上海市法定传染病疫情报告"
+                                                        target="_blank">2026年3月上海市法定传染病疫情报告</a><span
+                                                        class="time">04-28</span></li>
+                                                <li><a href="/yqxx/20260320/711a7468559c49e787b040e5c199e358.html" title="2026年2月上海市法定传染病疫情报告"
+                                                        target="_blank">2026年2月上海市法定传染病疫情报告</a><span
+                                                        class="time">03-20</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="public-btn">
+                                    <!-- <ul class="btn-list btn-line btn-list-info">
+                                        <li><a class="btn" href="/gkyj/index.html" target="_blank">政府信息公开依据</a></li>
+                                        <li><a class="btn" href="/zfxxgkzn/index.html" target="_blank">政府信息公开指南</a></li>
+                                        <li><a class="btn" href="/zfxxgknb/index.html" target="_blank">政府信息公开年报</a></li>
+                                        <li><a class="btn" href="http://wsjkw.sh.gov.cn/zsjg/index.html" target="_blank">政府信息公开目录</a></li>
+                                        <li><a class="btn" href="http://xxgk.sh.gov.cn/zwgk_interface/pages/zwgkfront/publicApplyOU.html?ouguid=U_3_20" target="_blank">政府信息公开申请</a></li>
+                                    </ul> -->
+                                    <ul class="btn-list btn-line btn-list-info">
+                                        <li>
+                                            <a class="btn01" href="/zfxxgk/" target="_blank" title="政府信息公开">政府信息公开</a>
+                                        </li>
+                                        <li><a class="btn" href="/zfxxgk/" target="_blank" title="政策文件">政策文件</a></li>
+                                        <li><a class="btn" href="/zfxxgk/?type=1" target="_blank"
+                                                title="政府信息公开指南">政府信息公开指南</a></li>
+                                        <li><a class="btn" href="/zfxxgk/?type=2" target="_blank"
+                                                title="政府信息公开制度">政府信息公开制度</a></li>
+                                        <li><a class="btn" href="/zfxxgk/?type=3" target="_blank"
+                                                title="法定主动公开内容">法定主动公开内容</a></li>
+                                        <li><a class="btn" href="/zfxxgk/?type=4" target="_blank"
+                                                title="政府信息公开年报">政府信息公开年报</a></li>
+                                        <li><a class="btn"
+                                                href="https://xxgk.sh.gov.cn/zwgk_interface/pages/zwgkfront/publicApplyOU.html?ouguid=U_3_20"
+                                                target="_blank" title="政府信息公开申请">政府信息公开申请</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab1-3">
+                            <div class="public service clearfix">
+                                <div class=" margin-top-5">
+                                    <div class="page-header-1">
+                                        <h2><a href="" title="" title="服务热线">服务热线</a></h2>
+                                    </div>
+                                    <div class="rx-h">
+                                        <p class="text-indent">
+                                            上海市卫生热线是在国家卫生健康委员会领导下，由上海市卫生健康委员会主办的政府公益电话，主要负责受理市民有关健康保健、疾病预防方面的咨询和医疗卫生服务、突发公共卫生事件方面的投诉举报等工作。
+                                        </p>
+                                        <p class="text-indent">
+                                            热线于2006年12月8日正式开通，现设有30个人工坐席，由50余位话务员和百余位由医学博士、专家、医学生组成的志愿者团队。开通以来，热线始终秉持“公共公益、便民利民、惠及百姓、方便实用”的服务宗旨，365天24小时接听市民来电，发送健康提示短信，回复市民短信提问，组织在线访谈，发送微博微信，热线已然成为市民身边健康的“守护者”，为市民健康释疑解惑、保驾护航。
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="service-btn col-md-12">
+                                    <ul class="btn-list btn-line margin-top-15">
+                                        <li><a class="btn" href="/bmfw/index.html#fwjg" target="_blank" title="服务机构"><i
+                                                    class="iconfont">&#xe668;</i><span>服务机构</span></a></li>
+                                        <li><a class="btn" href="/bmfw/index.html#cxfw" target="_blank"
+                                                title="查询服务"><i
+                                                    class="iconfont">&#xe625;</i><span>查询服务</span></a></li>
+                                        <!-- <li><a href="/ylsfbz/index.html" class="btn"  target="_blank"><i class="iconfont">&#xe637;</i><span>医疗收费标准</span></a></li> -->
+                                        <li><a class="btn" href="http://218.242.71.155/JSW_SL/" target="_blank"
+                                                title="便民地图"><i class="iconfont">&#xe604;</i><span>便民地图</span></a></li>
+                                        <!-- 
+                                        <li><a class="btn" href="/rmwd/index.html" target="_blank"><i class="iconfont">&#xe7a1;</i><span>热门问答</span></a></li>
+                                         -->
+                                        <li><a class="btn"
+                                                href="http://spbz.jds.wsjkw.sh.gov.cn/wjs-front/wjs/refreshFindPage?oneLevelName=%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84&twoLevelName=%E5%8C%BB%E7%96%97%E6%9C%BA%E6%9E%84%E6%89%A7%E4%B8%9A%E7%99%BB%E8%AE%B0%EF%BC%88%E5%86%85%E8%B5%84%E3%80%81%E6%B8%AF%E8%B5%84%E3%80%81%E6%BE%B3%E8%B5%84%E3%80%81%E5%8F%B0%E8%B5%84%E3%80%81%E4%B8%AD%E5%A4%96%E5%90%88%E8%B5%84%EF%BC%88%E4%BD%9C%EF%BC%89%EF%BC%89"
+                                                target="_blank" title="上海医疗服务信息便民查询平台"><i
+                                                    class="iconfont">&#xe7a1;</i><span>上海医疗服务信息便民查询平台</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab1-4">
+                            <div class="public interactive clearfix">
+                                <div class="public-list">
+                                    <iframe name="在线访谈"
+                                        src="https://wszx.wsjkw.sh.gov.cn/wjw-front/interview/homeIFrame"
+                                        frameborder="0" style="border: none;width:100%;height: 300px;"></iframe>
+                                    <!--<iframe src="http://wsjkw.sh.gov.cn/weihu/" frameborder="0" style="border: none;width:100%;height: 300px;"></iframe> -->
+                                    <div class="interactive-btn">
+                                        <ul class="btn-list btn-line">
+                                            <script LANGUAGE="javascript">
+                                                function aa(num) {
+                                                    if (num == 1) {
+
+                                                        window.open("http://wbjxf.sh.gov.cn/310000W0024/let.getXZ.do?id=032eb3fd-29db-4a22-bffe-083f05cd56dd&TYPE_FLAG=20");
+
+                                                    }
+                                                    else if (num == 2) {
+
+                                                        window.open("http://wbjxf.sh.gov.cn/310000W0024/let.getXZ.do?id=17099f08-5b97-458d-9a22-87ccd0c5421b&TYPE_FLAG=21");
+                                                    }
+                                                    else if (num == 3) {
+
+                                                        window.open("http://wbjxf.sh.gov.cn/310000W0024/let.getXZ.do?id=543d5839-def9-492e-bc80-fa523d016a2a&TYPE_FLAG=22");
+
+                                                    }
+                                                }
+                                            </script>
+                                            <li><a class="btn" href="javascript:void(0)" onclick="aa(1)" title='主任信箱'><i
+                                                        class="iconfont" title="主任信箱">&#xe609;</i><span>主任信箱</span></a>
+                                            </li>
+                                            <li><a class="btn" href="javascript:void(0)" onclick="aa(2)" title='网上信访'><i
+                                                        class="iconfont" title="网上信访">&#xe71d;</i><span>网上信访</span></a>
+                                            </li>
+                                            <li><a class="btn" href="javascript:void(0)" onclick="aa(3)" title='建议征集'><i
+                                                        class="iconfont" title="建议征集">&#xe638;</i><span>建议征集</span></a>
+                                            </li>
+                                            <li><a class="btn"
+                                                    href="https://wszx.wsjkw.sh.gov.cn/wjw-front/messageBoard/form"
+                                                    target="_blank" title='网上咨询'><i
+                                                        class="iconfont">&#xe7a1;</i><span>网上咨询</span></a></li>
+                                            <!--<li><a class="btn" href="http://wsjkw.sh.gov.cn/weihu/" target="_blank"><i class="iconfont">&#xe7a1;</i><span>网上咨询</span></a></li>-->
+                                            <li><a class="btn" href="/zqyj/index.html" title="意见征询"><i
+                                                        class="iconfont">&#xe64a;</i><span>意见征询</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="public-btn">
+                                    <div class="page-header-1">
+                                        <h2><a href="" title="" title="信访接待">信访接待</a></h2>
+                                    </div>
+                                    <ul class="li-inter-cont">
+                                        <li>信访接待实施来访预约，根据预约时间接访。</li>
+                                        <li><b>接待地址：</b>世博村路信访接待大厅（世博村路139号1楼，靠近沂南路）</li>
+                                        <li><b>交通：</b>576,981,955 浦东南路浦三路站</li>
+                                        <li><b>接待时间：</b>每周一、三、五 /
+                                            上午：9：00-11：00 14:00-16:00</li>
+                                        <li>信访信件寄送地址：世博村路300号4号楼市卫生健康委员会信访办</li>
+                                        <li>邮编：200125</li>
+                                        <li><b>信访电话：</b>12320<br> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 新闻内容 end -->
+
+            <div class="container xs-top">
+                <div class="row margin-top-30 trout-region-info">
+                    <h2 style="display: none;">专题专栏区域（一）</h2>
+                    <div class="col-md-5 no-padding-right no-padding-left">
+                        <div class="col-md-6">
+                            <a href="https://hta.wsjkw.sh.gov.cn" title="上海市卫生健康技术评价中心" target="_blank">
+                                <img style="width: 100%;height: 84px;" src="/assets/upload/wsjd-1.png"
+                                    alt="上海市卫生健康技术评价中心">
+                            </a>
+                        </div>
+                        <div class="col-md-6 no-padding-right">
+                            <a href="https://oh.wsjkw.sh.gov.cn/zyjkpc/" title="上海市职业健康管理服务平台" target="_blank">
+                                <img style="width: 100%;height: 84px;object-fit: cover"
+                                    src="/assets/upload/zyjk.jpg" alt="上海市职业健康管理服务平台">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 滚动栏目图 -->
+                    <div class="col-md-7">
+                        <div class="re-sliders owl-carousel">
+                            <div class="item">
+                                <a href="/djgz/index.html" title="党建工作" target="_blank">
+                                    <img src="/assets/upload/sliders-pic5.jpg"
+                                        alt="党建工作" />
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="/jswm1/index.html" title="精神文明" target="_blank">
+                                    <img src="/assets/upload/sliders-pic6.jpg"
+                                        alt="精神文明" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="/ecgsyhsltsszjcxx/index.html" title="二次供水（用户水龙头水）水质监测信息" target="_blank">
+                                    <img src="/cmsres/44/44ec056c30b44641ad2bdf81387a978e/6b03266dc4f5e9c2ea723b7002eefeb0.png" alt="二次供水（用户水龙头水）水质监测信息">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="/2026nszfssxm/index.html" title="实事项目" target="_blank">
+                                    <img src="/cmsres/94/94ca5047bd07467fb3e5d6df931a1cca/428e021ce9153d725e3a231b585b223d.jpg" alt="实事项目">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="/2024wsjkzkbg/index.html" title="上海市卫生健康状况报告" target="_blank">
+                                    <!--  <img src="/wsj/ssxm/images/indexbanner_zkbg.jpg"> -->
+                                    <img src="/cmsres/f7/f798b4db233a45278873ae225620808e/d9151d289607543b0b8f16802def67a1.jpg" alt="上海市卫生健康状况报告">
+                                </a>
+                            </div>
+                            <!-- 
+                            <div class="item">
+                                <a href="/shyg/index.html" title="" target="_blank">
+                                    <img src="/cmsres/53/53940db96d69453baca565a9c5a231bc/5f06e1c62650828a11467e4f1a20b0e7.jpg" alt="深化医改">
+                                </a>
+                            </div>
+                             -->
+                            <!-- 
+                            <div class="item">
+                                <a href="/2022nyyswsxczhd/index.html" title="" target="_blank">
+                                    <img src="/assets/upload/234.png" alt="2022年饮用水卫生宣传周活动"/>
+                                </a>
+                            </div>
+                             -->
+                            <div class="item">
+                                <a href="https://czj.sh.gov.cn/zss/zt/dljz_9632/index.html" title="上海市道路交通事故社会救助基金管理"
+                                    target="_blank">
+                                    <img src="/assets/upload/sliders-pic7.jpg"
+                                        alt="上海市道路交通事故社会救助基金管理" />
+                                </a>
+                            </div>
+                            <!-- 新冠病毒感染防控 -->
+                            <div class="item">
+                                <a href="/yqfk2020/index.html" title="新冠病毒感染防控" target="_blank">
+                                    <img src="/cmsres/4f/4f84fb1725a94d2f81473f7a254160fc/bd767402a2f8fbc151d7901ad2e8e344.png" alt="新冠病毒感染防控" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="/fzxc/index.html" title="学习宣传贯彻习近平法治思想" target="_blank">
+                                    <img src="/assets/upload/xxxcgc25.jpg" alt="学习宣传贯彻习近平法治思想" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 滚动栏目图 end-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 国务院 互联网+督察 -->
+    <div class="container">
+        <div class="img-links trout-region-info">
+            <h2 style="display: none;">专题专栏区域（二）</h2>
+            <a href="https://tousu.www.gov.cn/dc/index.htm" target="_blank" title="互联网+督查">
+                <img src="/assets/img/gwydc.jpg" alt="互联网+督查">
+            </a>
+            <a href="/xwfb/20181017/0012-62381.html" target="_blank" title="国务院办公厅“国家政务服务投诉与建议”小程序">
+                <img src="/assets/img/20181017_171310_261.jpg" alt="国务院办公厅“国家政务服务投诉与建议”小程序">
+            </a>
+            <!--<a href="http://www.ciie.org" target="_blank" title=""><img src="/assets/img/blh.jpg"></a>-->
+        </div>
+    </div>
+    <!-- 国务院 互联网+督察 end -->
+
+    <!-- 友情链接 -->
+    <div class="container">
+        <div class="row trout-region-nav">
+            <div class="col-md-7">
+                <div class="link-a">
+                    <a href="http://www.nhc.gov.cn/" title="国家卫生健康委员会" target="_blank">
+                        <img src="/assets/img/jsw.jpg" alt="国家卫生健康委员会"> 国家卫生健康委员会
+                    </a>
+                    <a href="http://www.natcm.gov.cn/" title="国家中医药管理局" target="_blank">
+                        <img src="/assets/img/zyy.jpg" alt="国家中医药管理局"> 国家中医药管理局
+                    </a>
+                    <a href="http://www.shanghai.gov.cn/" title="中国上海" target="_blank">
+                        <img src="/assets/img/sh.jpg" alt="中国上海"> 中国上海</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="link-select">
+                    <ul class="no-padding clearfix">
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="市政府部门网站">
+                                市政府部门网站<i class="iconfont icon-shangjiantou"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li>
+                                    <a target="_blank" href="http://fgw.sh.gov.cn" title="市发展和改革委员会">市发展和改革委员会</a>
+                                    <a target="_blank" href="http://sheitc.sh.gov.cn/" title="市经济和信息化委员会">市经济和信息化委员会</a>
+                                    <a target="_blank" href="http://sww.sh.gov.cn" title="市商务委员会">市商务委员会</a>
+                                    <a target="_blank" href="http://edu.sh.gov.cn" title="市教育委员会">市教育委员会</a>
+                                    <a target="_blank" href="http://stcsm.sh.gov.cn" title="市科学技术委员会">市科学技术委员会</a>
+                                    <a target="_blank" href="http://mzzj.sh.gov.cn" title="市民族和宗教事务委员会">市民族和宗教事务委员会</a>
+                                    <a target="_blank" href="http://gaj.sh.gov.cn" title="市公安局">市公安局</a>
+                                    <a target="_blank" href="http://mzj.sh.gov.cn" title="市民政局">市民政局</a>
+                                    <a target="_blank" href="http://sfj.sh.gov.cn" title="市司法局">市司法局</a>
+                                    <a target="_blank" href="http://czj.sh.gov.cn" title="市财政局">市财政局</a>
+                                    <a target="_blank" href="http://rsj.sh.gov.cn" title="市人力资源和社会保障局">市人力资源和社会保障局</a>
+                                    <a target="_blank" href="http://ghzyj.sh.gov.cn/" title="市规划和自然资源局">市规划和自然资源局</a>
+                                    <a target="_blank" href="http://sthj.sh.gov.cn" title="市生态环境局">市生态环境局</a>
+                                    <a target="_blank" href="http://zjw.sh.gov.cn"
+                                        title="市住房和城乡建设管理委员会">市住房和城乡建设管理委员会</a>
+                                    <a target="_blank" href="http://jtw.sh.gov.cn" title="市交通委员会">市交通委员会</a>
+                                    <a target="_blank" href="http://nyncw.sh.gov.cn" title="市农业农村委员会">市农业农村委员会</a>
+                                    <a target="_blank" href="http://swj.sh.gov.cn/" title="市水务局">市水务局</a>
+                                    <a target="_blank" href="http://whlyj.sh.gov.cn" title="市文化和旅游局">市文化和旅游局</a>
+                                    <a target="_blank" href="http://yjglj.sh.gov.cn" title="市应急管理局">市应急管理局</a>
+                                    <a target="_blank" href="http://sjj.sh.gov.cn" title="市审计局">市审计局</a>
+                                    <a target="_blank" href="http://scjgj.sh.gov.cn" title="市市场监督管理局">市市场监督管理局</a>
+                                    <a target="_blank" href="http://jrj.sh.gov.cn" title="市地方金融监督管理局">市地方金融监督管理局</a>
+                                    <a target="_blank" href="http://wsb.sh.gov.cn" title="市人民政府外事办公室">市人民政府外事办公室</a>
+                                    <a target="_blank" href="https://www.gzw.sh.gov.cn/"
+                                        title="市国有资产监督管理委员会">市国有资产监督管理委员会</a>
+                                    <a target="_blank" href="http://tyj.sh.gov.cn/" title="市体育局">市体育局</a>
+                                    <a target="_blank" href="http://tjj.sh.gov.cn/" title="市统计局">市统计局</a>
+                                    <a target="_blank" href="http://ybj.sh.gov.cn" title="市医疗保障局">市医疗保障局</a>
+                                    <a target="_blank" href="http://lhsr.sh.gov.cn/" title="市绿化和市容管理局">市绿化和市容管理局</a>
+                                    <a target="_blank" href="https://www.jgj.sh.gov.cn/" title="市机关事务管理局">市机关事务管理局</a>
+                                    <a target="_blank" href="https://gfdy.sh.gov.cn" title="市国动办">市国动办</a>
+                                    <a target="_blank" href="http://hzjl.sh.gov.cn/"
+                                        title="市人民政府合作交流办公室">市人民政府合作交流办公室</a>
+                                    <a target="_blank" href="http://css.sh.gov.cn/" title="市人民政府参事室">市人民政府参事室</a>
+                                    <a target="_blank" href="http://lswzj.sh.gov.cn/" title="市粮食和物资储备局">市粮食和物资储备局</a>
+                                    <a target="_blank" href="http://jyj.sh.gov.cn/" title="市监狱管理局">市监狱管理局</a>
+                                    <a target="_blank" href="http://cgzf.sh.gov.cn/" title="市城市管理行政执法局">市城市管理行政执法局</a>
+                                    <a target="_blank" href="http://yjj.sh.gov.cn/" title="市药品监督管理局">市药品监督管理局</a>
+                                    <a target="_blank" href="http://sipa.sh.gov.cn/" title="市知识产权局">市知识产权局</a>
+                                    <a target="_blank" href="http://fzzx.sh.gov.cn/" title="市人民政府发展研究中心">市人民政府发展研究中心</a>
+                                    <a target="_blank" href="http://zbb.sh.gov.cn/" title="市政府征兵办">市政府征兵办</a>
+                                    <a target="_blank" href="http://wsyjg.sh.gov.cn" title="市文史研究馆">市文史研究馆</a>
+                                    <a target="_blank" href="http://fegw.sh.gov.cn" title="市妇女儿童工作委员会">市妇女儿童工作委员会</a>
+                                    <a target="_blank" href="https://www.ssme.sh.gov.cn" title="上海市企业服务云">上海市企业服务云</a>
+                                    <a target="_blank" href="http://data.sh.gov.cn" title="上海市政府数据服务网">上海市政府数据服务网</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="省市卫生健康部门">
+                                省市卫生健康部门<i class="iconfont icon-shangjiantou"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li>
+                                    <a target="_blank" href="http://wjw.beijing.gov.cn/" title="北京市卫生健康委">北京市卫生健康委</a>
+                                    <a target="_blank" href="http://wsjk.tj.gov.cn/" title="天津市卫生健康委">天津市卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.hebei.gov.cn" title="河北省卫生健康委">河北省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.shanxi.gov.cn/" title="山西省卫生健康委">山西省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.nmg.gov.cn/" title="内蒙古自治区卫生健康委">内蒙古自治区卫生健康委</a>
+                                    <a target="_blank" href="http://wsjk.ln.gov.cn/" title="辽宁省卫生健康委">辽宁省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.jl.gov.cn/" title="吉林省卫生健康委">吉林省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.hlj.gov.cn/" title="黑龙江省卫生健康委">黑龙江省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.jiangsu.gov.cn/" title="江苏省卫生健康委">江苏省卫生健康委</a>
+                                    <a target="_blank" href="https://wsjkw.zj.gov.cn" title="浙江省卫生健康委">浙江省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.ah.gov.cn/" title="安徽省卫生健康委">安徽省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.fujian.gov.cn/" title="福建省卫生健康委">福建省卫生健康委</a>
+                                    <a target="_blank" href="http://hc.jiangxi.gov.cn/" title="江西省卫生健康委">江西省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.shandong.gov.cn/"
+                                        title="山东省卫生健康委">山东省卫生健康委</a>
+                                    <a target="_blank" href="https://wsjkw.henan.gov.cn/" title="河南省卫生健康委">河南省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.hubei.gov.cn/" title="湖北省卫生健康委">湖北省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.hunan.gov.cn/" title="湖南省卫生健康委">湖南省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.gd.gov.cn/" title="广东省卫生健康委">广东省卫生健康委</a>
+                                    <a target="_blank" href="http://wst.hainan.gov.cn/swjw/index.html"
+                                        title="海南省卫生健康委">海南省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.cq.gov.cn/" title="重庆市卫生健康委">重庆市卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.sc.gov.cn/" title="四川省卫生健康委">四川省卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.guizhou.gov.cn/" title="贵州省卫生健康委">贵州省卫生健康委</a>
+                                    <a target="_blank" href="http://ynswsjkw.yn.gov.cn/" title="云南省卫生健康委">云南省卫生健康委</a>
+                                    <a target="_blank" href="http://sxwjw.shaanxi.gov.cn/" title="陕西省卫生健康委">陕西省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjk.gansu.gov.cn/" title="甘肃省卫生健康委">甘肃省卫生健康委</a>
+                                    <a target="_blank" href="https://wsjkw.qinghai.gov.cn/"
+                                        title="青海省卫生健康委">青海省卫生健康委</a>
+                                    <a target="_blank" href="http://wsjkw.nx.gov.cn/"
+                                        title="宁夏回族自治区卫生健康委">宁夏回族自治区卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.xinjiang.gov.cn/"
+                                        title="新疆维吾尔自治区卫生健康委">新疆维吾尔自治区卫生健康委</a>
+                                    <a target="_blank" href="http://wsj.xjbt.gov.cn/"
+                                        title="新疆生产建设兵团卫生局">新疆生产建设兵团卫生局</a>
+                                    <a target="_blank" href="hhttp://wsj.xjbt.gov.cn/"
+                                        title="新疆生产建设兵团人口健康委">新疆生产建设兵团人口健康委</a>
+                                    <a target="_blank" href="http://hcod.dl.gov.cn" title="大连市卫生健康委">大连市卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.ningbo.gov.cn/" title="宁波市卫生健康委">宁波市卫生健康委</a>
+                                    <a target="_blank" href="http://hfpc.xm.gov.cn/" title="厦门市卫生健康委">厦门市卫生健康委</a>
+                                    <a target="_blank" href="http://wjw.sz.gov.cn/" title="深圳市卫生健康委">深圳市卫生健康委</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="其他网站">
+                                其他网站<i class="iconfont icon-shangjiantou"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <li>
+                                    <a target="_blank" href="https://www.shmttc.cn/" title="上海医药卫生技术转移服务平台">上海医药卫生技术转移服务平台</a>
+                                    <!-- <a href="http://www.yyzbsw.sh.cn" title="上海医疗机构药品招标网">上海医疗机构药品招标网</a> -->
+                                    <a target="_blank" href="http://www.shdc.org.cn" title="医联网">医联网</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 友情链接 end-->
+
+    <!-- 动态飘图 -->
+    <!-- <div class="move_port">
+            <a href="http://legalinfo.moj.gov.cn/pub/sfbzhfx/zt/2022zt/221204xfxcz/" >
+                <img src="https://wsjkw.sh.gov.cn/assets/img/xfxcz2022.png" />
+            </a>
+        </div> -->
+
+    <a href="https://zwdt.sh.gov.cn/smzy/wsjkw_qa/tourist/guide/qa" target="_blank" title="智能问答">
+        <img class="qa-float" src="/assets/img/znwd_1.png" alt="智能问答">
+    </a>
+
+    <script src="/assets/js/ETUI/jquery.min.js"></script>
+    <script src="/assets/js/ETUI/jquery-migrate.js"></script>
+    <script src="/assets/js/footer-index.js"></script>
+    <script src="/assets/js/wza.js"></script>
+
+</body>
+<script src="/assets/js/move_port.js"></script>
+<!--[if lt IE 9]>
+    <script src="/assets/js/ETUI/html5shiv.min.js"></script>
+    <script src="/assets/js/ETUI/respond.min.js"></script>
+    <![endif]-->
+<script src="/assets/js/ETUI/ETUI3.min.js"></script>
+<script src="/assets/plugin/owl/owl.carousel.min.js"></script>
+<!--Custom JS-->
+<script src="/assets/js/main.js"></script>
+<script>
+    jQuery(document).ready(function () {
+        Main.init();
+        // move_obj(".move_port",'','',10,10,0,0,100);
+
+        $('.news-slider').owlCarousel({
+            items: 1,
+            margin: 0,
+            stagePadding: 0,
+            smartSpeed: 1000,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            nav: true
+        });
+        $('.re-sliders').owlCarousel({
+            items: 4,
+            loop: true,
+            autoplay: true,
+            nav: true,
+            margin: 20,
+            smartSpeed: 1000,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: { items: 1 },
+                600: { items: 2 },
+                960: { items: 2 },
+                1200: { items: 2 }
+            }
+        });
+    });
+</script>
+<script>
+    function currentTime() {
+        var d = new Date(), str = '';
+        str += d.getFullYear() + '年';
+        str += d.getMonth() + 1 + '月';
+        str += d.getDate() + '日';
+        var a = new Array("日", "一", "二", "三", "四", "五", "六");
+        var week = new Date().getDay();
+        var tody = "星期" + a[week];
+        str += ' ';
+        str += tody;
+        return str;
+
+    }
+    setInterval(function () { $('#time').html(currentTime) }, 1000);
+</script>
+
+</html>

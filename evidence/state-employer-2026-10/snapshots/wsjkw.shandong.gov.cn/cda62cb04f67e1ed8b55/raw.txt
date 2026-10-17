@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>山东省卫生健康委员会-网站声明</title>
+<meta name="SiteName" content="山东省卫生健康委员会" />
+    <meta name="SiteDomain" content="http://wsjkw.shandong.gov.cn/" />
+    <meta name="SiteIDCode" content="3700000034">
+    <meta name="ColumnName" content="网站声明" />
+  <meta name="ColumnDescription" content="官网栏目，发布工作动态、公开相关政策、网上为民服务、与网民互动交流、服务健康山东" />
+<meta name="ColumnKeywords" content="山东,卫生,健康,信息,服务" />
+    <meta name="ColumnType" content="网站声明" />
+    <meta name="ArticleTitle" content="" />
+    <meta name="PubDate" content="" />
+    <meta name="ContentSource" content="山东省卫生健康委员会官方网站" />
+    <meta name="Keywords" content="山东,卫生,健康,信息,服务" />
+    <meta name="Author" content="山东省卫生健康委员会" />
+    <meta name="Description" content="官网栏目" />
+    <meta name="Url" content="http://####" />
+<!--<script language='JavaScript' charset='utf-8' src='http://60.208.61.184:81/ubas/js/count.js'></script>
+<script type='text/javascript'>
+params.docId='';
+params.doctitle='';
+params.siteId='330';
+params.channelId='35012';
+params.channelName='网站声明';
+params.siteName='山东省卫生健康委员会2020';
+</script>
+<script language='JavaScript' charset='utf-8' src='http://60.208.61.184:81/ubas/js/submit.js'></script>-->
+<link href="../../images/second.css" rel="stylesheet">
+<link href="../../images/global.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../images/iconfont.css">
+ <link href="/reslib/barrierfree/css/barrierfree.css" rel="stylesheet" />
+<script type="text/javascript" src="../../images/jquery.js"></script> 
+<script src="/reslib/barrierfree/js/barrierfree.js"></script>
+<script src="/reslib/barrierfree/js/barrierfreeYuyin.js"></script>  
+<style>
+.zwnr{width: 1100px;margin: 0 auto;}
+.zwnr img {height:auto;margin-bottom: 10px;max-width: 80%;}
+.zwnr table{width: 100%;BORDER-TOP: #d2d2d2 1px solid; BORDER-RIGHT: #d2d2d2 1px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #d2d2d2 1px solid; BORDER-LEFT: #d2d2d2 1px solid}
+.zwnr TR {BORDER-TOP: #d2d2d2 1px solid; BORDER-RIGHT: #d2d2d2 1px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #d2d2d2 1px solid; BORDER-LEFT: #d2d2d2 1px solid}
+.zwnr TD {BORDER-TOP: #d2d2d2 1px solid; BORDER-RIGHT: #d2d2d2 1px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #d2d2d2 1px solid; BORDER-LEFT: #d2d2d2 1px solid}
+</style>
+</head>
+
+<body><div id="wzacontainer">
+<!-- 通用页头 -->
+<div id="htop">
+  <div class="allwith">
+    <div class="topl flaot_l">欢迎进入山东省卫生健康委员会网站！<span id=localtime></span></div>
+    <div class="hearit flaot_r">
+      <div class="heaico flaot_r"> <i class="iconfont icon-wechat" style=" font-size:16px;"></i>&nbsp;<a href="../jksdgfwx/" >微信</a> <i class="iconfont icon-weibo" style=" font-size:16px;"></i>&nbsp;<a href="https://weibo.com/u/5601972391?from=hissimilar_home">微博 </a></div>
+      <div class="healon flaot_r"> <span><a href="#" onclick="javascript:ClickObject2();">繁体</a></span> <span>|</span> <span><a href="#" onclick="javascript:ClickObject1();">简体</a></span></span> <span>|</span> <span><a href="javascript:;" onclick="toggleToolBar();">无障碍</a></span>  </div>
+    </div>
+  </div>
+</div><div id="header">
+    <div class=" header allwith">
+      <div class="heale">
+        <div class="healelg"><img src="../../images/logo.png" alt="" /></div>
+      </div>
+      <div class="heari">
+        <div class="hearis flaot_l">
+        <form class="search-box flaot_l"  id="conditionForm">
+          <input class="flaot_l" type="text" aria-label="搜索关键词" placeholder="请输入您要搜索的内容" name="searchWord" id="searchWord" />
+          <div class="search-icon flaot_l" onclick="chkSearch()"> <a href=""><i class="iconfont icon-icon-" style="font-size:1.2em"></i></a> </div>
+         
+        </form>
+          <script>
+	 function checkWords() {
+	  var words = $('#conditionForm input').val();
+	  if (words == null || $.trim(words) == "") {
+		  alert('请输入搜索关键词!');
+		  return false;
+	  }
+	  return true;
+}
+
+ var $textfield = $('#searchWord'); 
+ function chkSearch(){
+	 var searchVal =$('#searchWord').val();
+	 if (searchVal == null || $.trim(searchVal) == "") {
+		 doFileSearch('');
+		  //alert('请输入搜索关键词!');
+		//return true;
+	 }else {
+		doSearch(searchVal);
+	 }
+	 
+ }
+ function doSearch(searchWord) {
+	 $url = 'http://wsjkw.shandong.gov.cn/irs-c-web/search.shtml?code=19b5324cc22&codes=&configCode=&searchWord=' + encodeURI(searchWord)+ '&dataTypeId=171';
+     window.open($url, '_blank');
+ }
+ 
+$('#searchWord').on('keypress', function (event) {
+     if (event.keyCode === 13){
+         chkSearch();
+     }
+ });
+ 
+ 
+ var $fileTextfield = $('#fileSearchWord'); 
+ function chkFileSearch(){
+	 var searchVal = $fileTextfield.val();
+	 if (searchVal == null || $.trim(searchVal) == "") {
+		  alert('请输入搜索关键词!');
+		  return false;
+	 }
+	 doFileSearch(searchVal);
+ }
+ 
+ function doFileSearch(searchWord) {
+	 $url = 'http://wsjkw.shandong.gov.cn/irs-c-web/search.shtml?code=19b5324cc22&codes=&configCode=&searchWord=' + encodeURI(searchWord)+ '&dataTypeId=171';
+     window.open($url, '_blank');
+ }
+ 
+ $fileTextfield.on('keypress', function (event) {
+     if (event.keyCode === 13){
+    	 chkFileSearch();
+     }
+ });
+         </script>
+
+      </div>
+      </div>
+    </div><div class="allwith nav">
+    <ul>
+      <li><a href="http://wsjkw.shandong.gov.cn/"><i class="iconfont icon-shouye" style=" font-size:22px;"></i>&nbsp;&nbsp;首 页</a></li>
+      <li ID='34343' ><a href="../../ywdt/"  target="_blank"><i class="iconfont icon-xinwen" style=" font-size:22px;"></i>&nbsp;&nbsp;要闻动态</a></li>
+      <li ID='34347' ><a href="../../zwgk/" target="_blank"><i class="iconfont icon-icon_xinyong_xianxing_jijin-" style=" font-size:22px;"></i>&nbsp;&nbsp;政务公开</a></li>
+      <li ID='34385' ><a href="../../hdjl/" target="_blank"><i class="iconfont icon-icon-test" style=" font-size:25px;"></i>&nbsp;&nbsp;互动交流</a></li>
+      <li ID='34379' ><a href="../../wmfw/"  target="_blank"><i class="iconfont icon-fuwu" style=" font-size:22px;"></i>&nbsp;&nbsp;办事服务</a></li>
+      <li><a href="../../ztzl/" target="_blank"><i class="iconfont icon-xitongrizhi" style=" font-size:20px;"></i>&nbsp;&nbsp;专题专栏</a></li>
+    </ul>
+    <!--menu end--> 
+    
+  </div>
+  </div>
+
+<!-- 通用页头end -->
+
+
+
+<div class="allwith">
+
+<div class="center detail-page">
+<div class="loc"> <span>当前位置：</span> <a href="../../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="./" target="_blank" title="网站声明" class="CurrChnlCls">网站声明</a></div>
+    <div class="blank10"></div>
+	<div class="news-cont">
+
+		<h2>网站声明</h2>
+ 
+		<div class="clear info-container">
+			<div class="news-infob">
+		 
+			</div><!-- news-info end -->
+			<!-- icon-group end -->
+		</div><!-- clear end -->
+<div class="blank10"></div>
+		<div class="seg-line"></div>
+
+		<div class="zwnr">
+		<div class="view TRS_UEDITOR trs_paper_default trs_word"><p style="text-align:center;margin-bottom:40px;line-height:52px"><span style="background-color: white; color: rgb(51, 51, 51); font-family: 微软雅黑, sans-serif; font-size: 24px;"> </span><br/></p><p style="margin-bottom:30px;text-indent:32px;line-height:31px;background:white"><span style="font-family:宋体;color:#333333;background:white">本网站包含的所有内容（包括但不限于：文本、图形、图片、视像及声音内容、</span><span style="font-family:&#39;Arial&#39;,sans-serif;color:#333333;background:white">LOGO</span><span style="font-family:宋体;color:#333333;background:white">标识，版面设计，专栏目录与名称、内容分类）的所有权归山东省卫生健康委所有。任何媒体、互联网站和商业机构不得利用本网站发布的内容进行商业性的原版原式地转载，也不得歪曲和篡改本网站所发布的内容。</span></p><p style="margin-bottom:30px;text-indent:32px;line-height:31px;background:white"><span style="font-family:宋体;color:#333333;background:white">本网站提供的资料如与相关纸质文本不符，以纸质文本为准。</span></p><p style="margin-bottom:30px;text-indent:32px;line-height:31px;background:white"><span style="font-family:宋体;color:#333333;background:white">任何媒体或互联网站不得擅自转载本网站由其他单位提供的信息和服务内容，如需转载，必须与相应提供单位直接联系获得合法授权。</span></p><p style="margin-bottom:30px;text-indent:32px;line-height:31px;background:white"><span style="font-family:宋体;color:#333333;background:white">未经山东省卫生健康委员会的授权，任何人不得建立该网站的镜像。</span></p><p><br/></p></div></div>
+		<div class="seg-line"></div>
+<div class="seg-line"></div>
+
+		<!-- attachment end -->
+
+</div><!-- news-cont end -->
+</div>
+
+</div>
+  <div class="blank20"></div>
+
+<div id="foot">
+ <div class="blank20"></div>
+<div class="foot allwith">
+<div class="fl"><div style="width:40px; float:left;"><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=08314E66B50D5B11E053012819AC5237" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" /></a></span></div><div style="width:110px; float:right;padding-top: 10px;"><script id="_jiucuo_" sitecode='3700000034' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script></div></div>
+<div class="fz">
+<ul> <li><a href="../wzdt/">网站地图&nbsp;&nbsp;&nbsp;&nbsp;|</a></li> <li><a href="../../zwgk/jgzn/">关于我们&nbsp;&nbsp;&nbsp;&nbsp;|</a></li><li> <a href="../lxfs/">联系方式&nbsp;&nbsp;&nbsp;&nbsp;|</a></li> <li> <a href="./">网站声明  </a></li></ul>
+
+<div class="blank10"></div>
+	<p>主办：山东省卫生健康委员会   承办：山东省卫生健康委员会医疗管理服务中心</p>
+    <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37010202001394" target="_blank"><img src="../../images/ga.png" />鲁公网安备 37010202001394号</a><!--网站邮箱：sdwsjswz@shandong.cn-->  <a href="https://beian.miit.gov.cn/" target="_blank"> 鲁ICP备05023201号-4 </a>  网站标识码：3700000034</p>
+    <p></p></div>
+		
+  <div class="fr"><ul><li><a href="http://app.www.gov.cn/download/Chinese.html" target="_blank"><img src="../../images/bottom-img01.png" alt="" width="100%" /></a></li><li><a href="http://www.gov.cn/guowuyuan/gwykhdxcx/xiaochengxu.html?tdsourcetag=s_pcqq_aiomsg" target="_blank"><img src="../../images/bottom-img02.png" alt="" width="100%" /></a></li><li><a href="https://tousu.www.gov.cn/dc/6wen6bao/index.htm" target="_blank"><img src="../../images/6wlb_xiao.png" alt="" width="100%" /></a></li></ul></div>      
+
+</div>
+
+</div>
+<script language='JavaScript' charset='utf-8' src='http://60.208.61.184:81/ubas/js/count.js'></script>
+<script type='text/javascript'>
+params.docId='';
+params.doctitle='';
+params.siteId='330';
+params.channelId='35012';
+params.channelName='网站声明';
+params.siteName='山东省卫生健康委员会2020';
+</script>
+<script language='JavaScript' charset='utf-8' src='http://60.208.61.184:81/ubas/js/submit.js'></script>
+<!-- 通用页脚end -->
+<script type="text/javascript" src="../../images/jzf.js"></script> 
+<script type="text/javascript">
+function showLocale(objD)
+{
+	var str,colorhead,colorfoot;
+	var yy = objD.getYear();
+	if(yy<1900) yy = yy+1900;
+	var MM = objD.getMonth()+1;
+	if(MM<10) MM = '0' + MM;
+	var dd = objD.getDate();
+	if(dd<10) dd = '0' + dd;
+	var hh = objD.getHours();
+	if(hh<10) hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if(mm<10) mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if(ss<10) ss = '0' + ss;
+	var ww = objD.getDay();
+	if  ( ww==0 )  colorhead="<font color=\"#FFf\">";
+	if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#fff\">";
+	if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+	if  (ww==0)  ww="星期日";
+	if  (ww==1)  ww="星期一";
+	if  (ww==2)  ww="星期二";
+	if  (ww==3)  ww="星期三";
+	if  (ww==4)  ww="星期四";
+	if  (ww==5)  ww="星期五";
+	if  (ww==6)  ww="星期六";
+	colorfoot="</font>"
+	str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
+	return(str);
+}
+function tick()
+{
+	var today;
+	today = new Date();
+	document.getElementById("localtime").innerHTML = showLocale(today);
+	window.setTimeout("tick()", 1000);
+}
+tick();
+</script> 
+</div>
+</body>
+</html>

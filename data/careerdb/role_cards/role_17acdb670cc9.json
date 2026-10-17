@@ -1,0 +1,179 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_17acdb670cc9",
+  "node": "零售/生活服务 › 零售 › 店员/营业员",
+  "family": "零售/生活服务",
+  "parent_id": "零售/生活服务 › 零售",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "零售/生活服务 › 零售 › 店员/营业员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8m5naMZt",
+      "type": "recruitment_jd",
+      "title": "药店营业员",
+      "company": "保定回源堂药房连锁有限公司",
+      "url": "https://campus.niuqizp.com/job-v8m5naMZt.html",
+      "date": "2026-09-19",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "主要负责售卖药品",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8m5naMZt.html",
+      "cache_sha256": "757aa71888a218e6560668af2b3e59e0e9bb9d63062f27a3bc4f2e5d65044c60"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "店员/营业员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "店员/营业员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "药店营业员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8m5naMZt"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“中药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中药学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8m5naMZt"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8m5naMZt"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "药店营业员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.971,
+  "access_date": "2026-10-12",
+  "sha256": "69ca7e63fff543c6df6e87fdb4facc6ed8426c01a9528fd88d2968798aa3fd3d",
+  "blocked": null,
+  "id": "mihoyo-official-search",
+  "company": "mihoyo",
+  "query": "米哈游 公司介绍 游戏 原神 官网",
+  "include_domains": [
+    "mihoyo.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/mihoyo-official-search.json"
+}

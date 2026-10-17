@@ -1,0 +1,834 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="SiteName" content="河北省卫生健康委员会">
+<meta name="SiteDomain" content="//html/index.html">
+<meta name="SiteIDCode" content="1300000033">
+<meta name="ColumnName" content="首页">
+<meta name="ColumnDescription" content="河北省卫生健康委员会">
+<meta name="ColumnKeywords" content="河北省卫生健康委员会">
+<meta name="ColumnType" content="首页">
+<title>首页 - 河北省卫生健康委员会</title>
+<script src="/r/cms/jquery2.js" type="text/javascript"></script>
+<script src="/r/cms/front.js" type="text/javascript"></script>
+<script type="text/javascript" src="/r/cms/www/default/js/jquery.SuperSlide.js"></script>
+<link type="text/css" rel="stylesheet" href="/r/cms/www/default/css/home.css" />
+<link type="text/css" rel="stylesheet" href="/r/cms/www/default/css/style.css" />
+<!--[if lt IE 9]> 
+<script src="/r/cms/www/default/js/html5shiv.min.js"></script>
+<script src="/r/cms/www/default/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+$(function() {
+	Cms.siteFlow("", location.href, document.referrer, "true");
+	$.cookie("_site_id_cookie","1",{path: '' });
+});
+function  news(obj,n)
+{
+	var lia = document.getElementById(obj).getElementsByTagName("li");
+	var lialen=lia.length
+	for(i=0; i<lialen; i++){
+		lia[i].className = "";
+	}
+	lia[n-1].className = "active";	
+	for (var i =1,j; j=document.getElementById(obj+'-'+i); i++){
+		j.style.display="none";
+	}
+	document.getElementById(obj+'-'+n).style.display="block";
+}
+$(document).ready(function(){
+$("#cl").click(function(){
+  $("#yqtz").hide();
+});
+})
+</script>
+</head>
+<body>
+<script>
+function query(){
+	$.post("/createToken.jspx", {}, function(data) {
+		$("#token").val(data.token);
+		$("#searchForm").submit();
+	}, "json");
+}
+$(function() {
+	$("input[name='q']").bind('keypress',function(event){
+	    if(event.keyCode == 13)     
+	    {  
+	    	event.preventDefault();
+	    	query();
+	    }  
+	});
+});
+
+</script>
+
+<script src="/r/cms/jhelper_config.js" type="text/javascript"></script>
+<script src="/r/cms/jhelper_2.0.js" type="text/javascript"></script>
+<!--<script src="/r/cms/jquery-1.4.2.js" type="text/javascript"></script>-->
+<link type="text/css" rel="stylesheet" href="/r/cms/www/default/css/jhelper_tool_style.css" />
+<div id="container">
+<div class="header">
+        <div class="header__c">
+            <div class="header__top">
+                <span class="header__text"><a href="/wzallsm.jhtml" target="_blank">无障碍说明</a></span>
+                <span class="header__line-column">|</span>
+                <span class="header__text"><a title="无障碍浏览工具" href="javascript:;" onclick="toggleToolBar()">无障碍浏览</a></span>
+                <span class="header__line-column">|</span>
+                <span class="header__text"><a target="_blank" href="https://mail.hebwsjkxx.com/">邮件系统</a></span>
+            </div>
+            <div class="header__btm">
+                <div class="header__title">
+                    <img src="/r/cms/www/default/images/header-logo.png" alt="" class="header__logo">
+                </div>
+                <div class="header__shortcut">
+                    <div class="header__share">
+                        <div class="header__social header__social-first">
+                            <a href="https://weibo.com/hebeiwst?is_all=1" target="_blank"><img class="header__icon" src="/r/cms/www/default/images/weibo.png" alt="">
+                            <span class="header__contact">官方微博</span></a>
+                        </div>
+                        <div class="header__social" id="gfwx">
+                            <img class="header__icon" src="/r/cms/www/default/images/wexin.png" alt="">
+                            <span class="header__contact">官方微信</span>
+                            <img src="/r/cms/www/default/images/gfwx.jpg"  class="ewm">
+                        </div>
+                    </div>
+                    <div class="header__box">
+                       <form action="/search.jspx" target="_blank" name="searchForm" id="searchForm">
+                        <div class="header__search">
+                            <input type="text" name="q" value=""  autocomplete="off" class="header__input" placeholder="请输入搜索关键词">
+                             <input type="hidden" name="token" id="token" value="" />
+                            <div class="header__click">
+                                <img src="/r/cms/www/default/images/search.png" alt="" class="header__tool" onclick="query()">
+                            </div>
+                        </div>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav" >
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="/jgzz/301.jhtml">机构概况</a></li>
+                <li><a href="/zwyw/index.jhtml">新闻中心</a></li>
+                <li><a href="/zcfg2/index.jhtml">政策法规</a></li>
+                <li><a href="/html/ztzl/">专题专栏</a></li>
+                <li><a href="/zfxxgkzn/522.jhtml">政府信息公开</a></li>
+                <li><a href="http://www.hbzwfw.gov.cn/hbzw/threebmft/index/bm_index.do?webId=1&deptid=13221">政务服务</a></li>
+                <li><a href="/yjzj/index.jhtml">互动交流</a></li>
+            </ul>
+    </div>    <div class="main">
+                <div class="bar">
+                  <a href="/xxgcddesjszqhjs/index.jhtml" target="_blank"><img class="bar__img" style="margin-top:10px;" src="/r/cms/www/default/images/20da1.png" alt=""></a>
+                 <a href="/xxxcgcxjpgyjkzglszb/index.jhtml" target="_blank"><img class="bar__img" style="margin-top:10px;" src="/r/cms/www/default/images/zyls-banner.jpg" alt=""></a>
+                </div>
+              <!-- iframe src="/srxxgcxjpzsjgywsdzyls/index.jhtml" style="border:none;width:100%;height:300px;margin-top:10px;"></iframe -->
+                <div class="first">
+                    <div class="first__left">
+        <div class="picnews">
+			<span class="picnews_pre" title="上一张"></span>
+			<span class="picnews_next" title="下一张"></span>
+			<div class="bd">    
+				<ul>
+				<li><a href="http://wsjkw.hebei.gov.cn/zwyw/422025.jhtml" target="_blank"><img src="/u/cms/www/202610/10142311n1a6.png"><h2>七秩杏林传薪火 守正创新向未来——京津冀20...</h2></a></li>
+				<li><a href="http://wsjkw.hebei.gov.cn/zwyw/421922.jhtml" target="_blank"><img src="/u/cms/www/202609/3016595904t3.jpg"><h2>赋能提质 聚力发展——2026年全省妇幼保健机...</h2></a></li>
+				<li><a href="http://wsjkw.hebei.gov.cn/zwyw/421823.jhtml" target="_blank"><img src="/u/cms/www/202609/26151150zb9q.jpg"><h2>2026年河北省药学技能竞赛在石家庄市举行</h2></a></li>
+				<li><a href="http://wsjkw.hebei.gov.cn/zwyw/421815.jhtml" target="_blank"><img src="/u/cms/www/202609/24173548yq53.jpg"><h2>2026年京津冀卫生应急综合演练在天津市滨海新...</h2></a></li>
+				<li><a href="http://wsjkw.hebei.gov.cn/zwyw/421794.jhtml" target="_blank"><img src="/u/cms/www/202609/23182134tudi.jpg"><h2>2026年全国中医药教育科技人才工作会议召开 ...</h2></a></li>
+				</ul>
+			</div>
+			<div class="hd"> 
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			</div>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$(".picnews").hover(function(){
+					$(this).find(".picnews_pre,.picnews_next").stop(true, true).fadeTo("show", 1)
+				},function(){
+					$(this).find(".picnews_pre,.picnews_next").fadeOut()
+				});
+				$(".picnews").slide({
+					titCell: ".hd li ",
+					mainCell: ".bd ul",
+					delayTime: 500,
+					interTime: 3500,
+					prevCell:".picnews_pre",
+					nextCell:".picnews_next",
+					effect: "fold",
+					autoPlay: true,
+					trigger: "click",
+					startFun:function(i){
+						$(".bd a").eq(i).find("h3").css("display","block").fadeTo(1000,1);
+					}
+				});
+			});
+			</script>
+		</div>
+                    </div>
+                    <div class="first__right">
+                        <div class="first__title">
+                            <ul id="xwzx">
+                                <li class="active" onmouseover="news('xwzx',1)"><a href="/zwyw/index.jhtml">政务要闻</a></li>
+                                <li onmouseover="news('xwzx',2)"><a href="/xwfb/index.jhtml">新闻发布</a></li>
+                                <li onmouseover="news('xwzx',3)"><a href="/mtbd/index.jhtml">媒体报道</a></li>
+                            </ul>
+                        </div>
+                        <ul class="first__news-ul" id="xwzx-1">
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/sjdt/422031.jhtml" title="2026年世界精神卫生日河北主场宣传活动在雄安新区举行" target="_blank">2026年世界精神卫生日河北主场宣传活动在雄安新区举行</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/sjdt/422027.jhtml" title="河北：越来越多患者在家门口享受京津优质医疗资源" target="_blank">河北：越来越多患者在家门口享受京津优质医疗资源</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/zwyw/422025.jhtml" title="七秩杏林传薪火 守正创新向未来——京津冀2026年中医药高质量发展大会（第一届）暨专项能力提升培训会举办" target="_blank">七秩杏林传薪火 守正创新向未来——京津冀2026年中医...</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/zwyw/422023.jhtml" title="财政部发布2026年上半年中国财政政策执行情况报告，卫生健康支出1.22万亿元，增长10.8%" target="_blank">财政部发布2026年上半年中国财政政策执行情况报告，卫...</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="https://mp.weixin.qq.com/s/WqfgjLvil87eXhh_oDDl9w" title="护佑万家安康 共筑健康中国，专题片《健康新时代》重磅播出" target="_blank">护佑万家安康 共筑健康中国，专题片《健康新时代》重...</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/zwyw/422000.jhtml" title="2026年世界精神卫生日宣传公益海报和宣传口号正式发布" target="_blank">2026年世界精神卫生日宣传公益海报和宣传口号正式发布</a></div>
+                                <div class="first__news-time">2026-10-09</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/zwyw/421997.jhtml" title="外交部：中方提名宋莉博士参与世卫组织总干事竞选" target="_blank">外交部：中方提名宋莉博士参与世卫组织总干事竞选</a></div>
+                                <div class="first__news-time">2026-10-09</div>
+                            </li>
+                        </ul>
+                        <ul class="first__news-ul" id="xwzx-2" style="display:none;">
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/xwfb/422030.jhtml" title="2026世界传统医药大会新闻发布会在京举行" target="_blank">2026世界传统医药大会新闻发布会在京举行</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="https://mp.weixin.qq.com/s/UGFl4XyAJbd7mFVb_O4skg" title="国家卫生健康委就介绍“时令节气与健康（秋分）”有关情况举行新闻发布会（文字实录）" target="_blank">国家卫生健康委就介绍“时令节气与健康（秋分）”有关...</a></div>
+                                <div class="first__news-time">2026-09-23</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/xwfb/421787.jhtml" title="国家卫生健康委员会2026年9月23日新闻发布会文字实录" target="_blank">国家卫生健康委员会2026年9月23日新闻发布会文字实录</a></div>
+                                <div class="first__news-time">2026-09-23</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="https://mp.weixin.qq.com/s/CUO_KA1CCO9SwQGqRx3XYQ" title="国家中医药局召开健康中国中医药健康促进主题发布会之“秋季中医药养生”专题发布会（文字实录）" target="_blank">国家中医药局召开健康中国中医药健康促进主题发布会之...</a></div>
+                                <div class="first__news-time">2026-09-18</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/xwfb/421705.jhtml" title="国家中医药局召开健康中国中医药健康促进主题发布会之“秋季中医药养生”专题发布会（文字实录）" target="_blank">国家中医药局召开健康中国中医药健康促进主题发布会之...</a></div>
+                                <div class="first__news-time">2026-09-18</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="https://mp.weixin.qq.com/s/gHrTloRFE0RJ5PTtqqofCg" title="国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍推动健康中国建设取得决定性进展有关情况（文字实录）" target="_blank">国新办举行“开局起步‘十五五’”系列主题新闻发布...</a></div>
+                                <div class="first__news-time">2026-09-14</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/xwfb/421617.jhtml" title="国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍推动健康中国建设取得决定性进展有关情况（文字实录）" target="_blank">国新办举行“开局起步‘十五五’”系列主题新闻发布...</a></div>
+                                <div class="first__news-time">2026-09-14</div>
+                            </li>
+                        </ul>
+                        <ul class="first__news-ul" id="xwzx-3" style="display:none;">
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/422029.jhtml" title="王正谱主持召开河北省政府常务会议" target="_blank">王正谱主持召开河北省政府常务会议</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/422019.jhtml" title="国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问" target="_blank">国家发展改革委有关负责同志就《关于发展新质生产力的...</a></div>
+                                <div class="first__news-time">2026-10-10</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/421999.jhtml" title="罗文调研走访河北省人大常委会机关和河北省政协机关" target="_blank">罗文调研走访河北省人大常委会机关和河北省政协机关</a></div>
+                                <div class="first__news-time">2026-10-09</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/421998.jhtml" title="铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐" target="_blank">铸就社会主义文化新辉煌——习近平文化思想引领文化强...</a></div>
+                                <div class="first__news-time">2026-10-09</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/421928.jhtml" title="庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话" target="_blank">庆祝中华人民共和国成立77周年招待会在京举行 习近平...</a></div>
+                                <div class="first__news-time">2026-10-01</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/421927.jhtml" title="罗文主持召开河北省委理论学习中心组学习会" target="_blank">罗文主持召开河北省委理论学习中心组学习会</a></div>
+                                <div class="first__news-time">2026-10-01</div>
+                            </li>
+                            <li class="first__news-li">
+                                <div class="first__news-title"><a href="http://wsjkw.hebei.gov.cn/mtbd/421921.jhtml" title="《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》" target="_blank">《求是》杂志发表习近平总书记重要文章《加强普惠性、...</a></div>
+                                <div class="first__news-time">2026-09-30</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="second__left">
+                        <div class="second__news second__news-first">
+                            <div class="home-title">
+                                <div class="home-title__text"><a href="/tzgg/index.jhtml">通知公告</a></div>
+                            </div>
+                            <ul class="second__news-ul">
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/422026.jhtml" title="国家中医药管理局医政司关于做好中医护理方案和护理人员中医技术使用手册使用工作的通知" target="_blank">国家中医药管理局医政司关于做好中医护理...</a>
+                                    <span class="second__news-time">(10-10)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/422015.jhtml" title="河北省卫生健康委员会购买商用密码应用安全性评估服务项目中标公告" target="_blank">河北省卫生健康委员会购买商用密码应用安...</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/422005.jhtml" title="河北省中医药管理局2026年9月份行政许可结果公示" target="_blank">河北省中医药管理局2026年9月份行政许可...</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/421987.jhtml" title="河北省卫生健康委员会综合监督服务中心综合业务楼南立面维修项目中标结果公告" target="_blank">河北省卫生健康委员会综合监督服务中心综...</a>
+                                    <span class="second__news-time">(10-08)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/421925.jhtml" title="国家卫生健康委科教司 国家疾控局科教国际司关于公布2026年度继续医学教育推广项目的通知" target="_blank">国家卫生健康委科教司 国家疾控局科教国...</a>
+                                    <span class="second__news-time">(10-03)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/421886.jhtml" title="国务院关于《医疗康复护理扩容提升工程实施方案》的批复" target="_blank">国务院关于《医疗康复护理扩容提升工程实...</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/tzgg/421878.jhtml" title="2026年传染病监测预警与应急指挥能力提升项目-工程建设监理服务、等级保护测评服务、第三方软件测评服务成交结果公告" target="_blank">2026年传染病监测预警与应急指挥能力提升...</a>
+                                    <span class="second__news-time">(09-29)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="second__news">
+                            <div class="home-title">
+                                <div class="home-title__text"><a href="/gzdt/index.jhtml">工作动态</a></div>
+                            </div>
+                            <ul class="second__work" id="gzdt">
+                                <a href="/sjdt/index.jhtml"><li class="active" onmouseover="news('gzdt',1)">省级动态</li></a>
+                                <a href="/sxdt/index.jhtml"> <li onmouseover="news('gzdt',2)">市县动态</li></a>
+                                <!-- a href="/gzjb/index.jhtml"><li onmouseover="news('gzdt',3)">工作简报 </li></a -->
+                            </ul>
+                            <ul class="second__news-ul" id="gzdt-1">
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sjdt/422031.jhtml" title="2026年世界精神卫生日河北主场宣传活动在雄安新区举行" target="_blank">2026年世界精神卫生日河北主场宣传活动在...</a>
+                                    <span class="second__news-time">(10-10)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sjdt/422027.jhtml" title="河北：越来越多患者在家门口享受京津优质医疗资源" target="_blank">河北：越来越多患者在家门口享受京津优质...</a>
+                                    <span class="second__news-time">(10-10)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zwyw/422025.jhtml" title="七秩杏林传薪火 守正创新向未来——京津冀2026年中医药高质量发展大会（第一届）暨专项能力提升培训会举办" target="_blank">七秩杏林传薪火 守正创新向未来——京津...</a>
+                                    <span class="second__news-time">(10-10)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sjdt/421991.jhtml" title="河北启动流感疫苗免费接种工作" target="_blank">河北启动流感疫苗免费接种工作</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sjdt/421946.jhtml" title="国庆假期河北广大医护人员坚守诊疗一线" target="_blank">国庆假期河北广大医护人员坚守诊疗一线</a>
+                                    <span class="second__news-time">(10-08)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zwyw/421922.jhtml" title="赋能提质 聚力发展——2026年全省妇幼保健机构能力建设培训班在石家庄举办" target="_blank">赋能提质 聚力发展——2026年全省妇幼保...</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                            </ul>
+                            <ul class="second__news-ul" id="gzdt-2" style="display:none;">
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sxdt/421985.jhtml" title="临漳县2026年“百市千县”中医药文化惠民活动暨中医药文化夜市圆满收官" target="_blank">临漳县2026年“百市千县”中医药文化惠民...</a>
+                                    <span class="second__news-time">(10-08)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sxdt/421896.jhtml" title="邢台市中医药文化市集・扁鹊集活动火热开启" target="_blank">邢台市中医药文化市集・扁鹊集活动火热开启</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sxdt/421890.jhtml" title="雄安新区10月1日起落地实施长期护理保险" target="_blank">雄安新区10月1日起落地实施长期护理保险</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sxdt/421887.jhtml" title="邯郸市曲周县中医院：党业融合 筑牢质量安全防线" target="_blank">邯郸市曲周县中医院：党业融合 筑牢质量...</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sxdt/421876.jhtml" title="七秩岐黄铸华章 守正创新护民生--写在石家庄市中医院建院七十周年之际" target="_blank">七秩岐黄铸华章 守正创新护民生--写在石...</a>
+                                    <span class="second__news-time">(09-29)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/sxdt/421875.jhtml" title="隆化县中医院开展中秋丰收节中医药健康惠民活动" target="_blank">隆化县中医院开展中秋丰收节中医药健康惠...</a>
+                                    <span class="second__news-time">(09-29)</span>
+                                </li>
+                            </ul>
+                            <ul class="second__news-ul" id="gzdt-3" style="display:none;">
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/gzjb/421585.jhtml" title="《河北卫生健康信息》2026年第5期" target="_blank">《河北卫生健康信息》2026年第5期</a>
+                                    <span class="second__news-time">(09-11)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/gzjb/420034.jhtml" title="《河北卫生健康信息》2026年第4期" target="_blank">《河北卫生健康信息》2026年第4期</a>
+                                    <span class="second__news-time">(06-23)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/gzjb/419018.jhtml" title="《河北卫生健康信息》2026年第3期" target="_blank">《河北卫生健康信息》2026年第3期</a>
+                                    <span class="second__news-time">(05-07)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/gzjb/416360.jhtml" title="《河北卫生健康信息》2025年第6期" target="_blank">《河北卫生健康信息》2025年第6期</a>
+                                    <span class="second__news-time">(12-26)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/gzjb/414709.jhtml" title="《河北卫生健康信息》2025年第5期" target="_blank">《河北卫生健康信息》2025年第5期</a>
+                                    <span class="second__news-time">(09-29)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/gzjb/413074.jhtml" title="《河北卫生健康信息》2025年第4期" target="_blank">《河北卫生健康信息》2025年第4期</a>
+                                    <span class="second__news-time">(07-18)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="second__news second__news-third">
+                            <div class="home-title">
+                                <div class="home-title__text"><a href="/zcfg2/index.jhtml">政策法规</a></div>
+                            </div>
+                            <ul class="second__news-ul">
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/422020.jhtml" title="国家中医药管理局综合司关于印发《中医医疗技术手册(2026版)》的通知" target="_blank">国家中医药管理局综合司关于印发《中医医...</a>
+                                    <span class="second__news-time">(10-10)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/422013.jhtml" title="国家药监局关于加强中药品种保护工作的公告（2026年第97号）" target="_blank">国家药监局关于加强中药品种保护工作的公...</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/422011.jhtml" title="国家药监局关于按照省级中药饮片炮制规范炮制的中药饮片跨省级行政区域销售、使用管理规定有关事项的通告（2026年第34号）" target="_blank">国家药监局关于按照省级中药饮片炮制规范...</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/421948.jhtml" title="关于印发医疗康复护理扩容提升工程实施方案的通知" target="_blank">关于印发医疗康复护理扩容提升工程实施方...</a>
+                                    <span class="second__news-time">(10-08)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/421900.jhtml" title="中共中央办公厅 国务院办公厅印发《文化遗产保护传承“十五五”规划》" target="_blank">中共中央办公厅 国务院办公厅印发《文化...</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/421825.jhtml" title="关于做好2026年中秋、国庆假期前后及秋冬季重点传染病防治工作的通知" target="_blank">关于做好2026年中秋、国庆假期前后及秋冬...</a>
+                                    <span class="second__news-time">(09-24)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcfg2/421769.jhtml" title="国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康复指南（2026年版）的通知" target="_blank">国家卫生健康委办公厅关于印发孤独症谱系...</a>
+                                    <span class="second__news-time">(09-22)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="second__news second__news-fourth">
+                            <div class="home-title">
+                                <div class="home-title__text"><a href="/zcjd/index.jhtml">政策解读</a></div>
+                            </div>
+                            <ul class="second__news-ul">
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/422012.jhtml" title="国家药监局关于加强中药品种保护工作的公告政策解读" target="_blank">国家药监局关于加强中药品种保护工作的公...</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/422010.jhtml" title="《按照省级中药饮片炮制规范炮制的中药饮片跨省级行政区域销售、使用管理规定》政策解读" target="_blank">《按照省级中药饮片炮制规范炮制的中药饮...</a>
+                                    <span class="second__news-time">(10-09)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/421947.jhtml" title="《医疗康复护理扩容提升工程实施方案》政策解读" target="_blank">《医疗康复护理扩容提升工程实施方案》政...</a>
+                                    <span class="second__news-time">(10-08)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/421824.jhtml" title="《关于做好2026年中秋、国庆假期前后及秋冬季重点传染病防治工作的通知》解读问答" target="_blank">《关于做好2026年中秋、国庆假期前后及秋...</a>
+                                    <span class="second__news-time">(09-24)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/421768.jhtml" title="《孤独症谱系障碍儿童干预康复指南（2026年版）》文件解读" target="_blank">《孤独症谱系障碍儿童干预康复指南（2026...</a>
+                                    <span class="second__news-time">(09-22)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/421766.jhtml" title="国家卫生健康委发布50项新食品安全国家标准和修改单" target="_blank">国家卫生健康委发布50项新食品安全国家标...</a>
+                                    <span class="second__news-time">(09-22)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/zcjd/421722.jhtml" title="《关于进一步加强罕见病防治工作的通知》政策解读" target="_blank">《关于进一步加强罕见病防治工作的通知》...</a>
+                                    <span class="second__news-time">(09-20)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="second__right">
+                        <div class="second__country">
+                          <a href="http://www.gov.cn/pushinfo/v150203/index.htm" target="_blank"><img src="/r/cms/www/default/images/country-box1.png" alt="" class="second__country-img second__country-left"></a>
+                            <a href="http://www.gov.cn/zhengce/xxgkzl.htm" target="_blank"><img src="/r/cms/www/default/images/country-box2.png" alt="" class="second__country-img"></a>
+                        </div>
+                        <div class="imglink">
+                                   <a href="http://tousu.www.gov.cn/dc/index.htm" target="_blank"><img src="/u/cms/www/202010/12101721hwmt.png" /></a>
+                                   <a href="https://tousu.www.gov.cn/dc/6wen6bao/index.htm" target="_blank"><img src="/u/cms/www/202010/1210170519id.png" /></a>
+                                   <a href="/zfxxgkzn/522.jhtml" target="_blank"><img src="/u/cms/www/202312/18105714ps6p.png" /></a>
+                                   <a href="http://www.hbzwfw.gov.cn/hbzw/threebmft/index/bm_index.do?webId=1&deptid=13221" target="_blank"><img src="/u/cms/www/202010/1209334972zm.png" /></a>
+                        </div>
+                        <div class="second__health">
+                            <div class="home-title">
+                                
+                                   <a href="/shjzsfhzfjlzxzz/index.jhtml">
+
+                                      <img src="/r/cms/www/default/images/sjtitle.png" alt=""  width='100%'>    
+
+                                     </a>
+                            </div>
+                        </div>
+                       
+
+
+
+                         <ul class="second__news-ul" style="border: 1px solid #1575cc; border-top:0;margin-top:0;padding-bottom: 10px;">
+
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/mtbd/421892.jhtml" title="河北省委常委会召开扩大会议" target="_blank" style="display: inline-block;width:calc(100% - 80px)"><span style="display:inline-block;width:6px;height:6px;background:#1575cc;border-radius:50%;vertical-align: middle;margin:0 10px 2px"></span>河北省委常委会召开扩大会议</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/mtbd/421786.jhtml" title="中央纪委国家监委通报" target="_blank" style="display: inline-block;width:calc(100% - 80px)"><span style="display:inline-block;width:6px;height:6px;background:#1575cc;border-radius:50%;vertical-align: middle;margin:0 10px 2px"></span>中央纪委国家监委通报</a>
+                                    <span class="second__news-time">(09-23)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/mtbd/421749.jhtml" title="中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议" target="_blank" style="display: inline-block;width:calc(100% - 80px)"><span style="display:inline-block;width:6px;height:6px;background:#1575cc;border-radius:50%;vertical-align: middle;margin:0 10px 2px"></span>中共中央政治局召开会议 讨...</a>
+                                    <span class="second__news-time">(09-21)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/mtbd/421565.jhtml" title="王正谱主持召开河北省政府党组会议" target="_blank" style="display: inline-block;width:calc(100% - 80px)"><span style="display:inline-block;width:6px;height:6px;background:#1575cc;border-radius:50%;vertical-align: middle;margin:0 10px 2px"></span>王正谱主持召开河北省政府党...</a>
+                                    <span class="second__news-time">(09-11)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="http://wsjkw.hebei.gov.cn/mtbd/421551.jhtml" title="深入学习贯彻习近平总书记党的十八大以来对河北工作重要讲话和重要指示批示精神读书班结业" target="_blank" style="display: inline-block;width:calc(100% - 80px)"><span style="display:inline-block;width:6px;height:6px;background:#1575cc;border-radius:50%;vertical-align: middle;margin:0 10px 2px"></span>深入学习贯彻习近平总书记党...</a>
+                                    <span class="second__news-time">(09-10)</span>
+                                </li>
+                            </ul>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="topic">
+                        <div class="home-title" style="margin-bottom:5px;">
+                            <div class="home-title__text">
+                                <a href="/ztzl/index.jhtml">专题专栏</a>
+                            </div>
+                        </div>
+                    <div>
+                        <link href="/r/cms/www/default/css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+	                <script type="text/javascript" src="/r/cms/www/default/js/jquery.bxslider.js"></script>
+	                <div class="tpxw">
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/jkkp/index.jhtml" target="_blank"><img src="/u/cms/www/202411/06130102w9fw.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/yqtb/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113457rshy.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/agwsyd/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113525wes0.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/hbzyy/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113600pkei.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/hbjkyfkzj/index.jhtml" target="_blank"><img src="/u/cms/www/202503/11095239xpiq.jpg" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/gzjb/index.jhtml" target="_blank"><img src="/u/cms/www/202405/21104137w85x.jpg" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/yxjy/index.jhtml" target="_blank"><img src="/u/cms/www/202606/03181509e4q0.jpg" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/jybgsylfwxdjh/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113543kddd.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/sqxzjcgszl/index.jhtml" target="_blank"><img src="/u/cms/www/202505/09165533c2sk.jpg" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="/zwgk/index.jhtml" target="_blank"><img src="/u/cms/www/202104/30100341iu73.jpg" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/lljk/index.jhtml" target="_blank"><img src="/u/cms/www/202501/08180714tgy3.jpg" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="/xzqlqd/index.jhtml" target="_blank"><img src="/u/cms/www/202010/101137141xr7.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/shjzsfhzfjlzxzz/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113732vyfe.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="/xzxk2/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113745h38i.png" style="height:90px;"></a>
+			          </div>
+			          <div class="item">
+				      <a href="http://wsjkw.hebei.gov.cn/djqzpbgfylxwzxzz/index.jhtml" target="_blank"><img src="/u/cms/www/202010/10113759mlk6.png" style="height:90px;"></a>
+			          </div>
+                         </div>
+                         <script type="text/javascript">
+                            $(document).ready(function(){
+                                  $('.tpxw').bxSlider({
+                                  slideWidth: 260,
+                                   minSlides: 1,
+                                   maxSlides: 4,
+                                   slideMargin: 16
+                               });
+                               });
+                        </script>
+                    </div>
+                </div>
+                <div class="third">
+                    <div class="third__left">
+                        <div class="third__download">
+                            <div class="third__sub">
+                                <div class="home-title">
+                                    <div class="home-title__text"><a href="/xzzx/index.jhtml">下载中心</a></div>
+                                </div>
+                            </div>
+                            <ul class="second__news-ul">
+                                <li class="second__news-li">
+                                    <a href="https://mp.weixin.qq.com/s/Js8JtbBiofdTuxQNLhxKww" title="消防海报｜划重点！国庆假期消防安全关键字来了" target="_blank">消防海报｜划重点！国庆假期消防安全关键...</a>
+                                    <span class="second__news-time">(09-30)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="https://mp.weixin.qq.com/s/ei9T7b3bop2sg9d18HyTfw" title="消防视频｜美景在前，安全为先！请收好这份假期景区消防安全提示" target="_blank">消防视频｜美景在前，安全为先！请收好这...</a>
+                                    <span class="second__news-time">(09-29)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="https://mp.weixin.qq.com/s/UBHwmWpFz7hv8XMGj1JUIA" title="消防视频｜月圆盼人安，这份假期消防安全提示请查收" target="_blank">消防视频｜月圆盼人安，这份假期消防安全...</a>
+                                    <span class="second__news-time">(09-25)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="https://mp.weixin.qq.com/s/5BYL06jXTsIdA05f0Qbw8A" title="消防视频｜校园消防安全指南，请全体师生查收" target="_blank">消防视频｜校园消防安全指南，请全体师生...</a>
+                                    <span class="second__news-time">(09-21)</span>
+                                </li>
+                                <li class="second__news-li">
+                                    <a href="https://mp.weixin.qq.com/s/90E9vS1zVoHMJb5M1Y8t3g" title="国家网络安全宣传周 | 这些网络安全常识，你一定要知道~" target="_blank">国家网络安全宣传周 | 这些网络安全常识...</a>
+                                    <span class="second__news-time">(09-16)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="third__platform">
+                            <div class="third__sub">
+                                <div class="home-title">
+                                    <div class="home-title__text">服务平台</div>
+                                </div>
+                            </div>
+                            <ul class="third-serve">
+                                <a href="http://www.sjzjs.com.cn/hb/" target="_blank"><li>
+                                    <img src="/r/cms/www/default/images/third-logo1.png" alt="">
+                                    <span>河北省计划生育网上办事大厅</span>
+                                </li></a>
+                               <a href="http://spbz.hebwsjkxx.com/" target="_blank"> <li>
+                                    <img src="/r/cms/www/default/images/third-logo2.png" alt="" >
+                                    <span>食品安全标准<br>信息平台</span>
+                                </li></a>
+                                <a href="https://www.hebsjsx.org.cn/byt/" target="_blank"><li>
+                                    <img src="/r/cms/www/default/images/third-logo3.png" alt="">
+                                    <span>省计生协信息化管理系统</span>
+                                </li></a>
+                                <a href="https://zhjd.hebwsjkxx.com:8280/xkweb/exit" target="_blank"><li>
+                                    <img src="/r/cms/www/default/images/third-logo4.png" alt="" >
+                                    <span style="display: inline-block;">公共场所卫生<br>备案在线办理</span>
+                                </li></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="third__right">
+                        <div class="third__right-sub">
+                            <div class="home-title">
+                                <div class="home-title__text"><a href="/yjzj/index.jhtml">互动交流</a></div>
+                            </div>
+                        </div>
+                        <ul class="third-right-ul">
+                             <a href="http://www.gov.cn/hudong/index.htm" target="_blank">
+                             <li class="third-right-li1">
+                                <img src="/r/cms/www/default/images/gwywls.png">
+                            </li>
+                            </a>
+                            <a href="https://hb12345.szj.hebei.gov.cn/ticket/zwpage/#/" target="_blank"><li class="third-right-li2">
+                                <img src="/r/cms/www/default/images/third-right1.png">
+                                <span>咨询留言</span>
+                            </li></a>
+                            <a href="/yjzj/index.jhtml"> <li class="third-right-li3">
+                               <img src="/r/cms/www/default/images/third-right2.png">
+                                <span>意见征集</span>
+                            </li></a>
+                            <a href="/jyta/index.jhtml"><li class="third-right-li4">
+                                <img src="/r/cms/www/default/images/third-right3.png">
+                                <span> 建议提案</span>
+                            </li></a>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+<div class="links">
+            <ul>
+                <li>
+                    <select onchange="window.open(this.value)">
+                        <option>---国家及各省市卫生健康委---</option>
+                                                     <option value="http://www.nhc.gov.cn">国家卫生健康委员会</option>
+                           <option value="http://wjw.beijing.gov.cn">北京市卫生健康委员会</option>
+                           <option value="http://wsjk.tj.gov.cn/">天津市卫生健康委员会</option>
+                           <option value="http://wjw.shanxi.gov.cn/">山西省卫生健康委员会</option>
+                           <option value="http://wjw.nmg.gov.cn/">内蒙古自治区卫生健康委员会</option>
+                           <option value="https://wsjk.ln.gov.cn/">辽宁省卫生健康委员会</option>
+                           <option value="http://wsjkw.jl.gov.cn">吉林省卫生健康委员会</option>
+                           <option value="http://wsjkw.hlj.gov.cn/">黑龙江省卫生健康委员会</option>
+                           <option value="http://wsjkw.sh.gov.cn">上海市卫生健康委员会</option>
+                           <option value="http://wjw.jiangsu.gov.cn">江苏省卫生健康委员会</option>
+                           <option value="https://wsjkw.zj.gov.cn/">浙江省卫生健康委员会</option>
+                           <option value="http://wjw.ah.gov.cn">安徽省卫生健康委员会</option>
+                           <option value="http://wjw.fujian.gov.cn/">福建省卫生健康委员会</option>
+                           <option value="http://hc.jiangxi.gov.cn">江西省卫生健康委员会</option>
+                           <option value="http://wsjkw.shandong.gov.cn">山东省卫生健康委员会</option>
+                           <option value="http://wsjkw.henan.gov.cn/">河南省卫生健康委员会</option>
+                           <option value="http://wjw.hubei.gov.cn/">湖北省卫生健康委员会</option>
+                           <option value="http://wjw.hunan.gov.cn">湖南省卫生健康委员会</option>
+                           <option value="http://wsjkw.gd.gov.cn">广东省卫生健康委员会</option>
+                           <option value="http://wsjkw.gxzf.gov.cn/">广西壮族自治区卫生健康委员会</option>
+                           <option value="http://wst.hainan.gov.cn/">海南省卫生健康委员会</option>
+                           <option value="http://wsjkw.cq.gov.cn">重庆市卫生健康委员会</option>
+                           <option value="http://wsjkw.sc.gov.cn">四川省卫生健康委员会</option>
+                           <option value="http://wjw.guizhou.gov.cn/">贵州省卫生健康委员会</option>
+                           <option value="http://ynswsjkw.yn.gov.cn/wjwWebsite/web/index">云南省卫生健康委员会</option>
+                           <option value="http://wjw.xizang.gov.cn/">西藏自治区卫生健康委员会</option>
+                           <option value="http://sxwjw.shaanxi.gov.cn">陕西省卫生健康委员会</option>
+                           <option value="http://wsjk.gansu.gov.cn">甘肃省卫生健康委员会</option>
+                           <option value="http://wsjkw.qinghai.gov.cn">青海省卫生健康委员会</option>
+                           <option value="http://wsjkw.nx.gov.cn/">宁夏回族自治区卫生健康委员会</option>
+                           <option value="http://wjw.xinjiang.gov.cn/">新疆维吾尔自治区卫生健康委员会</option>
+                           <option value="http://wsj.xjbt.gov.cn/">新疆生产建设兵团卫生健康委员会</option>
+                    </select>
+                </li>
+                <li>
+                    <select onchange="window.open(this.value)">
+                        <option>---省政府及省直各部门---</option>
+                           <option value="http://www.hebei.gov.cn/">省人民政府</option>
+                           <option value="https://hbdrc.hebei.gov.cn/">省发展和改革委员会</option>
+                           <option value="http://www.hee.gov.cn/">省教育厅</option>
+                           <option value="http://kjt.hebei.gov.cn/www/index.html">省科学技术厅</option>
+                           <option value="http://gxt.hebei.gov.cn/hbgyhxxht/index/index.html">省工业和信息化厅</option>
+                           <option value="http://mw.hebei.gov.cn/">省民族事务委员会</option>
+                           <option value="http://gat.hebei.gov.cn/">省公安厅</option>
+                           <option value="http://minzheng.hebei.gov.cn">省民政厅</option>
+                           <option value="http://sft.hebei.gov.cn/">省司法厅</option>
+                           <option value="http://czt.hebei.gov.cn">省财政厅</option>
+                           <option value="https://rst.hebei.gov.cn/">省人力资源和社会保障厅</option>
+                           <option value="http://zrzy.hebei.gov.cn/">省自然资源厅</option>
+                           <option value="http://hbepb.hebei.gov.cn">省生态环境厅</option>
+                           <option value="http://zfcxjst.hebei.gov.cn">省住房和城乡建设厅</option>
+                           <option value="http://jtt.hebei.gov.cn/">省交通运输厅</option>
+                           <option value="http://slt.hebei.gov.cn/">省水利厅</option>
+                           <option value="http://nync.hebei.gov.cn">省农业农村厅</option>
+                           <option value="http://swt.hebei.gov.cn/nx_html/index.html">省商务厅</option>
+                           <option value="https://whly.hebei.gov.cn/">省文化和旅游厅</option>
+                           <option value="http://wsjkw.hebei.gov.cn/">省卫生健康委</option>
+                           <option value="http://tyjrswt.hebei.gov.cn/">省退役军人事务厅</option>
+                           <option value="http://yjgl.hebei.gov.cn/portal/">省应急管理厅</option>
+                           <option value="http://sjt.hebei.gov.cn/">省审计厅</option>
+                           <option value="http://hebwb.hebei.gov.cn/">省人民政府外事办</option>
+                           <option value="http://hbsa.hebei.gov.cn/">省国资委</option>
+                           <option value="http://scjg.hebei.gov.cn">省市场监督管理局</option>
+                           <option value="http://rta.hebei.gov.cn/">省广播电视局</option>
+                           <option value="https://sport.hebei.gov.cn/">省体育局</option>
+                           <option value="http://tjj.hebei.gov.cn">省统计局</option>
+                           <option value="http://swj.hebei.gov.cn/index.shtml">省机关事务管理局</option>
+                           <option value="https://sgdb.hebei.gov.cn/">省防空办</option>
+                           <option value="http://ylbzj.hebei.gov.cn/">省医保局</option>
+                           <option value="http://www.heblsj.gov.cn/">省粮食和物资储备局</option>
+                           <option value="http://lycy.hebei.gov.cn">省林业和草原局</option>
+                           <option value="http://wenwu.hebei.gov.cn/">省文物局</option>
+                           <option value="http://yjj.hebei.gov.cn/hbpda/">省药品监督管理局</option>
+                           <option value="http://www.hebcdi.gov.cn/">省监察委员会</option>
+                           <option value="http://hebei.chinatax.gov.cn/hbsw/index.html">国家税务总局河北省税务局</option>
+                           <option value="http://www.hbjg.gov.cn/">中共河北省委军民融合发展委员会办公室</option>
+                           <option value="https://www.saac.gov.cn/daj/c100171/sdag.shtml">省档案局</option>
+                           <option value="https://hb.chinamine-safety.gov.cn/index.shtml">河北煤矿安全监察局</option>
+                    </select>
+                </li>
+                <li>
+                    <select onchange="window.open(this.value)">
+                        <option>---各市卫生健康委---</option>
+                           <option value="http://wsjk.sjz.gov.cn">石家庄市卫生健康委</option>
+                           <option value="http://wjw.chengde.gov.cn">承德市卫生健康委</option>
+                           <option value="http://wjw.zjk.gov.cn/">张家口市卫生健康委</option>
+                           <option value="http://wjw.qhd.gov.cn">秦皇岛市卫生健康委</option>
+                           <option value="http://wsjkwyh.tangshan.gov.cn">唐山市卫生健康委</option>
+                           <option value="http://wjw.lf.gov.cn/">廊坊市卫生健康委</option>
+                           <option value="http://wjw.baoding.gov.cn/">保定市卫生健康委</option>
+                           <option value="http://wjw.hengshui.gov.cn">衡水市卫生健康委</option>
+                           <option value="http://wsjkw.xingtai.gov.cn">邢台市卫生健康委</option>
+                           <option value="http://wjw.hd.gov.cn">邯郸市卫生健康委</option>
+                    </select>
+                </li>
+                <li>
+                    <select onchange="window.open(this.value)" >
+                        <option>---省直卫生健康单位---</option>
+                           <option value="http://www.hbpphosp.cn/">河北省人民医院</option>
+                           <option value="https://www.hebeicdc.cn/">河北省疾病预防控制中心 </option>
+                           <option value="http://www.hbpch.com/">河北省儿童医院</option>
+                           <option value="http://www.hbsxkyy.com/">河北省胸科医院</option>
+                           <option value="http://hbslnyy.com/">河北省老年病医院 </option>
+                           <option value="http://www.hebbc.org/">河北省血液中心 </option>
+                           <option value="https://hebsfy.com/">河北省妇幼保健中心</option>
+                           <option value="http://www.hbs6yy.com/">河北省精神卫生中心</option>
+                           <option value="http://www.hbsdqrmyy.cn/">河北省第七人民医院</option>
+                           <option value="http://www.hbskfyy.com/">河北省康复医院</option>
+                           <option value="http://www.hebtxzx.cn/">河北省卫生健康委员会统计信息中心</option>
+                           <option value="https://www.hbprh.com/">河北省生殖健康医院（河北省妇幼保健院）</option>
+                           <option value="http://www.jyyy.com.cn/">河北医科大学第一医院 </option>
+                           <option value="http://www.hb2h.com/">河北医科大学第二医院 </option>
+                           <option value="https://www.cthhmu.com/">河北医科大学第三医院</option>
+                           <option value="http://www.hbydsy.com/">河北医科大学第四医院</option>
+                           <option value="http://www.hbszyy.cn/">河北省中医院 </option>
+                           <option value="http://www.hbydkqyy.com/">河北医科大学口腔医院</option>
+                           <option value="http://www.hbdxfy.cn/">河北大学附属医院 </option>
+                           <option value="https://www.cyfy.cn/">承德医学院附属医院 </option>
+                           <option value="http://www.hbbfyfy.com/index.html">河北北方学院附属第一医院 </option>
+                           <option value="http://www.bfefy.com/">河北北方学院附属第二医院</option>
+                           <option value="http://www.hbgdfy.com/">河北工程大学附属医院</option>
+                    </select>
+                </li>
+            </ul>
+</div> 
+    <div class="footer2">
+        <div class="footer-wrap">
+               <div class="footer-icon">
+                        <a href="http://bszs.conac.cn/sitename?method=show&id=0DD9AF208A373728E053012819AC7AFA" target="_blank"><img src="/r/cms/www/default/images/dzjgicon.png"></a>
+                </div>
+                 <div class="footer-txt">
+                       <p>主办单位：河北省卫生健康委员会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;承办单位：河北省卫生健康委员会统计信息中心</p>
+                       <p>通讯地址：河北省石家庄市合作路42号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                      <p>网站备案号：<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备14016372号-7</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13010502001655" target="_blank">中文域名备案号：<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备14016372号-86</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                     <p><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13010502001655" target="_blank">冀公网安备：13010502001655号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站标识码：1300000033</p>
+ 
+                </div>
+                <div  style="padding-left:200px;float:left;margin-top:15px;"> <a href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=1300000033&url=https%3A%2F%2Fwsjkw.hebei.gov.cn%2F" target="_blank"><img src="/r/cms/www/default/images/footzfzc.png"></a></div>
+                <a href="/wzdt/index.jhtml"><div class="wzlink">网站地图</div></a>
+          </div>
+  </div>
+
+<div style="position:absolute;top:240px;right:20px;">
+<a href="https://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202308/18/7626380f-8a92-4401-bc18-b66394b11f6e.html" target="_blank"><img src="/r/cms/www/default/images/hqlmzct.jpg" style="width:120px;height:auto;"></a>
+</div>
+</script>
+
+</body>
+</html>

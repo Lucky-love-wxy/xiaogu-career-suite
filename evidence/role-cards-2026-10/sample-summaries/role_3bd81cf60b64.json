@@ -1,0 +1,212 @@
+{
+  "name": [
+    {
+      "text": "法务专员/助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "法务专员/助理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "协助开展企业企划宣传、文案撰写、宣传素材整理及企业文化建设",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwm5ManMt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwm5ManMt",
+          "text": "协助开展企业企划宣传、文案撰写、宣传素材整理及企业文化建设"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与投融资、并购、重组等境内外法律项目，为项目提供法律支持",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwm5zLnCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwm5zLnCL",
+          "text": "参与投融资、并购、重组等境内外法律项目，为项目提供法律支持"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责公司各项规章制度拟定及法律审核，为各部门提供法律咨询和指导",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwm5zLnCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwm5zLnCL",
+          "text": "负责公司各项规章制度拟定及法律审核，为各部门提供法律咨询和指导"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责公司合同及其他法律文本的起草、审查、修改，合同相关的争议解决",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwm5zLnCL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwm5zLnCL",
+          "text": "负责公司合同及其他法律文本的起草、审查、修改，合同相关的争议解决"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责合同审核、法律事务处理、合规风险排查、法律文书撰写及法务资料归档",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwm5ManMt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwm5ManMt",
+          "text": "负责合同审核、法律事务处理、合规风险排查、法律文书撰写及法务资料归档"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，4份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5CaZnL",
+        "vk85CL5zL",
+        "vwm5ManMt",
+        "vwm5zLnCL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 4,
+        "denominator": 4,
+        "matched_ids": [
+          "vUy5CaZnL",
+          "vk85CL5zL",
+          "vwm5ManMt",
+          "vwm5zLnCL"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5CaZnL",
+        "vk85CL5zL",
+        "vwm5ManMt",
+        "vwm5zLnCL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vk85CL5zL",
+          "vwm5ManMt"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“法学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5CaZnL",
+        "vk85CL5zL",
+        "vwm5ManMt",
+        "vwm5zLnCL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "法学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vUy5CaZnL"
+        ]
+      }
+    },
+    {
+      "text": "4份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUy5CaZnL",
+        "vk85CL5zL",
+        "vwm5ManMt",
+        "vwm5zLnCL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vwm5zLnCL"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "法务专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwm5ManMt",
+        "vwm5zLnCL"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "[2027秋]法务专员(J16365)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk85CL5zL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "法务专员/助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUy5CaZnL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

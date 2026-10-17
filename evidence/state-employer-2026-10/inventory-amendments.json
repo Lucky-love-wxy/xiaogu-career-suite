@@ -1,0 +1,92 @@
+[
+  {
+    "name": "四川省国资入口",
+    "url": "https://gzw.sc.gov.cn/scsgzw/c100138/lxfs.shtml",
+    "robots": {
+      "url": "https://gzw.sc.gov.cn/robots.txt",
+      "kind": "robots",
+      "accessed": "2026-10-11 Asia/Shanghai",
+      "started_epoch": 1791708286.537645,
+      "ua": "XiaoguResearch/1.0 (public-source audit; no login)",
+      "cookies_sent": false,
+      "path": "evidence/state-employer-2026-10/snapshots/gzw.sc.gov.cn/1b1d5629ea89e8072a3c",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "finished_epoch": 1791708286.860907
+    },
+    "page": {
+      "url": "https://gzw.sc.gov.cn/scsgzw/c100138/lxfs.shtml",
+      "kind": "official-entry",
+      "accessed": "2026-10-11 Asia/Shanghai",
+      "started_epoch": 1791708291.742788,
+      "ua": "XiaoguResearch/1.0 (public-source audit; no login)",
+      "cookies_sent": false,
+      "path": "evidence/state-employer-2026-10/snapshots/gzw.sc.gov.cn/d28a83ef57968ac95153",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "finished_epoch": 1791708292.1019452
+    }
+  },
+  {
+    "name": "西藏自治区国资入口（政府网公开报告替代，独立门户未找到）",
+    "url": "https://www.xizang.gov.cn/zwgk/xxgk_424/xxgknb/2023nb/202401/t20240129_401305.html",
+    "robots": {
+      "url": "https://www.xizang.gov.cn/robots.txt",
+      "kind": "robots",
+      "accessed": "2026-10-11 Asia/Shanghai",
+      "started_epoch": 1791708292.103308,
+      "ua": "XiaoguResearch/1.0 (public-source audit; no login)",
+      "cookies_sent": false,
+      "path": "evidence/state-employer-2026-10/snapshots/www.xizang.gov.cn/b73d2cc8e464ae327582",
+      "status": 200,
+      "final_url": "https://www.xizang.gov.cn/robots.txt",
+      "headers": {
+        "Date": "Sun, 11 Oct 2026 08:44:22 GMT",
+        "Content-Type": "text/plain",
+        "Content-Length": "31",
+        "Last-Modified": "Wed, 14 Jul 2021 06:25:53 GMT",
+        "Connection": "close",
+        "ETag": "\"60ee8371-1f\"",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Set-Cookie": "HttpOnly",
+        "X-Permitted-Cross-Domain-Policies": "master-only",
+        "X-Download-Options": "noopen",
+        "Accept-Ranges": "bytes"
+      },
+      "bytes": 31,
+      "body_chars": 30,
+      "title": "",
+      "finished_epoch": 1791708292.6289332
+    },
+    "page": {
+      "url": "https://www.xizang.gov.cn/zwgk/xxgk_424/xxgknb/2023nb/202401/t20240129_401305.html",
+      "kind": "official-entry",
+      "accessed": "2026-10-11 Asia/Shanghai",
+      "started_epoch": 1791708297.3083708,
+      "ua": "XiaoguResearch/1.0 (public-source audit; no login)",
+      "cookies_sent": false,
+      "path": "evidence/state-employer-2026-10/snapshots/www.xizang.gov.cn/7f8a6c686f988a854e4c",
+      "status": 200,
+      "final_url": "https://www.xizang.gov.cn/zwgk/xxgk_424/xxgknb/2023nb/202401/t20240129_401305.html",
+      "headers": {
+        "Date": "Sun, 11 Oct 2026 08:44:27 GMT",
+        "Content-Type": "text/html",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "Set-Cookie": "security_session_verify=8ce13836a5359196f56b8e41a3b28226; expires=Wed, 14-Oct-26 16:44:27 GMT; path=/; HttpOnly",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "X-Permitted-Cross-Domain-Policies": "master-only",
+        "X-Download-Options": "noopen"
+      },
+      "bytes": 168151,
+      "body_chars": 4066,
+      "title": "西藏自治区政府国资委2023年度信息公开工作报告_西藏自治区人民政府",
+      "finished_epoch": 1791708299.8980632
+    }
+  }
+]

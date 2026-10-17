@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>小谷 · 后台</title>
+<link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<style>
+/* 黑白日式简约：只有墨色和纸色，层级靠字号、字重、留白和细线。
+   字体只用系统字体：Google Fonts 在中国大陆常被拦，阻塞渲染。 */
+:root{
+  color-scheme:dark;
+  --paper:#0a0a0a; --paper-2:#151514; --ink:#f2f2ee; --ink-2:#a3a39e; --ink-3:#6b6b67; --rule:#3d3d3a;
+  --serif:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong",serif;
+  --sans:"PingFang SC","Noto Sans SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  --mono:"SF Mono","IBM Plex Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper); color:var(--ink); font:14px/1.7 var(--sans); -webkit-font-smoothing:antialiased}
+button,input,select{font:inherit; color:inherit}
+.num{font-family:var(--mono); font-variant-numeric:tabular-nums; letter-spacing:-.01em}
+
+/* 顶栏 */
+/* 布局：左侧导航（参照飞书管理后台）+ 右侧内容，一次只看一组 */
+.layout{display:grid; grid-template-columns:var(--nav-w,228px) minmax(0,1fr); min-height:100vh; transition:grid-template-columns .25s ease}
+body.nav-mini .layout{--nav-w:64px}
+.anav{position:sticky; top:0; height:100vh; display:flex; flex-direction:column; border-right:1px solid var(--rule); background:#0f0f0e; overflow:hidden}
+.anav .top{display:flex; align-items:center; gap:8px; padding:16px 14px 14px 20px; min-height:60px}
+.anav .top .tb{margin-left:auto}
+.anav .groups{flex:1; overflow-y:auto; padding:4px 10px 16px}
+.anav .g{margin:16px 10px 6px; font-size:11px; letter-spacing:.12em; color:var(--ink-3); white-space:nowrap}
+.navi{all:unset; box-sizing:border-box; cursor:pointer; display:flex; align-items:center; gap:12px; width:100%; padding:9px 12px; margin:1px 0;
+  border-radius:10px; font-size:14px; color:var(--ink-2); white-space:nowrap; position:relative; transition:background .15s,color .15s}
+.navi svg{flex:none; width:18px; height:18px}
+.navi:hover{background:rgba(242,242,238,.07); color:var(--ink)}
+.navi.on{background:rgba(242,242,238,.12); color:var(--ink)}
+.navi.on::before{content:""; position:absolute; left:-10px; top:9px; bottom:9px; width:3px; border-radius:0 3px 3px 0; background:var(--ink)}
+.navi .badge{margin-left:auto; font:11px/1 var(--mono); color:var(--ink-3)}
+body.nav-mini .anav .g, body.nav-mini .navi .lbl, body.nav-mini .navi .badge, body.nav-mini .mark{display:none}
+body.nav-mini .anav .top{padding:16px 0; justify-content:center}
+body.nav-mini .anav .top .tb{margin:0}
+body.nav-mini .navi{justify-content:center; padding:10px 0}
+.tb{all:unset; cursor:pointer; width:32px; height:32px; display:grid; place-items:center; border-radius:8px; color:var(--ink-2); transition:background .15s,color .15s}
+.tb:hover{background:rgba(242,242,238,.08); color:var(--ink)}
+.tb svg{width:18px; height:18px}
+.shell{min-width:0}
+.ptitle{font:700 16px/1 var(--serif); letter-spacing:.2em}
+header{position:sticky; top:0; z-index:5; display:flex; align-items:center; gap:18px; padding:14px 40px;
+  background:rgba(10,10,10,.9); backdrop-filter:blur(6px); border-bottom:1px solid var(--rule)}
+.mark{font:700 17px/1 var(--serif); letter-spacing:.18em}
+.mark small{font:400 11px/1 var(--mono); letter-spacing:.2em; color:var(--ink-3); margin-left:10px}
+.env{font:500 10px/1 var(--mono); letter-spacing:.25em; padding:5px 8px; border:1px solid var(--ink); border-radius:6px}
+.env.prod{background:var(--ink); color:var(--paper)}
+.meta{color:var(--ink-3); font-size:12px}
+.grow{flex:1}
+.link{all:unset; cursor:pointer; font-size:12px; color:var(--ink-2); padding:6px 10px; border-radius:8px; transition:background .15s,color .15s}
+.link:hover{color:var(--ink); background:rgba(242,242,238,.08)}
+
+/* 全局停止：整页唯一的“重”元素 */
+.kill{all:unset; cursor:pointer; display:flex; align-items:center; gap:12px; padding:9px 16px 9px 12px;
+  border:1.5px solid var(--ink); border-radius:10px; transition:background .2s,color .2s}
+.kill .dot{width:10px; height:10px; border-radius:50%; background:var(--ink); box-shadow:0 0 0 3px var(--paper),0 0 0 4px var(--ink)}
+.kill b{font:700 13px/1 var(--serif); letter-spacing:.3em}
+.kill span{font-size:11px; color:var(--ink-2)}
+.kill:hover{background:var(--paper-2)}
+.kill.stopped{background:var(--ink); color:var(--paper)}
+.kill.stopped .dot{background:var(--paper); box-shadow:0 0 0 3px var(--ink),0 0 0 4px var(--paper); animation:blink 1.6s infinite}
+.kill.stopped span{color:#4a4a47}
+@keyframes blink{50%{opacity:.25}}
+.banner{display:none; padding:12px 40px; background:var(--ink); color:var(--paper); font-size:13px; letter-spacing:.04em}
+.banner.on{display:block}
+
+main{max-width:1180px; margin:0 auto; padding:8px 40px 120px}
+section{padding:40px 0 8px}
+section.show{animation:rise .38s cubic-bezier(.2,.7,.2,1) both; animation-delay:calc(var(--i,0) * 60ms)}
+.h i{display:none}
+@keyframes rise{to{opacity:1; transform:none}}
+.h{display:flex; align-items:baseline; gap:14px; margin-bottom:22px; border-bottom:1px solid var(--ink); padding-bottom:10px}
+.h i{font:400 11px/1 var(--mono); font-style:normal; color:var(--ink-3); letter-spacing:.15em}
+.h h2{margin:0; font:700 19px/1 var(--serif); letter-spacing:.22em}
+.h p{margin:0 0 0 auto; font-size:12px; color:var(--ink-3)}
+
+/* 关键数字 */
+.kpis{display:grid; grid-template-columns:repeat(4,1fr); border-left:1px solid var(--rule)}
+.kpi{padding:6px 22px 18px; border-right:1px solid var(--rule)}
+.kpi label{display:block; font-size:12px; color:var(--ink-2); letter-spacing:.08em}
+.kpi .v{display:block; margin:10px 0 6px; font:400 34px/1 var(--mono); font-variant-numeric:tabular-nums; letter-spacing:-.03em}
+.kpi .v small{font-size:15px; margin-right:3px; color:var(--ink-2)}
+.kpi .s{font-size:12px; color:var(--ink-3)}
+.kpi.neg .v{text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:7px}
+
+/* 表格 */
+table{width:100%; border-collapse:collapse}
+th{font:400 11px/1.4 var(--sans); color:var(--ink-3); letter-spacing:.1em; text-align:right; padding:0 10px 10px; border-bottom:1px solid var(--rule); white-space:nowrap}
+td{padding:11px 10px; border-bottom:1px solid var(--rule); text-align:right; vertical-align:top}
+th:first-child,td:first-child{text-align:left; padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+td.l,th.l{text-align:left}
+tr.muted td{color:var(--ink-3)}
+.windows td:first-child{font-family:var(--serif); letter-spacing:.15em}
+.tag{display:inline-block; font-size:11px; line-height:1; padding:3px 6px; border:1px solid var(--ink-3); border-radius:5px; color:var(--ink-2); white-space:nowrap}
+.tag.solid{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.acts{white-space:nowrap}
+#liveTurns td{white-space:nowrap}
+.acts button{all:unset; cursor:pointer; font-size:12px; color:var(--ink-2); margin-left:4px; padding:4px 8px; border-radius:7px}
+.acts button:hover{color:var(--ink); background:rgba(242,242,238,.08)}
+.empty{padding:24px 0; color:var(--ink-3); font-size:13px}
+
+/* 趋势图 */
+.chart{display:grid; grid-template-columns:1fr; gap:6px}
+.chart svg{width:100%; height:auto; display:block; overflow:visible}
+.chart .legend{display:flex; gap:22px; font-size:12px; color:var(--ink-2)}
+.chart .legend span::before{content:""; display:inline-block; width:10px; height:10px; margin-right:6px; vertical-align:-1px; background:var(--ink)}
+.chart .legend span.t::before{background:none; border-top:1.5px solid var(--ink); height:0; width:14px; vertical-align:3px}
+
+/* 开关 */
+.switch{all:unset; cursor:pointer; display:inline-flex; align-items:center; gap:8px; font-size:12px}
+.switch .track{width:32px; height:18px; border:1.5px solid var(--ink); border-radius:6px; position:relative; transition:background .2s}
+.switch .track::after{content:""; position:absolute; top:2px; left:2px; width:11px; height:11px; border-radius:3px; background:var(--ink); transition:left .2s,background .2s}
+.switch.on .track{background:var(--ink)}
+.switch.on .track::after{left:16px; background:var(--paper)}
+
+.two{display:grid; grid-template-columns:1fr 1fr; gap:56px}
+.form{display:flex; flex-wrap:wrap; gap:12px 18px; align-items:flex-end}
+.field{display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--ink-2)}
+.field input{width:120px; padding:6px 0; border:0; border-bottom:1px solid var(--ink-3); background:transparent; font-family:var(--mono); font-size:14px; color:var(--ink); outline:none}
+.field input:focus{border-color:var(--ink)}
+.field input.wide{width:180px}
+.btn{all:unset; cursor:pointer; padding:7px 16px; border:1.5px solid var(--ink); border-radius:10px; font-size:12px; letter-spacing:.15em}
+.btn:hover{background:var(--ink); color:var(--paper)}
+.codes{margin-top:16px; font:15px/2 var(--mono); letter-spacing:.12em; user-select:all}
+.note{font-size:12px; color:var(--ink-3); margin:14px 0 0}
+
+/* 用户对话抽屉 */
+.drawer{position:fixed; inset:0 0 0 auto; width:min(720px,100%); background:var(--paper); border-left:1.5px solid var(--ink);
+  transform:translateX(100%); transition:transform .3s ease; z-index:20; overflow-y:auto; padding:28px 36px 80px}
+.drawer.open{transform:none}
+.scrim{position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:19; display:none}
+.scrim.open{display:block}
+.drawer h3{margin:0 0 4px; font:700 18px/1.3 var(--serif); letter-spacing:.15em}
+.drawer .sub{color:var(--ink-3); font-size:12px; margin-bottom:22px}
+.turn{border-top:1px solid var(--rule); padding:16px 0}
+.turn .row{display:flex; gap:10px; align-items:center; font-size:11px; color:var(--ink-3); margin-bottom:8px}
+.turn .q{font-weight:500; white-space:pre-wrap; max-height:7.5em; overflow:hidden}
+.turn .a{margin-top:8px; color:var(--ink-2); white-space:pre-wrap; font-size:13px; max-height:12em; overflow:auto; padding-left:12px; border-left:1px solid var(--rule)}
+.turn.deleted{opacity:.5}
+
+/* 后台登录 */
+.gate{position:fixed; inset:0; z-index:30; background:var(--paper); display:none; place-items:center}
+.gate.on{display:grid}
+.gate form{width:300px}
+.gate h1{font:700 22px/1 var(--serif); letter-spacing:.3em; margin:0 0 6px}
+.gate p{color:var(--ink-3); font-size:12px; margin:0 0 30px}
+.gate input{width:100%; padding:10px 0; border:0; border-bottom:1.5px solid var(--ink); background:transparent; font:16px var(--mono); outline:none}
+.gate .err{color:var(--ink); font-size:12px; min-height:20px; margin-top:10px}
+.gate .btn{margin-top:14px}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+@media (max-width:860px){
+  /* 手机：左侧导航变成顶部横向标签 */
+  .layout, body.nav-mini .layout{grid-template-columns:1fr}
+  .anav{position:sticky; top:0; z-index:6; height:auto; flex-direction:row; align-items:center; border-right:0; border-bottom:1px solid var(--rule)}
+  .anav .top{display:none}
+  .anav .groups{display:flex; gap:4px; overflow-x:auto; padding:8px 12px}
+  .anav .g{display:none}
+  .navi{width:auto; padding:8px 12px}
+  .navi.on::before{display:none}
+  header{position:static}
+  header{padding:12px 16px; flex-wrap:wrap; gap:10px}
+  .meta{display:none}
+  main{padding:0 16px 80px}
+  .banner{padding:12px 16px}
+  .kpis{grid-template-columns:1fr 1fr}
+  .kpi{border-bottom:1px solid var(--rule)}
+  .kpi .v{font-size:26px}
+  .two{grid-template-columns:1fr; gap:24px}
+  .scroll{overflow-x:auto}
+  .scroll table{min-width:640px}
+  .drawer{padding:22px 16px 80px}
+}
+</style>
+</head>
+<body>
+<div class="gate" id="gate">
+  <form id="gateForm">
+    <h1>小谷后台</h1>
+    <p>只有管理员能进。口令在服务器环境变量 XIAOGU_ADMIN_TOKEN 里。</p>
+    <input type="password" id="gateInput" placeholder="后台口令" autocomplete="current-password">
+    <div class="err" id="gateErr"></div>
+    <button class="btn" type="submit">进入</button>
+  </form>
+</div>
+
+<div class="layout">
+<aside class="anav" id="anav">
+  <div class="top"><span class="mark">小谷<small>CONSOLE</small></span><button class="tb" id="navFold" title="收起导航" aria-label="收起导航"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M9 4v16"/></svg></button></div>
+  <nav class="groups">
+    <p class="g">数据</p>
+    <button class="navi" data-view="overview" title="总览"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="9" rx="2"/><rect x="14" y="3" width="7" height="5" rx="2"/><rect x="14" y="12" width="7" height="9" rx="2"/><rect x="3" y="16" width="7" height="5" rx="2"/></svg><span class="lbl">总览</span></button>
+    <button class="navi" data-view="users" title="用户"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/><path d="M16 4.6a3.4 3.4 0 0 1 0 6.8M18.5 14.8c1.7.7 2.7 2.4 3 5.2"/></svg><span class="lbl">用户</span><span class="badge" id="navUsers"></span></button>
+    <button class="navi" data-view="product" title="功能与质量"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg><span class="lbl">功能与质量</span></button>
+    <p class="g">运营</p>
+    <button class="navi" data-view="ops" title="邀请码"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8.5V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2.5a2.5 2.5 0 0 0 0 5V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4.5a2.5 2.5 0 0 0 0-5Z"/><path d="M14 4v16" stroke-dasharray="2 2.4"/></svg><span class="lbl">邀请码</span></button>
+    <p class="g">系统</p>
+    <button class="navi" data-view="settings" title="阈值与单价"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg><span class="lbl">阈值与单价</span></button>
+  </nav>
+</aside>
+<div class="shell">
+<header>
+  <span class="ptitle" id="ptitle">总览</span>
+  <span class="env" id="env">—</span>
+  <span class="meta" id="meta">读取中</span>
+  <span class="grow"></span>
+  <button class="link" id="reload">刷新</button>
+  <button class="kill" id="kill" title="全局停止：所有用户立刻无法开始新的对话"><span class="dot"></span><b id="killLabel">运行中</b><span id="killSub">点按停止服务</span></button>
+</header>
+<div class="banner" id="banner"></div>
+
+<main>
+  <section data-view="overview">
+    <div class="h"><i>01</i><h2>账户</h2><p id="updated"></p></div>
+    <div class="kpis">
+      <div class="kpi"><label id="kBalLabel">DeepSeek 账户余额</label><span class="v num" id="kBal">—</span><span class="s" id="kBalSub"></span></div>
+      <div class="kpi"><label>用户未用额度（欠用户的）</label><span class="v num" id="kLia">—</span><span class="s" id="kLiaSub"></span></div>
+      <div class="kpi"><label>今日模型成本</label><span class="v num" id="kCost">—</span><span class="s" id="kCostSub"></span></div>
+      <div class="kpi" id="kProfitBox"><label>今日毛利</label><span class="v num" id="kProfit">—</span><span class="s">付费收入 − 模型成本</span></div>
+    </div>
+  </section>
+
+  <section data-view="overview">
+    <div class="h"><i>02</i><h2>实时</h2><p>使用页面产生的数据，每 30 秒自动刷新</p></div>
+    <div class="two">
+      <div><p class="note" style="margin:0 0 8px">最近对话</p><div class="scroll"><table><tbody id="liveTurns"></tbody></table></div></div>
+      <div><p class="note" style="margin:0 0 8px">最近事件</p><table><tbody id="liveEvents"></tbody></table></div>
+    </div>
+  </section>
+
+  <section data-view="overview">
+    <div class="h"><i>03</i><h2>盈亏</h2><p>赠送额度不算收入；内测期毛利为负是正常的</p></div>
+    <div class="scroll"><table class="windows">
+      <thead><tr><th class="l">区间</th><th>付费收入</th><th>模型成本</th><th>毛利</th><th>用户消耗额度</th><th>对话轮数</th><th>活跃用户</th><th>新用户</th></tr></thead>
+      <tbody id="windows"></tbody>
+    </table></div>
+  </section>
+
+  <section data-view="overview">
+    <div class="h"><i>04</i><h2>趋势</h2><p>近 14 天，北京时间</p></div>
+    <div class="chart">
+      <div class="legend"><span>模型成本（元）</span><span class="t">对话轮数</span></div>
+      <svg id="chart" viewBox="0 0 1100 220" role="img" aria-label="近 14 天成本与轮数"></svg>
+    </div>
+  </section>
+
+  <section data-view="users">
+    <div class="h"><i>05</i><h2>用户</h2><p id="userCount"></p></div>
+    <div class="scroll"><table>
+      <thead><tr><th class="l">联系方式</th><th class="l">状态</th><th>剩余额度</th><th>已消耗</th><th>模型成本</th><th>轮数</th><th>最近活跃</th><th></th></tr></thead>
+      <tbody id="users"></tbody>
+    </table></div>
+  </section>
+
+  <section data-view="product">
+    <div class="h"><i>06</i><h2>功能</h2><p>近 30 天；开关只影响新的一轮，进行中的会跑完</p></div>
+    <div class="scroll"><table>
+      <thead><tr><th class="l">功能</th><th>轮数</th><th>人数</th><th>平均成本</th><th>总成本</th><th>受阻 / 出错</th><th>开关</th></tr></thead>
+      <tbody id="features"></tbody>
+    </table></div>
+  </section>
+
+  <section data-view="product">
+    <div class="two">
+      <div>
+        <div class="h"><i>07</i><h2>质量</h2><p>近 7 天</p></div>
+        <table><tbody id="quality"></tbody></table>
+      </div>
+      <div>
+        <div class="h"><i>08</i><h2>埋点</h2><p>近 7 天事件数</p></div>
+        <table><tbody id="events"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section data-view="settings">
+    <div class="h"><i>09</i><h2>阈值</h2><p>改完立即生效，不用重启</p></div>
+    <div class="form" id="thresholds"></div>
+    <p class="note">当日模型成本达到上限、或 DeepSeek 余额低于下限时，系统自动打开全局停止，需要你在顶栏手动恢复。因成本上限停止的，先调高上限再恢复，否则下一轮结束又会自动停止。</p>
+  </section>
+
+  <section data-view="ops">
+    <div>
+      <div>
+        <div class="h"><i>10</i><h2>邀请码</h2><p id="signupState"></p></div>
+        <form class="form" id="inviteForm">
+          <label class="field">数量<input type="number" id="invCount" value="5" min="1" max="50"></label>
+          <label class="field">每码额度<input type="number" id="invCredits" value="100" min="1"></label>
+          <label class="field">可用次数<input type="number" id="invUses" value="1" min="1"></label>
+          <label class="field">备注<input class="wide" id="invNote" placeholder="比如：小红书第一批"></label>
+          <button class="btn" type="submit">生成</button>
+        </form>
+        <div class="codes" id="codes"></div>
+        <table style="margin-top:18px"><thead><tr><th class="l">邀请码</th><th>额度</th><th>已用</th><th class="l">备注</th></tr></thead><tbody id="invites"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section data-view="settings">
+    <div class="h"><i>11</i><h2>单价</h2><p>元 / 百万 tokens</p></div>
+    <table><thead><tr><th class="l">模型</th><th>输入</th><th>缓存命中</th><th>输出</th></tr></thead><tbody id="prices"></tbody></table>
+    <p class="note" id="priceSource"></p>
+  </section>
+</main>
+</div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer"></aside>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cr = v => v == null ? "—" : Number(v).toLocaleString("zh-CN", {minimumFractionDigits: 2, maximumFractionDigits: 2});  // credits 一律两位小数
+const yuan = v => v == null ? "—" : (Math.abs(v) < 1 && v !== 0 ? v.toFixed(4) : v.toFixed(2));
+const signed = v => (v < 0 ? "−" : "") + yuan(Math.abs(v));
+const ago = t => {
+  if (!t) return "—";
+  const s = Date.now() / 1000 - t;
+  return s < 60 ? "刚刚" : s < 3600 ? `${Math.floor(s / 60)} 分钟前` : s < 86400 ? `${Math.floor(s / 3600)} 小时前` : `${Math.floor(s / 86400)} 天前`;
+};
+const FEATURE = {chat: "对话", resume: "简历", interview: "模拟面试"};
+const STATUS = {complete: "完成", needs_input: "追问", blocked: "受阻", error: "出错"};
+let data = null;
+
+async function api(path, body) {
+  const res = await fetch(path, body === undefined ? {} : {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)});
+  if (res.status === 401) { $("#gate").classList.add("on"); throw new Error("401"); }
+  const json = await res.json();
+  if (!res.ok) { alert(json.error || "操作失败"); throw new Error(json.error); }
+  return json;
+}
+
+async function load() {
+  data = await api("/api/admin/dashboard");
+  $("#gate").classList.remove("on");
+  render();
+}
+
+function render() {
+  const d = data, f = d.flags;
+  $("#env").textContent = d.env.toUpperCase();
+  $("#env").className = "env " + d.env;
+  $("#meta").textContent = `模型 ${d.provider.model}${d.provider.name === "mock" ? "（模拟，不花钱）" : ""}`;
+  $("#updated").textContent = "更新于 " + new Date(d.generated_at * 1000).toLocaleTimeString("zh-CN", {hour12: false});
+
+  // 全局停止
+  const stopped = f.maintenance === "1";
+  $("#kill").classList.toggle("stopped", stopped);
+  $("#killLabel").textContent = stopped ? "已停止" : "运行中";
+  $("#killSub").textContent = stopped ? "点按恢复服务" : "点按停止服务";
+  $("#banner").classList.toggle("on", stopped);
+  $("#banner").textContent = stopped ? `服务已停止：${f.maintenance_reason || "管理员手动停止"}。用户此刻看到“小谷暂停服务中”。` : "";
+
+  // 01 账户
+  const b = d.provider_balance;
+  if (!b) { $("#kBal").textContent = "—"; $("#kBalSub").textContent = "模拟模型没有账户余额"; }
+  else if (b.error) { $("#kBal").textContent = "—"; $("#kBalSub").textContent = `暂时查不到（${b.error}）`; }
+  else if (b.kind === "newapi") {
+    // 中转站：额度点按它公开的 quota_per_unit 换成美元；人民币实付以中转站后台为准
+    $("#kBalLabel").textContent = `中转站剩余额度 · ${b.host}`;
+    $("#kBal").innerHTML = b.unlimited ? "不限额" : b.available_usd == null ? "—" : `<small>$</small>${b.available_usd.toFixed(2)}`;
+    $("#kBalSub").textContent = (b.ok === false ? `中转站返回：${b.message || "失败"} · ` : "")
+      + `已用 $${b.used_usd == null ? "—" : b.used_usd.toFixed(2)} · ${b.quota_per_unit.toLocaleString()} 点 = $1 · ${ago(b.checked_at)}查询`;
+  }
+  else {
+    $("#kBal").innerHTML = `<small>¥</small>${yuan(b.total_cny)}`;
+    $("#kBalSub").textContent = `充值 ¥${yuan(b.topped_up_cny)} · 赠送 ¥${yuan(b.granted_cny)} · ${ago(b.checked_at)}查询`;
+  }
+  $("#kLia").innerHTML = `<small>¥</small>${yuan(d.liability.cny_outstanding)}`;
+  $("#kLiaSub").textContent = `${cr(d.liability.credits_outstanding)} credits 未用 · 累计发放 ${cr(d.liability.credits_granted_total)}`;
+  $("#kCost").innerHTML = `<small>¥</small>${yuan(d.today.cost_cny)}`;
+  const cap = parseFloat(f.daily_cost_cap_cny || 0);
+  const tk = d.tokens;
+  const tokenLine = tk.cap ? `全站 token ${tk.used.toLocaleString()} / ${tk.cap.toLocaleString()}（${Math.round(tk.used / tk.cap * 100)}%）` : `全站 token ${tk.used.toLocaleString()}，未设总上限`;
+  $("#kCostSub").textContent = (cap ? `上限 ¥${cap} · 已用 ${Math.round(d.today.cost_cny / cap * 100)}%` : "未设上限") + " · " + tokenLine;
+  const p = d.today.gross_profit_cny;
+  $("#kProfit").innerHTML = `<small>¥</small>${signed(p)}`;
+  $("#kProfitBox").classList.toggle("neg", p < 0);
+
+  // 02 实时
+  const when = ts => new Date(ts * 1000).toLocaleTimeString("zh-CN", {hour12: false});
+  $("#liveTurns").innerHTML = d.recent.turns.length ? d.recent.turns.map(x => `<tr>
+    <td class="num" style="white-space:nowrap">${when(x.created_at)}</td><td class="l num">${esc(x.contact)}</td>
+    <td class="l"><span class="tag">${FEATURE[x.feature] || x.feature}</span></td>
+    <td class="l" style="max-width:260px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap">${esc(x.user_message)}</td>
+    <td class="num">扣 ${cr(x.credits_charged)}</td><td class="num">¥${yuan(x.cost_cny)}</td>
+    <td class="l">${STATUS[x.status] || x.status}</td></tr>`).join("") : `<tr><td class="empty">还没有对话</td></tr>`;
+  $("#liveEvents").innerHTML = d.recent.events.length ? d.recent.events.map(x => `<tr>
+    <td class="num" style="white-space:nowrap">${when(x.created_at)}</td><td class="l num">${esc(x.name)}</td>
+    <td class="l num">${esc(x.contact || "未登录")}</td></tr>`).join("") : `<tr><td class="empty">还没有事件</td></tr>`;
+
+  // 03 盈亏
+  $("#windows").innerHTML = [["今日", d.today], ["7 日", d.d7], ["30 日", d.d30]].map(([n, w]) => `
+    <tr><td>${n}</td><td class="num">${yuan(w.revenue_cny)}</td><td class="num">${yuan(w.cost_cny)}</td>
+    <td class="num">${signed(w.gross_profit_cny)}</td><td class="num">${cr(w.credits_consumed)}<span style="color:var(--ink-3)"> ≈ ¥${yuan(w.credits_consumed / 50)}</span></td>
+    <td class="num">${w.turns}</td><td class="num">${w.active_users}</td><td class="num">${w.new_users}</td></tr>`).join("");
+
+  drawChart(d.daily);
+
+  // 04 用户
+  $("#userCount").textContent = `${d.users.length} 人`;
+  $("#navUsers").textContent = d.users.length || "";
+  $("#users").innerHTML = d.users.length ? d.users.map(u => `
+    <tr class="${u.status === "active" ? "" : "muted"}">
+      <td class="num">${esc(u.contact)}</td>
+      <td class="l">${u.status === "active" ? '<span class="tag">正常</span>' : '<span class="tag solid">已暂停</span>'}</td>
+      <td class="num">${cr(u.balance)}</td><td class="num">${cr(u.consumed)}</td>
+      <td class="num">${yuan(u.cost_cny)}</td><td class="num">${u.turns}</td><td>${ago(u.last_seen)}</td>
+      <td class="acts"><button data-act="turns" data-id="${u.id}">对话</button><button data-act="credits" data-id="${u.id}">加额度</button>
+      <button data-act="${u.status === "active" ? "suspend" : "resume"}" data-id="${u.id}">${u.status === "active" ? "暂停" : "恢复"}</button></td>
+    </tr>`).join("") : `<tr><td colspan="8" class="empty">还没有用户。去下面生成邀请码发出去。</td></tr>`;
+
+  // 05 功能
+  const byF = Object.fromEntries(d.features.map(x => [x.feature, x]));
+  $("#features").innerHTML = ["chat", "resume", "interview"].map(k => {
+    const x = byF[k] || {turns: 0, users: 0, avg_cost: 0, cost: 0, failed: 0}, on = f["feature." + k] === "1";
+    return `<tr class="${on ? "" : "muted"}"><td>${FEATURE[k]}</td><td class="num">${x.turns}</td><td class="num">${x.users}</td>
+      <td class="num">${yuan(x.avg_cost)}</td><td class="num">${yuan(x.cost)}</td><td class="num">${x.failed}</td>
+      <td><button class="switch ${on ? "on" : ""}" data-flag="feature.${k}" data-value="${on ? "0" : "1"}"><span>${on ? "开" : "关"}</span><span class="track"></span></button></td></tr>`;
+  }).join("");
+
+  // 06 质量
+  const q = d.quality;
+  $("#quality").innerHTML = [["对话轮数", q.turns], ["每轮平均模型调用", q.avg_calls], ["受阻（校验没过，不收费）", q.blocked || 0],
+    ["服务出错", q.errors || 0], ["耗时中位数", q.p50_ms == null ? "—" : (q.p50_ms / 1000).toFixed(1) + " 秒"],
+    ["耗时 P95", q.p95_ms == null ? "—" : (q.p95_ms / 1000).toFixed(1) + " 秒"]]
+    .map(([k, v]) => `<tr><td>${k}</td><td class="num">${v}</td></tr>`).join("");
+
+  // 07 埋点
+  $("#events").innerHTML = d.events.length ? d.events.map(e => `<tr><td class="num">${esc(e.name)}</td><td class="num">${e.n}</td></tr>`).join("")
+    : `<tr><td class="empty">近 7 天没有事件</td></tr>`;
+
+  // 08 阈值
+  const TH = [["markup", "扣费倍率", "成本 × 倍率"], ["global_token_cap", "全站 token 总上限（不重置，0=不限）", ""], ["daily_cost_cap_cny", "当日成本上限 ¥", ""], ["min_provider_balance_cny", "DeepSeek 余额下限 ¥", ""], ["min_provider_balance_usd", "中转站额度下限 $", ""]];
+  $("#thresholds").innerHTML = TH.map(([k, label]) => `<label class="field">${label}<input data-key="${k}" value="${esc(f[k])}"></label>`).join("")
+    + `<button class="btn" id="saveTh" type="button">保存</button>`
+    + `<button class="switch ${f.signup_open === "1" ? "on" : ""}" data-flag="signup_open" data-value="${f.signup_open === "1" ? "0" : "1"}" type="button"><span>开放新用户注册</span><span class="track"></span></button>`;
+  $("#saveTh").onclick = async () => {
+    for (const input of document.querySelectorAll("#thresholds input")) {
+      if (input.value !== f[input.dataset.key]) await api("/api/admin/flags", {key: input.dataset.key, value: input.value});
+    }
+    load();
+  };
+
+  // 09 邀请码 · 10 单价
+  $("#signupState").textContent = f.signup_open === "1" ? "新用户注册：开放" : "新用户注册：关闭";
+  $("#invites").innerHTML = d.invites.length ? d.invites.map(i => `<tr class="${i.used >= i.max_uses ? "muted" : ""}"><td class="num">${esc(i.code)}</td>
+    <td class="num">${i.credits}</td><td class="num">${i.used}/${i.max_uses}</td><td class="l">${esc(i.note)}</td></tr>`).join("")
+    : `<tr><td colspan="4" class="empty">还没有邀请码</td></tr>`;
+  $("#prices").innerHTML = d.prices.map(p => `<tr><td class="num">${esc(p.model)}</td><td class="num">${p.input_per_m}</td>
+    <td class="num">${p.cache_hit_per_m}</td><td class="num">${p.output_per_m}</td></tr>`).join("");
+  $("#priceSource").textContent = "来源：" + [...new Set(d.prices.map(p => p.source))].join("；") + "。DeepSeek 调价后在这里同步，否则成本会算错。";
+}
+
+function drawChart(days) {
+  const W = 1100, H = 220, top = 16, bottom = 28, left = 8, right = 8;
+  const n = days.length, slot = (W - left - right) / n, bw = Math.min(34, slot * .42);
+  const maxC = Math.max(...days.map(d => d.cost_cny), 0.0001), maxT = Math.max(...days.map(d => d.turns), 1);
+  const y = (v, m) => top + (H - top - bottom) * (1 - v / m);
+  let svg = `<line x1="${left}" x2="${W - right}" y1="${H - bottom}" y2="${H - bottom}" stroke="var(--ink)" stroke-width="1"/>`;
+  const pts = [];
+  days.forEach((d, i) => {
+    const cx = left + slot * i + slot / 2, yc = y(d.cost_cny, maxC);
+    svg += `<g><title>${d.day}：成本 ¥${yuan(d.cost_cny)}，${d.turns} 轮，${d.users} 人</title>
+      <rect x="${cx - bw / 2}" y="${yc}" width="${bw}" height="${H - bottom - yc}" fill="var(--ink)" opacity="${i === n - 1 ? 1 : .82}"/>
+      <rect x="${cx - slot / 2}" y="${top}" width="${slot}" height="${H - top - bottom}" fill="transparent"/></g>
+      <text x="${cx}" y="${H - 8}" text-anchor="middle" font-size="11" fill="var(--ink-3)" font-family="var(--mono)">${d.day}</text>`;
+    pts.push([cx, y(d.turns, maxT)]);
+  });
+  svg += `<polyline points="${pts.map(p => p.join(",")).join(" ")}" fill="none" stroke="var(--ink)" stroke-width="1.5"/>`;
+  svg += pts.map(([x, yy]) => `<circle cx="${x}" cy="${yy}" r="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.5"/>`).join("");
+  svg += `<text x="${left}" y="${top - 4}" font-size="11" fill="var(--ink-3)" font-family="var(--mono)">¥${yuan(maxC)} · ${maxT} 轮</text>`;
+  $("#chart").innerHTML = svg;
+}
+
+async function openTurns(id) {
+  const t = await api(`/api/admin/users/${id}/turns`);
+  $("#drawer").innerHTML = `<button class="link" id="closeDrawer" style="float:right">关闭</button>
+    <h3>${esc(t.user.contact)}</h3>
+    <div class="sub">剩余 ${cr(t.user.balance)} credits · 联系方式与证件号已打码 · 灰色为用户已删除：内容已清除，只剩运行记录，6 个月后删除</div>
+    ${t.turns.map(x => `<div class="turn ${x.deleted_at ? "deleted" : ""}">
+      <div class="row"><span>${new Date(x.created_at * 1000).toLocaleString("zh-CN", {hour12: false})}</span>
+      <span class="tag">${FEATURE[x.feature] || x.feature}</span><span class="tag ${x.status === "blocked" || x.status === "error" ? "solid" : ""}">${STATUS[x.status] || x.status}</span>
+      <span class="num">扣 ${cr(x.credits_charged)} · 成本 ¥${yuan(x.cost_cny)} · ${x.attempts} 次调用 · ${x.ms ? (x.ms / 1000).toFixed(1) + "s" : ""}</span></div>
+      <div class="q">${esc(x.user_message)}</div><div class="a">${esc(x.final_text)}</div></div>`).join("") || '<p class="empty">还没有对话</p>'}
+    <div class="h" style="margin-top:36px"><i>—</i><h2 style="font-size:15px">额度流水</h2></div>
+    <table><tbody>${t.ledger.map(l => `<tr><td>${new Date(l.created_at * 1000).toLocaleString("zh-CN", {hour12: false})}</td>
+      <td class="l">${esc(l.type)}</td><td class="num">${l.credits > 0 ? "+" : ""}${cr(l.credits)}</td><td class="l">${esc(l.note)}</td></tr>`).join("")}</tbody></table>`;
+  $("#drawer").classList.add("open"); $("#scrim").classList.add("open");
+  $("#closeDrawer").onclick = closeDrawer;
+}
+function closeDrawer() { $("#drawer").classList.remove("open"); $("#scrim").classList.remove("open"); }
+
+document.addEventListener("click", async e => {
+  const sw = e.target.closest("[data-flag]");
+  if (sw) { await api("/api/admin/flags", {key: sw.dataset.flag, value: sw.dataset.value}); return load(); }
+  const act = e.target.closest("[data-act]");
+  if (!act) return;
+  const id = act.dataset.id;
+  if (act.dataset.act === "turns") return openTurns(id);
+  if (act.dataset.act === "credits") {
+    const n = parseFloat(prompt("加多少 credits？（负数为扣减，可带两位小数；100 credits = 后台 ¥2）", "100"));
+    if (n) { await api(`/api/admin/users/${id}/credits`, {credits: n, note: prompt("备注", "内测补充额度") || "后台调整"}); load(); }
+    return;
+  }
+  if (act.dataset.act === "suspend" && !confirm("暂停后这个用户立刻无法使用小谷，确定？")) return;
+  await api(`/api/admin/users/${id}/status`, {status: act.dataset.act === "suspend" ? "suspended" : "active"});
+  load();
+});
+
+$("#kill").onclick = async () => {
+  const stopped = data.flags.maintenance === "1";
+  if (!stopped && !confirm("停止后所有用户都无法开始新的对话（正在进行的这一轮会跑完）。确定停止？")) return;
+  await api("/api/admin/flags", {key: "maintenance", value: stopped ? "0" : "1"});
+  load();
+};
+$("#reload").onclick = async () => { await api("/api/admin/refresh-balance", {}); load(); };
+$("#scrim").onclick = closeDrawer;
+$("#inviteForm").onsubmit = async e => {
+  e.preventDefault();
+  const r = await api("/api/admin/invites", {count: +$("#invCount").value, credits: +$("#invCredits").value,
+    max_uses: +$("#invUses").value, note: $("#invNote").value});
+  $("#codes").textContent = r.codes.join("  ");
+  load();
+};
+$("#gateForm").onsubmit = async e => {
+  e.preventDefault();
+  const res = await fetch("/api/admin/login", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({token: $("#gateInput").value})});
+  if (!res.ok) { $("#gateErr").textContent = (await res.json()).error; return; }
+  $("#gateInput").value = ""; load();
+};
+
+// 左侧导航：一次只显示一组板块；当前视图记在地址栏 #，刷新后停在原处
+const VIEW_TITLE = {overview: "总览", users: "用户", product: "功能与质量", ops: "邀请码", settings: "阈值与单价"};
+function showView(view){
+  if (!VIEW_TITLE[view]) view = "overview";
+  let i = 0;
+  document.querySelectorAll("main section").forEach(sec => {
+    const on = sec.dataset.view === view;
+    sec.hidden = !on;
+    sec.classList.remove("show");
+    if (on) { void sec.offsetWidth; sec.style.setProperty("--i", i++); sec.classList.add("show"); }  // 重新触发进场动画
+  });
+  document.querySelectorAll(".navi").forEach(b => b.classList.toggle("on", b.dataset.view === view));
+  $("#ptitle").textContent = VIEW_TITLE[view];
+  if (location.hash !== "#" + view) history.replaceState(null, "", "#" + view);
+  window.scrollTo({top: 0});
+}
+document.querySelectorAll(".navi").forEach(b => b.onclick = () => showView(b.dataset.view));
+$("#navFold").onclick = () => {
+  const mini = document.body.classList.toggle("nav-mini");
+  try { localStorage.setItem("xg.adminNavMini", mini ? "1" : "0"); } catch {}
+};
+try { if (localStorage.getItem("xg.adminNavMini") === "1") document.body.classList.add("nav-mini"); } catch {}
+showView(location.hash.slice(1));
+addEventListener("hashchange", () => showView(location.hash.slice(1)));
+
+load().catch(() => {});
+setInterval(() => { if (!document.hidden && !$("#gate").classList.contains("on")) load().catch(() => {}); }, 30000);
+</script>
+</body>
+</html>

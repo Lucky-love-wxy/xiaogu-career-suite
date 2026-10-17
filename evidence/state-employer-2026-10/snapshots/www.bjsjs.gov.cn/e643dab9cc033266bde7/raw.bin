@@ -1,0 +1,3018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京市石景山区人民政府门户网站</title>
+    <link rel="stylesheet" href="/gongkai/static/css/swiper.min.css">
+    <link rel="stylesheet" href="https://www.bjsjs.gov.cn/resources/css/common_2020.css">
+    <meta name="SiteName" content="北京市石景山区人民政府">
+<meta name="SiteDomain" content="www.bjsjs.gov.cn">
+<meta name="SiteIDCode" content="1101070001">
+<link rel="bookmark" href="//www.bjsjs.gov.cn/gongkai/images/favicon.ico" />
+    <link rel="stylesheet" href="/resources2025/css/style.css">
+    <link rel="stylesheet" href="/resources2025/css/column-ztzl.css">
+    <script src="/gongkai/static/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/resources/js/zh.js"></script>
+    <script type="text/javascript" src="/resources/js/init.js"></script>
+
+
+</head>
+<style>
+.indexBox h3{font-size:inherit;}
+.indexBox .topLine .topSlideBox .top-pagination .swiper-pagination-bullet{width:48px;}
+.indexBox .dczjLine .left .dclx-swiper ul li .yjs{margin-right:0;}
+.indexBox .dczjLine .left .dclx-swiper ul li .jggs{margin-left:12px;}
+
+</style>
+<body>
+<a href="https://www.beijing.gov.cn/hudong/yhdy/subscription/index.html?id=47a660c931e919508cbc741bdedabaa4ef547607ebe9f2101e3fc1f9d1231686" class="star" style="position:fixed;z-index:999;top: 25%;right: 0;width: 70px;height: 100px;border: 2px solid pink;border-top-left-radius: 8px;border-bottom-left-radius: 8px;text-align: center;text-decoration: none;display: flex;flex-direction: column;align-items: center;justify-content: center;">
+    <img src="https://www.beijing.gov.cn/hudong/yhdy/subscription/yhdy.png" style="width: 50px;height: 50px;" />
+    <span style="color: #ee7c55;font-size: 14px;">信息订阅</span>
+</a >
+		<script>
+    (function() {
+        var urlCode = location.search.substring(1).split('&');
+
+	var params = {};
+	var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+	var browser = navigator.userAgent.toLowerCase();
+	var isMobile = false;
+	for(var i = 0; i<urlCode.length; i++){
+		params[urlCode[i].split('=')[0]] = urlCode[i].split('=')[1]
+	}
+        if (params.type !== 'computer') {
+            for (var i = 0; i < mobileAgent.length; i++) {
+                if (browser.indexOf(mobileAgent[i]) != -1) {
+                    isMobile = true;
+                    location.href = "index_m.shtml";
+                    break;
+                }
+            }
+        }
+    })();
+</script>
+    <div class="indexBox">
+        <div class="rightMenu">
+            <h3>
+                <img src="/resources2025/images/zntj.png" alt="" />
+            </h3>
+            <ul class="on">
+                <li>
+                    <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zxgk_ywdt/" target="_blank">
+                        <i></i><span>最新发布</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bjsjs.gov.cn/ztzl/index.shtml" target="_blank">
+                        <i></i><span>猜您想看</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/" target="_blank">
+                        <i></i><span>政策文件</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://banshi.beijing.gov.cn/?&locationCode=110107000000" target="_blank">
+                        <i></i><span>政务服务</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bjsjs.gov.cn/gongkai/ysq/" target="_blank">
+                        <i></i><span>依申请公开</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="topBox">
+            <div class="wrap">
+                <div class="topLink clearfix">
+                    <a class="logo_bj" href="http://www.beijing.gov.cn" target="_blank">
+                        <img src="/resources2025/images/logo_beijing_over.png" />
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="http://www.beijing.gov.cn/hudong/yonghu/uSpace/myCenter">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_grzx.png" alt="" />
+                                </div>
+                                <div class="tit">登陆个人中心<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="http://znwenda.bjsjs.gov.cn/aicc/im/text/shijingshanqu.html?comeType=pcurl&orgi=ukewo">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_znwd.png" alt="" />
+                                </div>
+                                <div class="tit">智能问答<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:zh_tran('t');">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_fanti.png" alt="" />
+                                </div>
+                                <div class="tit">繁体<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:zh_tran('s');">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_jianti.png" alt="" />
+                                </div>
+                                <div class="tit">简体<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/sjssy/mobile/" target="_blank">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_ydb.png" alt="" />
+                                </div>
+                                <div class="tit">移动版<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" id="toolbarSwitch">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_wza.png" alt="" />
+                                </div>
+                                <div class="tit">无障碍<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.bjsjs.gov.cn/gongkai/slh/" target="_blank">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_slh.png" alt="" />
+                                </div>
+                                <div class="tit">适老化<span>|</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://english.bjsjs.gov.cn/" target="_blank">
+                                <div class="icon">
+                                    <img src="/resources2025/images/icon_en.png" alt="" />
+                                </div>
+                                <div class="tit">ENGLISH</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="javascript:;" class="sjs_logo">
+                    <img src="/resources2025/images/top_logo.png" alt="" />
+                </a>
+                <div class="searchBox">
+                    <form action="javascript:;" id="search">
+                        <div class="searchTit">
+                            <div class="tit"><span>站内搜索</span></div>
+                            <ul class="options">
+                                <li class="on">站内搜索</li>
+                                <li>一网通查</li>
+                            </ul>
+                        </div>
+                        <input type="text" class="searchTxt" name="qt" placeholder="请输入您要搜索的内容" autocomplete="off" />
+
+                        <button class="btn">搜索</button>
+                    </form>
+                    <div class="hotWord">
+                        <span class="tit">热搜词：</span>
+                        <a href="https://www.bjsjs.gov.cn/so/s?qt=%E6%96%B0%E9%A6%96%E9%92%A2%E9%AB%98%E7%AB%AF%E4%BA%A7%E4%B8%9A%E7%BB%BC%E5%90%88%E6%9C%8D%E5%8A%A1%E5%8C%BA%0A&siteCode=1101070001" target="_blank">新首钢高端产业综合服务区</a>
+                        <a href="https://www.bjsjs.gov.cn/so/s?qt=%E6%8B%9B%E8%81%98&siteCode=1101070001" target="_blank">招聘</a>
+                        <a href="https://www.bjsjs.gov.cn/so/s?qt=%E4%BA%8B%E4%B8%9A%E5%8D%95%E4%BD%8D&siteCode=1101070001" target="_blank">事业单位</a>
+                        <a href="https://www.bjsjs.gov.cn/so/s?qt=%E5%85%AC%E7%A7%9F%E6%88%BF&siteCode=1101070001" target="_blank">公租房</a>
+                        <a href="https://www.bjsjs.gov.cn/so/s?qt=%E6%99%AF%E8%B4%A4%E8%AE%A1%E5%88%92&siteCode=1101070001" target="_blank">景贤计划</a>
+                    </div>
+                </div>
+                <div class="bsBox clearfix">
+                    <!-- 个人办事 -->
+                    <div class="item">
+                        <h3>
+                            <img src="/resources2025/images/icon_gr.png" alt="" />
+                            <span>个人办事</span>
+                        </h3>
+                        <ul>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C" target="_blank">
+			       
+			     
+                              社会保障</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E4%BD%8F%E6%88%BF%E4%BF%9D%E9%9A%9C" target="_blank">
+			       
+			     
+                              住房保障</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E5%B0%B1%E4%B8%9A%E5%88%9B%E4%B8%9A" target="_blank">
+			       
+			     
+                              就业创业</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E8%81%8C%E4%B8%9A%E8%B5%84%E6%A0%BC" target="_blank">
+			       
+			     
+                              职业资格</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E6%88%B7%E6%94%BF%E6%A1%A3%E6%A1%88" target="_blank">
+			       
+			     
+                              户政档案</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93" target="_blank">
+			       
+			     
+                              交通运输</a>
+                            </li>
+                         
+
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            <img src="/resources2025/images/icon_qy.png" alt="" />
+                            <span>企业办事</span>
+                        </h3>
+                        <ul>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C" target="_blank">
+			       
+			     
+                              社会保障</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E5%87%86%E8%90%A5%E5%87%86%E5%8A%9E" target="_blank">
+			       
+			     
+                              准营准办</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E8%B5%84%E8%B4%A8%E8%AE%A4%E8%AF%81" target="_blank">
+			       
+			     
+                              资质认证</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E5%8F%B8%E6%B3%95%E5%85%AC%E8%AF%81" target="_blank">
+			       
+			     
+                              司法公证</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7" target="_blank">
+			       
+			     
+                              安全生产</a>
+                            </li>
+                         
+                            <li>
+			     
+			       
+			       
+				<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93" target="_blank">
+			       
+			     
+                              交通运输</a>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topLine">
+            <!-- 热门专题 
+            <a href="javascript:;" class="rmzt">
+                <img src="/resources2025/images/2025rmzt.png" alt="" />
+            </a>-->
+            <div class="topMenuBox wrap">
+                <ul class="topMenu clearfix">
+                    <li><a href="/ywdt/">要闻动态</a>
+
+                        <div class="menu_secondary">
+                            <ul class="menu_ywdt">
+                                <li><a href="https://www.beijing.gov.cn/ywdt/dzyjs/index.html" target="_blank"
+                                        title="党中央精神">党中央精神</a></li>
+                                <li><a href="https://www.beijing.gov.cn/ywdt/yaowen/" target="_blank"
+                                        title="北京要闻">北京要闻</a></li>
+                                <li><a href="/ywdt/sjsdt/" target="_blank">石景山动态</a></li>
+
+                                <li><a href="/ywdt/mtbd/" target="_blank">媒体报道</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="https://www.bjsjs.gov.cn/gongkai/" target="_blank" class="">政务公开</a>
+                        <div class="menu_secondary">
+                            <ul class="menu_zwgk">
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ldjs_1946/zfbm_1951/"
+                                        target="_blank">领导班子</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/jgzn_1953/zfbm_1955/"
+                                        target="_blank">机构职能</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zdly_1960/rsxx_1961/"
+                                        target="_blank">人事信息</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/"
+                                        target="_blank">政策文件</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/zcjd25/" target="_blank">政策解读</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/tzgg_1933/"
+                                        target="_blank">通知公告</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/jcgk/jcml/"
+                                        target="_blank">决策公开</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zdly_1960/sjgk_1981/"
+                                        target="_blank">审计公开</a></li>
+                                <li><a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zfgzbg_1959/"
+                                        target="_blank">政府报告</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="https://www.bjsjs.gov.cn/zwfw/" target="_blank" class="">政务服务</a>
+                        <div class="menu_secondary">
+                            <ul class="menu_zwfw">
+                                <li><a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?locationCode=110107000000"
+                                        target="_blank">个人服务</a></li>
+                                <li><a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?locationCode=110107000000"
+                                        target="_blank">法人服务</a></li>
+                                <li><a href="https://banshi.beijing.gov.cn/pubtask/bmfw.html?locationCode=110107000000"
+                                        target="_blank">部门服务</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="u-nav-links" href="javascript:;">政策兑现</a>
+                        <div class="menu_secondary">
+                            <ul class="menu_zcdx">
+                                <li><a href="https://zhengce.beijing.gov.cn/#/declare?region=110107" target="_blank"
+                                        title="项目申报">项目申报</a></li>
+                                <li><a href="https://zhengce.beijing.gov.cn/#/other1/declare-application?region=110107"
+                                        target="_blank" title="直达快享">直达快享</a></li>
+                                <li><a href="https://zhengce.beijing.gov.cn/#/announcement/notice?region=110107"
+                                        target="_blank" title="通知公告">通知公告</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/zmhd/" class="">政民互动</a>
+                        <div class="menu_secondary">
+                            <ul class="menu_zmhd">
+                                <li><a href="/zmhd/zxlxdh/" target="_blank">咨询联系电话</a></li>
+                                <li><a href="http://sjswd.bjsjs.gov.cn/hudong/xinxiang/bjsjs/sindex/xx-bjsjs.html"
+                                        target="_blank">来信选登</a></li>
+                                <li><a href="https://wsxf.xfb.beijing.gov.cn/wsxf/action/index.html"
+                                        target="_blank">网上信访</a></li>
+                                <li><a href="/zmhd/dczj/" target="_blank">调查征集</a></li>
+                                <li><a href="http://www.bjsjs.gov.cn/gongkai/zsk/mldh/" target="_blank"
+                                        title="问答知识库">问答知识库</a></li>
+                                <li><a href="/zmhd/zxft/" target="_blank">在线访谈</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/sjsfc/" class="">人文石景山</a>
+                        <div class="menu_secondary">
+                            <ul class="menu_mlhd">
+                                <li><a href="/sjsfc/qqgk/" target="_blank">区情概况</a></li>
+                                <li><a href="/sjsfc/sjslycx/" target="_blank">石景山旅游出行</a></li>
+                                <li><a href="/sjsfc/sjsmsfc/" target="_blank">石景山民俗风采</a></li>
+                                <li><a href="/sjsfc/sjswwjd/" target="_blank">石景山文物景点</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="topBom">
+                <div class="wrap clearfix">
+                    <div class="headline_news">
+
+                    </div>
+                    <!-- slider -->
+
+                    <div class="topSlideBox">
+                        <div class="swiper-container top-swiper">
+                            <div class="swiper-wrapper">
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/tzgg_1933/202610/t20261009_765113.shtml" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202610/W020251125756106456446.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=bj" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251019649071435239.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://zhengce.beijing.gov.cn/#/home" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251029377938412581.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/ssfw/ssfw.html" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251019648763458766.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://yzt.beijing.gov.cn/am/UI/Login?module=EblCert&goto=https%3A%2F%2Fyzt.beijing.gov.cn%2Fam%2Foauth2%2Fauthorize%3Fservice%3DbjzwService%26response_type%3Dcode%26client_id%3D551377146_04%26scope%3Dcn%2Buid%2BidCardNumber%2Breserve3%2BextProperties%2BcredenceClass%26redirect_uri%3Dhttp%253A%252F%252Flz.bjsjs.gov.cn%253A8001%252FyztAuth%252FyztLogin%26ts%3D1738917964112%26encoded%3Dfalse&lackFlag=NA" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202512/W020251202358053765375.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251019648420645213.png"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://tousu.www.gov.cn/dc/2023myjj/index.htm" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251019648345350834.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://www.gov.cn/zhengce/zczhjd/" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251019648297439740.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/Y2020/wmcq/" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020251019648294216621.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202601/t20260129_758411.shtml" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202510/W020260226499677758998.jpg"/></a>
+                                </div>
+                             
+                                <div class="swiper-slide">
+			         
+			           
+			           
+				    <a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202601/t20260106_757690.shtml" target="_blank">
+			           
+			         
+                                    <img src="./sjssy/lbt/202601/W020260106613958675244.jpg"/></a>
+                                </div>
+                             
+
+                            </div>
+                        </div>
+                        <div class="swiper-pagination top-pagination"></div>
+                    </div>
+                    <!-- top news -->
+
+                    <div class="topRight">
+                        <div class="headNews">
+                            <h2><a href="http://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/Y2020/wmcq/" target="_blank">“文明健康
+                                    绿色环保”讲文明树新风公益广告</a></h2>
+                            <p class="desc"><a href="http://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/Y2020/wmcq/"
+                                    target="_blank">查看详情</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="infoBox wrap">
+            <div class="info">
+                <div class="infoNav">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="https://www.beijing.gov.cn/ywdt/dzyjs/index.html" target="_blank" title="中央要闻">中央要闻</a>
+                        </li>
+                        <li>
+                            <a href="https://www.beijing.gov.cn/ywdt/yaowen/" target="_blank" title="北京新闻">北京新闻</a>
+                        </li>
+                        <li>
+                            <a href="/ywdt/sjsdt/" target="_blank" title="石景山动态">石景山动态</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="swiper-container info-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul id="zyyw"></ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul id="bjxw"></ul>
+                        </div>
+                        <!-- 石景山动态 -->
+                        <div class="swiper-slide sjsdt">
+                            <ul>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261009_765123.shtml" target="_blank">
+					  
+					  
+					
+                                        接下来的周末，石景山首钢园将变身一座没有围墙的戏剧之城——</a>
+                                    </div>
+                                    <span>2026-10-09</span>
+                                </li>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261009_765112.shtml" target="_blank">
+					  
+					  
+					
+                                        旧物回收焕新生！石景山区10月“京彩回收” 集中回收日来啦——</a>
+                                    </div>
+                                    <span>2026-10-09</span>
+                                </li>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261009_765098.shtml" target="_blank">
+					  
+					  
+					
+                                        一场赛事燃动一座城，石景山国庆假期惊喜收官</a>
+                                    </div>
+                                    <span>2026-10-09</span>
+                                </li>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261009_765097.shtml" target="_blank">
+					  
+					  
+					
+                                        “第二课堂”零距离，感受国球新魅力</a>
+                                    </div>
+                                    <span>2026-10-09</span>
+                                </li>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261008_765056.shtml" target="_blank">
+					  
+					  
+					
+                                        “黄金周”，看“双奥之城”如何盘活赛事经济</a>
+                                    </div>
+                                    <span>2026-10-08</span>
+                                </li>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261008_765055.shtml" target="_blank">
+					  
+					  
+					
+                                        熟悉亲切、美丽热情！中外乒坛名将盛赞中国大满贯</a>
+                                    </div>
+                                    <span>2026-10-08</span>
+                                </li>
+                              
+                                <li>
+                                    <div class="tit">
+					
+					  
+					    <a href="./ywdt/sjsdt/202610/t20261008_765054.shtml" target="_blank">
+					  
+					  
+					
+                                        国庆节后 复工复产安全提示：状态归位、措施到位、安全第一！</a>
+                                    </div>
+                                    <span>2026-10-08</span>
+                                </li>
+                              
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 一把手访谈 -->
+             <div class="rightBox">
+                <div class="ybsftBox">
+                    <div class="swiper-container ybsft-swiper">
+                        <div class="swiper-wrapper">
+                           
+                            <div class="swiper-slide">
+				
+				  
+				  
+					<a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202601/t20260129_758411.shtml" target="_blank" >
+				  
+				<img src="./sjssy/ybsft/202601/W020260129337400376591.jpg"/>
+                                </a>
+                            </div>
+                           
+                            <div class="swiper-slide">
+				
+				  
+				  
+					<a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202601/t20260129_758407.shtml" target="_blank" >
+				  
+				<img src="./sjssy/ybsft/202601/W020260129336961850093.jpg"/>
+                                </a>
+                            </div>
+                           
+                            <div class="swiper-slide">
+				
+				  
+				  
+					<a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202601/t20260126_758342.shtml" target="_blank" >
+				  
+				<img src="./sjssy/ybsft/202601/W020260126347731331836.jpg"/>
+                                </a>
+                            </div>
+                           
+                            <div class="swiper-slide">
+				
+				  
+				  
+					<a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202502/t20250207_479049.shtml" target="_blank" >
+				  
+				<img src="./sjssy/ybsft/202510/W020251019641627899269.jpg"/>
+                                </a>
+                            </div>
+                           
+                            <div class="swiper-slide">
+				
+				  
+				  
+					<a href="https://www.bjsjs.gov.cn/ywdt/mtbd/202502/t20250207_478052.shtml" target="_blank" >
+				  
+				<img src="./sjssy/ybsft/202510/W020251019641576398658.jpg"/>
+                                </a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="swiper-pagination ybsft-pagination"></div>
+                </div>
+                <div class="findzc">
+                    <div class="title">我要找政策</div>
+                    <div class="inputBox zcSearch">
+                        <form action="https://www.beijing.gov.cn/zhengce/zcdh" targe="_blank">
+                            <div class="tit">
+                                <span>企业</span>
+                                <ul>
+                                    <li class="on">企业</li>
+                                    <li>个人</li>
+                                </ul>
+                            </div>
+                            <input type="hidden" name="type" value="1" />
+                            <input type="text" name="qt" />
+                            <button type="submit" class="czzc">查找政策</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="midBox">
+            <div class="midNav wrap">
+                <ul class="clearfix">
+                    <li class="on">
+                        政务公开
+                    </li>
+                    <li>
+                        政务服务
+                    </li>
+                    <li>
+                        政民互动
+                    </li>
+                </ul>
+            </div>
+            <div class="midCon">
+                <div class="swiper-container mid-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- 政务公开 -->
+                        <div class="swiper-slide clearfix">
+                            <div class="zwgk_left">
+                                <div class="zwgkSearch">
+                                    <form action="https://www.beijing.gov.cn/zhengce/zcdh" target="_blank">
+                                        <div class="tit">
+                                            <span>政策标题</span>
+
+                                        </div>
+                                        <input type="text" placeholder="请输入要查找的关键词..." name="qt" />
+                                        <button type="submit">立即查询</button>
+
+                                    </form>
+                                </div>
+                                <div class="zcBox">
+                                    <div class="zcHed clearfix">
+                                        <ul class="clearfix">
+                                            <li class="on">
+                                                <a href="javascript:;">政策文件</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">政策解读</a>
+                                            </li>
+                                        </ul>
+                                        <a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/" class="more" target="_blank">更多>></a>
+                                    </div>
+                                    <div class="swiper-container zc-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <ul class="list">
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwj/202609/t20260928_764917.shtml" target="_blank">
+							   
+							   
+							关于开展2026年石景山区科技服务业项目征集工作的通知</a>
+                                                        </div>
+                                                     
+                                                        
+                                                       
+                                                                <div class="ly">来源：中关村科技园区石景山园管理委员会北京市石景山区科学技术委员会</div>
+                                                       
+                                                     
+                                                        <div class="time">发布日期：2026-09-28</div>
+                                                    </li>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwj/202610/t20261009_765119.shtml" target="_blank">
+							   
+							   
+							关于开展2026年第四季度新办理《北京市工作居住证》需求申报的通知</a>
+                                                        </div>
+                                                     
+                                                        
+                                                       
+                                                                <div class="ly">来源：中共北京市石景山区委组织部</div>
+                                                       
+                                                     
+                                                        <div class="time">发布日期：2026-09-28</div>
+                                                    </li>
+                                                 
+                                                </ul>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <ul class="piclist clearfix" id="zcjdList">
+                                                 
+                                                    <li>
+							
+							   
+								<a href="./gongkai/zcjd/202604/t20260430_761486.shtml" target="_blank">
+							   
+							   
+							
+                                                            <div class="pic"><img src="https://www.bjsjs.gov.cn/gongkai/zcjd/202604/W020260507330149769322.jpg"/></div>
+                                                            <div class="tit">
+                                                                <span>图解：北京市石景山区国民经济和社会发展第十五个五年规划纲要</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+								<a href="./gongkai/zcjd/202603/t20260318_759868.shtml" target="_blank">
+							   
+							   
+							
+                                                            <div class="pic"><img src="https://www.bjsjs.gov.cn/gongkai/zcjd/202603/W020260318573635565804.jpg"/></div>
+                                                            <div class="tit">
+                                                                <span>图解：北京市石景山区人民政府办公室关于印发《美丽石景山建设2026年行动计划》的通知</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+								<a href="./gongkai/zcjd/202603/t20260302_759219.shtml" target="_blank">
+							   
+							   
+							
+                                                            <div class="pic"><img src="https://www.bjsjs.gov.cn/gongkai/zcjd/202603/W020260303326596238791.jpg"/></div>
+                                                            <div class="tit">
+                                                                <span>图解：中共北京市石景山区委组织部印发《北京市石景山区办理<北京市工作居住证>实施细则》的通知</span>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="zcwjyjzj">
+                                    <div class="hedtit clearfix">
+                                        <h3>政策性文件意见征集</h3>
+                                        <a href="//www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/Y2021/policyDocs/" target="_blank">更多>></a>
+                                    </div>
+                                    <ul>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zwgkpd/ztzl/Y2021/policyDocs/zxzj/202609/t20260924_764886.shtml" target="_blank">
+							   
+							   
+							关于对《石景山区“十五五”时期信息技术产业发展规划（征求意见稿）》公开征求意见的公告</a>
+                                                        </div>
+                                                        <div class="ly">来源：北京市石景山区经济和信息化局</div>
+
+                                                        <div class="zjsj">征集时间：2026-09-24至2026-10-09</div>
+                                                    </li>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zwgkpd/ztzl/Y2021/policyDocs/zxzj/202609/t20260918_764742.shtml" target="_blank">
+							   
+							   
+							关于对《石景山区2027年重要民生实事 （征求意见稿）》公开征集意见的公告</a>
+                                                        </div>
+                                                        <div class="ly">来源：北京市石景山区发展和改革委员会</div>
+
+                                                        <div class="zjsj">征集时间：2026-09-18至2026-10-17</div>
+                                                    </li>
+                                                 
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="zfxxgkBox">
+                                <div class="hed">
+                                    <a>政府信息公开</a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/zfgzbg_1959/" target="_blank">
+                                            <img src="/resources2025/images/zfxxgk_icon1.png" alt="" />
+                                            <span>政府工作报告</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.bjsjs.gov.cn/gongkai/xxgkzl/" target="_blank">
+                                            <img src="/resources2025/images/zfxxgk_icon2.png" alt="" />
+                                            <span>政府信息公开专栏</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/jgzn_1953/" target="_blank">
+                                            <img src="/resources2025/images/zfxxgk_icon3.png" alt="" />
+                                            <span>政府信息公开<br>机构导航</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="https://www.bjsjs.gov.cn/gongkai/ysq/" class="ysq" target="_blank">
+                                <img src="/resources2025/images/ysqgk_pic.png" alt="" />
+                            </a>
+                        </div>
+                        <!-- 政务服务 -->
+                        <div class="swiper-slide">
+                            <div class="zwfw_top">
+                                <div class="pic">
+                                    <div class="yjs_txt">
+                                        <div class="con">
+                                            <p>聚焦经营主体和个人全生命周期，将需要多个部门办理或跨层级办理，关联性强、办理量大、办理时间相对集中的多个事项集成办理，为企业和群众提供"一件事一次办"、"一类事一站办"服务，进一步提升企业群众办事的体验感和获得感。
+                                            </p>
+                                            <p>持续加大“高效办成一件事”改革力度，加快场景建设，拓展场景数量，完善办事流程、办事指南、情形引导、页面解读等内容，实现企业和个人两个全生命周期重要阶段“高效办成一件事”重点事项落地见效。
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/gxbcyjs/index.shtml" target="_blank">进入专题</a>
+                                </div>
+
+                                <div class="rightSwiper">
+                                    <div class="swiper-container yjs-swiper">
+                                        <div class="swiper-wrapper">
+                                         
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/sqgzf/sqgzfjd.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">申请公租房“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641672187252.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/dog/dogjd.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">养犬服务“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641670780036.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/lhjy/lhjyjd.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">灵活就业“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641669326837.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/subject/newveteran/veteran.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">军人退役服务“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641668158459.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://portal.bjt.beijing.gov.cn/p/login/login.html?pubKey=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuZU92G7+K01VXZ2DUXuchIjtZufQvokEJiu1BESGP3ew4MqxP/B1CwEeaM3LYReG87xM4u5W6oq0R9oEGZJUOOBMVj5upANhz234RIONRUPCcCSIXqPxVP2QMUjnRnUtrXI1uA/9azEjip6ZvG0lD4GxyPpU0yj5o1UdKcLpdnwIDAQAB" target="_blank" >
+							   
+							
+                                                            <div class="tit">失业服务“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641666915721.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/fczk/fczkjd.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">残疾人服务“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641665548022.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+
+                                                </ul>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/jyfybx/jyfybx.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">就医费用报销“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641661547534.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://ryfw.bjedu.cn/" target="_blank" >
+							   
+							
+                                                            <div class="tit">幼儿入学“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641651455916.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/baby/babyjd.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">新生儿出生服务“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641644357420.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://portal.bjt.beijing.gov.cn/p/login/login.html?pubKey=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuZU92G7+K01VXZ2DUXuchIjtZufQvokEJiu1BESGP3ew4MqxP/B1CwEeaM3LYReG87xM4u5W6oq0R9oEGZJUOOBMVj5upANhz234RIONRUPCcCSIXqPxVP2QMUjnRnUtrXI1uA/9azEjip6ZvG0lD4GxyPpU0yj5o1UdKcLpdnwIDAQAB" target="_blank" >
+							   
+							
+                                                            <div class="tit">公民婚育“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641636573591.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://fuwu.rsj.beijing.gov.cn/zhrs/zgtx/" target="_blank" >
+							   
+							
+                                                            <div class="tit">退休服务“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641629176007.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/ywjyyx/ywjyrx.html" target="_blank" >
+							   
+							
+                                                            <div class="tit">教育入学“一件事”</div>
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/gxbcyjs/202510/W020251019641622564216.png"/>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                 
+
+                                                </ul>
+                                            </div>
+                                         
+
+                                        </div>
+                                    </div>
+                                    <div class="btnBox">
+                                        <div class="yjs-prev"></div>
+                                        <div class="swiper-pagination yjs-pagination"></div>
+                                        <div class="yjs-next"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zwfw_bom clearfix">
+                                <div class="fwBox">
+                                    <div class="hedNav">
+                                        <ul>
+                                            <li class="on">个人服务</li>
+                                            <li>法人服务</li>
+                                        </ul>
+                                        <div class="hk"></div>
+                                    </div>
+                                    <div class="swiper-container fw-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C"  target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/grfw/202510/W020251019641657723464.png"/>
+                                                            </div>
+                                                            <div class="tit">社会保障</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E4%BD%8F%E6%88%BF%E4%BF%9D%E9%9A%9C"  target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/grfw/202510/W020251019641656543367.png"/>
+                                                            </div>
+                                                            <div class="tit">住房保障</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E5%B0%B1%E4%B8%9A%E5%88%9B%E4%B8%9A"  target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/grfw/202510/W020251019641646561884.png"/>
+                                                            </div>
+                                                            <div class="tit">就业创业</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E8%81%8C%E4%B8%9A%E8%B5%84%E6%A0%BC"  target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/grfw/202510/W020251019641641151582.png"/>
+                                                            </div>
+                                                            <div class="tit">执业资格</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E6%88%B7%E6%94%BF%E6%A1%A3%E6%A1%88"  target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/grfw/202510/W020251019641631573274.png"/>
+                                                            </div>
+                                                            <div class="tit">户政档案</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/grhot.html?&locationCode=110000000000&vn=%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93"  target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/grfw/202510/W020251019641621308360.png"/>
+                                                            </div>
+                                                            <div class="tit">交通运输</div>
+                                                        </a>
+                                                    </li>
+                                                 
+
+                                                </ul>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C" target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/frfw/202510/W020251019641659080970.png"/>
+                                                            </div>
+                                                            <div class="tit">社会保障</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E5%87%86%E8%90%A5%E5%87%86%E5%8A%9E" target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/frfw/202510/W020251019641655239915.png"/>
+                                                            </div>
+                                                            <div class="tit">准营准办</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E8%B5%84%E8%B4%A8%E8%AE%A4%E8%AF%81" target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/frfw/202510/W020251019641647746633.png"/>
+                                                            </div>
+                                                            <div class="tit">资质认证</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E5%8F%B8%E6%B3%95%E5%85%AC%E8%AF%81" target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/frfw/202510/W020251019641639975156.png"/>
+                                                            </div>
+                                                            <div class="tit">司法公证</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/frhot.html?&locationCode=110000000000&vn=%E4%BA%A4%E9%80%9A%E8%BF%90%E8%BE%93" target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/frfw/202510/W020251019641632967175.png"/>
+                                                            </div>
+                                                            <div class="tit">交通运输</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                    <li>
+							
+							   
+							   
+								<a href="https://banshi.beijing.gov.cn/pubtask/bhyjs/zscq/zscq.html" target="_blank">
+							   
+							
+                                                            <div class="icon">
+                                                                <img src="./sjssy/zwfw/frfw/202510/W020251019641598820395.png"/>
+                                                            </div>
+                                                            <div class="tit">知识产权</div>
+                                                        </a>
+                                                    </li>
+                                                 
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rightItem">
+                                    <a href="https://www.bjsjs.gov.cn/ztzl/" target="_blank">
+                                        <span>专题专栏</span>
+                                        <img src="/resources2025/images/zwfw_icon1.png" alt="" />
+                                    </a>
+                                    <a href="https://map.beijing.gov.cn/" target="_blank">
+                                        <span>北京12345服务图</span>
+                                        <img src="/resources2025/images/zwfw_icon2.png" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 政民互动 -->
+                        <div class="swiper-slide">
+                            <div class="zmhd_top clearfix">
+                                <div class="zcwdk">
+                                    <div class="title">
+                                        <span>政策问答库</span>
+                                         <a href="https://www.bjsjs.gov.cn/gongkai/zcwjk/" target="_blank">更多>></a>
+                                    </div>
+                                    <div class="swiper-container zcwdk-swiper">
+                                        <div class="swiper-wrapper">
+                                         
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202607/t20260706_762992.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:《发放方案》的主要内容是什么？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:《发放方案》内容涵盖支持方向、实施时间及规模、补贴对象、补贴标准、补贴流程等九个方面。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202607/t20260706_762991.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:《石景山区“美好生活”多品类消费券发放工作方案》（以下简称《发放方案》）的制定背景是什么？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:2025年12月召开的中央经济工作会议将“坚持内需主导，建设强大国内市场”列为2026年八项重点任务之首，提出要深入实施提振消费专项行动，扩大优质商品和服务供给，优化“两新”政策实施，明确2026年继续优化消费品以旧换新“国补”政策实施。2025年北京市人民政府印发的《北京市深化改革提振消费专项行动方案》，提出增强商品消费动能，实施好“两新”政策，加大支持引导力度，持续优化消费环境。为贯彻落实党中央、国务院及北京市关于大力提振消费、全方位扩大国内需求的决策部署和工作要求，进一步激发潜能消费、引领品质生活、构建消费生态，石景山区商务局牵头起草了《石景山区“美好生活”多品类消费券发放工作方案》。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                </ul>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202604/t20260430_761419.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:2025年和2026年义务教育入学政策的差异是什么？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:今年北京市义务教育阶段入学政策整体基调是稳中求进，较往年基本无变化，在指导思想部分进一步明确要严格执行阳光招生要求。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202604/t20260430_761418.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:2026年义务教育入学证件材料报审时间及程序是什么？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:2026年5月6日至5月12日，适龄儿童少年法定监护人登录北京市义务教育入学服务平台，提交审核申请。相关部门进行网上审核。通过网上审核的适龄儿童审核申请人到实际居住地所属街道办事处办理现场审核手续。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                </ul>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202601/t20260107_757756.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:石景山区商务局2026年“京西有惊喜 福到石景山”跨年迎新消费券活动补贴对象是什么？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:补贴对象仅限手机定位在北京市的实名制用户。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202511/t20251127_756351.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:在禁止开垦陡坡地上有哪些行为限制？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:在二十五度以上陡坡地禁止开垦种植农作物，已在二十五度以上禁止开垦陡坡地种植经济林的，应当采取水土保持措施，防止造成水土流失。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                </ul>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <ul>
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202511/t20251127_756350.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:为什么要出台《石景山区促进赛事经济高质量发展的若干措施（试行）》？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:近年来，我国体育领域顶层政策设计不断细化完善，对扩大体育消费、培育赛事品牌、发展体育产业等提出新要求。石景山区作为国家“促进体育消费和赛事经济试点”，出台《石景山区促进赛事经济高质量发展的若干措施（试行）》将进一步发挥政策引导带动效应，激发体育赛事市场活力，促进体育消费繁荣。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                    <li>
+                                                        <div class="tit">
+							
+							   
+								<a href="./gongkai/zcwjk/zcwd25/202511/t20251127_756349.shtml"target="_blank">
+							   
+							   
+							
+                                                          问:什么是居民健康素养？</a>
+                                                        </div>
+                                                        <div class="text">
+                                                            答:健康素养指个体获取和理解基本健康信息和服务，并运用这些信息和服务做出正确决策，以维护和促进自身健康的能力，是对经济社会发展水平的综合反映。
+
+                                                        </div>
+                                                    </li>
+
+                                                 
+                                                </ul>
+                                            </div>
+                                         
+
+                                        </div>
+                                    </div>
+                                    <div class="btnBox">
+                                        <div class="zcwdk-prev"></div>
+                                        <div class="zcwdk-next"></div>
+                                    </div>
+                                </div>
+                                <ul class="zmhd_right">
+                                    <li>
+                                        <a href="http://znwenda.bjsjs.gov.cn/aicc/im/text/shijingshanqu.html?comeType=pcurl&orgi=ukewo" target="_blank">
+                                            <img src="/resources2025/images/zmhd_box_znwd.png" alt="" />
+                                            <span>智能问答</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.bjsjs.gov.cn/sjssy/bsfwsj/" target="_blank">
+                                            <img src="/resources2025/images/zmhd_box_bsfw.png" alt="" />
+                                            <span>办事服务数据</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.bjsjs.gov.cn/zmhd/zxlxdh/" target="_blank">
+                                            <img src="/resources2025/images/zmhd_box_zxlxdh.png" alt="" />
+                                            <span>咨询联系电话</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="zmhd_bom clearfix">
+                                <li>
+                                    <a href="https://www.bjsjs.gov.cn/zmhd/fwqj/" target="_blank">
+                                        <img src="/resources2025/images/zmhd_icon1.png" alt="" />
+                                        <span>办事服务评价</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bjsjs.gov.cn/zmhd/fwpj/" target="_blank">
+                                        <img src="/resources2025/images/zmhd_icon2.png" alt="" />
+                                        <span>评价结果公示</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bjsjs.gov.cn/zmhd/sllytj/" target="_blank">
+                                        <img src="/resources2025/images/zmhd_icon3.png" alt="" />
+                                        <span>受理留言统计</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bjsjs.gov.cn/zmhd/zxft/" target="_blank">
+                                        <img src="/resources2025/images/zmhd_icon4.png" alt="" />
+                                        <span>在线访谈</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="dczjLine wrap clearfix">
+            <div class="left">
+                <div class="dclxNav">
+                    <ul>
+                        <li class="on">
+                            调查征集
+                        </li>
+                        <li>
+                            来信选登
+                        </li>
+                    </ul>
+                    <a href="https://www.bjsjs.gov.cn/zmhd/dczj/" target="_blank" class="more">更多>></a>
+                </div>
+                <div class="swiper-container dclx-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul>
+                             
+                                <li>
+                                    <div class="tit">
+					
+					  
+					  
+						<a href="https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=bLUMT1" class="list_1" target="_blank">
+					  
+					
+                                        <span>【调查问卷】</span>关于无障碍设施的调查问卷</a>
+                                    </div>
+					
+					  
+					  
+						<script>
+								var html = 'https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=bLUMT1&type=report';
+								if (html != "") {
+								    
+								    if(html.indexOf('http')>-1){
+                                                                       document.write('<a  href="'+html+'" target="_blank" class="jggs">结果公示</a>')
+                                                                    }
+                                                                    document.write('<div class="yjs">已结束</div>');
+								} 
+                                                </script>
+					  
+					
+                                </li>
+                             
+                                <li>
+                                    <div class="tit">
+					
+					  
+					  
+						<a href="https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=eJfUHV" class="list_1" target="_blank">
+					  
+					
+                                        <span>【调查问卷】</span>关于石景山区政务微信公众号矩阵的调查问卷</a>
+                                    </div>
+					
+					  
+					  
+						<script>
+								var html = 'https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=eJfUHV&type=report';
+								if (html != "") {
+								    
+								    if(html.indexOf('http')>-1){
+                                                                       document.write('<a  href="'+html+'" target="_blank" class="jggs">结果公示</a>')
+                                                                    }
+                                                                    document.write('<div class="yjs">已结束</div>');
+								} 
+                                                </script>
+					  
+					
+                                </li>
+                             
+                                <li>
+                                    <div class="tit">
+					
+					  
+					  
+						<a href="https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=Veyvhc" class="list_1" target="_blank">
+					  
+					
+                                        <span>【调查问卷】</span>关于石景山区长护险认知与需求的调查问卷</a>
+                                    </div>
+					
+					  
+					  
+						<script>
+								var html = 'https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=Veyvhc&type=report';
+								if (html != "") {
+								    
+								    if(html.indexOf('http')>-1){
+                                                                       document.write('<a  href="'+html+'" target="_blank" class="jggs">结果公示</a>')
+                                                                    }
+                                                                    document.write('<div class="yjs">已结束</div>');
+								} 
+                                                </script>
+					  
+					
+                                </li>
+                             
+                                <li>
+                                    <div class="tit">
+					
+					  
+					  
+						<a href="https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=DJIkSe" class="list_1" target="_blank">
+					  
+					
+                                        <span>【调查问卷】</span>关于群众阅读习惯的调查问卷</a>
+                                    </div>
+					
+					  
+					  
+						<script>
+								var html = 'https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=DJIkSe&type=report';
+								if (html != "") {
+								    
+								    if(html.indexOf('http')>-1){
+                                                                       document.write('<a  href="'+html+'" target="_blank" class="jggs">结果公示</a>')
+                                                                    }
+                                                                    document.write('<div class="yjs">已结束</div>');
+								} 
+                                                </script>
+					  
+					
+                                </li>
+                             
+                                <li>
+                                    <div class="tit">
+					
+					  
+					  
+						<a href="https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=wjPqCf" class="list_1" target="_blank">
+					  
+					
+                                        <span>【调查问卷】</span>关于居民春节安全防范意识的调查问卷</a>
+                                    </div>
+					
+					  
+					  
+						<script>
+								var html = 'https://sjswd.bjsjs.gov.cn/hudong/diaoyan/loadProjectHF?id=wjPqCf&type=report';
+								if (html != "") {
+								    
+								    if(html.indexOf('http')>-1){
+                                                                       document.write('<a  href="'+html+'" target="_blank" class="jggs">结果公示</a>')
+                                                                    }
+                                                                    document.write('<div class="yjs">已结束</div>');
+								} 
+                                                </script>
+					  
+					
+                                </li>
+                             
+
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe allowtransparency="true" frameborder="0" scrolling="no"
+                                src="https://sjswd.bjsjs.gov.cn/hudong/xinxiang/bjsjs/sindex/xx-org-bjsjs.html"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="clearfix">
+                    <li>
+                        <a href="https://sjswd.bjsjs.gov.cn/hudong/xinxiang/bjsjs/sindex/xx-notice-bjsjs.html" target="_blank">
+                            我要写信
+                            <img src="/resources2025/images/bom_icon1.png" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wsxf.xfb.beijing.gov.cn/wsxf/action/index.html" target="_blank">网上信访<img src="/resources2025/images/bom_icon2.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bjsjs.gov.cn/ztzl/zfwzgzndbb/" target="_blank">网站工作年度报表<img src="/resources2025/images/bom_icon3.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bjsjs.gov.cn/zmhd/zxlxdh/" target="_blank">咨询联系电话<img src="/resources2025/images/bom_icon4.png" alt="" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ztzl wrap">
+            <div class="title">
+                <h3>专题专栏</h3>
+                <a href="https://www.bjsjs.gov.cn/ztzl/" target="_blank">更多>></a>
+            </div>
+
+                <div class="column-scroll-container">
+                    <ul class="clearfix scroll-list">
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2026/sjsywjyzl/index.shtml" target="_blank">
+			  
+			
+                        <img src="./ztzl/202605/W020260509387279477542_241.png" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/jxstmm/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643843818318_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/sjsjyzp/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020260506386113150222_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/mybhywq/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643837207137_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/tzsjsdt/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643835804671_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/sjsqcyjhx/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643833168054_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/wmt/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643831872069.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="http://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2022/bszl/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643806521687.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="http://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2022/zfgs/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643786568578_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/ztzl/zfwzgzndbb/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643782308721.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+                        <li>
+			
+			  
+			  
+			   <a href="https://www.bjsjs.gov.cn/gongkai/zwgkpd/ztzl/2025/sjsjyzl/xxrx/" target="_blank">
+			  
+			
+                        <img src="./ztzl/202510/W020251019643546045962_241.jpg" width="241" height="84"/></a>
+                        </li>
+                      
+
+
+                    </ul>
+                </div>
+        </div>
+    </div>
+		<!--友链-->
+<style type="text/css">
+	.g_links_box {
+		height: 60px;
+		background: #757575;
+	}
+
+	.g_links_box .m_links_box {
+		width: 1200px;
+		margin: 0 auto;
+		line-height: 60px;
+                clear:both;
+	}
+
+	.g_links_box .m_links_box .m_links_module {
+		float: left;
+		margin: 0 10px;
+		color: #fff;
+		position: relative;
+	}
+
+	.g_links_box .m_links_box .m_links_module span {
+		display: inline-block;
+		*zoom: 1;
+		*display: inline;
+		background: url(/resources/images/ico_up2_ch_20190924.png) right center no-repeat;
+		width: 180px;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	.g_links_box .m_links_box .m_links_module1 span {
+		width: 235px;
+	}
+
+	.g_links_box .m_links_box .f_mask span {
+		background: url(/resources/images/ico_down2_ch_20190924.png) right center no-repeat;
+	}
+
+	.g_links_box .m_links_box .m_links_module i {
+		height: 60px;
+		display: inline-block;
+		*zoom: 1;
+		*display: inline;
+		line-height: 60px;
+		color: #fff;
+		font-style: normal;
+		padding-left: 10px;
+	}
+
+	.g_links_box .m_links_box .m_links_module ul {
+		position: absolute;
+		top: -402px;
+		left: 0;
+		border: 1px solid #ccc;
+		width: 200px;
+		height: 380px;
+		z-index: 100;
+		background: #fff;
+		font-size: 14px;
+		line-height: 28px;
+		overflow-y: auto;
+		display: none;
+	}
+
+	.g_links_box .m_links_box .m_links_module li {
+		padding: 0 10px;
+	}
+
+	.g_links_box .m_links_box .m_links_module li:hover {
+		background: #ccc;
+	}
+
+	/*链接 公务员邮箱*/
+	.g_link_box1 {
+		height: 60px;
+		line-height: 60px;
+		background: #dcdcdc;
+		font-size: 14px;
+		border-top: 1px solid #fff;
+	}
+
+	.g_link_box1 .m_links_box1 {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.g_link_box1 .m_links_box1 .m_links_left {
+		float: left;
+	}
+
+	.m_links_left span {
+		color: #bd1a2d;
+	}
+
+	.m_links_left a {
+		margin: 0 5px;
+		color: #666;
+	}
+
+	.m_links_left a:hover {
+		color: #bd1a2d;
+	}
+
+	.u-civil-servant-mail {
+		float: right;
+		color: #666;
+	}
+
+	#m-mailForm {
+		height: 30px;
+	}
+
+	#m-mailForm .u-login,
+	#m-mailForm .u-help {
+		display: inline-block;
+		*zoom: 1;
+		*display: inline;
+		width: 40px;
+		height: 22px;
+		font-size: 14px;
+		background: #c0c0c0;
+		border-radius: 4px;
+		text-align: center;
+		line-height: 22px;
+		vertical-align: middle;
+	}
+
+	#m-mailForm .u-login {
+		margin-left: 14px;
+		padding: 5px 7px;
+	}
+
+	#m-mailForm .u-help {
+		margin-left: 10px;
+		padding: 5px 7px;
+	}
+
+	#m-mailForm #u-uid,
+	#m-mailForm #u-password {
+		width: 180px;
+		height: 30px;
+		line-height: 30px;
+		border: 0;
+		color: #666;
+		padding: 0 10px;
+	}
+
+	#m-mailForm .u-login a,
+	#m-mailForm .u-help a {
+		color: #666;
+	}
+
+	#m-mailForm .u-login:hover,
+	#m-mailForm .u-help:hover {
+		background: #dabb85;
+	}
+</style>
+<div class="g_link_box1">
+	<div class="m_links_box1">
+		<div class="m_links_left"><span>链接：</span> <a href="http://www.bjrd.gov.cn" rel="nofollow" target="_blank"
+				title="市人大">市人大</a> <a href="http://www.bjzx.gov.cn" rel="nofollow" target="_blank" title="市政协">市政协</a>
+			<a href="http://www.bjsupervision.gov.cn/" rel="nofollow" target="_blank" title="市监察委">市监察委</a> <a
+				href="https://bjgy.bjcourt.gov.cn" rel="nofollow" target="_blank" title="市高级人民法院">市高级人民法院</a> <a
+				href="http://www.bjjc.gov.cn" rel="nofollow" target="_blank" title="市人民检察院">市人民检察院</a>
+		</div>
+
+		<div class="u-civil-servant-mail"><!--MAIL SPACE--></div>
+	</div>
+</div>
+
+<div class="g_links_box">
+	<div class="m_links_box f_clear">
+		<div class="m_links_module m_links_module1" id="websiteGJ"><span>中国政府网及国务院部门网站</span><i>|</i>
+
+			<ul>
+				<li><a href="http://www.gov.cn" rel="nofollow" title="中国政府网" target="_blank">中国政府网</a></li>
+				<li><a href="http://www.fmprc.gov.cn/web/" rel="nofollow" title="外交部" target="_blank">外交部</a></li>
+				<li><a href="http://www.mod.gov.cn/" rel="nofollow" title="国防部" target="_blank">国防部</a></li>
+				<li><a href="http://www.ndrc.gov.cn/" rel="nofollow" title="国家发展和改革委员会" target="_blank">国家发展和改革委员会</a>
+				</li>
+				<li><a href="http://www.moe.gov.cn/" rel="nofollow" title="教育部" target="_blank">教育部</a></li>
+				<li><a href="http://www.most.gov.cn/" rel="nofollow" title="科学技术部" target="_blank">科学技术部</a></li>
+				<li><a href="http://www.miit.gov.cn/" rel="nofollow" title="工业和信息化部" target="_blank">工业和信息化部</a>
+				</li>
+				<li><a href="https://www.neac.gov.cn/" rel="nofollow" title="国家民族事务委员会" target="_blank">国家民族事务委员会</a>
+				</li>
+				<li><a href="http://www.mps.gov.cn/" rel="nofollow" title="公安部" target="_blank">公安部</a></li>
+				<li><a rel="nofollow" title="国家安全部" target="_blank">国家安全部</a></li>
+				<li><a href="http://www.mca.gov.cn/" rel="nofollow" title="民政部" target="_blank">民政部</a></li>
+				<li><a href="http://www.moj.gov.cn/" rel="nofollow" title="司法部" target="_blank">司法部</a></li>
+				<li><a href="http://www.mof.gov.cn/index.htm" rel="nofollow" title="财政部" target="_blank">财政部</a>
+				</li>
+				<li><a href="http://www.mohrss.gov.cn/" rel="nofollow" title="人力资源和社会保障部" target="_blank">人力资源和社会保障部</a>
+				</li>
+				<li><a href="http://www.mnr.gov.cn/" rel="nofollow" title="自然资源部" target="_blank">自然资源部</a></li>
+				<li><a href="http://www.mee.gov.cn/" rel="nofollow" title="生态环境部" target="_blank">生态环境部</a></li>
+				<li><a href="http://www.mohurd.gov.cn/" rel="nofollow" title="住房和城乡建设部" target="_blank">住房和城乡建设部</a>
+				</li>
+				<li><a href="http://www.mot.gov.cn/" rel="nofollow" title="交通运输部" target="_blank">交通运输部</a></li>
+				<li><a href="http://www.mwr.gov.cn/" rel="nofollow" title="水利部" target="_blank">水利部</a></li>
+				<li><a href="http://www.moa.gov.cn/" rel="nofollow" title="农业农村部" target="_blank">农业农村部</a></li>
+				<li><a href="http://www.mofcom.gov.cn " rel="nofollow" title="商务部" target="_blank">商务部</a></li>
+				<li><a href="http://www.mct.gov.cn/" rel="nofollow" title="文化和旅游部" target="_blank">文化和旅游部</a></li>
+				<li><a href="http://www.nhc.gov.cn" rel="nofollow" title="国家卫生健康委员会" target="_blank">国家卫生健康委员会</a>
+				</li>
+				<li><a href="http://www.mva.gov.cn/" rel="nofollow" title="退役军人事务部" target="_blank">退役军人事务部</a></li>
+				<li><a href="http://www.mem.gov.cn/" rel="nofollow" title="应急管理部" target="_blank">应急管理部</a></li>
+				<li><a href="http://www.pbc.gov.cn/" rel="nofollow" title="中国人民银行" target="_blank">中国人民银行</a></li>
+				<li><a href="http://www.audit.gov.cn/" rel="nofollow" title="审计署" target="_blank">审计署</a></li>
+				<li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/" rel="nofollow" title="国家语言文字工作委员会"
+						target="_blank">国家语言文字工作委员会</a></li>
+				<li><a href="http://www.cnsa.gov.cn/" rel="nofollow" title="国家航天局" target="_blank">国家航天局</a></li>
+				<li><a href="http://www.caea.gov.cn/" rel="nofollow" title="国家原子能机构" target="_blank">国家原子能机构</a>
+				</li>
+				<li><a rel="nofollow" title="国家外国专家局" target="_blank">国家外国专家局</a></li>
+				<li><a rel="nofollow" title="国家海洋局" target="_blank">国家海洋局</a></li>
+				<li><a href="http://nnsa.mee.gov.cn/" rel="nofollow" title="国家核安全局" target="_blank">国家核安全局</a></li>
+				<li><a rel="nofollow" title="国家乡村振兴局" target="_blank">国家乡村振兴局</a></li>
+				<li><a href="http://www.sasac.gov.cn/" rel="nofollow" title="国务院国有资产监督管理委员会"
+						target="_blank">国务院国有资产监督管理委员会</a></li>
+				<li><a href="http://www.customs.gov.cn/" rel="nofollow" title="海关总署" target="_blank">海关总署</a></li>
+				<li><a href="http://www.chinatax.gov.cn/" rel="nofollow" title="国家税务总局" target="_blank">国家税务总局</a>
+				</li>
+				<li><a href="http://www.samr.gov.cn/" rel="nofollow" title="国家市场监督管理总局" target="_blank">国家市场监督管理总局</a>
+				</li>
+				<li><a href="https://www.nfra.gov.cn/cn/view/pages/index/index.html" rel="nofollow" title="国家金融监督管理总局"
+						target="_blank">国家金融监督管理总局</a></li>
+				<li><a href="http://www.csrc.gov.cn/" rel="nofollow" title="中国证券监督管理委员会" target="_blank">中国证券监督管理委员会</a>
+				</li>
+				<li><a href="http://www.nrta.gov.cn/" rel="nofollow" title="国家广播电视总局" target="_blank">国家广播电视总局</a>
+				</li>
+				<li><a href="http://www.sport.gov.cn/" rel="nofollow" title="国家体育总局" target="_blank">国家体育总局</a></li>
+				<li><a href="https://www.gjxfj.gov.cn/gjxfj/index.htm" rel="nofollow" title="国家信访局"
+						target="_blank">国家信访局</a></li>
+				<li><a href="http://www.stats.gov.cn/" rel="nofollow" title="国家统计局" target="_blank">国家统计局</a></li>
+				<li><a href="https://www.cnipa.gov.cn/" rel="nofollow" title="国家知识产权局" target="_blank">国家知识产权局</a>
+				</li>
+				<li><a href="http://www.cidca.gov.cn/" rel="nofollow" title="国家国际发展合作署" target="_blank">国家国际发展合作署</a>
+				</li>
+				<li><a href="http://www.nhsa.gov.cn/" rel="nofollow" title="国家医疗保障局" target="_blank">国家医疗保障局</a>
+				</li>
+				<li><a href="http://www.counsellor.gov.cn/" rel="nofollow" title="国务院参事室" target="_blank">国务院参事室</a>
+				</li>
+				<li><a href="http://www.ggj.gov.cn/" rel="nofollow" title="国家机关事务管理局" target="_blank">国家机关事务管理局</a>
+				</li>
+				<li><a rel="nofollow" title="国家反垄断局" target="_blank">国家反垄断局</a></li>
+				<li><a href="http://www.cnca.gov.cn/" rel="nofollow" title="国家认证认可监督管理委员会"
+						target="_blank">国家认证认可监督管理委员会</a></li>
+				<li><a href="http://www.sac.gov.cn/" rel="nofollow" title="国家标准化管理委员会" target="_blank">国家标准化管理委员会</a>
+				</li>
+				<li><a href="http://www.ncac.gov.cn/" rel="nofollow" title="国家新闻出版署（国家版权局）"
+						target="_blank">国家新闻出版署（国家版权局）</a></li>
+				<li><a href="https://www.sara.gov.cn/" rel="nofollow" title="国家宗教事务局" target="_blank">国家宗教事务局</a>
+				</li>
+				<li><a href="http://www.gov.cn/guoqing/2018-06/22/content_5300522.htm" rel="nofollow" title="国务院研究室"
+						target="_blank">国务院研究室</a></li>
+				<li><a href="http://www.gqb.gov.cn/" rel="nofollow" title="国务院侨务办公室" target="_blank">国务院侨务办公室</a>
+				</li>
+				<li><a href="http://www.hmo.gov.cn/" rel="nofollow" title="国务院港澳事务办公室" target="_blank">国务院港澳事务办公室</a>
+				</li>
+				<li><a href="http://www.gwytb.gov.cn/" rel="nofollow" title="国务院台湾事务办公室" target="_blank">国务院台湾事务办公室</a>
+				</li>
+				<li><a href="http://www.cac.gov.cn/" rel="nofollow" title="国家互联网信息办公室" target="_blank">国家互联网信息办公室</a>
+				</li>
+				<li><a href="http://www.scio.gov.cn/index.htm" rel="nofollow" title="国务院新闻办公室"
+						target="_blank">国务院新闻办公室</a></li>
+				<li><a href="http://203.192.6.89/xhs/" rel="nofollow" title="新华通讯社" target="_blank">新华通讯社</a></li>
+				<li><a href="http://www.cas.cn/" rel="nofollow" title="中国科学院" target="_blank">中国科学院</a></li>
+				<li><a href="http://www.cass.cn/" rel="nofollow" title="中国社会科学院" target="_blank">中国社会科学院</a></li>
+				<li><a href="http://www.cae.cn/" rel="nofollow" title="中国工程院" target="_blank">中国工程院</a></li>
+				<li><a href="http://www.drc.gov.cn/" rel="nofollow" title="国务院发展研究中心" target="_blank">国务院发展研究中心</a>
+				</li>
+				<li><a rel="nofollow" title="中央广播电视总台" target="_blank">中央广播电视总台</a></li>
+				<li><a href="http://www.cma.gov.cn/" rel="nofollow" title="中国气象局" target="_blank">中国气象局</a></li>
+				<li><a href="http://www.ccps.gov.cn/" rel="nofollow" title="国家行政学院" target="_blank">国家行政学院</a></li>
+				<li><a href="http://www.lswz.gov.cn/" rel="nofollow" title="国家粮食和物资储备局" target="_blank">国家粮食和物资储备局</a>
+				</li>
+				<li><a href="http://www.nea.gov.cn/" rel="nofollow" title="国家能源局" target="_blank">国家能源局</a></li>
+				<li><a rel="nofollow" title="国家数据局" target="_blank">国家数据局</a></li>
+				<li><a href="http://www.sastind.gov.cn/" rel="nofollow" title="国家国防科技工业局" target="_blank">国家国防科技工业局</a>
+				</li>
+				<li><a href="http://www.tobacco.gov.cn/html/" rel="nofollow" title="国家烟草专卖局" target="_blank">国家烟草专卖局</a>
+				</li>
+				<li><a href="https://www.nia.gov.cn/" rel="nofollow" title="国家移民管理局" target="_blank">国家移民管理局</a>
+				</li>
+				<li><a href="http://www.forestry.gov.cn/" rel="nofollow" title="国家林业和草原局" target="_blank">国家林业和草原局</a>
+				</li>
+				<li><a href="http://www.nra.gov.cn/" rel="nofollow" title="国家铁路局" target="_blank">国家铁路局</a></li>
+				<li><a href="http://www.caac.gov.cn/index.html" rel="nofollow" title="中国民用航空局"
+						target="_blank">中国民用航空局</a></li>
+				<li><a href="http://www.spb.gov.cn/" rel="nofollow" title="国家邮政局" target="_blank">国家邮政局</a></li>
+				<li><a href="http://www.ncha.gov.cn/" rel="nofollow" title="国家文物局" target="_blank">国家文物局</a></li>
+				<li><a href="http://www.natcm.gov.cn/" rel="nofollow" title="国家中医药管理局" target="_blank">国家中医药管理局</a>
+				</li>
+				<li><a href="https://www.ndcpa.gov.cn/" rel="nofollow" title="国家疾病预防控制局" target="_blank">国家疾病预防控制局</a>
+				</li>
+				<li><a href="https://www.chinamine-safety.gov.cn/" rel="nofollow" title="国家矿山安全监察局"
+						target="_blank">国家矿山安全监察局</a></li>
+				<li><a href="https://www.119.gov.cn/" rel="nofollow" title="国家消防救援局" target="_blank">国家消防救援局</a>
+				</li>
+				<li><a href="http://www.safe.gov.cn/" rel="nofollow" title="国家外汇管理局" target="_blank">国家外汇管理局</a>
+				</li>
+				<li><a href="https://www.nmpa.gov.cn/" rel="nofollow" title="国家药品监督管理局" target="_blank">国家药品监督管理局</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="m_links_module m_links_module2"><span>省(区市)政府网站</span><i>|</i>
+
+			<ul>
+				<li><a href="http://www.tj.gov.cn/" rel="nofollow" title="天津" target="_blank">天津</a></li>
+				<li><a href="http://www.hebei.gov.cn" rel="nofollow" title="河北" target="_blank">河北</a></li>
+				<li><a href="http://www.shanxi.gov.cn" rel="nofollow" title="山西" target="_blank">山西</a></li>
+				<li><a href="http://www.nmg.gov.cn/" rel="nofollow" title="内蒙古" target="_blank">内蒙古</a></li>
+				<li><a href="http://www.ln.gov.cn/" rel="nofollow" title="辽宁" target="_blank">辽宁</a></li>
+				<li><a href="http://www.jl.gov.cn/" rel="nofollow" title="吉林" target="_blank">吉林</a></li>
+				<li><a href="http://www.hlj.gov.cn/" rel="nofollow" title="黑龙江" target="_blank">黑龙江</a></li>
+				<li><a href="http://www.shanghai.gov.cn" rel="nofollow" title="上海" target="_blank">上海</a></li>
+				<li><a href="http://www.jiangsu.gov.cn" rel="nofollow" title="江苏" target="_blank">江苏</a></li>
+				<li><a href="http://www.zj.gov.cn" rel="nofollow" title="浙江" target="_blank">浙江</a></li>
+				<li><a href="http://www.ah.gov.cn/" rel="nofollow" title="安徽" target="_blank">安徽</a></li>
+				<li><a href="http://www.fujian.gov.cn/" rel="nofollow" title="福建" target="_blank">福建</a></li>
+				<li><a href="http://www.jiangxi.gov.cn" rel="nofollow" title="江西" target="_blank">江西</a></li>
+				<li><a href="http://www.shandong.gov.cn/" rel="nofollow" title="山东" target="_blank">山东</a></li>
+				<li><a href="http://www.henan.gov.cn/" rel="nofollow" title="河南" target="_blank">河南</a></li>
+				<li><a href="http://www.hubei.gov.cn/" rel="nofollow" title="湖北" target="_blank">湖北</a></li>
+				<li><a href="http://www.hunan.gov.cn/" rel="nofollow" title="湖南" target="_blank">湖南</a></li>
+				<li><a href="http://www.gd.gov.cn/" rel="nofollow" title="广东" target="_blank">广东</a></li>
+				<li><a href="http://www.gxzf.gov.cn/" rel="nofollow" title="广西" target="_blank">广西</a></li>
+				<li><a href="https://www.hainan.gov.cn/" rel="nofollow" title="海南" target="_blank">海南</a></li>
+				<li><a href="http://www.cq.gov.cn/" rel="nofollow" title="重庆" target="_blank">重庆</a></li>
+				<li><a href="http://www.sc.gov.cn/" rel="nofollow" title="四川" target="_blank">四川</a></li>
+				<li><a href="http://www.guizhou.gov.cn/" rel="nofollow" title="贵州" target="_blank">贵州</a></li>
+				<li><a href="http://www.yn.gov.cn/" rel="nofollow" title="云南" target="_blank">云南</a></li>
+				<li><a href="http://www.xizang.gov.cn/" rel="nofollow" title="西藏" target="_blank">西藏</a></li>
+				<li><a href="http://www.shaanxi.gov.cn" rel="nofollow" title="陕西" target="_blank">陕西</a></li>
+				<li><a href="http://www.gansu.gov.cn/" rel="nofollow" title="甘肃" target="_blank">甘肃</a></li>
+				<li><a href="http://www.qinghai.gov.cn/" rel="nofollow" title="青海" target="_blank">青海</a></li>
+				<li><a href="http://www.nx.gov.cn/" rel="nofollow" title="宁夏" target="_blank">宁夏</a></li>
+				<li><a href="http://www.xinjiang.gov.cn/" rel="nofollow" title="新疆" target="_blank">新疆</a></li>
+				<li><a href="http://www.gov.hk/" rel="nofollow" title="香港" target="_blank">香港</a></li>
+				<li><a href="http://www.gov.mo/" rel="nofollow" title="澳门" target="_blank">澳门</a></li>
+				<li><a href="javascript:;" rel="nofollow" title="台湾" style="cursor:text">台湾</a></li>
+				<li><a href="http://www.xjbt.gov.cn/" rel="nofollow" title="新疆生产建设兵团" target="_blank">新疆生产建设兵团</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="m_links_module m_links_module3"><span>市级政府部门网站</span><i>|</i>
+
+			<ul>
+				<li><a href="https://www.beijing.gov.cn/gongkai/zfxxgk/szfbgt/" rel="nofollow" title="市政府办公厅"
+						target="_blank">市政府办公厅</a></li>
+				<li><a href="http://fgw.beijing.gov.cn" rel="nofollow" title="市发展改革委" target="_blank">市发展改革委</a>
+				</li>
+				<li><a href="http://jw.beijing.gov.cn/" rel="nofollow" title="市教委" target="_blank">市教委</a></li>
+				<li><a href="http://kw.beijing.gov.cn" rel="nofollow" title="市科委、中关村管委会" target="_blank">市科委、中关村管委会</a>
+				</li>
+				<li><a href="http://jxj.beijing.gov.cn" rel="nofollow" title="市经济和信息化局" target="_blank">市经济和信息化局</a>
+				</li>
+				<li><a href="http://mzzjw.beijing.gov.cn/" rel="nofollow" title="市民族宗教委" target="_blank">市民族宗教委</a>
+				</li>
+				<li><a href="http://gaj.beijing.gov.cn" rel="nofollow" title="市公安局" target="_blank">市公安局</a></li>
+				<li><a href="http://mzj.beijing.gov.cn/" rel="nofollow" title="市民政局" target="_blank">市民政局</a></li>
+				<li><a href="http://sfj.beijing.gov.cn" rel="nofollow" title="市司法局" target="_blank">市司法局</a></li>
+				<li><a href="http://czj.beijing.gov.cn/" rel="nofollow" title="市财政局" target="_blank">市财政局</a></li>
+				<li><a href="http://rsj.beijing.gov.cn" rel="nofollow" title="市人力资源社会保障局" target="_blank">市人力资源社会保障局</a>
+				</li>
+				<li><a href="http://ghzrzyw.beijing.gov.cn/" rel="nofollow" title="市规划自然资源委"
+						target="_blank">市规划自然资源委</a></li>
+				<li><a href="http://sthjj.beijing.gov.cn/" rel="nofollow" title="市生态环境局" target="_blank">市生态环境局</a>
+				</li>
+				<li><a href="http://zjw.beijing.gov.cn" rel="nofollow" title="市住房城乡建设委" target="_blank">市住房城乡建设委</a>
+				</li>
+				<li><a href="http://csglw.beijing.gov.cn" rel="nofollow" title="市城市管理委" target="_blank">市城市管理委</a>
+				</li>
+				<li><a href="http://jtw.beijing.gov.cn" rel="nofollow" title="市交通委" target="_blank">市交通委</a></li>
+				<li><a href="http://swj.beijing.gov.cn" rel="nofollow" title="市水务局" target="_blank">市水务局</a></li>
+				<li><a href="http://nyncj.beijing.gov.cn/" rel="nofollow" title="市农业农村局" target="_blank">市农业农村局</a>
+				</li>
+				<li><a href="http://sw.beijing.gov.cn/" rel="nofollow" title="市商务局" target="_blank">市商务局</a></li>
+				<li><a href="http://whlyj.beijing.gov.cn/" rel="nofollow" title="市文化和旅游局" target="_blank">市文化和旅游局</a>
+				</li>
+				<li><a href="http://wjw.beijing.gov.cn" rel="nofollow" title="市卫生健康委" target="_blank">市卫生健康委</a>
+				</li>
+				<li><a href="http://tyjrswj.beijing.gov.cn/" rel="nofollow" title="市退役军人局" target="_blank">市退役军人局</a>
+				</li>
+				<li><a href="http://yjglj.beijing.gov.cn/" rel="nofollow" title="市应急局" target="_blank">市应急局</a></li>
+				<li><a href="http://scjgj.beijing.gov.cn/" rel="nofollow" title="市市场监管局" target="_blank">市市场监管局</a>
+				</li>
+				<li><a href="http://sjj.beijing.gov.cn/" rel="nofollow" title="市审计局" target="_blank">市审计局</a></li>
+				<li><a href="http://wb.beijing.gov.cn" rel="nofollow" title="市政府外办" target="_blank">市政府外办</a></li>
+				<li><a href="http://gzw.beijing.gov.cn" rel="nofollow" title="市国资委" target="_blank">市国资委</a></li>
+				<li><a href="http://gdj.beijing.gov.cn/" rel="nofollow" title="市广电局" target="_blank">市广电局</a></li>
+				<li><a href="http://wwj.beijing.gov.cn/" rel="nofollow" title="市文物局" target="_blank">市文物局</a></li>
+				<li><a href="http://tyj.beijing.gov.cn/" rel="nofollow" title="市体育局" target="_blank">市体育局</a></li>
+				<li><a href="http://tjj.beijing.gov.cn/" rel="nofollow" title="市统计局" target="_blank">市统计局</a></li>
+				<li><a href="http://yllhj.beijing.gov.cn" rel="nofollow" title="市园林绿化局" target="_blank">市园林绿化局</a>
+				</li>
+				<li><a href="http://zwfwj.beijing.gov.cn/" rel="nofollow" title="市政务和数据局" target="_blank">市政务和数据局</a>
+				</li>
+				<li><a href="http://jgj.beijing.gov.cn/" rel="nofollow" title="市机关事务局" target="_blank">市机关事务局</a>
+				</li>
+				<li><a href="http://gdb.beijing.gov.cn/" rel="nofollow" title="市国动办" target="_blank">市国动办</a></li>
+				<li><a href="http://xfb.beijing.gov.cn/" rel="nofollow" title="市信访办" target="_blank">市信访办</a></li>
+				<li><a href="https://zscqj.beijing.gov.cn/" rel="nofollow" title="市知识产权局" target="_blank">市知识产权局</a>
+				</li>
+				<li><a href="https://ybj.beijing.gov.cn/" rel="nofollow" title="市医保局" target="_blank">市医保局</a></li>
+				<li><a href="https://www.beijing.gov.cn/gongkai/zfxxgk/szfcss/jgjj/202104/t20210425_2368771.html"
+						rel="nofollow" title="市政府参事室" target="_blank">市政府参事室</a></li>
+				<li><a href="https://tamgw.beijing.gov.cn/" rel="nofollow" title="天安门地区管委会" target="_blank">天安门地区管委会</a>
+				</li>
+				<li><a href="https://zdzqgw.beijing.gov.cn/" rel="nofollow" title="重点站区管委会" target="_blank">重点站区管委会</a>
+				</li>
+				<li><a href="https://kfqgw.beijing.gov.cn/" rel="nofollow" title="北京经开区管委会" target="_blank">北京经开区管委会</a>
+				</li>
+				<li><a href="https://www.beijing.gov.cn/gongkai/zfxxgk/csfzxgwh/" rel="nofollow" title="城市副中心管委会" target="_blank">城市副中心管委会</a>
+				</li>
+				<li><a href="https://cgj.beijing.gov.cn/" rel="nofollow" title="市城管执法局" target="_blank">市城管执法局</a>
+				</li>
+				<li><a href="https://jyj.beijing.gov.cn/" rel="nofollow" title="市监狱局" target="_blank">市监狱局</a></li>
+				<li><a href="https://lsj.beijing.gov.cn/" rel="nofollow" title="市粮食和储备局" target="_blank">市粮食和储备局</a>
+				</li>
+				<li><a href="https://zyj.beijing.gov.cn/" rel="nofollow" title="市中医药局" target="_blank">市中医药局</a>
+				</li>
+				<li><a href="https://yjj.beijing.gov.cn/" rel="nofollow" title="市药监局" target="_blank">市药监局</a></li>
+				<li><a href="https://zdb.beijing.gov.cn/" rel="nofollow" title="市重大项目办"
+						target="_blank">市重大项目办</a></li>
+				<li><a href="https://whsczfzd.beijing.gov.cn/" rel="nofollow" title="市文化市场执法总队"
+						target="_blank">市文化市场执法总队</a></li>
+				<li><a href="https://invest.beijing.gov.cn/" rel="nofollow" title="市投资促进服务中心"
+						target="_blank">市投资促进服务中心</a></li>
+				<li><a href="https://gjj.beijing.gov.cn/" rel="nofollow" title="住房公积金管理中心" target="_blank">住房公积金管理中心</a>
+				</li>
+				<li><a href="https://www.bjdzj.gov.cn/" rel="nofollow" title="市地震局" target="_blank">市地震局</a></li>
+			</ul>
+		</div>
+
+		<div class="m_links_module m_links_module4"><span>各区政府网站</span><i>|</i>
+
+			<ul>
+				<li><a href="http://www.bjdch.gov.cn/" rel="nofollow" title="东城区" target="_blank">东城区</a></li>
+				<li><a href="http://www.bjxch.gov.cn/" rel="nofollow" title="西城区" target="_blank">西城区</a></li>
+				<li><a href="http://www.bjchy.gov.cn/" rel="nofollow" title="朝阳区" target="_blank">朝阳区</a></li>
+				<li><a href="https://www.bjhd.gov.cn/" rel="nofollow" title="海淀区" target="_blank">海淀区</a></li>
+				<li><a href="http://www.bjft.gov.cn/" rel="nofollow" title="丰台区" target="_blank">丰台区</a></li>
+				<li><a href="http://www.bjsjs.gov.cn/" rel="nofollow" title="石景山区" target="_blank">石景山区</a></li>
+				<li><a href="http://www.bjmtg.gov.cn/" rel="nofollow" title="门头沟区" target="_blank">门头沟区</a></li>
+				<li><a href="http://www.bjfsh.gov.cn/" rel="nofollow" title="房山区" target="_blank">房山区</a></li>
+				<li><a href="http://www.bjtzh.gov.cn" rel="nofollow" title="通州区" target="_blank">通州区</a></li>
+				<li><a href="https://www.bjshy.gov.cn/" rel="nofollow" title="顺义区" target="_blank">顺义区</a></li>
+				<li><a href="http://www.bjchp.gov.cn/" rel="nofollow" title="昌平区" target="_blank">昌平区</a></li>
+				<li><a href="http://www.bjdx.gov.cn/" rel="nofollow" title="大兴区" target="_blank">大兴区</a></li>
+				<li><a href="http://www.bjhr.gov.cn" rel="nofollow" title="怀柔区" target="_blank">怀柔区</a></li>
+				<li><a href="http://www.bjpg.gov.cn/" rel="nofollow" title="平谷区" target="_blank">平谷区</a></li>
+				<li><a href="http://www.bjmy.gov.cn/" rel="nofollow" title="密云区" target="_blank">密云区</a></li>
+				<li><a href="http://www.bjyq.gov.cn/" rel="nofollow" title="延庆区" target="_blank">延庆区</a></li>
+			</ul>
+		</div>
+
+		<div class="m_links_module m_links_module5"><span>新闻媒体网站</span><i>|</i>
+
+			<ul>
+				<li><a href="http://www.news.cn" rel="nofollow" title="新华网" target="_blank">新华网</a></li>
+				<li><a href="http://www.people.com.cn/" rel="nofollow" title="人民网" target="_blank">人民网</a></li>
+				<li><a href="http://www.cctv.com/" rel="nofollow" title="央视国际" target="_blank">央视国际</a></li>
+				<li><a href="http://www.cnr.cn/" rel="nofollow" title="中央人民广播电台" target="_blank">中央人民广播电台</a></li>
+				<li><a href="http://www.chinadaily.com.cn" rel="nofollow" title="中国日报" target="_blank">中国日报</a></li>
+				<li><a href="http://www.cri.cn/index.html" rel="nofollow" title="中国国际广播电台" target="_blank">中国国际广播电台</a>
+				</li>
+				<li><a href="http://www.gmw.cn/" rel="nofollow" title="光明网" target="_blank">光明网</a></li>
+				<li><a href="http://paper.ce.cn/" rel="nofollow" title="经济日报" target="_blank">经济日报</a></li>
+				<li><a href="http://www.bjd.com.cn/" rel="nofollow" title="京报网" target="_blank">京报网</a></li>
+				<li><a href="http://www.brtn.cn/" rel="nofollow" title="北京电视台" target="_blank">北京电视台</a></li>
+				<li><a href="http://www.rbc.cn/" rel="nofollow" title="北京人民广播电台" target="_blank">北京人民广播电台</a></li>
+				<li><a href="http://www.qianlong.com/" rel="nofollow" title="千龙网" target="_blank">千龙网</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+	//处理友情链接低版本浏览器跳转空白问题
+	window.onload = function () {
+		var oWS = document.getElementById("websiteGJ");
+		var aA = oWS.getElementsByTagName("a");
+		var arr1 = [];
+		for (var i = 0; i < aA.length; i++) {
+			if (aA[i].href == "javascript:;") {
+				arr1.push(aA[i]);
+			}
+		}
+		for (var j = 0; j < arr1.length; j++) {
+			arr1[j].removeAttribute("href");
+			arr1[j].onclick = function () {
+				return false;
+			}
+		}
+	}
+	//友情链接
+	$(".m_links_module").each(function () {
+		$(this).on("click", function (event) {
+			event.stopPropagation();
+			$(this).find("ul").show().parent().siblings().find("ul").hide();
+			$(this).addClass("f_mask").siblings().removeClass("f_mask");
+		})
+	});
+	$(".m_links_module1 a").on("click", function (event) {
+		event.stopPropagation();
+		var i = $(".m_links_module1 a").index(this);
+		var _txt = $(".m_links_module1 a").eq(i).text();
+		//$(".m_links_module1 span").text(_txt);
+		$(".m_links_module1 ul").hide();
+	});
+	$(".m_links_module2 a").on("click", function (event) {
+		event.stopPropagation();
+		var i = $(".m_links_module2 a").index(this);
+		var _txt = $(".m_links_module2 a").eq(i).text();
+		//$(".m_links_module2 span").text(_txt);
+		$(".m_links_module2 ul").hide();
+	});
+	$(".m_links_module3 a").on("click", function (event) {
+		event.stopPropagation();
+		var i = $(".m_links_module3 a").index(this);
+		var _txt = $(".m_links_module3 a").eq(i).text();
+		//$(".m_links_module3 span").text(_txt);
+		$(".m_links_module3 ul").hide();
+	});
+	$(".m_links_module4 a").on("click", function (event) {
+		event.stopPropagation();
+		var i = $(".m_links_module4 a").index(this);
+		var _txt = $(".m_links_module4 a").eq(i).text();
+		//$(".m_links_module4 span").text(_txt);
+		$(".m_links_module4 ul").hide();
+	});
+	$(".m_links_module5 a").on("click", function (event) {
+		event.stopPropagation();
+		var i = $(".m_links_module5 a").index(this);
+		var _txt = $(".m_links_module5 a").eq(i).text();
+		//$(".m_links_module5 span").text(_txt);
+		$(".m_links_module5 ul").hide();
+	});
+	$("body").on("click", function (event) {
+		if ($(".m_links_module").hasClass("f_mask")) {
+			$(".m_links_module ul").hide();
+			$(".m_links_module").removeClass("f_mask");
+		}
+	});
+</script>
+		<!-- footer -->
+		<style>
+	.organization {
+		width: 228px;
+		padding: 75px 0px 0px 65px;
+	}
+
+	#_ideConac {
+		float: left;
+	}
+
+	#_span_jiucuo {
+		float: left;
+		margin: 10px 0 0 10px;
+	}
+</style>
+<div class="bottom">
+	<div class="bottom_t">
+		<div class="bottom_t_in">
+			<div class="organization">
+				<span id="_ideConac">
+					<a href="https://bszs.conac.cn/sitename?method=show&amp;id=5316B7DF80897C66E053012819AC0190" target="_blank">
+						<img id="imgConac" vspace="0" hspace="0" border="0" src="https://dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" />
+					</a>
+				</span>
+				<script id="_jiucuo_" sitecode='1101070001' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+			</div>
+
+			<div class="d_infor_1">
+				<ul>
+					<li><a href="/sjssy/gywm/" target="_blank">关于我们</a></li>
+					<li><a href="/sjssy/jyyj/" target="_blank">建议意见</a></li>
+					<li><a href="/sjssy/map/" target="_blank">站点地图</a></li>
+					<li><a href="/sjssy/flsm/" target="_blank">法律声明</a></li>
+				</ul>
+			</div>
+
+			<div class="d_infor_2"><span>客服信箱：sjsxxgkb@bjsjs.gov.cn</span> <span>政务服务热线：12345</span></div>
+
+			<div class="d_infor_3">
+				<p>
+					<img height="85" src="/resources/images/sjs_2020_1.jpg" width="85" alt="家园石景山" /><br />石景山12345接诉即办
+				</p>
+
+				<p>
+					<img height="85" src="/resources/images/sjs_2020_2.jpg" width="85" alt="北京石景山" /><br />北京石景山
+				</p>
+			</div>
+
+			<div class="d_infor_4"><b>主办：北京市石景山区人民政府办公室</b>承办：北京市石景山区政务服务和数据管理局</div>
+		</div>
+	</div>
+
+	<div class="bottom_b">
+		<div class="bottom_b_in">
+			<div class="d_infor_5">
+
+				<a href="https://beian.miit.gov.cn" target="_blank">京ICP备17033189号-1</a>
+				<a class="bottom_ga" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010702000001"
+					target="_blank">京公网安备
+					11010702000001号</a><span>政府网站标识码 1101070001</span>
+			</div>
+
+			<div class="d_infor_6">建议您使用IE7.0以上版本浏览本站</div>
+		</div>
+	</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a2b654806f55aa18909a2a36d19e5bb8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!------跳转外链效果开始  放置网站代码尾部 --->
+<style type="text/css">.dialog_other_link {
+			width: 576px;
+			height: 270px;
+			background: #FFF;
+			padding: 0 60px;
+			overflow: hidden;
+			position: absolute;
+			left: 50%;
+			top: -270px;
+			margin: 0 0 0 -300px;
+			z-index: 99999999;
+		}
+		.dialog_other_link .close {
+			width: 20px;
+			height: 20px;
+			background-color: #ababab;
+			color: #FFF;
+			line-height: 20px;
+			text-align: center;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			z-index: 9;
+			cursor: pointer;
+		}
+		.dialog_other_link .content {
+			margin-top: 50px;
+			font-size: 20px;
+			text-align: center;
+			padding-bottom: 30px;
+			border-bottom: solid 1px #EDEDED;
+		}
+		.dialog_other_link .btn_box {
+			text-align: center;
+			margin-top: 30px;
+		}
+		.dialog_other_link .btn_box .btn_jxfw {
+			display: inline-block;
+			vertical-align: top;
+			width: 120px;
+			height: 40px;
+			border: solid 1px #EEE;
+			border-radius: 10px;
+			font-size: 20px;
+			color: #aa0000;
+			line-height: 40px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.dialog_other_link .btn_box .btn_fq {
+			font-size: 20px;
+			color: #aa0000;
+			margin-left: 20px;
+			line-height: 40px;
+			cursor: pointer;
+		}
+		.dialog_mask {
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity: .5;
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+                        z-index:999;
+		}
+</style>
+<div class="dialog_other_link">
+<div class="close">X</div>
+
+<div class="content">
+<p>您访问的链接即将离开&ldquo;北京石景山区政府&rdquo;门户网站</p>
+
+<p>是否继续？</p>
+</div>
+
+<div class="btn_box"><span class="btn_jxfw">继续访问</span> <span class="btn_fq">放弃</span></div>
+</div>
+
+<div class="dialog_mask">&nbsp;</div>
+<script type="text/javascript">
+			let locationHref = ''
+		$(function(){
+
+			$('a').click(function(e){
+				// 判断点击的是否是A标签
+				if(e.target.nodeName === 'A'){
+					locationHref = e.target.href
+				}else{
+					locationHref = $(e.target).parents('a').attr('href')
+				}
+				if (locationHref && (locationHref.indexOf('http://www.bjsjs.gov.cn/')===-1) && locationHref.indexOf('.gov.cn')===-1) {
+					if (locationHref.indexOf('http://')!==-1 || locationHref.indexOf('https://')!==-1) {
+						// 阻止默认事件
+						e.preventDefault()
+						// 阻止冒泡
+						e.stopPropagation()
+						// 保存外链地址
+						//locationHref = e.target.href
+						// 获取滚动条距顶部的距离
+						const winTop = $(window).scrollTop()
+						// 显示遮罩
+						$('.dialog_mask').css({
+							'top':winTop+'px'
+						}).show()
+						// 禁止页面滚动
+						$('body').css({
+							overflow: 'hidden'
+						})
+						// 显示弹窗
+						$('.dialog_other_link').stop().animate({
+							top: 100+winTop+'px'
+						},300)
+					}
+				}
+			})
+			// 关闭按钮
+			$('.btn_fq,.dialog_other_link .close,.dialog_mask').click(function(){
+				$('.dialog_other_link').stop().animate({
+					top:'-270px'
+				},300)
+				$('.dialog_mask').hide()
+				$('body').css({
+					overflow: 'auto'
+				})
+			})
+			// 继续访问
+			$('.btn_jxfw').click(function(){
+				//window.location.href = locationHref
+                                  window.open(locationHref)
+                                $('.dialog_other_link').stop().animate({
+					top:'-270px'
+				},300)
+				$('.dialog_mask').hide()
+				$('body').css({
+					overflow: 'auto'
+				})   
+			})
+			
+		});
+
+
+		
+	</script>
+
+    <script src="./images/swiper-3.4.2.min.js"></script>
+    <script>
+        //中央要闻/北京新闻
+        $.ajax({
+            url: "https://www.beijing.gov.cn/shouye/tltt/pushCommitteeNews_33256.js",
+            dataType: "jsonp",
+            scriptCharset: "UTF-8",
+            jsonp: "pushInfoJsCallBack",
+            jsonpCallback: "pushInfoJsCallBack",
+            success: function (res) {
+                var data = res.data1[0];
+                var xhtml = '';
+                var zyhtml = '';
+                var bjhtml = '';
+                xhtml += '<a href="' + data.link + '" title="' + data.title + '" target="_blank">' +
+                    '    <h3>' + data.title + '</h3>' +
+                    '    <h3>' + data.subtitle + '</h3>' +
+                    '</a>' +
+                    '<p class="more"><a href="https://www.beijing.gov.cn/ywdt/dzyjs/index.html" target="_blank">更多>></a></p>';
+                $(".headline_news").html(xhtml);
+                var data1 = res.data2
+                for (var i = 0; i < 7; i++) {
+                    zyhtml += '<li><a href="' + data1[i].link + '" target="_blank">' + data1[i].title + '</a></li>'
+                }
+                $('#zyyw').html(zyhtml)
+                var data2 = res.data3
+                for (var i = 0; i < 7; i++) {
+                    bjhtml += '<li><a href="' + data2[i].link + '" target="_blank">' + data2[i].title + '</a></li>'
+                }
+                $('#bjxw').html(bjhtml)
+            },
+
+        });
+        //表单提交开始
+        // 头部搜索
+        // 头部搜索
+        $('#search').submit(function () {
+            var type = $('#search .tit').text().trim()
+            if (type == '站内搜索') {
+                window.open('https://www.bjsjs.gov.cn/so/s?qt=' + $('#search input[name="qt"]').val() + '&siteCode=1101070001')
+            } else if (type == '一网通查') {
+
+                window.open('https://www.beijing.gov.cn/so/s?qt=' + $('#search input[name="qt"]').val() + '&sourceCode=1101070001')
+            }
+        })
+        // 法人搜索
+        $('#frSearch').click(function () {
+            var adx = $('#frAdx').text().trim()
+            var asmzq = $('#frAsmzq').text().trim()
+            var href = 'https://www.beijing.gov.cn/zhengce/zcdh?type=1&adx=' + adx + '&asmzq=' + asmzq
+            window.open(href)
+        })
+        //个人搜索
+        $('#grSearch').click(function () {
+            var adx = $('#grAdx').text().trim()
+            var asmzq = $('#grAsmzq').text().trim()
+            var href = 'https://www.beijing.gov.cn/zhengce/zcdh?type=0&adx=' + adx + '&asmzq=' + asmzq
+            window.open(href)
+        })
+        // 表单提交结束
+        $('.searchTit .tit').click(function () {
+            $(this).next().toggle()
+            $(this).toggleClass('on')
+        })
+
+        $('#search .options li').click(function () {
+            $(this).addClass('on').siblings().removeClass('on')
+            $('#search .options').toggle()
+            $('#search .searchTit .tit span').text($(this).text())
+            $('#search .searchTit .tit').removeClass('on')
+        })
+        $('.topMenu>li').mouseenter(function () {
+            $('.menu_secondary').hide();
+            $('.topMenu>li>a').removeClass('on');
+            $(this).find('.menu_secondary').show();
+            $(this).children('a').addClass('on');
+        });
+
+        $('.topMenu>li').mouseleave(function () {
+            $('.menu_secondary').hide();
+            $('.topMenu>li>a').removeClass('on');
+        });
+        var topSwiper = new Swiper('.top-swiper', {
+            pagination: '.top-pagination',
+            paginationClickable: true,
+        })
+
+        var infoSwiper = new Swiper('.info-swiper', {
+            autoHeight: true,
+            onSlideChangeStart: function (swiper) {
+                $('.infoNav li').eq(swiper.activeIndex).addClass('on').siblings().removeClass('on')
+            },
+            onInit: function (swiper) {
+                $('.infoNav li').eq(swiper.activeIndex).addClass('on')
+            }
+
+        })
+        $('.infoNav li').hover(function () {
+
+            if ($(this).index() < infoSwiper.slides.length) {
+                infoSwiper.slideTo($(this).index())
+            }
+
+        })
+        $(".zzc-swiper .input").on("click", function (event) {
+            event.stopPropagation();
+            $(this).next().toggle()
+            $(this).toggleClass("on")
+
+        })
+        $("body").on("click", function (event) {
+            if ($(".zzc-swiper .input").hasClass("on")) {
+                $(".zzc-swiper ul").hide();
+                $(".zzc-swiper .input").removeClass("on");
+            }
+        });
+        $('.zzc-swiper li').click(function () {
+            var $this = $(this)
+            $this.addClass('on').siblings().removeClass('on')
+            $this.parent().toggle()
+            $this.parent().prev().children('.con').text($this.text())
+            $this.parent().prev().removeClass('on')
+        })
+        var zzcSwiper = new Swiper('.zzc-swiper', {
+            onSlideChangeStart: function (swiper) {
+                $('.zzcNav li').eq(swiper.activeIndex).addClass('on').siblings().removeClass('on')
+            }
+        })
+        $('.zzcNav li').click(function () {
+            zzcSwiper.slideTo($(this).index())
+        })
+        $('.zcSearch .tit').click(function () {
+            $(this).children('ul').toggle()
+            $(this).toggleClass('on')
+        })
+        $('.zcSearch li').click(function () {
+            $(this).addClass('on').siblings().removeClass('on')
+            $('.zcSearch .tit span').text($(this).text())
+
+        })
+        var midSwiper = new Swiper('.mid-swiper', {
+            autoHeight: true,
+            onSlideChangeStart: function (swiper) {
+                $('.midNav li').eq(swiper.activeIndex).addClass('on').siblings().removeClass('on')
+            }
+
+        })
+        $('.midNav li').click(function () {
+            midSwiper.slideTo($(this).index())
+        })
+
+        var zcSwiper = new Swiper('.zc-swiper', {
+            onSlideChangeStart: function (swiper) {
+                $('.zcHed li').eq(swiper.activeIndex).addClass('on').siblings().removeClass('on')
+                if(swiper.activeIndex==0){
+                   $('.zcBox .more').attr('href','https://www.bjsjs.gov.cn/gongkai/zcwjk/')
+                }else{
+                   $('.zcBox .more').attr('href','https://www.bjsjs.gov.cn/gongkai/zcwjk/zcjd25/')
+                }
+            }
+        })
+        $('.zcHed li').hover(function () {
+            zcSwiper.slideTo($(this).index())
+        })
+        var yjsSwiper = new Swiper('.yjs-swiper', {
+            pagination: '.yjs-pagination',
+            paginationClickable: true,
+            nextButton: '.yjs-next',
+            prevButton: '.yjs-prev'
+
+        })
+        var fwSwiper = new Swiper('.fw-swiper', {
+            onSlideChangeStart: function (swiper) {
+                $('.fwBox .hedNav li').eq(swiper.activeIndex).addClass('on').siblings().removeClass('on')
+            }
+        })
+        $('.fwBox .hedNav li').click(function () {
+            $('.fwBox .hedNav .hk').css('left', $(this).position().left)
+            fwSwiper.slideTo($(this).index())
+        })
+        var zcwdkSwiper = new Swiper('.zcwdk-swiper', {
+            nextButton: '.zcwdk-next',
+            prevButton: '.zcwdk-prev'
+        })
+        var dclxSwiper = new Swiper('.dclx-swiper', {
+            onSlideChangeStart: function (swiper) {
+                $('.dclxNav li').eq(swiper.activeIndex).addClass('on').siblings().removeClass('on')
+                if(swiper.activeIndex==0){
+                   $('.dclxNav .more').attr('href','https://www.bjsjs.gov.cn/zmhd/dczj/')
+                }else{
+                   $('.dclxNav .more').attr('href','https://sjswd.bjsjs.gov.cn/hudong/xinxiang/bjsjs/sindex/xx-bjsjs.html')
+                }
+            }
+
+        })
+
+        $('.dclxNav li').click(function () {
+            dclxSwiper.slideTo($(this).index())
+        })
+
+
+        $('.rightMenu h3').click(function(){
+
+            $(this).next().toggleClass('on')
+
+        })
+
+        var ybsftSwiper = new Swiper('.ybsft-swiper', {
+            pagination:'.ybsft-pagination',
+            paginationClickable: true,
+            
+        })
+        //处理一件事折行
+        $('.yjs-swiper .swiper-slide li').each(function(){
+            var el  = $(this).find('.tit')
+            var tit = el.text().trim()
+            if(tit.indexOf('“一件事”')>-1){
+                el.html(tit.replace(/“一件事”/g,'<br>“一件事”'))
+            }else{
+                el.html(tit)
+            }
+        })
+        // 横向无缝滚动实现 - 兼容IE版本
+        function initHorizontalScroll() {
+            var scrollContainer = document.querySelector('.column-scroll-container');
+            var scrollList = document.querySelector('.scroll-list');
+            var listItems = scrollList.querySelectorAll('li');
+            if (!scrollContainer || !scrollList || listItems.length === 0) return;
+            // 克隆列表项以实现无缝循环
+            var cloneList = scrollList.cloneNode(true);
+            cloneList.className = 'scroll-list clone-list'; // 添加克隆标识
+            scrollContainer.appendChild(cloneList);
+            
+            // 计算总宽度 - 使用实际元素尺寸
+            var itemWidth = listItems[0].offsetWidth; 
+            console.log(itemWidth)
+            //右边距
+            let computedStyle = window.getComputedStyle(listItems[0])
+            //20px转换成20
+            var itemMargin = parseFloat(computedStyle.marginRight); // li 右边距
+
+            var totalWidth = (itemWidth + itemMargin) * listItems.length;
+            // 设置容器样式 - IE兼容方式
+            scrollList.style.width = totalWidth + 'px';
+            scrollList.style.left = '0px';
+            cloneList.style.width = totalWidth + 'px';
+            cloneList.style.left = '0px';
+            var currentPos = 0;
+            var speed = 1; // 滚动速度
+            var isScrolling = true;
+            var animationId;
+            // 初始化克隆列表位置
+            if (cloneList.style.transform !== undefined) {
+                cloneList.style.transform = 'translateX(' + totalWidth + 'px)';
+            } else {
+                cloneList.style.left = totalWidth + 'px';
+            }
+            // 滚动动画函数
+            function scrollAnimation() {
+                if (isScrolling) {
+                    currentPos -= speed;
+                    // 当第一个列表完全移出视野时，重置位置
+                    if (Math.abs(currentPos) >= totalWidth) {
+                        currentPos = 0;
+                    }
+                    // 使用transform或left属性（IE8+兼容）
+                    if (scrollList.style.transform !== undefined) {
+                        scrollList.style.transform = 'translateX(' + currentPos + 'px)';
+                        cloneList.style.transform = 'translateX(' + (currentPos + totalWidth) + 'px)';
+                    } else {
+                        // IE8及以下版本使用left属性
+                        scrollList.style.left = currentPos + 'px';
+                        cloneList.style.left = (currentPos + totalWidth) + 'px';
+                    }
+                }
+                
+                // 使用requestAnimationFrame或setTimeout兼容IE
+                if (window.requestAnimationFrame) {
+                    animationId = requestAnimationFrame(scrollAnimation);
+                } else {
+                    animationId = setTimeout(scrollAnimation, 16); // 约60fps
+                }
+            }
+            
+            // 开始滚动
+            scrollAnimation();
+            // 鼠标事件处理 - IE兼容
+            function addEvent(element, event, handler) {
+                if (element.addEventListener) {
+                    element.addEventListener(event, handler, false);
+                } else if (element.attachEvent) {
+                    element.attachEvent('on' + event, handler);
+                }
+            }
+            
+            // 鼠标悬停暂停滚动
+            addEvent(scrollContainer, 'mouseenter', function() {
+                isScrolling = false;
+            });
+            
+            // 鼠标离开继续滚动
+            addEvent(scrollContainer, 'mouseleave', function() {
+                isScrolling = true;
+            });
+        }
+        // 页面加载完成后初始化滚动 - IE兼容
+        initHorizontalScroll()
+    </script>
+</body>
+
+</html>

@@ -20,11 +20,11 @@ description: 小谷求职的自然语言总入口，尤其适用于第一次使�
 
    `context-json` 只描述当前会话或工作区里确实已有的材料。没有材料时传 `{}`；不能因为用户说了“这份 JD”或“我的经历”就当作正文已经存在。
 
-3. 根据 `pipeline` 连续执行。不要让用户再次选择 Skill，也不要要求用户把同一份材料重复粘贴。
+3. 根据 `pipeline` 连续执行。`live_sources` 非空时，在岗位理解步骤内按 `xiaogu-career-suite/references/external-research.md` 补充从业者说法；失败或跳过不阻塞，也不向用户报“缺少技能”。不要让用户再次选择 Skill，也不要要求用户把同一份材料重复粘贴。
 4. 如果所需 Skill 没有安装，准确说明缺哪个 Skill；可以完成的前置步骤继续完成。
 5. 各 Skill 的结果先整理成 [references/output-contract.md](references/output-contract.md) 的结构，保存 `response.json`，运行 `python3 scripts/render_response.py response.json` 校验并渲染。最终回答必须逐字复制该命令的标准输出；不得二次润色、删除标签、增加开场或改动分段。渲染失败时修正结构后再输出。
 
-详细路由和小白交互规则见 [references/harness-contract.md](references/harness-contract.md)。
+详细路由和小白交互规则见 [references/harness-contract.md](references/harness-contract.md)；写进结论、依据、仍需确认、下一步的具体措辞见 [references/phrasing.md](references/phrasing.md)。
 
 ## 一次完整流程
 

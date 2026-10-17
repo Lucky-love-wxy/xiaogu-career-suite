@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>河北省国资委</title>
+    <!-- <script src="./common/js/index.js"></script> -->
+    <link rel="icon" href="http://hbsa.hebei.gov.cn:80/common/img/favicon.ico">
+    <link rel="stylesheet" href="http://hbsa.hebei.gov.cn:80/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="http://hbsa.hebei.gov.cn:80/common/css/index.css">
+    <link rel="stylesheet" href="http://hbsa.hebei.gov.cn:80/common/css/theme.min.css">
+    <link rel="stylesheet" href="http://hbsa.hebei.gov.cn:80/common/font/iconfont.css">
+    <link rel="stylesheet" href="http://hbsa.hebei.gov.cn:80/home/css/index.css">
+</head>
+<script src="http://hbsa.hebei.gov.cn:80/dayjs.min.js"></script>
+    <script src="http://hbsa.hebei.gov.cn:80/common/js/index.js"></script>
+<style>
+    .pageHome {
+        position: relative;
+    }
+
+    #fixBottom {
+        width: 180px;
+        height: 180px;
+        background-image: url('http://www.hebei.gov.cn/hebei/resource/cms/2023/08/img_pc_site/2023081709425154063.jpg');
+        background-size: 100% 100%;
+        position: absolute;
+        left: 10px;
+        top: calc(100vh - 190px);
+    }
+
+    #fixBottom .close {
+        float: right;
+        background-color: #fff;
+    }
+</style>
+<body>
+<div class="pageHome">
+<a id="fixBottom-pz" style="position: absolute;width: 180px;height: 180px;background-image: url('http://hbsa.hebei.gov.cn/home/img/ffdjffjr20260623.png');background-size: 100% 100%;left: 10px;top: calc(100vh - 380px);cursor: pointer;" href="http://hbsa.hebei.gov.cn//TZGG197/1782178229138.html"></a>
+
+<div id="fixBottom">
+          <div class="close" id="closePic">X</div>
+</div>
+<div id="title">
+    <div class="common-title">
+        <div id="title_date" class="title-date">
+            2020年xx月xx日
+        </div>
+        <div class="title-control">
+            <a href="javascript:;" onclick="AddFavorite(window.location,document.title)"
+               class="theme-color link">加入收藏</a>
+            <a href="javascript:;" onclick="SetHome(this,window.location)" class="theme-color link">设为首页</a>
+        </div>
+        <div class="title-search">
+            <div class="layui-input-block search-group">
+                <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入搜索内容"
+                       class="layui-input">
+                <button id="search" type="button" class="layui-btn layui-btn-primary theme-bg-color">
+                    <i class="layui-icon">&#xe615;</i>
+                </button>
+            </div>
+        </div>
+        <div class="title-content theme-color">
+            <div>
+                <img src="http://hbsa.hebei.gov.cn:80/common/img/logo.png" alt="" width="75" style="margin-top: 10px;">
+            </div>
+            <div style="margin-left: 20px;">
+                <h1>河北省人民政府国有资产监督管理委员会</h1>
+                <h6>STATE-OWNED ASSETS SUPERVISION & ADMINISTRATION COMMISSION OF THE PEOPLE’S GOVERNMENT OF HEBEI
+                    PROVINCE</h6>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="navbar">
+    <div class="navbar theme-bg-color">
+        <div class="navbar-content">
+            <ul class="layui-nav theme-bg-color" lay-filter="">
+                <div class="navbar theme-bg-color">
+                    <div class="navbar-content">
+                        <ul class="layui-nav theme-bg-color" lay-filter="">
+                            <li class="layui-nav-item layui-this"><a href="http://hbsa.hebei.gov.cn:80/">首页</a></li>
+                                <li class="layui-nav-item ">
+                                    <a href="http://hbsa.hebei.gov.cn/GZDT347/art_page1.html">国资动态</a>
+                                </li>
+                                <li class="layui-nav-item ">
+                                    <a href="http://hbsa.hebei.gov.cn//GZJG419/art_page1.html">国资监管</a>
+                                </li>
+                                <li class="layui-nav-item ">
+                                    <a href="http://hbsa.hebei.gov.cn//GQGG418/art_page1.html">国企改革</a>
+                                </li>
+                                <li class="layui-nav-item ">
+                                    <a href="http://hbsa.hebei.gov.cn//GZYY380/art_page1.html">国资运营</a>
+                                </li>
+                                <li class="layui-nav-item ">
+                                    <a href="http://hbsa.hebei.gov.cn:80//GQDJ123/art_page1.html">国企党建</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="body-content">
+
+    <!-- block区域0 -->
+    <div>
+        <div class="container">
+            <iframe src="./carousel.html" class="frame" style="height: 360px;border-width:0px;overflow: hidden;"></iframe>
+            <iframe src="./ywyw.html" class="frame" style="height: 360px;border-width:0px;overflow: hidden;"></iframe>
+            <div class="frame" style=" width:208px;padding-right: 0;">
+                <div class="block theme-border-top">
+                    <div class="email-login">
+                        <div class="email-logo theme-bg-color">
+                            <a href="http://218.11.12.130:8080/hbsaoa" style="color: #fff"><h2><i class="layui-icon layui-icon-app"></i> 委办公系统</h2></a>
+                        </div>
+                        <div class="email-title">
+                            <h5><i class="layui-icon layui-icon-email"></i> 邮件系统</h5>
+                        </div>
+                        <div>
+                            <form class="layui-form" action="" lay-filter="lijidenglu">
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">用户名</label>
+                                    <div class="layui-input-block">
+                                        <input id="yonghuming" type="text" name="account" lay-verify="required"
+                                               lay-reqtext="请输入用户名" placeholder="请输入用户名"
+                                               autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">密码</label>
+                                    <div class="layui-input-block">
+                                        <input id="mima" type="password" name="password" lay-verify="required"
+                                               lay-reqtext="请输入密码"
+                                               placeholder="请输入密码" autocomplete="off" class="layui-input">
+                                    </div>
+                                    <!-- <div class="layui-form-mid layui-word-aux">辅助文字</div> -->
+                                </div>
+                                <div class="layui-form-item">
+                                    <div class="layui-input-block">
+                                        <button type="button" id="lijitijiao" class="layui-btn theme-bg-color"
+                                                lay-submit=""
+                                                lay-filter="demo1">登录
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+
+                                <a href="https://tousu.www.gov.cn/dc/index.htm">
+                                    <img src="http://hbsa.hebei.gov.cn:8083/sasac/202511/1993614751676030977.jpg" alt="链接错误" width="190" height="80">
+                                </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+
+                    <a href="http://hbsa.hebei.gov.cn/ZGTSJZDT596/art_page1.html">
+                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202307/1684497894559768577.png" alt="链接错误" width="1200" height="62">
+                    </a>
+    </div>
+
+    <div>
+        <div class="container">
+            <iframe src="./dtjg.html" class="frame" style="height: 258px;border-width:0px;overflow: hidden;"></iframe>
+            <iframe src="./qygzdw.html" class="frame" style="height: 258px;border-width:0px;overflow: hidden;"></iframe>
+            <div class="frame" style=" width:208px;padding-right: 0;">
+                <div class="block ">
+                    <div style="height: 66px;margin: 15px 0 15px 0;">
+                        <button type="button" class="layui-btn button-bar-big gzyw"
+                                onclick="window.location.href = 'http://www.gov.cn/pushinfo/v150203/index.htm'">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <div class="container">
+            <iframe src="./yygg.html" class="frame" style="height: 258px;border-width:0px;overflow: hidden;"></iframe>
+            <iframe src="./scgzgz.html" class="frame" style="height: 258px;border-width:0px;overflow: hidden;"></iframe>
+            <div class="frame" style=" width:208px;padding-right: 0;">
+                <div class="block">
+                    <div class="link-list theme-color">
+                        <div class="link-list-title">
+                            <a href="javascript:void(0);"><img class="" src="http://hbsa.hebei.gov.cn:80/home/img/fuwuzhongxin.png"
+                                             alt="icon"><span>便民服务</span></a>
+                        </div>
+                        <div class="link-list-content theme-border-top">
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont icontianqi"></i>天气查询</a> -->
+                                <a href="http://www.cma.gov.cn/"><img src="http://hbsa.hebei.gov.cn:80/home/img/tianqi.png" alt=""
+                                                                      width="16" height="16">天气查询</a>
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconhuochezhan"></i>火车时刻</a> -->
+                                <a href="https://www.12306.cn/index/"><img src="http://hbsa.hebei.gov.cn:80/home/img/huochezhan.png"
+                                                                           alt="" width="16" height="16">火车时刻</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconfeiji800"></i>飞机航班</a> -->
+                                <a href="http://www.airchina.com.cn/"><img src="http://hbsa.hebei.gov.cn:80/home/img/feiji.png" alt=""
+                                                                           width="16" height="16">飞机航班</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconbaidu"></i>百度搜索</a> -->
+                                <a href="https://www.baidu.com/"><img src="http://hbsa.hebei.gov.cn:80/home/img/baidu.png" alt=""
+                                                                      width="16" height="16">百度搜索</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconxinwenzixun"></i>新闻浏览</a> -->
+                                <a href="http://www.scio.gov.cn/index.htm"><img src="http://hbsa.hebei.gov.cn:80/home/img/zixun.png"
+                                                                                alt="" width="16" height="16">新闻浏览</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconyingyu-tianchong"></i>英语词典</a> -->
+                                <a href="http://www.iciba.com/"><img src="http://hbsa.hebei.gov.cn:80/home/img/en.png" alt="" width="16"
+                                                                     height="16">英语词典</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont icontianqi"></i>数字链接</a> -->
+                                <a href="http://shxxsh.com/scode_jump/index.jsp?scode=03112383"><img
+                                            src="http://hbsa.hebei.gov.cn:80/home/img/s.png" alt="" width="16" height="16">数字链接</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconzhongguoyidong"></i>中国移动</a> -->
+                                <a href="http://www.10086.cn/index/js/index_250_515.html"><img
+                                            src="http://hbsa.hebei.gov.cn:80/home/img/yidong.png" alt="" width="16" height="16">中国移动</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconchangyonglogo39"></i>中国联通</a> -->
+                                <a href="http://www.chinaunicom.com.cn/"><img src="http://hbsa.hebei.gov.cn:80/home/img/liantong.png"
+                                                                              alt="" width="16" height="16">中国联通</a>
+
+                            </div>
+                            <div class="link-list-item">
+                                <!-- <a href=""><i class="icon iconfont iconchangyonglogo38"></i>中国电信</a> -->
+                                <a href="http://www.189.cn/"><img src="http://hbsa.hebei.gov.cn:80/home/img/dianxin.png" alt="" width="16"
+                                                                  height="16">中国电信</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box-wrapper">
+        <div class="box">
+            <div class="con1">
+
+                                        <a href="http://www.hbisco.com/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202401/1749357242741747713.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.kailuan.com.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn/olddata/Admin/departmentImgs/130414392735261250526.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.jznyjt.com/">
+                                        <img src="http://hbsa.hebei.gov.cn/olddata/Admin/departmentImgs/130414393283698750369.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.porthebei.com/">
+                                        <img src="http://hbsa.hebei.gov.cn/olddata/Admin/departmentImgs/130451368426963265696.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hecic.com.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn/olddata/Admin/departmentImgs/130414396866823750682.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="https://www.hbgs.com.cn/hbgs/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202311/1726435513296035841.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hebeiairport.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202511/1993590302901854210.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="https://www.hebtig.com/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202311/1726436264068063234.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hebgk.cn">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202310/1710913860537442306.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hblvt.com/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202311/1726434296872378370.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hbjgjt.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn/olddata/Admin/departmentImgs/130414393726980000698.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hbsfjt.cn">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202509/1971479992636350465.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.sanyou-group.com.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn/olddata/Admin/departmentImgs/130414391569792500979.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hebwl.cn">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202605/2057342609434710017.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hblsjt.com/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202311/1726432622938234882.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="http://www.hbzbjt.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202607/2072884013900599297.jpg" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="https://www.hebdxjt.com/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202311/1726438381713432577.png" alt="test" width="150" height="60">
+                                        </a>
+                                        <a href="https://www.hbdkjt.cn/">
+                                        <img src="http://hbsa.hebei.gov.cn:8083/sasac/202311/1726437630324842497.png" alt="test" width="150" height="60">
+                                        </a>
+
+            </div>
+            <div class="con2">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container h-280">
+            <div class="frame">
+                <div class="block theme-border-top shadow">
+                    <div class="layui-tab block-tab" lay-filter="tab7">
+                        <ul class="layui-tab-title theme-color">
+                            <li class="layui-this" lay-id="1" lay-name="tab7"><a
+                                        href="http://hbsa.hebei.gov.cn:80/xxgk/">政府信息公开</a></li>
+                        </ul>
+                        <div class="layui-tab-content">
+                            <div class="layui-tab-item layui-show">
+                                <div>
+                                    <div class="float-left width-50 p-x-20 p-y-10">
+                                        <a href="http://hbsa.hebei.gov.cn:80/xxgk/gkzn/" type="button"
+                                           class="layui-btn theme-button button-bar-normal ">政府信息公开指南</a>
+                                    </div>
+                                    <div class="float-left width-50 p-x-20 p-y-10">
+                                        <a href="http://hbsa.hebei.gov.cn:80/xxgk/gkzd"
+                                           type="button" class="layui-btn theme-button button-bar-normal ">政府信息公开制度</a>
+                                    </div>
+                                    <div class="float-left width-50 p-x-20 p-y-10">
+                                        <a href="http://hbsa.hebei.gov.cn:80/xxgk/gknr"
+                                           type="button" class="layui-btn theme-button button-bar-normal ">法定主动公开内容</a>
+                                    </div>
+                                    <div class="float-left width-50 p-x-20 p-y-10">
+                                        <a href="http://hbsa.hebei.gov.cn:80/xxgk/gknb"
+                                           type="button" class="layui-btn theme-button button-bar-normal ">政府信息公开年报</a>
+                                    </div>
+                                    <div class="float-left width-50 p-x-20 p-y-10 text-center">
+                                        <button type="button" class="layui-btn button-bar-big zxtx"  style="height: 40px;width: 155px;"
+                                                onclick="window.location.href = 'https://www.hebei.gov.cn/columns/da32bd93-8a37-4258-b8d4-0d91283f0f94/index.html'">
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe src="./gg.html" class="frame" style="height: 256px !important;border-width:0px;overflow: hidden;"></iframe>
+            <div class="frame" style=" width:208px;">
+                <div class="block theme-border-top shadow">
+                    <div class="layui-tab block-tab" lay-filter="tab8">
+                        <ul class="layui-tab-title theme-color">
+                            <li class="layui-this" lay-id="1" lay-name="tab8"><a href="javascript:void(0);">应用系统</a></li>
+                        </ul>
+                        <div class="layui-tab-content">
+                            <div class="layui-tab-item layui-show">
+                                <div class="">
+                                    <div class="p-10">
+                                        <a href="http://36.144.10.18:10038/" type="button"
+                                           class="layui-btn theme-button button-bar-normal "
+			style="white-space: normal;height: auto;padding: 0 8px;margin-left: 0;">监管企业已办产权登记企业白名单</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="frame" style="width:992px;">
+                <div class="block theme-border-top shadow">
+                    <div class="layui-tab block-tab" lay-filter="tab9">
+                        <ul class="layui-tab-title theme-color">
+                            <li class="layui-this" lay-id="1" lay-name="tab9"><a href="javascript:void(0);">监管企业</a></li>
+                            <li lay-id="2" lay-name="tab9"><a href="javascript:void(0);">委内机构</a></li>
+                            <li lay-id="3" lay-name="tab9"><a href="javascript:void(0);">部分事业单位</a></li>
+                        </ul>
+                        <div class="layui-tab-content">
+
+
+
+
+                            <div class="layui-tab-item layui-show">
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hbisco.com/">
+                                        <img src="./home/img/links/hg.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河钢集团</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.kailuan.com.cn/">
+                                        <img src="./home/img/links/kljt.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>开滦集团</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.jznyjt.com/">
+                                        <img src="./home/img/links/jzny.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>冀中能源</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://porthebei.com/index.php?lang=zh-cn">
+                                        <img src="./home/img/links/hbgk.gif" alt="" style="width: 18px;height: 18px">
+                                        <span>河北港口</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hecic.com.cn/">
+                                        <img src="./home/img/links/hbjt.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北建投</span>
+                                    </a>
+                                </div>
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hbgs.com.cn/">
+                                        <img src="./home/img/links/hbgs.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北高速</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.hebeiairport.cn/">
+                                        <img src="./home/img/links/hbjc.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>河北机场</span>
+                                    </a>
+                                </div>
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hebtig.com/">
+                                        <img src="./home/img/links/hbjiaotou.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北交投</span>
+                                    </a>
+                                </div>
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.hebgk.cn/index">
+                                        <img src="./home/img/links/hbgk.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>河北国控</span>
+                                    </a>
+                                </div>
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.hblvt.com/">
+                                        <img src="./home/img/links/hblt.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北旅投</span>
+                                    </a>
+                                </div>
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.hbjgjt.cn/">
+                                        <img src="./home/img/links/hbjg.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>河北建工</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="javascript:void(0);">
+                                     	<span style="display: inline-block;width: 18px;"></span>
+                                        <span>河北水发</span>
+                                    </a>
+                                </div>
+								
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.sanyou-group.com.cn/jtwebx/index.htm">
+                                        <img src="./home/img/links/syjt.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>三友集团</span>
+                                    </a>
+                                </div>
+
+						 <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.hebwl.cn">
+                                        <img src="./home/img/links/hbwl_logo.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北物流</span>
+                                    </a>
+                                </div>
+                                
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="http://www.hblsjt.com/">
+                                        <img src="./home/img/links/jljt.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>冀粮集团</span>
+                                    </a>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="javascript:void(0);">
+                                        <img src="./home/img/links/hbrt.jpg" alt="" style="width: 18px;height: 18px">
+                                        <span>河北融投</span>
+                                    </a>
+                                </div>
+                                
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hbzbjt.cn/">
+                                        <span style="display: inline-block;width: 18px;"></span>
+                                        <span>交易集团</span>
+                                    </a>
+                                </div>
+								
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hebdxjt.com/">
+                                        <img src="./home/img/links/hbdx.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北地信</span>
+                                    </a>
+                                </div>
+								<div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <a href="https://www.hbdkjt.cn/">
+                                        <img src="./home/img/links/hbdk.png" alt="" style="width: 18px;height: 18px">
+                                        <span>河北地矿</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="layui-tab-item">
+
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <span>办公室</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <span>人事处</span>
+                                </div>
+                                
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <span>法规处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <span>规划处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                    <span>改革处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>金融处</span>
+                                </div>
+                                
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>产权处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>财务监督处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>考核处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>科技创新处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>综合监督处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>监督稽查处</span>
+                                </div>
+
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>企干处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>党建处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>宣传工作处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>社会责任处</span>
+                                </div>
+
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>群工处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>巡察办</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>机关党委</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>央企对接服务处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>离退休办</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>桥西老干部处</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>驻委纪检组</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>信息中心</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12">
+                                        <span>党建研究中心</span>
+                                </div>
+                            </div>
+
+                            <div class="layui-tab-item">
+                                <div class="p-10 float-left width-16 theme-color font-size-12"
+                                    style="text-align: center">
+                                            <span>石家庄工程技术学校</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12"
+                                    style="text-align: center">
+                                            <span>经济管理学校</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12"
+                                    style="text-align: center">
+                                            <span>开滦技工学校</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12"
+                                    style="text-align: center">
+                                            <span>张家口煤机制造学校</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12"
+                                    style="text-align: center">
+                                            <span>邯郸工程高级技校</span>
+                                </div>
+                                <div class="p-10 float-left width-16 theme-color font-size-12"
+                                    style="text-align: center">
+                                            <span>省国资委培训中心</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame" style=" width:208px;padding-right: 0;">
+                <div class="block">
+                    <div class="link-list theme-color">
+                        <div class="link-list-title">
+                            <a href="javascript:void(0);"><img class="" src="http://hbsa.hebei.gov.cn:80/home/img/fuwuzhongxin.png"
+                                            alt="icon"><span>友情链接</span></a>
+                        </div>
+                        <div class="link-list-content theme-border-top">
+                            <div class="p-10">
+                                <select name="city" lay-verify="" class="theme-select width-100 select-normal"
+                                        id="friendLink01">
+                                    <option value="" disabled selected style='display:none;'>中央部门链接</option>
+                                            <option value="http://www.sasac.gov.cn/">国务院国资委</option>
+                                </select>
+                            </div>
+                            <div class="p-10">
+                                <select name="city" lay-verify="" class="theme-select width-100 select-normal"
+                                        id="friendLink02">
+                                    <option value="" disabled selected style='display:none;'>各市国资委链接</option>
+                                            <option value="http://gzw.sjzgz.gov.cn/">石家庄市国资委</option>
+                                            <option value="http://gzw.baoding.gov.cn/">保定市国资委</option>
+                                            <option value="http://gzw.xingtai.gov.cn/">邢台市国资委</option>
+                                            <option value="https://gzw.lf.gov.cn/">廊坊市国资委</option>
+                                </select>
+                            </div>
+                            <div class="p-10">
+                                <select name="city" lay-verify="" class="theme-select width-100 select-normal"
+                                        id="friendLink03">
+                                    <option value="" disabled selected style='display:none;'>行业网站</option>
+                                            <option value="http://www.cneo.com.cn/">企业观察网</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="foot">
+    <div class="common-foot theme-bg-color">
+        <div class="foot-content">
+            <p>主办单位：河北省人民政府国有资产监督管理委员会 版权所有 (c) 2013河北国资</p>
+            <p>河北省国资委电话：0311-87902432 传真：87902676 地址：河北省石家庄市裕华东路45号 邮编：050019</p>
+            <p>管理维护：河北省政府国资委信息中心 网站维护电话：87900357/87903670</p>
+            <p>
+                <a href="https://beian.miit.gov.cn/#/Integrated/index" style="color:#fff">
+                    冀ICP备06006528号  网站标识码：1300000037  冀公网安备13010802000605号</a>
+            </p>
+            <p>您是第 8859509 访问者</p>
+            <div class="text-center p-y-10" style="margin-left: -55px;">
+                <a target='_blank' href="https://bszs.conac.cn/sitename?method=show&id=0C1EDA07E9613206E053022819AC3C9D"><img src="http://hbsa.hebei.gov.cn/common/img/dzjg.png" alt="" width="72" height="88"></a>
+                <a target='_blank' href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=1300000037&url=http%3A%2F%2Fhbsa.hebei.gov.cn%2F"><img src="http://hbsa.hebei.gov.cn/common/img/jiucuo.png" alt="" width="100"></a>
+                <span class="map"  style="margin-left: 5px !important"><a href="http://hbsa.hebei.gov.cn/web_map.html">网站地图</a></span>
+            </div>
+        </div>
+        <div class="Homepage" style="position:fixed;right:1px; top:80%;z-index:999;right: 50px; width: 26px; height: 90px;">
+            <a href="#" style="left: 1081.5px; top: 887px; display: inline;">
+                <img src="http://hbsa.hebei.gov.cn/common/img/back.jpeg" width="24" height="87">
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+<script src="http://hbsa.hebei.gov.cn:80/layui/layui.all.js"></script>
+<script src="http://hbsa.hebei.gov.cn:80/common/js/index.js"></script>
+<script src="http://hbsa.hebei.gov.cn:80/home/js/index.js"></script>
+<script>
+    var select01 = document.getElementById('friendLink01')
+
+    function goToLink01(event) {
+        var index01 = select01.selectedIndex
+        var value01 = select01.options[index01].value
+        window.open(value01)
+    }
+
+    select01.onchange = goToLink01
+
+    var select02 = document.getElementById('friendLink02')
+
+    function goToLink02(event) {
+        var index02 = select02.selectedIndex
+        var value02 = select02.options[index02].value
+        window.open(value02)
+    }
+
+    select02.onchange = goToLink02
+
+    var select03 = document.getElementById('friendLink03')
+
+    function goToLink03(event) {
+        var index03 = select03.selectedIndex
+        var value03 = select03.options[index03].value
+        window.open(value03)
+    }
+
+    select03.onchange = goToLink03
+</script>
+<script language="JavaScript" src="http://hbsa.hebei.gov.cn:80/lib/crypto-js/crypto-js.js"></script>
+
+<script>
+    // 加密
+    function encrypt(word, keyStr) {
+        keyStr = keyStr || 'heurd.com.unicom'
+        var key = CryptoJS.enc.Utf8.parse(keyStr)
+        var srcs = CryptoJS.enc.Utf8.parse(word)
+        var encrypted = CryptoJS.AES.encrypt(srcs, key, {mode: CryptoJS.mode.ECB, padding: CryptoJS.pad.Pkcs7})
+        return encrypted.toString()
+    }
+
+    // 解密
+    function decrypt(word, keyStr) {
+        keyStr = keyStr || 'heurd.com.unicom'
+        var key = CryptoJS.enc.Utf8.parse(keyStr)// Latin1 w8m31+Yy/Nw6thPsMpO5fg==
+        var decrypt = CryptoJS.AES.decrypt(word, key, {mode: CryptoJS.mode.ECB, padding: CryptoJS.pad.Pkcs7})
+        return CryptoJS.enc.Utf8.stringify(decrypt).toString()
+    }
+</script>
+
+
+</html>

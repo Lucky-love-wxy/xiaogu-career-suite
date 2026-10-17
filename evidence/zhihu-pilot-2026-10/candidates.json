@@ -1,0 +1,83 @@
+{
+  "sources": [
+    {
+      "id": "zhihu-cra-30801381533-20261011",
+      "role": "临床监查员",
+      "source_file": "answer-03.json",
+      "platform": "zhihu",
+      "qualifies": true,
+      "full_scope": true,
+      "promotional_motive": false,
+      "dimensions": [
+        "日常工作及时间分配",
+        "强度与作息",
+        "硬门槛",
+        "前3年发展"
+      ],
+      "scope": "2025-03-07最后编辑的CRA个人多年经历，身份未认证；不能代表全行业薪资工时，不采对具体人员机构的未核实指控",
+      "claims": [
+        {
+          "field": "daily_work",
+          "text": "该作者自述CRA工作包含会议、沟通、协调和现场监查。",
+          "quotes": [
+            "大量的会议，沟通，协调，现场监查"
+          ]
+        },
+        {
+          "field": "work_setting",
+          "text": "该作者自述工作来临时需随时处理，正常上下班时间不固定；只代表本人经历。",
+          "quotes": [
+            "没个正常上下班时间，来活了你就得去干"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zhihu-medrep-49436158271-20261011",
+      "role": "医药代表",
+      "source_file": "answer-04.json",
+      "platform": "zhihu",
+      "qualifies": false,
+      "full_scope": false,
+      "promotional_motive": false,
+      "dimensions": [
+        "日常工作及时间分配",
+        "强度与作息",
+        "前3年发展"
+      ],
+      "scope": "第一人称标题与第二人称泛化叙事混用，经验归属未确认，仅半合格待核，不进入岗位卡",
+      "claims": []
+    },
+    {
+      "id": "zhihu-device-ra-1967587276629452557-20261011",
+      "role": "医疗器械注册",
+      "source_file": "answer-14.json",
+      "platform": "zhihu",
+      "qualifies": true,
+      "full_scope": true,
+      "promotional_motive": true,
+      "dimensions": [
+        "日常工作及时间分配"
+      ],
+      "scope": "2025-10-31作者自述8年注册与体系混合岗位；只提炼注册段本人叙事场景，场景有戏剧化表达，身份及事件未独立认证；不采用6个月为法规周期，不把体系任务当注册专岗职责",
+      "claims": [
+        {
+          "field": "daily_work",
+          "text": "该作者自述在研发提出增加功能时，需要解释预期用途变更对注册安排的影响；仅为其个人场景，不能作为法规判断。",
+          "quotes": [
+            "这已经涉及了预期用途的变更"
+          ]
+        },
+        {
+          "field": "collaborators",
+          "text": "该作者自述注册工作要协调研发想法、老板预期与监管要求。",
+          "quotes": [
+            "在研发的天马行空、老板的宏大战略目标与监管的条条框框之间"
+          ]
+        }
+      ],
+      "promotion_kind": "个人内容角落推广，无加微信、课程或收费内推",
+      "promotion_admission_reason": "brief允许正文为本人经历的作者自带专栏推广，保留并标注动机；仅离线候选，不认定商业导流"
+    }
+  ]
+}

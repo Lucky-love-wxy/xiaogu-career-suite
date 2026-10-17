@@ -1,0 +1,313 @@
+{
+  "name": [
+    {
+      "text": "医疗机构运营管理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医疗机构运营管理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 5,
+  "excluded": [
+    {
+      "id": "manual-role_postings_2026-10-05_claude-17",
+      "url": "https://campus.niuqizp.com/job-vs85tCCzN.html",
+      "role": "运营管理岗",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-18",
+      "url": "https://campus.niuqizp.com/job-vms5N5znM.html",
+      "role": "运营管理管培生",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助开展下属医院运营分析，制定相关运营管理制度",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85tCCzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85tCCzN",
+          "text": "协助开展下属医院运营分析，制定相关运营管理制度"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助开展专项运营管理工作，包括针对重大问题开展运营专项调研工作、提出优化运营管理方案等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85tCCzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85tCCzN",
+          "text": "协助开展专项运营管理工作，包括针对重大问题开展运营专项调研工作、提出优化运营管理方案等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助指导医院开展预算编报、重点专科发展规划、年度计划目标，并跟踪计划达成情况，指导落实并督查、考核",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85tCCzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85tCCzN",
+          "text": "协助指导医院开展预算编报、重点专科发展规划、年度计划目标，并跟踪计划达成情况，指导落实并督查、考核"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助集团本部及下属医院开展科研创新工作，制定科研创新制度及绩效奖励方案，指导科研项目的立项、实施、验收等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85tCCzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85tCCzN",
+          "text": "协助集团本部及下属医院开展科研创新工作，制定科研创新制度及绩效奖励方案，指导科研项目的立项、实施、验收等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "5份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vkU5Zaz5t",
+          "vmr5tCtZt"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vk85nnazN"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，2份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vlr5nMzZz",
+          "vs85tCCzN"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vmr5tCtZt"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，2份专业类字段为“管理科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "管理科学与工程类",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vk85nnazN",
+          "vlr5nMzZz"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vs85tCCzN"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vk85nnazN"
+        ]
+      }
+    },
+    {
+      "text": "5份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85nnazN",
+        "vkU5Zaz5t",
+        "vlr5nMzZz",
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vlr5nMzZz",
+          "vmr5tCtZt"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "运营管理岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmr5tCtZt",
+        "vs85tCCzN"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "信息系统与运营管理助理研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkU5Zaz5t"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "物流运营管理岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlr5nMzZz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "运营管理管培生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk85nnazN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+<meta name="SiteName" content="新疆维吾尔自治区卫生健康委员会"/>
+<meta name="SiteDomain" content=""/>
+<meta name="SiteIDCode" content="6500000088"/>
+
+<meta name="others" content="ttmp:1791691425999" />
+<title>新疆维吾尔自治区卫生健康委员会</title>
+<meta name="website" websiteId="c153ba5352104166a1a87ddb61366ee4" websiteCode="hfpc" websiteName="新疆维吾尔自治区卫生健康委员会">
+<script id="headjs" src="/hfpc/xhtml/js/head.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="/hfpc/xhtml/./css/index.css">
+</head>
+
+<body>
+    
+<!--共同页眉--start-->
+<div class="header">
+    <div class="topbar">
+        <div class="container">
+            <div class="weather clearfix">
+                <p id="riqi"></p>
+                
+            </div>
+            <div class="swsy">
+              <span><a id="toolbarSwitch" href="javascript:void(0);"><img src="/hfpc/xhtml/images/wza.png" />无障碍</a></span>
+              
+                <span><a href="javascript:void(0);" onclick="SetHome(this,window.location)">设为首页</a></span>
+                |
+                <span><a href="javascript:void(0);" onclick="AddFavorite(window.location,document.title)">加入收藏</a></span>
+            </div>
+          <div class="h_login" style="color:#fff">
+        <a href="javascript:;" class="h_dl" rel="noopener noreferrer">登录</a>
+            <a href="//zwfw.xinjiang.gov.cn/xjwwrz/pages/login/personalRegister?client_id=19da9225-355c-4d49-a218-2e50d4b321b7&redirect_uri=http://www.xinjiang.gov.cn/usercenter/home" target="_blank" class="h_zc" rel="noopener noreferrer">注册</a>
+        </div>
+          <script type="text/javascript" src="/hfpc/xhtml/js/yhzx.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <div class="logobox container clearfix">
+        <div class="logo">
+            <a href="javascript:;"><img src="/hfpc/xhtml/./images/index/logo_new.png" alt="" style="
+    width: 590px;
+"></a>
+        </div>
+        <div class="header_seek">
+            <div class="seek_main clearfix">
+                <form class="search-box" name="form1" target="_blank" id="form1">
+                    <input class="user-input" name="searchWord" type="text" id="searchWord" size="50"placeholder="请输入关键字 或 登记编号查询" />
+                    <input name="uc" type="hidden" id="uc" value="1" />
+                    <input name="siteCode" type="hidden" id="siteCode" size="50" value="6500000088" />
+                    <input name="column" type="hidden" id="siteCode" size="50" value="全部" />
+                    <button class="search-btn"><img src="/hfpc/xhtml/images/index/search.png" alt="search">搜索</button>
+                </form>
+            </div>
+            <div class="seek_list">
+                <p>热搜词：</p>
+                  <a href="/guestweb5/html/searchResult.html?column=%25E5%2585%25A8%25E9%2583%25A8&uc=1&searchWord=%25E9%2598%25B2%25E7%2596%25AB%25E5%25B7%25A5%25E4%25BD%259C&siteCode=6500000088" target="_blank">防疫工作</a>
+                <a href="/guestweb5/html/searchResult.html?column=%25E5%2585%25A8%25E9%2583%25A8&uc=1&searchWord=%25E7%2596%258F%25E8%25A7%25A3%25E6%2595%25B4%25E6%25B2%25BB&siteCode=6500000088" target="_blank">疏解整治</a>
+                <a href="/guestweb5/html/searchResult.html?column=%25E5%2585%25A8%25E9%2583%25A8&uc=1&searchWord=%25E7%258E%25AF%25E4%25BF%259D%25E7%259D%25A3%25E5%25AF%259F&siteCode=6500000088" target="_blank">环保督察</a>
+                <a href="/guestweb5/html/searchResult.html?column=%25E5%2585%25A8%25E9%2583%25A8&uc=1&searchWord=%25E6%2589%2593%25E5%2593%258D%25E8%2593%259D%25E5%25A4%25A9%25E4%25BF%259D%25E5%258D%25AB%25E6%2588%2598&siteCode=6500000088" target="_blank">打响蓝天保卫战</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="main-nav container">
+        <ul class="clearfix">
+            <li class="active"><a href="/hfpc/index.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/sy.png" alt="">首页</a></li>
+            <li><a href="/hfpc/jggk/jump.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/jggk.png" alt="">机构概况</a></li>
+            <li><a href="/hfpc/xwzx/xwzx.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/xwzx.png" alt="">新闻中心</a></li>
+            <li><a href="/hfpc/zwgk/zwgk.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/zwgk.png" alt="">政务公开</a></li>
+            <li><a href="https://zwfw.xinjiang.gov.cn/xjzwfw2021/departmentnew.html?orgcode=11650000MB1647041C&orgname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A&orgshortname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A" target="_blank"><img src="/hfpc/xhtml/./images/index/fw.png" alt="">政务服务</a></li>
+            <li><a href="/hfpc/hdjl/zmhd.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/hdjl.png" alt="">互动交流</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+  $('button.search-btn').click(function(){
+  		var searchWord = $('input[name="searchWord"]')[0].value;
+    searchWord = searchWord.trim();
+    if(searchWord == ''){
+      	$('#form1').attr('onsubmit','return false;');
+    	alert("请输入搜索内容！")
+    }else{
+    		$('#form1').attr('onsubmit','return false;');
+      	 var url="/guestweb5/html/searchResult.html?column="+encodeURIComponent(encodeURIComponent("全部"))+"&uc=1&searchWord="+encodeURIComponent(encodeURIComponent(searchWord))+"&siteCode=6500000088";
+		window.open(url);
+    }
+  })
+</script>
+<!--共同页眉--end-->
+  <div class="esd-lb">
+	<div class="esd-container">
+		<ul>
+           
+
+		</ul>
+	</div>
+</div>
+
+<div class="container main">
+  <div class="topnews am-text-center"> 
+     
+
+      <h1><a href="https://www.news.cn/politics/leaders/20260930/ec72199373a4403c914db52deeb0f4d8/c.html" target="_blank" title='庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话'  >庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话</a></h1>
+
+    <!--ul class="am-list-inline am-hide-sm "> 
+      <li class="xgwj12" style=""><a href="https://www.xjkz.gov.cn/xjkz/c101644/202504/b62e6bab1f8d49809b952cdd90bf7706.shtml" target="_blank" style="max-width: 50%;">习近平：巩固发展坚如磐石的军政军民团结 共同续写爱我人民爱我军的时代新篇</a></li>
+    </ul-->
+  </div>
+  <!-- 中央要闻 -->
+  <div class="xw_focusBox">
+    <div class="focusBox focusBox1">
+      <ul class="pic">
+         
+          <li>
+            <a href="https://www.news.cn/politics/leaders/20260930/ec72199373a4403c914db52deeb0f4d8/c.html" target="_blank"
+               title='庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话'>
+<img src='/hfpc/c115694/202609/434f723977db4a3a86053127b5995b19/images/67a7df4d60864fa9b9d7b4eb44720272.jpg' />
+            </a>
+            <p class="pic_title">
+              <a href="https://www.news.cn/politics/leaders/20260930/ec72199373a4403c914db52deeb0f4d8/c.html" target="_blank"  >庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话</a>
+            </p>
+          </li>
+          <li>
+            <a href="https://www.news.cn/politics/leaders/20260924/ac8d5ae9674b406abc946d13c7d3204d/c.html" target="_blank"
+               title='习近平抵达华盛顿对美国进行国事访问'>
+<img src='/hfpc/c115694/202609/5c71c182168143a88ffa3a3d3bf2cac7/images/8561dc76067e45dca90bff6adbc6d88b.jpg' />
+            </a>
+            <p class="pic_title">
+              <a href="https://www.news.cn/politics/leaders/20260924/ac8d5ae9674b406abc946d13c7d3204d/c.html" target="_blank"  >习近平抵达华盛顿对美国进行国事访问</a>
+            </p>
+          </li>
+          <li>
+            <a href="https://www.news.cn/politics/leaders/20260901/f68ac1bf9b0044028c2b0509454f1eef/c.html" target="_blank"
+               title='习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话'>
+<img src='/hfpc/c115694/202609/f50037a6be1c4f5bb986b04b9871e094/images/776d3c36c1004aa092ddcc60bf11d052.jpg' />
+            </a>
+            <p class="pic_title">
+              <a href="https://www.news.cn/politics/leaders/20260901/f68ac1bf9b0044028c2b0509454f1eef/c.html" target="_blank"  >习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话</a>
+            </p>
+          </li>
+          <li>
+            <a href="https://www.news.cn/politics/leaders/20260817/c09eaee334464122a24e6a6b67e756a3/c.html" target="_blank"
+               title='纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话'>
+<img src='/hfpc/c115694/202608/ab3313b2c0dc4b7c8e52c3ec13218a46/images/a96ba497ea7a4b7295cdf67d4a7e898e.jpg' />
+            </a>
+            <p class="pic_title">
+              <a href="https://www.news.cn/politics/leaders/20260817/c09eaee334464122a24e6a6b67e756a3/c.html" target="_blank"  >纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话</a>
+            </p>
+          </li>
+          <li>
+            <a href="https://www.news.cn/politics/leaders/20260731/6070d584f3fd4b9daf7befd55c127926/c.html" target="_blank"
+               title='习近平：加快建设健康中国'>
+<img src='/hfpc/c115694/202608/5328a5650bbd4ecd8ad7f9df41eeb5c9/images/54f32b4a8e8646a4bed8798922b7174f.jpeg' />
+            </a>
+            <p class="pic_title">
+              <a href="https://www.news.cn/politics/leaders/20260731/6070d584f3fd4b9daf7befd55c127926/c.html" target="_blank"  >习近平：加快建设健康中国</a>
+            </p>
+          </li>
+
+      </ul>
+      <!-- <div class="txt-bg"></div> -->
+      <ul class="num">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <a class="prev" href="javascript:void(0)" title='prev'></a>
+      <a class="next" href="javascript:void(0)" title='next'></a>
+    </div>
+    <div class="zyyw_box">
+      <div class="title">
+        <span class="active">中央要闻</span>
+      </div>
+      <div class="more">
+        <a href="/hfpc/c115694/common_list.shtml" target="_blank" class="active">更多+</a>
+      </div>
+      <div class="content">
+          <ul class="active">
+             
+
+              <li><span>2026-09-30</span><a href="https://www.news.cn/politics/leaders/20260930/ec72199373a4403c914db52deeb0f4d8/c.html" target="_blank" title='庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话'  >庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话</a></li>
+
+              <li><span>2026-09-30</span><a href="https://www.news.cn/politics/leaders/20260930/b5c59131743340cfac4894d9029a68d0/c.html" target="_blank" title='烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席'  >烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席</a></li>
+
+              <li><span>2026-09-24</span><a href="https://www.news.cn/politics/leaders/20260924/ac8d5ae9674b406abc946d13c7d3204d/c.html" target="_blank" title='习近平抵达华盛顿对美国进行国事访问'  >习近平抵达华盛顿对美国进行国事访问</a></li>
+
+              <li><span>2026-09-22</span><a href="https://www.news.cn/politics/leaders/20260921/6d2f7db5a4c1477bb588a75e1ad87a4b/c.html" target="_blank" title='中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议'  >中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议</a></li>
+
+              <li><span>2026-09-16</span><a href="https://www.news.cn/politics/leaders/20260915/a3f56d969013456db5c5af90f4bc3d23/c.html" target="_blank" title='《求是》杂志发表习近平总书记重要文章《在加强基础研究座谈会上的讲话》'  >《求是》杂志发表习近平总书记重要文章《在加强基础研究座谈会上的讲话》</a></li>
+
+              <li><span>2026-09-02</span><a href="https://www.news.cn/politics/leaders/20260901/f68ac1bf9b0044028c2b0509454f1eef/c.html" target="_blank" title='习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话'  >习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话</a></li>
+
+              <li><span>2026-09-01</span><a href="https://www.news.cn/politics/leaders/20260831/c7cae665c1954f5ea9ec9f2053767b8c/c.html" target="_blank" title='《求是》杂志发表习近平总书记重要文章《坚持落实管党治党政治责任》'  >《求是》杂志发表习近平总书记重要文章《坚持落实管党治党政治责任》</a></li>
+
+              <li><span>2026-08-24</span><a href="https://www.news.cn/politics/leaders/20260824/7e69ae5235fb48b49b3e04e8d8e94bbf/c.html" target="_blank" title='习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩'  >习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 70周年庆祝-->
+   <div style="margin-bottom:20px;" class="clearfix">
+     <script src="//www.xinjiang.gov.cn/xinjiang/cslm/c115927/70znq.js"></script>
+  </div>
+  
+  <div class="afk container" >
+    <a><img   src="/hfpc/xhtml/./images/index/yjcwzd.png" alt=""></a> 
+    <!--<a  href="/hfpc/jkfpzl/jkfp.shtml"><img   src="/hfpc/xhtml/./images/index/lbn2.jpg" alt=""></a> -->
+  </div>
+
+    <div class="hotnews">
+      <div class="titlebanner">
+            <div>
+               
+
+                <h1><a href="https://www.ts.cn/xwzx/szxw/202610/t20261010_36726007.shtml" target="_blank" title='第八次全国科技援疆工作会议召开'  >第八次全国科技援疆工作会议召开</a></h1>
+
+                <h1><a href="https://www.ts.cn/xwzx/szxw/202610/t20261010_36726181.shtml" target="_blank" title='第三次新疆综合科学考察成果在乌鲁木齐发布'  >第三次新疆综合科学考察成果在乌鲁木齐发布</a></h1>
+
+                <h1><a href="https://www.ts.cn/xwzx/szxw/202610/t20261009_36711555.shtml" target="_blank" title='自治区党委常委会召开会议'  >自治区党委常委会召开会议</a></h1>
+
+            </div>
+        </div>
+      <div class="conbanner">
+            <div>
+               
+
+                <p></p>
+
+                <p></p>
+
+                <p></p>
+
+            </div>
+        </div>
+        <a href="/hfpc/c115695/common_list.shtml" target="_blank"></a>
+       <!--  
+ -->
+    </div>
+    <div class="bannerbox clearfix">
+        <div class="banner">
+            <ul class="clearfix">
+                 
+                    <li>
+                        <a href="https://www.ts.cn/xwzx/szxw/202610/t20261010_36726181.shtml" title="第三次新疆综合科学考察成果在乌鲁木齐发布" target="_blank"><img src ="/hfpc/c115695/202610/3e102ccb86d9493bbb7b7417037813b3/images/da29a14739a64dbcac1f63d1ce72652d.jpeg
+"/></a>
+                        <p>第三次新疆综合科学考察成果在乌鲁木齐发布</p>
+                    </li>
+                    <li>
+                        <a href="https://www.ts.cn/xwzx/szxw/202610/t20261005_36666455.shtml" title="陈小江艾尔肯·吐尼亚孜深入库车市慰问调研" target="_blank"><img src ="/hfpc/c115695/202610/1d0c194c39a54e0fbb6d9bc4b8c0cae2/images/7d439f4429294366bb7bd27a0c2143d7.jpeg
+"/></a>
+                        <p>陈小江艾尔肯·吐尼亚孜深入库车市慰问调研</p>
+                    </li>
+                    <li>
+                        <a href="https://www.ts.cn/xwzx/szxw/202610/t20261001_36638082.shtml" title="庆祝中华人民共和国成立77周年 自治区隆重举行升国旗仪式" target="_blank"><img src ="/hfpc/c115695/202610/dea985f20e3e463a85970fd1caf80a8f/images/54bb55ec75b6448e89fbc60c3e4cbc11.jpeg
+"/></a>
+                        <p>庆祝中华人民共和国成立77周年 自治区隆重举行升国旗仪式</p>
+                    </li>
+                    <li>
+                        <a href="https://www.ts.cn/xwzx/szxw/202609/t20260930_36626017.shtml" title="新疆各族各界向人民英雄敬献花篮" target="_blank"><img src ="/hfpc/c115695/202609/d043a4665685418cbfd7b40a90a74f6f/images/10bfa73d207e47cf91c0c0696e840e2b.jpeg
+"/></a>
+                        <p>新疆各族各界向人民英雄敬献花篮</p>
+                    </li>
+                    <li>
+                        <a href="https://www.ts.cn/xwzx/szxw/202609/t20260930_36626674.shtml" title="陈小江艾尔肯·吐尼亚孜会见武汉大学党委书记朱孔军校长张平文" target="_blank"><img src ="/hfpc/c115695/202609/bf5073577a23441da4388bf56b42b1bf/images/0ddf5aecd8764709b9f1bae5b1bde5a0.jpeg
+"/></a>
+                        <p>陈小江艾尔肯·吐尼亚孜会见武汉大学党委书记朱孔军校长张平文</p>
+                    </li>
+
+            </ul>
+            <div class="prev btn">&lt;</div>
+            <div class="next btn">&gt;</div>
+            <div class="dot">
+                <ul class="clearfix">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hydt">
+            <div class="title">
+                <span class="active">行业动态</span>
+                <span>媒体报道</span>
+                <span>健康服务</span>
+            </div>
+            <div class="more">
+                <a href="/hfpc/hydt/common_list.shtml" target="_blank" class="active">更多+</a>
+                <a href="/hfpc/mtbd/common_list.shtml" target="_blank">更多+</a>
+                <a href="/hfpc/jkfw/jump.shtml" target="_blank">更多+</a>
+            </div>
+            <div class="content">
+                <ul class="active">
+					
+ <li><span>2026-10-08</span><a href="/hfpc/xwxc1/202610/5cf4b47e945e4a6aa35669fbf89c8cb4.shtml" target="_blank" title='走进健康新时代①一切为了人民健康'  >走进健康新时代①一切为了人民健康</a></li>
+
+ <li><span>2026-09-30</span><a href="/hfpc/xwxc1/202609/14a197921b474d9ab5bb618bf1085258.shtml" target="_blank" title='新疆疾控发布假期健康提示：预防呼吸道、肠道、蚊媒传染病'  >新疆疾控发布假期健康提示：预防呼吸道、肠道、蚊媒传染病</a></li>
+
+ <li><span>2026-09-29</span><a href="/hfpc/xwxc1/202609/2c8951d346d54aeaa0bd20728e2c156a.shtml" target="_blank" title='新疆首届防艾短视频创意大赛收官'  >新疆首届防艾短视频创意大赛收官</a></li>
+
+ <li><span>2026-09-29</span><a href="/hfpc/xwxc1/202609/9c38c48afd9c4914807e895da2593d90.shtml" target="_blank" title='新疆新闻联播 情满天山 援疆印记丨福建援疆提升县域医疗能力'  >新疆新闻联播 情满天山 援疆印记丨福建援疆提升县域医疗能力</a></li>
+
+ <li><span>2026-09-28</span><a href="/hfpc/xwxc1/202609/28ebd7ccef434b45a4270589c3e561b4.shtml" target="_blank" title='新疆新闻联播 情满天山 援疆印记丨黑龙江援疆眼科专家义诊进基层'  >新疆新闻联播 情满天山 援疆印记丨黑龙江援疆眼科专家义诊进基层</a></li>
+
+ <li><span>2026-09-28</span><a href="/hfpc/xwxc1/202609/d4a40e169d214b08b7363a6d997e9677.shtml" target="_blank" title='新疆新闻联播 | 兵地同心打通民生堵点'  >新疆新闻联播 | 兵地同心打通民生堵点</a></li>
+
+ <li><span>2026-09-25</span><a href="/hfpc/xwxc1/202609/a7cf3aaf61ee4d9591335850cc962936.shtml" target="_blank" title='看动漫还能看医生 自治区卫生健康委把义诊展台搬进新疆动漫节'  >看动漫还能看医生 自治区卫生健康委把义诊展台搬进新疆动漫节</a></li>
+
+                </ul>
+                <ul>
+                     
+
+                        <li><span>2026-10-08</span><a href="/hfpc/xwxc1/202610/5cf4b47e945e4a6aa35669fbf89c8cb4.shtml" target="_blank" title='走进健康新时代①一切为了人民健康'  >走进健康新时代①一切为了人民健康</a></li>
+
+                        <li><span>2026-09-30</span><a href="/hfpc/xwxc1/202609/14a197921b474d9ab5bb618bf1085258.shtml" target="_blank" title='新疆疾控发布假期健康提示：预防呼吸道、肠道、蚊媒传染病'  >新疆疾控发布假期健康提示：预防呼吸道、肠道、蚊媒传染病</a></li>
+
+                        <li><span>2026-09-29</span><a href="/hfpc/xwxc1/202609/2c8951d346d54aeaa0bd20728e2c156a.shtml" target="_blank" title='新疆首届防艾短视频创意大赛收官'  >新疆首届防艾短视频创意大赛收官</a></li>
+
+                        <li><span>2026-09-29</span><a href="/hfpc/xwxc1/202609/9c38c48afd9c4914807e895da2593d90.shtml" target="_blank" title='新疆新闻联播 情满天山 援疆印记丨福建援疆提升县域医疗能力'  >新疆新闻联播 情满天山 援疆印记丨福建援疆提升县域医疗能力</a></li>
+
+                        <li><span>2026-09-28</span><a href="/hfpc/xwxc1/202609/28ebd7ccef434b45a4270589c3e561b4.shtml" target="_blank" title='新疆新闻联播 情满天山 援疆印记丨黑龙江援疆眼科专家义诊进基层'  >新疆新闻联播 情满天山 援疆印记丨黑龙江援疆眼科专家义诊进基层</a></li>
+
+                        <li><span>2026-09-28</span><a href="/hfpc/xwxc1/202609/d4a40e169d214b08b7363a6d997e9677.shtml" target="_blank" title='新疆新闻联播 | 兵地同心打通民生堵点'  >新疆新闻联播 | 兵地同心打通民生堵点</a></li>
+
+                        <li><span>2026-09-25</span><a href="/hfpc/xwxc1/202609/a7cf3aaf61ee4d9591335850cc962936.shtml" target="_blank" title='看动漫还能看医生 自治区卫生健康委把义诊展台搬进新疆动漫节'  >看动漫还能看医生 自治区卫生健康委把义诊展台搬进新疆动漫节</a></li>
+
+                </ul>
+                <ul>
+                     
+
+                        <li><span>2026-10-11</span><a href="/hfpc/jkcj/202610/679f90801cda42d280c6469b863df829.shtml" target="_blank" title='早！健康来了丨生熟砧板要分开，细菌不串门'  >早！健康来了丨生熟砧板要分开，细菌不串门</a></li>
+
+                        <li><span>2026-10-10</span><a href="/hfpc/jkcj/202610/ed64efabab854368972d98fc26469016.shtml" target="_blank" title='早！健康来了丨职场压力大，学会“暂停五分钟”'  >早！健康来了丨职场压力大，学会“暂停五分钟”</a></li>
+
+                        <li><span>2026-10-09</span><a href="/hfpc/jkcj/202610/730f0e9adac64c51ab15e35127e7a50a.shtml" target="_blank" title='早！健康来了丨慢阻肺早筛：40岁后每年做肺功能检查'  >早！健康来了丨慢阻肺早筛：40岁后每年做肺功能检查</a></li>
+
+                        <li><span>2026-10-08</span><a href="/hfpc/jkcj/202610/b51983932d534222b67718134f970dad.shtml" target="_blank" title='节气微运动·寒露丨寒露搓鼻翼'  >节气微运动·寒露丨寒露搓鼻翼</a></li>
+
+                        <li><span>2026-10-08</span><a href="/hfpc/jkcj/202610/2a503228608a4597b4e3d478a967b109.shtml" target="_blank" title='手绘海报丨寒露'  >手绘海报丨寒露</a></li>
+
+                        <li><span>2026-10-08</span><a href="/hfpc/jkcj/202610/2ac464f7e2174db69066e1af121085d8.shtml" target="_blank" title='早！健康来了丨喝酒没有安全量，一滴也伤肝'  >早！健康来了丨喝酒没有安全量，一滴也伤肝</a></li>
+
+                        <li><span>2026-10-07</span><a href="/hfpc/jkcj/202610/fdba85024ba44146a3a5935a959bf4ef.shtml" target="_blank" title='早！健康来了丨吸烟伤肺更伤心，戒了就是赚了'  >早！健康来了丨吸烟伤肺更伤心，戒了就是赚了</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="xxgk">
+        <ul class="clearfix">
+            <li><a href="/hfpc/zfxxgk/jump.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/xxgk.png" alt="">信息公开</a></li>
+            <li><a href="https://zwfw.xinjiang.gov.cn/xjzwfw2021/departmentnew.html?orgcode=11650000MB1647041C&orgname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A&orgshortname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E5%A7%94%E5%91%98%E4%BC%9A" target="_blank"><img src="/hfpc/xhtml/./images/index/zwfw.png" alt="">政务服务</a></li>
+            <li><a href="/hfpc/fwpj/fwpj.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/fwpj.png" alt="">服务评价</a></li>
+  <li><a href="/hfpc/fgfzl/nav_list.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/ztzl.png" alt="">专题专栏</a></li>
+        </ul>
+    </div>
+    <div class="tzggbox clearfix">
+        <div class="tzgg">
+            <div class="title"><span class="active">通知通告</span></div>
+            <div class="more"><a href="/hfpc/tzgg/zfxxgk_gknrz.shtml" target="_blank" class="active">更多+</a></div>
+            <div class="content">
+                <ul class="active">
+                     
+
+                        <li><a href="/hfpc/tzgg/202605/6a114f0488a34c0e85a395452f391c89.shtml" target="_blank" title='严 正 声 明'  >严 正 声 明</a></li>
+
+                        <li><a href="/hfpc/jkcj/202609/344050a9e2664d2b8d170474c5e292fe.shtml" target="_blank" title='关于公布“健康知识普及行动——2026年新时代健康科普作品征集活动”（新疆片区）优秀及入围作品名单的通知'  >关于公布“健康知识普及行动——2026年新时代健康科普作品征集活动”（新疆片区）优秀及入围作品名单的通知</a></li>
+
+                        <li><a href="/hfpc/zhgl8/202609/74a8988a427c40c582022423a5a15eed.shtml" target="_blank" title='关于公布第二届新疆维吾尔自治区中药药膳大赛获奖名单的通知'  >关于公布第二届新疆维吾尔自治区中药药膳大赛获奖名单的通知</a></li>
+
+                        <li><a href="/hfpc/ylzl/202609/f161703aa01342689df197e0316ea7f4.shtml" target="_blank" title='关于公开征求《新疆维吾尔自治区关于规范医疗机构临床高通量测序实验室和相关医疗器械产品管理的通知（征求意见稿）》意见建议的通告'  >关于公开征求《新疆维吾尔自治区关于规范医疗机构临床高通量测序实验室和相关医疗器械产品管理的通知（征求意见稿）》意见建议的通告</a></li>
+
+                        <li><a href="/hfpc/zhgl4/202609/76204a9f3ffa45a4a99819d6bfbb0856.shtml" target="_blank" title='关于公开征求《新疆维吾尔自治区健全社会心理服务体系和危机干预机制实施方案（征求意见稿）》意见建议的通告'  >关于公开征求《新疆维吾尔自治区健全社会心理服务体系和危机干预机制实施方案（征求意见稿）》意见建议的通告</a></li>
+
+                        <li><a href="/hfpc/shyg/202609/5b5dedc3018a4247b848d972fa3626a7.shtml" target="_blank" title='自治区召开公立医院改革与高质量发展示范和提升项目工作推进会'  >自治区召开公立医院改革与高质量发展示范和提升项目工作推进会</a></li>
+
+                        <li><a href="/hfpc/zhgl9/202609/1c15b5c9d4c04a31a3999e7d45866c76.shtml" target="_blank" title='新疆维吾尔自治区妇幼保健院2026年上半年面向社会高层次人才引进拟聘用人员公示'  >新疆维吾尔自治区妇幼保健院2026年上半年面向社会高层次人才引进拟聘用人员公示</a></li>
+
+                        <li><a href="/hfpc/spaq/202608/435029fb6ac94303966b48fed27e655e.shtml" target="_blank" title='关于《新疆维吾尔自治区食品安全地方标准管理办法（征求意见稿）》征求意见建议的通告'  >关于《新疆维吾尔自治区食品安全地方标准管理办法（征求意见稿）》征求意见建议的通告</a></li>
+
+                        <li><a href="/hfpc/zhgl9/202608/5c0d6035fe8449b3870452e99d3d5ce7.shtml" target="_blank" title='关于申报跨区域协同的新疆心脑血管代谢慢病数智防控体系建设项目——第五批新疆重大需求人才支持计划的通告'  >关于申报跨区域协同的新疆心脑血管代谢慢病数智防控体系建设项目——第五批新疆重大需求人才支持计划的通告</a></li>
+
+                        <li><a href="/hfpc/zhgl7/202608/a0748397ad704742832ee8510f6c4f62.shtml" target="_blank" title='关于公布新疆维吾尔自治区放射卫生技术服务机构信息的通告'  >关于公布新疆维吾尔自治区放射卫生技术服务机构信息的通告</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="zcwj">
+            <div class="title">
+                <span class="active">政策文件</span>
+                <span>政策解读</span>
+            </div>
+            <div class="more">
+                <a href="/hfpc/zcwj4/zfxxgk_gknrz.shtml" target="_blank" class="active">更多+</a>
+                <a href="/hfpc/zcjd/zfxxgk_gknrz.shtml" target="_blank">更多+</a>
+            </div>
+            <div class="content">
+                <ul class="active">
+                  
+    <li><a href="/hfpc/zcwj4/202610/e1bc5dd1094f4f5093757fc1ee0d23c2.shtml" target="_blank" title='关于印发医疗康复护理扩容提升工程实施方案的通知'  >关于印发医疗康复护理扩容提升工程实施方案的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202609/76ad98501fd04bd19620bf6a7f4f0e07.shtml" target="_blank" title='关于进一步加强罕见病防治工作的通知'  >关于进一步加强罕见病防治工作的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202609/a4e9fca4e5564afd99ed54904d37f761.shtml" target="_blank" title='关于印发医疗机构麻醉药品和精神药品管理规定的通知'  >关于印发医疗机构麻醉药品和精神药品管理规定的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202609/0faa67352e8e40e1bfc8d0d9d924e0e1.shtml" target="_blank" title='国家卫生健康委办公厅关于加强托育综合服务中心有关工作的通知'  >国家卫生健康委办公厅关于加强托育综合服务中心有关工作的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202609/0a5d5cd8f5f14dc8aee1606f96e930b3.shtml" target="_blank" title='关于印发加快提供优质高效眼健康服务工作方案（2026—2030年）的通知'  >关于印发加快提供优质高效眼健康服务工作方案（2026—2030年）的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202609/fea30a3c9e5b44b78d56a2647805855f.shtml" target="_blank" title='关于做好2026年基本公共卫生服务工作的通知'  >关于做好2026年基本公共卫生服务工作的通知</a></li>
+
+    <li><a href="/hfpc/jcylws/202609/509e4fec894c483a91a7b517c146a6e0.shtml" target="_blank" title='关于印发新疆维吾尔自治区村卫生室建设指导意见的通知'  >关于印发新疆维吾尔自治区村卫生室建设指导意见的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202608/822374ba4e68488db6ff7052a272b5b5.shtml" target="_blank" title='关于规范医疗机构特殊医学用途配方食品使用的指导意见'  >关于规范医疗机构特殊医学用途配方食品使用的指导意见</a></li>
+
+    <li><a href="/hfpc/zcwj4/202608/a83d22ac57fc4fc1b01208d65b7c791f.shtml" target="_blank" title='关于印发进一步深化“六个拓展” 做实家庭医生签约服务若干措施的通知'  >关于印发进一步深化“六个拓展” 做实家庭医生签约服务若干措施的通知</a></li>
+
+    <li><a href="/hfpc/zcwj4/202608/1d8f39ca7c5448ebb8ea0e62aef7daf2.shtml" target="_blank" title='关于做好基本药物优先配备使用工作的通知'  >关于做好基本药物优先配备使用工作的通知</a></li>
+
+                </ul>
+                <ul>
+                     
+
+                        <li><a href="/hfpc/zcjd/202610/51a2895554284a6093de768fa00730f5.shtml" target="_blank" title='《医疗康复护理扩容提升工程实施方案》政策解读'  >《医疗康复护理扩容提升工程实施方案》政策解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202609/b73f847bf13f4e0ba244446a435e68b9.shtml" target="_blank" title='《关于进一步加强罕见病防治工作的通知》政策解读'  >《关于进一步加强罕见病防治工作的通知》政策解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202609/50eae19249f14b7390cbc5d3a4312c48.shtml" target="_blank" title='医疗机构麻醉药品和精神药品管理规定解读'  >医疗机构麻醉药品和精神药品管理规定解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202609/e4c5ff3c4d644b1a8e0455ced7f4a517.shtml" target="_blank" title='《关于加强托育综合服务中心有关工作的通知》解读'  >《关于加强托育综合服务中心有关工作的通知》解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202609/f808e6d3d21e470bbf03d4c302c83ae0.shtml" target="_blank" title='《加快提供优质高效眼健康服务工作方案（2026-2030年）》政策解读'  >《加快提供优质高效眼健康服务工作方案（2026-2030年）》政策解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202609/0bea639297134853908105c25b4194b5.shtml" target="_blank" title='《关于做好2026年基本公共卫生服务工作的通知》解读'  >《关于做好2026年基本公共卫生服务工作的通知》解读</a></li>
+
+                        <li><a href="/hfpc/jcylws/202609/e26ea48ff00d44ae93a5ddcba5c42947.shtml" target="_blank" title='《关于印发新疆维吾尔自治区村卫生室建设指导意见的通知》政策解读'  >《关于印发新疆维吾尔自治区村卫生室建设指导意见的通知》政策解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202608/39ef7eaac88044aeb1c771a5f96189e3.shtml" target="_blank" title='《关于规范医疗机构特殊医学用途配方食品使用的指导意见》解读'  >《关于规范医疗机构特殊医学用途配方食品使用的指导意见》解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202608/2dc4b1c827c24fdb96d433feeb1212c0.shtml" target="_blank" title='《关于印发进一步深化“六个拓展” 做实家庭医生签约服务若干措施的通知》政策解读'  >《关于印发进一步深化“六个拓展” 做实家庭医生签约服务若干措施的通知》政策解读</a></li>
+
+                        <li><a href="/hfpc/zcjd/202608/f51eedc36aa44330a1792e55b57da12f.shtml" target="_blank" title='一图读懂《关于做好基本药物优先配备使用工作的通知》'  >一图读懂《关于做好基本药物优先配备使用工作的通知》</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="wshd">
+            <ul>
+              <li><a href="/hfpc/ldxx1/hd_mailbox.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/ldxx.png" alt="">领导信箱</a></li>
+              <li><a href="javascript:void(0);"  id="Writeletters"><img src="/hfpc/xhtml/./images/index/zxzx.png" alt="">在线咨询</a></li>
+              <li><a href="https://xinjiang.12388.gov.cn/pzjg/wsjkwyh/" target="_blank"><img src="/hfpc/xhtml/./images/index/12388jubao001.jpg" class="tsjb"></a></li>
+              <!--<li><a href="/hfpc/ldxx1/hd_mailbox.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/jbcx.png" alt="">举报查询</a></li>-->
+              <li><a href="/hfpc/ylyshscx/nav_list.shtml" target="_blank"><img src="/hfpc/xhtml/./images/index/ylxxcx.jpg" alt=""  class="tsjb"></a></li>
+              <li><a href="/hfpc/c113668/common_list.shtml" target="_blank"><img src="/hfpc/xhtml/images/index/zfwzgzndbg.jpg" alt="" /></a></li>
+              <li><a href="/hfpc/c113685/xinjiang_medical_exam.shtml" target="_blank"><img src="/hfpc/xhtml/images/index/xjwwrzzqzybmxt.png" alt="" /></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--共同页脚--start-->
+<div class="fixed">
+    <ul>
+      <li>
+            <a href="/hfpc/zhgl1/202005/365a7e760bdb4e048bf7c7d5b060593b.shtml" target="_blank">
+                <p>政务大厅办事指&nbsp;&nbsp;南</p>
+            </a>
+        </li>
+      <li>
+            <a href="https://tousu.www.gov.cn/dc/index.htm" target="_blank">
+                <p>国务院“互联网+督查”</p>
+            </a>
+        </li>
+            <li>
+            <a href="http://www.xinjiang.gov.cn/xinjiang/hlwdc/hlwdc.shtml" target="_blank">
+                <p>自治区互联网+督查</p>
+            </a>
+        </li>
+            <li>
+            <a href="/hfpc/djwlfz/common_list.shtml" target="_blank">
+                <p>防范电信网络诈骗</p>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0);" id="xxrk">
+                <img src="/hfpc/xhtml/images/public/xx.png" />
+                <p>写信<br/>入口</p>
+            </a>
+        </li>
+    </ul>
+
+    	
+    	
+  
+    <div title="返回顶部">
+        <img src="/hfpc/xhtml/images/public/top.png"/>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_top">
+        <div class="f_t">
+             <div class="f_t_top">
+                <img src="/hfpc/xhtml/images/index/yqlj_sj.png" />
+            </div> 
+            <div class="f_t_bottom">
+                <ul>
+                    <li class="act">
+                      <span> 国家卫生健康委</span>
+                         <!--<div>
+                            
+                            <!-- 
+
+                                <a href="http://xjdrc.xinjiang.gov.cn" target="_blank">自治区发展和改革委员会</a>
+<a href="http://www.xjedu.gov.cn/" target="_blank">自治区教育厅</a>
+<a href="http://www.xjkjt.gov.cn/" target="_blank">自治区科技厅</a>
+<a href="http://www.xjeic.gov.cn/" target="_blank">自治区工业和信息化厅</a>
+<a href="http://mwzjswj.xinjiang.gov.cn/" target="_blank">自治区民族事务委员会</a>
+<a href="http://www.xjgat.gov.cn/" target="_blank">自治区公安厅</a>
+<a href="http://www.xjmca.gov.cn/" target="_blank">自治区民政厅</a>
+<a href="http://sft.xinjiang.gov.cn/" target="_blank">自治区司法厅</a>
+<a href="http://www.xjcz.gov.cn/" target="_blank">自治区财政厅</a>
+<a href="http://www.xjrs.gov.cn/" target="_blank">自治区人力资源和社会保障厅</a>
+<a href="http://www.xjgtzy.gov.cn/" target="_blank">自治区自然资源厅</a>
+<a href="http://sthjt.xinjiang.gov.cn/" target="_blank">自治区生态环境厅</a>
+<a href="http://www.xjjs.gov.cn/html/index.html" target="_blank">自治区住房和城乡建设厅</a>
+<a href="http://www.xjjt.gov.cn/" target="_blank">自治区交通厅</a>
+<a href="http://www.xjslt.gov.cn/" target="_blank">自治区水利厅</a>
+<a href="http://www.xj-agri.gov.cn/" target="_blank">自治区农业农村厅</a>
+<a href="http://www.xjftec.gov.cn/index.html" target="_blank">自治区商务厅</a>
+<a href="http://zw.xinjiangtour.gov.cn/" target="_blank">自治区文化和旅游厅</a>
+<a href="http://www.xjhfpc.gov.cn/" target="_blank">自治区卫生健康委员会</a>
+<a target="_blank" href="http://scjgj.xinjiang.gov.cn/">市场监督管理局</a>
+<a target="_blank" href="http://gdj.xinjiang.gov.cn/">广播电视局</a>
+<a target="_blank" href="http://www.xjtj.gov.cn/">统计局</a>
+<a target="_blank" href="http://ylbzj.xinjiang.gov.cn">医疗保障局</a>
+<a target="_blank" href="http://www.xjsgj.gov.cn/" se_prerender_url="loading">机关事务管理局 </a>
+<a target="_blank" href="http://xfj.xinjiang.gov.cn/">信访局</a>
+<a target="_blank" href="http://www.xjlyt.gov.cn/">林业和草原局</a>
+<a target="_blank" href="http://fpb.xinjiang.gov.cn/">扶贫开发办公室</a>
+<a target="_blank" href="http://www.xjrmfkbgs.gov.cn">人民政府人民防空办公室 </a>
+<a target="_blank" href="http://jrb.xinjiang.gov.cn">地方金融监督管理局</a>
+<a target="_blank" href="http://www.xjgrain.gov.cn/">粮食和物资储备局</a>
+<a target="_blank" href="http://jdglj.xinjiang.gov.cn/">戒毒管理局</a>
+<a target="_blank" href="http://jyglj.xinjiang.gov.cn">监狱管理局</a>
+<a target="_blank" href="http://www.xjxmt.gov.cn/">畜牧兽医局</a>
+<a target="_blank" href="http://mpa.xinjiang.gov.cn">药品监督管理局</a>
+<a target="_blank" href="http://www.xjcms.chinasafety.gov.cn/">新疆煤炭工业管理局（煤矿安全监察局）</a>
+<a target="_blank" href="http://www.eq-xj.gov.cn" se_prerender_url="complete">新疆维吾尔自治区地震局</a>
+<a target="_blank" href="http://xj.spb.gov.cn/">新疆维吾尔自治区邮政局</a>
+<a target="_blank" href="http://urumqi.customs.gov.cn">乌鲁木齐海关</a>
+<a target="_blank" href="http://www.xj-n-tax.gov.cn/">新疆维吾尔自治区税务局</a>
+<a target="_blank" href="http://xj.caac.gov.cn/">民航新疆管理局</a>
+<a target="_blank" href="http://xjca.miit.gov.cn/">新疆维吾尔自治区通信管理局</a>
+<a target="_blank" href="http://www.csrc.gov.cn/pub/newsite/">中国证券监督管理委员会新疆监管局</a>
+<a target="_blank" href="http://wulumuqi.pbc.gov.cn/">中国人民银行乌鲁木齐中心支行</a>
+<a target="_blank" href="http://www.cbrc.gov.cn/index.html">中国银行业监督管理委员会新疆监管局</a>
+<a target="_blank" href="http://xj.mof.gov.cn">财政部驻新疆专员办</a>
+<a target="_blank" href="http://www.circ.gov.cn/web/site37/tab2144/">中国保险监督管理委员会新疆监管局</a>
+<a target="_blank" href="http://xj.cma.gov.cn/">新疆维吾尔自治区气象局</a>
+
+                        </div>
+						-->
+                    </li>
+                    <li>
+                        <span>新疆政府网</span>
+                        <!--<div>
+                            
+                            <!--
+
+                                <a target="_blank" href="http://www.urumqi.gov.cn">乌鲁木齐市</a>
+<a target="_blank" href="http://www.xjyl.gov.cn">伊犁哈萨克自治州</a>
+<a target="_blank" href="http://www.xjtc.gov.cn">塔城地区</a>
+<a target="_blank" href="http://www.xjalt.gov.cn">阿勒泰地区</a>
+<a target="_blank" href="http://www.xjboz.gov.cn">博尔塔拉蒙古自治州</a>
+<a target="_blank" href="http://www.cj.gov.cn">昌吉回族自治州</a>
+<a target="_blank" href="http://www.tlf.gov.cn">吐鲁番市</a>
+<a target="_blank" href="http://www.xjhm.gov.cn/">哈密市</a>
+<a target="_blank" href="http://www.xjbz.gov.cn">巴音郭楞蒙古自治州</a>
+<a target="_blank" href="http://www.aks.gov.cn">阿克苏地区</a>
+<a target="_blank" href="http://www.xjkz.gov.cn">克孜勒苏柯尔克孜自治州</a>
+<a target="_blank" href="http://www.kashi.gov.cn">喀什地区</a>
+<a target="_blank" href="http://www.xjht.gov.cn">和田地区</a>
+<a target="_blank" href="http://www.klmy.gov.cn">克拉玛依市</a>
+<a target="_blank" href="http://www.shz.gov.cn/"> 石河子市</a>
+<a target="_blank" href="http://www.ale.gov.cn">阿拉尔市</a>
+<a target="_blank" href="http://www.xjbtnss.gov.cn">图木舒克市</a>
+<a target="_blank" href="http://www.wjq.gov.cn">五家渠市</a>
+<a target="_blank" href="http://www.bts.gov.cn/">北屯市</a>
+<a href="http://www.tmg.gov.cn/" target="_blank">铁门关市</a>
+
+                        </div>-->
+                    </li>
+                    <li>
+                        <span>省区市卫生健康委</span>
+                    </li>
+                    <li>
+                        <span>自治区部门网站</span>
+                    </li>
+                    <li>
+                        <span>委机关</span>
+                    </li>
+                </ul>
+                <div class="list_common">
+                    <div class="list">
+                      <a href="http://www.nhc.gov.cn/" target="_blank">国家卫生健康委</a>
+                  	</div>
+                    <div class="list" style="display: none;">
+                      <a href="http://www.xinjiang.gov.cn/" target="_blank">新疆政府网</a>
+                  	</div>
+                    <div class="list" style="display: none;">
+
+                            <a href="http://wjw.beijing.gov.cn/" target="_blank">北京市卫生健康委员会</a>
+<a href="http://wsjk.tj.gov.cn/" target="_blank">天津市卫生健康委员会</a>
+<a href="http://wsjkw.hebei.gov.cn/" target="_blank">河北省卫生健康委员会</a>
+<a href="http://wjw.shanxi.gov.cn/" target="_blank">山西省卫生健康委员会</a>
+<a href="http://wjw.nmg.gov.cn/" target="_blank">内蒙古自治区卫生健康委员会</a>
+<a href="http://wsjk.ln.gov.cn/" target="_blank">辽宁省卫生健康委员会</a>
+<a href="http://wsjkw.jl.gov.cn/" target="_blank">吉林省卫生健康委员会</a>
+<a href="http://wsjkw.hlj.gov.cn/" target="_blank">黑龙江省卫生健康委员</a>
+<a href="http://wsjkw.sh.gov.cn/" target="_blank">上海市卫生健康委员会</a>
+<a href="http://wjw.jiangsu.gov.cn/" target="_blank">江苏省卫生健康委员会</a>
+<a href="http://www.zjwjw.gov.cn/" target="_blank">浙江省卫生健康委员会</a>
+<a href="http://wjw.ah.gov.cn/" target="_blank">安徽省卫生健康委员会</a>
+<a href="http://wjw.fujian.gov.cn/" target="_blank">福建省卫生健康委员会</a>
+<a href="http://hc.jiangxi.gov.cn/" target="_blank">江西省卫生健康委员会</a>
+<a href="http://wsjkw.shandong.gov.cn/" target="_blank">山东省卫生健康委员会</a>
+<a href="http://wsjkw.henan.gov.cn/" target="_blank">河南省卫生健康委员会</a>
+<a href="http://wjw.hubei.gov.cn/" target="_blank">湖北省卫生健康委员会</a>
+<a href="http://wjw.hunan.gov.cn/" target="_blank">湖南省卫生健康委员会</a>
+<a href="http://wsjkw.gd.gov.cn/" target="_blank">广东省卫生健康委员会</a>
+<a href="http://wsjkw.gxzf.gov.cn/" target="_blank">广西壮族自治区卫生健康委员会</a>
+<a href="http://wst.hainan.gov.cn/swjw/index.html" target="_blank">海南省卫生健康委员会</a>
+<a href="http://wsjkw.cq.gov.cn/" target="_blank">重庆市卫生健康委员会</a>
+<a href="http://wsjkw.sc.gov.cn/" target="_blank">四川省卫生健康委员会</a>
+<a href="http://www.gzhfpc.gov.cn/" target="_blank">贵州省卫生健康委员会</a>
+<a href="http://ynswsjkw.yn.gov.cn" target="_blank">云南省卫生健康委员会</a>
+<a href="http://sxwjw.shaanxi.gov.cn/" target="_blank">陕西省卫生健康委员会</a>
+<a href="http://wsjk.gansu.gov.cn" target="_blank">甘肃省卫生健康委员会</a>
+<a href="https://wsjkw.qinghai.gov.cn/" target="_blank">青海省卫生健康委员会</a>
+<a href="http://wsjkw.nx.gov.cn/" target="_blank">宁夏回族自治区卫生健康委员会</a>
+<a href="http://wsj.xjbt.gov.cn/" target="_blank">新疆生产建设兵团卫生健康委员会</a>
+
+                    </div>
+                    <div class="list" style="display: none;">
+                       
+
+                            <a href="http://xjdrc.xinjiang.gov.cn/" target="_blank">自治区发展和改革委员会</a>
+<a href="http://jyt.xinjiang.gov.cn/" target="_blank">自治区教育厅</a>
+<a href="http://kjt.xinjiang.gov.cn/" target="_blank">自治区科技厅</a>
+<a href="http://gxt.xinjiang.gov.cn/" target="_blank">自治区工业和信息化厅</a>
+<a href="http://mwzjswj.xinjiang.gov.cn/" target="_blank">自治区民族事务委员会</a>
+<a href="http://gat.xinjiang.gov.cn/" target="_blank">自治区公安厅</a>
+<a href="http://mzt.xinjiang.gov.cn/" target="_blank">自治区民政厅</a>
+<a href="http://sft.xinjiang.gov.cn/" target="_blank">自治区司法厅</a>
+<a href="http://czt.xinjiang.gov.cn/" target="_blank">自治区财政厅</a>
+<a href="http://rst.xinjiang.gov.cn/" target="_blank">自治区人力资源和社会保障厅</a>
+<a href="http://zrzyt.xinjiang.gov.cn/" target="_blank">自治区自然资源厅</a>
+<a href="http://sthjt.xinjiang.gov.cn/" target="_blank">自治区生态环境厅</a>
+<a href="http://zjt.xinjiang.gov.cn/" target="_blank">自治区住房和城乡建设厅</a>
+<a href="http://jtyst.xinjiang.gov.cn/" target="_blank">自治区交通厅</a>
+<a href="http://slt.xinjiang.gov.cn/" target="_blank">自治区水利厅</a>
+<a href="http://nynct.xinjiang.gov.cn/" target="_blank">自治区农业农村厅</a>
+<a href="http://swt.xinjiang.gov.cn/" target="_blank">自治区商务厅</a>
+<a href="http://wlt.xinjiang.gov.cn/" target="_blank">自治区文化和旅游厅</a>
+<a href="http://wjw.xinjiang.gov.cn/" target="_blank">自治区卫生健康委员会</a>
+<a target="_blank" href="http://scjgj.xinjiang.gov.cn/">自治区市场监督管理局</a>
+<a target="_blank" href="http://gdj.xinjiang.gov.cn/">自治区广播电视局</a>
+<a target="_blank" href="http://tjj.xinjiang.gov.cn/">自治区统计局</a>
+<a target="_blank" href="http://ylbzj.xinjiang.gov.cn">自治区医疗保障局</a>
+<a target="_blank" href="http://sgj.xinjiang.gov.cn/">自治区机关事务管理局 </a>
+<a target="_blank" href="http://xfj.xinjiang.gov.cn/">自治区信访局</a>
+<a target="_blank" href="http://lcj.xinjiang.gov.cn/">自治区林业和草原局</a>
+<a target="_blank" href="http://fpb.xinjiang.gov.cn/">自治区扶贫开发办公室</a>
+<a target="_blank" href="http://rfb.xinjiang.gov.cn/">自治区人民政府人民防空办公室 </a>
+<a target="_blank" href="http://jrjgj.xinjiang.gov.cn/">自治区地方金融监督管理局</a>
+
+                    </div>
+                    <div class="list" style="display: none;">
+
+                            <a href="/hfpc/cszn/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">综合管理</span></a><a href="/hfpc/cszn1/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">规划信息</span></a><a href="/hfpc/cszn2/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">财务管理</span></a><a href="/hfpc/cszn3/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">政法体改</span></a><a href="/hfpc/cszn4/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">人口家庭</span></a><a href="/hfpc/cszn7/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">医政医管</span></a><a href="/hfpc/cszn8/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">基层卫生</span></a><a href="/hfpc/cszn9/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">卫生应急</span></a><a href="/hfpc/cszn10/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">科技教育</span></a><a href="/hfpc/cszn101/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">监督食品</span></a><a href="/hfpc/cszn11/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">药政管理</span></a><a href="/hfpc/cszn12/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">老龄健康</span></a><a href="/hfpc/cszn13/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">妇幼健康</span></a><a href="/hfpc/cszn14/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">职业健康</span></a><a href="/hfpc/cszn15/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">新闻宣传</span></a><a href="/hfpc/cszn16/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">对外合作</span></a><a href="/hfpc/cszn17/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">中医药管理</span></a><a href="/hfpc/cszn18/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">人事管理</span></a><a href="/hfpc/cszn19/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">机关党委</span></a><a href="/hfpc/cszn20/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">离退管理</span></a><a href="/hfpc/cszn21/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">信息中心</span></a><a href="/hfpc/cszn23/nav_dp.shtml" target="_blank" style="font-family: 微软雅黑; font-size: 14pt;"><span style="font-size: 12pt;">乡村振兴</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="f_b">
+            <div class="f_b_left">
+                <p>主办：新疆维吾尔自治区卫生健康委员会办公室&nbsp;&nbsp;协办：新疆维吾尔自治区卫生健康委员会宣传处</p>
+                <p>地址：乌鲁木齐市龙泉街191号&nbsp;&nbsp;邮编：830001&nbsp;&nbsp; &nbsp;  </p>
+              <p>ICP备案号：<a target="_blank" href="https://beian.miit.gov.cn/" style="color:#fff">新ICP备19000900号-1</a>&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=65010202001106" target="_blank"><img src="/hfpc/xhtml/images/index/jh.png"/>新公网安备65010202001106号</a>&nbsp;政府网站标识码：6500000088&nbsp;&nbsp;</p>
+            </div>
+            <div class="f_b_right">
+                <ul>
+                    <!--<li>
+                        <a href="" target="_blank">
+                            <img src="/hfpc/xhtml/images/index/flsm.png" />
+                            <p></p>
+                        </a>
+                    </li>-->
+                    <li>
+                        <a href="/hfpc/lxwm/ypwz.shtml" target="_blank">
+                            <img src="/hfpc/xhtml/images/index/lxwm.png" />
+                            <p>联系我们</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/hfpc/wzdt/wzdt.shtml" target="_blank">
+                            <img src="/hfpc/xhtml/images/index/wzdt.png" />
+                            <p>网站地图</p>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="http://bszs.conac.cn/sitename?method=show&id=92A688D757C35DBDE05310291AACB22B" target="_blank">
+                        <img src="/hfpc/xhtml/images/index/dzjg.png" />
+                    </a>
+                 <a href="javascript:void(0);">
+                     <img src="/hfpc/xhtml/images/public/ipv6.png" alt="" srcset="" class="icon_ipv6" style="width: 85px;">
+                   </a>
+                  <script id="_jiucuo_" sitecode='6500000088' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $('.f_t_bottom>ul>li').hover(function(){
+		$(this).addClass('act');
+		$(this).siblings().removeClass('act');
+		var index=$(this).index();
+		$('.list_common').find('.list').eq(index).show().siblings().hide();
+	});
+</script>
+    
+  
+  
+<!-- PHPStat Start -->
+<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="phpstat_js_id_10000001" src="//www.xinjiang.gov.cn/phpstat/count/10000001/10000001.js"></script><noscript>< img src="//www.xinjiang.gov.cn/phpstat/count/10000001/10000001.php" alt="PHPStat Analytics"/></noscript>
+<!--/PHPStat End -->
+
+
+<script src="https://auth.mangren.com/boots/wjw.xinjiang.gov.cn/esdToolsInit.js" charset="UTF-8"></script>
+<script src="/hfpc/xhtml/js/ygd.js" charset="UTF-8"></script>
+<!--共同页脚--end-->
+ 
+
+<script src="/hfpc/xhtml/./js/index.js"></script>
+<script src="/hfpc/xhtml/js/jquery.SuperSlide.2.1.3.js"></script>
+<script type="text/javascript">
+  	$(function(){
+        $(".esd-lb").slide({mainCell:".esd-container ul",autoPlay:true,delayTime:700,interTime:7000});
+    })
+</script>
+ <!-- <script type="text/javascript" src="https://www.xinjiang.gov.cn/xinjiang/xhtml/js/2022_newyear.js"></script>-->
+  
+  <!--春节飘红-->
+  <script src="http://www.xinjiang.gov.cn/xinjiang/xhtml/js/2023cjph.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

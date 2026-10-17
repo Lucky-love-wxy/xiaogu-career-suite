@@ -1,0 +1,284 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_1c4b25462f84",
+  "node": "物流/仓储/司机 › 物流/运输 › 物流/仓储项目经理",
+  "family": "物流/仓储/司机",
+  "parent_id": "物流/仓储/司机 › 物流/运输",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "物流/仓储/司机 › 物流/运输 › 物流/仓储项目经理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8r5aNaM5",
+      "type": "recruitment_jd",
+      "title": "物流管培生",
+      "company": "重庆意之锦商贸有限公司",
+      "url": "https://campus.niuqizp.com/job-v8r5aNaM5.html",
+      "date": "2026-08-29",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "熟练运用办公软件，对数据敏感，愿意钻研商品逻辑",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8r5aNaM5.html",
+      "cache_sha256": "5157395afc72dcd7f4ec8a9fcc347ce0759f3afbcf81505aa7ffec4b8770c4d9"
+    },
+    {
+      "id": "vml5ZZzZa",
+      "type": "recruitment_jd",
+      "title": "物流管培生",
+      "company": "上海贝业新兄弟供应链管理有限公司",
+      "url": "https://campus.niuqizp.com/job-vml5ZZzZa.html",
+      "date": "2026-03-25",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "物流管培生\n不限\n本科生\n无经验\n5000～8000元/月\n职位诱惑：朝九晚五,晋升快\n职位描述\nDescription\n岗位职责：\n1.参与轮岗部门的工作计划，充分了解、熟悉、掌握轮岗岗位不同业务的运作流程、规章制度和技能要求；\n2.学习所属项目的全流程经营管理，包括物流规划、仓储管理、运输管理、配送管理、安装管理等；\n3.对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题；\n4.定期汇总各项物流管理报表，并根据管理报表改进物流运作。\n任职资格:\n1.本科及以上学历，能够熟练使用办公软件；\n2.26届应届生，具备优秀的沟通协调能力，出色的解决问题的能力，善于团队合作，主动学习与创新；\n3.乐于接受挑战，善于适应快速变化的环境，具备优秀的抗压能力，吃苦耐劳精神，愿意在物流行业长期发展\n企业信息\nCompany Info\n上海贝业新兄弟供应链管理有限公司\n行业 其他仓储业\n规模 1000-4999人",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vml5ZZzZa.html",
+      "cache_sha256": "6c95ed618d0e3bac86673c01eeacfeb19403aee1b2570453c1504ca64ebe2f64"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "物流/仓储项目经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "物流/仓储项目经理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "物流管培生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vml5ZZzZa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5ZZzZa",
+          "text": "对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5ZZzZa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5ZZzZa",
+          "text": "对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [
+    {
+      "text": "对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5ZZzZa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5ZZzZa",
+          "text": "对接客户需求，负责接收、审核确认客户订单需求、订单计划下发，实时解决订单完成过程中问题"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vml5ZZzZa"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "v8r5aNaM5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "v8r5aNaM5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vml5ZZzZa"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现经验不限/无经验字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "经验不限|无需.*经验|无经验|无工作经验",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vml5ZZzZa"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "物流管培生",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8r5aNaM5",
+        "vml5ZZzZa"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

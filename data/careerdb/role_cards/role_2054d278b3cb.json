@@ -1,0 +1,162 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_2054d278b3cb",
+  "node": "电子/电气/通信 › 电气/自动化 › 机电工程师",
+  "family": "电子/电气/通信",
+  "parent_id": "电子/电气/通信 › 电气/自动化",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "电子/电气/通信 › 电气/自动化 › 机电工程师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8k5anMnC",
+      "type": "recruitment_jd",
+      "title": "电气/机电工程师",
+      "company": "中建八局华中建设有限公司",
+      "url": "https://campus.niuqizp.com/job-v8k5anMnC.html",
+      "date": "2026-09-07",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "机电安装类：电气工程及其自动化、给排水科学与工程、自动化、建筑环境与能源应用工程等相关专业",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8k5anMnC.html",
+      "cache_sha256": "366b8c3a38f7716094cdbf500f0ba6553a5f0ae87b51bfa94632911baf6d31e5"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "机电工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "机电工程师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "电气/机电工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8k5anMnC"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“电气类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电气类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8k5anMnC"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "电气/机电工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8k5anMnC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

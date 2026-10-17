@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>小谷 30s 真机录屏</title>
+<!-- 30s 竖版：地址栏打 xiaogu.icu → 形变成手机 → 真实录屏（主页小谷 → 对话 → 贴 JD → 评析 → 仍需确认）→ 收回地址栏 + 品牌。
+     启动文档：/Users/lucky_wang/Documents/Claude/projects/product-demo-video/notes/2026-10-11-小谷30秒真机录屏片.md -->
+<link rel="stylesheet" href="fonts.css">
+<style>html,body{margin:0;height:100%;background:#000;overflow:hidden}</style>
+<script>window.LVA_SCENES = '[{"name":"Url","dur":3,"desc":"地址栏逐字打 xiaogu.icu，点前往，地址栏形变成手机"},{"name":"Home","dur":4.4,"desc":"真实主页：点小谷换表情，标题「第一次找工作的 AI 伙伴」"},{"name":"Paste","dur":3.45,"desc":"进入对话页，点输入框贴 JD，点发送"},{"name":"Wait","dur":2.15,"desc":"等待生成，加速播放并标注实际约 56 秒"},{"name":"Answer","dur":11,"desc":"评析出现：结论、依据逐条对 JD 原文、仍需确认"},{"name":"End","dur":6,"desc":"手机收回地址栏，小谷、字标双芽、标语、内测说明"}]';</script>
+<script src="rec/frames.js"></script>
+<script src="vendor/react.js"></script>
+<script src="vendor/react-dom.js"></script>
+<script src="vendor/babel.js"></script>
+<script src="_lva/engine.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<!-- 声音：配乐 music.py（100 BPM 合成）+ CC0 音效，时间对齐画面动作 -->
+<audio src="assets/audio/bed.wav" data-start="0" data-volume="0.7"></audio>
+<audio src="_lva/sfx/typing.mp3" data-start="0.35" data-duration="1.1" data-volume="0.5"></audio>
+<audio src="_lva/sfx/click.mp3" data-start="1.88" data-volume="0.5"></audio>
+<audio src="_lva/sfx/whoosh.mp3" data-start="2.18" data-volume="0.4"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="5.12" data-volume="0.45"></audio>
+<audio src="_lva/sfx/click-soft.mp3" data-start="7.37" data-volume="0.45"></audio>
+<audio src="_lva/sfx/click-soft.mp3" data-start="9.21" data-volume="0.4"></audio>
+<audio src="_lva/sfx/click.mp3" data-start="10.77" data-volume="0.5"></audio>
+<audio src="_lva/sfx/whoosh-long.mp3" data-start="10.9" data-volume="0.3"></audio>
+<audio src="_lva/sfx/success.mp3" data-start="13.0" data-volume="0.45"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="13.3" data-volume="0.35"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="17.1" data-volume="0.35"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="20.8" data-volume="0.35"></audio>
+<audio src="_lva/sfx/whoosh.mp3" data-start="23.98" data-volume="0.4"></audio>
+<audio src="_lva/sfx/appear.mp3" data-start="24.8" data-volume="0.4"></audio>
+<audio src="_lva/sfx/typing.mp3" data-start="24.85" data-duration="0.7" data-volume="0.45"></audio>
+<audio src="_lva/sfx/chime.mp3" data-start="25.2" data-volume="0.4"></audio>
+<script type="text/babel" src="scenes/00-brand.jsx"></script>
+<script type="text/babel" src="scenes/01-phone.jsx"></script>
+<script type="text/babel" src="scenes/02-bar.jsx"></script>
+<script type="text/babel" src="scenes/03-headlines.jsx"></script>
+<script type="text/babel" src="scenes/04-end.jsx"></script>
+<script type="text/babel">
+  window.W = 1080; window.H = 1920;
+  // 镜头轨（世界坐标）：开头贴近地址栏横跟文字 → 拉开成手机 → 慢推 → 贴 JD 时推向输入区 → 加速段拉回 →
+  // 推进到「结论」并保持滚动（中心偏上，让结论段落在标题底卡下方） → 移到「仍需确认」→ 收尾拉回。标题层不进镜头（屏幕空间）。
+  const CAM = [
+    [0, 1.15, 540, 960], [1.7, 1.15, 560, 960], [2.2, 1.15, 560, 960], [3.0, 1.0, 540, 1030],
+    [7.3, 1.08, 540, 1030], [7.6, 1.08, 540, 1030], [10.6, 1.18, 540, 1100], [11.0, 1.0, 540, 1030],
+    [13.0, 1.0, 540, 1030], [14.0, 1.55, 540, 940], [21.5, 1.55, 540, 940], [22.3, 1.6, 540, 1010],
+    [24.0, 1.6, 540, 1010], [24.7, 1.0, 540, 960], [30, 1.0, 540, 960],
+  ];
+  function Piece() {
+    const { T } = useComposition();
+    return (
+      <>
+        <div style={{ position: 'absolute', left: 0, top: 0, width: W, height: H, transformOrigin: '0 0', transform: camera(T, CAM, W, H) }}>
+          <Phone />
+          <Bar />
+        </div>
+        <End />
+        <Headlines />
+        <SpeedTag />
+      </>
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <Composition width={W} height={H} scenes={window.LVA_SCENES} bg="#f6f3ec"><Piece /></Composition>
+  );
+</script>
+</body>
+</html>

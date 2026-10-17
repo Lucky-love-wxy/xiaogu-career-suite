@@ -1,0 +1,3272 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://wjw.shanxi.gov.cn/ -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>山西省卫生健康委员会网站</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="keywords" content="卫生,健康,山西省卫生健康委">
+    <meta http-equiv="description" content="山西省卫生健康委员会网站">
+    <meta content="山西省卫生健康委员会网站" name="SiteName">
+    <meta content="wjw.shanxi.gov.cn" name="SiteDomain">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./images/lrtk.css">
+    <link rel="stylesheet" href="./images/style.css">
+    <link rel="stylesheet" href="./images/page.css">
+    <link rel="stylesheet" type="text/css" href="./images/jhelper_tool_style.css">
+    <link rel="stylesheet" type="text/css" href="./images/jquery.ui.css">
+    <!--[if lt IE 9]>
+<script src="/r/cms/html5.js" type="text/javascript"></script>
+<![endif]-->
+    <script src="./images/hm.js"></script>
+    <script type="text/javascript" src="./images/jquery-1.12.4.min.js">
+    </script>
+    <script type="text/javascript" src="./images/style.js"></script>
+    <script type="text/javascript" src="./images/lrtk.js"></script>
+    <script type="text/javascript" src="./images/jhelper_config.js" id="ABT">
+    </script>
+
+    <script type="text/javascript" src="./images/jhelper_2.0.js"></script>
+    <script type="text/javascript" src="./images/pinyin.js"></script>
+    <script type="text/javascript" src="./images/jhelper_urls.js"></script>
+
+    <script type="text/javascript" src="./images/jquery.js"></script>
+    <script type="text/javascript" src="./images/front.js"></script>
+    <script type="text/javascript" src="./images/page.js"></script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f9f9d4221f4772d28cc9efcd7ca16803";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            //Cms.siteFlow("", location.href, document.referrer, "true");
+            //$.cookie("_site_id_cookie","1",{path: '' });
+        });
+    </script>
+    <script type="text/javascript" src="./images/scrolltopic.min.js">
+    </script>
+    <style>
+        .topic-button {
+            line-height: 30px;
+            width: 100%;
+            height: 30px;
+            margin-top: 5px;
+        }
+
+        .topic-button span {
+            display: block;
+            width: 150px;
+            cursor: pointer;
+            color: #2f5398;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            background-color: #e3e3e3;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .topic-button span i {
+            display: block;
+            float: left;
+            width: 0;
+            height: 0;
+            margin-top: 10px;
+            margin-right: 8px;
+            margin-left: 45px;
+            border-right: 5px solid transparent;
+            border-left: 5px solid transparent;
+        }
+
+        .up-narrow {
+            border-bottom: 10px solid #015293;
+        }
+
+        .down-narrow {
+            border-top: 10px solid #015293;
+        }
+
+        .oflow-hd {
+            overflow: hidden;
+        }
+
+        .group {
+            zoom: 1;
+        }
+
+        .header {
+            
+        }
+body .yqljpic{  display:flex; justify-content:space-between;}
+body .yqljpic a img{ height:52px;}
+    </style>
+    <script src="./images/piao11.js"></script>
+
+	<!-- 手机版样式 -->
+	<link href="./material/images/public.css" rel="stylesheet" type="text/css">
+<link href="./material/images/share.css" rel="stylesheet" type="text/css">
+<style>
+.notification {width:100%;text-align:center;background:rgba(0,0,0,0.5);height:30px;font-size:14px;color:#fff;line-height:30px;}
+</style>
+<script src="./material/images/jquery-1.9.1.min.js"></script>
+<script src="./material/images/TouchSlide.1.1.js"></script>
+
+<link href="./material/images/front.css" rel="stylesheet" type="text/css">
+<link href="./images/jquery.ui.css" rel="stylesheet" type="text/css">
+<script src="./images/jquery.js" type="text/javascript"></script>
+<script src="./material/images/jquery-ui.js" type="text/javascript"></script>
+<script src="./images/front.js" type="text/javascript"></script>
+<script type="text/javascript" src="./material/images/cordova.js"></script>
+<script type="text/javascript">
+function onDeviceReady() {
+    document.addEventListener("backbutton", onBackKeyDown, false);                     
+}
+function onBackKeyDown() {
+	notify();
+	document.removeEventListener("backbutton", onBackKeyDown, false);
+	document.addEventListener("backbutton", exitApp, false);
+	var intervalID = window.setInterval(function() {
+		window.clearInterval(intervalID);
+		document.removeEventListener("backbutton", exitApp, false);
+		document.addEventListener("backbutton", onBackKeyDown, false);
+	}, 3000);	
+}
+function exitApp(){
+	navigator.app.exitApp();
+}
+
+function notify() {
+      var msg = "再点击一次退出系统";
+      $( "<div>" )
+        .appendTo( document.body )
+        .text( msg )
+        .addClass( "notification" )
+        .position({
+          my: "center bottom",
+          at: "center bottom",
+          of: window
+        })
+        .show({
+          effect: "blind"
+        })
+        .delay( 3000 )
+        .hide({
+          effect: "blind",
+          duration: "slow"
+        }, function() {
+          $( this ).remove();
+        });
+}
+$(function() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+	Cms.siteFlow("", location.href, document.referrer, "true");
+	$.cookie("_site_id_cookie","1",{path: '' });
+     
+  
+});
+</script>
+<style>
+.i-title h2 a{display: block;float: right;font-size: 0.7em;color: #65BAF1;padding-right: 1.5em;}
+</style>
+	<!-- 手机版样式 结束 -->
+	
+	<style>
+	#wrap,#gotop{ display:none;}
+	@media (max-width:767px) {
+	#accessNull,#container,#adaaa{ display:none;}
+	#wrap,#gotop{ display:block;}
+	}
+	.demo2,.demo3{ height:340px;}
+	</style>
+
+</head>
+
+<body style="">
+<div class="da-top" style="display:none;"><a href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm" target="_blank"><img src="https://www.shanxi.gov.cn/images/max-20da.jpg" /></ a></div>
+<style>
+.da-top{
+width:100%;min-width:1260px;
+}
+.da-top img{
+width:100%;
+height:auto;
+display:block;
+}
+</style>
+    <div id="accessNull"></div>
+    <div id="container">
+        <div class="top">
+            <div class="top_box">
+                <div class="top_l">欢迎访问山西省卫生健康委员会网站！</div>
+                <div class="top_r">
+                    
+                    <a href='./ycjrpt/' target="_blank">
+                        远程接入平台</a> |
+                    <a href='javascript:;' id="toolbarSwitch">无障碍浏览</a>
+<script type="text/javascript" src="./images/esdToolsInit.js"></script>|
+                    <a name="gb2big5" id="gb2big5" href="javascript:StranBody()" title="點擊以繁體中文方式浏覽">繁體中文</a>
+                    <script language="Javascript" src="./images/gb2big5.js">
+                    </script>
+                    |
+                    <a onclick="AddFavorite(window.location,document.title)" href="javascript:;">加入收藏</a> |
+                    <a onclick="SetHome(window.location)" href="javascript:;">设为首页</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="header">
+    <div class="logo"><img src="./images/logo.png" /></div>
+    <div class="search">
+        <form target="_blank" id="searchForm" name="searchForm">
+            <input type="hidden" name="channelId" value="" />
+            <input type="hidden" name="randSesion" value="a3395ce4085f4ecd93a94f0ee175c89c" />
+            <input id="q" name="q" value="请输入关键词" type="text" class="search_input" onfocus="if(this.value==&#39;请输入关键词&#39;)this.value=&#39;&#39;" onblur="if(this.value==&#39;&#39;)this.value=&#39;请输入关键词&#39;" />
+            <input type="button" value="" class="search_btn" onclick="searchDocument" id="search" />
+        </form>
+    </div>
+    <script>
+        document.getElementById("search").onclick = function () {
+            window.open("/dept_search/#/Door?keywords=" + encodeURI(document
+                .getElementById('q').value) + "&siteTag=1&siteid=45");
+        }
+        $("#q").keydown(function (e) {
+
+            if (e.keyCode == 13) {
+                window.open("/dept_search/#/Door?keywords=" + encodeURI(document
+                    .getElementById('q').value) + "&siteTag=1&siteid=45");
+                return false;
+            }
+
+        })
+    </script>
+</div>
+        <div class="cont">
+            <style>
+                .nav ul li {
+                    width: 165px;
+                }
+            </style>
+            <div class="nav">
+                <ul>
+                    <li class="active1">
+                        <a href="./" class="link"><img src="./images/home_ico.png" />网站首页</a>
+                    </li>
+                    <li class="">
+                        <a href='./zyzn/bgsjgdw/' xhref="tabsBox-1"
+                            class="link"><img src="./images/ico_02.png" />
+                            主要职能</a>
+                        <div id="tabsBox-1" class="tabsbox" style="display: none;">
+                            <div class="tabs-left-01">
+                                
+                                    <div class="title">
+                                        山西省卫生健康委员会主要职能
+                                    </div>
+                                    <div class="conts">
+                                        <span id="zyzn_glkg" style="text-indent:2em;">
+											
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（一）贯彻执行党和国家国民健康方针政策，拟订卫生健康事业发展省级地方性法规、规章草案和政策、规划，负责职责范围内的标准化工作。统筹规划卫生健康资源配置，指导市、县区域卫生健康规划编制和实施。制定并组织实施推进卫生健康基本公共服务均等化、普惠化、便捷化和公共资源向基层延伸等政策措施。（二）协调推进深化医药卫生体制改革，研究提出深化医药卫生体制改革重大方针、政策、措施的建议。组织分级诊疗制度建设，制定并组织实施推动卫生健康公共服务提供主体多元化、...
+											
+										</span>
+                                        <a href='./zfxxgk/fdzdgknr/jggk/jgzn/'
+                                            target="_blank">查看详情</a>
+                                    </div>
+                                
+                            </div>
+							
+                            <div class="tabs-center-01">
+                                <div class="title">
+                                    <a href='./zyzn/bgsjgdw/'
+                                        target="_blank"><img src="./images/csyw_bg.png" /></a>
+                                </div>
+                                <dl>
+                                    
+                                        <ol><a href='./zyzn/fyjkc/202609/t20260930_10230007.shtml'
+                                                title='2026年全省母婴安全管理培训班在并举办'
+                                                target="_blank">
+                                                <a href="./zyzn/fyjkc/202609/t20260930_10230007.shtml" target="_blank">2026年全省母婴安全管理培训班在并举办</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/jkxccjc/202609/t20260930_10229651.shtml'
+                                                title='山西省全国健康城镇创建工作培训班顺利举办'
+                                                target="_blank">
+                                                <a href="./zyzn/jkxccjc/202609/t20260930_10229651.shtml" target="_blank">山西省全国健康城镇创建工作培训班顺利举办</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/fyjkc/202609/t20260910_10218063.shtml'
+                                                title='2026年全省出生医学证明管理培训班在并举办'
+                                                target="_blank">
+                                                <a href="./zyzn/fyjkc/202609/t20260910_10218063.shtml" target="_blank">2026年全省出生医学证明管理培训班在并举办</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/fyjkc/202607/t20260721_10181283.shtml'
+                                                title='全省儿童青少年“五健”促进行动启动部署视频会议在并召开'
+                                                target="_blank">
+                                                <a href="./zyzn/fyjkc/202607/t20260721_10181283.shtml" target="_blank">全省儿童青少年“五健”促进行动启动部署视频会议...</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/xzspglc/202607/t20260709_10173851.shtml'
+                                                title='告别“甜蜜烦恼” 畅享“一网通办”——全省新生儿出生“一件事”联办服务改革新观察'
+                                                target="_blank">
+                                                <a href="./zyzn/xzspglc/202607/t20260709_10173851.shtml" target="_blank">告别“甜蜜烦恼” 畅享“一网通办”——全省新生...</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/fgc/202605/t20260519_10124902.shtml'
+                                                title='民法典与生活同行'
+                                                target="_blank">
+                                                <a href="./zyzn/fgc/202605/t20260519_10124902.shtml" target="_blank">民法典与生活同行</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/ywzcyspaqjcc/202604/t20260430_10114391.shtml'
+                                                title='省卫生健康委成功举办全省食品安全风险监测培训班'
+                                                target="_blank">
+                                                <a href="./zyzn/ywzcyspaqjcc/202604/t20260430_10114391.shtml" target="_blank">省卫生健康委成功举办全省食品安全风险监测培训班</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/tzggc/202603/t20260306_10074422.shtml'
+                                                title='省卫生健康委员会召开“三医”协同发展和治理协作会商机制第二次专题会议'
+                                                target="_blank">
+                                                <a href="./zyzn/tzggc/202603/t20260306_10074422.shtml" target="_blank">省卫生健康委员会召开“三医”协同发展和治理协作...</a></a></ol>
+                                    
+                                        <ol><a href='./zyzn/fgc/202601/t20260112_10038407.shtml'
+                                                title='省卫生健康委联合省疾控局召开标准体系建设项目启动暨培训会'
+                                                target="_blank">
+                                                <a href="./zyzn/fgc/202601/t20260112_10038407.shtml" target="_blank">省卫生健康委联合省疾控局召开标准体系建设项目启...</a></a></ol>
+                                    
+                                </dl>
+                            </div>
+                            <div class="tabs-right-01">
+                                <dl>
+                                    <ol><a href='./zyzn/bgsjgdw/'
+                                            target="_blank">
+                                            办公室（机关党委）</a></ol>
+                                    <ol><a href='./zyzn/rsc/'
+                                            target="_blank">
+                                            人事处</a></ol>
+                                    <ol><a href='./zyzn/ghfzhxxhc/'
+                                            target="_blank">
+                                            规划发展和信息化处</a></ol>
+                                    <ol><a href='./zyzn/cwcnsc/'
+                                            target="_blank">
+                                            财务处（内审处）</a></ol>
+                                    <ol><a href='./zyzn/fgc/'
+                                            target="_blank">
+                                            法规处</a></ol>
+                                    <ol><a href='./zyzn/tzggc/'
+                                            target="_blank">
+                                            体制改革处</a></ol>
+                                   
+                                    <ol><a href='./zyzn/yzygj/'
+                                            target="_blank">
+                                            医政处</a></ol>
+                                    <ol><a href='./zyzn/zyyglj/'
+                                            target="_blank">
+                                            中医药综合处（山西省中医药管理局）</a></ol>
+									<ol><a href='./zyzn/zyykjycyc/'
+                                            target="_blank">
+                                            中医药科技与产业处</a></ol>
+                                    <ol><a href='./zyzn/jcwsjkc/'
+                                            target="_blank">
+                                            基层卫生健康处</a></ol>
+                                    <ol><a style="font-size: 12px;"
+                                            href='./zyzn/wsyjbgstfggwssjyjzhzx/'
+                                            target="_blank">
+                                            医疗应急处(突发公共卫生事件应急指挥中心)</a></ol>
+                                    <ol><a href='./zyzn/kjjyc/'
+                                            target="_blank">
+                                            科技教育处</a></ol>
+                                    
+                                    <ol><a href='./zyzn/ywzcyspaqjcc/'
+                                            target="_blank">
+                                            药物政策与食品安全监测处</a></ol>
+                                    <ol><a href='./zyzn/llgzc/'
+                                            target="_blank">
+                                            老龄健康处</a></ol>
+                                    <ol><a href='./zyzn/fyjkc/'
+                                            target="_blank">
+                                            妇幼健康处</a></ol>
+                                    <ol><a href='./zyzn/zyjkc/'
+                                            target="_blank">
+                                            职业健康处</a></ol>
+                                    <ol><a href='./zyzn/rkyjtfzc/'
+                                            target="_blank">
+                                            人口与家庭发展处</a></ol>
+                                    <ol><a href='./zyzn/jkxccjc/'
+                                            target="_blank">
+                                            健康宣传促进处</a></ol>
+                                    <ol><a href='./zyzn/xzspglc/'
+                                            target="_blank">
+                                            行政审批管理处</a></ol>
+                                    <ol><a href='./zyzn/gjjlhzc/'
+                                            target="_blank">
+                                            国际交流合作处</a></ol>
+                                    <ol><a href='./zyzn/bjj/'
+                                            target="_blank">
+                                            保健局</a></ol>
+                                    <ol><a href='./zyzn/ltxrygzc/'
+                                            target="_blank">
+                                            离退休人员工作处</a></ol>
+
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="">
+                        <a href='./xwzx/' xhref="tabsBox-2"
+                            class="link"><img src="./images/ico_03.png" />
+                            新闻中心</a>
+                        <div id="tabsBox-2" class="tabsbox" style="display: none;">
+                            <div class="tabs-left-02">
+                                <dl style="margin-top:40px;">
+                                    
+                                        <ol>
+                                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202610/t20261008_10231059.shtml' target="_blank">
+                                                <img src="./sylb/202610/W020261008338955346600_ORIGIN.jpg" width="120" height="82" alt='庆祝中华人民共和国成立77周年招待会在京举行习近平发表重要讲话' />
+                                                <h3>
+                                                    庆祝中华人民共和国成立77周年招待会在京举行<br>习近...
+                                                </h3>
+                                                <span></span>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202608/t20260804_10190037.shtml' target="_blank">
+                                                <img src="./sylb/202608/W020260804348589237129_ORIGIN.jpg" width="120" height="82" alt='中共山西省委十二届十二次全会举行' />
+                                                <h3>
+                                                    中共山西省委十二届十二次全会举行
+                                                </h3>
+                                                <span></span>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260716_10177685.shtml' target="_blank">
+                                                <img src="./sylb/202607/W020260716327375210562_ORIGIN.jpg" width="120" height="82" alt='习近平在上海考察时强调 全面践行人民城市理念 高质量推进城市更新' />
+                                                <h3>
+                                                    习近平在上海考察时强调 全面践行人民城市理念 高...
+                                                </h3>
+                                                <span></span>
+                                            </a>
+                                        </ol>
+                                    
+                                </dl>
+                            </div>
+                            <div class="tabs-center-02">
+                                <div class="title">
+                                    <a href='./xwzx/wjyw/' class="active"
+                                        target="_blank">
+                                        卫健要闻</a>
+                                    <a href='./xwzx/wzdt/'
+                                        target="_blank">
+                                        委直动态</a>
+                                    <a href='./xwzx/sxdt/'
+                                        target="_blank">
+                                        市县动态</a>
+                                    <a href='./xwzx/szyw/'
+                                        target="_blank">
+                                        时政要闻</a>
+                                </div>
+                                <dl style="display: block;">
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202609/t20260924_10227416.shtml'
+                                                title='省卫生健康委召开全省卫生健康系统2026年中秋国庆假期前后安全生产及秋冬季重点传染病防治工作视频会议'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202609/t20260924_10227416.shtml" target="_blank">省卫生健康委召开全省卫生健康系统2026年中秋国庆...</a>
+                                            </a>
+                                            <span>
+                                                2026-09-24
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202609/t20260915_10220461.shtml'
+                                                title='国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍推动健康中国建设取得决定性进展有关情况（文字实录）'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202609/t20260915_10220461.shtml" target="_blank">国新办举行“开局起步‘十五五’”系列主题新闻发...</a>
+                                            </a>
+                                            <span>
+                                                2026-09-15
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202609/t20260901_10211513.shtml'
+                                                title='省卫生健康委开展第九个“中国医师节”暨观看话剧《生命》主题活动'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202609/t20260901_10211513.shtml" target="_blank">省卫生健康委开展第九个“中国医师节”暨观看话剧...</a>
+                                            </a>
+                                            <span>
+                                                2026-08-24
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202608/t20260824_10205626.shtml'
+                                                title='国家卫生健康委举办推动卫生健康领域“十五五”规划落实培训班'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202608/t20260824_10205626.shtml" target="_blank">国家卫生健康委举办推动卫生健康领域“十五五”规...</a>
+                                            </a>
+                                            <span>
+                                                2026-08-24
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202608/t20260820_10203349.shtml'
+                                                title='刘国中在天津调研时强调建设优质高效医疗服务体系更好满足人民群众健康需求'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202608/t20260820_10203349.shtml" target="_blank">刘国中在天津调研时强调建设优质高效医疗服务体系...</a>
+                                            </a>
+                                            <span>
+                                                2026-08-20
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202608/t20260818_10202239.shtml'
+                                                title='​2026年中国医师节致全省医务工作者的慰问信'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202608/t20260818_10202239.shtml" target="_blank">​2026年中国医师节致全省医务工作者的慰问信</a>
+                                            </a>
+                                            <span>
+                                                2026-08-18
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202608/t20260818_10201659.shtml'
+                                                title='省政府召开常务会议'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202608/t20260818_10201659.shtml" target="_blank">省政府召开常务会议</a>
+                                            </a>
+                                            <span>
+                                                2026-08-18
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202608/t20260817_10201524.shtml'
+                                                title='中国共产党山西省卫生健康委员会直属机关第二次党员代表大会召开'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202608/t20260817_10201524.shtml" target="_blank">中国共产党山西省卫生健康委员会直属机关第二次党...</a>
+                                            </a>
+                                            <span>
+                                                2026-08-17
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wjyw/202607/t20260731_10188545.shtml'
+                                                title='习近平：加快建设健康中国'
+                                                target="_blank">
+                                                <a href="./xwzx/wjyw/202607/t20260731_10188545.shtml" target="_blank">习近平：加快建设健康中国</a>
+                                            </a>
+                                            <span>
+                                                2026-07-31
+                                            </span>
+                                        </ol>
+                                    
+
+                                </dl>
+                                <dl>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261010_10232860.shtml' target="_blank"
+                                                title='山西省儿童医院在2026年山西省卫生健康系统职业技能竞赛药学（药学门诊方向）技能竞赛中斩获佳绩'>
+                                                <a href="./xwzx/wzdt/202610/t20261010_10232860.shtml" target="_blank">山西省儿童医院在2026年山西省卫生健康系统职业技...</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261010_10232854.shtml' target="_blank"
+                                                title='山西医科大学第一医院开展世界心脏日系列义诊活动'>
+                                                <a href="./xwzx/wzdt/202610/t20261010_10232854.shtml" target="_blank">山西医科大学第一医院开展世界心脏日系列义诊活动</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261009_10232065.shtml' target="_blank"
+                                                title='山西省眼科医院近视防控宣讲团赴忻州市外国语小学开展眼健康科普活动'>
+                                                <a href="./xwzx/wzdt/202610/t20261009_10232065.shtml" target="_blank">山西省眼科医院近视防控宣讲团赴忻州市外国语小学...</a>
+                                            </a><span>
+                                                2026-10-09
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261009_10232059.shtml' target="_blank"
+                                                title='山西省中医院在太原工人文化宫开展惠民义诊活动'>
+                                                <a href="./xwzx/wzdt/202610/t20261009_10232059.shtml" target="_blank">山西省中医院在太原工人文化宫开展惠民义诊活动</a>
+                                            </a><span>
+                                                2026-10-09
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261008_10231402.shtml' target="_blank"
+                                                title='山西医科大学第二医院举办“世界狂犬病日”健康宣教活动'>
+                                                <a href="./xwzx/wzdt/202610/t20261008_10231402.shtml" target="_blank">山西医科大学第二医院举办“世界狂犬病日”健康宣...</a>
+                                            </a><span>
+                                                2026-10-08
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261008_10231396.shtml' target="_blank"
+                                                title='山西省针灸医院在2026年山西省中药调剂职业技能竞赛中斩获团体一等奖'>
+                                                <a href="./xwzx/wzdt/202610/t20261008_10231396.shtml" target="_blank">山西省针灸医院在2026年山西省中药调剂职业技能竞...</a>
+                                            </a><span>
+                                                2026-10-08
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202610/t20261008_10231393.shtml' target="_blank"
+                                                title='山西医科大学第一医院举办2026年度护理专场专利路演活动'>
+                                                <a href="./xwzx/wzdt/202610/t20261008_10231393.shtml" target="_blank">山西医科大学第一医院举办2026年度护理专场专利路...</a>
+                                            </a><span>
+                                                2026-10-08
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202609/t20260930_10229800.shtml' target="_blank"
+                                                title='山西省儿童医院赴忻州市开展巡回医疗暨适宜技术推广活动'>
+                                                <a href="./xwzx/wzdt/202609/t20260930_10229800.shtml" target="_blank">山西省儿童医院赴忻州市开展巡回医疗暨适宜技术推...</a>
+                                            </a><span>
+                                                2026-09-30
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/wzdt/202609/t20260930_10229797.shtml' target="_blank"
+                                                title='山西省中医院举办“四时承古韵·杏林护安康”秋季中医药文化体验日'>
+                                                <a href="./xwzx/wzdt/202609/t20260930_10229797.shtml" target="_blank">山西省中医院举办“四时承古韵·杏林护安康”秋季...</a>
+                                            </a><span>
+                                                2026-09-30
+                                            </span>
+                                        </ol>
+                                    
+                                </dl>
+                                <dl>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202610/t20261010_10232851.shtml'
+                                                title='长治医学院附属和平医院召开消化道肿瘤团队专项工作例会'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202610/t20261010_10232851.shtml" target="_blank">长治医学院附属和平医院召开消化道肿瘤团队专项工...</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202610/t20261009_10232055.shtml'
+                                                title='晋城市举办2026年健康教育与健康促进培训班'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202610/t20261009_10232055.shtml" target="_blank">晋城市举办2026年健康教育与健康促进培训班</a>
+                                            </a><span>
+                                                2026-10-09
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202610/t20261008_10231391.shtml'
+                                                title='晋中市中医院成功救治一例脑出血合并多器官衰竭危重患者'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202610/t20261008_10231391.shtml" target="_blank">晋中市中医院成功救治一例脑出血合并多器官衰竭危...</a>
+                                            </a><span>
+                                                2026-10-08
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202610/t20261008_10231389.shtml'
+                                                title='运城市召开流行季流感疫苗接种工作启动会'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202610/t20261008_10231389.shtml" target="_blank">运城市召开流行季流感疫苗接种工作启动会</a>
+                                            </a><span>
+                                                2026-10-08
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202609/t20260930_10229783.shtml'
+                                                title='晋中市第一人民医院在全省重症医学两项赛事中斩获佳绩'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202609/t20260930_10229783.shtml" target="_blank">晋中市第一人民医院在全省重症医学两项赛事中斩获佳绩</a>
+                                            </a><span>
+                                                2026-09-30
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202609/t20260930_10229780.shtml'
+                                                title='运城市卫生健康委召开2026年中秋国庆假期前后安全生产及秋冬季重点传染病防治工作部署会'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202609/t20260930_10229780.shtml" target="_blank">运城市卫生健康委召开2026年中秋国庆假期前后安全...</a>
+                                            </a><span>
+                                                2026-09-30
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202609/t20260929_10228996.shtml'
+                                                title='晋中市7家医院11个专科入选“十五五”省级中医优势专科建设单位'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202609/t20260929_10228996.shtml" target="_blank">晋中市7家医院11个专科入选“十五五”省级中医优势...</a>
+                                            </a><span>
+                                                2026-09-29
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202609/t20260928_10228180.shtml'
+                                                title='长治医学院附属和平医院举办医学伦理专题讲座'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202609/t20260928_10228180.shtml" target="_blank">长治医学院附属和平医院举办医学伦理专题讲座</a>
+                                            </a><span>
+                                                2026-09-28
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/sxdt/202609/t20260924_10226872.shtml'
+                                                title='太原市卫生健康委举办托育机构从业人员安全专项急救实操培训'
+                                                target="_blank">
+                                                <a href="./xwzx/sxdt/202609/t20260924_10226872.shtml" target="_blank">太原市卫生健康委举办托育机构从业人员安全专项急...</a>
+                                            </a><span>
+                                                2026-09-24
+                                            </span>
+                                        </ol>
+                                    
+                                </dl>
+                                <dl>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261010_10232784.shtml'
+                                                title='中共中央 国务院关于发展新质生产力的意见'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261010_10232784.shtml" target="_blank">中共中央 国务院关于发展新质生产力的意见</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261010_10232779.shtml'
+                                                title='中共中央、国务院印发《关于发展新质生产力的意见》'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261010_10232779.shtml" target="_blank">中共中央、国务院印发《关于发展新质生产力的意见》</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261010_10232776.shtml'
+                                                title='谌贻琴在会见第20届亚运会中国体育代表团时强调戒骄戒躁 再接再厉 扎实推进洛杉矶奥运会备战工作'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261010_10232776.shtml" target="_blank">谌贻琴在会见第20届亚运会中国体育代表团时强调戒...</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261010_10232773.shtml'
+                                                title='国庆假期全省道路安全平稳有序'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261010_10232773.shtml" target="_blank">国庆假期全省道路安全平稳有序</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261010_10232771.shtml'
+                                                title='山西不断提升食品安全全链条监管质效'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261010_10232771.shtml" target="_blank">山西不断提升食品安全全链条监管质效</a>
+                                            </a><span>
+                                                2026-10-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261009_10231916.shtml'
+                                                title='国庆假期全社会跨区域人员流动量预计21.44亿人次'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261009_10231916.shtml" target="_blank">国庆假期全社会跨区域人员流动量预计21.44亿人次</a>
+                                            </a><span>
+                                                2026-10-09
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261009_10231912.shtml'
+                                                title='山西省青少年开展各类志愿服务1073场'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261009_10231912.shtml" target="_blank">山西省青少年开展各类志愿服务1073场</a>
+                                            </a><span>
+                                                2026-10-09
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261009_10231910.shtml'
+                                                title='山西将启动2026年第三批省本级就业见习岗位报名工作'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261009_10231910.shtml" target="_blank">山西将启动2026年第三批省本级就业见习岗位报名工作</a>
+                                            </a><span>
+                                                2026-10-09
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./xwzx/szyw/202610/t20261008_10231084.shtml'
+                                                title='《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》'
+                                                target="_blank">
+                                                <a href="./xwzx/szyw/202610/t20261008_10231084.shtml" target="_blank">《求是》杂志发表习近平总书记重要文章《加强普惠...</a>
+                                            </a><span>
+                                                2026-10-08
+                                            </span>
+                                        </ol>
+                                    
+                                </dl>
+                            </div>
+                            <div class="tabs-right-02">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="60" height="350" align="center"><img src="./images/jksxwx.jpg" /></td>
+                                            <td width="140"><img src="./images/weixin.jpg" style="width:141px;height:141px;" /></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="">
+                        <a href='http://www.sxzwfw.gov.cn/icity/icity/departmental_matters?deptid=2000' xhref="tabsBox-4"
+                            target="_blank" class="link"><img src="./images/ico_05.png" />
+                            政务服务</a>
+
+                    </li>
+                    <li style="width:200px;" class="">
+                        <a href='./zfxxgk/' xhref="tabsBox-5"
+                            class="link"><img src="./images/ico_06.png" />
+                            政府信息公开</a>
+                        <div id="tabsBox-5" class="tabsbox" style="display: none;">
+                            <div class="tabs-left-05">
+                                <div class="title">
+                                    <a href='./zfxxgk/'
+                                        target="_blank"><img src="./images/zfxxgk.png" /></a>
+                                </div>
+                                <dl>
+                                    <ol><a href='./zfxxgk/zfxxgkzn/'
+                                            target="_blank">
+                                            政府信息公开指南</a></ol>
+                                    <ol><a href='./zfxxgk/zfxxgkzd/'
+                                            target="_blank">
+                                            政府信息公开制度</a></ol>
+                                    <ol><a href='./zfxxgk/fdzdgknr/'
+                                            target="_blank">
+                                            法定主动公开内容</a></ol>
+                                    <ol><a href='./zfxxgk/zfxxgknb/'
+                                            target="_blank">
+                                            政府信息公开年报</a></ol>
+                                    <ol><a href='./zfxxgk/zfwzgznb/'
+                                            target="_blank">
+                                            政府网站工作年报</a></ol>
+                                    <ol><a href='./zfxxgk/ysqgk/'
+                                            target="_blank">
+                                            依申请公开</a></ol>
+
+
+                                </dl>
+                            </div>
+                            <div class="tabs-center-05">
+                                <div class="title"><a href="javascript:;">最新信息公开</a></div>
+                                <dl>
+                                    
+									
+                                        <ol>
+                                            <a href='./zfxxgk/zfxxgknb/202601/t20260126_10048590.shtml'
+                                                title='山西省卫生健康委员会2025年政府信息公开年度报告'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfxxgknb/202601/t20260126_10048590.shtml" target="_blank">山西省卫生健康委员会2025年政府信息公开年度报告</a>
+                                            </a><span>
+                                                2026-01-26
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/zfwzgznb/202601/t20260122_10044887.shtml'
+                                                title='山西省卫生健康委员会2025年度政府网站工作年度报表'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfwzgznb/202601/t20260122_10044887.shtml" target="_blank">山西省卫生健康委员会2025年度政府网站工作年度报表</a>
+                                            </a><span>
+                                                2026-01-22
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/zfxxgknb/202501/t20250119_9753754.shtml'
+                                                title='山西省卫生健康委员会2024年政府信息公开年度报告'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfxxgknb/202501/t20250119_9753754.shtml" target="_blank">山西省卫生健康委员会2024年政府信息公开年度报告</a>
+                                            </a><span>
+                                                2025-01-20
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/zfwzgznb/202501/t20250110_9748086.shtml'
+                                                title='山西省卫生健康委员会2024年度政府网站工作年度报表'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfwzgznb/202501/t20250110_9748086.shtml" target="_blank">山西省卫生健康委员会2024年度政府网站工作年度报表</a>
+                                            </a><span>
+                                                2025-01-10
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/zfxxgknb/202401/t20240122_9488285.shtml'
+                                                title='山西省卫生健康委员会2023年政府信息公开年度报告'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfxxgknb/202401/t20240122_9488285.shtml" target="_blank">山西省卫生健康委员会2023年政府信息公开年度报告</a>
+                                            </a><span>
+                                                2024-01-22
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/zfwzgznb/202401/t20240111_9481571.shtml'
+                                                title='山西省卫生健康委员会2023年度政府网站工作年度报表'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfwzgznb/202401/t20240111_9481571.shtml" target="_blank">山西省卫生健康委员会2023年度政府网站工作年度报表</a>
+                                            </a><span>
+                                                2024-01-11
+                                            </span>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/zfxxgknb/202301/t20230117_7813431.shtml'
+                                                title='山西省卫生健康委员会2022年政府信息公开年度报告'
+                                                target="_blank">
+                                                <a href="./zfxxgk/zfxxgknb/202301/t20230117_7813431.shtml" target="_blank">山西省卫生健康委员会2022年政府信息公开年度报告</a>
+                                            </a><span>
+                                                2023-01-17
+                                            </span>
+                                        </ol>
+                                    
+                                </dl>
+                                <div class="btn-list">
+                                    <a href='./zfxxgk/fdzdgknr/jggk/ldfg_1/'
+                                        target="_blank">
+                                        领导分工</a>
+                                    <a href='./zfxxgk/fdzdgknr/jggk/nsjg/'
+                                        target="_blank">
+                                        内设机构</a>
+                                    <a href='./zfxxgk/fdzdgknr/jggk/zsjg/'
+                                        target="_blank">
+                                        直属机构</a>
+                                </div>
+                            </div>
+                            <div class="tabs-center-04" style="background: #FFFFFF;">
+                                <div class="title"><a href='./zfxxgk/fdzdgknr/gggs/'>
+                                        公告公示</a></div>
+                                <dl>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202610/t20261008_10231189.shtml'
+                                                title='山西省卫生健康委员会 山西省疾病预防控制局山西省总工会 山西省科学技术协会关于公布2026年山西省健康科普作品征集活动获奖名单的通知'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202610/t20261008_10231189.shtml" target="_blank">山西省卫生健康委员会 山西省疾病预防...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260929_10229169.shtml'
+                                                title='关于发布山西省卫生健康委员会中医药科技项目（优选）申报指南的通知'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260929_10229169.shtml" target="_blank">关于发布山西省卫生健康委员会中医药科...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260923_10226540.shtml'
+                                                title='山西省2026年省级临床重点专科名单公示'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260923_10226540.shtml" target="_blank">山西省2026年省级临床重点专科名单公示</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260904_10213954.shtml'
+                                                title='山西省卫生健康委员会关于注销太原市福兴顺科技有限公司放射卫生技术服务机构资质证书的公告'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260904_10213954.shtml" target="_blank">山西省卫生健康委员会关于注销太原市福...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212529.shtml'
+                                                title='关于临汾市妇幼保健院限制类医疗技术备案情况的公示'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212529.shtml" target="_blank">关于临汾市妇幼保健院限制类医疗技术备...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212520.shtml'
+                                                title='关于运城市妇幼保健院限制类医疗技术备案情况的公示'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212520.shtml" target="_blank">关于运城市妇幼保健院限制类医疗技术备...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212507.shtml'
+                                                title='关于运城市中心医院限制类医疗技术备案情况的公示'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212507.shtml" target="_blank">关于运城市中心医院限制类医疗技术备案...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212488.shtml'
+                                                title='山西省卫生健康委员会关于拟设置忻州市中西医结合医院的公示'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202609/t20260902_10212488.shtml" target="_blank">山西省卫生健康委员会关于拟设置忻州市...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                        <ol>
+                                            <a href='./zfxxgk/fdzdgknr/gggs/202608/t20260826_10207881.shtml'
+                                                title='山西省孕妇外周血胎儿游离DNA产前筛查与诊断服务开展情况的公示'
+                                                target="_blank">
+                                                <a href="./zfxxgk/fdzdgknr/gggs/202608/t20260826_10207881.shtml" target="_blank">山西省孕妇外周血胎儿游离DNA产前筛查与...</a>
+                                            </a>
+                                        </ol>
+                                    
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="">
+                        <a href='./djgz/' class="link"><img src="./images/ico_14.png" />
+                            党建工作</a>
+                    </li>
+                    <li class="">
+   
+   <a href='/newsso-1.0/login' class="link"><img src="./images/ico_13.png" />
+                        交流互动
+                            </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="news">
+                <div class="title">
+                    <a href='./xwzx/wjyw/' class="" target="_blank"
+                        style="padding:0px 60px;">
+                        卫健要闻</a>
+                    <a href='./tzgg/' target="_blank"
+                        style="padding:0px 60px;" class="active">
+                        通知公告</a>
+                    <a href='./xwzx/szyw/' target="_blank"
+                        style="padding:0px 60px;" class="">
+                        时政要闻</a>
+                    <!--<a href='./dmpt/' target="_blank"
+                        style="padding:0px 30px;" class="">.
+                        党媒平台</a>-->
+                </div>
+                <div class="news_box">
+                    <div class="news_01" style="display: none;">
+                        
+                            
+                                <div class="news_No1">
+                                    <div class="news_title">
+                                        <img src="./images/ico_07.png" OLDDI="711" />
+                                        <a href='./xwzx/wjyw/202609/t20260924_10227416.shtml'
+                                            title='省卫生健康委召开全省卫生健康系统2026年中秋国庆假期前后安全生产及秋冬季重点传染病防治工作视频会议'
+                                            target="_blank">
+                                            省卫生健康委召开全省卫生健康系统...
+                                        </a>
+                                    </div>
+                                    <div class="news_cont">
+                                        9月24日，省卫生健康委召开全省卫生健康系统中秋国庆假期前后安全生产及秋冬季重点传染病防治工作视频会议，贯彻落实省委、省政府部署要求，研究分析风险挑战...
+                                        <a href='./xwzx/wjyw/202609/t20260924_10227416.shtml' target="_blank">[详细]</a>
+                                    </div>
+                                </div>
+                            
+                            <ul>
+                                
+                                    <li>
+                                        <a href='./xwzx/wjyw/202609/t20260915_10220461.shtml' target="_blank">
+                                            <a href="./xwzx/wjyw/202609/t20260915_10220461.shtml" target="_blank">国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍推动健康中国建设取得决...</a>
+                                        </a><span>
+                                            2026-09-15
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href='./xwzx/wjyw/202609/t20260901_10211513.shtml' target="_blank">
+                                            <a href="./xwzx/wjyw/202609/t20260901_10211513.shtml" target="_blank">省卫生健康委开展第九个“中国医师节”暨观看话剧《生命》主题活动</a>
+                                        </a><span>
+                                            2026-08-24
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href='./xwzx/wjyw/202608/t20260824_10205626.shtml' target="_blank">
+                                            <a href="./xwzx/wjyw/202608/t20260824_10205626.shtml" target="_blank">国家卫生健康委举办推动卫生健康领域“十五五”规划落实培训班</a>
+                                        </a><span>
+                                            2026-08-24
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href='./xwzx/wjyw/202608/t20260820_10203349.shtml' target="_blank">
+                                            <a href="./xwzx/wjyw/202608/t20260820_10203349.shtml" target="_blank">刘国中在天津调研时强调建设优质高效医疗服务体系更好满足人民群众健康需求</a>
+                                        </a><span>
+                                            2026-08-20
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href='./xwzx/wjyw/202608/t20260818_10202239.shtml' target="_blank">
+                                            <a href="./xwzx/wjyw/202608/t20260818_10202239.shtml" target="_blank">​2026年中国医师节致全省医务工作者的慰问信</a>
+                                        </a><span>
+                                            2026-08-18
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href='./xwzx/wjyw/202608/t20260818_10201659.shtml' target="_blank">
+                                            <a href="./xwzx/wjyw/202608/t20260818_10201659.shtml" target="_blank">省政府召开常务会议</a>
+                                        </a><span>
+                                            2026-08-18
+                                        </span>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div class="news_01" style="display: block;">
+                        <ul>
+                            
+
+                                <li>
+                                    <a href='./tzgg/sjzcwj/202610/t20261010_10232784.shtml'
+                                        title='中共中央 国务院关于发展新质生产力的意见' target="_blank">
+                                        <a href="./tzgg/sjzcwj/202610/t20261010_10232784.shtml" target="_blank">中共中央 国务院关于发展新质生产力的意见</a>
+                                    </a><span>
+                                        2026-10-10
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/zcjd/202610/t20261009_10231941.shtml'
+                                        title='【图解】山西省“十五五”规划系列图解之山西省国民健康规划' target="_blank">
+                                        <a href="./tzgg/zcjd/202610/t20261009_10231941.shtml" target="_blank">【图解】山西省“十五五”规划系列图解之山西省国民健康规划</a>
+                                    </a><span>
+                                        2026-10-09
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/zcwj/202610/t20261009_10231933.shtml'
+                                        title='山西省人民政府关于印发山西省“十五五”国民健康规划的通知' target="_blank">
+                                        <a href="./tzgg/zcwj/202610/t20261009_10231933.shtml" target="_blank">山西省人民政府关于印发山西省“十五五”国民健康规划的通知</a>
+                                    </a><span>
+                                        2026-10-09
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/gsgg/202610/t20261008_10231189.shtml'
+                                        title='山西省卫生健康委员会 山西省疾病预防控制局山西省总工会 山西省科学技术协会关于公布2026年山西省健康科普作品征集活动获奖名单的通知' target="_blank">
+                                        <a href="./tzgg/gsgg/202610/t20261008_10231189.shtml" target="_blank">山西省卫生健康委员会 山西省疾病预防控制局山西省总工会 山西省科学技术协会关...</a>
+                                    </a><span>
+                                        2026-10-08
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/zcjd/202610/t20261008_10231108.shtml'
+                                        title='《医疗康复护理扩容提升工程实施方案》政策解读' target="_blank">
+                                        <a href="./tzgg/zcjd/202610/t20261008_10231108.shtml" target="_blank">《医疗康复护理扩容提升工程实施方案》政策解读</a>
+                                    </a><span>
+                                        2026-10-08
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/sjzcwj/202610/t20261008_10231101.shtml'
+                                        title='关于印发医疗康复护理扩容提升工程实施方案的通知' target="_blank">
+                                        <a href="./tzgg/sjzcwj/202610/t20261008_10231101.shtml" target="_blank">关于印发医疗康复护理扩容提升工程实施方案的通知</a>
+                                    </a><span>
+                                        2026-10-08
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/gsgg/202609/t20260929_10229169.shtml'
+                                        title='关于发布山西省卫生健康委员会中医药科技项目（优选）申报指南的通知' target="_blank">
+                                        <a href="./tzgg/gsgg/202609/t20260929_10229169.shtml" target="_blank">关于发布山西省卫生健康委员会中医药科技项目（优选）申报指南的通知</a>
+                                    </a><span>
+                                        2026-09-29
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/gsgg/202609/t20260923_10226540.shtml'
+                                        title='山西省2026年省级临床重点专科名单公示' target="_blank">
+                                        <a href="./tzgg/gsgg/202609/t20260923_10226540.shtml" target="_blank">山西省2026年省级临床重点专科名单公示</a>
+                                    </a><span>
+                                        2026-09-24
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/zcjd/202609/t20260923_10226139.shtml'
+                                        title='《孤独症谱系障碍儿童干预康复指南（2026年版）》文件解读' target="_blank">
+                                        <a href="./tzgg/zcjd/202609/t20260923_10226139.shtml" target="_blank">《孤独症谱系障碍儿童干预康复指南（2026年版）》文件解读</a>
+                                    </a><span>
+                                        2026-09-23
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./tzgg/sjzcwj/202609/t20260923_10226137.shtml'
+                                        title='国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康复指南（2026年版）的通知' target="_blank">
+                                        <a href="./tzgg/sjzcwj/202609/t20260923_10226137.shtml" target="_blank">国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康复指南（2026年版）的通知</a>
+                                    </a><span>
+                                        2026-09-23
+                                    </span>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="news_01" style="display: none;">
+                        <ul>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261010_10232784.shtml'
+                                        title='中共中央 国务院关于发展新质生产力的意见' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261010_10232784.shtml" target="_blank">中共中央 国务院关于发展新质生产力的意见</a>
+                                    </a><span>
+                                        2026-10-10
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261010_10232779.shtml'
+                                        title='中共中央、国务院印发《关于发展新质生产力的意见》' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261010_10232779.shtml" target="_blank">中共中央、国务院印发《关于发展新质生产力的意见》</a>
+                                    </a><span>
+                                        2026-10-10
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261010_10232776.shtml'
+                                        title='谌贻琴在会见第20届亚运会中国体育代表团时强调戒骄戒躁 再接再厉 扎实推进洛杉矶奥运会备战工作' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261010_10232776.shtml" target="_blank">谌贻琴在会见第20届亚运会中国体育代表团时强调戒骄戒躁 再接再厉 扎实推进洛杉矶...</a>
+                                    </a><span>
+                                        2026-10-10
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261010_10232773.shtml'
+                                        title='国庆假期全省道路安全平稳有序' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261010_10232773.shtml" target="_blank">国庆假期全省道路安全平稳有序</a>
+                                    </a><span>
+                                        2026-10-10
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261010_10232771.shtml'
+                                        title='山西不断提升食品安全全链条监管质效' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261010_10232771.shtml" target="_blank">山西不断提升食品安全全链条监管质效</a>
+                                    </a><span>
+                                        2026-10-10
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261009_10231916.shtml'
+                                        title='国庆假期全社会跨区域人员流动量预计21.44亿人次' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261009_10231916.shtml" target="_blank">国庆假期全社会跨区域人员流动量预计21.44亿人次</a>
+                                    </a><span>
+                                        2026-10-09
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261009_10231912.shtml'
+                                        title='山西省青少年开展各类志愿服务1073场' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261009_10231912.shtml" target="_blank">山西省青少年开展各类志愿服务1073场</a>
+                                    </a><span>
+                                        2026-10-09
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261009_10231910.shtml'
+                                        title='山西将启动2026年第三批省本级就业见习岗位报名工作' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261009_10231910.shtml" target="_blank">山西将启动2026年第三批省本级就业见习岗位报名工作</a>
+                                    </a><span>
+                                        2026-10-09
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261008_10231084.shtml'
+                                        title='《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261008_10231084.shtml" target="_blank">《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》</a>
+                                    </a><span>
+                                        2026-10-08
+                                    </span>
+                                </li>
+                            
+                                <li>
+                                    <a href='./xwzx/szyw/202610/t20261008_10231080.shtml'
+                                        title='习近平同文莱苏丹哈桑纳尔就中文建交35周年互致贺电' target="_blank">
+                                        <a href="./xwzx/szyw/202610/t20261008_10231080.shtml" target="_blank">习近平同文莱苏丹哈桑纳尔就中文建交35周年互致贺电</a>
+                                    </a><span>
+                                        2026-10-08
+                                    </span>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <!--<div class="news_01" style="display: none;">
+                        <ul id="dmId">
+                            
+                                <li>
+                                    <a href='./xwzx/wjyw/202401/t20240125_9491030.shtml'
+                                        title='省卫生健康委召开2023年度党组织书记 抓基层党建述职评议考核会议' target="_blank"
+                                        data-itemid="4899916394579627000" data-reqinfo="">
+                                        <a href="./xwzx/wjyw/202401/t20240125_9491030.shtml" target="_blank">省卫生健康委召开2023年度党组织书记 抓基层党建述职评议考核会议</a>
+                                    </a><span>
+                                        2024-01-25
+                                    </span>
+                                </li>
+                            
+
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+            <div class="slidePic">
+                <div id="slide-holder">
+                    <div id="slide-runner">
+                        
+                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202610/t20261008_10231059.shtml'  title='庆祝中华人民共和国成立77周年招待会在京举行习近平发表重要讲话' target="_blank">
+                                <img id="slide-img-31818" src='./sylb/202610/W020261008338955346600_ORIGIN.jpg' alt='./sylb/202610/W020261008338955346600_ORIGIN.jpg' class="slide" />
+                            </a>
+                        
+                        
+                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202608/t20260804_10190037.shtml'  title='中共山西省委十二届十二次全会举行' target="_blank">
+                                <img id="slide-img-31633" src='./sylb/202608/W020260804348589237129_ORIGIN.jpg' alt='./sylb/202608/W020260804348589237129_ORIGIN.jpg' class="slide" />
+                            </a>
+                        
+                        
+                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260716_10177685.shtml'  title='习近平在上海考察时强调 全面践行人民城市理念 高质量推进城市更新' target="_blank">
+                                <img id="slide-img-31503" src='./sylb/202607/W020260716327375210562_ORIGIN.jpg' alt='./sylb/202607/W020260716327375210562_ORIGIN.jpg' class="slide" />
+                            </a>
+                        
+                        
+                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260709_10173563.shtml'  title='习近平出席国家科学技术奖励大会两院院士大会 中国科协第十一次全国代表大会并发表重要讲话' target="_blank">
+                                <img id="slide-img-31502" src='./sylb/202607/W020260709357026933945_ORIGIN.jpg' alt='./sylb/202607/W020260709357026933945_ORIGIN.jpg' class="slide" />
+                            </a>
+                        
+                        
+                            <a href='https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260702_10169465.shtml'  title='庆祝中国共产党成立105周年大会在京隆重举行' target="_blank">
+                                <img id="slide-img-30942" src='./sylb/202607/W020260702670992145957_ORIGIN.jpg' alt='./sylb/202607/W020260702670992145957_ORIGIN.jpg' class="slide" />
+                            </a>
+                        
+                        <div id="slide-controls" style="display:block; ">
+                            <p id="slide-desc" class="text"></p>
+                            <p id="slide-nav"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                div#slide-holder div#slide-controls p#slide-nav a {
+                    background-image: url(./images/silde-nav.png);
+                }
+            </style>
+            <script type="text/javascript">
+                if (!window.slider) {
+                    var slider = {};
+                }
+                slider.data = [  {
+                        "id": "slide-img-31818",
+                        "desc": '庆祝中华人民共和国成立77周年招待会在京举行<br>习近平发表重要讲话'
+                    },   {
+                        "id": "slide-img-31633",
+                        "desc": '中共山西省委十二届十二次全会举行'
+                    },   {
+                        "id": "slide-img-31503",
+                        "desc": '习近平在上海考察时强调 全面践行人民城市理念 高质量推进城市更新'
+                    },   {
+                        "id": "slide-img-31502",
+                        "desc": '习近平出席国家科学技术奖励大会两院院士大会 中国科协第十一次全国代表大会并发表重要讲话'
+                    },   {
+                        "id": "slide-img-30942",
+                        "desc": '庆祝中国共产党成立105周年大会在京隆重举行'
+                    }, 
+                ];
+            </script>
+            <div class="clear"></div>
+            <!--<div style="height:120px;width:1200px;padding:10px 0;position: relative;">
+                <a href='./ztzl/xxgzbdfyyqfk/' style="z-index:100;"
+                    target="_blank">
+                    <img src="./ztzl/xxgzbdfyyqfk/images/P020210812518101788217.jpg" alt="./ztzl/xxgzbdfyyqfk/images/P020210812518101788217.jpg" style="width:1200px;height:120px;border:0;" />
+
+                </a>
+                <span
+                    style="z-index: 1000; position: absolute;right: 20px;bottom: 20px;  color: #fff;text-decoration-line: underline;"><a
+                        href='./ztzl/xxgzbdfyyqfk/' target="_blank"
+                        style=" color: #fff;">点击进入>></a></span>
+            </div>-->
+            <div class="clear"></div>
+			
+			<!-- 公众留言板 -->
+			<!--<div style="height:100px;width:1200px;padding:10px 0; padding-top:0px; position: relative;">
+                <a href='/zwfw/login' style="z-index:100;" target="_blank">
+                    <img src="./images/jbz.jpg" alt="" style="width:1200px;height:100px;border:0;" />
+                </a>
+            </div>-->
+            <div class="clear"></div>
+			<!-- 公众留言板 结束 -->
+			
+			
+			
+			
+            <div class="ztzl" style="height:277px;">
+                <div class="title">
+                    专题专栏
+                    <span class="p-left"></span><span class="p-right"></span>
+                </div>
+                <div class="ztzl-cont">
+                    <ul id="indexTopicMainItem" style="overflow: hidden;width: 100%;height: 200px;">
+                        
+                        
+                        <li style="margin: 0;">
+                            <a href='https://liuyan.www.gov.cn/2021wxzlsjh/bmdf.html?q=sx' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/48631/images/P020210804806517055725.jpg" style="width:364px;height:50px;" /></a>
+                        </li>
+						<!--<li style="margin: 0;">
+                            <a href='https://nhcps.21wecan.com/NHCGCC' target="_blank" style="margin-right:0px;">
+                                <img src="./images/sjycsbxt2024.jpg" style="width:364px;" /></a>
+                        </li>-->
+						<li style="margin: 0;">
+                            <a href='./ztzl/yljgxxgk/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/yljgxxgk/images/P020221229728496323440.png" style="width:364px;height:55px;" /></a>
+                        </li>
+						<li style="margin: 0;">
+                            <a href="http://211.93.168.68:10002/" target="_blank" style="margin-right:0px;">
+                                <img src="./images/wydjfw.png" style="width:364px;height:60px;" /></a>
+                        </li>
+						<!--<li style="margin: 0;">
+                            <a href='./ztzl/lszl/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/lszl/images/P020221129599031521365.png" style="width:364px;height:54px;" /></a>
+                        </li>-->
+                        <!--<li style="margin: 0;">
+                            <a href='./ztzl/sgypkjxycxjh/'
+                                target="_blank" style="margin-right:0px;">
+                                <img src="./ztzl/sgypkjxycxjh/images/P020210804802420888384.jpg" style="width:364px" /></a>
+                        </li>-->
+                        <li style="margin: 0;">
+                            <a href='./djgz/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./images/20da.png" style="width:364px" /></a>
+                        </li>
+                        <li style="margin: 0;">
+                            <a href='./ztzl/xzzfzl/xzxkxzcfgs/'
+                                target="_blank" style="margin-right:0px;">
+                                <img src="./ztzl/xzzfzl/images/P020210805372548002020.png" style="width:364px" /></a>
+                        </li>
+                        <li style="margin: 0;">
+                            <a href='./ztzl/gwyhlwdc/' target="_blank"
+                                style="margin-right:4px;"><img src="./ztzl/gwyhlwdc/images/P020210805376047347264.png" /></a>
+                            <a href='./jlhd/gjzwfwtsyjy/'
+                                target="_blank"><img src="./jlhd/gjzwfwtsyjy/images/P020210805367099364471.jpg" style="width:178px;height:45px;" /></a>
+                        </li>
+                        <li style="margin: 0;">
+                            <!--<a href='./ztzl/wsyjxc/' target="_blank"
+                                style="margin-right:4px;"><img src="./ztzl/wsyjxc/images/P020210805374562959618.png" /></a>-->
+                            <a href='./ztzl/sxswsjkwyhsgsml/'
+                                target="_blank"><img src="./ztzl/sxswsjkwyhsgsml/images/P020210813399714578643.png" /></a>
+							<a href='./ztzl/sxswsjkwyhxzspzjfwsxqd/'
+                                target="_blank"><img src="./ztzl/sxswsjkwyhxzspzjfwsxqd/images/P020210810335471573476.png" />
+                            </a>
+                        </li>
+						<!--<li style="margin: 0;">
+                            <a href='./ztzl/xxgzbdfyyqfk/'
+                                target="_blank" style="margin-right:0px;">
+                                <img src="./ztzl/xxgzbdfyyqfk/images/P020210812518348522936.png" style="width:364px;" /></a>
+                        </li>-->
+                        <!--<li style="margin: 0;">
+                            <a href='./ztzl/shyywstzgggz/'
+                                target="_blank" style="margin-right:4px;"><img src="./ztzl/shyywstzgggz/images/P020210805373325085015.png" /></a>
+                            <a href='./ztzl/sxswsjkwyhxzspzjfwsxqd/'
+                                target="_blank"><img src="./ztzl/sxswsjkwyhxzspzjfwsxqd/images/P020210810335471573476.png" />
+                            </a>
+                        </li>-->
+
+
+
+                        
+                        <li style="margin: 0;">
+                            <a href='https://liuyan.www.gov.cn/2021wxzlsjh/bmdf.html?q=sx' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/48631/images/P020210804806517055725.jpg" style="width:364px;height:60px;" /></a>
+                        </li>
+						<!--<li style="margin: 0;">
+                            <a href='https://nhcps.21wecan.com/NHCGCC' target="_blank" style="margin-right:0px;">
+                                <img src="./images/sjycsbxt2024.jpg" style="width:364px;" /></a>
+                        </li>-->
+						<li style="margin: 0;">
+                            <a href='./ztzl/yljgxxgk/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/yljgxxgk/images/P020221229728496323440.png" style="width:364px;height:60px;" /></a>
+                        </li>
+						<li style="margin: 0;">
+                            <a href="http://211.93.168.68:10002/" target="_blank" style="margin-right:0px;">
+                                <img src="./images/wydjfw.png" style="width:364px;height:60px;" /></a>
+                        </li>
+						<!--<li style="margin: 0;">
+                            <a href='./ztzl/lszl/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/lszl/images/P020221129599031521365.png" style="width:364px;height:54px;" /></a>
+                        </li>-->
+                        <!--<li style="margin: 0;">
+                            <a href='./ztzl/sgypkjxycxjh/'
+                                target="_blank" style="margin-right:0px;">
+                                <img src="./ztzl/sgypkjxycxjh/images/P020210804802420888384.jpg" style="width:364px" /></a>
+                        </li>-->
+                        <li style="margin: 0;">
+                            <a href='./djgz/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./images/20da.png" style="width:364px" /></a>
+                        </li>
+                        <li style="margin: 0;">
+                            <a href='./ztzl/xzzfzl/' target="_blank"
+                                style="margin-right:0px;">
+                                <img src="./ztzl/xzzfzl/images/P020210805372548002020.png" style="width:364px" /></a>
+                        </li>
+                        <li style="margin: 0;">
+                            <a href='./ztzl/gwyhlwdc/' target="_blank"
+                                style="margin-right:4px;"><img src="./ztzl/gwyhlwdc/images/P020210805376047347264.png" /></a>
+                            <a href='./jlhd/gjzwfwtsyjy/'
+                                target="_blank"><img src="./jlhd/gjzwfwtsyjy/images/P020210805367099364471.jpg" style="width:178px;height:45px;" /></a>
+                        </li>
+                        <li style="margin: 0;">
+                            <!--<a href='./ztzl/wsyjxc/' target="_blank"
+                                style="margin-right:4px;"><img src="./ztzl/wsyjxc/images/P020210805374562959618.png" /></a>-->
+                            <a href='./ztzl/sxswsjkwyhsgsml/'
+                                target="_blank"><img src="./ztzl/sxswsjkwyhsgsml/images/P020210813399714578643.png" /></a>
+								<a href='./ztzl/sxswsjkwyhxzspzjfwsxqd/'
+                                target="_blank"><img src="./ztzl/sxswsjkwyhxzspzjfwsxqd/images/P020210810335471573476.png" />
+                            </a>
+                        </li>
+						<!--<li style="margin: 0;">
+                            <a href='./ztzl/xxgzbdfyyqfk/'
+                                target="_blank" style="margin-right:0px;">
+                                <img src="./ztzl/xxgzbdfyyqfk/images/P020210812518348522936.png" style="width:364px;" /></a>
+                        </li>-->
+                        <!--<li style="margin: 0;">
+                            <a href='./ztzl/shyywstzgggz/'
+                                target="_blank" style="margin-right:4px;"><img src="./ztzl/shyywstzgggz/images/P020210805373325085015.png" /></a>
+                            <a href='./ztzl/sxswsjkwyhxzspzjfwsxqd/'
+                                target="_blank"><img src="./ztzl/sxswsjkwyhxzspzjfwsxqd/images/P020210810335471573476.png" />
+                            </a>
+                        </li>-->
+
+                        
+                    </ul>
+                    <div class="topic-button group oflow-hd"> <span id="topicPre" class="left"><i
+                                class="up-narrow"></i>向上翻</span><span id="topicNext" class="right"><i
+                                class="down-narrow"></i>向下翻</span> </div>
+                </div>
+            </div>
+            <div class="demo1" style="height:278px;">
+                <div class="demo1-l" style="height:235px;">
+                    <div class="demobox" style="height:265px;">
+                        <div class="demoIn">
+                            <ul style="display: block;">
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261010_10232860.shtml'
+                                            title='山西省儿童医院在2026年山西省卫生健康系统职业技能竞赛药学（药学门诊方向）技能竞赛中斩获佳绩'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261010_10232860.shtml" target="_blank">山西省儿童医院在2026年山西省卫生健康系统职业技能竞赛药学...</a>
+                                        </a><span>
+                                            2026-10-10
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261010_10232854.shtml'
+                                            title='山西医科大学第一医院开展世界心脏日系列义诊活动'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261010_10232854.shtml" target="_blank">山西医科大学第一医院开展世界心脏日系列义诊活动</a>
+                                        </a><span>
+                                            2026-10-10
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261009_10232065.shtml'
+                                            title='山西省眼科医院近视防控宣讲团赴忻州市外国语小学开展眼健康科普活动'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261009_10232065.shtml" target="_blank">山西省眼科医院近视防控宣讲团赴忻州市外国语小学开展眼健康...</a>
+                                        </a><span>
+                                            2026-10-09
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261009_10232059.shtml'
+                                            title='山西省中医院在太原工人文化宫开展惠民义诊活动'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261009_10232059.shtml" target="_blank">山西省中医院在太原工人文化宫开展惠民义诊活动</a>
+                                        </a><span>
+                                            2026-10-09
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261008_10231402.shtml'
+                                            title='山西医科大学第二医院举办“世界狂犬病日”健康宣教活动'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261008_10231402.shtml" target="_blank">山西医科大学第二医院举办“世界狂犬病日”健康宣教活动</a>
+                                        </a><span>
+                                            2026-10-08
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261008_10231396.shtml'
+                                            title='山西省针灸医院在2026年山西省中药调剂职业技能竞赛中斩获团体一等奖'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261008_10231396.shtml" target="_blank">山西省针灸医院在2026年山西省中药调剂职业技能竞赛中斩获团...</a>
+                                        </a><span>
+                                            2026-10-08
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202610/t20261008_10231393.shtml'
+                                            title='山西医科大学第一医院举办2026年度护理专场专利路演活动'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202610/t20261008_10231393.shtml" target="_blank">山西医科大学第一医院举办2026年度护理专场专利路演活动</a>
+                                        </a><span>
+                                            2026-10-08
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202609/t20260930_10229800.shtml'
+                                            title='山西省儿童医院赴忻州市开展巡回医疗暨适宜技术推广活动'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202609/t20260930_10229800.shtml" target="_blank">山西省儿童医院赴忻州市开展巡回医疗暨适宜技术推广活动</a>
+                                        </a><span>
+                                            2026-09-30
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/wzdt/202609/t20260930_10229797.shtml'
+                                            title='山西省中医院举办“四时承古韵·杏林护安康”秋季中医药文化体验日'
+                                            target="_blank">
+                                            <a href="./xwzx/wzdt/202609/t20260930_10229797.shtml" target="_blank">山西省中医院举办“四时承古韵·杏林护安康”秋季中医药文化...</a>
+                                        </a><span>
+                                            2026-09-30
+                                        </span>
+                                    </li>
+                                
+                            </ul>
+
+                            <ul style="display: block;">
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202610/t20261010_10232851.shtml'
+                                            title='长治医学院附属和平医院召开消化道肿瘤团队专项工作例会'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202610/t20261010_10232851.shtml" target="_blank">长治医学院附属和平医院召开消化道肿瘤团队专项工作例会</a>
+                                        </a><span>
+                                            2026-10-10
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202610/t20261009_10232055.shtml'
+                                            title='晋城市举办2026年健康教育与健康促进培训班'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202610/t20261009_10232055.shtml" target="_blank">晋城市举办2026年健康教育与健康促进培训班</a>
+                                        </a><span>
+                                            2026-10-09
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202610/t20261008_10231391.shtml'
+                                            title='晋中市中医院成功救治一例脑出血合并多器官衰竭危重患者'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202610/t20261008_10231391.shtml" target="_blank">晋中市中医院成功救治一例脑出血合并多器官衰竭危重患者</a>
+                                        </a><span>
+                                            2026-10-08
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202610/t20261008_10231389.shtml'
+                                            title='运城市召开流行季流感疫苗接种工作启动会'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202610/t20261008_10231389.shtml" target="_blank">运城市召开流行季流感疫苗接种工作启动会</a>
+                                        </a><span>
+                                            2026-10-08
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202609/t20260930_10229783.shtml'
+                                            title='晋中市第一人民医院在全省重症医学两项赛事中斩获佳绩'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202609/t20260930_10229783.shtml" target="_blank">晋中市第一人民医院在全省重症医学两项赛事中斩获佳绩</a>
+                                        </a><span>
+                                            2026-09-30
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202609/t20260930_10229780.shtml'
+                                            title='运城市卫生健康委召开2026年中秋国庆假期前后安全生产及秋冬季重点传染病防治工作部署会'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202609/t20260930_10229780.shtml" target="_blank">运城市卫生健康委召开2026年中秋国庆假期前后安全生产及秋冬...</a>
+                                        </a><span>
+                                            2026-09-30
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202609/t20260929_10228996.shtml'
+                                            title='晋中市7家医院11个专科入选“十五五”省级中医优势专科建设单位'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202609/t20260929_10228996.shtml" target="_blank">晋中市7家医院11个专科入选“十五五”省级中医优势专科建设单位</a>
+                                        </a><span>
+                                            2026-09-29
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202609/t20260928_10228180.shtml'
+                                            title='长治医学院附属和平医院举办医学伦理专题讲座'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202609/t20260928_10228180.shtml" target="_blank">长治医学院附属和平医院举办医学伦理专题讲座</a>
+                                        </a><span>
+                                            2026-09-28
+                                        </span>
+                                    </li>
+                                
+                                    <li style="font-size:12px;">
+                                        <a href='./xwzx/sxdt/202609/t20260924_10226872.shtml'
+                                            title='太原市卫生健康委举办托育机构从业人员安全专项急救实操培训'
+                                            target="_blank">
+                                            <a href="./xwzx/sxdt/202609/t20260924_10226872.shtml" target="_blank">太原市卫生健康委举办托育机构从业人员安全专项急救实操培训</a>
+                                        </a><span>
+                                            2026-09-24
+                                        </span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo1-r">
+                    <div class="demo1-line" style="height:236px;">
+                        <div class="demo1-line-b" style="margin-top:107px;"></div>
+                    </div>
+                    <ul>
+                        <li class="noHaver" style="height:80px;">
+                            <a href='http://www.sxzwfw.gov.cn/icity/icity/departmental_matters?deptid=2000'
+                                target="_blank"><img src="./ztzl/37417/images/P020210804737444157494.png" style="width:195px;height:80px; margin-right:10px;margin-top:0;" /></a>
+                        </li>
+                        <li class="active" style="height:80px;">
+                            <a href='./xwzx/wzdt/'
+                                style="height:80px;line-height:80px;" target="_blank"><img src="./xwzx/wzdt/images/P020210804754147848237.png" style="margin-top:10px;" />
+                                <span style="height:80px;line-height:80px;">
+                                    委直动态</span>
+                            </a>
+                        </li>
+                        <li style="height:80px;">
+                            <a href='./xwzx/sxdt/'
+                                style="height:80px;line-height:80px;" target="_blank"><img src="./xwzx/sxdt/images/P020210804754326180412.png" style="margin-top:10px;" /><span style="height:80px;line-height:80px;">
+                                    市县动态</span>
+                            </a>
+                        </li>
+
+                        <!--
+							<li style="border-bottom: none;" class="nodisplay">
+								<a href="javascript:;" style="cursor:default;"><img src="/r/cms/www/english/img/ico_10_1.jpg" /><span style="color:#ccc">对外交流</span>
+								</a>
+							</li>
+							-->
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="yyxt">
+                <div class="yyxt-left" style="width:472px;">
+                    <div class="title">
+                        <img src="./images/yyxttitle.jpg" />
+                    </div>
+                    <div class="yyxtbox" style="width:422px;">
+                        <div class="box" style="width:422px;">
+                            <div class="picbox" style="width:440px;">
+                                <ul class="piclist" style="width:345px;float:left;">
+                                    <li>
+                                        <a href='./ywyl/ztgk/'
+                                            target="_blank"><img src="./ywyl/images/P020210805517747050754.png" style="width:110px;height:30px; margin-right:2px;" /></a>
+                                    </li>
+
+                                    <li>
+                                        <a href='http://1.71.190.144:8089/pmts/webpage/login/entry/pt.html'
+                                            target="_blank"><img src="./ztzl/yyxt/38193/images/P020210804746284855028.png" style="width:110px;height:30px; margin-right:2px;" /></a>
+                                    </li>
+                                    <li>
+                                        <a href='https://sxtjzb.szjkzdzx.cn:8001/irpt/'
+                                            target="_blank"><img src="./ztzl/yyxt/38219/images/P020210804746670606844.png" style="width:110px;height:30px; margin-right:2px;" /></a>
+                                    </li>
+                                    <li>
+                                        <a href='http://218.26.86.124:3000/'
+                                            target="_blank"><img src="./ztzl/yyxt/38254/images/P020210804747087618396.jpg" style="width:110px;height:30px; margin-right:2px;" /></a>
+                                    </li>
+
+                                    <li>
+                                        <a href='http://220.194.147.72:6889/jflow/index.jsp'
+                                            target="_blank"><img src="./ztzl/yyxt/gwcsxt/images/P020210804748850547584.png" style="width:110px;height:30px; margin-right:2px;" /></a>
+                                    </li>
+                                    <li>
+                                        <a href='./ycjrpt/'
+                                            target="_blank"><img src="./ztzl/yyxt/qnbjrcsb/images/P020210804749619969147.png" style="width:110px;height:30px; margin-right:2px;" /></a>
+                                    </li>
+
+                                </ul>
+                                <ul class="piclist" style="width:70px;right:24px;left:unset;">
+                                    <li>
+                                        <a href='http://218.26.86.222:8090/opo-shanxi'
+                                            target="_blank"><img src="./ztzl/yyxt/38524/images/P020210804750099178749.jpg" style="width:70px;height:65px; margin-right:2px;" /></a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yyxt-left" style="width:472px;margin-left:10px;">
+                    <div class="title">
+                        <img src="./images/wzlj.jpg" />
+                    </div>
+                    <div class="yyxtbox" style="width:422px;">
+                        <div class="box" style="width:422px;">
+                            <div class="picbox" style="width:422px;">
+                                <ul class="piclist" style="width:426px;">
+
+                                    <li style="width:138px;float:left;">
+                                        <a href='./sxsawb/gzdt_30399/'
+                                            target="_blank"><img style="width:140px; margin-top: 10px;" src="./sxsawb/images/P020210805517246007973.png" /></a>
+                                    </li>
+                                    <li style="width:138px;margin-left:2px;">
+                                        <a href='http://218.26.86.33:9922/'
+                                        target="_blank"><img src="./ztzl/wzlj/38629/images/P020210804751301162953.png" style="width:140px; margin-top:10px;" /></a>
+                                    </li>
+									<li style="width:138px;margin-left:2px;">
+                                        <a href='https://sxzyys.wsglw.net/HomePublic/PublicIndex'
+                                        target="_blank"><img src="./images/zyyspxxt.jpg" style="width:140px; margin-top: 10px;" /></a>
+                                    </li>									
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tel">
+                    <a href='https://www.sxyygh.com/' target="_blank">
+                        <img src='./ztzl/37279/images/P020210804736058029753.jpg'/></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="demo2">
+                <div class="title">
+                    <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/index_6835.shtml'
+                        target="_blank" class="active" style="padding-left:20px;padding-right:20px;">
+                        专业技术人员办结信息公示</a>
+                    <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/index_6833.shtml'
+                        target="_blank" style="padding-left:20px;padding-right:20px;">
+                        行政处罚公示</a>
+                    <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/index_6834.shtml'
+                        target="_blank" style="padding-left:20px;padding-right:20px;">
+                        行政许可公示</a>
+                    <!--<a href='./zfxxgk/fdzdgknr/xzzz/ylgggs/index_6836.shtml'
+                        target="_blank" style="padding-left:15px;padding-right:15px;">
+                        医疗广告公示</a>-->
+                </div>
+                <ul style="display: block;">
+
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223054.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（刘艳艳）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223054.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（刘艳艳）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223053.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（赵婷）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223053.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（赵婷）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223052.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（魏敏）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223052.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（魏敏）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223051.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（陈张军）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223051.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（陈张军）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221325.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（刘佳雯）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221325.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（刘佳雯）</a>
+                            </a><span>
+                                2026/09/07
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221324.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（曹子莲）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221324.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（曹子莲）</a>
+                            </a><span>
+                                2026/09/07
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221323.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（张竹欣）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221323.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（张竹欣）</a>
+                            </a><span>
+                                2026/09/07
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221321.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（乔颖）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221321.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（乔颖）</a>
+                            </a><span>
+                                2026/09/10
+                            </span>
+                        </li>
+                    
+                        <li style="font-size:12px;">
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221320.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（冯丹）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221320.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（冯丹）</a>
+                            </a><span>
+                                2026/09/10
+                            </span>
+                        </li>
+                    
+<!--
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223051.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（陈张军）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223051.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（陈张军）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223052.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（魏敏）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223052.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（魏敏）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223053.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（赵婷）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223053.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（赵婷）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223054.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（刘艳艳）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260918_10223054.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（刘艳艳）</a>
+                            </a><span>
+                                2026/09/15
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221319.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（丁丽娟）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221319.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（丁丽娟）</a>
+                            </a><span>
+                                2026/09/08
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221320.shtml'
+                                title='从事产前诊断和遗传病诊断的人员资格认定（冯丹）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/yhbjtz/202609/t20260916_10221320.shtml" target="_blank">从事产前诊断和遗传病诊断的人员资格认定（冯丹）</a>
+                            </a><span>
+                                2026/09/08
+                            </span>
+                        </li>
+                    
+-->
+                </ul>
+                <ul>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202505/t20250513_9833228.shtml'
+                                title='山西省心血管病医院' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202505/t20250513_9833228.shtml" target="_blank">山西省心血管病医院</a>
+                            </a><span>
+                                2025/4/30
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648629.shtml'
+                                title='路晓龙' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648629.shtml" target="_blank">路晓龙</a>
+                            </a><span>
+                                2024/9/2
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648641.shtml'
+                                title='张艳' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648641.shtml" target="_blank">张艳</a>
+                            </a><span>
+                                2024/9/2
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648642.shtml'
+                                title='山西医科大学第一医院' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648642.shtml" target="_blank">山西医科大学第一医院</a>
+                            </a><span>
+                                2024/9/2
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648632.shtml'
+                                title='山西白求恩医院（山西医学科学院、华中科技大学同济医学院附属同济医院山西医院、山西医科大学第三医院、山西医科大学第三临床医学院 ）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648632.shtml" target="_blank">山西白求恩医院（山西医学科学院、华中科技大学同...</a>
+                            </a><span>
+                                2024/9/2
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648637.shtml'
+                                title='赵艳丽' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648637.shtml" target="_blank">赵艳丽</a>
+                            </a><span>
+                                2024/9/2
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648630.shtml'
+                                title='郭虹霞' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202409/t20240905_9648630.shtml" target="_blank">郭虹霞</a>
+                            </a><span>
+                                2024/9/2
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202405/t20240520_9563681.shtml'
+                                title='山西省中医药研究院（山西省中医院）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202405/t20240520_9563681.shtml" target="_blank">山西省中医药研究院（山西省中医院）</a>
+                            </a><span>
+                                2024/5/17
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzcfgs/202404/t20240423_9543713.shtml'
+                                title='山西省人民医院（山西医科大学第五医院、山西医科大学第五临床医学院、山西卫生健康职业学院附属医院）' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzcfgs/202404/t20240423_9543713.shtml" target="_blank">山西省人民医院（山西医科大学第五医院、山西医科...</a>
+                            </a><span>
+                                2024/4/16
+                            </span>
+                        </li>
+                    
+                </ul>
+                <ul>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202610/t20261010_10232988.shtml'
+                                title='山西医科大学第一医院' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202610/t20261010_10232988.shtml" target="_blank">山西医科大学第一医院</a>
+                            </a><span id="wjw_jqsj1">2026/09/24</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202610/t20261010_10232987.shtml'
+                                title='山西盈康一生医院有限责任公司' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202610/t20261010_10232987.shtml" target="_blank">山西盈康一生医院有限责任公司</a>
+                            </a><span id="wjw_jqsj2">2026/09/24</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202610/t20261009_10232164.shtml'
+                                title='大同市金盛豪达科技有限责任公司' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202610/t20261009_10232164.shtml" target="_blank">大同市金盛豪达科技有限责任公司</a>
+                            </a><span id="wjw_jqsj3">2026/10/09</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260929_10229083.shtml'
+                                title='运城市疾病预防控制中心' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260929_10229083.shtml" target="_blank">运城市疾病预防控制中心</a>
+                            </a><span id="wjw_jqsj4">2026/09/29</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260929_10229082.shtml'
+                                title='长治市妇幼保健院' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260929_10229082.shtml" target="_blank">长治市妇幼保健院</a>
+                            </a><span id="wjw_jqsj5">2026/09/29</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227328.shtml'
+                                title='晋城市妇幼保健计划生育服务中心' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227328.shtml" target="_blank">晋城市妇幼保健计划生育服务中心</a>
+                            </a><span id="wjw_jqsj6">2026/09/22</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227327.shtml'
+                                title='山西省心血管病医院' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227327.shtml" target="_blank">山西省心血管病医院</a>
+                            </a><span id="wjw_jqsj7">2026/09/20</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227326.shtml'
+                                title='山西省中医药研究院' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227326.shtml" target="_blank">山西省中医药研究院</a>
+                            </a><span id="wjw_jqsj8">2026/09/20</span>
+                        </li>
+                    
+					
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227325.shtml'
+                                title='长治市北大医疗潞安医院有限公司' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/xzzz/xzxkgs/202609/t20260924_10227325.shtml" target="_blank">长治市北大医疗潞安医院有限公司</a>
+                            </a><span id="wjw_jqsj9">2026/09/22</span>
+                        </li>
+                    
+                </ul>
+                <!--<ul>
+                    
+                </ul>-->
+            </div>
+            <div class="demo2">
+                <div class="title">
+                    <a href='./zfxxgk/fdzdgknr/flfg/' class="active"
+                        target="_blank">
+                        法律法规</a>
+                    <a href='./zfxxgk/fdzdgknr/yqfb/' target="_blank" class="">
+                        疫情发布</a>
+                    <a href='./zfxxgk/fdzdgknr/jkzx/' target="_blank">
+                        健康资讯</a>
+                    <a href='./jlhd/dczj/' target="_blank" class="">
+                        调查征集</a>
+                </div>
+                <ul style="display: block;">
+         
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202512/t20251230_10029347.shtml'
+                                title='山西省卫生健康委员会　山西省疾病预防控制局关于印发《卫生健康、疾病预防控制行政检查裁量权基准》的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202512/t20251230_10029347.shtml" target="_blank">山西省卫生健康委员会　山西省疾病预防控制局关于...</a>
+                            </a><span>
+                                2025-12-30
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202512/t20251225_10020117.shtml'
+                                title='山西省卫生健康委员会关于宣布失效和废止部分文件的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202512/t20251225_10020117.shtml" target="_blank">山西省卫生健康委员会关于宣布失效和废止部分文件...</a>
+                            </a><span>
+                                2025-12-25
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202512/t20251208_10009725.shtml'
+                                title='山西省卫生健康委员会关于印发《继续医学教育学分管理办法（试行）》的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202512/t20251208_10009725.shtml" target="_blank">山西省卫生健康委员会关于印发《继续医学教育学分...</a>
+                            </a><span>
+                                2025-12-08
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202510/t20251027_9983297.shtml'
+                                title='山西省卫生健康委员会　山西省公安厅山西省民政厅　山西省疾病预防控制局关于加强医疗机构亡故患者遗体规范处置工作的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202510/t20251027_9983297.shtml" target="_blank">山西省卫生健康委员会　山西省公安厅山西省民政厅...</a>
+                            </a><span>
+                                2025-10-27
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202510/t20251026_9982507.shtml'
+                                title='山西省卫生健康委员会 山西省教育厅关于印发普惠托育服务机构认定管理办法（试行）的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202510/t20251026_9982507.shtml" target="_blank">山西省卫生健康委员会 山西省教育厅关于印发普惠...</a>
+                            </a><span>
+                                2025-10-22
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250929_9969457.shtml'
+                                title='山西省卫生健康委员会关于印发省级专病诊疗技术中心管理办法的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250929_9969457.shtml" target="_blank">山西省卫生健康委员会关于印发省级专病诊疗技术中...</a>
+                            </a><span>
+                                2025-09-29
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250929_9969447.shtml'
+                                title='山西省卫生健康委员会等5部门关于印发医疗机构规范出具《死亡医学证明（推断）书》工作指引的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250929_9969447.shtml" target="_blank">山西省卫生健康委员会等5部门关于印发医疗机构规范...</a>
+                            </a><span>
+                                2025-09-29
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250926_9966656.shtml'
+                                title='山西省卫生健康委员会关于印发《乙类大型医用设备配置准入标准》的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250926_9966656.shtml" target="_blank">山西省卫生健康委员会关于印发《乙类大型医用设备...</a>
+                            </a><span>
+                                2025-09-26
+                            </span>
+                        </li>
+                             
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250919_9961908.shtml'
+                                title='山西省卫生健康委员会关于印发《全省中医类别医师执业范围的规定》和《全省非中医类别医师从事中医药服务的规定》的通知' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/flfg/gfxwj/202509/t20250919_9961908.shtml" target="_blank">山西省卫生健康委员会关于印发《全省中医类别医师...</a>
+                            </a><span>
+                                2025-09-19
+                            </span>
+                        </li>
+                    
+                </ul>
+                <ul style="display: none;">
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202609/t20260907_10215226.shtml'
+                                title='山西省2026年8月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202609/t20260907_10215226.shtml" target="_blank">山西省2026年8月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-09-07
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202608/t20260807_10195043.shtml'
+                                title='山西省2026年7月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202608/t20260807_10195043.shtml" target="_blank">山西省2026年7月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-08-07
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202607/t20260716_10177722.shtml'
+                                title='山西省2026年6月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202607/t20260716_10177722.shtml" target="_blank">山西省2026年6月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-07-16
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202606/t20260611_10144300.shtml'
+                                title='山西省2026年5月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202606/t20260611_10144300.shtml" target="_blank">山西省2026年5月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-06-11
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202605/t20260513_10120862.shtml'
+                                title='山西省2026年4月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202605/t20260513_10120862.shtml" target="_blank">山西省2026年4月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-05-13
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202604/t20260413_10102872.shtml'
+                                title='山西省2026年3月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202604/t20260413_10102872.shtml" target="_blank">山西省2026年3月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-04-13
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202603/t20260312_10078549.shtml'
+                                title='山西省2026年2月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202603/t20260312_10078549.shtml" target="_blank">山西省2026年2月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-03-12
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202602/t20260224_10065463.shtml'
+                                title='山西省2026年1月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202602/t20260224_10065463.shtml" target="_blank">山西省2026年1月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-02-14
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/yqfb/202601/t20260113_10039143.shtml'
+                                title='山西省2025年12月报告法定传染病疫情' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/yqfb/202601/t20260113_10039143.shtml" target="_blank">山西省2025年12月报告法定传染病疫情</a>
+                            </a><span>
+                                2026-01-13
+                            </span>
+                        </li>
+                    
+                </ul>
+                <ul style="display: none;">
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202610/t20261010_10232800.shtml'
+                                title='每一种情绪都值得被看见 | 世界精神卫生日' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202610/t20261010_10232800.shtml" target="_blank">每一种情绪都值得被看见 | 世界精神卫生日</a>
+                            </a><span>
+                                2026-10-10
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202610/t20261009_10232021.shtml'
+                                title='筛查乳腺癌，检查项目越多越好……是真是假？| 谣言终结站' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202610/t20261009_10232021.shtml" target="_blank">筛查乳腺癌，检查项目越多越好……是真是假？| 谣...</a>
+                            </a><span>
+                                2026-10-09
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202610/t20261008_10231151.shtml'
+                                title='如何稳住你的血压？| 全国高血压日' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202610/t20261008_10231151.shtml" target="_blank">如何稳住你的血压？| 全国高血压日</a>
+                            </a><span>
+                                2026-10-08
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202609/t20260930_10229612.shtml'
+                                title='乳牙以后会换，现在龋坏不用治……是真是假？| 谣言终结站' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202609/t20260930_10229612.shtml" target="_blank">乳牙以后会换，现在龋坏不用治……是真是假？| 谣...</a>
+                            </a><span>
+                                2026-09-30
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202609/t20260929_10228859.shtml'
+                                title='读懂心脏的“求救信号” | 世界心脏日' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202609/t20260929_10228859.shtml" target="_blank">读懂心脏的“求救信号” | 世界心脏日</a>
+                            </a><span>
+                                2026-09-29
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202609/t20260928_10228081.shtml'
+                                title='正确认识狂犬病，规范防控不恐慌 | 世界狂犬病日' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202609/t20260928_10228081.shtml" target="_blank">正确认识狂犬病，规范防控不恐慌 | 世界狂犬病日</a>
+                            </a><span>
+                                2026-09-28
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202609/t20260924_10226725.shtml'
+                                title='清淡饮食还发胖？这些“隐形刺客”藏不住了 | 健康素养加油站' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202609/t20260924_10226725.shtml" target="_blank">清淡饮食还发胖？这些“隐形刺客”藏不住了 | 健康...</a>
+                            </a><span>
+                                2026-09-24
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202609/t20260923_10226150.shtml'
+                                title='秋分润燥，5款食养方请收好 | 时令节气与健康' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202609/t20260923_10226150.shtml" target="_blank">秋分润燥，5款食养方请收好 | 时令节气与健康</a>
+                            </a><span>
+                                2026-09-23
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./zfxxgk/fdzdgknr/jkzx/202609/t20260922_10224943.shtml'
+                                title='牙龈出血要停止刷牙或用牙线，等待“自愈”……是真是假？| 谣言终结站' target="_blank">
+                                <a href="./zfxxgk/fdzdgknr/jkzx/202609/t20260922_10224943.shtml" target="_blank">牙龈出血要停止刷牙或用牙线，等待“自愈”……是...</a>
+                            </a><span>
+                                2026-09-22
+                            </span>
+                        </li>
+                    
+                </ul>
+                <ul style="display: none;">
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202607/t20260723_10182630.shtml'
+                                title='山西省卫生健康委员会关于公开征求《食品安全地方标准 代用茶生产卫生规范》意见的公告' target="_blank">
+                                <a href="./jlhd/dczj/202607/t20260723_10182630.shtml" target="_blank">山西省卫生健康委员会关于公开征求《食品安全地方...</a>
+                            </a><span>
+                                2026-07-23
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202605/t20260520_10125865.shtml'
+                                title='山西省卫生健康委员会关于公开征集2026年食药物质目录修订增补和新食品原料申报建议的通告' target="_blank">
+                                <a href="./jlhd/dczj/202605/t20260520_10125865.shtml" target="_blank">山西省卫生健康委员会关于公开征集2026年食药物质...</a>
+                            </a><span>
+                                2026-05-20
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202605/t20260518_10123599.shtml'
+                                title='山西省疾病预防控制局关于公开征求《山西省疾控领域行政处罚裁量基准（2026版）（征求意见稿）》意见的公告' target="_blank">
+                                <a href="./jlhd/dczj/202605/t20260518_10123599.shtml" target="_blank">山西省疾病预防控制局关于公开征求《山西省疾控领...</a>
+                            </a><span>
+                                2026-05-18
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202605/t20260512_10120363.shtml'
+                                title='山西省卫生健康委员会关于征集省科技重大专项项目建议的通知' target="_blank">
+                                <a href="./jlhd/dczj/202605/t20260512_10120363.shtml" target="_blank">山西省卫生健康委员会关于征集省科技重大专项项目...</a>
+                            </a><span>
+                                2026-05-12
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202601/t20260104_10031217.shtml'
+                                title='山西省卫生健康委员会关于征集2026年食品安全地方标准立项建议的通告' target="_blank">
+                                <a href="./jlhd/dczj/202601/t20260104_10031217.shtml" target="_blank">山西省卫生健康委员会关于征集2026年食品安全地方...</a>
+                            </a><span>
+                                2026-01-04
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202508/t20250801_9929117.shtml'
+                                title='山西省卫生健康委员会关于公开征求《食品安全地方标准 食品小作坊卫生规范》意见的公告' target="_blank">
+                                <a href="./jlhd/dczj/202508/t20250801_9929117.shtml" target="_blank">山西省卫生健康委员会关于公开征求《食品安全地方...</a>
+                            </a><span>
+                                2025-08-01
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202506/t20250625_9888630.shtml'
+                                title='山西省卫生健康委员会关于公开征求《山西省2025年食品安全地方标准立项计划（征求意见稿）》意见的公告' target="_blank">
+                                <a href="./jlhd/dczj/202506/t20250625_9888630.shtml" target="_blank">山西省卫生健康委员会关于公开征求《山西省2025年...</a>
+                            </a><span>
+                                2025-06-25
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202502/t20250226_9776536.shtml'
+                                title='山西省卫生健康委员会关于公开征集食药物质目录修订增补和新食品原料申报建议的通告' target="_blank">
+                                <a href="./jlhd/dczj/202502/t20250226_9776536.shtml" target="_blank">山西省卫生健康委员会关于公开征集食药物质目录修...</a>
+                            </a><span>
+                                2025-02-26
+                            </span>
+                        </li>
+                    
+                        <li>
+                            <a href='./jlhd/dczj/202501/t20250127_9760690.shtml'
+                                title='山西省卫生健康委员会关于征集2025年食品安全地方标准立项建议的通告' target="_blank">
+                                <a href="./jlhd/dczj/202501/t20250127_9760690.shtml" target="_blank">山西省卫生健康委员会关于征集2025年食品安全地方...</a>
+                            </a><span>
+                                2025-01-27
+                            </span>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="demo3">
+                <div class="title">
+                    <a href="#" class="active">数据查询服务</a>
+                </div>
+                <ul style="display: block;">
+                    
+                        <li><a href='https://zgcx.nhc.gov.cn/unit'>
+                                全国医疗机构查询</a></li>
+                    
+                        <li><a href='https://zgcx.nhc.gov.cn/doctor'>
+                                医生执业注册信息查询</a></li>
+                    
+                        <li><a href='https://zgcx.nhc.gov.cn/nurse'>
+                                护士执业注册信息查询</a></li>
+                    
+                        <li><a href='./jlhd/sjcxfw/2024gjkscjgs_92017/'>
+                                2026年度全省卫生系列和卫生管理研究专业副高级职称专业考试成绩查询</a></li>
+                    
+                        <li><a href='./jlhd/sjcxfw/hgpxkhhgrycx/'>
+                                护工培训考核合格人员查询</a></li>
+                    
+                        <li><a href='./jlhd/sjcxfw/wzsydwzpks2026/'>
+                                委直事业单位招聘考试查询</a></li>
+                    
+                        <li><a href='http://www.nhc.gov.cn/wjw/wsbzxx/wsbz.shtml'>
+                                卫生计生标准</a></li>
+                    
+				<li><a href='./jlhd/sjcxfw/daxs202411_89451/'>
+                                山西省大学生乡村医生专项计划2025年公开招聘工作人员笔试成绩查询</a></li>
+					
+                </ul>
+            </div>
+
+
+
+            <div class="clear"></div>
+            <div class="yqljpic">
+                <a href='http://www.nhc.gov.cn/' target="_blank"><img src="./34516/images/P020210804752303007346.png" /></a>
+                <a href='http://www.shanxi.gov.cn/' target="_blank"><img src="./34533/images/P020210804752431490735.png" /></a>
+                <a href='http://www.natcm.gov.cn/' target="_blank"><img src="./34551/images/P020260302585143866849.jpg" /></a>
+				<a href='https://www.ndcpa.gov.cn/jbkzzx/index.html' target="_blank"><img src="./89911/images/P020260302585234410253.jpg" /></a>
+            </div>
+
+        </div>
+
+        <div class="footer" style="position:relative;height:175px;">
+    <div class="footerbox">
+        <div style="width:500px;text-align:center;margin:0px auto;">
+            <a onclick="SetHome(window.location)" href="javascript:;"
+                style="color:#000;float:none;text-decoration:none;">设为首页</a> |
+            <a onclick="AddFavorite(window.location,document.title)" href="javascript:;"
+                style="color:#000;float:none;text-decoration:none;">加入收藏</a> |
+            <a href='./lxwm/'
+                style="color:#000;float:none;text-decoration:none;">
+                联系我们</a> |
+            <a href='./wzdt/'
+                style="color:#000;float:none;text-decoration:none;">
+                网站地图</a>
+        </div>
+        <div style="width:640px;text-align:center;margin:0px auto;">
+            <div style="width:570px;text-align:center;margin:0 auto">
+                山西省卫生健康委员会主管<br>
+                备案号：<a href='http://beian.miit.gov.cn/'
+                    style="color:#000;text-decoration:none;" target="_blank">晋ICP备
+                    12000773号</a><br>
+                <img src="./images/gaba.png" align="absmiddle" /><a
+                    style="color:#000;text-decoration:none;"
+                    href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14010702070446' target="_blank">晋公网安备
+                    14010702070446号</a><br>
+                网站标识码：1400000086
+            </div>
+
+        </div>
+    </div>
+    <div style="position:absolute;right:200px;top:30px;">
+        <script type="text/javascript">
+            document.write(unescape(
+                "%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/06/000/0000/60619421/CA060000000606194210004.js' type='text/javascript'%3E%3C/script%3E"
+            ));
+        </script><span id="_ideConac"><a
+                href="https://bszs.conac.cn/sitename?method=show&amp;id=307DDCCCB5180192E053022819AC9628"
+                target="_blank"></a></span>
+        <script src="http://dcs.conac.cn/js/06/000/0000/60619421/CA060000000606194210004.js" type="text/javascript">
+        </script><span id="_ideConac"></span>
+    </div>
+    <div style="position:absolute;right:200px;top:30px;">
+        <script type="text/javascript">
+            document.write(unescape(
+                "%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/06/000/0000/60619421/CA060000000606194210004.js' type='text/javascript'%3E%3C/script%3E"
+            ));
+        </script><span id="_ideConac"><a
+                href="https://bszs.conac.cn/sitename?method=show&amp;id=307DDCCCB5180192E053022819AC9628"
+                target="_blank"><img src="./images/red.png" /></a></span>
+        <script src="http://dcs.conac.cn/js/06/000/0000/60619421/CA060000000606194210004.js" type="text/javascript">
+        </script><span id="_ideConac"></span>
+    </div>
+    <!-- <div style="position:absolute;right:100px;top:10px;"><img src="./images/app_android.png" style="width:100px;" /></div> -->
+    <div style="position:absolute;left:100px;top:45px;">
+		<script id="_jiucuo_" sitecode="1400000086" src="https://zfwzgl.www.gov.cn/exposure/jiucuo.js"></script>
+	</div>
+</div>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5375" async="async" defer="defer"></script>
+
+
+    </div>
+
+
+    <div id="adaaa"
+        style="width: 300px; height: 170px; z-index: 100; right: 2px; top: 675.2px; position: absolute; visibility: visible; display: none; left: 14px;">
+        <a href="javascript:;"
+            style="text-align:right;width:30px;height:30px;display:block;z-index:500;position:absolute;top:0px;right:0;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="padding:0px;margin:0px;width:30px;height:30px">
+                <tbody>
+                    <tr style="padding:0px;margin:0px;width:30px;height:30px">
+                        <td valign="top" align="right" style="padding:0px;margin:0px;width:30px;height:30px"><a
+                                style="CURSOR: hand" onclick="toueme()"><img src="./images/close.png" style="width:25px;height:25px" border="0" /></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </a>
+        <script type="text/javascript" src="./images//adspace.jspx"></script>
+    </div>
+    <script>
+        function toueme() {
+            document.getElementById("adaaa").style.display = "none";
+        }
+        $(document).ready(function () {
+            if ($("#adaaa").children().length < 3) {
+                toueme();
+            }
+        });
+    </script>
+
+
+
+    <script type="text/javascript">
+        var appkey = "UAR-000493_805"; //at
+        var adspot = "sxwsjs"; //推荐位
+        var max_count = "10"; //一屏最大条数
+        var tag = "0"; //标签用于订阅推荐默认值:0
+        var columns = "0"; //栏目用户订阅推荐默认值:0	
+        var url = "https://rev.uar.hubpd.com/recom?appkey=" + appkey + "&adspot=" + adspot +
+            "&max_behot_time=0&max_count=" + max_count + "&tag=" + tag + "&columns=" + columns +
+            "&callback=uarJsonCallback";
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        script.async = true;
+        // Use insertBefore instead of appendChild  to circumvent an IE6 bug.
+        head.appendChild(script);
+
+        function uarJsonCallback(result) {
+            script.onload = script.onreadystatechange = null;
+            if (head && script.parentNode) {
+                head.removeChild(script);
+            }
+            if (result.recomandStatus == 1) {
+                var token = result.token || '';
+                var reclist = document.getElementById('dmId');
+                var html = document.createElement('ul');
+                var rehtml = "";
+                for (var i = 0; i < result.result_list.length; i++) {
+                    var item = result.result_list[i];
+                    rehtml += '<li><a target="_blank" data-itemid="' + item.itemId + '" data-reqinfo="' + item
+                        .req_info + '" href="' + result.result_list[i].clickUrl + '">' + result.result_list[i].title
+                        .substring(0, 34) + '</a> <span>' + item.createTime.substring(0, 4) + '-' + item.createTime
+                        .substring(4, 6) + '-' + item.createTime.substring(6, 8) + '</span> </li>';
+
+
+                }
+                try {
+                    reclist.innerHTML = rehtml; // standards compliant
+                } catch (ex) {
+                    reclist.innerHTML = rehtml; // IE only
+                }
+                var all_li_dom = reclist.getElementsByTagName('a');
+                for (var i = 0; i < all_li_dom.length; i++) {
+                    all_li_dom[i].onclick = function (e) {
+                        var itemid = e.target.getAttribute('data-itemid');
+                        var reqinfo = e.target.getAttribute('data-reqinfo');
+                        var uri = e.target.getAttribute('href');
+                        var tt = e.target.innerText;
+                        var post_data = ['trackAdclk', adspot, itemid, token, reqinfo, uri, tt]
+                        _paq.push(['appkey', appkey]);
+                        _paq.push(post_data);
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        var scroll2 = new ScrollText("indexTopicMainItem", "topicPre", "topicNext", false, 20, true);
+        scroll2.LineHeight = 100;
+    </script>
+
+	<!-- 手机版 -->
+	<div id="wrap" class="clearfix overflow mg-auto">
+<div class="apply-nav overflow mg-auto area" style="background:#fff;">
+    <div class="overflow clearfix apply-top border-bom">
+		<a href="" class="apply-sou" style="margin-left:0.4em;float:left;">搜索</a>
+		<h2>山西省卫生健康委</h2>
+		<a href="" class="apply-pup" style="margin-right:0.4em;float:right;">导航</a>
+    </div>
+    <nav id="menu" class="nd-nav">
+        <ul class="n-index">
+            <li class="menu1"><a href="./">首页</a></li>
+            <li class="menu2"><a href="./zyzn/">主要职能</a></li>
+            <li class="menu3"><a href="./xwzx/">新闻中心</a></li>
+            <li class="menu4"><a href="./gzdt_0/">工作动态</a></li>
+            <li class="menu5"><a href="./zfxxgk/fdzdgknr/jggk/">机构概况</a></li>
+        </ul>
+    </nav>
+    
+    <div class="i-icon mg-auto overflow area clearfix" id="apply-pup-icon" style="display: none;">
+        <nav id="menu2" class="nd-nav">
+            <ul>
+                <li class="menu2"><a href="./tzgg/">通知公告</a></li>
+                <li class="menu1"><a href="./zfxxgk/">信息公开</a></li>
+				<li class="menu2"><a href="./djgz/">党建工作</a></li>
+				<li class="menu2"><a href="./ztzl/">专题专栏</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script type="text/javascript" src="./material/images/com.js"></script> 
+</div>
+	<!--焦点图开始-->
+    <div id="slides" class="slider-focus">
+        <div class="bd">
+            <div class="tempWrap" style="overflow:hidden; position:relative;">
+				<ul style="width: 4480px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition-duration: 0ms; transform: translate(-1280px, 0px) translateZ(0px);">
+					
+					<li style="display: table-cell; vertical-align: top; width: 640px;">
+						<a href="https://wjw.shanxi.gov.cn/xwzx/szyw/202610/t20261008_10231059.shtml">
+							<img src="./sylb/202610/W020261008338955346600_ORIGIN.jpg" style="width:400px;height:280px" />
+						</a>
+					</li>
+					
+					<li style="display: table-cell; vertical-align: top; width: 640px;">
+						<a href="https://wjw.shanxi.gov.cn/xwzx/szyw/202608/t20260804_10190037.shtml">
+							<img src="./sylb/202608/W020260804348589237129_ORIGIN.jpg" style="width:400px;height:280px" />
+						</a>
+					</li>
+					
+					<li style="display: table-cell; vertical-align: top; width: 640px;">
+						<a href="https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260716_10177685.shtml">
+							<img src="./sylb/202607/W020260716327375210562_ORIGIN.jpg" style="width:400px;height:280px" />
+						</a>
+					</li>
+					
+					<li style="display: table-cell; vertical-align: top; width: 640px;">
+						<a href="https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260709_10173563.shtml">
+							<img src="./sylb/202607/W020260709357026933945_ORIGIN.jpg" style="width:400px;height:280px" />
+						</a>
+					</li>
+					
+					<li style="display: table-cell; vertical-align: top; width: 640px;">
+						<a href="https://wjw.shanxi.gov.cn/xwzx/szyw/202607/t20260702_10169465.shtml">
+							<img src="./sylb/202607/W020260702670992145957_ORIGIN.jpg" style="width:400px;height:280px" />
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+        </div>
+        <div class="hd">
+        	<ul><li class="">1</li><li class="on">2</li><li class="">3</li><li class="">4</li><li class="">5</li></ul>
+        </div>
+    </div>
+<div style="height:auto;width:98%;margin:5px auto;">
+					<a href='http://211.93.168.68:10002/' target="_blank">
+					<img src="./images/wydjfw.png" alt="fyyqfkk.jpg" style="width:100%;height:auto;border:0;" />
+					</a>
+<div class="clearfix"></div>
+</div>
+<!--<div style="height:auto;width:98%;margin:5px auto;">
+					<a href='./ztzl/xxgzbdfyyqfk/' target="_blank">
+					<img src="./material/images/fyyqfkk.jpg" alt="fyyqfkk.jpg" style="width:100%;height:auto;border:0;" />
+					</a>
+<div class="clearfix"></div>
+</div>-->
+<div class="clearfix"></div>
+
+<!--新闻中心-->
+    <div class="i-title clearfix area">
+        <h2 style="font-size:18px;"><span>新闻中心</span><a href="./xwzx/">更多&gt;</a></h2>
+    </div>
+    <div class="clearfix">
+        <div class="clearfix tab-con2">
+            <ul class="clearfix">
+                
+				<li>
+                    <a href="./xwzx/wjyw/202609/t20260924_10227416.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">省卫生健康委召开全省卫生健康系统2026年中秋国庆假期前后<br>安全生产及秋冬季重点传染病防治工作视频会议</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-09-24)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wjyw/202609/t20260915_10220461.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">国新办举行“开局起步‘十五五’”系列主题新闻发布会<br>介绍推动健康中国建设取得决定性进展有关情况（文字实录）</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-09-15)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wjyw/202609/t20260901_10211513.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">省卫生健康委开展第九个“中国医师节”暨观看话剧《生命》主题活动</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-08-24)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wjyw/202608/t20260824_10205626.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">国家卫生健康委举办推动卫生健康领域“十五五”规划落实培训班</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-08-24)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wjyw/202608/t20260820_10203349.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">刘国中在天津调研时强调<br>建设优质高效医疗服务体系<br>更好满足人民群众健康需求</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-08-20)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wjyw/202608/t20260818_10202239.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">​2026年中国医师节致全省医务工作者的慰问信</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-08-18)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+            </ul>
+        </div> 
+    </div>
+<!--新闻中心-->
+    
+<!--通知公告-->
+    <div class="i-title clearfix area">
+        <h2 style="font-size:18px;"><span>通知公告</span><a href="./tzgg/">更多&gt;</a></h2>
+    </div>
+    <div class="clearfix">
+        <div class="clearfix tab-con2">
+            <ul class="clearfix">
+                
+                
+				<li>
+                    <a href="./tzgg/sjzcwj/202610/t20261010_10232784.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">中共中央 国务院关于发展新质生产力的意见</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-10)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./tzgg/zcjd/202610/t20261009_10231941.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">【图解】山西省“十五五”规划系列图解之山西省国民健康规划</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-09)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./tzgg/zcwj/202610/t20261009_10231933.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西省人民政府关于印发山西省“十五五”国民健康规划的通知</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-09)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./tzgg/gsgg/202610/t20261008_10231189.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西省卫生健康委员会 山西省疾病预防控制局<br>山西省总工会 山西省科学技术协会<br>关于公布2026年山西省健康科普作品征集活动获奖名单的通知</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./tzgg/zcjd/202610/t20261008_10231108.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">《医疗康复护理扩容提升工程实施方案》政策解读</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./tzgg/sjzcwj/202610/t20261008_10231101.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">关于印发医疗康复护理扩容提升工程实施方案的通知</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+            </ul>
+        </div> 
+    </div>
+<!--通知公告-->
+
+<!--委直动态-->
+    <div class="i-title clearfix area">
+        <h2 style="font-size:18px;"><span>委直动态</span><a href="./xwzx/wzdt/">更多&gt;</a></h2>
+    </div>
+    <div class="clearfix">
+        <div class="clearfix tab-con2">
+            <ul class="clearfix">
+                
+				<li>
+                    <a href="./xwzx/wzdt/202610/t20261010_10232860.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西省儿童医院在2026年山西省卫生健康系统职业技能竞赛药学<br>（药学门诊方向）技能竞赛中斩获佳绩</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-10)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wzdt/202610/t20261010_10232854.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西医科大学第一医院开展世界心脏日系列义诊活动</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-10)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wzdt/202610/t20261009_10232065.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西省眼科医院近视防控宣讲团赴忻州市外国语小学<br>开展眼健康科普活动</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-09)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wzdt/202610/t20261009_10232059.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西省中医院在太原工人文化宫开展惠民义诊活动</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-09)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wzdt/202610/t20261008_10231402.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西医科大学第二医院举办“世界狂犬病日”健康宣教活动</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/wzdt/202610/t20261008_10231396.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">山西省针灸医院在2026年山西省中药调剂职业技能竞赛中<br>斩获团体一等奖</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+            </ul>
+        </div> 
+    </div>
+<!--委直动态-->
+
+<!--市县动态-->
+    <div class="i-title clearfix area">
+        <h2 style="font-size:18px;"><span>市县动态</span><a href="./xwzx/sxdt/">更多&gt;</a></h2>
+    </div>
+    <div class="clearfix">
+        <div class="clearfix tab-con2">
+            <ul class="clearfix">
+                
+				<li>
+                    <a href="./xwzx/sxdt/202610/t20261010_10232851.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">长治医学院附属和平医院召开消化道肿瘤团队专项工作例会</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-10)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/sxdt/202610/t20261009_10232055.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">晋城市举办2026年健康教育与健康促进培训班</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-09)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/sxdt/202610/t20261008_10231391.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">晋中市中医院成功救治一例脑出血合并多器官衰竭危重患者</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/sxdt/202610/t20261008_10231389.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">运城市召开流行季流感疫苗接种工作启动会</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-10-08)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/sxdt/202609/t20260930_10229783.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">晋中市第一人民医院在全省重症医学两项赛事中斩获佳绩</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-09-30)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+				<li>
+                    <a href="./xwzx/sxdt/202609/t20260930_10229780.shtml" class="tab-con-href2 clearfix">
+                        <h4 style="width:100%;">运城市卫生健康委召开2026年中秋国庆假期前后安全生产及<br>秋冬季重点传染病防治工作部署会</h4>
+                        <p style="width:100%;">
+                        	<span style="float:left;">
+                        		<!--<img src="./material/images/liulan.png" title="浏览次数" width="14" height="10" style="margin-right:5px;" />1678-->
+                        	</span>                            
+                        	<i style="float:right;">(2026-09-30)</i>
+                        </p>
+                    </a>                   
+           		</li>
+                
+            </ul>
+        </div> 
+    </div>
+<!--市县动态-->
+
+
+<div style="margin-top:15px;display: block;border-bottom: solid 1px #FFF;border-top: solid 1px #cacaca;text-indent: -9999px;height: 0px;">line</div>
+	<div style="width: 100%; height: 3.8em; line-height: 3.8em; text-align: center; font-size:16px; background:#f0f0f0;">山西省卫生健康委员会</div> </div>
+
+<script src="./material/images/foot.js"></script><div class="gotop" id="gotop" style="display: none;"><div></div></div>
+	<!-- 手机版 结束 -->
+<script>
+$(function(){
+	var wjw_jqsj1=$('#wjw_jqsj1').html();
+	var wjw_jqsj2=$('#wjw_jqsj2').html();
+	var wjw_jqsj3=$('#wjw_jqsj3').html();
+	var wjw_jqsj4=$('#wjw_jqsj4').html();
+	var wjw_jqsj5=$('#wjw_jqsj5').html();
+	var wjw_jqsj6=$('#wjw_jqsj6').html();
+	var wjw_jqsj7=$('#wjw_jqsj7').html();
+	var wjw_jqsj8=$('#wjw_jqsj8').html();
+	var wjw_jqsj9=$('#wjw_jqsj9').html();
+	$('#wjw_jqsj1').html($('#wjw_jqsj1').html().substring(10,0));
+	$('#wjw_jqsj2').html($('#wjw_jqsj2').html().substring(10,0));
+	$('#wjw_jqsj3').html($('#wjw_jqsj3').html().substring(10,0));
+	$('#wjw_jqsj4').html($('#wjw_jqsj4').html().substring(10,0));
+	$('#wjw_jqsj5').html($('#wjw_jqsj5').html().substring(10,0));
+	$('#wjw_jqsj6').html($('#wjw_jqsj6').html().substring(10,0));
+	$('#wjw_jqsj7').html($('#wjw_jqsj7').html().substring(10,0));
+	$('#wjw_jqsj8').html($('#wjw_jqsj8').html().substring(10,0));
+	$('#wjw_jqsj9').html($('#wjw_jqsj9').html().substring(10,0));
+	
+	
+})
+</script>
+
+
+<!-- 飘窗 -->
+<script src="./images/js.js"></script>
+<div id="img1" style="display:none; z-index: 999; background-color: white;  position: absolute; top: 29px; left: 0px; font-size: 0;">
+	<div style="position: relative;">
+		<p class="close_pc" title="点击关闭" style="height:16px; cursor:pointer; text-decoration: none; color: #000; font-size: 12px;position: absolute; top:-12px; right:3px; font-weight:bold;" >关闭</p>
+		<a href="https://wjw.shanxi.gov.cn/djgz/20da/202306/t20230605_8683714.shtml" target="_blank" class="item"><img style="width:250px;" src="./images/brdthd_2023.png" width="" /></a> 
+	</div> 
+</div>
+<script type=text/javascript> 
+var ad1=new AdMove("img1"); 
+ad1.Run(); 
+$('.close_pc').click(function(){
+$('#img1').css("display","none");
+})
+</script>
+<!-- 飘窗 结束 -->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>登录 · 小谷求职</title>
+<link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<style>
+:root{
+  color-scheme:dark;
+  --paper:#0a0a0a; --ink:#f2f2ee; --ink-2:#a3a39e; --ink-3:#6b6b67; --rule:#3d3d3a;
+  --serif:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong",serif;
+  --sans:"PingFang SC","Noto Sans SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  --mono:"SF Mono","IBM Plex Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0; min-height:100%}
+body{background:var(--paper); color:var(--ink); font:15px/1.8 var(--sans); min-height:100dvh; display:grid; grid-template-rows:1fr auto}
+button,input{font:inherit; color:inherit}
+.wrap{display:grid; place-items:center; padding:48px 16px}
+form{width:min(360px,100%)}
+.mark{color:var(--ink); margin-bottom:40px}
+.mark .logo{height:38px; width:auto; display:block}
+h1{margin:0 0 8px; font:700 28px/1.35 var(--serif); letter-spacing:.08em}
+.lead{margin:0 0 40px; color:var(--ink-2); font-size:14px}
+.field{display:block; margin-bottom:22px}
+.field span{display:block; font-size:12px; color:var(--ink-2); letter-spacing:.1em; margin-bottom:4px}
+.field input{width:100%; padding:10px 0; border:0; border-bottom:1.5px solid var(--ink-3); background:transparent;
+  font:16px/1.4 var(--mono); outline:none; border-radius:0}  /* 16px：iOS 聚焦不放大 */
+.field input:focus{border-color:var(--ink)}
+.row{display:flex; gap:14px; align-items:flex-end}
+.row .field{flex:1}
+.ghost{all:unset; cursor:pointer; white-space:nowrap; font-size:13px; padding:8px 12px; border:1px solid var(--rule); border-radius:10px; margin-bottom:22px; transition:background .15s}
+.ghost:hover{background:rgba(242,242,238,.08)}
+.ghost:disabled{color:var(--ink-3); cursor:default; background:none}
+.new{display:none} .new.on{display:block}
+.consent{display:flex; gap:10px; align-items:flex-start; font-size:13px; color:var(--ink-2); margin:4px 0 28px; cursor:pointer}
+.consent input{appearance:none; width:16px; height:16px; border:1.5px solid var(--ink); margin:4px 0 0; flex:none; border-radius:4px; cursor:pointer}
+.consent input:checked{background:var(--ink); box-shadow:inset 0 0 0 3px var(--paper)}
+a{color:var(--ink); text-underline-offset:3px}
+.primary{all:unset; cursor:pointer; display:block; width:100%; box-sizing:border-box; text-align:center; padding:14px;
+  background:var(--ink); color:var(--paper); letter-spacing:.4em; font-size:14px; border-radius:10px}
+.primary:disabled{opacity:.35; cursor:default}
+.msg{min-height:24px; margin-top:16px; font-size:13px}
+.msg.err{color:var(--ink); font-weight:500}
+.hint{color:var(--ink-3); font-size:12px}
+footer{padding:20px 16px calc(20px + env(safe-area-inset-bottom)); text-align:center; font-size:11px; color:var(--ink-3); line-height:1.9}
+footer a{color:var(--ink-3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <form id="form" novalidate>
+    <div class="mark"><svg class="logo" role="img" aria-label="小谷" viewBox="0 0 152 100" fill="currentColor"><path transform="translate(0 25) scale(0.0739)" d="M661 286Q772 331 838.5 386.5Q905 442 935.5 498.0Q966 554 967.5 601.5Q969 649 949.0 679.0Q929 709 895.0 712.0Q861 715 820 682Q812 632 795.0 580.5Q778 529 755.5 478.5Q733 428 706.5 381.0Q680 334 651 292ZM204 270 398 347Q395 354 387.0 360.0Q379 366 360 366Q328 431 281.5 501.5Q235 572 171.5 636.0Q108 700 25 748L18 740Q56 690 86.5 630.5Q117 571 140.0 507.5Q163 444 179.0 383.0Q195 322 204 270ZM436 40 624 57Q623 68 614.5 75.5Q606 83 587 86V803Q587 853 573.5 888.0Q560 923 517.0 944.5Q474 966 386 974Q382 936 374.5 910.5Q367 885 349 867Q331 850 305.5 837.5Q280 825 227 815V803Q227 803 243.0 804.0Q259 805 283.0 806.0Q307 807 333.5 808.0Q360 809 381.5 810.0Q403 811 412 811Q426 811 431.0 806.5Q436 802 436 792Z"/><path transform="translate(76.86 25) scale(0.0739)" d="M549 294Q513 352 457.0 408.5Q401 465 330.5 514.5Q260 564 182.5 604.0Q105 644 25 670L19 659Q85 618 148.5 562.0Q212 506 265.0 443.5Q318 381 354.5 318.5Q391 256 404 203L618 257Q615 268 603.0 274.0Q591 280 564 282Q599 325 649.0 357.0Q699 389 757.5 411.0Q816 433 875.5 447.0Q935 461 988 470V486Q956 496 932.5 519.5Q909 543 895.0 573.0Q881 603 877 632Q802 597 737.5 550.0Q673 503 625.0 439.5Q577 376 549 294ZM572 43Q683 56 753.0 87.0Q823 118 859.0 156.5Q895 195 903.0 232.0Q911 269 897.0 296.5Q883 324 853.5 332.5Q824 341 785 321Q768 285 743.0 247.5Q718 210 688.0 174.5Q658 139 626.5 107.0Q595 75 564 50ZM429 110Q426 117 417.5 121.5Q409 126 391 125Q357 174 308.0 223.5Q259 273 197.5 315.5Q136 358 62 388L55 378Q105 331 145.0 269.5Q185 208 214.0 144.5Q243 81 258 27ZM732 856V884H281V856ZM626 574 693 500 830 605Q825 611 814.5 617.5Q804 624 787 628V937Q787 940 766.0 948.0Q745 956 716.0 963.0Q687 970 662 970H637V574ZM368 930Q368 937 349.5 947.5Q331 958 302.5 966.5Q274 975 244 975H223V574V516L375 574H726V602H368Z"/><g transform="translate(76.86 25) scale(1.1197) translate(-17 -29.92)"><path d="M50 28 q-1 -6 1.5 -11" stroke="currentColor" stroke-width="3.2" fill="none" stroke-linecap="round"/><ellipse cx="42" cy="17" rx="7" ry="4" transform="rotate(-28 42 17)"/><ellipse cx="60" cy="14.5" rx="8.6" ry="4.4" transform="rotate(22 60 14.5)"/></g></svg></div>
+    <h1>登录</h1>
+    <p class="lead" id="lead">内测中，首次登录需要邀请码。新用户送 100 credits。</p>
+
+    <div class="row">
+      <label class="field"><span id="contactLabel">手机号或邮箱</span><input id="contact" inputmode="email" autocomplete="username" required></label>
+      <button class="ghost" type="button" id="send">获取验证码</button>
+    </div>
+    <label class="field"><span>验证码</span><input id="code" inputmode="numeric" autocomplete="one-time-code" maxlength="6"></label>
+
+    <div class="new" id="newBox">
+      <label class="field"><span>邀请码</span><input id="invite" autocapitalize="characters" maxlength="16"></label>
+      <label class="consent"><input type="checkbox" id="consent">
+        <span>我已阅读并同意<a href="/legal/terms" target="_blank">《用户协议》</a>和<a href="/legal/privacy" target="_blank">《隐私政策》</a>，知道小谷会保存我的对话和简历用于提供服务。</span></label>
+    </div>
+
+    <button class="primary" type="submit" id="go">进入</button>
+    <div class="msg" id="msg"></div>
+  </form>
+</div>
+<footer id="footer"></footer>
+
+<script>
+const $ = s => document.querySelector(s);
+let isNew = false, timer = null;
+const say = (t, err) => { $("#msg").textContent = t; $("#msg").className = "msg" + (err ? " err" : ""); };
+const post = (url, body) => fetch(url, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)});
+const track = (name, props) => post("/api/events", {name, props}).catch(() => {});
+
+fetch("/api/me").then(r => { if (r.ok) location.replace("/app"); });
+fetch("/api/meta").then(r => r.json()).then(m => {
+  footer(m);
+  if (m.maintenance) say("小谷暂停服务中：" + (m.maintenance_reason || "请稍后再来"), true);
+  if (!m.signup_open) $("#lead").textContent = "内测名额已满，暂只支持老用户登录。";
+  if (m.phone_only) { $("#contactLabel").textContent = "手机号"; $("#contact").setAttribute("inputmode", "tel"); }
+});
+track("login_view", {});
+
+function footer(m) {
+  const parts = [];
+  if (m.model_filing) parts.push(`生成式人工智能服务：DeepSeek · ${m.model_filing}`);
+  if (m.icp) parts.push(`<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">${m.icp}</a>`);
+  parts.push("回答由 AI 生成，请自行核实");
+  $("#footer").innerHTML = parts.join(" · ");
+}
+
+$("#send").onclick = async () => {
+  const res = await post("/api/auth/code", {contact: $("#contact").value});
+  const body = await res.json();
+  if (!res.ok) return say(body.error, true);
+  isNew = body.new_user;
+  $("#newBox").classList.toggle("on", isNew);
+  say(body.dev_code ? `开发环境验证码：${body.dev_code}` : "验证码已发送，5 分钟内有效");
+  $("#code").focus();
+  let left = 60;
+  $("#send").disabled = true;
+  clearInterval(timer);
+  timer = setInterval(() => {
+    $("#send").textContent = --left > 0 ? `${left} 秒后重发` : "获取验证码";
+    if (left <= 0) { clearInterval(timer); $("#send").disabled = false; }
+  }, 1000);
+};
+
+$("#form").onsubmit = async e => {
+  e.preventDefault();
+  if (isNew && !$("#consent").checked) return say("请先勾选同意用户协议和隐私政策", true);
+  $("#go").disabled = true;
+  const res = await post("/api/auth/verify", {contact: $("#contact").value, code: $("#code").value,
+    invite: $("#invite").value || null, consent: $("#consent").checked});
+  $("#go").disabled = false;
+  if (!res.ok) return say((await res.json()).error, true);
+  location.replace("/app");
+};
+</script>
+</body>
+</html>

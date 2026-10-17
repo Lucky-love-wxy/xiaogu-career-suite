@@ -1,0 +1,529 @@
+{
+  "name": [
+    {
+      "text": "临床协调员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "临床协调员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 13,
+  "excluded": [
+    {
+      "id": "v8U5NNLC5",
+      "url": "https://campus.niuqizp.com/job-v8U5NNLC5.html",
+      "role": "CRC临床协调员|PM项目经理|BD专员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "v8s5ZCCNZ",
+      "url": "https://campus.niuqizp.com/job-v8s5ZCCNZ.html",
+      "role": "临床协调员CRC",
+      "reasons": [
+        "CRC标题下正文为销售医学支持与营销指标；角色错配，隔离不改上游映射"
+      ]
+    },
+    {
+      "id": "manual-role_postings-4",
+      "url": "https://www.zhipin.com/job_detail/b54b25f471617b1f1H1y2Nq-FldR.html",
+      "role": "临床研究协调员（CRC）",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings-5",
+      "url": "https://www.zhipin.com/job_detail/150c57957d726cda0nJ_09W7FFZS.html",
+      "role": "临床研究协调员（CRC）",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings-6",
+      "url": "https://www.zhipin.com/job_detail/d5c1a58bacaf3e510nV629-0E1ZT.html",
+      "role": "临床研究协调员（CRC）",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助筛选、入组和安排随访。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885nazzz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885nazzz",
+          "text": "协助研究者进行试验参与者筛选、入组及随访工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "递交、整理并归档研究文件。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885nazzz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885nazzz",
+          "text": "协助完成文件递交及研究资料的收集、归档和管理工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "协调研究中心与CRA的沟通。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885nazzz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885nazzz",
+          "text": "协助CRA进行研究中心人员的沟通与协调"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "管理试验药品、物资和标本。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8k5NaLNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8k5NaLNL",
+          "text": "协助完成研究药品和物资的管理以及试验标本的管理工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "协助伦理资料和安全报告递交。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8k5NaLNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8k5NaLNL",
+          "text": "协助研究者完成伦理资料递交，以及SAE（严重不良事件）/AE等相关安全报告"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "在带教下完成培训和现场操作学习。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8Y5MZLaa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8Y5MZLaa",
+          "text": "跟着带教老师完成实地操作（ on - site）的学习"
+        },
+        {
+          "evidence_id": "v8Y5MZLaa",
+          "text": "完成培训课程并通过考试"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "一位入职两个月的CRC作者描述：推进患者从筛选到入组，并协调研究者与检查科室。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-crc-20"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-crc-20",
+          "text": "这个病人从筛选到入组，每一步怎么走才能顺"
+        },
+        {
+          "evidence_id": "xhs-crc-20",
+          "text": "PI、Sub-I、研究护士、超声科、检验科"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    },
+    {
+      "text": "另一位作者入职首日先读研究方案，并跟带教老师整理资料。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-crc-1"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-crc-1",
+          "text": "老师一来就让我看研究方案"
+        },
+        {
+          "evidence_id": "xhs-crc-1",
+          "text": "下午还跟老师一起整理资料"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "13份保留的校招平台样本中，2份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "vYkNL5tMC",
+          "vml5MMZ5C"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，3份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 3,
+        "denominator": 13,
+        "matched_ids": [
+          "v8Y5znCza",
+          "vrY5atLtL",
+          "vsy5aZzNz"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，8份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 8,
+        "denominator": 13,
+        "matched_ids": [
+          "v885nazzz",
+          "v8Y5MZLaa",
+          "v8k5NaLNL",
+          "v8r5MLNtL",
+          "v8s5MtZCM",
+          "vY8NLLzLt",
+          "vll5nNann",
+          "vs85MtZnz"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，4份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 4,
+        "denominator": 13,
+        "matched_ids": [
+          "v8Y5MZLaa",
+          "v8s5MtZCM",
+          "vml5MMZ5C",
+          "vs85MtZnz"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，6份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 6,
+        "denominator": 13,
+        "matched_ids": [
+          "v885nazzz",
+          "v8Y5znCza",
+          "v8k5NaLNL",
+          "vY8NLLzLt",
+          "vll5nNann",
+          "vrY5atLtL"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，4份专业类字段为“护理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "护理学类",
+        "n": 4,
+        "denominator": 13,
+        "matched_ids": [
+          "v8Y5znCza",
+          "v8k5NaLNL",
+          "vYkNL5tMC",
+          "vll5nNann"
+        ]
+      }
+    },
+    {
+      "text": "13份保留的校招平台样本中，2份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 2,
+        "denominator": 13,
+        "matched_ids": [
+          "v8k5NaLNL",
+          "v8r5MLNtL"
+        ]
+      }
+    },
+    {
+      "text": "13份保留样本中，6份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885nazzz",
+        "v8Y5MZLaa",
+        "v8Y5znCza",
+        "v8k5NaLNL",
+        "v8r5MLNtL",
+        "v8s5MtZCM",
+        "vY8NLLzLt",
+        "vYkNL5tMC",
+        "vll5nNann",
+        "vml5MMZ5C",
+        "vrY5atLtL",
+        "vs85MtZnz",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 6,
+        "denominator": 13,
+        "matched_ids": [
+          "v885nazzz",
+          "v8s5MtZCM",
+          "vll5nNann",
+          "vrY5atLtL",
+          "vs85MtZnz",
+          "vsy5aZzNz"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "临床协调员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8Y5znCza",
+        "v8r5MLNtL",
+        "vY8NLLzLt"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "临床协调员CRC",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8Y5MZLaa",
+        "vml5MMZ5C"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "临床协调员实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885nazzz",
+        "vll5nNann"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "实习临床协调员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrY5atLtL",
+        "vsy5aZzNz"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "2027届临床协调员CRC",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYkNL5tMC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "CRC临床研究协调员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8k5NaLNL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "临床协调员实习生-云南省肿瘤医院",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vs85MtZnz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "临床协调员实习生-成都公卫",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8s5MtZCM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

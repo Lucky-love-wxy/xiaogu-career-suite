@@ -1,0 +1,162 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_1c801156e5bb",
+  "node": "零售/生活服务 › 安保服务 › 安检员",
+  "family": "零售/生活服务",
+  "parent_id": "零售/生活服务 › 安保服务",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "零售/生活服务 › 安保服务 › 安检员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vly5at5MM",
+      "type": "recruitment_jd",
+      "title": "安检员 （护卫队员）",
+      "company": "广州市金浦社会服务有限公司",
+      "url": "https://campus.niuqizp.com/job-vly5at5MM.html",
+      "date": "2026-09-01",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "值守巡逻门禁，防范隐患，文明执勤并上报突发情况1、身体健康，无慢性病及传染性疾病。          2、工作责任心强、刻苦耐劳、适应半军事化管理生活。3、思想作风正派，无打架、斗殴、偷窃行为及刑事犯罪史，无纹身。4、有下列情形之一的，不得担任护卫队员：①曾被收容教育、强制隔离戒毒、劳动教养或者3次以上行政拘留的；②曾因故意犯罪被刑事处罚的；③被吊销保安员证未满3年的；④曾两次被吊销保安员证的。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vly5at5MM.html",
+      "cache_sha256": "1c63a2e3dd9c190bfc77566f0e69417f9f23ce3c10c22e0df780af61af660857"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "安检员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "安检员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "安检员 （护卫队员）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5at5MM"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5at5MM"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "安检员 （护卫队员）",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vly5at5MM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

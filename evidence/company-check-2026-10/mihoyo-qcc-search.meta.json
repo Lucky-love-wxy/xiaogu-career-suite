@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.588,
+  "access_date": "2026-10-12",
+  "sha256": "3ec1579cc11f33808107ef587850b59ac492178b568b24d31a522fe1d16d8b42",
+  "blocked": null,
+  "id": "mihoyo-qcc-search",
+  "company": "mihoyo",
+  "query": "上海米哈游网络科技股份有限公司 企业 成立日期",
+  "include_domains": [
+    "qcc.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/mihoyo-qcc-search.json"
+}

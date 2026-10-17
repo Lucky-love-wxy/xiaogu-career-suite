@@ -1,0 +1,296 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_efa1134a447e",
+  "node": "销售 › 外贸销售 › 外贸业务员",
+  "family": "销售",
+  "parent_id": "销售 › 外贸销售",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 外贸销售 › 外贸业务员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8l5MMaan",
+      "type": "recruitment_jd",
+      "title": "外贸业务员—英语",
+      "company": "京森红(广东)科技实业有限公司",
+      "url": "https://campus.niuqizp.com/job-v8l5MMaan.html",
+      "date": "2026-09-28",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责\n1、负责光通信产品（光纤跳线、连接器、线缆组件等）海外市场开拓，通过 Google、LinkedIn（领英）、阿里国际站等渠道主动开发海外 B 端客户，利用WhatsApp做客户日常即时沟通维护，挖掘采购需求。\n2、接收海外询盘，独立完成英文商务邮件往来、客户沟通、商务谈判、报价、做 PI、形式发票、装箱单等全套外贸单据制作，跟进样品对接。\n3、订单全流程跟进：确认订单、对接工厂生产进度、跟进出货、物流协调、跟踪收汇，把控订单履约全流程。\n4、维护存量老客户，深度挖掘老客户复购及新增需求，做好客户档案管理，定期复盘客户情况。\n5、收集海外市场行情、竞品信息，输出简单市场反馈，配合业务参加线上线下行业展会。\n6、跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求。\n任职要求\n1、大专及以上学历，国际贸易、商务英语相关专业优先；英语 CET‑6 及以上，读写熟练，可以独立写商务邮件，口语可进行基础业务沟通。\n2、有外贸业务经验优先；优秀应届生亦可考虑，有无光通信经验可以放宽，愿意学习行业产品知识。\n3、熟悉 B2B 外贸业务基本流程，了解 PI、报关、出货基础流程；会使用 WhatsApp、邮件等工具和海外客户沟通。\n4、具备较强抗压能力、目标感，善于沟通，主动开发意识，有耐心，执行力强。\n5、会基础 Office 办公软件。\n公司介绍\n公司名称\n京森红(广东)科技实业有限公司\n所属行业\n通信/电信设备、运营、增值服务\n公司性质\n民营企业\n公司规模\n100-499人\n广东省东莞市科技十路7号（联合金融大厦）15栋511室\n公司官网",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8l5MMaan.html",
+      "cache_sha256": "280d3e5c51ec1af00fbeea799769c7e35cc4b708bd8e753dea90289526d58f30"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "外贸业务员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "外贸业务员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "外贸业务员—英语",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "收集海外市场行情、竞品信息，输出简单市场反馈，配合业务参加线上线下行业展会",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "收集海外市场行情、竞品信息，输出简单市场反馈，配合业务参加线上线下行业展会"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "维护存量老客户，深度挖掘老客户复购及新增需求，做好客户档案管理，定期复盘客户情况",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "维护存量老客户，深度挖掘老客户复购及新增需求，做好客户档案管理，定期复盘客户情况"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责光通信产品（光纤跳线、连接器、线缆组件等）海外市场开拓，通过 Google、LinkedIn（领英）、阿里国际站等渠道主动开发海外 B 端客户，利用WhatsApp做客户日常即时沟通维护，挖掘采购需求",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "负责光通信产品（光纤跳线、连接器、线缆组件等）海外市场开拓，通过 Google、LinkedIn（领英）、阿里国际站等渠道主动开发海外 B 端客户，利用WhatsApp做客户日常即时沟通维护，挖掘采购需求"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [
+    {
+      "text": "负责光通信产品（光纤跳线、连接器、线缆组件等）海外市场开拓，通过 Google、LinkedIn（领英）、阿里国际站等渠道主动开发海外 B 端客户，利用WhatsApp做客户日常即时沟通维护，挖掘采购需求",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "负责光通信产品（光纤跳线、连接器、线缆组件等）海外市场开拓，通过 Google、LinkedIn（领英）、阿里国际站等渠道主动开发海外 B 端客户，利用WhatsApp做客户日常即时沟通维护，挖掘采购需求"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "维护存量老客户，深度挖掘老客户复购及新增需求，做好客户档案管理，定期复盘客户情况",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "维护存量老客户，深度挖掘老客户复购及新增需求，做好客户档案管理，定期复盘客户情况"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8l5MMaan",
+          "text": "跟进客户售后问题，协调内部技术、生产部门处理客户疑问与诉求"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5MMaan"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“外国语言文学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "外国语言文学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5MMaan"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5MMaan"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "外贸业务员—英语",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8l5MMaan"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

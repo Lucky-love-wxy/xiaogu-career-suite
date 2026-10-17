@@ -1,0 +1,32 @@
+{
+  "status": "recovered_cdp_research_partial_budget_exhausted",
+  "as_of": "2026-10-06T14:46:38.216120+08:00",
+  "path": "web-access static WebSearch/WebFetch",
+  "failed_step": "open robots",
+  "error": "Internal Error: URL is not accessible via this tool. No robots body obtained.",
+  "urls": [
+    "https://www.nowcoder.com/robots.txt",
+    "https://www.syneoshealth.com/robots.txt",
+    "https://www.nmpa.gov.cn/robots.txt"
+  ],
+  "obtained": "search candidates only, not adopted as evidence",
+  "recovery": "用户允许同cdp.mjs恢复与脉脉逐页读取；牛客/脉脉公开正文取得。静态失败URL未全部恢复，不视作全站可访问。",
+  "historical_failure": {
+    "path": "web-access static WebSearch/WebFetch",
+    "failed_step": "open robots",
+    "error": "Internal Error: URL is not accessible via this tool. No robots body obtained.",
+    "urls": [
+      "https://www.nowcoder.com/robots.txt",
+      "https://www.syneoshealth.com/robots.txt",
+      "https://www.nmpa.gov.cn/robots.txt"
+    ],
+    "obtained": "search candidates only, not adopted as evidence"
+  },
+  "paid_api": {
+    "successful_requests": 10,
+    "spent_usd": 0.1,
+    "remaining_authorized_usd": 0,
+    "recharge": false
+  },
+  "next": "离线交付与审阅；禁止追加付费API请求，后续须新的明确额度授权。"
+}

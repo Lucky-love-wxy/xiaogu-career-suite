@@ -1,0 +1,436 @@
+{
+  "schema_version": "1.0",
+  "input": {
+    "text": "【模拟数据，虚构公司，非真实招聘】\n公司：示例智能科技（虚构）\n岗位：推荐算法工程师（校招）\n地点：杭州\n薪资：25-40K·15薪\n岗位职责：\n1. 负责信息流推荐系统的召回、排序模型的设计与优化，提升点击率与用户时长；\n2. 参与特征工程与样本构建，处理海量用户行为日志；\n3. 负责线上 A/B 实验的设计与效果分析，推动模型上线；\n4. 跟进业界前沿算法，独立负责模块从0到1落地；\n5. 完成领导交办的其他任务。\n任职要求：\n1. 2027届本科及以上，计算机、数学、统计相关专业；\n2. 熟悉 Python/C++，熟悉 PyTorch 或 TensorFlow；\n3. 有推荐、搜索、广告相关项目或实习经历者优先；\n4. 结果导向，抗压能力强，能适应快速迭代的工作节奏；\n5. 有顶会论文或竞赛获奖者优先。\n福利：弹性工作，不强制加班，免费晚餐，年终奖2-4个月，五险一金。",
+    "extracted_lines": [
+      "【模拟数据，虚构公司，非真实招聘】",
+      "公司：示例智能科技（虚构）",
+      "岗位：推荐算法工程师（校招）",
+      "地点：杭州",
+      "薪资：25-40K·15薪",
+      "岗位职责：",
+      "负责信息流推荐系统的召回、排序模型的设计与优化，提升点击率与用户时长；",
+      "参与特征工程与样本构建，处理海量用户行为日志；",
+      "负责线上 A/B 实验的设计与效果分析，推动模型上线；",
+      "跟进业界前沿算法，独立负责模块从0到1落地；",
+      "完成领导交办的其他任务。",
+      "任职要求：",
+      "2027届本科及以上，计算机、数学、统计相关专业；",
+      "熟悉 Python/C++，熟悉 PyTorch 或 TensorFlow；",
+      "有推荐、搜索、广告相关项目或实习经历者优先；",
+      "结果导向，抗压能力强，能适应快速迭代的工作节奏；",
+      "有顶会论文或竞赛获奖者优先。",
+      "福利：弹性工作，不强制加班，免费晚餐，年终奖2-4个月，五险一金。"
+    ]
+  },
+  "match": {
+    "status": "matched",
+    "selected": {
+      "id": "recommendation-algorithm-engineer",
+      "name": "推荐算法工程师",
+      "confidence": "high",
+      "matched_terms": [
+        "推荐算法工程师",
+        "推荐算法",
+        "数据",
+        "特征",
+        "模型"
+      ],
+      "parent_id": "algorithm-engineer",
+      "hierarchy": [
+        {
+          "id": "engineer",
+          "name": "Engineer"
+        },
+        {
+          "id": "algorithm-engineer",
+          "name": "算法工程师"
+        },
+        {
+          "id": "recommendation-algorithm-engineer",
+          "name": "推荐算法工程师"
+        }
+      ]
+    },
+    "alternatives": [
+      {
+        "id": "algorithm-engineer",
+        "name": "算法工程师",
+        "confidence": "high"
+      }
+    ]
+  },
+  "card": {
+    "plain_language": {
+      "text": "用数据和实验，让用户更容易看到可能喜欢的商品、内容或广告。",
+      "status": "reference",
+      "source": "occupation:recommendation-algorithm-engineer",
+      "confidence": "medium"
+    },
+    "occupation_inference": {
+      "text": "输入最可能对应“推荐算法工程师”。",
+      "status": "inference",
+      "source": "matcher",
+      "confidence": "high"
+    },
+    "jd_facts": [
+      {
+        "text": "【模拟数据，虚构公司，非真实招聘】",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "公司：示例智能科技（虚构）",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "岗位：推荐算法工程师（校招）",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "地点：杭州",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "薪资：25-40K·15薪",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement",
+          "compensation"
+        ]
+      },
+      {
+        "text": "岗位职责：",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "负责信息流推荐系统的召回、排序模型的设计与优化，提升点击率与用户时长；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement",
+          "metrics"
+        ]
+      },
+      {
+        "text": "参与特征工程与样本构建，处理海量用户行为日志；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "负责线上 A/B 实验的设计与效果分析，推动模型上线；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "跟进业界前沿算法，独立负责模块从0到1落地；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement",
+          "decision_rights"
+        ]
+      },
+      {
+        "text": "完成领导交办的其他任务。",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "任职要求：",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "2027届本科及以上，计算机、数学、统计相关专业；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "熟悉 Python/C++，熟悉 PyTorch 或 TensorFlow；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "有推荐、搜索、广告相关项目或实习经历者优先；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "结果导向，抗压能力强，能适应快速迭代的工作节奏；",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "有顶会论文或竞赛获奖者优先。",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement"
+        ]
+      },
+      {
+        "text": "福利：弹性工作，不强制加班，免费晚餐，年终奖2-4个月，五险一金。",
+        "status": "jd_fact",
+        "source": "input",
+        "confidence": "high",
+        "fields": [
+          "input_statement",
+          "working_hours"
+        ]
+      }
+    ],
+    "conflicts": [],
+    "keywords": [
+      {
+        "text": "数据",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "特征",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "模型",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "离线实验",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "线上实验",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      }
+    ],
+    "daily_work": [
+      {
+        "text": "阅读论文和行业方案",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "准备数据和特征",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "训练或调整模型",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "统计实验结果",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "上线并观察业务指标",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      }
+    ],
+    "deliverables": [
+      {
+        "text": "模型",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "特征",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "实验报告",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "线上策略",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [
+      {
+        "text": "点击率",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "转化率",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "留存",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "收入",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "模型延迟",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      }
+    ],
+    "growth": [
+      {
+        "text": "机器学习",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "实验设计",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "数据工程",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      },
+      {
+        "text": "业务理解",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      }
+    ],
+    "risks": [
+      {
+        "text": "实际工作可能大量消耗在数据清洗、特征工程和系统接入，研究新模型只占较少部分",
+        "status": "reference",
+        "source": "occupation:recommendation-algorithm-engineer",
+        "confidence": "medium"
+      }
+    ],
+    "questions": [
+      "数据、特征、模型和工程接入分别约占多少时间？",
+      "主要优化哪个线上指标？",
+      "算法团队是否能独立发起和分析线上实验？"
+    ],
+    "unknowns": [
+      {
+        "text": "JD未披露：team",
+        "status": "unknown",
+        "source": "analyzer",
+        "confidence": "high"
+      },
+      {
+        "text": "JD未披露：promotion",
+        "status": "unknown",
+        "source": "analyzer",
+        "confidence": "high"
+      }
+    ],
+    "unknown_fields": [
+      "team",
+      "promotion"
+    ],
+    "evidence": [
+      {
+        "type": "expert_interview",
+        "title": "推荐算法专家的职业进阶之路",
+        "url": "https://maimai.cn/article/detail?efid=8SbQp4J4-WyuknMAJeBO1g&fid=1706470812",
+        "scope": "推荐算法专家访谈"
+      }
+    ]
+  },
+  "validation_hints": [
+    "存在相邻职业候选，输出时应说明可能的岗位混合。"
+  ]
+}

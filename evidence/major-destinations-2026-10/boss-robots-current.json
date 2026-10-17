@@ -1,0 +1,12 @@
+{
+  "url": "https://www.zhipin.com/robots.txt",
+  "accessed_at": "2026-10-05",
+  "method": "CDP正文读取",
+  "default_rules_relevant": [
+    "Disallow: /*?*",
+    "Disallow: /job_detail/l*.html",
+    "Disallow: /web/geek/recommend*",
+    "Disallow: /web/geek/job-recommend*"
+  ],
+  "observed": "正文可读；本轮仅无查询SEO聚合页及非l开头的无查询详情链接；没有冒用UA。完整生产条款未核验"
+}

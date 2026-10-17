@@ -1,0 +1,187 @@
+{
+  "name": [
+    {
+      "text": "临床医学经理/专员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "临床医学经理/专员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "日常事务支持：完成医学经理交办的各类基础辅助工作，确保医学洞察组工作有序推进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkr5aMnzC",
+        "vy85aMC55"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkr5aMnzC",
+          "text": "日常事务支持：完成医学经理交办的各类基础辅助工作，确保医学洞察组工作有序推进"
+        },
+        {
+          "evidence_id": "vy85aMC55",
+          "text": "日常事务支持：完成医学经理交办的各类基础辅助工作，确保医学洞察组工作有序推进"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "医学培训与支持：协助开展销售团队产品Q&A、疾病知识等基础培训，解答一线销售及临床客户提供的各类医学专业问题",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkr5aMnzC",
+        "vy85aMC55"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkr5aMnzC",
+          "text": "医学培训与支持：协助开展销售团队产品Q&A、疾病知识等基础培训，解答一线销售及临床客户提供的各类医学专业问题"
+        },
+        {
+          "evidence_id": "vy85aMC55",
+          "text": "医学培训与支持：协助开展销售团队产品Q&A、疾病知识等基础培训，解答一线销售及临床客户提供的各类医学专业问题"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责输出能够做出临床差异化优势的临床研究方案并实施",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8m5Mann5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8m5Mann5",
+          "text": "负责输出能够做出临床差异化优势的临床研究方案并实施"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "资料合规管理：负责各类市场推广物料、学术素材、宣讲内容的医学合规审核，核对内容的循证依据、数据准确性，规避学术推广风险",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vy85aMC55"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vy85aMC55",
+          "text": "资料合规管理：负责各类市场推广物料、学术素材、宣讲内容的医学合规审核，核对内容的循证依据、数据准确性，规避学术推广风险"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5aznzN",
+        "v8m5Mann5",
+        "vkr5aMnzC",
+        "vy85aMC55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "v8l5aznzN"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5aznzN",
+        "v8m5Mann5",
+        "vkr5aMnzC",
+        "vy85aMC55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "v8m5Mann5",
+          "vkr5aMnzC",
+          "vy85aMC55"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5aznzN",
+        "v8m5Mann5",
+        "vkr5aMnzC",
+        "vy85aMC55"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "v8l5aznzN",
+          "v8m5Mann5",
+          "vy85aMC55"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医学经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8m5Mann5",
+        "vy85aMC55"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "初级医学经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkr5aMnzC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "助理医学经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5aznzN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=1440">
+		<meta http-equiv="X-UA-Compatible" content="edge" />
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+		<link rel="stylesheet" type="text/css" href="/frontpage/pku/js/swiper-3.4.2.min.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="../css/index.min.css" /> -->
+		<!-- <link rel="stylesheet" type="text/css" href="../css/index_1.min.css" /> -->
+		<link rel="stylesheet" type="text/css" href="/frontpage/pku/css/index_1.css?v=1.2" />
+		<script src="/frontpage/pku/js/j3.js"></script>
+		<script type="text/javascript" src="/frontpage/pku/js/swiper-3.4.2.min.js"></script>
+		<link rel="shortcut icon" href="/frontpage/pku/images/frontPage/favicon.ico" type="image/x-icon">
+		<script src="/frontpage/pku/js/pc_mobile_skip.js"></script>
+		<script type="text/javascript" src="/frontpage/pku/js/init.js?v=4.6"></script>
+		<script type="text/javascript" src="/frontpage/pku/js/artTemplate.js"></script>
+		<script type="text/javascript" src="/frontpage/pku/js/util.js"></script>
+		<script type="text/javascript" src="/frontpage/pku/js/tplt.js"></script>
+		<script src="/frontpage/pku/js/newDateFrontIndex.js"></script>
+		<script type="text/javascript" src="/frontpage/pku/js/index.js?v=1.1"></script>
+		<link rel="stylesheet" href="/frontpage/pku/iconfont/iconfont.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="../css/hb.min.css" /> -->
+		<link rel="stylesheet" type="text/css" href="/frontpage/pku/css/headerCss.css?v=9.23" />
+		<link rel="stylesheet" type="text/css" href="/frontpage/pku/plugins/select2/select2.min.css" />
+		<script type="text/javascript">
+			template.helper('urlAddDomain', function(url) {
+				if (window._config.domain) {
+					return window._config.domain + url;
+				} else {
+					return '/' + url;
+				}
+			});
+			template.helper('typeToName', function(type) {
+				var names = {
+					'3': '空中宣讲会',
+					'4': '视频宣讲会',
+					'5': '校外云宣讲'
+				}
+				return names[type];
+			});
+			template.helper('isNeedShowZBBtn', function(value, user) {
+				if (value.fairType == '3') {
+					var isAllowWatch = $.out(value, 'recruitmentFairVideo.isAllowWatch');
+					var allowRepaly = $.out(value, 'recruitmentFairVideo.allowRepaly');
+					if (isAllowWatch == '1' || allowRepaly == '1') {
+						if (user.loginStatus == '1' && user.userType == '4') {
+							return false;
+						}
+						return true;
+					}
+				}
+				return false;
+			});
+		</script>
+		<style>
+			/* .header3 .nav3>li {
+			width: 108px;
+		}
+
+		.header3 .nav3>li>a {
+			width: 108px;
+		} */
+
+		.topImg_1 {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 29px;
+			height: 29px;
+			background-image: url('/frontpage/pku/images/frontPage/icon_top.png');
+		}
+
+		.page_index .sec_2>.l_con .module_1 .page .list>li {
+			position: relative;
+			/* float: left; */
+			/* padding: 0 18px; */
+			box-sizing: border-box;
+			margin-bottom: 15px;
+			background: #F0F6F0;
+			width: 100%;
+			padding-left: 10px;
+		}
+
+		.list-first-div-date {
+			background: none;
+		}
+
+		.list-first {
+			height: 75px;
+		}
+
+		.page_index {
+			background: rgba(255, 255, 255, 1) !important;
+			    max-width: 1920px;
+			    margin: 0 auto;
+				overflow: hidden;
+		}
+
+		
+		.ab-lunbo {
+			position: absolute;
+			left: 0;
+			bottom: -7px;
+			width: 100%;
+			z-index: 999;
+			height: 200px;
+			/* background: url('/frontpage/pku/images/schoolImg/cuc-ending1.png') no-repeat center center; */
+		}
+
+		.gray-color {
+			position: absolute;
+			left: 0;
+			bottom: -19px;
+			width: 100%;
+			z-index: 99;
+			height: 81px;
+			background-image: linear-gradient(180deg, #e0e6ed 0%, #ecf0f5 57%, #f7f9fc 100%);
+		}
+		.pagination9{
+			position: absolute;
+			bottom: 36px!important;
+			left: 0!important;
+			right: 0!important;
+			display: flex;
+			justify-content: center;
+		}
+		.pagination9 .swiper-pagination-bullet{
+			width: 14px;
+			height: 8px;
+			background: rgba(255,255,255,0.4);
+			border-radius: 4px;
+		}
+		.pagination9 .swiper-pagination-bullet-active{
+			width: 30px;
+			height: 8px;
+			background: #FFFFFF;
+			border-radius: 4px;
+		}
+		#erji_header{
+			position: absolute;
+			    z-index: 1000;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+		}
+		.banner1{
+			margin-top: 115px;
+		}
+		.icon_solid{
+			position: absolute;
+			    width: 0;
+			    height: 2px;
+			    background: #990000;
+			    left: 104px;
+			    bottom: 0;
+			    position: absolute;
+				z-index: 2;
+		}
+		.hot_box{
+					position: absolute;
+					    width: 20px;
+					    height: 20px;
+					    background-color: #C02F2F;
+					    right: 4px;
+					    bottom: 4px;
+						z-index: 2;
+						background-image: url(/frontpage/pku/images/schoolImg/icon-hot-white.png);
+						background-size: 9px 12px;
+						background-position: center;
+						border-radius: 50%;
+						background-repeat: no-repeat;
+				}
+		.information_left .list-first::before{
+			left: 104px;
+			right: initial;
+		}
+	</style>
+	</head>
+
+	<body>
+		<div class="wrapper page_index">
+			<div id="erji_header"></div>
+			<script>
+				$("#erji_header").load("/frontpage/pku/html/erji_header.html?ts=" + new Date().getTime());
+			</script>
+			<div class="body" style="position:relative;">
+				<div id="bannerPlace">
+					<script id="banner" type="text/html">
+						{{if !isEmpty(bannerList)}}
+					<div class="swiper-container10 banner" style="display: none;">
+						<ul class="swiper-wrapper">
+							{{each bannerList as value index}}
+							<li class="swiper-slide">
+								{{if !isEmpty(value.linkurl)}}
+								<a href="{{value.linkurl}}" target="_blank" style="position: relative;display: block;height: 100%;">
+									<img src="{{value.pictureOne}}" class="toe" />
+								</a>
+								{{else}}
+								<a href="" target="_blank" onclick="return false;" style="position: relative;display: block;height: 100%;">
+									<img src="{{value.pictureOne}}" class="toe" />
+								</a>
+								{{/if}}
+							</li>
+							{{/each}}
+						</ul>
+					</div>
+					{{else}}
+					<div class="swiper-container10 banner" style="display: none;">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide">
+								<a href="" onclick="return false;" style="position: relative;display: block;height: 100%;">
+									<img src="/frontpage/pku/images/schoolImg/cuc-home-bann.png" class="toe" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					{{/if}}
+				</script>
+				</div>
+				<div id="banner1Place">
+					<script id="banner1" type="text/html">
+						{{if !isEmpty(bannerList)}}
+						<div class="swiper-container banner1">
+							<ul class="swiper-wrapper">
+								{{each bannerList as value index}}
+								<li class="swiper-slide">
+									{{if !isEmpty(value.linkurl)}}
+									<a href="{{value.linkurl}}" target="_blank" style="position: relative;display: block;height: 100%;">
+										<img src="{{value.pictureOne}}" class="toe" />
+									</a>
+									{{else}}
+									<a href="" target="_blank" onclick="return false;" style="position: relative;display: block;height: 100%;">
+										<img src="{{value.pictureOne}}" class="toe" />
+									</a>
+									{{/if}}
+								</li>
+								{{/each}}
+							</ul>
+							<div class="pagination9"></div>
+						</div>
+						{{else}}
+						<div class="swiper-container banner1">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="" onclick="return false;" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/banner.png" class="toe" />
+									</a>
+								</li>
+							</ul>
+							<div class="pagination9"></div>
+						</div>
+						{{/if}}
+					</script>
+				</div>
+
+				<script language="javascript">
+					function bannerFun() {
+					var bannerNum = {
+						num: 20,
+						type: 'pc_type'
+					}
+					$.ajax({
+						type: 'post',
+						url: $.url('f/ajaxHome/ajax_IndexSwiper'),
+						data: bannerNum,
+						dataType: "json",
+						beforeSend: function (xhr) {
+							//xhr.setRequestHeader("token",window._config.token);
+						},
+						success: function (res) {
+							//console.log(res, '轮播1111')
+							tplt.draw('banner', {
+								bannerList: $.out(res, 'object') || []
+							});
+							// tplt.draw('bannerw', {
+							// 	bannerListw: $.out(res, 'object') || []
+							// });
+							if (parseInt($.IE.getVersion()) < 10) {
+								// var swiper = new Swiper('.swiper-container', {
+								// 	slidesPerView: 1,
+								// 	loop: true,
+								// 	autoplay: 5000,
+								// 	spaceBetween: 10,
+								// 	pagination: '.pagination',
+								// 	paginationClickable: true,
+								// 	autoplayDisableOnInteraction: false,
+								// 	prevButton: '.ri-rr',
+								// 	nextButton: '.ri-ll',
+								// 	on: {
+								// 		slideChangeTransitionEnd: function () {
+								// 			$(".active-num").html(this.realIndex + 1);
+								// 		}
+								// 	},
+								// 	onSlideChangeEnd: function () {
+								// 		if (this.resizeFix) {
+								// 			this.resizeFix();
+								// 		}
+								// 	}
+								// });
+								// swiper.stopAutoplay();
+
+								var swiper = new Swiper('.swiper-container10', {
+									slidesPerView: 1,
+									loop: true,
+									autoplay: 5000,
+									// prevButton: '.ri-rr',
+									// nextButton: '.ri-ll',
+									prevButton: '.swiper-button-next',
+									nextButton: '.swiper-button-prev',
+									onSlideChangeEnd: function () {
+										if (this.resizeFix) {
+											this.resizeFix();
+										}
+									}
+								});
+								// $(".swiper-slide-end-l").html(res.object[0].remarks);
+								swiper.on("transitionEnd", function (e) {
+									//console.log(e, 99999999999999, e.realIndex)
+									var slideIndex = e.realIndex;
+									//console.log("I'm on slide no: " + slideIndex);
+									$(".active-num").html(slideIndex + 1);
+									//console.log(res.object[slideIndex].remarks);
+									// $(".swiper-slide-end-l").html(res.object[slideIndex].remarks);
+								});
+							} else {
+								// var swiper = new Swiper('.swiper-container', {
+								// 	slidesPerView: 'auto',
+								// 	loop: true,
+								// 	autoplay: 5000,
+								// 	spaceBetween: 10,
+								// 	pagination: '.pagination',
+								// 	paginationClickable: true,
+								// 	autoplayDisableOnInteraction: false,
+								// 	prevButton: '.ri-rr',
+								// 	nextButton: '.ri-ll',
+								// 	on: {
+								// 		slideChangeTransitionEnd: function () {
+								// 			$(".active-num").html(this.realIndex + 1);
+								// 		}
+								// 	},
+								// 	onSlideChangeEnd: function () {
+								// 		if (this.resizeFix) {
+								// 			this.resizeFix();
+								// 		}
+								// 	}
+								// });
+								// swiper.stopAutoplay();
+
+								var swiper = new Swiper('.swiper-container10', {
+									slidesPerView: 1,
+									loop: true,
+									// autoplay: 5000,
+									prevButton: '.swiper-button-next',
+									nextButton: '.swiper-button-prev',
+									pagination: '.pagination9',
+									paginationClickable :true,
+								});
+								// $('.banner .pagination .swiper-pagination-switch').on('click',
+								// 	function () {
+								// 		var len = $(this).prevAll('.swiper-pagination-switch').length;
+								// 		swiper.swipeTo(len, 700, false);
+								// 	});
+								// $(".swiper-slide-end-l").html(res.object[0].remarks);
+								swiper.on("transitionEnd", function (e) {
+									// //console.log(e, 99999999999999, e.realIndex)
+									var slideIndex = e.realIndex;
+									// //console.log("I'm on slide no: " + slideIndex);
+									$(".active-num").html(slideIndex + 1);
+									// //console.log(res.object[slideIndex].remarks);
+									// $(".swiper-slide-end-l").html(res.object[slideIndex].remarks);
+								});
+							}
+						},
+						error: function (error) {
+							//console.log("发生错误：" + error)
+						}
+					});
+				}
+			</script>
+				<div class="information">
+					<div class="l_con">
+						<div class="information_left">
+							<div class="information_title">
+								<div class="label_box">
+									<p>消息<span>中心</span></p>
+									<i></i>
+								</div>
+								<!-- <span>INFORMATION</span> -->
+							</div>
+							<ul class="m_tit">
+								<li class="active li1">重点推荐</li>
+								<li class="li2">新闻热点</li>
+								<li class="li3">通知公告</li>
+								<a href="/frontpage/pku/html/recruitmentFairList.html?fairType=1">
+									<li>招聘日历</li>
+								</a>
+								<li class="li4">招聘信息</li>
+								<li class="li5">实习信息</li>
+								<a href="/frontpage/pku/html/college_information.html">
+									<li>职通专区</li>
+								</a>
+							</ul>
+							<ul class="page">
+								<li id="onePlace"></li>
+								<li id="twoPlace"></li>
+								<li id="threePlace"></li>
+								<li id="recruitmentPlace"></li>
+								<li id="practicePlace"></li>
+							</ul>
+							<script type="text/html" id="one">
+								<li class="page_one" style="display: block;">
+								<a class="see_more" href="/frontpage/pku/html/newsList_zdtj.html?id=4e0ccc2319c14e93b1688f229516a3d3" target="_blank">
+									<!-- <div class="see_more-l">MORE</div>
+									<div class="see_more-r"></div> -->
+								</a>
+								<ul class="list">
+									<div class="swiper-container banner3">
+										<ul class="swiper-wrapper">
+											{{each list as value index}}
+												<li class="swiper-slide">
+													{{each value as value1 index1}}
+													<div class="list-first">
+														<a href="{{value1.url}}" target="_blank">
+															<div class="list-first-div">
+																<div class="list-first-div-date">
+																	<div class="list-first-div-date-t">{{dateFormate(value1.releaseDate,'MM-dd')}}</div>
+																	{{if value1.keywords}}
+																		<div class="label_title label_title1">{{value1.keywords}}</div>
+																	{{/if}}
+																</div>
+																<div class="icon_solid"></div>
+																<div class="hot_box"></div>
+																<div class="list-first-div1">
+																	{{value1.title}}
+																</div>	
+															</div>
+														</a>
+													</div>
+													{{/each}}
+												</li>
+											{{/each}}
+										</ul>
+										<div class="pagination3"></div>
+									</div>	
+									<div class="swiper-button-prev3"></div>
+									<div class="swiper-button-next3"></div>
+								</ul>
+									
+								</li>
+							</script>
+							<script type="text/html" id="two">
+								<li class="page_two" style="display: none;">
+									<a class="see_more" href="/frontpage/pku/html/newsList.html?id=13" target="_blank">
+										<!-- <div class="see_more-l">MORE</div><div class="see_more-r"></div> -->
+									</a>
+									<ul class="list">
+										{{each list}}
+										{{if $index < 6}}
+										<li class="list-first">
+											<a href="{{$value.url}}" target="_blank">
+												<div class="list-first-div">
+													<div class="list-first-div-date">
+														<div class="list-first-div-date-t">{{dateFormate($value.releaseDate,'MM-dd')}}</div>
+													</div>
+													<div class="icon_solid"></div>
+													<div class="list-first-div1">
+														{{$value.title}}
+													</div>	
+												</div>
+											</a>
+										</li>
+										{{/if}}
+										{{/each}}
+									</ul>
+								</li>
+							</script>
+							<script type="text/html" id="three">
+								<li class="page_three" style="display: none;">
+									<a class="see_more" href="/frontpage/pku/html/newsList.html?id=12" target="_blank">
+										<!-- <div class="see_more-l">MORE</div><div class="see_more-r"></div> -->
+									</a>
+									<ul class="list">
+										{{each list}}
+										{{if $index < 6}}
+										<li class="list-first">
+											<a href="{{$value.url}}" target="_blank">
+												<div class="list-first-div">
+													<div class="list-first-div-date">
+														<div class="list-first-div-date-t">{{dateFormate($value.releaseDate,'MM-dd')}}</div>
+													</div>
+													<div class="icon_solid"></div>
+													<div class="list-first-div1">
+														{{$value.title}}
+													</div>	
+												</div>
+											</a>
+										</li>
+										{{/if}}
+										{{/each}}
+									</ul>
+								</li>
+							</script>
+							<script type="text/html" id="recruitment">
+								<li class="page_four" style="display: none;">
+									<a class="see_more" href="/frontpage/pku/html/recruitmentinfoList.html?type=1" target="_blank">
+										<!-- <div class="see_more-l">MORE</div><div class="see_more-r"></div> -->
+									</a>
+									<ul class="list">
+										{{each recruitment}}
+										{{if $index < 6}}
+										<li class="list-first">
+											<a href="{{$value.url}}" target="_blank">
+												<div class="list-first-div">
+													<div class="list-first-div-date">
+														<div class="list-first-div-date-t">{{dateFormate($value.startTime,'MM-dd')}}</div>
+													</div>
+													<div class="icon_solid"></div>
+													<div class="list-first-div1">
+														{{$value.title}}
+													</div>	
+												</div>
+											</a>
+										</li>
+										{{/if}}
+										{{/each}}
+									</ul>
+								</li>
+							</script>
+							<script type="text/html" id="practice">
+								<li class="page_five" style="display: none;">
+									<a class="see_more" href="/frontpage/pku/html/recruitmentinfoList.html?type=2" target="_blank">
+										<!-- <div class="see_more-l">MORE</div><div class="see_more-r"></div> -->
+									</a>
+									<ul class="list">
+										{{each practice}}
+										{{if $index < 6}}
+										<li class="list-first">
+											<a href="{{$value.url}}" target="_blank">
+												<div class="list-first-div">
+													<div class="list-first-div-date">
+														<div class="list-first-div-date-t">{{dateFormate($value.startTime,'MM-dd')}}</div>
+													</div>
+													<div class="icon_solid"></div>
+													<div class="list-first-div1">
+														{{$value.title}}
+													</div>	
+												</div>
+											</a>
+										</li>
+										{{/if}}
+										{{/each}}
+									</ul>
+								</li>
+							</script>
+							<script>
+								$(function() {
+									$('.information').on('click', '.information_left .m_tit>.li1', function() {
+										if (!$(this).hasClass('active')) {
+											$(this).parent().find('.active').removeClass('active');
+											var ind = $(this).addClass('active').index();
+											// $('.information .information_left .page>li').hide().eq(ind).fadeIn();
+											$('.information .information_left .page>li').hide();
+											$('.information .information_left .page>#onePlace').show();
+										}
+									});
+									$('.information').on('click', '.information_left .m_tit>.li2', function() {
+										if (!$(this).hasClass('active')) {
+											$(this).parent().find('.active').removeClass('active');
+											var ind = $(this).addClass('active').index();
+											// $('.information .information_left .page>li').hide().eq(ind).fadeIn();
+											$('.information .information_left .page>li').hide();
+											$('.information .information_left .page>#twoPlace').show();
+										}
+									});
+									$('.information').on('click', '.information_left .m_tit>.li3', function() {
+										if (!$(this).hasClass('active')) {
+											$(this).parent().find('.active').removeClass('active');
+											var ind = $(this).addClass('active').index();
+											// $('.information .information_left .page>li').hide().eq(ind).fadeIn();
+											$('.information .information_left .page>li').hide();
+											$('.information .information_left .page>#threePlace').show();
+										}
+									});
+									$('.information').on('click', '.information_left .m_tit>.li4', function() {
+										if (!$(this).hasClass('active')) {
+											$(this).parent().find('.active').removeClass('active');
+											var ind = $(this).addClass('active').index();
+											// $('.information .information_left .page>li').hide().eq(ind).fadeIn();
+											$('.information .information_left .page>li').hide();
+											$('.information .information_left .page>#recruitmentPlace').show();
+										}
+									});
+									$('.information').on('click', '.information_left .m_tit>.li5', function() {
+										if (!$(this).hasClass('active')) {
+											$(this).parent().find('.active').removeClass('active');
+											var ind = $(this).addClass('active').index();
+											// $('.information .information_left .page>li').hide().eq(ind).fadeIn();
+											$('.information .information_left .page>li').hide();
+											$('.information .information_left .page>#practicePlace').show();
+										}
+									});
+									setTimeout(function(){
+										$("body .list-first-div").hover(function(){
+												$(this).find('.icon_solid').stop().animate({width:'456px'});
+											},function(){
+												$(this).find('.icon_solid').stop().animate({width:'0'});
+											});				
+									},1000)
+								});
+							</script>
+						</div>
+					</div>
+
+
+					<script language="javascript">
+						function bannerFun() {
+							var bannerNum = {
+								num: 20,
+								type: 'pc_type'
+							}
+							$.ajax({
+								type: 'post',
+								url: $.url('f/ajaxHome/ajax_IndexSwiper'),
+								data: bannerNum,
+								dataType: "json",
+								beforeSend: function(xhr) {
+									//xhr.setRequestHeader("token",window._config.token);
+								},
+								success: function(res) {
+									//console.log(res, '轮播1111')
+									tplt.draw('banner1', {
+										bannerList: $.out(res, 'object') || []
+									});
+									if (parseInt($.IE.getVersion()) < 10) {
+
+
+										var swiper = new Swiper('.banner1', {
+											slidesPerView: 1,
+											loop: true,
+											autoplay: 5000,
+											// prevButton: '.ri-rr',
+											// nextButton: '.ri-ll',
+											prevButton: '.swiper-button-next',
+											nextButton: '.swiper-button-prev',
+											onSlideChangeEnd: function() {
+												if (this.resizeFix) {
+													this.resizeFix();
+												}
+											}
+										});
+										// $(".swiper-slide-end-l").html(res.object[0].remarks);
+										swiper.on("transitionEnd", function(e) {
+											//console.log(e, 99999999999999, e.realIndex)
+											var slideIndex = e.realIndex;
+											//console.log("I'm on slide no: " + slideIndex);
+											$(".active-num").html(slideIndex + 1);
+											//console.log(res.object[slideIndex].remarks);
+											// $(".swiper-slide-end-l").html(res.object[slideIndex].remarks);
+										});
+									} else {
+
+										var swiper = new Swiper('.banner1', {
+											slidesPerView: 1,
+											loop: true,
+											autoplay: 5000,
+											prevButton: '.swiper-button-next',
+											nextButton: '.swiper-button-prev',
+											pagination: '.pagination9',
+											paginationClickable :true,
+										});
+										// $(".swiper-slide-end-l").html(res.object[0].remarks);
+										swiper.on("transitionEnd", function(e) {
+											var slideIndex = e.realIndex;
+											$(".active-num").html(slideIndex + 1);
+											// $(".swiper-slide-end-l").html(res.object[slideIndex].remarks);
+										});
+									}
+								},
+								error: function(error) {
+									//console.log("发生错误：" + error)
+								}
+							});
+						}
+					</script>
+				</div>
+				<div class="icon_box">
+					<div class="icon_bg">
+						<div class="swiper-container icon_swiper">
+							<ul class="swiper-wrapper">
+								<li class="swiper-slide">
+									<a href="/frontpage/pku/html/newsList.html?id=a1fc5ab013974500ab2ae4b819d063d1" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/img_zdzx.png" class="toe" />
+										<div class="slide_div">指导咨询</div>
+										<div class="hover_div">指导咨询</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="/a/common/student/studentinfo" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/img_bytb.png" class="toe" />
+										<div class="slide_div">毕业填报</div>
+										<div class="hover_div">毕业填报</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="/frontpage/pku/html/xds_index.html" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/img_xds.png" class="toe" />
+										<div class="slide_div">选调生</div>
+										<div class="hover_div">选调生</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="/frontpage/pku/html/gjzz_index.html" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/img_gjzz.png" class="toe" />
+										<div class="slide_div">国际组织</div>
+										<div class="hover_div">国际组织</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="/frontpage/pku/html/download_center.html?id=107393d21a0f40eea93983ba487d8b38" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/img_xzzq.png" class="toe" />
+										<div class="slide_div">下载专区</div>
+										<div class="hover_div">下载专区</div>
+									</a>
+								</li>
+								<li class="swiper-slide">
+									<a href="/frontpage/pku/html/college_information.html" style="position: relative;display: block;height: 100%;">
+										<img src="/frontpage/pku/images/schoolImg/img_gxzp.png" class="toe" />
+										<div class="slide_div">职通专区</div>
+										<div class="hover_div">职通专区</div>
+									</a>
+								</li>
+							</ul>
+							<div class="icon_pagination"></div>
+							<script>
+								if (parseInt($.IE.getVersion()) < 10) {
+									//console.log(123456)
+									$('.icon_swiper .swiper-slide').css({
+										'width':'16%',
+										'marginRight':'0.8%',
+										'float':'left'
+										
+									})
+									$('.icon_swiper .swiper-slide:last-child').css({
+										'marginRight':'0%'
+									})
+									// var swiper = new Swiper('.icon_swiper', {
+									// 	slidesPerView: 'auto',
+									// 	loop: true,
+									// 	autoplay: 5000,
+									// 	spaceBetween:32,
+									// 	pagination: '.icon_pagination',
+									// 	paginationClickable: true,
+									// 	autoplayDisableOnInteraction: false,
+									// 	onSlideChangeEnd: function () {
+									// 		if (this.resizeFix) {
+									// 			this.resizeFix();
+									// 		}
+									// 	}
+									// });
+								} else {
+									
+									//console.log($(window).width())
+									if($(window).width()<1900){
+										//console.log(111)
+										$('.icon_swiper').width(1200);
+										var swiper = new Swiper('.icon_swiper', {
+											slidesPerView: 4,
+											loop: true,
+											autoplay: 2000,
+											spaceBetween:32,
+											pagination: '.icon_pagination',
+											paginationClickable :true,
+										});
+									}else if($(window).width()>1900){
+										//console.log(222)
+										$('.icon_swiper').width(1920);
+										var swiper = new Swiper('.icon_swiper', {
+											slidesPerView: 6,
+											loop: true,
+											autoplay: 2000,
+											spaceBetween:32,
+											pagination: '.icon_pagination',
+											paginationClickable :true,
+										});
+									}
+								}
+							</script>
+						</div>
+					</div>
+				</div>
+				<div id="videoPlace"></div>
+				<script type="text/html" id="video">
+					{{if list!=''}}
+				<div class="video_box">
+					<div class="l_con">
+						<div class="information_title">
+							<div class="label_box">
+								<p>就业<span>风采</span></p>
+								<i></i>
+							</div>
+							<span></span>
+						</div>
+						
+							<ul class="video_list">
+								{{each list}}
+									{{if $index < 3}}
+										<a href="/frontpage/pku/html/video_list.html?id=7e7cf5359e0d4717ab4b621ad6a06e8d&video_id={{$value.id}}">
+											<li>
+												<p class="video_label">{{$value.category.name}}</p>
+												<div class="left_box">
+													{{if $value.imageSrc}}
+														<img src="{{$value.imageSrc}}">
+													{{else}}
+														<img src="/frontpage/pku/images/schoolImg/banner.png">
+													{{/if}}
+													<div class="icon_play"></div>
+												</div>
+												<div class="right_box">
+													<p class="video_title">{{$value.title}}</p>
+													<p class="video_des">{{$value.description}}</p>
+												</div>
+											</li>
+										</a>
+									{{/if}}
+								{{/each}}
+							</ul>
+							<a href="/frontpage/pku/html/video_list.html?id=7e7cf5359e0d4717ab4b621ad6a06e8d" class="see_more"></a>
+						
+						
+					</div>
+				</div>
+			</div>
+			{{/if}}
+			</script>
+			
+				<div id="hzhbPlace"></div>
+				<script type="text/html" id="hzhb">					{{if list!=''}}						<div class="hzhb_box">
+								<div class="l_con">
+									<div class="information_title">
+										<div class="label_box">
+											<p>合作<span>伙伴</span></p>
+											<i style="width: 1020px;"></i>
+										</div>
+										<span></span>
+									</div>
+										<div class="swiper-container swiper_hzhb">
+											<ul class="hzhb_list swiper-wrapper">
+												{{each list}}
+													<a href="{{$value.href}}" target="_blank" class="swiper-slide">
+														<li>
+															<img src="{{$value.image}}" >
+														</li>
+													</a>	
+												{{/each}}
+											</ul>
+										</div>
+								</div>
+							</div>
+						</div>
+					{{/if}}
+				</script>
+			</div>
+
+			<div class="footer_home">
+				<div id="yqljPlace"></div>
+				<script type="text/html" id="yqlj">
+					{{if list!=''}}
+						<div class="yqlj_box">
+								<div class="l_con">
+									<div class="information_title">
+										<div class="label_box">
+											<p>友情<span>链接</span></p>
+											<i style="width: 1020px;"></i>
+										</div>
+										<span></span>
+									</div>
+										<ul class="yqlj_list">
+											{{each list}}
+												{{if $index < 4}}
+													<a href="{{$value.href}}" target="_blank">
+														<li>
+															<img src="{{$value.image}}" >
+														</li>
+													</a>
+												{{/if}}
+											{{/each}}
+										</ul>
+								</div>
+							</div>
+						</div>
+					{{/if}}
+				</script>
+				<div id="footer"></div>
+				<script>
+					$('#footer').load('/frontpage/pku/html/footer.html?v=0406');
+				</script>
+			</div>
+		</div>
+		<!-- <div class="robot-all" id="robot-all">
+			<a href="javascript:void(0)"></a>
+		</div> -->
+		<a href="/f/robot/forwardRobot">
+			<div class="robot_box">
+				<img src="/frontpage/pku/images/schoolImg/icon-qa.png" class="icon-qa" >
+				<span>政策答疑</span>
+			</div>
+		</a>
+		<style>
+			.robot_box{
+				width: 164px;
+				height: 60px;
+				position: fixed;
+				top: 800px;
+				right: -100px;
+				background: url(/frontpage/pku/images/schoolImg/bg-qa-hover.png) no-repeat;
+				background-size: auto 100%;
+				z-index: 1000;
+				padding: 15px 20px;
+				box-sizing: border-box;
+			}
+			.robot_box img{
+				width: 34px;
+				height: 30px;
+				float: left;
+			}
+			.robot_box span{
+				font-family: PingFangSC, PingFang SC;
+				font-weight: 500;
+				font-size: 20px;
+				color: #FFFFFF;
+				margin-left: 10px;
+				float: left;
+			}
+			.robot-all {
+				position: fixed;
+				right: 170px;
+				bottom: 150px;
+				z-index: 11000;
+				width: 156px;
+				height: 199px;
+				z-index: 20000;
+			}
+
+			.robot-all a {
+				width: 100%;
+				height: 100%;
+				background: url(/frontpage/pku/images/schoolImg/img-robot.png) no-repeat;
+				background-size: 100% 100%;
+				display: block;
+			}
+			.robot-all a:hover{
+				background: url(/frontpage/pku/images/schoolImg/img-robot-hover.png) no-repeat;
+				background-size: 100% 100%;
+			}
+		</style>
+		<script>
+			
+			$(".robot_box").hover(function() {
+				$(this).stop().animate({
+					right: '0px'
+				});
+			}, function() {
+				$(this).stop().animate({
+					right: '-100px'
+				});
+			});
+			
+			
+			var startLeft = 0, //定义位置初始变量
+				startTop = 0;
+			window.onload = function() {
+				var img = document.getElementById("robot-all");
+				// dragImg(img);
+			};
+
+			function dragImg(obj) {
+				 
+				obj.onmousedown = function(event) {
+					// 阻止事件冒泡
+					 event.preventDefault();
+					 
+					startLeft = event.clientX; //记录初始位置
+					startTop = event.clientY;
+
+					event = event || window.event;
+					var ox = event.clientX - obj.offsetLeft;
+					var oy = event.clientY - obj.offsetTop;
+					document.onmousemove = function(event) {
+						// 阻止事件冒泡
+						 event.preventDefault();
+						 
+						event = event || window.event;
+						var left = event.clientX - ox;
+						var top = event.clientY - oy;
+						obj.style.left = left + "px";
+						obj.style.top = top + "px";
+					};
+					document.onmouseup = function(event) {
+						// 阻止事件冒泡
+						 event.preventDefault();
+						 
+						document.onmousemove = null;
+						document.onmouseup = null;
+						obj.releaseCapture && obj.releaseCapture();
+					};
+					return false;
+				};
+				obj.onclick = function(e) {
+					// 阻止事件冒泡
+					 e.preventDefault();
+					if (e.clientX !== startLeft || e.clientY !== startTop) {
+						startLeft = 0, //位置发生变化为拖拽
+							startTop = 0;
+						return;
+					} else {
+						//console.log(11111)
+						window.location.href="/f/robot/forwardRobot"
+					}
+				}
+			}
+			// $('.a1').click(function(){
+			// 	window.location.href="/f/robot/forwardRobot"
+			// })
+			// $(document).ready(function() {
+			// 	//console.log($('.banner1'))
+			// 	setTimeout(function() {
+			// 		$('.banner1').animate({
+			// 			right: '0' // End position
+			// 		}, 800); // 1000ms for the animation to complete
+
+
+			// 	}, 500)
+			// });
+			// $(window).scroll(function() {
+			// 	var scrollPosition = $(this).scrollTop();
+			// 	if (scrollPosition >= 50) { // 假设当滚动到500px时
+			// 		$('.img-icons').animate({
+			// 			left: '0' // End position
+			// 		}, 800); // 1000ms for the animation to complete	
+			// 	}
+			// });
+			$(".icon_swiper .swiper-slide").hover(function() {
+				$(this).find('.hover_div').stop().animate({
+					bottom: '0'
+				});
+				$(this).find('.slide_div').stop().animate({
+					bottom: '-80px'
+				});
+			}, function() {
+				$(this).find('.hover_div').stop().animate({
+					bottom: '-80px'
+				});
+				$(this).find('.slide_div').stop().animate({
+					bottom: '0'
+				});
+			});
+
+			var data = {
+				categoryIds: '7e7cf5359e0d4717ab4b621ad6a06e8d'
+			}
+			$.ajax({
+				type: 'post',
+				url: $.url('f/ajaxHome/ajax_movieListByIds'),
+				data: data,
+				dataType: "json",
+				beforeSend: function(xhr) {
+					//xhr.setRequestHeader("token",window._config.token);
+				},
+				success: function(res) {
+					//console.log(res, '视频列表')
+					tplt.draw('video', {
+						list: res.data[0]
+					});
+				},
+				error: function(error) {
+					//console.log("发生错误：" + error)
+				}
+			});
+		</script>
+	</body>
+
+</html>

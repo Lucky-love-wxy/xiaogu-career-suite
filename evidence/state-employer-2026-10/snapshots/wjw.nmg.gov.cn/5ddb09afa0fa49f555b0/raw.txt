@@ -1,0 +1,1480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="renderer" content="webkit">
+<meta name="SiteName" content='内蒙古自治区卫生健康委员会' />
+<meta name="SiteDomain" content="http://wjw.nmg.gov.cn" />
+<meta name="SiteIDCode" content="1500000062" />  
+<title>内蒙古自治区卫生健康委员会</title>
+<link rel="icon" href="./material/images/favicon.gif" type="image/gif" />
+<link rel="stylesheet" href="./material/static_shouye/css/global.css" />
+<link rel="stylesheet" href="./material/static_shouye/css/index.css" />
+<link rel="stylesheet" href="./material/static_shouye/css/hf8-27.css" />
+<link rel="stylesheet" href="./material/static_shouye/css/lunbo.css" />
+
+<script type="text/javascript" src="./material/js/jquery.min.js"></script>
+<script type="text/javascript" src="./material/static_shouye/js/jquery.SuperSlide.2.1.1.js"></script> 
+
+<style type="text/css"> 
+/* 焦点图 */
+.focusBox { float:left; position: relative; width: 725px; height: 483px;overflow: hidden; text-align: left; background:#fff; }
+.focusBox .banner-pic img { width: 725px; height: 483px; display: block; }
+.focusBox .txt-bg { position: absolute; bottom: 0; z-index: 1; height: 60px; width:100%;  background: #333; filter: alpha(opacity=40); opacity: 0.4; overflow: hidden; }
+.focusBox .txt { position: absolute; bottom: 0; z-index: 2; height: 60px; width:100%; overflow: hidden; }
+.focusBox .txt li{ height:60px; line-height:60px; position:absolute; bottom:-2px;}
+.focusBox .txt li a{ display: block; color: white; padding: 0 0 0 20px; font-size: 18px; font-weight: bold; text-decoration: none; }
+.focusBox .num { position: absolute; z-index: 3; bottom: 26px; right: 20px; }
+.focusBox .num li{ float: left; position: relative; width: 12px; height: 12px; line-height: 12px; overflow: hidden; text-align: center; margin-right: 5px; cursor: pointer; border-radius: 50px;}
+.focusBox .num li a,.focusBox .num li span { position: absolute; z-index: 2; display: block; color: white; width: 100%; height: 100%; top: 0; left: 0; text-decoration: none; }
+.focusBox .num li span { z-index: 1; background: white; }
+.focusBox .num li.on a,.focusBox .num a:hover{ background:#2c97dd;  }
+
+ /* 本例子css */
+.focusBox_gbtjtp { position: relative; width: 385px; height: 288px; overflow: hidden;}
+.focusBox_gbtjtp .pic a {width: 100%;height: 100%;display: block;}
+.focusBox_gbtjtp .pic img { width: 385px; height: 288px; display: block; }
+.focusBox_gbtjtp .txt-bg { position: absolute; bottom: 0; z-index: 1; height: 40px; width:100%;  background: #333; filter: alpha(opacity=40); opacity: 0.4; overflow: hidden; }
+.focusBox_gbtjtp .txt { position: absolute; left: 0px; bottom: 0; z-index: 2; height: 40px; width:385px;overflow: hidden; }
+.focusBox_gbtjtp .txt ul {margin: 0;padding:0;list-style: none;overflow: hidden;}
+.focusBox_gbtjtp .txt li{ height:40px; line-height:40px; position:absolute;width: 385px; bottom:-40px;}
+.focusBox_gbtjtp .txt li a{ display: block; color: white; padding: 0 80px 0 10px; font-size: 14px; color: #ffffff; text-decoration: none; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.focusBox_gbtjtp .num { position: absolute; z-index: 3; bottom: 14px; right: 10px; }
+.focusBox_gbtjtp .num li{ float: left; position: relative; width: 10px; height: 10px; overflow: hidden;margin-right: 5px; cursor: pointer;}
+.focusBox_gbtjtp .num li a { position: absolute; z-index: 2; display: block; background: #ffffff; width: 100%; height: 100%; top: 0; left: 0; text-decoration: none; border-radius: 50px;}
+
+.focusBox_gbtjtp .num li.on a,.focusBox_gbtjtp .num a:hover{ background:#f60;  }
+.focusBox_gbtjtp .prev, .focusBox_gbtjtp .next { position: absolute; width: 20px;height:45px;line-height: 45px; z-index: 30; display: block; }
+.focusBox_gbtjtp .prev { top: 50%;margin-top: -10px; left: 5px; }
+.focusBox_gbtjtp .next { top: 50%;margin-top: -10px; right: 5px; }
+.focusBox_gbtjtp .prev a, .focusBox_gbtjtp .next a { display: block; width: 20px; height: 45px; overflow: hidden; background: url(./material/static_shouye/images/prev.png) no-repeat scroll center; _background-image: url(./material/static_shouye/images/prev.png); }
+.focusBox_gbtjtp .prev a { background: url(/static_shouye/images/prev.png) no-repeat scroll 0 0; }
+.focusBox_gbtjtp .prev a:hover { /* background-position: 0 -40px;  */}
+.focusBox_gbtjtp .next a { background: url(/static_shouye/images/next.png) no-repeat scroll 0 0; }
+.focusBox .next a:hover { background-position: 0 -120px; }
+
+/*文件通知轮播图*/
+.text-scroll {width: 383px;height: 90px;overflow: hidden;}
+.scroll_btn {float: right;margin-top： 10px;}
+.scroll_btn a { width: 8px; height: 8px; display: block; float: left; background: url("./material/static_shouye/images/scroll_btn_bg.jpg") no-repeat; margin-right: 6px; _display: inline; cursor: pointer;border-radius: 50px;}
+.scroll_btn a:hover, .scroll_btn a.on {background: url("./material/static_shouye/images/scroll_btn_on.jpg") no-repeat;}
+
+/* 健康大学新课预告 */
+.g-cjkdx{width:385px; height:320px; position:fixed; right:0; bottom:10px;}
+.m-cjkdxn{width:385px; height:80px; text-align:center;}
+.m-cxkyg{ width:383px; height:236px; border:#dedede 1px solid; border-top:#3f89ec 3px solid;  background-color:#fff;}
+.m-cjkdxxkyg{ width:383px; height:43px; }
+.u-cxkygwz{ display:block; width:350px;  height:43px; line-height:43px; color:#1764ca; padding-left:5px;}
+.u-cgb{display:block; width:13px; height:12px; padding:15px 6px;}
+.u-cxktp{display:block; width:383px; height:194px;}
+.u-cxktp img{width:100%; height:100%;}
+/*健康大学新课预告 */
+
+/*首页视频切换效果 */
+    .video-focusBox { float:left; position: relative; width: 385px; height: 218px; overflow: hidden; font-family:Arial; text-align: left; background:#fff; }
+    .video-focusBox .pic img { width: 385px; height: 218px; display: block; }
+    .video-focusBox .txt-bg { position: absolute; bottom: 0; z-index: 1; height: 36px; width:100%;  background: #333; filter: alpha(opacity=40); opacity: 0.4; 
+      overflow: hidden;}
+    .video-focusBox .txt { position: absolute; bottom: 0; z-index: 2; height: 36px; width:280px; overflow: hidden; }
+    .video-focusBox .txt li{ height:36px; line-height:36px; position:absolute; bottom:-36px;}
+    .video-focusBox .txt li a{ display: block; width: 270px; color: white; padding: 0 0 0 10px; font-size: 12px; font-weight: bold; text-decoration: none;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; }
+    .video-focusBox .num { position: absolute; z-index: 3; bottom: 8px; right: 8px; }
+    .video-focusBox .num li{ float: left; position: relative; width: 18px; height: 15px; line-height: 15px; overflow: hidden; text-align: center; margin-right: 3px; cursor: pointer; }
+    .video-focusBox .num li a,.video-focusBox .num li span { position: absolute; z-index: 2; display: block; color: white; width: 100%; height: 100%; top: 0; left: 0; text-decoration: none; }
+    .video-focusBox .num li span { z-index: 1; background: black; filter: alpha(opacity=50); opacity: 0.5; }
+    .video-focusBox .num li.on a,.video-focusBox .num a:hover{ background:#2c97dd;  }
+/*首页视频切换效果 */
+
+.xj_20d,.g-mgbdoc,.m-cgbhn,.c_footer,.xj_nb,.c_topup,.c_topin,.wxf_search_new,.c_topnav
+{
+	FILTER:gray;
+	-webkit-filter: grayscale(0);
+}
+
+</style>
+<!-- 全国性哀悼活动 --> 
+<script>
+ function addCssByStyle(cssString){ 
+  var doc=document; 
+  var style=doc.createElement("style"); 
+     style.setAttribute("type", "text/css"); 
+     if(style.styleSheet){// IE 
+        style.styleSheet.cssText = cssString; 
+     } else {// w3c 
+        var cssText = doc.createTextNode(cssString); 
+        style.appendChild(cssText); 
+     } 
+     var heads = doc.getElementsByTagName("head"); 
+     if(heads.length){
+        heads[0].appendChild(style);
+     } else {
+        doc.documentElement.appendChild(style); 
+     }        
+   }
+  
+ var startTime = new Date().getTime();
+    if(startTime > 1585929600000 && startTime < 1586015999000){
+    var styleStr = 'html{ filter: grayscale(0); -webkit-filter: grayscale(0); -moz-filter: grayscale(0); -ms-filter: grayscale(0); -o-filter: grayscale(0);  filter: url("data:image/svg+xml;utf8,#grayscale"); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); -webkit-filter: grayscale(1);} '
+    addCssByStyle(styleStr);
+    }else {
+     console.log(">>>>>>>>");
+    }
+
+</script>
+<!-- 全国性哀悼活动 -->
+
+</head>
+<body class="g-gbannertp" style="background:#f6f6f6;">
+<!-- 嵌套 - 飘窗 -->
+<!--<div class="yszgkh-floatBox">
+        <a href="https://wjw.nmg.gov.cn/hdjl/zcwdk/wsjkzc/202511/t20251126_2823420.html" title="内蒙古自治区育儿补贴制度政策问答" target="_blank"></a>
+        <span id="yszgkh-close"></span>
+    </div>-->
+    <style>
+        .yszgkh-floatBox {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            z-index: 9999;
+            width: 300px;
+            height: 200px;
+            background: url(./material/images/20251126.jpg) center center / 100% auto no-repeat;
+
+        }
+
+        .yszgkh-floatBox a {
+            position: absolute;
+            display: block;
+        }
+
+        .yszgkh-floatBox a {
+              display:block;
+              width:100%;
+              height:100%;
+        }
+
+        .yszgkh-floatBox span {
+            display: block;
+            position: absolute;
+            left: -10px;
+            top: -10px;
+            width: 20px;
+            height: 20px;
+            background: #fff url(./material/images/yszgkh-close.png) center center / 100% 100% no-repeat;
+            border-radius: 50%;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+  
+<script type="text/javascript" src="./material/js/float.js"></script>
+    <!-- 飘窗 end-->
+<!-- 头部 --> 
+<link rel="stylesheet" href="./material/css/hf8-27.css">
+<script src="//bf.intertid.com/wza/wza2.min.js?appid=DN5On2xuABuxcCX"></script>
+<script type="text/javascript">
+$.ajax({          
+      type: "get",
+        url:"https://wjw.nmg.gov.cn/personal/validate/getUserInfo",
+        dataType: "json",            
+    success: function (data) {
+      console.log(data);
+      if (data.data.isLogin) {
+        var username = data.data.userInfo.USER_NAME;
+        var mobile = data.data.userInfo.MOBILE;
+        var email = data.data.userInfo.EMAIL;
+        $("#a3").html(username);
+        $("#a1").hide();
+        $("#a2").show();
+        $("#name").val(username);
+        $("#phone").val(mobile);
+        $("#email").val(email);
+      }
+    },
+    error: function (jqXHR) {
+
+    }
+  });
+</script>
+<!-- 公用头部开始 -->
+<div class="g-headbg pc"  style="min-width:1100px;">
+  <div class="c_topup"  style="min-width:1100px;">
+    <div class="w1100 clearfix">
+      <div class="c_topleft">
+        <a href="http://www.nhc.gov.cn/" target="_blank" class="c_toplink">国家卫生健康委员会网站</a>
+        <a href="http://www.nmg.gov.cn/" target="_blank" class="c_toplink">内蒙古自治区人民政府网站</a>
+        <a href="http://zwfw.nmg.gov.cn/?record=istrue" target="_blank" class="" style="margin-left: 10px;">内蒙古自治区政务服务网站</a>
+      </div>
+      <div class="c_topright">
+  <a href="/zzb/" class="zzb" target="_blank" tabindex="0" style="background: #449d18;border-radius: 23px;padding: 0 15px 0 15px;font-weight: bold;color: #fff;">
+          长者模式
+      </a> 
+        <a class="c_rightlink3" style="cursor:pointer;">部门网站导航</a>
+        <a id="wza2-enable" title="无障碍浏览" href="javascript:" class="c_rightlink812" style="background: url(./material/images/ctopright812.png) no-repeat 15px center;padding: 0 15px 0 41px;">无障碍浏览</a>
+        <a id="a1" href="https://zwfw.nmg.gov.cn/sso/sso/login?utype=0&redirect=istrue&client_id=4YTG1UQSM&goto=https://wjw.nmg.gov.cn/" class="c_rightlink2">登录/注册</a>
+        <div id="a2" style="display: none;float: left;">
+<a id="a3" href="#" class="c_rightlink2"  target="_blank"></a>
+ <a href="https://zwfw.nmg.gov.cn/personal_center_profile" class="c_rightlink2"  target="_blank">个人中心</a>
+</div>
+        <div class="c_caiddan">
+          <div class="c_guanblef">&times;</div>
+          <div class="c_kunzigun">
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区政府组成部门</div>
+              <div class="c_yizulitd">
+                <a href="http://fgw.nmg.gov.cn/" target="_blank" title="发展和改革委员会">发展和改革委员会</a>
+                  <a href="http://jyt.nmg.gov.cn/" target="_blank" title="教育厅">教育厅</a>
+                  <a href="http://kjt.nmg.gov.cn/" target="_blank" title="科学技术厅">科学技术厅</a>
+                  <a href="http://gxt.nmg.gov.cn/" target="_blank" title="工业和信息化厅">工业和信息化厅</a>
+                  <a href="http://mw.nmg.gov.cn/" target="_blank" title="民族事务委员会">民族事务委员会</a>
+                  <a href="http://gat.nmg.gov.cn/" target="_blank" title="公安厅">公安厅</a>
+                  <a href="http://mzt.nmg.gov.cn/" target="_blank" title="民政厅">民政厅</a>
+                  <a href="http://sft.nmg.gov.cn/" target="_blank" title="司法厅">司法厅</a>
+                  <a href="http://czt.nmg.gov.cn" target="_blank" title="财政厅">财政厅</a>
+                  <a href="https://rst.nmg.gov.cn/" target="_blank" title="人力资源和社会保障厅">人力资源和社会保障厅</a>
+                  <a href="http://zrzy.nmg.gov.cn/" target="_blank" title="自然资源厅">自然资源厅</a>
+                  <a href="http://zjt.nmg.gov.cn/" target="_blank" title="住房和城乡建设厅">住房和城乡建设厅</a>
+                  <a href="http://sthjt.nmg.gov.cn/" target="_blank" title="生态环境厅">生态环境厅</a>
+                  <a href="http://jtyst.nmg.gov.cn/" target="_blank" title="交通运输厅">交通运输厅</a>
+                  <a href="http://slt.nmg.gov.cn/" target="_blank" title="水利厅">水利厅</a>
+                  <a href="http://nmt.nmg.gov.cn/" target="_blank" title="农牧厅">农牧厅</a>
+                  <a href="http://swt.nmg.gov.cn/" target="_blank" title="商务厅">商务厅</a>
+                  <a href="http://wlt.nmg.gov.cn" target="_blank" title="文化和旅游厅">文化和旅游厅</a>
+                  <a href="https://wjw.nmg.gov.cn/" target="_blank" title="卫生健康委员会">卫生健康委员会</a>
+                  <a href="http://tyjrswt.nmg.gov.cn/" target="_blank" title="退役军人事务厅">退役军人事务厅</a>
+                  <a href="http://yjglt.nmg.gov.cn/" target="_blank" title="应急管理厅">应急管理厅</a>
+                  <a href="http://audit.nmg.gov.cn/" target="_blank" title="审计厅">审计厅</a>
+              </div>
+            </div>
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区直属特设机构</div>
+              <div class="c_yizulitd">
+                <a href="http://gzw.nmg.gov.cn/" target="_blank" title="国有资产监督管理委员会">国有资产监督管理委员会</a>
+              </div>
+            </div>
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区直属机构</div>
+              <div class="c_yizulitd">
+                <a href="http://amr.nmg.gov.cn/" target="_blank" title="市场监督管理局">市场监督管理局</a>
+                <a href="http://lcj.nmg.gov.cn/" target="_blank" title="林业和草原局">林业和草原局</a>
+                <a href="http://gbdsj.nmg.gov.cn/" target="_blank" title="广播电视局">广播电视局</a>
+                <a href="http://tyj.nmg.gov.cn/" target="_blank" title="体育局">体育局</a>
+                <a href="http://tj.nmg.gov.cn/" target="_blank" title="统计局">统计局</a>
+                <a href="http://nyj.nmg.gov.cn/" target="_blank" title="能源局">能源局</a>
+                <a href="http://jrj.nmg.gov.cn/" target="_blank" title="地方金融监督管理局">地方金融监督管理局</a> 
+                <a href="http://gdb.nmg.gov.cn/" target="_blank" title="国防动员办公室">国防动员办公室</a>
+                <a href="http://ylbzj.nmg.gov.cn/" target="_blank" title="医保局">医保局</a>
+                <a href="http://xfj.nmg.gov.cn/" target="_blank" title="信访局">信访局</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c_topmid"  style="min-width:1100px;">
+    <div class="w1100 clearfix" style="height:155px;">
+      <img src="./material/images/ctopyinz.png" alt="" class="c_topin" />
+      
+    <!-- WXF全文检索 -->
+    <div class="wxf_search_new">
+      <div class="wxf_search_new_type" id="wxf_search_new_type" sitetag="1">搜本站</div>
+      <div class="wxf_search_new_item" id="wxf_search_new_item">
+        <a sitetag="1">搜本站</a>
+        <a sitetag="2">搜平台</a>
+      </div>
+      <input type="text" value="请输入关键字" id="wxf_search_new_input" />
+      <div class="wxf_search_new_btn" id="wxf_search_new_btn">搜索</div>
+    </div>
+
+    <script type="text/javascript">
+    var searchTimeOut;
+    $("#wxf_search_new_type").click(function() {
+      $("#wxf_search_new_item").fadeIn(150);
+      searchTimeOut = setTimeout('$("#wxf_search_new_item").fadeOut(150);', 4000);
+    });
+    $("#wxf_search_new_item a").click(function() {
+      clearTimeout(searchTimeOut);
+      $("#wxf_search_new_item").fadeOut(150);
+      $("#wxf_search_new_type").html($(this).html());
+      $("#wxf_search_new_type").attr("sitetag", $(this).attr("sitetag")); 
+    });
+    $("#wxf_search_new_input").focus(function() {
+      var valStr = $(this).val();
+      if("请输入关键字" == $.trim(valStr)) {
+        $(this).val("");
+      }
+    });
+    $("#wxf_search_new_input").blur(function() {
+      var valStr = $(this).val();
+      if("" == $.trim(valStr)) {
+        $(this).val("请输入关键字");
+      }
+    });
+    $("#wxf_search_new_btn").click(function() {
+      var searchText = $.trim($("#wxf_search_new_input").val());
+      if("请输入关键字" == searchText || "" == searchText) {
+        alert("请输入查询内容");
+        return;
+      }
+      var searchTag = $("#wxf_search_new_type").attr("sitetag");
+      if(1 != searchTag && 2 != searchTag) {
+        searchTag = 1;
+      }
+      window.open('https://wjw.nmg.gov.cn/nmg_dept_search/#/Door?keywords='+ searchText +'&siteTag='+ searchTag +'&siteid=68') // siteTag=1为搜本站，=2为搜平台
+    });
+    </script>
+    <!-- /WXF全文检索 -->
+    
+      <div class="c_list">list</div>
+      <h1 class="c_toplogo"><a href="#"><img src="./material/images/ctoplogo.png" alt="" /></a></h1>
+    </div>
+    <div class="c_topnav"  style="min-width:1100px;">
+      <div class="c_topnavf c_topnav1"><a href="/">首页</a></div>
+      <div class="c_topnavf c_topnav2"><a href="/xwzx/">新闻中心</a></div>
+      <div class="c_topnavf c_topnav3"><a href="/zwgk/">政务公开</a></div>
+      <div class="c_topnavf c_topnav4"><a href="/zwfw/">政务服务</a></div>
+     <div class="c_topnavf c_topnav5"><a href="/msgc/">民生工程</a></div>
+      <div class="c_topnavf c_topnav6"><a href="https://wjw.nmg.gov.cn/dataservice/wjw/index.action">数据发布</a></div>
+      <div class="c_topnavf c_topnav7"><a href="/hdjl/zrxx/">互动交流</a></div>
+      <div class="c_topnavf c_topnav6"><a href="./djgz/">党建工作</a></div>
+      <div class="c_topnavf c_topnav7"><a href="./ztlm/">专题栏目</a></div>
+    </div>
+  </div>
+</div>
+<!-- 公用头部结束 -->
+<script type="text/javascript">
+  $('.c_list').click(function () {
+    $('.c_topnav').slideToggle(200);
+  })
+   $('.c_rightlink3').click(function () {
+    $('.c_caiddan').show();
+  })
+  $('.c_guanblef').click(function () {
+    $('.c_caiddan').hide();
+  })
+</script>
+
+<!-- /头部 --> 
+
+<!-- 主体 -->
+<div class="g-mgbdoc" style="padding-bottom:15px;">
+  <!-- 头条 -->
+  <div class="m-ggbtt" style=" margin:0 0 15px;">
+      <div class="u-gbtt1 f-fl"><a href="./xwzx/tt/"><img src="./material/static_shouye/images/gb_1.png" /></a></div>
+        
+    <div class="m-gbtt2 f-fl">
+          <a href="./xwzx/tt/202610/t20261010_2962856.html" class="f-fs26 ">总书记的人民情怀 | “探索浩瀚宇宙，建设航天强国”</a>
+            <span class="f-fs16 f-cb5">“探索浩瀚宇宙，建设航天强国，是我们不懈追求的航天梦。”2024年9月，习近平总书记在接见探月工程嫦娥六号任务参...</span>
+        </div>
+    
+    </div>
+    
+    <div class="adSlide" style="margin-bottom:15px; width=1100px;position:relative;">
+    <div class="tempWrap" style="overflow:hidden; position:relative; height:110px">
+      <ul style="height: 372px; position: relative; padding: 0px; margin: 0px; top: -110px;">
+       
+          <li class="clone" style="height: 110px;">
+          <a href="https://wjw.nmg.gov.cn/zfxxgk/fdzzgknr/zdjsxm/202601/t20260109_2847123.html" target="_blank">
+            <img src=".//material/images/wjwspkd.jpg" title="解决项目审批卡点专项行动成果" alt="" />
+          </a>
+        <li class="clone" style="height: 110px;">
+          <a href="https://czt.nmg.gov.cn/YKT/#/service-platform/index" target="_blank">
+            <img src=".//material/images/hmhnczbtzjw.jpg" title="内蒙古自治区惠民惠农财政补贴资金网" alt="" />
+          </a>
+        </li>
+        <li class="clone" style="height: 110px;">
+          <a href="https://wjw.nmg.gov.cn/xwzx/gzdt/202609/t20260928_2959158.html" target="_blank">
+            <img src="./material/images/20250506114339.jpg" title="" alt="" />
+          </a>
+        </li>
+        <li class="clone" style="height: 110px;">
+          <a href="https://wjw.nmg.gov.cn/ztlm/dqzt/tjcxjs_nmgwsjkxtzxd/index.html" target="_blank">
+            <img src=".//material/images/2024328zthf.jpg" title="" alt="" />
+          </a>
+        </li>
+  <!--
+        <li class="clone" style="height: 110px;">
+          <a href="https://wjw.nmg.gov.cn/ztlm/dqzt/qfwjzmfzzq/" target="_blank">
+            <img src=".//material/images/20230908155122.jpg" title="" alt="" />
+          </a>
+        </li>
+-->
+       <li class="clone" style="height: 110px;">
+          <a href="https://www.gov.cn/zhengce/zczhjd/" target="_blank">
+            <img src=".//material/images/sft_zyjc.jpg" title="" alt="" />
+          </a>
+        </li>     
+      <!--   <li class="clone" style="height: 110px;">
+          <a href="/ztlm/dqzt/xxgcshzysxjy/" target="_blank">
+            <img src=".//material/images/logo_20230506.jpg" title="" alt="" />
+          </a>
+        </li>
+      -->
+
+      </ul>
+    </div>
+    <div class="prev"><a></a></div>
+    <div class="next"><a></a></div>
+  </div>
+    
+    <script type="text/javascript">
+        jQuery(".adSlide").slide({ 
+        mainCell: "ul",
+        effect: "top", 
+        autoPlay: true, 
+        delayTime: 500
+        });
+  </script>
+    
+    <!-- 新闻图片 -->
+    <div class="m-gbxwtp">
+      <div class="u-gbtp f-fl">
+            <div class="focusBox">
+                <ul class="banner-pic">
+          
+            <li><a href="./xwzx/tt/202610/t20261008_2961690.html" target="_blank"><img src="./xwzx/tt/202610/W020261008372946090044.jpg"/></a></li>
+          
+          <li><a href="http://www.gov.cn/hudong/index.htm" target="_blank"><img src="./images/W020230403565082157920.jpg" /></a></li>
+          
+            <li><a href="./xwzx/tpyw/sjld/202608/t20260828_2945870.html" target="_blank"><img src="./xwzx/tpyw/sjld/202608/W020260828335055234434.jpg"/></a></li>
+          
+          
+            <li><a href="./xwzx/tpyw/wldtpyw/202606/t20260623_2919059.html" target="_blank"><img src="./xwzx/tpyw/wldtpyw/202606/W020260703675396379922.jpg"/></a></li>
+          
+                </ul>
+                <div class="txt-bg"></div>
+                <div class="txt">
+                    <ul>
+            
+              <li><a href="./xwzx/tt/202610/t20261008_2961690.html">庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话</a></li>
+            
+          <li><a href="http://www.gov.cn/hudong/index.htm" target="_blank"><img src="./images/W020230403565082157920.jpg" /></a></li>
+            
+              <li><a href="./xwzx/tpyw/sjld/202608/t20260828_2945870.html">包钢调研基层医疗服务和医保基金管理工作</a></li>
+            
+            
+              <li><a href="./xwzx/tpyw/wldtpyw/202606/t20260623_2919059.html">自治区卫生健康委邸星副主任出席长三角医院联盟高质量发展交流会</a></li>
+            
+                    </ul>
+                </div>
+                <ul class="num">
+		<!-- 各地疫情防控政策措施 -->
+          
+            <li><a></a><span></span></li>
+          
+          <li><a href="http://www.gov.cn/hudong/index.htm" target="_blank"><img src="./images/W020230403565082157920.jpg" /></a></li>
+          
+            <li><a></a><span></span></li>
+          
+          
+            <li><a></a><span></span></li>
+          
+                </ul>
+            </div>
+        </div>
+        <div class="m-gbgzdt f-fl">
+          <div class="m-gbgz1 obj_gzdt">
+
+                <a href="./xwzx/xwfb/" class="f-fs18 f-cb3 f-fl hover">新闻发布</a>
+                <a href="http://www.gov.cn/pushinfo/v150203/" class="f-fs18 f-cb3 f-fl">国务院信息</a>
+            </div>
+
+      
+            <div class="m-gbgz2 obj_gzdt1">
+        <a href="./xwzx/xwfb/202609/t20260924_2958268.html" class="f-fs18">
+          国家卫生健康委就介绍“时令节气与健康（秋分）”有关情况举行新闻发...
+        </a>
+        <span class="f-cb9">2026-09-24</span>
+            </div>
+           
+      
+      <div class="m-gbgz3 obj_gzdt2">
+              <ul>
+        
+                  <li>
+            <a href="./xwzx/xwfb/202609/t20260916_2954332.html" class="f-fs16 f-cb3">
+              国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍推动健康中...
+            </a>　　
+            <span class="f-cb9">2026-09-16</span>
+          </li>  
+                
+                  <li>
+            <a href="./xwzx/xwfb/202609/t20260908_2950654.html" class="f-fs16 f-cb3">
+              国家卫生健康委就介绍“时令节气与健康（白露）”有关情况举行新闻发...
+            </a>　　
+            <span class="f-cb9">2026-09-08</span>
+          </li>  
+                
+                  <li>
+            <a href="./xwzx/xwfb/202609/t20260904_2949477.html" class="f-fs16 f-cb3">
+              国家疾病预防控制局举行“科学防病开学季 健康护航新学期”主题新闻发...
+            </a>　　
+            <span class="f-cb9">2026-09-04</span>
+          </li>  
+                
+                  <li>
+            <a href="./xwzx/xwfb/202608/t20260824_2943956.html" class="f-fs16 f-cb3">
+              国家卫生健康委就介绍“时令节气与健康（立秋、处暑）”有关情况举行...
+            </a>　　
+            <span class="f-cb9">2026-08-24</span>
+          </li>  
+                
+                  <li>
+            <a href="./xwzx/xwfb/202608/t20260819_2942263.html" class="f-fs16 f-cb3">
+              2026年中国医师节致内蒙古自治区全体医务工作者的慰问信
+            </a>　　
+            <span class="f-cb9">2026-08-19</span>
+          </li>  
+                
+        </ul>
+            </div>
+      
+            <div class="obj_gzdt1"></div>
+      <!-- 国务院信息 -->
+      <div class="m-ggwyxx obj_gzdt2" id="gwyxxUL">
+              
+      </div>
+      
+      <!-- 国务院信息读取显示 -->
+        <script type="text/javascript">
+            var gwyxxHTML = "";
+            $.ajax({
+                url : "https://www.gov.cn/pushinfo/v150203/pushinfo.jsonp",
+                dataType : "jsonp",
+                jsonp : "pushInfoJsonpCallBack",
+                jsonpCallback : "pushInfoJsonpCallBack",
+                success : function(data) {
+                    $.each(data,function(i,json){
+                        if(i==7) {
+                            return false
+                        }
+                        gwyxxHTML += '<a href="' + json.link + '" target="_blank"><p>' + json.title.substring(0,30) + '</p><span>' + json.pubDate + '</span></a>';
+                    })
+                    $("#gwyxxUL").html(gwyxxHTML);
+
+                },
+                error : function(){
+
+                }
+            });
+        </script>
+        <!-- /国务院信息读取显示 -->
+      
+        </div>
+    </div>
+    <!-- /新闻图片 -->
+    
+    <!--媒体报道-->
+    <div class="m-csuhgjkh">
+      <dir class="m-cmtbd f-fl">
+          <a class="f-fl u-cjkhvq u-cbj1 f-fs20" href="./xwzx/mtbd/">媒体报道</a>
+          <div class="m-cagbwe f-fl">
+
+      
+
+        
+      <a href="./xwzx/mtbd/tw/202610/t20261001_2961313.html" class="f-fl f-fs15 u-cjkdfb">
+          扎兰屯市：深耕健康科普阵地 ...
+        </a>
+
+        <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-30</span> 
+      
+
+        
+      <a href="./xwzx/mtbd/tw/202609/t20260922_2957337.html" class="f-fl f-fs15 u-cjkdfb">
+          从“接生”到“托育”，妇幼...
+        </a>
+
+        <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-22</span> 
+      
+          </div>
+       </dir>
+       <dir class="m-cmtbd f-fr">
+          <a class="f-fl u-cjkhvq u-cbj2 f-fs20" href="./xwzx/jkzs/">健康知识</a>
+          <div class="m-cagbwe f-fl">
+      
+        <a href="./xwzx/jkzs/ysp/202610/t20261009_2962225.html" class="f-fl f-fs15 u-cjkdfb">
+          2024版《健康素养66条》基本...
+        </a>
+        <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-10-09</span> 
+      
+        <a href="./xwzx/jkzs/tw/202610/t20261009_2962221.html" class="f-fl f-fs15 u-cjkdfb">
+          如何稳住你的血压？| 全国高...
+        </a>
+        <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-10-09</span> 
+      
+          </div>
+        </dir>
+    </div>
+    <!--/媒体报道-->
+    
+    
+    <!-- 办事服务 -->
+    <div class="m-gbdoc2">
+      <!-- 文件 专题 -->
+      <div class="m-gbxxzt f-fl">
+          <div class="m-gbwjtz" style="margin-bottom: 0;">
+              <div class="m-gbwjtzbt">
+                  <a href="./zfxxgk/fdzzgknr/wjzt/" class="f-fs22 f-cb3 hover f-fl">
+            文件通知
+          </a>
+          
+         
+                </div>
+                <div class="m-gbwjtzlb">
+                  <ul>
+            
+                      <li>
+              <a href="./zfxxgk/fdzzgknr/wjzt/202609/t20260930_2961156.html" class="f-fs16" style="color:#043291;">
+                内蒙古自治区卫生健康委办公室关于组织开展2026年度卫生系列专业技术人员高级职称...
+              </a>
+              <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-30</span>
+              <div style="clear:both;"></div>
+            </li>
+                        
+            
+            <li>
+              <a href="./zfxxgk/fdzzgknr/wjzt/202609/t20260929_2960344.html" class="f-fs16">
+                内蒙古自治区卫生健康委办公室关于组织申报2026年度卫生系列中医（蒙医）高级职称...
+              </a>
+              <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-29</span>
+              <div style="clear:both;"></div>
+            </li>
+            
+            <li>
+              <a href="./zfxxgk/fdzzgknr/wjzt/202609/t20260928_2959701.html" class="f-fs16">
+                内蒙古自治区卫生健康委办公室关于印发2026年度内蒙古自治区食品安全地方标准立项...
+              </a>
+              <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-28</span>
+              <div style="clear:both;"></div>
+            </li>
+            
+            <li>
+              <a href="./zfxxgk/fdzzgknr/wjzt/202609/t20260923_2958149.html" class="f-fs16">
+                转发《国家卫生健康委办公厅 教育部办公厅 国家中医药局综合司 国家疾控局综合司关...
+              </a>
+              <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-23</span>
+              <div style="clear:both;"></div>
+            </li>
+            
+            <li>
+              <a href="./zfxxgk/fdzzgknr/wjzt/202609/t20260922_2957367.html" class="f-fs16">
+                内蒙古自治区卫生健康委办公室关于开展2026年中医（蒙医）医术确有专长人员医师资...
+              </a>
+              <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-22</span>
+              <div style="clear:both;"></div>
+            </li>
+            
+            <li>
+              <a href="./zfxxgk/fdzzgknr/wjzt/202609/t20260921_2956998.html" class="f-fs16">
+                内蒙古自治区卫生健康委关于公示第三批内蒙古自治区中医（蒙医）优势专科建设拟入...
+              </a>
+              <span class="u-cjfvnow f-fs14 f-fr f-cb9">2026-09-21</span>
+              <div style="clear:both;"></div>
+            </li>
+            
+            
+                    </ul>
+                </div>
+            </div>
+
+            <div class="m-gbzfxx" style="margin-bottom: 0;">
+              <a class="f-fs22 bjtb1" style="margin-bottom: 0;" href="./zfxxgk/zfxxgkzn/" >政府信息公开</a>
+                <!--<a href="./zwgk/xxgk/xzqlqd/xzcf/" class="f-fs22 bjtb3">权责清单</a>-->
+      </div>
+<!-- 法治建设 -->
+    <div class="m-cazsx" style="height: 160px;">
+        <a class="u-czsxd f-fs22" href="./ztlm/dqzt/fzjs/">法治建设</a>
+        <a class="g-sy-fzjs1 f-fs16" href="./ztlm/dqzt/fzjs/flfg/">法律法规</a>
+        <a class="g-sy-fzjs2 f-fs16" target="_blank" href="https://wjw.nmg.gov.cn/zfxxgk/fdzzgknr/gfxwj/">行政规范性文件</a>
+        <a class="g-sy-fzjs3 f-fs16" target="_blank" href="https://wjw.nmg.gov.cn/zfxxgk/fdzzgknr/zcjd/">政策解读</a>
+        <a class="g-sy-fzjs4 f-fs16" href="./ztlm/dqzt/fzjs/fzxc/">普法动态</a>
+    </div>
+<!-- /法治建设 -->
+            <div class="m-cazsx">
+              <a class="u-czsxd f-fs22" href="./zwgk/xxgk/zdlyxxgk/">重点业务信息公开</a>
+        <a class="u-csxdh1 f-fs16" href="./zfxxgk/fdzzgknr/yjgl/">
+          应急预案
+        </a>
+        <a class="u-csxdh2 f-fs16" href="./zwgk/xxgk/zdlyxxgk/tfggwssj/">
+          突发公共卫生事件
+        </a>
+        <a class="u-csxdh1 f-fs16" href="./zwgk/xxgk/zdlyxxgk/crbyq/">
+          传染病疫情及防控
+        </a>
+        <a class="u-csxdh2 f-fs16" href="./zfxxgk/fdzzgknr/zdjsxm/">
+          重大建设项目
+        </a>
+        <a class="u-csxdh1 f-fs16" href="./zwgk/xxgk/zdlyxxgk/sjcc/">
+          随机抽查
+        </a>
+        <a class="u-csxdh2 f-fs16" href="./ztlm/dqzt/tjcxjs_nmgwsjkxtzxd/">
+          诚信建设
+        </a>
+        <a class="u-csxdh1 f-fs16" href="./xwzx/jkzs/tw/">
+          健康科普知识
+        </a>
+        <a class="u-csxdh2 f-fs16" href="./zwgk/xxgk/zdlyxxgk/jkkphd/">
+          健康科普活动
+        </a>
+        <a class="u-csxdh1 f-fs16" href="./zfxxgk/fdzzgknr/zfcg/zbgg/">
+          招标公告
+        </a>
+        <a class="u-csxdh2 f-fs16" href="./zfxxgk/fdzzgknr/zfcg/zbgs/">
+          中标公示
+        </a>
+
+            </div>
+            
+        </div>
+        <!-- /文件 专题 -->
+        
+          
+        <!-- 服务大厅 -->
+        <div class="m-gbbs f-fl">
+            <div class="m-gbbszn">
+          <div class="m-gbwjtzbt">
+              <a class="f-fs22 hover f-fl">服务大厅</a>
+            </div>
+            <div class="m-gbbsnr1">
+              <div class="m-gbbszt">
+                  <a class="u-cjkhd f-cb3 f-fs18 f-fl" href="https://wjw.nmg.gov.cn/zwfw/">办事指南</a>
+                    <a class="u-cjjbk f-cb3 f-fs18 f-fl" href="https://zwfw.nmg.gov.cn/sso/sso/login?utype=0&client_id=LUCAHNGWC&goto=%2Fform1.jsp%3Fcontentid%3D12%26bsznid%3D4%26clxzid%3D6">在线申报</a>
+                    <a class="u-cwugr f-cb3 f-fs18 f-fl" href="https://zwfw.nmg.gov.cn/sso/sso/login?client_id=TUWPQFFNN&utype=0&goto=https://zwfw.nmg.gov.cn/zwfw/bmft/index/bm_index.do?webId=1%26deptid=11150000318538978X">在线咨询</a>
+                    <a class="u-cpioh f-cb3 f-fs18 f-fl" href="http://zwfw.nmg.gov.cn/sso/sso/login?client_id=TUWPQFFNN&utype=0&goto=https://zwfw.nmg.gov.cn/zwfw/bmft/index/bm_index.do?webId=1%26deptid=11150000318538978X">投诉举报</a>
+              </div>
+                <div class="f-cb">
+                </div>
+                </div>
+            </div>
+        <!-- /服务大厅 -->
+        
+        
+          <div class="m-gbbszn">
+              <div class="m-gbwjtzbt f-cb8 obj_jggs">
+                  <a href="./zfxxgk/fdzzgknr/jgjs/" class="f-fs22 f-cb3 hover f-fl">
+            结果公示
+          </a>
+          <span class="f-fl f-fs22 f-cb0" style=" margin-right:10px;">|</span>
+          <a href="./zwgk/xxgk/xyjd/" class="f-fs22 f-cb3 f-fl">
+            信用监管信息公示
+          </a>
+                </div>
+                <div class="m-gbwjtzlb obj_jggs1">
+                  <ul>
+            
+            <li>
+              <a href="./zfxxgk/fdzzgknr/jgjs/202609/t20260921_2956999.html" class="f-fs15" style="color:#043291;">
+                内蒙古自治区卫生健康委关于公示第三批内蒙古自治区中医（蒙医）优势专科建...
+              </a><br/>
+              <span class="f-cb9">2026-09-21</span>
+            </li>
+            
+                      
+            <li>
+              <a href="./zfxxgk/fdzzgknr/jgjs/202609/t20260921_2956994.html" class="f-fs15">
+                内蒙古自治区卫生健康委关于公示自治区健康科普专家库拟入库名单（2026版）...
+              </a><br/>
+              <span class="f-cb9">2026-09-21</span>
+            </li>
+            
+                    </ul>
+                </div>
+        
+        <div class="m-gbwjtzlb obj_jggs1" style="display:none;">
+                  <ul>
+                      
+            <li>
+              <a href="./zwgk/xxgk/xyjd/202609/t20260904_2949593.html" class="f-fs15" style="color:#043291;">
+                内蒙古中基管业有限责任公司
+              </a><br/>
+              <span class="f-cb9">2026-09-04</span>
+            </li>
+            
+                      
+            <li>
+              <a href="./zwgk/xxgk/xyjd/202609/t20260904_2949590.html" class="f-fs15">
+                内蒙古泽欧智有科技发展有限公司
+              </a><br/>
+              <span class="f-cb9">2026-09-04</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- 数据应用 -->
+            <div class="m-gbbszn">
+                <div class="m-gbwjtzbt">
+              <a href="https://wjw.nmg.gov.cn/dataservice/wjw/index.action" class="f-fs22 hover f-fl">数据应用</a>
+               <a href="https://wjw.nmg.gov.cn/xwzx/gzdt/202410/t20241025_2596494.html" class="public-info-list" >公共信息资源开放清单</a>
+              </div>
+                <div class="m-gsjfw-lm">
+                  <a href="https://wjw.nmg.gov.cn/dataservice/wjw/query.action?code=10001" style="height:45px; margin-left:2px;" class=" f-fl js1 f-fs14 f-cb3">三级医疗机构<br/>数据</a>
+                    <a href="https://wjw.nmg.gov.cn/dataservice/wjw/query.action?code=10002" style="height:45px; margin-left:2px;" class=" f-fl js2 f-fs14 f-cb3">公共卫生服务<br/>项目医疗机构</a>
+                    <a href="https://wjw.nmg.gov.cn/dataservice/wjw/query.action?code=10004" style="height:45px; margin-left:2px;" class=" f-fl js3 f-fs14 f-cb3">疫苗接种点数据</a>
+                    <a href="https://wjw.nmg.gov.cn/dataservice/wjw/query.action?code=10003" style="margin-left:2px;" class=" f-fl js4 f-fs14 f-cb3">血站数据</a>
+                    <a href="https://wjw.nmg.gov.cn/dataservice/wjw/query.action?code=10006" style="margin-left:2px;" class=" f-fl js5 f-fs14 f-cb3">执业医师数据</a>
+                    <a href="https://wjw.nmg.gov.cn/dataservice/wjw/query.action?code=10007" style="margin-left:2px;" class=" f-fl js6 f-fs14 f-cb3">执业护士数据</a>
+                    <div class="f-cb"></div>
+                </div>
+            </div>
+             <!-- /数据应用 -->
+                
+                <div class="m-gbbszn">
+                  <div class="m-gbwjtzbt f-cb8">
+                    <a class="f-fs22 f-cb3 hover f-fl">应用系统平台</a>
+                  </div>
+                  <div class="m-gbzdywtp">
+
+                        <a href="/zyysgfhpx/" class="yw2 f-fs18">内蒙古住院医师规范化<br/>培训管理系统</a>
+                        <a href="http://nmyj.wsglw.net/" class="yw3 f-fs18">内蒙古自治区继续医学<br/>教育管理平台</a>
+                    </div>
+                
+                
+                </div>
+        
+        </div>
+        <!-- /办事 -->
+        
+        <!-- 服务 -->
+      <div class="m-gbfw f-fr">
+        <div class="m-gbsjfw">
+              <div class="m-gsjfw-bt"><a  class="f-fs22 f-cb3 f-fl u-carughkj">重点业务</a></div>
+                <div class="m-gsjfw-lm">
+                  
+                    <a href="./nmgzzqwsgbjypxzx/" class=" f-fl js11 f-fs14 f-cb3">卫生健康医学<br/>教育考试网</a>
+                    <a href="./zyysgfhpx/" class=" f-fl js10 f-fs14 f-cb3">住院医师规<br/>范化培训管理</a>
+                    <a href="./zlqkysgfhpxgl/" class=" f-fl js12 f-fs14 f-cb3">助理全科医师规<br/>范化培训管理</a>
+                    <a href="./ztlm/dqzt/jyzd/" class=" f-fl js13 f-fs14 f-cb3">12320卫生<br/>健康服务热线</a>
+                    <div class="f-cb"></div>
+                </div>
+            </div>   
+            
+           
+      
+            <div class="m-ghd1">
+              <div class="m-gzrxx"><a href="/hdjl/zrxx/wyly/index.html" class="f-fs20">我向主任说句话</a></div>
+                <div class="m-gzrly">
+                  <a href="/hdjl/zrxx/wyly/index.html" class="lya f-fl f-fs15 f-cbw">我要留言</a>
+                    <a href="/hdjl/zrxx/index.html" class="lyb f-fr f-fs15 f-cbw">留言选登</a>
+                </div>
+            </div>
+            
+            <div class="m-gzcjk2 f-fs18">
+              <a href="/hdjl/zxzx/index.html">在线咨询</a>
+            </div>
+            
+            <div class="m-gzcjk3 f-fs18">
+              <a href="/hdjl/xfts/index.html">投诉举报</a>
+            </div>
+            <div class="m-gzcjk4 f-fs18">
+              <a href="/hdjl/yjzj/index.html">意见征集</a>
+            </div>
+              <div class="m-gzcjk2 f-fs18">
+              <a href="/hdjl/zcwdk/index.html">政策问答库</a>
+            </div> 
+
+            <br>
+        </div>
+        <!-- /服务 -->
+        <div class="f-cb"></div>
+    </div>
+    <!-- /办事服务 -->
+
+<!----------- 站点导航 -------------->
+<!--
+<div class="p_yqlt" style=" background:#fafafa; height:58px; width:97%;">
+<a href="#" target="_blank" class="p_yqlttl f-fs16 w" style="color:#0f4da8;">站点导航</a>
+<select name=""  onchange="window.open(this.options[this.selectedIndex].value)" class="p_yqlt_sec f-cb6" style="width:175px; height:30px; margin:11px 10px 0 0; color:#666; font-family:"微软雅黑";">
+  <option  selected ="selected" > <@cms_channel id="盟市卫生局" field="name"/></option>
+    <@cms_documents id="盟市卫生局" >
+        <option   value="<@cms_document field="url"/>" > <@cms_document field="title"/></option>
+    </@cms_documents>
+</select>  
+<select name="" onchange="window.open(this.options[this.selectedIndex].value)" class="p_yqlt_sec f-cb6" style="width:175px; height:30px; margin:11px 10px 0 0; color:#666; font-family:"微软雅黑"; ">
+  <option  selected ="selected" > <@cms_channel id="区直卫生单位" field="name"/></option>
+    <@cms_documents id="区直卫生单位" >
+
+        <option  value="<@cms_document field="url"/>" > <@cms_document field="title"/></option>
+    </@cms_documents>
+</select>
+<select name="" onchange="window.open(this.options[this.selectedIndex].value)" class="p_yqlt_sec f-cb6" style="width:175px; height:30px; margin:11px 10px 0 0; color:#666; font-family:"微软雅黑"; ">
+  <option  selected ="selected" > <@cms_channel id="区内委办局厅" field="name"/></option>
+    <@cms_documents id="区内委办局厅" >
+        <option  value="<@cms_document field="url"/>" > <@cms_document field="title"/></option>
+    </@cms_documents>
+</select>
+
+<select name="" onchange="window.open(this.options[this.selectedIndex].value)" class="p_yqlt_sec f-cb6" style="width:175px; height:30px; margin:11px 10px 0 0; color:#666; font-family:"微软雅黑"; ">
+  <option  selected ="selected" > <@cms_channel id="省市卫生厅局" field="name"/></option>
+    <@cms_documents id="省市卫生厅局" >
+        <option  value="<@cms_document field="url"/>" > <@cms_document field="title"/></option>
+    </@cms_documents>
+</select>              
+<!--<select name="" onchange="window.open(this.options[this.selectedIndex].value)" class="p_yqlt_sec f-cb6" style="width:140px; height:30px; margin:11px 10px 0 0; color:#666; font-family:"微软雅黑"; ">
+  <option  selected ="selected" > <@cms_channel id="旗县卫生局" field="name"/></option>
+    <@cms_documents id="旗县卫生局" >
+        <option  value="<@cms_document field="url"/>" > <@cms_document field="title"/></option>
+    </@cms_documents>
+</select>
+-->
+<!--
+<select name="" onchange="window.open(this.options[this.selectedIndex].value)" class="p_yqlt_sec f-cb6" style="width:175px; height:30px; margin:11px 10px 0 0; color:#666; font-family:"微软雅黑"; ">
+  <option  selected ="selected" > <@cms_channel id="区内三级医院" field="name"/></option>
+    <@cms_documents id="区内三级医院" >
+        <option  value="<@cms_document field="url"/>" > <@cms_document field="title"/></option>
+    </@cms_documents>
+</select>
+<div class="f-cb"></div>
+</div>
+-->
+
+</div>
+ <!--登录-->
+    <div class="m-cgbhn" style="positive:relative; right:10px; top: 284px;">
+      <div class="m-cbhnj">
+          <img src="./material/static_shouye/images/c_09.png" id="wxfwb" style="cursor:pointer;" />
+        </div>
+        <div class="m-chnjm">
+          <img src="./material/static_shouye/images/c_10.png" id="wxfwx" style="cursor:pointer;" />
+        </div>
+
+        <img id="wxfwbimg" src="./material/images/wb1012.png" style=" position:absolute; z-index:67; top:0px; left:-117px; display:none;" />
+        <img id="wxfwximg" src="./material/images/wx1012.png" style=" position:absolute; z-index:67; top:22px; left:-117px; display:none;" />
+ 
+    <script type="text/javascript">
+      $("#wxfwb").hover(function() {
+          $("#wxfwbimg").css("display", "block");
+      }, function() {
+          $("#wxfwbimg").css("display", "none");
+      });
+      $("#wxfwx").hover(function() {
+          $("#wxfwximg").css("display", "block");
+      }, function() {
+          $("#wxfwximg").css("display", "none");
+      });
+ 
+    </script>
+    </div>
+    
+    <!--/登录-->
+<!-- /主体 -->
+
+<!-- 底部 --> 
+<link rel="stylesheet" href="./material/css/hf8-27.css">
+<link rel="stylesheet" href="./material/css/style.css">
+<link rel="stylesheet" href="./material/css/g_bottom.css">
+
+<!-- 公用底部开始 -->
+<style>
+    .g_bottom_b_top {
+        border-top: 10px solid #015293;
+    }
+    
+    .g_bottom_b_show {
+        border-top: 10px solid #00467F;
+    }
+    
+    .g_bottom_list {
+        width: 1060px;
+        background-color: #00467F;
+    }
+    
+    .g_bottom_list a {
+        width: 160px;
+        color: #fff;
+    }
+    
+    .g_bottom_list_in::-webkit-scrollbar {
+        width: 8px;
+        background-color: #004379 ;
+        border-radius: 10px;
+    }
+    
+    .g_bottom_list_in::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color:#016BC2;
+    }
+</style>
+  <div class="c_footer pc" style="min-width:1100px;">
+    
+<div class="c_bottomlink w1100 clearfix">
+        <a href="http://www.gov.cn" class="c_boli g_bottom_b_top" style="float:left;" target="_blank">中国政府网</a>
+        <a href="http://www.nhc.gov.cn" class="c_boli g_bottom_b_top" style="float:left;" target="_blank">国家卫生健康委员会网站</a>
+        <div class="g_bottomlinkxl g_bottom_b_top g_b_1">
+            <div class="g_bottom_title">
+                 各省市卫生健康委员会
+                <img src="./material/images/g_iconxl.png" alt="" />
+            </div>
+            <div class="g_bottom_list g_b_list_1">
+                <div class="g_bottom_list_in">
+                    
+                    <a href="http://wjw.beijing.gov.cn/" target="_blank" data-idlink="oLink">北京市卫生健康委员会</a>
+  
+                          <a href="http://wsjk.tj.gov.cn/" target="_blank" data-idlink="oLink">天津市卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.hebei.gov.cn/" target="_blank" data-idlink="oLink">河北省卫生健康委员会</a>
+  
+                          <a href="http://wjw.shanxi.gov.cn/" target="_blank" data-idlink="oLink">山西省卫生健康委员会</a>
+  
+                          <a href="http://wsjk.ln.gov.cn/" target="_blank" data-idlink="oLink">辽宁省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.jl.gov.cn/" target="_blank" data-idlink="oLink">吉林省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.hlj.gov.cn/" target="_blank" data-idlink="oLink">黑龙江省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.sh.gov.cn/" target="_blank" data-idlink="oLink">上海市卫生健康委员会</a>
+  
+                          <a href="http://wjw.jiangsu.gov.cn/" target="_blank" data-idlink="oLink">江苏省卫生健康委员会</a>
+  
+                          <a href="https://wsjkw.zj.gov.cn/" target="_blank" data-idlink="oLink">浙江省卫生健康委员会</a>
+  
+                          <a href="http://wjw.ah.gov.cn/" target="_blank" data-idlink="oLink">安徽省卫生健康委员会</a>
+  
+                          <a href="http://wjw.fujian.gov.cn/" target="_blank" data-idlink="oLink">福建省卫生健康委员会</a>
+                          <a href="http://hc.jiangxi.gov.cn/" target="_blank" data-idlink="oLink">江西省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.shandong.gov.cn/" target="_blank" data-idlink="oLink">山东省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.henan.gov.cn/" target="_blank" data-idlink="oLink">河南省卫生健康委员会</a>
+  
+                          <a href="http://wjw.hubei.gov.cn/" target="_blank" data-idlink="oLink">湖北省卫生健康委员会</a>
+  
+                          <a href="http://wjw.hunan.gov.cn/" target="_blank" data-idlink="oLink">湖南省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.gd.gov.cn/" target="_blank" data-idlink="oLink">广东省卫生健康委员会</a>
+                          <a href="http://wsjkw.gxzf.gov.cn/" target="_blank" data-idlink="oLink">广西壮族自治区卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.cq.gov.cn/" target="_blank" data-idlink="oLink">重庆市卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.sc.gov.cn/" target="_blank" data-idlink="oLink">四川省卫生健康委员会</a>
+  
+                          <a href="http://wjw.guizhou.gov.cn/" target="_blank" data-idlink="oLink">贵州省卫生健康委员会</a>
+  
+                          <a href="http://ynswsjkw.yn.gov.cn/" target="_blank" data-idlink="oLink">云南省卫生健康委员会</a>
+  
+                          <a href="http://wjw.xizang.gov.cn/" target="_blank" data-idlink="oLink">西藏自治区卫生健康委员会</a>
+                          <a href="http://sxwjw.shaanxi.gov.cn/" target="_blank" data-idlink="oLink">陕西省卫生健康委员会</a>
+                          <a href="http://wsjk.gansu.gov.cn/" target="_blank" data-idlink="oLink">甘肃省卫生健康委员会</a>
+  
+                          <a href="https://wsjkw.qinghai.gov.cn/" target="_blank" data-idlink="oLink">青海省卫生健康委员会</a>
+                          <a href="http://wsjkw.nx.gov.cn/" target="_blank" data-idlink="oLink">宁夏回族自治区卫生健康委员会</a>
+  
+                          <a href="http://wjw.xinjiang.gov.cn/" target="_blank" data-idlink="oLink">新疆维吾尔自治区卫生健康委员会</a>
+  
+                          <a href="http://wsj.xjbt.gov.cn/" target="_blank" data-idlink="oLink">新疆生产建设兵团卫生健康委员会</a>
+                </div>
+            </div>
+        </div>
+        <div class="g_bottomlinkxl g_bottom_b_top g_b_2">
+            <div class="g_bottom_title">
+               盟市卫生健康委员会
+                <img src="./material/images/g_iconxl.png" alt="" />
+            </div>
+            <div class="g_bottom_list g_b_list_2">
+                <div class="g_bottom_list_in">
+                    
+                          <a href="http://wjw.huhhot.gov.cn/" target="_blank" data-idlink="oLink">呼和浩特市卫生健康委员会</a>
+  
+                          <a href="http://wjw.baotou.gov.cn/" target="_blank" data-idlink="oLink">包头市卫生健康委员会</a>
+  
+                          <a href="http://wjw.hlbe.gov.cn/" target="_blank" data-idlink="oLink">呼伦贝尔市卫生健康委员会</a>
+  
+                          <a href="http://wjw.xam.gov.cn/" target="_blank" data-idlink="oLink">兴安盟卫生健康委员会</a>
+  
+                          <a href="http://wjw.tongliao.gov.cn/" target="_blank" data-idlink="oLink">通辽市卫生健康委员会</a>
+  
+                          <a href="http://wjw.chifeng.gov.cn/" target="_blank" data-idlink="oLink">赤峰市卫生健康委员会</a>
+  
+                          <a href="http://wjw.xlgl.gov.cn/" target="_blank" data-idlink="oLink">锡林郭勒盟卫生健康委员会</a>
+  
+                          <a href="http://wjw.wulanchabu.gov.cn/" target="_blank" data-idlink="oLink">乌兰察布市卫生健康委员会</a>
+  
+                          <a href="http://wjw.ordos.gov.cn/" target="_blank" data-idlink="oLink">鄂尔多斯市卫生健康委员会</a>
+  
+                          <a href="http://wjw.bynr.gov.cn/" target="_blank" data-idlink="oLink">巴彦淖尔市卫生健康委员会</a>
+  
+                          <a href="http://wjw.wuhai.gov.cn/" target="_blank" data-idlink="oLink">乌海市卫生健康委员会</a>
+  
+                          <a href="http://wjw.als.gov.cn/" target="_blank" data-idlink="oLink">阿拉善盟卫生健康委员会</a>
+                          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="c_bottomdibu w1100 clearfix" style="position: relative;">
+      <a href="http://bszs.conac.cn/sitename?method=show&id=082CA0067C334785E053022819AC9BD7" target="_blank"><img src="./material/images/bottomImg1.png" class="c_bottomtu1" alt="" /></a>
+      <div class="c_bottomleftli"><a href="/wzdt/">网站地图</a><a href="/wzsm/">网站声明</a></div>
+      <div class="c_bottominfo">
+        <div>主办单位：内蒙古自治区卫生健康委员会　承办单位：内蒙古自治区卫生健康委宣传处</div>
+        <div><a href="https://beian.miit.gov.cn/" target="_blank">蒙ICP备19004499号</a>　<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010202150857" >蒙公网安备 15010202150857号</a>　 政府网站标识码：1500000062　 <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1281203692'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1281203692%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></div>
+        <div>地址：呼和浩特市新华大街181号　联系电话：12320　技术支持：内蒙古世纪泓科技有限公司 </div>
+      </div>
+      <div style="position: absolute;right: 36px;bottom: 30px;">
+<script id="_jiucuo_" sitecode='1500000062' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+        </script>
+      </div>
+    </div>
+  </div>
+<script>
+    // 底部动画效果
+    function bottomAnimationEffect(item, itemList, itemImage) {
+        $(item).click(function() {
+            if ($(item).hasClass("g_bottom_b_show")) {
+                bottomRestoreStyle(item, itemList, itemImage);
+                return;
+            }
+            $(item).addClass("g_bottom_b_show");
+            $(itemList).show();
+            $(itemImage).css("transform", "rotateZ(180deg)");
+        })
+        $(item).hover(
+            function() {},
+            function() {
+                if ($(item).hasClass("g_bottom_b_show")) {
+                    bottomRestoreStyle(item, itemList, itemImage);
+                    return;
+                }
+            })
+    }
+
+    function bottomRestoreStyle(item, itemList, itemImage) {
+        $(item).removeClass("g_bottom_b_show");
+        $(itemList).hide();
+        $(itemImage).css("transform", "rotateZ(0)");
+    }
+
+    bottomAnimationEffect(".g_b_1", ".g_b_list_1", ".g_b_1 .g_bottom_title img");
+    bottomAnimationEffect(".g_b_2", ".g_b_list_2", ".g_b_2 .g_bottom_title img");
+</script>
+<!-- 公用底部结束 -->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4925" async="async" defer="defer"></script>
+
+<!-- 点击量埋点开始,可将如下代码添加到公共嵌套模板中 -->
+<!-- 引入trs_report_sdk.js文件 -->
+<script type="text/javascript" src="/material/js/trs_report_sdk.js"></script>
+<script type="text/javascript">
+	//上传点击数据
+    let eventReport = new EventReport("/hx-api/receive/receiveData")
+    let siteName = "内蒙古自治区卫生健康委员会"
+    let chnlRelation = "内蒙古自治区卫生健康委员会"
+    chnlRelation = chnlRelation.replace(siteName+">","")
+    let docid = ""
+    let doc_id = 0
+    if(docid.length > 0){
+        doc_id = parseInt(docid)
+    }
+    let url = "####"
+    let title ='';
+    var reg =/<[^<>]+>/g;
+    title = title.replace(reg, "");
+    let docpubtime = ""
+    
+    if (doc_id== 0) {
+    doc_id = 0;
+    url = document.URL
+    title = document.title
+    docpubtime = ""
+    }
+    let doc_channel = ""
+    let siteid = parseInt("")
+    if (siteid.length == 0) {
+    siteid = 0
+    }
+    
+    let channel_id = parseInt("")
+    
+    if(channel_id.length == 0){
+    channel_id = 0
+    }
+    //appkey
+    let appKey = "dda1bee997e29182febbe848dd3b313a"
+    
+    let myParam = {
+		title: title,
+		url: url,
+		doc_id: doc_id,
+		siteid: siteid,
+		site_name: siteName,
+		doc_channel: doc_channel,
+		channel_relation: chnlRelation,
+		channel_id: channel_id,
+		doc_pub_time: docpubtime,
+		app_key: appKey
+    }
+    //统计外链，换成自己网站的域名
+    InitExternalLinks("/hx-api/receive/receiveLink",myParam,"wjw.nmg.gov.cn")
+    eventReport.trackUserData(myParam)
+    // 点击量埋点结束
+</script>
+
+<!-- /底部 -->
+
+<script type="text/javascript">
+$(function(){
+  init();
+});
+
+$(".obj_gzdt a").mouseover(function() {
+  $(this).siblings().removeClass("hover");
+  $(this).addClass("hover");
+  $(".obj_gzdt a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_gzdt1").eq(index).show();
+      $(".obj_gzdt2").eq(index).show();
+    } else {
+      $(".obj_gzdt1").eq(index).hide();
+      $(".obj_gzdt2").eq(index).hide();
+    }
+  });
+});
+  
+$(".obj_jggs a").mouseover(function() {
+  $(this).siblings().removeClass("hover");
+  $(this).addClass("hover");
+  $(".obj_jggs a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_jggs1").eq(index).show();
+    } else {
+      $(".obj_jggs1").eq(index).hide();
+    }
+  });
+});
+  
+$(".obj_tj a").mouseover(function() {
+  $(this).siblings().removeClass("hover");
+  $(this).addClass("hover");
+  $(".obj_tj a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_tj1").eq(index).show();
+    } else {
+      $(".obj_tj1").eq(index).hide();
+    }
+  });
+});
+  
+$(".obj_zt a.obj_zt_a").mouseover(function() {
+  $(this).siblings().removeClass("hover");
+  $(this).addClass("hover");
+  $(".obj_zt a.obj_zt_a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_zt1").eq(index).show();
+    } else {
+      $(".obj_zt1").eq(index).hide();
+    }
+  });
+});
+
+function init(){
+  $(".obj_gzdt a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_gzdt1").eq(index).show();
+      $(".obj_gzdt2").eq(index).show();
+    } else {
+      $(".obj_gzdt1").eq(index).hide();
+      $(".obj_gzdt2").eq(index).hide();
+    }
+  });
+  
+  $(".obj_jggs a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_jggs1").eq(index).show();
+    } else {
+      $(".obj_jggs1").eq(index).hide();
+    }
+  });
+  
+  $(".obj_tj a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_tj1").eq(index).show();
+    } else {
+      $(".obj_tj1").eq(index).hide();
+    }
+  });
+  
+  $(".obj_zt a").each(function(index,element) {
+    if($(element).hasClass("hover")) {
+      $(".obj_zt1").eq(index).show();
+    } else {
+      $(".obj_zt1").eq(index).hide();
+    }
+  }); 
+}
+
+// 轮播图
+  $(".focusBox").slide({
+    titCell:".num li",
+    mainCell:".banner-pic",
+    effect:"fold",
+    autoPlay:true,
+    trigger:"mouseover",
+    //下面startFun代码用于控制文字上下切换
+    startFun:function(i){
+      $(".focusBox .txt li").eq(i).animate({"bottom":0}).siblings().animate({"bottom":-60});
+    }
+  });
+  //下轮播图
+  $(".focusBox_gbtjtp").slide({ 
+    titCell:".num li",
+    mainCell:".pic",
+    effect:"fold",
+    autoPlay:true,
+    trigger:"click",
+    startFun:function(i){
+      $(".focusBox_gbtjtp .txt li").eq(i).animate({"bottom":0}).siblings().animate({"bottom":-40});
+    }
+  });
+  
+  //下轮播图2
+  $(".gbtjtp2").slide({ 
+    titCell:".num li",
+    mainCell:".pic",
+    effect:"fold",
+    autoPlay:true,
+    trigger:"click",
+    startFun:function(i){
+      $(".gbtjtp2 .txt li").eq(i).animate({"bottom":0}).siblings().animate({"bottom":-40});
+    }
+  });
+  
+  //中文字轮播
+  $(".m-gbzyys").slide({
+    titCell:".scroll_btn a",
+    mainCell:".txt1 ul",
+    effect:"top",
+    autoPlay:true,
+    trigger:"click",
+    delayTime:200 
+  });
+ 
+</script>
+
+
+<!-- 政府网站工作年报 -->
+<div class="xj_nb" id="sjkh" style="position:absolute; top:360px; z-index:9999;">
+  <div style="text-align:right; position:relative;">
+    <a href="/zfxxgk/zfwzndbb/202601/t20260112_2847498.html" target="_blank"><img src="./material/images/2025wzgz.jpg" /></a><br />
+    <a id="gbsjkh" onclick="closeGBsjkh()" style="font-family:'微软雅黑'; font-size:11px; cursor:pointer;  position:absolute; right:4px; top:4px;">关闭</a>
+  </div>
+</div>
+<!--政府网站工作年报-->
+
+<!-- 医疗行风建设举报平台 -->
+<div class="xj_nb" id="sjkh1" style="position:absolute; top:680px; z-index:9999;">
+  <div style="text-align:right; position:relative;">
+    <a href=" /hdjl/xfts/" target="_blank"><img src="./material/images/jbpt_2023.jpg" /></a><br />
+    <a id="gbsjkh1" onclick="closeGBsjkh1()" style="font-family:'微软雅黑'; font-size:11px; cursor:pointer;  position:absolute; right:4px; top:4px;">关闭</a>
+  </div>
+</div>
+<!--医疗行风建设举报平台-->
+
+
+</div>
+
+
+<!--<div id="xfxcz2" style="position: fixed;right: 0;z-index: 9999;bottom: 220px; ">
+  <div style="text-align:right;">
+    <a href="https://wjw.nmg.gov.cn/xwzx/jkzs/tw/202405/t20240531_2516812.html" target="_blank"><img src="./material/images/wjwpc202463.jpg" /></a><br />   
+    <a onclick="closeGBxfxcz2()" style="font-family:'微软雅黑'; font-size:11px; cursor:pointer;">关闭</a>
+  </div>
+</div>-->
+
+<!-- 专题-2024-1-29-->
+<!-- 医师资格考核管理平台 -->
+<div id="yszgkhglpt" style="position: fixed;right: 0;z-index: 9999;bottom: 0; ">
+  <div style="text-align:right;">
+    <a href="https://gjmyy.mengyuanyiliao.com/home/login" target="_blank"><img src="./material/images/yszgkh1.jpg" / style="width:200px" /></a><br />   
+    <a onclick="closeGByszgkhglpt()" style="font-family:'微软雅黑'; font-size:11px; cursor:pointer;">关闭</a>
+  </div>
+</div>
+<!-- 医师资格考核管理平台 end-->
+<!-- 专题-2024-1-29-->
+
+<!-- 专题-2024-1-29-->
+
+<script type="text/javascript" src="./material/js/fWin.js"></script>
+<script type="text/javascript">
+  //公告
+  window.onload = function() {fWin("gg",0,0,1,30,0,0);}
+  function closeGBgg() {
+    $("#gg").fadeOut();
+  }
+//宪法
+ function closeGBxfxcz1() {
+    $("#xfxcz1").fadeOut();
+  }
+ function closeGBxfxcz2() {
+    $("#xfxcz2").fadeOut();
+  }
+<!--医师考核管理平台-->
+ function closeGByszgkhglpt() {
+    $("#yszgkhglpt").fadeOut();
+  }
+<!-- /医师考核管理平台 end-->
+ function closeGBxfxcz3() {
+    $("#xfxcz3").fadeOut();
+  }
+    function closeGBxfxcz() {
+    $("#xfxcz").fadeOut();
+  }
+  //鼠疫可防可控可治
+  function closeGBsykfkkkz() {
+    $("#sykfkkkz").fadeOut();
+  }
+  
+  //扫黑除恶 举报方式
+  function closeGBshce() {
+    $("#shce").fadeOut();
+  }
+  
+  //健康大学新课预告
+    function closeGBjkdx() {
+    $("#fWinjkdx").fadeOut();
+  }
+    //讲医改 见行动
+    function closeGBspaq() {
+    $("#spaq").fadeOut();
+  }
+  
+  //医疗投诉
+    function closeGBylts() {
+    $("#ylts").fadeOut();
+  }
+  
+  //报名系统
+    function closeGBbmxt() {
+    $("#bmxt").fadeOut();
+  }
+  
+  //受理来电来信投诉举报
+    function closeGBsjkh() {
+    $("#sjkh").fadeOut();
+  }
+
+  //受理来电来信投诉举报
+    function closeGBsjkh1() {
+    $("#sjkh1").fadeOut();
+  }
+
+  //报名系统
+    function closeGBbmxt() {
+    $("#bmxt").fadeOut();
+  }
+ //报名系统
+    function closeGBbmxt() {
+    $("#bmxt").fadeOut();
+  }
+  // 上线说明
+    function closeGBsxsm() {
+    $("#sxsm").fadeOut();
+  }
+</script>
+
+</body>
+</html>

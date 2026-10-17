@@ -1,0 +1,598 @@
+{
+  "name": [
+    {
+      "text": "医学事务/医学信息",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学事务/医学信息"
+        }
+      ]
+    }
+  ],
+  "sample_n": 17,
+  "excluded": [
+    {
+      "id": "v885NtCMN",
+      "url": "https://campus.niuqizp.com/job-v885NtCMN.html",
+      "role": "临床技术工程师|医学专业精英|医学联络官|产品岗",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "v8k5CCz55",
+      "url": "https://campus.niuqizp.com/job-v8k5CCz55.html",
+      "role": "市场|医学专员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vkm5zaLz5",
+      "url": "https://campus.niuqizp.com/job-vkm5zaLz5.html",
+      "role": "真实世界研究业务实习生,医药洞察与咨询分析实习生,ETL实习生,医学运营实习生,大模型算法实习生,大模型应用算法实习生,数据分析实习生,大模型医学产品实习生,商务助理实习生,精细化运营BI实习生,财务BP实习生,人力资源实习生",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vlr5NaMnN",
+      "url": "https://campus.niuqizp.com/job-vlr5NaMnN.html",
+      "role": "技术支持工程师|医学专员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vsm5zaCNN",
+      "url": "https://campus.niuqizp.com/job-vsm5zaCNN.html",
+      "role": "真实世界研究业务实习生,医药洞察与咨询分析实习生,ETL实习生,医学运营实习生,大模型算法实习生,大模型应用算法实习生,数据分析实习生,大模型医学产品实习生,商务助理实习生,精细化运营BI实习生,财务BP实习生,人力资源实习生",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "参与项目初期调研和方案设计。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8U5ZCNnZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8U5ZCNnZ",
+          "text": "参与项目初期调研、方案设计阶段相关工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "审阅临床项目方案偏离与医学问题。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8U5ZCNnZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8U5ZCNnZ",
+          "text": "参与临床实施项目的医学监查工作"
+        },
+        {
+          "evidence_id": "v8U5ZCNnZ",
+          "text": "方案偏离的审阅"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "参与项目申报及监管沟通。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v8U5ZCNnZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8U5ZCNnZ",
+          "text": "参与项目申报、监管沟通等相关工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "制作和修订临床文件。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vY85ZNnnM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vY85ZNnnM",
+          "text": "在上级指导下撰写临床文件的初稿"
+        },
+        {
+          "evidence_id": "vY85ZNnnM",
+          "text": "并结合各方意见进行修订至定稿"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "开展学术会议并回应医生用药疑问。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyYNL5LNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyYNL5LNL",
+          "text": "组织开展各种学术会议"
+        },
+        {
+          "evidence_id": "vyYNL5LNL",
+          "text": "拜访医生，解决临床用药疑问"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "培训医药代表并与KOL沟通。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyYNL5LNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyYNL5LNL",
+          "text": "培训医药代表医学等知识"
+        },
+        {
+          "evidence_id": "vyYNL5LNL",
+          "text": "定期与KOL沟通并提供医学支持服务"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "MSL子类一位作者描述内部开会、改材料、做幻灯、准备拜访内容和查文献。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-msl-week"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-msl-week",
+          "text": "开会、改材料、做幻灯、准备拜访内容、查文献"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    },
+    {
+      "text": "另一位MSL作者该月涉及上市会、外宾巡讲、mapping、拜访和考核。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-msl-month"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-msl-month",
+          "text": "上市会、外宾巡讲、mapping、拜访、考核"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "17份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 17,
+        "matched_ids": [
+          "v8YNLLnMa",
+          "vs85MMMan"
+        ]
+      }
+    },
+    {
+      "text": "17份保留的校招平台样本中，5份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 5,
+        "denominator": 17,
+        "matched_ids": [
+          "v8U5MLCMn",
+          "v8m5CCNnz",
+          "vYY5MZaa5",
+          "vrsNLLaa5",
+          "vyYNL5LNL"
+        ]
+      }
+    },
+    {
+      "text": "17份保留的校招平台样本中，10份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 10,
+        "denominator": 17,
+        "matched_ids": [
+          "v8U5ZCNnZ",
+          "v8l5azLNz",
+          "v8s55nn5C",
+          "vY85ZNnnM",
+          "vYk5aa5NC",
+          "vmrNLNMtZ",
+          "vsY5MNz5N",
+          "vsr55MnaZ",
+          "vsy5tCn5M",
+          "vwr5nn55z"
+        ]
+      }
+    },
+    {
+      "text": "17份保留的校招平台样本中，4份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 4,
+        "denominator": 17,
+        "matched_ids": [
+          "vYk5aa5NC",
+          "vs85MMMan",
+          "vsY5MNz5N",
+          "vwr5nn55z"
+        ]
+      }
+    },
+    {
+      "text": "17份保留的校招平台样本中，9份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 9,
+        "denominator": 17,
+        "matched_ids": [
+          "v8U5MLCMn",
+          "v8YNLLnMa",
+          "v8l5azLNz",
+          "v8s55nn5C",
+          "vY85ZNnnM",
+          "vYY5MZaa5",
+          "vmrNLNMtZ",
+          "vrsNLLaa5",
+          "vsy5tCn5M"
+        ]
+      }
+    },
+    {
+      "text": "17份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 17,
+        "matched_ids": [
+          "v8U5ZCNnZ"
+        ]
+      }
+    },
+    {
+      "text": "17份保留的校招平台样本中，5份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 5,
+        "denominator": 17,
+        "matched_ids": [
+          "v8U5ZCNnZ",
+          "v8m5CCNnz",
+          "v8s55nn5C",
+          "vsr55MnaZ",
+          "vyYNL5LNL"
+        ]
+      }
+    },
+    {
+      "text": "17份保留样本中，6份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 6,
+        "denominator": 17,
+        "matched_ids": [
+          "v8YNLLnMa",
+          "v8m5CCNnz",
+          "vYY5MZaa5",
+          "vmrNLNMtZ",
+          "vsY5MNz5N",
+          "vwr5nn55z"
+        ]
+      }
+    },
+    {
+      "text": "17份保留样本中，1份明确出现经验不限/无经验字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLCMn",
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8l5azLNz",
+        "v8m5CCNnz",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vmrNLNMtZ",
+        "vrsNLLaa5",
+        "vs85MMMan",
+        "vsY5MNz5N",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z",
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "经验不限|无需.*经验|无经验|无工作经验",
+        "n": 1,
+        "denominator": 17,
+        "matched_ids": [
+          "vwr5nn55z"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医学专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8U5ZCNnZ",
+        "v8YNLLnMa",
+        "v8s55nn5C",
+        "vY85ZNnnM",
+        "vYY5MZaa5",
+        "vYk5aa5NC",
+        "vsr55MnaZ",
+        "vsy5tCn5M",
+        "vwr5nn55z"
+      ],
+      "quotes": [],
+      "count": 9
+    },
+    {
+      "text": "医学联络员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrsNLLaa5",
+        "vs85MMMan"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "（高级）医学专员/产品专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmrNLNMtZ",
+        "vsY5MNz5N"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "MSL医学联络官",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8U5MLCMn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医学信息专员实习生-广州",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8m5CCNnz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医学联络员（MSL)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyYNL5LNL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "高级/医学专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5azLNz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

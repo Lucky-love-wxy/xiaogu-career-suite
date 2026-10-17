@@ -1,0 +1,23 @@
+{
+  "endpoint": "get_image_note_detail",
+  "params": {
+    "note_id": "6a63c290000000001303f25f"
+  },
+  "http": 200,
+  "code": 200,
+  "request_id": "40597e53-348c-4070-a787-9d57e3fa55b7",
+  "call_n": 5,
+  "accessed_at": "2026-10-07T11:38:11.757Z",
+  "notes": [
+    {
+      "id": "6a63c290000000001303f25f",
+      "title": "技术支持的日常之修完你的修你的",
+      "desc": "#检验科[话题]# #技术支持[话题]#",
+      "nickname": "小溪和海洋",
+      "time": 1784922768,
+      "last_update_time": 0,
+      "type": "normal"
+    }
+  ],
+  "role": "医疗产品技术支持"
+}

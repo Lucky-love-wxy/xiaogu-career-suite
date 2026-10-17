@@ -1,0 +1,54 @@
+[
+  {
+    "case": "正文和引用同时篡改",
+    "result": "REJECTED",
+    "errors": [
+      [
+        "role_bd628efdd859",
+        "source binding",
+        "v885nazzz"
+      ],
+      [
+        "role_bd628efdd859",
+        "plain_language",
+        "quote",
+        {
+          "evidence_id": "v885nazzz",
+          "text": "协助项目负责医生完成临床试验各项非医学判断工作"
+        }
+      ]
+    ]
+  },
+  {
+    "case": "数字文本篡改",
+    "result": "REJECTED",
+    "errors": [
+      [
+        "role_bd628efdd859",
+        "entry_for_fresh",
+        "count text"
+      ]
+    ]
+  },
+  {
+    "case": "证据URL篡改",
+    "result": "REJECTED",
+    "errors": [
+      [
+        "role_bd628efdd859",
+        "source binding",
+        "v885nazzz"
+      ]
+    ]
+  },
+  {
+    "case": "伪造作者数/等级",
+    "result": "REJECTED",
+    "errors": [
+      [
+        "role_bd628efdd859",
+        "identity/status"
+      ]
+    ]
+  }
+]

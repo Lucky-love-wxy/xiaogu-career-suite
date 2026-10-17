@@ -1,0 +1,179 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_d0ac88cb7682",
+  "node": "人力/行政/法务 › 行政 › 前台",
+  "family": "人力/行政/法务",
+  "parent_id": "人力/行政/法务 › 行政",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "人力/行政/法务 › 行政 › 前台",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vsm5MnNtz",
+      "type": "recruitment_jd",
+      "title": "导医前台",
+      "company": "杭州美莱医疗美容医院有限公司",
+      "url": "https://campus.niuqizp.com/job-vsm5MnNtz.html",
+      "date": "2026-09-28",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "招聘要求：2027年毕业的应届生，专业不限，有酒店、空乘、礼仪相关实习经验优先，形象好气质佳（女净身高165CM以上，男净身高175以上，身材匀称）有亲和力，沟通能力强、学习力强，掌握基础office办公软件，可以一直实习到毕业。我们提供优质食宿、完善的培训计划、成长晋身机制，期待渴望在医美行业长期发展的你投递简历！\n公司介绍\n公司名称\n杭州美莱医疗美容医院有限公司\n所属行业\n医疗/护理/卫生服务\n公司性质\n民营企业\n公司规模\n100-499人\n浙江省杭州市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vsm5MnNtz.html",
+      "cache_sha256": "2d32e4532efd46f3480c64c4092405121149e3edf38abf46220aecb533d33e04"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "前台",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "前台"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "导医前台",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vsm5MnNtz"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vsm5MnNtz"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vsm5MnNtz"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "导医前台",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vsm5MnNtz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

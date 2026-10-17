@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-06T14:50:50.886118+08:00",
+  "status": "verified_logged_in_page_search_and_full_detail",
+  "method": "web-access Chrome CDP via cdp.mjs",
+  "homepage": "https://maimai.cn/community/home/recommended",
+  "query": "CRC",
+  "search_url": "https://maimai.cn/web/search_center?highlight=true&query=CRC&type=feed",
+  "sort": "时间排序",
+  "recent_result_dates": [
+    "2026-10-02",
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-21",
+    "2026-09-19"
+  ],
+  "candidate_limit": 10,
+  "detail": {
+    "url": "https://maimai.cn/community/feed-detail/1928417393?fid=1928417393&efid=0n5Xv_vDVFPPDNcYBBq2Tg",
+    "author_nickname": "花生会替我报仇",
+    "date": "2026-09-19",
+    "title": "求内推crc，本科药学专业",
+    "body_relevant": "有多年临床试验招募工作经验；有gcp证书，对crc工作内容有大致了解（短期兼职过器械项目）",
+    "redaction": "个人年龄/婚育/地点/单位/评论/访客/账号信息未保存",
+    "assessment": "求职自述，缺具体CRC任务/交付/协作经历，不入卡，不计新增本人作者"
+  },
+  "interaction_finding": "输入搜索框并Enter成功进入旧版搜索页；点击时间排序成功。普通点击未产生可见详情，新窗口导航目标已观察；打开该实际目标后重定向新版详情并取得正文。未构造隐式参数。",
+  "limitations": "仅证明本次登录会话首页、CRC搜索/时间排序与一篇详情可读，不保证全部岗位、帖子和接口均可访问。",
+  "playwright": "未使用，CDP已达到网页交互核验目标",
+  "paid_api_calls": 0,
+  "cleanup": "本批搜索/详情两个任务页关闭成功，保留用户原页"
+}

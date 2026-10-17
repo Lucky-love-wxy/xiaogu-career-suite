@@ -1,0 +1,162 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_9c9bb8267075",
+  "node": "客服/运营 › 业务运营 › 网站运营",
+  "family": "客服/运营",
+  "parent_id": "客服/运营 › 业务运营",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "客服/运营 › 业务运营 › 网站运营",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vslNL5LNN",
+      "type": "recruitment_jd",
+      "title": "新媒体与网站运营",
+      "company": "丹东宏君人才咨询有限公司",
+      "url": "https://campus.niuqizp.com/job-vslNL5LNN.html",
+      "date": "2026-09-30",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "任职要求： 1. 具备网站编辑及维护能力1）有网站内容更新、页面维护及基础网站管理经验；2）能够独立完成图片、文字、产品信息、项目案例等网站内容的更新；3）有 WordPress / Elementor 等网站后台使用经验者优先；4）具备基本的网站审美和页面排版能力，能够发现并改善页面展示问题。2. 具备短视频制作及剪辑能力1）熟练使用 Adobe Premiere Pro（PR）进行视频剪辑；2）能够独立完成短视频的素材整理、剪辑、字幕、音乐、基础调色及输出；3）了解 Facebook、Instagram、Pinterest、TikTok / Reels 等平台的视频及内容形式；4）对短视频节奏、画面、封面及用户注意力有一定理解。3. 熟练使用 AI 工具1）日常经常使用 ChatGPT、AI 图片、AI 视频或其他人工智能工具辅助工作；2）能够利用 AI 提高文案、图片、视频、网站内容制作等工作的效率；3）对新的 AI 工具保持兴趣，并愿意主动学习、测试和应用；4）会使用 AI 制作或辅助制作视频者优先。4. 具备社交媒体内容运营能力1）能够协助维护及更新 Facebook、Instagram、Pinterest 等公司社交媒体账号；2）能够根据公司的产品、项目及营销方向制作并发布图片、视频和文字内容；3）对建筑、家居、室内设计、装修、建材等相关内容有兴趣者优先。5. 良好的工作态度与学习能力1）工作认真负责，积极主动，有较强的执行力；2）愿意学习新软件、新平台及新的 AI 工具；3）遇到问题能够主动使用 AI、Google 及其他工具寻找解决方案，而不是等待安排；4）有良好的沟通能力和团队合作意识；5）能够同时处理不同类型的工作，并合理安排优先级；6）对自己的工作成果有要求，注重细节及完成质量。6. 我们更看重1）学习能力和实际解决问题的能力，而不仅仅是学历或工作年限；2）对 AI、新媒体、网站和数字营销真正有兴趣；3）愿意不断尝试新的方法，提高工作效率；4）有责任心、积极、有成长意愿，并愿意与公司一起长期发展。职位福利：（周末双休/加班补助）",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vslNL5LNN.html",
+      "cache_sha256": "246e4b504b8b308b1ce867d0f394a19acb696fb71732caccec1bfc0464b5dad3"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "网站运营",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "网站运营"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "新媒体与网站运营",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vslNL5LNN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vslNL5LNN"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "新媒体与网站运营",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

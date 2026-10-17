@@ -1,0 +1,302 @@
+{
+  "name": [
+    {
+      "text": "大模型算法",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "大模型算法"
+        }
+      ]
+    }
+  ],
+  "sample_n": 6,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责算法模型与应用软件的对接开发",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责算法模型与应用软件的对接开发"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与行业数据集建设，根据应用场景需求收集、清洗、标注数据",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "参与行业数据集建设，根据应用场景需求收集、清洗、标注数据"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责研发特定场景下的目标检测、属性分类、场景分割等深度学习算法",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责研发特定场景下的目标检测、属性分类、场景分割等深度学习算法"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责多模态大模型应用研发，训练行业多模态大模型、视频图像识别场景大模型"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vslNLzMC5",
+          "text": "负责智能体应用软件开发，应用大模型、智能体技术开发智能查询、智能检索等智能体应用"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5azaaL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5azaaL",
+          "text": "负责机器人多模态包括但不限于视觉，语音，触觉，文字等各种模态输入的模型开发和研究工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "设计并建设自动化评测体系与合成数据流水线，基于模型失败案例驱动算法迭代，推动方案在医疗等真实业务场景中验证落地",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyk5CtnNL"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyk5CtnNL",
+          "text": "设计并建设自动化评测体系与合成数据流水线，基于模型失败案例驱动算法迭代，推动方案在医疗等真实业务场景中验证落地"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "6份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vls5ztMMz"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，5份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 5,
+        "denominator": 6,
+        "matched_ids": [
+          "v8U5MLntn",
+          "vYl5azaaL",
+          "vlY5azazZ",
+          "vslNLzMC5",
+          "vyk5CtnNL"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vyk5CtnNL"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，3份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 3,
+        "denominator": 6,
+        "matched_ids": [
+          "v8U5MLntn",
+          "vlY5azazZ",
+          "vslNLzMC5"
+        ]
+      }
+    },
+    {
+      "text": "6份保留样本中，3份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8U5MLntn",
+        "vYl5azaaL",
+        "vlY5azazZ",
+        "vls5ztMMz",
+        "vslNLzMC5",
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 3,
+        "denominator": 6,
+        "matched_ids": [
+          "v8U5MLntn",
+          "vls5ztMMz",
+          "vyk5CtnNL"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "2026招聘大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vls5ztMMz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "2027招聘世界模型方向多模态大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlY5azazZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "VLM方向多模态大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5azaaL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "【源点顶尖人才计划】大模型算法工程师(A130665)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyk5CtnNL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "大模型算法工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8U5MLntn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "大模型算法研发",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vslNLzMC5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": [
+    {
+      "text": "工业设计",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "工业设计"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "协助与外观模型、模具及零部件供应商进行技术对接，跟踪开发进度，解决试产中的设计问题",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5tNzM5",
+          "text": "协助与外观模型、模具及零部件供应商进行技术对接，跟踪开发进度，解决试产中的设计问题"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与产品开发全流程，为原型制作、试产、量产提供技术支持，并负责相关技术文档的归档与管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5tNzM5",
+          "text": "参与产品开发全流程，为原型制作、试产、量产提供技术支持，并负责相关技术文档的归档与管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责新产品的外观3D建模与内部机械结构设计，完成详细工程图纸输出，确保设计的可制造性、可靠性与成本可控",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5tNzM5",
+          "text": "负责新产品的外观3D建模与内部机械结构设计，完成详细工程图纸输出，确保设计的可制造性、可靠性与成本可控"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责编制、维护与更新产品的全套BOM（物料清单），确保物料信息的准确性与一致性，支持采购、生产及成本核算",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5tNzM5",
+          "text": "负责编制、维护与更新产品的全套BOM（物料清单），确保物料信息的准确性与一致性，支持采购、生产及成本核算"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYl5tNzM5"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“设计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "设计学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vYl5tNzM5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医疗器械工业设计",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5tNzM5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

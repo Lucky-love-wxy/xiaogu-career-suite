@@ -1,6 +1,6 @@
 # 小谷求职 Skill 群
 
-小谷求职 Skill 群把求职过程拆成几个可以检查的步骤：找岗位、看懂 JD、理解岗位现实、准备岗位版简历、面试后复盘。最外层的 Harness 由 `xiaogu-career-master` 承担：用户只需要说一句自然语言，它就自动选择并串联对应 Skill。系统配有一份小型职业数据库和行业黑话词典，优先做确定性检索；没有查到的内容会标为未知，不让模型凭感觉补全。
+小谷求职 Skill 群把求职过程拆成几个可以检查的步骤：找岗位、看懂 JD、理解岗位现实、准备岗位版简历、面试后复盘。最外层的 Harness 由 `xiaogu-career-master` 承担：用户只需要说一句自然语言，它就自动选择并串联对应 Skill。系统配有一份小型职业数据库和行业黑话词典，先做确定性检索；理解岗位时再默认补充牛客、脉脉的公开从业者说法（附链接和日期，标为未核实，读取失败不影响结论）。没有查到的内容会标为未知，不让模型凭感觉补全。
 
 ## 当前包含
 
@@ -11,6 +11,9 @@
 - `xiaogu-resume`：根据已确认经历生成岗位版本，不编造数字和经历。
 - `xiaogu-interview-review`：根据真实逐字稿逐题复盘，生成下一次练习。
 - `xiaogu-career-master`：面向新手的唯一 Harness 入口，识别一句话意图、串起流程并管理岗位状态。
+- `web/`（自建 Web Agent 的核心，未进 Skill 分发包）：服务端执行 harness（路由、证据包、校验、渲染）、按 JD 定制改写、简历美化、题库模拟面试、用户记忆、城市产业资料。见 [web/README.md](web/README.md)。
+- `platform/`（上线平台，2026-10-14 起独立成目录）：账号与阿里云短信验证码、额度计费、后台看板、截图识别、页面和部署脚本。见 [platform/README.md](platform/README.md)，第三方来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- `related/`：仓库外的小谷相关文件的快照（动效页、Codex 任务交接、笔记、演示视频），见 [related/README.md](related/README.md)。
 
 ## 一句话使用
 
@@ -70,6 +73,8 @@ database/               可审计的 JSON 事实源
 _xiaogu-runtime/        JobDocument、工作区和确定性处理器
 scripts/                统一检索与打包脚本
 docs/                   架构与 WorkBuddy 教学
+web/                    小谷 agent 核心（服务端执行 harness，DeepSeek 写措辞）
+platform/               上线平台：账号、额度、后台、页面、部署
 examples/               可直接运行的示例
 tests/                  回归测试
 ```

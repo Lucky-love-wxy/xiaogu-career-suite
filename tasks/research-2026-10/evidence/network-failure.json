@@ -1,0 +1,11 @@
+{
+  "attempted_at": "2026-10-04T22:12:18.189928+08:00",
+  "url": "https://www.nowcoder.com/robots.txt",
+  "method": "curl",
+  "user_agent": "XiaoguResearch/0.1",
+  "exit_code": 7,
+  "stderr": "curl: (7) Failed to connect to 127.0.0.1 port 7890 after 0 ms: Couldn't connect to server",
+  "body_obtained": false,
+  "interpretation": "当前执行环境无法连接配置的代理；不能据此判断目标网站不可访问。",
+  "next_action": "等待用户指引；未切换联网工具、代理或重试。"
+}

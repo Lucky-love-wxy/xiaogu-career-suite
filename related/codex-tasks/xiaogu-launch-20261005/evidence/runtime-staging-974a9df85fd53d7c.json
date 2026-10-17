@@ -1,0 +1,247 @@
+{
+  "release": "staging-974a9df85fd53d7c",
+  "archive_sha256": "7c8fee5bcbb9d4c39482e0fea2b7ca86aece7b04ca03749774405f96fc88b9ff",
+  "files": [
+    {
+      "path": "database/jargon.json",
+      "sha256": "f7f54f7782574b849edcf1e4257fe1545ba7739e5f9a2c9355e39a2a40a65db7",
+      "bytes": 55695
+    },
+    {
+      "path": "database/occupations.json",
+      "sha256": "b8ee635beae9480c30fb48e1bf6805498100a50ae353ff12c01bca1c93362618",
+      "bytes": 12995
+    },
+    {
+      "path": "database/taxonomy.json",
+      "sha256": "af4b01b2f4137d97a408b856f075585067816089dad89e3c7485d9ccc2c449cd",
+      "bytes": 414
+    },
+    {
+      "path": "deploy/xiaogu@.service",
+      "sha256": "7771f0b2f4c7048c8c6cbd0bd8959227df16e3e100e9e7704a7c9eb78f4df632",
+      "bytes": 867
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/jd.txt",
+      "sha256": "741abe84491f050a99410bf5d7c4544ed2d2f25df4bf93f1605d027783f055bb",
+      "bytes": 982
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/live_sources.json",
+      "sha256": "014ba1b8c566c80a1f2765b2791e5d38884e6370bd8419e24f42d064aa6428bd",
+      "bytes": 6322
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/different_team.json",
+      "sha256": "f712b11831ec9a018a0fa556ff80156e27a9de9f19fffd9d3a125e3fdcd594de",
+      "bytes": 1883
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/full__A1_label.json",
+      "sha256": "c39a369f06e397d3efb5e9b5f392ba398311fdb75151c96265a6c2e11580979e",
+      "bytes": 2420
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/full__A2_scope.json",
+      "sha256": "525d9e370c186c9e1a7119d29fa414dcafacd1996065968eb9f13029044d8b10",
+      "bytes": 2661
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/full__A3_summary.json",
+      "sha256": "d9378e81d0620281b450480c5ce2afaffd132e28ddc04e2b08123e5bd554023b",
+      "bytes": 2559
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/no_results__B1_unknown.json",
+      "sha256": "33405fd50ea16d5c208cbce7638cbf14d8086c0fc05ec8942a23af0024233780",
+      "bytes": 1474
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/no_results__B2_action.json",
+      "sha256": "c7dfcf784eb16ebb2c16ac931eb9fe3d23e9e08463cd55374c803c7952ecb184",
+      "bytes": 1445
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/robots_blocked.json",
+      "sha256": "18ca1f73ff0d904d1d3217ab6b4e65a65a11cd81feb680446beef98d79dd8cd1",
+      "bytes": 1853
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/same_company_conflict.json",
+      "sha256": "c14e01f496058cd876af6bc5147eca457d3319efe76704a84c2368636eaeab39",
+      "bytes": 1937
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/single_anonymous.json",
+      "sha256": "b39727a8d8f2096acee90c92281b1545194fa1a9ed213cda566f335155104431",
+      "bytes": 1835
+    },
+    {
+      "path": "examples/algorithm-engineer-mock/responses/stale_only.json",
+      "sha256": "4178d7e6dddd12f583d4d9ad17d0015af9621d792300ff5bbac5ec9cfc7bc78a",
+      "bytes": 1862
+    },
+    {
+      "path": "skills/xiaogu-career-master/references/harness-contract.md",
+      "sha256": "6b2a234573dd3da2e2dd4dbe9e0ee7b8b7dbad2e0ced76f03f5234250606d9ca",
+      "bytes": 3260
+    },
+    {
+      "path": "skills/xiaogu-career-master/references/output-contract.md",
+      "sha256": "7b787157012cf136f18c6bd6a43c9f5508dccca4584855546f2adf30f5a1a8c9",
+      "bytes": 3415
+    },
+    {
+      "path": "skills/xiaogu-career-master/references/phrasing.md",
+      "sha256": "34c2d6a58d9ae6d5323bd970b0834b0ef438b05ee53d9d170d39a54fb758a077",
+      "bytes": 4933
+    },
+    {
+      "path": "skills/xiaogu-career-master/references/routing-jargon.json",
+      "sha256": "57f390fd8d8b8386a0fbcdc395b5aac763170fe5a2e96e3079f7b8c592a25b3b",
+      "bytes": 1335
+    },
+    {
+      "path": "skills/xiaogu-career-master/scripts/career_workspace.py",
+      "sha256": "b5dbaf392dba7e4e481a6ae24fb4f04a0535540c91ee99f09cae7847c2ca6856",
+      "bytes": 5961
+    },
+    {
+      "path": "skills/xiaogu-career-master/scripts/render_response.py",
+      "sha256": "7e2bfb0fc9b8470d628d1a5182e16c9f7ba011fb6d7a0e792b830b0f48f0c93d",
+      "bytes": 7032
+    },
+    {
+      "path": "skills/xiaogu-career-master/scripts/route_request.py",
+      "sha256": "e787fac6bacbe25c9ab0ca8ba53750fa80aa6b9cc3bf7bfc4e0711e8ed81a57f",
+      "bytes": 8896
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/external-research.md",
+      "sha256": "b7b3f668638f52ec4dd55886b4a4c610b90960178bbac4531e8471b8e4538e2d",
+      "bytes": 3733
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/index-contract.md",
+      "sha256": "7d48f52d863678959f51850754014db7f4389ab76d3bef1e783a817612f39a64",
+      "bytes": 1911
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/jargon-contract.md",
+      "sha256": "b812c42af26a4773eb965d934ea0f1325fa179b3ccba56280107541ae24e4c42",
+      "bytes": 1735
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/jargon.json",
+      "sha256": "f7f54f7782574b849edcf1e4257fe1545ba7739e5f9a2c9355e39a2a40a65db7",
+      "bytes": 55695
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/occupations.json",
+      "sha256": "b8ee635beae9480c30fb48e1bf6805498100a50ae353ff12c01bca1c93362618",
+      "bytes": 12995
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/output-schema.json",
+      "sha256": "00631242ac39d1c87135d8f1f3698b93976c7abf1a951cd1f16dd6522ba67181",
+      "bytes": 480
+    },
+    {
+      "path": "skills/xiaogu-career-suite/references/taxonomy.json",
+      "sha256": "af4b01b2f4137d97a408b856f075585067816089dad89e3c7485d9ccc2c449cd",
+      "bytes": 414
+    },
+    {
+      "path": "skills/xiaogu-career-suite/scripts/analyze_job.py",
+      "sha256": "91678fbfefcd62298b4bde02851c785bc28ddbd353aa00e49447d3d2efaa989d",
+      "bytes": 11656
+    },
+    {
+      "path": "skills/xiaogu-career-suite/scripts/search.py",
+      "sha256": "3cb6643c095d45d574ab5df616cc7e97af64ad3aefe80ad30a2732000471331d",
+      "bytes": 3397
+    },
+    {
+      "path": "skills/xiaogu-career-suite/scripts/search_occupations.py",
+      "sha256": "9c15780c69a5e3e9f74c957d88c073a454abd02a46fc26c2165cac7023a0673a",
+      "bytes": 3148
+    },
+    {
+      "path": "skills/xiaogu-career-suite/scripts/validate_card.py",
+      "sha256": "6892938c264099617a96b10f1514e9027cc50219fc6395b2213fff54da9ac344",
+      "bytes": 8662
+    },
+    {
+      "path": "web/agent.py",
+      "sha256": "0407103d5da7886aeac5402ed3f6607291bc68ac20745d69622c504ccc66d67f",
+      "bytes": 69410
+    },
+    {
+      "path": "web/app.py",
+      "sha256": "d4e81c80f88a0da06eb4588330002c4a625a8c5f588fad4db21852ed9bf59630",
+      "bytes": 32321
+    },
+    {
+      "path": "web/auth.py",
+      "sha256": "8fd6a4ce74d2f6f0cba61b4b629f464340ff74374b40c64e5c1bf04b1e41a23a",
+      "bytes": 4770
+    },
+    {
+      "path": "web/interview.py",
+      "sha256": "de4056966d2cfa79badaf91afb4fa215f66c32a8ffa72e3ff9d7aeab6904e8c3",
+      "bytes": 11325
+    },
+    {
+      "path": "web/requirements.txt",
+      "sha256": "5feb6a8b0c09ed30d831399662a75525ea956cd35c0311ecfa178f87d5a25941",
+      "bytes": 33
+    },
+    {
+      "path": "web/resume_tools.py",
+      "sha256": "5784b411035b94661f0e09edbdd435eba5ae38b21ce49e8c1ee913f45c75b5af",
+      "bytes": 17067
+    },
+    {
+      "path": "web/server.py",
+      "sha256": "fbb86639246110ee6120db00dfd7b1a306ddd443288b9666275ed48942730e56",
+      "bytes": 8311
+    },
+    {
+      "path": "web/static/admin.html",
+      "sha256": "f045161a10d48055971b0ded0b779ae7fe5a57f2920af96384fe5832ed5251d9",
+      "bytes": 27763
+    },
+    {
+      "path": "web/static/home.html",
+      "sha256": "d52cb5345e5b5a5d99904dd54a797910900e7114eaf459704626d0f2f8e5de24",
+      "bytes": 4460
+    },
+    {
+      "path": "web/static/index.html",
+      "sha256": "92101fefc91f2f2e921e5d7877cb1ac4bb086bb22525459e27089ee800325f5d",
+      "bytes": 27432
+    },
+    {
+      "path": "web/static/legal-privacy.html",
+      "sha256": "62bb271258334b0d914fc6839a6150ef55e58d7a388e5f457878d0e53a4910e1",
+      "bytes": 3092
+    },
+    {
+      "path": "web/static/legal-terms.html",
+      "sha256": "ead623e44987a0201b656ffa6f0faface7618b1c7e187026432c20c9a3b74372",
+      "bytes": 2683
+    },
+    {
+      "path": "web/static/login.html",
+      "sha256": "869b1ff063256488468dd63c8730c286ae9009a93dc7d1a642ff7022c36d9e81",
+      "bytes": 6345
+    },
+    {
+      "path": "web/store.py",
+      "sha256": "5ced1d6830223d95a835bd5a32a6cc20c160c1561f4c9e279f772f42fd690c5d",
+      "bytes": 24762
+    }
+  ],
+  "scope": "localhost-only staging with mock model; no production publishing"
+}

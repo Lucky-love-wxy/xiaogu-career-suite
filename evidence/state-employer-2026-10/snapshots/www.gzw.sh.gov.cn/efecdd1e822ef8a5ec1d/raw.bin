@@ -1,0 +1,939 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="renderer" content="webkit"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"> 
+  <meta http-equiv="x-ua-compatible" content="ie=7"> 
+  <meta name="applicable-device" content="pc;mobile"> 
+  <meta name="SiteName" content="上海市国有资产监督管理委员会"> 
+  <meta name="SiteDomain" content="www.gzw.sh.gov.cn"> 
+  <meta name="SiteIDCode" content="3100000026"> 
+  <meta name="ColumnName" content="上海国资委门户网站首页"> 
+  <meta name="ColumnDescription" content="上海国资委门户网站"> 
+  <meta name="ColumnKeywords" content="机构职能、信息公开、新闻发布、政策法规、服务大厅、互动交流"> 
+  <meta name="ColumnType" content="首页"> 
+  <meta name="Description" content="上海国资委门户网站"> 
+  <title>上海市国有资产监督管理委员会</title> 
+  <!--主样式--> 
+  <link rel="stylesheet" type="text/css" href="/assets2021/css/master.css"> 
+  <link href="/assets2021/css/responsive.css" rel="stylesheet" type="text/css"> 
+  <!--新轮播图样式--> 
+  <link rel="stylesheet" type="text/css" href="/owl/owl.carousel.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets2021/css/ETUI3.min.css"> 
+  <link rel="stylesheet" type="text/css" href="/assets2021/css/testcss.css"> 
+  <link rel="shortcut icon" href="/assets2021/img/favicon.png"> 
+  <script src="/assets2021/js/jquery.js"></script> 
+  <script src="/assets2021/js/jquery.migrate.js"></script> 
+  <!-- 
+			//灰色
+			<style>
+			html{ 
+				filter: grayscale(100%);
+					
+				/* webkit内核 */
+				
+				-webkit-filter: grayscale(100%);
+				
+				/* 火狐内核 */
+				
+				-moz-filter: grayscale(100%);
+				
+				/* 微软内核 */
+				
+				-ms-filter: grayscale(100%);
+				
+				/* 欧朋内核 */
+				
+				-o-filter: grayscale(100%);
+				
+				/* ie专有滤镜 */
+					
+				filter:gray;
+			}
+		</style> --> 
+ </head> 
+ <!-- 智能小申 --> 
+ <body onload="setCodeValue()"> 
+  <div class="fixed-icon" style="background-color:rgba(0,0,0,0);position: fixed;right: 4px;top: 10%;border-radius: 6px;z-index: 200;"> 
+   <a href="https://zwdt.sh.gov.cn/smzy/gzw_qa/tourist/guide/qa" title="智能问答" target="_blank"> <img src="/assets2021/img/xiaoshen.png" alt="智能问答"> </a> 
+  </div> 
+  <div id="accessNull"></div> 
+  <div id="container"> 
+   <!-- 二十大 --> 
+   <!--<div style="margin-bottom: -0.22em;">
+			<a href="http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm" title="中国共产党第二十次全国代表大会" target="_blank"><img src="/images/20top3.jpg" style="width: 100%;" alt="点击进入"></a>
+			</div>--> 
+   <div> 
+    <div id="skip" style="overflow: hidden; width: 0px; height: 0px;"> 
+     <a id="accesshelp" title="新窗口打开无障碍操作说明页面" target="_blank">无障碍操作说明</a> 
+     <a href="javascript:createNodeDiv(" mainnav', '已定位到网站导航' );' title="跳转到网站导航区">跳转到网站导航区</a> 
+     <a href="javascript:createNodeDiv(" main', '已定位到主要内容区域' );' title="跳转到主要内容区域">跳转到主要内容区域</a> 
+    </div> 
+    <div class="glink100" id="header"> 
+     <div class="glink"> 
+      <span><a href="/shgzw_wzdt/" title="网站地图">网站地图</a></span> 
+      <span><a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t" onclick="setCookieValue('t')" title="繁体版">繁体版</a></span> 
+      <span><a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s" onclick="setCookieValue('s')" title="简体版">简体版</a></span> 
+      <ul class="zzmszb" id="wzazzb"> 
+       <span id="ghb"><a href="javascript:void(0);" id="slb" onclick="aria.oldFixedStart()" title="关怀版">关怀版</a></span> 
+       <span id="ghbClose" style="display:none;"><a href="javascript:void(0);" id="slbClose" title="点击退出关怀版">退出关怀版</a></span> 
+       <!-- <span id="zzb" style="display:none;"><a href="https://www.gzw.sh.gov.cn/zzb/" title="长者版" target="_blank">长者版</a></span> --> 
+       <span id="wzagjt"><a href="javascript:void(0);" id="cniil_wza" onclick="aria.start()" title="网页无障碍辅助工具条，读屏软件用户请忽略。">无障碍</a></span> 
+       <span id="sjbghb" style="display:none;"><a href="javascript:void(0);" id="cniil_wza" onclick="aria.start()" title="手机版关怀版">关怀版</a></span> 
+      </ul> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+    <div class="top100 classSkip" title="头部区域"> 
+     <div class="topAi"> 
+      <div class="logo"> 
+       <img src="/img/logo.png" width="554" height="72" alt="上海市国有资产监督管理委员会"> 
+      </div> 
+      <div class="topR"> 
+       <div class="spirit"> 
+        <img src="/img/spirit.png" width="324" height="49" alt="上海城市精神：海纳百川 追求卓越 开明睿智 大气谦和"> 
+       </div> 
+       <div class="search trout-region-mutual" id="search"> 
+        <h2 class="disnone">该区域包含搜索框和检索按钮,输入关键字查询网站相关内容，按回车键进行搜索</h2> 
+        <input class="searchInput" type="text" value="请输入查询关键字" name="txtSearch" id="txtSearch" onfocus="InitText();" onkeypress="checkSearch();"> 
+        <a href="javascript:SearchByKey();" title="请输入搜索的内容"> <img src="/img/searchBtn.png" width="47" height="36" title="请输入搜索的内容" alt="请输入搜索的内容"> </a> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+    <!--首页广告--> 
+    <!-- <div class="col-md-12 margin-top-20 margin-bottom-20 hide10 zf" style="width: 100%;text-align: center;">
+					<a href="/ztjy/index.html" target="_blank" title="主题教育">
+						<img src="/images/ztjy.png" style="width: 1098px;" width="1000" border="0" alt="主题教育">
+					</a>
+				</div> --> 
+    <!-- <div class="col-md-12 margin-top-20 margin-bottom-20 hide10 zf" style="width: 100%;text-align: center;">
+					<a href="/yqfk/index.html" target="_blank">
+						<img src="/images/topbanner.png" style="width: 1098px;" width="1000" border="0" alt="上海市国资系统疫情防空专题">
+					</a>
+				</div> --> 
+    <div class="mobiletop"> 
+     <div class="mobiletopkid"> 
+      <div class="mobilelogo"> 
+       <img src="/img/logomobile.png" style="width: 45%;height: auto;margin-top: 20px;margin-left: 2%;" alt="上海市国有资产监督管理委员会"> 
+       <img src="/img/menu.png" style="width: 4%;margin-left: 2.5%"> 
+      </div> 
+      <div class="mobilesearch"> 
+       <input class="mobileinput" placeholder="请输入搜索关键字"> 
+       <span class="search_m1"></span> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+   <!--页面主体开始--> 
+   <div"> 
+    <div class="main" id="main"> 
+     <!-- 页面右飘窗 --> 
+     <div class="cus_ser classSkip" id="cus_ser1" style="top: 40%;"> 
+      <a href="https://shgzwzp.fsg.com.cn" title="上海市国资国企人才招聘平台" target="_blank" style="cursor:pointer;"> <img src="/images/rczp5.jpg" width="268px" alt="上海市国资国企人才招聘平台"></a> 
+      <span class="close" id="close1"> <a href="javascript:closeWindow();" title="关闭"><img src="/images/icon_close.png" alt="关闭按钮"></a> </span> 
+     </div> 
+     <!-- 飘窗 --> 
+     <script type="text/javascript">
+                    $("#close1").click(function () {
+                        $("#cus_ser1").hide();
+                    })
+                    $("#close2").click(function () {
+                        $("#cus_ser2").hide();
+                    })
+                    $("#close3").click(function () {
+                        $("#cus_ser3").hide();
+                    });
+
+
+                </script> 
+     <script type="text/javascript" language="javascript">
+                    var ad1 = new AdMove("ad1");
+                    ad1.Run();
+                </script> 
+     <script type="text/javascript" language="javascript">
+                    $(function () {
+                        $(".close1").click(function () {
+                            $("#ad1").hide();
+                        });
+                    });
+                </script> 
+     <!-- <div class="cus_ser classSkip" id="cus_ser2" style="bottom: 115px;"> 
+						<a href="https://xfb.sh.gov.cn/xinfang/yjzj/topic/info?id=218757B8973E4FB38292C1A195E18BE1" target="_blank" style="cursor:pointer;">
+							<img src="/images/wwshshlj.jpg" width="268px" alt="我为上海生活垃圾科普展示献一记"></a> 
+						<span class="close" id="close2">
+							<img src="/images/icon_close.png">
+						</span> 
+					</div> --> 
+     <!--<div class="cus_ser" id="cus_ser2" style="bottom: 550px;right:20px;">
+					  <a href="http://shgzw2021.zhaopin.com/" target="_blank" style="cursor:pointer;"><img src="/img/WechatIMG560.jpeg" width="268px"></a> 
+					  <span class="close" style="display:none;"><img src="/images/icon_close.png"></span> 
+					</div>--> 
+     <!--<div class="cus_ser" id="cus_ser2" style="bottom:293px;">
+					   <a href="/yqfk_fczxqy/" target="_blank" style="cursor:pointer;"><img src="/images/ad-top.jpg" width="268px"/></a>
+					  <span class="close" id="close2"><img src="/images/icon_close.png" /></span> 
+					</div>
+					<div class="cus_ser" id="cus_ser4" style="right:20px;">
+					   <a href="/yqfk_fczxqy/20200223/0054-94206.html" target="_blank" style="cursor:pointer;"><img src="/images/ad-bottom.jpg" width="268px"/></a>
+					  <span class="close" style="display:none;"><img src="/images/icon_close.png" /></span> 
+					</div>--> 
+     <!--<div class="cus_serleft" id="cus_ser3" style="bottom:400px;">
+					   <a href="http://xfb.sh.gov.cn/xfb/xxgk/gggs/n71/u1ai1150.html" target="_blank" style="cursor:pointer;"><img src="/images/znjr20210610.png" width="100px"/></a>
+					  <span class="closeleft" id="close3"><img src="/images/icon_close.png" /></span> 
+					</div>--> 
+     <div class="nav classSkip trout-region-nav" title="左侧导航栏"> 
+      <h2 class="disnone">首页,机构职能,新闻发布,政策法规,专题专栏,服务大厅,互动交流等内容，按tab键遍历信息</h2> 
+      <ul id="mainNav"> 
+       <li id="shouye" class="nav1"><a code="shgzw_xwzx" href="/" title="首页">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a></li> 
+       <li id="xxpl" class="nav5"><a code="shgzw_zyzn" href="/shgzw_zyzn/" title="机构职能">机构职能</a></li> 
+       <li id="xwfb" class="nav3"><a code="shgzw_xwzx" href="/shgzw_xwzx/" title="新闻发布">新闻发布</a></li> 
+       <li id="flfg" class="nav4"><a code="shgzw_xwzx" href="/shgzw_fzjs/" title="政策法规">政策法规</a></li> 
+       <li id="ztzl" class="nav9"><a code="shgzw_xwzx" href="/shgzw_ztzl/" title="专题专栏">专题专栏</a></li> 
+       <li id="wsbs" class="nav6"><a code="shgzw_xwzx" href="/shgzw_wsbs/" title="服务大厅">服务大厅</a></li> 
+       <li id="hdjl" class="nav7"><a code="shgzw_xwzx" href="/shgzw_hdjl/" title="互动交流">互动交流</a></li> 
+      </ul> 
+     </div> 
+     <div class="w83 classSkip trout-region-info" title="右侧内容区域"> 
+      <h2 class="disnone">该区域包含轮播图,国资要闻等内容列表,按tab键遍历信息</h2> 
+      <div class="tr"> 
+       <div id="focus"> 
+        <div class="normal-slider owl-carouse Slider-one Slider-index"> 
+         <div class="item"> 
+          <a href="/shgzw_xwzx_gzyw/20260914/f418a644e3454db5a197415a720e61a8.html" title="加快向全球顶尖的人工智能学院进发！市委书记陈吉宁调研上海创智学院"> <img class="p1" alt="加快向全球顶尖的人工智能学院进发！市委书记陈吉宁调研上海创智学院" src="/cmsres/53/53c42cd1a5df4620a4ced50863688082/ee6df7033a974fd2d6b73e2297a56fc1.png" title="加快向全球顶尖的人工智能学院进发！市委书记陈吉宁调研上海创智学院"> <h4 class="title"> <span>加快向全球顶尖的人工智能学院进发！市委书记陈吉宁调研上海创智学院</span> </h4> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="/shgzw_xwzx_tpxw/20260817/fa1b806df7714100ba0707590f2354b3.html" title="优化产业生态、深化制度创新、强化科技创新、增强人才吸引力！市委书记陈吉宁调研临港新片区并主持召开座谈会"> <img class="p1" alt="优化产业生态、深化制度创新、强化科技创新、增强人才吸引力！市委书记陈吉宁调研临港新片区并主持召开座谈会" src="/cmsres/a8/a8c60aec68024ec998e5946aac0763b4/18e3076e0fda24f6905b06e116426a8b.png" title="优化产业生态、深化制度创新、强化科技创新、增强人才吸引力！市委书记陈吉宁调研临港新片区并主持召开座谈会"> <h4 class="title"> <span>优化产业生态、深化制度创新、强化科技创新、增强人才吸引力！市委书记陈吉宁调研临港新片区并主持召开座谈会</span> </h4> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="/shgzw_xwzx_gzyw/20260608/3b7389ca56cb41798e2b2cb4d26c7af6.html" title="全力当好工业智能化转型的先行探路者、集成服务商！市委书记陈吉宁调研上海电气集团"> <img class="p1" alt="全力当好工业智能化转型的先行探路者、集成服务商！市委书记陈吉宁调研上海电气集团" src="/cmsres/55/55d1c00ce27945968c8641d97cfdfb78/ee6df7033a974fd2d6b73e2297a56fc1.png" title="全力当好工业智能化转型的先行探路者、集成服务商！市委书记陈吉宁调研上海电气集团"> <h4 class="title"> <span>全力当好工业智能化转型的先行探路者、集成服务商！市委书记陈吉宁调研上海电气集团</span> </h4> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="/shgzw_xwzx_gzyw/20260227/ca3cfc520f2e4f9a89fad16692c508db.html" title="市国资委调研国智技术"> <img class="p1" alt="市国资委调研国智技术" src="/cmsres/89/89f74fe65df8407a80bb90d16be185fb/ee6df7033a974fd2d6b73e2297a56fc1.png" title="市国资委调研国智技术"> <h4 class="title"> <span>市国资委调研国智技术</span> </h4> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="/shgzw_xwzx_gzyw/20251201/580d12c2cf4f465d82167540f56f5290.html" title="推动上海国际贸易中心提质升级，市国资委召开建设国际化大宗商品贸易投资商座谈会"> <img class="p1" alt="推动上海国际贸易中心提质升级，市国资委召开建设国际化大宗商品贸易投资商座谈会" src="/cmsres/0f/0f05b20b001449f0aa25865ada9a0af0/ee6df7033a974fd2d6b73e2297a56fc1.png" title="推动上海国际贸易中心提质升级，市国资委召开建设国际化大宗商品贸易投资商座谈会"> <h4 class="title"> <span>推动上海国际贸易中心提质升级，市国资委召开建设国际化大宗商品贸易投资商座谈会</span> </h4> </a> 
+         </div> 
+        </div> 
+       </div> 
+       <script type="text/javascript" src="/js/jquery.yx_rotaion.js"></script> 
+       <script type="text/javascript">
+                            $(".yx-rotaion").yx_rotaion({
+                                auto: true
+                            });
+                        </script> 
+       <div class="clear1"></div> 
+       <div class="news classSkip" style="padding-left: 15px;"> 
+        <ul class=" nav-pills  clearfix" role="tablist"> 
+         <li class="active"> <a href="/shgzw_xwzx_szyw/" data-changetype="onlymove" data-target="#tab1" role="tab" data-toggle="tab" title="时政要闻">时政要闻</a> </li> 
+         <li> <a href="/shgzw_xwzx_gzyw/" data-changetype="onlymove" data-target="#tab2" role="tab" data-toggle="tab" title="国资要闻">国资要闻</a> </li> 
+        </ul> 
+        <div class="tab-content"> 
+         <div role="tabpanel" class="tab-pane " id="tab1"> 
+          <div class="infolong"> 
+           <ul class="tzgg"> 
+            <li> <span>2026-09-29</span> <a href="/shgzw_xwzx_szyw/20260929/53792515c0aa4defa9e852507d66455b.html" title="李强在全国安全生产视频会议上强调，抓实抓细安全生产各项工作，坚决防范遏制重特大事故发生">•&nbsp;李强在全国安全生产视频会议上强调，抓实抓细安全生产各项工作，坚决防范遏制重特大事故发生</a> </li> 
+            <li> <span>2026-09-29</span> <a href="/shgzw_xwzx_szyw/20260929/cb12035a4ae04dca8f5053bbe86b3791.html" title="习近平就建设更高水平平安中国作出重要指示">•&nbsp;习近平就建设更高水平平安中国作出重要指示</a> </li> 
+            <li> <span>2026-09-17</span> <a href="/shgzw_xwzx_szyw/20260917/99c720f0687c4693b97fa1839fc226be.html" title="习近平就发展先进制造业作出重要指示">•&nbsp;习近平就发展先进制造业作出重要指示</a> </li> 
+            <li> <span>2026-08-24</span> <a href="/shgzw_xwzx_xwfb/20260826/60a7712eeb8a4024899b4e5195a151df.html" title="习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩">•&nbsp;习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩</a> </li> 
+            <li> <span>2026-07-20</span> <a href="/shgzw_xwzx_xwfb/20260720/43f5fb393cbf44eaba83b58842a20a28.html" title="习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话">•&nbsp;习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话</a> </li> 
+            <li> <span>2026-07-02</span> <a href="/shgzw_xwzx_xwfb/20260702/b3606de33919432180ca0531f1df6e8a.html" title="习近平：在庆祝中国共产党成立105周年大会上的讲话">•&nbsp;习近平：在庆祝中国共产党成立105周年大会上的讲话</a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div role="tabpanel" class="tab-pane active" id="tab2"> 
+          <div class="infolong"> 
+           <ul class="tzgg"> 
+            <li> <span>2026-10-10</span> <a href="/shgzw_xwzx_gzyw/20261010/628bfaf6d00d4bb18c6821827050d8f0.html" title="市国资委召开第九届进博会上海交易团国资分团工作推进会">•&nbsp;市国资委召开第九届进博会上海交易团国资分团工作推进会</a> </li> 
+            <li> <span>2026-10-09</span> <a href="/shgzw_xwzx_gzyw/20261009/bd7f0d8c2f844fc2a62403922b542ee8.html" title="只争朝夕、攻坚突破、全力冲刺！市委季度工作会议举行，陈吉宁作工作点评">•&nbsp;只争朝夕、攻坚突破、全力冲刺！市委季度工作会议举行，陈吉宁作工作点评</a> </li> 
+            <li> <span>2026-10-09</span> <a href="/shgzw_xwzx_gzyw/20261009/f4371cd059074db19929ba533a8fbc4f.html" title="用好办赛成果、发扬办赛经验、保持办赛激情！第48届世界技能大赛上海市总结大会举行">•&nbsp;用好办赛成果、发扬办赛经验、保持办赛激情！第48届世界技能大赛上海市总结大会举行</a> </li> 
+            <li> <span>2026-10-09</span> <a href="/shgzw_xwzx_gzyw/20261009/72b7a71cc0904cfcbd59272bc6c251de.html" title="市国资委系统传达学习部署落实上海市进一步深化国资国企改革工作会议精神（二）">•&nbsp;市国资委系统传达学习部署落实上海市进一步深化国资国企改革工作会议精神（二）</a> </li> 
+            <li> <span>2026-10-08</span> <a href="/shgzw_xwzx_gzyw/20261008/3598a24de0454c8f8f1c50f9aa73c365.html" title="市国资委调研商业品牌培育焕新，检查指导安全生产工作">•&nbsp;市国资委调研商业品牌培育焕新，检查指导安全生产工作</a> </li> 
+            <li> <span>2026-10-08</span> <a href="/shgzw_xwzx_gzyw/20261008/eaaa65f4cde64ee6a309a34dbcfa3db5.html" title="市国资委检查国庆期间促消费和安全运行工作">•&nbsp;市国资委检查国庆期间促消费和安全运行工作</a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <!-- <div class="news classSkip">
+                            <div class="title">
+                                <span>国资要闻</span>
+                                <div class="more">
+                                    <a href="/shgzw_xwzx_gzyw/" target="_blank" title="国资要闻"> <img
+                                            src="https://www.gzw.sh.gov.cn/img/more.png" width="16" height="16"
+                                            alt="更多"> </a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="/shgzw_xwzx_gzyw/20261010/628bfaf6d00d4bb18c6821827050d8f0.html" title="市国资委召开第九届进博会上海交易团国资分团工作推进会" target="_blank">&bull;&nbsp;市国资委召开第九届进博会上海交易团国资分团工作推进会</a>
+                                </li>
+                                <li>
+                                    <a href="/shgzw_xwzx_gzyw/20261009/bd7f0d8c2f844fc2a62403922b542ee8.html" title="只争朝夕、攻坚突破、全力冲刺！市委季度工作会议举行，陈吉宁作工作点评" target="_blank">&bull;&nbsp;只争朝夕、攻坚突破、全力冲刺！市委季度工作会议举行，陈吉宁作工作点评</a>
+                                </li>
+                                <li>
+                                    <a href="/shgzw_xwzx_gzyw/20261009/f4371cd059074db19929ba533a8fbc4f.html" title="用好办赛成果、发扬办赛经验、保持办赛激情！第48届世界技能大赛上海市总结大会举行" target="_blank">&bull;&nbsp;用好办赛成果、发扬办赛经验、保持办赛激情！第48届世界技能大赛上海市总结大会举行</a>
+                                </li>
+                                <li>
+                                    <a href="/shgzw_xwzx_gzyw/20261009/72b7a71cc0904cfcbd59272bc6c251de.html" title="市国资委系统传达学习部署落实上海市进一步深化国资国企改革工作会议精神（二）" target="_blank">&bull;&nbsp;市国资委系统传达学习部署落实上海市进一步深化国资国企改革工作会议精神（二）</a>
+                                </li>
+                                <li>
+                                    <a href="/shgzw_xwzx_gzyw/20261008/3598a24de0454c8f8f1c50f9aa73c365.html" title="市国资委调研商业品牌培育焕新，检查指导安全生产工作" target="_blank">&bull;&nbsp;市国资委调研商业品牌培育焕新，检查指导安全生产工作</a>
+                                </li>
+                                <li>
+                                    <a href="/shgzw_xwzx_gzyw/20261008/eaaa65f4cde64ee6a309a34dbcfa3db5.html" title="市国资委检查国庆期间促消费和安全运行工作" target="_blank">&bull;&nbsp;市国资委检查国庆期间促消费和安全运行工作</a>
+                                </li>
+                            </ul>
+                        </div> --> 
+       <div class="clear"></div> 
+      </div> 
+      <!-- <div class="tr1205">
+                            <img src="/img/test1205.jpg" alt="" style="width:100%;max-width:1098px;height:146px;margin:0 auto;background:url(https://www.gzw.sh.gov.cn/img/topBg.png) center center no-repeat !important;overflow:hidden">
+                        </div> --> 
+      <div class="menu classSkip trout-region-nav"> 
+       <h2 class="disnone">该区域包含信息公开,通知公告,国企之窗,党建工作,区级国资,信息简报等内容列表,按tab键遍历信息</h2> 
+       <ul class=" nav-tabs  clearfix" role="tablist"> 
+        <li class="menu1" role="presentation" id="xxgk"> <a class="menu_current" href="#tab1-1" role="tab" data-toggle="tab" title="信息公开" target="_blank">信息公开 </a> </li> 
+        <li class="menu2" role="presentation" id="cytz"> <a href="#tab1-2" title="通知公告" role="tab" data-toggle="tab" target="_blank">通知公告 </a> </li> 
+        <li class="menu3" role="presentation" id="gqdt"> <a href="#tab1-3" title="国企之窗" role="tab" data-toggle="tab" target="_blank">国企之窗 </a> </li> 
+        <li class="menu4" role="presentation" id="zzyd"> <a href="#tab1-4" title="党建工作" role="tab" data-toggle="tab" target="_blank">党建工作 </a> </li> 
+        <li class="menu5" role="presentation" id="qxgz"> <a href="#tab1-5" title="区级国资" role="tab" data-toggle="tab" target="_blank">区级国资 </a> </li> 
+        <li class="menu6" role="presentation" id="xxjb"> <a href="#tab1-6" title="信息简报" role="tab" data-toggle="tab" target="_blank">信息简报 </a> </li> 
+       </ul> 
+      </div> 
+      <!-- 信息公开开始 --> 
+      <div class="tab-content"> 
+       <div role="tabpanel" class="tab-pane active" id="tab1-1"> 
+        <div class="box"> 
+         <div class="info"> 
+          <div class="tab233 trout-region-nav"> 
+           <h2 class="disnone">该区域包含最新公开信息,重点领域信息,会议公开等内容列表,按tab键遍历信息</h2> 
+           <ul class=" nav-pills  clearfix" role="tablist"> 
+            <li class="active" id="zxgkxx"> <a href="#tab2-1" role="tab" data-toggle="tab" title="最新公开信息">最新公开信息 </a> </li> 
+            <li id="gsgg"> <a href="#tab2-2" role="tab" data-toggle="tab" title="重点领域信息"> 重点领域信息</a> </li> 
+            <li id="hygk"><a href="#tab2-3" role="tab" data-toggle="tab" title="政府开放月">政府开放月</a></li> 
+           </ul> 
+           <div class="tab-content"> 
+            <div role="tabpanel" class="tab-pane active" id="tab2-1"> 
+             <ul class="xxgk"> 
+              <li> 
+               <!-- <span>2026-01-20</span> --> <a href="/shgzw_xxgk_zxgkxx/20260126/790cd397c6074e2b80f8abb216b7593e.html" title="市国资委关于做好2025年度国有企业财务决算工作的通知" target="_blank">•&nbsp;市国资委关于做好2025年度国有企业财务决算工作的通知</a> </li> 
+              <li> 
+               <!-- <span>2026-01-20</span> --> <a href="/shgzw_xxgk_zxgkxx/20260126/ebe3048b639c45aca07048dfacfe94eb.html" title="市国资委关于做好2025年度本市国有资产、集体资产统计及报告编制工作的通知" target="_blank">•&nbsp;市国资委关于做好2025年度本市国有资产、集体资产统计及报告编制工作的通知</a> </li> 
+              <li> 
+               <!-- <span>2025-04-27</span> --> <a href="/shgzw_xxgk_zxgkxx/20250427/e7ffb967650c4bb4acb0959b99b775e5.html" title="2025年度上海市国资委重点课题招标公告" target="_blank">•&nbsp;2025年度上海市国资委重点课题招标公告</a> </li> 
+              <li> 
+               <!-- <span>2025-01-17</span> --> <a href="/shgzw_xxgk_zxgkxx/20250402/5d864c6392a7454294ea1d3c994e9445.html" title="市国资委关于做好2024年度本市国有资产、集体资产统计及报告编制工作的通知" target="_blank">•&nbsp;市国资委关于做好2024年度本市国有资产、集体资产统计及报告编制工作的通知</a> </li> 
+              <li> 
+               <!-- <span>2025-01-17</span> --> <a href="/shgzw_xxgk_zxgkxx/20250402/1e634b9fa5bc45ab90ea35e1df1557b1.html" title="市国资委关于做好2024年度国有企业财务决算工作的通知" target="_blank">•&nbsp;市国资委关于做好2024年度国有企业财务决算工作的通知</a> </li> 
+             </ul> 
+             <div class="more"> 
+              <a href="/shgzw_xxgk_zxgkxx/"><img src="https://www.gzw.sh.gov.cn/img/more.png" width="16" height="16" alt="更多" target="_blank"></a> 
+             </div> 
+            </div> 
+            <div role="tabpanel" class="tab-pane " id="tab2-2"> 
+             <ul class="xxgk"> 
+              <li> 
+               <!-- <span>2019-04-30</span> --> <a href="/shgzw_xxgk_gkyj_flfg/20190429/0054-95326.html" title="中华人民共和国政府信息公开条例 " target="_blank">•&nbsp;中华人民共和国政府信息公开条例 </a> </li> 
+              <li> 
+               <!-- <span>2020-05-08</span> --> <a href="/shgzw_xxgk_gkyj_flfg/20200507/0054-95330.html" title="上海市政府信息公开规定" target="_blank">•&nbsp;上海市政府信息公开规定</a> </li> 
+              <li> 
+               <!-- <span>2026-07-14</span> --> <a href="/shgzw_xxgk_gkyj_flfg/20260714/8daf74ebbc3a4172a7a58b0b8cc60dd4.html" title="2026年上海市国资委普法责任清单" target="_blank">•&nbsp;2026年上海市国资委普法责任清单</a> </li> 
+              <li> 
+               <!-- <span>2024-05-06</span> --> <a href="/shgzw_xxgk_ghjh/20240506/698c2ba8ae5342cf8370e7724235419a.html" title="2024年上海市国有资产监督管理委员会政务公开工作要点" target="_blank">•&nbsp;2024年上海市国有资产监督管理委员会政务公开工作要点</a> </li> 
+              <li> 
+               <!-- <span>2023-03-27</span> --> <a href="/shgzw_xxgk_ghjh/20230327/e5c8b86495814fb288c5ca07f48f3dc4.html" title="2023年上海市国有资产监督管理委员会政务公开工作要点" target="_blank">•&nbsp;2023年上海市国有资产监督管理委员会政务公开工作要点</a> </li> 
+             </ul> 
+             <div class="more"> 
+              <a href="/shgzw_xxgk_zxgkxx/" id=""><img src="https://www.gzw.sh.gov.cn/img/more.png" width="16" height="16" alt="更多" target="_blank"></a> 
+             </div> 
+            </div> 
+            <!-- 政府开放月 --> 
+            <div role="tabpanel" class="tab-pane " id="tab2-3"> 
+             <ul class="xxgk"> 
+              <li> <a href="/shgzw_wsbs_zfkfy/20260928/700ec116a5bd4e129e7036ddfbb10b17.html" title="“上海国企开放日”十月常态开放点位期待您的到来～">•&nbsp;“上海国企开放日”十月常态开放点位期待您的到来～</a> </li> 
+              <li> <a href="/shgzw_wsbs_zfkfy/20260901/26947e40762f4210a19f044516a1845e.html" title="体验国企优质服务，“上海国企开放日”第四批集中开放活动精彩回顾请查收→">•&nbsp;体验国企优质服务，“上海国企开放日”第四批集中开放活动精彩回顾请查收→</a> </li> 
+              <li> <a href="/shgzw_wsbs_zfkfy/20260824/882b4e99bc6b49d5a667fe429e3e55c4.html" title="打卡国企文化空间，“上海国企开放日”第三批集中开放活动精彩回顾请查收→">•&nbsp;打卡国企文化空间，“上海国企开放日”第三批集中开放活动精彩回顾请查收→</a> </li> 
+              <li> <a href="/shgzw_wsbs_zfkfy/20260817/d363d17871714d07ae01ccfe2fd9952e.html" title="体验国企优质服务！“上海国企开放日”第四批集中开放活动预告来啦～">•&nbsp;体验国企优质服务！“上海国企开放日”第四批集中开放活动预告来啦～</a> </li> 
+              <li> <a href="/shgzw_wsbs_zfkfy/20260811/0c05305265ae4fd08e6d8093f7a09186.html" title="探索国企创新科技，“上海国企开放日”第二批集中开放活动精彩回顾请查收→">•&nbsp;探索国企创新科技，“上海国企开放日”第二批集中开放活动精彩回顾请查收→</a> </li> 
+             </ul> 
+             <div class="more"> 
+              <a href="/shgzw_xxgk_zxgkxx/" id=""><img src="https://www.gzw.sh.gov.cn/img/more.png" width="16" height="16" alt="更多" target="_blank"></a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="infoLink" id="xxgk_right" style="display: none;"> 
+          <a href="/shgzw_xxgk_gkzn/" title="公开指南"> <span><img src="/images/xxdk-icon1.png" alt="公开指南"></span>公开指南</a> 
+          <a href="/shgzw_xxgk_gkyj_flfg/" title="公开依据"> <span><img src="/images/xxdk-icon2.png" alt="公开依据"></span>公开依据</a> 
+          <a href="http://xxgk.sh.gov.cn/zwgk_interface/pages/zwgkfront/publicApply.html?ouguid=U_3_3" target="_blank" title="依申请公开"> <span> <img src="/images/xxdk-icon4.png" alt="依申请公开"> </span>依申请公开 </a> 
+          <a href="/shgzw_xxgk_gknb/" title="公开年报"> <span><img src="/images/xxdk-icon5.png" alt="公开年报"></span>公开年报</a> 
+          <a href="/shgzw_xxgk/" title="公开目录"> <span><img src="/images/xxdk-icon6.png" alt="公开目录"></span>公开目录</a> 
+          <a style="margin-bottom: 0; height: 65px;" href="/shgzw_ldzc_ldhd/" title="领导之窗"> <span style="height: 65px;"> <img src="/images/xxdk-icon3.png" alt="领导之窗"> </span>领导之窗</a> 
+         </div> 
+         <div class="infoLink trout-region-nav" id="xxgk_right1"> 
+          <h2 class="disnone">该区域包含权责清单,办事指南,规划计划,统计数据,改革发展,信息披露等内容列表,按tab键遍历信息</h2> 
+          <div class="infoLink1"> 
+           <a href="http://zwdt.sh.gov.cn/govPortals/administrative/zrList.jsp?code=SHGZSH" title="权责清单" target="_blank">权责清单</a> 
+          </div> 
+          <div class="infoLink2"> 
+           <a href="/shgzw_wsbs_bszn/" title="办事指南">办事指南</a> 
+          </div> 
+          <div class="infoLink3"> 
+           <a href="/shgzw_xxgk_ghjh/" title="规划计划">规划计划</a> 
+          </div> 
+          <div class="infoLink4"> 
+           <a href="/shgzw_xxgk_tzxx/" title="统计数据">统计数据</a> 
+          </div> 
+          <div class="infoLink5"> 
+           <a href="/shgzw_xxgk_cyggcz/" title="改革发展">改革发展</a> 
+          </div> 
+          <div class="infoLink6"> 
+           <a href="/shgzw_xwzx_xxpl/" title="信息披露">信息披露</a> 
+          </div> 
+          <div class="infoLink7"> 
+           <a href="/shgzw_qyzc_yjkh/" title="业绩考核">业绩考核</a> 
+          </div> 
+          <div class="infoLink8"> 
+           <a href="/shgzw_xxgk_gkml_rsrm/" title="人事任免">人事任免</a> 
+          </div> 
+          <div class="infoLink9"> 
+           <a href="/shgzw_xxgk_taya/" title="建议提案">建议提案</a> 
+          </div> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <!-- 信息公开结束 --> 
+       <!-- 通知公告 --> 
+       <div role="tabpanel" class="tab-pane " id="tab1-2"> 
+        <div class="box" role="tabpanel"> 
+         <div class="infolong"> 
+          <div class="tab"> 
+           <span class="tab_now" id="tab_now">通知公告</span> 
+           <div class="more"> 
+            <a href="/shgzw_wsbs_cytz/" title="通知公告" target="_blank"> <img src="/img/more.png" alt="更多" width="16" height="16"></a> 
+           </div> 
+          </div> 
+          <ul class="tzgg"> 
+           <li> <span>2026-10-09</span> <a href="/shgzw_wsbs_cytz/20261009/146ad40c45bd4d8085880dceb9be3286.html" title="领导人员薪酬监督检查比选公告">•&nbsp;领导人员薪酬监督检查比选公告</a> </li> 
+           <li> <span>2026-10-09</span> <a href="/shgzw_wsbs_cytz/20261009/7c9a85a59f234ab2807e8335bdc77b2b.html" title="虚假贸易专项审计比选公告">•&nbsp;虚假贸易专项审计比选公告</a> </li> 
+           <li> <span>2026-08-25</span> <a href="/shgzw_wsbs_cytz/20260824/e17dd6773b394ff480fa23a934a48c46.html" title="关于印发《上海市国有企业采购纳入市公共资源交易平台体系实施办法》的通知">•&nbsp;关于印发《上海市国有企业采购纳入市公共资源交易平台体系实施办法》的通知</a> </li> 
+           <li> <span>2026-08-11</span> <a href="/shgzw_wsbs_cytz/20260814/f61153aafac2482fbabca6b10d90cd30.html" title="2026年度国资经营预算绩效评价中介机构选聘结果公告">•&nbsp;2026年度国资经营预算绩效评价中介机构选聘结果公告</a> </li> 
+           <li> <span>2026-07-29</span> <a href="/shgzw_wsbs_cytz/20260729/3d9032922f9446e2a768776f78d81a2a.html" title="关于开展2026年度国资经营预算绩效评价中介机构选聘的公告">•&nbsp;关于开展2026年度国资经营预算绩效评价中介机构选聘的公告</a> </li> 
+          </ul> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <!-- 通知公告结束 --> 
+       <!-- 国企动态 --> 
+       <div role="tabpanel" class="tab-pane " id="tab1-3"> 
+        <div class="box" role="tabpanel"> 
+         <div class="infolong"> 
+          <div class="tab"> 
+           <ul class=" nav-pills  clearfix" role="tablist"> 
+            <li class="active" id="gqdt"><a href="#tab3-1" role="tab" data-toggle="tab"> 国企动态 </a></li> 
+            <li id="shzr"><a href="#tab3-2" role="tab" data-toggle="tab"> 社会责任</a> </li> 
+           </ul> 
+          </div> 
+          <div class="tab-content"> 
+           <div role="tabpanel" class="tab-pane active" id="tab3-1"> 
+            <ul class="gqzc"> 
+             <li> <span>2026-10-10</span> <a href="/shgzw_zxzx_gqdt/20261010/ce54cdc09a544e5eb09418de77153180.html" title="上海两大港口建设加紧推进，构筑稳固“硬实力”" target="_blank">•&nbsp;上海两大港口建设加紧推进，构筑稳固“硬实力”</a> </li> 
+             <li> <span>2026-10-10</span> <a href="/shgzw_zxzx_gqdt/20261010/11a60ccaaa5d46fa9228fd79e574e3e9.html" title="国产化首台套攻关完成，上海电气交付“国和一号”蒸汽发生器水室封头锻件" target="_blank">•&nbsp;国产化首台套攻关完成，上海电气交付“国和一号”蒸汽发生器水室封头锻件</a> </li> 
+             <li> <span>2026-10-10</span> <a href="/shgzw_zxzx_gqdt/20261010/38abdb96ea154c2985caffda6778e77a.html" title="守护“烟火气”，释放“新活力”，光明食品集团多措并举点燃假期消费热潮" target="_blank">•&nbsp;守护“烟火气”，释放“新活力”，光明食品集团多措并举点燃假期消费热潮</a> </li> 
+             <li> <span>2026-10-10</span> <a href="/shgzw_zxzx_gqdt/20261010/2461c934f2f244c5a033eae3463a914a.html" title="2027春夏上海时装周启幕，东方国际点燃时尚热度" target="_blank">•&nbsp;2027春夏上海时装周启幕，东方国际点燃时尚热度</a> </li> 
+             <li> <span>2026-10-09</span> <a href="/shgzw_zxzx_gqdt/20261009/0867e613ae404f0f965eed0e6bc3e91b.html" title="多元活动聚人气，百联集团旗下商业体释放假日消费潜力" target="_blank">•&nbsp;多元活动聚人气，百联集团旗下商业体释放假日消费潜力</a> </li> 
+            </ul> 
+            <div class="more"> 
+             <a id="more" href="/shgzw_zxzx_gqdt/" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> 
+            </div> 
+           </div> 
+           <div role="tabpanel" class="tab-pane " id="tab3-2"> 
+            <ul class="gqzc"> 
+             <li> <span>2026-09-22</span> <a href="/shgzw_gqzc_shzr/20260922/a0bb7f4312a8420bac1f0b42c2453b98.html" title="消保护航，泽润乡畴，上海农商银行书写城乡共富新篇章" target="_blank">•&nbsp;消保护航，泽润乡畴，上海农商银行书写城乡共富新篇章</a> </li> 
+             <li> <span>2026-09-22</span> <a href="/shgzw_gqzc_shzr/20260922/d87cc322c9a6466eaa276ec2d6a95785.html" title="沪藏同心，赋能开放，东浩兰生国贸集团开展外贸专项援藏帮扶" target="_blank">•&nbsp;沪藏同心，赋能开放，东浩兰生国贸集团开展外贸专项援藏帮扶</a> </li> 
+             <li> <span>2026-09-16</span> <a href="/shgzw_gqzc_shzr/20260916/5e298f1ab4024209866766055e2fb49d.html" title="临港集团服务国家战略，深化沪滇产业协作" target="_blank">•&nbsp;临港集团服务国家战略，深化沪滇产业协作</a> </li> 
+             <li> <span>2026-09-16</span> <a href="/shgzw_gqzc_shzr/20260916/750b04a71af5450386bf98a17f83e530.html" title="浦发银行“浦公英” 品牌再升级，解锁积分公益新模式" target="_blank">•&nbsp;浦发银行“浦公英” 品牌再升级，解锁积分公益新模式</a> </li> 
+             <li> <span>2026-06-26</span> <a href="/shgzw_gqzc_shzr/20260626/0e27118f218d44d98197ce6b461029cc.html" title="绘就振兴画卷，浦发银行以金融活水赋能县域经济高质量发展" target="_blank">•&nbsp;绘就振兴画卷，浦发银行以金融活水赋能县域经济高质量发展</a> </li> 
+            </ul> 
+            <div class="more"> 
+             <a id="more" href="/shgzw_zxzx_gqdt/" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div role="tabpanel" class="tab-pane " id="tab1-4"> 
+        <div class="box" role="tabpanel"> 
+         <div class="index_tab"> 
+          <ul class=" nav-tabs nav-line"> 
+           <li class="active" id="zzyd"> <a href="#tab4-1" role="tab" data-toggle="tab">组织园地</a> </li> 
+           <li id="szxc"> <a href="#tab4-2" role="tab" data-toggle="tab">思政宣传</a> </li> 
+           <li id="qtgz"> <a href="#tab4-3" role="tab" data-toggle="tab">群团工作</a> </li> 
+           <li id="dwjs"> <a href="#tab4-4" role="tab" data-toggle="tab"> 队伍建设</a> </li> 
+           <li id="lgbgz"> <a href="#tab4-5" role="tab" data-toggle="tab">老干部工作</a> </li> 
+          </ul> 
+         </div> 
+         <div class="tab-content"> 
+          <div role="tabpanel" class="tab-pane active" id="tab4-1"> 
+           <div class="index_list"> 
+            <ul class="gqdj"> 
+             <li> <a href="/shgzw_gqdj_zzyd/20261008/dceff2957a7247fbac5bb1dcc3171cee.html" title="上海电气党委：以务实举措有序推进专项治理，持续巩固深化全面从严治党工作成效" target="_blank">•&nbsp;上海电气党委：以务实举措有序推进专项治理，持续巩固深化全面从严治党工作成效</a> <span>2026-10-08</span> </li> 
+             <li> <a href="/shgzw_gqdj_zzyd/20261008/f66840ea3b944c23bfc89ed89e01c3c9.html" title="上海仪电党委：以“五个一”推动专项治理见行见效" target="_blank">•&nbsp;上海仪电党委：以“五个一”推动专项治理见行见效</a> <span>2026-10-08</span> </li> 
+             <li> <a href="/shgzw_gqdj_zzyd/20260922/8062e4ed74fe4265b06a993f79a2f039.html" title="市国资委党委召开专题会研究推进监管企业重点领域党风廉政建设和反腐败工作专项治理" target="_blank">•&nbsp;市国资委党委召开专题会研究推进监管企业重点领域党风廉政建设和反腐败工作专项治理</a> <span>2026-09-22</span> </li> 
+             <li> <a href="/shgzw_gqdj_zzyd/20260921/6ab1446882594a37aa010d5d58ae148a.html" title="市委中心组学习会专题学习习近平生态文明思想，在新征程上加快推进美丽上海建设" target="_blank">•&nbsp;市委中心组学习会专题学习习近平生态文明思想，在新征程上加快推进美丽上海建设</a> <span>2026-09-21</span> </li> 
+             <li> <a href="/shgzw_gqdj_zzyd/20260921/68fa0cbe4b1b4b45bc75303fbfe2139c.html" title="市国资委党委中心组围绕贯彻总体国家安全观，筑牢意识形态安全防线开展专题学习" target="_blank">•&nbsp;市国资委党委中心组围绕贯彻总体国家安全观，筑牢意识形态安全防线开展专题学习</a> <span>2026-09-21</span> </li> 
+            </ul> 
+            <span class="more"><a href="/shgzw_gqdj_zzyd/" id="more4" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> </span> 
+           </div> 
+          </div> 
+          <div role="tabpanel" class="tab-pane " id="tab4-2"> 
+           <div class="index_list"> 
+            <ul class="gqdj"> 
+             <li> <a href="/shgzw_gqdj_szxc/20261009/147165a0d8cd42abaec93c807d23430c.html" title="十二届上海市委第九轮巡视启动，对22家单位党组织开展常规巡视" target="_blank">•&nbsp;十二届上海市委第九轮巡视启动，对22家单位党组织开展常规巡视</a> <span>2026-10-09</span> </li> 
+             <li> <a href="/shgzw_gqdj_szxc/20260924/d44e7353311b4d46a1d4aed61943f310.html" title="2026年上海国资企业思想政治工作研究会会员大会召开" target="_blank">•&nbsp;2026年上海国资企业思想政治工作研究会会员大会召开</a> <span>2026-09-24</span> </li> 
+             <li> <a href="/shgzw_gqdj_szxc/20260914/325a159445924e52af1f27c96886d89a.html" title="思想引领、文化赋能，最新一期《企业与文化》新鲜出炉" target="_blank">•&nbsp;思想引领、文化赋能，最新一期《企业与文化》新鲜出炉</a> <span>2026-09-14</span> </li> 
+             <li> <a href="/shgzw_gqdj_szxc/20260717/37d577d8b0ca47a3a7388a83e6e7ce51.html" title="聚焦“四个坚持”，东方国际以树立和践行正确政绩观学习教育引领高质量发展" target="_blank">•&nbsp;聚焦“四个坚持”，东方国际以树立和践行正确政绩观学习教育引领高质量发展</a> <span>2026-07-17</span> </li> 
+             <li> <a href="/shgzw_gqdj_szxc/20260717/2ef48d63fb5242c988b9d3ffc536df56.html" title="铸魂强基，实干担当，上海联社党委深入开展树立和践行正确政绩观学习教育" target="_blank">•&nbsp;铸魂强基，实干担当，上海联社党委深入开展树立和践行正确政绩观学习教育</a> <span>2026-07-17</span> </li> 
+            </ul> 
+            <span class="more"><a href="/shgzw_gqdj_zzyd/" id="more4" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> </span> 
+           </div> 
+          </div> 
+          <div role="tabpanel" class="tab-pane " id="tab4-3"> 
+           <div class="index_list"> 
+            <ul class="gqdj"> 
+             <li> <a href="/shgzw_gqdj_qtgz/20260827/6bf3916821714b40b89c282ad40441a0.html" title="2026年度市国资委系统团干部培训班开班" target="_blank">•&nbsp;2026年度市国资委系统团干部培训班开班</a> <span>2026-08-27</span> </li> 
+             <li> <a href="/shgzw_gqdj_qtgz/20260713/a36d2b4b326a413ba6106cf52ba0df3e.html" title="市国资委党委举办2026年系统“95后”青年骨干党员专题培训班" target="_blank">•&nbsp;市国资委党委举办2026年系统“95后”青年骨干党员专题培训班</a> <span>2026-07-13</span> </li> 
+             <li> <a href="/shgzw_gqdj_qtgz/20260525/79dad004a2034896a6ae91e38f8e3dc5.html" title="市国资委直属机关青年理论学习小组学习暨纪念五四运动107周年主题团日活动举行" target="_blank">•&nbsp;市国资委直属机关青年理论学习小组学习暨纪念五四运动107周年主题团日活动举行</a> <span>2026-05-25</span> </li> 
+             <li> <a href="/shgzw_gqdj_qtgz/20260513/5d11ff9b36e8458391ec781ef9492a38.html" title="“青春奋进‘十五五’ 挺膺担当启新程”上海市国资委系统纪念五四运动107周年主题团日活动举行" target="_blank">•&nbsp;“青春奋进‘十五五’ 挺膺担当启新程”上海市国资委系统纪念五四运动107周年主题团日活动举行</a> <span>2026-05-13</span> </li> 
+             <li> <a href="/shgzw_gqdj_qtgz/20260421/a64b37bcaaeb495cb3b61a912df28b40.html" title="上海市属国有企业青年红色文化培训班开班" target="_blank">•&nbsp;上海市属国有企业青年红色文化培训班开班</a> <span>2026-04-21</span> </li> 
+            </ul> 
+            <span class="more"><a href="/shgzw_gqdj_zzyd/" id="more4" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> </span> 
+           </div> 
+          </div> 
+          <div role="tabpanel" class="tab-pane " id="tab4-4"> 
+           <div class="index_list"> 
+            <ul class="gqdj"> 
+             <li> <a href="/shgzw_xwzx_gzyw/20250324/7dc91f0c5471491d8749766b173852c3.html" title="市管国有企业2025年干部人才工作会议召开" target="_blank">•&nbsp;市管国有企业2025年干部人才工作会议召开</a> <span>2025-03-24</span> </li> 
+             <li> <a href="/shgzw_gqdj_dwjs/20240123/a7ea28d7f12341cbbf222e8831349def.html" title="首届“国家工程师奖”公布！上海电气下属上海第一机床厂荣膺“国家卓越工程师团队”称号" target="_blank">•&nbsp;首届“国家工程师奖”公布！上海电气下属上海第一机床厂荣膺“国家卓越工程师团队”称号</a> <span>2024-01-23</span> </li> 
+             <li> <a href="/shgzw_xwzx_gzyw/20231207/87d420166e77433d97bd97d52d4849fb.html" title="喜报！来自市国资委系统企业的选手们在这项市级职业技能大赛中取得佳绩！" target="_blank">•&nbsp;喜报！来自市国资委系统企业的选手们在这项市级职业技能大赛中取得佳绩！</a> <span>2023-12-07</span> </li> 
+             <li> <a href="/shgzw_gqdj_dwjs/20230804/1e1d93bc87ca46e398fbba236b2a3b19.html" title="市国资委布置2022年度人才资源统计调查工作" target="_blank">•&nbsp;市国资委布置2022年度人才资源统计调查工作</a> <span>2023-08-04</span> </li> 
+             <li> <a href="/shgzw_gqdj_dwjs/20230213/a17b98545c9f45b5bea96b0e8cce6747.html" title="市国资委系统3位高技能人才喜获“全国技术能手”称号" target="_blank">•&nbsp;市国资委系统3位高技能人才喜获“全国技术能手”称号</a> <span>2023-02-13</span> </li> 
+            </ul> 
+            <span class="more"><a href="/shgzw_gqdj_zzyd/" id="more4" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> </span> 
+           </div> 
+          </div> 
+          <div role="tabpanel" class="tab-pane " id="tab4-5"> 
+           <div class="index_list"> 
+            <ul class="gqdj"> 
+             <li> <a href="/shgzw_gqdj_lgbgz/20261010/25c211a1cb0d4f2096fccd67c96a2cd5.html" title="上海市国资委系统老干部纪念红军长征胜利90周年主题活动举行" target="_blank">•&nbsp;上海市国资委系统老干部纪念红军长征胜利90周年主题活动举行</a> <span>2026-10-10</span> </li> 
+             <li> <a href="/shgzw_gqdj_lgbgz/20260831/16744c9e0c7c4a5c8cffa6d669afc19c.html" title="盛夏送凉敬银发 薪火相传促改革 ——市国资委开展高温走访慰问离退休老同志活动" target="_blank">•&nbsp;盛夏送凉敬银发 薪火相传促改革 ——市国资委开展高温走访慰问离退休老同志活动</a> <span>2026-08-31</span> </li> 
+             <li> <a href="/shgzw_gqdj_lgbgz/20260824/41692995b0914d4e89464e7b2401bbc4.html" title="盛夏送凉敬银发，薪火相传促改革，市国资委开展高温走访慰问离退休老同志活动" target="_blank">•&nbsp;盛夏送凉敬银发，薪火相传促改革，市国资委开展高温走访慰问离退休老同志活动</a> <span>2026-08-24</span> </li> 
+             <li> <a href="/shgzw_gqdj_lgbgz/20260727/2d37852200ad43ec8d5ff17488a4229a.html" title="市国资委老干部处召开部分监管企业 老干部工作半年度座谈会" target="_blank">•&nbsp;市国资委老干部处召开部分监管企业 老干部工作半年度座谈会</a> <span>2026-07-27</span> </li> 
+             <li> <a href="/shgzw_gqdj_lgbgz/20260706/40a70a55489e4398beb838e17a1115e8.html" title="市国资委机关退休党总支召开主题党日活动" target="_blank">•&nbsp;市国资委机关退休党总支召开主题党日活动</a> <span>2026-07-06</span> </li> 
+            </ul> 
+            <span class="more"><a href="/shgzw_gqdj_zzyd/" id="more4" target="_blank"> <img src="https://www.gzw.sh.gov.cn/img/more.png" alt="更多" width="16" height="16"></a> </span> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <!-- 国企党建结束 --> 
+       <!-- 区级国资 --> 
+       <div role="tabpanel" class="tab-pane " id="tab1-5"> 
+        <div class="box" role="tabpanel"> 
+         <div class="infolong"> 
+          <div class="tab"> 
+           <span class="tab_now" id="Span2">区级国资</span> 
+           <div class="more"> 
+            <a href="/shgzw_zxzx_qxgz/" target="_blank"> <img src="/img/more.png" alt="更多" width="16" height="16"></a> 
+           </div> 
+          </div> 
+          <ul> 
+           <li> <span>2026-10-09</span> <a href="/shgzw_zxzx_qxgz/20261009/19c19b6963d04acbb420500c3ec60a72.html" title="长宁国资国企改革全面深化，以实绩赋能区域经济社会高质量发展" target="_blank">•&nbsp;长宁国资国企改革全面深化，以实绩赋能区域经济社会高质量发展</a> </li> 
+           <li> <span>2026-09-30</span> <a href="/shgzw_zxzx_qxgz/20260930/1bcad07b0a03428b95e3c83974d2af1c.html" title="徐汇国资国企深化改革聚势向新，奋楫笃行服务“创新徐汇、品质城区”建设" target="_blank">•&nbsp;徐汇国资国企深化改革聚势向新，奋楫笃行服务“创新徐汇、品质城区”建设</a> </li> 
+           <li> <span>2026-09-28</span> <a href="/shgzw_zxzx_qxgz/20260928/e89352a7b7b64aea9f10f481e2c6eb57.html" title="静安国资国企纵深推进改革攻坚，服务上海“五个中心”重要承载区建设" target="_blank">•&nbsp;静安国资国企纵深推进改革攻坚，服务上海“五个中心”重要承载区建设</a> </li> 
+           <li> <span>2026-09-24</span> <a href="/shgzw_zxzx_qxgz/20260924/eb195beda6e341e5b992fef2213281d7.html" title="黄浦国资国企聚力改革提质效，以实干创新服务区域发展大局" target="_blank">•&nbsp;黄浦国资国企聚力改革提质效，以实干创新服务区域发展大局</a> </li> 
+           <li> <span>2026-08-11</span> <a href="/shgzw_zxzx_qxgz/20260811/ea05184f3c9148d09c630dc672dda42e.html" title="黄浦区国资国企在风雨中筑牢城市安全防线" target="_blank">•&nbsp;黄浦区国资国企在风雨中筑牢城市安全防线</a> </li> 
+          </ul> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <!-- 区级国资结束 --> 
+       <!-- 信息简报 --> 
+       <div role="tabpanel" class="tab-pane " id="tab1-6"> 
+        <div class="box" role="tabpanel"> 
+         <div class="xxjb"> 
+          <p><a class="xxjb-more" href="/shgzw_zxzx_xxjb/" target="_blank"> <img src="/images/qi_icon.png" alt="信息简报"></a> 上海国资委信息简报 </p> 
+          <ul> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260930/65b1b8f2f9ba4466a5ead519bd73927b.html" style="position: relative;" target="_blank"> 第21期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260914/f53b6a3fffe84839a42d9e2fa82b3630.html" style="position: relative;" target="_blank"> 第20期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260903/1ef712418e414d30b89f61631b8f1c5f.html" style="position: relative;" target="_blank"> 第19期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260831/5a6996d4abde417a8f9f4f94af3fdcd7.html" style="position: relative;" target="_blank"> 第18期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260813/0f48fcfd615642f6a3ddb2e3aaae5dd7.html" style="position: relative;" target="_blank"> 第17期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260811/ae630189a6c94dd7aa939131cd6dd427.html" style="position: relative;" target="_blank"> 第16期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260716/709f240d3b0d48818a43dba9d79bbdc6.html" style="position: relative;" target="_blank"> 第15期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260618/2145820f72934fc689ace3dd988a6d2d.html" style="position: relative;" target="_blank"> 第14期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260615/50211c405d534d7abff08db4bee045cb.html" style="position: relative;" target="_blank"> 第13期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260608/3957fd6c6701423f8fe994042f30c887.html" style="position: relative;" target="_blank"> 第12期</a> </li> 
+           <li> <a href="/shgzw_zxzx_xxjb/20260529/1cdfce5994214fff9c195013df236ece.html" style="position: relative;" target="_blank"> 第11期</a> </li> 
+           <div class="clear"></div> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <!-- 信息简报结束 --> 
+     </div> 
+    </div> 
+    <!--页面主体结束--> 
+    <div class="clear"></div> 
+   </div"> 
+  </div> 
+  <div class="olink"> 
+   <div class="weixin" style="display: none;"> 
+    <img src="/images/1484198020.png" title="移动门户二维码" width="150" height="150"> 
+   </div> 
+   <ul class="classSkip trout-region-service"> 
+    <h2 class="disnone">该区域为包含一网通办,新媒体,移动门户,领导信箱,监督投诉,网上咨询等内容,按tab键遍历信息</h2> 
+    <li class="olink6"><a href="http://zwdt.sh.gov.cn/govPortals/organ_index.do?organ=SHGZSH" title="一网通办" target="_blank">一网通办</a></li> 
+    <li class="olink1"><a href="/shgzw_xmt/" title="新媒体" target="_blank">新媒体</a></li> 
+    <li class="olink2"><a href="#" title="移动门户">移动门户</a></li> 
+    <li class="olink5"><a href="http://wbjxf.sh.gov.cn/310000W0027/let.getXZ.do?id=d56dbb40-3703-4543-ad28-00eba7084501&amp;TYPE_FLAG=21" title="领导信箱" onclick="toshldxx()" target="_blank">领导信箱</a></li> 
+    <li class="olink3"><a href="http://wbjxf.sh.gov.cn/310000W0027/let.getXZ.do?id=d56dbb40-3703-4543-ad28-00eba7084501&amp;TYPE_FLAG=21" title="监督投诉" onclick="toshldxx()" target="_blank">监督投诉</a></li> 
+    <li class="olink4"><a href="http://hd.sh.gov.cn/inter/#/consult/add" title="网上咨询" target="_blank">网上咨询</a> </li> 
+   </ul> 
+  </div> 
+  <!-- 底部 --> 
+  <script src="/owl/owl.carousel.min.js"></script> 
+  <script src="/assets2021/js/footer.js"></script> 
+  <script src="/assets2021/js/ETUI/ETUI3.min.js"></script> 
+  <script>
+        function toshldxx() {
+            alert("亲爱的上海国资委门户网站的用户，感谢您对本市国资监管工作的关注！为了更好地为您提供网上信访、咨询等服务，我们已于近日更新了相关栏目内容。请您在首次使用更新后的此类服务内容时，重新进行注册。注册后，您将可以在本市已开通此类服务的各级各类政府网上全面使用。");
+            window.location.href = "http://wbjxf.sh.gov.cn/310000W0027/let.getXZ.do?id=d56dbb40-3703-4543-ad28-00eba7084501&TYPE_FLAG=21";
+        }
+    </script> 
+  <!--灰色 <script src="/assets2021/js/grayscale.js"></script> --> 
+  <!--
+		<script type='text/javascript' src='https://jhelper.shanghai.gov.cn/publicJS/31000000044.js'></script> --> 
+  <!--灰色 <script>
+			grayscale(document.body);
+		</script> --> 
+  <script>
+        //轮播图
+        $('.normal-slider').owlCarousel({
+            items: 1,
+            margin: 0,
+            stagePadding: 0,
+            smartSpeed: 1000,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            nav: false
+        });
+    </script> 
+  <script type="text/javascript">
+        //用于百度统计
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?5502743a49661b463c887a6721b3bf7e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script> 
+  <script type="text/javascript">
+        function SearchByKey() {
+            var keyword = document.getElementById("txtSearch").value;
+            if (keyword == "" || keyword == null || keyword == "请输入查询关键字") {
+                alert('请输入关键字！');
+                return;
+            } else
+                var ss = "https://www.gzw.sh.gov.cn/gzw_search/#search/query=" + keyword;
+            window.open(ss, 'top');
+        }
+
+        function InitText() {
+            var txtSch = document.getElementById("txtSearch");
+            if (txtSch.value == "请输入查询关键字")
+                txtSch.value = "";
+        }
+
+        function checkSearch() {
+            var key = event.keyCode;
+            if (key == 13) {
+                SearchByKey();
+                return false;
+            }
+        }
+    </script> 
+  <script>
+        $(function () {
+            $(".tab span").each(function (i) {
+                $(this).mouseover(function () {
+                    var id = $(this).attr("id");
+                    $(".gqzc").css("display", "none")
+                    $(".gqzc").eq(i - 1).css("display", "block")
+                    $(".tab span").removeClass("tab_now")
+                    $(".tab span").eq(i).addClass("tab_now")
+                    console.log(i)
+                    if ($(this).attr("id") == "gqdt") {
+                        $("#more").attr("href", "/shgzw_zxzx_gqdt/");
+                    } else if ($(this).attr("id") == "shzr") {
+                        $("#more").attr("href", "/shgzw_gqzc_shzr/");
+                    }
+                })
+            })
+        })
+    </script> 
+  <!-- 国企动态结束 --> 
+  <!-- 国企党建 --> 
+  <script>
+
+    </script> 
+  <!-- 信息公开 --> 
+  <script>
+        $(function () {
+            $(".tab233 .nav-pills li").each(function (i) {
+                $(this).mouseover(function () {
+                    var id = $(this).attr("id");
+                    console.log($(".infoLink").eq(i));
+                    if (i == 2) {
+                        $(".infoLink").eq(1).css("display", "block")
+
+                    } else {
+                        $(".infoLink").css("display", "none")
+                        $(".infoLink").eq(i).css("display", "block")
+                    }
+
+
+
+                })
+            })
+        })
+    </script> 
+  <!-- 国资要闻 --> 
+  <script>
+        $(function () {
+            $(".menu a").each(function (i) {
+                $(this).mouseover(function () {
+                    var id = $(this).attr("id");
+
+                    $(".menu a").removeClass("menu_current")
+                    $(".menu a").eq(i).addClass("menu_current")
+
+                })
+            })
+        })
+    </script> 
+  <script>
+        function addEvent(obj, evtType, func, cap) {
+            cap = cap || false;
+            if (obj.addEventListener) {
+                obj.addEventListener(evtType, func, cap);
+                return true;
+            } else if (obj.attachEvent) {
+                if (cap) {
+                    obj.setCapture();
+                    return true;
+                } else {
+                    return obj.attachEvent("on" + evtType, func);
+                }
+            } else {
+                return false;
+            }
+        }
+        function getPageScroll() {
+            var xScroll, yScroll;
+            if (self.pageXOffset) {
+                xScroll = self.pageXOffset;
+            } else if (document.documentElement && document.documentElement.scrollLeft) {
+                xScroll = document.documentElement.scrollLeft;
+            } else if (document.body) {
+                xScroll = document.body.scrollLeft;
+            }
+            if (self.pageYOffset) {
+                yScroll = self.pageYOffset;
+            } else if (document.documentElement && document.documentElement.scrollTop) {
+                yScroll = document.documentElement.scrollTop;
+            } else if (document.body) {
+                yScroll = document.body.scrollTop;
+            }
+            arrayPageScroll = new Array(xScroll, yScroll);
+            return arrayPageScroll;
+        }
+
+        function GetPageSize() {
+            var xScroll, yScroll;
+            if (window.innerHeight && window.scrollMaxY) {
+                xScroll = document.body.scrollWidth;
+                yScroll = window.innerHeight + window.scrollMaxY;
+            } else if (document.body.scrollHeight > document.body.offsetHeight) {
+                xScroll = document.body.scrollWidth;
+                yScroll = document.body.scrollHeight;
+            } else {
+                xScroll = document.body.offsetWidth;
+                yScroll = document.body.offsetHeight;
+            }
+            var windowWidth, windowHeight;
+            if (self.innerHeight) {
+                windowWidth = self.innerWidth;
+                windowHeight = self.innerHeight;
+            } else if (document.documentElement && document.documentElement.clientHeight) {
+                windowWidth = document.documentElement.clientWidth;
+                windowHeight = document.documentElement.clientHeight;
+            } else if (document.body) {
+                windowWidth = document.body.clientWidth;
+                windowHeight = document.body.clientHeight;
+            }
+            if (yScroll < windowHeight) {
+                pageHeight = windowHeight;
+            } else {
+                pageHeight = yScroll;
+            }
+            if (xScroll < windowWidth) {
+                pageWidth = windowWidth;
+            } else {
+                pageWidth = xScroll;
+            }
+            arrayPageSize = new Array(pageWidth, pageHeight, windowWidth, windowHeight)
+            return arrayPageSize;
+        }
+
+        var AdMoveConfig = new Object();
+        AdMoveConfig.IsInitialized = false;
+        AdMoveConfig.ScrollX = 0;
+        AdMoveConfig.ScrollY = 0;
+        AdMoveConfig.MoveWidth = 0;
+        AdMoveConfig.MoveHeight = 0;
+        AdMoveConfig.Resize = function () {
+            var winsize = GetPageSize();
+            AdMoveConfig.MoveWidth = winsize[2];
+            AdMoveConfig.MoveHeight = winsize[3];
+            AdMoveConfig.Scroll();
+        }
+        AdMoveConfig.Scroll = function () {
+            var winscroll = getPageScroll();
+            AdMoveConfig.ScrollX = winscroll[0];
+            AdMoveConfig.ScrollY = winscroll[1];
+        }
+        addEvent(window, "resize", AdMoveConfig.Resize);
+        addEvent(window, "scroll", AdMoveConfig.Scroll);
+
+        function AdMove(id) {
+            if (!AdMoveConfig.IsInitialized) {
+                AdMoveConfig.Resize();
+                AdMoveConfig.IsInitialized = true;
+            }
+            var obj = document.getElementById(id);
+            obj.style.position = "absolute";
+            var W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+            var H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+            var x = W * Math.random(),
+                y = H * Math.random();
+            var rad = (Math.random() + 1) * Math.PI / 6;
+            var kx = Math.sin(rad),
+                ky = Math.cos(rad);
+            var dirx = (Math.random() < 0.5 ? 1 : -1),
+                diry = (Math.random() < 0.5 ? 1 : -1);
+            var step = 1;
+            var interval;
+            this.SetLocation = function (vx, vy) {
+                x = vx;
+                y = vy;
+            }
+            this.SetDirection = function (vx, vy) {
+                dirx = vx;
+                diry = vy;
+            }
+            obj.CustomMethod = function () {
+                obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+                obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+                rad = (Math.random() + 1) * Math.PI / 6;
+                W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+                H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+                x = x + step * kx * dirx;
+                if (x < 0) {
+                    dirx = 1;
+                    x = 0;
+                    kx = Math.sin(rad);
+                    ky = Math.cos(rad);
+                }
+                if (x > W) {
+                    dirx = -1;
+                    x = W;
+                    kx = Math.sin(rad);
+                    ky = Math.cos(rad);
+                }
+                y = y + step * ky * diry;
+                if (y < 0) {
+                    diry = 1;
+                    y = 0;
+                    kx = Math.sin(rad);
+                    ky = Math.cos(rad);
+                }
+                if (y > H) {
+                    diry = -1;
+                    y = H;
+                    kx = Math.sin(rad);
+                    ky = Math.cos(rad);
+                }
+            }
+            this.Run = function () {
+                var delay = 10;
+                interval = setInterval(obj.CustomMethod, delay);
+                obj.onmouseover = function () {
+                    clearInterval(interval);
+                }
+                obj.onmouseout = function () {
+                    interval = setInterval(obj.CustomMethod, delay);
+                }
+            }
+        }
+    </script> 
+  <!-- 页面浮动飘窗 --> 
+  <!-- <div id="ad1" style="Z-INDEX: 5; width:260px;">
+			<a id='aForMoveLogo_1' href="https://xfb.sh.gov.cn/xinfang/yjzj/topic/info?id=CA502733C5934EE5A20E81F7544F1F0D" target="_blank" style="margin-bottom: 5px;">
+				<img alt="上海机场" src="/images/shanghaijc.jpg" style="max-width: 400px; height: 178px;"/>
+			</a> 
+			<div id="ad1" style="Z-INDEX: 5; width:260px;">
+			<a id='aForMoveLogo_1' href="https://xfb.sh.gov.cn/xinfang/yjzj/topic/info?id=CA502733C5934EE5A20E81F7544F1F0D" target="_blank" style="margin-bottom: 5px;">
+				<img alt="上海机场" src="/images/shanghaijc.jpg" style="max-width: 400px;"/>
+			</a>
+
+			<a id='aForMoveLogo_3' href="http://campus.51job.com/shgzw2021" target="_blank" style="margin-bottom: 5px;">
+				<img alt="shijiuda" src="https://www.gzw.sh.gov.cn/img/WechatIMG559.png" style="max-width: 400px"/>
+			</a> --> 
+  <!-- <div>
+				<a class="close1" href="javascript:void(0)" style="cursor:pointer;font-size:14px;">关闭</a>
+			</div> --> 
+  <!-- <div>
+				<a class="close1" href="javascript:void(0)" style="cursor:pointer;font-size:14px;">关闭</a>
+			</div> --> 
+  <script>
+        $(function () {
+            $(".olink2").mouseenter(function () {
+                $(".weixin").css("display", "block");
+            });
+            $(".olink2").mouseleave(function () {
+                $(".weixin").css("display", "none");
+            });
+        });
+    </script> 
+  <!-- 简繁体切换 --> 
+  <script language="javascript" src="/js/zh.js"></script> 
+  <script type="text/javascript" src="/js/load.js"></script>  
+ </body>
+</html>

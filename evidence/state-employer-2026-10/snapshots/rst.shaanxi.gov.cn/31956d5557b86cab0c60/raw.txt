@@ -1,0 +1,2179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=1123">
+    <!--站点类-->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+<meta name="renderer" content="webkit"> 
+<meta name="author" content="陕西省人力资源和社会保障厅" >
+<meta name="Copyright" content="陕西省人力资源和社会保障厅" >
+<meta name="keywords" content="陕西省人力资源和社会保障厅">
+<meta name="description" content="陕西省人力资源和社会保障厅">
+<meta name="SiteName" content="陕西省人力资源和社会保障厅">
+<meta name="SiteDomain" content="">
+<meta name="SiteIDCode" content="">
+    <title>陕西省人力资源和社会保障厅</title>
+    <link rel="stylesheet" type="text/css" href="./images/zcwjk_common.css">
+    <link rel="stylesheet" type="text/css" href="./images/common-static.css">
+    <link rel="stylesheet" type="text/css" href="./images/main.css">
+    <link rel="stylesheet" type="text/css" href="./images/components.css">
+    <link rel="stylesheet" type="text/css" href="./images/zcwjk_swiper.min.css">
+    <script type="text/javascript" src="./images/jquery.min.js"></script>
+    <script type="text/javascript" src="./images/common.js"></script>
+    <script type="text/javascript" src="./images/zcwjk_swiper.min.js"></script>
+    <script type="text/javascript" src="./images/flexible.js"></script>
+    <script type="text/javascript" src="./images/hd-common.js"></script>
+    <style type="text/css">
+        .sy-lb .box .toplb .toplb-banner .syhf-more {
+            font-size: 0.18rem;
+            position: absolute;
+            margin-left: 12.3rem;
+            color: #fff;
+            background: #cacaca;
+            padding: 0.02rem 0.1rem;
+            border-radius: 0 0 0 0.1rem;
+            background-color: rgb(146 146 146 / 50%);
+        }
+        .zfwf-hf img{
+            width: 100%;
+            margin-bottom: 0.2rem;
+        }
+        .sy-ztzl .ztzlbox .zt-banner .syhf-more{
+            font-size: 0.18rem;
+            position: absolute;
+            margin-left: 12.3rem;
+            color: #fff;
+            background: #cacaca;
+            padding: 0.02rem 0.1rem;
+            border-radius: 0 0 0 0.1rem;
+            background-color: rgb(146 146 146 / 50%);
+            bottom: 1.42rem;
+        }
+		.left-fixed-nav{
+			top:10% !important;
+			}
+        @media screen and (max-width: 768px) {
+            .zfwf-hf img{
+                height: 1.2rem;
+            }
+            .sy-ztzl .ztzlbox .zt-banner .syhf-more {
+                display: none;
+            } 
+        }
+.sy-lb .box .content-news .lb-box .swiper-slide .text {
+ 
+  padding-right: 1.1rem;
+}
+.footer .f-link .ft-link .cm-drop .drop-select {
+  width: 3.03rem;
+}
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="https://rst.shaanxi.gov.cn/images/hd-common.js"></script>
+<script type="text/javascript" src="https://rst.shaanxi.gov.cn/images/sm2.js"></script>
+<script type="text/javascript" src="https://rst.shaanxi.gov.cn/images/jianorfan.js"></script>
+<style>
+.header .h-top .gn .dlzc {
+    display: inline-block;
+    padding: 0 0.1rem;
+    height: 0.4rem;
+    background: rgba(142, 181, 233, 0.5);
+    margin-left: 0.01rem;
+}
+.header .h-top .gn .dlzc {
+    font-size: 0.16rem;
+    color: #1B5395;
+    vertical-align: middle;
+}
+</style>
+<div class="header">
+    <div class="h-top clearfix">
+        <div class="lj lf">
+            <a href="https://www.gov.cn">中国政府网</a>
+            <span class="line"></span>
+            <a href="https://www.mohrss.gov.cn">人力资源和社会保障部</a>
+            <span class="line"></span>
+            <a href="http://www.shaanxi.gov.cn">陕西省人民政府</a>
+        </div>
+        <div class="gn rt media">
+            <a class="xmt" href="https://rst.shaanxi.gov.cn/ggbf/xmtfx/">
+                <img src="https://rst.shaanxi.gov.cn/images/h-xmtfx.png" alt="" />
+                <span>新媒体分享</span>
+            </a>
+            <a class="dlzc" href="javascript:;" id="loginTag">登录</a>
+            <a class="dlzc" href="javascript:;" id="registerTag">注册</a>
+            <a class="lnb" href="javascript:EsdInit.openElderlyFunc();" >
+                <img src="https://rst.shaanxi.gov.cn/images/h-lnb.png" />
+            </a>
+            <a class="wza" href="javascript:;"  id="toolbarSwitch" onclick="EsdInit.openClickFunc();" onkeydown="EsdInit.openKeydownFunc(event);">
+                <img src="https://rst.shaanxi.gov.cn/images/h-wza.png" alt="" />
+            </a>
+            <div class="yy-select">
+                <p class="select arrow clearfix">
+                    <span class="tit text lf">简体</span>
+                    <span class="f-ib arrow-icon rt"></span>
+                </p>
+                <ul class="dropdown-menu cf-scroll">
+                    <div class="dmh-bottom">
+                        <li>
+                            <a class="ycyc text f-otw yy-option" href="javaScript:void(0);" title="" onclick="do_traditional_to_simple()">简体</a>
+                        </li>
+                        <li>
+                            <a class="ycyc text f-otw yy-option" href="javaScript:void(0);" title="" onclick="do_simple_to_traditional()">繁体</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <a class="dh-wap" href="javascript:;">
+            <img src="https://rst.shaanxi.gov.cn/images/dh-wap.png" alt="" />
+        </a>
+        <!--<div class="ft-mask wap-show">
+            <div class="title">
+                <img class="close" src="https://rst.shaanxi.gov.cn/images/wap-close-wap.png" alt="" />
+            </div>
+            <div class="buttons">
+                <div class="fir">
+                    <a class="xmt" href="https://rst.shaanxi.gov.cn/ggbf/xmtfx/">
+                        <img src="https://rst.shaanxi.gov.cn/images/wap-b-xmt.png" alt="" />
+                        <span>新媒体分享</span>
+                    </a>
+                    <a class="lnb" href="javascript:EsdInit.openElderlyFunc();">
+                        <img src="https://rst.shaanxi.gov.cn/images/wap-b-lnb.png" alt="" />
+                    </a>
+                    <a class="wza" href="javascript:;"  id="toolbarSwitch" onclick="EsdInit.openClickFunc();" onkeydown="EsdInit.openKeydownFunc(event);">
+                        <img src="https://rst.shaanxi.gov.cn/images/wap-b-wza.png" alt="" />
+                    </a>
+                </div>
+                <a class="jt" href="javascript:;" onclick="do_traditional_to_simple()">简体</a>
+                <a class="ft" href="javascript:;" onclick="do_simple_to_traditional()">繁体</a>
+            </div>
+        </div>-->
+    </div>
+    <div class="h-nav">
+        <ul class="h-nav-box clearfix">
+            <li class="lf">
+                <a class="f-otw" href="https://rst.shaanxi.gov.cn/">网站首页</a>
+            </li>
+            <li class="lf">
+                <a class="f-otw" href="https://rst.shaanxi.gov.cn/sy/">
+                    新闻中心
+                </a>
+            </li>
+            <li class="lf">
+                <a class="f-otw" href="https://rst.shaanxi.gov.cn/zfxxgk/">
+                    政府信息公开
+                </a>
+            </li>
+            <li class="lf">
+                <a class="f-otw" href="https://rst.shaanxi.gov.cn/zcfg/">
+                    政策法规
+                </a>
+            </li>
+            <li class="lf">
+                <a class="f-otw" href="https://rst.shaanxi.gov.cn/bsfw/">
+                    办事服务
+                </a>
+            </li>
+            <li class="lf">
+                <a class="f-otw" href="https://rst.shaanxi.gov.cn/hdjl/">
+                    互动交流
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="h-logo-box">
+        <a class="h-logo" href="javascript:;">
+            <img src="https://rst.shaanxi.gov.cn/images/h-logo.png" alt="" />
+        </a>
+    </div>
+    <div class="h-search clearfix">
+        <div class="s-box lf clearfix">
+            <div class="tp-select lf">
+                <p class="select arrow clearfix">
+                    <span class="tit text lf f-otw">全部</span>
+                    <span class="f-ib arrow-icon rt"></span>
+                </p>
+                <ul class="dropdown-menu cf-scroll">
+                    <li>
+                        <a class="ycyc text f-otw tpOption" href="javaScript:void(0);" title="">全部</a>
+                    </li>
+                    <li>
+                        <a class="ycyc text f-otw tpOption" href="javaScript:void(0);" title="">标题</a>
+                    </li>
+                    <li>
+                        <a class="ycyc text f-otw tpOption" href="javaScript:void(0);" title="">正文</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="line lf"></span>
+            <input class="lf" type="text" placeholder="请输入搜索关键字" id="searchWord" value="" name="searchWord" autocomplete="off" onkeydown="if(event.keyCode==13){submitsearch();}" onfocus="if(this.value=='请输入关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键字';}" />
+        </div>
+        <a class="s-btn rt" href="javascript:;" onclick="submitsearch()">
+            <img src="https://rst.shaanxi.gov.cn/images/h-ss-btn.png" alt="" />
+            <span>搜索</span>
+        </a>
+    </div>
+</div>
+<script type="text/javascript">
+    function submitsearch(){
+        var result = $("#searchWord").val();
+        result = $.trim(result); 
+        var reg = /[`~!@#$%^&*_<>{}\/'[\]]/im;
+
+        if (reg.test(result)) {
+            alert("您输入的信息包含非法字符!");
+            return false;
+        }
+        if (result == "请输入关键字" || result == "" || result == null) {
+            alert("请输入关键字");
+            return false;
+        } else {
+            result = result.replace("-", "\-");
+            result = result.replace("(", "\(");
+            result = result.replace(")", "\)");
+        }
+        window.open("/sxsearch-a/search.shtml?code=1902f909cd0&dataTypeId=15939&searchWord=" + encodeURI(result));
+    }
+</script>
+<script type="text/javascript">
+    var uri = window.location.pathname;
+    $(".h-nav-box a").each(function () {
+        $(this).removeClass("'cur"); 
+    });
+    if(uri.indexOf("sy")>=0){
+        $(".h-nav-box a").eq(1).addClass('cur');
+    }else if(uri.indexOf("zfxxgk")>=0){
+        $(".h-nav-box a").eq(2).addClass('cur');
+    }else if(uri.indexOf("zcfg")>=0){
+        $(".h-nav-box a").eq(3).addClass('cur');
+    }else if(uri.indexOf("bsfw")>=0){
+        $(".h-nav-box a").eq(4).addClass('cur');
+    }else if(uri.indexOf("hdjl")>=0){
+        $(".h-nav-box a").eq(5).addClass('cur');
+    }else{      
+        $(".h-nav-box a").eq(0).addClass('cur');
+    }
+</script>
+<style type="text/css">
+      #loginTag,#registerTag{
+        display: none;
+      }
+    </style>
+<iframe id="tempIframe1" src="" style="display:none;" name="tempIframe1"></iframe>
+<iframe id="tempIframe2" src="" style="display:none;" name="tempIframe2"></iframe>
+<script>
+    (function(window,localStorage,undefined){
+        var LS = {
+            set : function(key, value){
+                //在iPhone/iPad上有时设置setItem()时会出现诡异的QUOTA_EXCEEDED_ERR错误
+                //这时一般在setItem之前，先removeItem()就ok了
+                if( this.get(key) !== null )
+                    this.remove(key);
+                localStorage.setItem(key, value);
+            },
+            //查询不存在的key时，有的浏览器返回undefined，这里统一返回null
+            get : function(key){
+                var v = localStorage.getItem(key);
+                return v === undefined ? null : v;
+            },
+            remove : function(key){ localStorage.removeItem(key); },
+            clear : function(){ localStorage.clear(); },
+            each : function(fn){
+                var n = localStorage.length, i = 0, fn = fn || function(){}, key;
+                for(; i<n; i++){
+                    key = localStorage.key(i);
+                    if( fn.call(this, key, this.get(key)) === false )
+                        break;
+                    //如果内容被删除，则总长度和索引都同步减少
+                    if( localStorage.length < n ){
+                        n --;
+                        i --;
+                    }
+                }
+            }
+        },
+        j = window.jQuery, c = window.Core;
+        //扩展到相应的对象上
+        window.LS = window.LS || LS;
+        //扩展到其他主要对象上
+        if(j) j.LS = j.LS || LS;
+        if(c) c.LS = c.LS || LS;
+    })(window,window.localStorage);
+
+    var searchUrl=window.location.href;
+    var SSOSignOrder= /code=(\w*)/g;
+    var SSOSign = searchUrl.match(SSOSignOrder);
+    SSOSign = SSOSign ? SSOSign[SSOSign.length-1].split("=")[1] : '';
+    if(SSOSign=="" || SSOSign==null||SSOSign==undefined) {
+        SSOSign = localStorage.SSOSign;
+    }else {
+        //$("#tempIframe1").attr("src","https://sfrz.shaanxi.gov.cn/sysauthserver/authorize?authCheck=true&needAuth=true&client_id=000000090&redirect_uri="+window.location.href);
+        $("#tempIframe1").attr("src","https://sfrz.shaanxi.gov.cn/sysauthserver/authorize?authCheck=true&needAuth=true&client_id=000000090&redirect_uri="+window.location.href.substring(0,window.location.href.indexOf("?")));
+        $("#tempIframe1").on('load',function(){  
+            if($("#tempIframe1").attr("src").indexOf("renew=true&flag=true")>-1){
+                //$("#tempIframe2").attr("src","https://sfrz.shaanxi.gov.cn/sysauthserver/authorize?response_type=code&client_id=000000090&redirect_uri="+window.location.href);
+                $("#tempIframe2").attr("src","https://sfrz.shaanxi.gov.cn/sysauthserver/authorize?response_type=code&client_id=000000090&redirect_uri="+window.location.href.substring(0,window.location.href.indexOf("?")));
+                $("#tempIframe2").on('load',function(){  
+                    SSOSign=$("#tempIframe2").attr("src").match(SSOSignOrder);
+                    SSOSign = SSOSign ? SSOSign[SSOSign.length-1].split("=")[1] : '';
+                });
+            }
+        });
+    }
+    //足迹
+    function addTrack(){
+        $.ajax({
+            url: '/fsp/user/center/addTrack',
+            type: 'post',
+            headers: {
+                SSOSign: SSOSign
+            },
+            data: JSON.stringify({
+                articleName: $("meta[name=ArticleTitle]").attr("content"),
+                articleAddress: $("meta[name=Url]").attr("content"),
+                siteName:$("meta[name=SiteName]").attr("content"),
+                siteDomain:$("meta[name=SiteDomain]").attr("content")
+            }),
+            "contentType": 'application/json',
+            success: function(data) {
+                data = JSON.parse(data);
+                if (data.code === '200') {
+                    console.log("记录足迹");
+                }
+            }
+        })
+    }
+    function userInfoByKey(){
+        $.ajax({
+            type: "get",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            url: "/fsp/login/userInfoByKey" ,//url
+            contentType:"application/json",
+            headers: {
+                SSOSign: SSOSign
+            },
+            success: function (result) {
+                if(result.code==200){
+                    var secretKey = result.summary_info.secretKey;
+                    var userdata = result.datas;
+                    $.ajax({
+                        type: "get",//方法类型
+                        dataType: "json",//预期服务器返回的数据类型
+                        url: "/fsp/login/getPrivateKey?secureKey="+secretKey ,//url
+                        contentType:"application/json",
+                        headers: {
+                            SSOSign: SSOSign
+                        },
+                        success: function (result) {
+                            var decryptData = sm2.doDecrypt(userdata,result.datas.secretvalue, 1)
+                            decryptData = JSON.parse(decryptData);
+                            //console.log(decryptData);
+                            if(result.code==200){
+                                //已经登录
+                                localStorage.SSOSign=SSOSign;
+                                //设置头部登录信息
+                                $("#registerTag").text("退出").attr("href","javascript:logout();").show().css("display","inline-block");
+                                if(decryptData.accttype == "10"){
+                                    $("#loginTag").text("你好，"+decryptData.username).show().css("display","inline-block");
+                                }else{
+                                    $("#loginTag").text("你好，"+decryptData.corpname).show().css("display","inline-block");
+                                }
+                                //addTrack();
+                                //写信页面，填充用户信息
+                                if($("#writeNeedLogin").length>0){
+                                    //公民填充身份证姓名
+                                    if(decryptData.accttype == 10){  //公民
+                                        $("#userName").addClass("read exclude-reset");
+                                        $("#userName").attr("readonly","readonly");
+                                        $("#userName").val(decryptData.username);
+                                        $("#cardId").addClass("read exclude-reset");
+                                        $("#cardId").attr("readonly","readonly");
+                                        $("#cardId").val(decryptData.certno);
+                                        /*if(decryptData.usersex=="男"){  
+                                            $('#sex option[value="1"]').prop('selected', true);
+                                        }else if(decryptData.usersex=="女"){
+                                            $('#sex option[value="2"]').prop('selected', true);
+                                        }*/
+                                    }else if(decryptData.accttype == 20){//法人
+                                        $("#userName").addClass("read exclude-reset");
+                                        $("#userName").attr("readonly","readonly");
+                                        $("#userName").val(decryptData.corpname);
+                                        $("#cardId").addClass("read exclude-reset");
+                                        $("#cardId").attr("readonly","readonly");
+                                        $("#cardId").val(decryptData.legalcertno);
+                                    }
+                                    // 填充手机号
+                                    $("#phone").addClass("read exclude-reset");
+                                    $("#phone").attr("readonly","readonly");
+                                    $("#phone").val(decryptData.contactmobile);
+                                }
+
+                                //依申请页面，填充用户信息
+                                if($("#shenQingNeedLogin").length>0){
+                                    var backUserType = decryptData.accttype;//登录信息接口返回的用户类型
+                                    if(backUserType == "10"){
+                                        backUserType = "0";
+                                    }else if(backUserType == "20"){
+                                        backUserType = "1";
+                                    }else{
+                                        backUserType = "";
+                                    }
+
+                                    if(window.location.href.indexOf("type=")>0){
+                                        /*地址栏获取用户类型*/
+                                        var typeFromUrl = new getRequestFromUrl();
+                                        $("#userType").val(typeFromUrl.type);//设置用户类型的值
+                                        if(typeFromUrl.type == 0){
+                                            $("#gerenxinxi").show();
+                                        }else if(typeFromUrl.type == 1){
+                                            $("#farenxinxi").show();
+                                        }else{
+                                            alert("用户类型不正确");
+                                        }
+
+                                        if(typeFromUrl.type==backUserType){//当前为依申请提交页与登录用户和表单属性判断  
+                                            $("#phone").addClass("read exclude-reset");
+                                            $("#phone").attr("readonly","readonly");
+                                            $("#phone").val(decryptData.contactmobile);
+                                            if(backUserType == "0"){//当前用户为公民
+                                                $("#username").addClass("read exclude-reset");
+                                                $("#username").attr("readonly","readonly");
+                                                $("#username").val(decryptData.username);
+
+                                                $("#IdNumber").addClass("read exclude-reset");
+                                                $("#IdNumber").attr("readonly","readonly");
+                                                $("#IdNumber").val(decryptData.certno);
+                                                //if(result.datas.loginuser.email !="") readonly("mail",result,"email");
+                                            }else{//法人  1----法人
+                                                $("#compName").addClass("read exclude-reset");
+                                                $("#compName").attr("readonly","readonly");
+                                                $("#compName").val(decryptData.corpname);
+
+                                                $("#socialCreditCode").addClass("read exclude-reset");
+                                                $("#socialCreditCode").attr("readonly","readonly");
+                                                $("#socialCreditCode").val(decryptData.certificatesno);
+                                                
+                                                $("#legalPerson").addClass("read exclude-reset");
+                                                $("#legalPerson").attr("readonly","readonly");
+                                                $("#legalPerson").val(decryptData.legalname);
+
+                                                $("#legalPersonIDNumber").addClass("read exclude-reset");
+                                                $("#legalPersonIDNumber").attr("readonly","readonly");
+                                                $("#legalPersonIDNumber").val(decryptData.legalcertno);
+                                            }
+                                        }else{
+                                            alert("当前登录用户属性与依申请表单属性不符，请重新选择提交表单");
+                                            window.location.href='./';
+                                        }
+                                    }
+                                    
+                                }
+                            
+                            }else{
+                                //$("#modalAuth").css('display','block');
+                                //$("#mask").css('display','block');
+                                //$("#loginuser").attr("href",(result.link[0].url+window.location.href));
+                            }
+                        },
+                        error : function(result) {
+                            console.log("error");
+                        }
+                    });
+                }else{
+                    //头部登录注册
+                    $("#registerTag").attr("href",(result.link[0].url+window.location.href).replace("amp;","")).show().css("display","inline-block");//给注册赋值
+                    $("#loginTag").attr("href",(result.link[0].url+window.location.href).replace("amp;","")).show().css("display","inline-block");//给登录赋值
+
+                    //写信页面需要登录
+                    if($("#writeNeedLogin").length>0){
+                        $("#modalAuth").css('display','block');
+                        $("#mask").css('display','block');
+                        $("#loginuser").attr("href",(result.link[0].url+window.location.href));
+                    }
+                    //依申请页面需要登录
+                    if($("#shenQingNeedLogin").length>0){
+                        $("#modalAuth").css('display','block');
+                        $("#mask").css('display','block');
+                        $("#loginuser").attr("href",(result.link[0].url+window.location.href));
+                    }
+
+                }
+            },
+            error : function(result) {
+            }
+        });
+    }
+    $(function(){
+        userInfoByKey();
+    })
+    
+    function logout(){
+        $.ajax({
+            type: "get",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            url: "/fsp/login/ucBinLogout.do" ,//url
+            contentType:"application/json",
+            beforeSend: function (XMLHttpRequest) {
+            XMLHttpRequest.setRequestHeader("SSOSign", SSOSign);
+            },
+            success: function (result) {
+                if(result.code==200){
+                    localStorage.removeItem("SSOSign");
+                    window.location.href=(result.datas+window.location.href);
+                    alert(result.msg);
+                }
+            },
+            error : function(result) {
+                alert("退出失败，请稍后再试");
+            }
+        });
+    }
+</script>
+<style>
+    .fixed-nav {
+        position: fixed;
+        top: 25%;
+        z-index: 100;
+        transform: translateX(calc(50%));
+        right: 3%;
+        left: auto !important;
+    }
+</style>
+<div class="fixed-nav">
+    <ul class="fixed-nav-list">
+        
+        <li class="nav-item wx-item">
+            <div class="icon-img icon-img-wx">
+            </div>
+            <div class="qr-code">
+                <img src="https://rst.shaanxi.gov.cn/ggbf/ewm/202501/W020250102309555122204.png" alt="" />
+                <span class="f-otw">
+                    二维码
+                </span>
+            </div>
+        </li>
+        
+        <a href="https://weibo.com/u/3005143064?is_hot=1">
+            <li class="nav-item wb-item">
+                <div class="icon-img icon-img-wb">
+                </div>
+            </li>
+        </a>
+    </ul>
+    <div class="go-top">
+        <div class="icon-img icon-img-gotop">
+        </div>
+    </div>
+</div>
+<div class="left-fixed-nav">
+    <div class="left-fixed-list">
+        <a class="left-item" href="">
+            <img src="./images/left-nav-1.png" />
+        </a>
+        <a class="left-item" href="">
+            <img src="./images/zfbewm.png" />
+        </a>
+        <a class="left-item" href="">
+            <img src="./images/left-nav-2.png" />
+        </a>
+    <a class="left-item" href="">
+            <img src="./images/axsb.jpg" alt="axsb.jpg" title="axsb.jpg" />
+        </a>
+        <a class="left-item" href="">
+            <img src="./images/1233313.jpg" />
+        </a>
+        <a class="left-item" href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=shx">
+            <img src="./images/left-nav-3.jpg" />
+        </a>
+    </div>
+</div>
+<div class="sy-lb">
+    <div class="box">
+        <div class="topnews">
+            <div class="cm-HotNews">
+                <div class="swiper-container yydh-syswp3">
+                    <div class="swiper-wrapper">
+                        
+                            <div class="swiper-slide">
+                                <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082868.htm" target="_blank">
+                                    <div class="level-1">
+                                        <h1 class="f-otw">
+                                            以创新赢未来——习近平经济思想引领中国加快发展新质生产力
+                                        </h1>
+                                    </div>
+                                    <div class="level-2">
+                                        <p class="f-otw">
+                                            
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toplb">
+            <div class="toplb-banner swiper-container">
+                <!-- 专题-4 -->
+				<div class="swiper-wrapper">
+                    <div class="swiper-slide tl-item">
+                        <a class="syhf-more" href="./sy/ztzl/ztzl.html">更多</a>
+                        <a class="img-tlItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/zjxxg/">
+                            <img class="act-big" src="./sy/ztzl/rdzt/zjxxg/images/P020260312348340607030.jpg" alt="" />
+                        </a>
+                    </div>
+                    
+                    <div class="swiper-slide tl-item">
+                        <a class="syhf-more" href="./sy/ztzl/ztzl.html">更多</a>
+                        <a class="img-tlItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/xxgc/">
+                            <img class="act-big" src="./sy/ztzl/rdzt/xxgc/images/P020241230647614467215.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide tl-item">
+                        <a class="syhf-more" href="./sy/ztzl/ztzl.html">更多</a>
+                        <a class="img-tlItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/rsgzjyq/">
+                            <img class="act-big" src="./sy/ztzl/rdzt/rsgzjyq/images/P020240912350852081307.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide tl-item">
+                        <a class="syhf-more" href="./sy/ztzl/ztzl.html">更多</a>
+                        <a class="img-tlItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/2026cfxd/">
+                            <img class="act-big" src="./sy/ztzl/rdzt/2026cfxd/images/P020260107333603731566.jpg" alt="" />
+                        </a>
+                    </div>
+                    <!--<div class="swiper-slide tl-item">
+                        <a class="syhf-more" href="./sy/ztzl/ztzl.html">更多</a>
+                        <a class="img-tlItem" href="https://rst.shaanxi.gov.cn/ygdlm/2025jyxc/">
+                            <img class="act-big" src="./ygdlm/2025jyxc/images/P020250909392235001532.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide tl-item">
+                        <a class="syhf-more" href="./sy/ztzl/ztzl.html">更多</a>
+                        <a class="img-tlItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/jnds/">
+                            <img class="act-big" src="./sy/ztzl/rdzt/jnds/images/P020251013304661873135.jpg" alt="" />
+                        </a>
+                    </div>-->
+                </div>
+                <div class="swiper-pagination toplb-pagination"></div>
+            </div>
+        </div>
+        <div class="content-news clearfix">
+            <div class="left-part lf">
+                <div class="lb-box swiper1">
+                    <div class="cm-newspicswiper">
+                        <div class="swiper-container sw1">
+                            <div class="swiper-wrapper">
+                                
+                                    <div class="swiper-slide">
+                                        <a href="./sy/jdtp/202609/t20260918_3696458.html">
+                                            <img src="./sy/jdtp/202609/W020260918311698462129_800.jpg" />
+                                            <span class="text">
+                                            陕西省高校毕业生就业提质行动启动仪式暨民营企业服务月大型招聘会圆满举行
+                                        </span>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="swiper-slide">
+                                        <a href="./sy/jdtp/202607/t20260730_3661696.html">
+                                            <img src="./sy/jdtp/202607/W020260918332101522494_800.jpg" />
+                                            <span class="text">
+                                            省人社厅召开党组（扩大）会议
+                                        </span>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="swiper-slide">
+                                        <a href="./sy/jdtp/202608/t20260831_3672666.html">
+                                            <img src="./sy/jdtp/202608/W020260831723686580211_800.jpg" />
+                                            <span class="text">
+                                            陕西省2026职业技能大赛圆满闭幕
+                                        </span>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="swiper-slide">
+                                        <a href="./sy/jdtp/202608/t20260819_3667980.html">
+                                            <img src="./sy/jdtp/202608/W020260819316445458138_800.jpg" />
+                                            <span class="text">
+                                            技耀三秦  能创未来—— 写在陕西省2026职业技能大赛即将开赛之际
+                                        </span>
+                                        </a>
+                                    </div>
+                                
+                                    <div class="swiper-slide">
+                                        <a href="./sy/jdtp/202608/t20260806_3664342.html">
+                                            <img src="./sy/jdtp/202608/W020260806621654903642_800.jpg" />
+                                            <span class="text">
+                                            省人社厅召开重点工作推进会
+                                        </span>
+                                        </a>
+                                    </div>
+                                
+                            </div>
+                            <div class="swiper-pagination pg1">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next show">
+                        </div>
+                        <div class="swiper-button-prev show">
+                        </div>
+                    </div>
+                </div>
+                <div class="info-links">
+                    <a class="info-link lf" href="https://rst.shaanxi.gov.cn/sy/gwyxx/">
+                        <img class="icon" src="./images/sy-link-gyw.png" />
+                        <span>国务院信息</span>
+                    </a>
+                    <a class="info-link rt" href="https://rst.shaanxi.gov.cn/sy/szfxx/">
+                        <img class="icon" src="./images/sy-link-info.png" />
+                        <span>省政府信息</span>
+                    </a>
+                </div>
+            </div>
+            <div class="news lf">
+                <div class="cm-tab">
+                    <div class="tb-scroll">
+                        <div class="tabPanel tabPanelno tabPanel1 top1">
+                            <a class="panel" href="https://rst.shaanxi.gov.cn/sy/bsyw/">
+                                本省要闻
+                            </a>
+                            <a class="panel" href="https://rst.shaanxi.gov.cn/sy/bsdt/">
+                                部省动态
+                            </a>
+                            <a class="panel" href="https://rst.shaanxi.gov.cn/sy/sxfc/">
+                                市县风采
+                            </a>
+                            <a class="panel" href="https://rst.shaanxi.gov.cn/sy/tpsp/">
+                                图片视频
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tabContent cont1">
+                        <div class="tabItem">
+                            <ul class="cm-news-list">
+                                
+                                    <li>
+                                        <a href="./sy/bsyw/202610/t20261010_3702195.html">
+                                            省人社厅召开党组（扩大）会议
+                                        </a>
+                                        <span>2026-10-10</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsyw/202610/t20261008_3701177.html">
+                                            焊花映航天 陕西青年工匠以焊枪托举飞天梦
+                                        </a>
+                                        <span>2026-10-08</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsyw/202609/t20260930_3700225.html">
+                                            陕西展馆秀“硬核科技+非遗魅力”
+                                        </a>
+                                        <span>2026-09-30</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsyw/202609/t20260930_3700224.html">
+                                            世赛博览会陕西展馆：从航天推进到秦腔古法，都是绝活
+                                        </a>
+                                        <span>2026-09-30</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsyw/202609/t20260930_3700210.html">
+                                            对标世赛找差距 以赛促学谋跃升——专访陕西省美容美发协会会长
+                                        </a>
+                                        <span>2026-09-30</span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tabItem">
+                            <ul class="cm-news-list">
+                                
+                                    <li>
+                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260907_583433.html">
+                                            技能改变世界 技能照亮前程——第48届世界技能大赛
+                                        </a>
+                                        <span>2026-09-21</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsdt/202609/t20260907_3674742.html">
+                                            总书记的人民情怀 | “推动未来产业同新兴产业、传统产业相得益彰”
+                                        </a>
+                                        <span>2026-09-07</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsdt/202609/t20260901_3673012.html">
+                                            以高质量职业技能培训破解结构性就业矛盾
+                                        </a>
+                                        <span>2026-09-01</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsdt/202608/t20260817_3667437.html">
+                                            “推动企业发展更上一层楼，为国家作出更大贡献”——习近平总书记指引企业坚定不移走高质量发展之路
+                                        </a>
+                                        <span>2026-08-17</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/bsdt/202608/t20260803_3662563.html">
+                                            李强主持召开国务院常务会议 学习贯彻习近平总书记关于上半年经济形势和做好下半年经济工作的重要讲话精神
+                                        </a>
+                                        <span>2026-08-03</span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tabItem">
+                            <ul class="cm-news-list">
+                                
+                                    <li>
+                                        <a href="./sy/sxfc/202609/t20260929_3699861.html">
+                                            商洛柞水：构建培育体系 强化融合发展 促进良性循环
+                                        </a>
+                                        <span>2026-09-29</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/sxfc/202609/t20260928_3699357.html">
+                                            韩城：“8小时外人才市场”公益代招点亮就业服务新场景
+                                        </a>
+                                        <span>2026-09-28</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/sxfc/202609/t20260917_3696199.html">
+                                            杨凌示范区养老保险经办处：资格认证“零跑腿”  养老待遇“无停发”
+                                        </a>
+                                        <span>2026-09-17</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/sxfc/202609/t20260916_3693186.html">
+                                            安康：“旬阳版画师”“紫阳修脚师”“白河月嫂”……这些劳务品牌成为就业“金名片”
+                                        </a>
+                                        <span>2026-09-16</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/sxfc/202609/t20260911_3689124.html">
+                                            商洛柞水：打造“有温度”的就业服务网络
+                                        </a>
+                                        <span>2026-09-11</span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tabItem">
+                            <ul class="cm-news-list">
+                                
+                                    <li>
+                                        <a href="./sy/bsyw/202609/t20260928_3699348.html">
+                                            央视新闻直播间 陕西：毫米级精度塑匠心 3D打印赋能产业升级
+                                        </a>
+                                        <span>2026-09-28</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tpsp/202609/t20260916_3693194.html">
+                                            陕西省高校毕业生就业提质行动启动
+                                        </a>
+                                        <span>2026-09-16</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tpsp/202609/t20260907_3674751.html">
+                                            陕西劳务品牌带动就业创业430余万人
+                                        </a>
+                                        <span>2026-09-07</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tpsp/202608/t20260829_3672109.html">
+                                            陕西省2026职业技能大赛在榆林市开幕 赵一德赵刚作出批示
+                                        </a>
+                                        <span>2026-08-29</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tpsp/202608/t20260825_3669495.html">
+                                            陕西省2026职业技能大赛主题宣传片发布
+                                        </a>
+                                        <span>2026-08-25</span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tzgg news lf">
+                <div class="cm-tab">
+                    <div class="tb-scroll">
+                        <div class="tabPanel tabPanelno tabPanel1 top1">
+                            <a class="panel" href="https://rst.shaanxi.gov.cn/sy/tzgg/">
+                                通知公告
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tabContent cont1">
+                        <div class="tabItem">
+                            <ul class="cm-news-list">
+                                
+                                    <li>
+                                        <a href="./sy/tzgg/202605/t20260522_3640787.html">
+                                            关于防范职称评审不实言论信息的声明
+                                        </a>
+                                        <span>2026-05-22</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tzgg/202411/t20241127_3247603.html">
+                                            陕西省各市、县（区）劳动保障监察投诉举报联系方式一览表
+                                        </a>
+                                        <span>2024-11-27</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tzgg/202610/t20261010_3702335.html">
+                                            关于开展全省治理欠薪集中接访的公告
+                                        </a>
+                                        <span>2026-10-10</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tzgg/202610/t20261009_3701568.html">
+                                            关于终止国营四达机械制造公司社会化职业技能等级认定机构备案资质的函
+                                        </a>
+                                        <span>2026-10-09</span>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="./sy/tzgg/202610/t20261008_3701284.html">
+                                            关于发布2026年度企业工资指导线的通知
+                                        </a>
+                                        <span>2026-10-08</span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sy-lms">
+    <div class="lms-tab">
+        <a class="lm" href="https://rst.shaanxi.gov.cn/zfxxgk/">
+            <img class="normal" src="./images/sy-zwgk.png" alt="" />
+            <img class="cur-img" src="./images/sy-zwgk-hover.png" alt="" />
+            <span class="f-otw">政务公开</span>
+        </a>
+        <a class="lm" href="https://rst.shaanxi.gov.cn/hdjl/">
+            <img class="normal" src="./images/sy-hdjl.png" alt="" />
+            <img class="cur-img" src="./images/sy-hdjl-hover.png" alt="" />
+            <span class="f-otw">互动交流</span>
+        </a>
+        <a class="lm" href="https://rst.shaanxi.gov.cn/bsfw/">
+            <img class="normal" src="./images/sy-bsfy.png" alt="" />
+            <img class="cur-img" src="./images/sy-bsfy-hover.png" alt="" />
+            <span class="f-otw">办事服务</span>
+        </a>
+    </div>
+    <div class="tabContent">
+        <div class="tabItem zwgk clearfix">
+            <div class="zfxxgk lf">
+                <div class="title clearfix">
+                    <a class="tit lf" href="https://rst.shaanxi.gov.cn/zfxxgk/">政府信息公开</a>
+                    <span class="zw lf"></span>
+                    <a class="more lf" href="https://rst.shaanxi.gov.cn/zfxxgk/">查看更多</a>
+                </div>
+                <div class="zfxx clearfix">
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/zfwzndgzbb/">
+                        <img src="./images/sy-zfwzndbb.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            政府网站年度工作报表
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/zfxxgkzn/">
+                        <img src="./images/sy-zfxxgkzn.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            政府信息公开指南
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/zfxxgkzd/">
+                        <img src="./images/sy-zfxxgkzd.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            政府信息公开制度
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/fdzdgknr/">
+                        <img src="./images/sy-fdzdgknr.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            法定主动公开内容
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/zfxxgknb/">
+                        <img src="./images/sy-zfxxgknb.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            政府信息公开年报
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/ysqgk/">
+                        <img src="./images/sy-ysqgk.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            依申请公开
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/fdzdgknr/jgjj/ldxx/">
+                        <img src="./images/sy-ldxx.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            领导信息
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zfxxgk/fdzdgknr/jgjj/jgzn/">
+                        <img src="./images/sy-jgzn.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            机构职能
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zcfg/gwyzcwj/">
+                        <img src="./images/sy-zcwj.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            国务院政策文件
+                        </div>
+                    </a>
+                    <a class="lf" href="https://rst.shaanxi.gov.cn/zcfg/szfzcwj/">
+                        <img src="./images/sy-szcwj.png" alt="" />
+                        <div class="zf-item f-oh2">
+                            省政府政策文件
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="zcwj rt">
+                <div class="title clearfix">
+                    <a class="tit lf" href="https://rst.shaanxi.gov.cn/zcfg/">
+                        政策法规
+                    </a>
+                    <span class="zw lf"></span>
+                    <div class="tabPanel lf">
+                        <a class="panel" href="https://rst.shaanxi.gov.cn/zcfg/zcfgsjk/">
+                            政策法规数据库
+                        </a>
+                        <a class="panel" href="https://rst.shaanxi.gov.cn/zcfg/zcjd/">
+                            政策解读
+                        </a>
+                    </div>
+                </div>
+                <div class="zc-con">
+                    <div class="zcItem">
+                        <ul class="cm-news-list">
+                            
+                                <li>
+                                    <a href="./zcfg/zcfgsjk/gfxwj/jy/202607/t20260731_3662271.html">
+                                        关于印发《陕西省就业见习管理办法》的通知
+                                    </a>
+                                    <span>2026-07-31</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcfgsjk/gfxwj/shbz/202607/t20260731_3662144.html">
+                                        关于失业保险支持企业稳岗扩岗的通知
+                                    </a>
+                                    <span>2026-07-31</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcfgsjk/gfxwj/jy/202607/t20260702_3652921.html">
+                                        关于建立常态化防止返贫致贫就业支持机制促进乡村全面振兴的实施意见
+                                    </a>
+                                    <span>2026-07-02</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcfgsjk/gfxwj/shbz/202606/t20260626_3650789.html">
+                                        关于印发《陕西省新就业形态人员职业伤害保障业务经办和征收管理规程（试行）》的通知
+                                    </a>
+                                    <span>2026-06-26</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcfgsjk/gfxwj/shbz/202606/t20260626_3650779.html">
+                                        关于开展新就业形态人员职业伤害保障试点的通知
+                                    </a>
+                                    <span>2026-06-25</span>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="zcItem">
+                        <ul class="cm-news-list">
+                            
+                                <li>
+                                    <a href="./zcfg/zcjd/202610/t20261010_3702182.html">
+                                        陕西省就业政策清单（2026年版）发布
+                                    </a>
+                                    <span>2026-09-29</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcjd/202609/t20260928_3699402.html">
+                                        社保卡有有效期吗？
+                                    </a>
+                                    <span>2026-09-28</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcjd/202609/t20260918_3696680.html">
+                                        什么是无固定期限劳动合同？
+                                    </a>
+                                    <span>2026-09-16</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcjd/202608/t20260825_3669647.html">
+                                        失业人员重新就业后再次失业，失业保险缴费年限如何计算？
+                                    </a>
+                                    <span>2026-09-02</span>
+                                </li>
+                            
+                                <li>
+                                    <a href="./zcfg/zcjd/202608/t20260813_3666419.html">
+                                        社保卡可以代办吗?
+                                    </a>
+                                    <span>2026-08-13</span>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabItem hdjl clearfix">
+            <div class="zmhd lf">
+                <div class="title clearfix">
+                    <a class="tit lf" href="javascript:;">领导信箱</a>
+                    <span class="zw lf"></span>
+                    <div class="tabPanel lf">
+                        <a class="panel" href="https://rst.shaanxi.gov.cn/hdjl/ldxx/xjxd/?appId=33">信件选登</a>
+                        <a class="panel" href="https://rst.shaanxi.gov.cn/hdjl/">办结统计</a>
+                    </div>
+                </div>
+                <div class="zm-con">
+                    <div class="zmItem" >
+                        <ul class="cm-news-list" id="xjList">
+
+                        </ul>
+                    </div>
+                    <div class="zmItem" >
+                        <ul class="cm-news-list" id="xjList1">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="xx">
+                    <a class="wyxx" href="./hdjl/ldxx/wyxx/?appId=8">
+                        <img src="./images/sy-wyxx.png" alt="" />
+                        <span class="f-otw">我要写信</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <a class="xjcx" href="./hdjl/ldxx/xjxd/?appId=33">
+                        <img src="./images/sy-xjcx.png" alt="" />
+                        <span class="f-otw">
+                            信件查询
+                        </span>
+                        <span class="arrow"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="hd-zxft lf">
+                <div class="act-big">
+                    <a class="zswdk" href="https://rst.shaanxi.gov.cn/hdjl/wdzszl/">
+                        <img class="sy-partDown2" src="./images/sy-zswdk.png" alt="" />
+                    </a>
+                </div>
+                <div class="links">
+                    <a class="link link1 lf" href="./hdjl/ldxx/xjxd/" style="width:100%;background:none;">
+                    <img src="./images/ldxxnwe.jpg" / style="height:auto;" />
+                        <!--<div class="link-icon">
+                            <!--<img class="icon" src="./images/hdjl-link1.png" />--
+                            
+                        </div>-->
+                        <!--<div class="link-tit">
+                            领导信箱
+                        </div>-->
+                    </a>
+                    <!--<a class="link link2 lf" href="./ggbf/shbxjjjbxx/write.html">
+                        <div class="link-icon">
+                            <img class="icon" src="./images/hdjl-link2.png" />
+                        </div>
+                        <div class="link-tit">
+                            社保基金举报信箱
+                        </div>
+                    </a>
+                    <a class="link link3 lf" href="./ggbf/zsjgjwjdjb/write.html">
+                        <div class="link-icon">
+                            <img class="icon" src="./images/hdjl-link2.png" />
+                        </div>
+                        <div class="link-tit">
+                            直属机关纪委 监督举报
+                        </div>
+                    </a>-->
+                </div>
+            </div>
+        </div>
+        <div class="tabItem bsfw clearfix">
+            <a class="zfwf-hf" href="https://zwfw.shaanxi.gov.cn/sx/public/index" target="_blank">
+                <img src="./images/sy-zwfw-hf.png" />
+            </a>
+            <div class="pbdb lf">
+                <div class="title clearfix">
+                    <a class="tit lf" href="https://rst.shaanxi.gov.cn/tslm/pbdbbz/">
+                        评比达标表彰
+                    </a>
+                    <span class="zw lf">
+                            </span>
+                    <a class="more lf" href="https://rst.shaanxi.gov.cn/tslm/pbdbbz/">
+                        查看更多
+                    </a>
+                </div>
+                <div class="pb-con">
+                    <ul class="cm-news-list">
+                        
+                            <li>
+                                <a href="./tslm/pbdbbz/202610/t20261010_3702197.html">
+                                    关于2026年度全国119消防奖拟推荐名单的公示
+                                </a>
+                                <span>2026-10-10</span>
+                            </li>
+                        
+                            <li>
+                                <a href="./tslm/pbdbbz/202610/t20261008_3701190.html">
+                                    关于全国邮政行业先进集体和先进个人正式推荐对象的公示
+                                </a>
+                                <span>2026-10-08</span>
+                            </li>
+                        
+                            <li>
+                                <a href="./tslm/pbdbbz/202609/t20260920_3697165.html">
+                                    关于全国应急管理系统先进集体和先进个人评选表彰正式推荐对象的公示
+                                </a>
+                                <span>2026-09-21</span>
+                            </li>
+                        
+                            <li>
+                                <a href="./tslm/pbdbbz/202609/t20260920_3697164.html">
+                                    关于全国妇联系统先进集体和先进个人评选表彰正式推荐对象的公示
+                                </a>
+                                <span>2026-09-21</span>
+                            </li>
+                        
+                            <li>
+                                <a href="./tslm/pbdbbz/202609/t20260920_3697162.html">
+                                    全省模范法院和全省模范法官拟表彰对象公示
+                                </a>
+                                <span>2026-09-20</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="links rt clearfix">
+                
+                  <a class="link lf" href="https://www.sxshbzj.cn/">
+                    <img src="./bsfw/202411/W020241128783168965390_ORIGIN.png" />
+                  </a>
+                
+                  <a class="link lf" href="http://www.sxrsks.cn/website/index.aspx">
+                    <img src="./bsfw/202411/W020241128783411902978_ORIGIN.png" />
+                  </a>
+                
+                  <a class="link lf" href="https://www.snhrm.com/">
+                    <img src="./bsfw/202411/W020251020394814311624.png" />
+                  </a>
+                
+                  <a class="link lf" href="https://rst.shaanxi.gov.cn/bsfw/grfwzq/">
+                    <img src="./bsfw/202411/W020250226391682209826.jpg" />
+                  </a>
+                
+                  <a class="link lf" href="https://rszwfw.qinyunjiuye.cn/index.do">
+                    <img src="./bsfw/202411/W020241129388966907164_ORIGIN.png" />
+                  </a>
+                
+                <a class="link lf" href="./bsfw/sydwzyjsejgwps/">
+                    <img src="./bsfw/sydwzyjsejgwps/images/P020240912354188138332.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sy-ztzl">
+    <div class="title">
+        <a href="https://rst.shaanxi.gov.cn/sy/ztzl/">
+            专题专栏
+        </a>
+    </div>
+    <div class="ztzlbox">
+        <div class="swiper-outer">
+            <div class="zt-banner swiper-container">
+                <div class="swiper-wrapper">
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/2026zyds/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/2026zyds/images/P020260507369304002310.jpg" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/srkzsgnhd/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/srkzsgnhd/images/P020240912352851523773.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/wjycjy/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/wjycjy/images/P020240912353160195933.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/jnds/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/jnds/images/P020251013304325985177.jpg" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/gwyzyzcjcjssxg/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/gwyzyzcjcjssxg/images/P020240913413633204916.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/sxrshqzl/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/sxrshqzl/images/P020240912353758167720.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/pfxczl/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/pfxczl/images/P020240912353891955016.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/bznmggzzfzl/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/bznmggzzfzl/images/P020240912354069602416.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/sy/ztzl/rdzt/zkzl/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/zkzl/images/P020241227661420826367.png" alt="" />
+                            </a>
+                        </div>
+                    
+                        <div class="swiper-slide zt">
+                            <a class="img-zcItem" href="https://rst.shaanxi.gov.cn/ygdlm/">
+                                <img class="act-big" src="./sy/ztzl/rdzt/22716/images/P020250103471060820762.png" alt="" />
+                            </a>
+                        </div>
+                    
+                    
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <a class="syhf-more" href="./sy/ztzl/" style="
+                ">更多</a>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    #_span_jiucuo{
+        padding-top: 0.43rem;
+        display: inline-block;
+        width: 1.6rem;
+        height: 1.4rem;
+        background: #3A6AA3;
+        box-shadow: 0 0.02rem 0.08rem 0rem rgba(122, 140, 168, 0.16);
+        border-radius: 0.04rem;
+        padding-top: 0.4rem;
+        margin-left: 0.19rem;
+        loat: left;
+    }
+    #_span_jiucuo img{
+        width: 1.1rem;
+        height: 0.55rem;
+        display: block;
+        margin: 0 auto !important;
+        border: 0;
+        vertical-align: middle;
+    }
+    @media screen and (max-width: 768px) {
+        #_span_jiucuo {
+            padding-top: 0.43rem;
+            display: inline-block;
+            width: 2.2rem;
+            height: 1.58rem;
+            background: #3A6AA3;
+            box-shadow: 0 0.02rem 0.08rem 0rem rgba(122, 140, 168, 0.16);
+            border-radius: 0.04rem;
+            padding-top: 0.4rem;
+            margin-left: 0.2rem;
+        }
+.footer .f-link .ft-link .cm-drop .drop-select {
+  width: 3.04rem;
+}
+    }
+</style>
+<div class="footer">
+    <div class="f-link">
+        <div class="ft-link">
+            <div class="cm-drop clearfix">
+                <div class="lf">
+                    <div class="drop-select f-ib lf">
+                        <p class="select arrow clearfix">
+                            <span class="tit text lf">国家部委网站</span>
+                            <span class="f-ib arrow-icon rt"></span>
+                        </p>
+                        <ul class="dropdown-menu cf-scroll">
+                            <div class="dmh-bottom">
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://www.mohrss.gov.cn/" title="" target="_blank">
+                                           人社部
+                                        </a>
+                                    </li>
+                                
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="drop-select f-ib lf">
+                        <p class="select arrow clearfix">
+                            <span class="tit text lf">省直部门网站</span>
+                            <span class="f-ib arrow-icon rt"></span>
+                        </p>
+                        <ul class="dropdown-menu cf-scroll">
+                            <div class="dmh-bottom">
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://www.shaanxi.gov.cn//sxsrmzfbgt/" title="" target="_blank">
+                                          省政府办公厅（省政府参事室，省政务大数据局）
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://sndrc.shaanxi.gov.cn/" title="" target="_blank">
+                                          省发展和改革委员会
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://jyt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省教育厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://kjt.shaanxi.gov.cn" title="" target="_blank">
+                                          省科学技术厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://gxt.shaanxi.gov.cn" title="" target="_blank">
+                                          省工业和信息化厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://mzzj.shaanxi.gov.cn" title="" target="_blank">
+                                          省民族宗教事务委员会
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://gat.shaanxi.gov.cn" title="" target="_blank">
+                                          省公安厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://mzt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省民政厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://sft.shaanxi.gov.cn" title="" target="_blank">
+                                          省司法厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://czt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省财政厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rst.shaanxi.gov.cn/" title="" target="_blank">
+                                          省人力资源和社会保障厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://zrzyt.shaanxi.gov.cn" title="" target="_blank">
+                                          省自然资源厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://sthjt.shaanxi.gov.cn" title="" target="_blank">
+                                          省生态环境厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://js.shaanxi.gov.cn/" title="" target="_blank">
+                                          省住房和城乡建设厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://jtyst.shaanxi.gov.cn" title="" target="_blank">
+                                          省交通运输厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://slt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省水利厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://nynct.shaanxi.gov.cn/" title="" target="_blank">
+                                          省农业农村厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://sxdofcom.shaanxi.gov.cn/" title="" target="_blank">
+                                          省商务厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://whhlyt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省文化和旅游厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://Sxwjw.shaanxi.gov.cn" title="" target="_blank">
+                                          省卫生健康委员会
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://dva.shaanxi.gov.cn/" title="" target="_blank">
+                                          省退役军人事务厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://yjt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省应急管理厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://sjt.shaanxi.gov.cn/" title="" target="_blank">
+                                          省审计厅
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://Sxgz.shaanxi.gov.cn" title="" target="_blank">
+                                          省政府国有资产监督管理委员会
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://snamr.shaanxi.gov.cn" title="" target="_blank">
+                                          省市场监督管理局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://lyj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省林业局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://gdj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省广播电视局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://tyj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省体育局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://tjj.shaanxi.gov.cn" title="" target="_blank">
+                                          省统计局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://wwj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省文物局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://gdb.shaanxi.gov.cn/" title="" target="_blank">
+                                          省国防动员办公室
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://xfj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省信访局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://ybj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省医疗保障局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://fsa.shaanxi.gov.cn/" title="" target="_blank">
+                                          省地方金融管理局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://lswz.shaanxi.gov.cn/" title="" target="_blank">
+                                          省粮食和物资储备局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://sxsnyj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省能源局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://jyglj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省监狱管理局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://atcm.shaanxi.gov.cn/" title="" target="_blank">
+                                          省中医药管理局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://mpa.shaanxi.gov.cn" title="" target="_blank">
+                                          省药品监督管理局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://snipa.shaanxi.gov.cn/" title="" target="_blank">
+                                          省知识产权局
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://www.xixianxinqu.gov.cn/" title="" target="_blank">
+                                          西咸新区管委会
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://dfz.shaanxi.gov.cn/" title="" target="_blank">
+                                          省地方志办公室
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://www.xab.ac.cn/" title="" target="_blank">
+                                          省科学院
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://www.sxsky.org.cn/" title="" target="_blank">
+                                          省社会科学院
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://jgswglj.shaanxi.gov.cn/" title="" target="_blank">
+                                          省机关事务服务中心
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://www.sxsgs.com/" title="" target="_blank">
+                                          省地质调查院
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://www.sxtvs.com/" title="" target="_blank">
+                                          省广播电视台
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://ggzy.shaanxi.gov.cn/" title="" target="_blank">
+                                          省公共资源交易中心
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://www.qinlingbg.com/" title="" target="_blank">
+                                          秦岭国家植物园
+                                        </a>
+                                    </li>
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://shaanxi.chinamine-safety.gov.cn/" title="" target="_blank">
+                                          国家矿山安全监察局陕西局
+                                        </a>
+                                    </li>
+                                 
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="drop-select f-ib lf">
+                        <p class="select arrow clearfix">
+                            <span class="tit text lf">省级人社部门网站</span>
+                            <span class="f-ib arrow-icon rt"></span>
+                        </p>
+                        <ul class="dropdown-menu cf-scroll">
+                            <div class="dmh-bottom">
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rsj.beijing.gov.cn/" title="" target="_blank">
+                                          北京
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.tj.gov.cn/" title="" target="_blank">
+                                          天津
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.hebei.gov.cn/" title="" target="_blank">
+                                          河北
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.shanxi.gov.cn/" title="" target="_blank">
+                                          山西
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.nmg.gov.cn/" title="" target="_blank">
+                                          内蒙古
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.ln.gov.cn/" title="" target="_blank">
+                                          辽宁
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://hrss.jl.gov.cn/" title="" target="_blank">
+                                          吉林
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://hrss.hlj.gov.cn/" title="" target="_blank">
+                                          黑龙江
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rsj.sh.gov.cn/" title="" target="_blank">
+                                          上海
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://jshrss.jiangsu.gov.cn/" title="" target="_blank">
+                                          江苏
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rlsbt.zj.gov.cn/" title="" target="_blank">
+                                          浙江
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.ah.gov.cn/" title="" target="_blank">
+                                          安徽
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.fujian.gov.cn/" title="" target="_blank">
+                                          福建
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.jiangxi.gov.cn/" title="" target="_blank">
+                                          江西
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://hrss.shandong.gov.cn/" title="" target="_blank">
+                                          山东
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.henan.gov.cn/" title="" target="_blank">
+                                          河南
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.hubei.gov.cn/" title="" target="_blank">
+                                          湖北
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rst.hunan.gov.cn/" title="" target="_blank">
+                                          湖南
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.gd.gov.cn/" title="" target="_blank">
+                                          广东
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rst.gxzf.gov.cn/" title="" target="_blank">
+                                          广西
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.hainan.gov.cn/" title="" target="_blank">
+                                          海南
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rlsbj.cq.gov.cn/" title="" target="_blank">
+                                          重庆
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.sc.gov.cn/" title="" target="_blank">
+                                          四川
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.guizhou.gov.cn/" title="" target="_blank">
+                                          贵州
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.yn.gov.cn/" title="" target="_blank">
+                                          云南
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.xizang.gov.cn/" title="" target="_blank">
+                                          西藏
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.shaanxi.gov.cn/index.html" title="" target="_blank">
+                                          陕西
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.gansu.gov.cn/" title="" target="_blank">
+                                          甘肃
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.qinghai.gov.cn/" title="" target="_blank">
+                                          青海
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://hrss.nx.gov.cn/" title="" target="_blank">
+                                          宁夏
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rst.xinjiang.gov.cn/" title="" target="_blank">
+                                          新疆
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rsj.xjbt.gov.cn/" title="" target="_blank">
+                                          新疆生产建设兵团
+                                        </a>
+                                    </li>
+                                  
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="drop-select f-ib lf">
+                        <p class="select arrow clearfix">
+                            <span class="tit text lf">地市人社局网站</span>
+                            <span class="f-ib arrow-icon rt"></span>
+                        </p>
+                        <ul class="dropdown-menu cf-scroll">
+                            <div class="dmh-bottom">
+                                 
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://xahrss.xa.gov.cn/" title="" target="_blank">
+                                           西安市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rsj.baoji.gov.cn/" title="" target="_blank">
+                                           宝鸡市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://xyrs.xianyang.gov.cn/" title="" target="_blank">
+                                           咸阳市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rs.tongchuan.gov.cn/" title="" target="_blank">
+                                           铜川市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rsj.weinan.gov.cn/" title="" target="_blank">
+                                           渭南市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rsj.yanan.gov.cn/" title="" target="_blank">
+                                           延安市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://ylhrss.yl.gov.cn/" title="" target="_blank">
+                                           榆林市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="http://rsj.hanzhong.gov.cn/" title="" target="_blank">
+                                           汉中市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rsj.ankang.gov.cn/" title="" target="_blank">
+                                           安康市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://www.shangluo.gov.cn/rsj/" title="" target="_blank">
+                                           商洛市
+                                        </a>
+                                    </li>
+                                   
+                                    <li class="lf">
+                                        <a class="ycyc text f-otw" href="https://rsj.yangling.gov.cn/" title="" target="_blank">
+                                           杨凌示范区
+                                        </a>
+                                    </li>
+                                  
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="f-bottom">
+        <div class="f-info-box">
+            <div class="level-1 clearfix">
+                <a class="lx lf" href="https://rst.shaanxi.gov.cn/zfxxgk/fdzdgknr/jgjj/nsjg/">
+                    <img src="https://rst.shaanxi.gov.cn/images/f-lxwm.png" alt="" />
+                    <span>联系我们</span>
+                </a>
+                <a class="lx lf" href="https://rst.shaanxi.gov.cn/ggbf/wzdt/">
+                    <img src="https://rst.shaanxi.gov.cn/images/f-wzdt.png" />
+                    <span>网站地图</span>
+                </a>
+                <div class="info lf">
+                    <span>主办单位:陕西省人力资源和社会保障厅</span>
+                    <span>联系电话:029-63915019</span>
+                    <span>地址:陕西省西安市新城区省政府新城大院前大楼人社厅宣传中心</span>
+                </div>
+                <div class="lx lf dzjg">
+                    <script type="text/javascript">
+                        document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/27/000/0000/60095877/CA270000000600958770001.js' type='text/javascript'%3E%3C/script%3E"));
+                    </script>
+                </div>
+                <script id="_jiucuo_" sitecode="6100000064" src="https://zfwzgl.www.gov.cn/exposure/jiucuo.js"></script>
+            </div>
+            <div class="level-2 clearfix">
+                <span class="lf">网站标识码:6100000064</span>
+                <a class="ba lf" href="https://beian.miit.gov.cn/#/Integrated/index">陕ICP备11000406号-4</a>
+                <a class="ga lf" href="javascript:;">
+                    <img src="https://rst.shaanxi.gov.cn/images/f-jh.png" alt="" />
+                    <span>陕公网安备:61010202000192号</span>
+                </a>
+                <span class="rt">网站支持IPV6</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src='https://auth.mangren.com/boots/shaanxi.gov.cnV6_9/esdToolsInit.js' charset='UTF-8'></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=6392" async="async" defer="defer"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7acd72bf8592f0e135d9dfdacbb67265";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+    getXJList(1, 4, 8);
+    /**获取信件列表*/
+    function getXJList(pageIndex, pageSize, appid) {
+        var url = "/IGI/nbhd/openGovmsgbox.do?method=listGovmsgboxs"; //信件接口
+        var datajson = {
+            "siteId": 15,
+            "appId": appid,
+            "groupId": 70,
+            "pageIndex": pageIndex,
+            "pageSize": pageSize,
+            "orderBy": "submitTime_desc",
+            "resultType": "json"
+        };
+        $.ajax({
+            url: url,
+            dataType: "json",
+            data: datajson,
+            type: "get",
+            async: "true",
+            success: function (data) {
+                if (data.statusCode != 200) {
+                    return;
+                } else {
+                    var html = "";
+                    
+                    // 按提交时间（SUBMITTIME）降序排序
+                    var sortedData = data.datas.data.sort(function(a, b) {
+                        return parseInt(b.SUBMITTIME) - parseInt(a.SUBMITTIME);
+                    });
+                    
+                    for (var i = 0; i < sortedData.length; i++) {
+                        var title = sortedData[i].TITLE;//标题
+                        var detailUrl = "";
+                        if (sortedData[i].PUBLISHURL != null) {
+                            detailUrl = JSON.parse(sortedData[i].PUBLISHURL)[0].PUBLISHURL;//跳转地址
+                        }
+                        var GOVMSGBOXTYPE = sortedData[i].GOVMSGBOXTYPE;//类型
+                        var stime = timestampC(parseInt(sortedData[i].SUBMITTIME), '-'); //提交时间
+                        var DEALDEPTNAME = sortedData[i].DEALDEPTNAME;//处理部门
+                        var etime = timestampC(parseInt(sortedData[i].FINISHTIME), '-');//完成时间
+                        var id = sortedData[i].METADATAID;
+                        detailUrl = "https://rst.shaanxi.gov.cn/hdjl/ldxx/detail.html?metadataId=" + id;
+                        var QUERYNUMBER = sortedData[i].QUERYNUMBER;
+                        var STATUS = sortedData[i].STATUS;
+                        if (STATUS == 7) {
+                            // 核心修改：显示提交时间（stime）而非完成时间（etime）
+                            html += '<li><a href="' + detailUrl + '">' + title + '</a><span>' + stime + '</span></li>'
+                        }
+                    }
+                    $("#xjList").html(html);
+                    $("#xjList1").html(html);
+                    /*分页*/
+                    new CreatePage({
+                        ele: "#cm-page",
+                        totalPages: data.datas.pageInfo.totalPages,
+                        totalResults: data.datas.pageInfo.totalResults,
+                        pageIndex: pageIndex,
+                        pageSize: pageSize,
+                        callBack: function (pageIndex) {
+                            getXJList(pageIndex, pageSize, appid)
+                        }
+                    });
+                }
+            }, error: function (data) {
+                console.info(data);
+            }
+        })
+    }
+</script>
+        <script type="text/javascript" src="./images/sy.js"></script>
+</body>
+
+</html>

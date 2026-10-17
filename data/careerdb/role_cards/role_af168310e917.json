@@ -1,0 +1,300 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_af168310e917",
+  "node": "销售 › 销售 › 销售专员",
+  "family": "销售",
+  "parent_id": "销售 › 销售",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 销售 › 销售专员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vmk5Ca5a5",
+      "type": "recruitment_jd",
+      "title": "销售专员",
+      "company": "上海市药材有限公司",
+      "url": "https://campus.niuqizp.com/job-vmk5Ca5a5.html",
+      "date": "2026-09-10",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "销售专员 10万元/年\n2026-09-10 15:44:58发布\n职位要求：\n职位性质：全职\n工作城市：上海市徐汇区\n招聘人数：2\n学历要求：本科\n职位类别：其他专业技术人员\n需求专业：药学类\n职位描述：\n岗位职责\n1、负责公司渠道销售（KA、流通、特通）；\n2、完成公司规定的各项销售指标，并对销售目标、市场占有率、渠道渗透率的达成情况负责；\n3、协同财务部管控销售回款及费用支出，维护并执行公司规定的应收款要求，对公司的资金安全负责；\n4、做好市外客户渠道的开发、筛选及管理维护工作；\n5、做好售后服务工作，维护客情关系；\n6、积极搜集并反馈市场信息。\n任职资格\n1、学历要求：大学本科\n2、专业要求：中药学、市场营销等相关专业\n3、其他技能要求：具备较好沟通表达能力，主动学习客户开发、需求挖掘、产品介绍等销售工作方法；目标导向，执行力强，心态乐观，具备较强抗压能力，有责任心；熟练使用Office办公软件，基础数据整理等。\n薪资福利\n五险一金\n公司介绍：\n上海市药材有限公司，是“上海医药”【601607.SH、02607.HK】下属全资子公司。公司注册资本4.6369亿元，创始于1955年，走过了近60年努力创业、励精图治和规模发展之路，在致力于推进中国中药产业现代化的进程中，成长为中国中药行业的领军企业。公司是集科工贸于一体、经营门类覆盖中药全产业链的大型企业。\n公司基本信息\n上海市药材有限公司\n单位行业：批发业\n单位性质：国有企业\n单位规模：1000人以上\n申请职位：\ncp***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vmk5Ca5a5.html",
+      "cache_sha256": "9f882f7cacdf6363d51ee4f3d061cbaa2328852368eb0a24727c0d7718afd6ac"
+    },
+    {
+      "id": "vyU5MZZMC",
+      "type": "recruitment_jd",
+      "title": "医药销售专员",
+      "company": "丹东宏君人才咨询有限公司",
+      "url": "https://campus.niuqizp.com/job-vyU5MZZMC.html",
+      "date": "2026-09-24",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "任职要求：1:大专及以上学历；2:有临床领域相关销售经验者优先；3:有责任心，勤奋务实。良好的践行能力、沟通能力及学习能力。欢迎推荐优秀人才，近期安排面试。工作时间：每天两次考勤打卡，早十晚八，每月前三周单休，第四周双休薪资：底薪5000，缴纳五险，前三个月试用期原则上没有奖金，表现好可申请销售额5个点提奖，第四个月基础指标4万，达成率80%以上计算奖金",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vyU5MZZMC.html",
+      "cache_sha256": "077ccbc040ac882e8e6b417815f67ae4ff248d91247e2965439666cb8a527b45"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "销售专员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "销售专员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "医药销售专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "销售专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmk5Ca5a5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责公司渠道销售（KA、流通、特通）",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vmk5Ca5a5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmk5Ca5a5",
+          "text": "负责公司渠道销售（KA、流通、特通）"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责公司渠道销售（KA、流通、特通）",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmk5Ca5a5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmk5Ca5a5",
+          "text": "负责公司渠道销售（KA、流通、特通）"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "完成公司规定的各项销售指标，并对销售目标、市场占有率、渠道渗透率的达成情况负责",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmk5Ca5a5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmk5Ca5a5",
+          "text": "完成公司规定的各项销售指标，并对销售目标、市场占有率、渠道渗透率的达成情况负责"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vyU5MZZMC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vmk5Ca5a5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vyU5MZZMC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“中药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中药学类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vmk5Ca5a5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vmk5Ca5a5"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmk5Ca5a5",
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "医药销售专员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vyU5MZZMC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "销售专员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vmk5Ca5a5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

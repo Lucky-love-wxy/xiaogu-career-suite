@@ -1,0 +1,234 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_1644adc6b4fe",
+  "node": "医疗健康 › 医疗销售 › 医药市场（产品/品牌）",
+  "family": "医疗健康",
+  "parent_id": "医疗健康 › 医疗销售",
+  "tier": "P1",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "医疗健康 › 医疗销售 › 医药市场（产品/品牌）",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vrr5zZt5M",
+      "type": "recruitment_jd",
+      "title": "医药市场专员",
+      "company": "遵义廖元和堂药业有限公司",
+      "url": "https://campus.niuqizp.com/job-vrr5zZt5M.html",
+      "date": "2026-06-08",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "遵义廖元和堂药业有限公司\n医药市场专员\n薪资：8K-12K/月\n工作地点：北京 北京市\n学历：本科及以上\n薪酬福利：五险\n发布时间：2026年6月8日\n职位描述\n岗位职责：\n1、负责医药市场推广活动的策划与执行，提升品牌知名度和市场占有率；\n2、收集行业市场信息，分析竞品动态，为市场策略调整提供数据支持；\n3、协助开展学术会议、产品宣讲会等专业推广活动，对接医疗专业人员；\n4、维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地；\n岗位要求：\n1、具备良好的沟通能力和服务意识，能够适应医药行业的专业交流场景；\n2、对市场营销工作有热情，具备一定的市场敏感度和执行推动力；\n3、能适应短期出差，具备团队协作精神和责任心；\n4、熟悉中医药行业或有相关市场经验者优先；\n投递说明：\n面试\n单位简介\n我公司成立于1986年，2003年公司改制后更名为遵义廖元和堂药业有限公司，同年在遵义市红花岗区遵义市高新技术产业园征地30亩，建成了全新的GMP厂房。\n2013年9月积极响应遵义市委、市政府提出的“退二进三、退城进园”的号召，在遵义市深溪镇复兴村征地122亩，投资2.5亿元，建成了丸剂、胶囊剂、中药饮片等生产线及综合办公大楼；丸剂、胶囊剂生产线于2015年11月14日通过国家GMP（2010版）认证。成为遵义市红花岗区首家通过2010版GMP认证的制药企业。目前公司拥有员工84人，其中执业药师14人，大学本科学历21人，占公司总人数25%，大专学历18人，占公司总人数的21%。近两年来公司主营业收入达到上亿元，利润到达上千万，实现纳税上千万元。解决数百人就业问题。高素质的管理水平和生产技术能力，使公司在生产过程中从未发生过质量事故。\n遵义廖元和堂药业有限公司\n领域：制造业\n规模：50-150人\n投递简历：\nzm***.cn[点击查看]",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrr5zZt5M.html",
+      "cache_sha256": "b8a39a21219af2d03644fcaba44d60787cad8111cbc9dee654e2aea80f4f74f3"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "医药市场（产品/品牌）",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医药市场（产品/品牌）"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "医药市场专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zZt5M",
+          "text": "维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zZt5M",
+          "text": "维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "收集行业市场信息，分析竞品动态，为市场策略调整提供数据支持",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zZt5M",
+          "text": "收集行业市场信息，分析竞品动态，为市场策略调整提供数据支持"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助开展学术会议、产品宣讲会等专业推广活动，对接医疗专业人员",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zZt5M",
+          "text": "协助开展学术会议、产品宣讲会等专业推广活动，对接医疗专业人员"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责医药市场推广活动的策划与执行，提升品牌知名度和市场占有率",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zZt5M",
+          "text": "负责医药市场推广活动的策划与执行，提升品牌知名度和市场占有率"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [
+    {
+      "text": "维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrr5zZt5M",
+          "text": "维护与医疗机构、药店及合作伙伴的良好关系，推动产品落地"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vrr5zZt5M"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "医药市场专员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrr5zZt5M"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

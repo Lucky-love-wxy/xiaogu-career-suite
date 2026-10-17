@@ -1,0 +1,267 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_ef1017de7577",
+  "node": "酒店/旅游 › 旅游服务 › 计调",
+  "family": "酒店/旅游",
+  "parent_id": "酒店/旅游 › 旅游服务",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "酒店/旅游 › 旅游服务 › 计调",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vk85M5ZnL",
+      "type": "recruitment_jd",
+      "title": "计调岗",
+      "company": "中旅旅行-福建省旅游有限公司",
+      "url": "https://campus.niuqizp.com/job-vk85M5ZnL.html",
+      "date": "2026-09-21",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "【职位描述】\n主要为入境游客、商务人士、考察团等境外人员提供落地后本地化服务的机构的核心职责是保障入境人员在本地行程顺畅、需求得到满足，并提供安全、专业的落地支持\n【任职资格】\n本科及以上学历，旅游管理、产品设计、数字媒体艺术相关专业",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vk85M5ZnL.html",
+      "cache_sha256": "8657a4ee28e9bceeded38238afb539a0f3cbd20451a530860e817eb0446e3f55"
+    },
+    {
+      "id": "vrs5C5ntZ",
+      "type": "recruitment_jd",
+      "title": "旅游计调",
+      "company": "三亚市金维新旅行社有限公司",
+      "url": "https://campus.niuqizp.com/job-vrs5C5ntZ.html",
+      "date": "2026-09-08",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "行程制作与报价根据客户需求编排旅游线路，核算酒店、车、门票、餐饮成本，输出行程单、报价单、出团通知书。资源预订对接对接酒店、景区、车队、导游，完成订房、订票、订车；处理订单改期、退订。订单台账管理登记散客、团队订单，客户、供应商资料归档，协助和供应商对账结算。团期全程跟进出团前核对全部资源；行程途中处理突发问题，协调解决行程异常，保障团队顺利出行。供应商维护更新酒店、门票、车队价格，维护合作渠道资源。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrs5C5ntZ.html",
+      "cache_sha256": "d21d56b98e64f79d7b3a2b2116b28495752b83536b4ddd75d9f00182a9d57766"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "计调",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "计调"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "旅游计调",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "计调岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk85M5ZnL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：处理订单改期、退订",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vrs5C5ntZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5C5ntZ",
+          "text": "处理订单改期、退订"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "处理订单改期、退订",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrs5C5ntZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrs5C5ntZ",
+          "text": "处理订单改期、退订"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vrs5C5ntZ"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vk85M5ZnL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vrs5C5ntZ"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“旅游管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "旅游管理类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vk85M5ZnL"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vk85M5ZnL",
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "旅游计调",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrs5C5ntZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "计调岗",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vk85M5ZnL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

@@ -1,0 +1,19 @@
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+ProtocolError: Protocol error (Network.setCacheDisabled): Internal server error, session closed.
+    at /Users/lucky_wang/.local/share/uv/tools/boss-agent-cli/lib/python3.12/site-packages/patchright/driver/package/lib/coreBundle.js:36966:61
+    at new Promise (<anonymous>)
+    at _CRSession.send (/Users/lucky_wang/.local/share/uv/tools/boss-agent-cli/lib/python3.12/site-packages/patchright/driver/package/lib/coreBundle.js:36965:16)
+    at /Users/lucky_wang/.local/share/uv/tools/boss-agent-cli/lib/python3.12/site-packages/patchright/driver/package/lib/coreBundle.js:37903:36
+    at /Users/lucky_wang/.local/share/uv/tools/boss-agent-cli/lib/python3.12/site-packages/patchright/driver/package/lib/coreBundle.js:37870:37
+    at Array.map (<anonymous>)
+    at CRNetworkManager._forEachSession (/Users/lucky_wang/.local/share/uv/tools/boss-agent-cli/lib/python3.12/site-packages/patchright/driver/package/lib/coreBundle.js:37869:40)
+    at CRNetworkManager.setRequestInterception (/Users/lucky_wang/.local/share/uv/tools/boss-agent-cli/lib/python3.12/site-packages/patchright/driver/package/lib/coreBundle.js:37902:22) {
+  type: 'closed',
+  method: 'Network.setCacheDisabled',
+  logs: ''
+}
+
+Node.js v24.21.0

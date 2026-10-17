@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://polyfill.alicdn.com http://apps.bdimg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: http:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; object-src 'none'; base-uri 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none">
+    <meta http-equiv="X-Download-Options" content="noopen">
+    <meta http-equiv="Referrer-Policy" content="no-referrer">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()">
+    <meta name="referrer" content="no-referrer">
+    <title>四川省人力资源和社会保障厅人事考试专栏</title>
+    <script src="https://polyfill.alicdn.com/polyfill.min.js?features=Promise,Array.prototype.includes&flags=gated"></script>
+    <link rel="stylesheet" href="/front/Content/css/main-n.css?v=146">
+    <script src="/front/Content/js/jquery.min.js"></script>
+    
+    
+        <script src="/front/Content/js/common-n.min.js?v=146"></script>
+    
+    <link href="/front/lib/layui/css/layui.css" rel="stylesheet">
+    <script src="/front/lib/layui/layui.js"></script>
+    <link rel="stylesheet" href="/front/Content/css/ueditor.css">
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<script type="text/javascript">
+    var urlPrefix = '/front/';
+    var inner = '';
+</script>
+<style type="text/css">
+    body {
+        font-size: 16px;
+    }
+
+    .layui-nav {
+        padding: 0px;
+        background-color: transparent;
+    }
+
+        .layui-nav * {
+            font-size: 16px !important;
+        }
+
+        .layui-nav .layui-nav-item {
+            line-height: 70px;
+        }
+
+        .layui-nav .layui-this:after,
+        .layui-nav-bar {
+            background-color: white;
+        }
+
+        .layui-nav .layui-nav-item a {
+            color: white;
+        }
+</style>
+
+<body>
+        <div b-gyrbfr3231 class="row-box row1">
+            <div b-gyrbfr3231 class="content tool">
+                <div b-gyrbfr3231 class="logo">
+                    <img b-gyrbfr3231 style="display:inline-block; margin-left:220px; margin-top:20px;"
+                         src="/front/Content/images/old/rskszl.png">
+                </div>
+                <div b-gyrbfr3231 id="div_LoginStatus_Head" class="top_login">
+                    <div b-gyrbfr3231 id="li_LogStatus" style="display:none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div b-gyrbfr3231 class="row-box row2">
+            <div b-gyrbfr3231 class="content">
+                <ul b-gyrbfr3231 class="layui-nav">
+                    <li b-gyrbfr3231 class="layui-nav-item layui-this"
+                        style="width: 200px;text-align: center;">
+                        <a b-gyrbfr3231 href="/">首页</a>
+                    </li>
+
+                            <li b-gyrbfr3231 class="layui-nav-item" style="width: 200px;text-align: center;">
+                                <a b-gyrbfr3231 href="/front/BottomInfo/Info/2"
+                                   target="_blank">&#x5355;&#x4F4D;&#x4ECB;&#x7ECD;</a>
+                            </li>
+                            <li b-gyrbfr3231 class="layui-nav-item" style="width: 200px;text-align: center;">
+                                <a b-gyrbfr3231 href="javascript:;"
+                                   target="_self">&#x529E;&#x4E8B;&#x6307;&#x5357;</a>
+                                    <dl b-gyrbfr3231 class="layui-nav-child">
+                                            <dd b-gyrbfr3231>
+                                                <a b-gyrbfr3231 href="/front/BottomInfo/Info/1"
+                                                   target="_blank" rel="noopener noreferrer" style="color:#222">&#x7167;&#x7247;&#x5904;&#x7406;&#x5DE5;&#x5177;</a>
+                                            </dd>
+                                            <dd b-gyrbfr3231>
+                                                <a b-gyrbfr3231 href="/front/BottomInfo/Info/4"
+                                                   target="_blank" rel="noopener noreferrer" style="color:#222">&#x7F51;&#x4E0A;&#x7F34;&#x8D39;</a>
+                                            </dd>
+                                    </dl>
+                            </li>
+                            <li b-gyrbfr3231 class="layui-nav-item" style="width: 200px;text-align: center;">
+                                <a b-gyrbfr3231 href="/front/News/List/152"
+                                   target="_blank">&#x653F;&#x7B56;&#x6CD5;&#x89C4;</a>
+                            </li>
+                            <li b-gyrbfr3231 class="layui-nav-item" style="width: 200px;text-align: center;">
+                                <a b-gyrbfr3231 href="/front/News/List/96"
+                                   target="_blank">&#x8B66;&#x793A;&#x6848;&#x4F8B;</a>
+                            </li>
+                </ul>
+                <div b-gyrbfr3231 class="search">
+                    <form action="/front/News/Search">
+                        <span b-gyrbfr3231 class="icon"></span>
+                        <input b-gyrbfr3231 type="text" id="key" name="key" placeholder="请输入关键词搜索" />
+                        <button b-gyrbfr3231 type="submit">搜索</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div b-gyrbfr3231 class="row-box">
+        
+        
+<style type="text/css">
+    .hide {
+        display: none;
+    }
+
+    .top-news {
+        margin-top: -10px !important;
+        width: 65% !important;
+    }
+</style>
+
+<link rel="stylesheet" href="/front/Content/css/banner.css?v=146">
+
+
+    <script src="/front/Content/js/index.min.js?v=146"></script>
+
+<script src="https://qiyukf.com/script/6917d055768be0ce4103dee440d44b60.js"></script>
+<script type="text/javascript">
+    function toZnkf() {
+        var iHeight = 720, iWidth = 700;
+
+        openWindow("https://kefu.cpta.com.cn/robot/index/5/c206885889b7457991db417337fd1a9d/sichuan", "ai_", "height=" + iHeight + ",innerHeight=" + iHeight + ",width=" + iWidth + ",innerWidth=" + iWidth + ",top=50%,left=50%,status=no,toolbar=no,menubar=no,location=no,resizable=no,scrollbars=0,titlebar=no");
+    }
+    function openNews(id){
+        openWindow('/front/News/Info/'+id);
+    }
+</script>
+
+<div style="width: 50px; height: 70px; position: fixed; left: 20px; bottom: 20px; cursor: pointer;z-index:99" onclick="toZnkf()">
+    <div style="height: 20px; font-size: 10px; text-align: center;color:#000;">智能客服</div>
+    <div style="width: 50px; height: 50px; background: url(/front/content/images/kao.png) no-repeat top; background-size: 50px 50px;"></div>
+</div>
+<div class="home-container">
+    <div class="info-list">
+        <div class="wrap" style="width:34%">
+            <div class="layui-carousel" id="carousel">
+                <div carousel-item>
+                        <div>
+                            <img src="/front/download-48c3bb9081ee4e1199accd761c3b8f4d" alt="2026&#x5E74;&#x4E0A;&#x534A;&#x5E74;&#x5168;&#x7701;&#x4E8B;&#x4E1A;&#x5355;&#x4F4D;&#x516C;&#x5F00;&#x62DB;&#x8058;&#x5DE5;&#x4F5C;&#x4EBA;&#x5458;&#x4E13;&#x9898;" onclick="openWindow('/front/Special/Info/8c14387e5b5b4a47a596fcd85694aaac')" />
+                            <div class="tips">
+                                <p onclick="openWindow('/front/Special/Info/8c14387e5b5b4a47a596fcd85694aaac')" title="2026&#x5E74;&#x4E0A;&#x534A;&#x5E74;&#x5168;&#x7701;&#x4E8B;&#x4E1A;&#x5355;&#x4F4D;&#x516C;&#x5F00;&#x62DB;&#x8058;&#x5DE5;&#x4F5C;&#x4EBA;&#x5458;&#x4E13;&#x9898;">2026&#x5E74;&#x4E0A;&#x534A;&#x5E74;&#x5168;&#x7701;&#x4E8B;&#x4E1A;&#x5355;&#x4F4D;&#x516C;&#x5F00;&#x62DB;&#x8058;&#x5DE5;&#x4F5C;&#x4EBA;&#x5458;&#x4E13;&#x9898;</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="/front/download-c87dd6ecc7e84f5dbd317640d4424641" alt="2026&#x5E74;&#x5EA6;&#x4E8C;&#x7EA7;&#x9020;&#x4EF7;&#x5DE5;&#x7A0B;&#x5E08;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8003;&#x8BD5;&#x4E13;&#x9898;" onclick="openWindow('/front/Special/Info/ba9014280200489c9472d53f190f3f37')" />
+                            <div class="tips">
+                                <p onclick="openWindow('/front/Special/Info/ba9014280200489c9472d53f190f3f37')" title="2026&#x5E74;&#x5EA6;&#x4E8C;&#x7EA7;&#x9020;&#x4EF7;&#x5DE5;&#x7A0B;&#x5E08;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8003;&#x8BD5;&#x4E13;&#x9898;">2026&#x5E74;&#x5EA6;&#x4E8C;&#x7EA7;&#x9020;&#x4EF7;&#x5DE5;&#x7A0B;&#x5E08;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8003;&#x8BD5;&#x4E13;&#x9898;</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://www.scpta.com.cn/front/download-c75e32385ca947f095de0968f49ddd15" alt="&#x4E13;&#x4E1A;&#x6280;&#x672F;&#x4EBA;&#x5458;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8BC1;&#x4E66;&#x90AE;&#x5BC4;&#x7533;&#x8BF7;&#x4E13;&#x7528;&#x901A;&#x9053;" onclick="openWindow('https://www.scpta.com.cn/front/certmail')" />
+                            <div class="tips">
+                                <p onclick="openWindow('https://www.scpta.com.cn/front/certmail')" title="&#x4E13;&#x4E1A;&#x6280;&#x672F;&#x4EBA;&#x5458;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8BC1;&#x4E66;&#x90AE;&#x5BC4;&#x7533;&#x8BF7;&#x4E13;&#x7528;&#x901A;&#x9053;">&#x4E13;&#x4E1A;&#x6280;&#x672F;&#x4EBA;&#x5458;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8BC1;&#x4E66;&#x90AE;&#x5BC4;&#x7533;&#x8BF7;&#x4E13;&#x7528;&#x901A;&#x9053;</p>
+                            </div>
+                        </div>
+                </div>
+                <!-- <a href="javascript:void(0);">&lt;</a>
+                <a href="javascript:void(0);">&gt;</a> -->
+            </div>
+        </div>
+        <div class="wrap top-news">
+            <div class="tabs">
+            </div>
+        </div>
+    </div>
+    <div class="special-list" style="position: relative;top:-20px;">
+            <a href="/front/Special/Info/1e53dbfe56c249f5b897b0402e23d224" title="&#x56DB;&#x5DDD;&#x7701;2026&#x5E74;&#x5EA6;&#x8003;&#x8BD5;&#x5F55;&#x7528;&#x516C;&#x52A1;&#x5458;&#xFF08;&#x53C2;&#x7167;&#x7BA1;&#x7406;&#x5DE5;&#x4F5C;&#x4EBA;&#x5458;&#xFF09;&#x8865;&#x5145;&#x5F55;&#x7528;&#x4E13;&#x9898;" target="_blank" rel="noopener noreferrer" class="site">
+                <image src="/front/download-33613359694648ab9fca4d3ec0d7dee4"></image>
+            </a>
+            <a href="/front/Special/Info/3a4bc85644fd4ed6a46512b49ac250d9" title="2026&#x5E74;&#x56DB;&#x5DDD;&#x7701;&#x4E8B;&#x4E1A;&#x5355;&#x4F4D;&#x516C;&#x5F00;&#x9009;&#x8C03;&#x5DE5;&#x4F5C;&#x4EBA;&#x5458;&#x4E13;&#x9898;" target="_blank" rel="noopener noreferrer" class="site">
+                <image src="/front/download-bc36b3e6601f45cfa701045b75647f73"></image>
+            </a>
+            <a href="/front/Special/Info/e6201859033747e0961ad2214bae655b" title="2026&#x5E74;&#x5EA6;&#x4E8C;&#x7EA7;&#x9020;&#x4EF7;&#x5DE5;&#x7A0B;&#x5E08;&#x804C;&#x4E1A;&#x8D44;&#x683C;&#x8003;&#x8BD5;&#x4E13;&#x9898;" target="_blank" rel="noopener noreferrer" class="site">
+                <image src="/front/download-26a331f3df0d47fe949dde4a9647e5b6"></image>
+            </a>
+    </div>
+    <div class="info-list" style="margin-top:-10px;">
+        <div class="wrap" style="width: 100%;">
+            <div class="wrap-title">业务导航</div>
+            <div class="wrap-content " style="min-height: 130px;">
+                <div class="service-nav">
+                    <a href="https://wwwlogin.scpta.com.cn/entryplan/list" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/wsbm.png"></image>
+                        <span>网上报名</span>
+                    </a>
+                    <a href="https://wwwlogin.scpta.com.cn/ticket" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/dzfp.png"></image>
+                        <span>电子发票</span>
+                    </a>
+                    <a href="/query/zkz" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/zkz.png"></image>
+                        <span>准考证</span>
+                    </a>
+                    <a href="/query/cj" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/cjcx.png"></image>
+                        <span>成绩查询</span>
+                    </a>
+                    <a href="/query/cjreview" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/cfsq.png"></image>
+                        <span>查分申请</span>
+                    </a>
+                    <a href="https://wwwlogin.scpta.com.cn/static/certificate.html" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/zscx.png"></image>
+                        <span>证书查询</span>
+                    </a>
+                    <a href="/front/CertMail" target="_blank" rel="noopener noreferrer">
+                        <image src="/front/Content/images/service/zszy.png"></image>
+                        <span>证书直邮</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-list info-list1"></div>
+    <div class="info-list info-list2"></div>
+        <div class="info-list">
+            <div class="wrap" style="width: 100%;">
+                <div class="wrap-title">友情链接</div>
+                <div class="wrap-content" style="min-height: 130px;">
+                    <div class="links layui-row" style="padding:0px 10px">
+                            <div class="link-item" style="width:calc(33% - 10px)">
+                                <a href="http://www.cpta.com.cn/" target="_blank" rel="noopener noreferrer" class="site">
+                                    <image src="https://www.scpta.com.cn/front/download-b9205f1e77cf4056a185ab61485564d7"></image>
+                                </a>
+                            </div>
+                            <div class="link-item" style="width:calc(33% - 10px)">
+                                <a href="https://www.sc.gov.cn/" target="_blank" rel="noopener noreferrer" class="site">
+                                    <image src="https://www.scpta.com.cn/front/download-f87f252c006b40f6bed584fe357cee9a"></image>
+                                </a>
+                            </div>
+                            <div class="link-item" style="width:calc(33% - 10px)">
+                                <a href="http://rst.sc.gov.cn/rst/index.shtml" target="_blank" rel="noopener noreferrer" class="site">
+                                    <image src="https://www.scpta.com.cn/front/download-52a6c0ca99f64d0a8798f84139631066"></image>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="special-list" style="position: relative;top:20px;">
+    </div>
+</div>
+
+    </div>
+        <div b-gyrbfr3231 class="row-box">
+            <div b-gyrbfr3231 class="content other-box bottom-info-box">
+            </div>
+        </div>
+        <div b-gyrbfr3231 class="row-box row5">
+            <div b-gyrbfr3231 class="content">
+                <div b-gyrbfr3231 class="column" style="font-size: 16px;">
+                    <p b-gyrbfr3231 style="margin-top:24px;">版权所有：四川省人事考试中心</p>
+                    <p b-gyrbfr3231>
+                        <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer" style="color:white;"
+                           href="https://beian.miit.gov.cn/">ICP备案编号：蜀ICP备2023024780号</a>
+                    </p>
+                </div>
+                <div b-gyrbfr3231 class="column" style="font-size: 16px;">
+                    <p b-gyrbfr3231 style="margin-top:58px;">
+                        <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer" style="color:white;"
+                           href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010402000507">
+                            <image b-gyrbfr3231 src="/front/Content/images/wzdbgh.png"></image>川公安备：51010402000507号
+                        </a>
+                    </p>
+                </div>
+                <div b-gyrbfr3231 class="column" style="">
+                    <div b-gyrbfr3231 class="other">
+                        <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer"
+                           href="http://rst.sc.gov.cn/rst/lxfs/2019/11/27/d34a904168154549884f4d08c0934fad.shtml">联系方式</a>
+                        <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer"
+                           href="http://rst.sc.gov.cn/rst/wzdt/2020/1/16/2adbf4f367dc4252b8618dca075c5e48.shtml"
+                           style="background-position-x: -73px;">网站地图</a>
+                        <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer"
+                           href="http://rst.sc.gov.cn/rst/sybz/2020/1/21/1e4aa96ff75d41708411af8d59c91f9f.shtml"
+                           style="background-position-x: -176px;">使用帮助</a>
+                        <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer"
+                           href="http://rst.sc.gov.cn/rst/wzsm/2019/11/27/5f07a7b8ee1d4b469064c34e55913637.shtml"
+                           style="background-position-x: -280px;">网站声明</a>
+                    </div>
+                </div>
+                <div b-gyrbfr3231 class="column" style="width: 25%;text-align: right;">
+                    <a b-gyrbfr3231 b-gyrbfr3231="" target="_blank" rel="noopener noreferrer" href="/front/home/scpy" class="site">
+                        <img b-gyrbfr3231 b-gyrbfr3231="" src="/front/Content/images/old/py.png">
+                    </a>
+                    <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer"
+                       href="http://121.43.68.40/exposure/jiucuo.html?site_code=5100000042&url=http%3A%2F%2Fwww.sc.hrss.gov.cn%2F"
+                       class="site">
+                        <image b-gyrbfr3231 src="/front/Content/images/zc.png"></image>
+                    </a>
+                    <a b-gyrbfr3231 target="_blank" rel="noopener noreferrer" href="http://bszs.conac.cn/sitename?method=show&id=09C305A2F0A950A4E053012819ACE3E5"
+                       class="site">
+                        <image b-gyrbfr3231 src="/front/Content/images/dz.png"></image>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <script src="/front/Content/js/base.min.js?v=146"></script>
+    
+</body>
+
+</html>

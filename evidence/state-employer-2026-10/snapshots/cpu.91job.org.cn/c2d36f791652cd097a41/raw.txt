@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 关闭移动端输入框聚焦 user-scalable=no -->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=no"
+    />
+    <!--    -->
+    <!--    <meta http-equiv="Content-Security-Policy" content="default-src 'self';img-src * data: blob:;font-src * data:;script-src 'self' 'unsafe-eval' 'unsafe-inline';style-src 'self' 'unsafe-inline';frame-src 'self' data:;object-src 'self' data:;connect-src *" />-->
+    <!--    -->
+
+<!--    -->
+<!--        <meta-->
+<!--          http-equiv="Content-Security-Policy"-->
+<!--          content="upgrade-insecure-requests"-->
+<!--        />-->
+<!--    -->
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta
+      http-equiv="cache-control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <title>智慧就业平台</title>
+  <link href="/js/0-89521467377caeaa828b0b29e50f.js" rel="prefetch"><link href="/js/1-89521467fc745e9e1d46e2c1a19e.js" rel="prefetch"><link href="/js/10-895214671215cc471268344ab850.js" rel="prefetch"><link href="/js/100-89521467076d3367b4822090130d.js" rel="prefetch"><link href="/js/101-89521467cf3ac0455f192f315440.js" rel="prefetch"><link href="/js/102-89521467e24098769f3eb8cf0367.js" rel="prefetch"><link href="/js/103-89521467044f5773266ceaffd2b5.js" rel="prefetch"><link href="/js/104-89521467879d175e4148055ce4fb.js" rel="prefetch"><link href="/js/105-89521467186a38ce0246aa887c41.js" rel="prefetch"><link href="/js/106-89521467e97004455e059370668c.js" rel="prefetch"><link href="/js/107-89521467bd36e898128474944fe8.js" rel="prefetch"><link href="/js/108-89521467f3875c345fca82ac9b9e.js" rel="prefetch"><link href="/js/109-89521467fbca4fe74b8498d4c44c.js" rel="prefetch"><link href="/js/11-89521467358a54e80b7aac4e023a.js" rel="prefetch"><link href="/js/110-89521467743a08cd4af40ce766ac.js" rel="prefetch"><link href="/js/111-895214672f3b2ae195cac3993ad3.js" rel="prefetch"><link href="/js/112-89521467a1423380bc0ec2a431a2.js" rel="prefetch"><link href="/js/113-895214674d9dd3bb12d090e7d3b4.js" rel="prefetch"><link href="/js/114-89521467bf6b440f110cfe307d5e.js" rel="prefetch"><link href="/js/115-89521467211f1184e8ad1da11717.js" rel="prefetch"><link href="/js/116-89521467eb160fa17f198edb2a3e.js" rel="prefetch"><link href="/js/117-89521467a423922bb93f1e7d0487.js" rel="prefetch"><link href="/js/118-89521467c190f2483c90ca357678.js" rel="prefetch"><link href="/js/119-8952146734058d69866f76522d3d.js" rel="prefetch"><link href="/js/12-895214673a2933baaaa5fdd10176.js" rel="prefetch"><link href="/js/120-89521467598d8e62c17a3eb5f6dd.js" rel="prefetch"><link href="/js/121-89521467730ec6c49fc14cd868c3.js" rel="prefetch"><link href="/js/122-895214673bd7597453ab701ee962.js" rel="prefetch"><link href="/js/123-89521467093b023b68878413e5b7.js" rel="prefetch"><link href="/js/124-89521467111647b54d5e63dd1c8d.js" rel="prefetch"><link href="/js/125-895214670ab56fcf8b78938f79cd.js" rel="prefetch"><link href="/js/126-89521467aeb683d3c6ab99fd5fca.js" rel="prefetch"><link href="/js/127-89521467ae2d20ee3eac90cd22e9.js" rel="prefetch"><link href="/js/13-89521467aa27b1c31d6971bc322d.js" rel="prefetch"><link href="/js/14-8952146737580a975036c939fa33.js" rel="prefetch"><link href="/js/15-89521467bbc58b827b982b455f9c.js" rel="prefetch"><link href="/js/16-89521467fe74056f55a7487194e1.js" rel="prefetch"><link href="/js/17-895214679fc1da3d6cd33be42f12.js" rel="prefetch"><link href="/js/18-89521467cfb437e781fb1f2b052f.js" rel="prefetch"><link href="/js/19-895214677fa609140e31d284c945.js" rel="prefetch"><link href="/js/2-89521467de6ac5d0fc9baa3a56b3.js" rel="prefetch"><link href="/js/20-89521467d6adade82e56d149b7ad.js" rel="prefetch"><link href="/js/21-895214675c47f363c765d77c0735.js" rel="prefetch"><link href="/js/22-8952146709b1017a346102d33f48.js" rel="prefetch"><link href="/js/23-895214678119d9365784631bdb08.js" rel="prefetch"><link href="/js/24-89521467cca659856d4589f3b0a4.js" rel="prefetch"><link href="/js/25-895214678e01803fda6029c7cc26.js" rel="prefetch"><link href="/js/26-8952146758c60e14c3ff755e6404.js" rel="prefetch"><link href="/js/27-895214673e299406d0f87d6fba50.js" rel="prefetch"><link href="/js/28-89521467200033a29afc33ea96e7.js" rel="prefetch"><link href="/js/29-895214673e2d4e52f46c2ef023c1.js" rel="prefetch"><link href="/js/3-89521467f0423f99bb827bba230f.js" rel="prefetch"><link href="/js/30-89521467d2cfe2285380da87c0c7.js" rel="prefetch"><link href="/js/31-8952146787b08cb7757ee3d87c08.js" rel="prefetch"><link href="/js/32-8952146797273b38d877cf9e50c9.js" rel="prefetch"><link href="/js/33-895214672a4baa4efad4827e1dc7.js" rel="prefetch"><link href="/js/34-895214677cb7649473a5a3b0c4d7.js" rel="prefetch"><link href="/js/35-89521467523832964d304b7df3c5.js" rel="prefetch"><link href="/js/36-8952146704adeb3b98401818328b.js" rel="prefetch"><link href="/js/37-89521467f301f46307fabfb962e6.js" rel="prefetch"><link href="/js/38-8952146726adbfc4199547a72869.js" rel="prefetch"><link href="/js/39-895214673b8e0b38aab303e86603.js" rel="prefetch"><link href="/js/4-89521467562e0a0b2674c8d9e06a.js" rel="prefetch"><link href="/js/40-89521467ab9fc24c3649b03d52b8.js" rel="prefetch"><link href="/js/41-8952146734fd07b4ce6af4ea748b.js" rel="prefetch"><link href="/js/42-895214673451fbd09a88ab22320c.js" rel="prefetch"><link href="/js/43-895214678227ea7acb71811d3460.js" rel="prefetch"><link href="/js/44-89521467d86327864746f0dd21d8.js" rel="prefetch"><link href="/js/45-89521467e02cf801c89cb2046900.js" rel="prefetch"><link href="/js/46-89521467c0f9949ac46a2299d9fb.js" rel="prefetch"><link href="/js/47-89521467719027fe0e3464ee81e4.js" rel="prefetch"><link href="/js/48-89521467894c153b8691977cd279.js" rel="prefetch"><link href="/js/49-895214676fc0865d577ef274527c.js" rel="prefetch"><link href="/js/5-89521467b5138ab40d1079783245.js" rel="prefetch"><link href="/js/50-89521467bdb6ad70f853884720ac.js" rel="prefetch"><link href="/js/51-8952146776ba9a2febec3483d36c.js" rel="prefetch"><link href="/js/52-8952146748a2f2e6e43e175ef56f.js" rel="prefetch"><link href="/js/53-89521467e5196aec990e11a6dcfa.js" rel="prefetch"><link href="/js/54-89521467d0f411c80c85835d8087.js" rel="prefetch"><link href="/js/55-8952146741b78043400a3f7ab43a.js" rel="prefetch"><link href="/js/56-89521467a3c0274da7cbb31d02f5.js" rel="prefetch"><link href="/js/57-895214673f78409d884728fd2c4a.js" rel="prefetch"><link href="/js/58-89521467db3e8f247471a31adde1.js" rel="prefetch"><link href="/js/59-89521467e55e7948389d77c3df23.js" rel="prefetch"><link href="/js/6-895214670556e070d31cc191cfa6.js" rel="prefetch"><link href="/js/60-89521467c86aec8049edd6ac3ed1.js" rel="prefetch"><link href="/js/61-89521467bfd1609c818a346c3fe8.js" rel="prefetch"><link href="/js/62-89521467247192e2bbf79a0c8129.js" rel="prefetch"><link href="/js/63-89521467346bc473e14494068613.js" rel="prefetch"><link href="/js/64-89521467e9412523b17169b3a490.js" rel="prefetch"><link href="/js/65-895214675de59286525697c12fb7.js" rel="prefetch"><link href="/js/66-89521467d57ed5e7279c1c87ed0a.js" rel="prefetch"><link href="/js/67-89521467bdf21ce99f9a8bc599ba.js" rel="prefetch"><link href="/js/68-8952146700b6b839a1b2810d56e1.js" rel="prefetch"><link href="/js/69-895214673861abc5d7874727b395.js" rel="prefetch"><link href="/js/7-895214674a80eb436f96b1cac684.js" rel="prefetch"><link href="/js/70-89521467e22c1b5474c532bdd2a9.js" rel="prefetch"><link href="/js/71-895214674ccd580840a82f784d7b.js" rel="prefetch"><link href="/js/72-8952146721be369ec43d96c227a8.js" rel="prefetch"><link href="/js/73-89521467315cfa4da738210291bb.js" rel="prefetch"><link href="/js/74-8952146796de7769a49a0e35f965.js" rel="prefetch"><link href="/js/75-8952146768fb45ecdbcc3235f4ed.js" rel="prefetch"><link href="/js/76-89521467d1d5c34f33a14d5042c7.js" rel="prefetch"><link href="/js/77-895214678380a796708359a34c2e.js" rel="prefetch"><link href="/js/78-895214671aa2ebd095dc63ecfbe3.js" rel="prefetch"><link href="/js/79-8952146709679d733b1f27cc1b85.js" rel="prefetch"><link href="/js/8-895214675e5d7cb9ddb1f7e2bb2e.js" rel="prefetch"><link href="/js/80-895214675aff38bb24badb3e5653.js" rel="prefetch"><link href="/js/81-89521467eedbe9c65c42e7b2198b.js" rel="prefetch"><link href="/js/82-89521467a23bb24992ad2e31c086.js" rel="prefetch"><link href="/js/83-89521467fb8ee949afdaf04ebb59.js" rel="prefetch"><link href="/js/84-89521467d5802b1663da49635ef1.js" rel="prefetch"><link href="/js/85-8952146709ec0ce4581f032c579d.js" rel="prefetch"><link href="/js/86-8952146785091c0a15010032ba84.js" rel="prefetch"><link href="/js/87-89521467a238b6f9b0ade8a06135.js" rel="prefetch"><link href="/js/88-89521467ed67a318bd08171ce5be.js" rel="prefetch"><link href="/js/89-8952146720d24378019cc63a1e52.js" rel="prefetch"><link href="/js/9-89521467401e142156477e154716.js" rel="prefetch"><link href="/js/90-895214679b6a34615150f7c50aac.js" rel="prefetch"><link href="/js/91-89521467a8c1b9aa4b52ce4e390f.js" rel="prefetch"><link href="/js/92-89521467abe845a60402248eda91.js" rel="prefetch"><link href="/js/93-89521467a2493962df4162e28b9d.js" rel="prefetch"><link href="/js/94-89521467d520a644883e8300f1f9.js" rel="prefetch"><link href="/js/95-895214671fae1cf4951eaa6cfd6e.js" rel="prefetch"><link href="/js/96-89521467c54e73daa67df78cc720.js" rel="prefetch"><link href="/js/97-89521467c447b451b52f72f755a8.js" rel="prefetch"><link href="/js/98-895214670d3b355693eecfc8eeb7.js" rel="prefetch"><link href="/js/99-895214671e9d1ac1a151235b0765.js" rel="prefetch"><link href="/js/app-89521467311007bf7a345bdf21af.js" rel="preload" as="script"><link href="/js/chunk-vendors-895214670189b125e1b1c0446d5c.js" rel="preload" as="script"></head>
+
+  <script>
+    if (!!window.ActiveXObject || "ActiveXObject" in window) {
+      //判断是否IE浏览器
+      var str =
+        "为了您更好地访问网站内容，推荐您使用Chrome浏览器、360浏览器极速模式，不要使用IE或者其他浏览器的兼容模式。";
+      document.writeln(
+        "<pre style='text-align:center;color:#fff;height:32px;border:0;position:fixed;top:0;left:0;width:100%;z-index:1234;background-color:#2651ba;'>" +
+          "<h2 style='margin-bottom:0'><strong>" +
+          str +
+          "<br/></strong></h2></pre>"
+      );
+    }
+  </script>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but 91JOB doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app">
+      <style>
+        html[data-theme="dark"] .app-loading {
+          background-color: #2c344a;
+        }
+
+        html[data-theme="dark"] .app-loading .app-loading-title {
+          color: rgb(255 255 255 / 85%);
+        }
+
+        .app-loading {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: #f4f7f9;
+        }
+
+        .app-loading .app-loading-wrap {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          display: flex;
+          transform: translate3d(-50%, -50%, 0);
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .app-loading .dots {
+          display: flex;
+          padding: 98px;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .app-loading .app-loading-title {
+          display: flex;
+          margin-top: 30px;
+          font-size: 24px;
+          color: rgb(0 0 0 / 85%);
+          justify-content: center;
+          align-items: center;
+        }
+
+        .app-loading .app-loading-logo {
+          display: block;
+          width: 90px;
+          margin: 0 auto;
+          /* margin-bottom: 20px; */
+        }
+
+        .dot {
+          position: relative;
+          display: inline-block;
+          width: 48px;
+          height: 48px;
+          margin-top: 30px;
+          font-size: 32px;
+          transform: rotate(45deg);
+          box-sizing: border-box;
+          animation: antRotate 1.2s infinite linear;
+        }
+
+        .dot i {
+          position: absolute;
+          display: block;
+          width: 20px;
+          height: 20px;
+          background-color: #0065cc;
+          border-radius: 100%;
+          opacity: 30%;
+          transform: scale(0.75);
+          animation: antSpinMove 1s infinite linear alternate;
+          transform-origin: 50% 50%;
+        }
+
+        .dot i:nth-child(1) {
+          top: 0;
+          left: 0;
+        }
+
+        .dot i:nth-child(2) {
+          top: 0;
+          right: 0;
+          animation-delay: 0.4s;
+        }
+
+        .dot i:nth-child(3) {
+          right: 0;
+          bottom: 0;
+          animation-delay: 0.8s;
+        }
+
+        .dot i:nth-child(4) {
+          bottom: 0;
+          left: 0;
+          animation-delay: 1.2s;
+        }
+
+        @keyframes antRotate {
+          to {
+            transform: rotate(405deg);
+          }
+        }
+
+        @-webkit-keyframes antRotate {
+          to {
+            transform: rotate(405deg);
+          }
+        }
+
+        @keyframes antSpinMove {
+          to {
+            opacity: 100%;
+          }
+        }
+
+        @-webkit-keyframes antSpinMove {
+          to {
+            opacity: 100%;
+          }
+        }
+      </style>
+      <div class="app-loading">
+        <div class="app-loading-wrap">
+          <div class="app-loading-dots">
+            <span class="dot dot-spin"><i></i><i></i><i></i><i></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="/js/chunk-vendors-895214670189b125e1b1c0446d5c.js"></script><script type="text/javascript" src="/js/app-89521467311007bf7a345bdf21af.js"></script></body>
+</html>

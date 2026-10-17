@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			广西壮族自治区人民政府国有资产监督管理委员会网站
+		</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="x-ua-Compatible" content="IE=Edge,chrome=1">
+		<meta name="renderer" content="webkit">
+<meta http-equiv="x-ua-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="Sitename" content="广西壮族自治区人民政府国有资产监督管理委员会网站"> 
+<meta name="SiteDomain" content="http://gzw.gxzf.gov.cn/"> 
+<meta name="SiteIDCode" content="4500000089
+">
+<meta name="datapath" content="gzw"/>
+		<meta name="Columnname" content="网站首页">
+		<meta name="ColumnDescription" content="网站首页">
+		<meta name="ColumnKeywords" content="首页,主页">
+		<meta name="ColumnType" content="首页">
+		<meta name="keywords" content="广西壮族自治区人民政府国有资产监督管理委员会网站">
+		<meta name="description" content="广西壮族自治区人民政府国有资产监督管理委员会网站">
+		<link rel="stylesheet" href="/cssq/base.min.css">
+<link rel="stylesheet" href="/cssq/main.css">
+<link rel="stylesheet" href="http://gzw.gxzf.gov.cn//material/css/index-increase.css">
+<style>
+    .nav li {
+        margin: 0 13px;
+    }
+</style>
+<link rel="stylesheet" href="" id="skin">
+		<link rel="stylesheet" type="text/css" href="http://gzw.gxzf.gov.cn/material/css/zntj.css">
+		<style>
+			.content-gzsj {
+				position: absolute;
+				top: 180px;
+				left: -50px;
+				width: 50px;
+				height: 130px;
+				background: #0067CC;
+				color: #fff;
+				padding-top: 30px;
+				text-decoration: none;
+			}
+			
+			.content-gzsj span {
+				width: 20px;
+				height: auto;
+				text-align: center;
+				font-size: 20px;
+				line-height: 24px;
+				display: block;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- <link rel="stylesheet" type="text/css" href="/cssq/2026gq.css" /> -->
+	<!--新春飘红-->
+	
+<!-- 	<section id="celebration" aria-label="国庆飘红动画">
+			<div class="shade"></div>
+			<div class="halo"></div><canvas id="scene" aria-hidden="true"></canvas><canvas id="particles" aria-hidden="true"></canvas>
+			<div class="opening-light"></div>
+			<button id="close" aria-label="关闭国庆动画">
+				<img src="/imagesq/2026gq/close.png" alt="" />
+			</button>
+		</section>
+		<button id="replay" hidden>重播国庆飘红</button> -->
+		<div class="gxzf-wza hide" id="wza">
+  <div class="wrap">
+    <div class="fun-item">
+      <div class="fn-left-txt">页面</div>
+      <div class="tab-wza fn-left">
+        <div class="border active">
+          <div id="btnBig" class="blue txt i-wza i-big">大</div>
+        </div>
+        <div class="border">
+          <div id="btnSmall" class="white txt i-wza i-small">小</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="fun-item text-item">
+      <div class="fn-left-txt">配色</div>
+      <div class="tab-wza fn-left" id="skinGroup">
+        <div class="border active">
+          <div id="noskin" class="black txt">无</div>
+        </div>
+        <div class="border">
+          <div id="blue" class="top-blue txt">字</div>
+        </div>
+        <div class="border">
+          <div id="yellow" class="top-yellow txt">字</div>
+        </div>
+        <div class="border">
+          <div id="black" class="top-black txt">字</div>
+        </div>
+        <div class="border">
+          <div id="white" class="top-white txt">字</div>
+        </div>
+      </div>
+    </div>
+    <div class="fun-item mr40">
+      <div class="fn-left-txt">辅助线</div>
+      <div id="helpLine" class="i-wza btn i-close">开</div>
+    </div>
+    <div class="i-wza i-reset">重置</div>
+  </div>
+</div>
+
+
+<div class="header">
+  <div class="site-top">
+    <div class="wrap">
+      <div class="site-date fn-left"></div>
+      <div class="top-right fn-right">
+        <!--
+                    <a href="" target="_blank">登录</a>
+                    <a href="" target="_blank">注册</a>
+                -->
+        <a href="http://gzw.gxzf.gov.cn/gx-znwd/home/gzw" target="_blank">智能问答</a>|<a id="gxzf_t2s"
+          href="javascript: void(0); " target="_self">简体版</a>|<a id="gxzf_s2t" href="javascript: void(0); "
+          target="_self">繁体版</a>|<a id="gxzf_s2t" href="https://weibo.com/p/1001067456843971" target="_blank">微博</a>|
+        <div class="top-hover fn-left">
+          <i class="i-webchat-top"></i>
+          <img src="http://gzw.gxzf.gov.cn/material/images/ggzfw.png" width="100" alt="微信" />
+        </div>
+
+        <div class="ipv6">支持IPv6</div>
+        <!--
+                    |<a href="#">English</a>
+                -->
+        <div class="ipv6 i-age"><a href="http://gzw.gxzf.gov.cn/zzzq/index.shtml" target="_blank">长者专区</a></div>
+        <div class="ipv6 i-wzap" id="gt_btn">无障碍</div>
+        <div class="i-jy"><a target="_blank" href="http://dsjfzj.gxzf.gov.cn/fzlm/gxzfwzjyhdh/index.shtml#3">集</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="site-banner">
+    <div class="site-warp">
+      <a href="http://gzw.gxzf.gov.cn/" target="_blank">
+        <img id="icon_gh" width="78" src="/imagesq/icon-gh.png" />
+        <img class="gzw-logo Company_name" src="http://gzw.gxzf.gov.cn/material/images/qgzwlogo.png" alt=" 广西壮族自治区人民政府国有资产监督管理委员会网站" />
+      </a>
+      <div class="site-search fn-right">
+        <input class="site-search-txt" placeholder="请输入搜索内容" name="searchWord" type="text" />
+        <input type="hidden" name="siteId" value="266" />
+        <input class="i-site site-search-submit" type="button" value="" onClick="doSearch(this)" />
+      </div>
+    </div>
+  </div>
+  <ul class="nav">
+    <li class="i-index"><a href="http://gzw.gxzf.gov.cn/" target="_blank">首页</a></li>
+    <li class="i-data-site">
+      <a href="http://gzw.gxzf.gov.cn/xwzx/" target="_blank">新闻中心</a>
+      <div class="nav-child">
+        <ul>
+          
+            <li>
+              <a href="http://gzw.gxzf.gov.cn/xwzx/gzdt/" target="_blank">国资国企动态</a>
+            </li>
+          
+            <li>
+              <a href="http://gzw.gxzf.gov.cn/xwzx/gzgg/" target="_blank">国资公告</a>
+            </li>
+          
+        </ul>
+      </div>
+    </li>
+    <li class="i-info-site"><a href="http://gzw.gxzf.gov.cn/xxgk/xxgkzn/t1647820.shtml" target="_blank">政府信息公开</a></li>
+
+    <li class="i-exc">
+      <a href="http://gzw.gxzf.gov.cn/gxgq/" target="_blank">广西国企</a>
+    </li>
+    <li class="i-data-site">
+      <a href="http://gzw.gxzf.gov.cn/dsgz/" target="_blank">地市国资</a>
+    </li>
+    <li class="i-city">
+      <a href="http://gzw.gxzf.gov.cn/wjzx/" target="_blank">文件中心</a>
+    </li>
+    <li class="i-int">
+      <a href="http://gzw.gxzf.gov.cn/wsbs1/" target="_blank">网上办事</a>
+      <div class="nav-child">
+        <ul>
+          <li><a href="https://www.bbwcq.com/index.php?m=content&c=index&a=ejylists&catid=19&issc=0&ggtype=1">产权交易信息</a>
+          </li>
+          <li><a href="http://gzw.gxzf.gov.cn/hdjl/gxgzjgzhxxxtpt/t5088245.shtml">广西国资监管综合信息系统平台</a></li>
+          <li><a href="http://gzw.gxzf.gov.cn/gxgq/">监管企业名录</a></li>
+          <li><a href="https://zwfw.gxzf.gov.cn/">自治区政务服务</a></li>
+          <li><a href="http://dbdc.gxzf.gov.cn/#/report">广西涉企乱收费举报平台</a></li>
+          <li><a href="https://tousu.www.gov.cn/dc/index.htm">互联网+督查</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="i-people">
+      <a href="http://gzw.gxzf.gov.cn/qyxx/" target="_blank">企业信息</a>
+    </li>
+
+  </ul>
+</div>
+<style type="text/css">
+  body {
+    background: url(http://gzw.gxzf.gov.cn/material/images/gzw-bg.jpg) top center no-repeat;
+  }
+
+  .site-top {
+    background: #eaf3fe94;
+  }
+
+  .site-banner,
+  .site-warp {
+    height: 262px;
+  }
+
+  .site-warp {
+    background: none;
+  }
+
+  .gzw-logo {
+    margin-top: 50px;
+  }
+
+  .site-search-submit {
+    background-position: 5px -2356px;
+    width: 69px;
+    height: 47px;
+    background-color: #025293;
+  }
+
+  .site-search {
+    border: none;
+    width: 323px;
+    height: 46px;
+    margin-top: 38px;
+  }
+
+  .site-search-txt {
+    width: 244px;
+    height: 40px;
+    line-height: 40px;
+    background: #fafafcc2;
+    color: #467dc0;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #467dc0;
+    caret-color: #467dc0;
+  }
+
+  ::-moz-placeholder {
+    color: #467dc0;
+    caret-color: #467dc0;
+  }
+
+  /* firefox 19+ */
+  :-ms-input-placeholder {
+    color: #467dc0;
+    caret-color: #467dc0;
+  }
+
+  /* ie */
+  input:-moz-placeholder {
+    color: #467dc0;
+    caret-color: #467dc0;
+  }
+
+  #icon_gh {
+    margin-bottom: 8px;
+  }
+
+  .ipv6 {
+    line-height: 26px;
+    margin-top: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .i-wzap {
+    background-image: url(/imagesq/gxzf/icon-wza.png) !important;
+    background-repeat: no-repeat;
+
+    background-position: 7px 2px;
+    padding-left: 25px;
+    margin-right: 10px;
+  }
+
+  .nav li {
+    position: relative;
+    margin: 0px 10px;
+    padding-bottom: 20px;
+  }
+
+  .nav .nav-child li {
+    margin: 0px 0px;
+    padding: 0px;
+  }
+
+  .nav-child {
+    position: absolute;
+    top: 25px;
+  }
+
+  .nav-child {
+    left: -29px;
+    width: 200px;
+  }
+
+  .i-age {
+    background-image: url(/material/images/zzzq/icon-laoren.png);
+    background-repeat: no-repeat;
+    background-position: 10px 4px;
+    background-size: 15px;
+    width: 65px;
+    text-align: right;
+    padding: 0px 12px;
+  }
+
+  .i-age a {
+    color: #fff
+  }
+
+  .nav-sec-list {
+    position: absolute;
+    /* left: 0; */
+    width: 100vw;
+    line-height: 67px;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 300;
+    display: none;
+    height: auto !important;
+    background-size: 100% 100%;
+    padding-bottom: 1px;
+    /* top: 67px; */
+    bottom: auto !important;
+    background-color: aliceblue;
+    justify-content: center;
+  }
+
+  .nav-sec-list div {
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    padding: 0 20px;
+  }
+
+  .nav-sec-list div:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav li:hover .nav-sec-list {
+    /* display: block; */
+  }
+
+  .nav .nav-child li a {
+    line-height: 30px
+  }
+</style>
+
+		<div class="wrap bg-white">
+			<!-- <a href='http://gzw.gxzf.gov.cn/xxgk/gknr/tjxx/' target='_blank'><div class="content-gzsj">
+	        <span>国资数据</span>
+	    </div></a> -->
+			<!-- <a href='http://gzw.gxzf.gov.cn/xxgk/gknr/ldjjjfg/xwh_zzqgzwdzfsjfzy/t17907937.shtml' target='_blank'><div class="content-gzsj" style='right: -50px;left: auto;top: 0;'>
+	        <span>领导日历</span>
+	    </div></a> -->
+	<a href='http://gzw.gxzf.gov.cn/ldry/index.shtml' target='_blank'><div class="content-gzsj" style='right: -50px;left: auto;top: 0;'>
+	        <span>领导日历</span>
+	    </div></a>
+
+			<div class="mode19-content-zntj">
+				<div class="content-zntj">
+					<span>智能推荐</span>
+				</div>
+				<div class="con-tab-bg">
+					<div class="con-tab-abc">
+						<div class="bottom_news" style="display: none;">
+							<dl style="display: block;">
+								<dd id="sliderNav"></dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--政务地图-->
+			<div class="mode19-content-zntjs">
+				<div class="content-zntj">
+					<span><a href="./zwmap/" target="_blank">政务地图</a></span>
+				</div>
+			</div>
+
+			<div class="activity">
+				<div class="dashed-left fn-left" data-plugin="tab">
+					<div class="flexslider" data-plugin="flexslider" data-color="#0075c3" data-show="1" data-direction="horizontal" data-nav="1" data-hover="1" id="flexslider_43656">
+						<ul class="slides">
+							
+							
+								<li>
+									<a href='./xwzx/gzdt/t28095859.shtml' target="_blank">
+										<img width="542" height="380" src="./xwzx/gzdt/W020260902643313733922.jpg" />
+										<span>自治区国资委举办国资委系统违规经营投资责任追究工作培训班</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href='./xwzx/gzdt/t28106848.shtml' target="_blank">
+										<img width="542" height="380" src="./xwzx/gzdt/W020260907352885745877_ORIGIN.png" />
+										<span>尤莉莉到鱼峰集团调研</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href='https://mp.weixin.qq.com/s/UE0SZx5q-1F0nZ15fWfytg' target="_blank">
+										<img width="542" height="380" src="./xwzx/gzdt/W020260212626736505845_ORIGIN.png" />
+										<span>韦韬出席全区国有资产监督管理工作会议并强调 服务大局精准发力 做强做优做大国资国企</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href='https://mp.weixin.qq.com/s/rp1LQ1pUsnMPpBQ6fGWqJg?scene=1&click_id=1594456374' target="_blank">
+										<img width="542" height="380" src="./xwzx/gzdt/W020260902572088882911.png" />
+										<span>陈刚开展进一步深化国资国企改革调研时强调 聚焦主责主业深化改革创新 做大做强国有企业和国有资本</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href='./xwzx/gzdt/t27449950.shtml' target="_blank">
+										<img width="542" height="380" src="./xwzx/gzdt/W020260408383003877649_ORIGIN.jpg" />
+										<span>自治区国资委开展“树立和践行正确政绩观 为国资国企高质量发展履职担当”机关青年理论学习研讨</span>
+									</a>
+								</li>
+							
+						</ul>
+					</div>
+				</div>
+
+				<div class="dashed-right fn-right" data-plugin="tab">
+					<div class="relative">
+						<ul class="tab-nav tab-line-nav" id="tabPostNav" data-plugin-label="tab-nav">
+							<li class="cur first">
+								<a href="./xwzx/gzdt/" target="_blank">国资国企动态</a>
+							</li>
+						</ul>
+						<div class="tab-more" id="tabPostMore" data-plugin-label="tab-more">
+							<a class="cur" href="./xwzx/gzdt/" target="_blank">更多&gt;&gt;</a>
+
+						</div>
+					</div>
+					<div class="tab-con tab-line-con fn-clear" id="tabPostCon" data-plugin-label="tab-con">
+						<ul class="txt-list" style="height:auto">
+							
+								<li>
+									<span>08-19</span>
+									<a href="https://mp.weixin.qq.com/s/rp1LQ1pUsnMPpBQ6fGWqJg?scene=1&click_id=1594456374" target="_BLANK" title="陈刚开展进一步深化国资国企改革调研时强调 聚焦主责主业深化改革创新 做大做强国有企业和国有资本">陈刚开展进一步深化国资国企改革调研时强调 聚焦主责主业深化改革创新 做大做强国有企业和国有资本</a>
+								</li>
+							
+								<li>
+									<span>02-11</span>
+									<a href="https://mp.weixin.qq.com/s/UE0SZx5q-1F0nZ15fWfytg" target="_BLANK" title="韦韬出席全区国有资产监督管理工作会议并强调 服务大局精准发力 做强做优做大国资国企">韦韬出席全区国有资产监督管理工作会议并强调 服务大局精准发力 做强做优做大国资国企</a>
+								</li>
+							
+								<li>
+									<span>09-04</span>
+									<a href="./xwzx/gzdt/t28106848.shtml" target="_BLANK" title="尤莉莉到鱼峰集团调研">尤莉莉到鱼峰集团调研</a>
+								</li>
+							
+								<li>
+									<span>08-03</span>
+									<a href="./xwzx/gzdt/t27975723.shtml" target="_BLANK" title="尤莉莉讲授树立和践行正确政绩观学习教育专题党课">尤莉莉讲授树立和践行正确政绩观学习教育专题党课</a>
+								</li>
+							
+								<li>
+									<span>09-02</span>
+									<a href="./xwzx/gzdt/t28095859.shtml" target="_BLANK" title="自治区国资委举办国资委系统违规经营投资责任追究工作培训班">自治区国资委举办国资委系统违规经营投资责任追究工作培训班</a>
+								</li>
+							
+								<li>
+									<span>10-09</span>
+									<a href="https://mp.weixin.qq.com/s/TxBKAgM7JBofwFasfJ3RiQ" target="_BLANK" title="北部湾交易集团：构建全要素生态圈 以阳光交易赋能千行百业">北部湾交易集团：构建全要素生态圈 以阳光交易赋能千行百业</a>
+								</li>
+							
+								<li>
+									<span>04-30</span>
+									<a href="./xwzx/gzdt/t27542031.shtml" target="_BLANK" title="自治区国资委召开监管企业2026年二季度经济运行调度会议">自治区国资委召开监管企业2026年二季度经济运行调度会议</a>
+								</li>
+							
+								<li>
+									<span>10-09</span>
+									<a href="https://mp.weixin.qq.com/s/mLu6jPL13XYqGn6dTrQPGQ" target="_BLANK" title="人民周刊：中越两国货物运输开辟一条新通道">人民周刊：中越两国货物运输开辟一条新通道</a>
+								</li>
+							
+						</ul>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="sub wrap-layout">
+				<h2 class="title-site title-site-sub i-site">
+            <a href="./ztzl/" target="_blank">专题专栏</a>
+        </h2>
+				<div class="sub-list-wrap scrolllist" id="sub">
+					<ul class="site-sub-list">
+
+						
+							<!-- 本站专题 -->
+							<li>
+								<a href='http://gzw.gxzf.gov.cn/ztzl/rdzt/khjzgqxd/' target="_blank">
+									<img width="360" height="78" src="./ztzl/W020260715364925117836.png" />
+								</a>
+							</li>
+						
+							<!-- 本站专题 -->
+							<li>
+								<a href='http://gzw.gxzf.gov.cn/ztzl/rdzt/xxxcgcdd20djs/index.shtml' target="_blank">
+									<img width="360" height="78" src="./ztzl/W020251118689017402214.png" />
+								</a>
+							</li>
+						
+							<!-- 本站专题 -->
+							<li>
+								<a href='http://gzw.gxzf.gov.cn/ztzl/rdzt/tjqlgqjs_1/index.shtml' target="_blank">
+									<img width="360" height="78" src="./ztzl/W020220513624666782726.jpg" />
+								</a>
+							</li>
+						
+							<!-- 本站专题 -->
+							<li>
+								<a href='http://gzw.gxzf.gov.cn/ztzl/rdzt/tjqljgjs_1/index.shtml' target="_blank">
+									<img width="360" height="78" src="./ztzl/W020220506653479353710.jpg" />
+								</a>
+							</li>
+						
+							<!-- 本站专题 -->
+							<li>
+								<a href='http://gzw.gxzf.gov.cn/ztzl/rdzt/gxgzwgqtjts/index.shtml' target="_blank">
+									<img width="360" height="78" src="./ztzl/W020220209325683812151.jpg" />
+								</a>
+							</li>
+						
+						
+<li>
+                    <a href="https://tousu.www.gov.cn/dc/2024zhdc/index.htm" target="_blank">
+                    <img src="http://www.gxzf.gov.cn/allsite/special/W020231023627792700609_ORIGIN.png" width="360" height="78" alt="国务院 互联网+督查" />
+                    </a>
+                </li>
+
+<li>
+                    <a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=gx" target="_blank">
+                    <img src="http://www.gxzf.gov.cn/allsite/special/W020250311576664105362_ORIGIN.jpg" width="360" height="78" alt="@国务院 我为政府工作报告提建议" />
+                    </a>
+                </li>
+
+<li>
+                    <a href="https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm" target="_blank">
+                    <img src="http://www.gxzf.gov.cn/allsite/special/W020240201478177531551_ORIGIN.png" width="360" height="78" alt="影响营商环境建设问题线索" />
+                    </a>
+                </li>
+
+<li>
+                    <a href="https://zwfw.gxzf.gov.cn/zcdx/#/home" target="_blank">
+                    <img src="http://www.gxzf.gov.cn/allsite/special/W020221220386594388199_ORIGIN.jpg" width="360" height="78" alt="广西惠企惠民政策兑现平台" />
+                    </a>
+                </li>
+
+<li>
+                    <a href="https://www.gov.cn/zhengce/zczhjd/" target="_blank">
+                    <img src="http://www.gxzf.gov.cn/allsite/special/W020230731647324361025.png" width="360" height="78" alt="重要政策举措及实施效果" />
+                    </a>
+                </li>
+
+<li>
+                    <a href="http://dbdc.gxzf.gov.cn/#/report" target="_blank">
+                    <img src="http://www.gxzf.gov.cn/allsite/special/W020220609638033865687_ORIGIN.png" width="360" height="78" alt="广西涉企乱收费举报平台" />
+                    </a>
+                </li>
+
+						<!-- 全区专题 -->
+					</ul>
+				</div>
+			</div>
+
+			<style type="text/css">
+    .esd-wrap{width: 1120px;margin: auto; overflow: hidden;margin-top: 10px;margin-bottom: 13px;position: relative;}
+      .esd-wrap>a{display: block;width: 49%; float: left;margin-right:19px;}
+      .esd-wrap>a:last-child{margin-right: 0px;}
+ .esd-wrap>a>img{width: 100%;}
+ .esd-wraps{width: 1120px;margin: auto; overflow: hidden;margin-top: 10px;}
+ .esd-wraps>a>img{width: 100%;}
+     </style>
+     <div class="esd-wrap">
+      <a target="_blank"  href="http://www.gxzf.gov.cn/zt/sz/jjddesjszqh_234211/index.shtml">
+       <img src="/imagesq/2025essz-banner.png" />
+      </a>
+      <a target="_blank" href="https://zwfw.gxzf.gov.cn/zcdx/#/home">
+       <img src="/imagesq/2025hqhm-banner.png" />
+      </a>
+
+     </div>
+
+			<div class="activity">
+				<div class="dashed-left fn-left" data-plugin="tab">
+					<div class="relative">
+						<ul class="tab-nav tab-line-nav" id="tabGovNav" data-plugin-label="tab-nav">
+							<li class="cur first">
+								<a href="./xwzx/gzgg/" target="_blank">国资公告</a>
+							</li>
+							<li>
+								<a href="./xxgk/gknr/zfcggg/" target="_blank">政府采购公告</a>
+							</li>
+							<li>
+								<a href="./xxgk/gknr/zfcgjg/" target="_blank">政府采购结果</a>
+							</li>
+						</ul>
+						<div class="tab-more" id="tabGovMore" data-plugin-label="tab-more">
+							<a class="cur" href="./xwzx/gzgg/" target="_blank">更多&gt;&gt;</a>
+							<a href="./xxgk/gknr/zfcggg/" target="_blank">更多&gt;&gt;</a>
+							<a href="./xxgk/gknr/zfcgjg/" target="_blank">更多&gt;&gt;</a>
+						</div>
+					</div>
+					<div class="tab-con tab-line-con fn-clear" id="tabGovCon" data-plugin-label="tab-con">
+						<ul class="txt-list">
+							
+								<li>
+									<span>09-30</span>
+									<a href="./xwzx/gzgg/t28186303.shtml" target="_BLANK" title="自治区国资委拟推荐第十一批广西壮族自治区优秀专家人选公示">自治区国资委拟推荐第十一批广西壮族自治区优秀专家人选公示</a>
+								</li>
+							
+								<li>
+									<span>07-17</span>
+									<a href="./xwzx/gzgg/t27900792.shtml" target="_BLANK" title="全区清廉国企建设示范单位推荐名单公示">全区清廉国企建设示范单位推荐名单公示</a>
+								</li>
+							
+								<li>
+									<span>06-18</span>
+									<a href="./xwzx/gzgg/t27804329.shtml" target="_BLANK" title="关于自治区国资委党委系统2024—2026年度“两优一先”拟表彰对象的公示">关于自治区国资委党委系统2024—2026年度“两优一先”拟表彰对象的公示</a>
+								</li>
+							
+								<li>
+									<span>05-13</span>
+									<a href="./xwzx/gzgg/t27569018.shtml" target="_BLANK" title="自治区国资委党委关于自治区“两优一先”拟推荐对象的公示">自治区国资委党委关于自治区“两优一先”拟推荐对象的公示</a>
+								</li>
+							
+								<li>
+									<span>04-02</span>
+									<a href="./xwzx/gzgg/t27437388.shtml" target="_BLANK" title="自治区国资委推荐2026年广西最美家庭候选名单公示">自治区国资委推荐2026年广西最美家庭候选名单公示</a>
+								</li>
+							
+								<li>
+									<span>01-07</span>
+									<a href="./xwzx/gzgg/t27092201.shtml" target="_BLANK" title="自治区国资委推荐2026年广西三八红旗手标兵、广西三八红旗手、广西三八红旗集体候选名单公示">自治区国资委推荐2026年广西三八红旗手标兵、广西三八红旗手、广西三八红旗集体候选名单公示</a>
+								</li>
+							
+								<li>
+									<span>09-17</span>
+									<a href="./xwzx/gzgg/t25976971.shtml" target="_BLANK" title="广西勤廉先进个人拟推荐人选公示">广西勤廉先进个人拟推荐人选公示</a>
+								</li>
+							
+								<li>
+									<span>09-03</span>
+									<a href="./xwzx/gzgg/t25918226.shtml" target="_BLANK" title="2025年度广西科学技术奖拟提名项目公示">2025年度广西科学技术奖拟提名项目公示</a>
+								</li>
+							
+						</ul>
+						<ul class="txt-list hide">
+							
+								<li>
+									<span>08-15</span>
+									<a href="./xxgk/gknr/zfcggg/t26046870.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年8月第一批次政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年8月第一批次政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>07-02</span>
+									<a href="./xxgk/gknr/zfcggg/t22634288.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年7月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年7月政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>06-27</span>
+									<a href="./xxgk/gknr/zfcggg/t22633569.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年6月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年6月政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>05-26</span>
+									<a href="./xxgk/gknr/zfcggg/t22632858.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年5月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年5月政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>05-13</span>
+									<a href="./xxgk/gknr/zfcggg/t22630293.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年5月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年5月政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>03-25</span>
+									<a href="./xxgk/gknr/zfcggg/t22629720.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年3月至4月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年3月至4月政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>03-12</span>
+									<a href="./xxgk/gknr/zfcggg/t22628950.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年3月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年3月政府采购意向</a>
+								</li>
+							
+								<li>
+									<span>03-07</span>
+									<a href="./xxgk/gknr/zfcggg/t22627714.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会2025年3月至12月政府采购意向">广西壮族自治区人民政府国有资产监督管理委员会2025年3月至12月政府采购意向</a>
+								</li>
+							
+						</ul>
+						<ul class="txt-list hide">
+							
+								<li>
+									<span>12-20</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068782.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于车辆维修和保养服务的框架协议采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于车辆维修和保养服务的框架协议采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>12-17</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068757.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于打印/复印纸的网上超市采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于打印/复印纸的网上超市采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>12-12</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068761.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于激光打印机的网上超市采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于激光打印机的网上超市采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>12-12</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068768.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于激光打印机的网上超市采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于激光打印机的网上超市采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>11-21</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068771.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于机动车保险服务的框架协议采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于机动车保险服务的框架协议采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>11-12</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068786.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于主席台的网上超市采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于主席台的网上超市采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>11-12</span>
+									<a href="./xxgk/gknr/zfcgjg/t27068807.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于车辆维修和保养服务的框架协议采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于车辆维修和保养服务的框架协议采购项目成交公告</a>
+								</li>
+							
+								<li>
+									<span>10-09</span>
+									<a href="./xxgk/gknr/zfcgjg/t26046920.shtml" target="_BLANK" title="广西壮族自治区人民政府国有资产监督管理委员会关于车辆加油的框架协议采购项目成交公告">广西壮族自治区人民政府国有资产监督管理委员会关于车辆加油的框架协议采购项目成交公告</a>
+								</li>
+							
+						</ul>
+					</div>
+				</div>
+
+				<div class="dashed-right fn-right" data-plugin="tab">
+					<div class="relative">
+						<ul class="tab-nav tab-line-nav" id="tabPostNav" data-plugin-label="tab-nav">
+
+							<li class="cur first">
+								<a href="./qyxx/qyzpxx/" target="_blank">企业招聘信息</a>
+							</li>
+							<li>
+								<a href="./dsgzzx/" target="_blank">地市国资资讯</a>
+							</li>
+						</ul>
+						<div class="tab-more" id="tabPostMore" data-plugin-label="tab-more">
+
+							<a class="cur" href="./qyxx/qyzpxx/" target="_blank">更多&gt;&gt;</a>
+							<a href="./dsgzzx/" target="_blank">更多&gt;&gt;</a>
+						</div>
+					</div>
+					<div class="tab-con tab-line-con fn-clear" id="tabPostCon" data-plugin-label="tab-con">
+						<ul class="txt-list ">
+							
+								<li>
+									<span>2026-09-14</span>
+									<a href="./qyxx/qyzpxx/t28132140.shtml" target="_BLANK" title="广西北部湾国际港务集团有限公司2026年秋季招聘公告">广西北部湾国际港务集团有限公司2026年秋季招聘公告</a>
+								</li>
+							
+								<li>
+									<span>2026-08-31</span>
+									<a href="./qyxx/qyzpxx/t28088633.shtml" target="_BLANK" title="广西关键金属产业发展集团有限公司总部2026年8月社会招聘公告">广西关键金属产业发展集团有限公司总部2026年8月社会招聘公告</a>
+								</li>
+							
+								<li>
+									<span>2026-08-24</span>
+									<a href="./qyxx/qyzpxx/t28062164.shtml" target="_BLANK" title="广西现代物流集团有限公司中层领导岗位公开招聘公告">广西现代物流集团有限公司中层领导岗位公开招聘公告</a>
+								</li>
+							
+								<li>
+									<span>2026-08-21</span>
+									<a href="./qyxx/qyzpxx/t28062163.shtml" target="_BLANK" title="广西关键金属产业发展集团有限公司全资子公司2026年秋季社会招聘公告">广西关键金属产业发展集团有限公司全资子公司2026年秋季社会招聘公告</a>
+								</li>
+							
+								<li>
+									<span>2026-07-22</span>
+									<a href="./qyxx/qyzpxx/t27938329.shtml" target="_BLANK" title="广西数据集团有限公司2026年社会招聘启事">广西数据集团有限公司2026年社会招聘启事</a>
+								</li>
+							
+								<li>
+									<span>2026-07-09</span>
+									<a href="./qyxx/qyzpxx/t27876292.shtml" target="_BLANK" title="广西国宏经济发展集团有限公司2026年中层管理岗位招聘公告">广西国宏经济发展集团有限公司2026年中层管理岗位招聘公告</a>
+								</li>
+							
+								<li>
+									<span>2026-06-29</span>
+									<a href="./qyxx/qyzpxx/t27840778.shtml" target="_BLANK" title="广西交通投资集团有限公司2026年6月高校毕业生招聘启事">广西交通投资集团有限公司2026年6月高校毕业生招聘启事</a>
+								</li>
+							
+								<li>
+									<span>2026-06-15</span>
+									<a href="https://mp.weixin.qq.com/s/tU_wGNdL96_6ug79HthSsA" target="_BLANK" title="广西旅发置业集团有限公司2026年6月招聘启事">广西旅发置业集团有限公司2026年6月招聘启事</a>
+								</li>
+							
+						</ul>
+						<ul class="txt-list hide">
+							
+								<li>
+									<span>2026-09-30</span>
+									<a href="https://mp.weixin.qq.com/s/N_pRX1S90FTTQ8xDt4PJgA" target="_BLANK" title="柳州这场宣讲会，赋能国资国企由“制造”向“智造”跃升">柳州这场宣讲会，赋能国资国企由“制造”向“智造”跃升</a>
+								</li>
+							
+								<li>
+									<span>2026-09-30</span>
+									<a href="https://mp.weixin.qq.com/s/zb_4GUt1KaQYSN0TXQfgPw" target="_BLANK" title="南宁乡村振兴集团：南宁壮宁冷链发展有限责任公司通过自治区安全生产标准化二级企业认证">南宁乡村振兴集团：南宁壮宁冷链发展有限责任公司通过自治区安全生产标准化二级企业认证</a>
+								</li>
+							
+								<li>
+									<span>2026-09-11</span>
+									<a href="https://mp.weixin.qq.com/s/eP0uUB2LVF5gOJm04t5V1g" target="_BLANK" title="柳州产业引导基金公司获AA+主体信用评级">柳州产业引导基金公司获AA+主体信用评级</a>
+								</li>
+							
+								<li>
+									<span>2026-09-11</span>
+									<a href="https://mp.weixin.qq.com/s/OHLYoCvzknVPYb7Ne2QVRw" target="_BLANK" title="南宁交投集团：“壮溜溜”“壮集鲜”品牌系列东盟特色鲜果亮相2026中国国际水果展">南宁交投集团：“壮溜溜”“壮集鲜”品牌系列东盟特色鲜果亮相2026中国国际水果展</a>
+								</li>
+							
+								<li>
+									<span>2026-08-31</span>
+									<a href="./dsgzzx/t28094916.shtml" target="_BLANK" title="智慧赋能内部转运，助推枢纽物流升级">智慧赋能内部转运，助推枢纽物流升级</a>
+								</li>
+							
+								<li>
+									<span>2026-08-31</span>
+									<a href="./dsgzzx/t28094884.shtml" target="_BLANK" title="南宁建宁水务集团：广西环发城服公司积极推动专利成果落地应用">南宁建宁水务集团：广西环发城服公司积极推动专利成果落地应用</a>
+								</li>
+							
+								<li>
+									<span>2026-08-06</span>
+									<a href="./dsgzzx/t27987508.shtml" target="_BLANK" title="南宁市国资委驰援横州市云表镇开展清淤重建工作">南宁市国资委驰援横州市云表镇开展清淤重建工作</a>
+								</li>
+							
+								<li>
+									<span>2026-07-20</span>
+									<a href="https://mp.weixin.qq.com/s/IJ6lWaCkJ_6cwuZBcOI3Iw" target="_BLANK" title="闻“汛”而动 跨市驰援——市水务集团全力支持贵港市供水设施抢修">闻“汛”而动 跨市驰援——市水务集团全力支持贵港市供水设施抢修</a>
+								</li>
+							
+						</ul>
+					</div>
+					<!-- 文件库搜索 -->
+					<div class="file-search">
+						<p class="file-search-title">文件库</p>
+						<div class="file-search-div">
+							<input type="text" class="file-title-left zfxxgk-search-txt" name="searchWord" placeholder="请输入关键词" />
+							<input type="hidden" name="siteId" value="266" />
+							<input type="hidden" name="typeText" value="4" />
+							<input class="file-search-submit-right" name="" value="搜&#12288;&#12288;索" type="button" onClick="javascrtpt:jump()" />
+						</div>
+					</div>
+					<script>
+						function jump() {
+							var searchWord = $('.zfxxgk-search-txt').val();
+							var $url = '';
+							$url = 'http://gzw.gxzf.gov.cn/wjzx/index.shtml?keywords=' + encodeURI(searchWord) + '';
+							window.open($url, '_blank');
+						}
+					</script>
+				</div>
+			</div>
+			
+			<div class="card-box">
+  <ul class="card-tabs fn-clear bg-1">
+    <li class="active fn-left"> <a
+      href="http://www.gxzf.gov.cn/qgyw/index.shtml"
+      target="_blank"
+      >全国要闻</a></li>
+    <li class="fn-left"> <a href="http://www.gxzf.gov.cn/gwyzyzcxx/index.shtml" target="_blank" rel="noopener noreferrer"
+      >国务院信息</a></li>
+    <li class="fn-left">  <a href="http://www.gxzf.gov.cn/zzqzyxx/index.shtml" target="_blank" rel="noopener noreferrer"
+      >自治区重要信息</a></li>
+  </ul>
+  <div class="card-more-box">
+    <a
+      style="display: block"
+      href="http://www.gxzf.gov.cn/qgyw/index.shtml"
+      target="_blank"
+      rel="noopener noreferrer"
+      >更多&gt;&gt;
+    </a>
+    <a href="http://www.gxzf.gov.cn/gwyzyzcxx/index.shtml" target="_blank" rel="noopener noreferrer"
+      >更多&gt;&gt;
+    </a>
+    <a href="http://www.gxzf.gov.cn/gxyw/" target="_blank" rel="noopener noreferrer"
+      >更多&gt;&gt;
+    </a>
+  </div>
+  <div class="card-news-list-box">
+    <div class="card-news-list fn-clear" style="display: block">
+      <ul class="border-li fn-left">
+        
+          <li class="fn-clear">
+              <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082903.htm" target="_blank" rel="noopener noreferrer">
+              <p class="fn-left">  全国铁路实行新的货物列车运行图</p>
+              <span class="fn-left">10-11</span>
+            </a>
+          </li>
+        
+          <li class="fn-clear">
+              <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082898.htm" target="_blank" rel="noopener noreferrer">
+              <p class="fn-left">  我国将加强出生缺陷和发育障碍致残防控</p>
+              <span class="fn-left">10-11</span>
+            </a>
+          </li>
+        
+          <li class="fn-clear">
+              <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082872.htm" target="_blank" rel="noopener noreferrer">
+              <p class="fn-left">  我国公共服务领域将提供国家通用手语、盲文服务</p>
+              <span class="fn-left">10-11</span>
+            </a>
+          </li>
+        
+      </ul>
+      <ul class="fn-left">
+          
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082796.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  中老铁路累计进出口货值突破1000亿元</p>
+                  <span class="fn-left">10-10</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082852.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  我国年人均快递量超140件</p>
+                  <span class="fn-left">10-10</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/zhengce/jiedu/tujie/202610/content_7082752.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  图表：国庆假期高速公路新能源汽车日均充电量同比...</p>
+                  <span class="fn-left">10-10</span>
+                </a>
+              </li>
+            
+      </ul>
+    </div>
+    <div class="card-news-list fn-clear">
+      <ul class="border-li fn-left gwy_left" id="gwy_left">
+           
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082819.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  中共中央 国务院关于发展新质生产力的意见</p>
+                  <span class="fn-left">2026-10-09</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/zhengce/content/202610/content_7082737.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  国务院关于《国家残疾预防行动计划（2026—2030年...</p>
+                  <span class="fn-left">2026-10-08</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/zhengce/content/202609/content_7082492.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  国务院办公厅关于发展体育赛事激发消费活力的意见</p>
+                  <span class="fn-left">2026-09-30</span>
+                </a>
+              </li>
+            
+      </ul>
+      <ul class=" fn-left gwy_right" id="gwy_right">
+          
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7082362.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left"> 中共中央办公厅 国务院办公厅印发《文化遗产保护传...</p>
+                  <span class="fn-left">2026-09-29</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/zhengce/content/202609/content_7082378.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left"> 国务院关于《医疗康复护理扩容提升工程实施方案》...</p>
+                  <span class="fn-left">2026-09-29</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="https://www.gov.cn/zhengce/content/202609/content_7081972.htm" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left"> 中华人民共和国审计法实施条例</p>
+                  <span class="fn-left">2026-09-24</span>
+                </a>
+              </li>
+            
+      </ul>
+    </div>
+    <div class="card-news-list fn-clear">
+      <ul class="border-li fn-left">
+          
+              <li class="fn-clear">
+                  <a href="http://www.gxzf.gov.cn/zzqzyxx/t28206554.shtml" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">   南宁市召开领导干部会议 陈刚主持并讲话
+　　会议...</p>
+                  <span class="fn-left">10-11</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="http://www.gxzf.gov.cn/zzqzyxx/t28206555.shtml" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">   韦韬会见新石器创始人余恩源</p>
+                  <span class="fn-left">10-11</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="http://www.gxzf.gov.cn/zzqzyxx/t28206556.shtml" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">   看，广西基础教育又有了新叙事——边海山乡书声新</p>
+                  <span class="fn-left">10-11</span>
+                </a>
+              </li>
+            
+      </ul>
+      <ul class=" fn-left">
+          
+              <li class="fn-clear">
+                  <a href="http://www.gxzf.gov.cn/zzqzyxx/t28206562.shtml" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  鼓点｜牵手</p>
+                  <span class="fn-left">10-11</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="http://www.gxzf.gov.cn/zzqzyxx/t28206557.shtml" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  广西实施“四联”举措守护边境群众健康</p>
+                  <span class="fn-left">10-11</span>
+                </a>
+              </li>
+            
+              <li class="fn-clear">
+                  <a href="http://www.gxzf.gov.cn/zzqzyxx/t28206558.shtml" target="_blank" rel="noopener noreferrer">
+                  <p class="fn-left">  2026年“边疆万里行”采风创作活动（广西段）启动</p>
+                  <span class="fn-left">10-11</span>
+                </a>
+              </li>
+            
+       
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+      var tabsBox = document.getElementsByClassName("card-tabs")[0];
+      var tabs = tabsBox.getElementsByTagName("li");
+      var newsList = document.getElementsByClassName("card-news-list");
+      var moreList = document
+        .getElementsByClassName("card-more-box")[0]
+        .getElementsByTagName("a");
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].index = i;
+        tabs[i].onmouseover = function () {
+          if (tabsBox.classList.contains("bg-1") == true) {
+            tabsBox.classList.remove("bg-1");
+          }
+          if (tabsBox.classList.contains("bg-2") == true) {
+            tabsBox.classList.remove("bg-2");
+          }
+          if (tabsBox.classList.contains("bg-3") == true) {
+            tabsBox.classList.remove("bg-3");
+          }
+          
+          for (var j = 0; j < tabs.length; j++) {
+            if (tabs[j].classList.contains("active") == true) {
+              tabs[j].classList.remove("active");
+            }
+          }
+          for (var j = 0; j < newsList.length; j++) {
+            newsList[j].style.display = "none";
+          }
+          for (var j = 0; j < moreList.length; j++) {
+            moreList[j].style.display = "none";
+          }
+          console.log(this.index)
+          tabsBox.classList.add("bg-" + (this.index + 1));
+          tabs[this.index].classList.add("active");
+          newsList[this.index].style.display = "block";
+          moreList[this.index].style.display = "inline";
+        };
+      }
+    </script>
+
+			<div class="swap">
+				<div class="server fn-left dashed-left2 swap-item">
+					<h2 class="title-site title-site-int i-site">
+                <span>纪检监察网络举报平台</span>
+            </h2>
+
+					<ul class="button-list-site">
+						<li class="i-power-site">
+							<a href="http://www.gxjjw.gov.cn/staticpages/20160525/gxjjw5745218d-116166.shtml" target="_blank">举报指南</a>
+						</li>
+						<li class="i-open-site even">
+							<a href="http://guangxi.12388.gov.cn/html/jbxz.html" target="_blank">我要举报</a>
+						</li>
+						<li class="i-imp-site">
+							<a href="http://guangxi.12388.gov.cn/html/jb_seach.html" target="_blank">举报查询</a>
+						</li>
+						<li class="i-flow-site even">
+							<a href="http://www.ccdi.gov.cn/special/wyjb/index.html" target="_blank">其他举报网站</a>
+						</li>
+						<li class="i-flow-site even reporting-method">
+							<a href="http://gzw.gxzf.gov.cn/jbpt/t5085612.shtml" target="_blank">详细举报方式</a>
+						</li>
+					</ul>
+
+					<!--  <div data-plugin="tab">
+                <div class="tab-con tab-server-con" id="tabServerCon" data-plugin-label="tab-con">
+                    <ul class="square-list">
+                        
+                            <li><a href="./ztzl/rdzt/tjqljgjs_1/" target="_BLANK">推进清廉机关建设</a></li>
+                        
+                            <li><a href="./ztzl/rdzt/gxgzwgqtjts/" target="_BLANK">广西国资国企图解图说</a></li>
+                        
+                            <li><a href="./ztzl/rdzt/tjqlgqjs_1/" target="_BLANK">推进清廉国企建设</a></li>
+                        
+                            <li><a href="./ztzl/rdzt/xxxcgcdd20djs/" target="_BLANK">学习宣传贯彻党的二十届四中全会精神</a></li>
+                        
+                            <li><a href="./ztzl/rdzt/khjzgqxd/" target="_BLANK">抗洪救灾 国资国企在行动</a></li>
+                        
+                    </ul>
+                </div>
+            </div> -->
+				</div>
+				<div class="dashed-center fn-left swap-item">
+					<h2 class="title-site title-site-inf i-site">
+                <a href="./xxgk/" target="_blank">政府信息公开</a>
+            </h2>
+					<ul class="button-list-site">
+						<li class="i-report-site">
+							<a href="./xxgk/gknr/jggk/" target="_blank">机构概况</a>
+						</li>
+						<li class="i-letter-site even">
+							<a href="./xxgk/gknr/ldjjjfg/" target="_blank">领导简介及分工</a>
+						</li>
+						<li class="i-email-site">
+							<a href="./xxgk/xxgkzn/" target="_blank">信息公开指南</a>
+						</li>
+						<li class="i-oponion-site even">
+							<a href="./xxgk/gknr/zfxxgkjbml/" target="_blank">信息公开目录</a>
+						</li>
+						<li class="i-report-site">
+							<a href="./xxgk/zfxxgkgzndbg/" target="_blank">信息公开年报</a>
+						</li>
+						<li class="i-letter-site even">
+							<a href="./xxgk/gknr/ysqgk/" target="_blank">依申请公开</a>
+						</li>
+
+					</ul>
+					<!--  <ul class="square-list square-list-ext">
+                
+                    <li><a href="./xxgk/xxgkzn/" target="_BLANK">政府信息公开指南</a></li>
+                
+                    <li><a href="./xxgk/zfxxgkzd/" target="_BLANK">政府信息公开制度</a></li>
+                
+                    <li><a href="./xxgk/gknr/" target="_BLANK">法定主动公开内容</a></li>
+                
+                    <li><a href="./xxgk/zfxxgkgzndbg/" target="_BLANK">政府信息公开年报</a></li>
+                
+            </ul> -->
+				</div>
+				<div class="dashed-right2 fn-right interactive-communication swap-item">
+					<h2 class="title-site title-site-corner i-site">
+                <a href="./hdjl/" target="_blank">互动交流</a>
+                <a class="title-site-right" href="./hdjl/" target="_blank">点击进入互动交流</a>
+            </h2>
+					<ul class="button-list-site">
+						<li class="i-report-site">
+							<a href="./hdjl/lyzx/" target="_blank">留言咨询</a>
+						</li>
+						<li class="i-letter-site even">
+							<a href="./hdjl/lxxx/" target="_blank">联系信箱</a>
+						</li>
+						<li class="i-email-site">
+							<a href="./hdjl/myzj/" target="_blank">民意（调查）征集</a>
+						</li>
+						<li class="i-oponion-site even">
+							<a href="http://gzw.gxzf.gov.cn/gx-znwd/home/gzw" target="_blank">智能问答</a>
+						</li>
+						<li class="i-report-site">
+							<a href="./hdjl/spdb/" target="_blank">视频点播</a>
+						</li>
+						<li class="i-letter-site even">
+							<a href="./hdjl/zlxz/" target="_blank">资料下载</a>
+						</li>
+
+					</ul>
+					<!--  <div class="swap-top">
+                <div class="swap-left fn-left">
+                    <ul class="swap-list">
+                        <li class="i-email-site"><a href="./hdjl/" target="_blank">互动交流</a></li>
+                        <li class="i-oponion-site"><a href="./hdjl/myzj/" target="_blank">民意（调查）征集</a></li>
+                        <li class="i-report-site"><a href="./hdjl/zlxz/" target="_blank">资料下载</a></li>
+                        <li class="i-letter-site"><a href="./hdjl/lxxx/" target="_blank">联系信箱</a></li>
+                    </ul>
+                </div>
+                <div class="swap-right fn-right">
+                    <h3 class="swap-right-title">
+                        <a class="swap-right-title-blue" style="font-size: 16px" href="./hdjl/myzjfkyjcnqk/" target="_blank">民意征集反馈意见采纳情况</a>
+                    </h3>
+                    <ul class="txt-list fn-clear">
+                        
+                    </ul>
+                </div>
+            </div> -->
+				</div>
+			</div>
+			<div class="platform-button">
+				<div class="platform-button-report">
+					<a href="http://gzw.gxzf.gov.cn/xwzx/gzgg/t1642316.shtml">自治区纪委监委驻自治区国资委纪检监察组受理信访举报范围及方式</a>
+				</div>
+				<div class="platform-button-supervise">
+					<a href="http://gzw.gxzf.gov.cn/hdjl/gxgzjgzhxxxtpt/t5088245.shtml">广西国资监管综合信息系统平台</a>
+				</div>
+				<div class="platform-button-visit">
+					<a href="http://www.gxxf.gov.cn/gxxf/xf/index?od=1A7667CE01A34A178BA636D29D14B966">广西信访</a>
+				</div>
+			</div>
+			<div class="activity">
+				<div class="link-site">
+    <h2 class="title-site title-site-link i-site">
+        友情链接
+        <a class="gov-link" href="http://www.gov.cn" target="blank" title="中国政府网">中国政府网</a>
+<a class="gov-link" href="http://www.gxzf.gov.cn" target="blank" title="广西壮族自治区人民政府门户网站">广西壮族自治区人民政府门户网站</a>
+    </h2>
+    <div class="link-site-wrap">
+        <ul class="tab-nav tab-link-nav-site" id="tabLinkNav">
+            <li>重点网站</li>
+            
+                <li>中央部门网站</li>
+            
+                <li>各省市国资委网站</li>
+            
+                <li>自治区各部门网站</li>
+            
+            
+                <li class="last">自治区各市国资委网站</li>
+            
+        </ul>
+        <div class="tab-con tab-link-con hide" id="tabLinkCon">
+            <div class="hide">
+                <ul class="link-list">
+                    <li><a href="http://www.gov.cn" target="_blank" title="中国政府网">中国政府网</a></li>
+<li><a href="http://www.gxzf.gov.cn" target="_blank" title="广西壮族自治区人民政府门户网站">广西壮族自治区人民政府</a></li>
+                </ul>
+            </div>
+            
+                <div class="hide">
+                    <ul class="link-list">
+                        
+                            <li><a href="http://www.sasac.gov.cn/" target="_blank" title="国务院国有资产监督管理委员会">国务院国有资产监督管理委员会</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            
+                <div class="hide">
+                    <ul class="link-list">
+                        
+                            <li><a href="http://hbsa.hebei.gov.cn/" target="_blank" title="河北省国有资产监督管理委员会">河北省国有资产监督管理委员会</a></li>
+                        
+                            <li><a href="http://gzw.shanxi.gov.cn/" target="_blank" title="山西省国有资产监督管理委员会">山西省国有资产监督管理委员会</a></li>
+                        
+                            <li><a href="http://sasac.tj.gov.cn/" target="_blank" title="天津市国有资产监督管理委员会">天津市国有资产监督管理委员会</a></li>
+                        
+                            <li><a href="http://gzw.beijing.gov.cn/" target="_blank" title="北京市国有资产监督管理委员会">北京市国有资产监督管理委员会</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            
+                <div class="hide">
+                    <ul class="link-list">
+                        
+                            <li><a href="https://dnr.gxzf.gov.cn/" target="_blank" title="自治区自然资源厅">自治区自然资源厅</a></li>
+                        
+                            <li><a href="http://czt.gxzf.gov.cn/" target="_blank" title="自治区财政厅">自治区财政厅</a></li>
+                        
+                            <li><a href="http://mzw.gxzf.gov.cn" target="_blank" title="自治区民族宗教事务委员会">自治区民族宗教事务委员会</a></li>
+                        
+                            <li><a href="http://jyt.gxzf.gov.cn/" target="_blank" title="自治区教育厅">自治区教育厅</a></li>
+                        
+                            <li><a href="http://kjt.gxzf.gov.cn/" target="_blank" title="自治区科学技术厅">自治区科学技术厅</a></li>
+                        
+                            <li><a href="http://fgw.gxzf.gov.cn/" target="_blank" title="自治区发展和改革委员会">自治区发展和改革委员会</a></li>
+                        
+                            <li><a href="http://gxt.gxzf.gov.cn/" target="_blank" title="自治区工业和信息化厅">自治区工业和信息化厅</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            
+                <div class="hide">
+                    <ul class="link-list">
+                        
+                            <li><a href="http://www.gxhz.gov.cn/zfxxgk/zfxxgkzn/t14734754.shtml" target="_blank" title="贺州市国资委">贺州市国资委</a></li>
+                        
+                            <li><a href="http://gzw.wuzhou.gov.cn/" target="_blank" title="梧州市国资委">梧州市国资委</a></li>
+                        
+                            <li><a href="http://www.beihai.gov.cn/xxgkbm/bhsrmzfgyzcjdglwyh/" target="_blank" title="北海市国资委">北海市国资委</a></li>
+                        
+                            <li><a href="http://www.fcgs.gov.cn/gzw/" target="_blank" title="防城港市国资委">防城港市国资委</a></li>
+                        
+                            <li><a href="http://www.qinzhou.gov.cn/zfxxgk/fdzdgknr_6/jgzn/jgsz/srmzfzcbm/sgzw/" target="_blank" title="钦州市国资委">钦州市国资委</a></li>
+                        
+                            <li><a href="http://www.gxgg.gov.cn/zfxxgk/fdzdgknr/jgsz/srmzfgzbm/ggsrmzfgyzcjdglwyh/" target="_blank" title="贵港市国资委">贵港市国资委</a></li>
+                        
+                            <li><a href="http://www.baise.gov.cn/zwgk/fdzdgknr/jgzn/srmzfgzbm/bssgzw/" target="_blank" title="百色市国资委">百色市国资委</a></li>
+                        
+                            <li><a href="http://www.hechi.gov.cn/zfxxgk/zfxxgknb/2024zfxxgknb/t19547398.shtml" target="_blank" title="河池市国资委">河池市国资委</a></li>
+                        
+                            <li><a href="http://www.laibin.gov.cn/xxgk/fdzdgknr/jgzn/zfgzbm/t12001841.shtml" target="_blank" title="来宾市国资委">来宾市国资委</a></li>
+                        
+                            <li><a href="http://www.chongzuo.gov.cn/zfxxgkzl/xxgkzn_fdzdgknr/jgzn/szfgzbm/t19686224.shtml" target="_blank" title="崇左市国资委">崇左市国资委</a></li>
+                        
+                            <li><a href="http://gzw.yulin.gov.cn/" target="_blank" title="玉林市国资委">玉林市国资委</a></li>
+                        
+                            <li><a href="http://lzgzw.liuzhou.gov.cn/" target="_blank" title="柳州市国资委">柳州市国资委</a></li>
+                        
+                            <li><a href="http://gzw.guilin.gov.cn/" target="_blank" title="桂林市国资委">桂林市国资委</a></li>
+                        
+                            <li><a href="http://gzw.nanning.gov.cn/" target="_blank" title="南宁市国资委">南宁市国资委</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            
+        </div>
+    </div>
+</div>
+			</div>
+		</div>
+		<div class="footer-site">
+    <div class="wrap">
+        <ul>
+            <li class="footer-link-wrong" style="width:110px;">               
+                    <script id="_jiucuo_" sitecode='4500000089' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>               
+            </li>
+            <li class="footer-link-gov"><a
+                    href="http://bszs.conac.cn/sitename?method=show&id=06C863622BD433AEE053022819AC0A04"
+                    target="_blank"><img id="imgConac" src="/imagesq/dzjg.png" alt="党政机关" /></a></li>
+            <li class="footer-txt">
+                <p>
+                    <a href="http://gzw.gxzf.gov.cn//map.shtml" target="_blank">网站地图</a>
+                    
+                </p>
+                <p>主办：广西壮族自治区人民政府国有资产监督管理委员会 版权所有</p>
+                <p>地址：广西南宁市桃源路3号　邮编：530000　电话：0771-2809208/2813769</p>
+                <p>电子邮箱：gzw@gxgzw.gov.cn</p>
+                <p>
+
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45010302002762"
+                        target="_blank">
+                        <img src="/imagesq/ba.png" /> 广西网警 备:45010302002762
+                    </a>
+                    　 <a href="http://beian.miit.gov.cn" target="_blank">桂ICP备05011549号 </a>　网站标识码 ：4500000089
+                </p>
+            </li>
+            <!--<li>
+            	<a href="http://www.gxzf.gov.cn/wxhkhd/message.shtml?n=广西壮族自治区人民政府国有资产监督管理委员会网站&aid=902&sid=209" target="_blank">
+					<img src="http://gzw.gxzf.gov.cn/material/images/wzjc.png" />
+				</a>
+            </li>-->
+        </ul>
+    </div>
+</div>
+
+<script src="/jsq/jquery.min.js"></script>
+<script src="/jsq/jquery.cookie.js"></script>
+<script src="/jsq/jquery.s2t.js"></script>
+<script src="/jsq/jquery.qrcode.min.js"></script>
+<script src="/jsq/chinese_status.js"></script>
+<script src="/jsq/checklink.min.js"></script>
+<script src="/jsq/main.js"></script>
+<script src="/jsq/api_gwy.js"></script>
+<script src="/jsq/wza.js"></script>
+<script src="http://gzw.gxzf.gov.cn/material/js/Access_conf.js"></script>
+<script src="http://gzw.gxzf.gov.cn/accessTool/Access_Initial.js"></script>
+<script type="text/javascript">document.write("<script src='/accessTool/Access_Initial.js?"+Math.random()+"'><\/script>");</script>
+<script type="text/javascript">
+    var version = Date.parse(new Date());
+    document.write('<script src="/jsq/api_func.js?v=' + version + '"><\/script>');
+</script>
+
+
+<script>
+    SITEID = 209;
+    APPID = 209;
+</script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=3806" async="async" defer="defer"></script>
+		<!-- <script src="/jsq/2026gq.js" type="text/javascript" charset="utf-8"></script> -->
+
+	</body>
+
+</html>
+
+<script src="http://gzw.gxzf.gov.cn/material/js/zntj.js"></script>
+<script>
+	var json = 'http://gzw.gxzf.gov.cn/zntj/index.json';
+	$.getJSON(json, function(res) {
+		var arr = randomArray(res, 7); //json数组，展示个数
+		appEnd(arr);
+	});
+	$(".mode19-content-zntj").hover(function() {
+			$(".bottom_news").css("display", "block");
+			$(".con-tab-bg").stop().animate({
+				width: '400px'
+			}, 500);
+		},
+		function() {
+			$(".con-tab-bg").stop().animate({
+				width: '0px'
+			}, 500, function() {
+				$(".bottom_news").css("display", "none");
+			});
+		});
+</script>

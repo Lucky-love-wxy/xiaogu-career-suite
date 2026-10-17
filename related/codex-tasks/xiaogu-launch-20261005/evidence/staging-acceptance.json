@@ -1,0 +1,28 @@
+{
+  "verified_at": "2026-10-06 02:39 Asia/Shanghai",
+  "release": "staging-6d7b7453b30da55d",
+  "checks": {
+    "meta_staging_mock": "PASS",
+    "unauthenticated_chat": "PASS",
+    "secure_session_cookie": "PASS",
+    "invitation_and_console_login": "PASS",
+    "mock_chat_no_charge": "PASS",
+    "cross_account_session_isolation": "PASS",
+    "logout": "PASS",
+    "sqlite_integrity": "PASS"
+  },
+  "platform_tests": "23 passed in 2.79s",
+  "auth_sha256": "8adead59a64efa8c0643aa9b70847bd2d917d89c9a11b1e50da66fe14e5b0bbc",
+  "actual_bind": "127.0.0.1:8102",
+  "env_file": "600 root",
+  "pre_update_backup": "600 root; integrity_check ok",
+  "service": "active",
+  "limitations": [
+    "mock model only",
+    "HTTP localhost; test client simulates TLS termination after checking Secure cookie",
+    "No Nginx/HTTPS/public deployment",
+    "No actual device UX test",
+    "No scheduled daily backup installed"
+  ],
+  "test_data": "Synthetic staging accounts only; no real user data imported"
+}

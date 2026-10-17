@@ -1,0 +1,299 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_6c3ed13d29f5",
+  "node": "生产制造 › 机械设计/制造 › 材料工程师",
+  "family": "生产制造",
+  "parent_id": "生产制造 › 机械设计/制造",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "生产制造 › 机械设计/制造 › 材料工程师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vly5NZtMZ",
+      "type": "recruitment_jd",
+      "title": "材料工程师",
+      "company": "上海交通大学材料科学与工程学院能源物质研究所",
+      "url": "https://campus.niuqizp.com/job-vly5NZtMZ.html",
+      "date": "2025-11-11",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "材料科学与工程学院能源物质研究所招聘材料工程师\n招聘岗位：材料工程师\n招聘人数：1 名\n聘用方式\n项目聘用A\n招聘条件\n大学专科和专科学校及以上学历,无学位要求 2、材料科学与工程、化学工程与工艺、应用化学、高分子材料、无机非金属材料等相关理工科专业背景优先； 3、工作要求：在多孔炭、超级电容炭、硬碳材料领域，至少2-3年在试验线（小试、中试）、量产线上的实际动手操作经验。有完整工艺环节的操作经历； 4、核心技能：1）精通相关关键设备（碳化炉、活化炉、气氛系统等）的操作、维护及常见故障处理；2）强烈的实验数据处理与分析意识：能有效收集数据，进行初步整理和分析，发现基本规律； 5、以下条件优先考虑:：1）了解炭材料（特别是超级电容炭、硬碳）的性能测试及其与工艺的关系；2）有参与研发项目（如配方优化、工艺改进）的经验；3）有基本的办公软件应用能力，用于撰写报告和数据处理；4）居住在闵行区附近； 6、优秀者可适当放宽条件。\n岗位职责\n1、负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护； 2、协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作； 3、完成部门领导交办的其他工作。\n岗位待遇\n面议\n其他",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vly5NZtMZ.html",
+      "cache_sha256": "58d2a36a43a7730e3352c69377be84acbdcc37e8fdf08b49a6041f7bc02bc7ad"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "材料工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "材料工程师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "材料工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [],
+  "work_setting": [
+    {
+      "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“化学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“化工与制药类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化工与制药类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“材料类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "材料类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "材料工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

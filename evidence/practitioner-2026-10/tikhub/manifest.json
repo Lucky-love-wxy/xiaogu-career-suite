@@ -1,0 +1,196 @@
+{
+  "attempts": [
+    {
+      "n": 1,
+      "file": "evidence/practitioner-2026-10/tikhub/request-001-unknown.json",
+      "role": "图像算法",
+      "endpoint": "search_notes",
+      "state": "UNKNOWN",
+      "request_id": null
+    },
+    {
+      "n": 2,
+      "file": "evidence/practitioner-2026-10/tikhub/request-002.json",
+      "role": "算法工程师",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "17d68fbc-afc6-4a53-92b1-acc30657cfa0"
+    },
+    {
+      "n": 3,
+      "file": "evidence/practitioner-2026-10/tikhub/request-003.json",
+      "role": "算法工程师",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "cf27fc82-5eb5-44df-adb8-15e10c0b74e9"
+    },
+    {
+      "n": 4,
+      "file": "evidence/practitioner-2026-10/tikhub/request-004.json",
+      "role": "医疗产品技术支持",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "3140a5a8-9d95-4363-a477-c90438a0bbcd"
+    },
+    {
+      "n": 5,
+      "file": "evidence/practitioner-2026-10/tikhub/request-005.json",
+      "role": "医疗产品技术支持",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "40597e53-348c-4070-a787-9d57e3fa55b7"
+    },
+    {
+      "n": 6,
+      "file": "evidence/practitioner-2026-10/tikhub/request-006.json",
+      "role": "医疗产品技术支持",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "34458286-e9e8-48ca-b267-e3d4f60a0f5d"
+    },
+    {
+      "n": 7,
+      "file": "evidence/practitioner-2026-10/tikhub/request-007.json",
+      "role": "医疗产品技术支持",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "8a9b1e36-917d-4f5f-9047-29647293610e"
+    },
+    {
+      "n": 8,
+      "file": "evidence/practitioner-2026-10/tikhub/request-008.json",
+      "role": "药物分析",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "f3db9214-1ea9-41ff-975d-03e61c659558"
+    },
+    {
+      "n": 9,
+      "file": "evidence/practitioner-2026-10/tikhub/request-009.json",
+      "role": "药物分析",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "e9d422f5-91ef-4591-b338-94aeebf7b2af"
+    },
+    {
+      "n": 10,
+      "file": "evidence/practitioner-2026-10/tikhub/request-010.json",
+      "role": "药物分析",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "012ec623-1af6-458a-a905-73bec8c75edc"
+    },
+    {
+      "n": 11,
+      "file": "evidence/practitioner-2026-10/tikhub/request-011.json",
+      "role": "临床监查员",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "1dc795b1-a62f-4b1c-8a25-e25a64bc934e"
+    },
+    {
+      "n": 12,
+      "file": "evidence/practitioner-2026-10/tikhub/request-012.json",
+      "role": "临床监查员",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "4db36654-a9f0-432f-af5f-d7bc9b6303e8"
+    },
+    {
+      "n": 13,
+      "file": "evidence/practitioner-2026-10/tikhub/request-013.json",
+      "role": "临床监查员",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "d9961cb0-221c-49ae-bc6f-1d489aab7147"
+    },
+    {
+      "n": 14,
+      "file": "evidence/practitioner-2026-10/tikhub/request-014.json",
+      "role": "临床监查员",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "d9ee3e7f-1757-46fd-bfb6-e5f24057a32c"
+    },
+    {
+      "n": 15,
+      "file": "evidence/practitioner-2026-10/tikhub/request-015.json",
+      "role": "医药代表",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "6a4046fd-c1fa-400d-9e52-b8594f3ba15a"
+    },
+    {
+      "n": 16,
+      "file": "evidence/practitioner-2026-10/tikhub/request-016.json",
+      "role": "医药代表",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "5ea08540-6ddc-4ed9-ab89-31c83f8a4fc0"
+    },
+    {
+      "n": 17,
+      "file": "evidence/practitioner-2026-10/tikhub/request-017.json",
+      "role": "医药代表",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "e38f6dfd-b79d-44e6-9d1d-0314065aac4a"
+    },
+    {
+      "n": 18,
+      "file": "evidence/practitioner-2026-10/tikhub/request-018.json",
+      "role": "医学理赔/核保",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "18d5b5e2-2157-47bc-ad4a-934ba845d7d1"
+    },
+    {
+      "n": 19,
+      "file": "evidence/practitioner-2026-10/tikhub/request-019.json",
+      "role": "医学理赔/核保",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "20bddab0-ec7c-4578-8eb9-ffd9337cf869"
+    },
+    {
+      "n": 20,
+      "file": "evidence/practitioner-2026-10/tikhub/request-020.json",
+      "role": "医学理赔/核保",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "6f50be26-0d34-40a6-91ae-b4689778ed21"
+    },
+    {
+      "n": 21,
+      "file": "evidence/practitioner-2026-10/tikhub/request-021.json",
+      "role": "健康顾问",
+      "endpoint": "search_notes",
+      "state": "success",
+      "request_id": "a04a7cd3-7dd3-42f4-833b-1e249d100132"
+    },
+    {
+      "n": 22,
+      "file": "evidence/practitioner-2026-10/tikhub/request-022.json",
+      "role": "健康顾问",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "c18eb897-04bd-48b5-9218-19d9b7b06fc2"
+    },
+    {
+      "n": 23,
+      "file": "evidence/practitioner-2026-10/tikhub/request-023.json",
+      "role": "健康顾问",
+      "endpoint": "get_image_note_detail",
+      "state": "success",
+      "request_id": "a9891ee0-ccc0-4c94-b9a4-0a03b1907bd7"
+    }
+  ],
+  "total_attempt_n": 23,
+  "successful_n": 22,
+  "unknown_n": 1,
+  "conservative_budget_consumed_usd": 0.23,
+  "successful_request_price_sum_usd": 0.22,
+  "remaining_max_attempts": 77,
+  "authorization": "2026-10-07 user approved additional US$1.00, max100 attempts including failures, no recharge/no retry",
+  "actual_billing": "余额回读独立记录billing.json，不把保守预算占用冒充实际扣费。"
+}

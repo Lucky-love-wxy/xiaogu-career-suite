@@ -18,7 +18,9 @@
 }
 ```
 
-`kind` 只允许 `jd_fact`、`offer_fact`、`transcript_fact`、`candidate_confirmed`、`reference`、`external_report`、`inference`。证据项不得把匿名评价写成已核实的公司事实；`inference` 始终标为待核实。没有实际依据时 `evidence` 用空列表，不能凑来源。
+`kind` 只允许 `jd_fact`、`offer_fact`、`transcript_fact`、`candidate_confirmed`、`reference`、`external_report`、`inference`。证据项不得把匿名评价写成已核实的公司事实；`inference` 始终标为待核实。没有实际依据时 `evidence` 用空列表，不能凑来源。`external_report` 还必须带 `url`（http/https）、`date`（发帖日期 YYYY-MM 或 YYYY-MM-DD）和 `source_name`（如“牛客”“脉脉”），渲染器缺一项即拒绝；用户看到的标签是“从业者分享（未核实）”，后附来源、日期、链接。
+
+可选 `style`：默认 `report`（结论、依据、仍需确认、下一步）；`chat` 用于方向探索、一般性建议、求职进展这类来回对话，只显示正文和下一个问题，没有实际证据时不显示依据与仍需确认，不加“结论”标签。
 
 需要材料时：`{"status":"needs_input","question":"请粘贴……？"}`，只发这一个问题。执行受阻时还需 `blocker`，具体说明失败步骤和原因；已有结果仍放在 `answer`。`unknown` 必须是列表；`next_action` 只允许一行字符串或 `null`。
 

@@ -1,0 +1,14 @@
+{
+  "before_balance_usd": "9.6700",
+  "after_balance_usd": "9.5700",
+  "observed_balance_decrease_usd": "0.1000",
+  "free_credit_before_usd": "0.0500",
+  "free_credit_after_usd": "0.0500",
+  "price_source": "https://tikhub.io/xiaohongshu-api",
+  "unit_price_usd": "0.01",
+  "successful_responses": 10,
+  "recharge": false,
+  "key_persisted": false,
+  "key_cleared_from_task_window": true,
+  "dashboard_daily_statistics": "回读时显示8次/0.08，未与10响应即时一致；余额差0.10与请求账本一致，统计可能滞后，未据此追加调用"
+}

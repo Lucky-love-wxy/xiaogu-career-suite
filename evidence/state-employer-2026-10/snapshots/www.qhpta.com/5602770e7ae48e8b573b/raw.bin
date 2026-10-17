@@ -1,0 +1,1368 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="custom/N03/css/index.css">
+    
+
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="keywords" content="青海省人事考试信息网"/>
+<meta name="description" content="青海省人事考试信息网"/>
+<title>青海省人事考试信息网</title>
+<link rel="icon" href="./custom/N03/images/web_logo.ico"
+      type="image/x-icon"/>
+<link rel="shortcut icon" href="./custom/N03/images/web_logo.ico">
+<link rel="Bookmark" href="./custom/N03/images/web_logo.ico">
+<link href="custom/N03/plugins/pagination/myPagination.css?v=1.0"
+      type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css"
+      href="custom/N03/css/webstyle.css?v=1.3">
+<link rel="stylesheet" type="text/css" href="custom/N03/css/jr.css?v=1.2">
+<link rel="stylesheet" type="text/css" href="custom/N03/css/ej.css?v=1.4">
+<link rel="stylesheet" type="text/css" href="custom/N03/css/adjust.css?v=1.1">
+
+    <style>
+        .m-swiper.m-swiper-main.j-swiper {
+            position: relative; /* 设置父容器为相对定位 */
+        }
+
+        .center-img {
+            position: absolute; /* 设置子元素为绝对定位 */
+            top: 50%; /* 垂直居中 */
+            left: 50%; /* 水平居中 */
+            transform: translate(-50%, -50%); /* 修正偏移 */
+            z-index: 10; /* 确保在其他内容之上 */
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="header">
+	<div class="header_nr">
+		<img src="custom/N03/images/logo.png" />
+		<div class="ss">
+			<input type="text" name="user" id="querynotice"
+				placeholder="请输入您要搜索的内容"
+				style="width: 256px; height: 30px; border: 1px solid #b8b8b8; float: left; font-size: 12px; color: #5f5f5f; text-indent: 10px;padding-left:0px;padding-right:0px;"
+				value="">
+			<input type="button" id="querynoticeBtn"
+				style="width: 34px; height: 34px; background: #006bbe; border: none; float: left; background-image: url(custom/N03/images/ss.png); background-repeat: no-repeat; background-position: center;">
+		</div>
+	</div>
+</div>
+<div class="dh" style="cursor: default;">
+	<ul class="nav">
+		<li>
+			<a href="index.shtml">首页</a>
+		</li>
+		
+		
+			<li>
+				<a href="news.shtml">新闻中心</a>
+			</li>
+		
+		
+		
+			<li>
+				<a href="wsbm.shtml">网上报名</a>
+			</li>
+		
+		
+		
+			<li>
+				<a href="zkzdy.shtml">准考证打印</a>
+			</li>
+		
+		
+		
+			<li>
+				<a href="cjcx.shtml">成绩查询</a>
+			</li>
+		
+		
+		
+			<li>
+				<a href="zsff.shtml">证书办理</a>
+			</li>
+		
+		
+		
+			<li>
+				<a href="zgfh.shtml">资格复核</a>
+			</li>
+		
+		
+		
+			<li>
+				<a href="zcfgwj.shtml">政策法规</a>
+			</li>
+		
+		<li>
+			<a href="http://rsks.class.com.cn/" target="_blank">网上购书</a>
+		</li>
+	</ul>
+</div>
+<div class="banner g-firstSlide" id="top">
+    
+    
+        <div class="m-swiper m-swiper-main j-swiper"
+             style="opacity: 0; min-width: 1200px;">
+            <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide view_left">
+                        <div class="container">
+                            <div class="group_bg">
+                                
+                                    <a href="javascript:;"><img class="img banner-img"
+                                                                src="cache/image/N0325091110000000076/004.gif"> </a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="swiper-slide view_left">
+                        <div class="container">
+                            <div class="group_bg">
+                                
+                                    <a href="javascript:;"><img class="img banner-img"
+                                                                src="cache/image/N0325072510000000070/002.png"> </a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="swiper-slide view_left">
+                        <div class="container">
+                            <div class="group_bg">
+                                
+                                    <a href="javascript:;"><img class="img banner-img"
+                                                                src="cache/image/N0325072510000000069/001.png"> </a>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="hf-pagination"></div>
+            
+            
+                <div class="center-img">
+                    <img src="cache/image/N0325072510000000068/001.png" style="width: 850px;">
+                </div>
+            
+        </div>
+    
+</div>
+<div class="tbgz">
+    <div class="tbgz_nr">
+        <div class="tb_l">
+            <img class="gg" src="custom/N03/images/gg.png"/>
+            <h3>
+                特别关注
+            </h3>
+            <span></span>
+        </div>
+        <div class="tb_r" id="index_tbgz">
+            <ul>
+                
+                
+                    <li style="height: 28px;">
+                        <a href="article_8ea8aa73dde0742f5df27c9f083904be.shtml" target="_blank"> 2023年全省公务员招录、公安机关招录人民警察、 法检两院招录司法辅助人员、常规选调...
+                            <p>
+                                【
+                                2023年02月20日
+                                】
+                            </p></a>
+                    </li>
+                
+                    <li style="height: 28px;">
+                        <a href="article_N032111214851.shtml" target="_blank"> 《公务员录用违规违纪行为处理办法》、《刑法修正案（九）》相关规定
+                            <p>
+                                【
+                                2023年02月20日
+                                】
+                            </p></a>
+                    </li>
+                
+                    <li style="height: 28px;">
+                        <a href="article_dd7b5f91e407e46e3e85314dd8f52327.shtml" target="_blank"> 【重要通知】青海省人力资源和社会保障厅关于公布青海省2026年度二级建造师执业资格考...
+                            <p>
+                                【
+                                2026年10月10日
+                                】
+                            </p></a>
+                    </li>
+                
+                    <li style="height: 28px;">
+                        <a href="article_73e8dafa57c0d0ebe41cd6c2424c9053.shtml" target="_blank"> 2025年青海省面向社会公开招聘中小学(幼儿园、特殊教育)教师公开招聘拟聘用人员公示...
+                            <p>
+                                【
+                                2026年10月10日
+                                】
+                            </p></a>
+                    </li>
+                
+                    <li style="height: 28px;">
+                        <a href="article_6b04689963b9845595863b234595d707.shtml" target="_blank"> 2026年青海省面向社会公开招聘中小学(幼儿园、特殊教育)教师公开招聘拟聘用人员公示...
+                            <p>
+                                【
+                                2026年10月10日
+                                】
+                            </p></a>
+                    </li>
+                
+                    <li style="height: 28px;">
+                        <a href="article_a9abdd42182e9489b3cb2e7df8b35ee1.shtml" target="_blank"> 2026年青海省医疗卫生机构面向社会公开招聘医疗卫生人员拟聘用人员公示（陆续更新）
+                            <p>
+                                【
+                                2026年10月10日
+                                】
+                            </p></a>
+                    </li>
+                
+                    <li style="height: 28px;">
+                        <a href="article_ba64914d3ea00071c9a7f152b04a2f06.shtml" target="_blank"> 青海省2026年度引进高校优秀应届毕业生公示（陆续更新）
+                            <p>
+                                【
+                                2026年10月10日
+                                】
+                            </p></a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div style="overflow: hidden;">
+        <div class="con_l">
+            
+<ul class="list1">
+	<li>
+		<img src="custom/N03/images/xw.png" />
+		<a href="news.shtml">新闻中心</a>
+		<span></span>
+	</li>
+	<li>
+		<img src="custom/N03/images/gwy.png" />
+		<a href="gwyks.shtml">公务员考试</a>
+		<span></span>
+	</li>
+	<li>
+		<img src="custom/N03/images/zy.png" />
+		<a href="zyjsryzgks.shtml">专业技术人员资格考试</a>
+		<span></span>
+	</li>
+	<li>
+		<img src="custom/N03/images/sydw.png" />
+		<a href="sydwks.shtml">事业单位考试</a>
+		<span></span>
+	</li>
+	<li>
+		<img src="custom/N03/images/qt.png" />
+		<a href="qtks.shtml">其他考试</a>
+		<span></span>
+	</li>
+</ul>
+            <ul class="list2">
+                <li>
+                    <img src="custom/N03/images/wsbm.png"/>
+                    <a href="wsbm.shtml">网上报名</a>
+                </li>
+                <li>
+                    <img src="custom/N03/images/dy.png"/>
+                    <a href="zkzdy.shtml">准考证打印</a>
+                </li>
+                <li>
+                    <img src="custom/N03/images/cjcx.png"/>
+                    <a href="cjcx.shtml">成绩查询</a>
+                </li>
+                <li>
+                    <img src="custom/N03/images/zgfh.png"/>
+                    <a href="zgfh.shtml">资格复核</a>
+                </li>
+            </ul>
+            <div class="list3">
+                <div class="bt">
+                    <img src="custom/N03/images/zcfg.png"/>
+                    <a href="zcfgwj.shtml" target="_blank">政策法规</a>
+                </div>
+                <p class="nr">
+                    
+                    
+                        <a> 公务员录用违规违纪行为处理办法 </a>
+                        <br>
+                    
+                        <a> 事业单位公开招聘违纪违规行为... </a>
+                        <br>
+                    
+                        <a> 专业技术人员资格考试违纪违规... </a>
+                        <br>
+                    
+                </p>
+            </div>
+            <div class="list4">
+                <a href="tsjy.shtml"><img src="custom/N03/images/ts.png"/> </a>
+                <a href="tsjy.shtml" target="_blank">投诉建议</a>
+            </div>
+        </div>
+        <div class="con_r">
+            <div class="nr1">
+                <div class="zuo">
+                    <ul class="zlzt" id="gFeoUCx5fHLiFTzvRDI">
+                        
+                        
+                    </ul>
+                </div>
+                <div class="you">
+                    <div class="bt" style="border-bottom: 2px solid #1088cb;">
+                        <div style="float: left; padding: 3px 8px 0px 8px; height: 48px;"
+                             class="newsbgt newshover" id="newsnav">
+                            <img src="custom/N03/images/xw2h.png"/>
+                            <a href="news.shtml" target="_blank"><h3
+                                    style="color: #FFF;">
+                                新闻中心
+                            </h3></a>
+                        </div>
+                        <div
+                                style="float: left; margin-left: 15px; padding: 3px 8px 0px 8px; height: 48px;"
+                                class="newsbgt" id="bgtnav">
+                            <img src="custom/N03/images/bgt.png"/>
+                            <a href="bgt.shtml" target="_blank"><h3>
+                                曝光台
+                            </h3></a>
+                        </div>
+                    </div>
+                    <ul class="nr" id="newscon">
+                        
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_aa26a3ebc1dde63acc05944041f338f8.shtml" target="_blank">青海省人事考试中心网上报名信息化服务项目成交结果公告</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_97b87285330122d0389b37722ad468fe.shtml" target="_blank">青海省人事考试考场视频巡查、录像导出服务项目成交结果公告</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_9627c499a2bc64005dc38b44bf6746c2.shtml" target="_blank">青海省人事考试答题卡扫描阅卷、网络评卷信息化  服务项目成交结果公告</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_fe69c6891ce8f02090347d8c3a97f42e.shtml" target="_blank">青海省人事考试答题卡扫描阅卷、网络评卷信息化服务项目成交候选人公示</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_b3105d23e2e78f37d7e6051987524499.shtml" target="_blank">青海省人事考试考场视频巡查、录像导出服务项目成交候选人公示</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_ced5c006fb23454049583abc6f6d37d9.shtml" target="_blank">青海省人事考试中心网上报名信息化服务项目成交候选人公示</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_c76f8edeeb5cb30cd8eb00e19044af0e.shtml" target="_blank">青海省人事考试中心网上报名信息化服务项目询比采购公告</a>
+                            </li>
+                        
+                    </ul>
+                    <ul class="nr" id="bgtcon" style="display: none;">
+                        
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_ce90a91b36c14babc6bfe788431fc241.shtml" target="_blank">关于青海省2023年公开考录公务员考试违纪违规考生处理结果的通报</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_N032202245064.shtml" target="_blank">组织考生作弊，南宁3人被判刑</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_N032109154694.shtml" target="_blank">对泄题"零容忍"公安部打掉2021年度二建考试作弊团伙27个</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_N032009113102.shtml" target="_blank">关于青海省2020年公开考录公务员(选调生)考试违纪违规考生处理结果的通报</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_N032009013031.shtml" target="_blank">关于2020年全省事业单位面向社会公开招聘工作人员考试违纪违规考生处理结果的通报</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_N031906031512.shtml" target="_blank">关于2019年上半年全省事业单位面向社会公开招聘工作人员考试违纪违规考生处理结果的通报</a>
+                            </li>
+                        
+                            <li>
+                                
+                                
+                                    <img src="custom/N03/images/fh.png"/>
+                                    <br>
+                                
+                                <a href="article_N031903041293.shtml" target="_blank">以案说法：考试，可不是闹着玩的，刑修九补充条款你知道吗？</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="nr2">
+                <ul class="nr2_dh">
+                    <li id="0WQX0ICui0vOEWB06sj">
+                        <div class="img">
+                            <img src="custom/N03/images/gwy2.png" class="one"/>
+                            <img src="custom/N03/images/gwy.png" class="two"/>
+                        </div>
+                        <a href="gwyks.shtml">公务员考试</a>
+                    </li>
+                    <li id="TQuWMYjkbKuRH18Fedu">
+                        <div class="img">
+                            <img src="custom/N03/images/zy2.png" class="one"/>
+                            <img src="custom/N03/images/zy.png" class="two"/>
+                        </div>
+                        <a href="zyjsryzgks.shtml">专业技术人员资格考试</a>
+                    </li>
+                    <li id="qQKO8kIObp061TZKyP7">
+                        <div class="img">
+                            <img src="custom/N03/images/sydw2.png" class="one"/>
+                            <img src="custom/N03/images/sydw.png" class="two"/>
+                        </div>
+                        <a href="sydwks.shtml">事业单位公开招聘</a>
+                    </li>
+                    <li id="nBwvQNabo5wIqSUvdZC">
+                        <div class="img">
+                            <img src="custom/N03/images/qt2.png" class="one"/>
+                            <img src="custom/N03/images/qt.png" class="two"/>
+                        </div>
+                        <a href="qtks.shtml">其他考试</a>
+                    </li>
+                </ul>
+                <ul class="nr" id="0WQX0ICui0vOEWB06sj_nr">
+                    
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_a49d524379432604d1bfd3d6c507c4c2.shtml" target="_blank"> 海东市2026年度考试录用公务员拟录用人员公示（第四批）
+
+                                <p>
+                                    2026-09-07
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_cb3b9ec60060b3389b23e6d07d1da53b.shtml" target="_blank"> 玉树州2026年考试录用公务员拟录用人员公示 （第二批）
+
+                                <p>
+                                    2026-08-31
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_b6f53ba82fc57d8ccaffd4bbd0c96ade.shtml" target="_blank"> 2026年青海省司法厅考录监狱戒毒人民警察拟录用人员公示（第三批）
+
+                                <p>
+                                    2026-08-21
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_d39dfb380cafed6d208a5016016f43e2.shtml" target="_blank"> 2026年玉树州公安机关面向公安院校公安专业考录人民警察拟录用人员公示（第一批）
+
+                                <p>
+                                    2026-08-21
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_15bce54cd2c0cb9d5ad12711e633418e.shtml" target="_blank"> 2026年青海省司法厅考录监狱戒毒人民警察拟录用人员公示（第二批）
+
+                                <p>
+                                    2026-08-13
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_e1ad2f95e2a667e0adb8b70615f8b5c1.shtml" target="_blank"> 海东市2026年度考试录用公务员拟录用人员公示（第三批）
+
+                                <p>
+                                    2026-08-03
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_762b39072f89c70eb02c078345c6cbcd.shtml" target="_blank"> 海西州2026年考试录用公务员拟录用人员公示（第三批）
+
+                                <p>
+                                    2026-07-30
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_05baf4ed3fb0b9060157738e083662f2.shtml" target="_blank"> 2026年海北州公安机关面向公安院校公安专业公开考录人民警察拟录用人员公示
+
+                                <p>
+                                    2026-07-29
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_2ef88855021313bbdfba217329d462d7.shtml" target="_blank"> 果洛州2026年度考试录用公务员拟录用人员公示（第二批）
+
+                                <p>
+                                    2026-07-27
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_fe871671007b779edb4a23bc18d46b74.shtml" target="_blank"> 青海省交通运输厅2026年度考试录用公务员拟录用人员公示（第二批）
+
+                                <p>
+                                    2026-07-27
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_1e2f3510b9ae935b585ac2da6dd15206.shtml" target="_blank"> 2026年黄南州公安机关面向公安院校公安专业毕业生考录人民警察拟录用人员公示
+
+                                <p>
+                                    2026-07-27
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_d0bb6538c651b4a8e923a41bf6604e10.shtml" target="_blank"> 西宁市2026年考试录用公务员拟录用人员公示（第二批）
+
+                                <p>
+                                    2026-07-24
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_f1e1a185b3d43068caa9f887db11a70c.shtml" target="_blank"> 海南州2026年考试录用公务员拟录用人员公示（第三批）
+
+                                <p>
+                                    2026-07-23
+                                </p></a>
+                        </li>
+                    
+                    <li class="indexmore">
+                        <a href="gwyks.shtml">查看更多...</a>
+                    </li>
+                </ul>
+                <ul class="nr" id="TQuWMYjkbKuRH18Fedu_nr">
+                    
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_dd7b5f91e407e46e3e85314dd8f52327.shtml" target="_blank"> 【重要通知】青海省人力资源和社会保障厅关于公布青海省2026年度二级建造师执业资格考...
+                                <p>
+                                    2026-10-10
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_926674ec0d32e9f867993950f179633d.shtml" target="_blank"> 【资格复核】关于开展2026年度高级经济专业技术资格考试（单独划线地区）考后复核工作的通知
+                                <p>
+                                    2026-10-08
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_4a1a6f302039d0f20b9e95b00df634e1.shtml" target="_blank"> 【公示公告】关于2026年度高级经济专业技术资格考试（单独划线地区）成绩合格人员承诺...
+                                <p>
+                                    2026-10-08
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_a1d9b4a7f7bf6616da1e1f27a6637db6.shtml" target="_blank"> 【资格复核】关于开展2026年度社会工作者职业资格考试（单独划线地区）考后复核工作的通知
+                                <p>
+                                    2026-09-11
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_b2b10efdd3a5998d70539be1fcc11252.shtml" target="_blank"> 【公示公告】关于2026年度社会工作者职业资格考试（单独划线地区）成绩合格人员承诺情...
+                                <p>
+                                    2026-09-11
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_cefbe150d830b39d3266f2210303c389.shtml" target="_blank"> 【温馨提示】关于青海考区2026年度设备监理师、注册测绘师资格考试交通出行的温馨提示
+                                <p>
+                                    2026-09-03
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_b0ed8c44345772b1453e013ed6fbc32d.shtml" target="_blank"> 【公示公告】关于2026年度统计专业技术资格考试成绩合格人员承诺情况的公示
+                                <p>
+                                    2026-08-25
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_aba89afeb13435f5cb8c7bc9830cfd9c.shtml" target="_blank"> 【报名通知】关于2026年度下半年计算机技术与软件专业技术资格（水平）考试报名安排的通知
+                                <p>
+                                    2026-08-21
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_1534d516dee8dbc35b7d46fdfd2657e6.shtml" target="_blank"> 【报名通知】关于2026年度一级注册消防工程师资格考试报名安排的通知
+                                <p>
+                                    2026-08-21
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_eb225e0c733241d71cba3e059a4f76ec.shtml" target="_blank"> 【报名通知】关于2026年度房地产估价师职业资格考试报名安排的通知
+                                <p>
+                                    2026-08-21
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_4943a6e4b4b620b13e85f85b9ed132ca.shtml" target="_blank"> 【公示公告】关于2026年度注册计量师职业资格考试成绩合格人员承诺情况的公示
+                                <p>
+                                    2026-08-18
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_fd5069cacc6bcb3eec307f90614be7b4.shtml" target="_blank"> 【公示公告】关于2026年度环境影响评价工程师职业资格考试成绩合格人员承诺情况的公示
+                                <p>
+                                    2026-08-18
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_1ee3aa23857a88b9715b8e4821d69040.shtml" target="_blank"> 【报名通知】关于2026年度全国勘察设计注册工程师执业资格考试报名安排的通知
+                                <p>
+                                    2026-08-12
+                                </p></a>
+                        </li>
+                    
+                    <li class="indexmore">
+                        <a href="zyjsryzgks.shtml">查看更多...</a>
+                    </li>
+                </ul>
+                <ul class="nr" id="qQKO8kIObp061TZKyP7_nr">
+                    
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_73e8dafa57c0d0ebe41cd6c2424c9053.shtml" target="_blank"> 2025年青海省面向社会公开招聘中小学(幼儿园、特殊教育)教师公开招聘拟聘用人员公示...
+                                <p>
+                                    2026-10-10
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_6b04689963b9845595863b234595d707.shtml" target="_blank"> 2026年青海省面向社会公开招聘中小学(幼儿园、特殊教育)教师公开招聘拟聘用人员公示...
+                                <p>
+                                    2026-10-10
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_a9abdd42182e9489b3cb2e7df8b35ee1.shtml" target="_blank"> 2026年青海省医疗卫生机构面向社会公开招聘医疗卫生人员拟聘用人员公示（陆续更新）
+                                <p>
+                                    2026-10-10
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_ba64914d3ea00071c9a7f152b04a2f06.shtml" target="_blank"> 青海省2026年度引进高校优秀应届毕业生公示（陆续更新）
+                                <p>
+                                    2026-10-10
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_c288bca309055347649e8577df9599c3.shtml" target="_blank"> 2026年海北州事业单位面向社会公开招聘工作人员递补体检、考察（政审） 通知
+                                <p>
+                                    2026-09-28
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_9634e861573c65137f1f7693069566eb.shtml" target="_blank"> 2026年省直事业单位（各部门）公开招聘拟聘用人员公示 （陆续更新） 
+                                <p>
+                                    2026-09-24
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_a6ce7461fec486b0d2bf2a1bf3f73d08.shtml" target="_blank"> 2026年各市州事业单位公开招聘工作人员拟聘用人员公示（陆续更新）
+                                <p>
+                                    2026-09-20
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_114939ce91396cd0f9cb5014e12f85f9.shtml" target="_blank"> 2025年青海省医疗卫生机构面向社会公开招聘医疗卫生人员拟聘用人员公示（陆续更新）
+                                <p>
+                                    2026-09-16
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_13a29facfc8a6d6a011f9f985bdf287c.shtml" target="_blank"> 西宁市卫生健康委员会2026年公开考核聘用事业单位工作人员总成绩公布及体检、政审通知
+                                <p>
+                                    2026-09-08
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_08a75b979ef551e39240871e0273f4c0.shtml" target="_blank"> 西宁植物园2026年面向社会公开考核聘用工作人员公告
+                                <p>
+                                    2026-08-20
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_6a93f89dec74ed6fea9974f3f26b6a31.shtml" target="_blank"> 西宁市卫生健康委员会2026年公开考核聘用事业单位工作人员公告
+                                <p>
+                                    2026-08-20
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_ad064325339f0e11f697198c84bbdec2.shtml" target="_blank"> 2026年山东省事业单位就业援青岗位专项公开招聘工作人员总成绩公布及体检政审的通知
+                                <p>
+                                    2026-08-18
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_6405ca01230dd4a6f10884952bf6fdb5.shtml" target="_blank"> 关于2026年山东省事业单位就业援青岗位专项公开招聘工作人员面试的通知
+                                <p>
+                                    2026-08-10
+                                </p></a>
+                        </li>
+                    
+                    <li class="indexmore">
+                        <a href="sydwks.shtml">查看更多...</a>
+                    </li>
+                </ul>
+                <ul class="nr" id="nBwvQNabo5wIqSUvdZC_nr">
+                    
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_060c41760a8fba94bc515101b4e5189b.shtml" target="_blank"> 2026年海北州高校毕业生“三支一扶”计划服务人员体检合格拟招募人员名单公示（第三批）
+                                <p>
+                                    2026-09-23
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_d5fbfd67e2947baf38b66a4eb9be536e.shtml" target="_blank"> 2026年海北州高校毕业生“三支一扶”计划服务人员招募递补进入体检通知
+                                <p>
+                                    2026-09-18
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_e1d2bf0fee1e641b705ef458bc0c4055.shtml" target="_blank"> 2026年果洛州高校毕业生“三支一扶”计划服务人员体检合格拟招募人员名单公示（第二批）
+                                <p>
+                                    2026-09-17
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_bf44cc6da5a6ff763c7c3f06eed76b89.shtml" target="_blank"> 2026年海北州高校毕业生“三支一扶”计划服务人员体检合格拟招募人员名单公示（第二批）
+                                <p>
+                                    2026-09-16
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_4cebcb0574ef5d2156ade15b4cdabe45.shtml" target="_blank"> 2026年黄南州高校毕业生“三支一扶”计划服务人员递补体检合格拟招募人员名单公示
+                                <p>
+                                    2026-09-11
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_910b5a52d7e70ca4c8b2aba9f8661c43.shtml" target="_blank"> 2026年海西州高校毕业生“三支一扶”计划服务人员体检合格拟招募人员名单公示（第四批）
+                                <p>
+                                    2026-09-09
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_fe564ee7d30c68be80ead99a0b15fc86.shtml" target="_blank"> 关于公布2026年果洛州高校毕业生“三支一扶”计划服务人员招募岗位名额调剂暨递补进入...
+                                <p>
+                                    2026-09-08
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_34da97614f355422257f8f1defbc1940.shtml" target="_blank"> 2026年海北州高校毕业生“三支一扶”计划服务人员招募递补进入体检通知
+                                <p>
+                                    2026-09-08
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_2192f4f980614091c977d2756be9e797.shtml" target="_blank"> 2026年西宁市高校毕业生“三支一扶” 计划服务人员递补体检合格拟招募人员名单公示
+                                <p>
+                                    2026-09-08
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_c6c74f7337ac35395b33536d3659bf50.shtml" target="_blank"> 关于公布2026年黄南州高校毕业生“三支一扶”计划服务人员招募岗位名额调剂及递补进入...
+                                <p>
+                                    2026-09-07
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_141e9d55dd32d32c07a876b8607b5220.shtml" target="_blank"> 2026年西宁市高校毕业生“三支一扶”计划服务人员招募递补进入体检通知
+                                <p>
+                                    2026-09-04
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_1be052a2da26d619df2129cb9ee578e5.shtml" target="_blank"> 2026年海北州高校毕业生“三支一扶”计划服务人员体检合格拟招募人员名单公示（第一批）
+                                <p>
+                                    2026-09-04
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            
+                            
+                                <img src="custom/N03/images/fh.png"/>
+                                <br>
+                            
+                            <a href="article_b32b1445e50739a1e3f2f7d4d90111f7.shtml" target="_blank"> 2026年海西州高校毕业生“三支一扶”计划服务人员招募递补进入体检通知
+                                <p>
+                                    2026-09-01
+                                </p></a>
+                        </li>
+                    
+                    <li class="indexmore">
+                        <a href="qtks.shtml">查看更多...</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tf"></div>
+            <div class="nr3">
+                <h3>
+                    青海人事考试常见问题解答
+                </h3>
+                <ul class="nr3_dh">
+                    <li id="6301">
+                        <div class="img">
+                            <img src="custom/N03/images/dm2.png" class="one"/>
+                            <img src="custom/N03/images/dm.png" class="two"/>
+                        </div>
+                        <a href="gwysydwcjwt.shtml">公务员考录和事业单位招聘考试</a>
+                    </li>
+                    <li id="6302">
+                        <div class="img">
+                            <img src="custom/N03/images/dm2.png" class="one"/>
+                            <img src="custom/N03/images/dm.png" class="two"/>
+                        </div>
+                        <a href="zgkscjwt.shtml">专业技术人员资格考试</a>
+                    </li>
+                </ul>
+                <ul class="nr" id="6301_nr" style="height: 150px;">
+                    
+                    
+                        <li>
+                            <img src="custom/N03/images/fh.png"/>
+                            <br>
+                            <a href="article_N031902181273.shtml" target="_blank">青海人事考试—公务员考录和事业单位招聘考试常见问题解答
+                                <p>
+                                    2019-02-18
+                                </p></a>
+                        </li>
+                    
+                </ul>
+                <ul class="nr" id="6302_nr" style="height: 150px;">
+                    
+                    
+                        <li>
+                            <img src="custom/N03/images/fh.png"/>
+                            <br>
+                            <a href="article_N032109134683.shtml" target="_blank"> 青海省专业技术人员资格考试告知承诺制问答
+                                <p>
+                                    2021-09-13
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            <img src="custom/N03/images/fh.png"/>
+                            <br>
+                            <a href="article_N032104163856.shtml" target="_blank"> 青海省专业技术人员资格考试资格审核单位汇总表
+                                <p>
+                                    2021-04-16
+                                </p></a>
+                        </li>
+                    
+                        <li>
+                            <img src="custom/N03/images/fh.png"/>
+                            <br>
+                            <a href="article_N031907191691.shtml" target="_blank"> 青海人事考试—专业技术人员资格考试常见问题解答
+                                <p>
+                                    2019-07-19
+                                </p></a>
+                        </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    
+    
+        <div>
+            <div style="border-bottom: 2px solid #3B88C6; height: 44px; line-height: 44px;">
+                <img src="custom/N03/images/lj.png" style="width: 24px; height: 24px; margin-top: 2px;">
+                <span style="font-size: 20px; font-weight: 500; color: #3B88C6; margin-left: 16px; display: inline-block; height: 24px; line-height: 24px; overflow: hidden;">友情链接</span>
+            </div>
+            <div class="lj-box">
+                
+                    <div class="lj-item">
+                        
+                        
+                            <a href="https://www.mohrss.gov.cn/" target="_blank"> <img class="img"
+                                                                         src="cache/image/N0325072510000000074/004.png"
+                                                                         style="width: 260px; height: 107px;"> </a>
+                        
+                    </div>
+                
+                    <div class="lj-item">
+                        
+                        
+                            <a href="http://www.qinghai.gov.cn/" target="_blank"> <img class="img"
+                                                                         src="cache/image/N0325072510000000073/003.png"
+                                                                         style="width: 260px; height: 107px;"> </a>
+                        
+                    </div>
+                
+                    <div class="lj-item">
+                        
+                        
+                            <a href="https://rst.qinghai.gov.cn/" target="_blank"> <img class="img"
+                                                                         src="cache/image/N0325072510000000072/002.png"
+                                                                         style="width: 260px; height: 107px;"> </a>
+                        
+                    </div>
+                
+                    <div class="lj-item">
+                        
+                        
+                            <a href="http://www.cpta.com.cn/" target="_blank"> <img class="img"
+                                                                         src="cache/image/N0325072510000000071/001.png"
+                                                                         style="width: 260px; height: 107px;"> </a>
+                        
+                    </div>
+                
+            </div>
+            <div class="pagination"></div>
+        </div>
+    
+</div>
+
+
+<div class="footer">
+	<div>
+		<div class="left">
+			<p>
+				青海省人事考试中心 版权所有 ALL RIGHTS RESERVED
+				<br>
+				<a href="https://beian.miit.gov.cn/" target="_blank"
+					style="color: #2c2c2c;">青 ICP备13000096号</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮编：810000
+				<br>
+				详细地址：青海省西宁市城西区五四西路86号恒邦紫荆城4号写字楼
+				<br>
+				<a target="_blank"
+					href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=63010402000434"
+					style="display: block; margin: 0px auto; width: 200px; text-align: center;"><img
+						src="custom/N03/images/gaba_ico.png"
+						style="display: block; float: left; margin-top: 2px; height: 17px; width: 17px;" /><span>青公网安备
+						63010402000434号</span> </a> 技术支持：诺码信科技
+				<br>
+			</p>
+		</div>
+		<div class="right">
+			<script type="text/javascript">
+	document
+			.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/29/000/0000/40221879/CA290000000402218790006.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+		</div>
+	</div>
+	<div style='display:none;'>ncms_19</div>
+</div>
+<div class="ewm">
+	<img src="custom/N03/images/ewm.png" />
+</div>
+
+
+<script type="text/javascript" src="custom/N03/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="frame/js/util/HashMap.js?v=1.0"></script>
+<script type="text/javascript" src="frame/js/util/PinyinUtil.js?v=1.0"></script>
+<script type="text/javascript" src="frame/js/util/List.js?v=1.0"></script>
+<script type="text/javascript" src="./frame/plugins/json/json2.js?v=1.0"></script><script type="text/javascript" src="./cms/js/util.min.js?v=2.28.0"></script>
+<script type="text/javascript" src="custom/N03/js/jquery.rotate.min.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="custom/N03/js/html5shiv.js"></script>
+	<script type="text/javascript" src="custom/N03/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="custom/N03/js/script.js"></script>
+<script src="custom/N03/plugins/pagination/myPagination.js?v=1.0"
+	type="text/javascript"></script>
+<script>
+var _hmt = _hmt || [];
+_hmt.push(["_setCustomVar", 1, "clusterNode", "ncms_19", 1]);
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?dbbd9c1425b429cb6b90fc204808f552";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript" src="custom/N03/js/swiper.min.js?v=1.0"></script>
+<script type="text/javascript" src="custom/N03/js/flowup.js?v=1.0"></script>
+<script type="text/javascript"
+        src="custom/N03/js/jquery.vticker.min.js"></script>
+<script type="text/javascript" src="custom/N03/js/index.js?v=1.0"></script>
+
+<script src="./custom/N03/js/admove.js?v=1.1" type="text/javascript"></script>
+
+
+</body>
+</html>

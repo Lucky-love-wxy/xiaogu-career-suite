@@ -1,0 +1,362 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_8ba653d9f2c2",
+  "node": "互联网/AI › 运维/技术支持 › 网络安全",
+  "family": "互联网/AI",
+  "parent_id": "互联网/AI › 运维/技术支持",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "互联网/AI › 运维/技术支持 › 网络安全",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vm85CZZZL",
+      "type": "recruitment_jd",
+      "title": "网络安全与信息化部助理",
+      "company": "北京通用航天医院（中国航天科工集团七三一医院）",
+      "url": "https://campus.niuqizp.com/job-vm85CZZZL.html",
+      "date": "2026-09-09",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "招聘类型：校招\n需求名称：网络安全与信息化部助理\n专业：计算机类；网络空间安全类；图书情报与档案管理类；公共管理类；临床医学类；生物医学工程类\n学历要求：2027年毕业研究生，博士优先\n需求人数：2\n任职资格：\n1. 协助部门开展网络安全管理制度建设、日常运维支持及信息化项目协调工作； 2. 参与网络安全监测、日志分析、漏洞信息整理及基础安全事件记录与归档； 3. 支持信息化系统需求调研、文档编写、用户培训材料准备及会议组织与纪要整理； 4. 负责部门日常行政事务，包括文件收发、资料归档、数据统计及跨部门沟通对接。\n招聘条件：\n1. 硕士研究生学历，计算机科学与技术、网络空间安全、信息与通信工程、软件工程或相关专业； 2. 具备扎实的计算机网络、操作系统及信息安全基础知识，了解常见网络安全协议、防护机制及主流安全工具； 3. 熟练使用Office办公软件，具备良好的文档撰写、数据分析与逻辑表达能力； 4. 具有较强的学习能力、责任心和团队协作意识，能快速适应多任务协同的工作节奏； 5. 有网络安全类实习、科研项目或CTF、护网行动等实践经历者优先。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vm85CZZZL.html",
+      "cache_sha256": "d9b149b91d4566871ab2232d93a7dc4f68a946ce22ef442d188e9395aee52807"
+    },
+    {
+      "id": "vs85CLt5Z",
+      "type": "recruitment_jd",
+      "title": "中山分公司-通信网络安全管理",
+      "company": "中国移动通信集团广东有限公司",
+      "url": "https://campus.niuqizp.com/job-vs85CLt5Z.html",
+      "date": "2026-09-07",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "工作职责：\n1.负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等；\n2.负责组织开展重大活动保障、关键信息基础设施安全保护、等级保护、网络安全防护等相关工作；\n3.负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理；\n4.建立数据安全防护体系，完善数据安全运营机制，包括数据安全风险监测、应急响应、评估检查等，实施自动化和智能化技术管控等。\n任职要求：\n1.遵守国家法律法规，具有良好的思想品质和道德素质；\n2.认同公司企业文化和核心价值观；\n3.本人档案中无不良记录；\n4.符合应聘岗位任职要求；\n5.大学本科及以上学历；\n6.专业要求：计算机类、通信类、电子信息类、信息安全类等相关专业；\n7.工作地点在公司总部或区域分公司。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vs85CLt5Z.html",
+      "cache_sha256": "6ab4025d5bdbaf3d3cf41beee7def5f2d28f73771a4f08abac4e2fc07b1c217f"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "网络安全",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "网络安全"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "中山分公司-通信网络安全管理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "网络安全与信息化部助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vm85CZZZL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责组织公司或区域分公司网络安全应急演练与网络安全事件应急处理等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责组织开展重大活动保障、关键信息基础设施安全保护、等级保护、网络安全防护等相关工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责组织开展重大活动保障、关键信息基础设施安全保护、等级保护、网络安全防护等相关工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "建立数据安全防护体系，完善数据安全运营机制，包括数据安全风险监测、应急响应、评估检查等，实施自动化和智能化技术管控等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "建立数据安全防护体系，完善数据安全运营机制，包括数据安全风险监测、应急响应、评估检查等，实施自动化和智能化技术管控等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vs85CLt5Z",
+          "text": "负责制订不良信息治理相关工作方案，开展防范治理电信网络诈骗等相关工作，开展不良信息治理"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vs85CLt5Z"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vs85CLt5Z"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vm85CZZZL"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vm85CZZZL",
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "中山分公司-通信网络安全管理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vs85CLt5Z"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "网络安全与信息化部助理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vm85CZZZL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

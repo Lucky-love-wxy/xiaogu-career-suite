@@ -1,0 +1,401 @@
+{
+  "name": [
+    {
+      "text": "物流专员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "物流专员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 7,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责车辆调度与司机管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NNNNz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NNNNz",
+          "text": "负责车辆调度与司机管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责仓储管货物收发与结存管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NNNNz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NNNNz",
+          "text": "负责仓储管货物收发与结存管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责物流信息化需求提出及跟踪落实",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NNNNz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NNNNz",
+          "text": "负责物流信息化需求提出及跟踪落实"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助推进公司智能化物流布局、建设工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NZtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NZtLa",
+          "text": "协助推进公司智能化物流布局、建设工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责品质全过程管控，优化品质管控流程",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NZtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NZtLa",
+          "text": "负责品质全过程管控，优化品质管控流程"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责线路设计与规划，推动仓配运作提效",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NNNNz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NNNNz",
+          "text": "负责线路设计与规划，推动仓配运作提效"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责物流成本控制和优化，推动精益物流改善",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NNNNz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NNNNz",
+          "text": "负责物流成本控制和优化，推动精益物流改善"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责外协车队管理、运输风险管控、车辆在途管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsy5NZtLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsy5NZtLa",
+          "text": "负责外协车队管理、运输风险管控、车辆在途管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "7份保留的校招平台样本中，3份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 3,
+        "denominator": 7,
+        "matched_ids": [
+          "vsY5zLM5M",
+          "vsy5NNNNz",
+          "vsy5NZtLa"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 7,
+        "matched_ids": [
+          "vkU5n5CZt",
+          "vky5n5zNM",
+          "vmm5MMCCt"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 7,
+        "matched_ids": [
+          "vYY5CLCLt"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 7,
+        "matched_ids": [
+          "vYY5CLCLt",
+          "vkU5n5CZt"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，2份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 2,
+        "denominator": 7,
+        "matched_ids": [
+          "vky5n5zNM",
+          "vsy5NZtLa"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，3份专业类字段为“物流管理与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "物流管理与工程类",
+        "n": 3,
+        "denominator": 7,
+        "matched_ids": [
+          "vsY5zLM5M",
+          "vsy5NNNNz",
+          "vsy5NZtLa"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，1份专业类字段为“管理科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "管理科学与工程类",
+        "n": 1,
+        "denominator": 7,
+        "matched_ids": [
+          "vky5n5zNM"
+        ]
+      }
+    },
+    {
+      "text": "7份保留的校招平台样本中，1份专业类字段为“统计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "统计学类",
+        "n": 1,
+        "denominator": 7,
+        "matched_ids": [
+          "vsy5NZtLa"
+        ]
+      }
+    },
+    {
+      "text": "7份保留样本中，3份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYY5CLCLt",
+        "vkU5n5CZt",
+        "vky5n5zNM",
+        "vmm5MMCCt",
+        "vsY5zLM5M",
+        "vsy5NNNNz",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 3,
+        "denominator": 7,
+        "matched_ids": [
+          "vkU5n5CZt",
+          "vmm5MMCCt",
+          "vsy5NZtLa"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "物流管理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkU5n5CZt",
+        "vsY5zLM5M",
+        "vsy5NNNNz"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "物流管理岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vky5n5zNM",
+        "vsy5NZtLa"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "2027校招-物流管理工程师(J11097)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYY5CLCLt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "物流管理工程师（武汉）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmm5MMCCt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

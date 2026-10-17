@@ -1,0 +1,67 @@
+{
+  "name": [
+    {
+      "text": "网站运营",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "网站运营"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vslNL5LNN"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vslNL5LNN"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "新媒体与网站运营",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vslNL5LNN"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

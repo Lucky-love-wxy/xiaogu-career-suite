@@ -1,0 +1,264 @@
+{
+  "answers": 48,
+  "protocol_pre_stop_answers": 21,
+  "audit_only_answers": 27,
+  "qualified": 6,
+  "content_qualified_including_audit": 11,
+  "per_10": 2.857,
+  "all_content_per_10_audit_only": 2.292,
+  "qualified_unique_nicknames": 5,
+  "new_unique_nicknames_against_supplied_baselines": 5,
+  "baseline_boundary": "只对照所给试点17篇与practitioner-originals19篇昵称；不宣称全项目或跨平台实名去重",
+  "role_stats": [
+    {
+      "role": "制剂研发",
+      "answers": 3,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 0,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 1,
+      "searches": 3,
+      "date_range": null,
+      "reasons": {
+        "机构GEO营销指南；无本人研发经历，分节模板与机构推广": 1,
+        "企业排名营销内容；无本人在岗经历，无出处评分数字，疑似模板": 1,
+        "机构税务案例及业务推广，非本人药企研发工作": 1
+      }
+    },
+    {
+      "role": "药物合成",
+      "answers": 4,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 0,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 2,
+      "searches": 1,
+      "date_range": null,
+      "reasons": {
+        "美国药化经历，具体岗位是否合成不明确；正文工作细节导向外部博客，未读取，不可借博客补齐": 1,
+        "机构技术综述，非本人经历；不把技术数字和模型当从业者任务": 1,
+        "美国药企博后本人体验，但未明确合成岗位、缺2处本人合成动作；旧薪资作息与晋升不适用": 1,
+        "作者为瑞士体外诊断算法研发，不属于药物合成；不跨岗位借用": 1
+      }
+    },
+    {
+      "role": "药物分析",
+      "answers": 2,
+      "qualified": 2,
+      "qualified_authors": 2,
+      "new_authors_against_supplied_baselines": 2,
+      "content_qualified_including_audit": 2,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 1,
+      "searches": 1,
+      "date_range": [
+        "2022-12-03",
+        "2023-12-29"
+      ],
+      "reasons": {}
+    },
+    {
+      "role": "生物药研发",
+      "answers": 2,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 0,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 1,
+      "searches": 2,
+      "date_range": null,
+      "reasons": {
+        "同事美国实验室经历属二手转述；夹杂科普与医学主张，不作证据": 1,
+        "本人药理药效经历，但尚不能确认生物药研发岗位；已加载正文止于未完句，任务细节不足，不打开扩大范围": 1
+      }
+    },
+    {
+      "role": "临床监查员（CRA）",
+      "answers": 10,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 3,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 1,
+      "searches": 1,
+      "date_range": null,
+      "reasons": {
+        "本人长回顾，但正文末尾嵌有作者咨询卡（去咨询，未打开收费未核）；保守排除推广入口": 1,
+        "本人经验与岗位建议混合，末尾明确公众号导流": 1,
+        "本人监查日程，但末尾要求移步公众号阅读其他文章，导流排除": 1,
+        "对研究者的泛化吐槽，没有2处本人动作或具体项目场景": 1,
+        "本人一年后转行，但只有泛化被催和被拿捏，无2处具体工作内容；不因短而排除": 1,
+        "本人旧工作体验，但主要是旧强度作息、心态与发展；缺足够具体任务/交付物支撑允许维度": 1,
+        "自述四年但只有行业情绪评价，无2处本人细节": 1
+      }
+    },
+    {
+      "role": "医药代表",
+      "answers": 10,
+      "qualified": 3,
+      "qualified_authors": 3,
+      "new_authors_against_supplied_baselines": 3,
+      "content_qualified_including_audit": 3,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 3,
+      "searches": 2,
+      "date_range": [
+        "2019-08-11",
+        "2026-04-03"
+      ],
+      "reasons": {
+        "大段分节政策与转行建议，以第二人称为主，非本人工作经历；疑似模板，未证实AI生成": 1,
+        "自称医药行业13年，但未明确岗位和本人任务；福利/行业判断为泛化描述": 1,
+        "泛化行业评价，无本人动作或场景": 1,
+        "客户对象聊天清单，缺本人身份或事件，未达到本人讲述条件": 1,
+        "转行培训式指南与第二人称建议，非本人经验；疑似模板": 1,
+        "招聘投递/微信二维码导流，不是本人经验": 1,
+        "开头明确求职岗位及微信扫码导流；不因自述细节保留推广回答": 1
+      }
+    },
+    {
+      "role": "医疗器械销售",
+      "answers": 6,
+      "qualified": 1,
+      "qualified_authors": 1,
+      "new_authors_against_supplied_baselines": 1,
+      "content_qualified_including_audit": 1,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 2,
+      "searches": 1,
+      "date_range": [
+        "2019-08-12",
+        "2019-08-12"
+      ],
+      "reasons": {
+        "本人转型半年，但明确公众号关注导流；不因生活细节和访客户量保留": 1,
+        "政策罗列与未来岗位建议，缺本人案例；非本人任务，疑似模板，不凭该文判定任何法规事实": 1,
+        "作者明确是HR，所讲销售工作是他人观察": 1,
+        "泛化岗位介绍，未明确自己做销售的时间或场景": 1,
+        "本人拜访与市场规划细节充分，但多次公众号导流，并希望对接合作；本轮排除": 1
+      }
+    },
+    {
+      "role": "医药商务拓展（BD）",
+      "answers": 8,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 1,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 2,
+      "searches": 1,
+      "date_range": null,
+      "reasons": {
+        "本人校招半年，但大促和团队成长描述泛化，缺2处具体任务或场景": 1,
+        "本人在公司工作与陪访自述；具体动作以省区经理为主，未明确本人BD岗位及其本人具体任务，保守排除": 1,
+        "办公与公司观感及软件售卖泛述，未明确本人工作任务/任职，缺本人细节": 1,
+        "公司模式科普与评价，未明确本人任职或场景": 1,
+        "第三人称BD地推科普，无本人情景": 1,
+        "仅岗位介绍，无本人情景；不因28字排除": 1,
+        "应聘offer经历，尚非本人在岗工作": 1
+      }
+    },
+    {
+      "role": "医学写作",
+      "answers": 0,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 0,
+      "dedicated_registration_new_authors": null,
+      "adjacent_RC_RA_audit_authors": null,
+      "question_pages": 0,
+      "searches": 2,
+      "date_range": null,
+      "reasons": {}
+    },
+    {
+      "role": "医疗器械注册",
+      "answers": 3,
+      "qualified": 0,
+      "qualified_authors": 0,
+      "new_authors_against_supplied_baselines": 0,
+      "content_qualified_including_audit": 1,
+      "dedicated_registration_new_authors": 0,
+      "adjacent_RC_RA_audit_authors": 1,
+      "question_pages": 1,
+      "searches": 1,
+      "date_range": null,
+      "reasons": {
+        "机构号刊载员工经历且招聘公众号投递导流；不按个人作者计": 1,
+        "末尾明确原文转载自微信号；无法确认知乎作者即原作者，不当本人证据": 1
+      }
+    }
+  ],
+  "old_standard_rejected": [
+    {
+      "id": "zhihu-2564190556",
+      "short": false,
+      "old": true
+    },
+    {
+      "id": "zhihu-2845028792",
+      "short": true,
+      "old": true
+    },
+    {
+      "id": "zhihu-784434981",
+      "short": true,
+      "old": true
+    },
+    {
+      "id": "zhihu-2023375971097519269",
+      "short": true,
+      "old": false
+    },
+    {
+      "id": "zhihu-784463006",
+      "short": true,
+      "old": true
+    },
+    {
+      "id": "zhihu-11276023426",
+      "short": true,
+      "old": false
+    },
+    {
+      "id": "zhihu-625808097",
+      "short": false,
+      "old": true
+    },
+    {
+      "id": "zhihu-2197056206",
+      "short": false,
+      "old": true
+    },
+    {
+      "id": "zhihu-2915636872",
+      "short": true,
+      "old": true
+    },
+    {
+      "id": "zhihu-37651329",
+      "short": false,
+      "old": true
+    }
+  ],
+  "judgments": {
+    "合格": 11,
+    "不合格": 37
+  }
+}

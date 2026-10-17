@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-04",
+  "user_correction": "CDP只允许通过绝对路径cdp.mjs单条调用，不使用require_escalated或curl直连",
+  "attempted_command": "node /Users/lucky_wang/.agents/skills/web-access/scripts/cdp.mjs targets --filter nowcoder",
+  "exit_code": 1,
+  "error": "cdp: EPERM connect EPERM 127.0.0.1:3456 - Local (0.0.0.0:0)（沙箱拒绝：检查 default.rules 是否命中本脚本）",
+  "command_checks": {
+    "absolute_script_path": true,
+    "single_command": true,
+    "pipe": false,
+    "require_escalated": false
+  },
+  "offline_policy_check": {
+    "command": "codex execpolicy check --rules /Users/lucky_wang/.codex/rules/default.rules -- node /Users/lucky_wang/.agents/skills/web-access/scripts/cdp.mjs targets --filter nowcoder",
+    "exit_code": 0,
+    "decision": "allow",
+    "matchedPrefix": [
+      "node",
+      "/Users/lucky_wang/.agents/skills/web-access/scripts/cdp.mjs"
+    ]
+  },
+  "finding": "本地规则文件匹配allow，实际默认执行仍EPERM；运行时未放行原因未知，不能判断Chrome关闭。",
+  "network_retry": false,
+  "escalation_used": false,
+  "next_action": "由用户让客户端/执行会话重新加载规则，再继续同cdp.mjs命令；是否能解决尚未验证。"
+}

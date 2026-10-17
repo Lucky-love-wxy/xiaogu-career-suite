@@ -1,0 +1,411 @@
+{
+  "name": [
+    {
+      "text": "医保/医院管理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医保/医院管理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [
+    {
+      "id": "vYr5NaMNN",
+      "url": "https://campus.niuqizp.com/job-vYr5NaMNN.html",
+      "role": "医务管理|数据审核|医保数据审核",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vs85ZnzzC",
+      "url": "https://campus.niuqizp.com/job-vs85ZnzzC.html",
+      "role": "临床护士|病案室编码员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "完成带教老师交办的其他日常事务",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5aMNM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5aMNM5",
+          "text": "完成带教老师交办的其他日常事务"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与医保结算单据的初审、整理及数据录入",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5aMNM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5aMNM5",
+          "text": "参与医保结算单据的初审、整理及数据录入"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合完成医保政策宣传资料整理及归档工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5aMNM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5aMNM5",
+          "text": "配合完成医保政策宣传资料整理及归档工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助医保系统操作、月度数据统计及报表制作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5aMNM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5aMNM5",
+          "text": "协助医保系统操作、月度数据统计及报表制作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助医保政策咨询、参保患者答疑及窗口接待服务",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vml5aMNM5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vml5aMNM5",
+          "text": "协助医保政策咨询、参保患者答疑及窗口接待服务"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vml5aMNM5",
+          "vyU5naanL"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“公共卫生与预防医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共卫生与预防医学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“公共管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共管理类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vml5aMNM5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“建筑类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "建筑类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“材料类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "材料类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vyU5naanL"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“法学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "法学类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“管理科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "管理科学与工程类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“自动化类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "自动化类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vkl5NNnN5"
+        ]
+      }
+    },
+    {
+      "text": "3份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkl5NNnN5",
+        "vml5aMNM5",
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vml5aMNM5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医保专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyU5naanL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医保实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vml5aMNM5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "医院管理岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkl5NNnN5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

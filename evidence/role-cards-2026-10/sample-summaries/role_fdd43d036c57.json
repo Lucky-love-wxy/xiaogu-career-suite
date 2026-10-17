@@ -1,0 +1,50 @@
+{
+  "name": [
+    {
+      "text": "文案编辑",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "文案编辑"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmY5nzZZa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmY5nzZZa"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "文案编辑",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmY5nzZZa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "小谷黑话",
+  "version": "0.1.0",
+  "description": "在招聘网站上高亮招聘黑话，点开看它没明说的、该怎么问 HR、什么回答才算具体。纯本地，不上传页面内容。",
+  "action": { "default_title": "小谷黑话：在本页开启 / 关闭" },
+  "permissions": ["activeTab", "scripting"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.zhipin.com/*",
+        "*://*.liepin.com/*",
+        "*://*.zhaopin.com/*",
+        "*://*.51job.com/*",
+        "*://*.lagou.com/*",
+        "*://*.shixiseng.com/*",
+        "*://*.nowcoder.com/*",
+        "*://*.maimai.cn/*"
+      ],
+      "js": ["data.js", "matcher.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

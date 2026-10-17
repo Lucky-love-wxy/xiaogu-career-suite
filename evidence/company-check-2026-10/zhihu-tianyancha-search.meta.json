@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.257,
+  "access_date": "2026-10-12",
+  "sha256": "a9ce1129d61bb4dd8e50309377f7cb60d958372fbae33bc9986020d0abe84f9e",
+  "blocked": null,
+  "id": "zhihu-tianyancha-search",
+  "company": "zhihu",
+  "query": "知乎 北京智者天下科技有限公司 企业 成立日期",
+  "include_domains": [
+    "tianyancha.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/zhihu-tianyancha-search.json"
+}

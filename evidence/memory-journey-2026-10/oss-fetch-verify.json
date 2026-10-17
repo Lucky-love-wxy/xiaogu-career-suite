@@ -1,0 +1,90 @@
+[
+  {
+    "id": "oss-robots-api",
+    "url": "https://api.github.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-api.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "edbd0367cec893df36f67acb56c3aa23810be28850977c35e0fedaf64aad286b",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-robots-raw",
+    "url": "https://raw.githubusercontent.com/robots.txt",
+    "status": 404,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-robots-raw.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-verify-1",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/utils/spacy_models.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-verify-1.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "d3e5705a56b826a85572b7b8be5063e33fc0ba2dfa40087839c890819245cd83",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-verify-2",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/utils/lemmatization.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-verify-2.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "7b53da59417d29c3b2adcf71ed9e272c1038667c308859b0c5182f7e67e9408c",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-mem0-verify-3",
+    "url": "https://raw.githubusercontent.com/mem0ai/mem0/d26ba5e4518cef7fff3c66d4f715b21adf9feabe/mem0/utils/entity_extraction.py",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-mem0-verify-3.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "46aee82cb08cd9e37ee6928fb7b1e518d8fe00bb6b507133121b48f65bd1224e",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-lettacode-verify-1",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/README.md",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-lettacode-verify-1.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "61811b022086eeb9d0bdab91cce960f193e9b1bec544c36f64cf6a1f5eb9382c",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-lettacode-verify-2",
+    "url": "https://raw.githubusercontent.com/letta-ai/letta-code/c76fd84a61d64cfd3d9a9730205f67bd4230c818/package.json",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-lettacode-verify-2.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "8af11365f625f99f4621d960d509a414c1c088de61daa1e030a275d9c2993584",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  },
+  {
+    "id": "oss-langgraph-verify-1",
+    "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/a6731f436700c7d46a9224ccd3a0e0ce3a5bfdb5/libs/checkpoint-sqlite/pyproject.toml",
+    "status": 200,
+    "snapshot": "/Users/lucky_wang/Documents/codex/tasks/memory-journey-20261014/evidence/oss-langgraph-verify-1.txt",
+    "snapshot_type": "raw HTTP response body",
+    "sha256": "865291552f68f30aaac7d7c4ebbed1a7f447629f7e9bd62aeeb519eab9268d82",
+    "accessed": "2026-10-14",
+    "layer": "script/static",
+    "level": 1
+  }
+]

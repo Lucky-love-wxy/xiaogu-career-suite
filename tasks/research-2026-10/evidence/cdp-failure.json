@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-04",
+  "method": "Chrome CDP proxy /eval",
+  "target_url": "https://www.nowcoder.com/sitemap1.xml",
+  "error": "urllib.error.HTTPError: HTTP Error 500: Internal Server Error",
+  "response_body": "未取得",
+  "root_cause": "未知",
+  "body_obtained": false,
+  "subsequent_urls_not_executed": [
+    "https://www.nowcoder.com/creation/subject/277692912eaf44419a7f018fd7685468?entranceType_var=%E9%A6%96%E9%A1%B5%E7%83%AD%E8%AE%AE%E6%A6%9C",
+    "https://xzjobs.cn/products/job-board",
+    "https://www.zhipin.com/",
+    "https://www.tealhq.com/",
+    "https://www.jobscan.co/"
+  ],
+  "retry_performed": false
+}

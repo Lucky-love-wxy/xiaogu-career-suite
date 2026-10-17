@@ -1,0 +1,464 @@
+{
+  "name": [
+    {
+      "text": "药物警戒",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "药物警戒"
+        }
+      ]
+    }
+  ],
+  "sample_n": 5,
+  "excluded": [
+    {
+      "id": "manual-role_postings_2026-10-05_claude-1",
+      "url": "https://www.zhaopin.com/jobdetail/CCL1207284370J40978494004.htm",
+      "role": "药物警戒专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-2",
+      "url": "https://www.zhaopin.com/jobdetail/CC180332020J40908686712.htm",
+      "role": "药物警戒专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-3",
+      "url": "https://www.zhaopin.com/jobdetail/CC453635220J40901521803.htm",
+      "role": "药物警戒专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-4",
+      "url": "https://www.zhaopin.com/jobdetail/CC000553110J40841039209.htm",
+      "role": "药物警戒专员",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-5",
+      "url": "https://www.zhaopin.com/jobdetail/CCL1207284370J41034445804.htm",
+      "role": "药物警戒校招实习",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-6",
+      "url": "https://www.zhaopin.com/jobdetail/CC369727710J40968181215.htm",
+      "role": "药物警戒校招实习",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "监测和收集药品不良反应信息。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5tt5zt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5tt5zt",
+          "text": "负责开展日常不良反应监测工作"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "记录、调查、评价并处理个例报告。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5tt5zt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5tt5zt",
+          "text": "负责个例药品不良反应报告的记录、调查、分析、评价和处理"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "整理和汇总安全数据。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkY55MnZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkY55MnZC",
+          "text": "安全性数据汇总分析与报告"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "维护安全性数据库及相关文档。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkY55MnZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkY55MnZC",
+          "text": "安全性数据库维护"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "准备定期安全性更新报告。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5tt5zt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5tt5zt",
+          "text": "负责企业定期安全性更新报告的汇总分析"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "跟踪死亡病例或群体不良事件并递交报告。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5tt5zt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5tt5zt",
+          "text": "对死亡病例及群体不良事件进行跟踪调查和随访"
+        },
+        {
+          "evidence_id": "vUr5tt5zt",
+          "text": "按要求递交报告"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "一位药企PV作者记录该周写DSUR、协助审阅方案与CRF，并处理ICSR病例。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-pv-week"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-pv-week",
+          "text": "这周忙着写DSUR"
+        },
+        {
+          "evidence_id": "xhs-pv-week",
+          "text": "帮着一起审阅新项目方案+CRF"
+        },
+        {
+          "evidence_id": "xhs-pv-week",
+          "text": "成堆的ICSR病例处理"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    },
+    {
+      "text": "另一位PV作者在自己计算个例合规率时，讨论了报告筛选和跟踪表设计难题。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "xhs-pv-rate"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "xhs-pv-rate",
+          "text": "等到自己计算的时候"
+        },
+        {
+          "evidence_id": "xhs-pv-rate",
+          "text": "如何制作一张个例的跟踪表"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "5份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vw85ZZ5nC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，4份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 4,
+        "denominator": 5,
+        "matched_ids": [
+          "vUr5tt5zt",
+          "vkY55MnZC",
+          "vll5nZanM",
+          "vrs5ZCLnM"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vll5nZanM"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“中医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中医学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vw85ZZ5nC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“中药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中药学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vw85ZZ5nC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vkY55MnZC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“公共卫生与预防医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "公共卫生与预防医学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vrs5ZCLnM"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vw85ZZ5nC"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“护理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "护理学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vUr5tt5zt"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“统计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "统计学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vUr5tt5zt"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，2份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM",
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vrs5ZCLnM",
+          "vw85ZZ5nC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "药物警戒专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUr5tt5zt",
+        "vkY55MnZC",
+        "vll5nZanM",
+        "vrs5ZCLnM"
+      ],
+      "quotes": [],
+      "count": 4
+    },
+    {
+      "text": "2026招聘日韩药物警戒",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vw85ZZ5nC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

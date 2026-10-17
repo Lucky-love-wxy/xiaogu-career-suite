@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 2.843,
+  "access_date": "2026-10-12",
+  "sha256": "bea51573a251293e38846b6f266a7374a99fdb258a2e016b3b74567be02684ea",
+  "blocked": null,
+  "id": "baichuan-official-search",
+  "company": "baichuan",
+  "query": "百川智能 官网 公司 2023 医疗 融资",
+  "include_domains": [
+    "baichuan-ai.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/baichuan-official-search.json"
+}

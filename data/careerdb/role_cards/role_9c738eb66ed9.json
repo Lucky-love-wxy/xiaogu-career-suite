@@ -1,0 +1,297 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_9c738eb66ed9",
+  "node": "销售 › 销售行政/商务 › 商务经理",
+  "family": "销售",
+  "parent_id": "销售 › 销售行政/商务",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 销售行政/商务 › 商务经理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vwk5MLM5a",
+      "type": "recruitment_jd",
+      "title": "2027届校招-国际商务经理岗",
+      "company": "特变电工2025",
+      "url": "https://campus.niuqizp.com/job-vwk5MLM5a.html",
+      "date": "2026-09-22",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1.负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范。 2.协助全周期商务管理，梳理合同风险，办理保函、预付款手续，建立商务台账，对接业主、银行跟进回款，更新应收款项。 3.筹办各类技术会议，负责资料翻译、现场口译与英文纪要编制，协同各方完成试验报告、技术规格书等资料翻译校对。 4.配合物资海运、保险、清关运输商务对接，用英文对接物流代理处理异常；收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料。 5.准备注册、税务、签证等涉外英文材料，协调中外各方沟通，定期向总部报送项日进展，保障海外办事处合规运营。 1.2026届-2027届毕业的本科、硕士研究生及海外留学生； 2.语言类专业毕业生，外语水平达到专业八级；矿业板块专业毕业生，外语水平达到国家公共四级及以上水平；非语言类专业毕业生，外语水平要求达到国家公共四级或同水平其他证书； 3.中共党员、在校期间担任学生干部、获得奖学金、获校级先进、大型赛事获奖的毕业生优先考虑； 4.能接受派驻海外工作的毕业生优先考虑。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vwk5MLM5a.html",
+      "cache_sha256": "d2fb5ba72b37c975f2266324d7226998d9d2745bbd787989d7ac581a0089055c"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "商务经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "商务经理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "2027届校招-国际商务经理岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合物资海运、保险、清关运输商务对接，用英文对接物流代理处理异常",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "配合物资海运、保险、清关运输商务对接，用英文对接物流代理处理异常"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助全周期商务管理，梳理合同风险，办理保函、预付款手续，建立商务台账，对接业主、银行跟进回款，更新应收款项",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "协助全周期商务管理，梳理合同风险，办理保函、预付款手续，建立商务台账，对接业主、银行跟进回款，更新应收款项"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "收集招标、政策、竞品信息，撰写校对英文商务标书与调研材料"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwk5MLM5a",
+          "text": "负责和电力公司、业主、律所、供应商商务沟通、会议口译及纪要整理，完成合同、标书、技术文件中英翻译润色，保障涉外文件专业规范"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwk5MLM5a"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwk5MLM5a"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vwk5MLM5a"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "2027届校招-国际商务经理岗",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vwk5MLM5a"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

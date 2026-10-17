@@ -1,0 +1,203 @@
+{
+  "name": [
+    {
+      "text": "土木/土建/结构工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "土木/土建/结构工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vrU5zaZaC"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "v8lNLL5NZ"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "v8y5MnMZn",
+          "vyr5CntaM"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "v8lNLL5NZ"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“土木类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "土木类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "v8y5MnMZn",
+          "vrU5zaZaC"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vyr5CntaM"
+        ]
+      }
+    },
+    {
+      "text": "4份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8lNLL5NZ",
+        "v8y5MnMZn",
+        "vrU5zaZaC",
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "v8lNLL5NZ",
+          "v8y5MnMZn"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "土木工程",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrU5zaZaC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "土木工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8y5MnMZn"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "结构工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyr5CntaM"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "通信网络技术运营-土木工程类（算力分公司）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8lNLL5NZ"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

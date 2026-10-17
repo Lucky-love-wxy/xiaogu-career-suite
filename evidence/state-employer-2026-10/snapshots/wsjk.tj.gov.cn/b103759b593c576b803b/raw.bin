@@ -1,0 +1,3217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="SiteName" content='天津市卫生健康委员会' />
+<meta name="SiteDomain" content="https://wsjk.tj.gov.cn/" />
+<meta name="SiteIDCode" content="1200000045" />
+  <meta name="ColumnName" content='首页'/>
+  <meta name="ColumnDescription" content='首页'/>
+  <meta name="ColumnKeywords" content='首页'/>
+  <meta name="ColumnType" content='首页'/>
+  <meta name="PubTime" content='2026-10-09 09:35:23'/>
+  <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+  <title>
+    天津市卫生健康委员会
+  </title>
+  <script type="text/javascript" src="./images/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./images/jquery-migrate-3.4.0.min.js"></script>
+<script type="text/javascript" src="./images/tw_cn.js"></script>
+<style>
+	#li_fanti a b {
+		cursor: pointer;
+		color: white;
+	}
+	
+	#li_fanti a b:hover {
+		cursor: pointer;
+		color: #bb233;
+	}
+	
+	#li_wuzhangai a b {
+		cursor: pointer;
+		color: white;
+	}
+	
+	#li_wuzhangai a b:hover {
+		cursor: pointer;
+		color: #bb233;
+	}
+</style>
+
+  <link rel="stylesheet" href="./images/hanweb.css">
+  <link rel="stylesheet" href="./images/index.css">
+  <script src="./images/tab.js"></script>
+  <script src="./images/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+<!--飘窗代码 start-->
+		<!--<div id="float_AD" style="position: absolute; z-index: 9999; top: 244px; left: 313px;" >
+		     <div style="position:relative;">
+               <a href="./ZTZL1/ZTHG/wjw19jlzqh/" target="_blank"><img src="./images/image-2021-12-07-13-40-52-010.png" class="mouseoverimg02" alt="image-2021-12-07-13-40-52-010.png" /></a>
+                     </div>
+		</div> 
+			<script type="text/javascript" language="JavaScript">
+                           var obj = document.getElementById("float_AD");
+				var clientHeight = document.documentElement.clientHeight;
+				var clientWidth = document.documentElement.clientWidth;
+				var timer;
+				var delay = 30; //移动速度
+				function randomNum(size) {
+					return Math.floor(Math.random() * (size - 160 + 1));
+				}
+				obj.style.top = randomNum(clientHeight) + "px";
+				obj.style.left = randomNum(clientWidth) + "px";
+				var y = parseInt(obj.style.top);
+				var x = parseInt(obj.style.left);
+				var flagX = false;
+				var flagY = true;
+
+				function moveY() {
+					if(flagY) {
+						y++;
+						if(y > clientHeight - 200) {
+							flagY = false;
+						}
+					} else {
+						y--;
+						if(y < 0) {
+							flagY = true;
+						}
+					}
+					obj.style.top = y + "px";
+				}
+
+				function moveX() {
+					if(flagX) {
+						x++;
+						if(x > clientWidth - 300) {
+							flagX = false;
+						}
+					} else {
+						x--;
+						if(x < 0) {
+							flagX = true;
+						}
+					}
+					obj.style.left = x + "px";
+				}
+				window.οnresize = function() {
+					clientHeight = document.documentElement.clientHeight;
+					clientWidth = document.documentElement.clientWidth;
+				}
+
+				function changePos() {
+					moveY();
+					moveX();
+				}
+
+				function creatTimer() {
+					timer = window.setInterval("changePos();", delay);
+				}
+                                function stopTimer() {
+                               clearInterval(timer);
+                                 }
+				function hide() {
+					obj.style.display = "none";
+					obj.onmouseout = function() {
+						obj.style.visibility = "hidden";
+					}
+				}
+				var url = window.location.href;
+				if(true) {
+					creatTimer();
+				} else {
+					hide();
+				} // url == "http://www.xxxxx.cn/"
+                                $(".mouseoverimg02").mouseover(function(){
+                                    stopTimer();
+                                });
+                                $(".mouseoverimg02").mouseout(function(){
+                                    timer=window.setInterval("changePos();", delay);
+                               });
+                              $(".closeBtn").mouseover(function(){
+                                    stopTimer();
+                                });
+                                $(".closeBtn").mouseout(function(){
+                                    timer=window.setInterval("changePos();", delay);
+                               });
+                               $(".closeBtn").click(function(){
+                                 $(this).hide();
+                                 $(".mouseoverimg02").hide();
+                               });
+			</script>   -->
+
+<!--飘窗代码 end-->
+<!-- 通用头 START -->
+<style>
+     
+	a {
+		color: #fefefe;
+	}
+	
+	a:hover {
+		color: #bb2335;
+	}
+	
+	body {}
+	
+	.header {
+		height: 235px;
+		width: 100%;
+	}
+	
+	.header .phone_list {
+		display: none;
+	}
+	
+	.header .head {
+		width: 1200px;
+		margin: 0 auto;
+		height: 40px;
+	}
+	
+	.header .head .head_left {
+		float: left;
+		color: #FFFFFF;
+		font-size: 14px;
+		line-height: 40px;
+	}
+	
+	.header .head .head_right {
+		float: right;
+	}
+	
+	.header .head .head_right ul {
+		color: #fefefe;
+		font-size: 14px;
+	        line-height: 40px;
+	}
+	
+	.header .head .head_right ul li {
+		float: left;
+		*margin: 0 10px;
+	}
+	
+	.header .head .head_right ul span {
+		float: left;
+		padding: 0 12px;
+		color: #ffffff;
+		*display: none;
+	}
+	
+	.header .nav1 {
+		height: 50px;
+		width: 1200px;
+		margin: 0 auto;
+		margin-top: 12px;
+	}
+	
+	.header .nav1 ul {
+		float: right;
+		width: 80%;
+	}
+	/* .header .nav1 ul li:first-child { */
+	/* padding-left: 0px; */
+	/* } */
+	
+	.header .nav1 ul li {
+		float: left;
+		padding-left: 4%;
+	}
+	
+	.header .nav1 ul li a {
+		font-size: 20px;
+		color: #333333
+	}
+	
+	.header .nav1 ul li a:hover {
+		color: #bb2335;
+		font-weight: bold;
+	}
+	
+	.header .search {
+		width: 1200px;
+		margin: 46px auto 0;
+	}
+	
+	.header .search form {
+		float: right;
+		width: 50%;
+	}
+	
+	.header .search input[type="text"] {
+		height: 50px;
+		width: 77%;
+		left: 50px;
+		border: 0;
+		padding-left: 14px;
+		line-height: 50px;
+		float: left;
+	}
+	
+	#search-btn {
+		vertical-align: bottom;
+		height: 50px;
+		width: 20%;
+		background: #bb2335;
+		color: #ffffff;
+		font-size: 22px;
+		border: 0;
+		outline: none;
+		cursor: pointer;
+		float: left;
+	}
+	
+	#li_fanti {
+		margin-left: 80px;
+		cursor: pointer;
+	}
+	
+	#li_wuzhangai {
+		margin-left: 12px;
+		cursor: pointer;
+	}
+	
+	.icon_wuzhuangai {
+		margin-right: 4px;
+	}
+	
+	.a_zhengwuwang {
+		display: block;
+		float: left;
+	}
+	
+	.a_zhengwuwang img {
+		cursor: pointer;
+		width: 36px;
+		height: 36px;
+		margin-top: 8px;
+		margin-right: 16px;
+	}
+	/* 无障碍 */
+   #zzmsbtn{
+		background: rgb(244, 186, 47);
+		padding: 5px 10px;
+		height: auto;
+		border-radius: 9px;
+		margin: 0 10px;
+		font-size: 14px;
+		color: #fff;
+	}
+	#zzmsbtn span{
+		padding: 0 5px;
+		float: none;
+	}
+	.wza-img{
+		vertical-align: middle;
+	}
+	.gablink{
+		border-left: none;
+		background: rgb(244, 186, 47);
+		padding: 5px 10px;
+		height: auto;
+		border-radius: 9px;
+		margin-right: 10px;
+		font-size: 14px;
+		color: #fff;
+	}
+	.gablink span{
+		float: none !important;
+	}
+	@media screen and (max-width: 1125px) {
+		.gablink{
+			font-size: .8rem;
+			padding: 4px 4px;
+			margin-left: 10px;
+		}
+	}
+	
+	@media screen and (max-width: 1125px) {
+		.header {
+			background: none;
+			padding-bottom: 8px;
+		}
+		.header .nav1 ul {
+			float: right;
+			width: 69%;
+		}
+		.header .nav1 ul li {
+			float: left;
+			padding-left: 3%;
+		}
+	}
+	@media screen and (max-width: 979px) {
+		form {
+			display: none
+		}
+		.a_zhengwuwang {
+			position: absolute;
+			top: -60px;
+			left: 0px;
+		}
+		.a_zhengwuwang img {
+			cursor: pointer;
+			width: 28px;
+			height: 28px;
+			margin-top: 2px;
+			margin-right: 16px;
+			margin-left: 8px;
+		}
+		.Logo {
+			width: 45%;
+			position: absolute;
+			top: -60px;
+			left: 40px;
+		}
+		.header {
+			background: url('https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367804795792.png') no-repeat 40% -24px;
+			padding-bottom: 18px;
+			padding-top: 7px;
+		}
+		.header {
+			padding-bottom: 18px;position: relative;
+		}
+		.header .head {
+			width: 98%;
+		}
+                .header .head {height: 3.5rem;}
+		.header .nav1 {
+			width: 100%;
+		}
+		.header .head_left {
+			display: none;
+		}
+		.header .nav1 a {
+			font-size: 16px;
+		}
+		.header .search {
+			width: 100%;
+			position: relative;
+		}
+		.header .search form {
+			position: absolute;
+			top: -35px;
+			right: 0px;
+		}
+		.header .head .head_right ul {
+			color: #fefefe;
+			font-size: 10px;
+			/*margin-top: 12px; */
+		}
+		.header .head .head_right ul span {
+			float: left;
+			padding: 0 8px;
+		}
+		.header .head .head_right ul {
+			color: #fefefe;
+			font-size: 10px;
+			margin-top: 1px;
+		}
+		.header .head .head_right ul li .gh_logo {
+			width: 10px;
+		}
+		.header {
+			height: 100%;
+		}
+		#search-btn{
+			vertical-align: bottom;
+			height: 30px;
+			width: 30%;
+			background: #bb2335;
+			color: #ffffff;
+			font-size: 16px;
+			border: 0;
+			outline: none;
+			cursor: pointer;
+		}
+		.header .search input[type="text "] {
+			height: 30px;
+			line-height: 30px;
+			width: 62%;
+			left: 50px;
+			border: 0;
+			padding-left: 14px;
+			background: url('https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367804926942.png') no-repeat;
+		}
+		.header .nav1 ul li a {
+			font-size: 16px;
+			display: block;
+		}
+		.header .nav1 ul li {
+			width: 100%;
+			background: #f9f9f9;
+			line-height: 40px;
+			height: 40px;
+			border-bottom: 1px solid #eeeeee;
+		}
+		.header .nav1 {
+			height: 100%;
+			position: relative;
+			margin-top: 12px;
+		}
+		.header .nav1 ul {
+			display: none;
+			width: 100%
+		}
+		.header .phone_list {
+			width: 40px;
+			height: 20px;
+			/*background: #000;*/
+			float: right;
+			display: block;
+			position: absolute;
+			top: -24px;
+			right: 0px;
+		}
+		.header .phone_list img {
+			width: 30px;
+			height: 20px;
+		}
+		.line {
+			height: 2px;
+		}
+               .header .head .head_right ul {
+                 line-height: 1.5rem;
+                position: absolute;
+    top: 0.5rem;
+    right: 8px;
+                }
+		body {
+			background: #FFFFFF;
+			font-size: 14px;
+		}
+		.mhide {
+			display: none;
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		form {
+			display: none
+		}
+		.Logo {
+			width: 45%;
+			position: absolute;
+			top: -60px;
+			left: 40px;
+		}
+		.ybj,
+		.span1 {
+			display: none;
+		}
+		.header {
+			padding-bottom: 8px;
+		}
+	}
+  .searchdiv{
+    float: right;
+    width: 50%;
+}
+@media screen and (max-width: 979px){
+.searchdiv {
+display: block;
+width: 100%;
+}
+.header .search input[type="text"] {
+height: 30px;
+width: 70%;
+line-height: 30px;
+}
+}
+
+@media screen and (max-width:360px){
+.header {
+    padding-top: 5px;
+}
+.header .head .head_right ul {
+    line-height: 1.5rem;
+    position: absolute;
+    top: 0.15rem;
+    right: 8px;
+}
+
+}
+</style>
+<div class="header">
+	<div class="head">
+		<div class="head_left" id="Date"></div>
+		<div class="head_right">
+			<ul class="Clear">
+				<li>
+					<img src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020250423555219539828_ORIGIN.png' alt="1901292031574235344.png" style="margin-right: 5px" class="gh_logo" />
+					<a href='http://www.nhc.gov.cn/' title='国家卫生健康委员会' target="_blank">
+						国家卫生健康委员会
+					</a>
+				</li>
+				<span class="span1 ">|</span>
+				<li class="ybj">
+					<a href='http://www.natcm.gov.cn' title='国家中医药管理局' target="_blank">
+						国家中医药管理局
+					</a>
+				</li>
+				<span>|</span>
+				<li>
+					<a href='http://www.tj.gov.cn/' title='中国天津' target="_blank">
+						中国天津
+					</a>
+				</li>
+				<li id="li_fanti" class="mhide">
+					<a onclick="changeFanTi();"><img class="icon_wuzhuangai" src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367805066228.png' height="16px" width="16px" /><b>繁体</b></a>
+				</li>
+				<li id="li_wuzhangai" class="mhide">
+					<a  href="javascript:void(0);" id="toolbarSwitch" onclick="EsdToolbarInit.openClickFunc();"onkeydown="EsdToolbarInit.openKeydownFunc(event);"><img class="icon_wuzhuangai" src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367805130370.png' height="16px" width="16px" /><b>无障碍</b></a>
+				</li>
+				<li class="mhide">
+					<a href="javascript:void(0);" id="zzmsbtn"><img class="wza-img" src="https://kxjs.tj.gov.cn/images/zzmslogo.png" /><span>长者模式</span></a>
+				</li>
+				<li>
+					<a href='https://wsjk.tj.gov.cn/SY7692/gabsycs/' class="gablink" target="_blank"><img class="wza-img" src="https://wsjk.tj.gov.cn/images/gablogo.png" /><span>关爱版</span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="nav1">
+		<div class="phone_list">
+			<img src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367805193366.png' alt="1901292031063001483.png" />
+		</div>
+		<ul>
+			
+				
+				
+					<li>
+						<!-- 首页跳转站点地址 -->
+						<a href='https://wsjk.tj.gov.cn/'>
+							首页
+						</a>
+					</li>
+				
+			
+				
+				
+					<li>
+						<!-- 首页跳转站点地址 -->
+						<a href='https://wsjk.tj.gov.cn/XWZX6600/'>
+							新闻中心
+						</a>
+					</li>
+				
+			
+				
+				
+					<li>
+						<!-- 首页跳转站点地址 -->
+						<a href='https://wsjk.tj.gov.cn/ZWGK3158/'>
+							政务公开
+						</a>
+					</li>
+				
+			
+				
+					<li>
+						<a href='https://zwfw.tj.gov.cn/#/DepartmentalMatters/120000/11120000MB16437883/3' target="_blank">
+							办事服务
+						</a>
+					</li>
+				
+				
+			
+				
+				
+					<li>
+						<!-- 首页跳转站点地址 -->
+						<a href='https://wsjk.tj.gov.cn/ZMHD5990/'>
+							政民互动
+						</a>
+					</li>
+				
+			
+				
+				
+					<li>
+						<!-- 首页跳转站点地址 -->
+						<a href='https://wsjk.tj.gov.cn/JKJY5233/'>
+							健康教育
+						</a>
+					</li>
+				
+			
+				
+				
+					<li>
+						<!-- 首页跳转站点地址 -->
+						<a href='https://wsjk.tj.gov.cn/ZTZL1/'>
+							专题专栏
+						</a>
+					</li>
+				
+			
+
+                       <li>
+						<a href='https://wsjk.tj.gov.cn/tjsjbyf/' target="_blank">
+							天津市疾控局
+						</a>
+					</li>
+		</ul>
+	</div>
+	<div class="search">
+		<a class="a_zhengwuwang" title="天津政务网" href="https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/tjzww/" target="_blank"><img src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200824516995657083.png' /></a>
+		<div class="Logo" style="float: left;">
+			<img src='https://wsjk.tj.gov.cn/SY7692/images/P020200806345179534813.png' width="100%" />
+		</div>
+		<div class="searchdiv">
+			<!--<input type='text' id='q' name='q' class='searchcon' onFocus='if(this.value=='请输入关键字'){this.value=''}' onBlur='if(this.value==''){this.value='请输入关键字'}' value='请输入关键字' autocomplete='off' />-->
+			<input id="search-input" class="searchcon" type="text" autocomplete="off" placeholder="请输入关键词" value="" />
+			<input id="search-btn" type="button" class="sougjz" value="搜索" />
+		</div>
+	</div>
+</div>
+
+<script>
+	function getDateWeek() {
+		todayDate = new Date();
+		date = todayDate.getDate();
+		month = todayDate.getMonth() + 1;
+		// year = todayDate.getYear();
+		// var IEVersion = IETester();
+		// console.log("IE版本--》" + IEVersion);
+		// if(IEVersion == 9.0 || IEVersion == 10.0) {
+		year = todayDate.getFullYear();
+		// }
+		var dateweek = "";
+		// if(navigator.appName == "Netscape") {
+		//   dateweek = dateweek + (1900 + year) + "年" + month + "月" + date + "日 ";
+		// }
+		// if(navigator.appVersion.indexOf("MSIE") != -1) {
+		dateweek = dateweek + year + "年" + month + "月" + date + "日 ";
+		// }
+		switch(todayDate.getDay()) {
+			case 0:
+				dateweek += "星期日";
+				break;
+			case 1:
+				dateweek += "星期一";
+				break;
+			case 2:
+				dateweek += "星期二";
+				break;
+			case 3:
+				dateweek += "星期三";
+				break;
+			case 4:
+				dateweek += "星期四";
+				break;
+			case 5:
+				dateweek += "星期五";
+				break;
+			case 6:
+				dateweek += "星期六";
+				break;
+		}
+		return dateweek;
+	}
+
+	function IETester(userAgent) {
+		var UA = userAgent || navigator.userAgent;
+		if(/msie/i.test(UA)) {
+			return UA.match(/msie (\d+\.\d+)/i)[1];
+		} else if(~UA.toLowerCase().indexOf('trident') && ~UA.indexOf('rv')) {
+			return UA.match(/rv:(\d+\.\d+)/)[1];
+		}
+		return false;
+	}
+
+	$(function() {
+
+               $("#search-btn").click(function(){
+                  jumpToSearch()
+               })
+		$(".phone_list").click(function() {
+			$(".nav1 ul").slideToggle();
+			$(" .header .search").toggle();
+		})
+		$("#Date").append(getDateWeek())
+
+		//console.log(IETester()); //不传参数返回当前IE版本，如果不是IE内核浏览器，返回false
+		if(IETester() == 9.0) {
+
+		} else if(IETester() == 8.0 || IETester() == 7.0 || IETester() == 6.0 || IETester() == 5.0) {
+			$(".select select").css("width", "17%");
+			var input_text = $("#input_text");
+			input_text.attr("value", "请输入关键字");
+			var value = "请输入关键字";
+			input(input_text);
+
+			function input(input_text) {
+				input_text.focus(function() {
+					if($(this).val() === value) {
+						$(this).val('')
+					}
+				});
+				input_text.blur(function() {
+					if($(this).val() === '') {
+						$(this).val(value)
+					}
+				})
+			}
+		}
+		IETester(
+			'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
+		); //传userAgent字符串，用来判断其他IE浏览器的版本,该示例返回11.0
+	});
+
+
+
+	$("#search-input").keyup(function(event) {
+		if(event.keyCode === 13) {
+			jumpToSearch();
+		}
+	});
+
+
+	//搜索功能
+	function jumpToSearch() {
+		var searchText = $('#search-input').val();
+		if($.trim(searchText) !== '') {
+			var search_page_url = '/searchsite/tjswsjkwyh/search.html?siteId=55&searchWord=' + (encodeURIComponent(searchText));
+			window.open(search_page_url, '_blank');
+		} else {
+			alert('请输入搜索关键词');
+			return false;
+		}
+	}
+	// 简繁体切换
+           // var List = JSON.parse((localStorage.getItem('cn')||' '));       
+           
+	var JFTi = localStorage.getItem('cn') || 2; // 默认简体
+	function changeFanTi() {
+translatePage(JFTi);
+		var vFanti = $('#li_fanti a b');
+                // 简体转换为繁体（2 => 1）
+		if(JFTi == 1) { // 繁体 => 简体
+			 translatePage(2);
+			JFTi = 2;
+			vFanti.text("简体")
+		} else { // 简体 => 繁体
+			 translatePage(1);
+			JFTi = 1;
+			vFanti.text("繁体")
+		}
+               
+               // List = JFTi;
+               localStorage.setItem('cn', JFTi)
+	}
+
+
+
+	// 设置背景图片
+	var bodyBackgroundUrl = 'https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367804795792.png';
+	var headerBackgroundUrl = 'https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367804795792.png';
+	var inputBackgroundUrl = 'https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYTB/202008/W020200820367804926942.png';
+	// $('body').css('background', "url(" + bodyBackgroundUrl + ") no-repeat center 0");
+	$('.header').css('background', "url(" + headerBackgroundUrl + ") no-repeat center 0");
+	$('.header .search input[type="text"]').css('background', "url(" + inputBackgroundUrl + ") no-repeat");
+</script>
+
+<!-- 通用头 END -->
+
+<style>
+  .nav1 ul li a.active {
+    color: #bb2335;
+    font-weight: bold;
+  }
+</style>
+
+<script>
+  // 获取顶层栏目
+  var currentChannel = '';
+  $('.nav1 ul li a').each(function (index) {
+    // 当前栏目是站点，默认选中首页
+    if (currentChannel === '' && index === 0) {
+      $(this).addClass('active');
+      return false;
+    }
+    if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") === currentChannel) {
+      $(this).addClass('active');
+    }
+  });
+</script>
+<style>
+  body{background:url(./images/bg_0054.jpg) no-repeat!important;}
+  .lrtk{z-index:999;}
+  .yqdiv {
+    width: 1200px;
+    margin: 0 auto;
+    background: url('./ZTZL1/ZTHG/YQFKZL9424_1/images/P020220713412807056097.png') no-repeat;
+    height: 120px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .yqaa:hover {
+    color: #fff;
+  }
+
+  .yiqztwap,
+.yqdiv {
+    display: none;
+  }
+
+  @media screen and (max-width: 992px) {
+    .yqdiv {
+      width: 100%;
+      background-size: contain;
+      /* background-size:cover; */
+      height: 42px;
+      margin-bottom: 0px;
+      display: none;
+    }
+    .yqdiv p {
+      display: none
+    }
+.zwgk_list1 ul li:nth-child(2n) {
+        margin-left: 0;
+    }
+  }
+
+
+</style>
+<div class="yqdiv">
+  <a class="yqaa" target="_blank" style="width: 100%; height: 100%;display: block;" href="./ZTZL1/ZTHG/YQFKZL9424_1/">
+    <p style="position: absolute;bottom: 6px;right: 20px; border-bottom: 1px solid #fff">
+      点击进入>>
+    </p>
+  </a>
+</div>
+
+<div class="yiqztwap">
+  <a target="_blank" href="./ZTZL1/ZTHG/YQFKZL9424_1/">
+    <img src='./ZTZL1/ZTHG/YQFKZL9424_1/images/P020220713412807056097.png' alt="" width="100%" height="auto" />
+  </a>
+</div>
+
+<div class="Content Clear content-wjwsy">
+<div style="margin-bottom: 10px;display:none;" >
+<a target="_blank" href="https://wsjk.tj.gov.cn/GLLLM6178/lsyqfk/index.html">
+    <img src='./ZMHD5990/YHLJL8078/images/P020220713412164926857.png' alt="" width="100%" height="auto" />
+  </a>
+</div>
+  <div class="content1 Clear">
+    <div class="lbt">
+      <div id="slideBox" class="slideBox">
+        <div class="hd">
+          <ul>
+            
+              <li class="">
+                1
+              </li>
+            
+              <li class="">
+                2
+              </li>
+            
+              <li class="">
+                3
+              </li>
+            
+              <li class="">
+                4
+              </li>
+            
+          </ul>
+        </div>
+        <div class="bd">
+          <ul style="height:100%">
+             
+           
+            
+              <li>
+                <a title="重要政策举措及实施效果" href="https://www.gov.cn/zhengce/zczhjd/" target="_blank"><img src="./SY7692/TPXW2953/202308/W020230802421743915556.jpg " class="img-responsive" width="100%" height="100%" /></a>
+                <div class="lbText">
+                  <a title="重要政策举措及实施效果" href="https://www.gov.cn/zhengce/zczhjd/" target="_blank">
+                    重要政策举措及实施效果
+                  </a>
+                </div>
+              </li>
+            
+              <li>
+                <a title="学习宣传贯彻党的二十届四中全会精神" href="https://cpc.people.com.cn/GB/67481/461139/index.html" target="_blank"><img src="./SY7692/TPXW2953/202510/W020251029571302960946.jpg " class="img-responsive" width="100%" height="100%" /></a>
+                <div class="lbText">
+                  <a title="学习宣传贯彻党的二十届四中全会精神" href="https://cpc.people.com.cn/GB/67481/461139/index.html" target="_blank">
+                    学习宣传贯彻党的二十届四中全会精神
+                  </a>
+                </div>
+              </li>
+            
+              <li>
+                <a title="2026年天津市卫生健康财务基建工作培训会暨卫生健康经济管理大讲堂召开" href="./XWZX6600/YQFKDT1752/202609/t20260915_7374574.html" target="_blank"><img src="./XWZX6600/YQFKDT1752/202609/W020260915556447222943.png " class="img-responsive" width="100%" height="100%" /></a>
+                <div class="lbText">
+                  <a title="2026年天津市卫生健康财务基建工作培训会暨卫生健康经济管理大讲堂召开" href="./XWZX6600/YQFKDT1752/202609/t20260915_7374574.html" target="_blank">
+                    2026年天津市卫生健康财务基建工作培训会暨卫...
+                  </a>
+                </div>
+              </li>
+            
+              <li>
+                <a title="市卫生健康委举办“学三明、抓医改”专题培训班" href="./XWZX6600/YQFKDT1752/202609/t20260901_7364334.html" target="_blank"><img src="./XWZX6600/YQFKDT1752/202609/W020260902581871087349.png " class="img-responsive" width="100%" height="100%" /></a>
+                <div class="lbText">
+                  <a title="市卫生健康委举办“学三明、抓医改”专题培训班" href="./XWZX6600/YQFKDT1752/202609/t20260901_7364334.html" target="_blank">
+                    市卫生健康委举办“学三明、抓医改”专题培训班
+                  </a>
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+        <style>
+          .slideBox {
+            height: 485px;
+          }
+        </style>
+      </div>
+    </div>
+    <div class="zxxx">
+      <style>
+        .zxxx .list a {
+          width: 70% !important;
+        }
+      </style>
+      <ul class="tab Clear">
+        <li id="one1" class="active" onmouseover="setTab('one',1,3);">
+         <a href="./SY7692/wjwrdgz/" target="_blank">热点关注</a>
+        </li>
+        <li id="one2" onmouseover="setTab('one',2,3);">
+          <a href="./XWZX6600/YQFKDT1752/" target="_blank">工作动态</a>
+        </li>
+        <li id="one3" onmouseover="setTab('one',3,3);">
+          <a href="javascript:void(0);">通知公告</a>
+          <style>
+            #one3 {
+              display: none
+            }
+
+            .Content .zxxx .tab li {
+              width: 50%;
+            }
+          </style>
+        </li>
+      </ul>
+
+      <div class="list" id="con-one-1">
+        <div class="jt_line"></div>
+        <ul class="Clear">
+          
+            <li>
+              <a target="_blank" title="李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代化应急体系建设“十五五”规划》 讨论《中华人民共和国中国人民银行法（修订草案）》" href="./SY7692/wjwrdgz/202605/t20260522_7303828.html">
+                李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代化应急体系建设“十五五”规划》 讨论《中华人民共和国中国人民银行法（修订草案）》
+              </a><span>2026-05-22</span></li>
+          
+            <li>
+              <a target="_blank" title="李强主持召开国务院常务会议" href="./SY7692/wjwrdgz/202603/t20260329_7271650.html">
+                李强主持召开国务院常务会议
+              </a><span>2026-03-28</span></li>
+          
+            <li>
+              <a target="_blank" title="李强主持召开国务院常务会议" href="./SY7692/wjwrdgz/202603/t20260315_7262045.html">
+                李强主持召开国务院常务会议
+              </a><span>2026-03-15</span></li>
+          
+            <li>
+              <a target="_blank" title="中国经济信心说丨读懂“十五五”主要指标的深意" href="./SY7692/wjwrdgz/202603/t20260309_7258196.html">
+                中国经济信心说丨读懂“十五五”主要指标的深意
+              </a><span>2026-03-09</span></li>
+          
+            <li>
+              <a target="_blank" title="政府工作报告里的变与不变" href="./SY7692/wjwrdgz/202603/t20260308_7257268.html">
+                政府工作报告里的变与不变
+              </a><span>2026-03-08</span></li>
+          
+            <li>
+              <a target="_blank" title="两会新华视点｜“十五五”规划纲要草案的新指标、新看点" href="./SY7692/wjwrdgz/202603/t20260308_7257267.html">
+                两会新华视点｜“十五五”规划纲要草案的新指标、新看点
+              </a><span>2026-03-08</span></li>
+          
+            <li>
+              <a target="_blank" title="从政府工作报告一组数据 看我国发展的蓬勃活力" href="./SY7692/wjwrdgz/202603/t20260307_7257208.html">
+                从政府工作报告一组数据 看我国发展的蓬勃活力
+              </a><span>2026-03-07</span></li>
+          
+            <li>
+              <a target="_blank" title="《政府工作报告》上的二维码" href="./SY7692/wjwrdgz/202603/t20260307_7257203.html">
+                《政府工作报告》上的二维码
+              </a><span>2026-03-05</span></li>
+          
+            <li>
+              <a target="_blank" title="十四届全国人大四次会议在京开幕 习近平等在主席台就座" href="./SY7692/wjwrdgz/202603/t20260307_7257202.html">
+                十四届全国人大四次会议在京开幕 习近平等在主席台就座
+              </a><span>2026-03-05</span></li>
+          
+            <li>
+              <a target="_blank" title="李强主持召开国务院常务会议 对抓紧做好春节假期后政府工作作出部署 研究推进银发经济和养老服务发展有关工作 审议通过《关于加强基层消防工作的意见》 讨论《中华人民共和国水法（修订草案）》" href="./SY7692/wjwrdgz/202602/t20260224_7249309.html">
+                李强主持召开国务院常务会议 对抓紧做好春节假期后政府工作作出部署 研究推进银发经济和养老服务发展有关工作 审议通过《关于加强基层消防工作的意见》 讨论《中华人民共和国水法（修订草案）》
+              </a><span>2026-02-24</span></li>
+          
+            <li>
+              <a target="_blank" title="李强主持召开国务院第十次全体会议 讨论政府工作报告稿和“十五五”规划纲要草案稿" href="./SY7692/wjwrdgz/202602/t20260206_7241437.html">
+                李强主持召开国务院第十次全体会议 讨论政府工作报告稿和“十五五”规划纲要草案稿
+              </a><span>2026-02-06</span></li>
+          
+
+        </ul>
+      </div>
+      <div class="list" id="con-one-2" style="display: none">
+        <div class="jt_line"></div>
+        <ul class="Clear">
+          
+           <li>
+           <a target="_blank" title="天津市卫生健康委开展住培对口支援交流活动" href="./XWZX6600/YQFKDT1752/202609/t20260929_7385509.html">
+                天津市卫生健康委开展住培对口支援交流活动
+              </a><span>2026-09-29</span></li>
+          
+           <li>
+           <a target="_blank" title="天津市卫生健康委开展住培对口支援交流活动" href="./XWZX6600/YQFKDT1752/202610/t20261005_7387084.html">
+                天津市卫生健康委开展住培对口支援交流活动
+              </a><span>2026-09-29</span></li>
+          
+           <li>
+           <a target="_blank" title="2026年天津双城健康零碳拾趣游园会暨秋日循环市集启动" href="./XWZX6600/YQFKDT1752/202609/t20260929_7385510.html">
+                2026年天津双城健康零碳拾趣游园会暨秋日循环市集启动
+              </a><span>2026-09-29</span></li>
+          
+           <li>
+           <a target="_blank" title="强化作风法治保障 优化健康发展环境——天津市“十五五”卫生健康事业高质量发展解读（二十八）" href="./XWZX6600/YQFKDT1752/202609/t20260929_7385508.html">
+                强化作风法治保障 优化健康发展环境——天津市“十五五”卫生健康事业高质量发展解读（二十八）
+              </a><span>2026-09-29</span></li>
+          
+           <li>
+           <a target="_blank" title="加速健康数智转型 构建智慧医疗新生态——天津市“十五五”卫生健康事业高质量发展解读（二十七）" href="./XWZX6600/YQFKDT1752/202609/t20260929_7385507.html">
+                加速健康数智转型 构建智慧医疗新生态——天津市“十五五”卫生健康事业高质量发展解读（二十七）
+              </a><span>2026-09-29</span></li>
+          
+           <li>
+           <a target="_blank" title="强化老年健康服务 促进健康老龄化——天津市“十五五”卫生健康事业高质量发展解读（十九）" href="./XWZX6600/YQFKDT1752/202609/t20260925_7382952.html">
+                强化老年健康服务 促进健康老龄化——天津市“十五五”卫生健康事业高质量发展解读（十九）
+              </a><span>2026-09-25</span></li>
+          
+           <li>
+           <a target="_blank" title="提质妇幼健康服务 守护妇女儿童健康——天津市“十五五”卫生健康事业高质量发展解读（十八）" href="./XWZX6600/YQFKDT1752/202609/t20260925_7382951.html">
+                提质妇幼健康服务 守护妇女儿童健康——天津市“十五五”卫生健康事业高质量发展解读（十八）
+              </a><span>2026-09-25</span></li>
+          
+           <li>
+           <a target="_blank" title="完善生育托育服务 促进人口均衡发展——天津市“十五五”卫生健康事业高质量发展解读（十七）" href="./XWZX6600/YQFKDT1752/202609/t20260925_7382950.html">
+                完善生育托育服务 促进人口均衡发展——天津市“十五五”卫生健康事业高质量发展解读（十七）
+              </a><span>2026-09-25</span></li>
+          
+           <li>
+           <a target="_blank" title="优化提升职业健康保护 保障劳动者健康权益——天津市“十五五”卫生健康事业高质量发展解读（十六）" href="./XWZX6600/YQFKDT1752/202609/t20260925_7382905.html">
+                优化提升职业健康保护 保障劳动者健康权益——天津市“十五五”卫生健康事业高质量发展解读（十六）
+              </a><span>2026-09-24</span></li>
+          
+           <li>
+           <a target="_blank" title="规范医学新技术临床研究 提质科创成果落地转化——邀请中国生物技术发展中心赴津开展专题调研工作" href="./XWZX6600/YQFKDT1752/202609/t20260925_7382904.html">
+                规范医学新技术临床研究 提质科创成果落地转化——邀请中国生物技术发展中心赴津开展专题调研工作
+              </a><span>2026-09-24</span></li>
+          
+           <li>
+           <a target="_blank" title="优化精神卫生保障 守护心理健康防线——天津市“十五五”卫生健康事业高质量发展解读（十五）" href="./XWZX6600/YQFKDT1752/202609/t20260925_7382903.html">
+                优化精神卫生保障 守护心理健康防线——天津市“十五五”卫生健康事业高质量发展解读（十五）
+              </a><span>2026-09-24</span></li>
+          
+        </ul>
+      </div>
+      <div class="list" id="con-one-3" style="display: none">
+        <div class="jt_line"></div>
+        <ul class="Clear">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--首页横幅开始-->
+    <style>
+
+
+/*========================= common =========================*/
+/*width*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.w590 {
+    width: 590px;
+}
+.w60 {
+    width: 60px;
+}
+.w63 {
+    width: 63px;
+}
+.w78 {
+    width: 78px;
+}
+
+/*float*/
+.fl,
+.left {
+    float: left;
+}
+.fr,
+.right {
+    float: right;
+}
+
+/*text-align*/
+.tl {
+    text-align: left;
+}
+.tc {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+
+/*position*/
+.po-r {
+    position: relative;
+}
+.po-a {
+    position: absolute;
+}
+.po-f {
+    position: fixed;
+}
+
+/*margin*/
+.mt18 {
+    margin-top: 18px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt25 {
+    margin-top: 25px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mt35 {
+    margin-top: 35px;
+}
+.mt40 {
+    margin-top: 40px;
+}
+.mt45 {
+    margin-top: 45px;
+}
+.mt60 {
+    margin-top: 60px;
+}
+.mt70 {
+    margin-top: 70px;
+}
+.mtb20 {
+    margin: 20px 0;
+}
+.mtb30 {
+    margin: 30px 0;
+}
+.mtb35 {
+    margin: 35px 0;
+}
+.ml30 {
+    margin-left: 30px;
+}
+.mr8 {
+    margin-right: 8px;
+}
+
+/* padding */
+.pd030 {
+    padding: 0 30px;
+}
+.pdtb15 {
+    padding: 15px 0;
+}
+.center {
+    margin: 0 auto;
+}
+.skewx10 {
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    left: 4px;
+}
+.inlinebox {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.inline {
+    display: inline;
+    *display: inline;
+    *zoom: 1;
+}
+
+/* bg-color */
+.bg-white {
+    background-color: #fff !important;
+}
+.bg-blue {
+    background-color: #2f51c6 ;
+}
+.bg-d-blue {
+    background-color: #324fb1 !important;
+}
+.bg-grey {
+    background-color: #f3f3f3 !important;
+}
+.bg-yellow {
+    background-color: #ff9000 !important;
+}
+
+
+/* å­—ä½“é¢œè‰² */
+.color-white {
+    color: #fff !important;
+}
+.color-blue {
+    color: #1e41b9;
+}
+
+/*red*/
+.color-red,
+.color-red a {
+    color: #ea1515;
+}
+a.color-red:hover,
+.color-red a:hover {
+    text-decoration: underline;
+}
+
+/*clearfix*/
+.clearfix:after {
+    clear: both;
+    height: 0;
+    display: block;
+    content: '';
+}
+.clearfix {
+    zoom: 1;
+}
+
+
+/*transition*/
+.trans-none,
+.trans-none ul {
+    -webkit-transition: none;
+    transition: none;
+}
+
+/*img-load*/
+.img-load .image,
+img.img-load,
+.img-load img {
+    display: block;
+    overflow: hidden;
+}
+.img-load .image,
+img.img-load,
+.img-load img {
+    background-color: #f0f0f0;
+}
+
+/*img-zoom */
+.img-zoom .image:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+        .main-mtgztj .mtgztj-img,
+.main-mtgztj .mtgztj-img img {
+    width: 100%;
+    height: 90px;
+}
+
+.main-mtgztj .mtgztj-img .more {
+    position: absolute;
+    right: 320px;
+    top: 35px;
+    color: #1e41b9;
+    font-size: 20px;
+}
+.mtgztj{ width:100%; height:90px; overflow:hidden; position:relative; }
+.mtgztj .bd{ position:relative; height:100%; z-index:0;   }
+.mtgztj .bd li{ zoom:1; vertical-align:middle; }
+.mtgztj .bd img{ width:100%; height:100%; display:block;  }
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 100%;
+    }
+    .w{width:100%;}
+    .mt35{margin-top:10px;}
+    .mtgztj{height:auto;}
+}
+    </style>
+    <div class="main-mtgztj mt35">
+        <div class="w img-load img-zoom">
+                        <div class="mtgztj">
+                <div class="bd">
+                    <ul>
+                           
+                                         
+                                            <li>
+                            <a href="http://www.xinhuanet.com/politics/xxjxs/" target="_blank" title="点击查看更多">
+                               <img src="./images/wjwhf0033.png" alt="wjwhf0033.png" title="wjwhf0033.png" />
+                            </a>
+                        </li>
+                                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+            $(".mtgztj").slide({mainCell:".bd ul",autoPlay:true,interTime: 2500,delayTime:500});
+    </script>
+  <!--首页横幅结束-->
+  <!--专题专栏-->
+  <div class="ztzl">
+    <div class="zt_Title">
+      <span class="zt_fuzhu"></span>
+
+      <a target="_blank" href="./ZTZL1/">专题<br>专栏</a>
+    </div>
+    <div class="friend">
+      <div class="mr_frbox">
+		<div id="mr_frbox_cs">
+        <div class="mr_frUl">
+        <img class="mr_frBtnL prev" src="./images/fbc8728b4afb4e67b44f3e9dfc9b8e80.png" />
+
+          <ul id="mr_fu">
+
+            
+
+              <li>
+                <a title="学习贯彻习近平新时代中国特色社会主义思想主题教育" href="./ZTZL1/ZTZL750/xxgcxjpxsdzgtsshzysxztjy/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/xxgcxjpxsdzgtsshzysxztjy/images/P020230925620614449160.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="学习宣传贯彻习近平总书记视察天津重要讲话精神" href="./ZTZL1/ZTZL750/xxxcgcxjptjjh/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/xxxcgcxjptjjh/images/P020240209540377881401.jpg" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="学习宣传贯彻党的二十届四中全会精神" href="./ZTZL1/ZTZL750/xxgcddesjszqvjs/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/xxgcddesjszqvjs/images/P020251029415609034504.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="走在前作表率 建设文明机关" href="./ZTZL1/ZTZL750/ZZQZBLJSWMJG763/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/ZZQZBLJSWMJG763/images/P020200806346401782164.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="倡清廉 强作风 促提升" href="./ZTZL1/ZTZL750/cqlqzfcts/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/cqlqzfcts/images/P020210421551955475001.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="同心筑梦共前行" href="./ZTZL1/ZTZL750/txjmgqx/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/txjmgqx/images/P020201119587620658065.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="铸牢中华民族共同体意识" href="./ZTZL1/ZTZL750/wjwzlzhmzgttys/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/wjwzlzhmzgttys/images/P020211008489655233697.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="卫生健康合作交流" href="./ZTZL1/ZTZL750/wsjkhzjl/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/wsjkhzjl/images/P020240828518589828367.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="食品安全企业标准备案公示" href="./ZTZL1/ZTZL750/babzxx/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/babzxx/images/P020230721578201521286.png" />
+                </a>
+              </li>
+ 
+            
+
+              <li>
+                <a title="便民就医专栏" href="./ZTZL1/ZTZL750/BMJYZL5868/" target="_blank" width="100%">
+                  <img src="./ZTZL1/ZTZL750/BMJYZL5868/images/P020230731511253171536.png" />
+                </a>
+              </li>
+ 
+            
+
+          </ul>
+        <img class="mr_frBtnR next" src="./images/9df5d650aaac472bad92e269576bfd0b.png" />
+
+        </div>
+		</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="content3 Clear">
+    <div class="con_left">
+      <div class="con3_list">
+        <ul class="Clear tab">
+          <li id="three1" class="active" onmouseover="setTab1('three',1,2);">
+            <a href="./XWZX6600/MTBD3030/" target="_blank">媒体报道</a>
+          </li>
+          <span style="margin:6px 15px 0px 15px;padding-top: 20px;border-left: 2px solid #999999;float: left;""></span>
+          <li id="three2" onmouseover="setTab1('three',2,2);">
+            <a href="./ZWGK3158/GSGG247/" target="_blank">公示公告</a>
+          </li>
+          <div style="display: none">
+            <span id="more-three-1" style="float: right;display: none"><a href="javascript:void(0);"><a href="javascript:;">更多></a></span>
+            <span id="more-three-2" style="display:none;float: right"><a href="javascript:void(0);"><a href="javascript:;">更多></a></span>
+          </div>
+        </ul>
+        <div class="list" id="con-three-1">
+          <ul class="Clear">
+            
+              <li>
+               <a target="_blank" title="医护人员筑牢急症患者生命防线 假期里 诊疗服务“不断档”" href="./XWZX6600/MTBD3030/202610/t20261009_7390180.html">
+                医护人员筑牢急症患者生命防线 假期里 诊疗服务“不断档”
+              </a><span>2026-10-08</span></li>
+          
+              <li>
+               <a target="_blank" title="市第三中心医院东丽院区将于12月正式开诊 扩容优质医疗资源 提升百姓就医获得感" href="./XWZX6600/MTBD3030/202610/t20261009_7390177.html">
+                市第三中心医院东丽院区将于12月正式开诊 扩容优质医疗资源 提升百姓就医获得感
+              </a><span>2026-10-08</span></li>
+          
+              <li>
+               <a target="_blank" title="2026年天津市“三下乡”集中服务活动走进中河头村 便民服务润乡野" href="./XWZX6600/MTBD3030/202610/t20261001_7386759.html">
+                2026年天津市“三下乡”集中服务活动走进中河头村 便民服务润乡野
+              </a><span>2026-09-30</span></li>
+          
+              <li>
+               <a target="_blank" title="秋冬流感防控窗口期开启 天津疾控专家呼吁重点人群尽早接种" href="./XWZX6600/MTBD3030/202609/t20260929_7384733.html">
+                秋冬流感防控窗口期开启 天津疾控专家呼吁重点人群尽早接种
+              </a><span>2026-09-28</span></li>
+          
+              <li>
+               <a target="_blank" title="2026年天津市“三下乡”集中服务活动走进中河头村便民服务润乡野" href="./XWZX6600/MTBD3030/202609/t20260925_7382893.html">
+                2026年天津市“三下乡”集中服务活动走进中河头村便民服务润乡野
+              </a><span>2026-09-24</span></li>
+          
+              <li>
+               <a target="_blank" title="天津市口腔医院梅江院区将于10月底试开诊" href="./XWZX6600/MTBD3030/202609/t20260922_7380304.html">
+                天津市口腔医院梅江院区将于10月底试开诊
+              </a><span>2026-09-22</span></li>
+          
+              <li>
+               <a target="_blank" title="主动健康自我管理 天津掀起全民健康新风尚" href="./XWZX6600/MTBD3030/202609/t20260921_7378399.html">
+                主动健康自我管理 天津掀起全民健康新风尚
+              </a><span>2026-09-20</span></li>
+          
+              <li>
+               <a target="_blank" title="天津发布卫生健康“十五五”规划 建设健康宜居之城" href="./XWZX6600/MTBD3030/202609/t20260918_7377542.html">
+                天津发布卫生健康“十五五”规划 建设健康宜居之城
+              </a><span>2026-09-18</span></li>
+          
+              <li>
+               <a target="_blank" title="糖尿病发病呈年轻化趋势 与超重肥胖密切相关 体重管理门诊已覆盖全市16个区" href="./XWZX6600/MTBD3030/202609/t20260917_7376037.html">
+                糖尿病发病呈年轻化趋势 与超重肥胖密切相关 体重管理门诊已覆盖全市16个区
+              </a><span>2026-09-16</span></li>
+          
+          </ul>
+        </div>
+        <div class="list" id="con-three-2" style="display: none">
+          <ul class="Clear">
+            
+              <li>
+               <a target="_blank" title="天津市公立医疗卫生机构医用设备集中采购招标代理机构遴选结果公示" href="./ZWGK3158/GSGG247/202609/t20260923_7380758.html">
+                天津市公立医疗卫生机构医用设备集中采购招标代理机构遴选结果公示
+              </a><span>2026-09-23</span></li>
+          
+              <li>
+               <a target="_blank" title="市卫生健康委员会综合服务中心关于开展2026年乙类大型医用设备集中采购市场调研的公告" href="./ZWGK3158/GSGG247/202609/t20260920_7377942.html">
+                市卫生健康委员会综合服务中心关于开展2026年乙类大型医用设备集中采购市场调研的公告
+              </a><span>2026-09-20</span></li>
+          
+              <li>
+               <a target="_blank" title="市卫生健康委关于成立天津市卫生健康统计数据质量控制中心的公示" href="./ZWGK3158/GSGG247/202609/t20260913_7372954.html">
+                市卫生健康委关于成立天津市卫生健康统计数据质量控制中心的公示
+              </a><span>2026-09-11</span></li>
+          
+              <li>
+               <a target="_blank" title="天津市公立医疗卫生机构医用设备集中采购招标代理机构遴选公告 （2026年9月4日）" href="./ZWGK3158/GSGG247/202609/t20260904_7366806.html">
+                天津市公立医疗卫生机构医用设备集中采购招标代理机构遴选公告 （2026年9月4日）
+              </a><span>2026-09-04</span></li>
+          
+              <li>
+               <a target="_blank" title="市卫生健康委扫黑除恶专项斗争工作线索举报方式" href="./ZWGK3158/GSGG247/202609/t20260901_7362765.html">
+                市卫生健康委扫黑除恶专项斗争工作线索举报方式
+              </a><span>2026-08-31</span></li>
+          
+              <li>
+               <a target="_blank" title="关于市卫生健康系统2026年度拟晋升政工师任职资格人员名单的公示" href="./ZWGK3158/GSGG247/202607/t20260727_7342182.html">
+                关于市卫生健康系统2026年度拟晋升政工师任职资格人员名单的公示
+              </a><span>2026-07-27</span></li>
+          
+              <li>
+               <a target="_blank" title="天津市卫生健康委注销医师执业证书公告（2026年第二季度）" href="./ZWGK3158/GSGG247/202607/t20260713_7334402.html">
+                天津市卫生健康委注销医师执业证书公告（2026年第二季度）
+              </a><span>2026-07-13</span></li>
+          
+              <li>
+               <a target="_blank" title="《2026年政府债券存续期公开信息表》公示" href="./ZWGK3158/GSGG247/202606/t20260626_7324946.html">
+                《2026年政府债券存续期公开信息表》公示
+              </a><span>2026-06-26</span></li>
+          
+              <li>
+               <a target="_blank" title="市卫生健康委 市疾控局2026年 普法责任清单" href="./ZWGK3158/GSGG247/202604/t20260427_7289670.html">
+                市卫生健康委 市疾控局2026年 普法责任清单
+              </a><span>2026-04-27</span></li>
+          
+
+          </ul>
+        </div>
+      </div>
+      <div class="con3_list">
+        <ul class="Clear tab">
+          <li id="two1" class="active" onmouseover="setTab('two',1,2);">
+            <a href="./JKJY5233/JKDJT3184/" target="_blank">健康科普资源库</a>
+          </li>
+          <span style="margin:6px 15px 0px 15px;padding-top: 20px;border-left: 2px solid #999999;float: left;"></span>
+          <li id="two2" onmouseover="setTab('two',2,2);">
+            <a href="./JKJY5233/JKZS7782/" target="_blank">健康知识</a>
+          </li>
+          <!--<div style="display: none">
+            <span id="more-two-1" style="float: right"><a href=""><a href="javascript:;">更多></a></span>
+            <span id="more-two-2" style="display:none;float: right"><a href=""><a href="javascript:;">更多></a></span>
+          </div>-->
+        </ul>
+        <div class="list" id="con-two-1">
+          <ul class="Clear">
+            
+              <li>
+               <a target="_blank" title="【儿童青少年健康·传单】儿童肺炎患者健康教育处方（2024年版）" href="./JKJY5233/JKDJT3184/202610/t20261001_7386771.html">
+                【儿童青少年健康·传单】儿童肺炎患者健康教育处方（2024年版）
+              </a><span>2026-09-30</span></li>
+          
+              <li>
+               <a target="_blank" title="【儿童青少年健康·传单】儿童癫痫患者健康教育处方（2024年版）" href="./JKJY5233/JKDJT3184/202610/t20261001_7386770.html">
+                【儿童青少年健康·传单】儿童癫痫患者健康教育处方（2024年版）
+              </a><span>2026-09-30</span></li>
+          
+              <li>
+               <a target="_blank" title="【儿童青少年健康·传单】5岁以下儿童营养不足患者健康教育处方（2024年版）" href="./JKJY5233/JKDJT3184/202609/t20260917_7376027.html">
+                【儿童青少年健康·传单】5岁以下儿童营养不足患者健康教育处方（2024年版）
+              </a><span>2026-09-16</span></li>
+          
+              <li>
+               <a target="_blank" title="【儿童青少年健康·传单】儿童矮小症患者健康教育处方（2024年版）" href="./JKJY5233/JKDJT3184/202609/t20260917_7376028.html">
+                【儿童青少年健康·传单】儿童矮小症患者健康教育处方（2024年版）
+              </a><span>2026-09-16</span></li>
+          
+              <li>
+               <a target="_blank" title="【心理健康·短视频】搜索框里无答案" href="./JKJY5233/JKDJT3184/202609/t20260917_7376033.html">
+                【心理健康·短视频】搜索框里无答案
+              </a><span>2026-09-16</span></li>
+          
+              <li>
+               <a target="_blank" title="【妇女健康·传单】孕期贫血患者健康教育处方（2024年版）" href="./JKJY5233/JKDJT3184/202609/t20260902_7365082.html">
+                【妇女健康·传单】孕期贫血患者健康教育处方（2024年版）
+              </a><span>2026-09-02</span></li>
+          
+              <li>
+               <a target="_blank" title="【传染病·一图读懂】艾滋迷雾-从谣言到真相" href="./JKJY5233/JKDJT3184/202609/t20260902_7365079.html">
+                【传染病·一图读懂】艾滋迷雾-从谣言到真相
+              </a><span>2026-09-02</span></li>
+          
+              <li>
+               <a target="_blank" title="【健康生活·短视频】石矶娘娘的“卒中警报”相亲记" href="./JKJY5233/JKDJT3184/202609/t20260902_7365077.html">
+                【健康生活·短视频】石矶娘娘的“卒中警报”相亲记
+              </a><span>2026-09-02</span></li>
+          
+              <li>
+               <a target="_blank" title="【时令养生·短视频】二十四节气——白露" href="./JKJY5233/JKDJT3184/202609/t20260902_7365059.html">
+                【时令养生·短视频】二十四节气——白露
+              </a><span>2026-09-02</span></li>
+          
+          </ul>
+        </div>
+        <div class="list" id="con-two-2" style="display: none">
+          <ul class="Clear">
+            
+              <li>
+               <a target="_blank" title="皮肤科医生教你避开四大误区，告别护肤焦虑，守住皮肤屏障" href="./JKJY5233/JKZS7782/202607/t20260716_7336608.html">
+                皮肤科医生教你避开四大误区，告别护肤焦虑，守住皮肤屏障
+              </a><span>2026-07-16</span></li>
+          
+              <li>
+               <a target="_blank" title="“儿童癌症之王”不是不治之症！读懂神经母细胞瘤，告别焦虑，科学应对" href="./JKJY5233/JKZS7782/202605/t20260519_7301361.html">
+                “儿童癌症之王”不是不治之症！读懂神经母细胞瘤，告别焦虑，科学应对
+              </a><span>2026-05-19</span></li>
+          
+              <li>
+               <a target="_blank" title="做好科学防护 远离狂犬病威胁" href="./JKJY5233/JKZS7782/202605/t20260502_7292874.html">
+                做好科学防护 远离狂犬病威胁
+              </a><span>2026-04-28</span></li>
+          
+              <li>
+               <a target="_blank" title="从脂肪肝到心源性猝死到底有多远？" href="./JKJY5233/JKZS7782/202604/t20260416_7282739.html">
+                从脂肪肝到心源性猝死到底有多远？
+              </a><span>2026-04-16</span></li>
+          
+              <li>
+               <a target="_blank" title="“四害天团”又回归 防制病媒早准备" href="./JKJY5233/JKZS7782/202604/t20260410_7279498.html">
+                “四害天团”又回归 防制病媒早准备
+              </a><span>2026-04-09</span></li>
+          
+              <li>
+               <a target="_blank" title="别大意！猝死前1小时，身体会发出预警" href="./JKJY5233/JKZS7782/202603/t20260330_7272327.html">
+                别大意！猝死前1小时，身体会发出预警
+              </a><span>2026-03-30</span></li>
+          
+              <li>
+               <a target="_blank" title="别让短视频 “诊断” 了你的情绪" href="./JKJY5233/JKZS7782/202603/t20260325_7269555.html">
+                别让短视频 “诊断” 了你的情绪
+              </a><span>2026-03-25</span></li>
+          
+              <li>
+               <a target="_blank" title="小心，睡前5个坏习惯偷走肾脏健康 | 世界肾脏日" href="./JKJY5233/JKZS7782/202603/t20260317_7263847.html">
+                小心，睡前5个坏习惯偷走肾脏健康 | 世界肾脏日
+              </a><span>2026-03-17</span></li>
+          
+              <li>
+               <a target="_blank" title="春吃素食 补脾益气" href="./JKJY5233/JKZS7782/202603/t20260309_7258199.html">
+                春吃素食 补脾益气
+              </a><span>2026-03-09</span></li>
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="con_cen"></div>
+    <div class="con_right">
+      <div class="con3_list">
+        <ul class="Clear tab">
+          <li class="active">
+            <a href="./ZWGK3158/ZFXXGK5869/" target="_blank">政府信息公开</a>
+          </li>
+        </ul>
+        <style>
+          .zwgk_list ul li a {
+            text-align: center;
+            display: block;
+            padding-left: 30px;
+            color: #4270aa;
+          }
+        </style>
+        <div class="zwgk_list">
+          <ul class="Clear">
+            <li class="gkzn">
+              <!--                            <a href="./ZWGK3158/ZFXXGK5869/ZFXXGKZN6553/" target="_blank">政府信息公开指南</a>-->
+              <a href='./ZWGK3158/ZFXXGK5869/ZFXXGKZN6553/' title='政府信息公开指南' target="_blank">
+                政府信息公开指南
+              </a>
+            </li>
+            <li class="gkml">
+              <!--                            <a href="./ZWGK3158/XXGKML3414/" target="_blank">信息公开目录</a>-->
+              <a href='./ZWGK3158/ZFXXGK5869/ZFXXGKZD5383/'' title='政府信息公开制度' target="_blank">
+                政府信息公开制度
+              </a>
+            </li>
+            <li class="gkgd">
+               <a href='./ZWGK3158/ZFXXGK5869/FDZDGKNR4356/' title='法定主动公开内容' target="_blank">
+                法定主动公开内容
+              </a>
+            </li>
+            <li class="gknb">
+              <a href='./ZWGK3158/ZFXXGK5869/ZFXXGKNB2486/' title='政府信息公开年报' target="_blank">
+                政府信息公开年报
+              </a>
+            </li>
+            <li class="ldxx">
+              <a href='./ZWGK3158/ZFXXGK5869/YSQGK5000/' title='依申请公开' target="_blank">
+                依申请公开
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="tjzwfw">
+        <a title="便民就医专栏" href="./ZTZL1/ZTZL750/BMJYZL5868/" target="_blank" width="100%"><img src="./images/sybmjyzln.png" alt="便民就医专栏" title="便民就医专栏" width="100%" /></a>
+         <a title="食品安全企业标准备案公示" href="./ZTZL1/ZTZL750/babzxx/" target="_blank" width="100%"><img src="./images/spaq.png" alt="食品安全" title="食品安全" width="100%" style="margin-top:10px;" /></a>
+    <a title="公共企事业单位信息公开" href="./ZWGK3158/ggqsydwxx/" target="_blank" width="100%"><img src="./images/sy_ggqsywjw.png" alt="公共企事业单位信息公开" title="公共企事业单位信息公开" style="margin-top:10px;" /></a>
+      </div>
+      <div class="con3_list">
+        <ul class="Clear tab">
+          <li class="active">
+            <a href="./ZMHD5990/" target="_blank">政民互动</a>
+          </li>
+
+        </ul>
+        <div class="zwgk_list1 zwgk_list">
+          <ul class="Clear">
+            <li class="hfqk">
+              <a href="https://tysfrzcs.tj.gov.cn/sso/login?utype=0&redirect=istrue&client_id=CRMRSVUIV&goto=https%3A%2F%2Fjyhpt.tj.gov.cn%2FpersonalCenter%2Fdist%2F%23%2Fzmljl%2Fzx%2Ftianjin%2F1001002000000000" target="_blank">
+                我要查询
+              </a>
+            </li>
+            <style>
+            	.zwgk_list ul .zrxx a{
+            		background: url(./images/icon_tongji.png) no-repeat 20% center;
+            		background-size: 28px 24px;
+    						padding-left: 30px;
+            	}
+            	.zwgk_list ul .zrxx:hover a{
+            		background: url(./images/icon_tongji_pre.png) no-repeat 20% center;
+            		background-size: 28px 24px;
+    						padding-left: 30px;
+            	}
+            	.zwgk_list ul .zxdc{
+                 margin-left: 0;
+      }
+.zwgk_list ul .zwwb a{
+            		background: url(./images/sy_wdk1.png) no-repeat 20% center;
+            		background-size: 28px 24px;
+    						padding-left: 30px;
+            	}
+            	.zwgk_list ul .zwwb:hover a{
+            		background: url(./images/sy_wdk2.png) no-repeat 20% center;
+            		background-size: 28px 24px;
+    						padding-left: 30px;
+            	}
+.useOldFixed .zwgk_list ul .zwwb a{
+            		background: url(./images/sy_wdk1.png) no-repeat 20% center !important;
+            		
+    						padding-left: 30px !important;
+            	}
+            	.useOldFixed .zwgk_list ul .zwwb:hover a{
+            		background: url(./images/sy_wdk2.png) no-repeat 20% center !important;
+            
+    						padding-left: 30px !important;
+            	}
+            </style>
+            <li class="zrxx">
+              <a href="./ZMHD5990/BLTJ2972/" target="_blank">
+                办理统计
+              </a>
+            </li>
+            <li class="zxdc">
+              <a href="./ZMHD5990/jcyjzj/" target="_blank">决策意见征集</a>
+            </li>
+
+            <li class="zwwb">
+              <a href="./ZMHD5990/wdk/" target="_blank">问答库</a>
+            </li>
+           
+          </ul>
+          <div class="mzhdPic">
+            <div class="mzPic">
+              <a href="./ZMHD5990/ZMLJL4908/" target="_blank">
+                <img title="政民零距离" src='./ZMHD5990/ZMLJL4908/images/P020200806348743008156.jpg' width="100%" />
+              </a>
+            </div>
+            <div class="yhPic">
+              <a href="http://ms.enorth.com.cn/yhljl/" target="_blank">
+                <img title="医患零距离" src='./ZMHD5990/YHLJL8078/images/P020200806348978256906.png' width="100%" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+	<style>
+		.content2 .con2_img1 .con2_img1-left {
+    width: 68%;
+    height: 91px;
+		}
+		.content2 .con2_img1 .con2_img1-zhinan{
+			width: 15%;
+    	height: 91px;
+		}
+		@media screen and (max-width: 992px){
+			.content2 .con2_img1 .con2_img1-left {
+    	width: 57%;
+    	height: 60px;
+			}
+			.content2 .con2_img1 .con2_img1-zhinan{
+			width: 20%;
+    	height: 60px;
+		}
+		}
+		
+	</style>
+  <ul class="content2 Clear">
+    <li class="con2_img1 Clear">
+    	<a href="./BSFW116/bszn/" target="_blank">
+        <img class = "con2_img1-zhinan" src="./images/01-icon-bszn.png" alt="01-icon-bszn.png" title="01-icon-bszn.png" />
+      </a>
+      <a href="https://zwfw.tj.gov.cn/#/DepartmentalMatters/120000/11120000MB16437883/3" target="_blank">
+        <img class = "con2_img1-left" title="办事服务" src='./BSFW116/TJWSBSDT3583/images/P020200806374398105230.png' />
+      </a>
+      <a href="./BSFW116/bstj/" target="_blank">
+         <img class = "con2_img1-right" src="./images/bstjimg1.jpg" alt="" />
+      </a>
+      <!--<a href="https://zwfw.tj.gov.cn/#/DepartmentalMatters/120000/11120000MB16437883/3" target="_blank">
+        <img title="办事服务" src='./BSFW116/TJWSBSDT3583/images/P020200829394953311351.png' />
+      </a>-->
+      <style>
+        .content2 {
+          margin: 20px 0 20px 0;
+        }
+      </style>
+    </li>
+    <li class="con2_img2">
+      <a href="./ZMHD5990/WJWFWTXFJBZQ4101/202008/t20200803_3325690.html" target="_blank">
+        <img title="违纪违法问题信访举报专区" src='./ZMHD5990/WJWFWTXFJBZQ4101/images/P020200806374553204622.png' width="100%" />
+      </a>
+    </li>
+
+  </ul>
+  <ul class="content2 Clear">
+    <li style="width: 100%;">
+      <img src="./images/74a013df45024f6d9f580ec84b5eb859.jpg" width="100%" />
+    </li>
+  </ul>
+</div>
+
+<!--友情链接-->
+
+<div class="piaochang">
+
+  <div class="close_img"><img src="./images/1907251619011226849.gif" />
+  </div>
+  <div class="pc_con">
+    <a target="_blank" href="http://app.www.gov.cn/download/Chinese.html"><img src="./images/dc95249f138640a68f3b6b4540e66d97.png" /></a>
+    <a href="javascript:void(0)"><img src="./images/1908081347005985782.png" /></a>
+    <a target="_blank" href="https://weibo.com/u/3244253572?is_hot=1"><img src="./images/fd61f5039af34f5eaceea62effcbeb2d.jpg" /></a>
+  </div>
+  <div style="right: 64px;position: absolute;top: 103px;z-index: 999;">
+    <img src="./images/1908081347005985782.png" style="width: 155px ;display: none" class="wx" />
+  </div>
+
+  <div style="right: 64px;position: absolute;top: 143px;z-index: 999;">
+    <img src="./images/fd61f5039af34f5eaceea62effcbeb2d.jpg" style="width: 155px ;display: none" class="wb" />
+  </div>
+  <script>
+    $(function() {
+      $(".pc_con a img").eq(1).mouseenter(function() {
+        $(".wx").show()
+      })
+      $(".pc_con a img").eq(1).mouseleave(function() {
+        $(".wx").hide()
+      })
+      $(".pc_con a img").eq(2).mouseenter(function() {
+        $(".wb").show()
+      })
+      $(".pc_con a img").eq(2).mouseleave(function() {
+        $(".wb").hide()
+      })
+    })
+  </script>
+</div>
+<script>
+  $(".close_img").click(function() {
+    $(".piaochang").hide();
+  })
+</script>
+<style>
+  .piaochang {
+    position: fixed;
+    right: 0;
+    top: 20%;
+  }
+
+  .pc_con {
+    width: 60px;
+  }
+
+  .pc_con img {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 979px) {
+    .piaochang {
+      display: none;
+    }
+  }
+</style>
+<div></div>
+
+<!-- 通用尾 START -->
+
+<style>
+	a {
+		color: #fefefe;
+	}
+	
+	a:hover {
+		color: #bb2335;
+	}
+	
+	.yqlj {
+		width: 100%;
+		height: 72px;
+		background: #f9f9f9;
+		border-top: 3px solid #355e92;
+	}
+	
+	.select {
+		width: 1200px;
+		margin: 0 auto;
+		background: #f9f9f9;
+		height: 72px;
+	}
+	
+	.select select:nth-child(1) {
+		margin-left: 0;
+	}
+	
+	.select select {
+		margin-left: 25px;
+		width: 23%;
+		padding: 5px 0px;
+		background: #f7f7f7;
+		margin-top: 22px;
+		padding-left: 14px;
+		border: 1px solid #dee0e2;
+	}
+	
+	.footer {
+		background: #4270aa;
+		/*height: 140px;*/
+		/*padding-bottom: 30px;*/
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+	
+	.footer .foot {
+		width: 1200px;
+		margin: 0 auto;
+		background: #4270aa;
+		padding-bottom: 30px;
+		overflow: hidden;
+	}
+	
+	.footer .foot ul li {
+		float: left;
+	}
+	
+	.zflj span {
+		float: left;
+	}
+	
+	._span_jiucuo img {
+		margin-top: 10px;
+	}
+	
+	.footer .foot .ul {
+		padding-top: 40px;
+	}
+	
+	.footer .foot ul li.zfzc {
+		padding: 0 2%;
+		margin-top: 5px;
+	}
+	
+	.footer .foot ul li.dwxx {
+		color: #FFFFFF;
+		font-size: 14px;
+		width: 50%;
+		line-height: 24px;
+		margin-top: -10px;
+	}
+	
+	.footer .foot ul li.dwxx p {
+		color: #FFFFFF;
+	}
+	
+	.footer .foot ul li.dwxx a:hover {
+		color: #FFFFFF;
+	}
+	
+	.footer .foot .guohui1 {
+		padding-right: 8px;
+		margin-left: 5;
+	}
+	
+	.footer .foot .footer_gy span {
+		border: none;
+		border-left: 2px solid #7b9bc4;
+		margin: 0 8px;
+		height: 50px;
+	}
+	
+	.footer .foot .footer_gy {
+		float: right;
+		width: 40%
+	}
+	
+	.footer .foot .footer_gy .gywm a {}
+	
+	.footer .foot .footer_gy .lxwm a {}
+	
+	.footer .foot .footer_gy .bqsm a {}
+	
+	.footer .foot .footer_gy .zddt a {}
+	
+	.footer .foot .footer_gy .sybz a {}
+	
+	.footer .foot .footer_gy li {
+		height: 52px;
+	}
+	
+	.footer .foot .footer_gy li a {
+		/*line-height: 100px;*/
+		display: block;
+		padding-top: 35px;
+		cursor: pointer;
+	}
+	
+	.bt-left {
+		*display: none
+	}
+	
+	.footer .foot .footer_gy li {
+		*margin: 0 10px
+	}
+	
+	.a_zhaocuo {
+		display: block;
+		float: right;
+	}
+	
+	@media screen and (max-width: 998px) {
+		.yqlj {
+			display: none;
+		}
+		.footer {
+			margin-top: 10px;
+		}
+		.footer .foot {
+			width: 95%;
+		}
+		.footer .foot ul li.dwxx {
+			padding: 0;
+			text-align: center;
+			margin-top: 10px;
+			width: 100%;
+		}
+                .footer .foot ul li.dwxx span{
+             display: block;
+              }
+		.footer .foot ul li.dwxx a:hover {
+			color: #fff;
+		}
+		.footer .zflj {
+			overflow: hidden;
+			width: 30%;
+			margin: 0 auto;
+			text-align: center
+		}
+		.footer .foot .footer_gy {
+			/*margin-right: 25%;*/
+			margin-top: 10px;
+			width: 100%;
+		}
+		.footer .foot .footer_gy ul {
+			margin: 0 auto;
+			width: 334px;
+			/*overflow: auto;*/
+		}
+		.select {
+			width: 100%;
+		}
+		.select select:nth-child(1) {
+			margin-left: 2%;
+		}
+		.select select {
+			margin-left: 2%;
+			width: 17%;
+			height: 30px;
+			background: #f7f7f7;
+			margin-top: 22px;
+			border: 1px solid #dee0e2;
+		}
+		.footer .dzjg {
+			overflow: hidden;
+			width: 100%;
+			text-align: center;
+		}
+		.footer .foot .footer_gy span {
+			border: none;
+			border-left: 2px solid #7b9bc4;
+			margin: 0 4px;
+			height: 50px;
+		}
+		.a_zhaocuo {
+			display: block;
+			float: right;
+			width: 100%;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+	
+	@media screen and (max-width: 414px) {
+		.footer .zflj {
+			overflow: hidden;
+			width: 100%;
+		}
+		.footer .dzjg {
+			overflow: hidden;
+			width: 100%;
+		}
+		.footer .zfzc {
+			clear: both;
+			margin-left: 32%;
+			width: 32%;
+		}
+		.footer .foot .footer_gy li a {
+			font-size: 12px;
+		}
+		.footer .foot .footer_gy span {
+			margin: 0 5px;
+		}
+	}
+</style>
+<!--友情链接-->
+<div class="yqlj">
+	<div class="select">
+		
+			<select onchange="s_click(this)">
+				<option value="">
+					省市卫生健康部门
+				</option>
+				
+					<option value='http://www.hebwsjs.gov.cn'>
+						河北省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.beijing.gov.cn'>
+						北京市卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.shanxi.gov.cn'>
+						山西省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.jiangsu.gov.cn'>
+						江苏省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.nmg.gov.cn'>
+						内蒙古自治区卫生健康...
+					</option>
+				
+					<option value='http://wsjkw.jl.gov.cn'>
+						吉林省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.hlj.gov.cn'>
+						黑龙江省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.sh.gov.cn'>
+						上海市卫生健康委员会
+					</option>
+				
+					<option value='https://wsjkw.zj.gov.cn/'>
+						浙江省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.ah.gov.cn'>
+						安徽省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.fujian.gov.cn'>
+						福建省卫生健康委员会
+					</option>
+				
+					<option value='http://hc.jiangxi.gov.cn'>
+						江西省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.shandong.gov.cn'>
+						山东省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.henan.gov.cn/'>
+						河南省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.hubei.gov.cn'>
+						湖北省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.hunan.gov.cn'>
+						湖南省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.gxzf.gov.cn'>
+						广西壮族自治区卫生健...
+					</option>
+				
+					<option value='http://wst.hainan.gov.cn'>
+						海南省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.cq.gov.cn'>
+						重庆市卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.sc.gov.cn'>
+						四川省卫生健康委员会
+					</option>
+				
+					<option value='http://ynswsjkw.yn.gov.cn'>
+						云南省卫生健康委员会
+					</option>
+				
+					<option value='http://sxwjw.shaanxi.gov.cn'>
+						陕西省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjk.gansu.gov.cn'>
+						甘肃省卫生健康委员会
+					</option>
+				
+					<option value='https://wsjkw.qinghai.gov.cn'>
+						青海省卫生健康委员会
+					</option>
+				
+					<option value='http://wsjkw.nx.gov.cn'>
+						宁夏回族自治区卫生健...
+					</option>
+				
+					<option value='http://wsjkw.gd.gov.cn'>
+						广东卫生健康委员会
+					</option>
+				
+					<option value='http://wsjk.ln.gov.cn'>
+						辽宁卫生健康委员会
+					</option>
+				
+					<option value='http://www.gzhfpc.gov.cn/'>
+						贵州省卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.xizang.gov.cn/'>
+						西藏自治区卫生健康委员会
+					</option>
+				
+					<option value='http://wjw.xinjiang.gov.cn/'>
+						新疆维吾尔自治区卫生...
+					</option>
+				
+			</select>
+		
+			<select onchange="s_click(this)">
+				<option value="">
+					市政府部门网站
+				</option>
+				
+					<option value='http://fzgg.tj.gov.cn/'>
+						市发展改革委
+					</option>
+				
+					<option value='http://jy.tj.gov.cn/'>
+						市教委
+					</option>
+				
+					<option value='http://kxjs.tj.gov.cn/'>
+						市科技局
+					</option>
+				
+					<option value='http://gyxxh.tj.gov.cn/'>
+						市工业和信息化局
+					</option>
+				
+					<option value='http://mzzj.tj.gov.cn/'>
+						市民族宗教委
+					</option>
+				
+					<option value='http://ga.tj.gov.cn/'>
+						市公安局
+					</option>
+				
+					<option value='http://mz.tj.gov.cn/'>
+						市民政局
+					</option>
+				
+					<option value='http://sf.tj.gov.cn/'>
+						市司法局
+					</option>
+				
+					<option value='http://cz.tj.gov.cn/'>
+						市财政局
+					</option>
+				
+					<option value='http://hrss.tj.gov.cn/'>
+						市人社局
+					</option>
+				
+					<option value='http://ghhzrzy.tj.gov.cn/'>
+						市规划和自然资源局
+					</option>
+				
+					<option value='http://sthj.tj.gov.cn/'>
+						市生态环境局
+					</option>
+				
+					<option value='http://zfcxjs.tj.gov.cn/'>
+						市住房城乡建设委
+					</option>
+				
+					<option value='http://csgl.tj.gov.cn/'>
+						市城市管理委
+					</option>
+				
+					<option value='http://jtys.tj.gov.cn/'>
+						市交通运输委
+					</option>
+				
+					<option value='http://swj.tj.gov.cn/'>
+						市水务局
+					</option>
+				
+					<option value='http://nync.tj.gov.cn/'>
+						市农业农村委
+					</option>
+				
+					<option value='http://shangwuju.tj.gov.cn/'>
+						市商务局
+					</option>
+				
+					<option value='http://whly.tj.gov.cn/'>
+						市文化和旅游局
+					</option>
+				
+					<option value='http://wsjk.tj.gov.cn/'>
+						市卫生健康委
+					</option>
+				
+					<option value='http://tyjrswj.tj.gov.cn/'>
+						市退役军人局
+					</option>
+				
+					<option value='http://yjgl.tj.gov.cn/'>
+						市应急局
+					</option>
+				
+					<option value='http://sj.tj.gov.cn/'>
+						市审计局
+					</option>
+				
+					<option value='http://fao.tj.gov.cn/'>
+						市外办
+					</option>
+				
+					<option value='http://scjg.tj.gov.cn/'>
+						市市场监管委
+					</option>
+				
+					<option value='http://sasac.tj.gov.cn/'>
+						市国资委
+					</option>
+				
+					<option value='http://ty.tj.gov.cn/'>
+						市体育局
+					</option>
+				
+					<option value='http://stats.tj.gov.cn/'>
+						市统计局
+					</option>
+				
+					<option value='http://ylbz.tj.gov.cn/'>
+						市医保局
+					</option>
+				
+					<option value='http://jrgz.tj.gov.cn/'>
+						市金融局
+					</option>
+				
+					<option value='http://xf.tj.gov.cn/'>
+						市信访办
+					</option>
+				
+					<option value='https://gfdy.tj.gov.cn/'>
+						市国动办
+					</option>
+				
+					<option value='http://zwfwb.tj.gov.cn/'>
+						市政务服务办
+					</option>
+				
+					<option value='http://lswz.tj.gov.cn/'>
+						市粮食和物资局
+					</option>
+				
+					<option value='http://zscq.tj.gov.cn/'>
+						市知识产权局
+					</option>
+				
+			</select>
+		
+			<select onchange="s_click(this)">
+				<option value="">
+					直属单位网站
+				</option>
+				
+					<option value='http://www.tjyzh.cn'>
+						天津医学高等专科学校
+					</option>
+				
+					<option value='http://www.tj3zx.cn/'>
+						天津市第三中心医院
+					</option>
+				
+					<option value='https://www.tjnothop.cn'>
+						天津医院
+					</option>
+				
+					<option value='http://www.tjchildrenshospital.com/'>
+						天津市儿童医院
+					</option>
+				
+					<option value='http://www.tjzxfc.com/'>
+						天津市中心妇产科医院
+					</option>
+				
+					<option value='http://www.haiheyiyuan.cn'>
+						天津市海河医院
+					</option>
+				
+					<option value='http://www.tjwch.com'>
+						天津市妇女儿童保健中心
+					</option>
+				
+					<option value='http://www.oio.com.cn/'>
+						天津市眼科医院
+					</option>
+				
+					<option value='http://www.tjskq.com/'>
+						天津市口腔医院
+					</option>
+				
+					<option value='http://www.tjnkh.com.cn/'>
+						天津市南开医院
+					</option>
+				
+					<option value='http://www.tnsi.org'>
+						天津市环湖医院
+					</option>
+				
+					<option value='http://www.umc.net.cn/'>
+						天津市人民医院
+					</option>
+				
+					<option value='http://www.tjwsrc.com.cn'>
+						天津市卫生人才网
+					</option>
+				
+					<option value='http://www.tjbc.org.cn/'>
+						天津市血液中心
+					</option>
+				
+					<option value='http://www.tj-fch.com/'>
+						第一中心医院
+					</option>
+				
+					<option value='http://www.tmu.edu.cn/jswszx/'>
+						天津市安定医院
+					</option>
+				
+					<option value='http://www.tj4thch.cn'>
+						天津市第四中心医院
+					</option>
+				
+					<option value='http://www.chesthospital.com/'>
+						胸科医院
+					</option>
+				
+			</select>
+		
+			<select onchange="s_click(this)">
+				<option value="">
+					其他相关网站
+				</option>
+				
+					<option value='https://data.tj.gov.cn/'>
+						天津市信息资源统一开...
+					</option>
+				
+					<option value='http://www.jkb.com.cn'>
+						健康报网
+					</option>
+				
+					<option value='http://www.xinhuanet.com'>
+						新华网
+					</option>
+				
+					<option value='http://www.enorth.com.cn'>
+						北方网
+					</option>
+				
+			</select>
+		
+	</div>
+</div>
+<div class="footer">
+	<div class="foot Clear">
+		<div class="">
+			<ul class="Clear ul">
+				<div class="zflj">
+					<li class="dzjg">
+						<img src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291052585.png'class="img-responsive"title='党政机关' style="cursor:pointer;margin: 0 16px;"onclick="window.open('http://biaozhi.conac.cn/', '_blank');" />
+					</li>
+
+				</div>
+				<li class="dwxx">
+					<p>
+						<span><a>主办单位：天津市卫生健康委员会 </a></span>
+						<span><a>承办单位：天津市医学科学技术信息研究所</a></span>
+					</p>
+					<p>
+						<span><a>网站标识码：1200000045</a><a href="https://beian.miit.gov.cn/" target="_blank"> 津ICP备2022006936号</a></span>
+						<span> <a target="_blank"
+               title='津公网安备'
+               href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010302000991'>
+              <img src="https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291113769.png"class="guohui1" />
+            
+            津公网安备 12010302000991号</a></span>
+					</p>
+					<p>
+						<span><a>地址：天津市和平区贵州路94号</a></span>
+						<span><a>  联系电话：022-12345  邮政编码：300070 </a></span>
+					</p>
+				</li>
+				<li class="footer_gy">
+					<ul class="row">
+						<li class="zddt">
+							
+							<a href="https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/WZDT8136/" target="_blank" title="网站地图">网站地图</a>
+						</li>
+						
+						<span class="bt-left foot_line"></span>
+						<li class="lxwm">
+							
+							<a href='https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/LXWM8501/202008/t20200803_3363600.html' title='联系我们' target="_blank">
+								联系我们
+							</a>
+						</li>
+						<span class="bt-left foot_line"></span>
+						<li class="bqsm">
+							
+							<a href='https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/BQSM4486/202008/t20200803_3363598.html' title='版权申明' target="_blank">
+								版权申明
+							</a>
+						</li>
+						<span class="bt-left foot_line"></span>
+						<!-- <li class="zddt">
+              <img src=""class="img-responsive" />
+            <a href="/col/col47/index.html">站点地图</a></li> -->
+						<li class="gywm">
+							
+							<a href='https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/YSSM8549/202008/t20200803_3363599.html' title='隐私说明' target="_blank">
+								隐私说明
+							</a>
+						</li>
+						<span class="bt-left foot_line"></span>
+						<li class="sybz">
+							
+							<a href='https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/WZBZ410/202008/t20200803_3363597.html' title='网站帮助' target="_blank">
+								网站帮助
+							</a>
+						</li>
+					</ul>
+                                        <a  class="a_zhaocuo"><script id="_jiucuo_" sitecode='1200000045' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script></a>
+					<!--<a class="a_zhaocuo"title="政府网站找错"href="https://wsjk.tj.gov.cn/GLLLM6178/DBXX8253/zfwzzc/"target="_blank">
+						<img src='https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200824553002084303.png' />
+					</a>-->
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<!-- 用于获取背景图片全路径 -->
+<img id="gywm-bg"src="https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291274584.png"alt="1901292032479102356.png"title="1901292032479102356.png"style="display:none;" />
+<img id="lxwm-bg"src="https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291197342.png"alt="1901292032479136201.png"title="1901292032479136201.png"style="display:none;" />
+<img id="bqsm-bg"src="https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291231526.png"alt="1901292032479075708.png"title="1901292032479075708.png"style="display:none;" />
+<img id="zddt-bg"src="https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291150984.png"alt="1901292040356801255.png"title="1901292040356801255.png"style="display:none;" />
+<img id="sybz-bg"src="https://wsjk.tj.gov.cn/GLLLM6178/QDFY/TYDB/202008/W020200820422291319317.png"alt="1909191846479474203.png"title="1909191846479474203.png"style="display:none;" />
+
+<script type="text/javascript">
+	function s_click(obj) {
+		var num = 0;
+		for(var i = 1; i < obj.options.length; i++) {
+			if(obj.options[i].selected == true) {
+				num++;
+			}
+		}
+		if(num == 1) {
+			var url = obj.options[obj.selectedIndex].value;
+			window.open(url);
+		}
+	}
+
+	$(function() {
+		var gywmBackgroundUrl = $("#gywm-bg").attr('src');
+		var lxwmBackgroundUrl = $("#lxwm-bg").attr('src');
+		var bqsmBackgroundUrl = $("#bqsm-bg").attr('src');
+		var zddtBackgroundUrl = $("#zddt-bg").attr('src');
+		var sybzBackgroundUrl = $("#sybz-bg").attr('src');
+		$('.footer .foot .footer_gy .gywm a').css('background',"url("+ gywmBackgroundUrl +") no-repeat center 0px");
+		$('.footer .foot .footer_gy .lxwm a').css('background',"url("+ lxwmBackgroundUrl +") no-repeat center 0px");
+		$('.footer .foot .footer_gy .bqsm a').css('background',"url("+ bqsmBackgroundUrl +") no-repeat center 0px");
+		$('.footer .foot .footer_gy .zddt a').css('background',"url("+ zddtBackgroundUrl +") no-repeat center 0px");
+		$('.footer .foot .footer_gy .sybz a').css('background',"url("+ sybzBackgroundUrl +") no-repeat center 0px");
+		$(".footer .foot ul li .dwxx span").css("color","#ffffff");
+	});
+</script>
+<!--版本提示-->
+<style>
+	#verifyBrowser {
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 45px;
+		line-height: 45px;
+		background: #ffe266;
+		border-bottom: 1px solid #f5e29d;
+		border-top: 1px solid #f5e29d;
+		text-align: center;
+		font-size: 14px;
+		color: #444;
+		display: none;
+		z-index: 999;
+	}
+	
+	#verifyBrowser .close {
+		display: block;
+		width: 20px;
+		height: 20px;
+		color: #c29417;
+		cursor: pointer;
+		position: absolute;
+		top: 0px;
+		right: 20px;
+	}
+</style>
+<div id="verifyBrowser">
+	IE版本小于9，为了不影响您的浏览效果，请升级IE版本！
+	<a class="close"onclick="close_verifyBrowser()">x</a>
+</div>
+
+<style>
+#zzmsMobileBtn{
+display:none;
+/*background-color: #4a82b0c7;*/
+    height: 4.7rem;
+   
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    z-index: 1000;
+    width: 140px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+background-image:url(https://wsjk.tj.gov.cn/images/mobile_zzms.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.ghbClose{
+height: 20px;
+    width: 20px;
+    float: right;
+    margin: 5px 5px 0 0;
+    display: none;
+    cursor: pointer;
+}
+.ghbBtn{
+height: 40px;
+    width: 140px;
+    float: right;
+    margin: 0px 5px 0 0;
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px){
+#zzmsbtn{
+display:none;
+}
+#zzmsMobileBtn{
+display:block;
+}
+.ghbClose, .ghbBtn{
+  display: block;
+}
+}
+
+
+</style>
+<div id="zzmsMobileBtn"><div class="ghbClose"></div><div class="ghbBtn"></div></div>
+
+
+
+<script>
+	//判断浏览器版本，目前检测到IE9以下（不含IE9）
+	if(navigator.appName =="Microsoft Internet Explorer"&& parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g,"").replace("MSIE","")) < 9) {
+
+		document.getElementById("verifyBrowser").style.display ="block"//显示
+
+	}
+
+	//关闭版本过低的提示
+	function close_verifyBrowser() {
+		document.getElementById("verifyBrowser").style.display ="none"//关闭
+	}
+</script>
+
+<script>
+// 通篇朗读功能添加
+// tpldClass内为站点内各详情页内容模块的父标签，根据站点实际情况添加
+var tpldClass=[".detail-article .TRS_UEDITOR",".page_content .TRS_UEDITOR",".article_content .view.TRS_UEDITOR",".xw-txt .view.TRS_UEDITOR",".zw .view.TRS_UEDITOR",".yjzjdetail .view.TRS_UEDITOR"];
+$.each(tpldClass,function(n,value){
+	if($(value).length != 0){
+	window.esdArOption = {contentDom: value};
+	return true
+	}
+});
+
+
+// 判断是否是手机端
+function ismobile () {
+  var mobileArry = ["iPhone", "iPad", "Android", "Windows Phone", "BB10; Touch", "BB10; Touch", "PlayBook", "Nokia"];
+  var ua = navigator.userAgent;
+  var res = [];
+  for (var i = 0; i < mobileArry.length; i++) {
+    if (mobileArry[i] && ua.indexOf(mobileArry[i]) > 0) {
+      res.push(mobileArry[i]);
+    }
+  }
+  return res.length > 0;
+}
+//关闭移动端按钮
+$('.ghbClose').click(function () {
+$("#zzmsMobileBtn").hide();
+})
+// 把纠错标签从pc端的dom移到移动端
+$(function(){
+var TjElderModelFlag = getCookie('TjElderModelFlag');
+    if (ismobile ()|| TjElderModelFlag === "2"){
+       let str = $('.find-error-box').html()
+       $('.find-error-mbox').html(str)
+    } 
+})
+/*长者模式s*/
+$(function(){
+  var zzmsword = getCookie('TjElderModelFlag');
+    //切换长者模式按钮
+ if (zzmsword !== "2") {
+ $('#zzmsbtn span').text("长者模式");
+}else{
+ $('#zzmsbtn span').text("退出长者模式");
+$('.gablink').css({"padding":"2px 6px","margin-left":"10px"});
+}
+
+
+
+ //切换长者模式按钮
+ $('#zzmsbtn').click(function () {
+        var zzmsword1 = getCookie('TjElderModelFlag');
+        if (zzmsword1 !== "2") {//如果当前不是长者模式，打开工具条，进入长者模式 
+          addCookie('wzalsOn', 'true', 0);
+          $('body').addClass("useOldFixed");
+if(typeof(EsdToolbarInit.openClickFunc)=='function'){
+				 EsdToolbarInit.openClickFunc();
+			 }
+          // 开着工具条打开长者模式
+          if(typeof(EsdToolbar)=="object"&&EsdToolbar.isOpen){
+	jq_t("#toolbar_Div").css("overflow","hidden");
+	jq_t("body").css("padding-top", "98px");
+	if(EsdToolbar.defalt.browser.mozilla){
+		jq_t("body")[0].style.setProperty("transform","unset","important");
+		jq_t("body")[0].style.setProperty("transform-origin","unset","important");
+		jq_t("#toolbar_Div").css({"-moz-transform":"scale(1.5)","-moz-transform-origin":"center -64px 0px"});
+		jq_t("#toolbarHtml").css({"-moz-transform":"scale(1)","-moz-transform-origin":"top"});
+	}
+	
+	jq_t("#toolbarHtml").show("fast",function(){
+		if(!EsdToolbar.defalt.browser.msie){
+			jq_t("#toolbarHtml").css("zoom","0.67");
+			jq_t("body").css({"max-width":"100%","min-width":"100%","padding-top":"65px"});
+		}else{
+			jq_t("#toolbarHtml").css("left","0");
+			jq_t("body").css({"max-width":"100%","padding-top":"65px"});
+		}
+		if(EsdToolbar.pageZoom.zoom>=1.3){
+			jq_t("body").css({"max-width": "170%", "min-width": "170%"});
+		}
+		jq_t("#toolbarPage2").hide();
+		jq_t("#toolbar").show();
+		//jq_t("body").css({"max-width":"100%","min-width":"100%","padding-top":"65px"});
+		jq_t("#toolbar_Div").css({"width":"750px","margin":"0 auto"});
+		setTimeout(function(){jq_t("#toolbar").show();},500);
+	});
+}
+    $('#zzmsbtn span').text("退出长者模式");
+    let str = $('.find-error-box').html()
+    $('.find-error-mbox').html(str)
+    if (IEVersion()) {
+        $("body").css({
+            transform: "scale(1.5)",
+            "-moz-transform": "scale(1.5)",
+            "-ms-filter": "scale(1.5)",
+            "transform-origin": "center top",
+            "-ms-transform-origin": "center top",
+        });
+        $("body").css("zoom", "1");
+        }
+  } else {//如果当前是长者模式，关闭工具条，退出长者模式
+    addCookie('wzalsOn', 'false', 0);
+    $('body').removeClass("useOldFixed");
+    $('#zzmsbtn span').text("长者模式");
+    try {
+      EsdToolbar.close();
+    } catch (error) {
+      // console.log("捕获异常");
+    }
+  }
+  ElderModeTool.changeElderMode();
+});
+
+
+    //关闭工具条按钮
+    $('#toolbar_exit').bind("click",function(){
+        //关闭工具条，判断当前是否处于长者模式，如果是则退出长者模式
+        var zzmsword = getCookie("TjElderModelFlag");
+        if (zzmsword === "2") {
+            addCookie("TjElderModelFlag", "1", 0);
+        }
+if(getCookie('TjElderMobileFlag') === "2"){
+        addCookie('TjElderMobileFlag',"1",0);
+           addCookie('wzalsOn', 'false', 0);
+          try{
+            EsdToolbar.close();
+           }catch(error){
+                // console.log("捕获异常");
+           }
+
+
+    } 
+    });
+// 进入关怀版 - *记得注释掉ElderModelTool.js文件中的代码
+var MzjGhbFlag = getCookie('TjElderMobileFlag');
+if(ismobile()&&zzmsword != 2){
+if(MzjGhbFlag === "2"){
+    var cssFileUrl = "https://wsjk.tj.gov.cn/images/SetMobileElder.css";//此处更改站点域名
+    if (cssFileUrl) {
+        $("<link>").attr({
+            rel: "stylesheet",
+            type: "text/css",
+            href: cssFileUrl,
+        }).appendTo("head");
+    }
+$("#zzmsMobileBtn").css("display","none");
+
+
+}else{
+removejscssfile("SetMobileElder", "css");
+
+$("#zzmsMobileBtn").css("display","block");
+}
+}
+//移动端关怀版切换
+$("#zzmsMobileBtn .ghbBtn").bind("click",function(){
+    if(getCookie('TjElderMobileFlag') === "2"){
+        addCookie('TjElderMobileFlag',"1",0);
+           addCookie('wzalsOn', 'false', 0);
+          try{
+            EsdToolbar.close();
+           }catch(error){
+                // console.log("捕获异常");
+           }
+   $("#zzmsMobileBtn").css("display","block");
+    } else{
+        addCookie('TjElderMobileFlag',"2",0);
+         addCookie('wzalsOn', 'true', 0);
+       if(typeof(EsdToolbarInit.openClickFunc)=='function'){
+         EsdToolbarInit.openClickFunc();
+}
+$("#zzmsMobileBtn").css("display","none");
+    }
+    location.reload();
+})
+});
+
+
+
+</script>
+
+
+<script src="https://jyhpt.tj.gov.cn/images/ta_Info.js" async="async" defer="defer"></script>
+<!-- 通用尾 END -->
+<link rel="stylesheet" href="https://wsjk.tj.gov.cn/images/ZZMS_change.css">
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/articleReader.js"></script>
+<script type="text/javascript" src="https://wsjk.tj.gov.cn/images/RoleSetInit.js"></script>
+<script type="text/javascript" src="https://wsjk.tj.gov.cn/images/ElderModelTool.js"></script>
+<script type="text/javascript" src="https://wsjk.tj.gov.cn/images/esdToolsInit.js" charset="UTF-8"></script>
+<!--非党政机关链接跳转提示脚本-->	 
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/offSiteLinkRedirectionPrompt.js" charset="UTF-8" defer="defer"></script>
+<script type="text/javascript" src="https://wsjk.tj.gov.cn/images/jquery.qrcode.min.js"></script>
+<!--归档脚本-->	
+<script type="text/javascript" src="https://wsjk.tj.gov.cn/images/setArchiving.js" charset="UTF-8"></script>
+<script>
+var weixinHtml = '<div id="share-qrcode"><h3 id="share_container">微信分享“扫一扫”</h3><dd id="share_div"></dd></div>';
+if($('.gwds_weixin').lenght != 0){
+$('.gwds_weixin').append(weixinHtml);
+jQuery('#share_div').qrcode(window.location.href);
+}
+</script>
+<style>
+#share-qrcode {
+  border: 1px solid #ddd;
+  width: 170px;
+  padding: 14px;
+  position: absolute;
+ display:none;
+  z-index: 99;
+  top: -220px;
+  left: -56px;
+  background: #fff;
+  border-radius: 3px;
+}
+#share-qrcode h3 {
+  font-size: 14px;
+  line-height: 40px;
+    padding: 0;
+}
+#share-qrcode dd {
+  height: 140px;
+}
+.detail-left >img{
+    object-fit: contain;
+    margin-left: 0;
+}
+.imglist img{
+width:500px;
+height:300px;
+  object-fit: contain;
+}
+.left-bottom{
+    margin-left: 10px;
+}
+.title-ewm li .icon_nor{
+display:none;
+}
+.title-ewm li .icon_sel{
+display:inline-block;
+}
+.title-ewm li:hover{
+color: #4270AA;
+}
+.title-ewm li:hover a{
+color: #4270AA;
+}
+.code-div img{
+    background-color: #fff;
+}
+
+
+#zoom .TRS_UEDITOR img{
+margin:0 auto;
+}
+</style>
+
+<!-- visitcount Begin -->
+<!-- <iframe src='javascript:;' name="vishidden" id="vishidden" frameborder="0"
+style="width:0; height:0; display:none"></iframe> -->
+<!-- visitcount End -->
+<script language="javascript" src='./images/pagecontrol.js'></script>
+<!--试运行站点 *添加在首页* -->
+		<style>
+			.dialog{
+    width: 40%;
+    height: 120px;
+    position: fixed;
+    background: #fff;
+    text-align: center;
+    top: 50%;
+    z-index: 9999;
+    left: 30%;
+    border: 2px solid #ccc;
+}
+.dialog .close{
+    display:block;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+    cursor: pointer;
+}
+</style>
+
+</body>
+<script>
+  jQuery(".slideBox").slide({
+    mainCell: ".bd ul",
+    autoPlay: true
+  });
+  var lunbo = $("#mr_frbox_cs").html()
+
+  $(function(){
+    // 长者模式点击事件
+    $("#zzmsbtn").click(function(){ 
+      $("#mr_frbox_cs").html("");
+      $("#mr_frbox_cs").html(lunbo);
+      $("#mr_frbox_cs").slide({
+      titCell: "",
+      mainCell: ".mr_frUl ul",
+      autoPage: true,
+      effect: "leftLoop",
+      autoPlay: true,
+      vis: 2
+    });
+  });
+ var zzmsword = getCookie('TjElderModelFlag');
+    //切换长者模式按钮
+ if (zzmsword !== "2") {
+  $("#mr_frbox_cs").slide({
+    titCell: "",
+    mainCell: ".mr_frUl ul",
+    autoPage: true,
+    effect: "leftLoop",
+    autoPlay: true,
+    vis: 3
+  });
+}else{
+ $("#mr_frbox_cs").slide({
+    titCell: "",
+    mainCell: ".mr_frUl ul",
+    autoPage: true,
+    effect: "leftLoop",
+    autoPlay: true,
+    vis: 2
+  });
+}
+})
+
+</script>
+
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/jr_festivalInit.js"></script>
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/jr_daimabiji.js"></script>
+<script type="text/javascript" src="https://jyhpt.tj.gov.cn/images/jr_grayscale.js"></script>
+<link rel="stylesheet" href="https://jyhpt.tj.gov.cn/images/jr_festival.css"></link>
+<script>
+  $(function () {
+    // 0默认 1哀悼 2庆典
+    var festivalType =
+        '0';
+    // 默认图片
+    var festivalUrl =
+        'https://wsjk.tj.gov.cn/GLLLM6178/jrztqh/202009/W020260928413839387356.jpg';
+    // 庆典弹窗背景色
+    var festivalColor =
+        '#ff0000';
+    festivalFun(parseInt(festivalType), festivalUrl, festivalColor);
+if(festivalType === "3"){	  
+    $('body').prepend("<div class='lrtk'><img class='bg' src='" + festivalUrl + "' /><a href='javascript:;' class='link'></a></div>");
+    // 图片高度
+       var config = {
+         width: 1920,
+         closeHeight: 220,
+         openHeight: 920
+       }
+       // 显示区域宽度
+       var innerWidth = window.innerWidth;
+
+       // 计算宽度小于1920的收起高度
+       function getCloseHeight () {
+         if (innerWidth > 1920) {
+           return config.closeHeight
+         }
+         return innerWidth / (config.width / config.closeHeight)
+       }
+
+       // 计算宽度小于1920的展开高度
+       function getOpenHeight () {
+         if (innerWidth > 1920) {
+           return config.openHeight
+         }
+         return innerWidth / (config.width / config.openHeight)
+       }
+
+       // 背景样式
+       var backgroundObj = {
+         "background-image": "url(" + festivalUrl + ")",
+         "background-color": festivalColor,
+         "background-position": "center top",
+         "background-repeat": "no-repeat",
+         "display":"block",
+         "height": "auto",
+       }
+       // 设置区域默认高度和背景样式
+       $('.lrtk').css(backgroundObj);
+       $('.lrtk').find(".bg").css({"position":"static"});
+   }
+//end *1
+$("#zzmsbtn").click(function () {
+$(".lrtk").remove();
+  festivalFun(parseInt(festivalType), festivalUrl, festivalColor);
+})
+//长者模式样式微调
+//var zzmsword = getCookie('TjElderModelFlag');    
+ if (getCookie('TjElderModelFlag') == "2") {
+$('.Content').css("margin-top","10px");
+ $('.lbt .slideBox').css("height",'auto');
+}
+//长者模式样式微调
+
+  });
+</script>
+
+</html>

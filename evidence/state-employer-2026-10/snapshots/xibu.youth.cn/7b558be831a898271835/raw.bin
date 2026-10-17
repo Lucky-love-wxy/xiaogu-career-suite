@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="gb2312">
+   
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.3, maxmum-scale=1.0, minimum-scale=0.3">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        西部计划_中国青年网
+    </title>
+    <link rel="stylesheet" href="./images/2020518base.css">
+    <link rel="stylesheet" href="./images/20260423xibujihua.css">
+    <link rel="stylesheet" href="https://news.youth.cn/images/2023025swiper.min.css">
+    <script type="text/javascript" src="https://news.youth.cn/images/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="https://news.youth.cn/images/2023025swiper.min.js"></script>
+</head>
+
+<body>
+    
+    <style>
+.hd_top {
+    width: 100%;
+    border-top: 5px solid #38a548;
+    background: #f7f7f7;
+    height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.hd_top1 {
+    width: 1000px;
+    height: 5px;
+    background: url(//news.youth.cn/images/youth_sjy_01.jpg) no-repeat;
+    margin: -5px auto;
+}
+.hd_top_box {
+    width: 1240px; 
+   
+    height: 40px;
+    margin: 0 auto;
+    line-height: 50px;
+   text-align: center;
+
+  font-size: 12px;
+    color: #666666;
+}
+.hd_top_box a {
+    padding: 0 14px;
+    font-size: 12px;
+    color: #666666;
+font-family:"Microsoft Yahei",helvetica,arial,sans-serif;
+    word-wrap: break-word;
+}
+.hd_top_box span img{
+    vertical-align: middle;
+    width: 13px;
+    color: #666666;
+    transform: translateY(-2px);
+    padding: 0 10px;
+    cursor: pointer;
+}
+            
+        }
+
+</style>
+
+
+
+
+<div class="hd_top">
+            <div class="hd_top1"></div>
+<div class="hd_top_box">
+
+<a href="//www.youth.cn/">首页</a>|<a href="//news.youth.cn/">新闻</a>|<a href="//picture.youth.cn/">图片</a>|<a href="//pinglun.youth.cn/">评论</a>|<a href="//finance.youth.cn/">财经</a>|<a href="//www.gqt.org.cn/">共青团</a>|<a href="//dszk.youth.cn/">大思政</a>|<a href="//v.youth.cn/">青年电视</a>|<a href="//qnzs.youth.cn/">青年之声</a>|<a href="//fazhi.youth.cn/">法治</a>|<a href="//edu.youth.cn/">教育</a>|<a href="//txs.youth.cn">中青校园</a>|<a href="//qclz.youth.cn/">励志</a>|<a href="//wenhua.youth.cn/">文化</a>|<a href="//mil.youth.cn/">军事</a>|<a href="//sports.youth.cn/">体育</a>|<a href="//df.youth.cn/">地方</a>|<a href="//fun.youth.cn/">娱乐</a>|<a href="//en.youth.cn/">ENGLISH </a>
+
+    </div>
+</div>    <!--青网头部通用导航嵌套-->
+    <style>
+.xibu_header {
+    width: 100%;
+    height: 209px;
+    margin: 0 auto;
+    background: url("//xibu.youth.cn/images/202656xbjh-banner.jpg") no-repeat center 0;
+}
+
+.xibu_meau {
+    width: 100%;
+    height: 49px;
+    margin: 0 auto 32px;
+    background-color: #1a85d1;
+}
+
+.xibu_meau ul {
+    width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 70px; */
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+}
+
+.xibu_meau ul li {
+    float: left;
+    text-align: justify;
+}
+
+.xibu_meau ul li a {
+    color: #fffefe;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.xibu_meau ul li a:hover {
+    font-weight: 200;
+}
+</style>
+<div class="xibu_header"></div>
+    <div class="xibu_meau">
+        <ul>
+            <li>
+                <a href="//xibu.youth.cn" target="_blank">首页</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/xxmjs/" target="_blank">项目介绍</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/xxdt/" target="_blank">信息动态</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/tzgg/" target="_blank">通知公告</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/xjyjl/" target="_blank">经验交流</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/zyby/" target="_blank">志愿榜样</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/zygw/" target="_blank">志愿感悟</a>
+            </li>
+            <li>
+                <a href="//xibu.youth.cn/xzywh/" target="_blank">志愿文化</a>
+            </li>
+        </ul>
+    </div>   <!--xibu头部通用导航嵌套-->
+    <div class="xibu_content ">
+        <div class="xibu_copybox">
+            <div class="xibu_item">
+                <div class="carousel" id="carousel">
+                    <div class="container">
+                        <div class="swiper-container swiper-newTabs">
+                            <div class="swiper-wrapper">
+                                
+                                    <div class="swiper-slide">
+                                        <a href='//xibu.youth.cn/hdp/202607/t20260702_16743078.htm' target="_blank">
+                                            <img src="./hdp/202607/W020260702595075403574.jpg" alt="1.jpg" width='790' height='445' border='0'/>
+                                        </a>
+                                        <div class="swiper-title">
+                                            <a href='//xibu.youth.cn/hdp/202607/t20260702_16743078.htm' target="_blank">
+                                                习近平：在庆祝中国共产党成立105周年大会上的讲话
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="swiper-slide">
+                                        <a href='//xibu.youth.cn/hdp/202605/t20260506_16644731.htm' target="_blank">
+                                            <img src="./hdp/202605/W020260511356890362338.jpg" alt="1.jpg" width='790' height='445' border='0'/>
+                                        </a>
+                                        <div class="swiper-title">
+                                            <a href='//xibu.youth.cn/hdp/202605/t20260506_16644731.htm' target="_blank">
+                                                习近平回信勉励中国青年五四奖章暨新时代青年先锋奖获奖者代表
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="swiper-slide">
+                                        <a href='//xibu.youth.cn/hdp/202605/t20260509_16649943.htm' target="_blank">
+                                            <img src="./hdp/202605/W020260509418763798588.jpg" alt="未标题-2.jpg" width='790' height='445' border='0'/>
+                                        </a>
+                                        <div class="swiper-title">
+                                            <a href='//xibu.youth.cn/hdp/202605/t20260509_16649943.htm' target="_blank">
+                                                习近平总书记引领青年志愿者挺膺担当、矢志奋斗
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+
+                            </div>
+                            <div class="swiper-button-prev">
+                                <img src="./images/20241231lefticon.png" alt="" />
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="./images/20241231righticon.png" alt="" />
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                        <div class="swiper-number">
+                            <b class="count">1</b>
+                            <span class="linears">/</span>
+                            <span class="common">4</span>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    var swiperNew = new Swiper('.container .swiper-container', {
+                        loop: true,
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        }
+                    });
+
+                    var common = $(".swiper-newTabs .swiper-wrapper>div").length
+                    $(".common").html(common - 2)
+                    swiperNew.on('slideChangeTransitionEnd', function () {
+                        var activeIndexs = swiperNew.activeIndex
+                        if (activeIndexs > $(".swiper-newTabs .swiper-slide").length - 2) {
+                            activeIndexs = 1
+                        } else if (activeIndexs < 1) {
+                            activeIndexs = $(".swiper-newTabs .swiper-slide").length - 2
+                        }
+                        $(".count").html(activeIndexs)
+                    })
+                </script>
+                <div class="xibu_right">
+                    <div class="xibu_column">
+                        <span> <img src="./images/zhongxindongtai01.png" alt="信息动态" /></span>
+                        <h1>信息动态</h1>
+                        <a href="//xibu.youth.cn/xxdt/" target="_blank">更多>></a>
+                    </div>
+                    <ul class="xibu_list">
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202607/t20260702_16743056.htm' target="_blank">
+                                    庆祝中国共产党成立105周年大会在京隆重举行
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202605/t20260518_16664908.htm' target="_blank">
+                                    共青团中央印发《关于推进中国青年志愿者行动高质量发展的指导意见》
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202605/t20260518_16664900.htm' target="_blank">
+                                    团中央青年志愿者行动指导中心负责人就《关于推进中国青年志愿者行动高质量发展的指导意见》答记者问
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202605/t20260518_16664891.htm' target="_blank">
+                                    共青团中央办公厅、教育部办公厅联合印发《关于进一步加强中国青年志愿者研究生支教团工作的意见》
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202610/t20261009_16905896.htm' target="_blank">
+                                    “长大后我就成了你”
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202610/t20261009_16905882.htm' target="_blank">
+                                    广西财政支持西部计划志愿者人数与资金双创新高
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202610/t20261009_16905691.htm' target="_blank">
+                                    缅怀英烈赓续薪火 中国人民公安大学研支团在桂黔两地开展主题活动
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202610/t20261009_16905461.htm' target="_blank">
+                                    四川成都市龙泉驿区项目办召开新老志愿者交流座谈会
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202610/t20261009_16905413.htm' target="_blank">
+                                    中国农大研支团开展书信交流搭建边疆学子与高校青年沟通桥梁
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href='//xibu.youth.cn/xxdt/202610/t20261009_16905350.htm' target="_blank">
+                                    东北农业大学研支团在新疆福海举办爱心生日会
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="xibu_item">
+                <div class="xibu_itemList">
+                    <div class="xibu_column">
+                        <span> <img src="./images/tongzhigonggao02.png" alt="通知公告" /></span>
+                        <h1>通知公告</h1>
+                        <a href="//xibu.youth.cn/tzgg/" target="_blank">更多>></a>
+                    </div>
+                    <ul class="xibu_list">
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202610/t20261008_16903527.htm' target="_blank">
+                                    关于2025—2026年度西部计划考核等次优秀志愿者名单的补充公示
+                                </a>
+                            </li>
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202609/t20260923_16884164.htm' target="_blank">
+                                    第29届研究生支教团家长知情同意书
+                                </a>
+                            </li>
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202609/t20260923_16884151.htm' target="_blank">
+                                    第29届研究生支教团志愿者既往病史承诺书
+                                </a>
+                            </li>
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202604/t20260423_16623559.htm' target="_blank">
+                                    2026—2027年度西部计划服务协议书
+                                </a>
+                            </li>
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202604/t20260423_16623558.htm' target="_blank">
+                                    2026—2027年度西部计划招募协议书
+                                </a>
+                            </li>
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202604/t20260423_16623561.htm' target="_blank">
+                                    2026年西部计划志愿者体检项目
+                                </a>
+                            </li>
+                        
+                            <li >
+                                <a href='//xibu.youth.cn/tzgg/202604/t20260423_16623560.htm' target="_blank">
+                                    2026年西部计划志愿者体检标准
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div class="xibu_right">
+                    <div class="xibu_column">
+                        <span> <img src="./images/xiangmujieshao03.png" alt="项目介绍" /></span>
+                        <h1>项目介绍</h1>
+
+                    </div>
+                    <div class="xibu_text">
+                         
+                        <a href='//xibu.youth.cn/xxmjs/202604/t20260423_16623639.htm' target="_blank">
+                            大学生志愿服务西部计划是由共青团中央、教育部、财政部、人力资源社会保障部，共同组织实施的重大工作项目。
+                        </a>
+                        
+                    </div>
+                    <div class="xibu_column">
+                        <span> <img src="./images/baomingmingdan04.png" alt="报名和管理系统" /></span>
+                        <h1>报名和管理系统</h1>
+                    </div>
+                    <div class="xibu_img">
+                          
+                        <a href='https://west.youth.cn/login?redirect=/home' target="_blank">
+                            <img src="./bmglxt/202604/W020260423539389393389.jpg" alt="14B719D3D0870345FF1D853264611AEF.jpg" width='385' height='160' border='0'/>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xibu_copybox2">
+            <div class="four_item">
+                <div class="xibu_column">
+                    <span> <img src="./images/zhiyuanganwu05.png" alt="志愿感悟" /></span>
+                    <h1>志愿感悟</h1>
+                    <a href="//xibu.youth.cn/zygw/" target="_blank">更多>></a>
+                </div>
+                <ul class="xibu_list">
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202610/t20261009_16905845.htm' target="_blank">
+                                在梨城，我和一群“怕物理”的孩子重新开始
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202610/t20261008_16904029.htm' target="_blank">
+                                北塔山的风会记得，我曾把青春种在这里
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202609/t20260930_16895800.htm' target="_blank">
+                                在克州的溪流里，打捞青春的涟漪
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202609/t20260922_16882681.htm' target="_blank">
+                                我把温暖留在乌苏的朝夕里
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202609/t20260922_16882518.htm' target="_blank">
+                                天龙峰下书声琅琅
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202609/t20260918_16875962.htm' target="_blank">
+                                在边疆，做一颗拧紧的螺丝钉
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zygw/202609/t20260916_16872157.htm' target="_blank">
+                                踏遍青山迎长风
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="four_item">
+                <div class="xibu_column">
+                    <span> <img src="./images/zhiyuanbangyang06.png" alt="志愿榜样" /></span>
+                    <h1>志愿榜样</h1>
+                    <a href="//xibu.youth.cn/zyby/" target="_blank">更多>></a>
+                </div>
+                <ul class="xibu_list">
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202610/t20261008_16904041.htm' target="_blank">
+                                王鹏：把青春安放在重生的北川
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202609/t20260929_16893990.htm' target="_blank">
+                                陈育中：和学生一起把“？”拧成“！”
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202609/t20260921_16880995.htm' target="_blank">
+                                志愿者封亚倩：甘做幼苗守沃土 一心留疆绽芳华
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202609/t20260920_16878720.htm' target="_blank">
+                                志愿者付星旗：为乡镇孩子带去足球的希望
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202609/t20260918_16875946.htm' target="_blank">
+                                志愿者肖罗成：“捧着一颗心来，不带半根草去”
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202609/t20260910_16862323.htm' target="_blank">
+                                志愿者郭雅婧：以初心守团岗 以实干护少年
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/zyby/202609/t20260909_16860235.htm' target="_blank">
+                                志愿者喻红晶：一把剃刀守护乡亲们的“头等大事”
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="xibu_copybox2">
+            <div class="four_item">
+                <div class="xibu_column">
+                    <span> <img src="./images/jingyanjiaoliu07.png" alt="经验交流" /></span>
+                    <h1>经验交流</h1>
+                    <a href="//xibu.youth.cn/xjyjl/" target="_blank">更多>></a>
+                </div>
+                <ul class="xibu_list">
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xxdt/202608/t20260818_16821106.htm' target="_blank">
+                                陕西宁陕：“双导师”帮带机制助志愿者扎根宁陕干事创业
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xjyjl/202608/t20260814_16815228.htm' target="_blank">
+                                青海乌兰县“三措并举”做实新志愿者接收安置工作
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xxdt/202607/t20260728_16786941.htm' target="_blank">
+                                四川大英县项目办全链条锻造青年基层“生力军”
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xxdt/202607/t20260716_16767337.htm' target="_blank">
+                                新疆阿勒泰：让青年人才从“候鸟”变“归人”
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xjyjl/202604/t20260429_16634481.htm' target="_blank">
+                                吉大研支团：让社团成为课堂的“第二引擎”
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xjyjl/202604/t20260429_16634418.htm' target="_blank">
+                                深耕引育用留，激发志愿者建功西部活力
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xjyjl/202604/t20260429_16634446.htm' target="_blank">
+                                黑龙江鸡西：让志愿青春在边疆绽放绚丽光芒
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="four_item">
+                <div class="xibu_column">
+                    <span> <img src="./images/zhiyuanwenhua08.png" alt="志愿文化" /></span>
+                    <h1>志愿文化</h1>
+                    <a href="//xibu.youth.cn/xzywh/" target="_blank">更多>></a>
+                </div>
+                <ul class="xibu_list">
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202609/t20260920_16879009.htm' target="_blank">
+                                “志愿文学”征文活动获奖作品：霞林村，我用志愿致青春（中）
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202607/t20260720_16773900.htm' target="_blank">
+                                "志愿文学"征文活动获奖作品:霞林村，我用志愿致青春(上)
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202607/t20260710_16757557.htm' target="_blank">
+                                “志愿文学”征文活动获奖作品：玉树格桑花（下）
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202607/t20260702_16742861.htm' target="_blank">
+                                “志愿文化”征集活动获奖作品：玉树格桑花（中）
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202606/t20260624_16729496.htm' target="_blank">
+                                舞台剧《青春戍边》：让家国情怀可感、可知、可学
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202606/t20260615_16714658.htm' target="_blank">
+                                “志愿文学”征文活动获奖作品：篮球雏鹰（下）
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href='//xibu.youth.cn/xzywh/202606/t20260612_16710303.htm' target="_blank">
+                                “志愿文学”征文活动获奖作品：篮球雏鹰（中）
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+       <style>
+.xibu_footer {
+    width: 100%;
+    float: left;
+    background-color: #1a85d1;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.xibu_footer_center {
+    width: 760px;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+.xibu_footer_center p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.xibu_footer_center p a {
+    color: #ffffff;
+}
+
+.xibu_footer_center p a:hover {
+    text-decoration: underline;
+}
+</style>
+<div class="xibu_footer">
+        <div class="xibu_footer_center">
+            <div class="youth_copyright">
+                <p><a>关于我们</a> | <a href="//www.youth.cn/lxwm/">联系我们</a> | <a
+                        href=' //files.youth.cn/download/202407/P020240730601526517598.pdf'
+                        target="_blank">广告服务</a> | <a>人才招聘</a> | <a
+                        href="//www.12377.cn/">违法和不良信息举报</a>&nbsp;&nbsp;&nbsp;&nbsp;Youth.cn. 请发送qnb至10658000 订阅中国青年手机报
+                </p>
+                <p>共青团中央主办 中国青年报主管 　版权所有：<a href="//www.youth.cn">中国青年网</a></p />
+                <p>信息网络传播视听节目许可证0105108号 <a href="http://beian.miit.gov.cn" target="_blank">京ICP备13016345号-8 </a> <a
+                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102004843"
+                        target="_blank">京公网安备 11010102004843号</a></p />
+                <p>全国项目办联系电话：01085212269　　 　西部计划投稿邮箱 : <a>xibu85212120@126.com</a> </p />
+            </div>
+        </div>
+    </div>
+     <style type="text/css">
+/*二维码*/
+/* 1. 小屏幕（默认） */
+#identifier-pannel{
+    position:fixed;
+    left: 90%;
+    z-index:9999;
+    top:380px;
+    
+}
+
+/* 2. 屏幕 ≥1300px */
+@media (min-width: 1300px) {
+  #identifier-pannel{
+     left: 90%;
+  }
+}
+
+/* 3. 超大屏幕 ≥1920px */
+@media (min-width: 1920px) {
+  #identifier-pannel{
+     left: 83%;
+width: 170px;
+  }
+}
+#identifier-pannel a:link,#identifier-pannel a:visited{
+    display:block;
+    padding:10px;
+    /* line-height:18px; */
+    font-size:12px;
+    /* color:#333; */
+    /* text-decoration:none; */
+    /* white-space:normal; */
+    /* text-align:center; */
+    /* background:#f9f9f9; */
+}
+#identifier-pannel a:hover{
+    /* background:#ccd8db; */
+    /* color:#000; */
+}
+#identifier-pannel img{
+    display:block;
+    margin:5px auto;
+    border:none;
+}
+.identifier-info{
+    /* width: 170px;
+    margin-top: 5px; */
+    float: right;
+}
+.identifier-info img{
+    width: 100%;
+    margin: 0 auto;
+}
+</style>
+<script type="text/javascript">
+//滚动页面时DIV到达顶部时固定在顶部
+    $(function () {
+        var ie6 = document.all;
+        var dv = $('#identifier-pannel'), st;
+        dv.attr('otop', dv.offset().top); //存储原来的距离顶部的距离
+        $(window).scroll(function () {
+            st = Math.max(document.body.scrollTop || document.documentElement.scrollTop);
+            if (st > parseInt(dv.attr('otop'))) {
+                if (ie6) {//IE6不支持fixed属性，所以只能靠设置position为absolute和top实现此效果
+                    dv.css({ position: 'absolute', top: st });
+                }
+                else if (dv.css('position') != 'fixed') dv.css({ 'position': 'fixed', top: 0 });
+            }else if (dv.css('position') != 'absolute') dv.css({ 'position': 'absolute',top: parseInt(dv.attr('otop'))});
+        });
+        //alert(parseInt(dv.attr('otop')))
+    });
+</script>
+<script>
+var yw_num=  4;
+Fun(yw_num,"xibu_list");
+function Fun(num,class_name)
+{
+var _className=document.getElementsByClassName(class_name)[0].getElementsByTagName("li");
+var total_num=_className.length;
+
+for (i = num; i < total_num; i++) { 
+    _className[i].style.display="none";
+ }
+}
+
+</script>
+<div id="identifier-pannel" style="position:absolute;" otop="284.609375">
+    <div id="J_swim" style="    width: 150px;margin: 0 auto;">
+        <a href="">    
+            <img style="border:none;" src="./images/xbjh_weixin.jpg" />
+            <p style="width:136px; text-align:center;">微信：西部志愿汇</p>     
+        </a>
+        <a id="J_close" href="javascript:void(document.getElementById('identifier-pannel').style.display='none')" target="_self" style="display:inline-block;opacity:0.6;font-family:tahoma,microsoft yahei;position:absolute;top:-2px;right:3px;width:16px;height:16px;line-height:16px;text-decoration:none;text-align:center;background:#fff;color:#000;filter:Alpha(opacity=60);">x</a>
+    </div>
+   <div class="identifier-info">
+     <a href=""><img src="./images/20240528xibuimg.jpg" style="margin:0 auto" /></a>
+   </div>
+
+</div>
+</body>
+
+</html>

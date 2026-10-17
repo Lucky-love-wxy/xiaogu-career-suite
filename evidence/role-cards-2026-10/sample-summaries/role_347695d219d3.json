@@ -1,0 +1,131 @@
+{
+  "name": [
+    {
+      "text": "环保工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "环保工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 2,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责在区域大气污染防治技术咨询服务项目中对当地大气污染防治管理现状进行调查、评估",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vlU55ntaz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vlU55ntaz",
+          "text": "负责在区域大气污染防治技术咨询服务项目中对当地大气污染防治管理现状进行调查、评估"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5nn5Ma",
+        "vlU55ntaz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vlU55ntaz"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5nn5Ma",
+        "vlU55ntaz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "v8l5nn5Ma"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，2份专业类字段为“环境科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5nn5Ma",
+        "vlU55ntaz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "环境科学与工程类",
+        "n": 2,
+        "denominator": 2,
+        "matched_ids": [
+          "v8l5nn5Ma",
+          "vlU55ntaz"
+        ]
+      }
+    },
+    {
+      "text": "2份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5nn5Ma",
+        "vlU55ntaz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "v8l5nn5Ma"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "环保工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlU55ntaz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "环保工程师岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5nn5Ma"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

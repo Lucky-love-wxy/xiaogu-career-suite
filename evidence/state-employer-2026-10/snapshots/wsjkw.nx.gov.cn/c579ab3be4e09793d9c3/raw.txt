@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>宁夏回族自治区卫生健康委员会</title>
+   <meta name="author" content="宁夏回族自治区卫生健康委员会" >
+ <meta name="Copyright" content="宁夏回族自治区卫生健康委员会" >
+<meta name="keywords" content="宁夏卫健委,宁夏中医药管理局,宁夏卫生健康委、宁夏回族自治区中医药管理局,宁夏回族自治区卫生健康委员会，健康宁夏，宁夏回族自治区卫生健康委员会网站,宁夏中医药管理局网站">
+<meta name="description" content="宁夏回族自治区卫生健康委员会是宁夏回族自治区人民政府组成部门，为正厅级，挂自治区中医药管理局牌子。">
+<meta name="SiteName" content="宁夏回族自治区卫生健康委员会">
+<meta name="SiteDomain"content="www.wsjkw.nx.gov.cn/">
+<meta name="SiteIDCode" content="6400000008">
+    <link rel="stylesheet" href="./images/common.css">
+    <link rel="stylesheet" href="./images/nx1.css">
+    <script type="text/javascript" src="./images/jquery.min.js"></script>
+    <script type="text/javascript" src="./images/common.js"></script>
+    <script type="text/javascript" src="./images/nx1.js"></script>
+
+    <script>
+      $(function(){
+        var time = new Date();
+        var year = time.getFullYear();
+        var month = time.getMonth();
+        var day = time.getDate();
+        var d = time.getDay();
+        var hour = time.getHours();
+        var minute = time.getMinutes();
+        var second = time.getSeconds();
+        var week = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+
+        var timeStr = year+"年"+(month+1)+"月"+day+"日   "+week[d];
+
+        document.getElementById("time").innerHTML = timeStr;
+
+      })
+    </script>
+</head>
+
+<body>
+
+
+
+<!--漂浮窗口-->
+<style>  
+        .floadAd{ position: absolute;z-index: 999900; display: block; }  
+        .floadAd .item { display: block; }  
+        .floadAd .item img { vertical-align: bottom; }
+</style>  
+<div id="floadAD" class="floadAd">   
+</div> 
+
+<script>
+
+FloatAd("#floadAD");//调用              
+function FloatAd(selector) { 
+    var obj = $(selector);  
+    if (obj.find(".item").length == 0) return;//如果没有内容，不执行  
+    var windowHeight = $(window).height();//浏览器高度  
+    var windowWidth = $(window).width();//浏览器宽度  
+    var dirX = -1.5;//每次水平漂浮方向及距离(单位：px)，正数向右，负数向左，如果越大的话就会看起来越不流畅，但在某些需求下你可能会需要这种效果  
+    var dirY = -1;//每次垂直漂浮方向及距离(单位：px)，正数向下，负数向上，如果越大的话就会看起来越不流畅，但在某些需求下你可能会需要这种效果  
+                  
+    var delay = 30;//定期执行的时间间隔，单位毫秒  
+    obj.css({ left: windowWidth / 2 - obj.width() / 2 + "px", top: windowHeight / 2 - obj.height() / 2 + "px" });//把元素设置成在页面中间  
+    obj.show();//元素默认是隐藏的，避免上一句代码改变位置视觉突兀，改变位置后再显示出来  
+    var handler = setInterval(move, delay);//定期执行，返回一个值，这个值可以用来取消定期执行  
+                  
+    obj.hover(function() {//鼠标经过时暂停，离开时继续  
+        clearInterval(handler);//取消定期执行  
+    }, function() {  
+        handler = setInterval(move, delay);  
+    });  
+  
+    obj.find(".close").click(function() {//绑定关闭按钮事件  
+        close();  
+    });  
+    $(window).resize(function() {//当改变窗口大小时，重新获取浏览器大小，以保证不会过界（飘出浏览器可视范围）或漂的范围小于新的大小  
+        windowHeight = $(window).height();//浏览器高度  
+        windowWidth = $(window).width();//浏览器宽度  
+    });  
+    function move() {//定期执行的函数，使元素移动  
+        var currentPos = obj.position();//获取当前位置，这是JQuery的函数
+        var nextPosX = currentPos.left + dirX;//下一个水平位置  
+        var nextPosY = currentPos.top + dirY;//下一个垂直位置  
+                      
+        if (nextPosX >= windowWidth - obj.width()) {//这一段是本站特有的需求，当漂浮到右边时关闭漂浮窗口，如不需要可删除  
+            close();  
+        }  
+  
+        if (nextPosX <= 0 || nextPosX >= windowWidth - obj.width()) {//如果达到左边，或者达到右边，则改变为相反方向  
+            dirX = dirX * -1;//改变方向  
+            nextPosX = currentPos.left + dirX;//为了不过界，重新获取下一个位置  
+        }  
+        if (nextPosY <= 0 || nextPosY >= windowHeight - obj.height() - 5) {//如果达到上边，或者达到下边，则改变为相反方向。              
+            dirY = dirY * -1;//改变方向  
+            nextPosY = currentPos.top + dirY;//为了不过界，重新获取下一个位置  
+        }  
+        obj.css({ left: nextPosX + "px", top: nextPosY + "px" });//移动到下一个位置  
+    }  
+  
+    function close() {//停止漂浮，并销毁漂浮窗口  
+        clearInterval(handler);  
+        obj.remove();  
+    }  
+} 
+</script> 
+
+
+<!--漂浮窗口-->
+
+
+
+
+    <!-- header -->
+<script>
+$(function() {
+
+        //重置检索词
+        $(".nnp-reset-btn").click(function() {
+            $('#textfield').val('');
+        });
+    });
+
+//检索
+    function submitsearch(){
+
+        var result = $("#textfield").val(); //获取检索词
+        result = $.trim(result); //去掉空格
+        
+        //判断检索词
+        var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im;
+        if (reg.test(result)) {
+            alert('您输入的信息包含非法字符!');
+            return false;
+        }
+        if (result == "请输入关键字" || result == "" || result == null) {
+            alert("请输入检索条件!");
+            return false;
+        } else {
+            result = result.replace("-", "\-");
+            result = result.replace("(", "\(");
+            result = result.replace(")", "\)");
+        }
+
+        //获取当前地址信息
+        originSearch = null;
+        if (typeof location.origin === 'undefined') {
+            originSearch = location.protocol + '\/\/' + location.host;
+        } else {
+            originSearch = location.origin;
+        }
+
+        //跳转搜索页面
+      //  window.location.href = "http://wsjkw.nx.gov.cn/qwjs/index.html?channelid=236359&searchword=" + encodeURI(result);
+window.open("/nxsearch/search.html?code=17c7943560c&tenantId=36&searchWord="+encodeURI(result),'_blank');
+    }
+</script>
+<div class="header">
+        <div class="top">
+            <div class="top-l container">
+                <a href="http://www.gov.cn/">中央人民政府</a>
+                <span>|</span>
+                <a href="http://www.nx.gov.cn/">自治区政府</a>
+
+<a style="float:right;font-weight:bold;height:24px;line-height:24px;color:#fff;text-align:center;display:inline-block;background:#075fa6;padding:0 10px;border-radius:12px;width:auto;margin:5px 0 0 20px;font-size:14px;" href="http://www.nx.gov.cn/personalcenter/index.html" target="_blank">登录个人中心</a>
+
+<a style="float:right;font-weight:bold;height:24px;line-height:24px;color:#fff;text-align:center;display:inline-block;background:#075fa6;padding:0 10px;border-radius:12px;width:auto;margin:5px 0 0 20px;font-size:14px;" target="_blank" href="http://wsjkw.nx.gov.cn/zzb/">长者模式</a>
+
+<a style="float:right;font-weight:bold;height:24px;line-height:24px;color:#fff;text-align:center;display:inline-block;background:#075fa6;padding:0 10px;border-radius:12px;width:auto;margin:5px 0 0 20px;font-size:14px;"  id="gt_btn" href="javascript:;">无障碍浏览</a>
+
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="logo lf clearfix">
+                <a class="img lf" href="http://wsjkw.nx.gov.cn/"><img src="http://wsjkw.nx.gov.cn/images/wsjkw_logo.jpg" height="110" title="宁夏回族自治区卫生健康委员会" /></a>
+                <!--<a class="a lf" href="http://wsjkw.nx.gov.cn/">
+                    <p class="tt1">宁夏回族自治区卫生健康委员会</p>
+                    <p class="tt2">NINGXIA HUI AUTONOMOUS REGIONOOCAL TAXATION BUREAU</p>
+                </a>-->
+            </div>
+            <div class="search rt">
+                <input type="text" id="textfield" placeholder="请输入关键词" onkeydown="if(event.keyCode==13){submitsearch();}" value="请输入关键词" onfocus="if(this.value=='请输入关键词'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" />
+                <button onclick="submitsearch()"></button>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- 导航条 -->
+    <div class="nav clearfix">
+        <ul class="container">
+        <li><a href="http://wsjkw.nx.gov.cn/">首页</a></li>
+        <li><a href="http://wsjkw.nx.gov.cn/xwzx_279/">新闻中心</a></li>
+        <li><a href="http://wsjkw.nx.gov.cn/zfxxgk_279/">政府信息公开</a></li>
+        <li><a href="http://wsjkw.nx.gov.cn/bsfw/">办事服务</a></li>
+        <li><a href="http://wsjkw.nx.gov.cn/hdjl_279/">互动交流</a></li>
+        <li><a href="http://wsjkw.nx.gov.cn/ztzl/">专题专栏</a></li>
+
+        </ul>
+    </div>
+    <!-- 导航条 end -->
+    
+    <div class="container">
+    <div class="main pt20">
+
+        <!-- 内容 -->
+        <div class="index-content pb20">
+            <div class="index-headline clearfix">
+                <div class="index-headline-info lf">
+<img src="./images/newtt.png" alt="新闻头条" title="新闻头条" />
+                    <!--<img src="./images/img10.png" />-->
+                    <p id="time"  style="font-size: 16px;"></p>
+                </div>
+                <div class="index-headline-tab" >
+                    <div class="index-headline-item">
+                    
+                        
+                        <a class="tt1" href="./xwzx_279/xwtt/202609/t20260928_5358558.html">习近平就发展先进制造业作出重要指示强调  持续做大做强先进制造业 为推进中国式现代化提供有力支撑  李强出席全国先进制造业大会并讲话</a>
+                        
+                        <div class="index-headline-l">
+                            
+                                <a class="tit" href="./xwzx_279/xwtt/202609/t20260910_5341268.html">深入学习贯彻习近平总书记重要指示...</a>
+                            
+                            
+                                <span>|</span>
+                                <a class="tit" href="./xwzx_279/xwtt/202609/t20260910_5341234.html">习近平在中共中央政治局第二十七次...</a>
+                            
+                                <span>|</span>
+                                <a class="tit" href="./xwzx_279/xwtt/202609/t20260910_5341225.html">中共中央召开党外人士座谈会</a>
+                            
+<span class="more" style="float:right"><a href="http://wsjkw.nx.gov.cn/xwzx_279/xwtt/" target="_blank" style="font-size:14px;color: #075fa6;">&gt;&gt;&gt;</a></span>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="index-wrap1 clearfix">
+                <div class="xwzx-wrap1-col1 lf">
+                    <div class="btn prev"><img src="./images/prev.png" title="下一个" /></div>
+                    <div class="btn next"><img src="./images/next.png" title="上一个" /></div>
+                    <ul class="xwzx-wrap1-pic">
+                    
+                        <li><a href="./sy_279/tpxw/202609/t20260928_5358566.html"><img src="./sy_279/tpxw/202609/W020260928432233250518.jpg" title="习近平：在加强基础研究座谈会上的讲话" /></a></li>
+                    
+                        <li><a href="https://www.nx.gov.cn/zwxx_11337/wzttx/202608/t20260818_5315549.html"><img src="./sy_279/tpxw/202608/W020260831331709700444.jpg" title="纪念江泽民同志诞辰100周年大会在京隆重举行习近平发表重要讲话" /></a></li>
+                    
+                        <li><a href="https://www.gov.cn/yaowen/liebiao/202607/content_7077151.htm"><img src="./sy_279/tpxw/202608/W020260915538363316531.jpg" title="习近平：加快建设健康中国" /></a></li>
+                    
+                        <li><a href="https://www.nhc.gov.cn/wjw/mtbd/202607/bf3af175afec447891f0061ce2387f67.shtml"><img src="./sy_279/tpxw/202607/W020260707311747688953.jpg" title="[新华社] 庆祝中国共产党成立105周年大会在京隆重举行" /></a></li>
+                    
+                    </ul>
+                    <ul class="xwzx-wrap1-pictt">
+                    
+                        <li><a href="./sy_279/tpxw/202609/t20260928_5358566.html">习近平：在加强基础研究座谈会上的讲话</a></li>
+                    
+                        <li><a href="https://www.nx.gov.cn/zwxx_11337/wzttx/202608/t20260818_5315549.html">纪念江泽民同志诞辰100周年大会在京隆重举行习近平发表重要讲话</a></li>
+                    
+                        <li><a href="https://www.gov.cn/yaowen/liebiao/202607/content_7077151.htm">习近平：加快建设健康中国</a></li>
+                    
+                        <li><a href="https://www.nhc.gov.cn/wjw/mtbd/202607/bf3af175afec447891f0061ce2387f67.shtml">[新华社] 庆祝中国共产党成立105周年大会在京隆重举行</a></li>
+                    
+                    </ul>
+                    <ul class="xwzx-wrap1-pg clearfix">
+                    
+                        
+                            <li class="cur">1</li>
+                        
+                        
+                            <li>2</li>
+                        
+                            <li>3</li>
+                        
+                            <li>4</li>
+                        
+                    
+                        <div class="all rt">
+                            <span class="line">/</span>
+                            <span class="total">4</span>
+                        </div>
+                    </ul>
+                </div>
+                <div class="index-wrap1-col2 rt">
+                    <div class="nx-tit nx-tit3 clearfix">
+                        <a class="tit cur" href="./xwzx_279/gzdt_46361/">工作动态</a>
+                        
+                        <a class="more" href="./xwzx_279/gzdt_46361/">更多>></a>
+                    </div>
+                    <div class="nx-tab">
+                        <ul class="nx-item show index-newslist">
+                         
+                            <li><a href="./xwzx_279/gzdt_46361/202608/t20260826_5323265.html">中国（宁夏）援贝医疗队成功救治HIV高危畸形母婴</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202608/t20260804_5306109.html">全区深化医药卫生体制改革和人口高质量发展专题培训班成功举办</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202607/t20260723_5296292.html">宁夏医科大学总医院口腔医疗资源下沉社区</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202607/t20260707_5283768.html">换一种“打开”方式解读传统</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202606/t20260626_5274776.html">宁夏推行社区嵌入式托育服务 15分钟育儿圈破解“带娃难”</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202605/t20260529_5250751.html">家庭医生嵌入网格  惠农区把医疗服务送到群众家里</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202605/t20260525_5248305.html">图片新闻2</a></li>
+                        
+                            <li><a href="./xwzx_279/gzdt_46361/202605/t20260511_5237093.html">宁夏农村“一老一小”留守群体健康关爱项目启动</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+<!--<div style="margin:20px 0;">
+<a href="https://app.12345.nx.gov.cn/cns-bmfw-webrest/pages/Leader/index?areaCode=64&depFlag=0&deptGuid=bd74485f-08e8-4809-829e-9e5adf8bc01f&emailFlag=10" target="_blank"><img src="./images/yqfkjbz.jpg" alt="落实疫情防控‘九不准’公众留言板" title="落实疫情防控‘九不准’公众留言板" width="1082" /></a>
+</div>-->
+
+<!--<div style="margin:20px 0;">
+<a href="http://wsjkw.nx.gov.cn/ztzl/xxgcddesdjs/index.html" target="_blank" alt="学习宣传贯彻党的二十大精神 推动卫生健康事业高质量发展" title="学习宣传贯彻党的二十大精神 推动卫生健康事业高质量发展"><img src="./images/20221109wjwtl.jpg" alt="20221109wjwtl.jpg" title="学习宣传贯彻党的二十大精神 推动卫生健康事业高质量发展" width="1082" /></a>
+</div>-->
+
+
+<div style="margin:20px 0;">
+<a href="http://wsjkw.nx.gov.cn/ztzl/xjsscddh/index.html" target="_blank" alt="深入学习宣传贯彻自治区第十三次党代会精神"><img src="./images/2022614xxgctl.jpg" title="深入学习宣传贯彻自治区第十三次党代会精神" width="1082" /></a>
+</div>
+
+
+<script>
+jQuery(function(){
+    jQuery(".home-banner1 .wz-fade-img a").SwitchFade({
+            nump:'.home-banner1 .wz-fade-num',
+            className:'cur',
+            playTime:5000
+        });
+});
+</script>
+<script type="text/javascript" src="./images/syzjbanner(1).js"></script>
+<style type="text/css">
+.home-banner1{margin-top: 20px;margin-bottom: 24px;}
+.wz-fade-banner{position: relative;height: 116px;}
+.wz-fade-img{position: relative; width: 100%; height: 116px;}
+.wz-fade-img a{position: absolute; left: 0; top: 0; height: 100%; width: 100%;}
+.wz-fade-img a img{display: block; width: 100%; height: 100%;}
+.lf{float: left;}   
+.wz-fade-box{position: absolute;right: 10px;bottom: 7px;height: 17px;}
+.wz-fade-box a,
+.wz-fade-box span{float: left; height: 15px; width: 16px; margin-left: 5px; line-height: 15px; text-align: center; font-size: 12px; color: #fff; background: black; background: rgba(0, 0, 0 ,0.3); border: 1px solid rgba(255,255,255,0.7); cursor: pointer;}
+.wz-fade-box a{width: 31px;}
+.wz-fade-box a:hover,
+.wz-fade-box span.cur{background: #d20a0a; border: 1px solid #fff;}
+</style>
+<div class="wz-fade-banner home-banner1">
+  <div class="wz-fade-img">
+        
+    <a href="http://www.gov.cn/zhuanti/zswzjjylzzccs/index.htm"><img width="1160" height="116" src="./ggbf_279/syzjbanner/202209/W020220923606776270991.png" title="稳经济一揽子政策措施和接续政策" /></a>
+       
+    <a href="http://wsjkw.nx.gov.cn/sy_279/yqfkdt/index.html"><img width="1160" height="116" src="./ggbf_279/syzjbanner/202105/W020220705630412054342.jpg" title="疫情防控动态" /></a>
+       
+    <a href="http://wsjkw.nx.gov.cn/sy_279/jknx/zcwj/"><img width="1160" height="116" src="./ggbf_279/syzjbanner/202105/W020220705629601531130.jpg" title="健康宁夏" /></a>
+       
+    <a href="http://wsjkw.nx.gov.cn/ztzl/xbndsjqfjll/index.html"><img width="1160" height="116" src="./ggbf_279/syzjbanner/202105/W020220705629199929561.jpg" title="红色记忆" /></a>
+        
+        
+
+  </div>
+  <div class="wz-fade-box clearfix">
+    <div class="wz-fade-num lf"></div>
+  </div>
+</div>  
+
+
+            <div class="xwzx-wrap2 mt20 clearfix">
+                <div class="xwzx-wrap2-col1 lf">
+                    <div class="nx-tit1">
+                        <a class="tit" href="./zfxxgk_279/">政府信息公开</a>
+                    </div>
+                    <div class="nx-tit nx-tit2 nx-bor1 clearfix">
+                        <a class="tit tit2 cur" href="http://wsjkw.nx.gov.cn/zfxxgk_279/zcfg/">政策法规</a>
+                        <span class="line">|</span>
+                        <a class="tit tit2" href="http://wsjkw.nx.gov.cn/zfxxgk_279/zcfgjd/">政策法规解读</a>
+                        <span class="line">|</span>
+                        <a class="tit tit2" href="http://wsjkw.nx.gov.cn/zfxxgk_279/fdzdgknr/wstjbg/">卫生统计报告</a>
+                        <span class="line">|</span>
+                        <a class="tit tit2" href="http://wsjkw.nx.gov.cn/zfxxgk_279/fdzdgknr/wgkzd/">委公开制度</a>
+                        <span class="line">|</span>
+                        <a class="tit tit2" href="http://wsjkw.nx.gov.cn/zfxxgk_279/fdzdgknr/zdgkwj/">主动公开文件</a>
+
+                        <a class="more" href="javascript:void(0)">更多>></a>
+                    </div>
+                    <div class="nx-tab">
+                        <div class="nx-item show gl-list-l">
+                        
+                            <li><a href="./zfxxgk_279/zcfg/202610/t20261008_5365636.html">自治区卫生健康委 自治区财政厅关于印发《宁夏回族自治区城镇独生子女父母奖励扶助制度实施方案》的通知</a><span>[2026-10-08]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/zcfg/202609/t20260928_5358927.html">国家卫生健康委办公厅关于印发孤独症谱系障碍儿童干预康复指南（2026年版）的通知</a><span>[2026-09-28]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/zcfg/202608/t20260811_5309912.html">国家卫生健康委办公厅关于印发医疗机构卒中中心建设与管理指导原则（2026年版）的通知</a><span>[2026-08-11]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/zcfg/202607/t20260709_5285775.html">国家卫生健康委办公厅关于开展老年合理用药促进行动（2026—2030年）的通知</a><span>[2026-07-09]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/zcfg/202606/t20260611_5263165.html">关于印发2026年纠正医药购销领域和医疗服务中不正之风工作要点的通知</a><span>[2026-06-11]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/zcfg/202605/t20260521_5246538.html">国家卫生健康委关于印发全国生育友好城市、生育友好单位创建管理办法的通知</a><span>[2026-05-21]</span></li>
+                        
+                        </div>
+                        <div class="nx-item gl-list-l">
+
+                         
+                            <li><a href="./zfxxgk_279/zcfgjd/202610/t20261008_5365662.html">一图读懂｜宁夏回族自治区城镇独生子女父母奖励扶助制度</a><span>[2026-10-08]</span></li>
+                         
+                            <li><a href="./zfxxgk_279/zcfgjd/202610/t20261008_5365639.html">宁夏回族自治区城镇独生子女父母奖励制度实施方案政策解读</a><span>[2026-10-08]</span></li>
+                         
+                            <li><a href="./zfxxgk_279/zcfgjd/202609/t20260930_5362374.html">一图读懂|宁夏回族自治区中医药振兴发展“十五五”规划</a><span>[2026-09-30]</span></li>
+                         
+                            <li><a href="./zfxxgk_279/zcfgjd/202609/t20260928_5358935.html">《孤独症谱系障碍儿童干预康复指南（2026年版）》文件解读</a><span>[2026-09-28]</span></li>
+                         
+                            <li><a href="./zfxxgk_279/zcfgjd/202608/t20260811_5309917.html">《国家卫生健康委办公厅关于印发医疗机构卒中中心建设与管理指导原则（2026年版）的通知》政策解读</a><span>[2026-08-11]</span></li>
+                         
+                            <li><a href="./zfxxgk_279/zcfgjd/202607/t20260709_5285779.html">《国家卫生健康委办公厅关于开展老年合理用药促进行动（2026—2030年）的通知》解读</a><span>[2026-07-09]</span></li>
+                        
+                        </div>
+                        <div class="nx-item gl-list-l">
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wstjbg/202606/t20260625_5274257.html">2025年宁夏卫生健康统计公报</a><span>[2026-06-25]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wstjbg/202507/t20250704_4953091.html">2024年宁夏卫生健康统计公报</a><span>[2025-07-04]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wstjbg/202408/t20240813_4622227.html">2023年宁夏卫生健康统计公报</a><span>[2024-08-13]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wstjbg/202307/t20230719_4184795.html">2022年宁夏卫生健康统计公报</a><span>[2023-11-30]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wstjbg/202207/t20220720_3615847.html">2021年宁夏卫生健康统计公报</a><span>[2022-07-20]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wstjbg/202107/t20210726_2942459.html">2020年宁夏卫生健康统计公报</a><span>[2021-07-26]</span></li>
+                        
+                        </div>
+                        <div class="nx-item gl-list-l">
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wgkzd/202502/t20250227_4839470.html">关于印发《宁夏<出生医学证明>管理办法(2024年修订)》的通知</a><span>[2025-02-27]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wgkzd/202401/t20240108_4410302.html">自治区卫生健康委办公室关于印发《自治区卫生健康委国有资产管理办法》的通知</a><span>[2024-01-15]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wgkzd/202312/t20231218_4388433.html">让公众佩戴口罩成为健康行为习惯！宁夏应对疫情工作指挥部下发最新通知</a><span>[2023-12-18]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wgkzd/202208/t20220806_3661045.html">宁夏两市县入选国家积极应对人口老龄化重点联系城市</a><span>[2022-08-06]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wgkzd/202207/t20220708_3603917.html">自治区卫生健康委办公室关于印发 《宁夏医疗机构政务公开指导目录》的通知</a><span>[2022-07-08]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/wgkzd/202206/t20220620_3578735.html">宁夏回族自治区卫生健康委员会关于发布《食品安全地方标准 枸杞原浆》（DBS64/008-2022）的通告</a><span>[2022-06-20]</span></li>
+                        
+                        </div>
+                        <div class="nx-item gl-list-l">
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/zdgkwj/202609/t20260916_5344319.html">宁夏回族自治区人民政府关于印发《宁夏回族自治区国民健康“十五五”规划》的通知</a><span>[2026-09-16]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/zdgkwj/202609/t20260901_5328721.html">自治区卫生健康委 自治区教育厅  自治区  市场监管厅 自治区疾控局关于开展宁夏回族自治区学生餐四季带量食谱（示例）  试点工作的通知</a><span>[2026-09-02]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/zdgkwj/202609/t20260901_5328708.html">自治区卫生健康委办公室关于公布宁夏回族自治区职业健康专家库名单的通知</a><span>[2026-09-01]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/zdgkwj/202607/t20260730_5301772.html">自治区卫生健康委办公室关于公布2026年全区职业病诊断医师资格考试合格人员名单的通知</a><span>[2026-07-30]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/zdgkwj/202607/t20260716_5291077.html">自治区卫生健康委 自治区疾病预防控制局关于印发《宁夏回族自治区卫生健康行政处罚裁量权基准》的通知</a><span>[2026-07-16]</span></li>
+                        
+                            <li><a href="./zfxxgk_279/fdzdgknr/zdgkwj/202606/t20260625_5273603.html">自治区卫生健康委办公室  关于印发《自治区卫生健康委 2026 年度  重大行政决策事项目录》的通知</a><span>[2026-06-25]</span></li>
+                        
+                        </div>
+                    </div>
+                    <div class="xxgk-banner mt5">
+                        <a class="a1" href="./zfxxgk_279/xxgkzn/">政府信息公开指南</a>
+                        <a class="a2" href="./zfxxgk_279/zfxxgknb/">政府信息公开年报</a>
+                        <a class="a3" href="./zfxxgk_279/xxgkzd/">政府信息公开制度</a>
+                        <a class="a4" href="./zfxxgk_279/fdzdgknr/xxgkml/">信息公开目录</a>
+                        <a class="a6" href="./zfxxgk_279/ysqgk/">政府信息公开申请</a>
+                    </div>
+                    <div class="nx-tit1 mt30">
+                        <a class="tit" href="javascript:void(0)">重点信息公开</a>
+                    </div>
+                    <ul class="xxgk-zd-l clearfix">
+                        <li><a href="./zfxxgk_279/fdzdgknr/xzxkgs/">行政许可公示</a><br><a href="./zfxxgk_279/fdzdgknr/tyjgxxgk/">托育机构信息公开</a></li>
+                        <li><a href="./zfxxgk_279/fdzdgknr/yjsgk/">预决算公开</a><br><a href="./zfxxgk_279/fdzdgknr/rdzxjyta/">人大政协建议提案</a></li>
+                        <li><a href="./zfxxgk_279/fdzdgknr/cggk/">采购公开</a><br><a href="./zfxxgk_279/fdzdgknr/wgkzd/">委公开制度</a></li>
+                    </ul>
+                    <div>
+                        <div class="nx-tit1 mt34">
+                            <a class="tit" href="./hdjl_279/">互动交流</a>
+                        </div>
+                        <div class="nx-tit nx-tit2 nx-bor1 clearfix">
+                            <a class="tit tit2 cur" href="http://wsjkw.nx.gov.cn/hdjl_279/yjzj/">意见征集</a>
+                            <span class="line">|</span>
+                            <a class="tit tit2" href="http://wsjkw.nx.gov.cn/hdjl_279/zrxx/">主任信箱</a>
+                            <span class="line">|</span>
+                            <a class="tit tit2" href="http://wsjkw.nx.gov.cn/sy_279/zzxszytcwtwjcjfyjzj/">纠治形式主义官僚主义专项整治意见征集</a>
+                            <a class="more" href="javascript:void(0)">更多>></a>
+                        </div>
+                        <div class="nx-tab">
+                            <div class="nx-item show gl-list-l">
+                                
+                                <li><a href="./hdjl_279/yjzj/202606/t20260623_5272246.html">宁夏回族自治区卫生健康委员会关于征求  《宁夏人均预期寿命提升行动方案（2026-2028年）（征求意见稿）》意见的公告</a><span>[2026-06-23]</span></li>
+                            
+                                <li><a href="./hdjl_279/yjzj/202605/t20260521_5246394.html">自治区卫生健康委关于征求食品安全地方标准意见的函</a><span>[2026-05-21]</span></li>
+                            
+                                <li><a href="./hdjl_279/yjzj/202511/t20251110_5079340.html">自治区卫生健康委关于《托育机构婴幼儿回应性照护指南（征求意见稿）》征求意见的公告</a><span>[2025-11-10]</span></li>
+                            
+                                <li><a href="./hdjl_279/yjzj/202511/t20251107_5077806.html">关于公开征集2026年卫生健康系统为民服务实事项目意见建议的公告</a><span>[2025-11-07]</span></li>
+                            
+                                <li><a href="./hdjl_279/yjzj/202508/t20250813_4987813.html">关于征求《宁夏回族自治区卫生健康行政处罚裁量权基准（征求意见稿）》意见的函</a><span>[2025-08-13]</span></li>
+                            
+                                <li><a href="./hdjl_279/yjzj/202504/t20250423_4888983.html">关于《中国卫生健康年鉴》封面改版设计征稿的函</a><span>[2025-04-23]</span></li>
+                            
+                                <li><a href="https://www.nx.gov.cn/zwgk/tzgg/202411/t20241101_4715435.html">自治区人民政府办公厅关于公开征集对政府工作和民生实事意见建议的公告</a><span>[2024-11-18]</span></li>
+                            
+                                <li><a href="./hdjl_279/yjzj/202411/t20241113_4726441.html">关于征集《宁夏非中医类别执业医师开具中成药处方管理办法（试行）（征求意见稿）》意见建议的公告</a><span>[2024-11-13]</span></li>
+                            
+                                <li><a href="http://www.nhc.gov.cn/wjw/wwqzbss/yjzj_contj.shtml?id=e7f457c932424bfda2771bca7cb0c541">征集2025年卫生健康系统为民服务实事项目</a><span>[2024-11-07]</span></li>
+                            
+                                
+                            </div>
+                            <div class="nx-item gl-list-l">
+<style>
+    #maillist{font-size:14px;line-height:40px;border:1px solid #f1f1f1;text-align:center}
+    #maillist thead{background-color:#f1f1f1;}
+    #maillist tr{border-bottom:1px solid #f1f1f1;}
+    #maillist th,#maillist td{border-right:1px solid #f1f1f1;}
+    .mailcode{display:block;width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .mailtitle{display:block;width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left;color:#333;box-sizing:border-box;padding:0 10px;}
+    .mailtitle:hover{color:#1f76bc;}
+    .maildate{display:block;width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .maildepart{display:block;width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .mailtype{display:block;width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    </style>
+<table id="maillist" style="width: 100%;">
+    <thead>
+        <tr>
+           
+            <th>信件标题</th>
+            <th>处理时间</th>
+            <th>处理部门</th>
+            <th>信件类型</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+ </table>
+<script>
+    GetData()
+    // 获取列表
+        function GetData() {
+            var param = {
+                "currentPageIndex":0,
+                "pageSize":8,
+                "deptGuid":"bd74485f-08e8-4809-829e-9e5adf8bc01f", 
+                "emailFlag":"6"   
+            };
+            $.ajax({
+                type: 'post',
+                url: "http://app.12345.nx.gov.cn/cns-bmfw-webrest/rest/meWebCaseInfo/getLdAllCaseInfoList",
+                contentType: 'application/json;  charset=UTF-8',
+                dataType: 'JSON',
+                data: JSON.stringify({
+                    params: param
+                }),
+            success: function (data) {
+                    console.log("'1111'");
+                    console.log("data.datas:"+data.datas);
+                    console.log("data:"+data);
+                    var html="";
+                    for(var i=0;i<data.custom.infoList.length;i++){
+                       html+="<tr><td><a class='mailtitle' href='https://app.12345.nx.gov.cn/cns-bmfw-webrest/pages/Leader/service_detail?caseGuid="+data.custom.infoList[i].caseGuid+"' target='_blank'  title='" + data.custom.infoList[i].rqstTitle +" '>"+data.custom.infoList[i].rqstTitle+"</a></td><td><span class='maildate'>"+data.custom.infoList[i].answerTime+"</span></td><td><span class='maildepart'>"+data.custom.infoList[i].handleOuname+"</span></td><td><span class='mailtype'>"+data.custom.infoList[i].rqstType+"</span></td></tr>";
+                    }
+            jQuery("#maillist tbody").html(html);
+
+                },
+            error: function () {
+            console.log("异常！");
+            }
+            });
+        }
+          
+   
+   
+</script>
+                            </div>
+                            <div class="nx-item gl-list-l">
+                                
+                                <li><a href="./sy_279/zzxszytcwtwjcjfyjzj/202304/t20230411_4026454.html">自治区卫生健康委关于征集形式主义官僚主义问题线索的公告</a><span>[2026-02-14]</span></li>
+                            
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+<a href="http://wsjkw.nx.gov.cn/ztzl/yylyjbfs/index.html" target="_blank"><img src="./images/20230809171923.jpg" alt="医药领域腐败问题集中整治举报方式" title="医药领域腐败问题集中整治举报方式" style="margin-left: 31px;margin-top:5px;width: 320px;margin-bottom: 5px;" /></a>
+
+                <div class="xwzx-wrap2-col2 index-wrap2-col2 rt" style="height: 1050px;">
+                
+                    
+                    <div class="hdjl-online-t mt10">
+                        <a class="tit" href="./zxfw_279/">在线服务</a>
+                    </div>
+                    <ul class="index-wrap2-nav">
+                    
+                        <li><a href="./zxfw_279/grbs/" target="_blank">政务服务大厅</a></li>
+                    
+                        <li><a href="./zxfw_279/yzhdba/" target="_blank">义诊活动备案</a></li>
+                    
+                        <li><a href="./zxfw_279/ysbm/" target="_blank">中医（专长）医师资格考核报名</a></li>
+                    
+                    </ul>
+                    <div class="hdjl-online-t">
+                        <a class="tit" href="./xwzx_279/spbd_279/">视频报道</a>
+                    </div>
+                    <div class="index-wrap2-col2-v mt20" >
+                        <ul class="index-wrap2-pic">
+                        
+                            
+                            <li><a href="./xwzx_279/spbd_279/202609/t20260910_5341941.html"><img src="./xwzx_279/spbd_279/202609/W020260928594580567579_800.png" /></a></li>
+                        
+                            
+                            <li><a href="./xwzx_279/spbd_279/202608/t20260811_5310496.html"><img src="./xwzx_279/spbd_279/202608/W020260811592007228112_800.png" /></a></li>
+                        
+                            
+                            <li><a href="./xwzx_279/spbd_279/202607/t20260724_5297206.html"><img src="./xwzx_279/spbd_279/202607/W020260724330067578356_800.png" /></a></li>
+                        
+                            
+                            <li><a href="./xwzx_279/spbd_279/202606/t20260625_5273558.html"><img src="./xwzx_279/spbd_279/202606/W020260707399866506457.png" /></a></li>
+                        
+                            
+                            <li><a href="./xwzx_279/spbd_279/202606/t20260611_5263136.html"><img src="./xwzx_279/spbd_279/202606/W020260611369985989018.png" /></a></li>
+                        
+                        </ul>
+                        <ul class="index-wrap2-pictt">
+                        
+                            <li><a href="./xwzx_279/spbd_279/202609/t20260910_5341941.html">相约宁夏贺兰山 邂逅紫色大道</a></li>
+                        
+                            <li><a href="./xwzx_279/spbd_279/202608/t20260811_5310496.html">宁夏银川：相约典农河畔 邂逅紫色浪漫</a></li>
+                        
+                            <li><a href="./xwzx_279/spbd_279/202607/t20260724_5297206.html">二十四节气｜大暑：大暑至 夏正浓 沃野“丰”光好</a></li>
+                        
+                            <li><a href="./xwzx_279/spbd_279/202606/t20260625_5273558.html">宁夏银川：水清岸绿荷花开 生态美景入画来</a></li>
+                        
+                            <li><a href="./xwzx_279/spbd_279/202606/t20260611_5263136.html">宁夏银川览山公园：落日熔金染湖城 一山一水皆温柔</a></li>
+                        
+                        </ul>
+                        <div class="btn prev"><img src="./images/prev2.png" /></div>
+                        <div class="btn next"><img src="./images/next2.png" /></div>
+                    </div>
+                    <div class="hdjl-online-t">
+                        <a class="tit" href="./ztzl/xzzq/">下载专区</a>
+                    </div>
+                    <div class="nx-item show gl-list-l">
+                        
+                            <li><a href="./ztzl/xzzq/202302/t20230227_3976181.html">传统医学医术确有专长考核申请表</a></li>
+                        
+                            <li><a href="./ztzl/xzzq/202308/t20230801_4202993.html">职业病诊断就诊登记表</a></li>
+                        
+                            <li><a href="./ztzl/xzzq/202308/t20230801_4202991.html">职业病诊断鉴定申请书</a></li>
+                        
+                        </div>
+
+
+                </div>
+            </div>
+            <div class="index-wrap3">
+                <div class="nx-tit1 mt18">
+                    <a class="tit" href="./ztzl/">专题专栏</a>
+                </div>
+                <div class="index-wrap3-box nx-bor1">
+                <ul class="index-wrap3-pic clearfix">
+                  
+                    <li><a href="./ztzl/202209/t20220906_3741890.html" target="_blank"><img src="./ztzl/202209/W020220906353244268856.jpg" /><p>这些网络安全知识,请务必牢记!</p></a></li>
+                  
+                    <li><a href="./ztzl/202209/t20220902_3731404.html" target="_blank"><img src="./ztzl/202209/W020220902363399055166.jpg" /><p>中国健康教育中心发布健康生活方式主题系列海报</p></a></li>
+                  
+                    <li><a href="./ztzl/202208/t20220831_3727985.html" target="_blank"><img src="./ztzl/202208/W020220831338089807344.jpg" /><p>新冠肺炎核酸检测初筛阳性人员管理指南</p></a></li>
+                  
+                    <li><a href="http://wsjkw.nx.gov.cn/ztzl/wbpfxc/" target="_blank"><img src="./ztzl/202207/W020220704557274241307.jpg" /><p>“八五”普法宣传</p></a></li>
+                  
+                    <li><a href="http://wsjkw.nx.gov.cn/ztzl/xczx/gzdt_57463/index.html" target="_blank"><img src="./ztzl/202112/W020211209782199728704.png" /><p>乡村振兴</p></a></li>
+                
+                </ul>
+                <ul class="index-wrap3-pic clearfix">
+                  
+                    <li><a href="./ztzl/202209/t20220906_3741890.html" target="_blank"><img src="./ztzl/202209/W020220906353244268856.jpg" /><p>这些网络安全知识,请务必牢记!</p></a></li>
+                  
+                    <li><a href="./ztzl/202209/t20220902_3731404.html" target="_blank"><img src="./ztzl/202209/W020220902363399055166.jpg" /><p>中国健康教育中心发布健康生活方式主题系列海报</p></a></li>
+                  
+                    <li><a href="./ztzl/202208/t20220831_3727985.html" target="_blank"><img src="./ztzl/202208/W020220831338089807344.jpg" /><p>新冠肺炎核酸检测初筛阳性人员管理指南</p></a></li>
+                  
+                    <li><a href="http://wsjkw.nx.gov.cn/ztzl/wbpfxc/" target="_blank"><img src="./ztzl/202207/W020220704557274241307.jpg" /><p>“八五”普法宣传</p></a></li>
+                  
+                    <li><a href="http://wsjkw.nx.gov.cn/ztzl/xczx/gzdt_57463/index.html" target="_blank"><img src="./ztzl/202112/W020211209782199728704.png" /><p>乡村振兴</p></a></li>
+                
+                </ul>
+                </div>
+            </div>
+
+</div>
+
+<div>
+<script>
+$(function(){
+  $(".linkbox_1 ul li").not(".nobackground").mouseover(function(){
+    $(this).addClass("asect").siblings().removeClass(); 
+    $(this).find(".select_content").show().parent().siblings().find(".select_content").hide();
+  })
+  $(".linkbox_1 ul li").not(".nobackground").mouseout(function(){
+    $(this).removeClass("asect")
+    $(this).find(".select_content").hide();
+  })
+
+})
+</script>
+<style>
+.linkbox_1{height: 50px;margin-top: 15px;}
+.linkbox_1 ul{height: auto;padding-bottom: 30px;}
+.linkbox_1 li{margin: 0;margin-right: 0;position: relative;height: auto;float: left;font-size: 16px;padding-right: 9px;}
+.linkbox_1 li a{padding: 17px 9px 10px 15px;display: block;text-decoration: none;padding-right: 20px;background: url(http://www.nx.gov.cn/images/nav_tab_arrow.png)
+no-repeat right 25px; color:#000;}
+.linkbox_1 li #select_content6 a{height: auto}
+.linkbox_1 li.asect{background: #e5e5e5}
+.select_content{background: #e5e5e5;position: absolute;bottom: 43px;height: 214px;display: none;padding: 30px 20px 30px 35px;width: 1027px;}
+#select_content1{left: 0;padding-top: 30px;}
+#select_content1 .select_con1{width: 200px;}
+#select_content1 .select_scroll_con{height: 214px;overflow-y: scroll;padding-bottom: 5px;}
+#select_content2{left: -156px;padding-top: 30px;}
+#select_content2 .select_con1{width: 200px;}
+#select_content2 .select_scroll_con{padding-bottom: 5px;}
+#select_content3{left: -264px;padding-top: 30px;}
+#select_content3 .select_con1{width: 200px;}
+#select_content3 .select_scroll_con{padding-bottom: 5px;}
+#select_content4{left: -388px;padding-top: 30px;}
+#select_content4 .select_con1{width: 200px;}
+#select_content4 .select_scroll_con{padding-bottom: 5px;}
+.select_con{height: auto;}
+.select_con1{padding: 0px;margin: 0;line-height: 24px;float: left;white-space: nowrap;}
+.select_con1 a{padding: 0}
+.select_con div.select_con1_noline{background: none !important}
+.linkbox_1 li.asect .select_con a{height: auto;background: none !important;padding-bottom: 0 !important;padding: 0;font-size: 13px;color: #000 !important}
+.linkbox_1 li.asect .select_con a:hover{color: #398bdc !important}
+.select_con_sx_in .select_con_sx_main{width: 136px;padding: 0px;margin: 0;line-height: 24px;float: left;white-space: nowrap;}
+</style>
+<div class="linkbox_1">
+    <ul>
+      <li class=""> <a href="javascript:void();">自治区相关网站</a>
+      <div class="select_content" id="select_content1">
+        <div class="select_scroll_con">
+        <div class="select_con" style="margin-top:25px;">
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://www.nx.gov.cn/">自治区人民政府</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://fzggw.nx.gov.cn/">自治区发展和改革委员会</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://sjt.nx.gov.cn/">自治区审计厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://fao.nx.gov.cn/">自治区外事办公室</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://scjg.nx.gov.cn/">自治区市场监督管理厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://gzw.nx.gov.cn/">自治区国有资产监督管理委员会</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://jyt.nx.gov.cn/index.html">自治区教育厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="https://kjt.nx.gov.cn/">自治区科学技术厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://mca.nx.gov.cn/">自治区民政厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="https://gxt.nx.gov.cn/">自治区工业和信息化厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://mzzj.nx.gov.cn/">自治区民族事务委员会</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://gat.nx.gov.cn/">自治区公安厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="https://czt.nx.gov.cn/">自治区财政厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://zrzyt.nx.gov.cn/">自治区自然资源厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://hrss.nx.gov.cn/">自治区人力资源和社会保障厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://slt.nx.gov.cn/">自治区水利厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://nynct.nx.gov.cn/">自治区农业农村厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://dofcom.nx.gov.cn/">自治区商务厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://tyjrt.nx.gov.cn/">自治区退役军人事务厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://nxyjglt.nx.gov.cn/">自治区应急管理厅</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://gdj.nx.gov.cn/">自治区广播电视局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://tj.nx.gov.cn/">自治区统计局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://jrjgj.nx.gov.cn/">自治区地方金融监督管理局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://xf.nx.gov.cn/">自治区信访局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://rfb.nx.gov.cn/">人民防空办公室</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="https://ylbz.nx.gov.cn/">自治区医疗保障局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://nxyjj.nx.gov.cn/">自治区药品监督管理局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://coop.nx.gov.cn/">自治区供销合作社联合社</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://nxjgsw.nx.gov.cn/">自治区机关事务管理局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://si.nx.gov.cn/">自治区社会保险事业管理局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://nxjy.nx.gov.cn/">宁夏监狱管理局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://www.nxdizhiju.cn/">自治区地质局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://lswz.nx.gov.cn/">宁夏粮食和物资储备局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://lcj.nx.gov.cn/">自治区林业和草原局</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="http://www.nxaas.com.cn/">宁夏农林科学院</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="https://www.nxshkxy.cn/">宁夏社会科学院</a>
+          </div>
+          
+          <div class="select_con1"> 
+            <a target="_blank" href="https://www.nxu.edu.cn/">宁夏大学</a>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+      </li>
+      <!--<li class=""> <a href="javascript:void();">
+      直属单位
+      </a>
+      <div class="select_content" id="select_content2">
+      <div class="select_scroll_con">
+        <div class="select_con" style="margin-top:25px;">
+    
+          
+      </div>
+      </li>-->
+      <li class=""> <a href="javascript:void();">
+      省区市卫生健康部门网站
+      </a>
+      <div class="select_content" id="select_content2">
+        <div class="select_scroll_con">
+        <div class="select_con" style="margin-top:25px;">
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.beijing.gov.cn/">
+            北京市卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.shandong.gov.cn/">
+            山东省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjk.ln.gov.cn/">
+            辽宁省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.hlj.gov.cn/">
+            黑龙江省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjk.gansu.gov.cn/">
+            甘肃省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.jl.gov.cn/">
+            吉林省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.henan.gov.cn/">
+            河南省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.jiangsu.gov.cn/">
+            江苏省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.hubei.gov.cn/">
+            湖北省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.hunan.gov.cn/">
+            湖南省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="https://wsjkw.zj.gov.cn/">
+            浙江省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://hc.jiangxi.gov.cn/">
+            江西省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.gd.gov.cn/">
+            广东省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.fujian.gov.cn/">
+            福建省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wst.hainan.gov.cn/swjw/index.html">
+            海南省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.shanxi.gov.cn/">
+            山西省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.sc.gov.cn/">
+            四川省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://sxwjw.shaanxi.gov.cn/">
+            陕西省卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.cq.gov.cn/">
+            重庆市卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjk.tj.gov.cn">
+            天津市卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wjw.nmg.gov.cn/">
+            内蒙古自治区卫生健康委员会
+            </a> </div>
+          
+          <div class="select_con1"> <a target="_blank" href="http://wsjkw.gxzf.gov.cn/">
+            广西壮族自治区卫生健康委员会
+            </a> </div>
+                    
+        
+          
+        </div>
+        </div>
+      </div>
+      </li>
+    </ul>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+            <div class="index-yq-link nx-bor1" style="height: 40px;"> 
+                <span class="sp">友情链接：</span>
+                
+                    
+                        <a href="http://www.gov.cn/" target="_blank">中央人民政府</a>
+                    
+                    
+                        <span class="line">|</span>
+                    <a href="http://www.nxdjw.gov.cn/" target="_blank">宁夏党建网</a>
+                    
+                        <span class="line">|</span>
+                    <a href="http://www.nx.gov.cn/" target="_blank">自治区人民政府</a>
+                    
+                        <span class="line">|</span>
+                    <a href="http://www.nhc.gov.cn/" target="_blank">国家卫生健康委员会</a>
+                    
+                
+            </div>
+        </div>
+
+        
+    </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+        <div class="f-text">
+            <div class="f-about">
+                <span>主办：宁夏回族自治区卫生健康委员会办公室　联系电话：0951-12320 </span>
+                <span>|</span>
+                <a href="http://wsjkw.nx.gov.cn/ggbf_279/wzdh/">网站导航</a>
+            </div>
+            <p>网站标识：6400000008 <a href="https://beian.miit.gov.cn/" style="color:#000;">宁ICP备19000363号-1</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=64010402000805"  style="color:#000;"><img style="vertical-align: middle;" src="http://www.nx.gov.cn/images/bah.png" />宁公网安备 64010402000805号</a></p>
+            <p>版权所有：宁夏回族自治区卫生健康委员会　地址：宁夏回族自治区银川市金凤区凤悦巷151号</p>
+        </div>
+        <div class="f-img mt10 clearfix">
+            <script id="_jiucuo_" sitecode='6400000008' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+            <a href="http://bszs.conac.cn/sitename?method=show&id=2A2308E4599004E3E053012819ACDF00" target="_blank"><img src="http://wsjkw.nx.gov.cn/images/f-icon1.png" /></a>
+        </div>
+
+<div style="float:right;margin-top: -170px;width: 110px;height: 130px;font-size: 14px;"><img src="http://wsjkw.nx.gov.cn/images/20210512092954.png" style="width:110px;" /><p>微信关注</p></div>
+
+
+        </div>
+    </div>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4848" async="async" defer="defer"></script>
+<script src="https://tts.gtkj.tech/rt/wsjkw.nx.gov.cn/gtInit.js" charset="UTF-8"></script>
+    <!-- footer-end -->
+<script type="text/javascript">
+//点击更多
+$(function(){
+    $(".nx-tit .more").click(function(){
+        var url ="";
+        $(this).siblings(".tit").each(function(){
+
+            if ($(this).hasClass("cur")) {
+                url =$(this).attr("href");
+            }
+        });
+        window.open(url);
+    });
+});
+</script>
+
+<script>
+    $(function(){
+        //常量
+        var detailSrc="http://wsjkw.nx.gov.cn/hdjl_279/zrxx/detail.html";
+        
+        //列表细览
+        $("#iframe").on('load',function(){
+            $(this).contents().find("#detailPageSrc").val(detailSrc);
+        });
+
+        //查询重置
+        $('#reset').click(function() {
+            $('#select_id').val('');
+            $('#select_password').val('');
+        });
+        //查询提交
+        $('#btnOK').click(function() {
+            var searchcode=$("#select_id").val();
+            var password=$("#select_password").val();
+            if(searchcode==''||password==''){
+                alert("请输入查询编号和查询密码！");
+            }else if(isNaN(searchcode)||isNaN(password)){
+                alert("请输入正确的查询编号和查询密码！");
+            }else{
+                window.open(detailSrc+"?method=appDataDetailSearch&groupId=1341&appId=2172&searchCode="+searchcode+"&searchPassWord="+password);
+            }
+        });
+    });
+
+</script>
+
+<!--右侧上-->
+ <div id="ycxcw" >
+  <script type="text/javascript">
+  function szf_close(n){
+    document.getElementById("szf_pic_0"+n).style.display="none";
+  }
+</script>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody ><tr>
+<td style="">
+<div style="width: 200px; right: 20px; position: fixed; z-index: 2008; top: 200px">
+<div id="szf_pic_02">
+ <a  onclick="szf_close(2)" style="cursor: pointer; background-color: #fff;font-size:14px;float: right;">关闭</a>
+  
+</div>
+</div>
+</td></tr></tbody></table>
+</div>  
+<script>
+$(function(){
+var ycxcw='';
+    if(ycxcw == ''){
+      $('#ycxcw').css('display','none'); 
+}
+});
+</script>
+<!--右侧上-->
+<!--右侧下-->
+ <div id="ycxcwx" >
+  <script type="text/javascript">
+  function szf_close(n){
+    document.getElementById("szf_pic_0"+n).style.display="none";
+  }
+</script>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody ><tr>
+<td style="">
+<div style="width: 200px; right: 20px; position: fixed; z-index: 2008; top: 500px">
+<div id="szf_pic_03">
+ <a  onclick="szf_close(3)" style="cursor: pointer; background-color: #fff;font-size:14px;float: right;">关闭</a>
+  
+</div>
+</div>
+</td></tr></tbody></table>
+</div>  
+<script>
+$(function(){
+var ycxcwx='';
+    if(ycxcwx == ''){
+      $('#ycxcwx').css('display','none'); 
+}
+});
+</script>
+<!--右侧下-->
+
+
+
+
+<!--左侧-->
+ <div id="ycw" >
+  <script type="text/javascript">
+  function szf_close(n){
+    document.getElementById("szf_pic_0"+n).style.display="none";
+  }
+</script>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody ><tr>
+<td style="">
+<div style="width: 250px; left: 10px; position: fixed; z-index: 2008; top: 250px">
+
+
+
+
+
+
+
+</div>
+</td></tr></tbody></table>
+</div>  
+<script>
+$(function(){
+var ycw='';
+    if(ycw == ''){
+      $('#ycw').css('display','none'); 
+}
+});
+</script>
+
+
+<!--左侧-->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

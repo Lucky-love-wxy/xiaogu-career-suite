@@ -1,0 +1,207 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_a6c0331c69ef",
+  "node": "教育培训 › 教师 › 小学教师",
+  "family": "教育培训",
+  "parent_id": "教育培训 › 教师",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "教育培训 › 教师 › 小学教师",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vkm5nCCLa",
+      "type": "recruitment_jd",
+      "title": "小学教师",
+      "company": "永城市龙门艺术培训有限公司",
+      "url": "https://campus.niuqizp.com/job-vkm5nCCLa.html",
+      "date": "2026-09-19",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责：\n1.教授小学和初中的语文、数学、英语课程，确保学生能够在各个学科上达到学习目标。\n2.根据学生的学习情况和学习方法，进行适时的指导和调整，以提高学生的学习效率。\n3.组织和参与学校组织的教学活动，包括但不限于课外扩展、教学研讨等。\n4.与学生、家长进行有效沟通，了解学生需求，提供专业建议。\n5.保持对教育行业的热情，不断更新教学方法和内容。\n任职要求：\n1.本科及以上学历，专业不限。\n2.性格开朗，热爱教育事业，喜欢和孩子互动。\n3.年龄要求20-35岁，有相关教学经验者优先。\n4.具备良好的沟通能力和团队合作精神，能够与学生和家长建立良好关系。\n5.有责任心，能够长期稳定地从事教育行业工作，不寻求短期雇佣。\n6.工作时间：每天8:20-12:00 和 2:20-6:30，月休6天，每周休息一天半。\n7.工作地点：河南省永城市雨亭路99号（龙跃艺术）。\n公司介绍\n公司名称\n永城市龙门艺术培训有限公司",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vkm5nCCLa.html",
+      "cache_sha256": "9900f955c17ba22bb0ad892cb53bd51b0724f6873c1fac99638b37cdc1071ad0"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "小学教师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "小学教师"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "小学教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：组织和参与学校组织的教学活动，包括但不限于课外扩展、教学研讨等",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5nCCLa",
+          "text": "组织和参与学校组织的教学活动，包括但不限于课外扩展、教学研讨等"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "组织和参与学校组织的教学活动，包括但不限于课外扩展、教学研讨等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5nCCLa",
+          "text": "组织和参与学校组织的教学活动，包括但不限于课外扩展、教学研讨等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据学生的学习情况和学习方法，进行适时的指导和调整，以提高学生的学习效率",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5nCCLa",
+          "text": "根据学生的学习情况和学习方法，进行适时的指导和调整，以提高学生的学习效率"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vkm5nCCLa"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vkm5nCCLa"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "小学教师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vkm5nCCLa"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

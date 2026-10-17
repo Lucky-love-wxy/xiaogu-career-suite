@@ -1,0 +1,815 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>兵团国资委</title>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+	
+<script>
+window.localsForMebmer={
+	SiteID:154,
+	SiteLink:"http://gyzc.xjbt.gov.cn/",
+	FrontAppContext:"http://gyzc.xjbt.gov.cn/zcms/"
+};
+</script>
+<link rel="stylesheet" href="/v3/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/v3-framework.css" type="text/css" />
+  
+<link rel="stylesheet" href="/v3/css/v3-common.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/v3-site.css" type="text/css" />
+<script src="/js/frontend.js" contextpath="http://gyzc.xjbt.gov.cn/zcms/"></script>
+<script src="/js/common.min.js" contextpath="http://gyzc.xjbt.gov.cn/zcms/"></script>
+<script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
+<!--分享CSS样式调用代码 BEGIN（此代码必须部署在</head>闭合标记之前）-->
+<script type="text/javascript">
+    var gwdshare = gwdshare || { version: "1.0", udata: "type=tools&amp;uid=GWD-800222", pageFilter: "", jsLoaded: false };
+    (function () {
+        function async_load() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//static.gridsumdissector.com/zheng_fen_xiang/scripts/gwdshareasync.min.js';
+            var x = document.getElementsByTagName('script'), y = x[x.length - 1];
+            y.parentNode.appendChild(s);
+        }
+        if (!gwdshare.jsLoaded) {
+            if (window.attachEvent) window.attachEvent('onload', async_load);
+            else window.addEventListener('load', async_load, false);
+            gwdshare.jsLoaded = true;
+        }
+    })();
+</script>
+<script>
+  var frontAppContext = 'http://gyzc.xjbt.gov.cn/zcms/';
+  var siteID = "154";
+</script>
+<!--分享CSS样式调用代码 END-->
+      <script type="text/javascript">
+        var queryUrl = null;
+
+        function showletter() {
+			let id = $('#id').val();
+			if(null == id || ""==id){
+				alert("请输入编号");
+				return false;
+			}
+
+			window.open("http://www.xjbt.gov.cn/letter/letter.html?id="+id);
+			return false;
+        }
+    </script>
+	 </head>
+
+<body>
+
+	<!--温馨提示代码开始-->
+
+	<script>
+function lxfEndtime(){
+	$t=$('#t').html();
+	if($t!=0){
+		$('#t').html($t-1);
+		$i=setTimeout("lxfEndtime()",1000);
+	}else{		
+		$('.box').hide();
+		$('#t').html(6);
+		$('.ad_time').css({'width':'300px','height':'200px'});
+		clearTimeout($i);
+	}
+};
+$(document).ready(function(){
+	$('.box').show();
+	$(this).hide();	
+	$('.ad_time').animate({width:40,height:25},'slow');
+	lxfEndtime();
+	$('.close').click(function(){
+		$('.box').hide();
+		$('#t').html(6);
+		$('.ad_time').css({'width':'300px','height':'200px'});
+		clearTimeout($i);
+	})
+});
+</script>
+
+	<!--头部包含文件开始-->
+	
+<style>
+  .search .input-group-btn .sea_but{background:none;border:none;margin-top: -4px;}
+</style>
+<!--start 页头-->
+<div class="header">
+  <div class="head">
+    <div class="container">
+      <div class="headtop">
+        <div class="head_wel">
+        <span class="head_web"><a href="http://www.xjbt.gov.cn/">兵团政务网</a></span>
+          <span class="hidden-xs hidden-sm"><a target='_self' href="javascript:void(0);" id="btn-accessbility">无障碍浏览 </a></span>
+          <script>
+  document.getElementById("btn-accessbility").onclick = function(){
+    var url = "/accessibilityTools.html?url="+location.pathname;
+    if(location.search != ""){
+            url += "&search=" + encodeURIComponent(location.search)
+    }
+    if(top){
+                 top.window.location.href = url
+           }else{
+                 window.location.href = url
+    }
+  }
+</script>
+        
+      </div>
+      <div class="head_sea hidden-xs hidden-sm">
+        <div class="form">
+                  
+            
+              <div class="search input-group">
+                <input type="text" class="sea_text search-query" placeholder="请输入关键词……" name="QueryPC" suggest="true" suggestsource="Search.suggest" id="QueryPC"/>
+                <span class="input-group-btn">
+                 <a class="btn btn-default sea_but" href="javascript:void(0)" onclick="searchKey()" >
+                    <span class=""></span>&nbsp;
+                  </a>
+                </span>                 
+              </div>
+            
+        </div>
+       </div>
+    </div>
+      <div class="headBot clearfix" style="margin-top: -11px;">
+        <div class="row m-t ">
+          <div class="col-lg-10 col-md-10 col-xs-9">
+             <a href="http://gyzc.xjbt.gov.cn/" target="_blank"><img src="/images/z_bj6.gif"   /></a> 
+               
+                       
+          </div>
+          <div class="col-xs-3 hidden-md hidden-lg">
+            <div class="burger">
+              <div class="x"></div>
+              <div class="y" style="display: block;"></div>
+              <div class="z"></div>
+            </div>
+          </div>
+          </div>
+          <div class="row m-t ">
+          <ul class="nav col-lg-7 col-md-8  pull-right hidden-xs hidden-sm">
+            <li class="first "><span><a href="http://gyzc.xjbt.gov.cn/"><i class="fa fa-home font24"></i></a></span></li>
+            
+                        
+                  <li id="001454000014000001"><span><a href="/xxgk/zzjg/gzwgk/" target="_blank">概况</a></span></li>
+                  <li id="001454000012"><span><a href="/xxgk/xxgkgz/" target="_blank">公开</a></span></li>
+                  <li id="001457"><span><a href="https://zwfw.xjbt.gov.cn" target="_blank">服务</a></span></li>
+                  <!--<cms:catalog Alias="hdjl"><li id="${Catalog.innercode}"><span><a href="${catalog.link}"  target="_blank">互动</a></span></li></cms:catalog>-->
+                  <li id="001455"><span><a href="/zxgz/" target="_blank">特色工作</a></span></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="container">
+      
+       <div class="search-head-xs hidden-md hidden-lg m-t-md">
+              <div class="search input-group">
+                <input type="text" class="form-control search-query" placeholder="请输入关键词……" name="Query" suggest="true" suggestsource="Search.suggest" id="QueryM"/>
+               
+                 <span class="input-group-btn" style="background: #1b4775">
+                   <a class="btn btn-default sea_but" href="javascript:void(0)" onclick="searchKey1()" > 
+                     <span class="fa fa-search" ></span>&nbsp;搜索</a></span>
+              </div>
+               </div>
+            
+
+  </div>
+</div>
+  <script>
+function searchKey(){
+window.open("/search/search.html?SiteID=154&pageIndex=0&type=search_all&query="+$("#QueryPC").val());
+}
+    function searchKey1(){
+window.open("/search/search.html?SiteID=154&pageIndex=0&type=search_all&query="+$("#QueryM").val());
+}
+</script>
+<!--end页头-->
+	<!--头部包含文件结束-->
+
+	<!--** 主体开始 **-->
+ <!--start 主体-->
+    <div class="main">
+      <div class="main-news">
+        <div class="new-tit clear">
+          <div class="container">
+         
+            <div class="mainLeft fl">
+             <div class="news-catalog">
+           
+            <div class="main47Left"> 
+             <div class="news-imgPlay">
+                
+                  
+                    <div class="imgPlay-item">
+                      <a href="http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm"><img src="/upload/resources/image/2018/10/10/317748_661x310c.jpg"  width="661" height="310" style="padding: 15px 0 0 0px;"/></a>
+                      <div class="imgPlay-info text-ellipsis">国家政务服务投诉与建议</div>
+                    </div>
+                    <div class="imgPlay-item">
+                      <a href="http://www.gov.cn/xinwen/2018-09/20/content_5323786.htm"><img src="/upload/resources/image/2018/10/10/317786_661x310c.jpg"  width="661" height="310" style="padding: 15px 0 0 0px;"/></a>
+                      <div class="imgPlay-info text-ellipsis">国家政务服务投诉与建议</div>
+                    </div>
+                    <div class="imgPlay-item">
+                      <a href="https://toupiao.www.gov.cn/100dudian/index.htm"><img src="/upload/resources/image/2018/08/28/310808_661x310c.jpg"  width="661" height="310" style="padding: 15px 0 0 0px;"/></a>
+                      <div class="imgPlay-info text-ellipsis">群众办事百项堵耟疏解行动&#32;第五季</div>
+                    </div>
+                
+              </div>
+               </div>
+           
+               
+              <!-- <div class="main47Right"> -->
+                                <div class="catalog-item  main47Right ">
+                  <div class="news-catalog">
+				 <div class="news-right">   
+              <div class="catalogTit J-TAB_CLICK">
+                <span class="current" id="xuanxiangka11"><a target="_blank" href="/xxgk/gzdt/">工作动态</a></span>
+                <span class="" id="xuanxiangka22"><a target="_blank" href="/szyw/">时政要闻</a></span>
+              </div>
+              <div class="news-list">
+                <ul class="notice list-unstyled" id="xuanxiangka" style="height:289px;">
+                  
+                    
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="/c/2026-10-08/8507903.shtml" title="兵团国资委党委理论学习中心组专题学习习近平总书记关于全面依法治国重要文章精神">兵团国资委党委理论学习中心组专题学习习近平总书记关于全面依法治国重要文章精神</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="/c/2026-10-01/8507486.shtml" title="兵团国资委党委理论学习中心组专题学习&#32;习近平总书记重要指示精神">兵团国资委党委理论学习中心组专题学习&#32;习近平总书记重要指示精神</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="/c/2026-09-21/8505502.shtml" title="兵团国资委开展安全生产检查">兵团国资委开展安全生产检查</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="/c/2026-09-20/8505456.shtml" title="建功“十五五”&#32;青春为中国式现代化挺膺担当">建功“十五五”&#32;青春为中国式现代化挺膺担当</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="/c/2026-09-15/8504608.shtml" title="兵团国资委召开西部计划志愿者工作专题调度会">兵团国资委召开西部计划志愿者工作专题调度会</a></li>
+                  
+                </ul>
+                <ul class="notice list-unstyled" id="xuanxiangka1" style="height:289px;">
+                  
+                    
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="https://www.gov.cn/yaowen/liebiao/202609/content_7082504.htm" title="庆祝中华人民共和国成立77周年招待会在京举行">庆祝中华人民共和国成立77周年招待会在京举行</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="https://www.gov.cn/yaowen/liebiao/202609/content_7081753.htm" title="习近平向全国广大农民和工作在“三农”战线上的同志们致以节日祝贺和诚挚问候">习近平向全国广大农民和工作在“三农”战线上的同志们致以节日祝贺和诚挚问候</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="https://www.gov.cn/yaowen/liebiao/202609/content_7080532.htm" title="在第四十二个教师节到来之际&#32;习近平向全国广大教师和教育工作者致以节日祝贺和诚挚问候">在第四十二个教师节到来之际&#32;习近平向全国广大教师和教育工作者致以节日祝贺和诚...</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="https://www.gov.cn/yaowen/liebiao/202608/content_7079574.htm" title="习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问">习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问</a></li>
+        <li><a class="line-clamp2 multi-line-ellipsis" target="_blank" href="https://www.gov.cn/yaowen/liebiao/202608/content_7077718.htm" title="总书记的人民情怀&#32;|&#32;“努力提升粮食能源资源安全保障能力”">总书记的人民情怀&#32;|&#32;“努力提升粮食能源资源安全保障能力”</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+           </div>
+             </div>
+               </div>
+               
+            <div class="mainRight fr">
+                  <div class="news-catalog">
+				 <div class="news-right">
+              <!--通知公告start-->
+               <div class="catalogTit">               			 
+								<span class="current">
+									
+										<a target="_blank" href="/xxgk/qydt/">企业动态</a>
+									
+								</span>
+							</div>
+							<div class="p-md bg-white"  style="padding:12px;">
+								<ul class="content-list1  ckjTabList">
+									
+										
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-09-14/8504217.shtml" title="致敬奋斗者&#32;|&#32;天山深处的“治水铁军”——奎屯河引水工程项目组">致敬奋斗者&#32;|&#32;天山深处的“治水铁军”—…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-31/8501623.shtml" title="【两优一先】兵团国资委系统先进基层党组织&#32;中新建电力集团天富能源发电产业运行分场党支部">【两优一先】兵团国资委系统先进基层党组…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-14/8499213.shtml" title="【两优一先】兵团国资委系统优秀党务工作者&#32;姜霞">【两优一先】兵团国资委系统优秀党务工作…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-11/8498734.shtml" title="【两优一先】兵团国资委系统优秀党务工作者&#32;邢梦芸">【两优一先】兵团国资委系统优秀党务工作…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-06/8497726.shtml" title="【两优一先】兵团国资委系统优秀共产党员&#32;张玉江">【两优一先】兵团国资委系统优秀共产党员…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-03/8497055.shtml" title="【两优一先】兵团国资委系统优秀共产党员&#32;葛伟晓">【两优一先】兵团国资委系统优秀共产党员…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-07-29/8496107.shtml" title="【劳模风采】兵团国资系统劳动模范&#32;王勇">【劳模风采】兵团国资系统劳动模范&#32;王勇</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-07-27/8495704.shtml" title="【劳模风采】兵团国资系统劳动模范&#32;杨涛">【劳模风采】兵团国资系统劳动模范&#32;杨涛</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-07-22/8494953.shtml" title="【兵团民族团结进步模范单位】新疆生产建设兵团五家渠吾家乐宝养老总院">【兵团民族团结进步模范单位】新疆生产建…</a>
+											</li>
+									
+								</ul>
+							</div>
+                   <!--通知公告end-->
+                   
+            </div>
+          </div>
+           </div>
+            
+                </div>
+  
+          
+             </div>
+       <div class="container clear ">
+         <div class="mainLeft">
+          <!-- start 新闻中心 -->       
+          
+           
+           
+          <div class="catalog-item marTop22 main47Left">
+              <div class="catalogTit">               			 
+								<span class="current">
+									
+										<a target="_blank" href="/xxgk/tzgg/">通知公告</a>
+									
+								</span>
+							</div>
+							<div class="p-md bg-white"  >
+								<ul class="content-list1  ckjTabList">
+									
+										
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-31/8501882.shtml" title="关于2026年兵团五四红旗团委（团支部）、兵团优秀共青团员、兵团优秀共青团干部拟推荐对象的公示">关于2026年兵团五四红旗团委（团支部…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-08-21/8500414.shtml" title="关于开展第五批新疆重点人才计划卓越&#32;工程师培养项目、重点企业引才项目&#32;申报工作的通知">关于开展第五批新疆重点人才计划卓越&#32;…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-07-10/8493075.shtml" title="关于拟推荐2025-2026年度兵团国资委西部计划志愿者考核优秀等次名单的公示">关于拟推荐2025-2026年度兵团国资委西…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-06-26/8490753.shtml" title="公&#32;示">公&#32;示</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-03-31/8477678.shtml" title="中新建物流集团有限责任公司2026年公开招聘公告">中新建物流集团有限责任公司2026年公…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2025-12-03/8462319.shtml" title="兵团国资国企发展服务中心2025年度下半年面向社会公开招聘事业单位工作人员拟录用人员公示">兵团国资国企发展服务中心2025年度下…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2025-11-11/8457167.shtml" title="新疆中新建数字发展有限责任公司招聘延期公告">新疆中新建数字发展有限责任公司招聘…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2025-10-31/8454281.shtml" title="新疆中新建数字发展有限责任公司招聘公告">新疆中新建数字发展有限责任公司招聘…</a>
+											</li>
+									
+								</ul>
+							</div>
+
+						</div>
+               <!--业务工作和廉政之窗 业务工作和廉政之窗 业务工作和廉政之窗 业务工作和廉政之窗 业务工作和廉政之窗-->
+             <div class="catalog-item marTop22 main47Right">
+                  <div class="catalogTit">                
+                 <div class="catalogTit ">
+                
+                  <span class="current"><a href="/xxgk/zcfg/"  target="_Self">政策法规</a></span>
+                
+                
+                 
+              </div>
+                 </div>
+                <div class="p-md bg-white"  >
+								<ul class="rnotice content-list ckjTabList ">
+									
+										
+											<li class="text-ellipsis">
+												<a target="_blank" href="https://www.gov.cn/zhengce/202605/content_7069304.htm" title="中共中央办公厅印发《中国共产党发展党员工作细则》">中共中央办公厅印发《中国共产党发展…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-03-24/8476445.shtml" title="中央纪委国家监委法规室负责人就《国有企业领导人员廉洁从业规定》答记者问">中央纪委国家监委法规室负责人就《国…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-03-24/8476442.shtml" title="中共中央办公厅&#32;国务院办公厅印发《国有企业领导人员廉洁从业规定》">中共中央办公厅&#32;国务院办公厅印发《国…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2026-02-06/8471449.shtml" title="兵团办公厅关于印发《兵团涉企经营许可事项改革清单（2025年版）》的通知">兵团办公厅关于印发《兵团涉企经营许…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2025-03-18/8389881.shtml" title="国务院国资委印发《企业国有资产交易操作规则》">国务院国资委印发《企业国有资产交易…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2024-10-17/8363117.shtml" title="公平竞争审查条例">公平竞争审查条例</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2024-10-17/8363111.shtml" title="市场监管总局等五部门关于印发《公平竞争审查制度实施细则》的通知">市场监管总局等五部门关于印发《公平…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2024-09-29/8360133.shtml" title="国有企业管理人员处分条例">国有企业管理人员处分条例</a>
+											</li>
+									
+								</ul>
+                 
+							</div>
+               </div>        
+					 
+			  
+           
+          <div class="catalog-item marTop22 main47Left">
+              <div class="catalogTit">
+               
+						 
+								<span class="current">
+									
+										<a target="_blank" href="/xxgk/ghjh/">规划计划</a>
+									
+								</span>
+							</div>
+							<div class="p-md bg-white"  >
+								<ul class="content-list1  ckjTabList">
+									
+										
+											<li class="text-ellipsis">
+												<a target="_blank" href="http://www.sasac.gov.cn/n2588035/n2588320/n2588340/c32955461/content.html" title="国务院国资委印发《企业国有资产交易操作规则》">国务院国资委印发《企业国有资产交易…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2023-03-29/8271900.shtml" title="中央企业节约能源与生态环境保护监督管理办法">中央企业节约能源与生态环境保护监督…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2021-08-30/8161866.shtml" title="国务院印发《“十四五”就业促进规划》">国务院印发《“十四五”就业促进规划…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2021-08-05/8155927.shtml" title="国务院印发《全民健身计划（2021－2025年）》">国务院印发《全民健身计划（2021－202…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2021-02-26/7447369.shtml" title="中共中央&#32;国务院印发国家综合立体交通网规划纲要">中共中央&#32;国务院印发国家综合立体交通…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2021-02-26/7447368.shtml" title="历史性的跨越&#32;新奋斗的起点——习近平总书记关于打赢脱贫攻坚战重要论述综述">历史性的跨越&#32;新奋斗的起点——习近平…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2021-02-26/7447367.shtml" title="翁杰明：着力打造现代物流龙头企业&#32;">翁杰明：着力打造现代物流龙头企业&#32;</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2021-02-22/7445659.shtml" title="新华网：新疆从六个方面推动国资国企改革">新华网：新疆从六个方面推动国资国企…</a>
+											</li>
+									
+								</ul>
+							</div>
+
+						</div>
+               <!--业务工作和廉政之窗 业务工作和廉政之窗 业务工作和廉政之窗 业务工作和廉政之窗 业务工作和廉政之窗-->
+             <div class="catalog-item marTop22 main47Right">
+                  <div class="catalogTit">                
+                  <span class="current"> 
+                    <a target="_blank" href="/xxgk/xxgkgz/">信息公开工作</a> </span> 
+                   
+                 </div>
+                <div class="p-md bg-white"  >
+								<ul class="content-list1  ckjTabList">
+									
+										
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2025-03-19/8390045.shtml" title="2024年1-12月全国国有及国有控股企业经济运行情况">2024年1-12月全国国有及国有控股企业…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2024-02-19/8324394.shtml" title="兵团国资委监管企业实现首月生产经营“开门红”">兵团国资委监管企业实现首月生产经营…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2023-03-31/8272308.shtml" title="1-2月兵团国有企业主要财务指标表现良好、经济运行稳中有进">1-2月兵团国有企业主要财务指标表现良…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2022-02-25/8199140.shtml" title="各师市国有企业效益总体表现良好">各师市国有企业效益总体表现良好</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2022-02-25/8199137.shtml" title="兵团国有企业资产规模不断扩大&#32;兵团国有企业资产负债结构不断优化">兵团国有企业资产规模不断扩大&#32;兵团国…</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2022-02-25/8199134.shtml" title="兵团国有企业工业经济表现良好">兵团国有企业工业经济表现良好</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2022-01-27/8195565.shtml" title="兵团国有企业资产规模不断扩大">兵团国有企业资产规模不断扩大</a>
+											</li>
+											<li class="text-ellipsis">
+												<a target="_blank" href="/c/2022-01-27/8195562.shtml" title="资产负债结构不断优化">资产负债结构不断优化</a>
+											</li>
+									
+								</ul>
+                  
+							</div>
+               </div>        
+					</div>
+                
+             
+			<div class="mainRight">
+				
+        <div class="catalog-item marTop22">
+            <div class="catalogTit J-TAB_CLICK hidden-md hidden-lg" id=".tabCon-leader">
+              <span class="current"><a target="_blank" href="javascript:void(0);">领导分工</a></span>
+              
+            </div>
+            <div class="catalogTit J-TAB_CLICK hidden-xs hidden-sm" id=".tabCon-leader">
+              <span class="current"><a target="_blank" href="/xxgk/zzjg/ldfg/" >领导分工</a></span>
+             
+            </div>
+            <div class="p-md leader">
+              
+              <div class="tabCon-leader">
+                <div class="swiper-leader">
+                  
+                    
+                      <div class="leader-item">
+                        <dl class="">
+                          <dt>
+                            <img src="/images/zl_bj35.gif" width="100%" />
+                            <a target="_blank" href="/c/2026-08-05/8497699.shtml"><img src="/upload/resources/image/2026/08/05/623577_260x195.jpg" width="100%" /></a>
+                          </dt>
+                          <dd class="leadTit"><a target="_blank" href="/c/2026-08-05/8497699.shtml">侯国俊</a></dd>
+                          <dd><span>职务：</span>兵团国资委党委书记、主任</dd>
+                        </dl>
+                        <div class="leadIntro"><span>简介：</span></div>
+                      </div>
+                      <div class="leader-item">
+                        <dl class="">
+                          <dt>
+                            <img src="/images/zl_bj35.gif" width="100%" />
+                            <a target="_blank" href="/c/2021-06-28/7477752.shtml"><img src="/upload/resources/image/2026/08/24/624677_260x195.jpg" width="100%" /></a>
+                          </dt>
+                          <dd class="leadTit"><a target="_blank" href="/c/2021-06-28/7477752.shtml">张桂玲</a></dd>
+                          <dd><span>职务：</span>兵团国资委党委委员、副主任</dd>
+                        </dl>
+                        <div class="leadIntro"><span>简介：</span></div>
+                      </div>
+                      <div class="leader-item">
+                        <dl class="">
+                          <dt>
+                            <img src="/images/zl_bj35.gif" width="100%" />
+                            <a target="_blank" href="/c/2022-03-21/8203751.shtml"><img src="/upload/resources/image/2022/03/21/507787_260x391.jpg" width="100%" /></a>
+                          </dt>
+                          <dd class="leadTit"><a target="_blank" href="/c/2022-03-21/8203751.shtml">永伟</a></dd>
+                          <dd><span>职务：</span>兵团国资委党委委员、副主任</dd>
+                        </dl>
+                        <div class="leadIntro"><span>简介：</span></div>
+                      </div>
+                      <div class="leader-item">
+                        <dl class="">
+                          <dt>
+                            <img src="/images/zl_bj35.gif" width="100%" />
+                            <a target="_blank" href="/c/2025-07-14/8423003.shtml"><img src="/upload/resources/image/2025/07/14/593260_260x195.jpg" width="100%" /></a>
+                          </dt>
+                          <dd class="leadTit"><a target="_blank" href="/c/2025-07-14/8423003.shtml">王文源</a></dd>
+                          <dd><span>职务：</span>兵团国资委党委委员、兵团纪委监委驻国资委纪检监察组组长</dd>
+                        </dl>
+                        <div class="leadIntro"><span>简介：</span></div>
+                      </div>
+                      <div class="leader-item">
+                        <dl class="">
+                          <dt>
+                            <img src="/images/zl_bj35.gif" width="100%" />
+                            <a target="_blank" href="/c/2026-08-05/8497708.shtml"><img src="/upload/resources/image/2026/08/05/623578_260x195.jpg" width="100%" /></a>
+                          </dt>
+                          <dd class="leadTit"><a target="_blank" href="/c/2026-08-05/8497708.shtml">王宝成</a></dd>
+                          <dd><span>职务：</span>兵团国资委党委委员、副主任</dd>
+                        </dl>
+                        <div class="leadIntro"><span>简介：</span></div>
+                      </div>
+                                    
+                </div>
+              </div>
+              
+              <div class="tabCon-leader">
+                	<ul class="content-list1  ckjTabList">
+									
+								</ul>
+              </div>
+            </div>
+           </div>
+ 
+				 <div class="catalog-item marTop22">
+            <div class="catalogTit J-TAB_CLICK hidden-md hidden-lg" id=".tabCon-hd">
+              <span class="current"><a target="_blank" href="javascript:void(0);">互动交流</a></span>
+              
+            </div>
+            <div class="catalogTit J-TAB_CLICK hidden-xs hidden-sm" id=".tabCon-hd">
+              <span class="current"><a target="_blank" href="http://www.xjbt.gov.cn/hd/" >互动交流</a></span>
+               
+            </div>
+                   
+                   <div class="p-md bg-white "  >
+								<ul class="tabCon-hd  content-list ckjTabList ">
+						 
+				 
+								<div id="zl_topic" class="zl_topic">
+									<div class="clearself">
+										<dl>
+											<dt>
+												<em class="wxl_xxgbtld"></em>
+											</dt>
+											<dd>
+												<a target="_blank" href="http://www.xjbt.gov.cn/letter/letter_detail.html">我要写信</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<em class="wxl_zxhjy"></em>
+											</dt>
+											<dd>
+												<a target="_blank" href="http://www.xjbt.gov.cn/letter/letter_list.html">选登信件浏览</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>
+												<em class="wxl_wsxf"></em>
+											</dt>
+											<dd>
+												
+													<a target="_blank" href="/hdjl/myzj/">民意征集</a>
+												
+											</dd>
+										</dl>
+									</div>
+
+									<div class="leadMail" style="display: block;">
+                                      <form id="form1"  role="form" method="post">
+										<h3>
+											<span>信件查询</span>
+										</h3>
+										<div class="mailForm clearself">
+											<div class="interText fl">
+												<input id="id" type="text" placeholder="编号" name="id"/>
+												</div>
+											<div class="interBut fr" style="padding-top:0px;">
+												<input type="button" class="mailsub" id="letterQuerySubmit" onclick="showletter(true)" value="查询"></div>
+										</div>
+                                        </form>
+									</div>
+								</div>
+            	</ul>
+						      
+					   </div>
+					 
+				 </div>
+		 	 </div>
+    	 </div>
+      	 </div>  
+         </div>  
+         </div>   
+	<!--** 主体结束 **-->
+
+	<!--** 尾部包含文件开始 **-->
+	
+
+<!--end页脚-->
+  <div class="footer  clear" style="background:#045a89">
+  <div class="container">
+    <div class="footTop">
+
+    </div>
+      <div class="footLink container">
+        <div class="row">
+          <div class="col-md-2 p-t-sm text-right hidden-xs hidden-sm">
+         <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='http://dcs.conac.cn/js/32/000/0000/55015085/CA320000000550150850001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+            </div>  
+          <div class="col-md-8 text-center">
+            <div class="text-white m-t-sm">
+                      
+					 
+						<a class="text-white m-r-xs m-l-xs" style="color: #fff " target="_blank" href="/template/javascript;;" onclick="AddFavorite(location.href,document.title);">收藏本站</a>|
+              <a  style="color: #fff " class="text-white m-r-xs m-l-xs" target="_blank" href="/zddt/">网站地图</a> | <a style="color: #fff " class="text-white m-r-xs m-l-xs" target="_blank" href="/gywm/"> 关于我们</a> 
+						<style>
+                #_span_jiucuo{ float: right;}
+                @media (max-width: 991px) 
+              {
+                #_span_jiucuo {
+                  display: none ;
+                }
+               }
+              </style>
+             <a class="pull-right hidden-xs m-t"  ><script id="_jiucuo_" sitecode='BT00000009' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script></a>
+					</div>
+           <!-- <div class="text-white m-t-sm">Copyright 2009-2020 gyzc.xjbt.gov.cn All Rights Reserved</div>-->
+            <div class="text-white m-t-sm">新疆生产建设兵团国有资产监督管理委员会 <a  style="color: #fff " target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">新ICP备10002232号-6</a>
+              
+              <a class="hidden-xs" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=66010002000103" style="color: #fff;text-decoration: none;/* display:inline-block; */"><img src="/images/footer_beianIcon.png" style="">公网安备 66010002000103号</a>
+           <div>网站标识码：BT00000009 网站访问统计：
+<span id=_zving_totalhitcount />
+<script src="http://www.xjbt.gov.cn/zcms/front/site/154/counter?Type=Total&SiteID=154&DomID=_zving_totalhitcount&VarName=_zving_totalhitcount" type="text/javascript"></script>
+ 
+ 建议使用1024×768分辨率 IE8.0以上版本浏览器</div>
+        
+         <!--<div   class="footLink_r_r" style="padding-right: 100px; float: right;">
+   <li style="margin-top: -60px; width: 60px;  ">
+      <a href="http://pucha.kaipuyun.cn/exposure/jiucuo.html?site_code=BT00000020&url=http%3A%2F%2Fwww.xjbt.gov.cn%2F" target="_blank"></a>
+    </li>
+  </div>-->    
+  </div>  
+</div>
+          
+<link rel="stylesheet" href="/v3/css/slick.css" type="text/css" />
+<script type="text/javascript" src="/v3/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/v3/js/bootstrap.min.js"></script>
+<script src="/v3/js/hammer.min.js"></script>
+<script type="text/javascript" src="/v3/js/v3_common.js"></script>
+<script type="text/javascript" src="/v3/js/v3_site.js"></script>
+<script type="text/javascript" src="/v3/js/slick.min.js"></script>
+     
+	<!--** 尾部包含文件结束 **-->
+	<script type="text/javascript">
+		$("#index").addClass("current");
+$(function(){
+	$("input.mapBut").click(function(){
+		if($("input.mapText").val()=="" || $("input.mapText").val()=="输入要查询的师部名称……"){
+			return false;
+		}
+	});
+})
+
+	var hd = document.getElementById("hd");
+	var fw = document.getElementById("fw");
+	var zl_topic1wxl_topic = document.getElementById("zl_topic1wxl_topic");
+	var zl_topic = document.getElementById("zl_topic");
+  
+function toService(){
+	hd.removeAttribute("class");
+	fw.setAttribute("class", "current");
+	zl_topic.setAttribute("style", "display:none;");
+	zl_topic1wxl_topic.setAttribute("style", "display:block;height:248px;");
+}
+  
+ 
+	</script>
+	 <script>
+ 
+      $("#xuanxiangka11").mouseover(function(){
+          $("#xuanxiangka").css("display","block");
+      $("#xuanxiangka1").css("display","none");
+            $("#xuanxiangka2").css("display","none");
+      $("#xuanxiangka11").attr("class","current");
+      $("#xuanxiangka22").attr("class","");
+            $("#xuanxiangka33").attr("class","");
+        
+});
+        $("#xuanxiangka22").mouseover(function(){
+          $("#xuanxiangka1").css("display","block");
+      $("#xuanxiangka").css("display","none");
+            $("#xuanxiangka2").css("display","none");
+      $("#xuanxiangka11").attr("class","");
+      $("#xuanxiangka22").attr("class","current");
+            $("#xuanxiangka33").attr("class",""); 
+});    
+            $("#xuanxiangka33").mouseover(function(){
+          $("#xuanxiangka2").css("display","block");
+      $("#xuanxiangka").css("display","none");
+            $("#xuanxiangka1").css("display","none");
+      $("#xuanxiangka11").attr("class","");
+            $("#xuanxiangka22").attr("class","");
+      $("#xuanxiangka33").attr("class","current");
+});  
+     
+   
+  </script> 
+ <script type="text/javascript">
+      $(function(){
+        // 新闻轮播
+        $('.news-imgPlay').slick({
+          dots: true
+        });
+        
+        $('.soldPlay').slick({
+          dots: true,
+          arrows: false
+        });
+        
+        $('.imgSlider').slick({
+          dots: false,
+          slidesToShow: 3,
+          slidesToScroll: 1
+        });
+        
+        $('.swiper-leader').slick({
+          dots: true,
+          arrows: true
+        });	
+        
+      })
+      
+      function postTJ(source,classify,classifyValue,gpage,qpage){
+        var form = $("#form");
+        $("#source").val(source);
+        $("#classify").val(classify);
+        $("#classifyValue").val(classifyValue);
+        $("#gpage").val(gpage);
+        $("#qpage").val(qpage);
+        $("#mattertype").val(2);
+        form.submit();
+      }
+      
+    </script>
+  
+	
+<script src="http://gyzc.xjbt.gov.cn/zcms/stat/front/stat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_stat)_zcms_stat("SiteID=154&Dest=http://gyzc.xjbt.gov.cn/zcms/front/stat/dealer");
+</script>
+
+<!-- App=ZCMS(ZCMS内容管理系统) 3.2.7,CostTime=364,PublishDate=2026-10-08 18:39:28 -->
+
+</body>
+</html>

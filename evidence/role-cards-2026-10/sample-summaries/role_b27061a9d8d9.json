@@ -1,0 +1,247 @@
+{
+  "name": [
+    {
+      "text": "化学教师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "化学教师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 5,
+  "excluded": [
+    {
+      "id": "vYk5zaZaM",
+      "url": "https://campus.niuqizp.com/job-vYk5zaZaM.html",
+      "role": "初|高中化学教师",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vym5ZZCNC",
+      "url": "https://campus.niuqizp.com/job-vym5ZZCNC.html",
+      "role": "初|高中化学教师",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责中学化学教学工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5nzznt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5nzznt",
+          "text": "负责中学化学教学工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责高中各科目专业1对1、小班教学工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vky5CMtNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vky5CMtNn",
+          "text": "负责高中各科目专业1对1、小班教学工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责校区和部门达成续课、教学目标，做好教学工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vky5CMtNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vky5CMtNn",
+          "text": "负责校区和部门达成续课、教学目标，做好教学工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "参与科组教研、备课、培训、学习等工作，提升教学水平",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vky5CMtNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vky5CMtNn",
+          "text": "参与科组教研、备课、培训、学习等工作，提升教学水平"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助配合校区运营（如：招生引流、家长会、咨询会、公开课）",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vky5CMtNn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vky5CMtNn",
+          "text": "协助配合校区运营（如：招生引流、家长会、咨询会、公开课）"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "5份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MLtZZ",
+        "vky5CMtNn",
+        "vlrNLz5MC",
+        "vly5nzznt",
+        "vyU5naCaL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vly5nzznt"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，4份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MLtZZ",
+        "vky5CMtNn",
+        "vlrNLz5MC",
+        "vly5nzznt",
+        "vyU5naCaL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 4,
+        "denominator": 5,
+        "matched_ids": [
+          "v8r5MLtZZ",
+          "vky5CMtNn",
+          "vlrNLz5MC",
+          "vyU5naCaL"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“教育学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MLtZZ",
+        "vky5CMtNn",
+        "vlrNLz5MC",
+        "vly5nzznt",
+        "vyU5naCaL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "教育学类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vky5CMtNn"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，2份专业类字段为“材料类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MLtZZ",
+        "vky5CMtNn",
+        "vlrNLz5MC",
+        "vly5nzznt",
+        "vyU5naCaL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "材料类",
+        "n": 2,
+        "denominator": 5,
+        "matched_ids": [
+          "vlrNLz5MC",
+          "vyU5naCaL"
+        ]
+      }
+    },
+    {
+      "text": "5份保留的校招平台样本中，1份专业类字段为“植物生产类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8r5MLtZZ",
+        "vky5CMtNn",
+        "vlrNLz5MC",
+        "vly5nzznt",
+        "vyU5naCaL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "植物生产类",
+        "n": 1,
+        "denominator": 5,
+        "matched_ids": [
+          "vky5CMtNn"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "化学教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8r5MLtZZ",
+        "vly5nzznt",
+        "vyU5naCaL"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "高中化学教师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vky5CMtNn",
+        "vlrNLz5MC"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ]
+}

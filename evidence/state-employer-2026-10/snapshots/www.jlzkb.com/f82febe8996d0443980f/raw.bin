@@ -1,0 +1,1154 @@
+  <!-- header -->
+			<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>吉林省人事考试网</title>
+<link rel="stylesheet" type="text/css" href="skin/css/website.css" />
+<style type="text/css">
+/*html { 
+        -webkit-filter: grayscale(100%); 
+        -moz-filter: grayscale(100%); 
+        -ms-filter: grayscale(100%); 
+        -o-filter: grayscale(100%); 
+        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
+        _filter:none; 
+    }*/
+.popPanel {
+	width: 100px;
+	height: 481px;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 10000;
+	overflow: hidden;
+	_position: absolute; /* for IE6 */
+	_top: expression(documentElement.scrollTop + 300);
+}
+
+.qrcodePanel {
+	width: 100px;
+	background: #fff;
+	text-align: center;
+	border: solid 1px #ddd;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.qrcodePanel img {
+	width: 100px;
+	border: none;
+	padding: 0px;
+}
+
+.qrcodePanel p {
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+</style>
+<script language="javascript" src="skin/js/website.js"></script>
+<script language="javascript" src="skin/js/jquery.js"></script>
+<script type="text/javascript" src="skin/js/base64.min.js"></script>
+</head>
+<body>
+<script language="javascript" src="skin/js/website.default.js"></script>
+
+
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTc4ODI3MzY1D2QWAgIBD2QWBAIXDxBkEBUYGyAgLS3lkITnnIHluILogIPor5XkuK3lv4MtLRXkuIrmtbfkurrkuovogIPor5XnvZEe5Lit5Y2O5Lq65rCR5YWx5ZKM5Zu95Lq65LqL6YOoFeS4reWbveS6uuS6i+iAg+ivlee9kRvljJfkuqzluILkurrkuovogIPor5XkuK3lv4Me5LiK5rW35biC6IGM5Lia6IO95Yqb6ICD6K+V6ZmiG+WxseS4nOS6uuS6i+iAg+ivleS/oeaBr+e9kRXmsrPljZfkurrkuovogIPor5XnvZEV5rmW5YyX5Lq65LqL6ICD6K+V572RG+mdkua1t+S6uuS6i+iAg+ivleS/oeaBr+e9kRvlub/kuJzkuJPkuJrotYTmoLzogIPor5XnvZEV5bm/5bee6ICD6K+V5L+h5oGv572RG+a3seWcs+W4guiAg+ivleaMh+WvvOS4reW/gxXlub/opb/kurrkuovogIPor5XnvZEV5oiQ6YO95Lq65LqL6ICD6K+V572RFemZleilv+S6uuS6i+iAg+ivlee9kRXlroHlpI/kurrkuovogIPor5XnvZEY5paw55aG5Lq65LqL6ICD6K+V5Lit5b+DG+aWsOeWhuWFteWbouiAg+ivleS/oeaBr+e9kRXlm5vlt53kurrkuovogIPor5XnvZEb6buR6b6Z5rGf55yB5Lq65LqL6ICD6K+V572RFei+veWugeS6uuS6i+iAg+ivlee9kRXlsbHopb/kurrkuovogIPor5XnvZEh6ZW/5pil5biC5Lq65LqL5pWZ6IKy6ICD6K+V5Lit5b+DFRgBMBF3d3cuYmpwdGEuZ292LmNuLw53d3cubW9wLmdvdi5jbg93d3cuY3B0YS5jb20uY24Qd3d3LmJqcHRhLmdvdi5jbg93d3cuc3B0YS5nb3YuY24Ud3d3LnJza3Muc2Rycy5nb3YuY24Od3d3LmhucnNrcy5jb20Rd3d3LmhicnNrcy5nb3YuY24Nd3d3LnFocHRhLmNvbRF3d3cuZ2Rrc3p4LmNvbS5jbhF3d3cuZ3pleGFtLmNvbS5jbhpuZXcudGVzdGNlbnRlci5nb3YuY246ODA4MBB3d3cuZ3hwdGEuY29tLmNuDXd3dy5jZHB0YS5jb20Nd3d3LnN4cnNrcy5jbhB3d3cubnhwdGEuZ292LmNuEXd3dy54anJza3MuY29tLmNuEHd3dy5idHB0YS5nb3YuY24Qd3d3LnNjcHRhLmdvdi5jbhB3d3cucnNrcy5nb3YuY24vD3d3dy5sbnJza3MuY29tLw53d3cuc3hwdGEuY29tLw53d3cuY2NyamsuY29tLxQrAxhnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAhkPEGQQFQMaICAtLeOAgOOAgCDlhbbku5Yg44CA44CALS0b5Lit5Zu95LqL5Lia5Y2V5L2N6ICD6K+V572RCeaWsOa1que9kRUDATAUd3d3LmNoaW5hc3lrcy5vcmcuY24Qd3d3LnNpbmEuY29tLmNuLxQrAwNnZ2cWAWZkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYEBRVoZWFkZXIxOkltYWdlYnV0dG9uTG8FFWhlYWRlcjE6SW1hZ2VidXR0b25SZQUFYnRuVXAFCWltZ3NlYXJjaAjuzkWV6vkWYRyAPsOtSCHLxopU" />
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+$(function() {
+	jQuery.ajax({
+		type : "GET",
+		url : "/cms/getStatistic.jsp",
+		dataType : "script",
+		success : function() {
+			$("#num_request").html(number[0]+20000000);
+			$("#on_line").html(number[1]);
+		},
+		error : function() {
+		}
+	});
+
+});
+// -->
+</script>
+
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLQKm4qmqAwKi7qL0DwKAk5r5AgLDwNGFAQLNwIlbAuONrZICAuONqZICAuONlZICAujiy/8OAviS4Z4IAov70s0HAtrPuuILAtWgkIwHAtSgkIwHAtegkIwHArrN7GwC4oL3IgLy7d3MDAKiiaqqCAKu3LO8AQL2memPDgKXgpE6AoaQpM4CAvXF7Z8DArvXh8wNAtfYu9EPAoODj9wGAoaKsx8Cota31Q0CgcHRpgECz5r5jwMC2tvR3QMCo5fa4QQCg6DZmAUCg5TXoggCl4KJmAIChvK1mg4Clq6Bzg0C68uplQICpc2EwAsCte33sw8Cgfn+8gECkZbUnA0CkLyGqwkC07PiwAOtauJV2c+M3vWt0WpZsHiu9S6HSQ==" />
+
+<table width="952" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor=white>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="skin/image/banner.jpg" style="width:952px;height:130px"/></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="16"><img src="skin/image/logo-l.gif" width="16" height="35"></td>
+        <td id="td_navigate" style="background-image:url(skin/image/logo-n.gif);background-repeat:repeat-x;">
+<li class='no_left_line'><a href='index.vm'>首 页</a></li>
+<li><a href="nrjjList.vm?dir=L-S4reW_g-eugOS7iy8wM2U5NTdlZC0wYjRkLTQwZDktYmFlNy0xZWI2YjFiZGVkY2E" >中心简介</a></li>
+<li><a href="ksdtList.vm?dir=L-iAg-ivleWKqOaAgS_lm77niYfmlrDpl7s&page=1&rows=10">考试动态</a></li>
+<li><a href="zcfgList.vm?dir=L-aUv-etluazleinhC_ogYznp7DlpJbor63jgIHorqHnrpfmnLov6IGM56ew5aSW6K-t6ICD6K-V&page=1&rows=10">政策法规</a></li>
+<li><a href="ksbmList.vm?dir=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5U&page=1&rows=10">考试报名</a></li>
+<li><a href="ksjhList.vm?dir=L-iAg-ivleiuoeWIkg&page=1&rows=10">考试计划</a></li>
+<li><a href="fwznList.vm?dir=L-acjeWKoeaMh-WNly_lh4bogIPor4HpgJrnn6U&page=1&rows=10">服务指南</a></li>
+</td>
+        <td width="16"><img src="skin/image/logo-r.gif" width="16" height="35"></td>
+      </tr>
+    </table></td>
+  </tr>
+        </table>
+<script language="javascript">
+float_layer_flag=true;
+float_layer_content="<div style='background-image:url(skin/image/float-bg.png);padding:12px;font-size:18px;text-align:left;width:380px;'><br />2026年度统计专业技术资格考试考试合格证书于2026年10月10日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度翻译专业资格（水平）笔译、口译考试考试合格证书于2026年9月22日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度一、二级注册计量师和环境影响评价工程师考试合格证书于2026年9月3日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度一、二级注册建筑师考试合格证书于2026年8月28日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度社会工作者考试合格证书于2026年8月24日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度监理工程师考试合格证书于2026年8月13日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度经济专业技术资格考试（高级）合格证明于2026年8月11日起面向全省发放。省（中）直考区合格人员证明由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度卫生专业技术资格考试合格证书于2026年8月10日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>2026年度上半年计算机技术与软件专业技术资格（水平）考试合格证书于2026年7月15日起面向全省发放。省（中）直考区合格人员证书由长春市人事教育考试中心代发，地址为中国长春人力资源服务产业园（净月开发区天富路1567号A座12楼）。<br/>关于证书领取的温馨提示：根据《专业技术人员职业资格证书管理工作规程（试行）》，未按时领取的纸质证书，由证书发放机构代为保管，保管期限为自考试结束日起5年。请考试合格并取得证书的人员，按证书发放通知的时间及时领取本人纸质证书。<br/>凡实行电子证书的专业技术人员职业资格考试，自2022年12月15日起电子证书取代吉林省《专业技术人员职业资格考试合格人员存档表》存入个人档案使用，考试合格人员自行下载。详情请查看本网信息公告栏相关通知。<br/>欢迎关注吉林省人事考试中心微信公众平台：jlsrskszx。咨询电话：0431-12333-3。<br/></div>";
+</script>
+<table width="952" align="center" border="0" cellpadding="0" cellspacing="0" style="background-color:White;">
+      <tr>
+        <td align="right" valign="top"><table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top" style="padding-right:3px;">
+<!--图片新闻的开始-->
+            <table height="248" width="255" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                    <td style="background-image:url(skin/image/l-tpxw.jpg);background-repeat:no-repeat;height:38px;text-align:right;padding-right:30px;"><a href="ksdtList.vm?dir=L-iAg-ivleWKqOaAgS_lm77niYfmlrDpl7s&page=1&rows=10" >更多&gt;&gt;</a></td>
+              </tr>
+              <tr>
+                <td style="text-align:center;">
+<style type="text/css">
+div,ul,li,a,img{margin: 0;padding: 0;}
+  	img{border:0 none;}
+    .banner{position:relative;width: 266px;height: 210px;overflow: hidden;}
+	.banner ul{list-style:none;}
+    .img{position: relative;top: 0;left: 0;}
+    .img li{float: left;}
+    .num{position: relative;height:10%;bottom: 15px;width: 100%;text-align: center;font-size: 0;left:40%;}
+    .num li{width: 10px;height: 10px;background:rgba(0,0,0,0.5);display: block;border-radius: 100%;display: inline-block;margin: 0 5px;cursor: pointer;float:left;background:black;}
+    .btn{display: none;}
+    .btn span{display: block;width: 30px;height: 30px;background: rgba(0,0,0,0.6);color: #fff;font-size: 30px;line-height: 30px;text-align: center;cursor:pointer;}
+    .btn .prev{position: absolute;left: 0;top: 40%;}
+    .btn .next{position: absolute;right: 0;top: 40%;}
+    .num .active{background-color: #fff;}
+
+ .infoList{position: absolute;bottom: 0px;left:0;}
+  .infoList a{color:black;}
+  .infoList li{display: none;text-align:center;}
+  .infoList .infoOn{display: inline;}
+</style>
+
+<div class="banner">
+  <ul class="img">
+	<li><a href="tpxwdetail.vm?path=L-iAg-ivleWKqOaAgS_lm77niYfmlrDpl7svYmQwMDM4ZTgtYzJjNy00NmNjLWE4NTItMzZiN2U4YTIxNDQ4"><img src="bin.bin?path=L-iAg-ivleWKqOaAgS_lm77niYfmlrDpl7svYmQwMDM4ZTgtYzJjNy00NmNjLWE4NTItMzZiN2U4YTIxNDQ4&field=5Zu-54mH" style="width:266px;height:190px;"/></a></li>
+  </ul>
+  <ul class="num"></ul> 
+  <div class="btn">
+    <span class="prev">&lt;</span>
+    <span class="next">&gt;</span>
+  </div>
+   <ul class="infoList"><!-- 图片左下角文字信息部分 -->
+	<li><a href="tpxwdetail.vm?content=L-iAg-ivleWKqOaAgS_lm77niYfmlrDpl7svYmQwMDM4ZTgtYzJjNy00NmNjLWE4NTItMzZiN2U4YTIxNDQ4" title="中华人民共和国人力资源和社会保障部令 第31号">中华人民共和国人力资源和社会保障部令 第...&nbsp;&nbsp;&nbsp;</a></li>
+   </ul>
+</div>
+
+<script type="text/javascript">
+  
+  $(function(){
+ 
+    var i=0;
+    var timer=null;
+    for (var j = 0; j < $('.img li').length; j++) {  //创建圆点
+      $('.num').append('<li></li>')
+    }
+    $('.num li').first().addClass('active'); //给第一个圆点添加样式
+ 
+    var firstimg=$('.img li').first().clone(); //复制第一张图片
+    $('.img').append(firstimg).width($('.img li').length*($('.img img').width())+$('.img img').width()); //将第一张图片放到最后一张图片后，设置ul的宽度为图片张数*图片宽度
+ 
+ 
+    // 下一个按钮
+    $('.next').click(function(){
+      i++;
+      if (i==$('.img li').length) {
+        i=1; //这里不是i=0
+        $('.img').css({left:0}); //保证无缝轮播，设置left值
+      };
+
+      $('.img').stop().animate({left:-i*266},300);
+      if (i==$('.img li').length-1) {   //设置小圆点指示
+        $('.num li').eq(0).addClass('active').siblings().removeClass('active');
+		$(".infoList").find("li").removeClass("infoOn").eq(0).addClass("infoOn");
+      }else{
+        $('.num li').eq(i).addClass('active').siblings().removeClass('active');
+		$(".infoList").find("li").removeClass("infoOn").eq(i).addClass("infoOn");
+      }
+       
+    })
+ 
+    // 上一个按钮
+    $('.prev').click(function(){
+      i--;
+      if (i==-1) {
+        i=$('.img li').length-2;
+        $('.img').css({left:-($('.img li').length-1)*266});
+      }
+      $('.img').stop().animate({left:-i*266},300);
+      $('.num li').eq(i).addClass('active').siblings().removeClass('active');
+	  $(".infoList").find("li").removeClass("infoOn").eq(i).addClass("infoOn");
+    })
+ 
+    //设置按钮的显示和隐藏
+    $('.banner').hover(function(){
+      $('.btn').show();
+    },function(){
+      $('.btn').hide();
+    })
+ 
+    //鼠标划入圆点
+    $('.num li').mouseover(function(){
+      var _index=$(this).index();
+      $('.img').stop().animate({left:-_index*266},150);
+      $('.num li').eq(_index).addClass('active').siblings().removeClass('active');
+	  $(".infoList").find("li").removeClass("infoOn").eq(_index).addClass("infoOn");
+    })
+ 
+    //定时器自动播放
+    timer=setInterval(function(){
+      i++;
+      if (i==$('.img li').length) {
+        i=1;
+        $('.img').css({left:0});
+      };
+ 
+      $('.img').stop().animate({left:-i*266},300);
+      if (i==$('.img li').length-1) { 
+        $('.num li').eq(0).addClass('active').siblings().removeClass('active');
+		$(".infoList").find("li").removeClass("infoOn").eq(0).addClass("infoOn");
+      }else{
+        $('.num li').eq(i).addClass('active').siblings().removeClass('active');
+		$(".infoList").find("li").removeClass("infoOn").eq(i).addClass("infoOn");
+      }
+    },2000)
+ 
+    //鼠标移入，暂停自动播放，移出，开始自动播放
+    $('.banner').hover(function(){ 
+      clearInterval(timer);
+    },function(){
+      timer=setInterval(function(){
+      i++;
+      if (i==$('.img li').length) {
+        i=1;
+        $('.img').css({left:0});
+      };
+ 
+      $('.img').stop().animate({left:-i*266},300);
+      if (i==$('.img li').length-1) { 
+        $('.num li').eq(0).addClass('active').siblings().removeClass('active');
+		$(".infoList").find("li").removeClass("infoOn").eq(0).addClass("infoOn");
+      }else{
+        $('.num li').eq(i).addClass('active').siblings().removeClass('active');
+		$(".infoList").find("li").removeClass("infoOn").eq(i).addClass("infoOn");
+      }
+    },2000)
+    })
+ 
+  })
+
+
+  </script>
+<!--滚动新闻的开始-->
+
+			 
+<!--滚动新闻的结束-->
+                </td>
+              </tr>
+            </table>
+<!--图片新闻的结束-->
+            </td>
+            <td valign="top" align="right">
+<!--考试动态的开始-->
+            <table width="441" border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td><table width="441" height="37" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="37" background="skin/image/m-ksdt.jpg"><table width="432" height="34" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+<td id="td_of_exam_news"></td>
+<td id="td_of_exam_news_more">﻿<a href="ksdtList.vm?dir=L-iAg-ivleWKqOaAgS_ogIPor5XliqjmgIE&page=1&rows=8">更多 &gt;&gt;</a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="200" valign="top" style="background-image:url(skin/image/m-ksdt-n.jpg);padding-top:9px;">
+<table width="100%" border="0" cellpadding="3" cellspacing="0">
+
+
+ <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left"> 
+				                            				                            <a href="ksdtdetail.vm?content=L-iAg-ivleWKqOaAgS_ogIPor5XliqjmgIEvOGI5NmRkM2UtMGEzMi00NThiLWI2ZGItMTFlMjE2ZWUwNDI3"
+						                      title="关于启用吉林省二级建造师执业资格考试电子证书的通知 "  target="blank">关于启用吉林省二级建造师执业资格考试电子证书的通知 <img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td><td width="70">2025-08-18</td>
+</tr>
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left"> 
+				                            				                            <a href="ksdtdetail.vm?content=L-iAg-ivleWKqOaAgS_ogIPor5XliqjmgIEvYTc5ZjZiNTAtYjMyMS00OWIxLWI2NjQtY2FmYTliNGZkNDlk"
+						                      title="2023年省直事业单位公开招聘工作人员（5号公告）笔试工作圆满完成"  target="blank">2023年省直事业单位公开招聘工作人员（5号公告）笔试工作圆...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td><td width="70">2023-08-28</td>
+</tr>
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left"> 
+				                            				                            <a href="ksdtdetail.vm?content=L-iAg-ivleWKqOaAgS_ogIPor5XliqjmgIEvNmFlMmM2OGUtMTkxYy00NzNjLWE5ZmEtNDZkNjgyNmU2OTkz"
+						                      title="关于通信和计算机技术与软件专业技术资格（水平）考试电子证书取代《专业技术人员职业资格考试合格人员存档表》的通知"  target="blank">关于通信和计算机技术与软件专业技术资格（水平）考试电子证书取...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td><td width="70">2023-02-20</td>
+</tr>
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left"> 
+				                            				                            <a href="ksdtdetail.vm?content=L-iAg-ivleWKqOaAgS_ogIPor5XliqjmgIEvODdmZmU2MmItNTA2OS00NWEyLThkMzUtMDFkOTk2OGQxY2Jj"
+						                      title="关于电子证书取代《专业技术人员职业资格考试合格人员存档表》的通知"  target="blank">关于电子证书取代《专业技术人员职业资格考试合格人员存档表》的...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td><td width="70">2022-12-15</td>
+</tr>
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left"> 
+				                            				                            <a href="ksdtdetail.vm?content=L-iAg-ivleWKqOaAgS_ogIPor5XliqjmgIEvNTBlN2IxYmMtOGExMy00MDZmLWI0NDYtY2Y0M2M5N2E0MThl"
+						                      title="人事考试中以下行为属于犯罪 "  target="blank">人事考试中以下行为属于犯罪 <img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td><td width="70">2015-10-28</td>
+</tr>
+				                             
+
+
+
+</table>
+                </td>
+              </tr>
+              <tr>
+                <td><table width="133" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td><img src="skin/image/m-ksdt-d.jpg" width="441" height="10"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--考试动态的结束-->
+            </td>
+          </tr>
+          <tr>
+            <td height="233" style="padding-right:3px;">
+<!--政策法规的开始-->
+            <table width="257" height="233" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                      <td height="39" background="skin/image/l-zcfg.jpg" style="text-align:right;padding-right:30px;"><a href="zcfgList.vm?dir=L-aUv-etluazleinhC_ogYznp7DlpJbor63jgIHorqHnrpfmnLov6IGM56ew5aSW6K-t6ICD6K-V&page=1&rows=10" class="STYLE38">更多&gt;&gt;</a>
+              </tr>
+              <tr>
+                <td height="68" align="center">
+                <table width="257" border="0" cellpadding="0" cellspacing="0" background="skin/image/l-tpxw-n.jpg">
+                  <tr><td style="height:12px;"></td></tr>
+                  <tr>
+                    <td align="center">
+                        <a href="zcfgList.vm?dir=L-aUv-etluazleinhC_ogYznp7DlpJbor63jgIHorqHnrpfmnLov6IGM56ew5aSW6K-t6ICD6K-V&page=1&rows=10"><img src="skin/image/l-zcfg-zc.jpg" border="0"  ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                        <a href="zcfgList1.vm?dir=L-aUv-etluazleinhC_kuJPkuJrmioDmnK_otYTmoLzogIPor5Uv57uP5rWO&page=1&rows=8"><img src="skin/image/l-zcfg-zy.jpg" border="0" ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                        <a href="zcfgList2.vm?dir=L-aUv-etluazleinhC_ogYzkuJrotYTmoLzogIPor5Uv5Zu95a626IGM5Lia6LWE5qC86K-B5Lmm5Yi25bqm&page=1&rows=10"><img src="skin/image/l-zcfg-zyzg.jpg" border="0"></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="43" align="center">
+                    <a href="zcfgList3.vm?dir=L-aUv-etluazleinhC_kuovkuJrljZXkvY3mi5vogZjogIPor5U&page=1&rows=8"><img src="skin/image/l-zcfg-sy.jpg" border="0"></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="32" align="center">
+                    <a href="zcfgList3.vm?dir=L-aUv-etluazleinhC_lhbbku5Y&page=1&rows=8"><img src="skin/image/l-zcfg-qt.jpg" border="0"></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="background-image:url(skin/image/l-tpxw-d01.jpg);background-repeat:no-repeat;height:6px;background-position:0 -3px;"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--政策法规的结束-->
+            </td>
+            <td align="right">
+<!--专业技术资格的开始-->
+            <table width="441" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><table width="441" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+ <td id="td_exam_apply" valign="bottom" ><span><a  href="ksbmList.vm?dir=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5U&page=1&rows=8">更多&gt;&gt;</a></span></td>
+                 
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="196" valign="top" style="background-image:url(skin/image/m-ksdt-n.jpg);padding-top:9px;">
+<table width="100%" border="0" cellpadding="3" cellspacing="0">
+         <tr height=45>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz-green.gif' /></td>
+<td align="left">
+				                          				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5UvZGJiZDczZDAtZGI0My00ZmE2LThlYTAtNDMxZjM0NjdiOWJi"
+						                      title="关于2026年度全国勘察设计注册工程师执业资格考试考务工作的通知"  target="blank">关于2026年度全国勘察设计注册工程师执业资格考试考务工作的...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+ 	</td>
+<td width="70">2026-07-31</td>
+
+</tr>
+					                        
+				                             <tr height=45>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz-green.gif' /></td>
+<td align="left">
+				                          				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5UvNmE1YjJmNDEtNGVhYi00MTNjLTlhZGMtMzE0MmQ1Y2Q2MmUy"
+						                      title="关于2026年度一级注册消防工程师资格考试考务工作的通知"  target="blank">关于2026年度一级注册消防工程师资格考试考务工作的通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+ 	</td>
+<td width="70">2026-07-31</td>
+
+</tr>
+					                        
+				                             <tr height=45>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz-green.gif' /></td>
+<td align="left">
+				                          				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5UvMTBlYjk3YTMtYTI1NS00YWM1LWE1YTgtZjNlY2JiNWIxOGVl"
+						                      title="关于2026年度下半年计算机技术与软件专业技术资格（水平）考试考务工作的通知"  target="blank">关于2026年度下半年计算机技术与软件专业技术资格（水平）考...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+ 	</td>
+<td width="70">2026-07-31</td>
+
+</tr>
+					                        
+				                             <tr height=45>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz-green.gif' /></td>
+<td align="left">
+				                          				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5UvMjkwYzdhNDctN2E2Mi00OWM2LWFhMjQtYmE0YzkxOWRjZDhl"
+						                      title="关于2026年度新闻记者职业资格考试考务工作的通知"  target="blank">关于2026年度新闻记者职业资格考试考务工作的通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+ 	</td>
+<td width="70">2026-07-21</td>
+
+</tr>
+					                        
+				                             <tr height=45>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz-green.gif' /></td>
+<td align="left">
+				                          				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuJPkuJrmioDmnK_otYTmoLzogIPor5UvODUwMGEzYTYtYmI2NS00M2U1LWJiYWEtYThlZDBlNzQzMzk5"
+						                      title="关于2026年度执业药师职业资格考试考务工作的通知"  target="blank">关于2026年度执业药师职业资格考试考务工作的通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+ 	</td>
+<td width="70">2026-07-17</td>
+
+</tr>
+					                        
+				                             </table>
+                </td>
+              </tr>
+              <tr>
+                <td><table width="133" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td><img src="skin/image/m-ksdt-d.jpg" width="441" height="10"></td>
+                    </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--专业技术资格的结束-->
+            </td>
+            </tr>
+        </table></td>
+        <td align="right" valign="top">
+        
+        <table border="0" align="right" width="246" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top">
+<!--通知公告栏目内容-->
+            <table align="right" height="249" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                      <td style="height:36px;background-image:url(skin/image/r-xxgg.jpg);background-repeat:no-repeat;background-position:-1px 0px;text-align:right;padding-right:30px;padding-top:3px;"><a href="xxggList.vm?dir=L-S_oeaBr-WFrOWRig&page=1&rows=10">更多 &gt;&gt;</a></td>
+              </tr>
+              <tr>
+                      <td width="244" height="9" style="background-image:url(skin/image/r-xxgg-r.jpg);"></td>
+                    </tr>
+                    <tr>
+                      <td align="right" valign="top" style="overflow:hidden;padding:3px;padding-left:12px;padding-right:12px;background-image:url(skin/image/r-xxgg-m.jpg);background-repeat:repeat-y;background-position:0px;">
+<marquee direction="up" onmouseover="this.stop()" scrolldelay="100" scrollamount="2" onmouseout="this.start();" style="height:190px;">
+<table width="100%" border="0" cellpadding="3" cellspacing="0">
+<tr>
+<td width="12" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td align="left"><span class="style22">
+ <a href="ksdtdetail.vm?content=L-S_oeaBr-WFrOWRii84YmNjNTE0OS03NmEzLTRlOTYtYjkzMi1iY2E3NWQ2MWE5MTI"
+						                      title="关于新版吉林省人事考试网上线试运行的公告"  target="blank">关于新版吉林省人事考试网上线试运行的公告</a>
+			                             </span></td>
+</tr>
+							                        
+	                        
+				                             <tr>
+<td width="12" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-S_oeaBr-WFrOWRii9kODE5YTcyZC1hMTQxLTQwNTYtOTkwZC0zZjA4NmIxZDdhMDE"
+						                      title="吉林省2026年度二级建造师执业资格电子证书发放通知"  target="blank">吉林省2026年度二级建造师执业资格电子证书发放通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</span></td>
+</tr>
+							                        
+	                        
+				                             <tr>
+<td width="12" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-S_oeaBr-WFrOWRii9lZGRjOTQ1Mi01OTczLTRkMDctYjIyMy00ZDM3ZGZlZTFiYzU"
+						                      title="关于发布2026年度二级建造师考试合格标准的通知"  target="blank">关于发布2026年度二级建造师考试合格标准的通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</span></td>
+</tr>
+							                        
+	                        
+				                             <tr>
+<td width="12" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-S_oeaBr-WFrOWRii8xZGU3Y2E4My0zMDk2LTQyMzktYWI2MC0wMDE2Y2Q5ODU0Y2M"
+						                      title="关于2026年度卫生专业技术资格考试省、中直考区合格人员证书邮寄信息采集工作的通知"  target="blank">关于2026年度卫生专业技术资格考试省、中直考区合格人员证书...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</span></td>
+</tr>
+							                        
+	                        
+				                             <tr>
+<td width="12" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-S_oeaBr-WFrOWRii8zOGJiYTMwZS0zN2Y4LTQwYjEtYWMyNC01MTM4MDU1MWJhM2U"
+						                      title="关于发布2026年度二级建造师考试成绩的通知"  target="blank">关于发布2026年度二级建造师考试成绩的通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</span></td>
+</tr>
+							                        
+	                        
+				                             </table></marquee>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="9" style="background-image:url(skin/image/r-xxgg-d.jpg);background-position:0px -6px;"></td>
+                    </tr>
+            </table>
+<!--通知公告栏目内容-->
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" style="padding-left:1px;">
+<!--便捷通道栏目内容，开始-->
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="height:36px;background-image:url(skin/image/r-bjtd.jpg);background-repeat:no-repeat;background-position:0px 0px;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="right"><table border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="6" style="width:244px;background-image:url(skin/image/r-xxgg-r.jpg);"></td>
+                  </tr>
+                  <tr>
+                    <td align="right"><table width="244" border="0" cellpadding="0" cellspacing="0" background="skin/image/r-xxgg-m.jpg" style="text-align:center;">
+                          <tr>
+                            <td><a  href="ksjhList.vm?dir=L-iAg-ivleiuoeWIkg&page=1&rows=10"><img src="skin/image/r-ksjh.jpg" border="0"></a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="jlwsbm/first.htm"><img src="skin/image/r-wsbm.jpg" border="0"></a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="wszkz/first.htm"><img src="skin/image/r-dyz.jpg" border="0"></a></td>
+                          </tr>
+                          <!--<tr>
+                            <td><a href="http://39.107.176.40:90"><img src="skin/image/r-wsbm.jpg" border="0"></a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://39.107.176.40:90/"><img src="skin/image/r-dyz.jpg" border="0"></a></td>
+                          </tr>-->
+                          <tr>
+                            <td><a href="/czadmin/out/cj/index.html"><img src="skin/image/r-kddt.jpg" border="0"></a></td>
+                          </tr>
+                          <!--<tr>
+                            <td><a href="http://36.49.92.155:23104/cjcx/index.aspx"><img src="skin/image/r-cjcx.jpg" border="0"></a></td>
+                          </tr>-->
+                          <tr>
+                            <td><a href="/cjcx2007/examList08-14.jsp"><img src="skin/image/r-cjcx.jpg" border="0"></a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="/bmxt_zsdy2/input.jsp"><img src="skin/image/r-khzgsh.jpg" border="0"></a></td>
+                          </tr>
+                        </table></td>
+                  </tr>
+                  <tr>
+                        <td style="height:6px;background-image:url(skin/image/r-xxgg-d.jpg);background-position:0px -8px;"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--便捷通道栏目内容，结束--></td>
+          </tr>
+        </table>
+        
+        </td>
+      </tr>
+    </table>
+    
+<!--中间广告区域的开始-->
+<center>
+<div style="width:952px;background-color:white;padding-bottom:1px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" >
+      <tr>
+        <td height="80"><img src="skin/image/kouhao.jpg" style="width:952px;height:80px"/></td>
+      </tr>
+</table></div>
+</center>
+<!--中间广告区域的结束-->
+
+
+<table width="950" align="center" border="0" cellpadding="0" cellspacing="0" style="background-color:White;">
+      <tr>
+        <td valign="top" align="left">
+<!--左侧部分的开始-->
+<table height="164" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top">
+<!--在线调查的开始-->
+<div>
+            <table width="257" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                    <td height="39" background="skin/image/l-zxdc.jpg" style="text-align:right;padding-right:30px;font-size:13px;padding-top:6px;"><a href="zxdcList.vm?dir=L-WcqOe6v-iwg-afpQ&page=1&rows=10">更多&gt;&gt;</a></td>
+              </tr>
+              <tr>
+                <td height="194" valign="middle" style="background-image:url(skin/image/l-tpxw-n.jpg);padding-top:6px;">
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td align="center" valign="middle" style="height:150px;overflow:auto;">
+<table id="TableDynamic" cellspacing="0" cellpadding="0" border="0" style="height:100px;width:200px;border-collapse:collapse;">
+	<tr>
+		<td style="border-style:None;width:100%;"><span>您是否赞成邮寄考试合格证书？</span></td>
+	</tr><tr>
+		<td style="border-style:None;"><table id="rblist18" border="0">
+			<tr>
+				<td><input id="rblist18_0" type="radio" name="rblist18" value="51" /><label for="rblist18_0">赞成</label></td>
+			</tr><tr>
+				<td><input id="rblist18_1" type="radio" name="rblist18" value="52" /><label for="rblist18_1">不赞成</label></td>
+			</tr><tr>
+				<td><input id="rblist18_2" type="radio" name="rblist18" value="53" /><label for="rblist18_2">无所谓</label></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+                             </td>
+                          </tr>
+                          <tr>
+                            <td align="center"><input type="image" name="btnUp" id="btnUp" src="skin/image/icon-tp.gif" border="0" style="margin-left: 0px" /></td>
+                          </tr>
+                        </table></td>
+              </tr>
+              <tr>
+                    <td height="9"><img src="skin/image/l-tpxw-d01.jpg" width="257" height="9"></td>
+              </tr>
+            </table>
+</div>
+<!--在线调查的结束-->
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+<!--站内搜索的开始-->
+              <!--站内搜索的开始-->
+<script type="text/javascript" src="skin/js/base64.min.js"></script>
+<form name="searchForm"action="searchList.vm"onsubmit="document.searchForm.search.value=Base64.encodeURI(document.getElementById('searchText').value);">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                      <td style="height:39px;background-image:url(skin/image/l-znss.jpg);background-repeat:no-repeat;"></td>
+              </tr>
+              <tr>
+                <td valign="top">
+				<div style="border-color:#cdddf7;border-width:1px;border-style:solid;height:72px;padding-top:8px;">
+				<table width="257" border="0" cellpadding="3" cellspacing="0">
+					<tr>
+						<td></td>
+					</tr>
+                    <tr>
+                      <td><table width="250" border="0" cellpadding="0" cellspacing="0" style="font-size:12px;">
+                        <tr>
+                          <td width="81" align="center">关键字</td>
+                          <td colspan="2">
+                           <input type="hidden" name="search"/>
+			   <input type="hidden" name="rows" value="10"/>
+			   <input type="hidden" name="page" value="1"/>
+                           <input id="searchText" type="text" value="" style="width:109px;" />
+                          </td>
+                          </tr>
+                        <tr>
+                        <td align="center">按类别</td>
+                          <td width="105"><select   style="width:116px;">
+	<option value="1">全文检索</option>
+	<option value="2">标题检索</option>
+	<option value="3">内容检索</option>
+
+</select></td>
+                          <td width="89" align="center">
+                           <input type="submit" value="搜索" border="0" style="height:25px;width:71px;"/>
+                           </td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                </table>
+				</div>
+				</td>
+              </tr>
+            </table>
+</form>
+<!--站内搜索的结束--><!--站内搜索的结束-->
+            </td>
+          </tr>
+          
+          
+        </table>
+        
+<!--左侧部分的结束-->
+        
+        </td>
+        <td align="left" valign="top" style="padding-left:3px;"><table width="340" height="31" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top"><table width="441" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><table width="441" height="37" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="441" height="37" background="skin/image/m-ksdt.jpg"><table width="432" height="34" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="115" height="34" align="center" valign="bottom" style="padding-left:6px;"><table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td><img src="skin/image/m-sydwzpks-i.png" ></td>
+                                </tr>
+                            </table></td>
+                            <td width="243">&nbsp;</td>
+                            <td width="74" align="left" style="padding-top:8px;"> <a  href="ksbmList.vm?dir=L-iAg-ivleaKpeWQjS_kuovkuJrljZXkvY3mi5vogZjogIPor5U&page=1&rows=8">更多&gt;&gt;</a></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="196" valign="top" style="background-image:url(skin/image/m-ksdt-n.jpg);padding-top:9px;">
+<table width="100%" border="0" cellpadding="3" cellspacing="0">
+ <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuovkuJrljZXkvY3mi5vogZjogIPor5UvM2Y2MTJmNzItMGJiYi00OTc1LWI3ZTgtNDg4M2U0NjhlODNi"
+						                      title="关于2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校毕业生）公告（12号）部分岗位报名情况统计的通知"  target="blank">关于2026年吉林省省直事业单位公开招聘工作人员（含专项招聘...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td>
+<td width="70">2026-09-17</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuovkuJrljZXkvY3mi5vogZjogIPor5UvNTYxZjgwM2QtZmVkYi00NDY4LWJkOTgtY2UzOTY3ODRlMzk5"
+						                      title="关于2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校毕业生）公告（12号）部分岗位报名情况统计的通知"  target="blank">关于2026年吉林省省直事业单位公开招聘工作人员（含专项招聘...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td>
+<td width="70">2026-09-16</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuovkuJrljZXkvY3mi5vogZjogIPor5UvN2QxODk1MjItNzkwMS00MmY3LWJjOTktZmY5NzRiMzQxZDZh"
+						                      title="关于2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校毕业生）公告（12号）部分岗位报名情况统计的通知"  target="blank">关于2026年吉林省省直事业单位公开招聘工作人员（含专项招聘...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td>
+<td width="70">2026-09-15</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuovkuJrljZXkvY3mi5vogZjogIPor5UvODRlY2M5N2MtNGQxZC00ZjFkLTg3ZDUtOWY5ODU4ZTdkYTkx"
+						                      title="2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校毕业生）公告（12号）"  target="blank">2026年吉林省省直事业单位公开招聘工作人员（含专项招聘高校...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td>
+<td width="70">2026-09-08</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				                            <a href="ksdtdetail.vm?content=L-iAg-ivleaKpeWQjS_kuovkuJrljZXkvY3mi5vogZjogIPor5UvYzVjNmY2OTktNWRhYS00ZjNiLThkYTUtZmEyMjZhMGQ3OGVi"
+						                      title="关于2026年吉林省高校毕业生“三支一扶”计划招募公告部分岗位报名情况统计的通知"  target="blank">关于2026年吉林省高校毕业生“三支一扶”计划招募公告部分岗...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</td>
+<td width="70">2026-06-12</td>
+</tr>
+					                        
+				                             
+</table>
+                </td>
+              </tr>
+              <tr>
+                <td><table width="133" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td><img src="skin/image/m-ksdt-d.jpg" width="441" height="10"></td>
+                    </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td><table width="441" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td id="td_of_service_note">
+<span class="current" c_id="table_of_service_note_1">准考证通知</span><span c_id="table_of_service_note_2">成绩及合格标准</span><span c_id="table_of_service_note_3">证书领取通知</span>
+                </td>
+              </tr>
+              <tr>
+                <td height="232" valign="top" style="background-image:url(skin/image/m-ksdt-n.jpg);padding-top:9px;">
+<table width="100%" border="0" cellpadding="3" cellspacing="0" id="table_of_service_note_1" class="table_of_service_note_item">
+
+
+<tr height=36>
+<td colspan='3' class='td_exam_apply_more'><a href="fwznList.vm?dir=L-acjeWKoeaMh-WNly_lh4bogIPor4HpgJrnn6U&page=1&rows=8">更多 &gt;&gt;</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="3" cellspacing="0" id="table_of_service_note_2" class="table_of_service_note_item">
+
+
+<tr height=36>
+<td colspan='3' class='td_exam_apply_more'><a href="fwznList.vm?dir=L-acjeWKoeaMh-WNly_miJDnu6nmn6Xor6Llj4rlkIjmoLzmoIflh4Y&page=1&rows=8">更多 &gt;&gt;</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="3" cellspacing="0" id="table_of_service_note_3" class="table_of_service_note_item">
+
+<tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				            				                            <a href="ksdtdetail.vm?content=L-acjeWKoeaMh-WNly_or4Hkuabpooblj5bpgJrnn6UvNjcxNTlkN2MtZTZkYS00ZWQ5LTllMDYtMGVmM2I0YzFjODNm"
+						                      title="2024年全国各类专业技术资格考试各类证书领取通知"  target="blank">2024年全国各类专业技术资格考试各类证书领取通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+
+</td>
+<td width="70">2024-08-19</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				            				                            <a href="ksdtdetail.vm?content=L-acjeWKoeaMh-WNly_or4Hkuabpooblj5bpgJrnn6UvYzNiMDNiODAtM2ZhMC00ZDJkLWI4YjEtYmU1NGE3NzUyODZj"
+						                      title="2023年全国各类专业技术资格考试各类证书领取通知"  target="blank">2023年全国各类专业技术资格考试各类证书领取通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+
+</td>
+<td width="70">2023-08-22</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				            				                            <a href="ksdtdetail.vm?content=L-acjeWKoeaMh-WNly_or4Hkuabpooblj5bpgJrnn6UvZmJhYTM2NjQtOGUyZC00OTZjLWEzOGMtMWQ0MjZhNDkwZjE0"
+						                      title="2022年全国各类专业技术资格考试各类证书领取通知"  target="blank">2022年全国各类专业技术资格考试各类证书领取通知<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+
+</td>
+<td width="70">2022-09-22</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				             <a href="ksdtdetail.vm?content=L-acjeWKoeaMh-WNly_or4Hkuabpooblj5bpgJrnn6UvZGI2NGM4YjctY2IzNy00YWJhLTgyMDctNDJiNWE0NWYxY2M1"
+						                      title="2021年全国各类专业技术资格考试各类证书领取通知"  target="blank">2021年全国各类专业技术资格考试各类证书领取通知</a>
+			                             
+</td>
+<td width="70">2021-08-19</td>
+</tr>
+					                        
+				                             <tr height=36>
+<td width='10' align='center' class='td_exam_news_point'><img src='skin/image/icon-wz.gif' /></td>
+<td align="left">
+				             <a href="ksdtdetail.vm?content=L-acjeWKoeaMh-WNly_or4Hkuabpooblj5bpgJrnn6UvNmU0YTNlY2UtMzdlYS00ZmM5LWIwYzAtODBjNWYzOGVlYjcz"
+						                      title="2020年全国各类专业技术资格考试各类证书领取通知"  target="blank">2020年全国各类专业技术资格考试各类证书领取通知</a>
+			                             
+</td>
+<td width="70">2020-12-09</td>
+</tr>
+					                        
+				                             
+<tr height=36>
+<td colspan='3' class='td_exam_apply_more'><a href="fwznList.vm?dir=L-acjeWKoeaMh-WNly_or4Hkuabpooblj5bpgJrnn6U&page=1&rows=8">更多 &gt;&gt;</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="3" cellspacing="0" id="table_of_service_note_4" class="table_of_service_note_item">
+
+
+<tr height=36>
+<td colspan='3' class='td_exam_apply_more'><a href="fwznList.vm?dir=L-acjeWKoeaMh-WNly_nmbvorrDms6jlhoznu5PmnoQ&page=1&rows=8">更多 &gt;&gt;</a></td>
+</tr>
+</table>
+                </td>
+              </tr>
+              <tr>
+                <td><table width="133" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td><img src="skin/image/m-ksdt-d.jpg" width="441" height="10"></td>
+                    </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td valign="top" align="right">
+<!--右侧区域开始-->
+        <table width="244" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="177" valign="top">
+<!--教材培训的开始-->
+            <table width="244" height="198" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="36" valign="top"><table width="244" height="34" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td align="right" style="padding-right:30px;background-image:url(skin/image/r-jypx.jpg);"><a href="jcpxList.vm?dir=L-aVmeadkOWfueiurQ&page=1&rows=10" class="STYLE38">更多&gt;&gt;</a></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="164" valign="top"><table width="100%" height="196" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="9" style="background-image:url(skin/image/r-xxgg-r.jpg);"></td>
+                  </tr>
+                  <tr>
+                    <td valign="top" height="190" align="top" style="padding:3px;padding-right:12px;background-image:url(skin/image/r-xxgg-m.jpg);">
+<table width="100%" border="0" cellpadding="3" cellspacing="0">
+</tr>
+ <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22"> 
+				                            <a href="ksdtdetail.vm?content=L-aVmeadkOWfueiurS9kZmYyMWJjYS04OWMwLTQzN2UtOTRmYi0xMGVmMWE3ZDc1YWQ"
+						                      title="全国经济、职称外语、计算机应用能力考试用书征订——中国人事考试图书网 "  target="blank">全国经济、职称外语、计算机应用能力考试用书征订——中国人事考...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</span></td>
+</tr>
+             <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22"> 
+ <a href="ksdtdetail.vm?content=L-aVmeadkOWfueiurS83MGQwYjg2Ny0zYTM4LTRiYzctOWQwMi03MzJjZTRlZDQzODI"
+						                      title="各类专业技术资格考试用书征订与培训联系部门、电话 "  target="blank">各类专业技术资格考试用书征订与培训联系部门、电话 </a>
+			                             </span></td>
+</tr>
+             </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="9" style="background-image:url(skin/image/r-xxgg-d.jpg);background-repeat:no-repeat;background-position:0px -6px;"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--教材培训的结束-->
+            </td>
+          </tr>
+          <tr>
+            <td height="120" valign="top">
+<!--温馨提示的开始-->
+            <table width="244" height="120" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                    <td valign="middle" style="background-image:url(skin/image/r-wxts.jpg);background-repeat:no-repeat;text-align:right;padding-right:30px;height:36px;"><a href="wxtsList2.vm?dir=L-a4qemmqOaPkOekui_ng63ngrnpl67popjop6PnrZQv6ICD6K-V57qq5b6L5pa56Z2i&page=1&rows=10">更多&gt;&gt;</a></td>
+              </tr>
+              <tr>
+                <td valign="top"><table width="244" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height=9 style="background-image:url(skin/image/r-xxgg-r.jpg);background-repeat:no-repeat;"></td>
+                  </tr>
+                  <tr>
+                    <td valign="top">
+<table width="100%" height="68" border="0" cellpadding="3" cellspacing="0" background="skin/image/r-xxgg-m.jpg">
+
+<tr height='30'>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22"><a href="wxtsList1.vm?dir=L-a4qemmqOaPkOekui_nnIHluILlt57kurrkuovogIPor5XmnLrmnoTlj4rogZTns7vnlLXor50&page=1&rows=10" title="省市州人事考试机构及联系电话 " target="_blank">省市州人事考试机构及联系电话 </a></span></td>
+</tr>
+<tr height='30'>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22"><a href="wxtsList2.vm?dir=L-a4qemmqOaPkOekui_ng63ngrnpl67popjop6PnrZQv6ICD6K-V57qq5b6L5pa56Z2i&page=1&rows=10" target="_blank">热点问题解答（报名、成绩、证书等方面）</a></span></td>
+</tr>
+</table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="9" style="background-image:url(skin/image/r-xxgg-d.jpg);background-position:0px -6px;background-repeat:no-repeat;"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--温馨提示的结束-->
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+<!--违纪曝光台的开始-->
+            <table width="244" height="71" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="34" valign="middle" style="background-repeat:no-repeat;background-image:url(skin/image/r-wjbgt.jpg);height:36px;text-align:right;padding-right:30px;"><a href="wjList.vm?dir=L-i_nee6quabneWFiQ&page=1&rows=10">更多&gt;&gt;</a></td>
+              </tr>
+              <tr>
+                <td><table width="244" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                        <td height="9" style="background-image:url(skin/image/r-xxgg-r.jpg);background-repeat:no-repeat;"></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" height="103" border="0" cellpadding="0" cellspacing="0" background="skin/image/r-xxgg-m.jpg">
+                      <tr>
+                        <td valign="top">
+
+<table width="100%" border="0" cellpadding="3" cellspacing="0" background="">
+ <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22">
+				                           				                            <a href="ksdtdetail.vm?content=L-i_nee6quabneWFiS85Y2JjYWJiMy00YjBiLTRhY2UtYTM1Yy00NWFlODY1YmU1N2I"
+						                      title="2023年度二级建造师和社会工作者考试吉林省考区涉嫌违法考生公告"  target="blank">2023年度二级建造师和社会工作者考试吉林省考区涉嫌违法考生...<img border='0' style='margin-left:3px;' align='absmiddle' src='skin/image/new.gif'></a>
+</span></td>
+				                             <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-i_nee6quabneWFiS8wZGI1NzNhMy01OTgzLTQ1MWQtOWYxOS1jNmI3MDZlZTc2NDQ"
+						                      title="2022年度全国卫生专业技术资格考试吉林省考区违法考生公告"  target="blank">2022年度全国卫生专业技术资格考试吉林省考区违法考生公告</a>
+			                             </span></td>
+				                             <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-i_nee6quabneWFiS84NTdiNzJkZi1jYjQ1LTQzNTgtODk3NS04NTAxNzRjMDg4NDY"
+						                      title="2021年度一级建造师资格考试吉林省考区违法考生公告"  target="blank">2021年度一级建造师资格考试吉林省考区违法考生公告</a>
+			                             </span></td>
+				                             <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-i_nee6quabneWFiS84ZjljNTQ2ZC1lNGJmLTQwMjEtOWE3My1iOWMwMzIwODQ2MDk"
+						                      title="2020年度一级建造师资格考试吉林省考区违法考生公告"  target="blank">2020年度一级建造师资格考试吉林省考区违法考生公告</a>
+			                             </span></td>
+				                             <tr height=36>
+<td width="19" align="center"><img src="skin/image/icon-gg.gif" width="4" height="4"></td>
+<td width="250" align="left"><span class="style22">
+				                            <a href="ksdtdetail.vm?content=L-i_nee6quabneWFiS8xNmNiNjhhZC0wOGM5LTRmNTgtYmYyMy05MzZlM2I0YjJkMTI"
+						                      title="2021年度全国卫生专业技术资格考试和二级建造师考试吉林省考区违法考生公告"  target="blank">2021年度全国卫生专业技术资格考试和二级建造师考试吉林省考...</a>
+			                             </span></td>
+				                             </tr>
+
+                </table>
+                        </td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                            <td height=9 style="background-image:url(skin/image/r-xxgg-d.jpg);background-repeat:no-repeat;background-position:0px -6px;"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+<!--违纪曝光台的结束-->
+            </td>
+          </tr>
+        </table>
+<!--右侧区域结束-->
+        </td>
+      </tr>
+    </table>
+  
+<!--底部广告区域，开始-->
+<center>
+<div id="div1" style="display:block;height:60px;width:950px;overflow:hidden;background-color:White;">
+<table id="table1" width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td id="tdItem1" valign="middle">
+    <table width="952" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="0">&nbsp;</td>
+        <td ><a href="http://www.mohrss.gov.cn/" target="_blank" ><img src="skin/image/d-shbz.jpg" border="0" ></a></td>
+        <td width="50">&nbsp;</td>
+        <td><a href="http://www.cpta.com.cn" target="_blank" ><img src="skin/image/d-sh.jpg" border="0" ></a></td>
+        <td width="51">&nbsp;</td>
+        <td><a href ="http://hrss.jl.gov.cn/" target="_blank"><img src="skin/image/d-jlshbz.jpg" border="0"></a></td>
+        <td width="51">&nbsp;</td>
+        <td><a href="http://www.21wecan.com/" target="_blank"><img src="skin/image/d-zgws.jpg" border="0" ></a></td>
+        <td width="51">&nbsp;</td>
+        <td><a href="http://rsks.class.com.cn/" target="_blank"><img src="skin/image/d-zgrsksw.jpg" border="0" ></a></td>
+        <td width="51">&nbsp;</td>
+      </tr>
+    </table>
+</td>
+<td id="tdItem2" valign="middle"></td>
+</tr>
+</table></div>
+<script language="javascript">
+function scrollInit(){
+	document.getElementById("tdItem2").innerHTML=document.getElementById("tdItem1").innerHTML;
+	scrollObj.initScroll("div1","table1","tdItem1");
+	scrollObj.itemWidth=952;
+	scrollObj.scrollWidth=952;
+	scrollObj.contentWidth=1904;
+	scrollObj.scrollStyle=0;
+	scrollObj.start();
+}
+scrollInit();bind_default_page_content();
+</script>
+</center></form>
+                        <!-- footer -->
+			<!--底部广告区域，开始-->
+
+<table width="952" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+	    <td>
+	    	<table width="100%" height="46"  border="0" cellpadding="0" cellspacing="0" background="skin/image/down-r.jpg">
+	     		<tr>
+	        		<td align="center" valign="middle"><span class="style22"> <a href="javascript:set_home();">设为首页</a> | <a href="javascript:add_favour();">加为收藏</a></span></td>
+	    		</tr>
+	    		<tr>
+	        		<td align="center" valign="top" ><span class="style22">您是本站第 <span id="num_request"></span> 位访客  当前在线人数<span id="on_line"></span>人</span></td>
+				</tr>
+	    	</table>
+	    </td>
+	</tr>
+	<tr>
+	    <td>
+	    	<table width="100%" height="72" border="0" cellpadding="0" cellspacing="0" background="skin/image/down.jpg">
+	    		<tr>
+	        		<td align="center"><span class="style22 STYLE41">吉林省人事考试中心 主办</span></td>
+	   			</tr>
+	   			<tr>
+	    			<td align="center"><span class="style22 STYLE41">地址：吉林省长春市南关区南环城路1958号 邮政编码：130022 声明：本站所有信息、图片，未经许可不得复制、转载 </span></td>
+	    		</tr>
+				<tr>
+					<td align="center"><span class="style22 STYLE41"> Copyright (C) 2007-2010 www.jlzkb.com All Rights Reserved</span></td>
+				</tr>
+				<tr>
+					<td align="center"><span class="STYLE41 style22"> <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">吉ICP备20002746号</a> </span></td>
+				</tr>
+<tr>
+					<td align="center"><span class="STYLE41 style22"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/09/000/0000/40321183/CA090000000403211830001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+		</td></span></td>
+				</tr>
+			</table>
+
+	</tr>
+</table>
+<!--底部广告区域，结束-->
+         		<!-- // fooetr -->
+<div class="popPanel">
+						<div class="qrcodePanel">
+							<img src="skin/image/qrcode.jpg" />
+							<br><img src="skin/image/zsqr.png" />
+							<p>省中直考区证书邮寄办理请扫描二维码</p>
+						</div>
+					</div>
+</body>

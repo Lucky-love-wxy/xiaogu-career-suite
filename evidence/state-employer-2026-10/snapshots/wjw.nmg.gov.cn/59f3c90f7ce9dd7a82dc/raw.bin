@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="renderer" content="webkit">
+<meta name="SiteName" content='内蒙古自治区卫生健康委员会' />
+<meta name="SiteDomain" content="http://wjw.nmg.gov.cn" />
+<meta name="SiteIDCode" content="1500000062" />  
+<meta name="ColumnName" content="网站声明" />
+<meta name="ColumnDescription" content="网站声明" />
+<meta name="ColumnKeywords" content="内蒙古自治区卫生健康委员会,网站声明" />
+<meta name="ColumnType" content="网站声明" />
+<title>网站声明_内蒙古自治区卫生健康委员会</title>
+<link rel="icon" href="../material/images/favicon.gif" type="image/gif" />
+<meta name="keywords" content="内蒙古卫健委,内蒙古自治区卫生健康委员会,卫健委"/>
+<meta name="description" content="内蒙古自治区卫生健康委员会门户网站"/>
+<link href="../material/css/SJHreset.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="../material/js/jquery.min.js"></script>
+<link href="../material/css/hf.css" type="text/css" rel="stylesheet" />
+<link href="../material/css/main.css" type="text/css" rel="stylesheet" />
+<link href="../material/css/fyys.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<!------------------------- head开始 ------------------------->
+<link rel="stylesheet" href="../material/css/hf8-27.css">
+<script src="//bf.intertid.com/wza/wza2.min.js?appid=DN5On2xuABuxcCX"></script>
+<script type="text/javascript">
+$.ajax({          
+      type: "get",
+        url:"https://wjw.nmg.gov.cn/personal/validate/getUserInfo",
+        dataType: "json",            
+    success: function (data) {
+      console.log(data);
+      if (data.data.isLogin) {
+        var username = data.data.userInfo.USER_NAME;
+        var mobile = data.data.userInfo.MOBILE;
+        var email = data.data.userInfo.EMAIL;
+        $("#a3").html(username);
+        $("#a1").hide();
+        $("#a2").show();
+        $("#name").val(username);
+        $("#phone").val(mobile);
+        $("#email").val(email);
+      }
+    },
+    error: function (jqXHR) {
+
+    }
+  });
+</script>
+<!-- 公用头部开始 -->
+<div class="g-headbg pc"  style="min-width:1100px;">
+  <div class="c_topup"  style="min-width:1100px;">
+    <div class="w1100 clearfix">
+      <div class="c_topleft">
+        <a href="http://www.nhc.gov.cn/" target="_blank" class="c_toplink">国家卫生健康委员会网站</a>
+        <a href="http://www.nmg.gov.cn/" target="_blank" class="c_toplink">内蒙古自治区人民政府网站</a>
+        <a href="http://zwfw.nmg.gov.cn/?record=istrue" target="_blank" class="" style="margin-left: 10px;">内蒙古自治区政务服务网站</a>
+      </div>
+      <div class="c_topright">
+  <a href="/zzb/" class="zzb" target="_blank" tabindex="0" style="background: #449d18;border-radius: 23px;padding: 0 15px 0 15px;font-weight: bold;color: #fff;">
+          长者模式
+      </a> 
+        <a class="c_rightlink3" style="cursor:pointer;">部门网站导航</a>
+        <a id="wza2-enable" title="无障碍浏览" href="javascript:" class="c_rightlink812" style="background: url(../material/images/ctopright812.png) no-repeat 15px center;padding: 0 15px 0 41px;">无障碍浏览</a>
+        <a id="a1" href="https://zwfw.nmg.gov.cn/sso/sso/login?utype=0&redirect=istrue&client_id=4YTG1UQSM&goto=https://wjw.nmg.gov.cn/" class="c_rightlink2">登录/注册</a>
+        <div id="a2" style="display: none;float: left;">
+<a id="a3" href="#" class="c_rightlink2"  target="_blank"></a>
+ <a href="https://zwfw.nmg.gov.cn/personal_center_profile" class="c_rightlink2"  target="_blank">个人中心</a>
+</div>
+        <div class="c_caiddan">
+          <div class="c_guanblef">&times;</div>
+          <div class="c_kunzigun">
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区政府组成部门</div>
+              <div class="c_yizulitd">
+                <a href="http://fgw.nmg.gov.cn/" target="_blank" title="发展和改革委员会">发展和改革委员会</a>
+                  <a href="http://jyt.nmg.gov.cn/" target="_blank" title="教育厅">教育厅</a>
+                  <a href="http://kjt.nmg.gov.cn/" target="_blank" title="科学技术厅">科学技术厅</a>
+                  <a href="http://gxt.nmg.gov.cn/" target="_blank" title="工业和信息化厅">工业和信息化厅</a>
+                  <a href="http://mw.nmg.gov.cn/" target="_blank" title="民族事务委员会">民族事务委员会</a>
+                  <a href="http://gat.nmg.gov.cn/" target="_blank" title="公安厅">公安厅</a>
+                  <a href="http://mzt.nmg.gov.cn/" target="_blank" title="民政厅">民政厅</a>
+                  <a href="http://sft.nmg.gov.cn/" target="_blank" title="司法厅">司法厅</a>
+                  <a href="http://czt.nmg.gov.cn" target="_blank" title="财政厅">财政厅</a>
+                  <a href="https://rst.nmg.gov.cn/" target="_blank" title="人力资源和社会保障厅">人力资源和社会保障厅</a>
+                  <a href="http://zrzy.nmg.gov.cn/" target="_blank" title="自然资源厅">自然资源厅</a>
+                  <a href="http://zjt.nmg.gov.cn/" target="_blank" title="住房和城乡建设厅">住房和城乡建设厅</a>
+                  <a href="http://sthjt.nmg.gov.cn/" target="_blank" title="生态环境厅">生态环境厅</a>
+                  <a href="http://jtyst.nmg.gov.cn/" target="_blank" title="交通运输厅">交通运输厅</a>
+                  <a href="http://slt.nmg.gov.cn/" target="_blank" title="水利厅">水利厅</a>
+                  <a href="http://nmt.nmg.gov.cn/" target="_blank" title="农牧厅">农牧厅</a>
+                  <a href="http://swt.nmg.gov.cn/" target="_blank" title="商务厅">商务厅</a>
+                  <a href="http://wlt.nmg.gov.cn" target="_blank" title="文化和旅游厅">文化和旅游厅</a>
+                  <a href="https://wjw.nmg.gov.cn/" target="_blank" title="卫生健康委员会">卫生健康委员会</a>
+                  <a href="http://tyjrswt.nmg.gov.cn/" target="_blank" title="退役军人事务厅">退役军人事务厅</a>
+                  <a href="http://yjglt.nmg.gov.cn/" target="_blank" title="应急管理厅">应急管理厅</a>
+                  <a href="http://audit.nmg.gov.cn/" target="_blank" title="审计厅">审计厅</a>
+              </div>
+            </div>
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区直属特设机构</div>
+              <div class="c_yizulitd">
+                <a href="http://gzw.nmg.gov.cn/" target="_blank" title="国有资产监督管理委员会">国有资产监督管理委员会</a>
+              </div>
+            </div>
+            <div class="c_yizhu">
+              <div class="c_yizutit">自治区直属机构</div>
+              <div class="c_yizulitd">
+                <a href="http://amr.nmg.gov.cn/" target="_blank" title="市场监督管理局">市场监督管理局</a>
+                <a href="http://lcj.nmg.gov.cn/" target="_blank" title="林业和草原局">林业和草原局</a>
+                <a href="http://gbdsj.nmg.gov.cn/" target="_blank" title="广播电视局">广播电视局</a>
+                <a href="http://tyj.nmg.gov.cn/" target="_blank" title="体育局">体育局</a>
+                <a href="http://tj.nmg.gov.cn/" target="_blank" title="统计局">统计局</a>
+                <a href="http://nyj.nmg.gov.cn/" target="_blank" title="能源局">能源局</a>
+                <a href="http://jrj.nmg.gov.cn/" target="_blank" title="地方金融监督管理局">地方金融监督管理局</a> 
+                <a href="http://gdb.nmg.gov.cn/" target="_blank" title="国防动员办公室">国防动员办公室</a>
+                <a href="http://ylbzj.nmg.gov.cn/" target="_blank" title="医保局">医保局</a>
+                <a href="http://xfj.nmg.gov.cn/" target="_blank" title="信访局">信访局</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c_topmid"  style="min-width:1100px;">
+    <div class="w1100 clearfix" style="height:155px;">
+      <img src="../material/images/ctopyinz.png" alt="" class="c_topin" />
+      
+    <!-- WXF全文检索 -->
+    <div class="wxf_search_new">
+      <div class="wxf_search_new_type" id="wxf_search_new_type" sitetag="1">搜本站</div>
+      <div class="wxf_search_new_item" id="wxf_search_new_item">
+        <a sitetag="1">搜本站</a>
+        <a sitetag="2">搜平台</a>
+      </div>
+      <input type="text" value="请输入关键字" id="wxf_search_new_input" />
+      <div class="wxf_search_new_btn" id="wxf_search_new_btn">搜索</div>
+    </div>
+
+    <script type="text/javascript">
+    var searchTimeOut;
+    $("#wxf_search_new_type").click(function() {
+      $("#wxf_search_new_item").fadeIn(150);
+      searchTimeOut = setTimeout('$("#wxf_search_new_item").fadeOut(150);', 4000);
+    });
+    $("#wxf_search_new_item a").click(function() {
+      clearTimeout(searchTimeOut);
+      $("#wxf_search_new_item").fadeOut(150);
+      $("#wxf_search_new_type").html($(this).html());
+      $("#wxf_search_new_type").attr("sitetag", $(this).attr("sitetag")); 
+    });
+    $("#wxf_search_new_input").focus(function() {
+      var valStr = $(this).val();
+      if("请输入关键字" == $.trim(valStr)) {
+        $(this).val("");
+      }
+    });
+    $("#wxf_search_new_input").blur(function() {
+      var valStr = $(this).val();
+      if("" == $.trim(valStr)) {
+        $(this).val("请输入关键字");
+      }
+    });
+    $("#wxf_search_new_btn").click(function() {
+      var searchText = $.trim($("#wxf_search_new_input").val());
+      if("请输入关键字" == searchText || "" == searchText) {
+        alert("请输入查询内容");
+        return;
+      }
+      var searchTag = $("#wxf_search_new_type").attr("sitetag");
+      if(1 != searchTag && 2 != searchTag) {
+        searchTag = 1;
+      }
+      window.open('https://wjw.nmg.gov.cn/nmg_dept_search/#/Door?keywords='+ searchText +'&siteTag='+ searchTag +'&siteid=68') // siteTag=1为搜本站，=2为搜平台
+    });
+    </script>
+    <!-- /WXF全文检索 -->
+    
+      <div class="c_list">list</div>
+      <h1 class="c_toplogo"><a href="#"><img src="../material/images/ctoplogo.png" alt="" /></a></h1>
+    </div>
+    <div class="c_topnav"  style="min-width:1100px;">
+      <div class="c_topnavf c_topnav1"><a href="/">首页</a></div>
+      <div class="c_topnavf c_topnav2"><a href="/xwzx/">新闻中心</a></div>
+      <div class="c_topnavf c_topnav3"><a href="/zwgk/">政务公开</a></div>
+      <div class="c_topnavf c_topnav4"><a href="/zwfw/">政务服务</a></div>
+     <div class="c_topnavf c_topnav5"><a href="/msgc/">民生工程</a></div>
+      <div class="c_topnavf c_topnav6"><a href="https://wjw.nmg.gov.cn/dataservice/wjw/index.action">数据发布</a></div>
+      <div class="c_topnavf c_topnav7"><a href="/hdjl/zrxx/">互动交流</a></div>
+      <div class="c_topnavf c_topnav6"><a href="../djgz/">党建工作</a></div>
+      <div class="c_topnavf c_topnav7"><a href="../ztlm/">专题栏目</a></div>
+    </div>
+  </div>
+</div>
+<!-- 公用头部结束 -->
+<script type="text/javascript">
+  $('.c_list').click(function () {
+    $('.c_topnav').slideToggle(200);
+  })
+   $('.c_rightlink3').click(function () {
+    $('.c_caiddan').show();
+  })
+  $('.c_guanblef').click(function () {
+    $('.c_caiddan').hide();
+  })
+</script>
+<!------------------------- head结束 ------------------------->
+
+
+<!------------------------- mian开始 ------------------------->
+<div class="part">
+	<div class="g_dqwz_1 p14 w hui8">当前位置：
+		<a href="../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="./" target="_blank" title="网站声明" class="CurrChnlCls">网站声明</a>
+	</div>
+	<div class="g_wsjsgkbt p22 w lan">网站声明</div>
+	<div class="g_wsjsgk p14 w hui5">
+		
+			<div class="view TRS_UEDITOR trs_paper_default trs_word"><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">1</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网所有内容，包括：</span></span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"> </span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">文字、图片、音视或视频，凡来源注明：本网站的文章或作品，版权归本网站所有。作者仍拥有作品的署名权和收益权。特殊注明版权所有的稿件除外。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">2</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网欢迎其他网站转载或引用本网内容，但是下列内容除外：本网所指向的非本网内容的相关链接内容；已作出不得转载或未经许可不得转载声明的内容；没有本网署名或本网引用、转载的其他来源的内容。其他网站在免费转载本网站拥有版权的文章的同时，也就自动同意本网有权免费转载其网站上拥有版权的文章。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">3</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、在使用本网所属内容时必须注明来源为本网站及原创作者姓名。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">4</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、转载或引用本网内容必须以新闻性或资料性等公共信息为使用目的，不能用于赢利目的。不得对本网内容原意进行曲解和篡改。转载本网内容亦不得损害本网或他人利益，不得进行任何违法活动。对于不当转载或引用本网内容而引起的法律诉讼或任何其他形式的纠纷，本网站不承担任何责任。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">5</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网站为内蒙古自治区卫生健康委员会主办网站。本网转载其他来源的文章出于汇集行业信息以服务于全国各界人士之目的，而并不意味着赞同其观点或证实其内容的真实性。所引用内容的版权归原作者及网站所有，如其他媒体、网站或个人从本网下载使用，必须保留本网注明的</span></span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">“</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">文章来源</span></span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">”</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">，并自负版权等法律责任。如擅自篡改文章来源为本网站，本网将依法追究其责任，由此产生的其与第三者发生的法律纠纷由其承担全部责任。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">6</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、</span></span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"> </span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">本网站发布的用户投稿所引发的版权纠纷不承担任何责任。因此，用户在本网发布任何信息前须事先与原作者及网站谈妥版权问题，以免引起纠纷。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">7</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网转载其他来源的文章除为丰富网站信息之外，也有宣传撰稿人本人，传播其观点及思想之意。我们尽可能地注明来源和作者。但是，因为网络信息传播的特殊性，无法事先与每个作者联系，有些转载作品可能因故无法确证原作者而暂未标明来源的，并非故意侵犯原作者版权。</span></span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"> </span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">如果你认为本网转载的内容涉及侵权，请于作品在本网发表之日起</span></span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">15</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">日内与我们联系。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">8</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、对不遵守上述声明或其他违法、恶意使用本网内容者，本网留追究其法律责任的权力。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">9</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网不保证所有信息、文本、图形、链接及其它项目的绝对准确性和完整性，故仅供参考使用。其中政策法规和标准的文档不可作为正式法规和标准文本使用。本网站对任何由于使用本网站而引起的损失，不承担责任。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">10</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网站上链接的非本站的网页和内容不受本网站的控制，本网站对其内容不负责任。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">11</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、本网站上挂接的其他单位的网站内容由主办方负责维护，本网站对其内容不负责任。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><br/></span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">12</span><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16">、我们保留随时更改我们的网站、上述版权和免责声明条款的权利。</span></span></p><p style="text-indent: 2em; font-family: 宋体, SimSun; font-size: 18px;"><span style="font-family: 宋体, SimSun; font-size: 18px;" data-index="16"></span></p></div>
+		
+	</div>
+</div>
+<!------------------------- mian结束 ------------------------->
+
+<!-- 底部 --> 
+<link rel="stylesheet" href="../material/css/hf8-27.css">
+<link rel="stylesheet" href="../material/css/style.css">
+<link rel="stylesheet" href="../material/css/g_bottom.css">
+
+<!-- 公用底部开始 -->
+<style>
+    .g_bottom_b_top {
+        border-top: 10px solid #015293;
+    }
+    
+    .g_bottom_b_show {
+        border-top: 10px solid #00467F;
+    }
+    
+    .g_bottom_list {
+        width: 1060px;
+        background-color: #00467F;
+    }
+    
+    .g_bottom_list a {
+        width: 160px;
+        color: #fff;
+    }
+    
+    .g_bottom_list_in::-webkit-scrollbar {
+        width: 8px;
+        background-color: #004379 ;
+        border-radius: 10px;
+    }
+    
+    .g_bottom_list_in::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color:#016BC2;
+    }
+</style>
+  <div class="c_footer pc" style="min-width:1100px;">
+    
+<div class="c_bottomlink w1100 clearfix">
+        <a href="http://www.gov.cn" class="c_boli g_bottom_b_top" style="float:left;" target="_blank">中国政府网</a>
+        <a href="http://www.nhc.gov.cn" class="c_boli g_bottom_b_top" style="float:left;" target="_blank">国家卫生健康委员会网站</a>
+        <div class="g_bottomlinkxl g_bottom_b_top g_b_1">
+            <div class="g_bottom_title">
+                 各省市卫生健康委员会
+                <img src="../material/images/g_iconxl.png" alt="" />
+            </div>
+            <div class="g_bottom_list g_b_list_1">
+                <div class="g_bottom_list_in">
+                    
+                    <a href="http://wjw.beijing.gov.cn/" target="_blank" data-idlink="oLink">北京市卫生健康委员会</a>
+  
+                          <a href="http://wsjk.tj.gov.cn/" target="_blank" data-idlink="oLink">天津市卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.hebei.gov.cn/" target="_blank" data-idlink="oLink">河北省卫生健康委员会</a>
+  
+                          <a href="http://wjw.shanxi.gov.cn/" target="_blank" data-idlink="oLink">山西省卫生健康委员会</a>
+  
+                          <a href="http://wsjk.ln.gov.cn/" target="_blank" data-idlink="oLink">辽宁省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.jl.gov.cn/" target="_blank" data-idlink="oLink">吉林省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.hlj.gov.cn/" target="_blank" data-idlink="oLink">黑龙江省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.sh.gov.cn/" target="_blank" data-idlink="oLink">上海市卫生健康委员会</a>
+  
+                          <a href="http://wjw.jiangsu.gov.cn/" target="_blank" data-idlink="oLink">江苏省卫生健康委员会</a>
+  
+                          <a href="https://wsjkw.zj.gov.cn/" target="_blank" data-idlink="oLink">浙江省卫生健康委员会</a>
+  
+                          <a href="http://wjw.ah.gov.cn/" target="_blank" data-idlink="oLink">安徽省卫生健康委员会</a>
+  
+                          <a href="http://wjw.fujian.gov.cn/" target="_blank" data-idlink="oLink">福建省卫生健康委员会</a>
+                          <a href="http://hc.jiangxi.gov.cn/" target="_blank" data-idlink="oLink">江西省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.shandong.gov.cn/" target="_blank" data-idlink="oLink">山东省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.henan.gov.cn/" target="_blank" data-idlink="oLink">河南省卫生健康委员会</a>
+  
+                          <a href="http://wjw.hubei.gov.cn/" target="_blank" data-idlink="oLink">湖北省卫生健康委员会</a>
+  
+                          <a href="http://wjw.hunan.gov.cn/" target="_blank" data-idlink="oLink">湖南省卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.gd.gov.cn/" target="_blank" data-idlink="oLink">广东省卫生健康委员会</a>
+                          <a href="http://wsjkw.gxzf.gov.cn/" target="_blank" data-idlink="oLink">广西壮族自治区卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.cq.gov.cn/" target="_blank" data-idlink="oLink">重庆市卫生健康委员会</a>
+  
+                          <a href="http://wsjkw.sc.gov.cn/" target="_blank" data-idlink="oLink">四川省卫生健康委员会</a>
+  
+                          <a href="http://wjw.guizhou.gov.cn/" target="_blank" data-idlink="oLink">贵州省卫生健康委员会</a>
+  
+                          <a href="http://ynswsjkw.yn.gov.cn/" target="_blank" data-idlink="oLink">云南省卫生健康委员会</a>
+  
+                          <a href="http://wjw.xizang.gov.cn/" target="_blank" data-idlink="oLink">西藏自治区卫生健康委员会</a>
+                          <a href="http://sxwjw.shaanxi.gov.cn/" target="_blank" data-idlink="oLink">陕西省卫生健康委员会</a>
+                          <a href="http://wsjk.gansu.gov.cn/" target="_blank" data-idlink="oLink">甘肃省卫生健康委员会</a>
+  
+                          <a href="https://wsjkw.qinghai.gov.cn/" target="_blank" data-idlink="oLink">青海省卫生健康委员会</a>
+                          <a href="http://wsjkw.nx.gov.cn/" target="_blank" data-idlink="oLink">宁夏回族自治区卫生健康委员会</a>
+  
+                          <a href="http://wjw.xinjiang.gov.cn/" target="_blank" data-idlink="oLink">新疆维吾尔自治区卫生健康委员会</a>
+  
+                          <a href="http://wsj.xjbt.gov.cn/" target="_blank" data-idlink="oLink">新疆生产建设兵团卫生健康委员会</a>
+                </div>
+            </div>
+        </div>
+        <div class="g_bottomlinkxl g_bottom_b_top g_b_2">
+            <div class="g_bottom_title">
+               盟市卫生健康委员会
+                <img src="../material/images/g_iconxl.png" alt="" />
+            </div>
+            <div class="g_bottom_list g_b_list_2">
+                <div class="g_bottom_list_in">
+                    
+                          <a href="http://wjw.huhhot.gov.cn/" target="_blank" data-idlink="oLink">呼和浩特市卫生健康委员会</a>
+  
+                          <a href="http://wjw.baotou.gov.cn/" target="_blank" data-idlink="oLink">包头市卫生健康委员会</a>
+  
+                          <a href="http://wjw.hlbe.gov.cn/" target="_blank" data-idlink="oLink">呼伦贝尔市卫生健康委员会</a>
+  
+                          <a href="http://wjw.xam.gov.cn/" target="_blank" data-idlink="oLink">兴安盟卫生健康委员会</a>
+  
+                          <a href="http://wjw.tongliao.gov.cn/" target="_blank" data-idlink="oLink">通辽市卫生健康委员会</a>
+  
+                          <a href="http://wjw.chifeng.gov.cn/" target="_blank" data-idlink="oLink">赤峰市卫生健康委员会</a>
+  
+                          <a href="http://wjw.xlgl.gov.cn/" target="_blank" data-idlink="oLink">锡林郭勒盟卫生健康委员会</a>
+  
+                          <a href="http://wjw.wulanchabu.gov.cn/" target="_blank" data-idlink="oLink">乌兰察布市卫生健康委员会</a>
+  
+                          <a href="http://wjw.ordos.gov.cn/" target="_blank" data-idlink="oLink">鄂尔多斯市卫生健康委员会</a>
+  
+                          <a href="http://wjw.bynr.gov.cn/" target="_blank" data-idlink="oLink">巴彦淖尔市卫生健康委员会</a>
+  
+                          <a href="http://wjw.wuhai.gov.cn/" target="_blank" data-idlink="oLink">乌海市卫生健康委员会</a>
+  
+                          <a href="http://wjw.als.gov.cn/" target="_blank" data-idlink="oLink">阿拉善盟卫生健康委员会</a>
+                          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="c_bottomdibu w1100 clearfix" style="position: relative;">
+      <a href="http://bszs.conac.cn/sitename?method=show&id=082CA0067C334785E053022819AC9BD7" target="_blank"><img src="../material/images/bottomImg1.png" class="c_bottomtu1" alt="" /></a>
+      <div class="c_bottomleftli"><a href="/wzdt/">网站地图</a><a href="/wzsm/">网站声明</a></div>
+      <div class="c_bottominfo">
+        <div>主办单位：内蒙古自治区卫生健康委员会　承办单位：内蒙古自治区卫生健康委宣传处</div>
+        <div><a href="https://beian.miit.gov.cn/" target="_blank">蒙ICP备19004499号</a>　<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15010202150857" >蒙公网安备 15010202150857号</a>　 政府网站标识码：1500000062　 <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1281203692'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1281203692%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></div>
+        <div>地址：呼和浩特市新华大街181号　联系电话：12320　技术支持：内蒙古世纪泓科技有限公司 </div>
+      </div>
+      <div style="position: absolute;right: 36px;bottom: 30px;">
+<script id="_jiucuo_" sitecode='1500000062' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+        </script>
+      </div>
+    </div>
+  </div>
+<script>
+    // 底部动画效果
+    function bottomAnimationEffect(item, itemList, itemImage) {
+        $(item).click(function() {
+            if ($(item).hasClass("g_bottom_b_show")) {
+                bottomRestoreStyle(item, itemList, itemImage);
+                return;
+            }
+            $(item).addClass("g_bottom_b_show");
+            $(itemList).show();
+            $(itemImage).css("transform", "rotateZ(180deg)");
+        })
+        $(item).hover(
+            function() {},
+            function() {
+                if ($(item).hasClass("g_bottom_b_show")) {
+                    bottomRestoreStyle(item, itemList, itemImage);
+                    return;
+                }
+            })
+    }
+
+    function bottomRestoreStyle(item, itemList, itemImage) {
+        $(item).removeClass("g_bottom_b_show");
+        $(itemList).hide();
+        $(itemImage).css("transform", "rotateZ(0)");
+    }
+
+    bottomAnimationEffect(".g_b_1", ".g_b_list_1", ".g_b_1 .g_bottom_title img");
+    bottomAnimationEffect(".g_b_2", ".g_b_list_2", ".g_b_2 .g_bottom_title img");
+</script>
+<!-- 公用底部结束 -->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=4925" async="async" defer="defer"></script>
+
+<!-- 点击量埋点开始,可将如下代码添加到公共嵌套模板中 -->
+<!-- 引入trs_report_sdk.js文件 -->
+<script type="text/javascript" src="/material/js/trs_report_sdk.js"></script>
+<script type="text/javascript">
+	//上传点击数据
+    let eventReport = new EventReport("/hx-api/receive/receiveData")
+    let siteName = "内蒙古自治区卫生健康委员会"
+    let chnlRelation = "内蒙古自治区卫生健康委员会>网站声明"
+    chnlRelation = chnlRelation.replace(siteName+">","")
+    let docid = ""
+    let doc_id = 0
+    if(docid.length > 0){
+        doc_id = parseInt(docid)
+    }
+    let url = "####"
+    let title ='';
+    var reg =/<[^<>]+>/g;
+    title = title.replace(reg, "");
+    let docpubtime = ""
+    
+    if (doc_id== 0) {
+    doc_id = 0;
+    url = document.URL
+    title = document.title
+    docpubtime = ""
+    }
+    let doc_channel = "网站声明"
+    let siteid = parseInt("68")
+    if (siteid.length == 0) {
+    siteid = 0
+    }
+    
+    let channel_id = parseInt("14693")
+    
+    if(channel_id.length == 0){
+    channel_id = 0
+    }
+    //appkey
+    let appKey = "dda1bee997e29182febbe848dd3b313a"
+    
+    let myParam = {
+		title: title,
+		url: url,
+		doc_id: doc_id,
+		siteid: siteid,
+		site_name: siteName,
+		doc_channel: doc_channel,
+		channel_relation: chnlRelation,
+		channel_id: channel_id,
+		doc_pub_time: docpubtime,
+		app_key: appKey
+    }
+    //统计外链，换成自己网站的域名
+    InitExternalLinks("/hx-api/receive/receiveLink",myParam,"wjw.nmg.gov.cn")
+    eventReport.trackUserData(myParam)
+    // 点击量埋点结束
+</script>
+<!-- /底部 -->
+</body>
+</html>

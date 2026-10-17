@@ -1,0 +1,184 @@
+{
+  "validated_at": "2026-10-11T16:44:00.665194+08:00",
+  "result": "CONTENT_PASS_PROTOCOL_NEEDS_CHANGES",
+  "independent_review": false,
+  "checks": [
+    {
+      "check": "csv_and_body_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-01.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-02.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-03.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "recent_personal_long:answer-03.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-04.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-05.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-06.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-07.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-08.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-09.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-10.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-11.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-12.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-13.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-14.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "recent_personal_long:answer-14.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-15.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-16.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unicode_count:answer-17.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_status:zhihu-cra-30801381533-20261011",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "quote:zhihu-cra-30801381533-20261011:大量的会议，沟通，协调，现场监查",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "quote:zhihu-cra-30801381533-20261011:没个正常上下班时间，来活了你就得去干",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_status:zhihu-medrep-49436158271-20261011",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "candidate_status:zhihu-device-ra-1967587276629452557-20261011",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "quote:zhihu-device-ra-1967587276629452557-20261011:这已经涉及了预期用途的变更",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "quote:zhihu-device-ra-1967587276629452557-20261011:在研发的天马行空、老板的宏大战略目标与监管的条条框框之间",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "request_caps",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "same_site_intervals_observed",
+      "pass": true,
+      "detail": "First Baidu navigation exact timestamp unavailable; this check covers recorded intervals only."
+    },
+    {
+      "check": "reading_dwell_all",
+      "pass": false,
+      "detail": "First CRA page is short by 10.317 seconds; intentionally fail."
+    }
+  ],
+  "body_sha256": {
+    "answer-01.json": "2a30bcaa8233cd1743f6aafb0ea67c3cef7cad45a81ddecdf8499fd2ec2ca327",
+    "answer-02.json": "d86cc2dde1024b49a926a37711dcf9788eedcd21d83b73e95ca8af00e845a03b",
+    "answer-03.json": "7125318343f3e98c49938cafa7f6a2114265cb0f3410ac31462a130d4965ed3e",
+    "answer-04.json": "0f805ec9e0cc177f71c661e3586b19885e5d87e6e1277306486b959ab6aa3448",
+    "answer-05.json": "a95b860b81b4b18021671a1e68bd0ecf21cc8abc43a6e1930f678ea5262039f1",
+    "answer-06.json": "5665e4cb9468a1a1da6f8505213154f1d4ffd15cebd234d128c21d573cd45f56",
+    "answer-07.json": "5f3f645d2a16905ebfb5890f456179952b53454cabf5a715b904e3abdd70a2b2",
+    "answer-08.json": "902b28a8ff9cf01f1bcf7e468010aca34ccbf9521d38865e88606087f39048bd",
+    "answer-09.json": "2698161df7a564fb7cfdfdef62b52a081de66143d3b75cde3f07f5f473712ab6",
+    "answer-10.json": "5f1b649bb08d452ddc1051bff2d4eb1926852bbfd2612164c65ec286e364e4bd",
+    "answer-11.json": "8c333e0c1f998ec9cbfdba00e2ab1d8118e0254bbbbfc6d42a3c72a2ca69b160",
+    "answer-12.json": "24e79adaec3fa43fa3f2e951d72df695d75acb8426d8edb615a6653d83a4e2d3",
+    "answer-13.json": "f74a13c59b874d73af3703f66c867f6b3deea248dee4e240427f9909a3647070",
+    "answer-14.json": "e9b0fb2e54d18ddd8da759fe5d34c2785766dfdfcf3d3e477b5c7e391d49e884",
+    "answer-15.json": "8ab70df8169275d3d1bcd336ee46ca37bb2df3a8f8dfe4a71b7ee7bfeb10a8ed",
+    "answer-16.json": "23495d1bd64d49ef1af490f59042a7d22488e492e2a96714e66526b51790ad7b",
+    "answer-17.json": "86a7d687a27013d394dd3341a64e832b537c1bd613e8ca6c9e88c0e7b576c4dd"
+  },
+  "qualified_n": 2,
+  "half_n": 1,
+  "answers_n": 17,
+  "known_unmet": [
+    "First CRA dwell below requirement",
+    "First Baidu exact navigation timestamp missing",
+    "Claude independent acceptance pending"
+  ]
+}

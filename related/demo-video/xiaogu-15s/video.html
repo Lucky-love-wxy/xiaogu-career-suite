@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>小谷 15s</title>
+<!-- 15s 竖版：钩子（JD 黑话）→ 小谷登场 → 三行翻译 → 屏息聚焦「面试问」→ 字标双芽长出。分镜与决策见
+     /Users/lucky_wang/Documents/Claude/projects/product-demo-video/notes/2026-10-07-小谷15秒竖版宣传片.md -->
+<link rel="stylesheet" href="fonts.css">
+<style>html,body{margin:0;height:100%;background:#000;overflow:hidden}</style>
+<script>window.LVA_SCENES = '[{"name":"Hook","dur":3,"desc":"JD 黑话「抗压能力强」逐字砸入并颤动"},{"name":"Turn","dur":2,"desc":"引语缩成卡片标题，小谷跳入惊讶，气泡「藏了不少信息」"},{"name":"Proof","dur":6,"desc":"卡片展开三行翻译：直白说 / 最坏是 / 面试问，小谷在角落思考"},{"name":"Breath","dur":1,"desc":"前两行退后，「面试问」反白，镜头推近，小谷 wink"},{"name":"CTA","dur":3,"desc":"卡片刀切收走，字标显出，谷上双芽在重拍长出，标语停住"}]';</script>
+<script src="vendor/react.js"></script>
+<script src="vendor/react-dom.js"></script>
+<script src="vendor/babel.js"></script>
+<script src="_lva/engine.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<!-- 声音：配乐（music.py 合成，120 BPM）+ CC0 音效；音效时间对齐画面动作，whoosh 提前约 0.02s -->
+<audio src="assets/audio/bed.wav" data-start="0" data-volume="0.75"></audio>
+<audio src="_lva/sfx/tick.mp3" data-start="0.0" data-volume="0.4"></audio>
+<audio src="_lva/sfx/whoosh.mp3" data-start="2.98" data-volume="0.4"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="3.75" data-volume="0.55"></audio>
+<audio src="_lva/sfx/select.mp3" data-start="3.95" data-volume="0.4"></audio>
+<audio src="_lva/sfx/whoosh.mp3" data-start="4.98" data-volume="0.3"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="5.0" data-volume="0.45"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="6.5" data-volume="0.45"></audio>
+<audio src="_lva/sfx/pop.mp3" data-start="8.0" data-volume="0.45"></audio>
+<audio src="_lva/sfx/switch.mp3" data-start="11.0" data-volume="0.45"></audio>
+<audio src="_lva/sfx/whoosh.mp3" data-start="11.98" data-volume="0.4"></audio>
+<audio src="_lva/sfx/chime.mp3" data-start="12.5" data-volume="0.4"></audio>
+<script type="text/babel" src="scenes/00-brand.jsx"></script>
+<script type="text/babel" src="scenes/01-card.jsx"></script>
+<script type="text/babel" src="scenes/02-mascot.jsx"></script>
+<script type="text/babel" src="scenes/03-cta.jsx"></script>
+<script type="text/babel">
+  window.W = 1080; window.H = 1920;
+  // 一条镜头轨：每段只有一次运动。钩子慢推 → 转折静止 → 证明下移 → 屏息推近第三行 → 品牌段拉回（落地感）
+  function Piece() {
+    const { T } = useComposition();
+    const cam = camera(T, [
+      [0, 1.0, 540, 960], [3, 1.05, 540, 960], [5, 1.05, 540, 960],
+      [11, 1.05, 540, 1000], [12, 1.14, 540, 930], [12.5, 1.0, 540, 960], [15, 1.0, 540, 960],
+    ], W, H);
+    return (
+      <div style={{ position: 'absolute', left: 0, top: 0, width: W, height: H, transformOrigin: '0 0', transform: cam }}>
+        <Card />
+        <Mascot />
+        <Cta />
+      </div>
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <Composition width={W} height={H} scenes={window.LVA_SCENES} bg="#0a0a0a"><Piece /></Composition>
+  );
+</script>
+</body>
+</html>

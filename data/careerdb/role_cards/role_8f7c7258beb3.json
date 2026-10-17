@@ -1,0 +1,915 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_8f7c7258beb3",
+  "node": "互联网/AI › 人工智能 › 医学AI/生物医学大模型",
+  "family": "互联网/AI",
+  "parent_id": "互联网/AI › 人工智能",
+  "tier": "P1",
+  "pilot": true,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 9,
+  "upstream_sample_n": 11,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "互联网/AI › 人工智能 › 医学AI/生物医学大模型",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8Y5na5NZ",
+      "type": "recruitment_jd",
+      "title": "AI医疗反向工程师",
+      "company": "杭州疡医科技有限公司",
+      "url": "https://campus.niuqizp.com/job-v8Y5na5NZ.html",
+      "date": "2026-09-18",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "学历硕士及以上为主流要求，可以接受本科（需1年AI编程实战经验）专业计算机科学、人工智能、生物医学工程、电子信息工程、医学信息学、统计学、应用数学等二、核心技术能力编程与框架·       精通 Python，熟悉 C/C++ , JAVA·       熟练使用 PyTorch / TensorFlow 等至少一种深度学习框架·       熟悉 NumPy、Pandas、OpenCV 等数据处理库算法基础·       扎实的机器学习、深度学习理论基础·       计算机视觉方向：目标检测、图像分割、图像分类、语义分割、三维图像处理·       NLP 方向：文本分类、实体识别、知识图谱、语义匹配、文本摘要·       大模型方向：SFT、RLHF、LoRA 等微调技术，熟悉 Qwen、Llama、GLM 等开源模型三、医疗领域专项能力·       医学影像处理：DICOM 格式解析、医学影像预处理与标注·       医疗数据标准：了解 HL7、FHIR 等医疗数据交互标准·       合规与伦理：熟悉医疗数据安全、隐私保护（HIPAA/GDPR/ 国内数据安全法）及伦理审查要求·       临床理解：能与临床医生沟通，理解临床业务流程和验证需求四、工程与落地能力·       独立完成模型搭建、训练、调优与验证全流程·       模型部署与工程化集成（ONNX、TensorRT 等加速推理）·       良好的代码规范、版本管理和文档能力·       熟悉 Linux 开发环境五、加分项·       有医疗 AI 产品落地经验或三甲医院合作案例·       在 CVPR、ICCV、MICCAI、NeurIPS 等顶级会议发表论文·       有医疗 AI 专利申报经验·       熟悉医疗设备接口或医院信息系统（HIS/PACS/LIS）\n公司介绍\n公司名称\n杭州疡医科技有限公司\n所属行业\n计算机软件\n公司性质\n民营企业\n公司规模\n1-49人\n浙江省杭州市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8Y5na5NZ.html",
+      "cache_sha256": "e02984520a30e6f2da141660bb32205852e8aa6854afa4ef5e9f7c21cae3eb24"
+    },
+    {
+      "id": "v8kNLZMaZ",
+      "type": "recruitment_jd",
+      "title": "AIDD科学家",
+      "company": "杭州阿诺生物医药科技有限公司",
+      "url": "https://campus.niuqizp.com/job-v8kNLZMaZ.html",
+      "date": "2026-10-04",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责：\n1. 负责肿瘤方向的AIDD（人工智能药物设计）研发工作。\n2. 开展大分子与小分子药物的相关研究，推动项目进展与技术突破。\n3. 利用AI与计算工具优化药物分子结构，提升研发效率。\n4. 协同跨学科团队完成药物发现与开发全流程工作。\n任职要求：\n1. 博士学历，本硕博均毕业于国内外知名院校。\n2. 具备肿瘤领域药物研发经验，熟悉环肽设计与计算模拟技术。\n3. 拥有大分子或小分子药物研发相关项目经验，熟悉药物设计流程。\n4. 具备扎实的计算化学、生物信息学或结构生物学背景，熟悉AI药物设计工具。\n公司介绍\n公司名称\n杭州阿诺生物医药科技有限公司\n公司性质\n其他\n公司规模\n50-99人",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8kNLZMaZ.html",
+      "cache_sha256": "be10c6402e1b26db486612aff33157598434d270fe863979524c64fe3e0c8e2f"
+    },
+    {
+      "id": "vYl5M55zN",
+      "type": "recruitment_jd",
+      "title": "AI化学高级研究员",
+      "company": "青葵智造(北京)科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vYl5M55zN.html",
+      "date": "2026-09-21",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "青葵智造(北京)科技有限公司\n招聘信息\nAI 化学高级研究员\n2026-09-21 10:38:21\n职位描述\n岗位职责\n1. 智能有机合成实验设计\n基于目标分子结构，运用计算化学与AI辅助工具进行逆合成分析，设计较优合成路线\n结合反应预测模型、分子力场计算、DFT计算等手段，对反应可行性、选择性、收率进行预判\n制定实验方案，包括反应条件筛选、试剂选择、投料策略、后处理方案等\n推动智能化实验设计流程建设，将计算预测与实验验证形成闭环\n2. 实验执行与工艺优化\n独立完成复杂多步有机合成反应，涵盖偶联反应、官能团转化、手性合成等\n对关键反应步骤进行条件优化，系统考察溶剂、温度、催化剂、当量比等因素\n推进合成工艺从实验室小试到中试放大的技术转移\n3. 实验数据质量评价\n建立实验数据质量评价体系，制定数据采集、记录、审核的标准化规范\n对合成产物的结构确证与纯度数据进行严格审查，确保NMR、MS、HPLC等分析结果的准确性与可靠性\n运用统计学方法对实验数据进行异常检测与趋势分析，识别数据质量问题\n建立实验数据可追溯机制，确保研发数据的完整性与合规性\n4. 计算化学与智能方法应用\n运用量子化学计算（DFT、分子动力学等）研究反应机理，指导实验设计\n利用机器学习/AI模型辅助反应条件推荐、收率预测、副产物预判\n探索自动化合成平台、高通量实验与智能算法的结合应用\n建设并维护合成反应数据库，沉淀可复用的知识与方法论\n5. 跨部门协作与知识管理\n配合产品规划，参与研发立项的技术可行性评估\n为团队提供计算化学与智能合成方法的技术培训与指导\n撰写实验报告、技术文档及专利交底书\n跟踪国内外学术前沿与产业动态，保持技术前沿性\n任职要求\n学历与专业\n博士学位，有机合成、计算化学、药物化学等相关专业\n博士研究方向需与有机合成、反应机理计算、AI辅助合成设计等相关领域密切相关\n工作经验\n具有2年以上有机合成或计算化学相关研发经验（含博士后经历）\n有智能合成实验设计、计算化学辅助合成路线规划的实际项目经验\n有医药/材料领域从分子设计到合成验证全链条经验者优先\n专业技能\n合成实验能力：\n扎实的有机化学理论基础，精通反应机理与合成策略\n熟练掌握无水无氧操作、柱层析分离、重结晶等实验技能\n熟练进行多步合成路线的设计与执行\n计算化学能力：\n熟练使用Gaussian、ORCA、VASP等量子化学计算软件\n熟悉分子动力学模拟工具（如GROMACS、AMBER等）\n具备反应机理计算、过渡态分析、能量预测等实战经验\n了解机器学习在化学领域的应用（如反应预测、分子生成等）\n分析表征能力：\n具备NMR（1H、13C、2D NMR）、LC-MS、GC-MS、HPLC等谱图解析能力\n能独立完成产物结构确证与纯度评价\n熟悉实验数据质量评价方法与统计学分析工具\n软件工具：\n熟练使用ChemDraw、SciFinder、Reaxys等专业软件\n掌握Python/R等编程语言，能进行数据处理与分析者优先\n综合素质\n具备独立科研能力与批判性思维，能从数据中发现问题并提出解决方案\n优秀的跨学科学习能力，能将计算化学与实验有机合成有效结合\n良好的团队协作与沟通能力，能有效推进跨部门合作\n责任心强，对数据质量有高标准要求\n具备良好的英文文献阅读、撰写与学术交流能力\n职位类别:化工\n专业要求:不限\n单位简介",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYl5M55zN.html",
+      "cache_sha256": "d8f34c6371de1a02a4fb19561a6273412962e44ea5620041cd0c20bcc3f2e499"
+    },
+    {
+      "id": "vYm55aMCZ",
+      "type": "recruitment_jd",
+      "title": "制药知识AI应用推广专员",
+      "company": "北京尚质合规科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vYm55aMCZ.html",
+      "date": "2025-10-10",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "如果你对制药行业B端项目推广或市场拓展感兴趣、愿意深入一线与药企用户沟通，你将成为连接“制药结构化知识库”与“前沿大语言模型AI应用”的桥梁，推动AI解决方案在制药行业的落地与生长。\n你将做的事：\n? 负责识林结构化知识库结合大语言模型的AI应用解决方案的市场推广与项目对接，包括客户拜访、产品演示、行业交流及商务洽谈\n? 深入理解制药企业在知识管理、质量合规、注册审评、检查迎检等B端场景的痛点需求，并将其转化为推广亮点\n? 协助产品与技术团队优化AI应用场景，推动解决方案的行业落地与迭代\n? 策划并制作专业化市场宣传资料，撰写高质量推广文案和案例内容，提升品牌影响力\n? 参与行业会议、研讨会及线上活动，拓展专业人脉和合作机会\n我们希望你：\n? 拥有扎实的专业背景（本科及以上学历，药学、医学、生物、化学等专业）\n? 对 AI在制药行业的应用充满兴趣，乐于钻研行业场景\n? 擅长沟通和方案呈现，能清晰传递复杂产品价值\n? 愿意深入客户现场，推动AI解决方案真正落地，能适应出差\n为什么选择我们？\n?站在AI+制药的前沿阵地：推动大语言模型与结构化知识库在制药行业的深度融合，积累稀缺的行业经验\n?深度接触头部药企与真实场景，积累高价值客户资源与行业洞察。\n?成长空间：你身边都是深耕制药行业和AI技术的专家，助你快速提升业务水平，成为AI制药应用领域的推广专家。",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vYm55aMCZ.html",
+      "cache_sha256": "9daf80fcfe5704375fd7461ac1af634323993574d5be2c573920573481d507ac"
+    },
+    {
+      "id": "vk85CZzzN",
+      "type": "recruitment_jd",
+      "title": "2027届-AIDD研究员",
+      "company": "上海泓博智源医药股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vk85CZzzN.html",
+      "date": "2026-09-10",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1、分子生成算法研发：负责AI分子生成项目的算法设计与优化，针对小分子、肽类、分子胶、PROTAC等不同类型的药物分子提出创新性解决方案，开发高效的生成模型以支持实际药物研发任务。2、蛋白-配体相互作用建模：应用机器学习与深度学习技术，构建预测与分析蛋白与多种配体（包括小分子、肽、分子胶等）之间相互作用的算法，助力靶点筛选与分子优化。3、算法性能优化与资源管理：提升AIDD算法的运行效率，优化GPU与内存资源使用，保障平台稳定性与可扩展性。4、技术趋势调研与算法迭代：持续跟踪国内外AI药物研发领域的前沿进展，分析主流算法演化路径，推动团队算法体系的迭代与升级。5、项目支持与跨部门协作：与药物化学，计算化学等团队紧密协作，推动项目落地。\n公司介绍\n公司名称\n上海泓博智源医药股份有限公司\n公司性质\n合资企业\n上海市市辖区上海-浦东新区  仁庆路509号2号楼",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vk85CZzzN.html",
+      "cache_sha256": "55187b48e1200f0d0ff0ea96be593c34327510c35c5d9608062f98e694538209"
+    },
+    {
+      "id": "vmk55aMCt",
+      "type": "recruitment_jd",
+      "title": "制药知识AI应用研究员",
+      "company": "北京尚质合规科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vmk55aMCt.html",
+      "date": "2025-10-10",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "如果你毕业于优秀院校，热爱医药行业，又想探索AI在行业的前沿应用，这是一个让你把“学术功底”变成“行业影响力”的机会。\n在这里，你将站在制药与AI结合的最前沿，把海量法规、指南、文献转化为高价值的结构化知识，赋能AI解决方案，影响药企研发、注册、质量等核心环节。\n你将做的事：\n?深度研读全球药品法规、指南与行业资料，将零散知识沉淀为体系化内容\n?用文章、流程图、课程等多种形式，让专业知识更高效地传播\n?参与企业级AI解决方案设计，推动AI技术真正落地制药行业\n?支持知识库建设，为翻译、市场、运营、咨询等团队提供专业支撑\n我们希望你：\n?拥有扎实的专业背景（硕士及以上学历，药学、医学、生物、化学、计算机、人工智能等专业）\n?善于信息调研和逻辑梳理，能把复杂问题拆解成清晰结构\n?对AI和知识工程感兴趣，愿意学习和探索最前沿的智能化应用\n?学习快、执行力强，能把“0到1”的工作做扎实，并乐于团队合作\n为什么选择我们？\n?你将第一时间接触行业前沿AI应用，不是“纸上谈兵”，而是实战\n?导师制培养：你身边的都是深耕制药行业和AI技术的专家\n?成长空间：从知识研究到AI产品落地，你能看到完整的创新路径",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vmk55aMCt.html",
+      "cache_sha256": "ac5b45136b12c1a109069fe9e926ac04875a440e683ceb26d1989b12cc8bffcc"
+    },
+    {
+      "id": "vrk5ntMZa",
+      "type": "recruitment_jd",
+      "title": "AI医疗行业—数据标注实习生",
+      "company": "上海宜云健康管理咨询有限公司",
+      "url": "https://campus.niuqizp.com/job-vrk5ntMZa.html",
+      "date": "2026-09-17",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "一、岗位职责\n医学护理相关的数据样本标注，审阅，编辑和生成。\n优化数据生成逻辑。\n文档与流程规范：制定试题生成SOP（标准操作流程），记录问题与迭代方案，保证数据质量的一致性。\n数据处理与清洗：利用Python/Excel/正则表达式等工具，对原始医学文本进行简单清洗。\n二、任职要求\n【必备条件】\n学历专业：本科在读大三/大四，或研一/研二，医学信息学、生物医学工程、智能医学工程、护理信息学、公共卫生（卫生统计方向）、计算机（医学方向）或相关交叉专业。\n严谨细致：对文字敏感性高，能发现医学护理内容中的逻辑漏洞。\n加分项：\n能使用Python进行基础数据处理\n能使用Excel高级函数（VLOOKUP、条件格式、数据透视表）；\n能够快速理解JSON、CSV等结构化数据格式。\n医学知识基础：修过《基础医学概论》《护理学基础》《病理生理学》等课程，或具备临床见习经历，能正确理解医学名词及疾病逻辑。\n【优先条件】\n能够使用Markdown、LaTeX处理医学公式（如酸碱平衡公式、药品剂量计算）；\n熟悉医疗术语标准（如ICD-10、SNOMEDCT或护理诊断分类）。\n三、实习收获\n实战经验：深度参与医学+AI交叉项目，积累知识工程与教育科技的复合背景经验；\n技能拓展：提升医学文本处理能力\n实习证明：表现优异者可获得推荐信或留用机会（适用于医学AI研发岗、医学知识编辑）；",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrk5ntMZa.html",
+      "cache_sha256": "d7e341466013b5fc2d7e5ce1fbebf81c412d1ebeec377c1578df65bfea84ebb0"
+    },
+    {
+      "id": "vrm5aatLZ",
+      "type": "recruitment_jd",
+      "title": "AI医疗大模型应用开发实习生",
+      "company": "南京普惠恒丰信息科技有限公司",
+      "url": "https://campus.niuqizp.com/job-vrm5aatLZ.html",
+      "date": "2026-09-05",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1、核心开发：负责基于主流大模型（如GPT、DeepSeek、通义千问等）的医疗对话机器人、AIAgent（智能体）的架构设计与搭建；\n2、知识库构建：负责医疗垂直领域RAG（检索增强生成）系统的开发、优化与落地，包括向量检索、重排（Reranking）及知识库数据清洗；\n3、数据预处理：负责医疗文本数据的清洗、结构化标注及高质量Prompt/测试数据集的构建，协助进行模型微调（Fine-tuning）与Prompt工程优化；\n4、前沿调研：参与团队技术调研，跟进并应用最新的LLM、AgenticWorkflow、RAG融合等前沿技术；\n5、团队协作：与团队成员紧密合作，共同攻克技术难题，沉淀技术文档，帮助推动医疗AI项目的进展。\n岗位要求:\n1、教育背景：计算机科学、人工智能、数据科学等相关专业的本科/硕士在读或以上学位；\n2、核心技能：\n必须具备大模型应用开发经验，熟练掌握Prompt工程、RAG架构及组件（如LangChain,LlamaIndex,VectorDB等）；必须拥有Agent（智能体）实际搭建经验，理解Agent的记忆机制、工具调用（FunctionCalling）与任务规划；\n3、编程基础：熟练掌握Python，熟悉至少一种主流深度学习框架（如PyTorch）及Transformers库；\n4、工程素养：具备良好的数据结构与算法基础，有良好的编码习惯（如有GitHub开源项目或主流AI开发者工具使用习惯者优先）；\n5、综合素质：具备极强的自驱力与快速学习能力，能独立思考并解决开源框架踩坑问题；\n6、语言能力：良好的英语读写能力，能熟练阅读前沿技术文献（如ArXiv论文、GitHubIssue、英文技术文档）。\n优先考虑（NicetoHave）\n具备医疗/生物医学背景，或有医疗垂直领域大模型应用开发经验者优先；\n在GitHub上有高质量的LLM/RAG/Agent相关开源项目，或参与过相关实际科研项目；\n熟悉主流大模型微调技术（如LoRA）或有高并发LLM应用部署/推理加速经验。\n为什么加入我们？\n作为一家创新型科技企业，我们和国内多家头部三甲医院及世界500强医疗集团均有长期稳定的合作，我们可以帮助您在职业生涯的起步阶段快速成长：\n1.快速成长机会：在我们的团队中，您能将前沿的NLP技术快速应用于实际项目的研发。您的工作将对项目产生直接影响，而不仅仅是执行琐碎的任务。\n2.自主与灵活性：在我们的团队中，您将拥有更多的自主权。您的想法和创新能直接影响项目的进展和最终成果。这将是一个锻炼思考力、执行力、解决问题能力的好机会。\n3.学习与指导：得到高级医疗专家指导，掌握从算法到临床落地的全链条经验。优秀者可参与学术论文撰写，接触行业顶级资源。\n4.创新文化：作为一家年轻的公司，我们倡导创新和创意。在这里，您有机会提出并实现您自己的想法，您将成为技术创新的一部分。\n5.有意义的工作：在我们这里，您的工作不仅仅是写代码，而是参与解决真实的业务问题。与头部三甲医院专家合作，将最新学术成果转化为可落地的NLP产品。工作成果将直接融入医院信息化平台，为数万患者带来价值。\n6.潜在的长期机会：表现优异的实习生有机会转为正式核心员工，并在公司中获得更多的职业发展机会。\n我们希望您能提供以下材料:\n1.个人简历（含GPA与排名）\n2.相关的学术成绩单；\n3.在线课程证书或相关学习材料；\n4.参与过的NLP相关项目或研究的简要介绍，以及您在其中的具体贡献；\n5.其他能够展示您能力的材料或链接（如GitHub、论文等）。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrm5aatLZ.html",
+      "cache_sha256": "630c48c6a7280b69d5b7c31b53578ee4584bae31bbc7b6319038bd9d8e7defef"
+    },
+    {
+      "id": "vsl5Z5LZC",
+      "type": "recruitment_jd",
+      "title": "AIDD研究员",
+      "company": "上海泓博智源医药股份有限公司",
+      "url": "https://campus.niuqizp.com/job-vsl5Z5LZC.html",
+      "date": "2026-03-13",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "2026届-AIDD研究员\n15000-20000元\n上海泓博智源医药股份有限公司\n工作地域：上海市\n职位类别：科学研究人员\n学历要求：硕士研究生 / 博士研究生\n招聘人数：4人\n发布时间：2026-03-13\n* 职位描述：\n1、分子生成算法研发：负责AI分子生成项目的算法设计与优化，针对小分子、肽类、分子胶、PROTAC等不同类型的药物分子提出创新性解决方案，开发高效的生成模型以支持实际药物研发任务。\n2、蛋白-配体相互作用建模：应用机器学习与深度学习技术，构建预测与分析蛋白与多种配体（包括小分子、肽、分子胶等）之间相互作用的算法，助力靶点筛选与分子优化。\n3、算法性能优化与资源管理：提升AIDD算法的运行效率，优化GPU与内存资源使用，保障平台稳定性与可扩展性。\n4、技术趋势调研与算法迭代：持续跟踪国内外AI药物研发领域的前沿进展，分析主流算法演化路径，推动团队算法体系的迭代与升级。\n5、项目支持与跨部门协作：与药物化学，计算化学等团队紧密协作，推动项目落地。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vsl5Z5LZC.html",
+      "cache_sha256": "92b05507cc5d5c271f2ad7c45aeaa6f05b7b728646440b1e271e1f9d2f21c052"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vmU5t5zzZ",
+      "url": "https://campus.niuqizp.com/job-vmU5t5zzZ.html",
+      "role": "医学人工智能临床复合型医师|医学数据治理工程师|医学智能体工程师",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "manual-role_postings_2026-10-05_claude-22",
+      "url": "user-provided://2026-10-06/biomed-llm",
+      "role": "生物医学大模型研发",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "医学AI/生物医学大模型",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学AI/生物医学大模型"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "2027届-AIDD研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vk85CZzzN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AIDD研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AIDD科学家",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8kNLZMaZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI化学高级研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYl5M55zN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗反向工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8Y5na5NZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗大模型应用开发实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗行业—数据标注实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrk5ntMZa"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "制药知识AI应用推广专员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYm55aMCZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "制药知识AI应用研究员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmk55aMCt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "这个标签下既有医疗模型应用开发，也有药物分子算法、实验化学、数据标注和推广；应先按具体交付物分辨。",
+      "kind": "research_inference",
+      "evidence_ids": [
+        "vrm5aatLZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vrk5ntMZa",
+        "vYm55aMCZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "医疗对话机器人"
+        },
+        {
+          "evidence_id": "v8kNLZMaZ",
+          "text": "AIDD（人工智能药物设计）研发工作"
+        },
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "智能有机合成实验设计"
+        },
+        {
+          "evidence_id": "vrk5ntMZa",
+          "text": "数据样本标注"
+        },
+        {
+          "evidence_id": "vYm55aMCZ",
+          "text": "市场推广与项目对接"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "模型应用样本：搭建医疗对话机器人与智能体。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "医疗对话机器人、AIAgent（智能体）的架构设计与搭建"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "模型应用样本：构建和优化医疗RAG检索系统。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "医疗垂直领域RAG（检索增强生成）系统的开发、优化与落地"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "AIDD样本：设计和优化分子生成算法。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk85CZzzN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk85CZzzN",
+          "text": "负责AI分子生成项目的算法设计与优化"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "实验化学样本：设计合成路线并执行实验。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYl5M55zN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "独立完成复杂多步有机合成反应"
+        },
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "设计较优合成路线"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "标注样本：标注、审阅、编辑并生成医学数据。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vrk5ntMZa"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrk5ntMZa",
+          "text": "医学护理相关的数据样本标注，审阅，编辑和生成"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    },
+    {
+      "text": "推广样本：拜访客户、演示产品并对接项目。",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYm55aMCZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYm55aMCZ",
+          "text": "客户拜访、产品演示、行业交流及商务洽谈"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "应用开发样本交付机器人、RAG系统和测试数据；实验化学样本交付实验报告、技术文档及专利交底书。",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vrm5aatLZ",
+        "vYl5M55zN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "医疗对话机器人"
+        },
+        {
+          "evidence_id": "vrm5aatLZ",
+          "text": "高质量Prompt/测试数据集"
+        },
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "撰写实验报告、技术文档及专利交底书"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "AIDD样本需跨学科团队协作；推广样本面向药企用户和产品、技术团队。",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "v8kNLZMaZ",
+        "vYm55aMCZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v8kNLZMaZ",
+          "text": "协同跨学科团队"
+        },
+        {
+          "evidence_id": "vYm55aMCZ",
+          "text": "药企用户"
+        },
+        {
+          "evidence_id": "vYm55aMCZ",
+          "text": "协助产品与技术团队"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    }
+  ],
+  "work_setting": [
+    {
+      "text": "实验化学样本涉及实验室小试及中试；不能外推为全部医学AI岗位的场景。",
+      "kind": "research_inference",
+      "evidence_ids": [
+        "vYl5M55zN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYl5M55zN",
+          "text": "从实验室小试到中试放大"
+        }
+      ],
+      "scope": "招聘样本综合；实际体验待核"
+    }
+  ],
+  "entry_for_fresh": [
+    {
+      "text": "9份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 9,
+        "matched_ids": [
+          "vsl5Z5LZC"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYl5M55zN",
+          "vrk5ntMZa"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYm55aMCZ",
+          "vrm5aatLZ"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，4份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 4,
+        "denominator": 9,
+        "matched_ids": [
+          "v8Y5na5NZ",
+          "v8kNLZMaZ",
+          "vk85CZzzN",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，3份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 3,
+        "denominator": 9,
+        "matched_ids": [
+          "vk85CZzzN",
+          "vrk5ntMZa",
+          "vrm5aatLZ"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份专业类字段为“化学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化学类",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYm55aMCZ",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vYm55aMCZ",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 9,
+        "matched_ids": [
+          "v8kNLZMaZ"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，4份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 4,
+        "denominator": 9,
+        "matched_ids": [
+          "vYl5M55zN",
+          "vYm55aMCZ",
+          "vmk55aMCt",
+          "vsl5Z5LZC"
+        ]
+      }
+    },
+    {
+      "text": "9份保留的校招平台样本中，2份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "v8Y5na5NZ",
+          "vmk55aMCt"
+        ]
+      }
+    },
+    {
+      "text": "9份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 9,
+        "matched_ids": [
+          "vrk5ntMZa",
+          "vrm5aatLZ"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8Y5na5NZ",
+        "v8kNLZMaZ",
+        "vYl5M55zN",
+        "vYm55aMCZ",
+        "vk85CZzzN",
+        "vmk55aMCt",
+        "vrk5ntMZa",
+        "vrm5aatLZ",
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "2027届-AIDD研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vk85CZzzN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AIDD研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vsl5Z5LZC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AIDD科学家",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8kNLZMaZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI化学高级研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYl5M55zN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗反向工程师",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8Y5na5NZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗大模型应用开发实习生",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrm5aatLZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "AI医疗行业—数据标注实习生",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrk5ntMZa"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "制药知识AI应用推广专员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vYm55aMCZ"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "制药知识AI应用研究员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vmk55aMCt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

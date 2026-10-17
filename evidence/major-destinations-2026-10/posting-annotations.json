@@ -1,0 +1,77 @@
+{
+  "notice": "研究者标注，完整正文在每slug/source.json与jd.html。accepts_fresh=Y包括平台经验不限或明确实习，并非未实习可录用；专业字段为短原文摘录不是完整清单。证书字段包含CET4要求/优先；certificate_n仅计必需非优先。",
+  "items": [
+    {
+      "slug": "boss-alieditor",
+      "role_family": "医学内容 / 编辑",
+      "role_name": "医学编辑",
+      "education_req": "本科及以上学历",
+      "major_req": "临床医学/检验医学/影像医学/口腔医学/医学信息学",
+      "experience_req": "5-10年",
+      "accepts_fresh": "N",
+      "certificate_req": "未写",
+      "quote": "对ai模型的翻译能力进⾏测试和调优",
+      "subtype": "医学AI内容审核/文献质量与训练样本"
+    },
+    {
+      "slug": "boss-appeneditor",
+      "role_family": "医学内容 / 编辑",
+      "role_name": "医学编辑",
+      "education_req": "本科",
+      "major_req": "临床医学、护理学、康复治疗学、临床药学、基础医学",
+      "experience_req": "经验不限；临床见实习、轮转、规培或医学数据标注经验优先",
+      "accepts_fresh": "Y",
+      "certificate_req": "未写",
+      "quote": "负责对标注员进行项目规则培训，质控",
+      "subtype": "医疗内容审核/标注质控"
+    },
+    {
+      "slug": "boss-wanshengeditor",
+      "role_family": "医学内容 / 编辑",
+      "role_name": "医学编辑",
+      "education_req": "本科及以上学历（全日制）",
+      "major_req": "临床医学,中医学,康复治疗学，中西医结合医学",
+      "experience_req": "经验不限",
+      "accepts_fresh": "Y",
+      "certificate_req": "执业医师资格证",
+      "quote": "针对问答软件生成的医疗问答内容",
+      "subtype": "医疗AI问答审核"
+    },
+    {
+      "slug": "boss-tigercrc",
+      "role_family": "临床研究支持",
+      "role_name": "临床研究协调员（CRC）",
+      "education_req": "本科及以上学历",
+      "major_req": "医学、药学、护理学及生物制药等相关专业",
+      "experience_req": "经验不限；CRC、药师、护士、临床研究工作经验优先",
+      "accepts_fresh": "Y",
+      "certificate_req": "英语CET4",
+      "quote": "协助研究者完成试验标本的处理、保存和运送工作",
+      "subtype": "研究中心协调（医院现场）"
+    },
+    {
+      "slug": "boss-jscrc",
+      "role_family": "临床研究支持",
+      "role_name": "临床研究协调员（CRC）",
+      "education_req": "大专及以上学历",
+      "major_req": "护理、临床医学、药学等专业",
+      "experience_req": "27届实习；5天/周、6个月",
+      "accepts_fresh": "Y",
+      "certificate_req": "未写",
+      "quote": "协助完成临床试验项目的资料收集、整理和归档管理",
+      "subtype": "CRC在校实习（非正式应届录用）"
+    },
+    {
+      "slug": "boss-rgscrc",
+      "role_family": "临床研究支持",
+      "role_name": "临床研究协调员（CRC）",
+      "education_req": "专科及以上学历",
+      "major_req": "临床、护理、药学专业",
+      "experience_req": "半年以上CRC经验；列表1-3年",
+      "accepts_fresh": "N",
+      "certificate_req": "英语读写能力佳（CET4优先）",
+      "quote": "协助研究者完成项目患者管理全流程工作",
+      "subtype": "研究中心协调（医院现场）"
+    }
+  ]
+}

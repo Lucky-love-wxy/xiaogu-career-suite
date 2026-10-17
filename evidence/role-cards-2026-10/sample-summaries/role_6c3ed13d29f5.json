@@ -1,0 +1,132 @@
+{
+  "name": [
+    {
+      "text": "材料工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "材料工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "协助组内相关老师做好材料制造实验，协助实验室同事开展相关辅助工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vly5NZtMZ",
+          "text": "负责组内碳材料的制造及制造设备的维护保养，实验室日常的清洁与维护"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“化学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“化工与制药类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "化工与制药类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“材料类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "材料类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5NZtMZ"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "材料工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vly5NZtMZ"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

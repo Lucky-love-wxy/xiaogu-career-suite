@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "checks": {
+    "inputs_unchanged": true,
+    "all_source_labels_preserved": true,
+    "pilot_n_each": {
+      "国聘": 10,
+      "国家大学生就业服务平台": 10,
+      "医院人事处": 10
+    },
+    "pilot_ids_unique": true,
+    "pilot_join_and_quote": true,
+    "quotes_exact": true,
+    "quote_limit": true,
+    "conditional_evidence": true,
+    "identity_quotes": true,
+    "all_request_meta_n": 374,
+    "identity_file_hashes": true,
+    "no_scope_excluded_hosts": true,
+    "no_cookies_in_direct_requests": true,
+    "detail_max_per_host": {
+      "www.puh3.net.cn": 1,
+      "www.gaoxiaojob.com": 1,
+      "rsj.beijing.gov.cn": 1,
+      "gzw.huaibei.gov.cn": 1,
+      "njna.nanjing.gov.cn": 1,
+      "lswz.gov.cn": 1,
+      "www.sasac.gov.cn": 1,
+      "wap.sasac.gov.cn": 1,
+      "www.12371.gov.cn": 1
+    },
+    "recorded_host_spacing_min_seconds": 5.200059175491333,
+    "csv_rows": 689,
+    "source_csv_rows": 517
+  },
+  "errors": [],
+  "boundary": "机械完整性通过不代表主办/许可/全量覆盖全部核验；自动合并所有带时间戳请求meta；旧省级导航原始HTML无完整时标，按fetch脚本与日志独立核",
+  "manual_quote_sample": [
+    "C005",
+    "C021",
+    "C030",
+    "C033",
+    "P000"
+  ]
+}

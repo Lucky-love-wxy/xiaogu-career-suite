@@ -1,0 +1,90 @@
+{
+  "status": "partial_free_channels_maimai_access_limit",
+  "source_root": "/Users/lucky_wang/Documents/codex/xiaogu-career-suite/evidence/practitioner-2026-10/free",
+  "sources": [
+    {
+      "role": "算法工程师",
+      "node": "互联网/AI › 人工智能 › 算法工程师",
+      "source_file": "evidence/practitioner-2026-10/free/nowcoder-algorithm-day366.json",
+      "sha256": "d09d394ab8908d6f7b22b32de8872d22b7d6db0b316fe3258bc7394c0354b338",
+      "qualifies": true,
+      "platform": "nowcoder",
+      "nickname": "牛客238411291号",
+      "date": "2026-09-10",
+      "promotional_motive": "none_observed_in_text",
+      "dimensions": [
+        "日常工作及时间分配",
+        "强度与作息",
+        "前3年发展"
+      ],
+      "scope": "互联网搜广推算法个人团队，不用于医学AI/大模型算法/图像算法等其他卡",
+      "exclusion_reason": "",
+      "identity_limit": "自述身份未实名认证核验，不能凭用语判断是人写还是AI辅助",
+      "claims": [
+        {
+          "field": "daily_work",
+          "text": "一位入职一年的搜广推算法作者称，其工作主要是模型与特征迭代，采用小步快跑的上线节奏。",
+          "quote": "主要是模型和特征迭代"
+        },
+        {
+          "field": "growth",
+          "text": "该作者称入职后有 mentor 一对一指导，团队每周开展技术分享；属于该团队的个人经历。",
+          "quote": "入职就有一对一带；组里技术分享每周都有"
+        },
+        {
+          "field": "collaborators",
+          "text": "该作者称遇到问题可以向团队同事请教；仅支撑这一个团队的协作场景。",
+          "quote": "同事都很好说话，有问题随时问"
+        },
+        {
+          "field": "work_setting",
+          "text": "该作者称其团队按时下班是常态、周末基本不打扰；是2026年个人团队经历，不代表行业作息。",
+          "quote": "按时下班是常态，周末基本不打扰"
+        },
+        {
+          "field": "metrics",
+          "text": "该作者以上线后的业务指标变化观察模型与特征迭代效果；未提供指标公式或考核阈值。",
+          "quote": "做的事能直接看到业务指标变化"
+        }
+      ]
+    },
+    {
+      "role": "算法工程师",
+      "source_file": "evidence/practitioner-2026-10/free/nowcoder-pdd-year.json",
+      "qualifies": false,
+      "platform": "nowcoder",
+      "nickname": "awdsd",
+      "date": "2026-09-15",
+      "promotional_motive": "referral",
+      "dimensions": [
+        "强度与作息"
+      ],
+      "exclusion_reason": "有本人公司体验但未声明本人具体算法岗位，团队同时含算法/架构/数据研发；不凭部门招聘描述认定作者职业。"
+    }
+  ],
+  "maimai_manifest": "evidence/practitioner-2026-10/free/maimai-manifest.json",
+  "maimai_channel_rows": "evidence/practitioner-2026-10/free/maimai-channel-rows.json",
+  "nowcoder": {
+    "cached_corpus": 1299,
+    "local_filter": "复用原 labels.jsonl workplace 分类，再用 P1相关关键词筛选；未调用付费分类，未读Keychain",
+    "local_workplace_keyword_candidates": 11,
+    "candidate_roles": {
+      "算法工程师": 3,
+      "产品经理": 4,
+      "大模型算法": 1,
+      "范围外或岗位未明": 3
+    },
+    "opened_detail_count": 2,
+    "new_authors": 1,
+    "requests": 2,
+    "fee_usd": 0,
+    "limits": "部分候选跨角色重复；仅2正文公开CDP复核，不能把11全部算已打开；原始缓存只读未修改。",
+    "exclusions": "其余候选为梗/泛介绍/面经/求职转行提问/软件岗位本人经历/未明确岗位，未读其个人资料。",
+    "assessment_file": "evidence/practitioner-2026-10/free/nowcoder-local-assessment.json"
+  },
+  "cleanup": {
+    "maimai_task_tab": "closed_success",
+    "nowcoder_task_tab": "closed_success",
+    "user_tabs": "untouched"
+  }
+}

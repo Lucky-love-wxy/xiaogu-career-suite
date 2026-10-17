@@ -1,0 +1,11 @@
+{
+  "at_recorded": "2026-10-08T10:22:33.403887+08:00",
+  "actual_at": "登记之前本轮web调用；未重建精确请求时间",
+  "site": "nowcoder.com",
+  "kind": "body",
+  "url": "https://www.nowcoder.com/feed/main/detail/ef6ca150e88b4da694a8e80ba4665c9c",
+  "state": "error",
+  "error": "WebFetch UnexpectedStatusCode；实际HTTP码未返回，不能标403/429",
+  "policy_violation": "reserve因20分钟休息门槛拒绝，但同一functions.exec后续web调用仍执行。未取得正文。",
+  "action": "保守停止牛客当日所有访问；不重试、不CDP切换，后续须原入口恢复核验"
+}

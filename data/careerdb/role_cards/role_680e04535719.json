@@ -1,0 +1,162 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_680e04535719",
+  "node": "销售 › 销售行政/商务 › 销售运营",
+  "family": "销售",
+  "parent_id": "销售 › 销售行政/商务",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "销售 › 销售行政/商务 › 销售运营",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8l5ztLCz",
+      "type": "recruitment_jd",
+      "title": "旅游度假销售运营",
+      "company": "北京趣拿软件科技有限公司",
+      "url": "https://campus.niuqizp.com/job-v8l5ztLCz.html",
+      "date": "2026-05-27",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "北京趣拿软件科技有限公司\n发布时间：2026-05-27\n福利:\"定期体检\",\"节日礼物\",\"上市公司\",\"技能培训\",\"岗位晋升\"\n职位名称:旅游度假-销售运营\n学历:本科\n需求人数:1\n需求专业:不限专业\n工作地点:北京市海淀区\n职位描述:岗位职责：1、根据业务特点进行商家运营体系的搭建，制定开拓平台的商户拓展策略并落地执行；2、定期统计和分析商家运营数据（GMV、订单量、流量、转化、商品结构等），寻找问题点及优化运营方案；对运营案例策略总结分析和效果评估，优化运营效率。3、建立运营数据分析机制，分析商户行为，保证运营效果，实现与产品、研发部门的良好互动；4、有一定渠道拓展经验，可以帮助平台招募新的高质量合作商家。任职要求：1、本科以上学历，有旅***业背景优先，熟悉商家运营、平台玩法；2、有较好的数据运营能力、数据驱动力强、可根据数据洞察改进方向；3、团队协作能力强，乐观皮实、拥抱变化、富有正能量。\n去哪儿成立于2005年，是中国第一家旅游搜索引擎公司，现已经成长为中国领先的在线旅游平台。去哪儿致力于通过技术推动旅游大众化，为用户带来卓越的旅行体验。去哪儿与全球超过100家航空公司、9000家旅行代理商达成深度合作，搜索预订范围涵盖68万条国际国内航线、200万家酒店和特色民宿，以及超过120万条度假线路、2万余个目的地门票等玩乐项目。截至目前，去哪儿累计用户量近6亿，全球范围内APP累积下载量超过60亿。\n\",\"shortContent\":\"去哪儿成立于2005年，是中国第一家旅游搜索引擎公司，现已经成长为中国领先的在线旅游平台。去哪儿致力于通过技术推动旅游大众化，为用户带来卓越的旅行体验。去哪儿与全球超过100家航空公司、9000家旅行代理商达成深度合作，搜索预订范围涵盖68万条国际国内航线、200万家酒店和特色民宿，以及超过120万条度假线路、2万余个目的地门票等玩乐项目。截至目前，去哪儿累计用户量近6亿，全球范围内APP累积下载",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8l5ztLCz.html",
+      "cache_sha256": "69f7cfad0677fc99eb712cc094f6c57d89ef93f4b072ef537fedb8823e9b3eeb"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "销售运营",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "销售运营"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "旅游度假销售运营",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5ztLCz"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8l5ztLCz"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "旅游度假销售运营",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8l5ztLCz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

@@ -1,0 +1,11 @@
+#
+# robots.txt for oceanengine
+#
+
+Sitemap: https://m.oceanengine.com/sitemap.xml
+
+User-agent:  *
+Disallow:  /*?*
+Disallow:  /.js$
+Disallow:  /.php$
+Disallow:  /.css$

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Fansr" />
+ <title>云南人事考试网[官网] </title>
+ <meta name="Keywords" content="云南 人事考试 公务员考试 职业资格考试" />
+ <meta name="Description" content="云南人事考试网是云南省人力资源和社会保障厅云南人事考试院官方网站" />
+ <meta name="Copyright" content="" /> 
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/common.js?v=v190617"></script>
+    <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="js/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <link href="Themes/default/Css/style.css?v=v190617" rel="stylesheet"  />
+    <link href="Themes/default/Css/gdt-style.css" rel="stylesheet" />
+    
+    <link href="Themes/Red2019/Css/style.css?v190617" rel="stylesheet" />
+    
+    <script src="Themes/Red2019/Js/nav.js?v190617" type="text/javascript"></script>
+     
+    <!--[if lte IE 7]> 
+<link href="Themes/default/Css/ie6.css?v180320" rel="stylesheet" />
+<script src="Themes/default/js/flashpic.js?v180320"></script>
+<script src="Themes/default/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script src="Themes/default/js/ie6.js?v180320"></script>
+<![endif]-->
+    <!--[if (lt IE 9)&(gte IE 8)]> 
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>  
+<link href="Themes/default/Css/ie8.css?v180320" rel="stylesheet" />
+<![endif]-->
+<title>
+
+</title></head>
+<body>   
+    <style>.piclinks {padding-bottom:15px}.txtlinks {display:none}</style>
+ <div class="glbnav">
+        <div class="container">
+            <div class="nav">
+                <div class="site-nav">
+                    <div class="sn-lf">
+                        <ul>
+                            <li><a href="http://www.gov.cn/">中央政府</a>|</li>
+                            <li><a href="http://www.yn.gov.cn/">云南省人民政府</a>|</li>
+                            <li><a href="http://www.mohrss.gov.cn/">人力资源社会保障部</a>|</li>
+                            <li><a href="http://www.scs.gov.cn/">国家公务员局</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<style>  
+.fbox{ position: absolute;left: 50%;padding-top: 20px;}
+.fbox a{background: url('https://hrss.yn.gov.cn/template/default/Images/wza.png') no-repeat 5px center #c30009; background-size: 12px; line-height: 24px; text-indent: 12px; float: left; border-radius: 2px; color: #ffffff; font-weight: bold; height: 24px; padding-left: 10px; padding-right: 10px; cursor: pointer}
+.fbox a.fboxbtn2 {background-image: url('https://hrss.yn.gov.cn/template/default/Images/zza.png');margin-left: 10px;} 
+</style>
+<div class="fbox">
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=0723ee37e5c48c64748359fa717ed7f5" charset="utf-8"  id="ariascripts"></script>
+<a onclick="aria.start()" clickhide="false">无障碍</a>
+<a onclick="aria.oldFixedStart()" clickhide="false" class="fboxbtn2">长者模式</a>
+</div> 
+    <div class="topbanner">
+        <div class="container banner" style="background-image: url(Themes/Red2019/images/blank.gif);">
+            <div class="row">
+                <img src="Themes/Red2019/images/logo.png" class="span4 logo" />
+                <img src="Themes/Red2019/images/sublogo1.png" class="span4 offset4 hidden-phone" />
+            </div>
+            <div class="domain domainbg">hrss.yn.gov.cn/ynrsksw</div>
+            <div class="domain">hrss.yn.gov.cn/ynrsksw</div>
+        </div>
+    </div>
+     <div class="topnavbar">
+        <div class="container glnavbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="https://hrss.yn.gov.cn/index.html">首页</a></li>
+                    <li><a href="https://hrss.yn.gov.cn/NewsLsit.aspx?ClassID=362">人社动态</a></li>
+                    <li><a href="https://hrss.yn.gov.cn/NewsLsit.aspx?ClassID=558">通知公告</a></li>
+                    <li><a href="https://hrss.yn.gov.cn/NewsLsit.aspx?ClassID=458">招考招聘</a></li>
+                    <li><a href="https://hrss.yn.gov.cn/InfoPublic.aspx?cid=1067&pid=971">政府信息公开</a></li>
+                    <li><a href="https://hrss.yn.gov.cn/ynrsksw/Index.html" target="_blank">人事考试</a></li>
+                    <li><a href="https://hrss.yn.gov.cn/InfoPublic.aspx?cid=1130&pid=971">组织机构</a></li>
+                    <li><a href="https://zwfw.yn.gov.cn/portal/#/work-service/department-matters?orgCode=530000000000_11530000015100418X">政务服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  <style>
+    .glnavbar li{ padding:0 2%}
+  </style>
+ 
+    <div class="topnavbar">
+        <div class="container">
+            <div class="navbar navbar-default">
+                <div class="navbar-inner">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand hidden-desktop" href="index.html">云南人事考试网</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav"> 
+                            
+                            <li class="first"><a href="Index.html" target="_blank">专栏首页</a></li>
+                            
+                            <li ><a href="Special7.html" target="_blank">公务员考试</a></li>
+                            
+                            <li ><a href="Special8.html" target="_blank">事业单位考试</a></li>
+                            
+                            <li ><a href="Special9.html" target="_blank">执业（职业）资格考试</a></li>
+                            
+                            <li ><a href="Special10.html" target="_blank">其他考试</a></li>
+                            
+                            <li ><a href="News4.html" target="_blank">政策法规</a></li>
+                            
+                            <li ><a href="Page5.html" target="_blank">机构简介</a></li>
+                            
+                            <li ><a href="News5.html" target="_blank">常见问题</a></li>
+                            
+                            <li ><a href="News6.html" target="_blank">工具下载</a></li>
+                            
+                            <li class="navsearch">
+                                <form action="Search.html" method="get">
+                                    <input type="text" maxlength="20" size="6" id="searchtxt" name="keyword" placeholder="请输入关键字搜索" value="" />
+                                    <button type="submit" class="navsearchbtn"></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="container content">
+         
+ <div class="row">
+ <div class="span6">
+ <div class="panel panel-default noborder">
+ 
+ <div id="carousel-hotnews" class="carousel slide" data-ride="carousel">
+ <!-- Indicators -->
+ <ol class="carousel-indicators">
+ 
+ <li data-target="#carousel-hotnews" data-slide-to="0" class=" active"></li>
+ 
+ </ol>
+ <!-- Wrapper for slides -->
+ <div class="carousel-inner" role="listbox">
+ 
+ <div class="item active">
+ <img src="uploads/image/202504/20250415144858_7846.png" alt="云南省2025年度考试录用公务员笔试" />
+ <div class="carousel-caption">
+ <a target="_blank" href="i1266.html">云南省2025年度考试录用公务员笔试</a>
+ </div>
+ </div>
+ 
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="span6">
+ <div class="panel panel-default row1box">
+ <div class="panel-heading"><a target="_blank" href="News2.html">工作动态</a> <em><a target="_blank" href="News2.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i1368.html" title=" 关于公布2026年度社会工作者职业资格考试云南考区查分结果的通知 " >
+ 关于公布2026年度社会工作者职业资格考试云南考区查分结果的通知</a><em>(2026-10-08)</em></li>
+ 
+ <li><a target="_blank" href="i1367.html" title=" 关于公布2026年度监理工程师职业资格考试云南考区查分结果的通知 " >
+ 关于公布2026年度监理工程师职业资格考试云南考区查分结果的通知</a><em>(2026-10-08)</em></li>
+ 
+ <li><a target="_blank" href="i1366.html" title=" 2026年度高级经济专业技术资格考试云南考区拟取得单独划线地区成绩合格证明人员使用告知承诺制情况的公示 " >
+ 2026年度高级经济专业技术资格考试云南考区拟取得单独划线地区成绩合格证明人员使用告知承诺制情况的公示</a><em>(2026-10-08)</em></li>
+ 
+ <li><a target="_blank" href="i1365.html" title=" 2026年度社会工作者职业资格考试云南考区拟取得单独划线地区资格证书人员使用告知承诺制情况的公示 " >
+ 2026年度社会工作者职业资格考试云南考区拟取得单独划线地区资格证书人员使用告知承诺制情况的公示</a><em>(2026-09-08)</em></li>
+ 
+ <li><a target="_blank" href="i1364.html" title=" 关于领取2026年度监理工程师等3项职业资格考试证书（成绩合格证明）的通知 " >
+ 关于领取2026年度监理工程师等3项职业资格考试证书（成绩合格证明）的通知</a><em>(2026-08-28)</em></li>
+ 
+ <li><a target="_blank" href="i1363.html" title=" 云南省2026年下半年事业单位公开招聘分类考试公共科目笔试相关工作安排 " >
+ 云南省2026年下半年事业单位公开招聘分类考试公共科目笔试相关工作安排</a><em>(2026-08-25)</em></li>
+ 
+ <li><a target="_blank" href="i1362.html" title=" 2026年度翻译专业资格（水平）考试云南考区拟取得资格证书人员使用告知承诺制情况的公示 " >
+ 2026年度翻译专业资格（水平）考试云南考区拟取得资格证书人员使用告知承诺制情况的公示</a><em>(2026-08-25)</em></li>
+ 
+ <li><a target="_blank" href="i1361.html" title=" 2026年度注册计量师职业资格考试云南考区拟取得资格证书人员使用告知承诺制情况的公示 " >
+ 2026年度注册计量师职业资格考试云南考区拟取得资格证书人员使用告知承诺制情况的公示</a><em>(2026-08-17)</em></li>
+ 
+ <li><a target="_blank" href="i1360.html" title=" 2026年度环境影响评价工程师职业资格考试云南考区拟取得资格证书人员使用告知承诺制情况的公示 " >
+ 2026年度环境影响评价工程师职业资格考试云南考区拟取得资格证书人员使用告知承诺制情况的公示</a><em>(2026-08-17)</em></li>
+ 
+ <li><a target="_blank" href="i1359.html" title=" 2026年度新闻记者职业资格考试云南考区公告 " >
+ 2026年度新闻记者职业资格考试云南考区公告</a><em>(2026-07-28)</em></li>
+ 
+ </ul>
+
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ <div class="row">
+ <div class="span2" style="min-width: 140px">
+ <div class="panel panel-default wskw">
+ <div class="panel-heading">网上考务</div>
+ <div class="panel-body">
+ <a target="_blank" href="News19.html" class="wskw-wsbm"></a>
+ <a target="_blank" href="News20.html" class="wskw-zkzdy"></a>
+ <a target="_blank" href="News21.html" class="wskw-cjcx"></a>
+ <a target="_blank" href="News22.html" class="wskw-hgrydj"></a>
+
+ <div class="erweima">
+ <h5 class="text-center"><strong>云南人社12333APP</strong></h5>
+ <a target="_blank" href="#" class="ewm12333"></a>
+ </div>
+ <div class="erweima">
+ <h5 class="text-center"><strong>云南12333微信</strong></h5>
+ <a target="_blank" href="#" class="gzh12333"></a>
+ </div>
+ <div class="clear1px"></div>
+ </div>
+ <div class="panel-footer">
+ <a target="_blank" href="tel:12333" class="tel12333"></a>
+ </div>
+ </div>
+ </div>
+
+ <div class="span5">
+ <div class="panel panel-default row2box">
+ <div class="panel-heading"><a target="_blank" href="News3.html">重要通知</a> <em><a target="_blank" href="News3.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i1296.html" title=" 中央机关及其直属机构2026年度考试录用公务员云南考区报考者报名确认须知 " >
+ 中央机关及其直属机构2026年度考试录用公务员云南考区报考者报名确认须知</a><em>(2025-10-28)</em></li>
+ 
+ <li><a target="_blank" href="i1060.html" title=" 专业技术资格证书领取指南 " >
+ 专业技术资格证书领取指南</a><em>(2023-01-12)</em></li>
+ 
+ <li><a target="_blank" href="i1219.html" title=" 云南省专业技术人员职业资格纸质证书补办事宜公告 " >
+ 云南省专业技术人员职业资格纸质证书补办事宜公告</a><em>(2024-10-18)</em></li>
+ 
+ <li><a target="_blank" href="i1187.html" title=" 云南省部分专业技术人员职业资格考试报名缴费电子票据申领指南 " >
+ 云南省部分专业技术人员职业资格考试报名缴费电子票据申领指南</a><em>(2024-04-19)</em></li>
+ 
+ <li><a target="_blank" href="i1164.html" title=" 关于请相关报考人员提前做好学历学位认证申请的温馨提醒 " >
+ 关于请相关报考人员提前做好学历学位认证申请的温馨提醒</a><em>(2024-01-02)</em></li>
+ 
+ <li><a target="_blank" href="i1368.html" title=" 关于公布2026年度社会工作者职业资格考试云南考区查分结果的通知 " >
+ 关于公布2026年度社会工作者职业资格考试云南考区查分结果的通知</a><em>(2026-10-08)</em></li>
+ 
+ <li><a target="_blank" href="i1367.html" title=" 关于公布2026年度监理工程师职业资格考试云南考区查分结果的通知 " >
+ 关于公布2026年度监理工程师职业资格考试云南考区查分结果的通知</a><em>(2026-10-08)</em></li>
+ 
+ </ul>
+
+ </div>
+ </div>
+ </div>
+ 
+ 
+ <div class="span5">
+ <div class="panel panel-default row2box">
+ <div class="panel-heading"><a target="_blank" href="Special7.html">公务员考试</a> <em><a target="_blank" href="Special7.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i1296.html" title=" 中央机关及其直属机构2026年度考试录用公务员云南考区报考者报名确认须知 " >
+ 中央机关及其直属机构2026年度考试录用公务员云南考区报考者报名确认须知</a><em>(2025-10-28)</em></li>
+ 
+ <li><a target="_blank" href="i1325.html" title=" 云南省2026年度考试录用公务员笔试重要提示 " >
+ 云南省2026年度考试录用公务员笔试重要提示</a><em>(2026-03-03)</em></li>
+ 
+ <li><a target="_blank" href="i1305.html" title=" 云南省2026年面向选定高校招录优秀毕业生省级职位综合成绩查询入口 " >
+ 云南省2026年面向选定高校招录优秀毕业生省级职位综合成绩查询入口</a><em>(2026-01-09)</em></li>
+ 
+ <li><a target="_blank" href="i1304.html" title=" 云南省2026年面向选定高校招录优秀毕业生州(市)级以下机关职位综合成绩查询入口 " >
+ 云南省2026年面向选定高校招录优秀毕业生州(市)级以下机关职位综合成绩查询入口</a><em>(2026-01-09)</em></li>
+ 
+ <li><a target="_blank" href="i1314.html" title=" 云南省2026年面向选定高校招录优秀毕业生省级职位面试分组及集合点安排 " >
+ 云南省2026年面向选定高校招录优秀毕业生省级职位面试分组及集合点安排</a><em>(2025-12-23)</em></li>
+ 
+ <li><a target="_blank" href="i1299.html" title=" 中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒 " >
+ 中央机关及其直属机构2026年度考试录用公务员笔试温馨提醒</a><em>(2025-10-28)</em></li>
+ 
+ <li><a target="_blank" href="i1298.html" title=" 中央机关及其直属机构2026年度考试录用公务员笔试注意事项 " >
+ 中央机关及其直属机构2026年度考试录用公务员笔试注意事项</a><em>(2025-10-28)</em></li>
+ 
+ </ul>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="span5">
+ <div class="panel panel-default row2box">
+ <div class="panel-heading"><a target="_blank" href="Special8.html">事业单位考试</a> <em><a target="_blank" href="Special8.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i1363.html" title=" 云南省2026年下半年事业单位公开招聘分类考试公共科目笔试相关工作安排 " >
+ 云南省2026年下半年事业单位公开招聘分类考试公共科目笔试相关工作安排</a><em>(2026-08-25)</em></li>
+ 
+ <li><a target="_blank" href="i1320.html" title=" 《2026年事业单位公开招聘分类考试公共科目笔试考试大纲解读》出版发行 " >
+ 《2026年事业单位公开招聘分类考试公共科目笔试考试大纲解读》出版发行</a><em>(2026-01-23)</em></li>
+ 
+ <li><a target="_blank" href="i1317.html" title=" 云南省2026年上半年事业单位公开招聘分类考试公共科目笔试相关工作安排 " >
+ 云南省2026年上半年事业单位公开招聘分类考试公共科目笔试相关工作安排</a><em>(2025-12-26)</em></li>
+ 
+ <li><a target="_blank" href="i1284.html" title=" 云南省2025年下半年事业单位公开招聘分类考试公共科目笔试相关工作安排 " >
+ 云南省2025年下半年事业单位公开招聘分类考试公共科目笔试相关工作安排</a><em>(2025-08-01)</em></li>
+ 
+ <li><a target="_blank" href="i1262.html" title=" 云南省2025年上半年事业单位公开招聘分类考试公共科目笔试省直考区温馨提示 " >
+ 云南省2025年上半年事业单位公开招聘分类考试公共科目笔试省直考区温馨提示</a><em>(2025-03-26)</em></li>
+ 
+ <li><a target="_blank" href="i1248.html" title=" 云南省2025年上半年事业单位公开招聘分类考试公共科目笔试相关工作安排 " >
+ 云南省2025年上半年事业单位公开招聘分类考试公共科目笔试相关工作安排</a><em>(2025-01-20)</em></li>
+ 
+ <li><a target="_blank" href="i1244.html" title=" 事业单位公开招聘分类考试公共科目笔试考试大纲（2025年版） " >
+ 事业单位公开招聘分类考试公共科目笔试考试大纲（2025年版）</a><em>(2024-12-30)</em></li>
+ 
+ </ul>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="span5">
+ <div class="panel panel-default row2box">
+ <div class="panel-heading"><a target="_blank" href="Special9.html">执业（职业）资格考试</a> <em><a target="_blank" href="Special9.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i1060.html" title=" 专业技术资格证书领取指南 " >
+ 专业技术资格证书领取指南</a><em>(2023-01-12)</em></li>
+ 
+ <li><a target="_blank" href="i128.html" title=" 云南省各核查及证书领取地点咨询电话、地址 " >
+ 云南省各核查及证书领取地点咨询电话、地址</a><em>(2021-01-03)</em></li>
+ 
+ <li><a target="_blank" href="i504.html" title=" 证书邮寄操作指南 " >
+ 证书邮寄操作指南</a><em>(2020-01-02)</em></li>
+ 
+ <li><a target="_blank" href="i1089.html" title=" 专业技术资格考试常见问题解答 " >
+ 专业技术资格考试常见问题解答</a><em>(2025-04-01)</em></li>
+ 
+ <li><a target="_blank" href="i1219.html" title=" 云南省专业技术人员职业资格纸质证书补办事宜公告 " >
+ 云南省专业技术人员职业资格纸质证书补办事宜公告</a><em>(2024-10-18)</em></li>
+ 
+ <li><a target="_blank" href="i1187.html" title=" 云南省部分专业技术人员职业资格考试报名缴费电子票据申领指南 " >
+ 云南省部分专业技术人员职业资格考试报名缴费电子票据申领指南</a><em>(2024-04-19)</em></li>
+ 
+ <li><a target="_blank" href="i1164.html" title=" 关于请相关报考人员提前做好学历学位认证申请的温馨提醒 " >
+ 关于请相关报考人员提前做好学历学位认证申请的温馨提醒</a><em>(2024-01-02)</em></li>
+ 
+ </ul>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="span5">
+ <div class="panel panel-default row2box">
+ <div class="panel-heading"><a target="_blank" href="Special10.html">其他考试</a> <em><a target="_blank" href="Special10.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i1154.html" title=" 2024年军队文职人员公开招考云南省省直考区笔试温馨提示 " >
+ 2024年军队文职人员公开招考云南省省直考区笔试温馨提示</a><em>(2023-12-04)</em></li>
+ 
+ <li><a target="_blank" href="i1131.html" title=" 云南省2023年社区(村)基层治理专干招聘成绩查询入口 " >
+ 云南省2023年社区(村)基层治理专干招聘成绩查询入口</a><em>(2023-10-21)</em></li>
+ 
+ </ul>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="span5">
+ <div class="panel panel-default row2box">
+ <div class="panel-heading"><a target="_blank" href="News4.html">政策法规</a> <em><a target="_blank" href="News4.html">更多&gt;&gt;</a></em></div>
+ <div class="panel-body">
+ 
+ <ul class="newslist">
+ 
+ <li><a target="_blank" href="i928.html" title=" 公务员录用违规违纪行为处理办法 " >
+ 公务员录用违规违纪行为处理办法</a><em>(2023-02-20)</em></li>
+ 
+ <li><a target="_blank" href="i358.html" title=" 事业单位公开招聘违纪违规行为处理规定 " >
+ 事业单位公开招聘违纪违规行为处理规定</a><em>(2021-06-29)</em></li>
+ 
+ <li><a target="_blank" href="i49.html" title=" 专业技术人员资格考试违纪违规行为处理规定 " >
+ 专业技术人员资格考试违纪违规行为处理规定</a><em>(2020-01-02)</em></li>
+ 
+ <li><a target="_blank" href="i1217.html" title=" 专业技术人员职业资格考试报名证明事项告知承诺制有关事项问答 " >
+ 专业技术人员职业资格考试报名证明事项告知承诺制有关事项问答</a><em>(2025-04-18)</em></li>
+ 
+ <li><a target="_blank" href="i1107.html" title=" 关于设备监理师职业资格制度有关问题的说明 " >
+ 关于设备监理师职业资格制度有关问题的说明</a><em>(2024-07-05)</em></li>
+ 
+ <li><a target="_blank" href="i1099.html" title=" 人力资源社会保障部办公厅关于印发《专业技术人员职业资格证书管理工作规程（试行）》的通知 " >
+ 人力资源社会保障部办公厅关于印发《专业技术人员职业资格证书管理工作规程（试行）》的通知</a><em>(2024-07-05)</em></li>
+ 
+ <li><a target="_blank" href="i630.html" title=" 资格考试报名证明事项告知承诺制 " >
+ 资格考试报名证明事项告知承诺制</a><em>(2021-06-29)</em></li>
+ 
+ </ul>
+ </div>
+ </div>
+ </div>
+
+ </div>
+ <div class="row hidden-print">
+ <div class="span12" id="indexBotAd"> 
+     
+ 
+ <a target="_blank" href="#" target="_blank">
+ <img src="uploads/ad/Ad2.jpg" width="100%" border="0"/></a> 
+ 
+ </div>
+ </div>
+ <div class="row piclinks hidden-print">
+ 
+
+ 
+ <div class="span3">
+ <a target="_blank" href="https://hrss.yn.gov.cn/" target="_blank">
+ <img src="uploads/image/201904/20190425162939_7275.jpg" height="55" /></a>
+ </div>
+ 
+ <div class="span3">
+ <a target="_blank" href="http://www.ynylxf.cn/" target="_blank">
+ <img src="uploads/image/201904/20190425162927_6990.jpg" height="55" /></a>
+ </div>
+ 
+ <div class="span3">
+ <a target="_blank" href="http://www.cpta.com.cn/" target="_blank">
+ <img src="uploads/link2.jpg" height="55" /></a>
+ </div>
+ 
+ <div class="span3">
+ <a target="_blank" href="http://rsks.class.com.cn/" target="_blank">
+ <img src="uploads/link4.jpg" height="55" /></a>
+ </div>
+ 
+
+ </div>
+ <div class="row hidden-print">
+ <div class="span12 txtlinks">
+ 
+ <table class="table" id="linkstbl">
+ <tr>
+ 
+ <td>
+ 
+ <select class="linkdropdown">
+ <option value="">国家部委网站</option>
+ 
+ 
+ </select>
+ </td>
+ 
+ <td>
+ 
+ <select class="linkdropdown">
+ <option value="">州市考试机构</option>
+ 
+ 
+ </select>
+ </td>
+ 
+ <td>
+ 
+ <select class="linkdropdown">
+ <option value="">各省考试机构</option>
+ 
+ 
+ </select>
+ </td>
+ 
+ </tr>
+ </table>
+ </div>
+ </div>
+ <script>
+     $("#linkstbl td").attr("width", (100 / $("#linkstbl td").length) + "%");
+ </script>
+ 
+
+    </div>
+    <div class="footer">
+    <div class="container" style=" background:url(http://hrss.yn.gov.cn/template/default/Images/bg_02.png) no-repeat;background-position: bottom;">
+        <table style="width:100%;margin:0 auto; margin-top:5px; ">
+            <tr>
+                <td valign="top" style=" text-align:left">
+                    <p style="text-align:left;width:100%;display:block;margin:0;font-size:14px;margin-bottom:5px;"><a href="https://hrss.yn.gov.cn/map.html" target="_blank" style="font-weight:bold">网站地图</a></p>
+                    <p style="text-align:left;width:100%;display:block;margin:0;font-size:14px;margin-bottom:5px;">
+                        主办单位：云南省人力资源和社会保障厅  运行维护：云南省人力资源和社会保障厅信息中心
+                    </p>
+                    <p style="text-align:left;width:100%;display:block;margin:0;font-size:14px;margin-bottom:5px;">联系方式：0871-12333</p>
+                    <p style="text-align:left;width:100%;display:block;margin:0; text-align:left;margin-top:5px;font-size:14px;margin-bottom:10px;">
+                        <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">滇ICP备10002878号</a>  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53010202000568"
+                                                     style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                            <img src="https://hrss.yn.gov.cn/template/default/Images/balogo.png" style="float:left;margin-right:5px;" />滇公网安备 53010202000568号
+                        </a>  网站标识码：5300000003
+                    </p>
+                    <p style="text-align:left;width:100%;display:block;margin:0;font-size:14px">版权所有，未经授权，不得转载、引用</p>                   
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1254489625'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1254489625%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></p>
+ <p style="margin:0;text-align:left;margin-top:30px;">  
+                          </p>
+ <p style="margin:10px 0px;">
+            技术支持：昆明昌昱信息科技有限公司 
+        </p>
+             
+                </td>
+                <td valign="top" style="width:460px;text-align:right">
+                    <p style="text-align:right;width:100%;display:block;margin:0;font-size:14px;margin-bottom:0px;">
+                         <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/25/000/0000/40639247/CA250000000406392470002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                        <script id="_jiucuo_" sitecode='5300000003' src='https://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+                        <a href="https://hrss.yn.gov.cn/zhaocuo/index.html"><img src="http://www.yn.gov.cn/material/bgt.png" /></a> 
+ <a href="http://wza.isc.org.cn/rzpt/bsgl/dt/20250106/3777.html" target="_blank"><img src="https://hrss.yn.gov.cn/template/default/Images/202501080934.png" style="height:55px" /></a>
+                 
+                    </p>
+                     <p style="width:100%!important;font-weight:bold;font-size:14px;padding-bottom:0px;text-align:right">云南省营商环境投诉举报和问卷调查平台</p>
+                    <a href="https://zwfw.yn.gov.cn/portal/#/complaint-form-test" style="border:0"><div style="width:100px;height:120px;display:inline-block; text-align:center;font-size:12px;"><img src="https://hrss.yn.gov.cn/template/default/images/20220107-ewm-ts.png" style="width:100px;height:100px;" /><span>我要投诉</span></div></a>
+                    <a href="https://zwfw.yn.gov.cn/portal/#/complaint-form-test" style="border:0;margin-left:10px;"><div style="width: 100px; height: 120px; display: inline-block; text-align: center; font-size: 12px;"><img src="https://hrss.yn.gov.cn/template/default/images/20220107-ewm-wj.png" style="width:100px;height:100px;" /><span>我要评价</span></div></a>
+   </td>
+            </tr>
+        </table>
+       <style>
+	   @media (max-width:978px) {
+	   .footer td { display:block; max-width:100%;}
+	   }
+	   </style>
+    </div>
+</div>
+    
+    
+    <div class="side-bar hidden-print">
+        <a href="javascript:scroll(0,0)" class="icon-mail" title="返回顶部">返回顶部</a>
+    </div>
+</body>
+</html>
+

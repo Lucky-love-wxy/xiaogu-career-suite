@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-10-08T10:35:43.195106+08:00",
+  "status": "partial_delivery_not_brief_complete",
+  "personal_sources_added": 12,
+  "longform_length_pass_sources": 2,
+  "foreign_standard_sources_added": 1,
+  "legacy_p1_full_before": 2,
+  "legacy_p1_full_after": 5,
+  "longform_p1_full": 0,
+  "cards": 170,
+  "claims": 4328,
+  "jds_unchanged": true,
+  "fee_actual_usd": 0.22,
+  "attempts": 23,
+  "budget_remaining_conservative_usd": 0.77,
+  "attempts_remaining": 77,
+  "remaining": [
+    "新长文放量，当前仅产品经理1新长文且推广动机",
+    "行业社区三岗试点及完整搜索词/候选记录",
+    "知乎长回答与该路径规则正文",
+    "其他可迁移O*NET岗位任务补证，不能因标准任务提升中国作者full"
+  ],
+  "stopped_sites": [
+    "脉脉：历史限制未确认恢复",
+    "牛客：2026-10-08误发静态请求失败后保守停站，跨日原入口核验"
+  ],
+  "actual_access_compliance": "FAILED：历史脉脉墙后10请求；本轮休息检查拒绝后仍1次静态调用，无正文，停止并记录",
+  "quality_review": "PASS for partial artifacts; full brief NEEDS_CHANGES",
+  "pipeline_negative_cases": 14,
+  "paid_models_called": false
+}

@@ -1,0 +1,969 @@
+{
+  "name": [
+    {
+      "text": "产品经理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "产品经理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 18,
+  "excluded": [
+    {
+      "id": "vrk55M5LN",
+      "url": "https://campus.niuqizp.com/job-vrk55M5LN.html",
+      "role": "医学产品经理|医学研究员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "参与产品选代优化，发现和解决产品中的问题，提高产品质量和用户体验",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885Cna5n",
+        "vl85CtnMC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885Cna5n",
+          "text": "参与产品选代优化，发现和解决产品中的问题，提高产品质量和用户体验"
+        },
+        {
+          "evidence_id": "vl85CtnMC",
+          "text": "参与产品选代优化，发现和解决产品中的问题，提高产品质量和用户体验"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "进行用户需求调研和用户行为分析，收集和整理用户反债和数据，为产品设计提供支持",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885Cna5n",
+        "vl85CtnMC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885Cna5n",
+          "text": "进行用户需求调研和用户行为分析，收集和整理用户反债和数据，为产品设计提供支持"
+        },
+        {
+          "evidence_id": "vl85CtnMC",
+          "text": "进行用户需求调研和用户行为分析，收集和整理用户反债和数据，为产品设计提供支持"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "根据市场反馈优化产品",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5CMt5L"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5CMt5L",
+          "text": "根据市场反馈优化产品"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责产品知识培训和技术答疑",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUl5ZNZtC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUl5ZNZtC",
+          "text": "负责产品知识培训和技术答疑"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责短期健康保险产品的设计与开发",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5CMt5L"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5CMt5L",
+          "text": "负责短期健康保险产品的设计与开发"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责针对新老产品卖点策划和卖点更新",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmy5n5tCC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmy5n5tCC",
+          "text": "负责针对新老产品卖点策划和卖点更新"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "制定产品定价策略，协调产品上线相关事宜",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmm5CMt5L"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmm5CMt5L",
+          "text": "制定产品定价策略，协调产品上线相关事宜"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "开展市场调研，挖掘新热点，扩充产品品类",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vkm5N5ZZn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vkm5N5ZZn",
+          "text": "开展市场调研，挖掘新热点，扩充产品品类"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "一位自述产品实习的作者记录，负责小程序优化，先调研用户反馈并进行访谈，再根据反馈修改报告。仅代表其自述项目。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "nowcoder-product-timeline-20261008"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "nowcoder-product-timeline-20261008",
+          "text": "我负责小程序优化"
+        },
+        {
+          "evidence_id": "nowcoder-product-timeline-20261008",
+          "text": "第一周调研用户反馈，访谈20人，报告被退三次"
+        }
+      ],
+      "scope": "仅该作者所述阶段和岗位经历，不代表行业。作者自述美团小程序/外卖页面产品实习；正文推荐付费简历工具且带AI配图话题，真实性未独立核验，保留推广动机；不采工具求职因果、绩效百分比或薪资"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "18份保留的校招平台样本中，1份学历字段为“博士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "博士",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vUl5ZNZtC"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，5份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 5,
+        "denominator": 18,
+        "matched_ids": [
+          "v8y5nMM5C",
+          "vUy5nMM5t",
+          "vYU55CZtn",
+          "vkm5N5ZZn",
+          "vyyNL5LCt"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，9份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 9,
+        "denominator": 18,
+        "matched_ids": [
+          "v885Cna5n",
+          "vUl5ZLMnt",
+          "vUs5MLLNL",
+          "vYr5MLMCM",
+          "vl85CtnMC",
+          "vmm5CMt5L",
+          "vrs5aZzNZ",
+          "vyr5C5nna",
+          "vyr5aNCCz"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，3份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 3,
+        "denominator": 18,
+        "matched_ids": [
+          "vUs5NL5ZC",
+          "vmy5n5tCC",
+          "vyU5aMzMN"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，4份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 4,
+        "denominator": 18,
+        "matched_ids": [
+          "v885Cna5n",
+          "vl85CtnMC",
+          "vyU5aMzMN",
+          "vyyNL5LCt"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，2份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 2,
+        "denominator": 18,
+        "matched_ids": [
+          "vmy5n5tCC",
+          "vrs5aZzNZ"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“医学技术类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "医学技术类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vUl5ZLMnt"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，2份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 2,
+        "denominator": 18,
+        "matched_ids": [
+          "vYU55CZtn",
+          "vmy5n5tCC"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，2份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 2,
+        "denominator": 18,
+        "matched_ids": [
+          "v8y5nMM5C",
+          "vUs5NL5ZC"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，2份专业类字段为“生物医学工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物医学工程类",
+        "n": 2,
+        "denominator": 18,
+        "matched_ids": [
+          "vUy5nMM5t",
+          "vmy5n5tCC"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，2份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 2,
+        "denominator": 18,
+        "matched_ids": [
+          "vUl5ZNZtC",
+          "vyr5C5nna"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，3份专业类字段为“电子信息类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电子信息类",
+        "n": 3,
+        "denominator": 18,
+        "matched_ids": [
+          "vUs5NL5ZC",
+          "vYr5MLMCM",
+          "vkm5N5ZZn"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“电气类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电气类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vUs5NL5ZC"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“管理科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "管理科学与工程类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vYr5MLMCM"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vyr5aNCCz"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“自动化类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "自动化类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "v8y5nMM5C"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，5份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 5,
+        "denominator": 18,
+        "matched_ids": [
+          "vUl5ZLMnt",
+          "vUs5MLLNL",
+          "vUs5NL5ZC",
+          "vYr5MLMCM",
+          "vmm5CMt5L"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vyr5aNCCz"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vyr5aNCCz"
+        ]
+      }
+    },
+    {
+      "text": "18份保留样本中，6份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZLMnt",
+        "vUl5ZNZtC",
+        "vUs5MLLNL",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vYr5MLMCM",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmm5CMt5L",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyU5aMzMN",
+        "vyr5C5nna",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 6,
+        "denominator": 18,
+        "matched_ids": [
+          "v885Cna5n",
+          "vUl5ZLMnt",
+          "vUs5MLLNL",
+          "vUs5NL5ZC",
+          "vl85CtnMC",
+          "vmy5n5tCC"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "产品经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885Cna5n",
+        "v8y5nMM5C",
+        "vUl5ZNZtC",
+        "vUs5NL5ZC",
+        "vUy5nMM5t",
+        "vYU55CZtn",
+        "vkm5N5ZZn",
+        "vl85CtnMC",
+        "vmy5n5tCC",
+        "vrs5aZzNZ",
+        "vyr5aNCCz",
+        "vyyNL5LCt"
+      ],
+      "quotes": [],
+      "count": 12
+    },
+    {
+      "text": "2026招聘AI应用方向产品经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUl5ZLMnt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "27届-产品经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYr5MLMCM"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "产品经理(J11059)",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyU5aMzMN"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "产品经理（校招）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUs5MLLNL"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "生信产品经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyr5C5nna"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "短期健康保险产品经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmm5CMt5L"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

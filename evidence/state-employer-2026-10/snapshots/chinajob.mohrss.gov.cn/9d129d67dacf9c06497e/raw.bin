@@ -1,0 +1,2222 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <title>中国就业网 - 人力资源和社会保障部大型就业培训门户网站</title>
+    <meta name="description" content="中国就业网是人力资源和社会保障部主办，中国就业培训技术指导中心承办的大型就业培训鉴定门户网站。" />
+    <meta name="keywords" content="就业,中国就业,就业资讯,创业,就业服务,就业培训,公共就业服务,就业数据,劳动力市场,就业优先" />
+    <!--包含通用样式-->
+    
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+<link rel="stylesheet" href="/v3/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/animate.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/font-opensans.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/v3-framework.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/v3-common.css" type="text/css" />
+<link rel="stylesheet" href="/v3/css/v3-site.css" type="text/css" />
+
+<script>
+	var frontAppContext = 'https://chinajob.mohrss.gov.cn/zcms/';
+	var siteID = "1";
+  var url=window.location;
+    var prefix = "/";
+	var siteUrl = "https://chinajob.mohrss.gov.cn/";
+  if(url == 'http://jc.mohrss.gov.cn/'){
+     window.location.replace("http://jc.mohrss.gov.cn/zbzl/zxfw/");    
+  }else if(url == 'http://xzy.mohrss.gov.cn/'){
+     window.location.replace("http://xzy.mohrss.gov.cn/zbzl/zxxx/");    
+  }
+</script>
+<script src="/js/zcms_require.js" contextpath="https://chinajob.mohrss.gov.cn/zcms/"></script>
+<script>
+	if (isIE && ieVersion < 9 || isIE8) {
+		importJS('../v3/js/ie/html5shiv.js')
+		if (!isIE6 && !isIE7) {
+			importJS('../v3/js/ie/respond.min.js')
+		}
+		importJS('../v3/js/ie/excanvas.js')
+	}
+	if (/MSIE (6|7)\.0/.test(navigator.userAgent)) {
+		importCSS('../v3/css/bootstrap-ie6.css')
+		importJS('../v3/js/ie/bootstrap-ie6.js')
+	}
+	if (isIE && ieVersion < 9 || isIE8) {
+		importCSS('../v3/css/v3-site-ie.css')
+	}
+	if (inTouch) {
+		importJS('../v3/js/hammer.min.js')
+	}
+	importJS('../v3/js/responsiveslides.js')
+</script>
+<script src="/js/qrcode.js"></script>
+    <link rel="shortcut icon" href="/images/icon.png" type="images/x-icon" />
+    <link rel="icon" href="/images/icon.png" type="images/png" />
+    <link rel="stylesheet" type="text/css" href="/v3/css/responsiveslides.css" />
+    <script src="/v3/js/responsiveslides.js"></script>
+    <style>
+        /*html{filter: grayscale(100%);-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
+        .index_content .banner {
+            overflow: hidden;
+        }
+
+        .index_content .banner .swiper-slide {
+            opacity: 0.3;
+        }
+
+        .index_content .banner .swiper-slide-active {
+            opacity: 1;
+        }
+
+        .index-swiper-container {
+            width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            height: 260px !important;
+        }
+
+        .index-swiper-container .mask_left {
+            position: absolute;
+            left: -1200px;
+            top: 0px;
+            width: 100%;
+            height: 260px;
+            background: #000;
+            opacity: .7;
+            z-index: 1;
+        }
+
+        .index-swiper-container .mask_right {
+            position: absolute;
+            right: -1200px;
+            top: 0px;
+            width: 100%;
+            height: 260px;
+            background: #000;
+            opacity: .7;
+            z-index: 1;
+        }
+
+        .index-swiper-container .pagination {
+            z-index: 3;
+            position: absolute;
+            top: 220px !important;
+            bottom: auto !important;
+            left: 1050px !important;
+            overflow: hidden;
+        }
+
+        .index-swiper-container .pagination span {
+            width: 10px;
+            height: 10px;
+            /*background:rgba(255,255,255,0.8);*/
+            float: left;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 5px;
+            opacity: 0.4;
+            background: #000;
+        }
+
+        .index-swiper-container .pagination span.swiper-pagination-bullet-active {
+            background: #e80606;
+            opacity: 1
+        }
+
+        .index-swiper-container .pagination span.swiper-active-switch {
+            background: #e80606;
+            opacity: 1
+        }
+
+        .zyxw-swiper-container,
+        .gzdt-swiper-container,
+        .zxdt-swiper-container {
+            width: 320px;
+            height: 205px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .zyxw_pagination,
+        .gzdt_pagination,
+        .zxdt_pagination {
+            z-index: 3;
+            position: absolute;
+            left: 83% !important;
+            bottom: 5px !important;
+            overflow: hidden;
+        }
+
+        .zyxw_pagination span,
+        .gzdt_pagination span,
+        .zxdt_pagination span {
+            width: 10px;
+            height: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            float: left;
+            margin-left: 3px;
+            margin-right: 3px;
+            cursor: pointer;
+            border-radius: 0;
+        }
+
+        .zyxw_pagination span.swiper-pagination-bullet-active,
+        .gzdt_pagination span.swiper-pagination-bullet-active,
+        .zxdt_pagination span.swiper-pagination-bullet-active {
+            background: #e80606;
+        }
+
+        .zyxw_pagination span.swiper-active-switch,
+        .gzdt_pagination span.swiper-active-switch,
+        .zxdt_pagination span.swiper-active-switch {
+            background: #e80606;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <!-- <a class="topimg" href='http://www.gov.cn/zhuanti/zggcddescqgdbdh/index.htm' target="_blank" style='display:block;width:100%;height:100px;overflow: hidden;background: url("${prefix("images/index/top.jpg")}") center top no-repeat;'></a> -->
+    <!-- 包含页头 -->
+    <div style='position: relative;'>
+        
+
+<style>
+ .header .head_search input{padding-left:15px;}
+ #advance{
+  display:block;cursor:pointer;width:36px;height:36px;border-radius:18px;background:#d9d9d9;color:#fff;font-size:16px;position:absolute;top:5px;left:4px;text-align:center;line-height:36px;
+}
+</style>
+
+<div class="header">
+    <div class="head_left fl">
+        <a href="https://chinajob.mohrss.gov.cn/">
+            <img src="/images/index/logo.png" alt="">
+        </a>
+    </div>
+    <!-- 头部添加结束 -->
+    <div class="head_right fl">
+        <div class="head_right_info clearfix">
+            <div class="head_right_info_left fl">
+                <a class="fl mr60">
+                    <div class="fl font14 head_info_tel">010--84661166（编辑部）</div>
+                </a>
+                <a href="mailto:jywzbgs@mohrss.gov.cn" class="fl">
+                    <div class="fl font14 head_info_email">jywzbgs@mohrss.gov.cn</div>
+                </a>
+            </div>
+            <div class="head_right_info_right fr">
+                <a href="#" class="head_register fl member-register hide">
+                    注册
+                </a>
+                <a href="#" class="fl member-login hide">
+                    登录
+                </a>
+                <div class="login_info hide clearfix">
+                	<a class="font14 clearfix" href="javascript:;">
+                		<img class="fl" style="margin-top:18px;" src="/images/header/login_logo1.png" alt="" />
+                		<img class="fl hover" style="margin-top:18px;" src="/images/header/login_logo2.png" alt="" />
+                		<span class="fl member-username"></span>
+                	</a>
+                	<ul class="login_info_list">
+                		<li><a href="https://chinajob.mohrss.gov.cn/zcms/member/info?SiteID=1" target="_blank">个人中心</a></li>
+                		<li><a href="https://chinajob.mohrss.gov.cn/zcms/ask/myaskcenter?SiteID=1" target="_blank">我的问答</a></li>
+                		<li><a href="https://chinajob.mohrss.gov.cn/zcms/member/favorites?Type=Content&amp;Current=MemberFavorites&amp;SiteID=1" target="_blank">我的收藏</a></li>
+                		<li class="last"><a class="member-logout" href="">退出登录</a></li>
+                	</ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="head_right_banner">
+            <ul class="fl font16">
+                <li class="fl" id="home">
+                    <a href="https://chinajob.mohrss.gov.cn/">
+                        <img src="/images/header/head_logo3.png" alt="">
+                    </a>
+                </li>
+                
+		        	
+		        		<li class="fl">
+							
+							
+								
+								
+									<a>资讯频道</a>
+									<ul class="head_banner_hov">
+										
+										
+											
+												<li>
+													<a href="/zxpd/szyw/" target="_blank">时政要闻</a>
+												</li>
+												<li>
+													<a href="/zxpd/zyxw/" target="_blank">重要新闻</a>
+												</li>
+												<li>
+													<a href="/zxpd/zxdt/" target="_blank">中心工作</a>
+												</li>
+												<li>
+													<a href="/zxpd/ztzx/" target="_blank">专题资讯</a>
+												</li>
+												<li>
+													<a href="/zxpd/gjdt/" target="_blank">国际动态</a>
+												</li>
+												<li>
+													<a href="/zxpd/wqlb/" target="_blank">往期轮播</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+		        		<li class="fl">
+							
+							
+								
+								
+									<a>业务频道</a>
+									<ul class="head_banner_hov">
+										
+											
+												<li>
+													<a href="/zbzl/" target="_blank">专版专栏</a>
+												</li>
+											
+										
+										
+											
+												<li>
+													<a href="/ywpd/jyfw/" target="_blank">就业服务</a>
+												</li>
+												<li>
+													<a href="/hlwcyfw/" target="_blank">创业服务</a>
+												</li>
+												<li>
+													<a href="/ywpd/pxjd/" target="_blank">培训鉴定</a>
+												</li>
+												<li>
+													<a href="/ywpd/ldgx/" target="_blank">劳动关系</a>
+												</li>
+												<li>
+													<a href="/ywpd/shbz/" target="_blank">社会保障</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+		        		<li class="fl">
+							
+							
+								
+									<a>工作平台</a>
+									<ul class="head_banner_hov">
+										<li>
+											<a href="http://chinajob.mohrss.gov.cn/zy/#/" target="_blank">职业数字展馆</a>
+										</li>
+										
+											<li>
+												<a href="http://jc.mohrss.gov.cn" target="_blank">就创平台</a>
+											</li>
+										
+										
+											<li>
+												<a href="http://xzy.mohrss.gov.cn" target="_blank">新职业平台</a>
+											</li>
+										
+										<!--<cms:catalog alias="bmfw_zyzjglxt">
+											<li>
+												<a href="${Catalog.Link}" target="_blank">${Catalog.Name}</a>
+											</li>
+										</cms:catalog>-->
+
+										<li>
+											<a href="https://chinajob.mohrss.gov.cn/lwpp/" target="_blank">劳务品牌数字服务平台</a>
+										</li>
+                                      <li>
+                                        <a href="http://chinajob.mohrss.gov.cn/ycpx" target="_blank">线上平台征集<br/>管理调度系统</a>
+										</li>
+									</ul>
+								
+								
+							
+						</li>
+		        		<li class="fl">
+							
+								<a href="/zcfg/zxzc/" target="_blank">政策法规</a>
+							
+							
+						</li>
+		        		<li class="fl">
+							
+							
+								
+								
+									<a>数据频道</a>
+									<ul class="head_banner_hov">
+										
+										
+											
+												<li>
+													<a href="/sjpd/jdfbh/" target="_blank">季度发布会</a>
+												</li>
+												<li>
+													<a href="/sjpd/dqzypx/" target="_blank">短缺职业排行</a>
+												</li>
+												<li>
+													<a href="/sjpd/gzsj/" target="_blank">工资数据</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+		        		<li class="fl">
+							
+							
+								
+								
+									<a>便民服务</a>
+									<ul class="head_banner_hov">
+										
+										
+											
+												<li>
+													<a href="/bmfw/ytzx/" target="_blank">一图知晓</a>
+												</li>
+												<li>
+													<a href="/bmfw/hdjl/" target="_blank">互动交流</a>
+												</li>
+												<li>
+													<a href="/bmfw/wsbl/" target="_blank">快捷查询</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+		        		<li class="fl">
+							
+								<a href="/gywm/" target="_blank">关于我们</a>
+							
+							
+						</li>
+                
+            </ul>
+            <div class="head_search fr search">
+                <input type="text" class="search-query">
+               	<a type="button" class="search-submit searchBtn"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+<!-- scrollBar滚动上部固定栏	 -->
+<div class="scrollBar">
+	<div class="scrollBar_con clearfix">
+		<a href="https://chinajob.mohrss.gov.cn/" class="fl">
+			<img src="/images/index/logo.png" alt="" />
+		</a>
+		<div class="head_right_banner">
+			<ul class="fl font16">
+	            
+			       	
+						<li class="fl">
+							
+							
+								
+								
+									<a>资讯频道</a>
+									<ul class="head_banner_hov">
+										
+										
+											
+												<li>
+													<a href="/zxpd/szyw/" target="_blank">时政要闻</a>
+												</li>
+												<li>
+													<a href="/zxpd/zyxw/" target="_blank">重要新闻</a>
+												</li>
+												<li>
+													<a href="/zxpd/zxdt/" target="_blank">中心工作</a>
+												</li>
+												<li>
+													<a href="/zxpd/ztzx/" target="_blank">专题资讯</a>
+												</li>
+												<li>
+													<a href="/zxpd/gjdt/" target="_blank">国际动态</a>
+												</li>
+												<li>
+													<a href="/zxpd/wqlb/" target="_blank">往期轮播</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+						<li class="fl">
+							
+							
+								
+								
+									<a>业务频道</a>
+									<ul class="head_banner_hov">
+										
+											
+												<li>
+													<a href="/zbzl/" target="_blank">专版专栏</a>
+												</li>
+											
+										
+										
+											
+												<li>
+													<a href="/ywpd/jyfw/" target="_blank">就业服务</a>
+												</li>
+												<li>
+													<a href="/hlwcyfw/" target="_blank">创业服务</a>
+												</li>
+												<li>
+													<a href="/ywpd/pxjd/" target="_blank">培训鉴定</a>
+												</li>
+												<li>
+													<a href="/ywpd/ldgx/" target="_blank">劳动关系</a>
+												</li>
+												<li>
+													<a href="/ywpd/shbz/" target="_blank">社会保障</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+						<li class="fl">
+							
+							
+								
+									<a>工作平台</a>
+									<ul class="head_banner_hov">
+										<li>
+											<a href="http://chinajob.mohrss.gov.cn/zy/#/" target="_blank">职业数字展馆</a>
+										</li>
+										
+											<li>
+												<a href="http://jc.mohrss.gov.cn" target="_blank">就创平台</a>
+											</li>
+										
+										
+											<li>
+												<a href="http://xzy.mohrss.gov.cn" target="_blank">新职业平台</a>
+											</li>
+										
+										<!--<cms:catalog alias="bmfw_zyzjglxt">
+											<li>
+												<a href="${Catalog.Link}" target="_blank">${Catalog.Name}</a>
+											</li>
+										</cms:catalog>-->
+
+										<li>
+											<a href="https://chinajob.mohrss.gov.cn/lwpp/" target="_blank">劳务品牌数字服务平台</a>
+										</li>
+										<li>
+											<a href="http://chinajob.mohrss.gov.cn/ycpx" target="_blank">线上平台征集<br />管理调度系统</a>
+										</li>
+									</ul>
+								
+								
+							
+						</li>
+						<li class="fl">
+							
+								<a href="/zcfg/zxzc/" target="_blank">政策法规</a>
+							
+							
+						</li>
+						<li class="fl">
+							
+							
+								
+								
+									<a>数据频道</a>
+									<ul class="head_banner_hov">
+										
+										
+											
+												<li>
+													<a href="/sjpd/jdfbh/" target="_blank">季度发布会</a>
+												</li>
+												<li>
+													<a href="/sjpd/dqzypx/" target="_blank">短缺职业排行</a>
+												</li>
+												<li>
+													<a href="/sjpd/gzsj/" target="_blank">工资数据</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+						<li class="fl">
+							
+							
+								
+								
+									<a>便民服务</a>
+									<ul class="head_banner_hov">
+										
+										
+											
+												<li>
+													<a href="/bmfw/ytzx/" target="_blank">一图知晓</a>
+												</li>
+												<li>
+													<a href="/bmfw/hdjl/" target="_blank">互动交流</a>
+												</li>
+												<li>
+													<a href="/bmfw/wsbl/" target="_blank">快捷查询</a>
+												</li>
+										
+									</ul>
+								
+							
+						</li>
+						<li class="fl">
+							
+								<a href="/gywm/" target="_blank">关于我们</a>
+							
+							
+						</li>
+                
+            </ul>
+		</div>
+		<img src="/images/index/logo_03.png" alt="" class="fr splogo" style="width:100px;margin-top:12px">
+    	<!-- <div class="head_right_info_right fr">
+             <a href="#" class="head_register fl member-register">
+                 	注册
+             </a>
+             <a href="#" class="fl member-login">
+                 	登录
+             </a>
+             <div class="login_info hide clearfix">
+               	<a class="font14 clearfix" href="javascript:;">
+               		<img class="fl" style="margin-top:18px;" src="${prefix("images/header/login_logo1.png")}" alt="" />
+               		<img class="fl hover" style="margin-top:18px;" src="${prefix("images/header/login_logo2.png")}" alt="" />
+               		<span class="fl member-username"></span>
+               	</a>
+               	<ul class="login_info_list">
+               		<li><a href="${FrontAppContext + 'member/info?SiteID=' + Site.ID}" target="_blank">个人中心</a></li>
+               		<li><a href="${FrontAppContext + 'ask/myaskcenter?SiteID=' + Site.ID}" target="_blank">我的问答</a></li>
+               		<li><a href="${FrontAppContext + 'member/favorites?Type=Content&Current=MemberFavorites&SiteID=' + Site.ID}" target="_blank">我的收藏</a></li>
+               		<li class="last"><a class="member-logout" href="">退出登录</a></li>
+               	</ul>
+               </div>
+         </div>-->
+	</div>
+</div>
+<script>
+$(function () {
+	$(window).scroll(function () {
+		if ($(window).scrollTop() >= 150) {
+			$('.scrollBar').fadeIn(500);
+		}else{
+			$('.scrollBar').fadeOut(200);
+		}
+	})
+
+})
+</script>
+
+    </div>
+    <!-- 内容 -->
+    <span id='apjs_13'></span><script language='javascript' src='/upload/js/sytg/13.js'></script>
+    <div class="index_content">
+        <div class="banner">
+            <div class="index-swiper-container">
+                <div class="mask_left"></div>
+                <div class="mask_right"></div>
+                <div class="swiper-wrapper">
+                    
+                        
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202610/t20261010_589952.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/10/10/515913_1200x260c.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261010_590049.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/10/10/515914_1200x260c.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261008_585194.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/10/09/515911_1200x260c.png" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260907_583433.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/09/18/515900_1200x260c.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260909_583608.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/09/10/515891_1200x260c.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260901_583112.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/09/03/515869_1200x260c.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202607/t20260703_579462.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/07/03/515662_1200x260c.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://chinajob.mohrss.gov.cn/c/2026-01-15/482034.shtml" title="" target="_blank"><img
+                                        src="/upload/resources/image/2026/01/15/514335_1200x260c.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202505/t20250523_542501.html" title="" target="_blank"><img
+                                        src="/upload/resources/image/2025/06/20/512916_1200x260c.jpg" /></a>
+                            </div>
+                    
+                </div>
+                <ul class="pagination">
+                </ul>
+                <div class="swiper-button-prev swiper-button-white prevbanner"></div>
+                <div class="swiper-button-next swiper-button-white nextbanner"></div>
+            </div>
+        </div>
+        <div class="index_content_con">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 pr10 col-xs-12">
+                        <div class="index_news">
+                            <div class="index_news_tit fl">
+                                
+                                    
+                                        <div class="index_news_tit_tit selected">
+                                            <a href="/zxpd/szyw/" target="_blank">时政要闻</a>
+                                        </div>
+                                        <div class="index_news_tit_tit ">
+                                            <a href="/zxpd/zyxw/" target="_blank">重要新闻</a>
+                                        </div>
+                                        <div class="index_news_tit_tit ">
+                                            <a href="/zxpd/zxdt/" target="_blank">中心工作</a>
+                                        </div>
+                                        <div class="index_news_tit_tit ">
+                                            <a href="/zxpd/ztzx/" target="_blank">专题资讯</a>
+                                        </div>
+                                        <div class="index_news_tit_tit ">
+                                            <a href="/zxpd/gjdt/" target="_blank">国际动态</a>
+                                        </div>
+                                        <div class="index_news_tit_tit ">
+                                            <a href="/zxpd/wqlb/" target="_blank">往期轮播</a>
+                                        </div>
+                                
+                            </div>
+                            <div class="index_news_con fl">
+                                <div class="index_news_con_con showheight">
+                                    <div class="index_news_con_scroll clearfix zxpd_szyw">
+                                        <div class="zyxw-swiper-container fl">
+                                            <div class="swiper-wrapper">
+                                                
+                                                    
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202610/t20261001_584967.html" title="庆祝中华人民共和国成立77周年招待会在京举行&#32;习近平发表重要讲话"
+                                                                target="_blank"><img width="320" height="205"
+                                                                    src="/upload/resources/image/2026/10/08/515910_320x205c.jpg" /></a>
+                                                        </div>
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260914_583872.html" title="习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话"
+                                                                target="_blank"><img width="320" height="205"
+                                                                    src="/upload/resources/image/2026/09/15/515894_320x205c.jpg" /></a>
+                                                        </div>
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260914_583871.html" title="习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
+                                                                target="_blank"><img width="320" height="205"
+                                                                    src="/upload/resources/image/2026/09/15/515893_320x205c.jpg" /></a>
+                                                        </div>
+                                                
+                                            </div>
+                                            <ul class="zyxw_pagination">
+                                            </ul>
+                                        </div>
+                                        
+                                            
+                                                <div class="index_news_con_scroll_con fl show">
+                                                    <h4><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202610/t20261001_584967.html" target="_blank"
+                                                            title="庆祝中华人民共和国成立77周年招待会在京举行&#32;习近平发表重要讲话">庆祝中华人民共和国成立77周年招待会在京举行&#32;习近平发表重要讲...</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：人力资源和社会保障部</span>2026-10-08
+                                                    </p>
+                                                    <div class="font12">
+                                                        <span>2026-10-08</span>人力资源和社会保障部
+                                                    </div>
+                                                    <hr />
+                                                    <p style="height:69px;" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202610/t20261001_584967.html" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                                <div class="index_news_con_scroll_con fl ">
+                                                    <h4><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260914_583872.html" target="_blank"
+                                                            title="习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话">习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲...</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：人力资源和社会保障部</span>2026-09-15
+                                                    </p>
+                                                    <div class="font12">
+                                                        <span>2026-09-15</span>人力资源和社会保障部
+                                                    </div>
+                                                    <hr />
+                                                    <p style="height:69px;" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260914_583872.html" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                                <div class="index_news_con_scroll_con fl ">
+                                                    <h4><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260914_583871.html" target="_blank"
+                                                            title="习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话">习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲...</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：人力资源和社会保障部</span>2026-09-15
+                                                    </p>
+                                                    <div class="font12">
+                                                        <span>2026-09-15</span>人力资源和社会保障部
+                                                    </div>
+                                                    <hr />
+                                                    <p style="height:69px;" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260914_583871.html" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                        
+                                    </div>
+                                    <div class="index_news_con_list">
+                                        <ul class="index_news_con_list_con font16">
+                                            
+                                                
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202610/t20261010_589952.html" title="中共中央&#32;国务院关于发展新质生产力的意见" class="fl"
+                                                            target="_blank">中共中央&#32;国务院关于发展新质生产力的意见</a>
+                                                        <span class="fr">10-10</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260930_584938.html" title="烈士纪念日向人民英雄敬献花篮仪式在京隆重举行&#32;&#32;&#32;习近平等党和国家领导人出席" class="fl"
+                                                            target="_blank">烈士纪念日向人民英雄敬献花篮仪式在京隆重举行&#32;&#32;&#32;习近平等党和...</a>
+                                                        <span class="fr">10-08</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260930_584936.html" title="《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》" class="fl"
+                                                            target="_blank">《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜...</a>
+                                                        <span class="fr">10-08</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/shizhengyaowen/202609/t20260930_584935.html" title="习近平同文莱苏丹哈桑纳尔就中文建交35周年互致贺电" class="fl"
+                                                            target="_blank">习近平同文莱苏丹哈桑纳尔就中文建交35周年互致贺电</a>
+                                                        <span class="fr">10-08</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7082362.htm" title="中共中央办公厅&#32;国务院办公厅印发《文化遗产保护传承“十五五”规划》" class="fl"
+                                                            target="_blank">中共中央办公厅&#32;国务院办公厅印发《文化遗产保护传承“十五五”...</a>
+                                                        <span class="fr">10-08</span>
+                                                    </li>
+                                            
+                                            <hr />
+                                            <p class="font12">
+                                                
+                                                    
+                                                        <a href="/zxpd/szyw/" target="_blank">了解更多 ></a>
+                                                
+                                            </p>
+                                    </div>
+                                </div>
+                                <div class="index_news_con_con">
+                                    <div class="index_news_con_scroll clearfix zxpd_zyxw">
+                                        <div class="gzdt-swiper-container fl">
+                                            <div class="swiper-wrapper">
+                                                
+                                                    
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260907_583433.html" title="技能改变世界&#32;技能照亮前程——第48届世界技能大赛"
+                                                                target="_blank"><img width="320" height="205"
+                                                                    src="/upload/resources/image/2026/09/18/515899_320x205c.jpg" /></a>
+                                                        </div>
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/hyhd/202607/t20260715_580301.html" title="人力资源社会保障部邀请“七一勋章”获得者马善祥作专题报告"
+                                                                target="_blank"><img width="320" height="205"
+                                                                    src="/upload/resources/image/2026/07/16/515722_320x205c.png" /></a>
+                                                        </div>
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202606/t20260612_578198.html" title="国新办举行第48届世界技能大赛筹办情况新闻发布会"
+                                                                target="_blank"><img width="320" height="205"
+                                                                    src="/upload/resources/image/2026/06/15/515609_320x205c.jpg" /></a>
+                                                        </div>
+                                                
+                                            </div>
+                                            <ul class="gzdt_pagination">
+                                            </ul>
+                                        </div>
+                                        
+                                            
+                                                <div class="index_news_con_scroll_con fl show">
+                                                    <h4><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260907_583433.html" target="_blank"
+                                                            title="技能改变世界&#32;技能照亮前程——第48届世界技能大赛">技能改变世界&#32;技能照亮前程——第48届世界技能大赛</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：人力资源和社会保障部</span>2026-09-14
+                                                    </p>
+                                                    <hr />
+                                                    <p style="height:69px;" title="" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202609/t20260907_583433.html" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                                <div class="index_news_con_scroll_con fl ">
+                                                    <h4><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/hyhd/202607/t20260715_580301.html" target="_blank"
+                                                            title="人力资源社会保障部邀请“七一勋章”获得者马善祥作专题报告">人力资源社会保障部邀请“七一勋章”获得者马善祥作专题报告</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：人力资源和社会保障部</span>2026-07-16
+                                                    </p>
+                                                    <hr />
+                                                    <p style="height:69px;" title="" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/hyhd/202607/t20260715_580301.html" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                                <div class="index_news_con_scroll_con fl ">
+                                                    <h4><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202606/t20260612_578198.html" target="_blank"
+                                                            title="国新办举行第48届世界技能大赛筹办情况新闻发布会">国新办举行第48届世界技能大赛筹办情况新闻发布会</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：人力资源和社会保障部</span>2026-06-15
+                                                    </p>
+                                                    <hr />
+                                                    <p style="height:69px;" title="" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202606/t20260612_578198.html" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                        
+                                    </div>
+                                    <div class="index_news_con_list">
+                                        <ul class="index_news_con_list_con font16">
+                                            
+                                                
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261010_590049.html" title="“十五五”时期推进就业和社会保障高质量发展" class="fl"
+                                                            target="_blank">“十五五”时期推进就业和社会保障高质量发展</a>
+                                                        <span class="fr">10-10</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://mp.weixin.qq.com/s/SnhCQJUHoruMCbuU88kmew" title="社保卡丢失了如何补办，1分钟看懂" class="fl"
+                                                            target="_blank">社保卡丢失了如何补办，1分钟看懂</a>
+                                                        <span class="fr">10-10</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261009_588005.html" title="促进新就业形态规范健康持续发展——《新就业形态劳动者权益保障办法（征求意见稿）》发布" class="fl"
+                                                            target="_blank">促进新就业形态规范健康持续发展——《新就业形态劳动者权益保障...</a>
+                                                        <span class="fr">10-10</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261009_587984.html" title="新就业形态劳动者权益保障新规回应哪些关切" class="fl"
+                                                            target="_blank">新就业形态劳动者权益保障新规回应哪些关切</a>
+                                                        <span class="fr">10-10</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261009_587168.html" title="电子劳动合同如何订立？一文讲清" class="fl"
+                                                            target="_blank">电子劳动合同如何订立？一文讲清</a>
+                                                        <span class="fr">10-10</span>
+                                                    </li>
+                                            
+                                            <hr />
+                                            <p class="font12">
+                                                
+                                                    
+                                                        <a href="/zxpd/zyxw/" target="_blank">了解更多 ></a>
+                                                
+                                            </p>
+                                    </div>
+                                </div>
+                                <div class="index_news_con_con">
+                                    <div class="index_news_con_scroll clearfix zxpd_zxdt">
+                                        <div class="zxdt-swiper-container fl">
+                                            <div class="swiper-wrapper">
+                                                
+                                                    
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="/c/2025-10-20/455994.shtml" title="2025年“贷你创业”助力行动（江西上饶站）在上饶成功举办"
+                                                                target="_blank">
+                                                                <img width="320" height="205"
+                                                                    src="/upload/resources/image/2025/10/20/513515_320x205c.png" />
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://mp.weixin.qq.com/s/3LvsJrKOJthtK_2qnqFRNQ" title="关于联合开展职业数字展馆建设的通知"
+                                                                target="_blank">
+                                                                <img width="320" height="205"
+                                                                    src="/upload/resources/image/2024/11/18/510320_320x205c.jpg" />
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="swiper-slide">
+                                                            <a href="https://mp.weixin.qq.com/s/H9zLi27GUDuDdNYelX83Qw" title="直播带岗工作座谈会在广西来宾召开"
+                                                                target="_blank">
+                                                                <img width="320" height="205"
+                                                                    src="/upload/resources/image/2024/11/18/510315_320x205c.jpg" />
+                                                            </a>
+                                                        </div>
+                                                
+                                            </div>
+                                            <ul class="zxdt_pagination">
+                                            </ul>
+                                        </div>
+                                        
+                                            
+                                                <div class="index_news_con_scroll_con fl show">
+                                                    <h4><a href="/c/2025-10-20/455994.shtml" target="_blank"
+                                                            title="2025年“贷你创业”助力行动（江西上饶站）在上饶成功举办">2025年“贷你创业”助力行动（江西上饶站）在上饶成功举办</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：​中国就业培训技术指导中心</span>2025-10-20
+                                                    </p>
+                                                    <hr />
+                                                    <p style="height:69px;" title="&lt;p&#32;style=&quot;text-align:&#32;justify;&#32;text-indent:&#32;2em;&quot;&gt;9月25日-26日，由中国就业培训技术指导中心、江西省人力资源和社会保障厅、上饶市人民政府共同主办，江西省就业创业服务中心承办，上饶市人力资源和社会保障局协办的2025年“贷你创业”助力行动（江西上饶站）成功举办。来自多个省（市、自治区）人社部门创业工作负责同志，创业指导专家、光学和精密加工技术指导专家，江西省各设区市、上饶市各县（市、区）人社系统相关负责同志，以及上饶市民宿、光学、精密加工产业创业代表等200余人参加活动。&lt;/p&gt;&lt;p&#32;style=&quot;text-align:&#32;justify;&#32;text-indent:&#32;2em;&quot;&gt;本次活动以“‘创’出新天地&#32;‘贷’动大就业”为主题，着力推进创业模式引领，聚焦上饶市民宿、光学、精密加工等3个地方特色重点产业，通过创业知识讲座、创业导师实地指导、技术专家实地指导、创业项目交流和创业金融对接等方式，为上饶市创业者搭建交流学习的平台，帮助创业者提升创业技能，促进创业资源与地方产业深度对接。活动期间还组织创业导师赴实地指导上饶市“低成本创业”和民宿行业发展等环节。&lt;/p&gt;&lt;p&#32;style=&quot;text-align:&#32;center;&quot;&gt;&lt;a&#32;href=&quot;/upload/resources/image/2025/10/20/513514.png&quot;&#32;target=&quot;_blank&quot;&gt;&lt;img&#32;src=&quot;/upload/resources/image/2025/10/20/513514_500x500.png&quot;&#32;title=&quot;图片1&quot;&#32;alt=&quot;图片1&quot;&#32;suffix=&quot;png&quot;&#32;style=&quot;max-width:&#32;100%;&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&#32;style=&quot;text-align:&#32;center;&quot;&gt;&lt;span&#32;style=&quot;text-align:&#32;justify;&#32;text-indent:&#32;2em;&#32;font-family:&#32;inherit;&quot;&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;" class="font14">
+                                                        9月25日-26日，由中国就业培训技术指导中心、江西省人力资源和社会保障厅、上饶市人民政府共同主办，江西省就业创业服务中心承办，上饶市人力资源和社会保障局协办的2025年“贷你创业...</p>
+                                                    <p class="font14"><a href="/c/2025-10-20/455994.shtml" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                                <div class="index_news_con_scroll_con fl ">
+                                                    <h4><a href="https://mp.weixin.qq.com/s/3LvsJrKOJthtK_2qnqFRNQ" target="_blank"
+                                                            title="关于联合开展职业数字展馆建设的通知">关于联合开展职业数字展馆建设的通知</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：中国就业创业微信公众号</span>2024-11-18
+                                                    </p>
+                                                    <hr />
+                                                    <p style="height:69px;" title="" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://mp.weixin.qq.com/s/3LvsJrKOJthtK_2qnqFRNQ" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                                <div class="index_news_con_scroll_con fl ">
+                                                    <h4><a href="https://mp.weixin.qq.com/s/H9zLi27GUDuDdNYelX83Qw" target="_blank"
+                                                            title="直播带岗工作座谈会在广西来宾召开">直播带岗工作座谈会在广西来宾召开</a>
+                                                    </h4>
+                                                    <p class="font12">
+                                                        <span>来源：中国就业创业微信公众号</span>2024-10-29
+                                                    </p>
+                                                    <hr />
+                                                    <p style="height:69px;" title="" class="font14">
+                                                        </p>
+                                                    <p class="font14"><a href="https://mp.weixin.qq.com/s/H9zLi27GUDuDdNYelX83Qw" target="_blank">阅读原文
+                                                            ></a></p>
+                                                </div>
+                                        
+                                    </div>
+                                    <div class="index_news_con_list">
+                                        <ul class="index_news_con_list_con font16">
+                                            
+                                                
+                                                    <li class="clearfix">
+                                                        <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/zwgk/gggs/tg/202607/t20260702_579418.html" title="关于对拟发布船舶岸基管理工程技术人员等职业信息进行公示的公告" class="fl"
+                                                            target="_blank">关于对拟发布船舶岸基管理工程技术人员等职业信息进行公示...</a>
+                                                        <span class="fr">07-07</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="/c/2026-07-02/567276.shtml" title="就业指导进校园" class="fl"
+                                                            target="_blank">就业指导进校园</a>
+                                                        <span class="fr">07-02</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="/c/2026-06-29/565228.shtml" title="关于公开征求《直播带岗服务规范》行业标准意见的公示" class="fl"
+                                                            target="_blank">关于公开征求《直播带岗服务规范》行业标准意见的公示</a>
+                                                        <span class="fr">06-29</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="/c/2026-05-22/546304.shtml" title="关于参与青年群体康养领域就业创业能力提升项目的函" class="fl"
+                                                            target="_blank">关于参与青年群体康养领域就业创业能力提升项目的函</a>
+                                                        <span class="fr">05-22</span>
+                                                    </li>
+                                                    <li class="clearfix">
+                                                        <a href="/c/2026-05-19/544526.shtml" title="关于印发第四届公共就业服务专项业务竞赛全国赛技术文件的通知" class="fl"
+                                                            target="_blank">关于印发第四届公共就业服务专项业务竞赛全国赛技术文件的...</a>
+                                                        <span class="fr">05-19</span>
+                                                    </li>
+                                            
+                                        </ul>
+                                        <hr />
+                                        <p class="font12">
+                                            
+                                                
+                                                    <a href="/zxpd/zxdt/" target="_blank">了解更多 ></a>
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pl10">
+                        <div class="index_policy newcss">
+                            <div class="index_policy_tit clearfix">
+                                
+                                    <div class="index_policy_tit_tit selected col-md-6"><a
+                                            href="/zxpd/ztzx/">专题资讯</a></div>
+                                
+                            </div>
+                            <div class="index_policy_con">
+                                <div class="index_policy_con_con show">
+                                    <ul class="">
+                                        
+                                            
+                                                <li>
+                                                    <a href="/c/2024-06-06/407782.shtml" target="_blank" title="深入学习贯彻习近平总书记在中共中央政治局第十四次集体学习时的重要讲话精神">
+                                                        <img src="/upload/resources/image/2024/06/04/508175_500x200c.png" alt="">
+                                                        <div class="elli2 name">深入学习贯彻习近平总书记在中共中央政治局第十四次集体学习时的重要讲话精神</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/c/2026-08-06/583500.shtml" target="_blank" title="《人力资源和社会保障事业发展“十五五”规划》系列解读">
+                                                        <img src="/upload/resources/image/2026/08/07/515804_500x200c.jpg" alt="">
+                                                        <div class="elli2 name">《人力资源和社会保障事业发展“十五五”规划》系列解读</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/c/2026-03-12/509949.shtml" target="_blank" title="人工智能+就业服务探索">
+                                                        <img src="/upload/resources/image/2026/03/12/515245_500x200c.jpg" alt="">
+                                                        <div class="elli2 name">人工智能+就业服务探索</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/c/2021-06-04/308283.shtml" target="_blank" title="【人社日课】每天分享一条人社实用小知识">
+                                                        <img src="/upload/resources/image/2024/05/31/508059_500x200c.png" alt="">
+                                                        <div class="elli2 name">【人社日课】每天分享一条人社实用小知识</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/c/2024-02-08/397236.shtml" target="_blank" title="【月·读】2026年人社大事，你想知道的都在这里！">
+                                                        <img src="/upload/resources/image/2024/06/04/508154_500x200c.png" alt="">
+                                                        <div class="elli2 name">【月·读】2026年人社大事，你想知道的都在这里！</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/c/2025-12-15/470675.shtml" target="_blank" title="新职业炫季">
+                                                        <img src="/upload/resources/image/2025/12/15/513870_500x200c.jpeg" alt="">
+                                                        <div class="elli2 name">新职业炫季</div>
+                                                    </a>
+                                                </li>
+                                        
+                                    </ul>
+                                    <hr />
+                                    <p class="font12">
+                                        
+                                            <a href="/zxpd/ztzx/" target="_blank">了解更多 ></a>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ad mt20">
+                    <span id='apjs_16'></span><script language='javascript' src='/upload/js/syzyszzg/16.js'></script>
+                </div>
+                <div class="ad mt20">
+                    <span id='apjs_18'></span><script language='javascript' src='/upload/js/sylwpppt/18.js'></script>
+                </div>
+                <div class="mt20">
+                    <div class="index_special swiper-container">
+                        <div class='swiper-wrapper'>
+                            <!-- <cms:catalog alias="zbzl_qtzb" level="Child" begin='3' count='1'>
+                                <z:list>
+                                    <div class="index_special_list swiper-slide">
+                                        <a href="${Catalog.Link}" title="${Catalog.Name}" target="_blank">
+                                            <img src="${prefix("images/index/index_special3.jpg")}" alt="${Catalog.Name}" />
+                                            <div class="index_special_list_po">
+                                                <h4 class="h4_ba3">专版专栏</h4>
+                                                <h2>${Catalog.Name}</h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </z:list>
+                            </cms:catalog> -->
+                            
+                                
+                                    <div class="index_special_list swiper-slide">
+                                        <a href="/ywpd/pxjd/rmzt/cypx/" title="创业培训" target="_blank">
+                                            <img src="/images/index/index_special6.jpg" alt="创业培训" />
+                                            <!-- <div class="index_special_list_po">
+                                            <h4 class="h4_ba${i}">专版专栏</h4>
+                                            <h2>${Catalog.Name}</h2>
+                                        </div> -->
+                                        </a>
+                                    </div>
+                            
+                            
+                                <div class="index_special_list swiper-slide">
+                                    <a href="/ywpd/pxjd/rmzt/jgyxgxythjspy/" title="技工院校工学一体化教师培养" target="_blank">
+                                        <img src="/images/newpage/gxyth.png" alt="技工院校工学一体化教师培养" />
+                                    </a>
+                                </div>
+                            
+                            
+                                <div class="index_special_list swiper-slide">
+                                    <a href="/zbzl/qznlsxgz/" title="求职能力实训工作" target="_blank">
+                                        <img src="/images/index/index_special002.jpg" alt="求职能力实训工作" />
+                                    </a>
+                                </div>
+                            
+                            
+                                <div class="index_special_list swiper-slide">
+                                    <a href="/zbzl/ggjyfwzxywjs/" title="公共就业服务专项业务竞赛" target="_blank">
+                                        <img src="/images/index/index_special001.jpg" alt="公共就业服务专项业务竞赛" />
+                                    </a>
+                                </div>
+                            
+                            
+                                
+                                    <div class="index_special_list swiper-slide">
+                                        <a href="https://www.osta.org.cn/skillStandard" title="职业技能标准" target="_blank">
+                                            <img src="/images/index/index_special7.jpg" alt="职业技能标准" />
+                                            <!-- <div class="index_special_list_po">
+                                            <h4 class="h4_ba${i}">专版专栏</h4>
+                                            <h2>${Catalog.Name}</h2>
+                                        </div> -->
+                                        </a>
+                                    </div>
+                            
+                            
+                                
+                                    <div class="index_special_list swiper-slide">
+                                        <a href="/ywpd/pxjd/rmzt/jnzgx/" title="技能中国行" target="_blank">
+                                            <img src="/images/index/index_special8.jpg" alt="技能中国行" />
+                                            <!-- <div class="index_special_list_po">
+                                                                        <h4 class="h4_ba${i}">专版专栏</h4>
+                                                                        <h2>${Catalog.Name}</h2>
+                                                                    </div> -->
+                                        </a>
+                                    </div>
+                            
+                            
+                                
+                                    <div class="index_special_list swiper-slide">
+                                        <a href="/ywpd/pxjd/rmzt/gjnrcpxbz/" title="高技能人才评选表彰" target="_blank">
+                                            <img src="/images/index/index_special5.jpg" alt="高技能人才评选表彰" />
+                                            <!-- <div class="index_special_list_po">
+                                            <h4 class="h4_ba${i}">专版专栏</h4>
+                                            <h2>${Catalog.Name}</h2>
+                                        </div> -->
+                                        </a>
+                                    </div>
+                            
+                            <!--<cms:catalog alias="zbzl_qtzb" level="Child" count='2'>
+                            <z:list>
+                                <div class="index_special_list swiper-slide">
+                                    <a href="${Catalog.Link}" title="${Catalog.Name}" target="_blank">
+                                        <img src="${prefix("images/index/index_special${i}.jpg")}" alt="${Catalog.Name}" />
+                                        <div class="index_special_list_po">
+                                            <h4 class="h4_ba${i}">专版专栏</h4>
+                                            <h2>${Catalog.Name}</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </z:list>
+                        </cms:catalog>-->
+                            <!-- <cms:catalog alias="zbzl_zdhd_jyfp">
+                            <div class="index_special_list swiper-slide">
+                                <a href="${Catalog.Link}" title="${Catalog.Name}" target="_blank">
+                                    <img src="${prefix("images/index/index_special4.jpg")}" alt="${Catalog.Name}" />
+                                    <div class="index_special_list_po">
+                                        <h4 class="h4_ba4">专版专栏</h4>
+                                        <h2>${Catalog.Name}</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </cms:catalog> -->
+                        </div>
+                        <div class="swiper-button-prev swiper-button-white prevbanner"></div>
+                        <div class="swiper-button-next swiper-button-white nextbanner"></div>
+                        <div class="swiper-pagination special-page"></div>
+                        <div class="more font12 fr">
+                            
+                                <a href="/zbzl/">了解更多></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt20 index_rsgz">
+                    <div class="col-md-8 col-xs-12 pr10">
+                        <div class="index_work">
+                            <div class="clearfix">
+                                <div class="fl">
+                                    
+                                        <h4>
+                                            业务工作
+                                            <a class="hide" href="/ywpd/">了解更多></a>
+                                        </h4>
+                                    
+                                </div>
+                                <div class="fr">
+                                    
+                                        
+                                            <div class="index_work_tit fl selected">
+                                                <a href="/ywpd/jyfw/" target="_blank">就业服务</a>
+                                            </div>
+                                            <div class="index_work_tit fl ">
+                                                <a href="/hlwcyfw/" target="_blank">创业服务</a>
+                                            </div>
+                                            <div class="index_work_tit fl ">
+                                                <a href="/ywpd/pxjd/" target="_blank">培训鉴定</a>
+                                            </div>
+                                            <div class="index_work_tit fl ">
+                                                <a href="/ywpd/ldgx/" target="_blank">劳动关系</a>
+                                            </div>
+                                            <div class="index_work_tit fl ">
+                                                <a href="/ywpd/shbz/" target="_blank">社会保障</a>
+                                            </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="index_work_con">
+                                
+                                    
+                                        <div class="index_work_con_list show">
+                                            <ul>
+                                                
+                                                    
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/614890.shtml" title="江西泰和：创新开展技能培训促就业专场招聘会"
+                                                                class="fl" target="_blank">江西泰和：创新开展技能培训促就业专场招聘会</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/614888.shtml" title="江西瑞昌：返乡启新程&#32;&#32;就业再建功&#32;——精准服务退役军人就业创业"
+                                                                class="fl" target="_blank">江西瑞昌：返乡启新程&#32;&#32;就业再建功&#32;——精准服务退役军人就业创业</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/614886.shtml" title="江苏淮安：淮阴区多措并举精准赋能扎实做好残疾人就业帮扶工作"
+                                                                class="fl" target="_blank">江苏淮安：淮阴区多措并举精准赋能扎实做好残疾人就业帮扶工作</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/614884.shtml" title="江西新余：渝水区靶向发力破解企业用工困局"
+                                                                class="fl" target="_blank">江西新余：渝水区靶向发力破解企业用工困局</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/612548.shtml" title="陕西：西安交大举办秋季双选会&#32;千余家单位提供超十万个岗位"
+                                                                class="fl" target="_blank">陕西：西安交大举办秋季双选会&#32;千余家单位提供超十万个岗位</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/612546.shtml" title="贵州：提供500余个就业岗位！西秀区举办民营企业招聘月专场招聘会"
+                                                                class="fl" target="_blank">贵州：提供500余个就业岗位！西秀区举办民营企业招聘月专场招聘会</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/612544.shtml" title="云南：​退休不褪色&#32;公益护航雪域学子追梦路"
+                                                                class="fl" target="_blank">云南：​退休不褪色&#32;公益护航雪域学子追梦路</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/612543.shtml" title="吉林：助力退役军人就业！金融行业2027届秋季校园招聘活动成功举办"
+                                                                class="fl" target="_blank">吉林：助力退役军人就业！金融行业2027届秋季校园招聘活动成功举办</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                
+                                            </ul>
+                                            <hr>
+                                            <p class="font12">
+                                                <a href="/ywpd/jyfw/" target="_blank">了解更多 ></a>
+                                            </p>
+                                        </div>
+                                        <div class="index_work_con_list ">
+                                            <ul>
+                                                
+                                                    
+                                                
+                                            </ul>
+                                            <hr>
+                                            <p class="font12">
+                                                <a href="/hlwcyfw/" target="_blank">了解更多 ></a>
+                                            </p>
+                                        </div>
+                                        <div class="index_work_con_list ">
+                                            <ul>
+                                                
+                                                    
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/614881.shtml" title="推动更多高技能人才竞相涌现"
+                                                                class="fl" target="_blank">推动更多高技能人才竞相涌现</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/612525.shtml" title="西藏：岗巴贡菊香雪域&#32;合规经营促振兴"
+                                                                class="fl" target="_blank">西藏：岗巴贡菊香雪域&#32;合规经营促振兴</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/611297.shtml" title="湖北随州：技能证书背后的“育才密码”"
+                                                                class="fl" target="_blank">湖北随州：技能证书背后的“育才密码”</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/611284.shtml" title="河南鹤壁：举办教育智能体专题培训&#32;AI赋能课堂&#32;智能助推转型"
+                                                                class="fl" target="_blank">河南鹤壁：举办教育智能体专题培训&#32;AI赋能课堂&#32;智能助推转型</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/611283.shtml" title="湖南嘉禾：百名铸造工匠同台竞技&#32;比拼硬核“工匠精神”"
+                                                                class="fl" target="_blank">湖南嘉禾：百名铸造工匠同台竞技&#32;比拼硬核“工匠精神”</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/611275.shtml" title="吉林敦化：“AI人工智能训练营”在大德创客园火爆“开场”"
+                                                                class="fl" target="_blank">吉林敦化：“AI人工智能训练营”在大德创客园火爆“开场”</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/611274.shtml" title="海南昌江：举办2026年和美乡村村导培训&#32;赋能乡村文旅高质量发展"
+                                                                class="fl" target="_blank">海南昌江：举办2026年和美乡村村导培训&#32;赋能乡村文旅高质量发展</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/612526.shtml" title="宁夏：大武口区“产教评融合+金秋招聘”双引擎驱动促发展"
+                                                                class="fl" target="_blank">宁夏：大武口区“产教评融合+金秋招聘”双引擎驱动促发展</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                
+                                            </ul>
+                                            <hr>
+                                            <p class="font12">
+                                                <a href="/ywpd/pxjd/" target="_blank">了解更多 ></a>
+                                            </p>
+                                        </div>
+                                        <div class="index_work_con_list ">
+                                            <ul>
+                                                
+                                                    
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/611268.shtml" title="江西：惠企政策送上门&#32;精准服务助发展"
+                                                                class="fl" target="_blank">江西：惠企政策送上门&#32;精准服务助发展</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261009_587984.html" title="新就业形态劳动者权益保障新规回应哪些关切"
+                                                                class="fl" target="_blank">新就业形态劳动者权益保障新规回应哪些关切</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261009_588005.html" title="促进新就业形态规范健康持续发展——《新就业形态劳动者权益保障办法（征求意见稿）》发布"
+                                                                class="fl" target="_blank">促进新就业形态规范健康持续发展——《新就业形态劳动者权益保障办法（征求意见稿）》发布</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-09/614859.shtml" title="江苏淮安：淮阴区多措并举做好“国庆节”前安全大检查"
+                                                                class="fl" target="_blank">江苏淮安：淮阴区多措并举做好“国庆节”前安全大检查</a>
+                                                            <span
+                                                                class="fr">10-09</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-09/614857.shtml" title="四川江油：召开三级劳务服务体系建设推进会"
+                                                                class="fl" target="_blank">四川江油：召开三级劳务服务体系建设推进会</a>
+                                                            <span
+                                                                class="fr">10-09</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-09/614855.shtml" title="山东青岛：推行劳动维权“全域通办”"
+                                                                class="fl" target="_blank">山东青岛：推行劳动维权“全域通办”</a>
+                                                            <span
+                                                                class="fr">10-09</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-09/614853.shtml" title="山东济宁：退休“一件事”&#32;解民忧，疑难问题不再难"
+                                                                class="fl" target="_blank">山东济宁：退休“一件事”&#32;解民忧，疑难问题不再难</a>
+                                                            <span
+                                                                class="fr">10-09</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-08/614835.shtml" title="山东青岛：三维发力织密劳动者权益保障网"
+                                                                class="fl" target="_blank">山东青岛：三维发力织密劳动者权益保障网</a>
+                                                            <span
+                                                                class="fr">10-08</span>
+                                                        </li>
+                                                
+                                            </ul>
+                                            <hr>
+                                            <p class="font12">
+                                                <a href="/ywpd/ldgx/" target="_blank">了解更多 ></a>
+                                            </p>
+                                        </div>
+                                        <div class="index_work_con_list ">
+                                            <ul>
+                                                
+                                                    
+                                                        <li class="clearfix">
+                                                            <a href="https://www.mohrss.gov.cn/SYrlzyhshbzb/dongtaixinwen/buneiyaowen/rsxw/202610/t20261010_590049.html" title="“十五五”时期推进就业和社会保障高质量发展"
+                                                                class="fl" target="_blank">“十五五”时期推进就业和社会保障高质量发展</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="https://mp.weixin.qq.com/s/SnhCQJUHoruMCbuU88kmew" title="社保卡丢失了如何补办，1分钟看懂"
+                                                                class="fl" target="_blank">社保卡丢失了如何补办，1分钟看懂</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-10/614892.shtml" title="安徽天长：落好“三步棋”&#32;走好为民路"
+                                                                class="fl" target="_blank">安徽天长：落好“三步棋”&#32;走好为民路</a>
+                                                            <span
+                                                                class="fr">10-10</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-09/611247.shtml" title="内蒙古通辽：政策宣讲零距离&#32;惠民服务暖人心"
+                                                                class="fl" target="_blank">内蒙古通辽：政策宣讲零距离&#32;惠民服务暖人心</a>
+                                                            <span
+                                                                class="fr">10-09</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-09/611255.shtml" title="天津：助孤寡失能老人“老有所依”，社会化监护之路该怎么走"
+                                                                class="fl" target="_blank">天津：助孤寡失能老人“老有所依”，社会化监护之路该怎么走</a>
+                                                            <span
+                                                                class="fr">10-09</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-10-08/614837.shtml" title="山东济宁：靠前服务送政策&#32;织密工伤“防护网”"
+                                                                class="fl" target="_blank">山东济宁：靠前服务送政策&#32;织密工伤“防护网”</a>
+                                                            <span
+                                                                class="fr">10-08</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-09-24/611237.shtml" title="山东济宁：适老服务送上门"
+                                                                class="fl" target="_blank">山东济宁：适老服务送上门</a>
+                                                            <span
+                                                                class="fr">09-24</span>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="/c/2026-09-23/611210.shtml" title="山东济宁：社银携手织密湖区民生服务网"
+                                                                class="fl" target="_blank">山东济宁：社银携手织密湖区民生服务网</a>
+                                                            <span
+                                                                class="fr">09-23</span>
+                                                        </li>
+                                                
+                                            </ul>
+                                            <hr>
+                                            <p class="font12">
+                                                <a href="/ywpd/shbz/" target="_blank">了解更多 ></a>
+                                            </p>
+                                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pr10">
+                        <div class="row index_bar1">
+                            
+                                <div class="col-md-6 mt10">
+                                    <a href="/zbzl/jzlwpp/" target="_blank">
+                                        <h4>家政劳务品牌</h4>
+                                        <img src="/images/index/icon4.png" alt="">
+                                    </a>
+                                </div>
+                            
+                            
+                                <div class="col-md-6 mt10">
+                                    <a href="/sjpd/jdfbh/" target="_blank">
+                                        <h4>季度发布会</h4>
+                                        <img src="/images/index/icon2.png" alt="">
+                                    </a>
+                                </div>
+                            
+                        </div>
+                        <div class="row index_bar2">
+                            
+                                <div class="col-md-6 mt10">
+                                    <a href="/bmfw/ytzx/" target="_blank">
+                                        <h4>一图知晓</h4>
+                                        <img src="/images/index/icon3.png" alt="">
+                                    </a>
+                                </div>
+                            
+                            
+                                <div class="col-md-6 mt10">
+                                    <a href="/bmfw/hdjl/" target="_blank">
+                                        <h4>互动交流</h4>
+                                        <img src="/images/index/icon1.png" alt="">
+                                    </a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="ad mt20">
+                    <span id='apjs_11'></span><script language='javascript' src='/upload/js/sydbgg/11.js'></script>
+                </div>
+                <div class="ad mt20">
+                    <span id='apjs_14'></span><script language='javascript' src='/upload/js/sycyfw/14.js'></script>
+                </div>
+                <div class="newcss index_work mt20">
+                    
+                        <div class="clearfix">
+                            <div class="fl">
+                                <h4>
+                                    就创平台
+                                </h4>
+                            </div>
+                            <div class="fr">
+                                <a href="http://jc.mohrss.gov.cn" class="fr security_more" target="_blank">更多 ></a>
+                            </div>
+                        </div>
+                        <ul class="">
+                            <li>
+                                <a href="http://jc.mohrss.gov.cn" target="_blank" title="养老护理员（中级）课程">
+                                    <img src="/images/newpic/pic1.jpg" alt="">
+                                    <div class="elli2 name">养老护理员（中级）课程</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://jc.mohrss.gov.cn" target="_blank" title="商品营业员五级">
+                                    <img src="/images/newpic/pic2.jpg" alt="">
+                                    <div class="elli2 name">商品营业员五级</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://jc.mohrss.gov.cn" target="_blank" title="家政服务员五级">
+                                    <img src="/images/newpic/pic3.jpg" alt="">
+                                    <div class="elli2 name">家政服务员五级</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://jc.mohrss.gov.cn" target="_blank" title="保安员五级">
+                                    <img src="/images/newpic/pic4.jpg" alt="">
+                                    <div class="elli2 name">保安员五级</div>
+                                </a>
+                            </li>
+                        </ul>
+                    
+                </div>
+                <div class="newcss index_work mt20">
+                    
+                        <div class="clearfix">
+                            <div class="fl">
+                                <h4>
+                                    新职业平台
+                                </h4>
+                            </div>
+                            <div class="fr">
+                                <a href="http://xzy.mohrss.gov.cn" class="fr security_more" target="_blank">更多 ></a>
+                            </div>
+                        </div>
+                        <ul class="">
+                            <li>
+                                <a href="http://xzy.mohrss.gov.cn" target="_blank" title="大数据工程技术人员五级">
+                                    <img src="/images/newpic/pic1.png" alt="">
+                                    <div class="elli2 name">大数据工程技术人员五级</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://xzy.mohrss.gov.cn" target="_blank" title="区块链工程技术人员初级">
+                                    <img src="/images/newpic/pic3.png" alt="">
+                                    <div class="elli2 name">区块链工程技术人员初级</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://xzy.mohrss.gov.cn" target="_blank" title="物联网安装调试员（五级）">
+                                    <img src="/images/newpic/pic4.png" alt="">
+                                    <div class="elli2 name">物联网安装调试员（五级）</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://xzy.mohrss.gov.cn" target="_blank" title="工业机器人系统操作员专业知识提升">
+                                    <img src="/images/newpic/pic2.png" alt="">
+                                    <div class="elli2 name">工业机器人系统操作员专业知识提升</div>
+                                </a>
+                            </li>
+                        </ul>
+                    
+                </div>
+                <div class="row mt20">
+                    <div class="col-md-12 pr10">
+                        <div class="index_work root">
+                            <div class="clearfix">
+                                <div class="fl">
+                                    <h4>
+                                        快捷通道
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class='overflow mb50 channel'>
+                                
+                                    
+                                        <div class="fl col-md-3 col-xs-6 first">
+                                            <a href="https://www.osta.org.cn" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85847.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>职业技能证书查询</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 ">
+                                            <a href="http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/jbgcdianhuazixunfuwu/" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2021/06/07/94000.jpg" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>12333电话咨询服务</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 ">
+                                            <a href="https://www.12333.gov.cn/cas/login?service=https://www.12333.gov.cn/shiro-cas" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85853.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>全国《就业创业证》查询</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 ">
+                                            <a href="http://job.mohrss.gov.cn/jy/index.jhtml" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85851.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>各省公共就业服务平台</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 first">
+                                            <a href="http://pjjg.osta.org.cn/" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85849.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>职业技能等级评价机构公示查询系统</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 ">
+                                            <a href="http://gxzs.osta.org.cn/" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85859.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>计算机信息高新技术考试证书查询</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 ">
+                                            <a href="http://nlzs.osta.org.cn/" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85857.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>能力测评与专项能力证书查询</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 ">
+                                            <a href="http://gjzs.osta.org.cn/" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2020/09/18/85861.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>国外职业资格证书查询</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="fl col-md-3 col-xs-6 first">
+                                            <a href="http://chinajob.mohrss.gov.cn/ycpx" target="_blank">
+                                                <div class="imgbox">
+                                                    <img src="/upload/resources/image/2023/04/14/220664.png" alt="" class='default'>
+                                                </div>
+                                                <div class="title">
+                                                    <span>线上平台及数字资源征集管理调度系统</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 包含页尾 -->
+    
+<div class="footer">
+    <div class="footer_top clearfix font14">
+        <ul>
+        	
+        		
+        			<li class="fl ">
+		                <a href="http://www.mohrss.gov.cn/" target="_blank">人力资源和社会保障部</a>
+		            </li>
+        			<li class="fl ">
+		                <a href="http://job.mohrss.gov.cn/" target="_blank">中国公共招聘网</a>
+		            </li>
+        			<li class="fl ">
+		                <a href="http://worldskillschina.mohrss.gov.cn/" target="_blank">世界技能大赛中国组委会</a>
+		            </li>
+        			<li class="fl ">
+		                <a href="http://www.newjobs.com.cn/" target="_blank">中国国家人才网</a>
+		            </li>
+        			<li class="fl ">
+		                <a href="https://chrm.mohrss.gov.cn/" target="_blank">中国人力资源市场网</a>
+		            </li>
+        			<li class="fl last">
+		                <a href="http://www.osta.org.cn" target="_blank">技能人才评价工作网</a>
+		            </li>
+        	
+            <li class="footer_link fr " >
+                <span>地方链接</span>
+                <ul class="hide hide_list">
+                	
+                		
+                			<li>
+                				<a href="http://rsj.beijing.gov.cn/" target="_blank">北京</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.tj.gov.cn" target="_blank">天津</a>
+                			</li>
+                			<li>
+                				<a href="https://rst.hebei.gov.cn/index.html" target="_blank">河北</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.shanxi.gov.cn/" target="_blank">山西</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.nmg.gov.cn/" target="_blank">内蒙古</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.ln.gov.cn/" target="_blank">辽宁</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.jl.gov.cn/" target="_blank">吉林</a>
+                			</li>
+                			<li>
+                				<a href="https://hrss.hlj.gov.cn/hrss/" target="_blank">黑龙江</a>
+                			</li>
+                			<li>
+                				<a href="http://rsj.sh.gov.cn/" target="_blank">上海</a>
+                			</li>
+                			<li>
+                				<a href="http://jshrss.jiangsu.gov.cn/" target="_blank">江苏</a>
+                			</li>
+                			<li>
+                				<a href="http://rlsbt.zj.gov.cn/" target="_blank">浙江</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.ah.gov.cn/" target="_blank">安徽</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.fujian.gov.cn/" target="_blank">福建</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.jiangxi.gov.cn/" target="_blank">江西</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.shandong.gov.cn/" target="_blank">山东</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.henan.gov.cn/" target="_blank">河南</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.hubei.gov.cn/" target="_blank">湖北</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.hunan.gov.cn/" target="_blank">湖南</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.gd.gov.cn/" target="_blank">广东</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.gxzf.gov.cn/" target="_blank">广西</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.hainan.gov.cn/" target="_blank">海南</a>
+                			</li>
+                			<li>
+                				<a href="http://rlsbj.cq.gov.cn/" target="_blank">重庆</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.sc.gov.cn/" target="_blank">四川</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.guizhou.gov.cn/" target="_blank">贵州</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.yn.gov.cn/" target="_blank">云南</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.xizang.gov.cn/" target="_blank">西藏</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.shaanxi.gov.cn/" target="_blank">陕西</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.gansu.gov.cn/" target="_blank">甘肃</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.qinghai.gov.cn/" target="_blank">青海</a>
+                			</li>
+                			<li>
+                				<a href="http://hrss.nx.gov.cn/" target="_blank">宁夏</a>
+                			</li>
+                			<li>
+                				<a href="http://rst.xinjiang.gov.cn/" target="_blank">新疆</a>
+                			</li>
+                			<li>
+                				<a href="http://rsj.xjbt.gov.cn/" target="_blank">兵团</a>
+                			</li>
+                	
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer_center  font14">
+        <div>
+        	
+        		<a href="/c/2018-08-01/201.shtml" target="_blank">网站声明</a>
+        	
+        </div>
+        <div>
+        	
+            <a href="/qt/wzdt/" target="_blank">网站地图</a>
+            
+        </div>
+        <div>
+        	
+        		<a href="/c/2018-08-01/202.shtml" target="_blank">联系我们</a>
+        	
+        </div>
+    </div>
+    <div class="footer_bottom font12 clearfix">
+        <a class="fl" href="http://bszs.conac.cn/sitename?method=show&id=24CB768E226157CEE053022819ACCF4A" target="_blank"><img src="/images/footer/footer_logo.png?v=260209" alt=""></a>
+        <p class="fl">主办单位：中国就业培训技术指导中心.<br /> 京ICP备09079694号-10 京公网安备110401200230<br />网站标识码bm15000006</p>
+        <div class="fl" style="margin-left:20px;">
+			<script style="width: 0;height: 0;overflow: hidden;" id="_jiucuo_" sitecode="bm15000006" src="/js/jiucuo.js?v=1.0"></script><span id="_span_jiucuo"></span>
+		</div>
+    </div>
+</div>
+<script src="/v3/js/bootstrap.min.js"></script>
+<script src="/v3/js/hammer.min.js"></script>
+<script src="/v3/js/v3_common.js"></script>
+<script src="/js/swiper.min.js"></script>
+<link rel="stylesheet" href="/css/swiper.css" type="text/css" />
+<script src="/v3/js/v3_site.js"></script>
+
+
+
+    <!-- <script src="${prefix("js/swiper-4.3.5.min.js")}"></script> -->
+    <!-- <link rel="stylesheet" href="${prefix("css/swiper-4.1.6.min.css")}"> -->
+    <!-- <link rel="stylesheet" href="${prefix("css/idangerous.swiper2.7.6.css")}">
+ <script src="${prefix("js/idangerous.swiper2.7.6.min.js")}"></script>
+  -->
+    <script>
+        var ifie = 0;
+        function tipInfo() {
+            var ua = navigator.userAgent.toLocaleLowerCase();
+            var browserType = null;
+            if (ua.match(/msie/) != null || ua.match(/trident/) != null) {
+                browserType = "IE";
+                browserVersion = ua.match(/msie ([\d.]+)/) != null ? ua.match(/msie ([\d.]+)/)[1] : ua.match(/rv:([\d.]+)/)[1];
+                if (browserVersion < 10) {
+                    Dialog.alert('为了更好的网站浏览体验，请使用IE9.0（包括360兼容模式IE9.0）以上的浏览器！')
+                    ifie = 1
+                }
+            }
+        }
+        tipInfo()
+        if (ifie == 1) {
+            document.write('<link rel="stylesheet" href="/css/idangerous.swiper2.7.6.css"><script src="/js/idangerous.swiper2.7.6.min.js"><\/script>');
+            $(function () {
+                var mySwiper2 = new Swiper('.zyxw-swiper-container', {
+                    loop: true,
+                    autoplay: 5000,
+                    observer: true,
+                    observeParents: true,
+                    pagination: '.zyxw_pagination',
+                    paginationClickable: true,
+                    onSlideChangeStart: function (swiper) {
+                        $('.zxpd_szyw .index_news_con_scroll_con').eq(swiper.activeLoopIndex).addClass('show').siblings('.zxpd_szyw .index_news_con_scroll_con').removeClass('show');
+                    },
+                });
+                var mySwiper3 = new Swiper('.gzdt-swiper-container', {
+                    loop: true,
+                    autoplay: 5000,
+                    observer: true,
+                    observeParents: true,
+                    pagination: '.gzdt_pagination',
+                    paginationClickable: true,
+                    onSlideChangeStart: function (swiper) {
+                        $('.zxpd_zyxw .index_news_con_scroll_con').eq(swiper.activeLoopIndex).addClass('show').siblings('.zxpd_zyxw .index_news_con_scroll_con').removeClass('show');
+                    },
+                });
+                var mySwiperNew = new Swiper('.zxdt-swiper-container', {
+                    loop: true,
+                    autoplay: 5000,
+                    observer: true,
+                    observeParents: true,
+                    pagination: '.zxdt_pagination',
+                    paginationClickable: true,
+                    onSlideChangeStart: function (swiper) {
+                        $('.zxpd_zxdt .index_news_con_scroll_con').eq(swiper.activeLoopIndex).addClass('show').siblings('.zxpd_zxdt .index_news_con_scroll_con').removeClass('show');
+                    },
+                });
+                $('.index_content .index-swiper-container').css('height', $('.index_content .index-swiper-container img').height())
+                var mySwiper = new Swiper('.index-swiper-container', {
+                    loop: true,
+                    autoplay: 5000,
+                    pagination: '.pagination',
+                    paginationClickable: true,
+                    navigation: {
+                        nextEl: '.nextbanner',
+                        prevEl: '.prevbanner',
+                    },
+                });
+                var mySwiperSpecial = new Swiper('.index_special', {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                    spaceBetween: 13,
+                    autoplay: false,
+                    navigation: {
+                        nextEl: '.nextbanner',
+                        prevEl: '.prevbanner',
+                    },
+                });
+                // mySwiper2.el.onmouseover = function () {
+                //     mySwiper2.autoplay.stop();
+                // }
+                // mySwiper2.el.onmouseout = function () {
+                //     mySwiper2.autoplay.start();
+                // }
+                // mySwiper3.el.onmouseover = function () {
+                //     mySwiper3.autoplay.stop();
+                // }
+                // mySwiper3.el.onmouseout = function () {
+                //     mySwiper3.autoplay.start();
+                // }
+                // mySwiper.el.onmouseover = function () {
+                //     mySwiper.autoplay.stop();
+                // }
+                // mySwiper.el.onmouseout = function () {
+                //     mySwiper.autoplay.start();
+                // }
+            })
+        } else {
+            document.write('<script src="/js/swiper-4.1.6.min.js"><\/script><link rel="stylesheet" href="/css/swiper-4.1.6.min.css">');
+            $(function () {
+                var mySwiper2 = new Swiper('.zyxw-swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    observer: true,
+                    observeParents: true,
+                    pagination: {
+                        el: '.zyxw_pagination',
+                        clickable: true,
+                    },
+                    on: {
+                        slideChangeTransitionStart: function () {
+                            $('.zxpd_szyw .index_news_con_scroll_con').eq(this.realIndex).addClass('show').siblings('.zxpd_szyw .index_news_con_scroll_con').removeClass('show');
+                        },
+                    },
+                });
+                var mySwiper3 = new Swiper('.gzdt-swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    observer: true,
+                    observeParents: true,
+                    pagination: {
+                        el: '.gzdt_pagination',
+                        clickable: true,
+                    },
+                    on: {
+                        slideChangeTransitionStart: function () {
+                            $('.zxpd_zyxw .index_news_con_scroll_con').eq(this.realIndex).addClass('show').siblings('.zxpd_zyxw .index_news_con_scroll_con').removeClass('show');
+                        },
+                    }
+                });
+                var mySwiperNew = new Swiper('.zxdt-swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    observer: true,
+                    observeParents: true,
+                    pagination: {
+                        el: '.zxdt_pagination',
+                        clickable: true,
+                    },
+                    on: {
+                        slideChangeTransitionStart: function () {
+                            $('.zxpd_zxdt .index_news_con_scroll_con').eq(this.realIndex).addClass('show').siblings('.zxpd_zxdt .index_news_con_scroll_con').removeClass('show');
+                        },
+                    }
+                });
+                $('.index_content .index-swiper-container').css('height', $('.index_content .index-swiper-container img').height())
+                var mySwiper = new Swiper('.index-swiper-container', {
+                    loop: true,
+                    autoplay: true,
+                    pagination: {
+                        el: '.pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.nextbanner',
+                        prevEl: '.prevbanner',
+                    },
+                });
+                mySwiper2.el.onmouseover = function () {
+                    mySwiper2.autoplay.stop();
+                }
+                mySwiper2.el.onmouseout = function () {
+                    mySwiper2.autoplay.start();
+                }
+                mySwiper3.el.onmouseover = function () {
+                    mySwiper3.autoplay.stop();
+                }
+                mySwiper3.el.onmouseout = function () {
+                    mySwiper3.autoplay.start();
+                }
+                mySwiperNew.el.onmouseover = function () {
+                    mySwiperNew.autoplay.stop();
+                }
+                mySwiperNew.el.onmouseout = function () {
+                    mySwiperNew.autoplay.start();
+                }
+                mySwiper.el.onmouseover = function () {
+                    mySwiper.autoplay.stop();
+                }
+                mySwiper.el.onmouseout = function () {
+                    mySwiper.autoplay.start();
+                }
+                var mySwiperSpecial = new Swiper('.index_special', {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                    spaceBetween: 13,
+                    autoplay: false,
+                    navigation: {
+                        nextEl: '.nextbanner',
+                        prevEl: '.prevbanner',
+                    },
+                    pagination: {
+                        el: '.special-page',
+                        clickable: true,
+                    }
+                });
+            })
+        }
+
+
+
+
+
+    </script>
+    <!-- 右侧栏 -->
+    
+<div class="right_banner hidden-xs">
+    <ul>
+        <li>
+            
+                <a href="/qt/wsdc/" class="right_banner_diao" target="_blank">网上调查</a>
+            
+        </li>
+            <li>
+                <a href="javascript:;" class="right_banner_wexin">公众号</a>
+                <div>
+                    
+                        
+                            <div class="ban_hov">
+                                <img src="/upload/resources/image/2018/08/20/50.png" alt="" />
+                                <p>“中国就业创业” 微信公众号</p>
+                            </div>
+                            <div class="ban_hov">
+                                <img src="/upload/resources/image/2021/06/10/94570.jpg" alt="" />
+                                <p>“中国就业创业” 快手号</p>
+                            </div>
+                    
+                </div>
+            </li>
+            
+        <li>
+            
+            <a href="/bmfw/hdjl/" class="right_banner_yijian">留言板</a>
+            <div class='yijian'>
+                    <div class="ban_hov">
+                        <div class="email"><p>留言邮箱：</p>
+                            <p class='font14'>jywzbgs@mohrss.gov.cn</p></div>
+                            <!-- <div id="copy" data-clipboard-text="jywzbgs@mohrss.gov.cn">
+                                    <span>复制</span>
+                                </div> -->
+                                <div id="copy">
+                                        <span><a href='/bmfw/hdjl/' style='color:#fff'>留言板</a></span>
+                                </div>
+                    </div>
+                </div>
+            
+        </li>
+        <li>
+            <a href="https://chinajob.mohrss.gov.cn/zcms/advanceSearch/result?SiteID=1" class="right_banner_sousuo" target="_blank">高级搜索</a>
+        </li>
+    </ul>
+</div>
+
+<script src="/js/clipboard.min.js"></script>
+<script>
+$(function(){  
+    var btn = document.getElementById('copy');
+    var clipboard = new ClipboardJS(btn);
+    clipboard.on('success', function(e) {
+        Dialog.alert('已成功复制到剪切板！');
+    });
+    // clipboard.on('error', function(e) {
+    //     Dialog.alert('shibai');
+    // });
+});  
+</script>
+
+<script src="https://chinajob.mohrss.gov.cn/zcms/stat/front/stat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_stat)_zcms_stat("SiteID=1&Dest=https://chinajob.mohrss.gov.cn/zcms/stat/dealer");
+</script>
+
+<!-- App=ZCMS(ZCMS内容管理系统) 2.5.28199,CostTime=253,PublishDate=2026-10-10 16:29:22 -->
+</body>
+
+</html>

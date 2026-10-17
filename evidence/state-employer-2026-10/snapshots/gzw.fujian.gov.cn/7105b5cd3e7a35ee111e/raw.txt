@@ -1,0 +1,2944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone = no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="SiteName" content="福建省人民政府国有资产监督管理委员会">
+    <meta name="SiteDomain" content="gzw.fujian.gov.cn">
+    <meta name="SiteIDCode" content="3500000041">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="SiteId" content="15">
+    <title>
+        福建省人民政府国有资产监督管理委员会
+    </title>
+    <link rel="stylesheet" href="./images/trt_iconfont_v2.css">
+    <link rel="stylesheet" href="./images/trt_component_v2.css">
+    <link rel="stylesheet" href="./images/trt_media_v2.css">
+    <link rel="stylesheet" href="./images/iconfont.css">
+    <link rel="stylesheet" href="/images/20211209-gzw-golbal.css?v=2.5">
+    <link rel="stylesheet" href="./images/20211209-gzw-style.css">
+    <link rel="stylesheet" href="./images/20211228-gzw.css">
+
+
+    <style>
+        * {
+            margin: 0rem;
+            padding: 0rem;
+            box-sizing: content-box;
+            outline: none;
+        }
+
+        .slideBox .prev i,
+        .slideBox .next i {
+            font-size: 22px;
+            color: #ffffff;
+            text-align: center;
+            margin: 0 auto;
+            padding-left: .1rem;
+        }
+
+        .ss_box_2021 .btn_2021,
+        .ss_box2_2021 .btn_2021 {
+            font-size: .2rem;
+            line-height: inherit;
+            margin-top: .09rem;
+        }
+
+        .slideBox {
+            position: relative;
+            overflow: hidden;
+            margin: 0px auto;
+            width: 100%;
+        }
+
+        .slideBox .prev,
+        .slideBox .next {
+            position: absolute;
+            top: 50%;
+            margin-top: -20px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            z-index: 999;
+            background-color: rgba(0, 0, 0, .6);
+            text-align: center;
+            line-height: 36px;
+        }
+
+        .slideBox .prev {
+            left: 0px;
+        }
+
+        .slideBox .next {
+            right: 0px;
+        }
+
+        .slideBox .bd {
+            position: relative;
+            z-index: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .slideBox .bd li {
+            position: relative;
+            text-align: center;
+            height: 100%;
+        }
+
+        .slideBox .bd li img {
+            vertical-align: top;
+            width: auto;
+        }
+
+        .slideBox .bd li .title1 {
+            padding-top: 20px;
+            text-align: left;
+            font-weight: normal;
+            line-height: 28px;
+            padding-bottom: 15px;
+            color: #ffffff;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding-left: 24px;
+            font-size: 16px;
+            padding-right: 130px;
+            z-index: 999;
+        }
+
+        .slideBox .bd li .txt-bg {
+            position: absolute;
+            bottom: 0px;
+            z-index: 1;
+            height: 68px;
+            background: url(/images/20211606fjszf_bar_bg1.png) repeat-x bottom;
+            width: 100%;
+            overflow: hidden;
+            background-size: 100% 80%;
+        }
+
+        .slideBox .hd {
+            position: absolute;
+            z-index: 999;
+            bottom: 13px;
+            text-align: center;
+            right: 15px;
+            cursor: pointer;
+        }
+
+        .slideBox .hd li {
+            display: inline-block;
+            *float: left;
+            width: 10px;
+            height: 8px;
+            line-height: 30px;
+            background: #fff;
+            margin: 0 4px;
+            opacity: 0.5;
+            cursor: pointer;
+            border-radius: 4px;
+            opacity: 0.5;
+            overflow: hidden;
+        }
+
+        .slideBox .hd li.on {
+            opacity: 1;
+            background-color: #ffffff;
+            width: 18px;
+        }
+
+        .slideBox .prev i,
+        .slideBox .next i {
+            font-size: 22px;
+            color: #ffffff;
+            padding-left: .1rem;
+        }
+
+        .nyncxw-list ul li i {
+            margin-right: 7px
+        }
+
+        .slideBox .bd li .title1 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        @media screen and (max-width: 540px) {
+            .slideBox .bd li .title1 {
+                font-size: 12px;
+                padding-right: 0px;
+                /*  padding-bottom: 30px; */
+            }
+
+            .slideBox .hd {
+                display: none;
+            }
+        }
+
+        #tabHdft .bd {
+            height: auto !important;
+        }
+
+        .List__cont li p.w4 a {
+            color: #d1160e;
+        }
+    </style>
+
+
+    <style>
+        .tt-box p br:first-child {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .gssg-ul li {
+            margin-left: 6px;
+            margin-right: 19px;
+        }
+
+        #focusBox .bd,
+        #ztzllbt .bd {
+            overflow: hidden;
+        }
+
+        .ztzl-box ul li {
+            margin-left: 0;
+            margin-right: 20px;
+        }
+
+        .xw-list-1 {
+            margin-top: 0px;
+        }
+
+        /* 新增疫情防控样式 */
+
+        @media screen and (max-width: 1240px) {
+            .new-tit {
+                width: auto;
+            }
+        }
+
+        #tabZwgk .tab1 li {
+            margin-right: 20px;
+        }
+
+        #tabZwgk .tab1 li:last-child {
+            margin-right: 0px;
+        }
+
+        .yqfk-icon {
+            display: none;
+            float: right;
+            /* margin-left:518px; */
+            font-family: 微软雅黑;
+            color: #ffffff !important;
+            font-size: 16px;
+            font-weight: bold;
+            /* display:inline-block; */
+            background: #ba2b29;
+            width: 220px;
+            height: 42px;
+            line-height: 40px;
+            border-radius: 10px 10px 10px 0px;
+            text-align: center;
+            margin-top: -2px;
+            right: 0;
+            margin-right: 0;
+            z-index: 222222;
+        }
+
+        a.yqfk-icon:hover {
+            text-decoration: none;
+        }
+
+        .yqfk-icon i {
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        /*.qh-tit ul .aqsc_0507 {
+            background: #ba2b29;
+        }*/
+
+        .zwgk-left {
+            width: 100%;
+        }
+
+        .xw-list-2 li {
+            line-height: 50px;
+        }
+
+        .xw-list-2 li i {
+            margin-top: 25px;
+        }
+
+        @media screen and (max-width: 750px) {
+            .xw-list-1 li {
+                line-height: 30px;
+            }
+        }
+
+        .tt-box p br {
+            display: none;
+        }
+        #footer_2021{padding-top: 0px;}
+    </style>
+
+
+    <style>
+        /* 后续维护PC端 */
+
+        @media screen and (min-width: 1024px) {
+            .yqfk-icon {
+                display: block;
+            }
+        }
+
+        /* 后续维护iPad端 */
+
+        @media only screen and (min-height:768px) and (max-height:1023px) {}
+
+        /* 后续维护iPhone端 */
+    </style>
+    <style>
+        /**/
+         /**/
+    </style>
+
+</head>
+
+<body ms-controller="windowRoot">
+
+    <style>
+.page_banner1{background-repeat:no-repeat;background-position:center;position:relative;background-size: auto 100% !important; background-color: #cb2b1a !important; height:1.8rem;}
+.page_banner1 a{ display:block;}
+.slb .page_banner1{background-size: cover !important; height:1rem;}
+@media screen and (max-width:992px) {
+    .page_banner1{ height:0rem !important; padding-top:13.59375%;background-size: cover !important; }
+}
+</style>
+
+
+
+
+
+    <style>
+       /* 对联样式  begin */
+#_fjdzapp_duilian_0 {
+    position: fixed;
+    left: 0;
+    top: 28%;
+    z-index: 10000;
+}
+#_fjdzapp_duilian_1 {
+    position: fixed;
+    right: 0;
+    top: 28%;
+    z-index: 100;
+}
+@media screen and (max-width: 992px){
+    #_fjdzapp_duilian_0{display: none;}
+    #_fjdzapp_duilian_1{display: none;}
+}
+
+
+    /* 对联样式  end*/
+  </style>
+
+
+
+    <style>
+     
+/* 飘窗样式  begin */
+    @media only screen and (max-width: 992px) {
+        #_fjdzapp_float {
+            display: none !important;
+        }
+    }
+    /* 飘窗样式  end */
+  </style>
+
+
+
+
+
+    <!--头部嵌套-->
+    <!--头部开始-->
+<div class="top-link-wap_2021">
+    <div class="top-link_2021" id="top-link">
+        <div class="w_1300_2021 clearflx_2021">
+            <div class="logo_2021"><a href="/"><img src="/images/20211209-gzw-logo.png" alt="" /></a>
+            </div>
+            <div class="xyfd_2021">
+                <div class="rig-top_2021 clearflx_2021"> <span>网站支持IPv6</span>
+                    <ul class="clearflx_2021 ft-list_2021">
+                        <li><a href="javascript:;" class="ydb_2021">八闽国资<div class="ydtk_2021 clearflx">
+                                    <div class="ewp_2021">
+                                        <i><img src="/images/ss1.png" width="100" alt="八闽国资" /></i>
+                                        <em>八闽国资</em>
+                                    </div>
+                                </div></a><em>|</em></li>
+                        <li><a href="javascript:;" class="ydb_2021">闽政通<div class="ydtk_2021 clearflx">
+                                    <div class="ewp_2021">
+                                        <i><img src="/images/20211110-gt-ewm3.png" width="100" alt="扫描闽政通APP二维码" /></i>
+                                        <em>闽政通</em>
+                                    </div>
+                                </div></a></li>
+                                <li style="display: none;"><a  href="javascript:StranBody()" title="繁体版" id='StranLink' >繁体版</a></li>
+                    </ul>
+                    <div class="gwp_2021">
+                        <a href="http://www.gov.cn/" title="国务院" target="_blank">国务院</a>
+                        <a href="https://www.fujian.gov.cn/" title="省政府" target="_blank">省政府</a>
+                    </div>
+                </div>
+                <div class="pho-fix_2021"> <span class="allMenu-right"></span>
+                    <!--<i class="close_2021"><img src="images/2021close.png" alt="" /></i>-->
+                    <ul class="nav_2021 clearflx_2021">
+                        <li ms-class="active_2021:currPath===''"><a href="/">首页</a></li>
+                        <li ms-class="active_2021:currPath==='gzgk'"><a href="/gzgk/">机构职能 <em></em> </a>
+                            <div class="nav_con_2021 m_3_2021">
+                                <div class="nav_warp_2021">
+                                    <a href="/gzgk/jgjj/" target="_blank">机构简介</a>
+                                    <a href="/gzgk/wld/" target="_blank">委领导</a>
+                                    <a href="/gzgk/nsjg_1/" target="_blank">内设机构</a>
+                                                                        <a href="/gzgk/sqsgzw/" target="_blank">设区市国资委</a>
+                                    <a href="/gzgk/ssqy_1/" target="_blank">所出资企业</a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='zwgk'"><a href="/zwgk/">政务公开
+                                <em></em>
+                            </a>
+                            <div class="nav_con_2021 m_4_2021">
+                                <div class="nav_warp_2021">
+                                    
+                                    <a href="/zwgk/gzdt/" target="_blank">国资动态</a>
+                                    <a href="/zwgk/tzgg/" target="_blank">通知公告</a>
+                                    <!-- <a href="/zwgk/rsxx/" target="_blank">人事信息</a> -->
+                                    <a href="/zwgk/zcfg/" target="_blank">政策法规</a>
+                                     <a href="/zwgk/rsxx/" target="_blank">人事信息</a>
+                                    <a href="/zwgk/tjxx/" target="_blank">统计信息</a>
+                                    <a href="/zwgk/xxgkzl/" target="_blank">政府信息公开</a>
+                                    <a href="/ztzl/" target="_blank">专题专栏</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='zcjd'"><a href="/zcjd/">解读回应
+                                <em></em>
+                            </a>
+                            <div class="nav_con_2021 m_6_2021">
+                                <div class="nav_warp_2021">
+                                    <a href="/zcjd/wjgzcfgjd/ " target="_blank">委机关政策法规解读</a>
+                                    <a href="/zcjd/qtzcfgjd/" target="_blank">省政府政策法规解读</a>
+                                    <a href="/zcjd/gwyzcfgjd/" target="_blank">国务院政策法规解读</a>
+                                                                        <a href="/zcjd/hygq/" target="_blank">回应关切</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li ms-class="active_2021:currPath==='wsbs'"><a href="/wsbs/">办事服务</a>
+                            <!-- <div class="nav_con_2021 m_6_2021"> 
+            <div class="nav_warp_2021">  -->
+                            <!--<a href="#">在线访谈</a>-->
+                            <!--<a href="#">在线咨询</a>-->
+                            <!--<a href="#">网上调查</a>-->
+                            <!--<a href="#">意见征集</a>-->
+                            <!--<a href="#">厅长信箱</a>-->
+                            <!--<a href="#">回应关切</a>-->
+                            <!-- </div> 
+            </div>  -->
+                        </li>
+                        <li ms-class="active_2021:currPath==='hdjl'"><a href="/hdjl/">互动交流
+                                <em></em> </a>
+                            <div class="nav_con_2021 m_6_2021">
+                                <div class="nav_warp_2021">
+                                    <a href="/hdjl/zxft/" target="_blank">在线访谈</a>
+                                    <!-- <a href="#">在线咨询</a>  -->
+                                    <a href="/hdjl/wsdc/" target="_blank">网上调查</a>
+                                    <a href="/hdjl/myzj/" target="_blank">民意征集</a>
+                                    <a href="/hdjl/zrxx/" target="_blank">主任信箱</a>
+                                    <!--<a href="#">回应关切</a>-->
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pho-search_2021 clearflx_2021">
+                        <form
+                        action="/ssp/main/index.html" method="get" target="_blank"
+                            class="form" method="get" target="_blank" >
+                            <input name="key" type="text" placeholder="请输入搜索内容" value="" />
+<input id="siteId" name="siteId" type="hidden" value="ff8080816e59baf3016e5e7264fe4056" />
+                <!--<input id="isMain" name="isMain" type="hidden" value="" />-->
+                            <button class="btn_2021 iconfont"><img src="/images/search.png" alt="" /></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sec-ban_2021">
+    <div class="w_1300_2021 clearflx_2021">
+        <div class="rqtq_2021 fl">
+            <p><i><em ms-text="now|date('yyyy年MM月dd日 ')"></em>
+                    <em ms-text="nowWeek"></em>
+                </i></p>
+            <p><i>欢迎访问福建省人民政府国有资产监督管理委员会</i></p>
+            <!-- <p><iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=5&&wind=1" width="170" height="30" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe></p> -->
+            <!-- <p><i>福州市<img src="/images/20211109-gtzf-tq.png" alt="" />多云13℃~17℃</i></p> -->
+        </div>
+        <div class="ss_box2_2021 fr" id="header" ms-controller="list_rs">
+            <form action="/ssp/main/index.html" id="form" method="get" target="_blank">
+                <div class="picker_2021">
+                    <input type="text" value="本站" readonly />
+                    <a class="upDown_2021"></a>
+                </div>
+                <!-- <input type="text" placeholder="请输入您要搜索的内容" name="key" ms-duplex="serKey" class="inp_2021" id="selecttags" required="required" autocomplete="off" /> -->
+                <input type="text" ms-duplex="tixing" placeholder="请输入搜索内容" value="" name="key" class="inp_2021" ms-focus="$checkLock" />
+                <input id="siteId" name="siteId" type="hidden" value="ff8080816e59baf3016e5e7264fe4056" />
+                <!--<input id="isMain" name="isMain" type="hidden" value="" />-->
+                <button class="btn_2021 iconfont"><img src="/images/230222_sousuo.png" /></button>
+                <div class="search-log_2021" id="searchTag"  ms-visible="!showlist&&LockLink">
+                    <div class="rs_tit1_2021"  ms-visible="historyKeys.length>0">历史搜索： <a
+                            ms-if-loop="$index<5" ms-repeat="historyKeys" href="javascript:;" ms-text="el"
+                            ms-click="setPost(el)"></a></div>
+                    <div class="rs_tit1_2021" >热搜词： <a ms-repeat="keys"
+                            href="javascript:;" ms-text="el.keyword" ms-click="setPost(el.keyword)"></a></div>
+                 
+                </div>
+                <div class="lxglc-box_2021" style="display: none;" ms-visible="showlist&&linkKeys.length>0">
+                    <ul>
+                        <li ms-repeat="linkKeys">
+                            <a href="javascript:;" ms-click="setPost(el.name)" ms-text="el.name"></a>
+                        </li>
+                    </ul>
+                </div> 
+            </form>
+            <div class="search_content" ms-visible="flags[0]" style="display: none;">
+                <ul>
+                    <li ms-repeat="tipList" ms-click="getTip('flags', 0, el.wordName)"><a href="javascript:;" ms-text="el.wordName"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" text_align_right">
+            <div class="aged_link">
+                <a href="javascript:;" ms-click="$inSlb()" ms-visible="!isSlb" class="aged_link_01">长者模式</a>
+                <a href="javascript:;"  class="aged_link_01 none" ms-click="$outSlb()">退出长者模式</a>
+                <a href="javascript:;" class="aged_link_02" id="barrierFreeBtn">无障碍浏览</a>
+            </div>
+            </div>
+    </div>
+</div>
+<div class="gaod_2021"></div>
+<!--头部结束-->
+    <!--头部嵌套end-->
+
+
+    <div class="contain">
+        <div class="w1300">
+            <div class="clearflx">
+                <div class="tt-box clearflx">
+                    
+
+                        <h4>
+                            <a href="./zwgk/gzdt/szyw/202605/t20260522_7150956.htm" target="_blank" title="李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代化应急体系建设“十五五”规划》 讨论《中华人民共和国中国人民银行法（修订草案）》">李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代化应急体系建设“十五五”规划》 讨论《中华人民共和国中国人民银行法（修订草案）》</a>
+                        </h4>
+                        <p>
+                            <br/>　　新华社北京5月21日电 国务院总理李强5月21日主持召开国务院常务会议，研究推进全国统一大市场建设...
+                            <a href="http://gzw.fujian.gov.cn/zwgk/gzdt/szyw/202605/t20260522_7150956.htm" target="_blank">查看详情></a>
+                        </p>
+                    
+                </div>
+                <div class="xw-box clearflx">
+                    <div class="lbt fl rel">
+                        <!--图片轮播图开始-->
+                        <div class="slideBox" id="slideBox">
+                            <a class="prev bf-pass" href="javascript:void(0)" title="上一张" tabindex="-1"><i
+                                    class="iconfont icon-zuo"></i></a>
+                            <a class="next bf-pass" href="javascript:void(0)" title="下一张" tabindex="-1"> <i
+                                    class="iconfont icon-you"></i></a>
+                            <div class="bd">
+                                <ul>
+                                    
+                                        <li>
+                                            <a class="pic" href="./zwgk/gzdt/tpxw/202510/t20251024_7025035.htm"
+                                                title="中国共产党第二十届中央委员会第四次全体会议公报"
+                                                target="_blank">
+                                                <img src="./zwgk/gzdt/tpxw/202510/W020251024574676449783.png" alt="中国共产党第二十届中央委员会第四次全体会议公报" />
+                                            </a>
+                                            <a class="title1" href="./zwgk/gzdt/tpxw/202510/t20251024_7025035.htm" target="_blank">
+                                                中国共产党第二十届中央委员会第四次全体会议公报
+                                            </a>
+                                            <div class="txt-bg"></div>
+                                        </li>
+                                    
+                                        <li>
+                                            <a class="pic" href="./zwgk/gzdt/tpxw/202510/t20251013_7020706.htm"
+                                                title="习近平出席全球妇女峰会开幕式并发表主旨讲话"
+                                                target="_blank">
+                                                <img src="./zwgk/gzdt/tpxw/202510/W020251013585362444315.png" alt="习近平出席全球妇女峰会开幕式并发表主旨讲话" />
+                                            </a>
+                                            <a class="title1" href="./zwgk/gzdt/tpxw/202510/t20251013_7020706.htm" target="_blank">
+                                                习近平出席全球妇女峰会开幕式并发表主旨讲话
+                                            </a>
+                                            <div class="txt-bg"></div>
+                                        </li>
+                                    
+                                        <li>
+                                            <a class="pic" href="./zwgk/gzdt/tpxw/202509/t20250926_7015166.htm"
+                                                title="新疆维吾尔自治区成立70周年庆祝大会隆重举行 习近平出席大会"
+                                                target="_blank">
+                                                <img src="./zwgk/gzdt/tpxw/202509/W020250926345852388175.png" alt="新疆维吾尔自治区成立70周年庆祝大会隆重举行 习近平出席大会" />
+                                            </a>
+                                            <a class="title1" href="./zwgk/gzdt/tpxw/202509/t20250926_7015166.htm" target="_blank">
+                                                新疆维吾尔自治区成立70周年庆祝大会隆重举行 习近平出席大会
+                                            </a>
+                                            <div class="txt-bg"></div>
+                                        </li>
+                                    
+                                        <li>
+                                            <a class="pic" href="./zwgk/gzdt/tpxw/202509/t20250902_6999886.htm"
+                                                title="上合组织天津峰会|习近平主持上海合作组织成员国元首理事会第二十五次会议并发表重要讲话"
+                                                target="_blank">
+                                                <img src="./zwgk/gzdt/tpxw/202509/W020250902548568301633.png" alt="上合组织天津峰会|习近平主持上海合作组织成员国元首理事会第二十五次会议并发表重要讲话" />
+                                            </a>
+                                            <a class="title1" href="./zwgk/gzdt/tpxw/202509/t20250902_6999886.htm" target="_blank">
+                                                上合组织天津峰会|习近平主持上海合作组织成员国元首理事会第二十五次会议并发表重要讲话
+                                            </a>
+                                            <div class="txt-bg"></div>
+                                        </li>
+                                    
+                                    
+                                        <li>
+                                            <a class="pic" href="https://www.fj99.org.cn/bys/"
+                                                title="福建省公共就业服务网（高校毕业生求职招聘专区）"
+                                                target="_blank">
+                                                <img src="./gnxlm/sygd/202401/W020240102603603889181.jpg" alt="福建省公共就业服务网（高校毕业生求职招聘专区）" />
+                                            </a>
+                                            <a class="title1" href="https://www.fj99.org.cn/bys/" target="_blank">
+                                                福建省公共就业服务网（高校毕业生求职招聘专区）
+                                            </a>
+                                            <div class="txt-bg"></div>
+                                        </li>
+                                    
+                                        <li>
+                                            <a class="pic" href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=fj"
+                                                title="@国务院 我来说"
+                                                target="_blank">
+                                                <img src="./gnxlm/sygd/202501/W020250311422032986621.jpg" alt="@国务院 我来说" />
+                                            </a>
+                                            <a class="title1" href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=fj" target="_blank">
+                                                @国务院 我来说
+                                            </a>
+                                            <div class="txt-bg"></div>
+                                        </li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <div class="hd">
+                                <ul></ul>
+                            </div>
+
+                            <!--图片轮播图结束-->
+                        </div>
+                    </div>
+                    <div class="xw-nr-box fr" id="tabZwgk">
+                        <div class="tab1  hd clearflx">
+                            <ul class="fl clearflx new-tit">
+                                <li class="on"><a
+                                        href="./zwgk/gzdt/wndt/"
+                                        target="_blank" title="国资动态">国资动态<em></em></a></li>
+                                <li><a href="./zwgk/gzdt/szyw/"
+                                        target="_blank" title="时政要闻">时政要闻<em></em></a></li>
+                                <li><a href="http://www.gov.cn/" target="_blank" title="国务院信息">国务院信息<em></em></a></li>
+                                <li><a href="./zwgk/gzdt/sqlb/"
+                                        target="_blank" title="省企联播">省企联播<em></em></a></li>
+                            </ul>
+                        </div>
+                        <div class="bd">
+                            <ul class="xw-list-1">
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fjszbcgjtyxgs_31457/202610/t20261009_7222474.htm" target="_blank" title="闽交监理服务田安高速太华隧道双洞顺利贯通">闽交监理服务田安高速太华隧道双洞顺利贯通</a>
+                                        <span>
+                                            10-09
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fjsdzxxjtyxzrgs/202609/t20260923_7217392.htm" target="_blank" title="电子集团所属锐捷网络获评“福建省五一劳动奖状”！">电子集团所属锐捷网络获评“福建省五一劳动奖状”！</a>
+                                        <span>
+                                            09-23
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/dqgzc/202609/t20260920_7216056.htm" target="_blank" title="“小办法”撬动“大监督”——龙岩人才和大数据集团纪委以制度数字双赋能激活基层治理“神经末梢”">“小办法”撬动“大监督”——龙岩人才和大数据集团纪委以制度数字双赋能激活基层治理“神经末梢”</a>
+                                        <span>
+                                            09-20
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/dqgzc/202609/t20260920_7216054.htm" target="_blank" title="深入实施“五大行动”｜高速集团：五维赋能，培育高速人才新动能">深入实施“五大行动”｜高速集团：五维赋能，培育高速人才新动能</a>
+                                        <span>
+                                            09-20
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fjszbcgjtyxgs_31457/202609/t20260917_7214590.htm" target="_blank" title="福建招标集团召开“五大行动”推进会暨九月份经营工作例会">福建招标集团召开“五大行动”推进会暨九月份经营工作例会</a>
+                                        <span>
+                                            09-17
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fjsnyjtyxzrgs_31446/202609/t20260915_7213768.htm" target="_blank" title="福建能源石化集团荣获2026中国司库建设“司南奖”">福建能源石化集团荣获2026中国司库建设“司南奖”</a>
+                                        <span>
+                                            09-15
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202609/t20260911_7212419.htm" target="_blank" title="闽企出海综合服务平台亮相第26届投洽会">闽企出海综合服务平台亮相第26届投洽会</a>
+                                        <span>
+                                            09-11
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fjszbcgjtyxgs_31457/202609/t20260910_7211969.htm" target="_blank" title="福建招标集团企业参编的2项省地方标准获批发布">福建招标集团企业参编的2项省地方标准获批发布</a>
+                                        <span>
+                                            09-10
+                                        </span>
+                                    </li>
+                                
+
+                            </ul>
+                            <ul class="xw-list-1">
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202605/t20260522_7150956.htm" target="_blank" title="李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代化应急体系建设“十五五”规划》 讨论《中华人民共和国中国人民银行法（修订草案）》">李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代化应急体系建设“十五五”规划》 讨论《中华人民共和国中国人民银行法（修订草案）》</a>
+                                        <span>
+                                            05-22
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202603/t20260330_7116913.htm" target="_blank" title="李强主持召开国务院常务会议">李强主持召开国务院常务会议</a>
+                                        <span>
+                                            03-30
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202603/t20260316_7110736.htm" target="_blank" title="李强主持召开国务院常务会议">李强主持召开国务院常务会议</a>
+                                        <span>
+                                            03-16
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202603/t20260306_7106158.htm" target="_blank" title="《政府工作报告》上的二维码">《政府工作报告》上的二维码</a>
+                                        <span>
+                                            03-06
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202603/t20260306_7106001.htm" target="_blank" title="十四届全国人大四次会议在京开幕 习近平等在主席台就座">十四届全国人大四次会议在京开幕 习近平等在主席台就座</a>
+                                        <span>
+                                            03-06
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202602/t20260225_7101780.htm" target="_blank" title="李强主持召开国务院常务会议 对抓紧做好春节假期后政府工作作出部署">李强主持召开国务院常务会议 对抓紧做好春节假期后政府工作作出部署</a>
+                                        <span>
+                                            02-25
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202602/t20260209_7091098.htm" target="_blank" title="李强主持召开国务院常务会议">李强主持召开国务院常务会议</a>
+                                        <span>
+                                            02-09
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/szyw/202602/t20260209_7091088.htm" target="_blank" title="李强主持召开国务院第十次全体会议 讨论政府工作报告稿和“十五五”规划纲要草案稿">李强主持召开国务院第十次全体会议 讨论政府工作报告稿和“十五五”规划纲要草案稿</a>
+                                        <span>
+                                            02-09
+                                        </span>
+                                    </li>
+                                
+                            </ul>
+                            <ul class="xw-list-1" ms-controller="gwyxx">
+                                <li ms-repeat="list" ms-if-loop="$index<8">
+                                    <i></i>
+                                    <a ms-attr-href="el.link" target="_blank" ms-attr-title="el.title"
+                                        ms-text="el.title"></a>
+                                    <span ms-text="el.pubDate|date('MM-dd')"></span>
+                                </li>
+                            </ul>
+                            <ul class="xw-list-1">
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202609/t20260911_7212419.htm" target="_blank" title="闽企出海综合服务平台亮相第26届投洽会">闽企出海综合服务平台亮相第26届投洽会</a>
+                                        <span>
+                                            09-11
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202608/t20260806_7197036.htm" target="_blank" title="“潮起数字福州”红链贯通“五链”">“潮起数字福州”红链贯通“五链”</a>
+                                        <span>
+                                            08-06
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202608/t20260803_7195416.htm" target="_blank" title="福州长乐国际机场综合保税区实现首单“海外工厂原材料集拼出海”业务">福州长乐国际机场综合保税区实现首单“海外工厂原材料集拼出海”业务</a>
+                                        <span>
+                                            08-03
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/ptsgzw/202607/t20260730_7193743.htm" target="_blank" title="永荣科技科技创新，驱动产业绿色转型——永荣科技40万吨年湿式催化氧化废液资源化项目建成投产">永荣科技科技创新，驱动产业绿色转型——永荣科技40万吨年湿式催化氧化废液资源化项目建成投产</a>
+                                        <span>
+                                            07-30
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202607/t20260720_7190198.htm" target="_blank" title="喜报︱福州地铁获全国行业学术大赛一等奖！">喜报︱福州地铁获全国行业学术大赛一等奖！</a>
+                                        <span>
+                                            07-20
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202606/t20260610_7161521.htm" target="_blank" title="喜报 | 全省独树标杆！福州双福高速公司获交通运输部通报表扬">喜报 | 全省独树标杆！福州双福高速公司获交通运输部通报表扬</a>
+                                        <span>
+                                            06-10
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/ptsgzw/202606/t20260610_7161312.htm" target="_blank" title="莆田南日岛木兰雅途酒店荣膺“2025-2026中国旅游住宿业金光奖・最佳海景酒店”">莆田南日岛木兰雅途酒店荣膺“2025-2026中国旅游住宿业金光奖・最佳海景酒店”</a>
+                                        <span>
+                                            06-10
+                                        </span>
+                                    </li>
+                                
+                                    <li>
+                                        <i></i>
+                                        <a href="./zwgk/gzdt/gzyw/fzsgzw/202605/t20260529_7154236.htm" target="_blank" title="媒体聚焦 | 低空经济“飞”入福州城市治理">媒体聚焦 | 低空经济“飞”入福州城市治理</a>
+                                        <span>
+                                            05-29
+                                        </span>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="gray-box clearflx" ms-controller="tabsy">
+            <div class="qh-box w1300">
+                <div class="qh-tit">
+                    <ul>
+                        <li ms-click="$tog(0)" ms-class="on:curr==0"><a href="javascript:;">国资监管<em></em></a></li>
+                        <li ms-class="on:curr==1"><a href="https://fjsrlzy.cn/" target="_blank" title="国企招聘">国企招聘</a>
+                        </li>
+                        <li ms-click="$tog(2)" ms-class="on:curr==2"><a href="javascript:;">所出资企业<em></em></a></li>
+                        <li ms-click="$tog(3)" ms-class="on:curr==3"><a href="javascript:;">地市国资委<em></em></a></li>
+                        <li class="aqsc_0507"><a href="http://120.35.30.135/whistler/do?action=index&flag=2"
+                                target="_blank" title="安全生产">安全生产</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+
+                <!-- 政务公开 -->
+                <div class="qh-tab" style="display:none" ms-visible="curr==0">
+                    <div class="zwgk-box clearflx">
+                        <div class="zwgk-left fl" id="tabZwgkd">
+                            <div class="tab1  hd clearflx">
+                                <ul class="fl clearflx new-tit new-tit1">
+                                    <li class="on"><a
+                                            href="./zwgk/gzdt/gzjg/zcfg/"
+                                            target="_blank"
+                                            title="法治建设">
+                                            法治建设<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/tpkh/"
+                                            target="_blank"
+                                            title="考核分配">
+                                            考核分配<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/cqgl/"
+                                            target="_blank"
+                                            title="产权管理">
+                                            产权管理<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/ghfz/"
+                                            target="_blank"
+                                            title="规划发展">
+                                            规划发展<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/jjyx/"
+                                            target="_blank"
+                                            title="经济运行">
+                                            经济运行<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/ggfp/"
+                                            target="_blank"
+                                            title="企业改革">
+                                            企业改革<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/qydq/"
+                                            target="_blank"
+                                            title="企业党群">
+                                            企业党群<em></em>
+                                        </a></li>
+                                    <li><a href="./zwgk/gzdt/gzjg/jjjc/"
+                                            target="_blank"
+                                            title="纪检监察">
+                                            纪检监察<em></em>
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="bd">
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202609/t20260928_7218469.htm" target="_blank" title="三钢成功取得蒂森克虏伯高端供应商准入资质">三钢成功取得蒂森克虏伯高端供应商准入资质</a>
+                                            <span>
+                                                09-28
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202609/t20260914_7213384.htm" target="_blank" title="国企法律顾问的十二张清单，把创造的价值算清楚、留下来 | 国资法治观察">国企法律顾问的十二张清单，把创造的价值算清楚、留下来 | 国资法治观察</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202609/t20260914_7213378.htm" target="_blank" title="程福波到中国中车集团调研">程福波到中国中车集团调研</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202609/t20260914_7213375.htm" target="_blank" title="国资委一个新提法，这个部门从&quot;后台支撑&quot;变成&quot;创造价值&quot; | 国资法治观察">国资委一个新提法，这个部门从"后台支撑"变成"创造价值" | 国资法治观察</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202608/t20260819_7201493.htm" target="_blank" title="《福建三钢报》社论：过好“紧日子” 拼出“好日子”">《福建三钢报》社论：过好“紧日子” 拼出“好日子”</a>
+                                            <span>
+                                                08-19
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202608/t20260819_7201485.htm" target="_blank" title="三钢董事长何天仁：产品转型事关钢铁主业未来的生死存亡！">三钢董事长何天仁：产品转型事关钢铁主业未来的生死存亡！</a>
+                                            <span>
+                                                08-19
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/zcfg/202608/t20260819_7201482.htm" target="_blank" title="深入实施“五大行动” | 电子集团：锚定主业、分层培育、协同创新 筑牢福建数字经济科创根基">深入实施“五大行动” | 电子集团：锚定主业、分层培育、协同创新 筑牢福建数字经济科创根基</a>
+                                            <span>
+                                                08-19
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202609/t20260902_7207879.htm" target="_blank" title="2026年7月份居民消费价格同比上涨0.5%">2026年7月份居民消费价格同比上涨0.5%</a>
+                                            <span>
+                                                08-31
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202609/t20260902_7207877.htm" target="_blank" title="2026年1—7月份全国固定资产投资基本情况">2026年1—7月份全国固定资产投资基本情况</a>
+                                            <span>
+                                                08-31
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202609/t20260902_7207873.htm" target="_blank" title="2026年1—7月份全国房地产市场基本情况">2026年1—7月份全国房地产市场基本情况</a>
+                                            <span>
+                                                08-31
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202609/t20260902_7207871.htm" target="_blank" title="2026年1—7月份全国规模以上工业企业利润增长17.6%">2026年1—7月份全国规模以上工业企业利润增长17.6%</a>
+                                            <span>
+                                                08-31
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202608/t20260806_7196906.htm" target="_blank" title="2026年6月份能源生产情况">2026年6月份能源生产情况</a>
+                                            <span>
+                                                07-31
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202608/t20260806_7196896.htm" target="_blank" title="2026年1—6月份全国固定资产投资基本情况">2026年1—6月份全国固定资产投资基本情况</a>
+                                            <span>
+                                                07-27
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/tpkh/202608/t20260806_7196889.htm" target="_blank" title="2026年上半年社会消费品零售总额增长1.3%">2026年上半年社会消费品零售总额增长1.3%</a>
+                                            <span>
+                                                07-27
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202609/t20260920_7216018.htm" target="_blank" title="福建国资公司：打好资产增效“组合拳” 激活高质量发展“新引擎”">福建国资公司：打好资产增效“组合拳” 激活高质量发展“新引擎”</a>
+                                            <span>
+                                                09-20
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202609/t20260920_7215982.htm" target="_blank" title="福建省粮油食品进出口集团：以存量资产激活金枪鱼产业新动能">福建省粮油食品进出口集团：以存量资产激活金枪鱼产业新动能</a>
+                                            <span>
+                                                09-20
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202609/t20260920_7215987.htm" target="_blank" title="投资集团权属闽都置业：聚焦国有资产增效 打造资产运营闭环">投资集团权属闽都置业：聚焦国有资产增效 打造资产运营闭环</a>
+                                            <span>
+                                                09-15
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202609/t20260920_7215990.htm" target="_blank" title="省国资委组织开展资产增效专题交流会">省国资委组织开展资产增效专题交流会</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202608/t20260825_7203691.htm" target="_blank" title="龙岩：老资产，新烟火">龙岩：老资产，新烟火</a>
+                                            <span>
+                                                08-25
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202608/t20260825_7203631.htm" target="_blank" title="让数据变“资产” 让运费变“活水” 闽光云商“承运商融资”产品正式上线">让数据变“资产” 让运费变“活水” 闽光云商“承运商融资”产品正式上线</a>
+                                            <span>
+                                                08-24
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/cqgl/202608/t20260825_7203640.htm" target="_blank" title="粮油进出口集团：盘活资产强链条 深耕蓝海兴产业">粮油进出口集团：盘活资产强链条 深耕蓝海兴产业</a>
+                                            <span>
+                                                08-10
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213053.htm" target="_blank" title="深化整治攻坚 加快转型升级  促进高质量发展和高水平安全良性互动">深化整治攻坚 加快转型升级  促进高质量发展和高水平安全良性互动</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213050.htm" target="_blank" title="把握开放大势 开创发展新局">把握开放大势 开创发展新局</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213049.htm" target="_blank" title="守望相助是战胜洪灾的不竭动力">守望相助是战胜洪灾的不竭动力</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213046.htm" target="_blank" title="推动教育科技人才体制机制一体改革 提升创新体系整体效能">推动教育科技人才体制机制一体改革 提升创新体系整体效能</a>
+                                            <span>
+                                                09-14
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213044.htm" target="_blank" title="以坚强党性树立和践行正确政绩观">以坚强党性树立和践行正确政绩观</a>
+                                            <span>
+                                                08-20
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213040.htm" target="_blank" title="山海交响处 福建正先行">山海交响处 福建正先行</a>
+                                            <span>
+                                                08-19
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ghfz/202609/t20260914_7213037.htm" target="_blank" title="福州创新金融服务，为科创企业筑牢资金底盘">福州创新金融服务，为科创企业筑牢资金底盘</a>
+                                            <span>
+                                                08-18
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202609/t20260904_7209314.htm" target="_blank" title="先行种“绿”，“生态大树”枝繁叶茂">先行种“绿”，“生态大树”枝繁叶茂</a>
+                                            <span>
+                                                09-04
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202609/t20260904_7209302.htm" target="_blank" title="2026年8月中国采购经理指数运行情况">2026年8月中国采购经理指数运行情况</a>
+                                            <span>
+                                                09-04
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202609/t20260904_7209300.htm" target="_blank" title="2026年8月建筑材料工业景气指数为99.1点">2026年8月建筑材料工业景气指数为99.1点</a>
+                                            <span>
+                                                09-04
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202609/t20260904_7209298.htm" target="_blank" title="2026年1-7月全国国有及国有控股企业经济运行情况">2026年1-7月全国国有及国有控股企业经济运行情况</a>
+                                            <span>
+                                                09-04
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202608/t20260804_7195667.htm" target="_blank" title="2026年7月建筑材料工业景气指数为95.3点">2026年7月建筑材料工业景气指数为95.3点</a>
+                                            <span>
+                                                08-04
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202608/t20260804_7195666.htm" target="_blank" title="2026年7月中国采购经理指数运行情况">2026年7月中国采购经理指数运行情况</a>
+                                            <span>
+                                                08-04
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjyx/202608/t20260804_7195665.htm" target="_blank" title="2026年1-6月全国国有及国有控股企业经济运行情况">2026年1-6月全国国有及国有控股企业经济运行情况</a>
+                                            <span>
+                                                08-04
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202609/t20260928_7219252.htm" target="_blank" title="省国资委主要领导调研“创潜50”企业">省国资委主要领导调研“创潜50”企业</a>
+                                            <span>
+                                                09-24
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202609/t20260928_7219248.htm" target="_blank" title="星网锐捷入选首批“国家新兴产业发展示范基地创建对象”">星网锐捷入选首批“国家新兴产业发展示范基地创建对象”</a>
+                                            <span>
+                                                09-22
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202609/t20260928_7219254.htm" target="_blank" title="政银企联动赋能 | 福建医药集团平潭项目融资置换银团贷款成功签约">政银企联动赋能 | 福建医药集团平潭项目融资置换银团贷款成功签约</a>
+                                            <span>
+                                                09-17
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202609/t20260928_7219259.htm" target="_blank" title="南铝绿色先进铝合金材料研究院正式揭牌 以融合创新赋能高质量发展">南铝绿色先进铝合金材料研究院正式揭牌 以融合创新赋能高质量发展</a>
+                                            <span>
+                                                09-08
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202608/t20260821_7202344.htm" target="_blank" title="投资集团权属福创投公司荣登“2026国资直投机构最佳回报TOP30”榜单">投资集团权属福创投公司荣登“2026国资直投机构最佳回报TOP30”榜单</a>
+                                            <span>
+                                                08-19
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202608/t20260821_7202341.htm" target="_blank" title="国资委主任程福波最新调研：抓好新一轮国资国企改革方案落地见效，加快构建与世界一流企业相适应的体制机制">国资委主任程福波最新调研：抓好新一轮国资国企改革方案落地见效，加快构建与世界一流企业相适应的体制机制</a>
+                                            <span>
+                                                08-18
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/ggfp/202608/t20260821_7202339.htm" target="_blank" title="福建能源石化集团与华为签署深化合作协议">福建能源石化集团与华为签署深化合作协议</a>
+                                            <span>
+                                                08-17
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202609/t20260909_7211149.htm" target="_blank" title="福建外贸集团召开树立和践行正确政绩观学习教育总结会">福建外贸集团召开树立和践行正确政绩观学习教育总结会</a>
+                                            <span>
+                                                09-09
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202609/t20260909_7211159.htm" target="_blank" title="福建能源石化集团召开党委（扩大）会议 总结树立和践行正确政绩观学习教育">福建能源石化集团召开党委（扩大）会议 总结树立和践行正确政绩观学习教育</a>
+                                            <span>
+                                                09-08
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202609/t20260909_7211151.htm" target="_blank" title="福建投资集团召开党委纪委专题会商会议">福建投资集团召开党委纪委专题会商会议</a>
+                                            <span>
+                                                09-03
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202609/t20260909_7211164.htm" target="_blank" title="福建工控集团党委书记、董事长杨方到福麒麟公司调研">福建工控集团党委书记、董事长杨方到福麒麟公司调研</a>
+                                            <span>
+                                                09-02
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202608/t20260817_7200369.htm" target="_blank" title="追寻百年薪火，砥砺初心使命——电子集团权属四创科技第四党支部开展红色现场研学活动">追寻百年薪火，砥砺初心使命——电子集团权属四创科技第四党支部开展红色现场研学活动</a>
+                                            <span>
+                                                08-17
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202608/t20260817_7200370.htm" target="_blank" title="福建能源石化集团党委理论学习中心组专题学习习近平党建思想">福建能源石化集团党委理论学习中心组专题学习习近平党建思想</a>
+                                            <span>
+                                                08-11
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/qydq/202608/t20260817_7200366.htm" target="_blank" title="大数据集团传达学习贯彻省委十一届十次全会精神">大数据集团传达学习贯彻省委十一届十次全会精神</a>
+                                            <span>
+                                                08-06
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202609/t20260922_7216730.htm" target="_blank" title="坚定信心 保持定力 持之以恒推进全面从严治党">坚定信心 保持定力 持之以恒推进全面从严治党</a>
+                                            <span>
+                                                09-22
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202609/t20260922_7216725.htm" target="_blank" title="提高不敢腐不能腐不想腐综合功效">提高不敢腐不能腐不想腐综合功效</a>
+                                            <span>
+                                                09-22
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202609/t20260922_7216724.htm" target="_blank" title="以习近平党建思想引领纪检监察工作高质量发展">以习近平党建思想引领纪检监察工作高质量发展</a>
+                                            <span>
+                                                09-22
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202609/t20260922_7216721.htm" target="_blank" title="深入贯彻习近平总书记重要要求
+
+以钉钉子精神抓好群众身边不正之风和腐败问题集中整治">深入贯彻习近平总书记重要要求
+
+以钉钉子精神抓好群众身边不正之风和腐败问题集中整治</a>
+                                            <span>
+                                                09-22
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202608/t20260825_7203836.htm" target="_blank" title="深入学习贯彻习近平党建思想
+以更高标准、更实举措完成好全年各项工作任务">深入学习贯彻习近平党建思想
+以更高标准、更实举措完成好全年各项工作任务</a>
+                                            <span>
+                                                08-25
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202608/t20260825_7203834.htm" target="_blank" title="习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 
+努力创造经得起实践人民历史检验的实绩">习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 
+努力创造经得起实践人民历史检验的实绩</a>
+                                            <span>
+                                                08-25
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zwgk/gzdt/gzjg/jjjc/202608/t20260825_7203831.htm" target="_blank" title="中国共产党第二十届中央纪律检查委员会第六次全体会议公报">中国共产党第二十届中央纪律检查委员会第六次全体会议公报</a>
+                                            <span>
+                                                08-25
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 解读回应 -->
+                <div class="qh-tab" style="display:none" ms-visible="curr==1">
+                    <div class="jdhy-box clearflx" ms-controller="tabFgfb">
+                        <div class="clearflx">
+                            <div class="sy-title hygq-tit clearflx">
+                                <div class="sy-title-l clearflx">
+                                    <a class="on" href="javascript:;" title="法规发布" ms-mouseover="$tog(0)">法规发布</a>
+                                    <a href="javascript:;" title="法规解读" ms-mouseover="$tog(1)">法规解读</a>
+                                </div>
+                                <a ms-visible="curr==0" href="http://gzw.fujian.gov.cn/zwgk/xxgkzl/xxgkml/gfxwj/"
+                                    target="_blank" class="gengduo">更多></a>
+                                <a ms-visible="curr==1"
+                                    href="http://gzw.fujian.gov.cn/zcjd/wjgzcfgjd/" target="_blank"
+                                    class="gengduo">更多></a>
+                            </div>
+                            <div class="clearflx rel " id="focusBox">
+
+                                <a href="javascript:;" class="xyjt1 xyjt11 prev">
+                                    <img src="./images/20211209-gzw-fgjt1.png" alt="" />
+                                </a>
+                                <a href="javascript:;" class="xyjt2 xyjt22 next">
+                                    <img src="./images/20211209-gzw-fgjt2.png" alt="" />
+                                </a>
+                                <div class="bd">
+                                    <ul class="gssg-ul clearflx">
+                                        
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="clearflx rel" id="focusBoxlist" style="display: none;">
+
+                                <a href="javascript:;" class="xyjt1 xyjt11 prev">
+                                    <img src="./images/20211209-gzw-fgjt1.png" alt="" />
+                                </a>
+                                <a href="javascript:;" class="xyjt2 xyjt22 next">
+                                    <img src="./images/20211209-gzw-fgjt2.png" alt="" />
+                                </a>
+                                <div class="bd">
+                                    <ul class="gssg-ul clearflx">
+                                        
+                                            <li>
+                                                <a target="_blank" href='./zcjd/wjgzcfgjd/202403/t20240304_6408998.htm'
+                                                    title='图解：所出资企业财务决算审核发现问题整改和责任追究工作规定'>
+                                                    <h4>
+                                                        图解：所出资企业财务决算审核发现问题整改和责任追究工作规定
+                                                    </h4>
+                                                    <div class="clearflx">
+                                                        <p>
+                                                            2024.03.04
+                                                        </p>
+                                                        <span></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" href='./zcjd/wjgzcfgjd/202403/t20240304_6408996.htm'
+                                                    title='《所出资企业财务决算审核发现问题整改和责任追究工作规定》政策解读'>
+                                                    <h4>
+                                                        《所出资企业财务决算审核发现问题整改和责任追究工作规定》政策解读
+                                                    </h4>
+                                                    <div class="clearflx">
+                                                        <p>
+                                                            2024.03.04
+                                                        </p>
+                                                        <span></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" href='./zcjd/wjgzcfgjd/202312/t20231226_6367348.htm'
+                                                    title='图解：关于推动省属企业与民营企业加强对接合作的实施意见'>
+                                                    <h4>
+                                                        图解：关于推动省属企业与民营企业加强对接合作的实施意见
+                                                    </h4>
+                                                    <div class="clearflx">
+                                                        <p>
+                                                            2023.12.26
+                                                        </p>
+                                                        <span></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" href='./zcjd/wjgzcfgjd/202312/t20231226_6367344.htm'
+                                                    title='《关于推动省属企业与民营企业加强对接合作的实施意见》政策解读'>
+                                                    <h4>
+                                                        《关于推动省属企业与民营企业加强对接合作的实施意见》政策解读
+                                                    </h4>
+                                                    <div class="clearflx">
+                                                        <p>
+                                                            2023.12.26
+                                                        </p>
+                                                        <span></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" href='./zcjd/wjgzcfgjd/202311/t20231110_6293428.htm'
+                                                    title='图解：《福建省国资委出资企业法律纠纷案件管理办法》的有关说明'>
+                                                    <h4>
+                                                        图解：《福建省国资委出资企业法律纠纷案件管理办法》的有关说明
+                                                    </h4>
+                                                    <div class="clearflx">
+                                                        <p>
+                                                            2023.11.10
+                                                        </p>
+                                                        <span></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jdhy-qh clearflx">
+                            <div class="w50 fl">
+                                <div class="tab1  hd clearflx">
+                                    <ul class="fl clearflx">
+                                        <li class="on"><a
+                                                href="http://gzw.fujian.gov.cn/zcjd/qtzcfgjd/"
+                                                target="_blank" title="省政府政策法规解读">省政府政策法规解读<em></em></a></li>
+                                    </ul>
+                                    <a class="gengduo"
+                                        href="http://gzw.fujian.gov.cn/zcjd/qtzcfgjd/"
+                                        target="_blank">更多></a>
+                                </div>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/qtzcfgjd/202509/t20250918_7011902.htm" target="_blank" title="关于修订《福建省政府质量奖管理办法》政策解读">关于修订《福建省政府质量奖管理办法》政策解读</a>
+                                            <span>
+                                                09-18
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/qtzcfgjd/202509/t20250918_7011901.htm" target="_blank" title="《关于加快福建经济社会发展全面绿色转型的行动方案》政策解读">《关于加快福建经济社会发展全面绿色转型的行动方案》政策解读</a>
+                                            <span>
+                                                09-18
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/qtzcfgjd/202505/t20250508_6909761.htm" target="_blank" title="《福建省综合评标专家和专家库管理办法》政策解读">《福建省综合评标专家和专家库管理办法》政策解读</a>
+                                            <span>
+                                                05-08
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/qtzcfgjd/202505/t20250508_6909755.htm" target="_blank" title="《福建省人民政府办公厅关于健全基本医疗保险参保长效机制的实施意见》政策解读">《福建省人民政府办公厅关于健全基本医疗保险参保长效机制的实施意见》政策解读</a>
+                                            <span>
+                                                05-08
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/qtzcfgjd/202501/t20250103_6601836.htm" target="_blank" title="福建两地住房公积金政策有调整！">福建两地住房公积金政策有调整！</a>
+                                            <span>
+                                                10-16
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="w50 gwy-box fr">
+                                <div class="tab1  hd clearflx">
+                                    <ul class="fl clearflx">
+                                        <li class="on"><a
+                                                href="http://gzw.fujian.gov.cn/zcjd/gwyzcfgjd/"
+                                                target="_blank" title="国务院政策法规解读">国务院政策法规解读<em></em></a></li>
+                                    </ul>
+                                    <a class="gengduo"
+                                        href="http://gzw.fujian.gov.cn/zcjd/gwyzcfgjd/"
+                                        target="_blank">更多></a>
+                                </div>
+                                <ul class="xw-list-1 xw-list-2">
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/gwyzcfgjd/202509/t20250918_7011908.htm" target="_blank" title="“十四五”期间9家新央企组建设立">“十四五”期间9家新央企组建设立</a>
+                                            <span>
+                                                09-18
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/gwyzcfgjd/202509/t20250918_7011906.htm" target="_blank" title="8个民生好消息！">8个民生好消息！</a>
+                                            <span>
+                                                09-18
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/gwyzcfgjd/202505/t20250508_6909767.htm" target="_blank" title="看一揽子金融政策如何稳市场稳预期">看一揽子金融政策如何稳市场稳预期</a>
+                                            <span>
+                                                05-08
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/gwyzcfgjd/202505/t20250508_6909764.htm" target="_blank" title="国务院国资委印发《企业国有资产交易操作规则》">国务院国资委印发《企业国有资产交易操作规则》</a>
+                                            <span>
+                                                05-08
+                                            </span>
+                                        </li>
+                                    
+                                        <li>
+                                            <i></i>
+                                            <a href="./zcjd/gwyzcfgjd/202501/t20250103_6601842.htm" target="_blank" title="推动电动自行车以旧换新，方案来了！">推动电动自行车以旧换新，方案来了！</a>
+                                            <span>
+                                                08-31
+                                            </span>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 办事服务 -->
+                <div class="qh-tab" style="display:none" ms-visible="curr==2">
+                    <ul class="zddt_list clearflx">
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsgsgljtyxgs/" target="_blank"
+                                    title="福建省高速公路集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省高速公路集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjstzkfjtyxzrgs/" target="_blank"
+                                    title="福建省投资开发集团有限责任公司">
+                                    <span>
+                                        <em>
+                                            福建省投资开发集团有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsyjkgyxzrgs/" target="_blank"
+                                    title="福建省工业控股集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省工业控股集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsnyjtyxzrgs/" target="_blank"
+                                    title="福建省能源石化集团有限责任公司">
+                                    <span>
+                                        <em>
+                                            福建省能源石化集团有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsjtysjtyxzrgs/" target="_blank"
+                                    title="福建省港口集团有限责任公司">
+                                    <span>
+                                        <em>
+                                            福建省港口集团有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsqcgyjtyxgs/" target="_blank"
+                                    title="福建省汽车工业集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省汽车工业集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsdzxxjtyxgs/" target="_blank"
+                                    title="福建省电子信息(集团)有限责任公司">
+                                    <span>
+                                        <em>
+                                            福建省电子信息(集团)有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjscbgyjtyxgs/" target="_blank"
+                                    title="福建省船舶工业集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省船舶工业集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjjgjtyxzrgs/" target="_blank"
+                                    title="福建省建设投资集团有限责任公司">
+                                    <span>
+                                        <em>
+                                            福建省建设投资集团有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjslyfzjtyxzrgs/" target="_blank"
+                                    title="福建省旅游发展集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省旅游发展集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/zgfjdwmyzxjtyxzrgs/" target="_blank"
+                                    title="中国(福建)对外贸易中心集团有限责任公司">
+                                    <span>
+                                        <em>
+                                            中国(福建)对外贸易中心集团有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjszbcgjtyxgs/" target="_blank"
+                                    title="福建省招标采购集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省招标采购集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjssltzkfjtyxgs/" target="_blank"
+                                    title="福建省水利投资开发集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省水利投资开发集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsyhgjtyxzrgs/" target="_blank"
+                                    title="福建省大数据集团有限公司">
+                                    <span>
+                                        <em>
+                                            福建省大数据集团有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsgyzcglyxgs/" target="_blank"
+                                    title="福建省国有资产管理有限公司">
+                                    <span>
+                                        <em>
+                                            福建省国有资产管理有限公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/ssqy_1/fjsyyjtyxzrgs/" target="_blank"
+                                    title="福建省医药集团有限责任公司">
+                                    <span>
+                                        <em>
+                                            福建省医药集团有限责任公司
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- 互动交流 -->
+                <div class="qh-tab" style="display:block" ms-visible="curr==3">
+                    <ul class="zddt_list2 clearflx">
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/fzsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="福州市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            福州市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/smsrmzfgyzcjdglwyh_6319/" target="_blank"
+                                    title="厦门市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            厦门市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/zzsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="漳州市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            漳州市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/qzsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="泉州市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            泉州市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/smsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="三明市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            三明市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/ptsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="莆田市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            莆田市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/npsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="南平市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            南平市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/lysrmzfgyzcjdglwyh/" target="_blank"
+                                    title="龙岩市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            龙岩市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/ndsrmzfgyzcjdglwyh/" target="_blank"
+                                    title="宁德市人民政府国有资产监督管理委员会">
+                                    <span>
+                                        <em>
+                                            宁德市人民政府国有资产监督管理委员会
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="./gzgk/sqsgzw/ptzhsyqgyzcglj/" target="_blank"
+                                    title="平潭综合实验区投资促进局">
+                                    <span>
+                                        <em>
+                                            平潭综合实验区投资促进局
+                                        </em>
+                                    </span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <!-- <div class="sy-ztzl w1300 clearflx">
+            <div class="ztzl-bt clearflx">
+                <h4>专题专栏</h4>
+                <a class="gengduo" href="http://gzw.fujian.gov.cn/ztzl/"
+                    target="_blank">更多></a>
+            </div>
+            <div class="ztzl-box rel" id="ztzllbt">
+                <a href="javascript:;" class="xyjt1 prev"><img src="./images/20211209-gzw-left.png" alt="" /></a>
+                <a href="javascript:;" class="xyjt2 next"><img src="./images/20211209-gzw-right.png" alt="" /></a>
+                <div class="bd">
+                    <ul class="clearflx">
+                        
+                            <li>
+                                <a href="/ztzl/qggqdjhszn/" TARGET="_blank" title="全国国企党建会十周年">
+                                    <img alt="全国国企党建会十周年" src="./ztzl/202606/W020260608636655681455.png" />
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/ztzl/sljxzqzjg/" TARGET="_blank" title="树立和践行正确政绩观学习教育">
+                                    <img alt="树立和践行正确政绩观学习教育" src="./ztzl/202603/W020260309612494351272.png" />
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>  -->
+    </div>
+
+    <!-- 底部嵌套 -->
+    <!-- 底部嵌套 -->
+<div id="footer_2021">
+    <div class="pho-foot_2021">
+      <div class="xzk_2021">
+        <ul>
+          <li>
+            <p>国家及各省市国资委</p>
+            <div class="mark_2021" style="display: none">
+              <div class="dialog_2021">
+               <ul>
+                  
+                    <li><a href="http://www.sasac.gov.cn/" target="_blank" title="国务院国资委">国务院国资委</a></li>
+                  
+                    <li><a href="http://gzw.beijing.gov.cn" target="_blank" title="北京市国资委">北京市国资委</a></li>
+                  
+                    <li><a href="http://sasac.tj.gov.cn/" target="_blank" title="天津市国资委">天津市国资委</a></li>
+                  
+                    <li><a href="http://hbsa.hebei.gov.cn/" target="_blank" title="河北省国资委">河北省国资委</a></li>
+                  
+                    <li><a href="http://gzw.shanxi.gov.cn/" target="_blank" title="山西省国资委">山西省国资委</a></li>
+                  
+                    <li><a href="http://gzw.nmg.gov.cn/" target="_blank" title="内蒙古自治区国资委">内蒙古自治区国资委</a></li>
+                  
+                    <li><a href="http://gzw.ln.gov.cn/" target="_blank" title="辽宁省国资委">辽宁省国资委</a></li>
+                  
+                    <li><a href="http://gzw.jl.gov.cn/" target="_blank" title="吉林省国资委">吉林省国资委</a></li>
+                  
+                    <li><a href="http://gzw.hlj.gov.cn/" target="_blank" title="黑龙江省国资委">黑龙江省国资委</a></li>
+                  
+                    <li><a href="https://www.gzw.sh.gov.cn/" target="_blank" title="上海市国资委">上海市国资委</a></li>
+                  
+                    <li><a href="http://jsgzw.jiangsu.gov.cn/" target="_blank" title="江苏省国资委">江苏省国资委</a></li>
+                  
+                    <li><a href="http://gzw.zj.gov.cn/" target="_blank" title="浙江省国资委">浙江省国资委</a></li>
+                  
+                    <li><a href="http://gzw.jiangxi.gov.cn/" target="_blank" title="江西省国资委">江西省国资委</a></li>
+                  
+                    <li><a href="http://gzw.shandong.gov.cn/" target="_blank" title="山东省国资委">山东省国资委</a></li>
+                  
+                    <li><a href="http://gzw.henan.gov.cn/" target="_blank" title="河南省国资委">河南省国资委</a></li>
+                  
+                    <li><a href="http://gzw.hubei.gov.cn/" target="_blank" title="湖北省国资委">湖北省国资委</a></li>
+                  
+                    <li><a href="http://gzw.gd.gov.cn/" target="_blank" title="广东省国资委">广东省国资委</a></li>
+                  
+                    <li><a href="http://gzw.gxzf.gov.cn/" target="_blank" title="广西壮族自治区国资委">广西壮族自治区国资委</a></li>
+                  
+                    <li><a href="http://gzw.hainan.gov.cn/" target="_blank" title="海南省国资委">海南省国资委</a></li>
+                  
+                    <li><a href="http://gzw.cq.gov.cn/" target="_blank" title="重庆市国资委">重庆市国资委</a></li>
+                  
+                    <li><a href="http://gzw.sc.gov.cn/" target="_blank" title="四川省国资委">四川省国资委</a></li>
+                  
+                    <li><a href="http://gzw.guizhou.gov.cn/" target="_blank" title="贵州省国资委">贵州省国资委</a></li>
+                  
+                    <li><a href="http://gzw.yn.gov.cn/" target="_blank" title="云南省国资委">云南省国资委</a></li>
+                  
+                    <li><a href="http://sxgz.shaanxi.gov.cn/" target="_blank" title="陕西省国资委">陕西省国资委</a></li>
+                  
+                    <li><a href="http://gzw.gansu.gov.cn/" target="_blank" title="甘肃省国资委">甘肃省国资委</a></li>
+                  
+                    <li><a href="http://gzw.nx.gov.cn/" target="_blank" title="宁夏回族自治区国资委">宁夏回族自治区国资委</a></li>
+                  
+                    <li><a href="http://gzw.xinjiang.gov.cn/" target="_blank" title="新疆维吾尔自治区国资委">新疆维吾尔自治区国资委</a></li>
+                  
+                    <li><a href="http://gyzc.xjbt.gov.cn/" target="_blank" title="新疆兵团国资委">新疆兵团国资委</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>本省设区市国资委</p>
+            <div class="mark_2021" style="display: none">
+              <div class="dialog_2021">
+                <ul>
+                   
+                    <li><a href="https://gzw.fuzhou.gov.cn/" target="_blank" title="福州市国资委">福州市国资委</a></li>
+                  
+                    <li><a href="http://www.putian.gov.cn/" target="_blank" title="莆田市国资委">莆田市国资委</a></li>
+                  
+                    <li><a href="http://gzw.quanzhou.gov.cn/" target="_blank" title="泉州市国资委">泉州市国资委</a></li>
+                  
+                    <li><a href="http://gzw.xm.gov.cn/" target="_blank" title="厦门市国资委">厦门市国资委</a></li>
+                  
+                    <li><a href="http://gzw.zhangzhou.gov.cn/" target="_blank" title="漳州市国资委">漳州市国资委</a></li>
+                  
+                    <li><a href="http://lygzw.longyan.gov.cn/" target="_blank" title="龙岩市国资委">龙岩市国资委</a></li>
+                  
+                    <li><a href="http://smsgzw.sm.gov.cn/" target="_blank" title="三明市国资委">三明市国资委</a></li>
+                  
+                    <li><a href="http://gzw.np.gov.cn/" target="_blank" title="南平市国资委">南平市国资委</a></li>
+                  
+                    <li><a href="http://gzw.ningde.gov.cn/" target="_blank" title="宁德市国资委">宁德市国资委</a></li>
+                  
+                    <li><a href="http://www.pingtan.gov.cn/" target="_blank" title="平潭综合实验区投资促进局">平潭综合实验区投资促进局</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>省直厅局单位 </p>
+            <div class="mark_2021" style="display: none">
+              <div class="dialog_2021">
+               <ul>
+                   
+                    <li><a href="http://fgw.fujian.gov.cn/" target="_blank" title="福建省发展和改革委员会">福建省发展和改革委员会</a></li>
+                  
+                    <li><a href="http://jyt.fujian.gov.cn/" target="_blank" title="福建省教育厅(省委教育工作委员会)">福建省教育厅(省委教育工作委员会)</a></li>
+                  
+                    <li><a href="http://kjt.fujian.gov.cn/" target="_blank" title="福建省科学技术厅">福建省科学技术厅</a></li>
+                  
+                    <li><a href="http://gxt.fujian.gov.cn/" target="_blank" title="福建省工业和信息化厅(无线电管理办公室)">福建省工业和信息化厅(无线电管理办公室)</a></li>
+                  
+                    <li><a href="http://mzzjt.fujian.gov.cn/" target="_blank" title="福建省民族与宗教事务厅">福建省民族与宗教事务厅</a></li>
+                  
+                    <li><a href="http://gat.fujian.gov.cn/" target="_blank" title="福建省公安厅(省打击走私综合治理工作办公室)">福建省公安厅(省打击走私综合治理工作办公室)</a></li>
+                  
+                    <li><a href="http://mzt.fujian.gov.cn/" target="_blank" title="福建省民政厅">福建省民政厅</a></li>
+                  
+                    <li><a href="http://sft.fujian.gov.cn/" target="_blank" title="福建省司法厅">福建省司法厅</a></li>
+                  
+                    <li><a href="http://czt.fujian.gov.cn/" target="_blank" title="福建省财政厅">福建省财政厅</a></li>
+                  
+                    <li><a href="http://rst.fujian.gov.cn" target="_blank" title="福建省人力资源和社会保障厅">福建省人力资源和社会保障厅</a></li>
+                  
+                    <li><a href="http://zrzyt.fujian.gov.cn" target="_blank" title="福建省自然资源厅">福建省自然资源厅</a></li>
+                  
+                    <li><a href="http://sthjt.fujian.gov.cn/" target="_blank" title="福建省生态环境厅">福建省生态环境厅</a></li>
+                  
+                    <li><a href="http://zjt.fujian.gov.cn/" target="_blank" title="福建省住房和城乡建设厅">福建省住房和城乡建设厅</a></li>
+                  
+                    <li><a href="http://jtyst.fujian.gov.cn/" target="_blank" title="福建省交通运输厅">福建省交通运输厅</a></li>
+                  
+                    <li><a href="http://slt.fujian.gov.cn/" target="_blank" title="福建省水利厅">福建省水利厅</a></li>
+                  
+                    <li><a href="http://nynct.fujian.gov.cn/" target="_blank" title="福建省农业农村厅(扶贫开发领导小组办公室、省委实施乡村振兴战略领导小组办公室)">福建省农业农村厅(扶贫开发领导小组办公室、省委实施乡村振兴战略领导小组办公室)</a></li>
+                  
+                    <li><a href="http://swt.fujian.gov.cn/" target="_blank" title="福建省商务厅(省政府口岸工作办公室)">福建省商务厅(省政府口岸工作办公室)</a></li>
+                  
+                    <li><a href="http://wlt.fujian.gov.cn/" target="_blank" title="省文旅厅">省文旅厅</a></li>
+                  
+                    <li><a href="http://wjw.fujian.gov.cn/" target="_blank" title="福建省卫生健康委员会">福建省卫生健康委员会</a></li>
+                  
+                    <li><a href="http://tyjrswt.fujian.gov.cn/" target="_blank" title="福建省退役军人事务厅(双拥共建工作领导小组办公室)">福建省退役军人事务厅(双拥共建工作领导小组办公室)</a></li>
+                  
+                    <li><a href="http://yjt.fujian.gov.cn/" target="_blank" title="福建省应急管理厅">福建省应急管理厅</a></li>
+                  
+                    <li><a href="http://sjt.fujian.gov.cn/" target="_blank" title="福建省审计厅">福建省审计厅</a></li>
+                  
+                    <li><a href="http://wb.fujian.gov.cn/" target="_blank" title="福建省人民政府外事办公室(省政府港澳事务办公室、省人民对外友好协会)">福建省人民政府外事办公室(省政府港澳事务办公室、省人民对外友好协会)</a></li>
+                  
+                    <li><a href="http://lyj.fujian.gov.cn/" target="_blank" title="福建省林业局">福建省林业局</a></li>
+                  
+                    <li><a href="http://hyyyj.fujian.gov.cn/" target="_blank" title="福建省海洋渔业局">福建省海洋渔业局</a></li>
+                  
+                    <li><a href="http://scjgj.fujian.gov.cn/" target="_blank" title="福建省市场监管局">福建省市场监管局</a></li>
+                  
+                    <li><a href="http://gdj.fujian.gov.cn/" target="_blank" title="福建省广电局">福建省广电局</a></li>
+                  
+                    <li><a href="http://tyj.fujian.gov.cn/" target="_blank" title="福建省体育局">福建省体育局</a></li>
+                  
+                    <li><a href="http://tjj.fujian.gov.cn/" target="_blank" title="福建省统计局">福建省统计局</a></li>
+                  
+                    <li><a href="http://gdb.fujian.gov.cn/" target="_blank" title="福建省人防办">福建省人防办</a></li>
+                  
+                    <li><a href="http://ybj.fujian.gov.cn/" target="_blank" title="福建省医保局">福建省医保局</a></li>
+                  
+                    <li><a href="http://jrb.fujian.gov.cn/" target="_blank" title="福建省金融监管局">福建省金融监管局</a></li>
+                  
+                    <li><a href="http://xfj.fujian.gov.cn/" target="_blank" title="福建省信访局">福建省信访局</a></li>
+                  
+                    <li><a href="http://jgswglj.fujian.gov.cn/" target="_blank" title="福建省机关管理局">福建省机关管理局</a></li>
+                  
+                    <li><a href="http://fgw.fujian.gov.cn/ztzl/szfjzt/" target="_blank" title="福建省数字办">福建省数字办</a></li>
+                  
+                    <li><a href="http://lsj.fujian.gov.cn/" target="_blank" title="福建省粮储局">福建省粮储局</a></li>
+                  
+                    <li><a href="http://jyj.sft.fujian.gov.cn/" target="_blank" title="福建省监狱管理局">福建省监狱管理局</a></li>
+                  
+                    <li><a href="http://wwj.wlt.fujian.gov.cn/" target="_blank" title="福建省文物局">福建省文物局</a></li>
+                  
+                    <li><a href="http://yjj.scjgj.fujian.gov.cn/default.htm" target="_blank" title="福建省药监局">福建省药监局</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+            <li>
+            <p> 所出资企业</p>
+            <div class="mark_2021" style="display: none">
+              <div class="dialog_2021">
+                <ul>
+                   
+                    <li><a href="http://www.fjgsgl.com/" target="_blank" title="福建省高速公路集团有限公司">福建省高速公路集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fidc.com.cn/" target="_blank" title="福建省投资开发集团有限责任公司">福建省投资开发集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjyjkg.com" target="_blank" title="福建省工业控股集团有限公司">福建省工业控股集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fjnhjt.cn/" target="_blank" title="福建省能源石化集团有限责任公司">福建省能源石化集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjpg.cn/" target="_blank" title="福建省港口集团有限责任公司">福建省港口集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjmotor.com.cn" target="_blank" title="福建省汽车工业集团有限公司">福建省汽车工业集团有限公司</a></li>
+                  
+                    <li><a href="http://www.feig.com.cn/" target="_blank" title="福建省电子信息（集团）有限责任公司">福建省电子信息（集团）有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fsigc.com/" target="_blank" title="福建省船舶工业集团公司">福建省船舶工业集团公司</a></li>
+                  
+                    <li><a href="https://www.fjjtjt.com.cn/" target="_blank" title="福建省建设投资集团有限责任公司">福建省建设投资集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjlygroup.com" target="_blank" title="福建省旅游发展集团有限公司">福建省旅游发展集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fftcc.com/" target="_blank" title="中国（福建）对外贸易中心集团有限责任公司">中国（福建）对外贸易中心集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fujianbid.com/" target="_blank" title="福建省招标采购集团有限公司">福建省招标采购集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fjstjt.com/" target="_blank" title="福建省水利投资开发集团有限公司">福建省水利投资开发集团有限公司</a></li>
+                  
+                    <li><a href="https://www.fjbdg.com.cn/" target="_blank" title="福建省大数据集团有限公司">福建省大数据集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fjsgzgs.com" target="_blank" title="福建省国有资产管理有限公司">福建省国有资产管理有限公司</a></li>
+                  
+                    <li><a href="http://www.fjyyjt.com/" target="_blank" title="福建省医药集团有限责任公司">福建省医药集团有限责任公司</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </li>
+            
+        </ul>
+      </div>
+    </div>
+    <div class="yqlj_con_2021">
+      <div class="w_1300_2021 rel_2021">
+        <div class="yqlj_tit1_2021">
+          <ul>
+            <li>
+              <p>国家及各省市国资委<em></em></p>
+              <div class="yqlj_con1_2021" style="display: none">
+                <ul>
+                  
+                    <li><a href="http://www.sasac.gov.cn/" target="_blank" title="国务院国资委">国务院国资委</a></li>
+                  
+                    <li><a href="http://gzw.beijing.gov.cn" target="_blank" title="北京市国资委">北京市国资委</a></li>
+                  
+                    <li><a href="http://sasac.tj.gov.cn/" target="_blank" title="天津市国资委">天津市国资委</a></li>
+                  
+                    <li><a href="http://hbsa.hebei.gov.cn/" target="_blank" title="河北省国资委">河北省国资委</a></li>
+                  
+                    <li><a href="http://gzw.shanxi.gov.cn/" target="_blank" title="山西省国资委">山西省国资委</a></li>
+                  
+                    <li><a href="http://gzw.nmg.gov.cn/" target="_blank" title="内蒙古自治区国资委">内蒙古自治区国资委</a></li>
+                  
+                    <li><a href="http://gzw.ln.gov.cn/" target="_blank" title="辽宁省国资委">辽宁省国资委</a></li>
+                  
+                    <li><a href="http://gzw.jl.gov.cn/" target="_blank" title="吉林省国资委">吉林省国资委</a></li>
+                  
+                    <li><a href="http://gzw.hlj.gov.cn/" target="_blank" title="黑龙江省国资委">黑龙江省国资委</a></li>
+                  
+                    <li><a href="https://www.gzw.sh.gov.cn/" target="_blank" title="上海市国资委">上海市国资委</a></li>
+                  
+                    <li><a href="http://jsgzw.jiangsu.gov.cn/" target="_blank" title="江苏省国资委">江苏省国资委</a></li>
+                  
+                    <li><a href="http://gzw.zj.gov.cn/" target="_blank" title="浙江省国资委">浙江省国资委</a></li>
+                  
+                    <li><a href="http://gzw.jiangxi.gov.cn/" target="_blank" title="江西省国资委">江西省国资委</a></li>
+                  
+                    <li><a href="http://gzw.shandong.gov.cn/" target="_blank" title="山东省国资委">山东省国资委</a></li>
+                  
+                    <li><a href="http://gzw.henan.gov.cn/" target="_blank" title="河南省国资委">河南省国资委</a></li>
+                  
+                    <li><a href="http://gzw.hubei.gov.cn/" target="_blank" title="湖北省国资委">湖北省国资委</a></li>
+                  
+                    <li><a href="http://gzw.gd.gov.cn/" target="_blank" title="广东省国资委">广东省国资委</a></li>
+                  
+                    <li><a href="http://gzw.gxzf.gov.cn/" target="_blank" title="广西壮族自治区国资委">广西壮族自治区国资委</a></li>
+                  
+                    <li><a href="http://gzw.hainan.gov.cn/" target="_blank" title="海南省国资委">海南省国资委</a></li>
+                  
+                    <li><a href="http://gzw.cq.gov.cn/" target="_blank" title="重庆市国资委">重庆市国资委</a></li>
+                  
+                    <li><a href="http://gzw.sc.gov.cn/" target="_blank" title="四川省国资委">四川省国资委</a></li>
+                  
+                    <li><a href="http://gzw.guizhou.gov.cn/" target="_blank" title="贵州省国资委">贵州省国资委</a></li>
+                  
+                    <li><a href="http://gzw.yn.gov.cn/" target="_blank" title="云南省国资委">云南省国资委</a></li>
+                  
+                    <li><a href="http://sxgz.shaanxi.gov.cn/" target="_blank" title="陕西省国资委">陕西省国资委</a></li>
+                  
+                    <li><a href="http://gzw.gansu.gov.cn/" target="_blank" title="甘肃省国资委">甘肃省国资委</a></li>
+                  
+                    <li><a href="http://gzw.nx.gov.cn/" target="_blank" title="宁夏回族自治区国资委">宁夏回族自治区国资委</a></li>
+                  
+                    <li><a href="http://gzw.xinjiang.gov.cn/" target="_blank" title="新疆维吾尔自治区国资委">新疆维吾尔自治区国资委</a></li>
+                  
+                    <li><a href="http://gyzc.xjbt.gov.cn/" target="_blank" title="新疆兵团国资委">新疆兵团国资委</a></li>
+                  
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p>本省设区市国资委<em></em></p>
+              <div class="yqlj_con1_2021" style="display:none">
+                <ul>
+                   
+                    <li><a href="https://gzw.fuzhou.gov.cn/" target="_blank" title="福州市国资委">福州市国资委</a></li>
+                  
+                    <li><a href="http://www.putian.gov.cn/" target="_blank" title="莆田市国资委">莆田市国资委</a></li>
+                  
+                    <li><a href="http://gzw.quanzhou.gov.cn/" target="_blank" title="泉州市国资委">泉州市国资委</a></li>
+                  
+                    <li><a href="http://gzw.xm.gov.cn/" target="_blank" title="厦门市国资委">厦门市国资委</a></li>
+                  
+                    <li><a href="http://gzw.zhangzhou.gov.cn/" target="_blank" title="漳州市国资委">漳州市国资委</a></li>
+                  
+                    <li><a href="http://lygzw.longyan.gov.cn/" target="_blank" title="龙岩市国资委">龙岩市国资委</a></li>
+                  
+                    <li><a href="http://smsgzw.sm.gov.cn/" target="_blank" title="三明市国资委">三明市国资委</a></li>
+                  
+                    <li><a href="http://gzw.np.gov.cn/" target="_blank" title="南平市国资委">南平市国资委</a></li>
+                  
+                    <li><a href="http://gzw.ningde.gov.cn/" target="_blank" title="宁德市国资委">宁德市国资委</a></li>
+                  
+                    <li><a href="http://www.pingtan.gov.cn/" target="_blank" title="平潭综合实验区投资促进局">平潭综合实验区投资促进局</a></li>
+                  
+                </ul>
+              </div>
+            </li>
+            <li>
+              <p>省直厅局单位<em></em></p>
+               <div class="yqlj_con1_2021" style="display:none">
+                <ul>
+                   
+                    <li><a href="http://fgw.fujian.gov.cn/" target="_blank" title="福建省发展和改革委员会">福建省发展和改革委员会</a></li>
+                  
+                    <li><a href="http://jyt.fujian.gov.cn/" target="_blank" title="福建省教育厅(省委教育工作委员会)">福建省教育厅(省委教育工作委员会)</a></li>
+                  
+                    <li><a href="http://kjt.fujian.gov.cn/" target="_blank" title="福建省科学技术厅">福建省科学技术厅</a></li>
+                  
+                    <li><a href="http://gxt.fujian.gov.cn/" target="_blank" title="福建省工业和信息化厅(无线电管理办公室)">福建省工业和信息化厅(无线电管理办公室)</a></li>
+                  
+                    <li><a href="http://mzzjt.fujian.gov.cn/" target="_blank" title="福建省民族与宗教事务厅">福建省民族与宗教事务厅</a></li>
+                  
+                    <li><a href="http://gat.fujian.gov.cn/" target="_blank" title="福建省公安厅(省打击走私综合治理工作办公室)">福建省公安厅(省打击走私综合治理工作办公室)</a></li>
+                  
+                    <li><a href="http://mzt.fujian.gov.cn/" target="_blank" title="福建省民政厅">福建省民政厅</a></li>
+                  
+                    <li><a href="http://sft.fujian.gov.cn/" target="_blank" title="福建省司法厅">福建省司法厅</a></li>
+                  
+                    <li><a href="http://czt.fujian.gov.cn/" target="_blank" title="福建省财政厅">福建省财政厅</a></li>
+                  
+                    <li><a href="http://rst.fujian.gov.cn" target="_blank" title="福建省人力资源和社会保障厅">福建省人力资源和社会保障厅</a></li>
+                  
+                    <li><a href="http://zrzyt.fujian.gov.cn" target="_blank" title="福建省自然资源厅">福建省自然资源厅</a></li>
+                  
+                    <li><a href="http://sthjt.fujian.gov.cn/" target="_blank" title="福建省生态环境厅">福建省生态环境厅</a></li>
+                  
+                    <li><a href="http://zjt.fujian.gov.cn/" target="_blank" title="福建省住房和城乡建设厅">福建省住房和城乡建设厅</a></li>
+                  
+                    <li><a href="http://jtyst.fujian.gov.cn/" target="_blank" title="福建省交通运输厅">福建省交通运输厅</a></li>
+                  
+                    <li><a href="http://slt.fujian.gov.cn/" target="_blank" title="福建省水利厅">福建省水利厅</a></li>
+                  
+                    <li><a href="http://nynct.fujian.gov.cn/" target="_blank" title="福建省农业农村厅(扶贫开发领导小组办公室、省委实施乡村振兴战略领导小组办公室)">福建省农业农村厅(扶贫开发领导小组办公室、省委实施乡村振兴战略领导小组办公室)</a></li>
+                  
+                    <li><a href="http://swt.fujian.gov.cn/" target="_blank" title="福建省商务厅(省政府口岸工作办公室)">福建省商务厅(省政府口岸工作办公室)</a></li>
+                  
+                    <li><a href="http://wlt.fujian.gov.cn/" target="_blank" title="省文旅厅">省文旅厅</a></li>
+                  
+                    <li><a href="http://wjw.fujian.gov.cn/" target="_blank" title="福建省卫生健康委员会">福建省卫生健康委员会</a></li>
+                  
+                    <li><a href="http://tyjrswt.fujian.gov.cn/" target="_blank" title="福建省退役军人事务厅(双拥共建工作领导小组办公室)">福建省退役军人事务厅(双拥共建工作领导小组办公室)</a></li>
+                  
+                    <li><a href="http://yjt.fujian.gov.cn/" target="_blank" title="福建省应急管理厅">福建省应急管理厅</a></li>
+                  
+                    <li><a href="http://sjt.fujian.gov.cn/" target="_blank" title="福建省审计厅">福建省审计厅</a></li>
+                  
+                    <li><a href="http://wb.fujian.gov.cn/" target="_blank" title="福建省人民政府外事办公室(省政府港澳事务办公室、省人民对外友好协会)">福建省人民政府外事办公室(省政府港澳事务办公室、省人民对外友好协会)</a></li>
+                  
+                    <li><a href="http://lyj.fujian.gov.cn/" target="_blank" title="福建省林业局">福建省林业局</a></li>
+                  
+                    <li><a href="http://hyyyj.fujian.gov.cn/" target="_blank" title="福建省海洋渔业局">福建省海洋渔业局</a></li>
+                  
+                    <li><a href="http://scjgj.fujian.gov.cn/" target="_blank" title="福建省市场监管局">福建省市场监管局</a></li>
+                  
+                    <li><a href="http://gdj.fujian.gov.cn/" target="_blank" title="福建省广电局">福建省广电局</a></li>
+                  
+                    <li><a href="http://tyj.fujian.gov.cn/" target="_blank" title="福建省体育局">福建省体育局</a></li>
+                  
+                    <li><a href="http://tjj.fujian.gov.cn/" target="_blank" title="福建省统计局">福建省统计局</a></li>
+                  
+                    <li><a href="http://gdb.fujian.gov.cn/" target="_blank" title="福建省人防办">福建省人防办</a></li>
+                  
+                    <li><a href="http://ybj.fujian.gov.cn/" target="_blank" title="福建省医保局">福建省医保局</a></li>
+                  
+                    <li><a href="http://jrb.fujian.gov.cn/" target="_blank" title="福建省金融监管局">福建省金融监管局</a></li>
+                  
+                    <li><a href="http://xfj.fujian.gov.cn/" target="_blank" title="福建省信访局">福建省信访局</a></li>
+                  
+                    <li><a href="http://jgswglj.fujian.gov.cn/" target="_blank" title="福建省机关管理局">福建省机关管理局</a></li>
+                  
+                    <li><a href="http://fgw.fujian.gov.cn/ztzl/szfjzt/" target="_blank" title="福建省数字办">福建省数字办</a></li>
+                  
+                    <li><a href="http://lsj.fujian.gov.cn/" target="_blank" title="福建省粮储局">福建省粮储局</a></li>
+                  
+                    <li><a href="http://jyj.sft.fujian.gov.cn/" target="_blank" title="福建省监狱管理局">福建省监狱管理局</a></li>
+                  
+                    <li><a href="http://wwj.wlt.fujian.gov.cn/" target="_blank" title="福建省文物局">福建省文物局</a></li>
+                  
+                    <li><a href="http://yjj.scjgj.fujian.gov.cn/default.htm" target="_blank" title="福建省药监局">福建省药监局</a></li>
+                  
+                </ul>
+              </div>
+            </li>
+              <li>
+              <p>所出资企业<em></em></p>
+               <div class="yqlj_con1_2021" style="display:none">
+                <ul>
+                   
+                    <li><a href="http://www.fjgsgl.com/" target="_blank" title="福建省高速公路集团有限公司">福建省高速公路集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fidc.com.cn/" target="_blank" title="福建省投资开发集团有限责任公司">福建省投资开发集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjyjkg.com" target="_blank" title="福建省工业控股集团有限公司">福建省工业控股集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fjnhjt.cn/" target="_blank" title="福建省能源石化集团有限责任公司">福建省能源石化集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjpg.cn/" target="_blank" title="福建省港口集团有限责任公司">福建省港口集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjmotor.com.cn" target="_blank" title="福建省汽车工业集团有限公司">福建省汽车工业集团有限公司</a></li>
+                  
+                    <li><a href="http://www.feig.com.cn/" target="_blank" title="福建省电子信息（集团）有限责任公司">福建省电子信息（集团）有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fsigc.com/" target="_blank" title="福建省船舶工业集团公司">福建省船舶工业集团公司</a></li>
+                  
+                    <li><a href="https://www.fjjtjt.com.cn/" target="_blank" title="福建省建设投资集团有限责任公司">福建省建设投资集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fjlygroup.com" target="_blank" title="福建省旅游发展集团有限公司">福建省旅游发展集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fftcc.com/" target="_blank" title="中国（福建）对外贸易中心集团有限责任公司">中国（福建）对外贸易中心集团有限责任公司</a></li>
+                  
+                    <li><a href="http://www.fujianbid.com/" target="_blank" title="福建省招标采购集团有限公司">福建省招标采购集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fjstjt.com/" target="_blank" title="福建省水利投资开发集团有限公司">福建省水利投资开发集团有限公司</a></li>
+                  
+                    <li><a href="https://www.fjbdg.com.cn/" target="_blank" title="福建省大数据集团有限公司">福建省大数据集团有限公司</a></li>
+                  
+                    <li><a href="http://www.fjsgzgs.com" target="_blank" title="福建省国有资产管理有限公司">福建省国有资产管理有限公司</a></li>
+                  
+                    <li><a href="http://www.fjyyjt.com/" target="_blank" title="福建省医药集团有限责任公司">福建省医药集团有限责任公司</a></li>
+                  
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bot_bg_2021">
+      <div class="w_1300_2021 twhite1_2021">
+        <div class="bot_l_2021">
+          <h3><a href="/gywm/" title="联系我们" target="_blank">联系我们</a>|<a href="/wzdt/" title="网站地图" target="_blank">网站地图</a>|<a href="javascript:setHome(window.location);" title="设为首页">设为首页</a>|<a  href="javascript:void(0);" ms-click="_addFav" title="收藏本站" >收藏本站</a></h3>
+          <p><span>网站标识码： 3500000041 </span>
+          <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000582" target="_blank"><span><img src="/images/20211209-gzw-gh.png" alt="" />闽公网安备： 35010202000582号</span></a>
+          <span><a href="https://beian.miit.gov.cn/" target="_blank" > 闽ICP备10202222号</a></span></p>
+          <p><span>通讯地址：福州市东大路73号1号楼</span><span>邮编：350001 </span><span>电话：0591-87668658</span></p>
+<p><span>中文域名：福建省人民政府国有资产监督管理委员会.政务</span></p>
+        </div>
+        <span class="dzjg_2021">
+          <span id="_ideConac"></span>
+          <span id="_span_jiucuo"></span>
+        </span>
+        <div class="bot_r_2021">
+          <h3><a href="javascript:;">新媒体矩阵</a></h3>
+          <ul>
+            <li><a href="javascript:;"><i class="iconfont"><img src="/images/20211209-gzw-ewm1.png" alt="" /></i>
+              <p>八闽国资</p>
+              </a>
+              <div class="codebox_2021"><img src="/images/ss1.png" alt="" /></div>
+            </li>
+            <li><a href="javascript:;"><i class="iconfont"><img src="/images/20211209-gzw-ewm2.png" alt="" /></i>
+              <p>闽政通APP</p>
+              </a>
+              <div class="codebox_2021"><img src="/images/20211110-gt-ewm3.png" alt="" /></div>
+            </li>
+            <li ><a href="javascript:;"><i class="iconfont"><img src="/images/250319xcx_mzq.png" alt="" width="48px" /></i>
+              <p>闽治欠</p>
+              <p>(省属企业农民工欠薪投诉)</p>
+              </a>
+              <div class="codebox_2021"><img src="/images/250319xcx_mzq.png" alt="" /></div>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    
+    <div class="fot-bot_2021">
+      <div class="w_1300_2021">
+        <p><span>主办单位：福建省人民政府国有资产监督管理委员会</span><span>技术支持：福建拓尔通软件有限公司</span></p>
+        <p>为确保最佳浏览效果，建议您使用以下浏览器版本：IE浏览器9.0版本及以上； Google Chrome浏览器 63版本及以上； 360浏览器9.1版本及以上，且IE内核9.0及以上。</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 底部嵌套end -->
+    <!-- 底部嵌套end -->
+
+    <!-- 全站嵌套 -->
+    <script src="/public/images/Fjtran.js"></script>
+<script src="https://www.fujian.gov.cn/images/barrier.free.min.js" id="barrierFree" sn="6888629015261843"></script>
+<script>
+    var SiteInfo = {
+	         channelid  :   277442
+			,was4doc    :   277442  //文档检索的was频道号
+            ,searchId   :   229105    //文档检索的fjdzapp频道号
+			,itpSiteId  :   61     //itp对应的站点编号
+			,itp4apply  :   167    //itp依申请公民栏目编号
+			,itp4advice :   165    //itp民意征集栏目编号
+			,itp4poll   :   166    //itp网上调查栏目编号
+			,itp4yjx    :   1081
+			,itp4letter :'161,162,163,164'
+			,itp4ztzj : 352        //主题征集
+			,siteHost:"http://gzw.fujian.gov.cn"
+			,visitHost:"gzw.fujian.gov.cn"   //流量域名地址，避免后续有变更
+			, siteMsgType: "govSite"  //非政府网站提醒规则   currSite 非本站提醒 、govSite  非政府网站提醒
+			, siteWriteList: ["120.35.29.56", "fjdz.com.cn","bszs.conac.cn"]     //站点白名单 
+			, initWindowRoot : false   //false表示，引入model.js时，不自动生成windowRoot
+			, initPageview : true   //执行windowRoot 时自动执行pageview
+			, defaultHotWords : '所出资企业,国有资产监督管理,建设' //通过嵌套栏目的替换内容，热搜词，设置默认的热搜词
+           // , registerUrl : ""
+          // , loginUrl : ""
+          // , logoutUrl : ""
+          // , redirtUrl : ""
+          // , homeUrl : "" 
+
+}
+
+
+</script>
+<div style="display: none;" id="_jiucuo_" sitecode='3500000041'></div>
+		<script>
+			window.onload = function() {
+				var _currentUrl = window.location.href;
+				var _script = document.createElement("script");
+				_script.type = "text/javascript";
+				_script.src = 'https://zfwzgl.www.gov.cn/exposure/jiucuo.js';
+				_script.onload = function(){
+                    $('#_span_jiucuo img').attr('alt','链接政府网站找错');
+                }
+				document.getElementsByTagName('head')[0].appendChild(_script);
+
+				
+				var _newScript = document.createElement('script');
+				_newScript.type = 'text/javascript';
+				_newScript.src = 'https://dcs.conac.cn/js/14/000/0000/40695407/CA140000000406954070001.js';
+				_newScript.onload = function(){
+                    $('#_ideConac img').attr('alt','党政机关');
+                }
+				document.head.appendChild(_newScript);
+			};
+	</script>
+
+
+<script>
+(function() {
+
+    var links = document.getElementsByTagName('a');
+
+    for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        var href = link.getAttribute('href');  // 获取原始href属性值
+
+        if (href && href.match(/^https?:\/\/gzw\.(fujian|fj)\.gov\.cn/)) {
+            // 移除域名部分，保留路径及后续内容
+            var newHref = href.replace(/^https?:\/\/gzw\.(fujian|fj)\.gov\.cn/, '');
+            link.setAttribute('href', newHref);
+        }
+    }
+})();
+</script>
+<script>
+	var PageInfo = {
+	docid: '',
+	chnlid: '',
+	siteid: '15',
+	title: "",
+	chnlname: "",
+	sitename: "省国资委"
+
+
+};
+if (PageInfo.title === "") {
+	PageInfo.title = PageInfo.chnlname || PageInfo.sitename;
+}
+
+
+</script>
+
+<script src='https://www.fujian.gov.cn/images/model.min.js'></script>  
+<script>
+    var HisString = window.localStorage.getItem("HistoryList"), HisArr = [];
+          if (HisString != null) { HisArr = HisString.split(",") };
+    
+        // 顶部搜索
+           var Rs = avalon.define({
+               $id: "list_rs",
+                serKey: "",
+                keys: [],
+                linkKeys: [],
+                historyKeys: HisArr,
+                error: false,
+                showlist: false,
+                LockLink: false,
+                tipList: [] //头部搜索下拉框提示词
+                , tixing: ''   //提醒、头部搜索框输入监听
+                ,
+                flag: false, 
+               setPost: function (key, e) {//热搜词直接点击搜索
+                   if (e) e.preventDefault();
+                   $("#header form #selecttags").val(key);
+                   $("#header form").submit();
+               },
+               $checkLock: function () {
+                Rs.LockLink = true;
+            },
+           
+           })
+           
+           function pushkeys(dataArr) {
+              for (var i = 0; i < dataArr.length; i++) {
+                  var item = {
+                      keyword: dataArr[i],
+              
+                  }
+                  Rs.keys.push(item);
+              }
+           }
+           
+           //热搜词，读取省政府热搜词
+           var hotKeyArr = [];
+           var keystr = SiteInfo.defaultHotWords || '';
+           hotKeyArr = keystr.split(",");
+           if (hotKeyArr !== undefined && hotKeyArr.length > 0) { defKeywords = hotKeyArr };
+           pushkeys(defKeywords);
+           
+           
+           //一级顶部搜索
+           var clickOdd = false;
+           $('.picker_2021').on("click", function () {
+               var showInput = $('.picker_2021 input');
+               var siteId = $('#form #siteId');
+               var isMain = $('#form #isMain');
+               if (clickOdd) {
+                  showInput.val('本站');
+                   $('#form').attr('action','http://gzw.fujian.gov.cn/ssp/main/index.html');
+                        isMain.val('1');
+                   siteId.val('ff8080816e59baf3016e5e7264fe4056');	
+                   clickOdd = false;
+                   return
+               } else {
+                  showInput.val('全省');
+                  siteId.attr('name', 'siteId');
+                   isMain.attr('name', 'isMain');	
+                   $('#form').attr('action','https://www.fujian.gov.cn/ssp/main/index.html');
+                   isMain.val('1');
+                   siteId.val('ff808081624641aa0162476c0e0e0055');	
+                   clickOdd = true;
+               }
+           })
+           // 顶部搜索 end
+           //浮动层定位设置插件
+       $.fn.selectCity = function (targetId) {
+           var _seft = this;
+           var targetId = $(targetId);
+           this.click(function () {
+               var A_top = $(this).offset().top + $(this).outerHeight(true);  //  1
+               var A_left = $(this).offset().left;
+               targetId.show();
+           });
+           targetId.find("#tagClose").click(function () {
+               targetId.hide();
+           });
+           $(document).click(function (event) {
+               if (event.target.id != _seft.selector.substring(1)) {
+                   targetId.hide();
+               }
+           });
+           targetId.click(function (e) {
+               e.stopPropagation(); //  2
+           });
+           return this;
+       }
+       //调用浮动层
+       $(function () {
+           $("#selecttags").selectCity("#searchTag");
+       });
+         </script>
+<script src="/images/2021gb_gzw.js"></script>
+    <!-- 全站嵌套end -->
+    <script>
+        require(["shangjizhuanzai", "list2.letter", "list2.advice", "list2.poll", "jquery", "tools",], function (shangjizhuanzai, letterList, adviceList, pollList, $, tools) {
+            shangjizhuanzai({
+                gwyxx: true,
+                gwyxxNum: 9,
+                szfxx: true,
+                szfxxNum: 9,
+                szfxxUrl: 'https://www.fujian.gov.cn/szfxx?callback=pushInfoJsonpCallBackfj'
+            });
+            tools.tab([{
+                name: "sy",
+                index: 0
+            }, {
+                name: "bszn",
+                index: 0
+            }, {
+                name: "Fgfb",
+                index: 0
+            }
+
+            ])
+            //民意征集
+            adviceList({
+                objId: 'myzj',
+                listCheck: {
+                    chnlIds: {
+                        required: false
+                    }
+                },
+                listApi: {
+                    url: '/staticitp/gzw/B_165/1.json?r=' + Math.random(),
+                    type: "get",
+                    pageName: '',
+                    prepageName: ''
+                }
+            })
+            // 网上调查
+            pollList({
+                objId: 'wsdc',
+                listCheck: {
+                    chnlIds: {
+                        required: false
+                    }
+                },
+                listApi: {
+                    url: '/staticitp/gzw/H_166/1.json?r=' + Math.random(),
+                    type: "get",
+                    pageName: '',
+                    prepageName: ''
+                }
+
+            })
+
+            var vis3 = 4,
+                width = $(window).width();
+
+            if (width < 1241 && width > 1000) {
+                vis3 = 4;
+            }
+            if (width < 1001 && width > 540) {
+                vis3 = 3;
+            }
+            if (width < 541) {
+                vis3 = 1;
+            }
+            $("#ztzllbt").slide({
+                mainCell: ".bd ul",
+                effect: "leftLoop",
+                autoPlay: false,
+                autoPage: true,
+                scroll: 1,
+                vis: vis3,
+                delayTime: 500,
+                trigger: "click"
+            });
+
+        })
+    </script>
+    <script>
+        require(["jquery"], function ($) {
+            jQuery(".textSlider").slide({
+                mainCell: ".loop ul",
+                autoPage: true,
+                effect: "topLoop",
+                autoPlay: true,
+                scroll: 1,
+                vis: 1,
+                pnLoop: false
+            });
+            //  首页轮播图
+            var $slideBox = $("#slideBox");
+            var slideImg = $("#slideBox .bd li img");
+            var slideLi = $("#slideBox .bd li");
+            var _w = $('.lbt').width();
+            var slideH = 337 * _w / 600;
+            $slideBox.height(slideH);
+            slideImg.height(slideH);
+            slideLi.height(slideH);
+            $("#slideBox").slide({
+                titCell: ".hd ul",
+                mainCell: ".bd ul",
+                autoPage: "<li></li>",
+                prevCell: ".prev",
+                nextCell: ".next",
+                effect: "leftLoop",
+                autoPlay: true,
+                vis: 1
+            })
+
+            //轮播右边选项卡切换
+            $('#tabZwgk').slide({
+                titCell: ".hd li",
+                mainCell: ".bd",
+                effect: "leftLoop",
+                titOnClassName: "on",
+                autoPlay: "false"
+
+            });
+
+            //政务公开选项卡切换
+            $('#tabZwgkd').slide({
+                titCell: ".hd li",
+                mainCell: ".bd",
+                effect: "leftLoop",
+                titOnClassName: "on",
+                autoPlay: "false",
+                startFun: function (i) {
+                    $("#tabZwgkd .gengduo").eq(i).show().siblings("#tabZwgkd .gengduo").hide();
+                }
+            });
+            $(".qh-tit ul li").eq(3).one('click', function () {
+                //diaoc选项卡切换
+                $('#hddc').slide({
+                    titCell: ".hd li",
+                    mainCell: ".bd",
+                    effect: "leftLoop",
+                    titOnClassName: "on",
+                    autoPlay: "false",
+                    startFun: function (i) {
+                        $("#hddc .gengduo").eq(i).show().siblings("#hddc .gengduo").hide();
+                    }
+                });
+            })
+
+        });
+    </script>
+    <script>
+        require(["jquery"], function ($) {
+            $(".qh-tit ul li").eq(1).one('click', function () {
+                //专题滚动
+                var vis = 4,
+                    width = $(window).width(),
+                    bdwidth = $(".sy-ztzl").width();
+
+                if (width < 1241 && width > 1000) {
+                    vis = 4;
+                }
+                if (width < 1001 && width > 540) {
+                    vis = 3;
+                }
+                if (width < 541) {
+                    vis = 1;
+                }
+                $("#focusBox").width(bdwidth - 64)
+                if (width < 541) {
+                    $("#focusBox").width(bdwidth - 10)
+                }
+                $("#focusBox").slide({
+                    mainCell: ".bd ul",
+                    effect: "leftLoop",
+                    autoPlay: false,
+                    autoPage: true,
+                    scroll: 1,
+                    vis: vis,
+                    delayTime: 500,
+                    trigger: "click"
+                });
+            })
+            var i = 1;
+            $(".sy-title-l a").mouseover(function () {
+                $(this).attr("class", "on")
+                if ($(this).index() == 0) {
+                    $("#focusBox").show();
+                    $("#focusBoxlist").hide();
+                }
+                $(this).siblings().removeClass("on")
+                if ($(this).index() == 1) {
+                    $("#focusBox").hide();
+                    $("#focusBoxlist").show();
+                    if (i < 2) {
+                        i++;
+                        ss()
+                    }
+
+
+                }
+
+            })
+
+            function ss() {
+                var vis = 4,
+                    width = $(window).width(),
+                    bdwidth = $(".sy-ztzl").width();
+
+                if (width < 1241 && width > 1000) {
+                    vis = 4;
+                }
+                if (width < 1001 && width > 540) {
+                    vis = 3;
+                }
+                if (width < 541) {
+                    vis = 1;
+                }
+                $("#focusBoxlist").width(bdwidth - 64)
+                if (width < 541) {
+                    $("#focusBoxlist").width(bdwidth - 10)
+                }
+                $("#focusBoxlist").slide({
+                    mainCell: ".bd ul",
+                    effect: "leftLoop",
+                    autoPlay: false,
+                    autoPage: true,
+                    scroll: 1,
+                    vis: vis,
+                    delayTime: 500,
+                    trigger: "click"
+                });
+            }
+        })
+    </script>
+<div id="fixed_ipv6_show" style="position: fixed;z-index: 3000;bottom: 0;left:0;background: #0dd200;width: 100%;height: 56px;-webkit-box-shadow: 0 -1px 2px 0 #e7e7e7;box-shadow: 0 -1px 2px 0 #e7e7e7;color: #fff;"><div style="position: relative;text-align: center;line-height: 56px;font-size: 16px;"><img style="height:56px;margin:auto;" src="data:image/png;base64,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"><i onclick="document.getElementById('fixed_ipv6_show').style.display='none'" style="font-size:32px;display:block;position:fixed;z-index: 99;right: 10px;bottom: 5px;cursor:pointer;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAABS0lEQVRoge3Z2xGCQAyFYVuwFlqwFlqwFlqwBVqwBVugheODZCajuIRls2yY8z8DyTfjBfRyYYwxxhhjZwvA9UxzfoYCeAIYnOd0ACYAveec76GCk1yQCif5IxdwLsgFXB0kgHFhaFFkAifdSsxJDX95IQ041/e8LPHvZbpriSZwapmiyKZwaqkiyCZxarldSAOu3vdfYsksZAictBUZCidZkSFxkgH5CIuTDMi4OCkDGQcnbUDGw0kAbiu48egds8P6p6V03J1Kbhtw8ZAZuDhIA+4Oh0etKhlw/Xycy/Oka1acOj4OcitOndc+Mhenzm8XuRenrmO5Qa/76zaAvgROXW8N+ayGnHGpsu4tm0B64dT1j0UCGLxwakYKOQHoSsxJLbCELPrI8wfpj1MLDF44NUMj6+HUAoMXTs244vOHT10cY4wxxhir0RtYUohB3B6XWgAAAABJRU5ErkJggg=="  style="width:28px;"></i></div></div><script>setTimeout("document.getElementById('fixed_ipv6_show').style.display='none'",5000);</script></body>
+
+</html>

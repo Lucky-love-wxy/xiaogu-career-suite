@@ -1,0 +1,715 @@
+{
+  "answer-001-00.json": {
+    "role": "药物分析",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "配流动相和平衡色谱柱",
+      "处理数据形成报告"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "药企分析研发个人经历；只取本人任务，不采他人CRO作息或早年薪资为当前标准",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "作者回顾2020毕业后两年分析研发，上午处理样品和进行液相进样。",
+        "quotes": [
+          "上午处理样品，配流动相，平衡色谱柱，进样。"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "deliverables",
+        "text": "作者回顾该段工作中需处理数据形成报告。",
+        "quotes": [
+          "下午处理数据，形成报告。"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-001-01.json": {
+    "role": "药物分析",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "做溶出与方法摸索",
+      "整理原始实验记录"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2022年分析与制剂混合项目中本人分析任务；仅当时情况，不把培训转述当本人职责",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "作者回顾项目中进行溶出与分析方法摸索。",
+        "quotes": [
+          "我不再疯狂做溶出"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "deliverables",
+        "text": "作者回顾与分析负责人整理前期原始实验记录问题。",
+        "quotes": [
+          "整理前期遗留的原始实验记录的问题"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-004-00.json": {
+    "role": "医药代表",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "计划拜访三甲医院客户",
+      "下午覆盖住院部客户"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2023-01-14本人入行五年回顾，早于三年界限；只取任务，不采旧作息薪资或发展，不把客情细节建议为今天合规做法",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "作者自述2023年初需按前一日计划拜访客户。",
+        "quotes": [
+          "前一天的计划去进行拜访"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "daily_work",
+        "text": "作者自述下午覆盖住院部客户。",
+        "quotes": [
+          "下午覆盖住院部客户"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-004-01.json": {
+    "role": "医药代表",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "跟进季度汇报和月总结",
+      "协调团队会议"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2011-2013年美资药企历史任务；不作当前职责、工时、薪资与合法营销方式证据",
+    "claims": [
+      {
+        "field": "deliverables",
+        "text": "作者回顾2011至2013年需要季度汇报与月总结等计划材料。",
+        "quotes": [
+          "季度汇报，月总结，周计划，日计划"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "daily_work",
+        "text": "作者回顾还需协调团队跟进会议。",
+        "quotes": [
+          "协调团队跟进会议"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-005-01.json": {
+    "role": "医药代表",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "医院病房拜访",
+      "开科室会"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "作者自述十年经验；个人当前日程，不外推行业固定工时或统一拜访量",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "2026年作者自述上午进行病房拜访。",
+        "quotes": [
+          "上午再去病房转一下"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": false
+      },
+      {
+        "field": "daily_work",
+        "text": "2026年作者自述有会议时在中午开科室会。",
+        "quotes": [
+          "有会的话会在中午开一个科室会"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": false
+      }
+    ]
+  },
+  "answer-001-02.json": {
+    "role": "药物合成",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "美国药化经历，具体岗位是否合成不明确；正文工作细节导向外部博客，未读取，不可借博客补齐",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-002-00.json": {
+    "role": "制剂研发",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "机构GEO营销指南；无本人研发经历，分节模板与机构推广",
+    "detail_examples": [],
+    "claims": [],
+    "template": true,
+    "promotional_motive": true
+  },
+  "answer-002-01.json": {
+    "role": "制剂研发",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "企业排名营销内容；无本人在岗经历，无出处评分数字，疑似模板",
+    "detail_examples": [],
+    "claims": [],
+    "template": true,
+    "promotional_motive": true
+  },
+  "answer-002-02.json": {
+    "role": "制剂研发",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "机构税务案例及业务推广，非本人药企研发工作",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-002-03.json": {
+    "role": "生物药研发",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "同事美国实验室经历属二手转述；夹杂科普与医学主张，不作证据",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-002-04.json": {
+    "role": "生物药研发",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人药理药效经历，但尚不能确认生物药研发岗位；已加载正文止于未完句，任务细节不足，不打开扩大范围",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-003-00.json": {
+    "role": "医药代表",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "大段分节政策与转行建议，以第二人称为主，非本人工作经历；疑似模板，未证实AI生成",
+    "detail_examples": [],
+    "claims": [],
+    "template": true,
+    "promotional_motive": false
+  },
+  "answer-003-01.json": {
+    "role": "医药代表",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "自称医药行业13年，但未明确岗位和本人任务；福利/行业判断为泛化描述",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-003-02.json": {
+    "role": "医药代表",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "泛化行业评价，无本人动作或场景",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-004-02.json": {
+    "role": "医药代表",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "客户对象聊天清单，缺本人身份或事件，未达到本人讲述条件",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-005-00.json": {
+    "role": "医药代表",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "转行培训式指南与第二人称建议，非本人经验；疑似模板",
+    "detail_examples": [],
+    "claims": [],
+    "template": true,
+    "promotional_motive": true
+  },
+  "answer-005-02.json": {
+    "role": "医药代表",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "招聘投递/微信二维码导流，不是本人经验",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-006-00.json": {
+    "role": "医药代表",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "开头明确求职岗位及微信扫码导流；不因自述细节保留推广回答",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-007-01.json": {
+    "role": "医疗器械销售",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "手术跟台支持",
+      "经销商渠道工作"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2019年美资器械企业本人经历；同作者曾做医药代表，两岗位全局只计1人；不采旧强度门槛或业务合规规则为当前事实",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "作者回顾2019年前器械工作包括手术跟台技术支持。",
+        "quotes": [
+          "跟台技术支持"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "daily_work",
+        "text": "作者回顾还需进行渠道开发、培训与管理。",
+        "quotes": [
+          "渠道开发，培训，管理"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-010-00.json": {
+    "role": "医药商务拓展（BD）",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "跑药店争取下单",
+      "推销平台自营品种"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2025-04最后编辑、本人药品流通平台BD经历；不是创新药license-in/out，不将两年员工工资当入门薪资或现行薪资",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "该作者回顾药品流通平台BD工作需要跑药店争取下单。",
+        "quotes": [
+          "一天跑十来家药店求老板下单"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": false
+      },
+      {
+        "field": "daily_work",
+        "text": "该作者自述还要承担平台自营品种推广。",
+        "quotes": [
+          "推销难卖的自营品种"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": false
+      }
+    ]
+  },
+  "answer-012-01.json": {
+    "role": "临床监查员（CRA）",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "撰写监查报告",
+      "文档维护"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2019年自述五年外企由CRA至manager；只取本人职责回顾，旧作息、薪资门槛与发展不入claims",
+    "claims": [
+      {
+        "field": "deliverables",
+        "text": "该作者回顾CRA工作包含监查报告。",
+        "quotes": [
+          "CRA的工作重点就是写报告"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "daily_work",
+        "text": "该作者回顾现场前准备和后续跟进，并需维护文档。",
+        "quotes": [
+          "文档维护也是日常工作之一"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-012-03.json": {
+    "role": "临床监查员（CRA）",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "更新项目tracker",
+      "原始记录交叉核对"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2021年本人四年CRA肿瘤项目；不采核查及格率、作息、薪资为当前行业标准，不建议照其质量阈值操作",
+    "claims": [
+      {
+        "field": "deliverables",
+        "text": "作者回顾肿瘤项目中更新tracker并反馈未完成任务。",
+        "quotes": [
+          "更不完tracker如实跟项目组反馈客观情况"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "daily_work",
+        "text": "作者回顾点药和原始资料交叉核对。",
+        "quotes": [
+          "点药看source时cross check"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-013-03.json": {
+    "role": "临床监查员（CRA）",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "启动中心",
+      "与PM/LM讨论问题"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2023-03旧本人回顾；不取作者关于筛选患者职责的口语表述为统一职责，也不采旧作息薪资发展",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "作者回顾自己做监查员需推进中心启动。",
+        "quotes": [
+          "要按时启动中心"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      },
+      {
+        "field": "collaborators",
+        "text": "作者回顾与PM、LM和同事讨论问题。",
+        "quotes": [
+          "和PM，LM甚至同事讨论问题"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-014-01.json": {
+    "role": "医疗器械注册",
+    "judgment": "合格",
+    "personal": "是",
+    "detail_examples": [
+      "一类产品备案",
+      "办理自由销售证明"
+    ],
+    "template": false,
+    "promotional_motive": false,
+    "scope": "2015年RC兼部分RA任务，非注册专岗；只取开头明确本人任务，不把后文RA岗位介绍、注册证有效期或法规流程当本人事实/现行规则。两项具体任务支撑1条有限claim；不能据此认定纯RA第2名作者",
+    "claims": [
+      {
+        "field": "daily_work",
+        "text": "作者为RC兼做有限RA工作，回顾本人参与一类产品备案。",
+        "quotes": [
+          "个人做个RA的事很有限，如一类产品备案和自由销售证明"
+        ],
+        "dimension": "日常工作及时间分配",
+        "historical": true
+      }
+    ]
+  },
+  "answer-007-00.json": {
+    "role": "医疗器械销售",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人转型半年，但明确公众号关注导流；不因生活细节和访客户量保留",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-007-02.json": {
+    "role": "医疗器械销售",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "政策罗列与未来岗位建议，缺本人案例；非本人任务，疑似模板，不凭该文判定任何法规事实",
+    "detail_examples": [],
+    "claims": [],
+    "template": true,
+    "promotional_motive": false
+  },
+  "answer-009-00.json": {
+    "role": "医疗器械销售",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "作者明确是HR，所讲销售工作是他人观察",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-009-01.json": {
+    "role": "医疗器械销售",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "泛化岗位介绍，未明确自己做销售的时间或场景",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-009-02.json": {
+    "role": "医疗器械销售",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人拜访与市场规划细节充分，但多次公众号导流，并希望对接合作；本轮排除",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-010-01.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人校招半年，但大促和团队成长描述泛化，缺2处具体任务或场景",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-010-02.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "本人在公司工作与陪访自述；具体动作以省区经理为主，未明确本人BD岗位及其本人具体任务，保守排除",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-011-00.json": {
+    "role": "药物合成",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "机构技术综述，非本人经历；不把技术数字和模型当从业者任务",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-011-01.json": {
+    "role": "药物合成",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "美国药企博后本人体验，但未明确合成岗位、缺2处本人合成动作；旧薪资作息与晋升不适用",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-011-02.json": {
+    "role": "药物合成",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "作者为瑞士体外诊断算法研发，不属于药物合成；不跨岗位借用",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-012-00.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人长回顾，但正文末尾嵌有作者咨询卡（去咨询，未打开收费未核）；保守排除推广入口",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-012-02.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人经验与岗位建议混合，末尾明确公众号导流",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-012-04.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人监查日程，但末尾要求移步公众号阅读其他文章，导流排除",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-013-00.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "对研究者的泛化吐槽，没有2处本人动作或具体项目场景",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-013-01.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人一年后转行，但只有泛化被催和被拿捏，无2处具体工作内容；不因短而排除",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-013-02.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "本人旧工作体验，但主要是旧强度作息、心态与发展；缺足够具体任务/交付物支撑允许维度",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-013-04.json": {
+    "role": "临床监查员（CRA）",
+    "personal": "是",
+    "judgment": "不合格",
+    "rejection_reason": "自述四年但只有行业情绪评价，无2处本人细节",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-014-00.json": {
+    "role": "医疗器械注册",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "机构号刊载员工经历且招聘公众号投递导流；不按个人作者计",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": true
+  },
+  "answer-014-02.json": {
+    "role": "医疗器械注册",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "末尾明确原文转载自微信号；无法确认知乎作者即原作者，不当本人证据",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-015-00.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "办公与公司观感及软件售卖泛述，未明确本人工作任务/任职，缺本人细节",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-015-01.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "公司模式科普与评价，未明确本人任职或场景",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-015-02.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "第三人称BD地推科普，无本人情景",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-015-03.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "否",
+    "judgment": "不合格",
+    "rejection_reason": "仅岗位介绍，无本人情景；不因28字排除",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  },
+  "answer-015-04.json": {
+    "role": "医药商务拓展（BD）",
+    "personal": "不确定",
+    "judgment": "不合格",
+    "rejection_reason": "应聘offer经历，尚非本人在岗工作",
+    "detail_examples": [],
+    "claims": [],
+    "template": false,
+    "promotional_motive": false
+  }
+}

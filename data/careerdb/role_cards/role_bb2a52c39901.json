@@ -1,0 +1,162 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_bb2a52c39901",
+  "node": "财务/审计/税务 › 审计/税务 › 税务",
+  "family": "财务/审计/税务",
+  "parent_id": "财务/审计/税务 › 审计/税务",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "财务/审计/税务 › 审计/税务 › 税务",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vly5taZzt",
+      "type": "recruitment_jd",
+      "title": "研究生税务管培生",
+      "company": "身边云（北京）信息服务有限公司",
+      "url": "https://campus.niuqizp.com/job-vly5taZzt.html",
+      "date": "2026-03-02",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "10000元以上\n税务管培生（研究生）\n身边云（北京）信息服务有限公司\n发布时间：2026-03-02\n工作地域：北京市\n职位类别：办事人员和有关人员\n学历要求：硕士\n招聘人数：5人\n专业要求：\n任职要求：\n1、统招硕士以上学历（26届）（财政学税收学专业）；\n2、较强的信息搜集、整合能力和逻辑分析能力，对数据敏感；\n3、具备较强的沟通、协调能力，有团队协作精神；\n4、工作细致、责任心强、执行力强、目标性强\n职位描述：\n任职要求：\n1、统招硕士以上学历（26届）（财政学税收学专业）；\n2、较强的信息搜集、整合能力和逻辑分析能力，对数据敏感；\n3、具备较强的沟通、协调能力，有团队协作精神；\n4、工作细致、责任心强、执行力强、目标性强\n管培生培养计划：\n培养目标：入职一年胜任主管工作，两年胜任经理，三年晋升为部门负责人\n培养周期：轮岗育种期、定岗护苗期、修剪锤炼期、成才期；\n培养优势：集中培训、一对一带教、岗位基础实操；",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vly5taZzt.html",
+      "cache_sha256": "a24af6b53f36f0272fb56f304c48c52794c8dbdfcd75e4f39a360f6fa6410751"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "税务",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "税务"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "研究生税务管培生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5taZzt"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vly5taZzt"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "研究生税务管培生",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vly5taZzt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

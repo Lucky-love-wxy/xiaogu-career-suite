@@ -1,0 +1,233 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_7c783ffee029",
+  "node": "咨询/翻译/法律 › 法律服务 › 律师助理",
+  "family": "咨询/翻译/法律",
+  "parent_id": "咨询/翻译/法律 › 法律服务",
+  "tier": "P2",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "咨询/翻译/法律 › 法律服务 › 律师助理",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vyl5azCa5",
+      "type": "recruitment_jd",
+      "title": "律师助理",
+      "company": "广州三环专利商标代理有限公司深圳分公司",
+      "url": "https://campus.niuqizp.com/job-vyl5azCa5.html",
+      "date": "2026-09-03",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "律师助理\n招聘单位：广州三环专利商标代理有限公司深圳分公司\n工作类型：全职\n职位类别：知识产权/专利/商标\n工作地点：深圳市\n薪资待遇：5k-8k\n发布日期：2026-09-03\n专业：法律史,诉讼法学,自动化\n岗位职责：1、独立或协助处理专利侵权诉讼、专利无效、侵权比对分析等诉讼及非诉法律事务；2、独立或协助处理商业秘密等诉讼及非诉法律事务；3、其他商标、著作权、反不正当竞争类知识产权诉讼及非诉案件；4、协助客户挖掘跟进及开发工作。\n任职要求：1. 正规院校，本科及以上学历；2. 专业：专业为理工科方向（微电子、通讯或计算机专业优先），有法律背景者优先，通过司法考试，另外有专利代理人资格证优先3. 外语：英语读写流利，可以为工作语言；4. 有较强学习研究能力，有较好的文字表达和沟通能力，优秀的撰写法律文书及方案能力，专业知识扎实，逻辑思维能力较强；5. 有志于长期从事律师行业，刻苦耐劳，认真细心，富有强烈的工作责任心。工作地点:深圳（南山）\n福利待遇：5天工作日 7小时/天五险一金 年终奖 节假日福利带薪年假与调休假 国家法定节假每年薪资普调、级别调整机会 员工配股 有竞争力的各阶段薪酬体系员工经费 团建旅游 年度体检 丰富的员工活动--生日会、下午茶、羽毛球、篮球活动等\n职业发展：入职后公司安排全面的培训，理论知识培训1个月，实操培训期3-5个月，知识产权人更看重未来长期发展，职业性质类似律师或医生等越老越吃香类型\n招聘专员：蒙晓冰",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vyl5azCa5.html",
+      "cache_sha256": "3565a5edb57f322374898f34da09f0585c3406d74e5435fc24640910308769b5"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vmU5tCM5C",
+      "url": "https://campus.niuqizp.com/job-vmU5tCM5C.html",
+      "role": "电学领域专利工程师|机械领域专利工程师|涉外专利工程师|律师助理",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "律师助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "律师助理"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "律师助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：协助客户挖掘跟进及开发工作",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyl5azCa5",
+          "text": "协助客户挖掘跟进及开发工作"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助客户挖掘跟进及开发工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyl5azCa5",
+          "text": "协助客户挖掘跟进及开发工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [
+    {
+      "text": "协助客户挖掘跟进及开发工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyl5azCa5",
+          "text": "协助客户挖掘跟进及开发工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vyl5azCa5"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“电子信息类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电子信息类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vyl5azCa5"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vyl5azCa5"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "律师助理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

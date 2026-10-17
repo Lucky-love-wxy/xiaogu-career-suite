@@ -1,0 +1,254 @@
+{
+  "name": [
+    {
+      "text": "体育/体能老师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "体育/体能老师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "配合教务部门做好教研活动等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyY5ntzLz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyY5ntzLz",
+          "text": "配合教务部门做好教研活动等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "指导学员正确使用训练器材，确保训练过程安全无事故",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYr5Mz5Z5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYr5Mz5Z5",
+          "text": "指导学员正确使用训练器材，确保训练过程安全无事故"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "组织开展教研、校园吉尼斯体育节等活动，丰富校园文化生活",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsY5MZzzt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsY5MZzzt",
+          "text": "组织开展教研、校园吉尼斯体育节等活动，丰富校园文化生活"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "设计和实施针对不同年龄段学员的体育课程，确保课程内容的趣味性和教育性",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYr5Mz5Z5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYr5Mz5Z5",
+          "text": "设计和实施针对不同年龄段学员的体育课程，确保课程内容的趣味性和教育性"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "利用体育公司平台，参与设计并利用学生校外时间，开展与个人特长专项相关的培训课程",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsY5MZzzt"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsY5MZzzt",
+          "text": "利用体育公司平台，参与设计并利用学生校外时间，开展与个人特长专项相关的培训课程"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责制定学员训练计划及教学工作，了解学生的学习情况、性格，选择恰当的教学方式，高质量完成教学任务",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyY5ntzLz"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyY5ntzLz",
+          "text": "负责制定学员训练计划及教学工作，了解学生的学习情况、性格，选择恰当的教学方式，高质量完成教学任务"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYr5Mz5Z5",
+        "vlm5atN5t",
+        "vsY5MZzzt",
+        "vyY5ntzLz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vYr5Mz5Z5"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYr5Mz5Z5",
+        "vlm5atN5t",
+        "vsY5MZzzt",
+        "vyY5ntzLz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "vlm5atN5t",
+          "vsY5MZzzt",
+          "vyY5ntzLz"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYr5Mz5Z5",
+        "vlm5atN5t",
+        "vsY5MZzzt",
+        "vyY5ntzLz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vsY5MZzzt"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“体育学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYr5Mz5Z5",
+        "vlm5atN5t",
+        "vsY5MZzzt",
+        "vyY5ntzLz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "体育学类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vlm5atN5t",
+          "vyY5ntzLz"
+        ]
+      }
+    },
+    {
+      "text": "4份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYr5Mz5Z5",
+        "vlm5atN5t",
+        "vsY5MZzzt",
+        "vyY5ntzLz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vYr5Mz5Z5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "2027招聘体育老师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYr5Mz5Z5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "体育老师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyY5ntzLz"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "体育老师（工作地海南澄迈）（济南）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsY5MZzzt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "小学体育老师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vlm5atN5t"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

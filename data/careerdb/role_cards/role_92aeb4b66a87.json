@@ -1,0 +1,315 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_92aeb4b66a87",
+  "node": "互联网/AI › 人工智能 › 图像算法",
+  "family": "互联网/AI",
+  "parent_id": "互联网/AI › 人工智能",
+  "tier": "P1",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_plus_scoped_practitioners",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 1,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "互联网/AI › 人工智能 › 图像算法",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vmlNL5Zzn",
+      "type": "recruitment_jd",
+      "title": "AI图像算法实习生",
+      "company": "西门子医疗系统有限公司",
+      "url": "https://campus.niuqizp.com/job-vmlNL5Zzn.html",
+      "date": "2026-10-01",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "岗位职责\n1.数据分析支持\n协助收集、清洗和整理业务数据；运用SQL/Python等工具进行数据提取和初步分析；对数据进行特征分析，并基于特征对数据进行建模\n2.AI应用探索\n协助团队进行图像/视频数据的处理、分析和标注；搭建神经网络，对特定数据进行准备，训练，验证，部署；编写和优化Prompt，提升AI模型的输出质量；跟踪AI行业动态，整理技术趋势报告\n基本要求\n1.计算机科学、数据科学、电子信息、数学、图像处理等相关专业在读本科生或研究生\n2.6个月的实习时间，每周至少4天\n技能要求：\n掌握Python编程语言，具备良好的编码习惯\n熟悉PyTorch等深度学习框架\n熟悉OpenCV库及其内置算法（如图像滤波、边缘检测、特征匹配、相机标定等）\n了解机器学习和深度学习的基本原理及应用\n有端侧（例如NVIDIAJetson）AI部署经验的优先",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vmlNL5Zzn.html",
+      "cache_sha256": "29aa6d8dbcea913249971d8c993668983a55d70c27ec9a94dfe9e5bd2d2cd54b"
+    },
+    {
+      "id": "nowcoder-ct",
+      "type": "practitioner_self_report",
+      "platform": "nowcoder",
+      "title": "秋招别把自己限制的太死",
+      "url": "https://www.nowcoder.com/discuss/663692185128222720",
+      "date": "2024-09-12",
+      "accessed_at": "2026-10-06T06:29:38.128Z",
+      "author_nickname": "hionling",
+      "scope": "2024年CT物理算法子类自述，末尾内推，身份未认证",
+      "text": "这里也和大家分享一下物理算法都在做什么，简单说就是把机器采集的数据处理成医生观看的图像，基本上包含数据校正和数据重建两步，先基于物理过程进行数据校正，再将数据重建出图，尽可能去除各种图像伪影提升图像质量，对整个医疗影像链路来说是非常重要的一步，所以综合来看充分结合了我本科和硕士的经历，更符合我的期待，希望能帮到有类似心路历程的学弟学妹们。\n另一方面，公司确实也给校招生提供了很大帮助，前两年主要是专业能力上的提升，第一年主要安排给我们做专业知识上的学习和提升，尤其我开始对CT不太了解，不过我都还算好的，至少还有相关的背景，有的同学就真的是一点背景都没有了，好在我们部门的氛围特别好，导师也都会愿意帮助大家一点点去了解，熟悉基本工作，随着学习这些同时做一些小项目，看很多文章，对CT也有了自己的想法。我们部门也经常有交大等高校的一些老师来访交流，或者我们也经常可以参加一些CT相关的国际性会议，然后不去的话内部也会再在大部门做有意思的talk分享，经常能接触一些前沿的课题，我们整个大组也有点像在学校那种氛围，大家还都挺有奔头去学习和提升的。\n最后，写了这么长，打个广告：欢迎大家加入CT事业部！",
+      "source_file": "practitioners/nowcoder-ct-20240912.json",
+      "source_sha256": "cc15b6d20d388e2c262229d1f5c8640c026d9008a23a4c419606b0aef3996b7c",
+      "identity_status": "本人自述，职业身份未独立认证",
+      "qualifies": true,
+      "promotional_motive": true
+    }
+  ],
+  "missing": [
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数",
+    "从业者本人经历仍少于2不同作者",
+    "本人分享仅覆盖细分子类：医学事务为MSL，图像算法为CT物理算法；不提升整个混合节点为full",
+    "metrics未找到可入卡本人经历证据，留空",
+    "risks未找到可入卡本人经历证据，留空"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "图像算法",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "图像算法"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "AI图像算法实习生",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：协助收集、清洗和整理业务数据",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmlNL5Zzn",
+          "text": "协助收集、清洗和整理业务数据"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助收集、清洗和整理业务数据",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmlNL5Zzn",
+          "text": "协助收集、清洗和整理业务数据"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助团队进行图像/视频数据的处理、分析和标注",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmlNL5Zzn",
+          "text": "协助团队进行图像/视频数据的处理、分析和标注"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "运用SQL/Python等工具进行数据提取和初步分析",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmlNL5Zzn",
+          "text": "运用SQL/Python等工具进行数据提取和初步分析"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "一位CT物理算法作者描述将采集数据校正、重建成医生观看的图像，并减少伪影；不等于所有图像算法都做这一任务。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "nowcoder-ct"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "nowcoder-ct",
+          "text": "数据校正和数据重建两步"
+        },
+        {
+          "evidence_id": "nowcoder-ct",
+          "text": "尽可能去除各种图像伪影提升图像质量"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    }
+  ],
+  "deliverables": [],
+  "collaborators": [
+    {
+      "text": "协助团队进行图像/视频数据的处理、分析和标注",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmlNL5Zzn",
+          "text": "协助团队进行图像/视频数据的处理、分析和标注"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmlNL5Zzn"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmlNL5Zzn"
+        ]
+      }
+    },
+    {
+      "text": "1份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmlNL5Zzn"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [
+    {
+      "text": "这位作者回顾入职初期先学习CT知识，在导师帮助下逐步做小项目；帖子带内推广动机，不代表各公司统一培训安排。",
+      "kind": "practitioner_self_report",
+      "evidence_ids": [
+        "nowcoder-ct"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "nowcoder-ct",
+          "text": "第一年主要安排给我们做专业知识上的学习和提升"
+        },
+        {
+          "evidence_id": "nowcoder-ct",
+          "text": "导师也都会愿意帮助大家一点点去了解"
+        }
+      ],
+      "scope": "仅所引作者/细分岗位的自述；不是行业普遍事实"
+    }
+  ],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "AI图像算法实习生",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vmlNL5Zzn"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。",
+  "longform_practitioner_author_n": 0,
+  "longform_evidence_level": "partial",
+  "evidence_level_basis": "历史证据门槛；本次长文门槛另见longform_evidence_level",
+  "overseas_source_n": 0,
+  "practitioner_scope_note": "不同作者昵称的本人自述，身份未实名核验；full只表示本批证据数量及角色适用门槛，不表示全部字段完整或行业代表性。"
+}

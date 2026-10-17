@@ -1,0 +1,19 @@
+{
+  "url": "https://api.tavily.com/search",
+  "final_url": "https://api.tavily.com/search",
+  "status": 200,
+  "content_type": "application/json",
+  "elapsed_seconds": 3.319,
+  "access_date": "2026-10-12",
+  "sha256": "ec06e159431ca616aef751252f11092fb7ee65ad8ade226c31bc6357d7643fd9",
+  "blocked": null,
+  "id": "humanoid-tianyancha-search",
+  "company": "humanoid",
+  "query": "北京人形机器人创新中心有限公司 企业 成立日期",
+  "include_domains": [
+    "tianyancha.com"
+  ],
+  "layer": "script:Tavily",
+  "channel": "tavily",
+  "snapshot": "evidence/company-check-2026-10/humanoid-tianyancha-search.json"
+}

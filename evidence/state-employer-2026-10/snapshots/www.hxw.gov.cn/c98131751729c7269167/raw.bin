@@ -1,0 +1,856 @@
+<!DOCTYPE>
+<html>
+<head>
+    <base target="_blank"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>红星网_中共湖南省委组织部</title>
+    <link type="text/css" rel="stylesheet" href="//www.hxw.gov.cn/css/common.css"/>
+    <script language="javascript" type="text/javascript" src="//www.hxw.gov.cn/js/MoveGgb2312.js"></script>
+    <script language="javascript" type="text/javascript" src="//www.hxw.gov.cn/js/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="//www.hxw.gov.cn/js/tool.js"></script>
+    <script language="javascript" type="text/javascript">
+        function setTab(name, cursel, n) {
+            for (i = 1; i <= n; i++) {
+                var menu = document.getElementById(name + i);
+                menu.className = "";
+                document.getElementById("con_" + name + "_" + i).style.display = 'none';
+            }
+            var con = document.getElementById("con_" + name + "_" + cursel);
+            con.style.display = "block";
+            document.getElementById(name + cursel).className = "hover";
+        }
+
+        function winopenurl(listid) {
+            var urlstr = "/Column.aspx?ColId=" + listid;
+            window.open(urlstr);
+        }
+//跳转手机版
+     /*   if (getCookie("goPC") != "true") {
+            if (/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))) {
+                if (window.location.href.indexOf("?mobile") < 0) {
+                    try {
+                        if (/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+                            window.location.href = "/m/";
+                        } else if (/iPad/i.test(navigator.userAgent)) {
+                        } else {
+                            //window.location.href="http://m.rednet.cn/simple/";
+                        }
+                    } catch (e) {
+                    }
+                }
+            }
+        }
+*/
+
+    </script>
+    <script language="javascript" type="text/javascript">
+        // 动态自适应手机端宽;
+        var vipw = window.screen.availWidth;  // 自动获取设备宽
+        var vw = vipw - 10;                  // 减去10 让页面显示两边有少量空白
+        var sw = 1000;                      // 这里是页面宽 根据设计需要调整
+        var vcw = vw / sw;
+        var wcv = sw / vw;
+        document.write("<meta name='viewport' content='width=" + vw + ",initial-scale=" + vcw + ",target-densitydpi=device-dpi,minimum-scale=" + vcw + ",maximum-scale=" + wcv + ",user-scalable=" + wcv + "' />");
+        // 动态自适应手机端宽;
+    </script>
+<script type="text/javascript" >
+    var thebegintime = '2020-04-04 00:00:00';
+	var theendtime = '2020-04-05 00:00:00';
+    var begind=new Date(Date.parse(thebegintime .replace(/-/g,"/")));
+	var endd=new Date(Date.parse(theendtime .replace(/-/g,"/")));
+    var curDate=new Date();
+    if(begind <=curDate  && endd>=curDate){
+		document.write('<style> html { -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); _filter:none;} </style>');
+    }
+</script>
+
+
+</head>
+<body>
+
+<iframe src="https://dwlm.12371.cn/daohang/index.shtml" width="100%" height="60px" scrolling="no" frameborder="0"></iframe>
+
+
+
+
+<div style="width: 0;height: 0; overflow: hidden;"><img src="https://www.hxw.gov.cn/images/seoLogo.jpg"></div>
+<div class="wapper head-top">
+   <div class="part">
+      <div class="f-right">
+         <div class="search">
+            <div class="b-b100">
+               <form method="get" id="searchForm" action="https://www.hxw.gov.cn/channel/search.html">
+               <div class="search-b1">
+                  <input class="search-text" type="text" alt="" name="keyWord" id="keyWord" maxlength="20"  placeholder="站内搜索" border="0" />
+               </div>
+               <div class="search-b2" style=" border:1px solid #aaa;">
+                  <input class="search-btn" type="submit" value="" alt="" name="searchBtn" id="searchBtn" />
+               </div></form>
+            </div>
+         </div>
+      </div>
+      <div class="h40 h f14">
+         <!--<a  href="javascript:void(0);" onclick="SetHome(this,'红星网');" style="background:url(/images/ico-index.png) left center no-repeat; padding-left:20px;">设为首页</a> | --><a href="https://www.hxw.gov.cn/fwzc/about.html" style="background:url(https://www.hxw.gov.cn/images/ico-index.png) left center no-repeat; padding-left:20px;">关于我们</a>
+
+         <div style="display:inline; display:inline;" id="topTab1"><!-- 未登录显示时间日期 -->
+          <div style="display:inline; padding-left:50px;">
+              <script type="text/javascript" src="https://www.hxw.gov.cn/js/date.js"></script>
+            </div>
+            <div class="tianqi">
+               <div style="margin-left:-60px; ">
+               </div>
+            </div>
+         </div>
+         <!--<div style="display:none;" id="topTab2">
+            <div class="f12  h40"  style="display:inline; padding-left:80px;">您好！
+               <font class="p_l_10"><a href="{PRC}/user" class="p_r_10" id="topUname"></a></font>
+               <a href="javascript:void(0);" id="logOut" class="p_r_10">退出</a></div>
+         </div>-->
+      </div>
+
+   </div>
+</div>
+
+<div class="banner">
+   <div style="width: 1086px; margin:0 auto;">
+   </div>
+   </div>
+<!-- menu -->
+<div id="header">
+   <div class="nav">
+      <ul class="ma hidden" id="nav">
+         <li id="nav_news"><a href="//www.hxw.gov.cn">首页</a></li>
+         <li id="nav_news">
+            <a href="//www.hxw.gov.cn/channel/2846.html">要闻快递</a>
+            <div class="subnav">
+               <div class="column">
+                  <a href="//www.hxw.gov.cn/channel/2854.html">新闻头条</a>
+                  <a href="//www.hxw.gov.cn/channel/2855.html">高层声音</a>
+                  <a href="//www.hxw.gov.cn/channel/2856.html">时政要闻</a>
+                  <a href="//www.hxw.gov.cn/channel/2857.html">组工动态</a>
+                  <a href="//www.hxw.gov.cn/channel/2858.html">重要发布</a>
+                  <!--<a href="//www.hxw.gov.cn/channel/2859.html">图片新闻</a>-->
+               </div>
+            </div>
+         </li>
+         
+
+         <li id="nav_news">
+            <a href="//www.hxw.gov.cn/channel/2847.html">党建工作</a>
+            <div class="subnav">
+               <div class="colunm">
+                  <a href="//www.hxw.gov.cn/channel/2860.html">党建综合</a>
+                  <a href="//www.hxw.gov.cn/channel/2861.html">组织建设</a>
+                  <a href="//www.hxw.gov.cn/channel/2862.html">党员教育管理</a>
+                  <a href="//www.hxw.gov.cn/channel/2863.html">驻村帮扶</a>
+                  <!--<a href="//www.hxw.gov.cn/channel/2864.html">时代先锋</a>
+                  <a href="//www.hxw.gov.cn/channel/2865.html">党建研究</a>
+                  <a href="//www.hxw.gov.cn/channel/2866.html">他山之石</a>-->
+                  <a href="//www.hxw.gov.cn/channel/2867.html">政策文件</a>
+               </div>
+            </div>
+         </li>
+         <li id="nav_news">
+            <a href="//www.hxw.gov.cn/channel/2848.html">干部工作</a>
+            <div class="subnav">
+               <div class="colunm">
+                  <a href="//www.hxw.gov.cn/channel/2868.html">干部综合</a>
+                  <a href="//www.hxw.gov.cn/channel/2869.html">干部教育</a>
+                  <a href="//www.hxw.gov.cn/channel/2870.html">干部监督</a>
+                  <a href="//www.hxw.gov.cn/channel/2872.html">老干部工作</a>
+                  <!--<a href="//www.hxw.gov.cn/channel/2873.html">他山之石</a>-->
+                  <a href="//www.hxw.gov.cn/channel/2874.html">政策文件</a>
+               </div>
+            </div>
+         </li>
+         <li id="nav_news">
+            <a href="//www.hxw.gov.cn/channel/2849.html">人才工作</a>
+            <div class="subnav">
+               <div class="colunm">
+                  <a href="//www.hxw.gov.cn/channel/2875.html">人才综合</a>
+                  <a href="//www.hxw.gov.cn/channel/2877.html">人才发展</a>
+                  <a href="//www.hxw.gov.cn/channel/2878.html">人才服务</a>
+                  <!--<a href="//www.hxw.gov.cn/channel/2879.html">湖湘英才</a>
+                  <a href="//www.hxw.gov.cn/channel/2880.html">他山之石</a>-->
+                  <a href="//www.hxw.gov.cn/channel/2881.html">政策文件</a>
+               </div>
+            </div>
+         </li>
+
+         <li id="nav_news">
+            <a href="//www.hxw.gov.cn/channel/20648.html">公务员工作</a>
+            <div class="subnav">
+               <div class="column">
+                  <a href="//www.hxw.gov.cn/channel/20649.html" target="_blank">综合管理</a>
+                  <a href="//www.hxw.gov.cn/channel/20650.html"  target="_blank">考录遴选</a>
+                  <a href="//www.hxw.gov.cn/channel/20651.html"  target="_blank">考核奖励</a>
+                  <a href="//www.hxw.gov.cn/channel/20652.html"  target="_blank">政策文件</a><br>
+                  <!--<a href="//www.hxw.gov.cn/channel/20653.html"  target="_blank">他山之石</a>-->
+               </div>
+            </div>
+         </li>
+
+         <li id="nav_news">
+            <a href="http://www.hxw.gov.cn/channel/tech/index.html">远程教育</a>
+            <div class="subnav">
+               <div class="colunm">
+                  <a href="//www.hxw.gov.cn/channel/2887.html">红星视频</a>
+                  <a href="//www.hxw.gov.cn/channel/2990.html">红星悦听</a>
+                  <a href="http://dygbjy.12371.cn/zbpd/" target="_blank">直播讲堂</a>
+                  <a href="//www.hxw.gov.cn/channel/tech/index.html#xxpt">在线教育学习平台</a>
+               </div>
+            </div>
+         </li>
+         <li id="nav_news">
+            <a href="//www.hxw.gov.cn/channel/2850.html">组工文化</a>
+            <div class="subnav">
+               <div class="colunm">
+                  <a href="//www.hxw.gov.cn/channel/2882.html">自身建设</a>
+                  <a href="//www.hxw.gov.cn/channel/2883.html">组工论坛</a>
+                  <a href="//www.hxw.gov.cn/channel/2884.html">组工文苑</a>
+                  <a href="//www.hxw.gov.cn/channel/2885.html">组工博览</a>
+                  <a href="//www.hxw.gov.cn/channel/2886.html">艺术长廊</a>
+               </div>
+            </div>
+         </li>
+         <li id="nav_news">
+            <a href="https://www.hxw.gov.cn/#fwzc">服务之窗</a>
+            <div class="subnav" style="margin-left:-210px;">
+               <div class="colunm">
+                   <!--<a href="javascript:void(0);" onclick="alert('感谢您的关注！近期没有考试。');" style="cursor: pointer;">招录考试报名入口</a>-->
+                  <!--<a href="http://mail.godzw.com/Phone.aspx?BH=2" target="_blank">12371党员咨询服务电话</a>-->
+                  <a href="http://www.hn12380.gov.cn/" target="_blank">12380举报信箱</a>
+                  <!--<a href="https://www.hxw.gov.cn/channel/zxfwList.html">组工政策咨询服务信箱</a>-->
+                  <!--<a href="https://www.hxw.gov.cn/fwzc/zhanguan.html" target="_blank">支部地图</a>-->
+                  <a href="https://www.hxw.gov.cn/channel/zyfwList.html">党员志愿服务</a>
+                 <!-- <a href="https://www.hxw.gov.cn/#fwzc">交纳党费</a>
+                   <a href="#">科技特派员服务站</a>
+                   <a href="#">党代表在线服务</a>
+                  <a href="https://www.hxw.gov.cn/#fwzc">接转党组织关系</a>
+                  <a href="https://www.hxw.gov.cn/channel/jyxcList.html">建言献策</a>-->
+                  <a href="http://www.hxw.gov.cn/channel/downList.html">在线下载</a>
+                  <a href="https://cms.hxw.gov.cn/login" target="_blank">红星云管理入口</a>
+               </div>
+            </div>
+         </li>
+
+
+      </ul>
+   </div>
+</div>
+<script type="text/javascript">
+    $('#nav li').hover(function () {
+        "use strict"; $(this).addClass('navon'); $(this).children("div.subnav").stop().show();
+    }, function () {
+        "use strict"; $(this).removeClass('navon'); $(this).children("div.subnav").stop().hide();
+    });
+    $('#searchForm').submit(function(){
+        if($('#keyWord').val()=='')
+        {
+            alert('请输入搜索关键字');
+            $('#keyWord').focus();
+            return false;
+        }
+        else {
+               location.href="https://www.hxw.gov.cn/channel/search.html?keyWord="+$('#keyWord').val();
+               return false;
+        }
+    });
+
+</script>
+
+
+
+<!--  右侧漂浮代码开始 -->
+<style>
+.wsbs{width:100px; height:426px; display:block; position:fixed; left:50%; margin-left:510px; top:400px;}
+@media screen and (max-width:1280px) {
+ .wsbs { left: inherit; right:0; margin-left:0; z-index:9999; }
+}
+.jjhd .show .topyw li h3 a {color:#fff; line-height:28px;}
+</style>
+<div class="wsbs"><a href="https://12371.people.com.cn/" target="_blank"><img src="//img.hxw.gov.cn/2026/01-13/af32faf5-9e22-4481-a505-1c97c9ba86cd.jpg" width="120"></a></div>
+<!--  右侧漂浮代码结束 -->
+
+
+
+<div class="wapper">
+        <div class="part">
+            <style>
+                .sztd {
+                    height: 26px;
+                    line-height: 26px;
+                    padding: 10px 0;
+                    border-bottom: 1px solid #ddd;
+                    font-family: microsoft yahei;
+                    font-size: 16px;
+                }
+    
+                .sztd a {
+                    padding: 0 6px;
+                }
+            </style>
+        </div>
+    </div>
+    <div class="wapper">
+        <div class="part overf">
+            <div class="fouc ">
+
+            <div id="div_top_bigtitle" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="新闻大头条" moduleType="1" manualData="[{'id':'14942020','title':'沈晓明调研湘西州经济社会发展情况&#32;','contentUrl':'https://www.hxw.gov.cn/content/2026/10/11/14942020.html','summary':''}]" pageSize="1" fileid="null" subAppId="null"  >
+                <h1 style="font-size:37px;">
+                        <a href="https://www.hxw.gov.cn/content/2026/10/11/14942020.html" title="沈晓明调研湘西州经济社会发展情况 " target="_blank">沈晓明调研湘西州经济社会发展情况 </a>
+                </h1>
+            </div>
+
+            </div>
+        </div>
+<script language="javascript" type="text/javascript" src="//www.hxw.gov.cn/js/fulltitle.js"></script>
+
+        <div class="part overf">
+            <div class="box-w2 f-left">
+                <div class="vmain">
+                    <div class="jjhd">
+                        <div id="mdroll" class="show">
+                            <div class="topyw">
+                                <div class="arr_l"><a></a></div>
+                                <div class="arr_r"><a></a></div>
+
+                                <div id="div_top_lb_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="1" terminal="1" moduleName="轮播新闻" moduleType="1"  pageSize="5" fileid="null" subAppId="null"       includeTop="1" excludeNum="0" channelId="3002"   manualData="[]">
+                                    
+                                <ul>
+                                        <li style="display: none;">
+                                                <a href="https://www.hxw.gov.cn/content/2026/10/01/14939404.html" title="烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席" target="_blank"><img
+                                                    src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/10-01/1790813138385-4k1vtlei27r" alt="" title=""></a>
+                                            <div class="bg"></div>
+                                            <h3><a href="https://www.hxw.gov.cn/content/2026/10/01/14939404.html" title="烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席" target="_blank">烈士纪念日向人民英雄敬献花篮仪式在京隆重举行 习近平等党和国家领导人出席</a></h3>
+                                        </li>
+                                        <li style="display: none;">
+                                                <a href="https://www.hxw.gov.cn/content/2026/10/01/14939403.html" title="庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话" target="_blank"><img
+                                                    src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/10-01/1790812920164-e43ur2k1j8l" alt="" title=""></a>
+                                            <div class="bg"></div>
+                                            <h3><a href="https://www.hxw.gov.cn/content/2026/10/01/14939403.html" title="庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话" target="_blank">庆祝中华人民共和国成立77周年招待会在京举行 习近平发表重要讲话</a></h3>
+                                        </li>
+                                        <li style="display: none;">
+                                                <a href="https://www.hxw.gov.cn/content/2026/09/13/14934472.html" title="习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话" target="_blank"><img
+                                                    src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/10-01/1790816007715-25ax2y9lmpm" alt="" title=""></a>
+                                            <div class="bg"></div>
+                                            <h3><a href="https://www.hxw.gov.cn/content/2026/09/13/14934472.html" title="习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话" target="_blank">习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话</a></h3>
+                                        </li>
+                                        <li style="display: none;">
+                                                <a href="https://www.hxw.gov.cn/content/2026/09/03/14931786.html" title="习近平同埃及总统塞西会谈" target="_blank"><img
+                                                    src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/10-01/1790816032670-h4ccvkdj3e9" alt="" title=""></a>
+                                            <div class="bg"></div>
+                                            <h3><a href="https://www.hxw.gov.cn/content/2026/09/03/14931786.html" title="习近平同埃及总统塞西会谈" target="_blank">习近平同埃及总统塞西会谈</a></h3>
+                                        </li>
+                                        <li style="display: none;">
+                                                <a href="https://www.hxw.gov.cn/content/2026/09/02/14931515.html" title="习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话" target="_blank"><img
+                                                    src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/10-01/1790816066989-qga5npwi4yk" alt="" title=""></a>
+                                            <div class="bg"></div>
+                                            <h3><a href="https://www.hxw.gov.cn/content/2026/09/02/14931515.html" title="习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话" target="_blank">习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话</a></h3>
+                                        </li>
+    
+                                </ul>
+                                
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="bg"></div>
+                        <script type="text/javascript" language="javascript" src="//www.hxw.gov.cn/js/hd.js"></script>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="box-w3 f-right">
+                <!-- 代码部分begin -->
+                <div class="slideTxtBox">
+                    <div class="hd">
+                        <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+                        <ul>
+                      
+                            <li>时政要闻</li>
+                            <li>组工动态</li>
+                        </ul>
+                    </div>
+                    <div class="bd">
+						
+                    
+                        <div id="div_szyw_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="时政要闻" moduleType="1"  pageSize="9" fileid="null" subAppId="null"      manualData="[{'id':'14941201','title':'&#8220;习近平主席带领中国人民取得了巨大发展成就&#8221;（大道之行）','contentUrl':'https://www.hxw.gov.cn/content/2026/10/08/14941201.html','summary':''},{'id':'14941783','title':'两部门部署实施2026年&#8220;三区&#8221;人才支持计划教师专项计划','contentUrl':'https://www.hxw.gov.cn/content/2026/10/10/14941783.html','summary':''},{'id':'14941775','title':'广大老年志愿者为推进中国式现代化贡献&#8220;银发力量&#8221;&#8212;&#8212;&#32;&#32;桑榆正好&#32;霞满人间','contentUrl':'https://www.hxw.gov.cn/content/2026/10/10/14941775.html','summary':''},{'id':'14941781','title':'把握规律，因地制宜发展新质生产力&#32;&#32;&#8212;&#8212;国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问','contentUrl':'https://www.hxw.gov.cn/content/2026/10/10/14941781.html','summary':''},{'id':'14942015','title':'&#8220;必须把因地制宜发展新质生产力摆在更加突出的战略位置&#8221;（总书记的人民情怀）','contentUrl':'https://www.hxw.gov.cn/content/2026/10/11/14942015.html','summary':''},{'id':'14941786','title':'沈晓明主持召开省委常委会会议','contentUrl':'https://www.hxw.gov.cn/content/2026/10/10/14941786.html','summary':''},{'id':'14941789','title':'沈晓明主持召开专题会议研究溶洞污染问题排查整治工作','contentUrl':'https://www.hxw.gov.cn/content/2026/10/10/14941789.html','summary':''},{'id':'14941481','title':'省委议军会议、省领导过&#8220;军事日&#8221;活动暨军分区（警备区）党委第一书记述职会议举行','contentUrl':'https://www.hxw.gov.cn/content/2026/10/09/14941481.html','summary':''},{'id':'14941482','title':'湖南省营商环境诉求办理平台升级','contentUrl':'https://www.hxw.gov.cn/content/2026/10/09/14941482.html','summary':''}]"   >
+                        <ul class="list16h36 p_t_5">
+                                <li  class="b"  ><a href="https://www.hxw.gov.cn/content/2026/10/08/14941201.html" title="“习近平主席带领中国人民取得了巨大发展成就”（大道之行）" target="_blank">“习近平主席带领中国人民取得了巨大发展成就”（大道之行）</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/10/14941783.html" title="两部门部署实施2026年“三区”人才支持计划教师专项计划" target="_blank">两部门部署实施2026年“三区”人才支持计划教师专项计划</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/10/14941775.html" title="广大老年志愿者为推进中国式现代化贡献“银发力量”——  桑榆正好 霞满人间" target="_blank">广大老年志愿者为推进中国式现代化贡献“银发力量”——  桑榆正好 霞满人间</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/10/14941781.html" title="把握规律，因地制宜发展新质生产力  ——国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问" target="_blank">把握规律，因地制宜发展新质生产力  ——国家发展改革委有关负责同志就《关于发展新质生产力的意见》答记者问</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/11/14942015.html" title="“必须把因地制宜发展新质生产力摆在更加突出的战略位置”（总书记的人民情怀）" target="_blank">“必须把因地制宜发展新质生产力摆在更加突出的战略位置”（总书记的人民情怀）</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/10/14941786.html" title="沈晓明主持召开省委常委会会议" target="_blank">沈晓明主持召开省委常委会会议</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/10/14941789.html" title="沈晓明主持召开专题会议研究溶洞污染问题排查整治工作" target="_blank">沈晓明主持召开专题会议研究溶洞污染问题排查整治工作</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/09/14941481.html" title="省委议军会议、省领导过“军事日”活动暨军分区（警备区）党委第一书记述职会议举行" target="_blank">省委议军会议、省领导过“军事日”活动暨军分区（警备区）党委第一书记述职会议举行</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/10/09/14941482.html" title="湖南省营商环境诉求办理平台升级" target="_blank">湖南省营商环境诉求办理平台升级</a></li>
+                        </ul>
+                        </div>
+                        <div id="div_zgdt_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="组工动态" moduleType="1"  pageSize="9" fileid="null" subAppId="null"      manualData="[{'id':'14936121','title':'石泰峰：学深悟透用好习近平关于基层工作方法的重要论述&#32;坚持不懈大抓基层为民造福','contentUrl':'https://www.hxw.gov.cn/content/2026/09/19/14936121.html','summary':''},{'id':'14930664','title':'中央党校（国家行政学院）举行秋季学期开学典礼&#32;&#32;蔡奇出席并讲话','contentUrl':'https://www.hxw.gov.cn/content/2026/08/30/14930664.html','summary':''},{'id':'14906073','title':'全国党建工作座谈会在京召开&#32;蔡奇出席并讲话&#32;李希出席','contentUrl':'https://www.hxw.gov.cn/content/2026/06/15/14906073.html','summary':''},{'id':'14934864','title':'中央组织部会同有关部委修订印发&#8220;5个办法&#8221;&#32;&#32;进一步加强行业事业单位领导人员管理','contentUrl':'https://www.hxw.gov.cn/content/2026/09/14/14934864.html','summary':''},{'id':'14934865','title':'为建设高素质专业化事业单位领导人员队伍提供更加有力的制度保障&#32;&#8212;&#8212;中央组织部等五部委负责人就修订行业事业单位领导人员管理&#8220;五个办法&#8221;答记者问','contentUrl':'https://www.hxw.gov.cn/content/2026/09/14/14934865.html','summary':''},{'id':'14911037','title':'&#32;中国共产党党内统计公报','contentUrl':'https://www.hxw.gov.cn/content/2026/07/01/14911037.html','summary':''},{'id':'14930358','title':'2026年全省普通高校党委书记、校长暑期研讨班在长沙举行','contentUrl':'https://www.hxw.gov.cn/content/2026/08/29/14930358.html','summary':''},{'id':'14911039','title':'全省共有党员430.8万名、党的基层组织21.0万个','contentUrl':'https://www.hxw.gov.cn/content/2026/07/01/14911039.html','summary':''},{'id':'14911044','title':'湖南省优秀共产党员、湖南省优秀党务工作者和湖南省先进基层党组织名单','contentUrl':'https://www.hxw.gov.cn/content/2026/07/01/14911044.html','summary':''}]"   >
+                        <ul class="list16h36 p_t_5">
+                                <li  class="b"  ><a href="https://www.hxw.gov.cn/content/2026/09/19/14936121.html" title="石泰峰：学深悟透用好习近平关于基层工作方法的重要论述 坚持不懈大抓基层为民造福" target="_blank">石泰峰：学深悟透用好习近平关于基层工作方法的重要论述 坚持不懈大抓基层为民造福</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/08/30/14930664.html" title="中央党校（国家行政学院）举行秋季学期开学典礼  蔡奇出席并讲话" target="_blank">中央党校（国家行政学院）举行秋季学期开学典礼  蔡奇出席并讲话</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/06/15/14906073.html" title="全国党建工作座谈会在京召开 蔡奇出席并讲话 李希出席" target="_blank">全国党建工作座谈会在京召开 蔡奇出席并讲话 李希出席</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/09/14/14934864.html" title="中央组织部会同有关部委修订印发“5个办法”  进一步加强行业事业单位领导人员管理" target="_blank">中央组织部会同有关部委修订印发“5个办法”  进一步加强行业事业单位领导人员管理</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/09/14/14934865.html" title="为建设高素质专业化事业单位领导人员队伍提供更加有力的制度保障 ——中央组织部等五部委负责人就修订行业事业单位领导人员管理“五个办法”答记者问" target="_blank">为建设高素质专业化事业单位领导人员队伍提供更加有力的制度保障 ——中央组织部等五部委负责人就修订行业事业单位领导人员管理“五个办法”答记者问</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/07/01/14911037.html" title=" 中国共产党党内统计公报" target="_blank"> 中国共产党党内统计公报</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/08/29/14930358.html" title="2026年全省普通高校党委书记、校长暑期研讨班在长沙举行" target="_blank">2026年全省普通高校党委书记、校长暑期研讨班在长沙举行</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/07/01/14911039.html" title="全省共有党员430.8万名、党的基层组织21.0万个" target="_blank">全省共有党员430.8万名、党的基层组织21.0万个</a></li>
+                                <li  ><a href="https://www.hxw.gov.cn/content/2026/07/01/14911044.html" title="湖南省优秀共产党员、湖南省优秀党务工作者和湖南省先进基层党组织名单" target="_blank">湖南省优秀共产党员、湖南省优秀党务工作者和湖南省先进基层党组织名单</a></li>
+                        </ul>
+                        </div>
+
+                    </div>
+                </div>
+    
+                <script src="//www.hxw.gov.cn/js/superslide.2.1.js"></script>
+                <script>
+                    jQuery(".slideTxtBox").slide({effect:"fold",autoPlay:true,easing:"easeOutCirc",delayTime:200,interTime:3500});
+                </script>
+                <!-- 代码部分end -->
+
+            </div>
+        </div>
+		<style>
+			#box580{width:580px;height:60px;line-height:30px;overflow:hidden; float:left; font-family:microsoft yahei;}
+			#box580 ul{list-style-type:none;margin:0;padding:0;margin-left:6px; }
+			/*系统支持ie8就选line-height:16px;，但不支持opera 否则选line-height:20px;*/
+			#box580 ul li{font-size:16px; line-height:30px; overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
+			#box580 ul li a{ text-decoration:none;}
+		</style>
+        <div class="part overf p_t_15">
+            <div class="box-w6 f-left">
+				<div class="zyfb" style="padding-left:120px; padding-top:10px;">
+					<div id="box580">
+						<div id="marqueebox580">
+							<ul id="div_zsfb_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="重要发布" moduleType="1"  pageSize="4" fileid="null" subAppId="null"    manualData="[{'id':'14936132','title':'湖南省2027年常规选调公告','contentUrl':'https://www.hxw.gov.cn/content/2026/09/19/14936132.html','summary':''},{'id':'14936134','title':'湖南省2027年定向选调公告','contentUrl':'https://www.hxw.gov.cn/content/2026/09/19/14936134.html','summary':''},{'id':'14938985','title':'中共湖南省委湖南省人民政府关于表彰第八届湖南省&#8220;人民满意的公务员&#8221;和&#8220;人民满意的公务员集体&#8221;的决定','contentUrl':'https://www.hxw.gov.cn/content/2026/09/29/14938985.html','summary':''},{'id':'14887095','title':'湖南省2026年考试录用公务员集中面试公告','contentUrl':'https://www.hxw.gov.cn/content/2026/04/21/14887095.html','summary':''}]">
+									<li><a href="https://www.hxw.gov.cn/content/2026/09/19/14936132.html" title="湖南省2027年常规选调公告" target="_blank">湖南省2027年常规选调公告</a></li>
+									<li><a href="https://www.hxw.gov.cn/content/2026/09/19/14936134.html" title="湖南省2027年定向选调公告" target="_blank">湖南省2027年定向选调公告</a></li>
+									<li><a href="https://www.hxw.gov.cn/content/2026/09/29/14938985.html" title="中共湖南省委湖南省人民政府关于表彰第八届湖南省“人民满意的公务员”和“人民满意的公务员集体”的决定" target="_blank">中共湖南省委湖南省人民政府关于表彰第八届湖南省“人民满意的公务员”和“人民满意的公务员集体”的决定</a></li>
+									<li><a href="https://www.hxw.gov.cn/content/2026/04/21/14887095.html" title="湖南省2026年考试录用公务员集中面试公告" target="_blank">湖南省2026年考试录用公务员集中面试公告</a></li>
+							</ul>
+						</div>
+					</div>
+					<script language="javascript">
+						function startmarquee(lh,speed,delay) {
+						var p=false;
+						var t;
+						var o=document.getElementById("marqueebox580");
+						o.innerHTML+=o.innerHTML;
+						o.style.marginTop=0;
+						o.onmouseover=function(){p=true;}
+						o.onmouseout=function(){p=false;}
+						function start(){
+						t=setInterval(scrolling,speed);
+						if(!p) o.style.marginTop=parseInt(o.style.marginTop)-1+"px";
+						}
+						function scrolling(){
+						if(parseInt(o.style.marginTop)%lh!=0){
+						o.style.marginTop=parseInt(o.style.marginTop)-1+"px";
+						if(Math.abs(parseInt(o.style.marginTop))>=o.scrollHeight/2) o.style.marginTop=0;
+						}else{
+						clearInterval(t);
+						setTimeout(start,delay);
+						}
+						}
+						setTimeout(start,delay);
+						}
+						startmarquee(30,30,1500);/*高度 速度 频率*/
+					</script>
+				</div>
+            </div>
+			
+            <div class="box-w7 f-right">
+                <div id="div_zlks_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="招录考试" moduleType="1" manualData="[{'id':'294','title':'湖南省2026年考试录用公务员','contentUrl':'https://www.hxw.gov.cn/topic/294/index.html','urlCloud':'https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/01-14/1768368013657-j3loeu4sugr02.jpg','summary':''}]" pageSize="1" fileid="null" subAppId="null">
+                    <a href="https://www.hxw.gov.cn/topic/294/index.html" title="湖南省2026年考试录用公务员" target="_blank">
+                    <img src="https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/01-14/1768368013657-j3loeu4sugr02.jpg"/></a>
+                </div>
+            </div>
+			
+			<!----
+			<div class="box-w7 f-right">
+                <div id="adchange1" class="module" style="min-height:40px;" >
+                
+                </div>
+				<script>
+					(function(){
+						var i=0;
+						function adaction(){
+							if(i==2) i=1; else i++;				
+							var adhtmlPan=document.getElementById("adchange1");
+							switch(i)
+							{
+							case 1:
+							adhtmlPan.innerHTML='<a href="https://www.hxw.gov.cn/topic/176/index.html"  target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2022/02-23/1645606484427-mo4f2i6wz9k03.jpg"/></a>';	 				
+							break;
+							case 2: 
+							adhtmlPan.innerHTML='<a href="https://www.hxw.gov.cn/topic/176/index.html"  target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2022/02-23/1645606484427-mo4f2i6wz9k03.jpg"/></a>';	
+							break;
+							default:
+							break;
+							}
+						}
+					adaction();
+					var k=setInterval(adaction,5000);
+					
+					})()
+				</script>
+            </div>
+---->
+        </div>
+    </div>
+    
+    <div class="wapper overf m_t_20">
+        <div class="part" id="ztzl">
+            <div class="tit p_b_10 b-bottom"><span><a href="https://www.hxw.gov.cn/channel/20742.html"><img
+                    src="https://www.hxw.gov.cn/images/tit-1.png"/></a></span></div>
+            <div id="pic_list_1" class="scroll_horizontal">
+                <div class="box">
+                   
+                    
+                    <div id="div_ztzl_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="专题专栏" moduleType="1" manualData="[{'id':'302','title':'学习贯彻习近平党建思想','contentUrl':'https://www.hxw.gov.cn/topic/302/index.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/06-18/1781767152083-8mhebmwdtyf30.png','summary':''},{'id':'228','title':'学习贯彻习近平新时代中国特色社会主义思想主题教育','contentUrl':'https://www.hxw.gov.cn/topic/228/index.html','urlCloud':'https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/11-07/1762503765017-t1cczyav3f702.jpg','summary':''},{'id':'14874466','title':'树立和践行正确政绩观','contentUrl':'https://www.hxw.gov.cn/content/2026/03/19/14874466.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/03-19/1773888357273-t6gjgiughf30.jpg','summary':''},{'id':'309','title':'让人民满意','contentUrl':'https://www.hxw.gov.cn/topic/309/index.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/09-30/1790757564562-jokmud5trx52.jpg','summary':''},{'id':'282','title':'《习近平谈治国理政》第五卷','contentUrl':'https://www.hxw.gov.cn/topic/282/index.html','urlCloud':'https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/11-07/1762503787806-8485h1ww7tw01.jpg','summary':''},{'id':'274','title':'深入贯彻中央八项规定精神学习教育','contentUrl':'https://www.hxw.gov.cn/topic/274/index.html','urlCloud':'http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/04-03/1743645821136-8uduea8fvq34.jpg','summary':''},{'id':'306','title':'网络文明从我做起','contentUrl':'https://www.hxw.gov.cn/topic/306/index.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/09-06/1788654278281-oiz1gqh5yrt52.png','summary':''},{'id':'92','title':'全省党员教育培训示范班','contentUrl':'http://www.hxw.gov.cn/topic/92/index.html','urlCloud':'http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2021/02-09/1612834126406-jm937p91gn04.jpg','summary':''}]" pageSize="8" fileid="null" subAppId="null">
+                    <ul class="list">
+                                <li><a href="https://www.hxw.gov.cn/topic/302/index.html" title="学习贯彻习近平党建思想" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/06-18/1781767152083-8mhebmwdtyf30.png" alt="学习贯彻习近平党建思想" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/topic/228/index.html" title="学习贯彻习近平新时代中国特色社会主义思想主题教育" target="_blank"><img src="https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/11-07/1762503765017-t1cczyav3f702.jpg" alt="学习贯彻习近平新时代中国特色社会主义思想主题教育" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/content/2026/03/19/14874466.html" title="树立和践行正确政绩观" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/03-19/1773888357273-t6gjgiughf30.jpg" alt="树立和践行正确政绩观" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/topic/309/index.html" title="让人民满意" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/09-30/1790757564562-jokmud5trx52.jpg" alt="让人民满意" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/topic/282/index.html" title="《习近平谈治国理政》第五卷" target="_blank"><img src="https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/11-07/1762503787806-8485h1ww7tw01.jpg" alt="《习近平谈治国理政》第五卷" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/topic/274/index.html" title="深入贯彻中央八项规定精神学习教育" target="_blank"><img src="http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/04-03/1743645821136-8uduea8fvq34.jpg" alt="深入贯彻中央八项规定精神学习教育" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/topic/306/index.html" title="网络文明从我做起" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/09-06/1788654278281-oiz1gqh5yrt52.png" alt="网络文明从我做起" title=""></a></li>
+                                <li><a href="http://www.hxw.gov.cn/topic/92/index.html" title="全省党员教育培训示范班" target="_blank"><img src="http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2021/02-09/1612834126406-jm937p91gn04.jpg" alt="全省党员教育培训示范班" title=""></a></li>
+                    </ul>
+                    </div>
+
+
+                </div>
+               <div class="plus"></div>
+                <div class="minus"></div>
+            </div>
+            <script language="javascript" type="text/javascript" src="//www.hxw.gov.cn//js/jquery-1.9.0.min.js"></script>
+            <script language="javascript" type="text/javascript" src="//www.hxw.gov.cn/js/jquery.cxscroll.js"></script>
+            <script>
+                $("#pic_list_1").cxScroll();
+            </script>
+    
+        </div>
+    </div>
+    
+    <div class="wapper overf m_t_20">
+        <div class="part">
+            <div class="box-w5 f-left">
+                <div class="box-w4 f-left">
+                    <div class="tit p_b_10 b-bottom"><em><a href="https://www.hxw.gov.cn/channel/2847.html" target="_blank">更多>></a></em><span><img src="https://www.hxw.gov.cn/images/tit-2.png"/></span></div>
+
+                <div id="div_djgz_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="党建工作" moduleType="1"  pageSize="5" fileid="null" subAppId="null"    manualData="[{'id':'14938681','title':'新邵县：村民齐聚党群服务中心&#32;让惠民政策&#8220;声&#8221;入人心','contentUrl':'https://www.hxw.gov.cn/content/2026/09/28/14938681.html','summary':''},{'id':'14936786','title':'长沙市开福区：手握&#8220;管家密钥&#8221;&#32;解锁邻里共治','contentUrl':'https://www.hxw.gov.cn/content/2026/09/21/14936786.html','summary':''},{'id':'14936465','title':'保靖县：党建领航&#8220;橙&#8221;香远&#32;奏响集体经济新乐章','contentUrl':'https://www.hxw.gov.cn/content/2026/09/20/14936465.html','summary':''},{'id':'14937348','title':'会同县：深耕便民微实事&#32;厚植民生暖底色','contentUrl':'https://www.hxw.gov.cn/content/2026/09/23/14937348.html','summary':''},{'id':'14937387','title':'常德市鼎城区：党建引领&#8220;小切口&#8221;&#32;撬动安置小区&#8220;大治理&#8221;','contentUrl':'https://www.hxw.gov.cn/content/2026/09/23/14937387.html','summary':''}]">
+                    <ul class="list16h36 p_t_5">
+                            <li  class="b"   ><a href="https://www.hxw.gov.cn/content/2026/09/28/14938681.html" title="新邵县：村民齐聚党群服务中心 让惠民政策“声”入人心" target="_blank">新邵县：村民齐聚党群服务中心 让惠民政策“声”入人心</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/21/14936786.html" title="长沙市开福区：手握“管家密钥” 解锁邻里共治" target="_blank">长沙市开福区：手握“管家密钥” 解锁邻里共治</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/20/14936465.html" title="保靖县：党建领航“橙”香远 奏响集体经济新乐章" target="_blank">保靖县：党建领航“橙”香远 奏响集体经济新乐章</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/23/14937348.html" title="会同县：深耕便民微实事 厚植民生暖底色" target="_blank">会同县：深耕便民微实事 厚植民生暖底色</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/23/14937387.html" title="常德市鼎城区：党建引领“小切口” 撬动安置小区“大治理”" target="_blank">常德市鼎城区：党建引领“小切口” 撬动安置小区“大治理”</a></li>
+                    </ul>
+                </div>
+                </div>
+				
+                <div class="box-w4 f-right">
+                    <div class="tit p_b_10 b-bottom"><em><a href="https://www.hxw.gov.cn/channel/2848.html" target="_blank">更多>></a></em><span><img src="https://www.hxw.gov.cn/images/tit-3.png"/></span></div>
+                <div id="div_gbgz_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="干部工作" moduleType="1"  pageSize="5" fileid="null" subAppId="null"   manualData="[{'id':'14937346','title':'古丈县：&#8220;三新&#8221;模式激活干部考核&#8220;一池春水&#8221;','contentUrl':'https://www.hxw.gov.cn/content/2026/09/23/14937346.html','summary':''},{'id':'14937049','title':'祁阳市：持续擦亮老干部志愿服务品牌','contentUrl':'https://www.hxw.gov.cn/content/2026/09/22/14937049.html','summary':''},{'id':'14937048','title':'常德市：行走的课堂&#32;时代的华章','contentUrl':'https://www.hxw.gov.cn/content/2026/09/22/14937048.html','summary':''},{'id':'14935673','title':'泸溪县：健全&#8220;三个体系&#8221;，提升关心下一代工作质效','contentUrl':'https://www.hxw.gov.cn/content/2026/09/17/14935673.html','summary':''},{'id':'14935421','title':'慈利县：探索&#8220;三步法&#8221;构建换届离任交接新模式','contentUrl':'https://www.hxw.gov.cn/content/2026/09/16/14935421.html','summary':''}]">
+                        <ul class="list16h36 p_t_5">
+                            <li  class="b"   ><a href="https://www.hxw.gov.cn/content/2026/09/23/14937346.html" title="古丈县：“三新”模式激活干部考核“一池春水”" target="_blank">古丈县：“三新”模式激活干部考核“一池春水”</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/22/14937049.html" title="祁阳市：持续擦亮老干部志愿服务品牌" target="_blank">祁阳市：持续擦亮老干部志愿服务品牌</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/22/14937048.html" title="常德市：行走的课堂 时代的华章" target="_blank">常德市：行走的课堂 时代的华章</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/17/14935673.html" title="泸溪县：健全“三个体系”，提升关心下一代工作质效" target="_blank">泸溪县：健全“三个体系”，提升关心下一代工作质效</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/16/14935421.html" title="慈利县：探索“三步法”构建换届离任交接新模式" target="_blank">慈利县：探索“三步法”构建换届离任交接新模式</a></li>
+                        </ul>
+                    </div>
+                </div>                
+				
+				
+				
+				<div class="box-w4 f-left m_t_20">
+                    <div class="tit p_b_10 b-bottom"><em>
+                        <a href="https://www.hxw.gov.cn/channel/20648.html" target="_blank">更多>></a></em><span><img src="https://www.hxw.gov.cn/images/gwygz.png"/></span></div>
+                <div id="div_gwygz_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="公务员工作" moduleType="1" pageSize="5"     manualData="[{'id':'14940456','title':'田畴筑梦&#32;实干为民&#8212;&#8212;记第八届湖南省&#8220;人民满意的公务员&#8221;宁宇','contentUrl':'https://www.hxw.gov.cn/content/2026/10/05/14940456.html','summary':''},{'id':'14940217','title':'翻山越岭，只为公平正义&#8212;&#8212;记第八届湖南省&#8220;人民满意的公务员集体&#8221;桑植县人民检察院','contentUrl':'https://www.hxw.gov.cn/content/2026/10/04/14940217.html','summary':''},{'id':'14940218','title':'为国审计&#32;为民谋利&#8212;&#8212;记第八届湖南省&#8220;人民满意的公务员&#8221;龙海燕','contentUrl':'https://www.hxw.gov.cn/content/2026/10/04/14940218.html','summary':''},{'id':'14939421','title':'心里装着赶路的人&#8212;&#8212;记第八届湖南省&#8220;人民满意的公务员&#8221;刘海洋','contentUrl':'https://www.hxw.gov.cn/content/2026/10/01/14939421.html','summary':''},{'id':'14939423','title':'一抹&#8220;市监蓝&#8221;，温暖千万家&#8212;&#8212;记第八届湖南省&#8220;人民满意的公务员集体&#8221;凤凰县沱江市场监督管理所','contentUrl':'https://www.hxw.gov.cn/content/2026/10/01/14939423.html','summary':''}]">
+                        <ul class="list16h36 p_t_5">
+                            <li  class="b"   ><a href="https://www.hxw.gov.cn/content/2026/10/05/14940456.html" title="田畴筑梦 实干为民——记第八届湖南省“人民满意的公务员”宁宇" target="_blank">田畴筑梦 实干为民——记第八届湖南省“人民满意的公务员”宁宇</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/10/04/14940217.html" title="翻山越岭，只为公平正义——记第八届湖南省“人民满意的公务员集体”桑植县人民检察院" target="_blank">翻山越岭，只为公平正义——记第八届湖南省“人民满意的公务员集体”桑植县人民检察院</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/10/04/14940218.html" title="为国审计 为民谋利——记第八届湖南省“人民满意的公务员”龙海燕" target="_blank">为国审计 为民谋利——记第八届湖南省“人民满意的公务员”龙海燕</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/10/01/14939421.html" title="心里装着赶路的人——记第八届湖南省“人民满意的公务员”刘海洋" target="_blank">心里装着赶路的人——记第八届湖南省“人民满意的公务员”刘海洋</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/10/01/14939423.html" title="一抹“市监蓝”，温暖千万家——记第八届湖南省“人民满意的公务员集体”凤凰县沱江市场监督管理所" target="_blank">一抹“市监蓝”，温暖千万家——记第八届湖南省“人民满意的公务员集体”凤凰县沱江市场监督管理所</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="box-w4 f-right m_t_20">
+                    <div class="tit p_b_10 b-bottom"><em><a href="https://www.hxw.gov.cn/channel/2850.html" target="_blank">更多>></a></em><span><img src="https://www.hxw.gov.cn/images/tit-6.png"/></span></div>
+                    <div id="div_zgwh_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="组工文化" moduleType="1"  pageSize="5" fileid="null" subAppId="null"     manualData="[{'id':'14899234','title':'&#8203;泸溪县：&#8220;四个坚持&#8221;锻造模范部门&#32;赋能组织工作高质量发展','contentUrl':'https://www.hxw.gov.cn/content/2026/05/26/14899234.html','summary':''},{'id':'14855985','title':'衡阳市蒸湘区：以自身建设&#8220;硬实力&#8221;&#32;扛起组织工作&#8220;新担当&#8221;','contentUrl':'https://www.hxw.gov.cn/content/2026/01/26/14855985.html','summary':''},{'id':'14896745','title':'永顺县：抓实&#8220;三会一课&#8221;提质效&#32;规范组织生活促发展','contentUrl':'https://www.hxw.gov.cn/content/2026/05/19/14896745.html','summary':''},{'id':'14868112','title':'凤凰县：多措并举加强干部队伍作风建设','contentUrl':'https://www.hxw.gov.cn/content/2026/03/02/14868112.html','summary':''},{'id':'14856702','title':'宁远县：&#8220;三维淬炼&#8221;锻造新时代清正担当组工铁军','contentUrl':'https://www.hxw.gov.cn/content/2026/01/28/14856702.html','summary':''}]">
+                            <ul class="list16h36 p_t_5">
+                                <li  class="b"   ><a href="https://www.hxw.gov.cn/content/2026/05/26/14899234.html" title="​泸溪县：“四个坚持”锻造模范部门 赋能组织工作高质量发展" target="_blank">​泸溪县：“四个坚持”锻造模范部门 赋能组织工作高质量发展</a></li>
+                                <li   ><a href="https://www.hxw.gov.cn/content/2026/01/26/14855985.html" title="衡阳市蒸湘区：以自身建设“硬实力” 扛起组织工作“新担当”" target="_blank">衡阳市蒸湘区：以自身建设“硬实力” 扛起组织工作“新担当”</a></li>
+                                <li   ><a href="https://www.hxw.gov.cn/content/2026/05/19/14896745.html" title="永顺县：抓实“三会一课”提质效 规范组织生活促发展" target="_blank">永顺县：抓实“三会一课”提质效 规范组织生活促发展</a></li>
+                                <li   ><a href="https://www.hxw.gov.cn/content/2026/03/02/14868112.html" title="凤凰县：多措并举加强干部队伍作风建设" target="_blank">凤凰县：多措并举加强干部队伍作风建设</a></li>
+                                <li   ><a href="https://www.hxw.gov.cn/content/2026/01/28/14856702.html" title="宁远县：“三维淬炼”锻造新时代清正担当组工铁军" target="_blank">宁远县：“三维淬炼”锻造新时代清正担当组工铁军</a></li>
+                            </ul>
+                    </div>
+                </div>
+				
+                <div class="clear"></div>
+    
+            </div>
+            <style>
+                .fwzc .fw-btn .bt-a .tcewm {
+                    width: 150px;
+                    display: none;
+                    overflow: hidden;
+                    position: absolute;
+                    left: -5px;
+                    top: -150px;
+                }
+    
+                .fwzc .fw-btn .bt-a .tcewm img {
+                    width: 150px;
+                    height: 150px;
+                }
+            </style>
+            <div class="box-w4 f-right">
+				<div class="box-w4">
+                    <div class="tit p_b_10 b-bottom"><em>
+                        <a href="https://www.hxw.gov.cn/channel/2849.html" target="_blank">更多>></a></em><span><img src="https://www.hxw.gov.cn/images/tit-5.png"/></span></div>
+                <div id="div_rcgz_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="人才工作" moduleType="1" pageSize="5" fileid="null" subAppId="null"     manualData="[{'id':'14935418','title':'麻阳县：以青春之智赋能乡村&#32;以长效机制筑梦苗乡','contentUrl':'https://www.hxw.gov.cn/content/2026/09/16/14935418.html','summary':''},{'id':'14936464','title':'湘潭县：持续深化科技特派员制度&#32;以优团建站赋能乡村产业振兴','contentUrl':'https://www.hxw.gov.cn/content/2026/09/20/14936464.html','summary':''},{'id':'14934889','title':'东安县：&#8220;青&#8221;尽所能&#32;让城市和青年&#8220;双向奔赴&#8221;','contentUrl':'https://www.hxw.gov.cn/content/2026/09/14/14934889.html','summary':''},{'id':'14934871','title':'新田县：多维发力抛出引才&#8220;橄榄枝&#8221;','contentUrl':'https://www.hxw.gov.cn/content/2026/09/14/14934871.html','summary':''},{'id':'14928799','title':'邵阳市大祥区：&#8220;漫跑交友&#8221;激活古城夜经济与人才新活力','contentUrl':'https://www.hxw.gov.cn/content/2026/08/24/14928799.html','summary':''}]">
+                        <ul class="list16h36 p_t_5">
+                            <li  class="b"   ><a href="https://www.hxw.gov.cn/content/2026/09/16/14935418.html" title="麻阳县：以青春之智赋能乡村 以长效机制筑梦苗乡" target="_blank">麻阳县：以青春之智赋能乡村 以长效机制筑梦苗乡</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/20/14936464.html" title="湘潭县：持续深化科技特派员制度 以优团建站赋能乡村产业振兴" target="_blank">湘潭县：持续深化科技特派员制度 以优团建站赋能乡村产业振兴</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/14/14934889.html" title="东安县：“青”尽所能 让城市和青年“双向奔赴”" target="_blank">东安县：“青”尽所能 让城市和青年“双向奔赴”</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/09/14/14934871.html" title="新田县：多维发力抛出引才“橄榄枝”" target="_blank">新田县：多维发力抛出引才“橄榄枝”</a></li>
+                            <li   ><a href="https://www.hxw.gov.cn/content/2026/08/24/14928799.html" title="邵阳市大祥区：“漫跑交友”激活古城夜经济与人才新活力" target="_blank">邵阳市大祥区：“漫跑交友”激活古城夜经济与人才新活力</a></li>
+                        </ul>
+                    </div>
+                </div>
+			
+                <div class="tit p_b_10 m_t_20" id="fwzc"><span><img src="https://www.hxw.gov.cn/images/tit-4.png"/></span></div>
+                <div class=" main-box2 fwzc" style="background:#f2f2f2; padding:10px 21px; overflow:hidden;">
+					<!--
+                    <a href="http://www.hn12380.gov.cn/" target="_blank"><img src="https://www.hxw.gov.cn/images/fw-2.png" height="75"/></a>
+                    <a href="http://mail.godzw.com/Phone.aspx?BH=2" target="_blank"><img src="https://www.hxw.gov.cn/images/fw-3.png" height="75"/></a>
+                    <a href="https://www.hxw.gov.cn/channel/zxfwList.html" target="_blank"><img src="https://www.hxw.gov.cn/images/fw-1.png" height="75"/></a>
+                    <a href="http://cms.hxw.gov.cn/login" target="_blank"><img src="https://www.hxw.gov.cn/images/admin_login.jpg" height="75"/></a>
+					-->
+					<a href="http://www.hn12380.gov.cn/" target="_blank" style="width:135px; float:left;"><img src="https://www.hxw.gov.cn/images/137-75-12380.jpg" width="135" height="75"/></a>
+
+					<!--	<a href="http://pxpc.hxw.gov.cn/backbone-teacher/list" target="_blank" style="width:135px; float:left;"><img src="https://www.hxw.gov.cn/images/img-edu.png" width="135" height="75"/></a>-->
+					<a href="http://cms.hxw.gov.cn/login" target="_blank" style="width:135px; float:left;"><img src="https://www.hxw.gov.cn/images/137-75-hxy.jpg" width="135" height="75"/></a>
+					
+                    <div class="fw-btn" style="border:none;">
+                        
+                        <div class="bt-a"><a href="https://www.hxw.gov.cn/channel/zyfwList.html" style="padding: 0" target="_blank"><img
+                                src="https://www.hxw.gov.cn/images/fw-btn2.png"/><span><a href="https://www.hxw.gov.cn/channel/zyfwList.html"
+                                                                          target="_blank">党员志愿服务</a></span></a></div>
+                        
+<!--
+                        <div class="bt-a">
+<a href="https://www.hxw.gov.cn/channel/jyxcList.html" target="_blank" style="padding: 0">
+<img src="https://www.hxw.gov.cn/images/fw-btn7.png"/>
+<span><a href="https://www.hxw.gov.cn/channel/jyxcList.html" target="_blank">建言献策</a></span></a></div>
+-->
+                        <div class="bt-a"><a href="http://www.hxw.gov.cn/channel/downList.html" target="_blank" style="padding: 0"><img
+                                src="https://www.hxw.gov.cn/images/fw-btn8.png"/><span><a href="http://www.hxw.gov.cn/channel/downList.html"
+                                                                          target="_blank">在线下载</a></span></a></div>
+                    </div>
+                    <script type="text/javascript">
+                        $(".bt-a:odd").css("width", "133px");
+                        $(".bt-a:even").css("width", "133px");
+                        $('.bt-a').hover(function () {
+                            $(this).children("div.tcewm").stop().show();
+                        }, function () {
+                            $(this).children("div.tcewm").stop().hide();
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wapper overf m_t_5">
+        <div class="part">
+            <div class="b-b100 overf m_t_20">
+                <div class="tit p_b_10" style="border-bottom:2px solid #ddd;"><em><a href="https://www.hxw.gov.cn/channel/tech/index.html" target="_blank">更多>></a></em><span><img src="https://www.hxw.gov.cn/images/tit-7.png"/></span></div>
+                <div id="div_ycjy_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="远程教育" moduleType="1" manualData="[{'title':'湖南省党员教育培训示范基地','contentUrl':'http://pxpc.hxw.gov.cn/eduBase/list','urlCloud':'http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2020/11-17/1605588371022-04r3sw61g6ny02.jpg','summary':''},{'title':'湖南省党员教育培训师资库','contentUrl':'http://www.hxw.gov.cn/topic/120/index.html','urlCloud':'http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2021/11-10/1636507478990-ryuv2txs1an01.jpg','summary':''},{'title':'田间课堂','contentUrl':'https://www.hxw.gov.cn/channel/2964.html','urlCloud':'https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2023/12-25/1703496708998-hcvlbhqper701.jpg','summary':''}]" pageSize="3" fileid="null" subAppId="null">
+                    <ul class="list">
+                            <div class="jy-pic f-left m_t_10"><a href="http://pxpc.hxw.gov.cn/eduBase/list" title="湖南省党员教育培训示范基地" target="_blank"><img src="http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2020/11-17/1605588371022-04r3sw61g6ny02.jpg" alt="湖南省党员教育培训示范基地" title=""></a></div>
+                            <div class="jy-pic f-left m_t_10 p_l_15"><a href="http://www.hxw.gov.cn/topic/120/index.html" title="湖南省党员教育培训师资库" target="_blank"><img src="http://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2021/11-10/1636507478990-ryuv2txs1an01.jpg" alt="湖南省党员教育培训师资库" title=""></a></div>
+                            <div class="jy-pic f-right m_t_10"><a href="https://www.hxw.gov.cn/channel/2964.html" title="田间课堂" target="_blank"><img src="https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2023/12-25/1703496708998-hcvlbhqper701.jpg" alt="田间课堂" title=""></a></div>
+                    </ul>
+                    </div>
+
+
+
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="wapper overf m_t_20">
+        <div class="part">
+            <div class="gdpic">
+
+            <div id="div_hxsp_title" class="module" style="min-height:40px;" pageId="1147" fetchDataType="2" terminal="1" moduleName="红星视频" moduleType="1"  pageSize="6" fileid="null" subAppId="null"          manualData="[{'id':'14911128','title':'向上的力量','contentUrl':'https://www.hxw.gov.cn/content/2026/07/01/14911128.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/07-01/1782875852100-yrm4oiookdb04.jpg','summary':''},{'id':'14910334','title':'105年，初心滚烫','contentUrl':'https://www.hxw.gov.cn/content/2026/06/29/14910334.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/06-29/1782723191929-yd7dqze1gdl76.jpg','summary':''},{'id':'14893391','title':'权威专家独家解读正确政绩观','contentUrl':'https://www.hxw.gov.cn/content/2026/05/09/14893391.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/05-09/1778294310277-2dvx25luxjx9f.png','summary':''},{'id':'14917767','title':'&#8220;七一勋章&#8221;获得者','contentUrl':'https://www.hxw.gov.cn/content/2026/07/22/14917767.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/07-22/1784713048995-mfl6alaa75e66.png','summary':''},{'id':'14938662','title':'中国共产党为什么能？','contentUrl':'https://www.hxw.gov.cn/content/2026/09/28/14938662.html','urlCloud':'//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/09-28/1790581702893-redagxazkvd9.jpg','summary':''},{'id':'272','title':'学习身边榜样','contentUrl':'https://www.hxw.gov.cn/topic/272/index.html','urlCloud':'https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/03-10/1741579810593-w9pms3lvko%E6%8B%B7%E8%B4%9D.png','summary':''}]"   >
+              
+                <div id="pic" class="pic">
+                    <div id="move22">
+                        <ul>
+                                <li><a href="https://www.hxw.gov.cn/content/2026/07/01/14911128.html" title="向上的力量" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/07-01/1782875852100-yrm4oiookdb04.jpg" alt="向上的力量" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/content/2026/06/29/14910334.html" title="105年，初心滚烫" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/06-29/1782723191929-yd7dqze1gdl76.jpg" alt="105年，初心滚烫" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/content/2026/05/09/14893391.html" title="权威专家独家解读正确政绩观" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/05-09/1778294310277-2dvx25luxjx9f.png" alt="权威专家独家解读正确政绩观" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/content/2026/07/22/14917767.html" title="“七一勋章”获得者" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/07-22/1784713048995-mfl6alaa75e66.png" alt="“七一勋章”获得者" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/content/2026/09/28/14938662.html" title="中国共产党为什么能？" target="_blank"><img src="//party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2026/09-28/1790581702893-redagxazkvd9.jpg" alt="中国共产党为什么能？" title=""></a></li>
+                                <li><a href="https://www.hxw.gov.cn/topic/272/index.html" title="学习身边榜样" target="_blank"><img src="https://party-cloud-1254231242.cos.ap-guangzhou.myqcloud.com/2025/03-10/1741579810593-w9pms3lvko%E6%8B%B7%E8%B4%9D.png" alt="学习身边榜样" title=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+                <script language="JavaScript" type="text/javascript">
+                    new Marquee("pic", 2, 2, 970, 165, 30, 0, 0)
+                </script>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="wapper overf m_t_20">
+        <div class="part">
+            <div class=" main-box2" style="background:#f2f2f2; padding:10px;">
+                <table width="980" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="180">
+                            <div class="tit3"><span>友情链接</span></div>
+                        </td>
+                        <!--<td width="260">
+                            <input type="button" name="" value="湖南党建网群" class="yqlj" id="clickme"  style="border: 1px solid; width:200px; cursor: pointer;">
+                        </td>-->
+                        <td width="260">
+                            <input type="button" name="" value="全国党建网站联盟" onclick="window.open('http://dwlm.12371.cn/')" class="yqlj" style="border: 1px solid;width:200px; cursor: pointer;">
+                       
+                        </td>
+    
+                        <td width="280">
+                            <select name="" size="" title="新闻网站链接" class="yqlj" style="width:200px;">
+                                <option>新闻网站链接</option>
+                                <option value="http://www.xinhuanet.com/">新华网</option>
+                                <option value="http://www.people.com.cn/">人民网</option>
+                                <option value="http://cpc.people.com.cn/">中国共产党新闻网</option>
+                                <option value="http://www.12371.cn/">共产党员网</option>
+                                <option value="http://www.gov.cn/">中国政府网</option>
+                                <option value="http://www.rednet.cn/">红网</option>
+                                <option value="http://www.sxfj.gov.cn/">三湘风纪网</option>
+                                <option value="http://nc.mofcom.gov.cn/">新农村商网</option>
+                                <option value="http://www.cnxxpl.com/">新湘评论</option>
+                                <option value="http://www.cctv.com/">央视网</option>
+                                <option value="http://www.chinanews.com/">中国新闻网</option>
+                                <option value="http://www.gmw.cn/">光明网</option>
+                                 <option value="http://www.hnzy.gov.cn/">湖南政研网</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+    
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+    
+        $("select.yqlj").change(function (e) {
+            if ($(this).val() != "") {
+                window.open($(this).val());
+            }
+        });
+    </script>
+    <script>
+        $(function () {
+            //卷帘门效果
+            $("#clickme").click(function () {
+                $(".main_dj").slideToggle("slow");
+                // $(this).toggleClass("upbtn");
+                // $(this).toggleClass("downbtn");
+            });
+    
+            $("#clickme").click();
+        })
+    
+    </script>
+    <!--
+    <div id="main_dj" class="main_dj" style="width: 1000px; margin: 0 auto;">
+        <iframe frameborder="0" scrolling="no" width="1000" height="482" src="https://www.hxw.gov.cn/channel/djwq.html"></iframe>
+    </div>
+    -->
+    
+    <div class="clear overf m_t_20"></div>
+    <script type="text/javascript">
+        $("img").each(function (index, val) {
+            $(val).attr('src',$(val).attr('src').replace(/http:\/\/img\.hxw\.gov\.cnhttp:/g, "http:").replace(/https:\/\/img\.hxw\.gov\.cnhttp/g, "http"))
+        })
+    
+    </script>
+    
+
+
+
+
+
+
+<!---- foot ---->
+        <script language="javascript" type="text/javascript" src="https://www.hxw.gov.cn/js/jquery.cxscroll.js"></script>
+
+
+<div class="wapper" style="background:#AD0C1D;">
+        <div class="part p_t_25 h26 cWhite f14 overf bottom_tj">
+            <img src="https://www.hxw.gov.cn/images/ewm2.png" width="115" height="115" style="position:absolute; right:0; top: 5px;" />
+            <img src="https://www.hxw.gov.cn/images/ewm.png" width="115" height="115" style="position:absolute; right:120px; top:5px;" />
+            <div style="width:800px; height:100px; display:block; float:left;">
+                <div class="f-left p_r_10 ">
+                    <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/19/000/0000/60645949/CA190000000606459490001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+                <p class="p_b_20 f-left">
+    
+                    主办单位：中共湖南省委组织部<br>
+                    技术支持：湖南红网新媒体集团<br>
+                    ICP备案号：<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备17016663号-1</a>
+                </p>
+            <p class="p_b_20 f-left t-center" style="padding-left: 150px;" id="for51La">
+                欢迎您访问红星网<br>
+                您是第  <span id="Ajiang"></span> 位来访者<!--quote.users.51.la/?id=19288810&amp;mb=1-->
+                <br>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KnevsrNegfYmVrGg",ck:"KnevsrNegfYmVrGg"})</script>
+<a style="display:none;"><script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/KnevsrNegfYmVrGg/quote.js?theme=0&f=12&display=0,0,0,0,0,0,0,1"></script></a>
+            </p>
+
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    //console.log($("#Ajiang>a").html());
+    $("#Ajiang").html(parseInt($("#for51La>a span").eq(3).html().replace("总访问量&nbsp;","").replace(/,/g,""))+95640082);
+
+</script>
+    
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0a41047030e55631f91c8d85928bf61c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</body>
+</html>
+
+

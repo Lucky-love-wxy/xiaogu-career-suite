@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
+     <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+     <link rel="shortcut icon" href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+     <link rel="apple-touch-icon" href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 禁止缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <title>招聘</title>
+    <script type="module" crossorigin src="/assets/index.885d92f7.js"></script>
+    <link rel="stylesheet" href="/assets/index.1a6f32c0.css">
+    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+  </head>
+  <body>
+
+    <style>
+      .browser-suggest {
+          width: 100%;
+          height: 128px;
+          background: #2652A0;
+          font-size: 14px;
+          font-weight: 400;
+          color: #ffffff;
+          line-height: 20px;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          z-index: 999;
+          display: block;
+          text-align: center;
+          padding: 44px;
+          box-sizing: border-box;
+      }
+    </style>
+    <div class="browser-suggest" id="browserSuggest">
+      为保证正常显示效果，建议使用以下浏览器 <br/>最新版 谷歌浏览器（Chrome），火狐浏览器（Firefox），360浏览器
+    </div>
+    <script>
+      //平台、设备和操作系统 
+      var system = { 
+        win: true, 
+        mac: false, 
+        xll: false, 
+        ipad: false
+      };
+      var browserSuggest = document.getElementById('browserSuggest');
+      var showIgnor = false;
+      if (navigator) {
+        //检测平台 
+        var p = navigator.platform; 
+        system.win = p.indexOf("Win") == 0; 
+        system.mac = p.indexOf("Mac") == 0; 
+        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); 
+        system.ipad = (navigator.userAgent.match(/iPad/i) != null) ? true : false; 
+      }
+
+      if (system.win || system.mac || system.xll || system.ipad) {
+        // pc平台
+        var u = window.navigator.userAgent.toLocaleLowerCase(),
+            likeiPhone = /(iphone os) ([\d.]+)/,
+            edge = /(edg)\/([\d.]+)/,
+            msie = /(msie) ([\d.]+)/,
+            chrome = /(chrome)\/([\d.]+)/,
+            firefox = /(firefox)\/([\d.]+)/,
+            safari = /(safari)\/([\d.]+)/,
+            opera = /(opera)\/([\d.]+)/,
+            ie11 = /(trident)\/([\d.]+)/,
+            b = u.match(likeiPhone)||u.match(edge)||u.match(msie)||u.match(chrome)||u.match(firefox)||u.match(safari)||u.match(opera)||u.match(ie11);
+
+        var browserInfo = {};
+        if (b && b.length > 2) {
+            browserInfo = {NAME: b[1], VERSION: parseInt(b[2])};
+        } else {
+            browserInfo = {NAME: '', VERSION: 0};
+        }
+
+        if (browserInfo.NAME != 'chrome' && browserInfo.NAME != 'firefox' && browserInfo.NAME != 'edg' && browserInfo.NAME != 'iphone os') {
+            showIgnor = true;
+        } else if (browserInfo.NAME == 'chrome' && browserInfo.VERSION < 80) {
+            showIgnor = true;
+        } else if ((browserInfo.NAME == 'firefox' || browserInfo.NAME == 'edg') && browserInfo.VERSION < 100) {
+            showIgnor = true;
+        } else if (browserInfo.NAME == 'safari') {
+            showIgnor = true;
+        }
+
+        if (!showIgnor) {
+            browserSuggest.style.display = 'none';
+        }
+        if(typeof browserSuggest.addEventListener == 'function') {
+            browserSuggest.addEventListener('click', function() {
+                browserSuggest.style.display = 'none';
+            });
+        } else {
+            browserSuggest.style.display = 'block';
+            browserSuggest.attachEvent('onclick', function() {
+                browserSuggest.style.display = 'none';
+            });
+        }
+      } else {
+          browserSuggest.style.display = 'none';
+      }
+    </script>
+
+    <script src="/config.js"></script>
+
+    <div id="app"></div>
+    
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy.4dd057f9.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.b5ebca34.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  </body>
+</html>

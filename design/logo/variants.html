@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小谷 logo 变体</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@500;900&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* 和站点一致：黑底白线、日式留白。每个变体都放在深底和浅底上同时看，再看 16/32/64px */
+  :root{
+    --paper:#0a0a0a; --paper-2:#141413; --ink:#f2f2ee; --ink-2:#a3a39e; --ink-3:#6b6b67; --rule:#2c2c2a;
+    --mono:"IBM Plex Mono", ui-monospace, monospace;
+  }
+  *{box-sizing:border-box; margin:0}
+  body{background:var(--paper); color:var(--ink); font:15px/1.7 "Noto Sans SC", sans-serif; padding:56px 16px 96px}
+  .wrap{max-width:1180px; margin:0 auto}
+  header{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; border-bottom:1px solid var(--rule); padding-bottom:28px; margin-bottom:40px; flex-wrap:wrap}
+  h1{font:900 44px/1 "Noto Serif SC", serif; letter-spacing:.04em}
+  header p{color:var(--ink-2); max-width:520px; font-size:14px}
+  .eyebrow{font:500 11px var(--mono); letter-spacing:.24em; color:var(--ink-3); margin-bottom:14px}
+  h2{font:700 13px var(--mono); letter-spacing:.2em; color:var(--ink-2); margin:56px 0 20px}
+
+  .grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(340px,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule)}
+  .card{background:var(--paper); padding:22px 22px 18px; display:flex; flex-direction:column; gap:14px; opacity:0; transform:translateY(8px); animation:in .5s ease forwards}
+  @keyframes in{to{opacity:1; transform:none}}
+  @media (prefers-reduced-motion:reduce){.card{animation:none; opacity:1; transform:none}}
+  .head{display:flex; align-items:baseline; gap:12px}
+  .no{font:500 12px var(--mono); color:var(--ink-3)}
+  .name{font-weight:900; font-size:16px}
+  .note{color:var(--ink-2); font-size:13px; line-height:1.6; min-height:42px}
+
+  /* 一深一浅两块底：标用 --fg / --bg 两个变量画，切底色时自动反相 */
+  .duo{display:grid; grid-template-columns:1fr 1fr; border-radius:10px; overflow:hidden}
+  /* 角色色固定（黑兜帽白脸，和吉祥物一致），不随底色反相；深底时用 --edge 描一圈白边 */
+  .pane, .sizes .s, .tab{--hood:#121212; --face:#f7f7f4; --edge:var(--fg)}
+  .pane.light, .sizes .s.light{--edge:transparent}
+  .pane{--fg:#f2f2ee; --bg:#0a0a0a; background:#161615; display:grid; place-items:center; padding:22px 0}
+  .pane.light{--fg:#121212; --bg:#f7f7f4; background:#efefea}
+  .pane svg{width:118px; height:118px}
+  .sizes{display:flex; align-items:center; gap:14px; padding-top:4px}
+  .sizes .s{display:flex; align-items:center; gap:10px; --fg:#f2f2ee; --bg:#0a0a0a}
+  .sizes .s.light{--fg:#121212; --bg:#f7f7f4; background:#efefea; padding:6px 8px; border-radius:6px}
+  .sizes svg{display:block}
+  .tab{margin-left:auto; display:flex; align-items:center; gap:6px; background:#1d1d1c; border-radius:7px 7px 0 0; padding:5px 10px; font-size:11px; color:var(--ink-2); --fg:#f2f2ee; --bg:#1d1d1c}
+  .tab svg{width:16px; height:16px}
+
+  /* 字标组合 */
+  .locks{display:grid; grid-template-columns:repeat(auto-fill, minmax(460px,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule)}
+  .lock{background:var(--paper); padding:22px}
+  .lock .row{display:grid; grid-template-columns:1fr 1fr; border-radius:10px; overflow:hidden; margin-top:12px}
+  .lock .pane{padding:26px 18px; place-items:center start}
+  .lockup{display:flex; align-items:center; gap:12px; color:var(--fg)}
+  .lockup svg{width:46px; height:46px; flex:none}
+  .lockup b{font-size:34px; line-height:1; letter-spacing:.04em; display:block}
+  .lockup i{font:500 9px var(--mono); letter-spacing:.32em; font-style:normal; opacity:.6; display:block; margin-top:6px}
+  .f1 b{font-family:"Noto Serif SC", serif; font-weight:900}
+  .f2 b{font-family:"Noto Sans SC", sans-serif; font-weight:900}
+  .f3 b{font-family:"ZCOOL KuaiLe", sans-serif; font-weight:400}
+  .f4 b{font-family:"ZCOOL XiaoWei", serif; font-weight:400}
+  footer{margin-top:56px; color:var(--ink-3); font-size:13px; border-top:1px solid var(--rule); padding-top:20px}
+  @media (max-width:520px){ .locks{grid-template-columns:1fr} .lock .row{grid-template-columns:1fr} h1{font-size:34px} }
+</style>
+</head>
+<body>
+
+<!-- 所有标都画在 100×100 画布里，只用 --fg（主色）和 --bg（反白）两色 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- 共用：头顶双芽（一小一大，和设定图一致） -->
+    <g id="sprout">
+      <path d="M50 22 q-1 -6 1.5 -11" stroke="var(--fg)" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <ellipse cx="42" cy="11" rx="7" ry="4" transform="rotate(-28 42 11)" fill="var(--fg)"/>
+      <ellipse cx="60" cy="8.5" rx="8.6" ry="4.4" transform="rotate(22 60 8.5)" fill="var(--fg)"/>
+    </g>
+    <!-- 共用：兜帽 + 白脸 + 刘海 -->
+    <g id="hood">
+      <circle cx="50" cy="59" r="37" fill="var(--hood)" stroke="var(--edge)" stroke-width="3"/>
+      <ellipse cx="50" cy="65" rx="28.5" ry="24.5" fill="var(--face)"/>
+      <path d="M21.5 64 Q26 39 50 38 Q74 39 78.5 64 Q71 51 50 50 Q29 51 21.5 64 Z" fill="var(--hood)"/>
+    </g>
+
+    <symbol id="v1" viewBox="0 0 100 100">
+      <use href="#sprout"/><use href="#hood"/>
+      <ellipse cx="40.5" cy="66" rx="4" ry="5.6" fill="var(--hood)"/>
+      <ellipse cx="59.5" cy="66" rx="4" ry="5.6" fill="var(--hood)"/>
+      <path d="M46 75.5 q4 3.6 8 0" stroke="var(--hood)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="v2" viewBox="0 0 100 100">
+      <use href="#sprout"/><use href="#hood"/>
+    </symbol>
+
+    <symbol id="v3" viewBox="0 0 100 100">
+      <path d="M50 90 q-3 -24 2 -44" stroke="var(--fg)" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <ellipse cx="33" cy="42" rx="17" ry="9.5" transform="rotate(-30 33 42)" fill="var(--fg)"/>
+      <ellipse cx="68" cy="33" rx="22" ry="11" transform="rotate(22 68 33)" fill="var(--fg)"/>
+    </symbol>
+
+    <symbol id="v4" viewBox="0 0 100 100">
+      <rect x="4" y="4" width="92" height="92" rx="24" fill="var(--fg)"/>
+      <path d="M50 80 q-2 -18 1.5 -32" stroke="var(--bg)" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="37" cy="44" rx="13" ry="7.2" transform="rotate(-30 37 44)" fill="var(--bg)"/>
+      <ellipse cx="64" cy="37" rx="16.5" ry="8.2" transform="rotate(22 64 37)" fill="var(--bg)"/>
+    </symbol>
+
+    <symbol id="v5" viewBox="0 0 100 100">
+      <g transform="translate(0 6)"><use href="#sprout"/></g>
+      <text x="50" y="88" text-anchor="middle" font-family="Noto Serif SC, serif" font-weight="900" font-size="66" fill="var(--fg)">谷</text>
+    </symbol>
+
+    <symbol id="v6" viewBox="0 0 100 100">
+      <g transform="translate(0 12)"><use href="#sprout"/></g>
+      <ellipse cx="36" cy="58" rx="9" ry="13" fill="var(--fg)"/>
+      <ellipse cx="64" cy="58" rx="9" ry="13" fill="var(--fg)"/>
+      <circle cx="33" cy="52" r="3" fill="var(--bg)"/><circle cx="61" cy="52" r="3" fill="var(--bg)"/>
+      <path d="M43 80 q7 6 14 0" stroke="var(--fg)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="v7" viewBox="0 0 100 100">
+      <use href="#sprout"/>
+      <ellipse cx="50" cy="60" rx="30" ry="36" fill="var(--hood)" stroke="var(--edge)" stroke-width="3"/>
+      <ellipse cx="50" cy="69" rx="21" ry="18" fill="var(--face)"/>
+      <ellipse cx="43" cy="68" rx="3.2" ry="4.6" fill="var(--hood)"/>
+      <ellipse cx="57" cy="68" rx="3.2" ry="4.6" fill="var(--hood)"/>
+    </symbol>
+
+    <symbol id="v8" viewBox="0 0 100 100">
+      <g fill="none" stroke="var(--fg)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="50" cy="60" r="34"/>
+        <path d="M24 62 Q30 42 50 41 Q70 42 76 62"/>
+        <path d="M50 26 q-1 -6 1.5 -11"/>
+        <ellipse cx="42" cy="14" rx="6.5" ry="3.6" transform="rotate(-28 42 14)"/>
+        <ellipse cx="60" cy="12" rx="8" ry="4" transform="rotate(22 60 12)"/>
+        <path d="M46 76 q4 3.5 8 0"/>
+      </g>
+      <circle cx="41" cy="66" r="3.6" fill="var(--fg)"/><circle cx="59" cy="66" r="3.6" fill="var(--fg)"/>
+    </symbol>
+
+    <symbol id="v9" viewBox="0 0 100 100">
+      <g transform="translate(0 6)"><use href="#sprout"/></g>
+      <path d="M30 28 H70 A20 20 0 0 1 90 48 V60 A20 20 0 0 1 70 80 H42 L26 92 L29 79 A20 20 0 0 1 10 60 V48 A20 20 0 0 1 30 28 Z" fill="var(--fg)"/>
+      <ellipse cx="39" cy="53" rx="5" ry="7" fill="var(--bg)"/>
+      <ellipse cx="61" cy="53" rx="5" ry="7" fill="var(--bg)"/>
+      <path d="M45 65 q5 4 10 0" stroke="var(--bg)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="v10" viewBox="0 0 100 100">
+      <use href="#sprout"/><use href="#hood"/>
+      <path d="M35.5 66 q5 -5.5 10 0" stroke="var(--hood)" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+      <ellipse cx="59.5" cy="66" rx="4" ry="5.6" fill="var(--hood)"/>
+      <path d="M45 73.5 q5 7 10 0 z" fill="var(--hood)"/>
+    </symbol>
+
+    <symbol id="v11" viewBox="0 0 100 100">
+      <circle cx="50" cy="58" r="38" fill="var(--fg)"/>
+      <path d="M50 20 q-1 -6 1.5 -11" stroke="var(--fg)" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+      <ellipse cx="42" cy="10" rx="7" ry="4" transform="rotate(-28 42 10)" fill="var(--fg)"/>
+      <ellipse cx="60" cy="7.5" rx="8.6" ry="4.4" transform="rotate(22 60 7.5)" fill="var(--fg)"/>
+      <text x="50" y="78" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-weight="900" font-size="54" fill="var(--bg)">g</text>
+    </symbol>
+
+    <symbol id="v12" viewBox="0 0 100 100">
+      <g transform="rotate(-8 50 54)">
+        <rect x="21" y="18" width="58" height="72" rx="11" fill="var(--fg)"/>
+        <path d="M50 74 q-1.5 -14 1 -24" stroke="var(--bg)" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+        <ellipse cx="40" cy="47" rx="10" ry="5.6" transform="rotate(-30 40 47)" fill="var(--bg)"/>
+        <ellipse cx="61" cy="41" rx="12.5" ry="6.3" transform="rotate(22 61 41)" fill="var(--bg)"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">XIAO GU · LOGO STUDY · 2026-10-07</div>
+      <h1>小谷 logo 变体</h1>
+    </div>
+    <p>12 个图形标，每个都在深底、浅底和 64 / 32 / 16px 下同时看；右侧是浏览器标签页里的真实大小。挑一个，或说「几号的轮廓 + 几号的脸」融合。下方是字标组合。</p>
+  </header>
+
+  <h2>01 · 图形标</h2>
+  <div class="grid" id="grid"></div>
+
+  <h2>02 · 字标组合（图形标暂用 01 号，选定后替换）</h2>
+  <div class="locks" id="locks"></div>
+
+  <footer>方案文件：/Users/lucky_wang/Documents/Claude/projects/xiaogu-launch/design/logo/variants.html · 启动文档：notes/2026-10-07-logo设计.md</footer>
+</div>
+
+<script>
+  // 变体清单：编号、名字、一句说明（说明只讲取了吉祥物的哪个元素，不打分、不标推荐）
+  const VARIANTS = [
+    ["v1", "兜帽正脸", "完整头部：兜帽、刘海、眼睛、微笑、双芽。最像吉祥物本人。"],
+    ["v2", "无五官剪影", "只留兜帽包白脸的轮廓和双芽，去掉五官，靠外形认人。"],
+    ["v3", "双芽", "只取头顶两片小芽，一小一大。脱离形象也能单独成立。"],
+    ["v4", "芽 · 应用图标", "黑色圆角方块里反白双芽，直接可做 App 图标。"],
+    ["v5", "谷字发芽", "汉字「谷」顶上长出双芽，名字即标。"],
+    ["v6", "只有表情", "去掉兜帽，只留大眼睛、微笑和芽，最轻。"],
+    ["v7", "种子", "把头压成竖椭圆的种子形，白脸缩到下半部。"],
+    ["v8", "线稿", "同一个头像改成等粗线条，和站点「黑底白线」一致。"],
+    ["v9", "对话气泡", "把头变成对话气泡，强调「会说话的伙伴」。"],
+    ["v10", "眨眼", "01 号换成眨眼 + 张嘴笑，表情更活泼。"],
+    ["v11", "g 字圆标", "黑圆加反白小写 g 和双芽，偏工具感的对照组。"],
+    ["v12", "平板", "取吉祥物手里的平板，平板上印着芽，倾斜放。"],
+  ];
+  const use = (id, size) => `<svg viewBox="0 0 100 100" width="${size}" height="${size}" aria-hidden="true"><use href="#${id}"/></svg>`;
+  document.getElementById("grid").innerHTML = VARIANTS.map(([id, name, note], i) => `
+    <article class="card" style="animation-delay:${i * 40}ms">
+      <div class="head"><span class="no">${String(i + 1).padStart(2, "0")}</span><span class="name">${name}</span></div>
+      <div class="note">${note}</div>
+      <div class="duo"><div class="pane">${use(id, 118)}</div><div class="pane light">${use(id, 118)}</div></div>
+      <div class="sizes">
+        <span class="s">${use(id, 64)}${use(id, 32)}${use(id, 16)}</span>
+        <span class="s light">${use(id, 32)}${use(id, 16)}</span>
+        <span class="tab">${use(id, 16)}小谷求职</span>
+      </div>
+    </article>`).join("");
+
+  const FONTS = [["f1", "思源宋体 粗"], ["f2", "思源黑体 粗"], ["f3", "站酷快乐体"], ["f4", "站酷小薇"]];
+  document.getElementById("locks").innerHTML = FONTS.map(([cls, label], i) => `
+    <div class="lock">
+      <div class="head"><span class="no">${String.fromCharCode(65 + i)}</span><span class="name">${label}</span></div>
+      <div class="row">
+        ${["", "light"].map(t => `<div class="pane ${t}"><div class="lockup ${cls}">${use("v1", 46)}<div><b>小谷</b><i>XIAO GU</i></div></div></div>`).join("")}
+      </div>
+    </div>`).join("");
+</script>
+</body>
+</html>

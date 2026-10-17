@@ -1,0 +1,335 @@
+{
+  "type": "listed",
+  "display_name": "知乎",
+  "legal_name": {
+    "value": "Zhihu Inc.",
+    "status": "verified",
+    "source_ids": [
+      "z-id"
+    ],
+    "note": "上市母公司，不等于JD上的境内签约主体"
+  },
+  "brand_names": {
+    "value": [
+      "知乎",
+      "Zhihu"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "z-id"
+    ]
+  },
+  "listing": {
+    "value": {
+      "status": "上市",
+      "venues": [
+        {
+          "exchange": "HKEX",
+          "ticker": "2390"
+        },
+        {
+          "exchange": "NYSE",
+          "ticker": "ZH"
+        }
+      ]
+    },
+    "status": "verified",
+    "source_ids": [
+      "z-id",
+      "z-list"
+    ]
+  },
+  "main_business": [
+    {
+      "value": "经营在线内容社区，通过向个人提供付费内容、向商业客户提供广告和内容营销服务获取收入。",
+      "status": "verified",
+      "source_ids": [
+        "z-official",
+        "z-member",
+        "z-marketing"
+      ]
+    },
+    {
+      "value": "2026年披露增加“付费内容及IP运营”口径，并持续调整职业培训业务。",
+      "status": "verified",
+      "source_ids": [
+        "z-new",
+        "z-refine"
+      ]
+    }
+  ],
+  "revenue_mix": [
+    {
+      "value": {
+        "period": "2025-01-01/2025-12-31",
+        "currency": "CNY",
+        "unit": "thousand",
+        "total": 2749004,
+        "audited": true,
+        "parts": [
+          {
+            "business": "营销服务",
+            "amount": 843933,
+            "percent": 30.7,
+            "percent_basis": "按官方金额计算"
+          },
+          {
+            "business": "付费会员",
+            "amount": 1538942,
+            "percent": 55.98,
+            "percent_basis": "按官方金额计算"
+          },
+          {
+            "business": "其他（包含职业培训等）",
+            "amount": 366129,
+            "percent": 13.32,
+            "percent_basis": "按官方金额计算"
+          }
+        ]
+      },
+      "status": "verified",
+      "source_ids": [
+        "z-revenue"
+      ],
+      "note": "年报原表占比30.7%、56.0%、13.3%；卡片计算保留两位小数。"
+    },
+    {
+      "value": {
+        "period": "2026-01-01/2026-06-30",
+        "currency": "CNY",
+        "unit": "thousand",
+        "total": 1341687,
+        "audited": false,
+        "parts": [
+          {
+            "business": "营销服务",
+            "amount": 390404,
+            "percent": 29.1,
+            "percent_basis": "按官方金额计算"
+          },
+          {
+            "business": "付费内容及IP运营",
+            "amount": 828260,
+            "percent": 61.73,
+            "percent_basis": "按官方金额计算"
+          },
+          {
+            "business": "其他",
+            "amount": 123023,
+            "percent": 9.17,
+            "percent_basis": "按官方金额计算"
+          }
+        ]
+      },
+      "status": "verified",
+      "source_ids": [
+        "z-new"
+      ],
+      "note": "2026重分类，不能将新旧收入名称直接拼接为同口径时间序列。"
+    }
+  ],
+  "products_customers": {
+    "products": {
+      "value": [
+        "知乎社区",
+        "付费内容/会员",
+        "广告及内容商业化解决方案"
+      ],
+      "status": "verified",
+      "source_ids": [
+        "z-member",
+        "z-marketing"
+      ]
+    },
+    "users": {
+      "value": "内容读者、创作者及社区使用者；免费用户不等于付费客户。",
+      "status": "interpretation",
+      "source_ids": [
+        "z-member",
+        "z-marketing"
+      ]
+    },
+    "paying_customers": {
+      "value": "购买内容会员的个人，以及在社区投放广告、购买内容营销服务的商业客户。",
+      "status": "verified",
+      "source_ids": [
+        "z-member",
+        "z-marketing"
+      ]
+    }
+  },
+  "recent_events": [
+    {
+      "event_date": null,
+      "disclosed_on": "2026-08-26",
+      "event_period": "2026Q2",
+      "claim": {
+        "value": "Q2公告披露职业培训业务继续调整，其他收入由上年同期85,957千元降至65,192千元；这是收入/业务变化，不是裁员人数。",
+        "status": "verified",
+        "source_ids": [
+          "z-refine"
+        ]
+      }
+    }
+  ],
+  "event_search_boundary": "窗口2025-10-12至2026-10-12；未找到可纳入的裁员/融资/新上市原创报道；并非确认不存在。",
+  "id": "zhihu",
+  "schema_version": "company-check-pilot-v1",
+  "as_of": "2026-10-12",
+  "status": "partial_evidence",
+  "scope": "公司公开信息；不等于具体岗位/签约主体核验",
+  "source_levels": {
+    "type": [
+      "未找到/本地记录"
+    ],
+    "display_name": [
+      "未找到/本地记录"
+    ],
+    "legal_name": [
+      "交易所/监管披露"
+    ],
+    "brand_names": [
+      "交易所/监管披露"
+    ],
+    "listing": [
+      "交易所/监管披露"
+    ],
+    "main_business": [
+      "交易所/监管披露",
+      "公司官网"
+    ],
+    "revenue_mix": [
+      "交易所/监管披露"
+    ],
+    "products_customers": [
+      "交易所/监管披露"
+    ],
+    "recent_events": [
+      "交易所/监管披露"
+    ],
+    "event_search_boundary": [
+      "未找到/本地记录"
+    ],
+    "id": [
+      "未找到/本地记录"
+    ],
+    "schema_version": [
+      "未找到/本地记录"
+    ],
+    "as_of": [
+      "未找到/本地记录"
+    ],
+    "status": [
+      "未找到/本地记录"
+    ],
+    "scope": [
+      "未找到/本地记录"
+    ]
+  },
+  "sources": {
+    "z-id": {
+      "title": "知乎2025年报",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041700682.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "Zhihu Inc.",
+      "locator": "封面/公司信息",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-4.pdf",
+      "sha256": "27ba7f6a54c962dcfa9510ae388943aa8f196b43c778238ee9f96bd339375acb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-4"
+    },
+    "z-list": {
+      "title": "知乎2025年报",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041700682.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "NYSE: ZH",
+      "locator": "印刷第4页及封面",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-4.pdf",
+      "sha256": "27ba7f6a54c962dcfa9510ae388943aa8f196b43c778238ee9f96bd339375acb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-4"
+    },
+    "z-marketing": {
+      "title": "知乎2025年报",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041700682.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "advertising contracts",
+      "locator": "印刷第116页",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-4.pdf",
+      "sha256": "27ba7f6a54c962dcfa9510ae388943aa8f196b43c778238ee9f96bd339375acb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-4"
+    },
+    "z-member": {
+      "title": "知乎2025年报",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041700682.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "membership fee",
+      "locator": "印刷第115页",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-4.pdf",
+      "sha256": "27ba7f6a54c962dcfa9510ae388943aa8f196b43c778238ee9f96bd339375acb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-4"
+    },
+    "z-new": {
+      "title": "知乎2026Q2及半年结果",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600406.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": "2026-08-26",
+      "excerpt": "Paid content and IP operations",
+      "locator": "PDF第8页及脚注，2026-08-26",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-2.pdf",
+      "sha256": "b9d99c76b23c0e6f14ceb557df37fc533f3fa02f7d1661e231b255cd3c8ba12d",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-2"
+    },
+    "z-official": {
+      "title": "知乎IR公司介绍",
+      "url": "https://ir.zhihu.com/cn/corporate-information/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "在线内容问答社区",
+      "locator": "公司介绍；财务以披露文件为准",
+      "snapshot": "evidence/company-check-2026-10/zhihu-ir.html",
+      "sha256": "154efa910e99dcc1e80d51bec41594bc2a1b1a7ece13998ec56005919fe20905",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-ir"
+    },
+    "z-refine": {
+      "title": "知乎2026Q2及半年结果",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600406.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": "2026-08-26",
+      "excerpt": "strategic refinement",
+      "locator": "PDF第4页，职业培训业务调整",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-2.pdf",
+      "sha256": "b9d99c76b23c0e6f14ceb557df37fc533f3fa02f7d1661e231b255cd3c8ba12d",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-2"
+    },
+    "z-revenue": {
+      "title": "知乎2025年报",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041700682.pdf",
+      "level": "交易所/监管披露",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "1,538,942",
+      "locator": "印刷第15页，金额千元人民币",
+      "snapshot": "evidence/company-check-2026-10/zhihu-direct-4.pdf",
+      "sha256": "27ba7f6a54c962dcfa9510ae388943aa8f196b43c778238ee9f96bd339375acb",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "zhihu-direct-4"
+    }
+  }
+}

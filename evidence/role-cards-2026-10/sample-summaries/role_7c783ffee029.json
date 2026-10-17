@@ -1,0 +1,109 @@
+{
+  "name": [
+    {
+      "text": "律师助理",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "律师助理"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [
+    {
+      "id": "vmU5tCM5C",
+      "url": "https://campus.niuqizp.com/job-vmU5tCM5C.html",
+      "role": "电学领域专利工程师|机械领域专利工程师|涉外专利工程师|律师助理",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "协助客户挖掘跟进及开发工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vyl5azCa5",
+          "text": "协助客户挖掘跟进及开发工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vyl5azCa5"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“电子信息类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电子信息类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vyl5azCa5"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vyl5azCa5"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "律师助理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyl5azCa5"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

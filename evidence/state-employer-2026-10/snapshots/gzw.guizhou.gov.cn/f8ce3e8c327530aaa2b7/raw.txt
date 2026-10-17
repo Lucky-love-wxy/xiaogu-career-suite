@@ -1,0 +1,3778 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="SiteName" content="贵州省国有资产监督管理委员会">
+	<meta name="SiteDomain" content="http://www.gzsgzw.gov.cn/,www.gzsgzw.gov.cn/">
+	<meta name="SiteIDCode" content='5200000064'>
+	<meta name="keywords" content=">贵州省国有资产监督管理委员会,贵州省国资委">
+	<meta name="description" content=">贵州省国有资产监督管理委员会门户网站">
+<meta name="ColumnName" content="贵州省国有资产监督管理委员会首页">
+<meta name="ColumnKeywords" content="贵州省国有资产监督管理委员会首页">
+<meta name="ColumnDescription" content="公开贵州省国有资产监督管理委员会首页信息">
+<meta name="ColumnType" content="贵州省国有资产监督管理委员会首页">
+	<title>
+		贵州省国有资产监督管理委员会
+	</title>
+	<link href="/tools/layui/css/layui.css" type="text/css" rel="stylesheet" />
+	<link href="/images/style.css" type="text/css" rel="stylesheet" />
+	<link href="/images/index.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/images/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/images/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript">
+		var strFullPath = window.document.location.href;
+		var strPath = "?"
+		var pos = strFullPath.indexOf(strPath);
+
+		var params = strFullPath.substring(pos + 1);
+		var path = "/trsapp/appWeb.do?";
+		$(function () {
+			$("#data_detail").attr("src", path + params);
+		});
+	</script>
+	<script type="text/javascript">
+		$(function () {
+			var sframes = $("iframe");
+			sframes.each(function (index, element) {//index 序号；element节点
+				var oFrm = element;
+				oFrm.onload = oFrm.onreadystatechange = function () {
+					if (this.readyState && this.readyState != 'complete')
+						return;
+					else {
+						var detailSrc = $(this).attr("detailPageSrc");
+						var answerSrc = $(this).attr("answerPageSrc");
+						if (detailSrc != undefined) {
+							window.frames[index].document.getElementById("detailPageSrc").value = detailSrc;
+						}
+						if (answerSrc != undefined) {
+							window.frames[index].document.getElementById("answerPageSrc").value = answerSrc;
+						}
+					}
+				}
+			});
+		});</script>
+	<base target="_blank" />
+	<style>
+		.sv3 dl {
+			height: 180px
+		}
+
+		.sv3 dd {
+			line-height: 26px;
+		}
+
+		.banner-box .hd.hd2 ul li.on {
+			background: #2c84ee;
+		}
+
+		.banner-box .hd.hd2 ul li {
+			background: #fff;
+			height: 10px;
+		}
+
+		.banner-box .hd.hd2 {
+			width: 200px;
+			left: 80%;
+		}
+
+		.bmtit span {
+			width: 138px;
+		}
+		.bmfw .bmtit span {
+			width: 50%;
+			float: left;
+			background: none;
+			color: #000000;
+			text-align: center;
+		}
+		.bmfw .bmtit span a{ color: #000000;}
+		.bmfw .bmtit span.on{ background: #cf2820; color: #FFFFFF; width: 100%;}
+		.bmfw .bmtit span.on a{ color: #FFFFFF;}
+
+.sv3 .ldxn{width:100%;}
+.gklb div{ margin-right: 15px !important; width: 221px;}
+.bmfw .fwlb li{ margin: 0px 10px;}
+
+
+.gklm .tab-hd li{ width: 100px;}
+.gklm .tab-hd li a{ width: 100px;}
+.xxcon .tab-hd li{ width: 215px;}
+.xxcon .tab-hd li a{ width: 100%;}
+.ztjj{ background: #FFFFFF;}
+.ztjj ul li{ height: 50px; line-height: 50px; text-align: center; font-size: 16px; margin: 7px 0px; background: url(/material/images/yyxt2026_li.jpg) no-repeat; }
+.ztjj ul li a{ color: #cf2820; font-weight: bold;}
+/*gqbg*/
+/* .banner-box{ background: url(http://www.guizhou.gov.cn/material/2023/images/index_20240930bg.png) no-repeat top center !important; padding-top: 150px; } */
+	</style>
+</head>
+
+<body>
+<!-- 2025春节背景
+<style>
+.banner-box {
+    height: 340px !important;
+    background: url(//www.guizhou.gov.cn/material/2023/images/2026cjbg_1.png) no-repeat center top !important;
+}
+.logo {
+    top: 235px !important;
+    margin-left: -595px !important;
+}
+</style>
+-->
+<!--2025春节背景 -->
+
+<div>
+    <link href="/images/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/images/jquery-1.7.2.min.js"></script>	
+<script type="text/javascript" src="/material/images/jquery.SuperSlide.2.1.3.js"></script>
+<script type="text/javascript" src="/material/trsigi/js/sm2.js"></script>
+<script src="/material/js/guolv_sqlzr.js" type="text/javascript"></script>
+<style>
+/* .logo{left: 50% !important;margin-left: -600px !important;} */
+.logo{left: 50% !important;margin-left: -700px !important;}
+
+.navbox .nav li{width:100px !important;}
+.navbox .nav li img{ padding: 0px 5px;}
+body{min-width: 1440px;}
+</style>
+<div class="hwidth">
+   <div class="wellbox">
+      <div>欢迎进入贵州省人民政府国有资产监督管理委员会网站</div> 
+      <div>
+    <script type="text/javascript">    
+function initArray(){    
+for(i=0;i<initArray.arguments.length;i++)    
+this[i]=initArray.arguments[i];    
+}    
+var isnMonths=new initArray("1","2","3","4","5","6","7","8","9","10","11","12");    
+var isnDays=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六","星期日");    
+today=new Date();    
+hrs=today.getHours();    
+min=today.getMinutes();    
+sec=today.getSeconds();    
+clckh=""+((hrs>12)?hrs-12:hrs);    
+clckm=((min<10)?"0":"")+min;clcks=((sec<10)?"0":"")+sec;    
+clck=(hrs>=12)?"下午":"上午";    
+var stnr="";    
+var ns="0123456789";    
+var a="";    
+function getFullYear(d){    
+yr=d.getYear();    
+if(yr<1000)    
+yr+=1900;    
+return yr;    
+}    
+</script>    
+<script type="text/javascript">    
+//下面各行分别是一种风格，把不需要的删掉即可    
+document.write("<div class='time'>" + getFullYear(today)+"年" + isnMonths[today.getMonth()] +"月"+ today.getDate() +"日&nbsp;&nbsp;&nbsp;&nbsp;"+ isnDays[today.getDay()] +"</div>");    
+</script>    
+
+<!--<div class="time"><script language="javascript">showDate()</script></div>-->
+<!--十，分，秒-->    
+<script type="text/javascript">    
+function showLocale(obj){    
+    var str;    
+    var hh = obj.getHours();    
+    if(hh<10)    
+    hh = '0' + hh;    
+    var mm = obj.getMinutes();    
+    if(mm<10) mm = '0' + mm;    
+    var ss = obj.getSeconds();    
+    if(ss<10) ss = '0' + ss;    
+    str = hh + ":" + mm + ":" + ss;    
+    return(str);    
+}    
+function tick(){    
+    var today;    
+    today = new Date();    
+    document.getElementById("clock").innerHTML = showLocale(today);    
+    window.setTimeout("tick()", 1000);    
+}    
+</script>    
+<div class="time" id="clock"></div>    
+<script type="text/javascript">tick()</script>
+<div style="margin-top:13px; line-height:16px;">
+<!--<iframe name="sinaWeatherTool" src="http://weather.news.sina.com.cn/chajian/iframe/weatherStyle1.html?city=%E8%B4%B5%E9%98%B3" width="150" height="20" marginwidth="0" marginheight="0" chspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>-->
+<iframe width="240" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="https://i.tianqi.com/?c=code&id=34&icon=1&py=guiyang1&site=12&lang=cn/"></iframe>
+</div>
+      </div> 
+      <div style="float: right;">
+          <span style=" float:right;"><a style="color:#fff;" onClick="SetHome(this,window.location)">设为首页</a>&nbsp; | &nbsp;<a style="color:#fff;" onClick="shoucang(document.title,window.location)">加入收藏</a>&nbsp; | &nbsp;<a  target="_blank" href="https://smrz.zwfw.guizhou.gov.cn/sso/login?utype=0&redirect=istrue&client_id=MBFSQUBNF&goto=http%3A//www.guizhou.gov.cn/personalhomepage/" style="color:#fff;">个人中心</a></span></div>
+<script type="text/javascript"> 
+// 设置为主页 
+function SetHome(obj,vrl){ 
+try{ 
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl); 
+} 
+catch(e){ 
+if(window.netscape) { 
+try { 
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+} 
+catch (e) { 
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。"); 
+} 
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch); 
+prefs.setCharPref('browser.startup.homepage',vrl); 
+}else{ 
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+ return false;
+} 
+} 
+} 
+
+// 加入收藏 兼容360和IE6 
+function shoucang(sTitle,sURL) 
+{ 
+try 
+{ 
+window.external.addFavorite(sURL, sTitle); 
+} 
+catch (e) 
+{ 
+try 
+{ 
+window.sidebar.addPanel(sTitle, sURL, ""); 
+} 
+catch (e) 
+{ 
+alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+} 
+} 
+} 
+</script>
+
+      </div>
+      <!------------- 时间 天气 结束--------------->
+      <div class="banner-box" >
+        <div class="logo"><img src="/images/logo.png" /></div>
+    </div>
+    <script type="text/javascript">
+$(document).ready(function(){
+
+	$(".prev,.next").hover(function(){
+		$(this).stop(true,false).fadeTo("show",0.9);
+	},function(){
+		$(this).stop(true,false).fadeTo("show",0.4);
+	});
+	
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:3500,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+
+});
+</script>
+
+<!--------------------  轮播 ----------------------->
+<style type="text/css">
+.navbox .nav li{width: 128px;}	
+</style>
+        <div class="navbox">
+           <div style=" width:1200px;margin:auto; overflow:hidden;">
+              <ul class="nav" style="width:940px; overflow:hidden;">
+                  <li class="on"><img src="/images/index1.png" /><a href="http://gzw.guizhou.gov.cn/">网站首页</a></li>
+				  <li><img src="/material/index9.png" /><a href="/ztzl/dqzt/gzsgyzcjdglyjhfwzx">中心子站</a></li>
+                  <li><img src="/images/index2.png" /><a href="/xwzx/">新闻发布</a></li>
+                  <li><img src="/images/index3.png" /><a href="/zwgk/">政务公开</a></li>
+                  <li><img src="/images/index4.png" /><a href="/gzcy/">公众参与</a></li>
+                  <li><img src="/images/index5.png" /><a href="/wsfw/">网上服务</a></li>
+                  <li><img src="/images/index6.png" /><a href="/ztzl/">专题专栏</a></li>
+                  <li><img src="/images/index8.png" /><a href="https://data.guizhou.gov.cn/home">开放数据</a></li>
+				<li style="width: 125px !important;"><img src="/material/images/sztsg.png" width="44" /><a href="https://www.cnki.net">数字图书馆</a></li>
+              </ul>
+              <div class="sous">
+                 <input type="text" placeholder="输入要搜索的内容" onkeydown="TopSearchFun2021Enter();" id="keyword_2021" style="color: rgb(158, 158, 158); width:190px;" /><img src="/images/sousuo.png" onclick="TopSearchFun2021();" id="search-btn" style="float: left;" />
+              </div>
+           <div>
+        </div>
+        <!--------------------  导航结束 ----------------------->
+   </div> 
+</div>
+
+<script>
+jQuery(function() {
+    jQuery('#j_search_btn').click(function() {
+        var str = jQuery(this).prev().val();
+        checks(str);
+    });
+});
+function checks(t) {
+    t = t.replace(/(^\s+)|(\s+$)/g, "");
+    if (t == "" || t == "请输入关键检索字") {
+        alert('请输入有效内容');
+        return false;
+    }
+    szMsg = "[#_%&'/",
+    ";:=!^]";
+    alertStr = "";
+    for (i = 1; i < szMsg.length + 1; i++) {
+        if (t.indexOf(szMsg.substring(i - 1, i)) > -1) {
+            alertStr = "请勿包含非法字符如[#_%&'/",
+            ";:=!^]";
+            alert(alertStr);
+            // break;
+            return false;
+        }
+    }
+    var key = document.getElementById("keyword").value;
+    window.location.href ="/search.html?keyword=" + key;
+    return true;
+}
+
+
+   //回车键响应方法
+    function TopSearchFun2021Enter(){
+        var event = window.event || arguments.callee.caller.arguments[0];
+        if (event.keyCode == 13){
+            TopSearchFun2021();
+        }
+    }
+    function TopSearchFun2021() {
+		document.charset = "utf-8";
+		var fixvalue = document.getElementById("keyword_2021").value;
+		fixvalue = fixvalue.replace(/\~|\!|\*|\?|\^|\\|\(|\)|\[|\]|\+|\-|\:|\{|\}|\"/g, "");
+		if (fixvalue.trim() == "") {
+		document.getElementById("keyword_2021").value = "";
+		alert("请输入关键字");
+		return false;
+		} else {
+		var ffzf=sanitizeInput(fixvalue,"keyword_2021");
+		if(ffzf){
+		window.open('/so/search.shtml?tenantId=269&tenantIds=&configTenantId=&searchWord='+ encodeURI(fixvalue) +'&dataTypeId=1043&sign=a8f53980-56ba-4816-bb23-4782fde88fac');
+				
+		}
+		
+		}
+		return false;
+		
+       
+    }
+
+</script>
+    
+
+	
+    <script type="text/javascript" src="/images/floatadv.js"></script>
+  <script type="text/javascript">
+	var j=0;
+	 
+	for (var i=1;i<=j;i++)
+	{
+		var ad = new AdMove("img"+i, true);
+		ad.Run();
+	}
+</script>
+    <script type="text/javascript">
+        function turnoff(obj) {
+            document.getElementById(obj).style.display = "none";
+        }
+    </script>
+	<div class="w1200">
+		<div class="w1180">
+
+			<div class="tongz">
+				<div class="tzleft"><a style="font-size:20px;" href="./xwzx/tzgg/">通知公告</a>
+				</div>
+				<div class="tzright">
+					
+						<h3 class="fst">
+							<script type="text/javascript">
+								var str = "";
+								var str_1 = "./xwzx/tzgg/202608/t20260824_90775781.html";
+								var str_5 = "贵州省国有资产监督管理研究和服务中心2026年公开招聘工作人员拟聘人员公示 ";
+								var str_bt = "贵州省国有资产监督管理研究和服务中心2026年公开招聘工作人员拟聘人员公示 ";
+								if (str != "" && str != "null") {
+									str_1 = str;
+								}
+								document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >' + str_bt + '</a>');
+							</script>
+						</h3>
+					
+					<ul>
+						
+							<li>
+								<script type="text/javascript">
+									var str = "";
+									var str_1 = "./xwzx/tzgg/202607/t20260710_90605626.html";
+									var str_5 = "贵州省国有资产监督管理研究和服务中心2026年公开招聘工作人员考察对象名单公告 ";
+									var str_bt = "贵州省国有资产监督管理研究和服务... ";
+									if (str != "" && str != "null") {
+										str_1 = str;
+									}
+									document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >' + str_bt + '</a>');
+								</script>
+							</li>
+						
+							<li>
+								<script type="text/javascript">
+									var str = "";
+									var str_1 = "./xwzx/tzgg/202607/t20260702_90579749.html";
+									var str_5 = "学榜样 争先进 强担当  省国资委党委表彰系统内优秀共产党员、优秀党务工作者和先进基层党组织 ";
+									var str_bt = "学榜样 争先进 强担当  省国资委... ";
+									if (str != "" && str != "null") {
+										str_1 = str;
+									}
+									document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >' + str_bt + '</a>');
+								</script>
+							</li>
+						
+							<li>
+								<script type="text/javascript">
+									var str = "";
+									var str_1 = "./xwzx/tzgg/202607/t20260701_90573973.html";
+									var str_5 = "省国资委关于公布2026年度上半年废止（失效）行政规范性文件目录的公告 ";
+									var str_bt = "省国资委关于公布2026年度上半年废... ";
+									if (str != "" && str != "null") {
+										str_1 = str;
+									}
+									document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >' + str_bt + '</a>');
+								</script>
+							</li>
+						
+
+						<a class="more" href="/xwzx/tzgg/">
+							<font color="#ff7c1c">[更多]</font>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<!--------------通知公告  end---------------->
+			<div class="film_focus">
+				<div class="film_focus_imgs_wrap">
+					<ul class="film_focus_imgs">
+						
+							<li>
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="省国资委组织召开金融机构与监管企业负责人座谈会"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260922_90928290.html">
+									
+								
+								<script>
+									var imgTitle = "省国资委组织召开金融机构与监管企业负责人座谈会";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/W020260922425523551572.jpg";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="455" height="310" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="455" height="310" />');
+									}
+									_imgURL = "";
+								</script></a>
+							</li>
+						
+							<li>
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="国资国企数智产业创新实验室正式启动"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260902_90807528.html">
+									
+								
+								<script>
+									var imgTitle = "国资国企数智产业创新实验室正式启动";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/W020260902382998111419.jpg";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="455" height="310" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="455" height="310" />');
+									}
+									_imgURL = "";
+								</script></a>
+							</li>
+						
+							<li>
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="省国资委召开2026年法治建设工作会"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260831_90800825.html">
+									
+								
+								<script>
+									var imgTitle = "省国资委召开2026年法治建设工作会";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/W020260831620532525656.png";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="455" height="310" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="455" height="310" />');
+									}
+									_imgURL = "";
+								</script></a>
+							</li>
+						
+							<li>
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="省国资委举办2026年度监管企业生态环保培训"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260828_90795263.html">
+									
+								
+								<script>
+									var imgTitle = "省国资委举办2026年度监管企业生态环保培训";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/W020260828592471464221.jpg";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="455" height="310" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="455" height="310" />');
+									}
+									_imgURL = "";
+								</script></a>
+							</li>
+						
+
+					</ul>
+				</div>
+				<style>
+					.film_focus ul.film_focus_nav li.cur {
+						background: #d9d9d9;
+					}
+				</style>
+				<div class="film_focus_desc">
+					<ul class="film_focus_nav" style="background:#FFFFFF;">
+						
+							<li class="">
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="省国资委组织召开金融机构与监管企业负责人座谈会"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260922_90928290.html">
+									
+								
+								<script>
+									var imgTitle = "省国资委组织召开金融机构与监管企业负责人座谈会";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/W020260922425523551572.jpg";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="105" height="60" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="105" height="60" />');
+									}
+									_imgURL = "";
+								</script></a>
+								<h4 style=" margin:0; padding:0; margin-left:80px; line-height:24px; color:#333;">
+									
+										
+									
+									
+										
+											<a TARGET="_blank"
+												title="省国资委组织召开金融机构与监管企业负责人座谈会"
+												href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260922_90928290.html">
+										
+									
+									省国资委组织召开金融机构与监管企业负责人座谈会
+									</a>
+								</h4>
+								<p
+									style=" margin:0; padding:0; margin-left:80px;line-height:20px;  color:#333; font-size:12px;">
+									9月21日，省国资委组织召开金融机构与监管企业负责人座谈会，立足全省发展大局，搭建常态化、深层次、务实化银企对接平台，健全政金企协同工作机制，推动省属...
+								</p>
+							</li>
+						
+							<li class="">
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="国资国企数智产业创新实验室正式启动"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260902_90807528.html">
+									
+								
+								<script>
+									var imgTitle = "国资国企数智产业创新实验室正式启动";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/W020260902382998111419.jpg";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="105" height="60" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="105" height="60" />');
+									}
+									_imgURL = "";
+								</script></a>
+								<h4 style=" margin:0; padding:0; margin-left:80px; line-height:24px; color:#333;">
+									
+										
+									
+									
+										
+											<a TARGET="_blank"
+												title="国资国企数智产业创新实验室正式启动"
+												href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260902_90807528.html">
+										
+									
+									国资国企数智产业创新实验室正式启动
+									</a>
+								</h4>
+								<p
+									style=" margin:0; padding:0; margin-left:80px;line-height:20px;  color:#333; font-size:12px;">
+									人民网贵阳8月31日电　 8月28日晚，2026数博会DATA之夜在贵阳举行。活动现场，国资国企数智产业创新实验室正式启动。
+								</p>
+							</li>
+						
+							<li class="">
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="省国资委召开2026年法治建设工作会"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260831_90800825.html">
+									
+								
+								<script>
+									var imgTitle = "省国资委召开2026年法治建设工作会";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/W020260831620532525656.png";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="105" height="60" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="105" height="60" />');
+									}
+									_imgURL = "";
+								</script></a>
+								<h4 style=" margin:0; padding:0; margin-left:80px; line-height:24px; color:#333;">
+									
+										
+									
+									
+										
+											<a TARGET="_blank"
+												title="省国资委召开2026年法治建设工作会"
+												href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260831_90800825.html">
+										
+									
+									省国资委召开2026年法治建设工作会
+									</a>
+								</h4>
+								<p
+									style=" margin:0; padding:0; margin-left:80px;line-height:20px;  color:#333; font-size:12px;">
+									为进一步深入学习贯彻习近平法治思想和习近平总书记考察贵州重要讲话精神，贯彻落实中央全面依法治国工作会议和省委全面依法治省工作会议部署，深入推进国务...
+								</p>
+							</li>
+						
+							<li class="">
+								
+									
+								
+								
+									
+										<a TARGET="_blank"
+											title="省国资委举办2026年度监管企业生态环保培训"
+											href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260828_90795263.html">
+									
+								
+								<script>
+									var imgTitle = "省国资委举办2026年度监管企业生态环保培训";
+									var _imgURL = "";
+									if (_imgURL == "" || _imgURL == null) {
+										
+											
+												_imgURL = "http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/W020260828592471464221.jpg";
+											
+										
+									}
+									if (_imgURL == "" || _imgURL == null) {
+										document.write('<img src="/images/nopic.jpg" width="105" height="60" />');
+									} else {
+										document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="105" height="60" />');
+									}
+									_imgURL = "";
+								</script></a>
+								<h4 style=" margin:0; padding:0; margin-left:80px; line-height:24px; color:#333;">
+									
+										
+									
+									
+										
+											<a TARGET="_blank"
+												title="省国资委举办2026年度监管企业生态环保培训"
+												href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260828_90795263.html">
+										
+									
+									省国资委举办2026年度监管企业生态环保培训
+									</a>
+								</h4>
+								<p
+									style=" margin:0; padding:0; margin-left:80px;line-height:20px;  color:#333; font-size:12px;">
+									为深入学习贯彻习近平生态文明思想，夯实监管企业生态环保基础，省国资委于8月25至26日举办生态环保培训，省国资委党委副书记、副主任黄家忠出席开班式并讲话...
+								</p>
+							</li>
+						
+						<!--<a href="//gzw.guizhou.gov.cn/ztzl/dqzt/slhjx/index.html"><img src="/material/images/gzw20260304.jpg" width="700" height="75" /></a>-->
+					</ul>
+					
+					
+				</div>
+				<script type="text/javascript" src="/images/gdban.js"></script>
+			</div>
+			<!------------  轮播结束  -------------------->
+			<!-------------  <div class="sjwj">
+       <div class="gwy"><a href="http://www.gov.cn/zhengce/index.htm" target="_blank"><img src="/images/top6.jpg" /></a></div>
+       <div class="szf"><a href="http://www.gzgov.gov.cn/xxgk/jbxxgk/fgwj/zfwj/" target="_blank"><img src="/images/top5.jpg" /></a></div>
+   </div>--------------------->
+			<style>
+				.sv3 dd a:link,
+				.sv3 dd a:visited,
+				.sv3 dd a:hover,
+				.sv3 dd a:active {
+					color: #333;
+					display: block;
+					text-align: center;
+				}
+			</style>
+			<div class="xwcon">
+				<div id="idSlideView3" class="sv3">
+					<dl class="on" style="height:auto;">
+						<dt>
+							<a>委党委班子</a>
+						</dt>
+						
+							<dd class="ldxn">
+								
+									
+								
+								
+									
+										<a style="text-align:center;" TARGET="_blank"
+											title="熊　杉"
+											href="http://gzw.guizhou.gov.cn/zwgk/ldzc/wld/202607/t20260713_90613089.html">
+									
+								
+								熊　杉
+								</a>
+							</dd>
+						
+							<dd class="ldxn">
+								
+									
+								
+								
+									
+										<a style="text-align:center;" TARGET="_blank"
+											title="彭建伟"
+											href="http://gzw.guizhou.gov.cn/zwgk/ldzc/wld/202509/t20250930_88671910.html">
+									
+								
+								彭建伟
+								</a>
+							</dd>
+						
+							<dd class="ldxn">
+								
+									
+								
+								
+									
+										<a style="text-align:center;" TARGET="_blank"
+											title="安丰明"
+											href="http://gzw.guizhou.gov.cn/zwgk/ldzc/wld/202506/t20250617_88151137.html">
+									
+								
+								安丰明
+								</a>
+							</dd>
+						
+							<dd class="ldxn">
+								
+									
+								
+								
+									
+										<a style="text-align:center;" TARGET="_blank"
+											title="方　东"
+											href="http://gzw.guizhou.gov.cn/zwgk/ldzc/wld/202506/t20250617_88151151.html">
+									
+								
+								方　东
+								</a>
+							</dd>
+						
+							<dd class="ldxn">
+								
+									
+								
+								
+									
+										<a style="text-align:center;" TARGET="_blank"
+											title="杜　蓓"
+											href="http://gzw.guizhou.gov.cn/zwgk/ldzc/wld/202506/t20250617_88150941.html">
+									
+								
+								杜　蓓
+								</a>
+							</dd>
+						
+							<dd class="ldxn">
+								
+									
+								
+								
+									
+										<a style="text-align:center;" TARGET="_blank"
+											title="刘晓军"
+											href="http://gzw.guizhou.gov.cn/zwgk/ldzc/wld/202601/t20260128_89347136.html">
+									
+								
+								刘晓军
+								</a>
+							</dd>
+						
+					</dl>
+					
+				</div>
+				<script language="javascript">
+					function SlideView(e) {
+						for (var r = document.getElementById(e).getElementsByTagName('dl'), c = clearInterval, i = -1, p = r[0], j; j = r[++i];) {
+							j.style.height = (i ? 40 : 250) + 'px';
+							j.onmouseover = function () { clearTimeout(j); var i = this; j = setTimeout(function () { if (p != i) _(p, 250, 40)(p = i, 40, 250) }, 250) };
+						}
+						function _(el, f, t) {
+							c(el.$1); el.className = f > t ? '' : 'on';
+							return el.$1 = setInterval(function () { el.style.height = (f += Math[f > t ? 'floor' : 'ceil']((t - f) * .3)) + 'px'; if (f == t) c(el.$1) }, 10), _
+						}
+					};
+					new SlideView("idSlideView3");
+				</script>
+				<!---------- 领导人  end------------>
+				<div class="xxcon" style="float: right; width: 860px;">
+					<ul class="tab-hd" style="width: 100%;">
+<li class="active" id="con4"><a href="./xwzx/sxll/">思想理论</a></li>
+						<li id="con2"><a href="./xwzx/szyw/">时政要闻</a></li>
+						<li id="con1"><a href="./xwzx/gzdt/">国资动态</a></li>
+						<li id="con3"><a href="./xwzx/qyzc/">企业之窗</a></li>
+					</ul>
+					<ul class="tab-bd">
+						
+						              <li class="thisclass">
+						<p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="没有网络安全就没有国家安全"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202609/t20260918_90898857.html">
+						                    
+						                
+						                            没有网络安全就没有国家安全</a><span class="fbsj">[2026-09-18]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="习近平：在加强基础研究座谈会上的讲话"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202609/t20260915_90874459.html">
+						                    
+						                
+						                            习近平：在加强基础研究座谈会上的讲话</a><span class="fbsj">[2026-09-15]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202608/t20260826_90782121.html">
+						                    
+						                
+						                            习近平作出重要指示强调 巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得...</a><span class="fbsj">[2026-08-26]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202608/t20260817_90739587.html">
+						                    
+						                
+						                            纪念江泽民同志诞辰100周年大会在京隆重举行 习近平发表重要讲话</a><span class="fbsj">[2026-08-17]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="中共中央召开党外人士座谈会 习近平主持并发表重要讲话"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202607/t20260730_90678401.html">
+						                    
+						                
+						                            中共中央召开党外人士座谈会 习近平主持并发表重要讲话</a><span class="fbsj">[2026-07-30]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文）"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202607/t20260717_90634979.html">
+						                    
+						                
+						                            习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（...</a><span class="fbsj">[2026-07-17]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="《求是》杂志发表习近平总书记重要文章《在庆祝中国共产党成立105周年大会上的讲话》"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202607/t20260715_90625274.html">
+						                    
+						                
+						                            《求是》杂志发表习近平总书记重要文章《在庆祝中国共产党成立105周年大会上的讲话》</a><span class="fbsj">[2026-07-15]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="习近平党建思想的形成和发展"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/sxll/202607/t20260715_90621974.html">
+						                    
+						                
+						                            习近平党建思想的形成和发展</a><span class="fbsj">[2026-07-06]</span></p></li>
+						
+						
+						              <li>
+						<p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="李强主持召开国务院常务会议 听取老龄工作情况汇报等"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202609/t20260919_90903999.html">
+						                    
+						                
+						                            李强主持召开国务院常务会议 听取老龄工作情况汇报等</a><span class="fbsj">[2026-09-19]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202609/t20260912_90865305.html">
+						                    
+						                
+						                            李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署</a><span class="fbsj">[2026-09-12]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作时的重要讲话精神"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202609/t20260901_90806312.html">
+						                    
+						                
+						                            李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日...</a><span class="fbsj">[2026-09-01]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="巩固拓展学习教育成果 以正确政绩观引领推动奋发有为走新路展风采"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202609/t20260901_90806071.html">
+						                    
+						                
+						                            巩固拓展学习教育成果 以正确政绩观引领推动奋发有为走新路展风采</a><span class="fbsj">[2026-09-01]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="李强主持召开国务院常务会议 听取新一代通信网建设情况汇报等"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202608/t20260822_90771158.html">
+						                    
+						                
+						                            李强主持召开国务院常务会议 听取新一代通信网建设情况汇报等</a><span class="fbsj">[2026-08-22]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="李强主持召开国务院常务会议 学习贯彻习近平总书记关于上半年经济形势和做好下半年经济工作的重要讲话精神"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202608/t20260801_90684752.html">
+						                    
+						                
+						                            李强主持召开国务院常务会议 学习贯彻习近平总书记关于上半年经济形势和做好下半年...</a><span class="fbsj">[2026-08-01]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="中共中央政治局召开会议 决定召开二十届五中全会 分析研究当前经济形势和经济工作 中共中央总书记习近平主持会议"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202607/t20260730_90678924.html">
+						                    
+						                
+						                            中共中央政治局召开会议 决定召开二十届五中全会 分析研究当前经济形势和经济工作 ...</a><span class="fbsj">[2026-07-30]</span></p><p style="height:30px;">
+						
+						                    
+						                
+						                
+						                    
+						                        <a TARGET="_blank" title="二十届五中全会10月在北京召开"
+						                            href="http://gzw.guizhou.gov.cn/xwzx/szyw/202607/t20260730_90677119.html">
+						                    
+						                
+						                            二十届五中全会10月在北京召开</a><span class="fbsj">[2026-07-30]</span></p></li>
+						
+							
+						
+							<li >
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="2026年贵州省年轻干部廉洁教育微课程竞赛国资赛区现场比赛顺利举办"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260930_90955548.html">
+                    
+                
+											2026年贵州省年轻干部廉洁教育微课程竞赛国资赛区现场比赛顺利举办
+										</a><span class="fbsj">[
+											2026-09-30]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="省国资委组织有关企业参加第十八期 “分享责任公开课”交流培训"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260924_90936749.html">
+                    
+                
+											省国资委组织有关企业参加第十八期 “分享责任公开课”交流培训
+										</a><span class="fbsj">[
+											2026-09-24]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="省国资委组织召开金融机构与监管企业负责人座谈会"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260922_90928290.html">
+                    
+                
+											省国资委组织召开金融机构与监管企业负责人座谈会
+										</a><span class="fbsj">[
+											2026-09-22]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="最美国资人  |  省国资委系统在2026年贵州技能大赛——“网信杯”网络安全技能竞赛中斩获佳绩"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260916_90878059.html">
+                    
+                
+											最美国资人  |  省国资委系统在2026年贵州技能大赛——“网信杯”网络安全技能竞赛...
+										</a><span class="fbsj">[
+											2026-09-16]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="国资国企数智产业创新实验室正式启动"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202609/t20260902_90807528.html">
+                    
+                
+											国资国企数智产业创新实验室正式启动
+										</a><span class="fbsj">[
+											2026-09-02]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="省国资委召开2026年法治建设工作会"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260831_90800825.html">
+                    
+                
+											省国资委召开2026年法治建设工作会
+										</a><span class="fbsj">[
+											2026-08-31]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="省国资委举办2026年度监管企业生态环保培训"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260828_90795263.html">
+                    
+                
+											省国资委举办2026年度监管企业生态环保培训
+										</a><span class="fbsj">[
+											2026-08-28]
+										</span></p>
+								
+									<p style="height:30px;">
+                    
+                
+                
+                    
+                        <a TARGET="_blank" title="2026年省国资委系统与省国防工业系统青年职工联谊活动圆满举办"
+                            href="http://gzw.guizhou.gov.cn/xwzx/gzdt/202608/t20260824_90776130.html">
+                    
+                
+											2026年省国资委系统与省国防工业系统青年职工联谊活动圆满举办
+										</a><span class="fbsj">[
+											2026-08-24]
+										</span></p>
+								
+							</li>
+						
+							
+							
+								<li>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="最美国资人 | 记水投集团供水管网 “听诊师”的一天"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202610/t20261010_90975158.html">
+											                    
+											                
+												最美国资人 | 记水投集团供水管网 “听诊师”的一天
+											</a><span class="fbsj">[
+												2026-10-10]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="贵阳机场投用新网约车上客点 旅客出行更加便捷"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202610/t20261010_90975146.html">
+											                    
+											                
+												贵阳机场投用新网约车上客点 旅客出行更加便捷
+											</a><span class="fbsj">[
+												2026-10-10]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="高质量发展主力军 | 铜吉铁路全线最长特大桥主体结构顺利完工"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202610/t20261010_90975123.html">
+											                    
+											                
+												高质量发展主力军 | 铜吉铁路全线最长特大桥主体结构顺利完工
+											</a><span class="fbsj">[
+												2026-10-10]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="高质量发展主力军 | 黔南州凤山水库涉铁工程沪昆铁路新建鱼酉双线大桥架梁圆满完成"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/t20260930_90957607.html">
+											                    
+											                
+												高质量发展主力军 | 黔南州凤山水库涉铁工程沪昆铁路新建鱼酉双线大桥架梁圆满完成
+											</a><span class="fbsj">[
+												2026-09-30]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="责任担当排头兵 | 化肥赋能榕江百香果成为“致富果”"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/t20260930_90957065.html">
+											                    
+											                
+												责任担当排头兵 | 化肥赋能榕江百香果成为“致富果”
+											</a><span class="fbsj">[
+												2026-09-30]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="高质量发展主力军｜贵州铁投集团：世界最大跨度铁路拱桥黄百铁路红水河铁路大桥顺利合龙"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/t20260929_90951000.html">
+											                    
+											                
+												高质量发展主力军｜贵州铁投集团：世界最大跨度铁路拱桥黄百铁路红水河铁路大桥顺...
+											</a><span class="fbsj">[
+												2026-09-29]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="贵州新闻联播报道：一座桥，何以成为世界理解中国的窗口？"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/t20260929_90948598.html">
+											                    
+											                
+												贵州新闻联播报道：一座桥，何以成为世界理解中国的窗口？
+											</a><span class="fbsj">[
+												2026-09-29]
+											</span></p>
+									
+										<p style="height:30px;">
+											
+											                    
+											                
+											                
+											                    
+											                        <a TARGET="_blank" title="最美国资人 |  贵州高速集团都匀营运中心鲁大旺荣获第四届贵州省“最美退役军人”"
+											                            href="http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/t20260929_90948597.html">
+											                    
+											                
+												最美国资人 |  贵州高速集团都匀营运中心鲁大旺荣获第四届贵州省“最美退役军人”
+											</a><span class="fbsj">[
+												2026-09-29]
+											</span></p>
+									
+								</li>
+							
+						
+					</ul>
+				</div>
+				
+				<script>
+					$(function () {
+						function tabs(tabTit, on, tabCon) {
+							$(tabTit).children().hover(function () {
+								$(this).addClass(on).siblings().removeClass(on);
+								var index = $(tabTit).children().index(this);
+								$(tabCon).children().eq(index).show().siblings().hide();
+							});
+						};
+						tabs(".tab-hd", "active", ".tab-bd");
+					});
+				</script>
+			</div>
+			<!------------- 领导新闻结束---------------->
+			<div class="hengf">
+				<div class="banner-box ztbanbox">
+					<div class="bd ztban">
+						<ul>
+							
+								<li>
+									<script type="text/javascript">
+										var a_href = "https://www.guizhou.gov.cn/ztzl/2026nqzsbbzzfhfbwtxszj/?sessionid=";
+										var a_title = "关于公开征集群众身边不正之风和腐败问题线索的公告"
+										var lm_url = "javascript:if(confirm('您访问的链接即将离开“贵州省国有资产监督管理委员会网站”，是否继续？？？'))location='" + a_href + "'";
+										if (a_title == "常务会议") {
+											document.write('<a href=' + lm_url + '>');
+										} else {
+											document.write('<a target="_blank" href="https://www.guizhou.gov.cn/ztzl/2026nqzsbbzzfhfbwtxszj/?sessionid=" title="关于公开征集群众身边不正之风和腐败问题线索的公告">');
+										}
+									</script>
+									<!--<a target="_blank" href="https://www.guizhou.gov.cn/ztzl/2026nqzsbbzzfhfbwtxszj/?sessionid=" title="关于公开征集群众身边不正之风和腐败问题线索的公告">-->
+									<script>
+										var imgTitle = "关于公开征集群众身边不正之风和腐败问题线索的公告";
+										var _imgURL = "";
+										if (_imgURL == "" || _imgURL == null) {
+											
+												
+													_imgURL = "http://gzw.guizhou.gov.cn/syqt/ztgd/202603/W020260302671614209036.jpg";
+												
+											
+										}
+										if (_imgURL == "" || _imgURL == null) {
+											document.write('<img src="/images/nopic.jpg" width="1180" height="100" />');
+										} else {
+											document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="1180" height="100" />');
+										}
+										_imgURL = "";
+
+									</script></a>
+								</li>
+							
+								<li>
+									<script type="text/javascript">
+										var a_href = "https://www.guizhou.gov.cn/ztzl/zggzqstyydyypt/";
+										var a_title = "中国·贵州全省统一移动应用平台"
+										var lm_url = "javascript:if(confirm('您访问的链接即将离开“贵州省国有资产监督管理委员会网站”，是否继续？？？'))location='" + a_href + "'";
+										if (a_title == "常务会议") {
+											document.write('<a href=' + lm_url + '>');
+										} else {
+											document.write('<a target="_blank" href="https://www.guizhou.gov.cn/ztzl/zggzqstyydyypt/" title="中国·贵州全省统一移动应用平台">');
+										}
+									</script>
+									<!--<a target="_blank" href="https://www.guizhou.gov.cn/ztzl/zggzqstyydyypt/" title="中国·贵州全省统一移动应用平台">-->
+									<script>
+										var imgTitle = "中国·贵州全省统一移动应用平台";
+										var _imgURL = "";
+										if (_imgURL == "" || _imgURL == null) {
+											
+												
+													_imgURL = "http://gzw.guizhou.gov.cn/syqt/ztgd/202411/W020241106579400811308.jpg";
+												
+											
+										}
+										if (_imgURL == "" || _imgURL == null) {
+											document.write('<img src="/images/nopic.jpg" width="1180" height="100" />');
+										} else {
+											document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="1180" height="100" />');
+										}
+										_imgURL = "";
+
+									</script></a>
+								</li>
+							
+								<li>
+									<script type="text/javascript">
+										var a_href = "https://www.gov.cn/zhengce/zczhjd/";
+										var a_title = "重要政策举措及实施结果"
+										var lm_url = "javascript:if(confirm('您访问的链接即将离开“贵州省国有资产监督管理委员会网站”，是否继续？？？'))location='" + a_href + "'";
+										if (a_title == "常务会议") {
+											document.write('<a href=' + lm_url + '>');
+										} else {
+											document.write('<a target="_blank" href="https://www.gov.cn/zhengce/zczhjd/" title="重要政策举措及实施结果">');
+										}
+									</script>
+									<!--<a target="_blank" href="https://www.gov.cn/zhengce/zczhjd/" title="重要政策举措及实施结果">-->
+									<script>
+										var imgTitle = "重要政策举措及实施结果";
+										var _imgURL = "";
+										if (_imgURL == "" || _imgURL == null) {
+											
+												
+													_imgURL = "http://gzw.guizhou.gov.cn/syqt/ztgd/202307/W020230731528202659478.png";
+												
+											
+										}
+										if (_imgURL == "" || _imgURL == null) {
+											document.write('<img src="/images/nopic.jpg" width="1180" height="100" />');
+										} else {
+											document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="1180" height="100" />');
+										}
+										_imgURL = "";
+
+									</script></a>
+								</li>
+							
+								<li>
+									<script type="text/javascript">
+										var a_href = "http://www.gov.cn/hudong/index.htm";
+										var a_title = "@国务院  我来说"
+										var lm_url = "javascript:if(confirm('您访问的链接即将离开“贵州省国有资产监督管理委员会网站”，是否继续？？？'))location='" + a_href + "'";
+										if (a_title == "常务会议") {
+											document.write('<a href=' + lm_url + '>');
+										} else {
+											document.write('<a target="_blank" href="http://www.gov.cn/hudong/index.htm" title="@国务院  我来说">');
+										}
+									</script>
+									<!--<a target="_blank" href="http://www.gov.cn/hudong/index.htm" title="@国务院  我来说">-->
+									<script>
+										var imgTitle = "@国务院  我来说";
+										var _imgURL = "";
+										if (_imgURL == "" || _imgURL == null) {
+											
+												
+													_imgURL = "http://gzw.guizhou.gov.cn/syqt/ztgd/202304/W020230406607211448774.png";
+												
+											
+										}
+										if (_imgURL == "" || _imgURL == null) {
+											document.write('<img src="/images/nopic.jpg" width="1180" height="100" />');
+										} else {
+											document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="1180" height="100" />');
+										}
+										_imgURL = "";
+
+									</script></a>
+								</li>
+							
+						</ul>
+					</div>
+
+					<div class="hd hd2">
+						<ul></ul>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function () {
+
+							$(".prev,.next").hover(function () {
+								$(this).stop(true, false).fadeTo("show", 0.9);
+							}, function () {
+								$(this).stop(true, false).fadeTo("show", 0.4);
+							});
+
+							$(".banner-box").slide({
+								titCell: ".hd ul",
+								mainCell: ".bd ul",
+								effect: "fold",
+								interTime: 3500,
+								delayTime: 500,
+								autoPlay: true,
+								autoPage: true,
+								trigger: "click"
+							});
+
+						});
+					</script>
+				</div>
+			</div>
+			<!------   横幅结束  --------->
+			<div class="gkcon" style="overflow:hidden;">
+				<div class="ztjj">
+					<div class="ztjjtit" style="text-align: center;">
+						<a href="./wsfw/yyxt/">应用系统</a></div>
+					<ul>
+						<li><a href="https://gzjg.gzw.guizhou.gov.cn/sasac-cloud/cdp/#/login" target="_blank">国资监管大数据平台</a></li>
+						<li style="line-height: 25px;"><a href="https://gzjg.gzw.guizhou.gov.cn/cqcx/#/login" target="_blank">贵州省国资委监管企业<br />产权信息查询平台</a></li>
+						<li style="line-height: 25px;"><a href="https://www.e-qyzc.com/#/home" target="_blank">贵州省公共资源<br />(国有企业生产资料)交易中心</a></li>
+						<li><a href="https://www.gzssczlser.com/#/home" target="_blank">国企生产资料综合服务平台</a></li>
+						<li><a href="https://www.prechina.net/" target="_blank">贵州省公共资源(国有产权)交易中心</a></li>
+					</ul>
+				</div>
+				<!------------专题聚焦end-------------->
+				<style>
+				</style>
+				<div class="gklm" style="overflow:hidden;">
+					<ul class="tab-hd">
+						<li class="active" id="con3"><a href="./zwgk/xxgkml/zcwj/">政策文件</a></li>
+						<li id="con4"><a href="./zwgk/xxgkml/zcjd/">政策解读</a></li>
+						<li id="con4"><a href="./zwgk/xxgkml/ghjh/">规划计划</a></li>
+						<li id="con4"><a href="./zwgk/xxgkml/rsxx/">人事信息</a></li>
+						<li id="con4"><a href="./zwgk/xxgkml/zjxx/">资金信息</a></li>
+						<li id="con4"><a href="./zwgk/xxgkml/gpxd/">国聘行动</a></li>
+					</ul>
+					<ul class="tab-bd" style="overflow:hidden;">
+						<li class="thisclass">
+<!--这是1-->
+							
+								<p>
+											<a TARGET="_blank"
+												title="中办国办印发《党政领导干部生态环境损害责任追究办法》"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/bmwj/202608/t20260826_90782245.html">
+									中办国办印发《党政领导干部生态环境损害责任追究办法》</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="省人民政府办公厅关于印发《贵州省打造“卖酒向卖生活方式”转变升级版行动方案（2026—2030年）》的通知（黔府办发〔2026〕13号）"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/hyzcfg/202607/t20260707_90595766.html">
+									省人民政府办公厅关于印发《贵州省打造“卖酒向卖生活方式”转变升级版...</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="省国资委关于公布2026年度上半年废止（失效）行政规范性文件目录的公告"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/wjxgfzqk/202607/t20260701_90576413.html">
+									省国资委关于公布2026年度上半年废止（失效）行政规范性文件目录的公告</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="中共中央办公厅印发《中国共产党发展党员工作细则》"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/bmwj/202605/t20260521_90196447.html">
+									中共中央办公厅印发《中国共产党发展党员工作细则》</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="中共中央办公厅 国务院办公厅印发《国有企业领导人员廉洁从业规定》"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/bmwj/202603/t20260323_89896182.html">
+									中共中央办公厅 国务院办公厅印发《国有企业领导人员廉洁从业规定》</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="省人民政府办公厅印发《关于培育壮大经营主体的若干政策措施》的通知（黔府办发〔2026〕5号）"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/hyzcfg/202602/t20260214_89554893.html">
+									省人民政府办公厅印发《关于培育壮大经营主体的若干政策措施》的通知（...</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="省人民政府关于废止、宣布失效、修改部分行政规范性文件的决定（黔府发〔2025〕9号）"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/wjxgfzqk/202601/t20260106_89124051.html">
+									省人民政府关于废止、宣布失效、修改部分行政规范性文件的决定（黔府发...</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="中共中央印发《中国共产党工作机关条例》"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/bmwj/202512/t20251209_89030132.html">
+									中共中央印发《中国共产党工作机关条例》</a>
+								</p>
+							
+								<p>
+											<a TARGET="_blank"
+												title="省国资委关于印发《贵州省国资委监管企业国有资产评估管理暂行办法（修订）》的通知"
+												href="http://gzw.guizhou.gov.cn/zwgk/xxgkml/zcwj/hyzcfg/202510/t20251017_88706964.html">
+									省国资委关于印发《贵州省国资委监管企业国有资产评估管理暂行办法（修...</a>
+								</p>
+							
+						</li>
+						<li>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202610/t20261009_90969449.html";
+											var str_5 = "《贵州省国资委监管企业境外国有产权管理暂行办法》解读 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										《贵州省国资委监管企业境外国有产权管理暂行办法》解读
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202607/t20260707_90595764.html";
+											var str_5 = "《贵州省打造“卖酒向卖生活方式”转变升级版行动方案（2026—2030年）》政策解读 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										《贵州省打造“卖酒向卖生活方式”转变升级版行动方案（2026—2030年）...
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202608/t20260826_90782248.html";
+											var str_5 = "向失职失责“亮剑” 为美丽中国“护航” ——中央组织部负责人就修订颁布《党政领导干部生态环境损害责任追究办法》答记者问 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										向失职失责“亮剑” 为美丽中国“护航” ——中央组织部负责人就修订颁...
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202605/t20260521_90196478.html";
+											var str_5 = "高标准高质量做好发展党员工作——中央组织部负责人就修订颁布《中国共产党发展党员工作细则》答记者问 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										高标准高质量做好发展党员工作——中央组织部负责人就修订颁布《中国共...
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202603/t20260323_89897185.html";
+											var str_5 = "中央纪委国家监委法规室负责人就《国有企业领导人员廉洁从业规定》答记者问 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										中央纪委国家监委法规室负责人就《国有企业领导人员廉洁从业规定》答记者问
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202602/t20260227_89584966.html";
+											var str_5 = "一图读懂丨关于培育壮大经营主体的若干政策措施 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										一图读懂丨关于培育壮大经营主体的若干政策措施
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202601/t20260109_89282915.html";
+											var str_5 = "《贵州省国资委监管企业国有资产评估管理暂行办法（修订）》政策解读 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										《贵州省国资委监管企业国有资产评估管理暂行办法（修订）》政策解读
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202509/t20250905_88572300.html";
+											var str_5 = "《贵州省鼓励数据产业发展的若干政策（试行）》政策解读 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										《贵州省鼓励数据产业发展的若干政策（试行）》政策解读
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zcjd/202507/t20250722_88320721.html";
+											var str_5 = "党组讨论决定党员处分的关键流程与实务要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										党组讨论决定党员处分的关键流程与实务要点
+									</a></p>
+							
+						</li>
+
+						<li>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202603/t20260323_89896878.html";
+											var str_5 = "贵州省人民政府国有资产监督管理委员会2026年工作要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州省人民政府国有资产监督管理委员会2026年工作要点
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202504/t20250409_87492298.html";
+											var str_5 = "关于印发《贵州省人民政府国有资产监督  管理委员会2025年工作要点》的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于印发《贵州省人民政府国有资产监督  管理委员会2025年工作要点》的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202403/t20240326_83995529.html";
+											var str_5 = "关于印发《贵州省人民政府国有资产监督管理委员会2024年工作要点》的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于印发《贵州省人民政府国有资产监督管理委员会2024年工作要点》的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202303/t20230314_文档ID.html";
+											var str_5 = "贵州省国资委2023年工作要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州省国资委2023年工作要点
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202203/t20220316_73010070.html";
+											var str_5 = "省国资委2022年工作要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										省国资委2022年工作要点
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202106/t20210607_68442185.html";
+											var str_5 = "省国资委2021年政务公开工作要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										省国资委2021年政务公开工作要点
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202104/t20210406_67708042.html";
+											var str_5 = "省国资委2021年工作要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										省国资委2021年工作要点
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202006/t20200602_60828490.html";
+											var str_5 = "省国资委2020年政务公开工作要点 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										省国资委2020年政务公开工作要点
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/ghjh/202005/t20200529_60651279.html";
+											var str_5 = "省国资委政务公开标准规范清单（2020年） ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										省国资委政务公开标准规范清单（2020年）
+									</a></p>
+							
+						</li>
+
+						<li>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202609/t20260915_90872881.html";
+											var str_5 = "关于王珂等同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于王珂等同志任免职的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202608/t20260828_90795896.html";
+											var str_5 = "关于赵修杰同志任职定级的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于赵修杰同志任职定级的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202606/t20260626_90560717.html";
+											var str_5 = "关于田洁同志退休的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于田洁同志退休的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202602/t20260206_89441223.html";
+											var str_5 = "关于潘本均等同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于潘本均等同志任免职的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202601/t20260104_89116787.html";
+											var str_5 = "关于谢金位等同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于谢金位等同志任免职的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202510/t20251017_88706968.html";
+											var str_5 = "关于袁炎等同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于袁炎等同志任免职的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202510/t20251029_88880485.html";
+											var str_5 = "关于陈尔鲲等同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于陈尔鲲等同志任免职的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202510/t20251029_88880484.html";
+											var str_5 = "关于高见等同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于高见等同志任免职的通知
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/rsxx/202511/t20251106_88921043.html";
+											var str_5 = "关于张虎同志任免职的通知 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于张虎同志任免职的通知
+									</a></p>
+							
+						</li>
+
+						<li>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260911_90863537.html";
+											var str_5 = "2025年贵州省人民政府国有资产监督管理委员会本级部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省人民政府国有资产监督管理委员会本级部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260911_90863482.html";
+											var str_5 = "2025年贵州省建筑设计研究院有限责任公司部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省建筑设计研究院有限责任公司部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260911_90863456.html";
+											var str_5 = "2025年贵州省国有资产监督管理研究和服务中心部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省国有资产监督管理研究和服务中心部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260911_90863402.html";
+											var str_5 = "2025年贵州省轻纺工业设计院部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省轻纺工业设计院部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260911_90863603.html";
+											var str_5 = "2025年贵州省矿山安全科学研究院有限公司部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省矿山安全科学研究院有限公司部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260911_90863352.html";
+											var str_5 = "2025年贵州省煤矿设计研究院有限公司部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省煤矿设计研究院有限公司部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202609/t20260903_90817429.html";
+											var str_5 = "2025年贵州省人民政府国有资产监督管理委员会部门决算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2025年贵州省人民政府国有资产监督管理委员会部门决算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202603/t20260316_89874651.html";
+											var str_5 = "2026年贵州省人民政府国有资产监督管理委员会本级部门预算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2026年贵州省人民政府国有资产监督管理委员会本级部门预算
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/zjxx/202603/t20260316_89874626.html";
+											var str_5 = "2026年贵州省建筑设计研究院有限责任公司部门预算 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										2026年贵州省建筑设计研究院有限责任公司部门预算
+									</a></p>
+							
+						</li>
+
+						<li>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202603/t20260320_89893819.html";
+											var str_5 = "贵州高速集团2026年第一批次统一公开招聘开始啦 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州高速集团2026年第一批次统一公开招聘开始啦
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202603/t20260320_89892623.html";
+											var str_5 = "茅台集团2026年校园招聘公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										茅台集团2026年校园招聘公告
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202603/t20260311_89628428.html";
+											var str_5 = "贵州磷化集团2026年春季校园招聘公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州磷化集团2026年春季校园招聘公告
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202601/t20260121_89319569.html";
+											var str_5 = "贵州省黔晟国有资产经营有限责任公司2026年面向社会公开招聘中层管理人员公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州省黔晟国有资产经营有限责任公司2026年面向社会公开招聘中层管理人...
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202512/t20251216_89057075.html";
+											var str_5 = "贵州大数据产业集团有限公司2026年第一次社会招聘公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州大数据产业集团有限公司2026年第一次社会招聘公告
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202507/t20250710_88271009.html";
+											var str_5 = "贵州省建设投资集团有限公司2025年度公开招聘公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州省建设投资集团有限公司2025年度公开招聘公告
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202504/t20250403_87471374.html";
+											var str_5 = "贵州磷化（集团）有限责任公司2025年高层次人才引进公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州磷化（集团）有限责任公司2025年高层次人才引进公告
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202504/t20250403_87471341.html";
+											var str_5 = "贵州磷化（集团）有限责任公司2025年春季社会招聘公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										贵州磷化（集团）有限责任公司2025年春季社会招聘公告
+									</a></p>
+							
+								<p><a>
+										<script type="text/javascript">
+											var str = "";
+											var str_1 = "./zwgk/xxgkml/gpxd/202406/t20240626_84916628.html";
+											var str_5 = "关于举办2024年度贵州省国有企业专场招聘会暨“百日攻坚”促就业活动的公告 ";
+											if (str == "" || str == "null") {
+												document.write('<a href="' + str_1 + '" target="_blank" title="' + str_5 + '" >');
+											} else {
+												document.write('<a href="' + str + '" target="_blank" title="' + str_5 + '" >');
+											}
+										</script>
+										关于举办2024年度贵州省国有企业专场招聘会暨“百日攻坚”促就业活动的公告
+									</a></p>
+							
+						</li>
+					</ul>
+				</div>
+				<!------------政策文件end-------------->
+				<style>
+					.mllb li img {
+						margin-top: 0px;
+						position: absolute
+					}
+				</style>
+				<ul class="mllb">
+					<li><img src="/images/index113.png" /><a
+							href="./zwgk/xxgkzn/">信息公开指南</a></li>
+					<li><img src="/images/index114.png" /><a
+							href="./zwgk/xxgkml/">信息公开目录</a></li>
+					<li><img src="/images/index115.png" /><a
+							href="./zwgk/ysqgk/">依&nbsp;申&nbsp;请&nbsp;公&nbsp;开</a></li>
+
+					<li><img src="/images/index116.png" /><a
+							href="./zwgk/xxgkxgzd/">信息公开相关制度</a></li>
+					<li><img src="/images/index117.png" /><a
+							href="./zwgk/xxgknb/">信息公开年报</a></li>
+					<li><img src="/images/index118.png" /><a
+							href="./zwgk/xxgkyjx/">信息公开意见箱</a></li>
+					<li><img src="/images/index114.png" /><a
+							href="./zfxxgk/">政府信息公开</a></li>
+
+				</ul>
+			</div>
+			<div class="gklb">
+				<div class="jgzz"><a href="./zwgk/xxgkml/zzjg/"><img src="/images/index19.png" /><br />组织机构</a></div>
+				<div class="zdly"><a
+						href="http://www.gov.cn/pushinfo/v150203/index.htm"
+						target="_blank"><img src="/images/index22.png" /><br />国务院信息</a></div>
+				<div class="qyjd"><a
+						href="http://www.gov.cn/zhengce/index.htm"
+						target="_blank"><img src="/images/index23.png" /><br />国务院文件</a></div>
+				<div class="gkyjx"><a
+						href="http://www.guizhou.gov.cn/zwgk/zcfg/szfwj_8191/szfl_8192/index.html"
+						target="_blank"><img src="/images/index24.png" /><br />省政府文件</a></div>
+				<div class="gkyjx" style="background: #4282e1;"><a
+						href="/ztzl/"
+						target="_blank"><img src="/material/images/ztjj_2026.png" /><br />专题聚焦</a></div>
+			</div>
+			<div class="cycon" style="overflow:hidden;">
+				<div class="bmfw">
+					<div class="bmtit">
+						<span tyle="width: 272px;" class="on">
+							<a href="./wsfw/bmfw/">便民服务</a>
+						</span>
+					</div>
+					<div class="bd">
+						<ul class="fwlb">
+							<li><a href="http://www.12306.cn/" target="_blank"><img src="/images/index27.png" /><br />列车时刻</a></li>
+							<li><a href="http://www.114best.com/tel/" target="_blank"><img src="/images/index28.png" /><br />常用电话</a></li>
+							<li><a href="http://gz.weather.com.cn/" target="_blank"><img src="/images/index29.png" /><br />天气预报</a></li>
+							<li><a href="http://www.chsi.com.cn/" target="_blank"><img src="/images/index31.png" /><br />学历查询</a></li>
+							<li><a href="https://gz.122.gov.cn/" target="_blank"><img src="/images/index32.png" /><br />交通违章</a></li>
+							<!--<li><a href="http://www.prechina.net/" target="_blank"><img src="/images/index33.png" /><br />阳光产权</a></li>-->
+						</ul>
+					</div>
+				</div>
+				
+				<script>
+					jQuery(".bmfw").slide({titCell: ".bmtit span",mainCell: ".bd"});
+				</script>
+				<div class="zfxxlb">
+					<div class="bmtit">
+						<span><img src="/images/index26.png" /><a style="color:#fff;"
+								href="./gzcy/zwxx/">政务信箱</a></span>
+						<ul class="xxtj">
+							<li><a href="./gzcy/zwxx/xxxz/">写信需知</a></li>
+							<li><a href="./gzcy/zwxx/wyxx/">我要写信</a></li>
+							<li><a href="./gzcy/zwxx/xjcx/">信件查询</a></li>
+						</ul>
+					</div>
+					<div id="xjgs" style="width:595px;">
+						<table class="layui-table" lay-even lay-size="sm">
+											<thead>
+												<tr>
+													<th>信件标题</th>
+													<th style="text-align:center;">信件分类</th>
+													<th style="text-align:center;">发布时间</th>
+													<th style="text-align:center;">办理状态</th>
+												</tr>
+											</thead>
+											<tbody id="sjxx"></tbody>
+										</table>
+					</div>
+				</div>
+				<div class="zflb">
+					<div style="border-left:5px solid #ef6889;"><a href="http://weibo.com/gzgzfc"
+							target="_blank">政务微博</a></div>
+					<div style="border-left:5px solid #2bb0e6;"><a
+							href="./gzcy/zwwx/">政务微信</a></div>
+					<div style="border-left:5px solid #fed561;"><a
+							href="./gzcy/zxft/">在线访谈</a></div>
+					<div style="border-left:5px solid #4be164;"><a
+							href="./gzcy/zjdc/">征集调查</a></div>
+				</div>
+			</div>
+			<div class="qyfc">
+				<div class="qyfctit"><span><img src="/images/index35.png" /><a style="color:#fff;"
+							href="./xwzx/qyzc/">企业风采</a></span></div>
+				<style>
+					.marqueeleft {
+						height: 188px;
+						width: 1180px;
+						overflow: hidden;
+						margin: auto;
+						margin-top: 10px;
+					}
+
+					.marqueeleft ul {
+						float: left;
+					}
+
+					.marqueeleft li {
+						float: left;
+						display: inline;
+						width: 290px !important;
+						height: 188px;
+						overflow: hidden;
+						margin-left: 5px;
+						position: relative;
+					}
+
+					.marqueeleft li .pic {
+						display: block;
+						width: 290px;
+						height: 188px;
+						overflow: hidden;
+					}
+
+					.marqueeleft li img {
+						width: 290px;
+						height: 188px;
+					}
+
+					.marqueeleft li p {
+						height: 30px;
+						line-height: 30px;
+						width: 290px;
+						text-align: center;
+						position: absolute;
+						left: 0;
+						bottom: 0;
+						background: #000;
+						opacity: .5;
+					}
+
+					.marqueeleft li a p {
+						color: #FFFFFF;
+					}
+				</style>
+
+				<script type="text/javascript">
+					//js无缝滚动代码
+					function marquee(i, direction) {
+						var obj = document.getElementById("marquee" + i);
+						var obj1 = document.getElementById("marquee" + i + "_1");
+						var obj2 = document.getElementById("marquee" + i + "_2");
+						if (direction == "up") {
+							if (obj2.offsetTop - obj.scrollTop <= 0) {
+								obj.scrollTop -= (obj1.offsetHeight + 20);
+							} else {
+								var tmp = obj.scrollTop;
+								obj.scrollTop++;
+								if (obj.scrollTop == tmp) {
+									obj.scrollTop = 1;
+								}
+							}
+						} else {
+							if (obj2.offsetWidth - obj.scrollLeft <= 0) {
+								obj.scrollLeft -= obj1.offsetWidth;
+							} else {
+								obj.scrollLeft++;
+							}
+						}
+					}
+
+					function marqueeStart(i, direction) {
+						var obj = document.getElementById("marquee" + i);
+						var obj1 = document.getElementById("marquee" + i + "_1");
+						var obj2 = document.getElementById("marquee" + i + "_2");
+
+						obj2.innerHTML = obj1.innerHTML;
+						var marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 20);
+						obj.onmouseover = function () {
+							window.clearInterval(marqueeVar);
+						}
+						obj.onmouseout = function () {
+							marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 20);
+						}
+					}
+				</script>
+
+				<div id="marquee1" class="marqueeleft">
+					<div style="width:8000px;">
+						<ul id="marquee1_1">
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260929_90951000.html"
+										title="高质量发展主力军｜贵州铁投集团：世界最大跨度铁路拱桥黄百铁路红水河铁路大桥顺利合龙">
+										<script>
+											var imgTitle = "高质量发展主力军｜贵州铁投集团：世界最大跨度铁路拱桥黄百铁路红水河铁路大桥顺利合龙";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260929615601256327.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军｜贵州铁投集团：世界...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260929_90948597.html"
+										title="最美国资人 |  贵州高速集团都匀营运中心鲁大旺荣获第四届贵州省“最美退役军人”">
+										<script>
+											var imgTitle = "最美国资人 |  贵州高速集团都匀营运中心鲁大旺荣获第四届贵州省“最美退役军人”";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260929406337052007.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											最美国资人 |  贵州高速集团都匀营运中...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260924_90940368.html"
+										title="责任担当排头兵 丨 省水投集团倾情帮扶助力黄平县乡村全面振兴">
+										<script>
+											var imgTitle = "责任担当排头兵 丨 省水投集团倾情帮扶助力黄平县乡村全面振兴";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260924625797746940.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											责任担当排头兵 丨 省水投集团倾情帮扶...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260916_90878972.html"
+										title="改革创新先锋队  |  贵州省农发集团人才培训中心携山地人才培育“贵州经验”亮相全国论坛">
+										<script>
+											var imgTitle = "改革创新先锋队  |  贵州省农发集团人才培训中心携山地人才培育“贵州经验”亮相全国论坛";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260916603405588705.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											改革创新先锋队  |  贵州省农发集团人才...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260904_90822658.html"
+										title="高质量发展主力军  |  贵州铁投集团首个站城融合项目落地六盘水">
+										<script>
+											var imgTitle = "高质量发展主力军  |  贵州铁投集团首个站城融合项目落地六盘水";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260904615204060101.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军  |  贵州铁投集团首个...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260903_90817824.html"
+										title="改革创新先锋队  |  多彩新媒：百花湖畔的“数字车间”">
+										<script>
+											var imgTitle = "改革创新先锋队  |  多彩新媒：百花湖畔的“数字车间”";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260903652502791248.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											改革创新先锋队  |  多彩新媒：百花湖畔...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202609/t20260901_90806069.html"
+										title="高质量发展主力军  |  贵州民航集团暑运交出亮眼答卷">
+										<script>
+											var imgTitle = "高质量发展主力军  |  贵州民航集团暑运交出亮眼答卷";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202609/W020260901663522506291.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军  |  贵州民航集团暑运...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202608/t20260826_90786315.html"
+										title="责任担当排头兵  |  贵州交投集团：高桥通两岸 坦途惠民生">
+										<script>
+											var imgTitle = "责任担当排头兵  |  贵州交投集团：高桥通两岸 坦途惠民生";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202608/W020260826569619876257.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											责任担当排头兵  |  贵州交投集团：高桥...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202608/t20260812_90725995.html"
+										title="改革创新先锋队  |  贵州水投首个“渔光互补”项目：一地两用赋能绿色低碳发展">
+										<script>
+											var imgTitle = "改革创新先锋队  |  贵州水投首个“渔光互补”项目：一地两用赋能绿色低碳发展";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202608/W020260812543773128658.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											改革创新先锋队  |  贵州水投首个“渔光...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202607/t20260718_90635764.html"
+										title="高质量发展主力军  |  铝业集团与索通发展合作共建年产30万吨预焙阳极项目落地六盘水">
+										<script>
+											var imgTitle = "高质量发展主力军  |  铝业集团与索通发展合作共建年产30万吨预焙阳极项目落地六盘水";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202607/W020260718415651300881.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军  |  铝业集团与索通发...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202607/t20260715_90622136.html"
+										title="高质量发展主力军  | 贵州建投集团承建越南首个电解铝项目即将投产">
+										<script>
+											var imgTitle = "高质量发展主力军  | 贵州建投集团承建越南首个电解铝项目即将投产";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202607/W020260715383957308418.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军  | 贵州建投集团承建...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202607/t20260713_90612449.html"
+										title="高质量发展主力军  | 农产品经纪人“充电”助推“贵品出山”">
+										<script>
+											var imgTitle = "高质量发展主力军  | 农产品经纪人“充电”助推“贵品出山”";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202607/W020260713393624184276.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军  | 农产品经纪人“充...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202607/t20260713_90612272.html"
+										title="高质量发展主力军 | 畅通数据到AI应用转化链条 贵州数据集（语料）服务平台上线">
+										<script>
+											var imgTitle = "高质量发展主力军 | 畅通数据到AI应用转化链条 贵州数据集（语料）服务平台上线";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202607/W020260713381686656251.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军 | 畅通数据到AI应用转...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202607/t20260710_90605727.html"
+										title="高质量发展主力军 | 贵阳机场暑运单日旅客吞吐量突破8万人次">
+										<script>
+											var imgTitle = "高质量发展主力军 | 贵阳机场暑运单日旅客吞吐量突破8万人次";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202607/W020260710405673867450.png";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军 | 贵阳机场暑运单日旅...
+										</p>
+									</a>
+								</li>
+							
+								<li>
+									<a class="pic" href="./xwzx/qyzc/202607/t20260710_90605296.html"
+										title="高质量发展主力军 | 贵州建投集团承建世界第三大铜选矿厂关键工程全线贯通">
+										<script>
+											var imgTitle = "高质量发展主力军 | 贵州建投集团承建世界第三大铜选矿厂关键工程全线贯通";
+											var _imgURL = "";
+											if (_imgURL == "" || _imgURL == null) {
+												
+													
+														_imgURL = "http://gzw.guizhou.gov.cn/xwzx/qyzc/202607/W020260710405703929467.jpg";
+													
+												
+											}
+											if (_imgURL == "" || _imgURL == null) {
+												document.write('<img src="/images/nopic.jpg" width="290" height="188" />');
+											} else {
+												document.write('<img src="' + _imgURL + '" alt="' + imgTitle + '" width="290" height="188" />');
+											}
+											_imgURL = "";
+										</script>
+										<p style="font-size: 14px;">
+											高质量发展主力军 | 贵州建投集团承建世...
+										</p>
+									</a>
+								</li>
+							
+						</ul>
+						<ul id="marquee1_2"></ul>
+					</div>
+				</div>
+				<!--marqueeleft end-->
+				<script type="text/javascript">marqueeStart(1, "left");</script>
+
+			</div>
+			<!----------- 企业风采end --------------->
+			<script> 
+      function OpenSelect(optionStr){
+        if(optionStr != "" ){
+		
+			var r = confirm("您访问的链接即将离开“贵州省国有资产监督管理委员会网站”，是否继续？？？")
+			if(r){
+				//return true;
+				window.open(optionStr,'_blank')
+			}else{
+				return false;
+			}
+          
+        }  
+      }
+</script>
+<div class="yqlj">
+       <div class="link"><img src="/images/yqlj.png" /></div>
+       <div class="linkcon">
+<select onchange="OpenSelect(this.options[this.selectedIndex].value)">
+   <option value="">政府网站</option>
+      	
+
+   <option value="http://wjw.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省卫健委" href="http://wjw.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省卫健委</a>-</option>
+
+
+
+   <option value="http://lyj.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省林业局" href="http://lyj.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省林业局</a>-</option>
+
+
+
+   <option value="http://mwr.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省水利厅" href="http://mwr.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省水利厅</a>-</option>
+
+
+
+   <option value="http://zfcxjst.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省住房和城乡建设厅" href="http://zfcxjst.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省住房和城乡建设厅</a>-</option>
+
+
+
+   <option value="http://mzt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省民政厅" href="http://mzt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省民政厅</a>-</option>
+
+
+
+   <option value="http://gat.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省公安厅" href="http://gat.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省公安厅</a>-</option>
+
+
+
+   <option value="http://kjt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省科技厅" href="http://kjt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省科技厅</a>-</option>
+
+
+
+   <option value="http://sjt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省审计厅" href="http://sjt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省审计厅</a>-</option>
+
+
+
+   <option value="http://whhly.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省文化和旅游厅" href="http://whhly.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省文化和旅游厅</a>-</option>
+
+
+
+   <option value="http://nynct.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省农业农村厅" href="http://nynct.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省农业农村厅</a>-</option>
+
+
+
+   <option value="http://czt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省财政厅" href="http://czt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省财政厅</a>-</option>
+
+
+
+   <option value="http://mzw.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省民宗委" href="http://mzw.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省民宗委</a>-</option>
+
+
+
+   <option value="http://jyt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省教育厅" href="http://jyt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省教育厅</a>-</option>
+
+
+
+   <option value="http://wsb.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省外事办" href="http://wsb.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省外事办</a>-</option>
+
+
+
+   <option value="http://swt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省商务厅" href="http://swt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省商务厅</a>-</option>
+
+
+
+   <option value="http://jt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省交通运输厅" href="http://jt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省交通运输厅</a>-</option>
+
+
+
+   <option value="http://gxt.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省工业和信息化厅" href="http://gxt.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省工业和信息化厅</a>-</option>
+
+
+
+   <option value="http://fgw.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省发改委" href="http://fgw.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省发改委</a>-</option>
+
+
+
+   <option value="http://sft.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省司法厅" href="http://sft.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省司法厅</a>-</option>
+
+
+
+   <option value="http://zrzy.guizhou.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="省自然资源厅" href="http://zrzy.guizhou.gov.cn/">
+               
+           
+           
+               
+           
+    省自然资源厅</a>-</option>
+
+
+    </select>
+<select onchange="OpenSelect(this.options[this.selectedIndex].value)">
+   <option value="">各省市国资委</option>
+      	
+
+   <option value="http://gzw.yn.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="云南省国有资产监督管理委员会" href="http://gzw.yn.gov.cn/">
+               
+           
+           
+               
+           
+    云南省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.gd.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="广东省国有资产监督管理委员会" href="http://gzw.gd.gov.cn/">
+               
+           
+           
+               
+           
+    广东省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.hubei.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="湖北省国有资产监督管理委员会" href="http://gzw.hubei.gov.cn/">
+               
+           
+           
+               
+           
+    湖北省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.shandong.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="山东省国有资产监督管理委员会" href="http://gzw.shandong.gov.cn/">
+               
+           
+           
+               
+           
+    山东省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.zj.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="浙江省国有资产监督管理委员会" href="http://gzw.zj.gov.cn/">
+               
+           
+           
+               
+           
+    浙江省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="https://www.gzw.sh.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="上海市国有资产监督管理委员会" href="https://www.gzw.sh.gov.cn/">
+               
+           
+           
+               
+           
+    上海市国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.jl.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="吉林省国有资产监督管理委员会" href="http://gzw.jl.gov.cn/">
+               
+           
+           
+               
+           
+    吉林省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.hunan.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="湖南省国有资产监督管理委员会" href="http://gzw.hunan.gov.cn/">
+               
+           
+           
+               
+           
+    湖南省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.ah.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="安徽省国有资产监督管理委员会" href="http://gzw.ah.gov.cn/">
+               
+           
+           
+               
+           
+    安徽省国有资产监督管理委员会</a>-</option>
+
+
+
+   <option value="http://gzw.beijing.gov.cn/">-
+   
+               
+                   <a TARGET="_blank" title="北京市国有资产监督管理委员会" href="http://gzw.beijing.gov.cn/">
+               
+           
+           
+               
+           
+    北京市国有资产监督管理委员会</a>-</option>
+
+
+    </select>
+<select onchange="OpenSelect(this.options[this.selectedIndex].value)">
+ <option value="">监管和参股企业</option>
+      	
+
+   <option value="https://www.gzbdgc.com.cn/">-
+   
+               
+                   <a TARGET="_blank" title="云上贵州大数据集团" href="https://www.gzbdgc.com.cn/">
+               
+           
+           
+               
+           
+    云上贵州大数据集团</a>-</option>
+
+
+
+   <option value="https://www.china-moutai.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州茅台集团" href="https://www.china-moutai.com/">
+               
+           
+           
+               
+           
+    贵州茅台集团</a>-</option>
+
+
+
+   <option value="https://www.czelec.com.cn/">-
+   
+               
+                   <a TARGET="_blank" title="中国振华电子集团" href="https://www.czelec.com.cn/">
+               
+           
+           
+               
+           
+    中国振华电子集团</a>-</option>
+
+
+
+   <option value="http://www.gzjyjt.cn/">-
+   
+               
+                   <a TARGET="_blank" title="贵州金元股份有限公司" href="http://www.gzjyjt.cn/">
+               
+           
+           
+               
+           
+    贵州金元股份有限公司</a>-</option>
+
+
+
+   <option value="http://www.gzshdkf.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州省航电开发投资公司" href="http://www.gzshdkf.com/">
+               
+           
+           
+               
+           
+    贵州省航电开发投资公司</a>-</option>
+
+
+
+   <option value="https://www.gzjjjt.com.cn/">-
+   
+               
+                   <a TARGET="_blank" title="贵州省交通建设集团" href="https://www.gzjjjt.com.cn/">
+               
+           
+           
+               
+           
+    贵州省交通建设集团</a>-</option>
+
+
+
+   <option value="https://www.gzssltzinc.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州省水利投资集团" href="https://www.gzssltzinc.com/">
+               
+           
+           
+               
+           
+    贵州省水利投资集团</a>-</option>
+
+
+
+   <option value="https://www.gzttjt.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州铁路投资集团" href="https://www.gzttjt.com/">
+               
+           
+           
+               
+           
+    贵州铁路投资集团</a>-</option>
+
+
+
+   <option value="https://www.gzqsgz.com">-
+   
+               
+                   <a TARGET="_blank" title="贵州省黔晟国有资产经营有限责任公司" href="https://www.gzqsgz.com">
+               
+           
+           
+               
+           
+    贵州省黔晟国有资产经营有限责任公司</a>-</option>
+
+
+
+   <option value="https://www.gzsalt.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州盐业(集团)有限责任公司" href="https://www.gzsalt.com/">
+               
+           
+           
+               
+           
+    贵州盐业(集团)有限责任公司</a>-</option>
+
+
+
+   <option value="https://www.gzxijiu.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州习酒集团" href="https://www.gzxijiu.com/">
+               
+           
+           
+               
+           
+    贵州习酒集团</a>-</option>
+
+
+
+   <option value="https://www.gztourism.com.cn/">-
+   
+               
+                   <a TARGET="_blank" title="贵州旅投集团" href="https://www.gztourism.com.cn/">
+               
+           
+           
+               
+           
+    贵州旅投集团</a>-</option>
+
+
+
+   <option value="www.guizhoulinhua.com">-
+   
+               
+                   <a TARGET="_blank" title="贵州磷化集团" href="www.guizhoulinhua.com">
+               
+           
+           
+               
+           
+    贵州磷化集团</a>-</option>
+
+
+
+   <option value="http://www.gzjstz.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州省建设投资集团有限公司" href="http://www.gzjstz.com/">
+               
+           
+           
+               
+           
+    贵州省建设投资集团有限公司</a>-</option>
+
+
+
+   <option value="https://www.gz-gcac.com/index.html#page5">-
+   
+               
+                   <a TARGET="_blank" title="贵州民航集团" href="https://www.gz-gcac.com/index.html#page5">
+               
+           
+           
+               
+           
+    贵州民航集团</a>-</option>
+
+
+
+   <option value="http://www.wjnygroup.com/">-
+   
+               
+                   <a TARGET="_blank" title="贵州乌江能源集团" href="http://www.wjnygroup.com/">
+               
+           
+           
+               
+           
+    贵州乌江能源集团</a>-</option>
+
+
+
+   <option value="http://www.gedc.cn/">-
+   
+               
+                   <a TARGET="_blank" title="贵州高速公路集团有限公司" href="http://www.gedc.cn/">
+               
+           
+           
+               
+           
+    贵州高速公路集团有限公司</a>-</option>
+
+
+
+   <option value="http://www.gzgs.com.cn/">-
+   
+               
+                   <a TARGET="_blank" title="贵州钢绳（集团）有限公司" href="http://www.gzgs.com.cn/">
+               
+           
+           
+               
+           
+    贵州钢绳（集团）有限公司</a>-</option>
+
+
+
+   <option value="http://www.zgxnnk.com/">-
+   
+               
+                   <a TARGET="_blank" title="西南能矿集团股份有限公司" href="http://www.zgxnnk.com/">
+               
+           
+           
+               
+           
+    西南能矿集团股份有限公司</a>-</option>
+
+
+
+   <option value="http://www.gzwlcyjt.com">-
+   
+               
+                   <a TARGET="_blank" title="贵州现代物流产业集团" href="http://www.gzwlcyjt.com">
+               
+           
+           
+               
+           
+    贵州现代物流产业集团</a>-</option>
+
+
+    </select>
+<select onchange="OpenSelect(this.options[this.selectedIndex].value)">
+ <option value="">其他网站</option>
+      	
+
+   <option value="https://www.guizgh.org.cn/f">-
+   
+               
+                   <a TARGET="_blank" title="贵州省总工会" href="https://www.guizgh.org.cn/f">
+               
+           
+           
+               
+           
+    贵州省总工会</a>-</option>
+
+
+
+   <option value="http://www.gzyouth.cn/">-
+   
+               
+                   <a TARGET="_blank" title="贵州共青团" href="http://www.gzyouth.cn/">
+               
+           
+           
+               
+           
+    贵州共青团</a>-</option>
+
+
+
+   <option value="http://zwfw.guizhou.gov.cn/?areacode=520000&tdsourcetag=s_pcqq_aiomsg">-
+   
+               
+                   <a TARGET="_blank" title="贵州政务服务网" href="http://zwfw.guizhou.gov.cn/?areacode=520000&tdsourcetag=s_pcqq_aiomsg">
+               
+           
+           
+               
+           
+    贵州政务服务网</a>-</option>
+
+
+
+   <option value="http://www.gog.cn/">-
+   
+               
+                   <a TARGET="_blank" title="多彩贵州网" href="http://www.gog.cn/">
+               
+           
+           
+               
+           
+    多彩贵州网</a>-</option>
+
+
+
+   <option value="http://www.ddcpc.cn/">-
+   
+               
+                   <a TARGET="_blank" title="当代先锋网" href="http://www.ddcpc.cn/">
+               
+           
+           
+               
+           
+    当代先锋网</a>-</option>
+
+
+    </select>
+        </div>
+   </div>
+		</div>
+	</div>
+	<!-----------  w1200  w1180  END-------->
+    <style>
+.footbox{ width:1200px; margin:auto; overflow:hidden; background:#f1f1f1;}
+.fleft{ width:420px; height:200px; float:left;}
+.fleft .zfjc{ margin-top:25px; margin-left:120px; height: 70px;}
+.fleft .zfjc div{float:left;}
+.frighr{ width:780px; height:200px; float:left;}
+.fnav{ color:#333;}
+.fnav a{ padding:25px 10px;}
+.finfo{ color:#333; font-size:14px; padding:0;}
+.finfo span{ padding-right:25px;}
+.f_l{ float: left;}
+.wbwx_ewm{ width: 100%; height: 100px;}
+.wbwx_ewm p{ color: #000000; text-align: center;}
+</style>
+<div class="footbox">
+   <div class="fleft">
+	    <div class="zfjc">
+		   <div><script id="_jiucuo_" sitecode='5200000064' src='/images/jiucuo.js'></script></div>
+			<div style=" margin-top:-15px;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/24/000/0000/40707137/CA240000000407071370001.js' type='text/javascript'%3E%3C/script%3E"));</script></div>
+	    </div>
+		<div class="wbwx_ewm">
+			<div class="f_l" style="margin-left: 120px; margin-right: 15px;">
+			<img src="/material/images/gzwwx2026.jpg" width="100px" height="100px" />
+				<p>贵州国资微信</p>
+			</div>
+			<div class="f_l">
+				<img src="/material/images/gzwwb2026.png" width="100px" height="100px" />
+				<p>贵州国资微博</p>
+			</div>
+		</div>
+	</div>
+   <div class="fright" style="overflow: hidden;">
+      <div class="fnav"><a target="_blank" href="/syqt/gywm/201610/t20161026_23186484.html">关于我们</a>|<a target="_blank" href="/syqt/lxfs/201610/t20161026_23186486.html">联系我们</a>|<a target="_blank" href="/syqt/wzdt/">网站地图</a>|<a target="_blank" href="/syqt/wzbz/201610/t20161026_23186490.html">网站帮助</a>|
+<a target="_blank" href="/syqt/fzxx/201610/t20161026_23186489.html">网站声明</a>|<a target="_blank" href="/syqt/wznb/">网站年报</a></div>
+      <div class="finfo" style="line-height:26px;">
+         <span>版权所有： 贵州省人民政府国有资产监督管理委员会</span><span>地址：贵阳市中华北路省政府大院7号楼</span><br/>
+         <span>管理单位名称：贵州省人民政府国有资产监督管理委员会办公室</span><span>省政府服务热线：0851-12345</span><br/>
+         <span>邮箱：gzw_bgs@sina.com</span><span>传真电话：0851-86829813</span><br/> 
+         <span>办公室服务电话：0851-86810770</span><span>政府网站标识码：5200000064</span><span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52010302001637"><img src="/images/2017091501.png" />贵公网安备 52010302001637号</a></span><br/> 
+         <span>邮编：550004</span><span><a href="https://beian.miit.gov.cn/" target="_blank">备案号：黔ICP备16009966号</a></span><br/>
+<span>为确保最佳浏览效果，建议您使用Microsoft Edge、Firefox、360极速版等主流浏览器浏览本网站，</span><br/><span>如果您使用的是双核浏览器，请切换至极速模式访问</span>
+<script language="JavaScript">var _trackDataType = "web";var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10000730" src="//fxsjcj.kaipuyun.cn/count/10000730/10000730.js"></script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278275866'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D1278275866%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+      </div>
+   </div>
+</div>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=1309" async="async" defer="defer"></script> 
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            for (var i = 0; i < document.links.length; i++) {
+                var url = document.links[i].href.toLowerCase();
+                if (url.indexOf("http://localhost") == -1 && url.indexOf("gzw.guizhou.gov.cn") == -1&& url.indexOf("javascript:") == -1&& url != "#" && !document.links[i].onclick) {
+                    document.links[i].onclick = function () {
+                        return confirm("您即将离开贵州省国有资产监督管理委员会门户网站，访问到其他网站，是否继续？")
+                    };
+
+                }
+            }
+        });
+</script>
+<script src="/material/images/gd2023.js"></script>
+    <script type="text/javascript" src="/images/dl.js"></script>
+<script type="text/javascript">
+ $(function(){
+
+	 $(".dlbox").clonefn({
+
+		        cloneto:false,//是否允许克隆
+
+			initial:"top",//初始位置top或down
+
+			closeBtn:".closeBtn",//关闭按钮
+
+			speed:2000,//动画速度
+
+			easing:"easeInOutBack",
+
+			zIndex:10000000000000 //层
+
+		 });
+
+	 });
+
+</script>
+<style type="text/css">
+.closeBtn{width:100%;height:25px; line-height:25px; text-align:right;}
+</style>
+<!--对联广告-->
+
+
+<!--End对联广告-->
+
+	<script type="text/javascript">
+		function getMyDate(timestamp) {
+			var date = new Date(timestamp); //时间戳为10位需*1000，时间戳为13位的话不需乘1000
+			Y = date.getFullYear() + '-';
+			M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+			D = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate()) + ' ';
+			h = getzf(date.getHours()) + ':';
+			m = getzf(date.getMinutes()) + ':';
+			s = getzf(date.getSeconds());
+			return Y + M + D;
+		}
+
+		function getzf(num) {
+			if (parseInt(num) < 10) {
+				num = '0' + num;
+			}
+			return num;
+		}
+
+		function GetStatus(status) {
+					if (status == "4") {
+						status = "待办理";
+					} else if (status == "5") {
+						status = "待审核";
+					} else if (status == "7") {
+						status = "已办结";
+					} else {
+						status = "办理中";
+					}
+					return status;
+				}
+
+		var obj = new Object();
+		obj.pageIndex = 1;
+		obj.pageSize = 4;
+		obj.appId = 793;
+		obj.siteId = 502072;
+		obj.order = 1;
+
+		$(function () {
+			page({
+				isPage: true,
+				pageIndex: 1,
+				pageSize: 5
+			});
+		})
+
+		function page(param) {
+			var options = obj;
+			$.extend(options, param);
+			$.ajax({
+				url: '/IGI/nbhd/openGovmsgbox.do?method=listGovmsgboxs',
+				data: options,
+				async: true,
+				type: 'get',
+				dataType: 'json',
+				success: function (data) {
+					var docList = data.datas;
+					var html = "";
+					$.each(docList.data, function (i, v) {
+						html += '<tr>';
+						html += '<td><a href="' + (v.PUBLISHURL ? v.PUBLISHURL : '/gzcy/zwxx/xjgklb/view.html?ID=' + v.METADATAID) + '" target="_blank" title="' + v.TITLE + '">' + v.TITLE + '</a></td>';
+						html += '<td style=" width: 50px;overflow: hidden; text-overflow: ellipsis;white-space: nowrap;" align="center">' + v.GOVMSGBOXTYPE + '</td>';
+						html += '<td style=" width: 50px;overflow: hidden; text-overflow: ellipsis;white-space: nowrap;" align="center">' + getMyDate(parseInt(v.SUBMITTIME)) + '</td>';
+						html += '<td style=" width: 50px;overflow: hidden; text-overflow: ellipsis;white-space: nowrap;" align="center">' + GetStatus(v.STATUS) + '</td>';
+						html += '</tr>';
+					})
+					$("#sjxx").html(html);
+
+				}
+			})
+		}
+	</script>
+	<script type="text/javascript" src="http://www.guizhou.gov.cn/material/ChangePageStyle.js"></script>
+</body>
+
+</html>

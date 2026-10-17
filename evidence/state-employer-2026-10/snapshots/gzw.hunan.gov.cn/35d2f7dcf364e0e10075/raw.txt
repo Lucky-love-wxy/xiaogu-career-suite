@@ -1,0 +1,1929 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=1200" />
+    <meta name="baidu-site-verification" content="oVaqL5lyIH" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    
+<meta name="SiteName" content="湖南省国资委"/>
+<meta name="SiteDomain" content="gzw.hunan.gov.cn"/>
+<meta name="SiteIDCode" content="4300000037"/>
+
+<meta name="others" content="页面生成时间 2026-10-10 15:52:03" />
+<title>
+        湖南省国资委
+    </title>  
+    <script src="/gzw/xhtml/js/wap.js"></script>
+    <link href="/gzw/xhtml/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/gzw/xhtml/css/wap_index.css">
+  <link rel="stylesheet" type="text/css" href="http://tyjrswt.hunan.gov.cn/tyjrswt/xhtml/images/blackgray1.css">
+  
+  <script type="text/javascript" src="/gzw/xhtml/js/jquery-1.8.3.js"></script>
+  <script type="text/javascript" src="/gzw/xhtml/js/index.js"></script>
+  
+    <style>
+        .leader h3 {
+            margin-top: 15px;
+        }
+
+        .leader ul li {
+            line-height:30px;
+        }
+
+        .speedy-links ul li {
+            margin-bottom: 8px;
+            padding: 10px 20px;
+        }
+
+        .news-content h2 {
+            margin-bottom: 15px;
+            padding-bottom:
+                5px;
+            display: block;
+            line-height: 29px;
+            border-bottom: 1px dashed #999;
+        }
+
+        .news-content ul {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+
+        .news-content h2 a {
+            font-size: 16px;
+        }
+		
+		/* 头条   */
+		.topic_image {position:absolute;left:-1px;top:-1px;}
+		.topic_bg {background-color:#f3f3f3;border:1px solid #e6e6e6;position:relative;height:120px;}
+		.topic_border {height:108px;text-align:center;padding-top:12px; overflow: hidden;}
+		.topic_border a.topic_L {color:#175295;text-shadow:2px 2px 0px #fff;font:bold 34px/44px "Microsoft YaHei","黑体";text-align:center;}
+		.topic_border p {font:14px "SimSun",sans-serif;color:#175295;height:18px;text-align:center;padding-top:15px;}
+		.topic_border p a{color:#175295;}
+		
+		.news .news-tab ul li.active{color: #3d79ac;}
+		.news .news-tab{border: 0;}
+		.block-info .content .news-content ul li{padding-bottom: 10px;line-height: 20px;}
+      .speedy-links ul li {
+    padding: 4px 20px;
+}
+      
+      .leader .title {
+    padding: 15px 0;
+      }
+    </style>
+</head>
+
+<body>
+        
+    <script type="text/javascript">
+
+    function addEvent(obj, evtType, func, cap) {
+        cap = cap || false;
+        if (obj.addEventListener) {
+            obj.addEventListener(evtType, func, cap);
+            return true;
+        } else if (obj.attachEvent) {
+            if (cap) {
+                obj.setCapture();
+                return true;
+            } else {
+                return obj.attachEvent("on" + evtType, func);
+            }
+        } else {
+            return false;
+        }
+    }
+    function getPageScroll() {
+        var xScroll, yScroll;
+        if (self.pageXOffset) {
+            xScroll = self.pageXOffset;
+        } else if (document.documentElement && document.documentElement.scrollLeft) {
+            xScroll = document.documentElement.scrollLeft;
+        } else if (document.body) {
+            xScroll = document.body.scrollLeft;
+        }
+        if (self.pageYOffset) {
+            yScroll = self.pageYOffset;
+        } else if (document.documentElement && document.documentElement.scrollTop) {
+            yScroll = document.documentElement.scrollTop;
+        } else if (document.body) {
+            yScroll = document.body.scrollTop;
+        }
+        arrayPageScroll = new Array(xScroll, yScroll);
+        return arrayPageScroll;
+    }
+    function GetPageSize() {
+        var xScroll, yScroll;
+        if (window.innerHeight && window.scrollMaxY) {
+            xScroll = document.body.scrollWidth;
+            yScroll = window.innerHeight + window.scrollMaxY;
+        } else if (document.body.scrollHeight > document.body.offsetHeight) {
+            xScroll = document.body.scrollWidth;
+            yScroll = document.body.scrollHeight;
+        } else {
+            xScroll = document.body.offsetWidth;
+            yScroll = document.body.offsetHeight;
+        }
+        var windowWidth, windowHeight;
+        if (self.innerHeight) {
+            windowWidth = self.innerWidth;
+            windowHeight = self.innerHeight;
+        } else if (document.documentElement && document.documentElement.clientHeight) {
+            windowWidth = document.documentElement.clientWidth;
+            windowHeight = document.documentElement.clientHeight;
+        } else if (document.body) {
+            windowWidth = document.body.clientWidth;
+            windowHeight = document.body.clientHeight;
+        }
+        if (yScroll < windowHeight) {
+            pageHeight = windowHeight;
+        } else {
+            pageHeight = yScroll;
+        }
+        if (xScroll < windowWidth) {
+            pageWidth = windowWidth;
+        } else {
+            pageWidth = xScroll;
+        }
+        arrayPageSize = new Array(pageWidth, pageHeight, windowWidth, windowHeight)
+        return arrayPageSize;
+    }
+
+    var AdMoveConfig = new Object();
+    AdMoveConfig.IsInitialized = false;
+    AdMoveConfig.ScrollX = 0;
+    AdMoveConfig.ScrollY = 0;
+    AdMoveConfig.MoveWidth = 0;
+    AdMoveConfig.MoveHeight = 0;
+    AdMoveConfig.Resize = function () {
+        var winsize = GetPageSize();
+        AdMoveConfig.MoveWidth = winsize[2];
+        AdMoveConfig.MoveHeight = winsize[3];
+        AdMoveConfig.Scroll();
+    }
+    AdMoveConfig.Scroll = function () {
+        var winscroll = getPageScroll();
+        AdMoveConfig.ScrollX = winscroll[0];
+        AdMoveConfig.ScrollY = winscroll[1];
+    }
+    addEvent(window, "resize", AdMoveConfig.Resize);
+    addEvent(window, "scroll", AdMoveConfig.Scroll);
+    function AdMove(id) {
+        if (!AdMoveConfig.IsInitialized) {
+            AdMoveConfig.Resize();
+            AdMoveConfig.IsInitialized = true;
+        }
+        var obj = document.getElementById(id);
+        obj.style.position = "absolute";
+        var W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+        var H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+        var x = W * Math.random(), y = H * Math.random();
+        var rad = (Math.random() + 1) * Math.PI / 6;
+        var kx = Math.sin(rad), ky = Math.cos(rad);
+        var dirx = (Math.random() < 0.5 ? 1 : -1), diry = (Math.random() < 0.5 ? 1 : -1);
+        var step = 1;
+        var interval;
+        this.SetLocation = function (vx, vy) { x = vx; y = vy; }
+        this.SetDirection = function (vx, vy) { dirx = vx; diry = vy; }
+        obj.CustomMethod = function () {
+            obj.style.left = (x + AdMoveConfig.ScrollX) + "px";
+            obj.style.top = (y + AdMoveConfig.ScrollY) + "px";
+            rad = (Math.random() + 1) * Math.PI / 6;
+            W = AdMoveConfig.MoveWidth - obj.offsetWidth;
+            H = AdMoveConfig.MoveHeight - obj.offsetHeight;
+            x = x + step * kx * dirx;
+            if (x < 0) { dirx = 1; x = 0; kx = Math.sin(rad); ky = Math.cos(rad); }
+            if (x > W) { dirx = -1; x = W; kx = Math.sin(rad); ky = Math.cos(rad); }
+            y = y + step * ky * diry;
+            if (y < 0) { diry = 1; y = 0; kx = Math.sin(rad); ky = Math.cos(rad); }
+            if (y > H) { diry = -1; y = H; kx = Math.sin(rad); ky = Math.cos(rad); }
+        }
+        this.Run = function () {
+            var delay = 10;
+            interval = setInterval(obj.CustomMethod, delay);
+            obj.onmouseover = function () { clearInterval(interval); }
+            obj.onmouseout = function () { interval = setInterval(obj.CustomMethod, delay); }
+        }
+    }
+
+</script>
+
+<script type="text/javascript">
+
+    var ad1 = new AdMove("jhjgg1");
+    ad1.Run();
+
+</script>
+  <!--<div style="display:none">
+		<iframe id="myIframe1" src="https://home.hunan.gov.cn/login/login.html" width="220" height="28" scrolling="no" frameborder="0" ></iframe>
+	</div>-->
+    <div class="header">
+        <div class="topbar">
+            <div class="wrapper">
+    <div class="textlinks fn-left">
+        <ul>
+            <li>
+                <a href="http://www.gov.cn/" target="_blank">中国政府网</a>
+            </li>      
+            <li>
+                <span class="spaced">|</span>
+            </li>
+            <li>
+                <a href="http://www.hunan.gov.cn/" target="_blank">湖南省政府门户网站</a>
+          </li><li style="position: absolute;left: 50%;margin-left: 225px;margin-top: 0px;display: block;z-index:99999;">
+<a id="toolbarSwitch" href="javascript:void(0);" style="border: none;">无障碍浏览</a><span class="spaced"><voice class="Hj-EasyRead-Pointer-Label">|</voice></span>
+</li>
+<style>
+          
+  #comm_topLink_id{
+  z-index: auto!important;
+  }
+  
+    #comm_topLink_id a:last-child{
+     display: none;
+  }
+    
+          </style>
+        </ul>
+    </div>
+
+
+</div>
+        </div>
+        <div class="wrapper">
+            <div class="logo">
+   <a href="/gzw/index.html" target="_top"> 
+     <img src="/gzw/xhtml/image/gzw_logo_2019.png"  alt="湖南省人民政府国有资产监督管理委员会" />
+     <!--<img id="guohui_logo" src="/gzw/xhtml/image/guohui.png" alt="中华人民共和国国徽" />
+     <img id="gzw_logo" src="/gzw/xhtml/image/gzw_logo_text.png" alt="湖南省人民政府国有资产监督管理委员会" />-->
+  </a>
+</div>
+            <style>
+    .header .nav LI {
+        width: 135px;
+    }
+
+    .header .btn-submit {
+        width: 50px;
+    }
+
+    .header .input-search {
+        width: 150px;
+    }
+
+    .header .select-wrapper {
+        width: 87px;
+    }
+</style>
+
+<div class="nav-wrapper">
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="/gzw/index.html" target="_top">网站首页</a>
+            </li>
+            <li>
+                <a href="/gzw/xxgk_71571/index.html" target="_top">政府信息公开</a>
+            </li>
+          <li>
+                <a href="/gzw/bsfw_71599/index.html" target="_top">办事服务
+                </a>
+            </li>
+            <li>
+                <a href="/gzw/hdjl_71602/index.html" target="_top">互动交流</a>
+            </li>
+            <li>
+                <a href="/gzw/gzjg/gzyw/index.html" target="_top">国资监管</a>
+            </li>
+            <li style="background:none;">
+                <a
+                    href="
+/gzw/xxgk_71571/ssqyml/201803/t20180327_4980103.html
+">企业名录</a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="search">
+        <form action="http://searching.hunan.gov.cn/hunan/161000000/news" method="get" target="_top" id="searchform"
+            name="searchform">
+            <div class="select-wrapper">
+                <div class="select-text" id="j-search-text">站内搜索</div>
+                <ul class="select-list" id="j-search-list" style="display: none;">
+                    <li data-type="1"><a href="javascript:;" onclick="setC('news');">站内搜索</a></li>
+                    <li data-type="2"><a href="javascript:;" onclick="setC('all');">站群搜索</a></li>
+                </ul>
+            </div>
+            <div class="input-wrapper">
+                <input type="text  search_value"    name="q" id="inputid" class="input-search" placeholder="请输入关键词进行检索" />
+            </div>
+            <div class="button-wrapper">
+                <button class="btn-submit  jktong_click_button" jktong_name="search"  jktong_binding="search_value"    id="submitid" type="submit">检索</button>
+            </div>
+        </form>
+    </div>
+</div>
+<style>
+    .header .topbar {
+        position: inherit;
+        background-color: #3d79ac;
+    }
+</style>
+<script>
+    function setC(type) {
+        var action = 'http://searching.hunan.gov.cn/hunan/161000000/' + type;
+        document.getElementById("searchform").setAttribute("action", action);
+    }
+</script>
+        </div>
+    </div>
+    <div class="contenter">
+		
+		<!-- 头条 -->
+		<div class="topic_bg">
+			<img src="/gzw/xhtml/image/2016mzt_headline.png" class="topic_image" />
+		    <div class="topic_border">
+		     
+
+		<a title="以创新赢未来——习近平经济思想引领中国加快发展新质生产力" href="http://www.hunan.gov.cn/hnszf/hnyw/sy/tt1/202610/t20261010_34078554.html" class="topic_L" target="_blank">以创新赢未来——习近平经济思想引领中国加快发展新质生产力</a><p><a href="http://www.hunan.gov.cn/hnszf/hnyw/sy/tt1/202610/t20261010_34078554.html" target="_blank" >以创新赢未来——习近平经济思想引领中国加快发展新质生产力</a></p>
+
+		    </div>
+		</div>
+		
+        <div class="line">
+        </div>
+        <div class="block-first fn-clear">
+            <div class="leader">
+                <h2>
+                    委领导
+                </h2>
+              <h3>
+                     
+
+                     	<a href="/gzw/xxgk_71571/jgzn/jgld/wld/201504/t20150420_1940906.html" title="肖文伟" target="_blank">
+                            肖文伟
+						</a>
+
+                </h3>
+              
+                <h3>
+                     
+
+                        <a href="/gzw/xxgk_71571/jgzn/jgld/wld/201109/t20110914_1940896.html"
+                            title="杨晓喻" target="_blank">
+                            杨晓喻
+                        </a>
+
+                </h3>
+                <ul class="fn-clear" style="margin:0;">
+                     
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/202105/t20210508_16526191.html"
+                                title="冯传良" target="_blank">
+                                冯传良
+                            </a>
+                        </li>
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/202105/t20210508_16526520.html"
+                                title="毛育新" target="_blank">
+                                毛育新
+                            </a>
+                        </li>
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/202312/t20231211_1940911.html"
+                                title="刘文华" target="_blank">
+                                刘文华
+                            </a>
+                        </li>
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/202607/t20260720_1940908.html"
+                                title="陈　莹" target="_blank">
+                                陈　莹
+                            </a>
+                        </li>
+
+                
+                </ul>
+              <ul class="fn-clear" style="margin:0;">
+                    
+                   
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/202006/t20200611_12287152.html"
+                                title="张　翔" target="_blank">
+                                张　翔
+                            </a>
+                        </li>
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/202507/t20250708_33733546.html"
+                                title="欧　文" target="_blank">
+                                欧　文
+                            </a>
+                        </li>
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/201606/t20160621_3073864.html"
+                                title="李艳辉" target="_blank">
+                                李艳辉
+                            </a>
+                        </li>
+
+                        <li style=" text-align: center; width: 85px;">
+                            <a href="/gzw/xxgk_71571/jgzn/jgld/wld/201904/t20190428_5323212.html"
+                                title="姚明敏" target="_blank">
+                                姚明敏
+                            </a>
+                        </li>
+
+                </ul>
+                <!--<div class="title">
+                    <a title="副厅长级干部" href="">
+                        <span>
+                            +
+                        </span>
+                        副厅长级干部
+                    </a>
+                </div>-->
+              <div class="title">
+                    <a title="派驻机构" href="/gzw/xxgk_71571/jgzn/pzjg/index.html">
+                        <span>
+                            +
+                        </span>
+                        派驻机构
+                    </a>
+                </div>
+                <div class="title">
+                    <a title="内设机构" href="/gzw/xxgk_71571/jgzn/nsjg/index.html">
+                        <span>
+                            +
+                        </span>
+                        内设机构
+                    </a>
+                </div>
+                <div class="title">
+                    <a title="直属机构" href="/gzw/xxgk_71571/jgzn/zsjg/index.html">
+                        <span>
+                            +
+                        </span>
+                        直属机构
+                    </a>
+                </div>
+            </div>
+            <div class="slider" id="slider" style="height: 380px;">
+                <div class="slider-content">
+
+                     
+                        <div class="item" style="display:none;">
+                            <div class="slider-image">
+                                <a title="大力实施“开局八好”行动"
+                                    href="http://www.hunan.gov.cn/topic/kjbh/index.html " target="_blank">
+                                    <img src="/gzw/tpxw/202603/33945463/images/ee4e4462474d4ff7ba1c74238b1b214c.jpg
+"
+                                        alt="大力实施“开局八好”行动" width="560"
+                                        height="380">
+                                </a>
+                            </div>
+                            <div class="slider-title">
+                                <a title="大力实施“开局八好”行动"
+                                    href="http://www.hunan.gov.cn/topic/kjbh/index.html " target="_blank">
+                                    大力实施“开局八好”行动
+                                </a>
+                                <div class="mask">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="display:none;">
+                            <div class="slider-image">
+                                <a title="刘文华到港航水利集团、海利集团讲授廉政党课"
+                                    href="/gzw/tpxw/202610/t20261008_34076856.html" target="_blank">
+                                    <img src="/gzw/gzjg/gzyw/202610/34076856/images/d65e2374c6cb4e3dabc43234c4881dca.JPG
+"
+                                        alt="刘文华到港航水利集团、海利集团讲授廉..." width="560"
+                                        height="380">
+                                </a>
+                            </div>
+                            <div class="slider-title">
+                                <a title="刘文华到港航水利集团、海利集团讲授廉政党课"
+                                    href="/gzw/tpxw/202610/t20261008_34076856.html" target="_blank">
+                                    刘文华到港航水利集团、海利集团讲授廉政党课
+                                </a>
+                                <div class="mask">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="display:none;">
+                            <div class="slider-image">
+                                <a title="肖文伟赴衡钢开展安全生产和重大项目综合督导调研"
+                                    href="/gzw/tpxw/202609/t20260929_34073807.html" target="_blank">
+                                    <img src="/gzw/gzjg/gzyw/202609/34073807/images/16e228a1f72c490892d0c4916d00bfb9.jpg
+"
+                                        alt="肖文伟赴衡钢开展安全生产和重大项目综..." width="560"
+                                        height="380">
+                                </a>
+                            </div>
+                            <div class="slider-title">
+                                <a title="肖文伟赴衡钢开展安全生产和重大项目综合督导调研"
+                                    href="/gzw/tpxw/202609/t20260929_34073807.html" target="_blank">
+                                    肖文伟赴衡钢开展安全生产和重大项目综合督导调研
+                                </a>
+                                <div class="mask">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="display:none;">
+                            <div class="slider-image">
+                                <a title="毛育新赴周源山矿业公司调研督导安全生产工作"
+                                    href="/gzw/tpxw/202609/t20260924_34071916.html" target="_blank">
+                                    <img src="/gzw/gzjg/gzyw/202609/34071916/images/98befbe2de2a4c269408c07ee6bd740c.jpg
+"
+                                        alt="毛育新赴周源山矿业公司调研督导安全生..." width="560"
+                                        height="380">
+                                </a>
+                            </div>
+                            <div class="slider-title">
+                                <a title="毛育新赴周源山矿业公司调研督导安全生产工作"
+                                    href="/gzw/tpxw/202609/t20260924_34071916.html" target="_blank">
+                                    毛育新赴周源山矿业公司调研督导安全生产工作
+                                </a>
+                                <div class="mask">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item" style="display:none;">
+                            <div class="slider-image">
+                                <a title="余红胜在京与国机集团举行工作会谈"
+                                    href="/gzw/tpxw/202609/t20260921_34069192.html" target="_blank">
+                                    <img src="/gzw/gzjg/gzyw/202609/34069192/images/f75ba8b88cb94682977ad342a8a0fb65.png
+"
+                                        alt="余红胜在京与国机集团举行工作会谈" width="560"
+                                        height="380">
+                                </a>
+                            </div>
+                            <div class="slider-title">
+                                <a title="余红胜在京与国机集团举行工作会谈"
+                                    href="/gzw/tpxw/202609/t20260921_34069192.html" target="_blank">
+                                    余红胜在京与国机集团举行工作会谈
+                                </a>
+                                <div class="mask">
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="slider-btn">
+                    <ul>
+                        <li class="active">
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="j-tabs block-info news">
+            	<div class="tab news-tab">
+            		<ul>
+            			<li class="active">国资要闻</li>
+            			<li>时政要闻</li>
+            		</ul>
+            	</div>
+            	<div class="content">
+            		<div class="more">
+            			<a href="/gzw/gzjg/gzyw/index.html">更多></a>
+            		</div>
+            		<div class="news-content" style="padding: 0;">
+            			 
+
+            				<h2>
+            					<a title="刘文华到港航水利集团、海利集团讲授廉政党课"
+            						href="/gzw/gzjg/gzyw/202610/t20261008_34076856.html" target="_blank">
+            						<a href="/gzw/gzjg/gzyw/202610/t20261008_34076856.html" target="_blank" title='刘文华到港航水利集团、海利集团讲授廉政党课'  >刘文华到港航水利集团、海利集团讲授廉...</a>
+            					</a>
+            				</h2>
+
+            				<h2>
+            					<a title="肖文伟赴衡钢开展安全生产和重大项目综合督导调研"
+            						href="/gzw/gzjg/gzyw/202609/t20260929_34073807.html" target="_blank">
+            						<a href="/gzw/gzjg/gzyw/202609/t20260929_34073807.html" target="_blank" title='肖文伟赴衡钢开展安全生产和重大项目综合督导调研'  >肖文伟赴衡钢开展安全生产和重大项目综...</a>
+            					</a>
+            				</h2>
+
+            				<h2>
+            					<a title="毛育新赴周源山矿业公司调研督导安全生产工作"
+            						href="/gzw/gzjg/gzyw/202609/t20260924_34071916.html" target="_blank">
+            						<a href="/gzw/gzjg/gzyw/202609/t20260924_34071916.html" target="_blank" title='毛育新赴周源山矿业公司调研督导安全生产工作'  >毛育新赴周源山矿业公司调研督导安全生...</a>
+            					</a>
+            				</h2>
+
+            				<h2>
+            					<a title="省政府与部分部委央企在京举行工作会谈 毛伟明刘桂平汤广福何仲文出席"
+            						href="/gzw/gzjg/gzyw/202609/t20260924_34071868.html" target="_blank">
+            						<a href="/gzw/gzjg/gzyw/202609/t20260924_34071868.html" target="_blank" title='省政府与部分部委央企在京举行工作会谈 毛伟明刘桂平汤广福何仲文出席'  >省政府与部分部委央企在京举行工作会谈...</a>
+            					</a>
+            				</h2>
+
+            			<ul>
+            				 
+
+            					<li>
+            						<a title="余红胜在京与国机集团举行工作会谈"
+            							href="/gzw/gzjg/gzyw/202609/t20260921_34069192.html" target="_blank">
+            							<a href="/gzw/gzjg/gzyw/202609/t20260921_34069192.html" target="_blank" title='余红胜在京与国机集团举行工作会谈'  >余红胜在京与国机集团举行工作会谈</a>
+            						</a>
+            						<span>
+            							[
+            							09-21
+            							]
+            						</span>
+            					</li>
+
+            					<li>
+            						<a title="省政府与中国联通签署“十五五”战略合作协议 沈晓明见证签约 毛伟明董昕座谈"
+            							href="/gzw/gzjg/gzyw/202609/t20260918_34067560.html" target="_blank">
+            							<a href="/gzw/gzjg/gzyw/202609/t20260918_34067560.html" target="_blank" title='省政府与中国联通签署“十五五”战略合作协议 沈晓明见证签约 毛伟明董昕座谈'  >省政府与中国联通签署“十五五”战略合...</a>
+            						</a>
+            						<span>
+            							[
+            							09-18
+            							]
+            						</span>
+            					</li>
+
+            					<li>
+            						<a title="余红胜与中国中化举行工作会谈"
+            							href="/gzw/gzjg/gzyw/202609/t20260918_34067240.html" target="_blank">
+            							<a href="/gzw/gzjg/gzyw/202609/t20260918_34067240.html" target="_blank" title='余红胜与中国中化举行工作会谈'  >余红胜与中国中化举行工作会谈</a>
+            						</a>
+            						<span>
+            							[
+            							09-18
+            							]
+            						</span>
+            					</li>
+
+            			</ul>
+            		</div>
+            	</div>
+            	<div class="content" style="display:none;">
+            		<div class="more">
+            			<a href="/gzw/gzjg/gnyw/index.html">更多></a>
+            		</div>
+            		<ul>
+            			 
+
+            				<li>
+            					<span>
+            						10-05
+            					</span>
+            					<a href="https://www.hunan.gov.cn/hnszf/hnyw/ywtj/202610/t20261005_34076054.html" target="_blank"
+            						title="国庆假期过半消费市场平稳有序">
+            						<a href="https://www.hunan.gov.cn/hnszf/hnyw/ywtj/202610/t20261005_34076054.html" target="_blank" title='国庆假期过半消费市场平稳有序'  >国庆假期过半消费市场平稳有序</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-29
+            					</span>
+            					<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260929_34074210.html" target="_blank"
+            						title="李强主持召开国务院常务会议 研究宏观政策发力提效、促进有效投资有关工作等">
+            						<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260929_34074210.html" target="_blank" title='李强主持召开国务院常务会议 研究宏观政策发力提效、促进有效投资有关工作等'  >李强主持召开国务院常务会议 研究...</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-25
+            					</span>
+            					<a href="https://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260928_34073249.html" target="_blank"
+            						title="李强出席第五届全球数字贸易博览会启动仪式并致辞">
+            						<a href="https://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260928_34073249.html" target="_blank" title='李强出席第五届全球数字贸易博览会启动仪式并致辞'  >李强出席第五届全球数字贸易博览...</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-18
+            					</span>
+            					<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260918_34066974.html" target="_blank"
+            						title="国务院办公厅印发《关于进一步加强烟花爆竹全链条安全监管的意见》">
+            						<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260918_34066974.html" target="_blank" title='国务院办公厅印发《关于进一步加强烟花爆竹全链条安全监管的意见》'  >国务院办公厅印发《关于进一步加...</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-14
+            					</span>
+            					<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260914_34064024.html" target="_blank"
+            						title="《中国供应链发展报告（2025—2026）》发布">
+            						<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260914_34064024.html" target="_blank" title='《中国供应链发展报告（2025—2026）》发布'  >《中国供应链发展报告（2025—20...</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-11
+            					</span>
+            					<a href="http://www.hunan.gov.cn/hnyw/ywtj/202609/t20260911_34062530.html" target="_blank"
+            						title="李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署">
+            						<a href="http://www.hunan.gov.cn/hnyw/ywtj/202609/t20260911_34062530.html" target="_blank" title='李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署'  >李强主持召开国务院常务会议 对加...</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-09
+            					</span>
+            					<a href="https://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260911_34061816.html" target="_blank"
+            						title="李强主持国务院第二十一次专题学习">
+            						<a href="https://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260911_34061816.html" target="_blank" title='李强主持国务院第二十一次专题学习'  >李强主持国务院第二十一次专题学...</a>
+            					</a>
+            				</li>
+
+            				<li>
+            					<span>
+            						09-01
+            					</span>
+            					<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260901_34054432.html" target="_blank"
+            						title="李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作时的重要讲话精神">
+            						<a href="http://www.hunan.gov.cn/hnszf/hnyw/ywtj/202609/t20260901_34054432.html" target="_blank" title='李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作时的重要讲话精神'  >李强主持召开国务院常务会议 学习...</a>
+            					</a>
+            				</li>
+
+            		</ul>
+            	</div>
+            </div>
+            
+        </div>
+        <div class="fn-clear">
+            <div class="block-second-wrapper">
+                <div class="block-second">
+                    <div class="nav">
+                        <div class="title">
+                            通知公告
+                        </div>
+                        <div class="more">
+                            <a href="/gzw/xxgk_71571/tzgg/index.html">
+                                更多>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="notice">
+                        <ul>
+                             
+
+                                <li>
+                                    <span>
+                                        10-10
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202610/t20261010_34078738.html" target="_blank"
+                                        title="关于湖南省国资委2027年度“英培计划”人才选拔公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202610/t20261010_34078738.html" target="_blank"  >关于湖南省国资委2027年度“英培计划”人才选拔公告</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        10-08
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202610/t20261008_34076849.html" target="_blank"
+                                        title="湖南高新产业投资集团有限公司公开招聘公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202610/t20261008_34076849.html" target="_blank"  >湖南高新产业投资集团有限公司公开招聘公告</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        09-20
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202609/t20260920_34068052.html" target="_blank"
+                                        title="“新”火湘承 能创未来—湖南能源集团2027届校园招聘正式启动">
+                                        <a href="/gzw/xxgk_71571/tzgg/202609/t20260920_34068052.html" target="_blank"  >“新”火湘承 能创未来—湖南能源集团2027届校园招聘正式启动</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        08-25
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202608/t20260825_34050808.html" target="_blank"
+                                        title="2026年投资项目专项监督检查竞争性磋商邀请公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202608/t20260825_34050808.html" target="_blank"  >2026年投资项目专项监督检查竞争性磋商邀请公告</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        08-24
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202608/t20260824_34049474.html" target="_blank"
+                                        title="湖南兴湘投资控股集团有限公司公开招聘公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202608/t20260824_34049474.html" target="_blank"  >湖南兴湘投资控股集团有限公司公开招聘公告</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        07-24
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202607/t20260724_34033419.html" target="_blank"
+                                        title="湖南省人民政府国有资产监督管理委员会本级2026年风险问题专项监督检查项目竞争性磋商邀请公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202607/t20260724_34033419.html" target="_blank"  >湖南省人民政府国有资产监督管理委员会本级2026年风险问题专项监督检查项目竞争性磋商邀请公告</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        07-24
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202607/t20260724_34033091.html" target="_blank"
+                                        title="湖南省人民政府国有资产监督管理委员会2026年流动资金专项监督检查项目竞争性磋商邀请公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202607/t20260724_34033091.html" target="_blank"  >湖南省人民政府国有资产监督管理委员会2026年流动资金专项监督检查项目竞争性磋商邀请公告</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        07-20
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202607/t20260720_34030239.html" target="_blank"
+                                        title="湖南能源集团2026年夏季招聘">
+                                        <a href="/gzw/xxgk_71571/tzgg/202607/t20260720_34030239.html" target="_blank"  >湖南能源集团2026年夏季招聘</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        06-26
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202606/t20260626_34014063.html" target="_blank"
+                                        title="关于湖南省国资委系统“两优一先”拟表彰对象的公示">
+                                        <a href="/gzw/xxgk_71571/tzgg/202606/t20260626_34014063.html" target="_blank"  >关于湖南省国资委系统“两优一先”拟表彰对象的公示</a>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        06-09
+                                    </span>
+                                    <a href="/gzw/xxgk_71571/tzgg/202606/t20260609_33997066.html" target="_blank"
+                                        title="湖南能源集团有限公司二级子公司领导班子成员岗位公开招聘公告">
+                                        <a href="/gzw/xxgk_71571/tzgg/202606/t20260609_33997066.html" target="_blank"  >湖南能源集团有限公司二级子公司领导班子成员岗位公开招聘公告</a>
+                                    </a>
+                                </li>
+
+                        </ul>
+                    </div>
+                    <div class="nav">
+                        <div class="title">
+                            信息公开发布平台
+                        </div>
+                    </div>
+                    <div class="info-post">
+                        <ul class="links fn-clear">
+                            <li>
+                                <a title="信息公开指南" href="/gzw/xxgk_71571/zn/index.html">
+                                    信息公开指南
+                                </a>
+                            </li>
+                            <li>
+                                <a title="信息公开目录" href="//gzw.hunan.gov.cn//xxgk_71571/ml/">
+                                    信息公开目录
+                                </a>
+                            </li>
+                            <li>
+                                <a title="公开年度报告" href="/gzw/xxgk_71571/nb/index.html">
+                                    公开年度报告
+                                </a>
+                            </li>
+                            <li>
+                                <a title="依申请公开" href="/gzw/xxgk_71571/ysq/index.html">
+                                    依申请公开
+                                </a>
+                            </li>
+                        </ul>
+              
+                    </div>
+                    <div class="speedy-links">
+                        <ul>
+                          <li>
+                                <i class="icon">
+                                    <img src="/gzw/xhtml/image/xbt_logo.png">
+                                </i>
+                                <a title="湘办通" href="https://xbt.hnswbgt.gov.cn/" target="_blank">
+                                    湘办通
+                                </a>
+                            </li> 
+                            <li>
+                                <i class="icon">
+                                    <img src="/gzw/xhtml/image/xietong_logo.png">
+                                </i>
+                                <a title="协同办公系统" href="/gzw/xhtml/redirect.html" target="_blank">
+                                    协同办公系统
+                                </a>
+                            </li>
+                            <li>
+                                <i class="icon-b">
+                                </i>
+                                <a title="国资监管业务信息系统" href="https://www.hnsgzw.cn:5200/" target="_blank">
+                                    国资监管业
+                                    <br>
+                                    务信息系统
+                                </a>
+                            </li>
+                          <li>
+                                <i class="icon">
+                                    <img src="/gzw/xhtml/image/yqdjhzxxpt.png">
+                                </i>
+                                <a title="央企对接合作信息平台" href="https://yqdj.hnsgzw.cn:7070/" target="_blank">
+                                    央企对接合作信息平台
+                                </a>
+                            </li>
+                            <li>
+                                <i class="icon-c">
+                                </i>
+                                <a title="下载专区" href="/gzw/bsfw_71599/zlxz/index.html">
+                                    下载专区
+                                </a>
+                            </li>
+                          <!--
+                          <li>
+                                <i class="icon-d" style="background: url(/gzw/xhtml/image/icon-4.png) center no-repeat;">
+                                </i>
+                                <a title="创建无烟机关" href="">
+                                    创建无烟机关
+                                </a>
+                            </li>-->
+                          <li>
+                                <i class="icon-d" style="background: url(/gzw/xhtml/image/qtlm.png) center no-repeat;background-size: 40px;">
+                                </i>
+                                <a title="其他" href="/gzw/xxgk_71571/ztzl/qtlm/qtlm1/index.html">
+                                    反诈宣传
+                                </a>
+                            </li>
+                          <li>
+                                <i class="icon-a">
+                                </i>
+                                <a title="产权信息查询" href="https://www.hnsgzw.cn:8118/login.html">产权信息查询</ a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="block-third">
+                <div id="slider_2" class="scroll_horizontal">
+                    <a class="next">
+                        <i>
+                        </i>
+                    </a>
+                    <a class="prev">
+                        <i>
+                        </i>
+                    </a>
+                    <div class="box">
+                        <ul class="list">
+                             
+                                <li>
+                                    <a title="国企湘聘"
+                                        href="https://www.hnxiangpin.com/">
+                                        <img src="/gzw/xxgk_71571/ztzl/202112/21323468/images/5155f853d99f40b0bcdf46ee298825e3.jpg
+"
+                                            width="250" height="95">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="社会信用体系建设"
+                                        href="http://gzw.hunan.gov.cn/gzw/xxgk_71571/ztzl/shxytxjs/index.html">
+                                        <img src="/gzw/xxgk_71571/ztzl/202309/29496972/images/5be5cb72194945ea8460f98dd73c5dc8.png
+"
+                                            width="250" height="95">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="重要政策举措及实施效果"
+                                        href="https://www.gov.cn/zhengce/zczhjd/">
+                                        <img src="/gzw/xxgk_71571/ztzl/202009/13756350/images/86d23349443b4e2ba15e45c29333d942.png
+"
+                                            width="250" height="95">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="国企改革湖南行动"
+                                        href="/gzw/xxgk_71571/ztzl/24837/52331/index.html">
+                                        <img src="/gzw/xxgk_71571/ztzl/52331/6558918/images/83586f64c64e49d9a84a21444bc5940e.png
+"
+                                            width="250" height="95">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="法治建设"
+                                        href="/gzw/xxgk_71571/ztzl/yasf/index.html">
+                                        <img src="/gzw/xxgk_71571/ztzl/201512/8126439/images/1a3835c8ad2a41f18ce47785451410e4.jpeg
+"
+                                            width="250" height="95">
+                                    </a>
+                                </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="fn-clear">
+                    <div class="j-tabs block-info fn-left w520">
+                        <div class="tab">
+                            <ul>
+                                <li class="active">
+                                    国资国企动态
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content">
+                            <div class="more">
+                                <a href="/gzw/gzjg/gqdt/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <ul>
+                                 
+
+                                    <li>
+                                        <span>
+                                            10-08
+                                        </span>
+                                        <a href="/gzw/gzjg/gqdt/202610/t20261008_34076382.html" target="_blank"
+                                            title="海利集团召开安全生产专题视频会议部署国庆假期和下一阶段安全生产工作">
+                                            <a href="/gzw/gzjg/gqdt/202610/t20261008_34076382.html" target="_blank" title='海利集团召开安全生产专题视频会议部署国庆假期和下一阶段安全生产工作'  >海利集团召开安全生产专题视频会议部署国庆假期和下一阶段安全生...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-30
+                                        </span>
+                                        <a href="/gzw/gzjg/gqdt/202609/t20260930_34075446.html" target="_blank"
+                                            title="回望奋斗路 共启新征程 兴湘集团召开二十周年共话未来发展恳谈会">
+                                            <a href="/gzw/gzjg/gqdt/202609/t20260930_34075446.html" target="_blank" title='回望奋斗路 共启新征程 兴湘集团召开二十周年共话未来发展恳谈会'  >回望奋斗路 共启新征程 兴湘集团召开二十周年共话未来发展恳谈会</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-28
+                                        </span>
+                                        <a href="/gzw/gzjg/gqdt/202609/t20260928_34073434.html" target="_blank"
+                                            title="行业首家！雪天盐业斩获CQC全品类食盐“清洁标签”最高等级认证">
+                                            <a href="/gzw/gzjg/gqdt/202609/t20260928_34073434.html" target="_blank" title='行业首家！雪天盐业斩获CQC全品类食盐“清洁标签”最高等级认证'  >行业首家！雪天盐业斩获CQC全品类食盐“清洁标签”最高等级认证</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-28
+                                        </span>
+                                        <a href="/gzw/gzjg/gqdt/202609/t20260928_34073423.html" target="_blank"
+                                            title="百椒同台，一盐定味！雪天盐助力“全球百厨百椒炒肉”问鼎大世界基尼斯纪录">
+                                            <a href="/gzw/gzjg/gqdt/202609/t20260928_34073423.html" target="_blank" title='百椒同台，一盐定味！雪天盐助力“全球百厨百椒炒肉”问鼎大世界基尼斯纪录'  >百椒同台，一盐定味！雪天盐助力“全球百厨百椒炒肉”问鼎大世界...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-28
+                                        </span>
+                                        <a href="/gzw/gzjg/gqdt/202609/t20260928_34073415.html" target="_blank"
+                                            title="湖南盐业集团下属湘渝盐化与重庆万州经开区、锦东科技签署投资协议 加速废盐综合利用项目落地">
+                                            <a href="/gzw/gzjg/gqdt/202609/t20260928_34073415.html" target="_blank" title='湖南盐业集团下属湘渝盐化与重庆万州经开区、锦东科技签署投资协议 加速废盐综合利用项目落地'  >湖南盐业集团下属湘渝盐化与重庆万州经开区、锦东科技签署投资协...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-28
+                                        </span>
+                                        <a href="/gzw/gzjg/gqdt/202609/t20260928_34073407.html" target="_blank"
+                                            title="长沙新港公司荣获全国“退役军人服务保障先进单位”称号">
+                                            <a href="/gzw/gzjg/gqdt/202609/t20260928_34073407.html" target="_blank" title='长沙新港公司荣获全国“退役军人服务保障先进单位”称号'  >长沙新港公司荣获全国“退役军人服务保障先进单位”称号</a>
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="j-tabs block-info fn-right w330">
+                        <div class="tab">
+                            <ul>
+                                <li class="active">
+                                    党的建设
+                                </li>
+                                <li>
+                                    市州国资
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content">
+                            <div class="more">
+                                <a href="/gzw/gzjg/ddjs/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <ul>
+                                 
+
+                                    <li>
+                                        <span>
+                                            10-08
+                                        </span>
+                                        <a href="/gzw/gzjg/ddjs/202610/t20261008_34076410.html" target="_blank"
+                                            title="港航水利集团党委理论学习中心组开展2026年第九次集体学习">
+                                            <a href="/gzw/gzjg/ddjs/202610/t20261008_34076410.html" target="_blank" title='港航水利集团党委理论学习中心组开展2026年第九次集体学习'  >港航水利集团党委理论学习中心组...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-29
+                                        </span>
+                                        <a href="/gzw/gzjg/ddjs/202609/t20260929_34073837.html" target="_blank"
+                                            title="湖南盐业集团党委理论学习中心组举行2026年第八次集中（扩大）学习">
+                                            <a href="/gzw/gzjg/ddjs/202609/t20260929_34073837.html" target="_blank" title='湖南盐业集团党委理论学习中心组举行2026年第八次集中（扩大）学习'  >湖南盐业集团党委理论学习中心组...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-21
+                                        </span>
+                                        <a href="/gzw/gzjg/ddjs/202609/t20260921_34069585.html" target="_blank"
+                                            title="赓续长征精神 凝聚国资力量">
+                                            <a href="/gzw/gzjg/ddjs/202609/t20260921_34069585.html" target="_blank" title='赓续长征精神 凝聚国资力量'  >赓续长征精神 凝聚国资力量</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-21
+                                        </span>
+                                        <a href="/gzw/gzjg/ddjs/202609/t20260921_34069028.html" target="_blank"
+                                            title="党建引领增合力 服务企业解难题">
+                                            <a href="/gzw/gzjg/ddjs/202609/t20260921_34069028.html" target="_blank" title='党建引领增合力 服务企业解难题'  >党建引领增合力 服务企业解难题</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-15
+                                        </span>
+                                        <a href="/gzw/gzjg/ddjs/202609/t20260915_34064672.html" target="_blank"
+                                            title="赓续红色血脉 凝聚奋进力量——省国资委组织“两优一先”代表开展红色研学活动">
+                                            <a href="/gzw/gzjg/ddjs/202609/t20260915_34064672.html" target="_blank" title='赓续红色血脉 凝聚奋进力量——省国资委组织“两优一先”代表开展红色研学活动'  >赓续红色血脉 凝聚奋进力量——省...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-08
+                                        </span>
+                                        <a href="/gzw/gzjg/ddjs/202609/t20260908_34058738.html" target="_blank"
+                                            title="矿产集团召开专题会议总结树立和践行正确 政绩观学习教育工作">
+                                            <a href="/gzw/gzjg/ddjs/202609/t20260908_34058738.html" target="_blank" title='矿产集团召开专题会议总结树立和践行正确 政绩观学习教育工作'  >矿产集团召开专题会议总结树立和...</a>
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                        <div class="content" style="display:none;">
+                            <div class="more">
+                                <a href="/gzw/gzjg/szxqgz/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <ul>
+                                 
+
+                                    <li>
+                                        <span>
+                                            10-08
+                                        </span>
+                                        <a href="/gzw/gzjg/szxqgz/202610/t20261008_34076403.html" target="_blank"
+                                            title="找风险 建清单 促整改 益阳市国资系统以制度重构扎紧“不能腐”笼子">
+                                            <a href="/gzw/gzjg/szxqgz/202610/t20261008_34076403.html" target="_blank" title='找风险 建清单 促整改 益阳市国资系统以制度重构扎紧“不能腐”笼子'  >找风险 建清单 促整改 益阳市国资...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-30
+                                        </span>
+                                        <a href="/gzw/gzjg/szxqgz/202609/t20260930_34075464.html" target="_blank"
+                                            title="怀运集团开通校园直通车 优化定制客运服务惠民生">
+                                            <a href="/gzw/gzjg/szxqgz/202609/t20260930_34075464.html" target="_blank" title='怀运集团开通校园直通车 优化定制客运服务惠民生'  >怀运集团开通校园直通车 优化定制...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            08-13
+                                        </span>
+                                        <a href="/gzw/gzjg/szxqgz/202608/t20260813_34044400.html" target="_blank"
+                                            title="平安收购惠民生 暖心慰问促规范">
+                                            <a href="/gzw/gzjg/szxqgz/202608/t20260813_34044400.html" target="_blank" title='平安收购惠民生 暖心慰问促规范'  >平安收购惠民生 暖心慰问促规范</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            08-03
+                                        </span>
+                                        <a href="/gzw/gzjg/szxqgz/202608/t20260803_34038459.html" target="_blank"
+                                            title="怀化首家国资控股混合所有制人力资源平台揭牌运营">
+                                            <a href="/gzw/gzjg/szxqgz/202608/t20260803_34038459.html" target="_blank" title='怀化首家国资控股混合所有制人力资源平台揭牌运营'  >怀化首家国资控股混合所有制人力...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            07-22
+                                        </span>
+                                        <a href="/gzw/gzjg/szxqgz/202607/t20260722_34031558.html" target="_blank"
+                                            title="怀化低空经济赋能智慧治水，“AI河长”完成首次实景试飞">
+                                            <a href="/gzw/gzjg/szxqgz/202607/t20260722_34031558.html" target="_blank" title='怀化低空经济赋能智慧治水，“AI河长”完成首次实景试飞'  >怀化低空经济赋能智慧治水，“AI...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            07-10
+                                        </span>
+                                        <a href="/gzw/gzjg/szxqgz/202607/t20260710_34023918.html" target="_blank"
+                                            title="怀化文旅赋能文旅新场景，两大项目获省级官方认证">
+                                            <a href="/gzw/gzjg/szxqgz/202607/t20260710_34023918.html" target="_blank" title='怀化文旅赋能文旅新场景，两大项目获省级官方认证'  >怀化文旅赋能文旅新场景，两大项...</a>
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn-clear">
+                    <div class="j-tabs block-info fn-left w520">
+                        <div class="tab">
+                            <ul>
+                                <li class="active">
+                                    政策法规
+                                </li>
+                              
+                            </ul>
+                        </div>
+                        <div class="content">
+                            <div class="more">
+                                <a href="/gzw/xxgk_71571/zcfg/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <ul>
+                                 
+
+                                    <li>
+                                        <span>
+                                            08-11
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zcfg/202608/t20260811_34043058.html" target="_blank"
+                                            title="湖南省人民政府办公厅关于印发《湖南省“千百十”企业培育行动实施方案（2026—2028年）》的通知">
+                                            <a href="/gzw/xxgk_71571/zcfg/202608/t20260811_34043058.html" target="_blank" title='湖南省人民政府办公厅关于印发《湖南省“千百十”企业培育行动实施方案（2026—2028年）》的通知'  >湖南省人民政府办公厅关于印发《湖南省“千百十”企业培育行...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            08-03
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zcfg/202608/t20260803_34038352.html" target="_blank"
+                                            title="湖南省国资委关于印发《湖南省国资委分类授权放权清单（2026年版）》有关事项的通知">
+                                            <a href="/gzw/xxgk_71571/zcfg/202608/t20260803_34038352.html" target="_blank" title='湖南省国资委关于印发《湖南省国资委分类授权放权清单（2026年版）》有关事项的通知'  >湖南省国资委关于印发《湖南省国资委分类授权放权清单（2026...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            05-27
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zcfg/202605/t20260527_33987476.html" target="_blank"
+                                            title="关于新时代中央企业高质量推进品牌建设的意见">
+                                            <a href="/gzw/xxgk_71571/zcfg/202605/t20260527_33987476.html" target="_blank" title='关于新时代中央企业高质量推进品牌建设的意见'  >关于新时代中央企业高质量推进品牌建设的意见</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            05-26
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zcfg/202605/t20260526_33987280.html" target="_blank"
+                                            title="湖南省数据局等5部门印发《关于促进湖南省企业数据资源开发利用的实施方案》的通知">
+                                            <a href="/gzw/xxgk_71571/zcfg/202605/t20260526_33987280.html" target="_blank" title='湖南省数据局等5部门印发《关于促进湖南省企业数据资源开发利用的实施方案》的通知'  >湖南省数据局等5部门印发《关于促进湖南省企业数据资源开发利...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            12-19
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zcfg/202603/t20260304_33925802.html" target="_blank"
+                                            title="中央企业违规经营投资责任追究实施办法">
+                                            <a href="/gzw/xxgk_71571/zcfg/202603/t20260304_33925802.html" target="_blank" title='中央企业违规经营投资责任追究实施办法'  >中央企业违规经营投资责任追究实施办法</a>
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                   
+                    </div>
+                    <div class="j-tabs block-info fn-right w330">
+                        <div class="tab">
+                            <ul>
+                                <li class="active">
+                                    国资监管信息公开
+                                </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="content">
+                            <div class="more">
+                                <a href="/gzw/xxgk_71571/zdly/gyqycwxx/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <ul>
+                                 
+
+                                    <li>
+                                        <span>
+                                            08-13
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202608/t20260813_34044389.html" target="_blank"
+                                            title="2026年1-6月省属监管企业经营情况">
+                                            <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202608/t20260813_34044389.html" target="_blank" title='2026年1-6月省属监管企业经营情况'  >2026年1-6月省属监管企业经营情况</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            08-13
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202608/t20260813_34044385.html" target="_blank"
+                                            title="2026年1-6月全省地方监管企业经营情况">
+                                            <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202608/t20260813_34044385.html" target="_blank" title='2026年1-6月全省地方监管企业经营情况'  >2026年1-6月全省地方监管企业经营...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            05-09
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202605/t20260509_33972821.html" target="_blank"
+                                            title="2026年1-3月省属监管企业经营情况">
+                                            <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202605/t20260509_33972821.html" target="_blank" title='2026年1-3月省属监管企业经营情况'  >2026年1-3月省属监管企业经营情况</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            05-08
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202605/t20260508_33971794.html" target="_blank"
+                                            title="2026年1-3月全省地方监管企业经营情况">
+                                            <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202605/t20260508_33971794.html" target="_blank" title='2026年1-3月全省地方监管企业经营情况'  >2026年1-3月全省地方监管企业经营...</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            01-30
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202601/t20260130_33906644.html" target="_blank"
+                                            title="2025年1-12月全省地方监管企业经营情况">
+                                            <a href="/gzw/xxgk_71571/zdly/gyqycwxx/202601/t20260130_33906644.html" target="_blank" title='2025年1-12月全省地方监管企业经营情况'  >2025年1-12月全省地方监管企业经...</a>
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="fn-clear">
+                    <div class="j-tabs block-info fn-left w520">
+                        <div class="tab">
+                            <ul>
+                                <li class="active">
+                                    纪检举报
+                                </li>
+								<li>
+								    事故隐患举报
+								</li>
+                              <li>
+								    信访投诉
+								</li>
+                            </ul>
+                            <div class="send-mail">
+                            </div>
+                        </div>
+                        <div class="content" style="padding-top:0px;">
+                            <img src="/gzw/xhtml/image/tjxx14.png" width="520px" height="230px">
+                        </div>
+						<div class="content" style="padding-top:0px; display: none;">
+						    <img src="/gzw/xhtml/image/tjxx15.png" width="520px" height="230px">
+						</div>
+                      		<div class="content" style="padding-top:0px; display: none;">
+						    <img src="/gzw/xhtml/image/xfdh241223.jpg" width="520px" height="230px">
+						</div>
+                    </div>
+                    <div class="j-tabs block-info fn-right w330">
+                        <div class="tab">
+                            <ul>
+                                <!--<li class="active">
+                                    征集调查
+                                </li>-->
+                                <li class="active">
+                                    国资简报
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="content survey">
+                            <div class="more">
+                                <a href="/gzw/hdjl_71602/dczj/dczj_1/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <iframe scrolling="no" frameborder="0" width="100%" height="216"
+                                src="http://hdjl.hunan.gov.cn/webapp/gzw/index/dczj.jsp" allotransparency="">
+                            </iframe>
+							<style>
+							.dczjj{font-family:"Microsoft YaHei"; font-size:14px; cursor:default;}
+							.dczjj a{text-decoration:none; outline:none; color:#434343;}
+							.dczjj ul{margin-bottom:10px; border-bottom:1px dashed #999}
+							.dczjj ul li{line-height:32px}
+							.dczjj a:hover{color:#3d79ac}
+							</style>
+							<div class="dczjj">
+							 
+
+							<ul>
+							<li>调查主题：<a href="/gzw/hdjl_71602/dczj/dczj_1/201710/t20171016_4596131.html" title='湖南省国资委关于企业社会责任网上调查' target="_blank" >湖南省国资委关于企业社会责任...</a></li>
+							<li>调查时间：2017-10-16</li>
+							<li>调查单位：湖南省国资委</li>
+							</ul>
+
+							<ul>
+							<li>调查主题：<a href="/gzw/hdjl_71602/dczj/dczj_1/201512/t20151223_2af0bbf19de84b028fa95053c58dc629.html" title='近期湖南省国资委网站进行改版，您认为改版后哪项改动最为成功？' target="_blank" >近期湖南省国资委网站进行改版...</a></li>
+							<li>调查时间：2015-12-23</li>
+							<li>调查单位：湖南省国资委</li>
+							</ul>
+
+							</div>
+                        </div> -->
+                        <div class="content survey">
+                            <div class="more">
+                                <a href="/gzw/xxgk_71571/gzjb/index.html">
+                                    更多>
+                                </a>
+                            </div>
+                            <ul>
+                                 
+
+                                    <li>
+                                        <span>
+                                            10-09
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/gzjb/202610/t20261009_34077515.html" target="_blank"
+                                            title="国资简报2026年第20期">
+                                            <a href="/gzw/xxgk_71571/gzjb/202610/t20261009_34077515.html" target="_blank" title='国资简报2026年第20期'  >国资简报2026年第20期</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-10
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/gzjb/202609/t20260910_34061393.html" target="_blank"
+                                            title="国资简报2026年第19期">
+                                            <a href="/gzw/xxgk_71571/gzjb/202609/t20260910_34061393.html" target="_blank" title='国资简报2026年第19期'  >国资简报2026年第19期</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            09-04
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/gzjb/202609/t20260904_34057052.html" target="_blank"
+                                            title="2026年国资简报第18期">
+                                            <a href="/gzw/xxgk_71571/gzjb/202609/t20260904_34057052.html" target="_blank" title='2026年国资简报第18期'  >2026年国资简报第18期</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            08-26
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/gzjb/202608/t20260826_34051133.html" target="_blank"
+                                            title="2026年国资简报第17期">
+                                            <a href="/gzw/xxgk_71571/gzjb/202608/t20260826_34051133.html" target="_blank" title='2026年国资简报第17期'  >2026年国资简报第17期</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            08-20
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/gzjb/202608/t20260820_34048125.html" target="_blank"
+                                            title="2026年国资简报第16期">
+                                            <a href="/gzw/xxgk_71571/gzjb/202608/t20260820_34048125.html" target="_blank" title='2026年国资简报第16期'  >2026年国资简报第16期</a>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <span>
+                                            07-23
+                                        </span>
+                                        <a href="/gzw/xxgk_71571/gzjb/202607/t20260723_34032546.html" target="_blank"
+                                            title="2026年国资简报第15期">
+                                            <a href="/gzw/xxgk_71571/gzjb/202607/t20260723_34032546.html" target="_blank" title='2026年国资简报第15期'  >2026年国资简报第15期</a>
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="web-portal" style="height:100px;">
+            <h2 style="line-height:100px">
+                <a href="" target="_blank"
+                    style="color:#3d79ac">
+                    专项活动
+                </a>
+            </h2>
+            <div class="web-portal-wrapper" style="height:100px;margin-left:140px;">
+                <ul class="fn-clear" style="height:100px">
+                     
+
+                </ul>
+            </div>
+        </div>-->
+
+    </div>
+
+    <div class="weblinks">
+    <div class="wrapper">
+        <h2>友情链接</h2>
+        <ul>
+            <li>
+                <select onchange="if(this.value!='')window.open(this.value);">
+                    <option value="">监管企业门户网站</option>
+                    
+                        <option value="https://www.hnnftjt.com/">
+                            <a href="https://www.hnnftjt.com/" target="_blank"  >湖南农业发展投资集团有限责任公司</a>
+                        </option>
+
+                        <option value="http://www.hnxkjt.cn/">
+                            <a href="http://www.hnxkjt.cn/" target="_blank"  >湖南湘科控股集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hnkcjt.com">
+                            <a href="http://www.hnkcjt.com" target="_blank"  >湖南省矿产资源集团有限责任公司</a>
+                        </option>
+
+                        <option value="http://www.hailijt.com/">
+                            <a href="http://www.hailijt.com/" target="_blank"  >湖南海利高新技术产业集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hngs.net/">
+                            <a href="http://www.hngs.net/" target="_blank"  >湖南省高速公路集团有限公司</a>
+                        </option>
+
+                        <option value="https://www.hnsghsljt.com/">
+                            <a href="https://www.hnsghsljt.com/" target="_blank"  >湖南省港航水利集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hngdkg.com/">
+                            <a href="http://www.hngdkg.com/" target="_blank"  >湖南轨道交通控股集团有限公司</a>
+                        </option>
+
+                        <option value="https://www.hhtvc.com/">
+                            <a href="https://www.hhtvc.com/" target="_blank"  >湖南高新产业投资集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hnsalt.com.cn/">
+                            <a href="http://www.hnsalt.com.cn/" target="_blank"  >湖南盐业集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.xemc.com.cn/">
+                            <a href="http://www.xemc.com.cn/" target="_blank"  >湘电集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hnmyjt.com/">
+                            <a href="http://www.hnmyjt.com/" target="_blank"  >湖南省煤业集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hnxtkg.com/">
+                            <a href="http://www.hnxtkg.com/" target="_blank"  >湖南省能源投资集团有限公司</a>
+                        </option>
+
+                        <option value="http://www.hnxxjt.com.cn/">
+                            <a href="http://www.hnxxjt.com.cn/" target="_blank"  >湖南兴湘投资控股集团有限公司</a>
+                        </option>
+
+                </select>
+            </li>
+            <li>
+                <select onchange="if(this.value!='')window.open(this.value);">
+                    <option value="">国务院国资委及外省市国资委门户网站</option>
+
+                        <option value="http://gyzc.xjbt.gov.cn/">
+                            <a href="http://gyzc.xjbt.gov.cn/" target="_blank"  >新疆生产建设兵团国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.hainan.gov.cn/">
+                            <a href="http://gzw.hainan.gov.cn/" target="_blank"  >海南省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.gd.gov.cn/">
+                            <a href="http://gzw.gd.gov.cn/" target="_blank"  >广东省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.beijing.gov.cn/">
+                            <a href="http://gzw.beijing.gov.cn/" target="_blank"  >北京市国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.xinjiang.gov.cn/">
+                            <a href="http://gzw.xinjiang.gov.cn/" target="_blank"  >新疆维吾尔自治区国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.yn.gov.cn/">
+                            <a href="http://gzw.yn.gov.cn/" target="_blank"  >云南省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.guizhou.gov.cn/">
+                            <a href="http://gzw.guizhou.gov.cn/" target="_blank"  >贵州省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.sc.gov.cn/">
+                            <a href="http://gzw.sc.gov.cn/" target="_blank"  >四川省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.gxzf.gov.cn/">
+                            <a href="http://gzw.gxzf.gov.cn/" target="_blank"  >广西壮族自治区国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.cq.gov.cn/">
+                            <a href="http://gzw.cq.gov.cn/" target="_blank"  >重庆市国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="https://gzw.henan.gov.cn/">
+                            <a href="https://gzw.henan.gov.cn/" target="_blank"  >河南省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.jiangxi.gov.cn/">
+                            <a href="http://gzw.jiangxi.gov.cn/" target="_blank"  >江西省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.shandong.gov.cn/">
+                            <a href="http://gzw.shandong.gov.cn/" target="_blank"  >山东省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.fujian.gov.cn/">
+                            <a href="http://gzw.fujian.gov.cn/" target="_blank"  >福建省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://www.ahgzw.gov.cn/">
+                            <a href="http://www.ahgzw.gov.cn/" target="_blank"  >安徽省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="https://www.gzw.sh.gov.cn/">
+                            <a href="https://www.gzw.sh.gov.cn/" target="_blank"  >上海市国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://jsgzw.jiangsu.gov.cn/index.html">
+                            <a href="http://jsgzw.jiangsu.gov.cn/index.html" target="_blank"  >江苏省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.zj.gov.cn/">
+                            <a href="http://gzw.zj.gov.cn/" target="_blank"  >浙江省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="https://gzw.ln.gov.cn/">
+                            <a href="https://gzw.ln.gov.cn/" target="_blank"  >辽宁省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.jl.gov.cn/">
+                            <a href="http://gzw.jl.gov.cn/" target="_blank"  >吉林省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.hlj.gov.cn/">
+                            <a href="http://gzw.hlj.gov.cn/" target="_blank"  >黑龙江省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.nmg.gov.cn/">
+                            <a href="http://gzw.nmg.gov.cn/" target="_blank"  >内蒙古自治区国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://hbsa.hebei.gov.cn/">
+                            <a href="http://hbsa.hebei.gov.cn/" target="_blank"  >河北省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://gzw.shanxi.gov.cn/">
+                            <a href="http://gzw.shanxi.gov.cn/" target="_blank"  >山西省国有资产监督管理委员会</a>
+                        </option>
+
+                        <option value="http://sasac.tj.gov.cn/">
+                            <a href="http://sasac.tj.gov.cn/" target="_blank"  >天津市国有资产监督管理委员会</a>
+                        </option>
+
+                </select>
+            </li>
+            <li>
+                <select onchange="if(this.value!='')window.open(this.value);">
+                    <option value="">市州国资委门户网站</option>
+
+                        <option value="https://gzw.shaoyang.gov.cn/">
+                            <a href="https://gzw.shaoyang.gov.cn/" target="_blank"  >邵阳市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.yzcity.gov.cn/">
+                            <a href="http://gzw.yzcity.gov.cn/" target="_blank"  >永州市国资委</a>
+                        </option>
+
+                        <option value="https://www.huaihua.gov.cn/gzw/">
+                            <a href="https://www.huaihua.gov.cn/gzw/" target="_blank"  >怀化市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.zjj.gov.cn/">
+                            <a href="http://gzw.zjj.gov.cn/" target="_blank"  >张家界市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.hnloudi.gov.cn/">
+                            <a href="http://gzw.hnloudi.gov.cn/" target="_blank"  >娄底市国资委</a>
+                        </option>
+
+                        <option value="http://www.czs.gov.cn/gzw/">
+                            <a href="http://www.czs.gov.cn/gzw/" target="_blank"  >郴州市国资委</a>
+                        </option>
+
+                        <option value="https://gzw.changde.gov.cn/">
+                            <a href="https://gzw.changde.gov.cn/" target="_blank"  >常德市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.yueyang.gov.cn/">
+                            <a href="http://gzw.yueyang.gov.cn/" target="_blank"  >岳阳市国资委</a>
+                        </option>
+
+                        <option value="http://www.yiyang.gov.cn/gzw/index.htm">
+                            <a href="http://www.yiyang.gov.cn/gzw/index.htm" target="_blank"  >益阳市国资委</a>
+                        </option>
+
+                        <option value="http://www.hengyang.gov.cn/hysgzw/">
+                            <a href="http://www.hengyang.gov.cn/hysgzw/" target="_blank"  >衡阳市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.xiangtan.gov.cn/">
+                            <a href="http://gzw.xiangtan.gov.cn/" target="_blank"  >湘潭市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.zhuzhou.gov.cn/">
+                            <a href="http://gzw.zhuzhou.gov.cn/" target="_blank"  >株洲市国资委</a>
+                        </option>
+
+                        <option value="http://gzw.changsha.gov.cn/">
+                            <a href="http://gzw.changsha.gov.cn/" target="_blank"  >长沙市国资委</a>
+                        </option>
+
+                </select>
+            </li>
+            <li>
+                <select onchange="if(this.value!='')window.open(this.value);">
+                    <option value="">其他</option>
+
+                        <option value="http://www.people.com.cn">
+                            <a href="http://www.people.com.cn" target="_blank"  >人民网</a>
+                        </option>
+
+                        <option value="http://www.xinhuanet.com">
+                            <a href="http://www.xinhuanet.com" target="_blank"  >新华网</a>
+                        </option>
+
+                </select>
+            </li>
+        </ul>
+    </div>
+</div>
+    <style>
+    #_span_jiucuo img {
+        margin-top: 46px !important;
+        margin-left: -650px !important;
+    }
+</style>
+
+<div class="footer" style="text-align: left;height:150px;">
+    <div style="width: 1140px;margin: 0 auto;">
+        <div class="gov_ico"
+            style="margin-right: 30px;float: left;padding: 35px 0 10px 350px; width: 36px;height: 100px">
+            <!--<script
+                type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/19/000/0000/60446283/CA190000000604462830002.js' type='text/javascript'%3E%3C/script%3E"));</script>-->
+          <a href="http://bszs.conac.cn/sitename?method=show&id=0C073FBA15B506E7E053012819AC1D83" TARGET="_blank"><img src="/gzw/xhtml/image/red.png"/></a>
+        </div>
+      <span id="_span_jiucuo"><a href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=4300000037&url=http%3A%2F%2Fgzw.hunan.gov.cn%2F" TARGET="_blank"><img src="https://gzw.hunan.gov.cn/gzw/xhtml/image/jiucuo.png"/></a></span>
+       <!-- <script id="_jiucuo_" sitecode='4300000037' src='/gzw/xhtml/js/jiucuo.js'></script>-->
+        <p style="float: left; color: #fff; margin-left:150px;padding-top: 30px;line-height: 32px;text-align: left;">
+            主办单位：湖南省人民政府国有资产监督管理委员会&nbsp; 政府网站标识码：4300000037 <br />
+            地址：湖南省长沙市五一大道351号省政府二院二办公楼　邮编：410011<br />
+          <a href="http://beian.miit.gov.cn " target="_blank"  style=" color: #fff;">备案号：湘ICP备13002847号</a>　&nbsp;&nbsp;联系电话：0731-82213520<br />
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010202000996" style="color:#fff"
+                target="_blank"><img src="http://zrzyt.hunan.gov.cn/images/batb.png" style="width:20px;height:20px;" />
+                <voice class="Hj-EasyRead-Pointer-Label">湘公网安备43010202000996号</voice>
+            </a> 技术支持：湖南省政务服务和大数据中心</p>
+    </div>
+</div>
+<script type="text/javascript" src="/gzw/xhtml/js/jquery-1.8.3.js"></script>
+<script src="https://home.hunan.gov.cn/login/js/index.js?id=11&tc=556fb6&mc=&p=467" charset="utf-8"></script>
+<script src="https://auth.mangren.com/boots/gzw.hunan.gov.cn/esdToolsInit.js" charset="UTF-8"></script>
+<script language="JavaScript">var _trackDataType = 'web'; var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10006606"
+    src="//fxsjcj.kaipuyun.cn/count/10006606/10006606.js"></script>
+
+
+<script type="text/javascript" charset="utf-8" src="//pvjs.jktong.com/plugs/stat.js?token=305b92add351bafde5b9ef4c43f1f9ec"></script>
+  
+    <script type="text/javascript" src="/gzw/xhtml/js/jquery.cxscroll.min.js">
+    </script>
+    <script type="text/javascript" src="/gzw/xhtml/js/jquery.kxbdmarquee.js">
+    </script>
+    <script type="text/javascript" src="/gzw/xhtml/js/common.js">
+    </script>
+    
+   <script type="text/javascript" src="/gzw/xhtml/js/indexr.js">
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $('#j-web-portal').kxbdMarquee();
+        });
+    </script>
+    <div class="weixinDiv" style=" position: fixed;overflow: hidden;top:210px;right:0px;">
+        <img src="/gzw/xhtml/image/gzw2wm_2.jpg" style="width:100px;height:140px;">
+    </div>
+    <script language="JavaScript">var _trackDataType = 'web'; var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10006606"
+    src="//fxsjcj.kaipuyun.cn/count/10006606/10006606.js"></script>
+  
+  <script src="http://tyjrswt.hunan.gov.cn/tyjrswt/xhtml/images/kkk.js"></script>
+  <script>
+      
+    var navStr = navigator.userAgent.toLowerCase();
+    if(navStr.indexOf("msie 10.0")!==-1||navStr.indexOf("rv:11.0")!==-1){ // 判断是IE10或者IE11
+    grayscale(document.body);
+    }
+        
+ 
+  </script>
+  <script>
+        (function () {
+            var protocol = window.location.protocol;
+            var temp = protocol == 'http:' ? 'https:' : 'http:';
+            $('iframe').each(function (i, e) {
+                var url = $(e).prop('src');
+              // if ( url.indexOf('https:')  ){
+                var isSameProtocol = !url.indexOf(temp);
+                if (isSameProtocol&& $(this).attr('id') != 'logIframe') {
+                    $(e).prop('src', url.replace(temp, protocol))
+                }
+             // }
+              //  var isSameProtocol = !url.indexOf(temp);
+             //   if (isSameProtocol) {
+              //      //console.log()
+              //      $(e).prop('src', url.replace(temp, protocol))
+              //  }
+
+            })
+        })();
+    </script>
+  
+<!--湖南统一业务js，如飘红、置灰等,需要jquery-->
+<script src="https://hd.hunan.gov.cn/xhtml/js/hn_common_biz.js" id="hn_common_biz"></script>
+
+</body>
+
+</html>

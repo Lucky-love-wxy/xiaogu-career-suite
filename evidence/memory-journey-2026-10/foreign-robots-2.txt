@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# pagination 
+Disallow: /*_page=
+
+# Referral / affiliate parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?via=
+Disallow: /*&via=
+
+# tracking parameters
+Disallow: /*?utm_
+Disallow: /*&utm_
+Disallow: /*?trk=
+Disallow: /*&trk=
+
+Sitemap: https://www.careerflow.ai/sitemap.xml
+
+Sitemap: https://www.careerflow.ai/sitemap.xml

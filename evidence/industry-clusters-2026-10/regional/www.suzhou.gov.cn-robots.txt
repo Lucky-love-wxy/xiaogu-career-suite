@@ -1,0 +1,3463 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  
+<meta name="SiteName" content="苏州市人民政府"/>
+<meta name="SiteDomain" content="http://www.suzhou.gov.cn"/>
+<meta name="SiteIDCode" content="3205000002"/>
+
+<meta name="others" content="页面生成时间 2026-10-11 08:32:27" />
+<title>
+    苏州市人民政府
+  </title>
+  <link rel="stylesheet" type="text/css" href="/default/xhtml/libs/swiper/swiper.min.css" />
+  <link rel="stylesheet" type="text/css" href="/szsrmzf/xhtml/static/2025/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="/default/xhtml/libs/hover.css" />
+  <link rel="stylesheet" type="text/css" href="/szsrmzf/xhtml/static/2025/css/common.css?v=1" />
+  <link rel="stylesheet" type="text/css" href="/szsrmzf/xhtml/static/2025/css/index.css?v=20260123" />
+  <script type="text/javascript" src="/default/xhtml/libs/jquery.min.js"></script>
+  <script type="text/javascript" src="/default/xhtml/libs/jquery.SuperSlide.js"></script>
+  <script type="text/javascript" src="/default/xhtml/libs/swiper/swiper.min.js"></script>
+  <script type="text/javascript" src="/default/xhtml/libs/jquery.cookie.js"></script>
+  <script type="text/javascript" src="/szsrmzf/xhtml/static/2025/js/older.js"></script>
+  <script type="text/javascript">
+    var websiteId = "d1a6129dfff94475b389f8da120deb79",
+      websiteCode = "szsrmzf";
+  </script>
+
+</head>
+
+<body>
+  <!--header Start -->
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/szsrmzf/xhtml/static/2025/css/header.css?v=2025051502" />
+  
+
+<div class="header">
+  <div class="container pos-r">
+    <div class="header-toolbar clearfix">
+      <ul class="fl header-toolbar-l clearfix">
+       <li class="lnfw"><a href="/2023nzt/oldztzl/lnrslhzt.shtml" title="老年服务" target="_blank">老年服务</a></li>
+        <li class="wza">
+          <a class="icon" href="javascript:void(0)" onclick="aria.start()">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/header_icon_wza.png">
+            <span>无障碍</span>
+          </a>
+        </li>
+        <li class="ghb">
+          <a class="icon" id="header-ghb" href="javascript:void(0);">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/header_icon_ghb.png">
+            <span>关怀版</span>
+          </a>
+        </li>
+        <li class="jft">
+          <a id="FJTLink" href="javascript:void(0);">繁体</a>
+        </li>
+        <li class="en">
+          <a href="//english.suzhou.gov.cn/" target="_blank">English</a>
+        </li>
+         <li class="rby"><a href="//japanese.suzhou.gov.cn" target="_blank">日本語</a></li>
+      </ul>
+      <ul class="fr header-toolbar-r clearfix">
+        <li class="znwd">
+          <a class="icon" href="/ghwd/znwd/index.html" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/header_icon_znwd.png">
+            <span>智能问答</span>
+          </a>
+        </li>
+        <li id="header-user">
+          <!-- <a class="icon" href="/usercenter/index.shtml" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/header_icon_login.png">
+            <span>用户登录</span>
+          </a> -->
+        </li>
+        <li class="yxdl">
+          <a class="icon" href="http://webmail.smart.suzhou.gov.cn" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/header_icon_mail.png">
+            <span>政务邮箱</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 手机版header-toolbar S -->
+    <div class="header-choose-btn" id="header-btn-toggle">
+      <div>
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <ul class="m-header-toolbar">
+      <li><a href="/ghwd/znwd/index.html" target="_blank">智能问答</a></li>
+      <li><a href="http://webmail.smart.suzhou.gov.cn" target="_blank">政务邮箱登录</a></li>
+      <li><a id="FJTLink2" href="javascript:void(0);">繁体</a></li>
+      <li><a href="//english.suzhou.gov.cn/" target="_blank">English</a></li>
+      <li><a href="//japanese.suzhou.gov.cn" target="_blank">日本語</a></li>
+    </ul>
+    <!-- 手机版header-toolbar E -->
+
+    <div class="header-logo">
+      <img src="/szsrmzf/xhtml/static/2025/images/public/logo.png?v=1" alt="">
+    </div>
+    <div class="header-search">
+      <form id="header-search-form"   action="/search/index.html" method="get" target="_blank">
+        <div class="header-search-type">搜本站</div>
+       <!-- <input name="uc" type="hidden" id="uc" value="1" />-->
+        <!-- <input type="hidden" name="siteCode" id="siteCode" value="本站">-->
+         <input type="hidden" name="column" id="column" value="本站" />
+        <input type="text" class="header-search-txt" id="header-search-txt" name="query" placeholder="请输入搜索关键词"
+          value="">
+        <button type="button" class="header-search-btn" id="header-search-btn"></button>
+      </form>
+      <div class="header-search-type-option">
+        <ul>
+          <li data-val="本站"><a>搜本站</a></li>
+          <li data-val="网站群"><a>搜站群</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mainnav">
+  <div class="container">
+    <ul class="clearfix font-syst-b">
+      <li class="nav1 on"><a href="/szsrmzf/index.shtml"><span><img
+              src="/szsrmzf/xhtml/static/2025/images/public/mainnav_icon_index.png" alt=""></span></a></li>
+      <li>
+        <a href="/szsrmzf/szgl/szgl.shtml"
+          title="苏州概览" target="_blank"><span>
+            苏州概览
+          </span></a>
+      </li>
+      <li><a href="/szsrmzf/xwzx/xwzx.shtml"
+          title="新闻中心" target="_blank"><span>
+            新闻中心
+          </span></a></li>
+      <li><a href="/szsrmzf/szsxxgk/xxgk.shtml"
+          title="政务公开" target="_blank"><span>
+            政务公开
+          </span></a></li>
+      <li><a href="/szsrmzf/zwfw/bsfw.shtml"
+          title="办事服务" target="_blank"><span>
+            办事服务
+          </span></a></li>
+      <li><a href="/szsrmzf/zmhd/zmhd.shtml"
+          title="政民互动" target="_blank"><span>
+            政民互动
+          </span></a></li>
+      <li><a href="https://data.suzhou.gov.cn/"
+          title="数据开放" target="_blank"><span>
+            数据开放
+          </span></a></li>
+    </ul>
+  </div>
+</div>
+<script src="/default/xhtml/libs/transform.js"></script>
+<script src="/szsrmzf/xhtml/static/2025/js/header.js?v=0206111"></script>
+  <!--header End-->
+
+      <!-- 国庆春节banner -->
+  <div class="gqb">
+   
+       
+
+    <style>
+	.gqb img{display: block;}
+      .gqb-banner{margin: 10px 0;text-align: center;}
+       .gqb-banner img {display: block;margin: 0 auto;}
+      .mgqb-banner{display: none;}
+      @media (max-width: 992px){
+        .mgqb-banner{display: block;text-align: center;margin-top: 5px;}
+        .gqb-banner{display: none;}
+      }
+    </style>
+  </div>
+  <!-- 国庆春节banner -->
+    <!--元旦banner -->
+  <div class="gqb">
+ 
+	 
+
+    <style>
+	
+    </style>
+	<script>
+	$(document).ready(function(){
+	    $(".ypimg img").click(function(){
+	        $("#popup").fadeIn(); // 显示弹窗
+	    });
+	    $("#popup").click(function(){
+	        $(this).fadeOut(); // 关闭弹窗
+	    });
+	});
+	</script>
+  </div>
+  
+  <div class="container pt35 pos-r">
+       <!-- 左侧悬浮 S -->
+        <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/szsrmzf/xhtml/css/rl.css?v=20251013" />
+<div class="index-expand-tab" id="index-expand-bar">
+  <div class="hd">
+    <ul>
+      <li><a href="javascript:void(0);"><img src="/szsrmzf/xhtml/static/2025/images/index/fixbar_szdstx4.png" alt=""></a></li>
+      <li><a href="javascript:void(0);"><img src="/szsrmzf/xhtml/static/2025/images/index/fixbar_szjx.png" alt=""></a></li>
+    </ul>
+  </div>
+  <div class="bd">
+    <!-- 苏州大事提醒 -->
+    <div class="section item index-expand-szdstx">
+      <div class="RlTopCont">
+        <div class="RlTopLeft">
+          <div class="RlTopLeft_sj">
+            <!-- <div class="KuangCont">
+                    <p class="nf">2025年</p>
+                    <p class="yf">01月 </p>
+                    <p class="ri">09</p>
+                    <p class="nongli">农历十二月初十</p>
+                    <p class="tqyb">苏州市 晴 7℃~11℃</p>
+                </div> -->
+          </div>
+          <div class="RlTopLeft_rl">
+            <div class="yililbt_con">
+              <div class="yililbt_conrili">
+                <div class="calendar">
+                  <div class="header_rl">
+                    <div class="btn-group">
+                      <div class="btn btn-prev" id="prevMonthBtn">
+                        <span class="arrow-left"></span>
+                      </div>
+                      <div><select id="yearSelect"></select>
+                        <select id="monthSelect"></select>
+                      </div>
+                      <div class="current-date" id="currentDate" style="display: none;">
+                      </div>
+                      <div class="btn btn-next" id="nextMonthBtn">
+                        <span class="arrow-right"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="weeks"></div>
+                    <div class="day-list" id="dayList"></div>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="RlTopRight">
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- 苏州简讯 -->
+    <div class="item index-expand-szjx" style="width:49%">
+      <div class="ct clearfix">
+        <div class="date"><span id="sypc-szjx-date"></span></div>
+        <a target="blank" href="/szsrmzf/szjxn/szjx.shtml"><span
+            class="more">查看更多>></span></a>
+      </div>
+      <ul id="sypc-szjx-list">
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="/szsrmzf/xhtml/layui/lay/layui.js"></script>
+<script src="/szsrmzf/xhtml/js/jquery.opencarousel.js"></script>
+<script src="/szsrmzf/xhtml/js/dsrl.js?v=20251013"></script>
+<script src="/szsrmzf/xhtml/js/moment.js"></script>
+<script src="/szsrmzf/xhtml/js/clndr.js"></script>
+<script src="/szsrmzf/xhtml/js/site.js"></script>
+<script src="/szsrmzf/xhtml/js/szdstx.js"></script>
+<script src="/szsrmzf/xhtml/static/2025/js/index_mod_expand.js?v=20250808"></script>
+        <!-- 左侧悬浮 E -->
+
+    <div class="row row-space30">
+      <div class="col-6 col-md-12">
+        <!-- 图片新闻 S -->
+        <div class="index-tpxw mb30">
+          <div class="swiper-container index-tpxw-swiper imgscale">
+            <div class="swiper-wrapper">
+               
+                <div class="swiper-slide">
+                  <a target="_blank" href="/szsrmzf/tpxw/202610/af7e9ae864a44c47b68669dc3cc9d3ec.shtml"
+                    title="苏州市政府常务会议学习《民族团结进步促进法》">
+                    <div class="imgratio">
+                      <div class="imgratio-imgbox">
+                        <img class="imgratio-img"
+                          src="/szsrmzf/tpxw/202610/af7e9ae864a44c47b68669dc3cc9d3ec/images/c9b89b6a9f2d4c028a99d42d8b39d8d2.jpg
+"
+                          alt="苏州市政府常务会议学习《民族团结进步促进法》">
+                      </div>
+                    </div>
+                    <div class="txt elli-s">
+                      苏州市政府常务会议学习《民族团结进步促进法》
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a target="_blank" href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=js"
+                    title="@国务院 我来说">
+                    <div class="imgratio">
+                      <div class="imgratio-imgbox">
+                        <img class="imgratio-img"
+                          src="/szsrmzf/tpxw/202303/ef2b9e2b70e545e096d6918044772439/images/223d503031bb4e8791422c499629540a.jpg
+"
+                          alt="@国务院 我来说">
+                      </div>
+                    </div>
+                    <div class="txt elli-s">
+                      @国务院 我来说
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a target="_blank" href="https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm"
+                    title="影响营商环境建设问题线索征集">
+                    <div class="imgratio">
+                      <div class="imgratio-imgbox">
+                        <img class="imgratio-img"
+                          src="/szsrmzf/tpxw/202402/1fe84ac1a4a24d01b16a9475ff803e37/images/501b02cf7b094a7f954eef995685b38c.jpg
+"
+                          alt="影响营商环境建设问题线索征集">
+                      </div>
+                    </div>
+                    <div class="txt elli-s">
+                      影响营商环境建设问题线索征集
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a target="_blank" href="/szsrmzf/tpxw/202610/3ed9698d1ec649ddb5eba99daabcbc94.shtml"
+                    title="江苏（盛泽）纺织品博览会开幕">
+                    <div class="imgratio">
+                      <div class="imgratio-imgbox">
+                        <img class="imgratio-img"
+                          src="/szsrmzf/tpxw/202610/3ed9698d1ec649ddb5eba99daabcbc94/images/87adb9214a0148fba4150e23ca3d8bac.jpg
+"
+                          alt="江苏（盛泽）纺织品博览会开幕">
+                      </div>
+                    </div>
+                    <div class="txt elli-s">
+                      江苏（盛泽）纺织品博览会开幕
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a target="_blank" href="/szsrmzf/tpxw/202610/4d4de80049be4f5c8a60c4773dc3adb0.shtml"
+                    title="苏州地铁大湾站高架桥下闲置空间成市民休闲打卡好去处">
+                    <div class="imgratio">
+                      <div class="imgratio-imgbox">
+                        <img class="imgratio-img"
+                          src="/szsrmzf/tpxw/202610/4d4de80049be4f5c8a60c4773dc3adb0/images/a6336a9b521247aa9635cf1802e99ea5.jpg
+"
+                          alt="苏州地铁大湾站高架桥下闲置空间成市民休闲打卡好去处">
+                      </div>
+                    </div>
+                    <div class="txt elli-s">
+                      苏州地铁大湾站高架桥下闲置空间成市民休闲打卡好去处
+                    </div>
+                  </a>
+                </div>
+
+            </div>
+            <div class="swiper-pagination swiper-pagination-solid right">  </div>
+          </div>
+        </div>
+        <!-- 图片新闻 E -->
+      </div>
+      <div class="col-6 col-md-12">
+        <!-- 政声传递/苏州要闻/区县快讯/部门动态 S -->
+        <div class="index-zwyw tab-brief js-tab mb30">
+          <div class="hd clearfix js-hd mb15 res">
+            <ul class="activeline clearfix font-syst-b color-gray">
+              <li>
+                <a href="/szsrmzf/zscd/nav_list.shtml"  target="_blank">政声传递</a>
+              </li>
+              <li class="on">
+                <a href="/szsrmzf/szyw/nav_list.shtml"  target="_blank">苏州要闻</a>
+              </li>
+              <li>
+                <a href="/szsrmzf/qxkx/nav_list.shtml"  target="_blank">区县快讯</a>
+              </li>
+              <li>
+                <a href="/szsrmzf/bmdt/nav_list.shtml"  target="_blank">部门动态</a>
+              </li>
+            </ul>
+            <span class="more com-more js-more ">
+              <a target="_blank" href="/szsrmzf/zscd/nav_list.shtml">更多+</a>
+              <a target="_blank" href="/szsrmzf/szyw/nav_list.shtml">更多+</a>
+              <a target="_blank" href="/szsrmzf/qxkx/nav_list.shtml">更多+</a>
+              <a target="_blank" href="/szsrmzf/bmdt/nav_list.shtml">更多+</a>
+            </span>
+          </div>
+          <div class="bd js-bd clear">
+            <div class="item">
+              <ul class="infolist dot dot-rhomboid ymd res li-h42">
+                 
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082764.htm" target="_blank" title='“探索浩瀚宇宙，发展航天事业”——习近平总书记重要论述引领加快建设航天强国'  >“探索浩瀚宇宙，发展航天事业”——习近平总书记重要论述引领加快建设航天强国</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202610/content_7082681.htm" target="_blank" title='铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐'  >铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7082265.htm" target="_blank" title='习近平就建设更高水平平安中国作出重要指示'  >习近平就建设更高水平平安中国作出重要指示</a>
+                    <span class="time">
+                      2026-09-29
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7082280.htm" target="_blank" title='李强主持召开国务院常务会议 研究宏观政策发力提效、促进有效投资有关工作等'  >李强主持召开国务院常务会议 研究宏观政策发力提效、促进有效投资有关工作等</a>
+                    <span class="time">
+                      2026-09-29
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7081642.htm" target="_blank" title='中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会议'  >中共中央政治局召开会议 讨论拟提请二十届五中全会审议的文件 中共中央总书记习近平主持会...</a>
+                    <span class="time">
+                      2026-09-21
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7081344.htm" target="_blank" title='习近平就发展先进制造业作出重要指示'  >习近平就发展先进制造业作出重要指示</a>
+                    <span class="time">
+                      2026-09-18
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7080948.htm" target="_blank" title='习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话'  >习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话</a>
+                    <span class="time">
+                      2026-09-14
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7080532.htm" target="_blank" title='习近平向全国广大教师和教育工作者致以节日祝贺和诚挚问候'  >习近平向全国广大教师和教育工作者致以节日祝贺和诚挚问候</a>
+                    <span class="time">
+                      2026-09-10
+                    </span>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/zscd/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+            <div class="item">
+              <ul class="infolist-yaowen-tt mb10 ywtt"  style=" border-bottom: 1px solid #ccc;padding-bottom: 15px;">
+                 
+
+                  <li>
+                    
+                    <div class="tit elli-s">
+                      <a href="/szsrmzf/szyw/202610/4a5ade2ea4d94f9a972cf271193c743c.shtml" target="_blank" title='苏州市政府常务会议学习《民族团结进步促进法》'  >苏州市政府常务会议学习《民族团结进步促进法》</a>
+                    </div>
+                    <div class="szyw_zy  elli-m">
+                      10月10日，市政府召开常务会议，集体学习《中华人民共和国民族团结进步促进法》，审议研究相关事项。市委副书记、市长王维主持会议。</div>
+                  </li> 
+
+              </ul>
+              <ul class="infolist dot dot-rhomboid ymd res li-h42 ">
+                 
+
+                  <li>
+                    <a href="/szsrmzf/szyw/202610/98796a88a67243bd99ed1e738c024a51.shtml" target="_blank" title='江苏（盛泽）纺织品博览会开幕 王维出席'  >江苏（盛泽）纺织品博览会开幕 王维出席</a>
+                    <span class="time">
+                      2026-10-11
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/szyw/202610/b69acd0ee550442fadce5d0481213eb1.shtml" target="_blank" title='苏州片区入选全国首批自贸试验区标准化自主开放试点'  >苏州片区入选全国首批自贸试验区标准化自主开放试点</a>
+                    <span class="time">
+                      2026-10-11
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/szyw/202610/b9b7b61f258145afb8aaecf5caab5717.shtml" target="_blank" title='第十二期苏州大讲堂举行'  >第十二期苏州大讲堂举行</a>
+                    <span class="time">
+                      2026-10-11
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/szyw/202610/88b44f36d91a44968e244b54ed470c35.shtml" target="_blank" title='首届光通信专项赛上海专场举行'  >首届光通信专项赛上海专场举行</a>
+                    <span class="time">
+                      2026-10-11
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/szyw/202610/0ba8650590584318b6c3051171a8c539.shtml" target="_blank" title='2026第五届苏州金鸡湖中法文化艺术周启幕'  >2026第五届苏州金鸡湖中法文化艺术周启幕</a>
+                    <span class="time">
+                      2026-10-11
+                    </span>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/szyw/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+            <div class="item">
+              <ul class="infolist-yaowen-tt mb10">
+                 
+
+                  <li>
+                    <div class="time">
+                      2026-10-09
+                    </div>
+                    <div class="tit elli-m">
+                      <a href="/szsrmzf/qxkx/202610/55502dbe45be4f4384c13547c494f6cf.shtml" target="_blank" title='苏州高新区国庆假日活力满格'  >苏州高新区国庆假日活力满格</a>
+                    </div>
+                  </li>
+
+              </ul>
+              <ul class="infolist dot dot-rhomboid ymd res li-h42">
+                 
+
+                  <li>
+                    <a href="/szsrmzf/qxkx/202610/61d00f3296fb43fe8ea03c2275409ba9.shtml" target="_blank" title='昆山市2026年秋季退役军人（军属）专场招聘会成功举办'  >昆山市2026年秋季退役军人（军属）专场招聘会成功举办</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/szyw/202610/607d04b9554047358b1dec8fcb70ba72.shtml" target="_blank" title='苏州港太仓港区直达沙特吉达港快航开通'  >苏州港太仓港区直达沙特吉达港快航开通</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/qxkx/202610/1390f8c37fe9455085b41602b8cb2779.shtml" target="_blank" title='昆山推广路侧临停充电点'  >昆山推广路侧临停充电点</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/qxkx/202610/c7263d9c3c17458d825d332a5eee6e05.shtml" target="_blank" title='太仓市假日经济热力十足'  >太仓市假日经济热力十足</a>
+                    <span class="time">
+                      2026-10-08
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/qxkx/202610/1c93635e981c48debd193069f6d98e7c.shtml" target="_blank" title='环太湖五地同庆！苏州高新区“无界文化馆”品牌展演国庆特辑·祖国赞歌专场活动举办'  >环太湖五地同庆！苏州高新区“无界文化馆”品牌展演国庆特辑·祖国赞歌专场活动举办</a>
+                    <span class="time">
+                      2026-10-08
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/qxkx/202610/74ab28358d134e8a84e3fff72d3f8777.shtml" target="_blank" title='相城区法治润企厚植营商新沃土'  >相城区法治润企厚植营商新沃土</a>
+                    <span class="time">
+                      2026-10-08
+                    </span>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/qxkx/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+            <div class="item">
+              <ul class="infolist-yaowen-tt mb10">
+                 
+
+                  <li>
+                    <div class="time">
+                      2026-10-10
+                    </div>
+                    <div class="tit elli-m">
+                      <a href="/szsrmzf/bmdt/202610/d0789dfcbca94b4cb07abe1fac2addae.shtml" target="_blank" title='苏州市城镇污水处理按效付费经验做法获全省推广'  >苏州市城镇污水处理按效付费经验做法获全省推广</a>
+                    </div>
+                  </li>
+
+              </ul>
+              <ul class="infolist dot dot-rhomboid ymd res li-h42">
+                 
+
+                  <li>
+                    <a href="/szsrmzf/bmdt/202610/0f654ac5fe69400e9fdec7ed114dbbde.shtml" target="_blank" title='2026年国庆假期全市交通运输组织平稳有序'  >2026年国庆假期全市交通运输组织平稳有序</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/bmdt/202610/70faf93784bc46f1822c205a972c4543.shtml" target="_blank" title='校企地共建服务片区更新 苏州开展“对话主理人”活动'  >校企地共建服务片区更新 苏州开展“对话主理人”活动</a>
+                    <span class="time">
+                      2026-10-09
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/bmdt/202610/10a553d78774450a8181a13a2d17b5f5.shtml" target="_blank" title='国庆期间全市民政系统做好服务保障'  >国庆期间全市民政系统做好服务保障</a>
+                    <span class="time">
+                      2026-10-08
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/bmdt/202609/9653cd258d2943cba711d5c69d1beef8.shtml" target="_blank" title='林莉带队开展国庆节前宗教活动场所安全检查'  >林莉带队开展国庆节前宗教活动场所安全检查</a>
+                    <span class="time">
+                      2026-09-30
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/bmdt/202609/2168fba96175404e828049f9472c977a.shtml" target="_blank" title='“虹桥·苏州”法治护航企业出海专题交流活动在苏州举行'  >“虹桥·苏州”法治护航企业出海专题交流活动在苏州举行</a>
+                    <span class="time">
+                      2026-09-30
+                    </span>
+                  </li>
+
+                  <li>
+                    <a href="/szsrmzf/bmdt/202609/169500041eff4cad84e3e846c6e8135f.shtml" target="_blank" title='苏州 “百校千企” 联盟产学研对接会走进北大、清华、哈工大'  >苏州 “百校千企” 联盟产学研对接会走进北大、清华、哈工大</a>
+                    <span class="time">
+                      2026-09-30
+                    </span>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/bmdt/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 政声传递/苏州要闻/区县快讯/部门动态 E -->
+      </div>
+    </div>
+
+    <div class="row row-space30 mb30">
+      <div class="col-6 col-md-12">
+        <ul class="index-gwyxx-iconmenu iconmenu inline valignmiddle cols-3 cols-xs-1 space-20 clearfix mb-md-20">
+          <li>
+            <a class="box" target="_blank" href="http://www.gov.cn/pushinfo/v150203/index.htm">
+              <i class="icon"><img src="/szsrmzf/xhtml/static/2025/images/index/icon_gwyxx.png" alt=""></i>
+              <span class="txt">国务院信息</span>
+            </a>
+          </li>
+          <li>
+            <a class="box" target="_blank" href="http://www.jiangsu.gov.cn/col/col84242/index.html">
+              <i class="icon"><img src="/szsrmzf/xhtml/static/2025/images/index/icon_szfjbgtwj.png" alt=""></i>
+              <span class="txt">省政府及办公厅文件</span>
+            </a>
+          </li>
+          <li>
+            <a class="box" target="_blank" href="https://www.suzhou.gov.cn/szsrmzf/qszcwjk/zcwjk.shtml">
+              <i class="icon"><img src="/szsrmzf/xhtml/static/2025/images/index/icon_qszcwjk.png" alt=""></i>
+              <span class="txt">全市政策文件库</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-12">
+        <div class="swiper-container index-rdzl-swiper imgscale">
+          <div class="swiper-wrapper">
+            
+             <div class="swiper-slide">
+                <a  class="imgratio"  title="社会主义核心价值观">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/xhtml/images/index/shzyjzg.png?t=1" alt="社会主义核心价值观">
+                  </div>
+                </a>
+              </div>
+            
+             
+              <div class="swiper-slide">
+                <a class="imgratio" target="_blank" href="http://www.suzhou.gov.cn/2025ndzt/szqhzt/xxgcdjs.shtml"
+                  title="学习贯彻党的二十届四中全会精神">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/zxrdzt/202511/33d2a7d76ae84fd0b4851856e677c849/images/3199868ddc2643b39c9ecba3574462d4.png
+"
+                      alt="学习贯彻党的二十届四中全会精神">
+                  </div>
+                </a>
+              </div>
+
+          </div>
+          <div class="swiper-pagination swiper-pagination-solid right s"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-space30 mb30">
+      <div class="col-6 col-md-12">
+        <!-- 政务公告/便民公告/民生资讯 S -->
+        <div class="index-zwgg tab-brief js-tab mb-md-20">
+          <div class="hd clearfix js-hd mb15 res">
+            <ul class="activeline clearfix font-syst-b color-gray">
+              <li>
+                <a href="/szsrmzf/zwgg/nav_list.shtml"  target="_blank">政务公告</a>
+              </li>
+              <li>
+                <a href="/szsrmzf/mszx/nav_list.shtml"  target="_blank">便民公告</a>
+              </li>
+              <li>
+                <a href="/szsrmzf/bmzx/bmzx_list.shtml"  target="_blank">民生资讯</a>
+              </li>
+               <li>
+                <a href="/szsrmzf/sszw/nav_list.shtml"  target="_blank">“视”说政务</a>
+              </li>
+            </ul>
+            <!-- <span class="more com-more">
+              <a href="">更多+</a>
+              <a href="">更多+</a>
+              <a href="">更多+</a>
+            </span> -->
+          </div>
+          <div class="bd js-bd clear">
+            <div class="item">
+              <ul class="index-tzgg-list cols-2 cols-sm-1 space-20 clearfix">
+                 
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          24
+                        </b>
+                        <em>
+                          2026-09
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/zwgg/202609/b1317b3e58de4ef2a37f1f5755e27428.shtml" target="_blank" title='关于支持装修提取住房公积金的通知' class='elli-m' >关于支持装修提取住房公积金的通知</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          24
+                        </b>
+                        <em>
+                          2026-09
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/zwgg/202609/4cdfb17bf96c45d8ac907e6cdc8fa713.shtml" target="_blank" title='《关于支持装修提取住房公积金的通知》解读' class='elli-m' >《关于支持装修提取住房公积金的通知》解读</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          11
+                        </b>
+                        <em>
+                          2026-09
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/zwgg/202609/adfef0129f7640909079e97ef7ddd765.shtml" target="_blank" title='关于做好2026年度苏州市区城乡居民基本养老保险征收工作的通告' class='elli-m' >关于做好2026年度苏州市区城乡居民基本养老保险征收工作的通告</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          15
+                        </b>
+                        <em>
+                          2026-01
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/zfgzndbb/202601/d02eb709dbbe4bba91441d2905e866f2.shtml" target="_blank" title='苏州市人民政府门户网站工作年度报表（2025年度）' class='elli-m' >苏州市人民政府门户网站工作年度报表（2025年度）</a>
+                      </div>
+                    </div>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/zwgg/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+            <div class="item">
+              <ul class="index-tzgg-list cols-2 cols-sm-1 space-20 clearfix">
+                 
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/mszx/202610/8f3c7a241f8444769f193a933c63cb4a.shtml" target="_blank" title='10月11日零时起，铁路苏州站实行新列车运行图' class='elli-m' >10月11日零时起，铁路苏州站实行新列车运行图</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/mszx/202610/1ef8d31fb64041f690b8c4a35414c17f.shtml" target="_blank" title='10月18日，苏州市市民健身中心向老年人免费开放' class='elli-m' >10月18日，苏州市市民健身中心向老年人免费开放</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/mszx/202610/98d271cee6b9472fac5996cf5b031a77.shtml" target="_blank" title='苏州市人社部门发布求职招聘陷阱风险提醒' class='elli-m' >苏州市人社部门发布求职招聘陷阱风险提醒</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/mszx/202610/c0944b8808534d4cbb8c27ce23de53f0.shtml" target="_blank" title='呼吸道合胞病毒即将进入高发期' class='elli-m' >呼吸道合胞病毒即将进入高发期</a>
+                      </div>
+                    </div>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/mszx/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+            <div class="item">
+              <ul class="index-tzgg-list cols-2 cols-sm-1 space-20 clearfix">
+                 
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/bmzx/202610/73bc85b834374d59bf2087f1ddaaa4d8.shtml" target="_blank" title='2026年10月16日计划停气通知' class='elli-m' >2026年10月16日计划停气通知</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/bmzx/202610/3817ab203d5e4bb3ae341f388f35ca66.shtml" target="_blank" title='2026年10月15日计划停气通知' class='elli-m' >2026年10月15日计划停气通知</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/bmzx/202610/1c97a8f1af4e40509d86082299fec2bd.shtml" target="_blank" title='2026年10月14日计划停气通知（2）' class='elli-m' >2026年10月14日计划停气通知（2）</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          10
+                        </b>
+                        <em>
+                          2026-10
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/bmzx/202610/76478627019c410b9aa42163e30d898e.shtml" target="_blank" title='2026年10月14日计划停气通知（1）' class='elli-m' >2026年10月14日计划停气通知（1）</a>
+                      </div>
+                    </div>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/bmzx/bmzx_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+                <div class="item">
+              <ul class="index-tzgg-list cols-2 cols-sm-1 space-20 clearfix">
+                 
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          28
+                        </b>
+                        <em>
+                          2026-09
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/sszw/202609/781a14332e7e4249b7f1a690a6ec4401.shtml" target="_blank" title='关于支持装修提取住房公积金的通知' class='elli-m' >关于支持装修提取住房公积金的通知</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          31
+                        </b>
+                        <em>
+                          2026-08
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/sszw/202608/a8db5a325d9a475b85ee7cbf0c841a45.shtml" target="_blank" title='苏州市2026年家电以旧换新、数码和智能产品购新补贴活动品类再次升级' class='elli-m' >苏州市2026年家电以旧换新、数码和智能产品购新补贴活动品类再次升级</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          13
+                        </b>
+                        <em>
+                          2026-07
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/sszw/202607/a7bac543f6844a208e5936e65061ba33.shtml" target="_blank" title='苏州调整社会救助保障标准' class='elli-m' >苏州调整社会救助保障标准</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="box">
+                      <div class="time">
+                        <b>
+                          19
+                        </b>
+                        <em>
+                          2026-05
+                        </em>
+                      </div>
+                      <div class="tit elli-m">
+                        <a href="/szsrmzf/sszw/202605/9c3347867b1b4c2aa9427e1628b0f3cb.shtml" target="_blank" title='《关于进一步调整苏州市区积分落户计分标准的通告》的政策解读' class='elli-m' >《关于进一步调整苏州市区积分落户计分标准的通告》的政策解读</a>
+                      </div>
+                    </div>
+                  </li>
+
+              </ul>
+              <div class="m-com-more mt20">
+                <a target="_blank" href="/szsrmzf/sszw/nav_list.shtml">查看更多 >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 政务公告/便民公告/民生资讯 E -->
+      </div>
+      <div class="col-6 col-md-12">
+        <!-- 智能推荐 S -->
+        <div class="index-rdgz">
+          <div class="hd">
+            <div class="tit clearfix">
+              <h3 class="font-syst-b fl">智能推荐</h3>
+              <a href="javascript:void(0);" class="more fr"></a>
+            </div>
+          </div>
+          <div class="bd">
+            <ul class="infolist dot dot-rhomboid ymd res" id="index-data-rdgz"></ul>
+          </div>
+        </div>
+        <!-- 智能推荐 E -->
+      </div>
+    </div>
+
+    <!-- 图片滚动 S -->
+    <div class="index-zdzl pos-r mb30">
+      <div class="swiper-container index-zdzl-swiper imgscale">
+        <div class="swiper-wrapper">
+           
+            <div class="swiper-slide">
+              <a class="imgratio" target="_blank" href="https://www.suzhou.gov.cn/2026ndzt/2026sznxsj/sznxsj.shtml"
+                title="2026苏州暖“新”实践">
+                <div class="imgratio-imgbox">
+                  <img class="imgratio-img"
+                    src="/szsrmzf/zxrdzt/202609/570bca68cf8c4c00b62f5ece38d2170b/images/eae2623f524e4b0a88215bd784f795ed.png
+"
+                    alt="2026苏州暖“新”实践">
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="imgratio" target="_blank" href="https://www.suzhou.gov.cn/2026ndzt/2026szzdxmzt/2026szzdxmzt.shtml"
+                title="2026年苏州市重点项目专题">
+                <div class="imgratio-imgbox">
+                  <img class="imgratio-img"
+                    src="/szsrmzf/banner/202606/2f351dc0c9cc40ce8d649dc6892cd1de/images/0441f717d45a48208d07da4af40bb476.png
+"
+                    alt="2026年苏州市重点项目专题">
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="imgratio" target="_blank" href="https://www.suzhou.gov.cn/2026ndzt/2026ssxmzt/2026ssxmzt.shtml"
+                title="2026年苏州市实事项目专题">
+                <div class="imgratio-imgbox">
+                  <img class="imgratio-img"
+                    src="/szsrmzf/zxrdzt/202604/7a16fe8324c04c63bd86658d9210c4dd/images/51ebe26d88244b59a0763d9a20bc16ed.png
+"
+                    alt="2026年苏州市实事项目专题">
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="imgratio" target="_blank" href="https://www.suzhou.gov.cn//2025ndzt/2025zfwzgznb/2025wzgzndbb.shtml"
+                title="2025年苏州市政府网站工作年度报表">
+                <div class="imgratio-imgbox">
+                  <img class="imgratio-img"
+                    src="/szsrmzf/banner/202601/7a28a3dc8a1249af98c5b6eb6d40cbb4/images/7d00dd10f8154f339eb8fefebeb49cad.png
+"
+                    alt="2025年苏州市政府网站工作年度报表">
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="imgratio" target="_blank" href="https://www.gov.cn/zhengce/zczhjd/"
+                title="重要政策举措及实施效果">
+                <div class="imgratio-imgbox">
+                  <img class="imgratio-img"
+                    src="/szsrmzf/banner/202307/e2f66c7b251547fabd1a6a9b7ffe4289/images/e4b5358172c64941aecc5b4f88842264.png
+"
+                    alt="重要政策举措及实施效果">
+                </div>
+              </a>
+            </div>
+
+        </div>
+      </div>
+      <div class="swiper-button-prev swiper-button-arrow2"></div>
+      <div class="swiper-button-next swiper-button-arrow2"></div>
+    </div>
+    <!-- 图片滚动 E -->
+  </div>
+
+  <!-- 政务公开 S -->
+  <div class="index-zwgk">
+    <div class="container pt20 ">
+      <div class="index-com-tit mb30">
+        <h2><a target="_blank" href="/szsrmzf/szsxxgk/xxgk.shtml">政务公开</a></h2>
+      </div>
+      <div class="row row-space30">
+        <div class="col-3 col-lg-4 col-md-6 col-xs-12">
+          <!-- 政府信息公开专栏 S -->
+          <div class="index-xxgkzl index-com-pannel mb30">
+            <div class="tab-brief js-tab">
+              <div class="hd clearfix js-hd mb15">
+                <ul class="clearfix font-syst-b color-gray fs20">
+                  <li><a href="/szsrmzf/zfxxgkzl/xxgkml.shtml?para=xxgkzn" target="_blank">政府信息公开专栏</a></li>
+                </ul>
+              </div>
+              <div class="bd">
+                <div class="item index-xxgkzl-nav">
+                  <a target="_blank"
+                    href="/szsrmzf/zfxxgkzl/xxgkml.shtml?para=xxgkzn">政府信息公开指南</a>
+                  <span>|</span>
+                  <a target="_blank"
+                    href="/szsrmzf/zfxxgkzl/xxgkml.shtml?para=fdzdgknr">法定主动公开内容</a>
+                  <br><span class="older-show none">|</span>
+              
+                  <a target="_blank"
+                    href="/szsrmzf/zfxxgkzl/xxgkml.shtml?para=xxgkzd">政府信息公开制度</a>
+                  <span>|</span>
+                  <a target="_blank" href="/szsrmzf/zfgbs/zfgbs2025.shtml">政府公报</a>
+                     <br><span class="older-show none">|</span>
+                     <a target="_blank"
+                    href="http://www.js.gov.cn/col/col59348/index.html">信息公开申请须知</a>
+                  <span>|</span>
+                  <a href="https://www.suzhou.gov.cn/szsrmzf/zfxxgkzl/xxgkml.shtml?para=ysqgk" target="_blank">依申请公开</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 政府信息公开专栏 E -->
+          <!-- 政府信息公开重点领域 S -->
+          <div class="index-zdly index-com-pannel mb30">
+            <div class="tab-brief js-tab">
+              <div class="hd clearfix js-hd mb15">
+                <ul class="clearfix font-syst-b color-gray fs20">
+                  <li><a href="/szsrmzf/zfxxgkzdly/nav_list_time.shtml">政府信息公开重点领域</a></li>
+                </ul>
+              </div>
+              <div class="bd">
+                <div class="item index-zdly-nav height-xs-auto">
+                   
+
+                    <a href="/szsrmzf/zdgz/zdly_lists.shtml" target="_blank" title='重点工作'  >重点工作</a>
+
+                    <a href="/szsrmzf/szfqthylm/list.shtml" target="_blank" title='市政府全体会议及其他会议'  >市政府全体会议及其他会议</a>
+
+                    <a href="/szsrmzf/yshj/zdly_list.shtml" target="_blank" title='营商环境'  >营商环境</a>
+
+                    <a href="/szsrmzf/snbt/xxgkzdly.shtml" target="_blank" title='涉农补贴'  >涉农补贴</a>
+
+                    <a href="/szsrmzf/zdxm/zdly_lists_link.shtml" target="_blank" title='重大项目'  >重大项目</a>
+
+                    <a href="/szsrmzf/jczwgk/xxgkzdly_jbzwgk.shtml" target="_blank" title='基层政务公开标准化规范化'  >基层政务公开标准化规范化</a>
+
+                    <a href="/szsrmzf/xzfw/zdly_lists.shtml" target="_blank" title='行政服务'  >行政服务</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 政府信息公开重点领域 E -->
+        </div>
+        <div class="col-3 col-lg-3 col-md-6 col-xs-12">
+          <div class="index-zcwjldxx index-com-pannel mb30 height-xs-auto">
+            <div class="tab-brief js-tab">
+              <div class="hd clearfix js-hd mb15">
+                <ul class="clearfix font-syst-b color-gray fs20">
+                  <li><a href="https://www.suzhou.gov.cn/szsrmzf/zfxxgkzl/xxgkml.shtml?para=zcwj"   target="_blank">政策文件</a></li>
+                  <li><a href="/szsrmzf/ldxxhbmzyzz/ldxx.shtml"  target="_blank">领导信息</a></li>
+                </ul>
+              </div>
+              <div class="bd js-bd">
+                <div class="item">
+                  <div class="index-zcwj-ss">
+                    <input type="text" class="stxt" id="zcwjk-search-txt">
+                    <input type="button" class="sbtn" id="zcwjk-search-btn" onclick="zcwjksubmitForm()">
+                  </div>
+                  <ul class="infolist dot dot-rhomboid res mulit2" id="index-data-zcwj"></ul>
+                </div>
+                <div class="item index-ldxx">
+                   
+                    <div class="cont">
+                      <div class="pic">
+                        <a href="/szsrmzf/wwsz/szfleader.shtml"
+                          title="王　维" target="_blank">
+                          <img
+                            src="/szsrmzf/wwsz/202603/55608477389c4f20b1b6f5c9aa0765c1/images/cf5a66a3adda4fd79643bf928d3fb52e.jpg
+"
+                            alt="王　维">
+                        </a>
+                      </div>
+                      <div class="txt">
+                        <span class="zw">
+                          市长
+                        </span>
+                        <span class="name">
+                          王　维
+                        </span>
+                        <div class="jianjie elli-m">
+                          男，汉族，1971年4月生，博士研究生，中共党员。
+                        </div>
+                      </div>
+                    </div>
+
+                  <div class="btn">
+                    <a class="com-btn" target="_blank"
+                      href="https://www.suzhou.gov.cn/szsrmzf/hd_xjly/xjly.shtml#/xjly/szmail/write">
+                      <i class="icon"><img src="/szsrmzf/xhtml/static/2025/images/index/icon_yhdszs.png" alt=""></i>
+                      <span class="txt">我有话对市长说</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 政府信息公开重点领域 E -->
+        </div>
+        <div class="col-6 col-lg-5 col-md-12">
+          <!-- 政策解读/常务会议 S -->
+          <div class="index-zcjdcwhj height-md-auto">
+            <div class="tab-brief js-tab">
+              <div class="hd clearfix js-hd mb15">
+                <ul class="clearfix font-syst-b color-gray fs20">
+                  <li>
+                    <a href="/szsrmzf/zcyjd/zdly_zcjd.shtml"  target="_blank">政策解读</a>
+                  </li>
+                  <li><a target="_blank" href='/szsrmzf/szszfcwhy/list.shtml'>市政府常务会议</a></li>
+                </ul>
+              </div>
+              <div class="bd js-bd">
+                <div class="item clear">
+            
+                  <ul class="infolist dot dot-rhomboid res li-h42 ymd">
+                     
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202608/5f4dfc6d30d64edeac0e12131029c887.shtml" target="_blank" title='《苏州市城市道桥（含地下道路）突发事件应急预案》修编解读'  >《苏州市城市道桥（含地下道路）突发事件应急预案》修编解读</a>
+                        <span class="time">
+                          2026-08-27
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202608/4523fc4fd296481692ae01751b086060.shtml" target="_blank" title='《苏州市职工生育保险管理办法》解读'  >《苏州市职工生育保险管理办法》解读</a>
+                        <span class="time">
+                          2026-08-15
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202608/2eeb2e4307334e10a860ff89a3c09ea2.shtml" target="_blank" title='《“苏州名品”管理办法》解读'  >《“苏州名品”管理办法》解读</a>
+                        <span class="time">
+                          2026-08-07
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202608/1339027fdb8d4fb8a0033393cb5b4d09.shtml" target="_blank" title='《苏州市促进入境旅游若干措施》政策解读'  >《苏州市促进入境旅游若干措施》政策解读</a>
+                        <span class="time">
+                          2026-08-06
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202606/1f397ee875064f7fbc8d7cbf31b2f51b.shtml" target="_blank" title='《苏州市重污染天气应急预案》政策解读'  >《苏州市重污染天气应急预案》政策解读</a>
+                        <span class="time">
+                          2026-06-18
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202606/14c5640101fa4d89bc1a80f2c7372baf.shtml" target="_blank" title='《市政府关于印发苏州市服务业扩能提质行动方案(2026～2030年)的通知》解读'  >《市政府关于印发苏州市服务业扩能提质行动方案(2026～2030年)的通知》解读</a>
+                        <span class="time">
+                          2026-06-11
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202606/2e97f277e6704e1fae9d929ccd992532.shtml" target="_blank" title='《市政府办公室关于印发苏州市粮食应急预案的通知》解读'  >《市政府办公室关于印发苏州市粮食应急预案的通知》解读</a>
+                        <span class="time">
+                          2026-06-02
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/wzjd/202605/8aaa41f8d8de4be991a849e88d20d721.shtml" target="_blank" title='《苏州市化工重点监测点认定管理实施细则》解读'  >《苏州市化工重点监测点认定管理实施细则》解读</a>
+                        <span class="time">
+                          2026-05-17
+                        </span>
+                      </li>
+
+                  </ul>
+                  <div class="m-com-more mt20 white">
+                    <a href="/szsrmzf/tpjd/zdly_zcjd_tpjd.shtml">查看更多 >></a>
+                  </div>
+                </div>
+                <div class="item clear">
+                  <ul class="infolist dot dot-rhomboid ymd res li-h42">
+                     
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202609/afef52cd089148f5b8e720cb69657b6f.shtml" target="_blank" title='王维主持苏州市政府常务会议 抓实隐患整治 守牢安全底线'  >王维主持苏州市政府常务会议 抓实隐患整治 守牢安全底线</a>
+                        <span class="time">
+                          2026-09-29
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202609/4ff7122902df4ec78089276d5bd064a8.shtml" target="_blank" title='苏州市政府常务会议研究部署消防安全重点工作 王维主持'  >苏州市政府常务会议研究部署消防安全重点工作 王维主持</a>
+                        <span class="time">
+                          2026-09-01
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202608/ab3e7fbc02c94147a49ce1c33c0e3bfc.shtml" target="_blank" title='法治护航吴门医派创新 苏州市政府常务会议审议研究相关事项 王维主持'  >法治护航吴门医派创新 苏州市政府常务会议审议研究相关事项 王维主持</a>
+                        <span class="time">
+                          2026-08-04
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202607/db42f862c4ca43adbe065226087209d4.shtml" target="_blank" title='推动科技创新产业创新互融共促 苏州市政府常务会议审议研究相关事项 王维主持'  >推动科技创新产业创新互融共促 苏州市政府常务会议审议研究相关事项 王维主持</a>
+                        <span class="time">
+                          2026-07-02
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202606/cc10e13820724655af3c70bd603d5b73.shtml" target="_blank" title='八大行动计划助力城市更新 市政府常务会议审议研究相关事项 王维主持'  >八大行动计划助力城市更新 市政府常务会议审议研究相关事项 王维主持</a>
+                        <span class="time">
+                          2026-06-25
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202606/9f1e123afe494d59b22aed53fd221506.shtml" target="_blank" title='更高水平建设国际化现代化人民城市 市政府常务会议审议相关事项 王维主持'  >更高水平建设国际化现代化人民城市 市政府常务会议审议相关事项 王维主持</a>
+                        <span class="time">
+                          2026-06-12
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202605/abb2eaffe4d24fcf8435a5b14578cd81.shtml" target="_blank" title='市政府常务会议学习生态环境法典 王维主持'  >市政府常务会议学习生态环境法典 王维主持</a>
+                        <span class="time">
+                          2026-05-28
+                        </span>
+                      </li>
+
+                      <li>
+                        <a href="/szsrmzf/szszfcwhy/202605/32f4faffa7d44f16a5ef9a3528398623.shtml" target="_blank" title='AI眼镜和脑机智能产业力争创新突破 苏州市政府常务会议审议研究相关事项 王维主持'  >AI眼镜和脑机智能产业力争创新突破 苏州市政府常务会议审议研究相关事项 王维主持</a>
+                        <span class="time">
+                          2026-05-21
+                        </span>
+                      </li>
+
+                  </ul>
+                  <div class="m-com-more mt20 white">
+                    <a href="/szsrmzf/szszfcwhy/xxgkml_list.shtml">查看更多 >></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 政策解读/常务会议 E -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 政务公开 E -->
+
+  <!-- 办事服务 S -->
+  <div class="bg-lightgray">
+    <div class="container pt20 pb30">
+      <div class="index-com-tit mb30">
+        <h2><a href="/szsrmzf/zwfw/bsfw.shtml">办事服务</a></h2>
+      </div>
+      <div class="tab-brief js-tab mb20">
+        <div class="hd clearfix js-hd mb15 res">
+          <ul class="clearfix font-syst-b color-gray fs20 activeline">
+            <li><a href="https://sz.jszwfw.gov.cn/jszwfw/bscx/itemlist/gr_index.do?webId=3&themid=3&deptid=">个人办事</a></li>
+            <li><a href="https://sz.jszwfw.gov.cn/jszwfw/bscx/itemlist/fr_index.do?webId=3&themid=3&deptid=">法人办事</a></li>
+            <li><a href="javascript:void(0);">部门办事</a></li>
+            <li><a href="javascript:void(0);">市(县)区办事</a></li>
+          </ul>
+        </div>
+        <div class="bd clear js-bd">
+          <div class="item">
+            <ul class="index-bsfw-iconmenu iconmenu break cols-8 cols-md-4 cols-xs-2 space-30 space-lg-20 clearfix">
+               
+                <li>
+                  <a target="_blank" title="公积金"
+                    href="http://sz.jszwfw.gov.cn/col/col168023/index.html" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/fdd6b8ccd86d4e3cbe5c09241050d3ff/images/e64d25d26f5b4d62b0f94ea6da001c57.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/fdd6b8ccd86d4e3cbe5c09241050d3ff/images/152d473fc53f476ebe4cdce07fefd758.png" alt="">
+                    </i>
+                    <span class="txt">
+                      公积金
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="社保"
+                    href="https://rs.jshrss.jiangsu.gov.cn/index/" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/ebacb8e434854eaa97f6249e81317164/images/17c32aea84ac43f9b4f9757ba6a7cb81.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/ebacb8e434854eaa97f6249e81317164/images/b94cf4a53dfb4a16a586bc1830a6e20b.png" alt="">
+                    </i>
+                    <span class="txt">
+                      社保
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="行驶驾驶"
+                    href="http://sz.jszwfw.gov.cn/col/col168035/index.html" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/94b28e86368d4961acf3733429c21895/images/eeb9fbbf796241358a91b8fb9277601a.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/94b28e86368d4961acf3733429c21895/images/a481d771f11e467cac1e68d5a35bcc67.png" alt="">
+                    </i>
+                    <span class="txt">
+                      行驶驾驶
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="户政"
+                    href="http://sz.jszwfw.gov.cn/col/col168038/index.html" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/d5dc1b15b45c43a2a095430442c2ea8f/images/91a36070fcac44288ad955b1c54fe84a.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/d5dc1b15b45c43a2a095430442c2ea8f/images/d5e42a2cd6534c369cb475b22181843e.png" alt="">
+                    </i>
+                    <span class="txt">
+                      户政
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="婚姻"
+                    href="http://sz.jszwfw.gov.cn/col/col168040/index.html" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/77ea7f622c2e4e4d9a9de901e7b175a9/images/97703c8749e9426887a1b0180196ef93.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/77ea7f622c2e4e4d9a9de901e7b175a9/images/60e85caedc7c44ac803aeef4dcd5a0d6.png" alt="">
+                    </i>
+                    <span class="txt">
+                      婚姻
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="税务"
+                    href="http://sz.jszwfw.gov.cn/col/col168041/index.html" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/02d0c0f80e7f4e5d88c427ef89a95bb4/images/7deab1cdbb8843f19c5f7f38579931aa.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/02d0c0f80e7f4e5d88c427ef89a95bb4/images/dcf1a8de64b945a8af369083aa229607.png" alt="">
+                    </i>
+                    <span class="txt">
+                      税务
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="出入境"
+                    href="http://sz.jszwfw.gov.cn/col/col168042/index.html" class="box">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/grbssxh/202301/85e37ca9dfb348cd802e3636462aee31/images/93170049af494ed189f0ff7421bd51a6.png" alt="">
+<img class="normal" src="/szsrmzf/grbssxh/202301/85e37ca9dfb348cd802e3636462aee31/images/03211530d30d46eaa416f716c7243701.png" alt="">
+                    </i>
+                    <span class="txt">
+                      出入境
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="缴款"
+                    href="http://sz.jszwfw.gov.cn/col/col168043/index.html" class="box">
+                    <i class="icon">
+<img class="normal" src="/szsrmzf/grbssxh/202301/68bcc46af2e744bf9d4496f6aecd94f9/images/16ab7d686e8c4e1fb8de011a2113ce05.png" alt="">
+<img class="active" src="/szsrmzf/grbssxh/202301/68bcc46af2e744bf9d4496f6aecd94f9/images/53040d6d91124611aefd7c7cce08ce64.png" alt="">
+                    </i>
+                    <span class="txt">
+                      缴款
+                    </span>
+                  </a>
+                </li>
+
+            </ul>
+            <div class="clearfix"><a target="_blank" href="https://sz.jszwfw.gov.cn/jszwfw/bscx/itemlist/gr_index.do?webId=3&themid=3&deptid=" class="bsckgd ">查看更多</a></div>
+          </div>
+          <div class="item">
+            <ul class="index-bsfw-iconmenu iconmenu break cols-8 cols-md-4 cols-xs-2 space-30 space-lg-20 clearfix">
+               
+                <li>
+                  <a target="_blank" title="企业管理"
+                    href="http://sz.jszwfw.gov.cn/col/col168063/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/441b2c031109489a8fdacbef6ffac260/images/f7ec27034bc24b37bc329f5875e32446.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/441b2c031109489a8fdacbef6ffac260/images/5263cc3564034fa98e7859cc50cf2328.png" alt="">
+                    </i>
+                    <span class="txt">
+                      企业管理
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="企业变更"
+                    href="http://sz.jszwfw.gov.cn/col/col168064/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/d069f1428edd42318314f0281bf8dee6/images/7537af0f6c4843e397220dcd489f9fe3.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/d069f1428edd42318314f0281bf8dee6/images/548c779e53f34977b4f29670fc37e5d3.png" alt="">
+                    </i>
+                    <span class="txt">
+                      企业变更
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="公共资源交易"
+                    href="http://sz.jszwfw.gov.cn/col/col168065/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/39b9cce38b8c402fab5ee23cd4d341ed/images/c331ecf04e894bfbb6647cc687a608e3.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/39b9cce38b8c402fab5ee23cd4d341ed/images/b5af50aa2fb84a138c3aceee42044f47.png" alt="">
+                    </i>
+                    <span class="txt">
+                      公共资源交易
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="质量监督"
+                    href="http://sz.jszwfw.gov.cn/col/col168066/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/f9b9c6976a3d4efc92b128d37ee7eefd/images/c41c25e3bd444e4c8b963ae7c57e14a5.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/f9b9c6976a3d4efc92b128d37ee7eefd/images/edd892d8593c4e09882fbfff5a9fbbf5.png" alt="">
+                    </i>
+                    <span class="txt">
+                      质量监督
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="小微企业扶持"
+                    href="http://sz.jszwfw.gov.cn/col/col168067/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/01e637185d8e4854a9c87a2429f67031/images/259cc8140504475d8be80c9be9248d4f.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/01e637185d8e4854a9c87a2429f67031/images/c32461b32a1543e09b7031118c01ba79.png" alt="">
+                    </i>
+                    <span class="txt">
+                      小微企业扶持
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="股权出质"
+                    href="http://sz.jszwfw.gov.cn/col/col168068/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/8a347ed0429b44d286647451f5c8ab8a/images/f2bd5dd87f0142a094e36c7b40eaccce.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/8a347ed0429b44d286647451f5c8ab8a/images/4585c5893bed45c599c78ac3b616459b.png" alt="">
+                    </i>
+                    <span class="txt">
+                      股权出质
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="企业注销"
+                    href="http://sz.jszwfw.gov.cn/col/col168069/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/07f451125b8b43c39626fbd30bbe491b/images/3cd90db6e9c946afb197c6356cebfc8f.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/07f451125b8b43c39626fbd30bbe491b/images/0b9e3e08debe49a282e39e6263bea523.png" alt="">
+                    </i>
+                    <span class="txt">
+                      企业注销
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" title="社会团体"
+                    href="http://sz.jszwfw.gov.cn/col/col168070/index.html" class="box box1">
+                    <i class="icon">
+<img class="active" src="/szsrmzf/frbssxe/202301/b54196211be84ceb868c22d36e4623b2/images/5fc97de1e16a46888547a68a200f6a4a.png" alt="">
+<img class="normal" src="/szsrmzf/frbssxe/202301/b54196211be84ceb868c22d36e4623b2/images/049cd899abc6496483d55145b3fb5c27.png" alt="">
+                    </i>
+                    <span class="txt">
+                      社会团体
+                    </span>
+                  </a>
+                </li>
+
+            </ul>
+              <div class="clearfix"><a target="_blank" href="https://sz.jszwfw.gov.cn/jszwfw/bscx/itemlist/fr_index.do?webId=3&themid=3&deptid=" class="bsckgd ">查看更多</a></div>
+          </div>
+          <div class="item">
+            <ul class="index-bmbs-list cols-6 cols-md-4 cols-sm-3 cols-xs-2 space-20 clearfix">
+               
+
+                <li><a class="box elli-s" title="市税务局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500MB1507778L#fw_jump">
+                    市税务局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市新闻出版局（市版权局）"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500014150464F#fw_jump">
+                    市新闻出版局（市版权局）
+                  </a></li>
+
+                <li><a class="box elli-s" title="市农业农村局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500MB16652311#fw_jump">
+                    市农业农村局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市数据局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500MB1W193352#fw_jump">
+                    市数据局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市科技局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=113205000141501224#fw_jump">
+                    市科技局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市住建局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500014149869Y#fw_jump">
+                    市住建局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市发改委"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500014148997A#fw_jump">
+                    市发改委
+                  </a></li>
+
+                <li><a class="box elli-s" title="市工信局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=113205000141496077#fw_jump">
+                    市工信局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市教育局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=113205000141492526#fw_jump">
+                    市教育局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市民宗局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500014149500U#fw_jump">
+                    市民宗局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市公安局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=113205000141491482#fw_jump">
+                    市公安局
+                  </a></li>
+
+                <li><a class="box elli-s" title="市安全局"
+                    href="http://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=11320500014149009B#fw_jump">
+                    市安全局
+                  </a></li>
+
+            </ul>
+            <div class="clearfix"><a target="_blank" href="https://sz.jszwfw.gov.cn/jszwfw/qlqd/deptlist.do?webId=3&type=&deptId=" class="bsckgd ">查看更多</a></div>
+          </div>
+          <div class="item">
+            <ul class="index-bmbs-list cols-6 cols-md-4 cols-sm-3 cols-xs-2 space-20 clearfix">
+               
+
+                <li><a class="box elli-s" title="张家港市"
+                    href="http://szzjg.jszwfw.gov.cn/">
+                    张家港市
+                  </a></li>
+
+                <li><a class="box elli-s" title="常熟市"
+                    href="http://szcs.jszwfw.gov.cn/">
+                    常熟市
+                  </a></li>
+
+                <li><a class="box elli-s" title="太仓市"
+                    href="http://sztc.jszwfw.gov.cn/">
+                    太仓市
+                  </a></li>
+
+                <li><a class="box elli-s" title="昆山市"
+                    href="http://szks.jszwfw.gov.cn/">
+                    昆山市
+                  </a></li>
+
+                <li><a class="box elli-s" title="吴江区"
+                    href="http://szwj.jszwfw.gov.cn/">
+                    吴江区
+                  </a></li>
+
+                <li><a class="box elli-s" title="吴中区"
+                    href="http://szwz.jszwfw.gov.cn/">
+                    吴中区
+                  </a></li>
+
+                <li><a class="box elli-s" title="相城区"
+                    href="http://szxc.jszwfw.gov.cn/">
+                    相城区
+                  </a></li>
+
+                <li><a class="box elli-s" title="姑苏区"
+                    href="http://szgs.jszwfw.gov.cn/">
+                    姑苏区
+                  </a></li>
+
+                <li><a class="box elli-s" title="苏州工业园区"
+                    href="http://szgyy.jszwfw.gov.cn/">
+                    苏州工业园区
+                  </a></li>
+
+                <li><a class="box elli-s" title="苏州高新区(虎丘区)"
+                    href="http://szgx.jszwfw.gov.cn/">
+                    苏州高新区(虎丘区)
+                  </a></li>
+
+            </ul>
+            <div class="clearfix"><a target="_blank" href="https://sz.jszwfw.gov.cn/" class="bsckgd ">查看更多</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 便民服务 S -->
+      <div class="tab-brief js-tab mb20">
+        <div class="hd clearfix js-hd mb15 res">
+          <ul class="clearfix font-syst-b color-gray fs20 activeline">
+            <li><a href="javascript:void(0);">便民服务</a></li>
+          </ul>
+        </div>
+        <div class="bd clear">
+          <div class="item">
+            <ul class="index-bmfw-iconmenu iconmenu break justify cols-md-4 cols-xs-2 space-lg-20 clearfix">
+               
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="教育"
+                    href="/szsrmzf/jyzt/jiaoyu.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/64ea7ee700e64bc48f491bac19b03675/images/7269f8854cac4b209f6ba3f4028494ec.png
+"
+                        alt="教育">
+                    </i>
+                    <span class="txt">
+                      教育
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="社保"
+                    href="/szsrmzf/sbzt/sbzt.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/b6cd6ffc1d7a490189966d1220832939/images/3dc661b3a2ea406688123a3494382d5e.png
+"
+                        alt="社保">
+                    </i>
+                    <span class="txt">
+                      社保
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="住房"
+                    href="/szsrmzf/zfzt/zfzt.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/270ea5138aa54d179026513386241f1c/images/861729117e53493db632787c981383de.png
+"
+                        alt="住房">
+                    </i>
+                    <span class="txt">
+                      住房
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="交通"
+                    href="/szsrmzf/jtzt/jiaotong.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/5ed6ac3eb56e45fb9c5768314aba98ec/images/73e982f24b2444609be84f5eff4a175f.png
+"
+                        alt="交通">
+                    </i>
+                    <span class="txt">
+                      交通
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="就业创业"
+                    href="/szsrmzf/jycyzt/jycy.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/706990b98dcf4c598521e4c4b3809271/images/6bc4444eef9e455ab23484ed832e03ad.png
+"
+                        alt="就业创业">
+                    </i>
+                    <span class="txt">
+                      就业创业
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="社会救助和福利"
+                    href="/szsrmzf/shjzhshfl/shjzhshfl.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/b1f95d7d0d0446e5a704e8425c0171dd/images/bf760e4dfa9f4f44ba0999b28abc17bc.png
+"
+                        alt="社会救助和福利">
+                    </i>
+                    <span class="txt">
+                      社会救助和福利
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="婚姻生育"
+                    href="/szsrmzf/hysyzt/hysy.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/82d88855b04e46ddbd7471bf7bf3ce32/images/fdfa6a429c314c86a4aa1864d3e44916.png
+"
+                        alt="婚姻生育">
+                    </i>
+                    <span class="txt">
+                      婚姻生育
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="医疗健康"
+                    href="/szsrmzf/yljkzt/yljk.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/e6cc344cc2c9458f95db3e41f91aee1a/images/0a537978f487428699890ab3efb302db.png
+"
+                        alt="医疗健康">
+                    </i>
+                    <span class="txt">
+                      医疗健康
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="企业开办"
+                    href="/szsrmzf/qykb/qykb.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/d691681d24254246907752dc54630ff8/images/10992b6701bc4b279ec0e43071bf68c1.png
+"
+                        alt="企业开办">
+                    </i>
+                    <span class="txt">
+                      企业开办
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-bob" target="_blank" title="证件办理"
+                    href="/szsrmzf/zjblzt/zjbl.shtml">
+                    <i class="icon">
+                      <img class="hvr-icon"
+                        src="/szsrmzf/sybmfwlinkss/202301/9380f5fb66934ab488eed014292af55a/images/c3a1d89feabe4bd9ad0c517bce3dd1da.png
+"
+                        alt="证件办理">
+                    </i>
+                    <span class="txt">
+                      证件办理
+                    </span>
+                  </a>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <ul class="index-bsfw-toolmenu inline iconmenu clearfix cols-3 cols-md-1 space-30 space-md-20">
+         
+          <li>
+            <div class="box">
+              <div class="bl">
+                <i class="icon"><img
+                    src="/szsrmzf/sybslinksd/202301/827d31d7a6f84cf4b8fb7ceea413745d/images/20ff5423786b4cc495f98f48b4e525f3.png
+"
+                    alt=""></i>
+                <span class="txt font-syst-b">
+                  高效办成一件事
+                </span>
+              </div>
+              <a class="gengduo" target="_blank" title="高效办成一件事"
+                href="/szsrmzf/yjsycbc/nav_list_timeNew.shtml">查看更多</a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <div class="bl">
+                <i class="icon"><img
+                    src="/szsrmzf/sybslinksd/202301/d8f81a5c651243848723104985f5fd76/images/75a993c145324e83aabb2be3fc541096.png
+"
+                    alt=""></i>
+                <span class="txt font-syst-b">
+                  查询总汇
+                </span>
+              </div>
+              <a class="gengduo" target="_blank" title="查询总汇"
+                href="/szsrmzf/cxhzx/cxhzlist.shtml">查看更多</a>
+            </div>
+          </li>
+          <li>
+            <div class="box">
+              <div class="bl">
+                <i class="icon"><img
+                    src="/szsrmzf/sybslinksd/202301/3b45997042eb4cd591658cfbb67d4a56/images/4946b14de4d842339dcb47a9352299e8.png
+"
+                    alt=""></i>
+                <span class="txt font-syst-b">
+                  权责清单和目录
+                </span>
+              </div>
+              <a class="gengduo" target="_blank" title="权责清单和目录"
+                href="/szsrmzf/qzqdhml/nav_list_time.shtml">查看更多</a>
+            </div>
+          </li>
+
+      </ul>
+    </div>
+  </div>
+  <!-- 办事服务 E -->
+
+  <!-- 政民互动 S -->
+  <div class="index-zmhd">
+    <div class="container pt20 pb30">
+      <div class="index-com-tit mb30">
+        <h2><a href="/szsrmzf/zmhd/zmhd.shtml">政民互动</a></h2>
+      </div>
+
+      <div class="row row-space30">
+        <div class="col-6 col-md-12">
+          <!-- 重大决策预公开／政策文件意见征集 /网上调查/结果反馈 S -->
+          <div class="tab-brief js-tab">
+            <div class="hd clearfix js-hd mb15 res">
+              <ul class="clearfix font-syst-b color-gray fs20 activeline">
+                <li>
+                  <a href="/szsrmzf/yjzj/nav_wztt_dczj.shtml"  target="_blank">重大决策预公开／政策文件意见征集</a>
+                </li>
+                <li>
+                  <a href="/szsrmzf/wsdc/nav_wztt_dczj.shtml"  target="_blank">网上调查</a>
+                </li>
+                <li>
+                  <a href="/szsrmzf/jgfk/nav_list.shtml"  target="_blank">结果反馈</a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd clear js-bd">
+              <div class="item">
+                <ul class="index-dczj-list mb30" id="yjzjList">
+                   
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="/szsrmzf/yjzj/202609/bac629c03b4543869a294e8aa4aa5a94.shtml"
+                            title="关于征求《苏州市宠物诊疗行业收费项目清单（征求意见稿）》意见的公告">
+                            关于征求《苏州市宠物诊疗行业收费项目清单（征求意见稿）》意见的公告
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-10-06
+                        </i>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="/szsrmzf/yjzj/202609/ae7dd1b59c8248e7b0d982aa88ad8cc0.shtml"
+                            title="苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》征求意见的公告">
+                            苏州市生态环境局关于《苏州市餐饮业环境污染防治管理办法（修订草案征求意见稿）》征求意见的公告
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-10-07
+                        </i>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="/szsrmzf/yjzj/202608/7e42e5da6c484ab185e17ecf8a93670a.shtml"
+                            title="关于公开征求《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用品牌管理办法（征求意见稿）》意见的公告">
+                            关于公开征求《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用品牌管理办法（征...
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-09-30
+                        </i>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="/szsrmzf/yjzj/202608/4d61781bbcf2493092e71d24b61bb733.shtml"
+                            title="苏州市2027年民生实事项目征集公告">
+                            苏州市2027年民生实事项目征集公告
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-09-17
+                        </i>
+                      </div>
+                    </li>
+
+                </ul>
+              </div>
+              <div class="item">
+                <ul class="index-dczj-list mb30" id="wsdcList">
+                   
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="http://www.suzhou.gov.cn/szwsdc/previewSurvey?sur_id=0eb2aa902c2341cbb8fa8c56295df54b"
+                            title="苏州市审计局公开征集2027年度审计项目建议调查问卷">
+                            苏州市审计局公开征集2027年度审计项目建议调查问卷
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-10-16
+                        </i>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="http://www.suzhou.gov.cn/szwsdc/previewSurvey?sur_id=6fa3ba282ae048c2a270e2dc2296e2dc"
+                            title="苏州市退役军人事务宣传工作调查问卷">
+                            苏州市退役军人事务宣传工作调查问卷
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-10-23
+                        </i>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="http://www.suzhou.gov.cn/szwsdc/previewSurvey?sur_id=91b43bc121f54f518d952b769228fdff"
+                            title="关于“苏超”观赛安全管理的调查问卷">
+                            关于“苏超”观赛安全管理的调查问卷
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-10-22
+                        </i>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="box">
+                        <div class="tit elli-m">
+                          <a target="_blank" href="http://www.suzhou.gov.cn/szwsdc/previewSurvey?sur_id=445320d1448d49f4be41b02770c5a1f6"
+                            title="苏州市信访局网站使用情况调查">
+                            苏州市信访局网站使用情况调查
+                          </a>
+                        </div>
+                        <span class="status"></span>
+                        <i class="jssj" style="display: none;">
+                          2026-10-31
+                        </i>
+                      </div>
+                    </li>
+
+                </ul>
+              </div>
+              <div class="item">
+                <ul class="index-jgfk-list infolist dot dot-rhomboid ymd res mb10">
+                   
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202610/c9fa700bd8284bcdac38728a2e6dd1c1.shtml" target="_blank" title='关于《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用品牌管理办法（征求意见稿）》公开征求意见的结果反馈'  >关于《“苏州大米”区域公用品牌管理办法（征求意见稿）》、《“苏州水八仙”区域公用品牌...</a>
+                      <span class="time">
+                        2026-10-08
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202609/225341d92c6f42fc8cab864fab933aca.shtml" target="_blank" title='关于《苏州市养殖水域滩涂规划（2020-2030年）2025年修编版（征求意见稿）》公开征求意见的结果反馈'  >关于《苏州市养殖水域滩涂规划（2020-2030年）2025年修编版（征求意见稿）》公开征求意见的...</a>
+                      <span class="time">
+                        2026-09-02
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202608/1394e9dc54844b29b64039057b727d7a.shtml" target="_blank" title='关于《苏州市“十五五”安全生产、应急管理和消防救援事业发展规划（征求意见稿）》公开征求意见的结果反馈'  >关于《苏州市“十五五”安全生产、应急管理和消防救援事业发展规划（征求意见稿）》公开征...</a>
+                      <span class="time">
+                        2026-08-11
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202608/9d32c93cd9d6443f9eff59645856a9e1.shtml" target="_blank" title='关于拟废止《苏州市扬尘污染防治管理办法》征求意见公告的反馈'  >关于拟废止《苏州市扬尘污染防治管理办法》征求意见公告的反馈</a>
+                      <span class="time">
+                        2026-08-05
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202607/29759c3a4005486db60ea3124ff652db.shtml" target="_blank" title='苏州市第四次全国农业普查公众参与度调查报告'  >苏州市第四次全国农业普查公众参与度调查报告</a>
+                      <span class="time">
+                        2026-07-14
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202607/840d6508b3b14d8e9dfb526e5466c490.shtml" target="_blank" title='关于拟废止《苏州市建筑施工噪声污染防治管理规定》公开征求意见的反馈'  >关于拟废止《苏州市建筑施工噪声污染防治管理规定》公开征求意见的反馈</a>
+                      <span class="time">
+                        2026-07-14
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202607/f35c821500354dedb2bb7e146cb8f74f.shtml" target="_blank" title='关于《苏州市“十五五”农业农村发展规划（征求意见稿）》公开征求意见的结果反馈'  >关于《苏州市“十五五”农业农村发展规划（征求意见稿）》公开征求意见的结果反馈</a>
+                      <span class="time">
+                        2026-07-10
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202607/65d6801072a045a7af038b734b492401.shtml" target="_blank" title='关于公开征求《洞庭山碧螺春茶产业发展规划（2026—2030年）（征求意见稿）》意见的结果反馈'  >关于公开征求《洞庭山碧螺春茶产业发展规划（2026—2030年）（征求意见稿）》意见的结果反...</a>
+                      <span class="time">
+                        2026-07-01
+                      </span>
+                    </li>
+
+                    <li>
+                      <a href="/szsrmzf/jgfk/202606/3cfe07bbcc094c49a2f7d659bef807f3.shtml" target="_blank" title='苏州市残疾人保障政策落实及相关资金审计调查问卷的反馈报告'  >苏州市残疾人保障政策落实及相关资金审计调查问卷的反馈报告</a>
+                      <span class="time">
+                        2026-06-18
+                      </span>
+                    </li>
+
+                </ul>
+                <div class="m-com-more mt20">
+                  <a target="_blank" href="/szsrmzf/jgfk/nav_list.shtml">查看更多 >></a>
+                </div>
+              </div>
+            </div>
+            <!-- 重大决策预公开／政策文件意见征集 /网上调查/结果反馈 E -->
+            <ul
+              class="index-zmhd-iconmenu cols-4 cols-xs-2 iconmenu inline valignmiddle splitline center clearfix mb-md-30">
+               
+                <li>
+                  <a class="box hvr-icon-grow" target="_blank" title="市委书记信箱"
+                    href="/szsrmzf/hd_xjly/xjly.shtml#/xjly/sjmail">
+                    <i class="icon"><img class="hvr-icon"
+                        src="/szsrmzf/syhdlinksd/202301/550be65b0bf745259c40850deb358155/images/6f133d9baeb3479498f0ea2688c803b0.png
+"
+                        alt="市委书记信箱"></i>
+                    <span class="txt">
+                      市委书记信箱
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-grow" target="_blank" title="市长信箱"
+                    href="/szsrmzf/hd_xjly/xjly.shtml#/xjly/szmail">
+                    <i class="icon"><img class="hvr-icon"
+                        src="/szsrmzf/syhdlinksd/202301/dc1ff4ec5ca248c7a0fcfb11ebd3f02f/images/32d04e798f5e41629bbcccf1cf11324a.png
+"
+                        alt="市长信箱"></i>
+                    <span class="txt">
+                      市长信箱
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-grow" target="_blank" title="部门信箱"
+                    href="/szsrmzf/hd_xjly/xjly.shtml#/xjly/bmmail">
+                    <i class="icon"><img class="hvr-icon"
+                        src="/szsrmzf/syhdlinksd/202301/954c626d179b461697facb5272d2afa7/images/bfa0b61fec3645cdbe73b3d3db1ca1e7.png
+"
+                        alt="部门信箱"></i>
+                    <span class="txt">
+                      部门信箱
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="box hvr-icon-grow" target="_blank" title="公众监督"
+                    href="/szsrmzf/hd_gzjd/gzjd.shtml#/gzjd/letterlists">
+                    <i class="icon"><img class="hvr-icon"
+                        src="/szsrmzf/syhdlinksd/202301/d492962882204da897becc83b10088a4/images/db917805e6eb40a9b428b67fc4fa67c1.png
+"
+                        alt="公众监督"></i>
+                    <span class="txt">
+                      公众监督
+                    </span>
+                  </a>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-md-12">
+          <!-- 在线访谈/访谈直播/政风行风视频直播 S -->
+          <div class="tab-brief js-tab mb30">
+            <div class="hd clearfix js-hd mb15 res">
+              <ul class="clearfix font-syst-b color-gray fs20 activeline">
+                <li>
+                  <a href="/szsrmzf/zxft/list.shtml"  target="_blank">在线访谈</a>
+                </li>
+                <li class="islink">
+                  <a href="/szsrmzf/ftzb/fzzb_list.shtml"  target="_blank">访谈直播</a>
+                </li>
+                <li class="islink">
+                  <a href="/szsrmzf/zfxfspzb/zfxf.shtml"  target="_blank">政风行风视频直播</a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd clear">
+              <div class="item">
+                 
+                  <div class="index-zxft-tt imgscale">
+                    <a title="2026年9月23日——苏州市文化广电和旅游局"
+                      href="/szsrmzf/zfzb/202609/165b77bc5c754076b8ffaec4631ab64a.shtml" target="_blank">
+                      <div class="imgratio">
+                        <div class="imgratio-imgbox">
+                          <img class="imgratio-img zxft_img"
+                            src="/szsrmzf/zxft/202609/281e62067ca1464d91ad1949107d8636/images/593b4482fa9d42d0ab2ce6d8800888a5.png
+"
+                            alt="2026年9月23日——苏州市文化广电和旅游局">
+                        </div>
+                      </div>
+                      <div class="txt">
+                     
+                        <div class="mesc">
+                          <div class="tit elli-s">
+                            2026年9月23日——苏州市文化广电和旅游局
+                          </div>
+                          <div class="jiabin elli-m">
+                            2026-09-23 10:00
+                          </div>
+                        </div>
+                      
+                      </div>
+                    </a>
+               <span class="gengduo"><a target="_blank"
+            href="https://www.suzhou.gov.cn/szsrmzf/zxft/list.shtml">>>回顾</a></span>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- 在线访谈 /访谈直播/政风行风视频直播 E -->
+          <div class="index-zsk imgscale over-hide">
+            <a href="/szsrmzf/dwzsk/dwzsk.shtml"><img src="/szsrmzf/xhtml/static/2025/images/index/zsk.png" alt=""></a>
+          </div>
+        </div>
+      </div>   
+    </div>
+  </div>
+  <!-- 政民互动 E -->
+
+  <!-- 专题专栏 S -->
+  <div class="bg-lightgray">
+    <div class="container pt20 pb30">
+      <div class="index-com-tit mb20">
+        <h2><a target="_blank" href="/szsrmzf/rdzt/nav_list.shtml">专题专栏</a></h2>
+      </div>
+      <div class="index-ztzl-swiper swiper-container imgscale">
+        <div class="swiper-wrapper">
+           
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="https://guozw.suzhou.gov.cn/gzw/fldzfzxfshq/fldzfzxfshq.shtml"
+                title="苏州市属国资国企“奋力打造15分钟幸福生活圈”专题">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/zxrdzt/202609/ede62c505dd144a9b0fd45f82dc6ae03/images/2c248a91f60a46d3b471cf846491ccf5.png
+"
+                      alt="苏州市属国资国企“奋力打造15分钟幸福生活圈”专题">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  苏州市属国资国企“奋力打造15分钟幸福生活圈”专题
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="https://gjj.suzhou.gov.cn/szgjj/2025ndbg/2025ndbg.shtml"
+                title="2025年度苏州市住房公积金年度报告专栏">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/zxrdzt/202605/a483b900c1f9417db3a6341d6b4f6fd2/images/1881c09a79d24d4397a1a2ff16b72574.png
+"
+                      alt="2025年度苏州市住房公积金年度报告专栏">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  2025年度苏州市住房公积金年度报告专栏
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="https://zfcjj.suzhou.gov.cn/szszjj/szszcjdazt/szcjdazt.shtml"
+                title="苏州数字城建档案专题">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/zxrdzt/202605/34691826233d404c964165b2d0052e8e/images/df875a6b8e8b49e2bc7c8ed20f69ab3e.png
+"
+                      alt="苏州数字城建档案专题">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  苏州数字城建档案专题
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="http://www.suzhou.gov.cn/2024ndzt/tjmlsz/2024tjmlszjs.shtml"
+                title="全面推进美丽苏州建设专题">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/syztzl/202409/f837ed5195ba46d29e6320242d04564e/images/c8e698fc797f4d94bd04e9dd56b1f0bb.png
+"
+                      alt="全面推进美丽苏州建设专题">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  全面推进美丽苏州建设专题
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="http://www.suzhou.gov.cn/2024ndzt/szsbxfp/yjhxssfa.shtml"
+                title="苏州市大规模设备更新和消费品以旧换新政策专题">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/syztzl/202406/f7c652a71f1e443d80ee5aa8d71d7cce/images/1b03247d22a949cea1783853cd5c331d.jpg
+"
+                      alt="苏州市大规模设备更新和消费品以旧换新政策专题">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  苏州市大规模设备更新和消费品以旧换新政策专题
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="http://www.suzhou.gov.cn/2025ndzt/szssqxzjcgszl/szssqxzjcgszl.shtml"
+                title="苏州市涉企行政检查公示专栏">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/zxrdzt/202510/6aae64a6ca9947ecb9e69f4ced566ab7/images/5c19cc03f8a54c81b97ea3336a16f2b1.png
+"
+                      alt="苏州市涉企行政检查公示专栏">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  苏州市涉企行政检查公示专栏
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="http://www.suzhou.gov.cn/yhyshjzl/index.shtml"
+                title="优化营商环境专栏">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/syztzl/202004/446e901ac31e4c5cadde0918a0e0139d/images/6668d078bfae428ba8349fd68074d7a1.png
+"
+                      alt="优化营商环境专栏">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  优化营商环境专栏
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="box" target="_blank" href="https://wjk.jsrd.gov.cn:8004/#/home "
+                title="江苏省法规规章规范性文件数据库">
+                <div class="imgratio">
+                  <div class="imgratio-imgbox">
+                    <img class="imgratio-img"
+                      src="/szsrmzf/syztzl/202312/72a8153666c44c658223433b1919d007/images/ca2d1e6e938f445da6ce3afee2081d2d.jpg
+
+"
+                      alt="江苏省法规规章规范性文件数据库">
+                  </div>
+                </div>
+                <div class="txt elli-s">
+                  江苏省法规规章规范性文件数据库
+                </div>
+              </a>
+            </div>
+
+        </div>
+        <div class="swiper-button-prev swiper-button-arrow3"></div>
+        <div class="swiper-button-next swiper-button-arrow3"></div>
+      </div>
+    </div>
+  </div>
+  <!-- 专题专栏 E -->
+
+  <!--footer Start-->
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/szsrmzf/xhtml/static/2025/css/footer.css?v=2" />
+<style>
+img#imgConac {
+    height: 55px;
+}
+</style>
+<div class="footer-links">
+  <div class="hd">
+    <div class="container pos-r">
+      <div class="footer-links-tit">网站导航：</div>
+      <ul class="clearfix">
+         <li >
+          <a href="https://www.gov.cn/" target="_blank">
+            <span>
+              中国政府网
+            </span>
+          </a>
+        </li>
+        <li class="hs">
+          <a href="javascript:void(0);">
+            <span>
+              苏州辖市（区）网站
+            </span>
+          </a>
+        </li>
+        <li class="hs">
+          <a href="javascript:void(0);">
+            <span>
+              苏州市政务网站
+            </span>
+          </a>
+        </li>
+   
+        <li class="hs">
+          <a href="javascript:void(0);">
+            <span>
+              省（区市）政府网站
+            </span>
+          </a>
+        </li>
+        <li class="hs">
+          <a href="javascript:void(0);">
+            <span>
+              江苏省设区市网站
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sublinks">
+    <div class="container">
+      <div class="bd">
+            <ul class="clearfix">
+    
+        </ul>
+        <ul class="clearfix">
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.zjg.gov.cn/" target="_blank"
+                  title="张家港市人民政府">
+                  张家港市人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.changshu.gov.cn/" target="_blank"
+                  title="常熟市人民政府">
+                  常熟市人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.taicang.gov.cn/" target="_blank"
+                  title="太仓市人民政府">
+                  太仓市人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.ks.gov.cn/" target="_blank"
+                  title="昆山市人民政府">
+                  昆山市人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.wujiang.gov.cn/" target="_blank"
+                  title="吴江区人民政府">
+                  吴江区人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.szwz.gov.cn" target="_blank"
+                  title="吴中区人民政府">
+                  吴中区人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.szxc.gov.cn" target="_blank"
+                  title="相城区人民政府">
+                  相城区人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.gusu.gov.cn/" target="_blank"
+                  title="姑苏区人民政府">
+                  姑苏区人民政府
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.sipac.gov.cn/" target="_blank"
+                  title="苏州工业园区管委会">
+                  苏州工业园区管委会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.snd.gov.cn" target="_blank"
+                  title="苏州高新区管委会（虎丘区人民政府）">
+                  苏州高新区管委会（虎丘区人民政府）
+                </a></h4>
+            </li>
+
+        </ul>
+        <ul class="clearfix">
+
+            <li>
+              <h4><a rel="nofollow" href="http://fg.suzhou.gov.cn/" target="_blank"
+                  title="苏州市发展和改革委员会">
+                  苏州市发展和改革委员会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://jyj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市教育局">
+                  苏州市教育局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://kjj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市科学技术局">
+                  苏州市科学技术局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://gxj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市工业和信息化局">
+                  苏州市工业和信息化局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://mzzjswj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市民族宗教事务局">
+                  苏州市民族宗教事务局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://gonganju.suzhou.gov.cn/" target="_blank"
+                  title="苏州市公安局">
+                  苏州市公安局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://minzhengju.suzhou.gov.cn/" target="_blank"
+                  title="苏州市民政局">
+                  苏州市民政局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://sfj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市司法局">
+                  苏州市司法局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://czju.suzhou.gov.cn/" target="_blank"
+                  title="苏州市财政局">
+                  苏州市财政局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://hrss.suzhou.gov.cn" target="_blank"
+                  title="苏州市人力资源和社会保障局">
+                  苏州市人力资源和社会保障局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://zrzy.jiangsu.gov.cn/sz/" target="_blank"
+                  title="苏州市自然资源和规划局">
+                  苏州市自然资源和规划局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://sthjj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市生态环境局">
+                  苏州市生态环境局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://zfcjj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市住房和城乡建设局">
+                  苏州市住房和城乡建设局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://ylj.suzhou.gov.cn" target="_blank"
+                  title="苏州市园林和绿化管理局">
+                  苏州市园林和绿化管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://cgj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市城市管理局">
+                  苏州市城市管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://jtj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市交通运输局">
+                  苏州市交通运输局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://water.suzhou.gov.cn/" target="_blank"
+                  title="苏州市水务局">
+                  苏州市水务局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://nyncj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市农业农村局">
+                  苏州市农业农村局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://commerce.suzhou.gov.cn/" target="_blank"
+                  title="苏州市商务局">
+                  苏州市商务局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://wglj.suzhou.gov.cn" target="_blank"
+                  title="苏州市文化广电和旅游局">
+                  苏州市文化广电和旅游局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://wsjkw.suzhou.gov.cn/" target="_blank"
+                  title="苏州市卫生健康委员会">
+                  苏州市卫生健康委员会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://tyjrswj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市退役军人事务局">
+                  苏州市退役军人事务局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://yjglj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市应急管理局">
+                  苏州市应急管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://audit.suzhou.gov.cn/" target="_blank"
+                  title="苏州市审计局">
+                  苏州市审计局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://wsb.suzhou.gov.cn/" target="_blank"
+                  title="苏州市人民政府外事办公室">
+                  苏州市人民政府外事办公室
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://guozw.suzhou.gov.cn/" target="_blank"
+                  title="苏州市人民政府国有资产监督管理委员会">
+                  苏州市人民政府国有资产监督管理委员会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://xzspj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市数据局">
+                  苏州市数据局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://scjgj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市市场监督管理局">
+                  苏州市市场监督管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://tiyuju.suzhou.gov.cn/" target="_blank"
+                  title="苏州市体育局">
+                  苏州市体育局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://tjj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市统计局">
+                  苏州市统计局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://ybj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市医疗保障局">
+                  苏州市医疗保障局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://xinfj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市信访局">
+                  苏州市信访局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://rfb.suzhou.gov.cn/" target="_blank"
+                  title="苏州市国防动员办公室">
+                  苏州市国防动员办公室
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://jrjgj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市地方金融管理局">
+                  苏州市地方金融管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://jgswj.suzhou.gov.cn" target="_blank"
+                  title="苏州市机关事务管理局">
+                  苏州市机关事务管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.rd.suzhou.gov.cn/" target="_blank"
+                  title="苏州市人大常委会">
+                  苏州市人大常委会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.zx.suzhou.gov.cn/" target="_blank"
+                  title="政协苏州市委员会">
+                  政协苏州市委员会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.lianshi.gov.cn/" target="_blank"
+                  title="中共苏州市纪委 苏州市监委">
+                  中共苏州市纪委 苏州市监委
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://sz.jsjc.gov.cn/" target="_blank"
+                  title="苏州市人民检察院">
+                  苏州市人民检察院
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.szzzb.gov.cn/" target="_blank"
+                  title="中共苏州市委组织部">
+                  中共苏州市委组织部
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.xcb.suzhou.gov.cn/" target="_blank"
+                  title="中共苏州市委宣传部">
+                  中共苏州市委宣传部
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="https://swzfw.suzhou.gov.cn/" target="_blank"
+                  title="中共苏州市委政法委员会">
+                  中共苏州市委政法委员会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="https://szyouth.suzhou.gov.cn/" target="_blank"
+                  title="共青团苏州市委员会">
+                  共青团苏州市委员会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://szwomen.suzhou.gov.cn/" target="_blank"
+                  title="苏州市妇女联合会">
+                  苏州市妇女联合会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.cl.suzhou.gov.cn/" target="_blank"
+                  title="苏州市残疾人联合会">
+                  苏州市残疾人联合会
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://gxhzs.suzhou.gov.cn" target="_blank"
+                  title="苏州市供销合作总社">
+                  苏州市供销合作总社
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://dfzb.suzhou.gov.cn/" target="_blank"
+                  title="苏州市地方志工作办公室">
+                  苏州市地方志工作办公室
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://gjj.suzhou.gov.cn/" target="_blank"
+                  title="苏州市住房公积金管理中心">
+                  苏州市住房公积金管理中心
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://jiangsu.chinatax.gov.cn/col/col8648/" target="_blank"
+                  title="苏州市税务局">
+                  苏州市税务局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://js.spb.gov.cn/jssyzglj/c102236/indexshi.shtml" target="_blank"
+                  title="苏州市邮政管理局">
+                  苏州市邮政管理局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://js.cma.gov.cn/dsjwz/szs/" target="_blank"
+                  title="苏州市气象局">
+                  苏州市气象局
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://ggzy.suzhou.gov.cn/" target="_blank"
+                  title="苏州市公共资源交易中心">
+                  苏州市公共资源交易中心
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="https://credit.suzhou.gov.cn/" target="_blank"
+                  title="信用苏州">
+                  信用苏州
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.12345.suzhou.com.cn/" target="_blank"
+                  title="12345苏州阳光便民">
+                  12345苏州阳光便民
+                </a></h4>
+            </li>
+
+        </ul>
+
+        <ul class="clearfix">
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.beijing.gov.cn/" target="_blank"
+                  title="北京市">
+                  北京市
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.tj.gov.cn/" target="_blank"
+                  title="天津市">
+                  天津市
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.hebei.gov.cn/" target="_blank"
+                  title="河北省">
+                  河北省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.shanxi.gov.cn/" target="_blank"
+                  title="山西省">
+                  山西省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.nmg.gov.cn/" target="_blank"
+                  title="内蒙古自治区">
+                  内蒙古自治区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.ln.gov.cn/" target="_blank"
+                  title="辽宁省">
+                  辽宁省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.jl.gov.cn/" target="_blank"
+                  title="吉林省">
+                  吉林省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.hlj.gov.cn/" target="_blank"
+                  title="黑龙江省">
+                  黑龙江省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.shanghai.gov.cn/" target="_blank"
+                  title="上海市">
+                  上海市
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.jiangsu.gov.cn/" target="_blank"
+                  title="江苏省">
+                  江苏省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.zj.gov.cn/" target="_blank"
+                  title="浙江省">
+                  浙江省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.ah.gov.cn/" target="_blank"
+                  title="安徽省">
+                  安徽省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.fujian.gov.cn/" target="_blank"
+                  title="福建省">
+                  福建省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.jiangxi.gov.cn/" target="_blank"
+                  title="江西省">
+                  江西省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.shandong.gov.cn/" target="_blank"
+                  title="山东省">
+                  山东省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.henan.gov.cn/" target="_blank"
+                  title="河南省">
+                  河南省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.hubei.gov.cn/" target="_blank"
+                  title="湖北省">
+                  湖北省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.hunan.gov.cn/" target="_blank"
+                  title="湖南省">
+                  湖南省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.gd.gov.cn/" target="_blank"
+                  title="广东省">
+                  广东省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.gxzf.gov.cn/" target="_blank"
+                  title="广西壮族自治区">
+                  广西壮族自治区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.hainan.gov.cn/" target="_blank"
+                  title="海南省">
+                  海南省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.cq.gov.cn/" target="_blank"
+                  title="重庆市">
+                  重庆市
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.sc.gov.cn/" target="_blank"
+                  title="四川省">
+                  四川省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.guizhou.gov.cn/" target="_blank"
+                  title="贵州省">
+                  贵州省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.yn.gov.cn/" target="_blank"
+                  title="云南省">
+                  云南省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.xizang.gov.cn/" target="_blank"
+                  title="西藏自治区">
+                  西藏自治区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.shaanxi.gov.cn/" target="_blank"
+                  title="陕西省">
+                  陕西省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.gansu.gov.cn/" target="_blank"
+                  title="甘肃省">
+                  甘肃省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.qinghai.gov.cn/" target="_blank"
+                  title="青海省">
+                  青海省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.nx.gov.cn/" target="_blank"
+                  title="宁夏回族自治区">
+                  宁夏回族自治区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.xinjiang.gov.cn/" target="_blank"
+                  title="新疆维吾尔自治区">
+                  新疆维吾尔自治区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.gov.hk/" target="_blank"
+                  title="香港特别行政区">
+                  香港特别行政区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.gov.mo/" target="_blank"
+                  title="澳门特别行政区">
+                  澳门特别行政区
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="#" target="_blank"
+                  title="台湾省">
+                  台湾省
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="https://www.xjbt.gov.cn/" target="_blank"
+                  title="新疆生产建设兵团">
+                  新疆生产建设兵团
+                </a></h4>
+            </li>
+
+        </ul>
+        <ul class="clearfix">
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.nanjing.gov.cn/" target="_blank"
+                  title="南京">
+                  南京
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.wuxi.gov.cn/" target="_blank"
+                  title="无锡">
+                  无锡
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.xz.gov.cn/" target="_blank"
+                  title="徐州">
+                  徐州
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.changzhou.gov.cn/" target="_blank"
+                  title="常州">
+                  常州
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.nantong.gov.cn/" target="_blank"
+                  title="南通">
+                  南通
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.lyg.gov.cn/" target="_blank"
+                  title="连云港">
+                  连云港
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.huaian.gov.cn/" target="_blank"
+                  title="淮安">
+                  淮安
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.yancheng.gov.cn/" target="_blank"
+                  title="盐城">
+                  盐城
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.yangzhou.gov.cn/" target="_blank"
+                  title="扬州">
+                  扬州
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.zhenjiang.gov.cn/" target="_blank"
+                  title="镇江">
+                  镇江
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.taizhou.gov.cn/" target="_blank"
+                  title="泰州">
+                  泰州
+                </a></h4>
+            </li>
+
+            <li>
+              <h4><a rel="nofollow" href="http://www.suqian.gov.cn/" target="_blank"
+                  title="宿迁">
+                  宿迁
+                </a></h4>
+            </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="footer-txt">
+      <div class="footer-nav">
+        <a href="/szsrmzf/wzdt/map.shtml"  target="_self">网站地图</a><span
+          class='split'>|</span>
+        <a href="/szsrmzf/lxwm/wztt.shtml"  target="_self">联系我们</a>
+      </div>
+      <div class="footer-copyright">
+        <span class="mar">版权所有：苏州市人民政府</span><span class="mar">主办单位：苏州市人民政府办公室</span><span>承办单位：苏州市政府门户网站管理中心</span><br>
+        <span class="mar"><a href="http://beian.miit.gov.cn/" target="_blank">苏ICP备10219514号-1</a></span>
+        <span class="mar">网站标识码：3205000002</span><span><a class="beian" target="_blank"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32050802010561">苏公网安备32050802010561号</a></span><br>
+        <span class="mar">推荐使用1024*768或以上分辨率，并使用IE9.0或以上版本浏览器</span><span>网站支持<em class="ipv6">IPV6</em></span>
+      </div>
+    </div>
+    <div class="footer-wzbs">
+      <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='https://dcs.conac.cn/js/11/181/0000/60602380/CA111810000606023800001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+      <a class="jiucuo"
+        href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=3205000002&url=http%3A%2F%2Fwww.suzhou.gov.cn%2F"><img
+          src="/szsrmzf/xhtml/static/2025/images/public/footer_jiucuo.png" alt=""></a>
+      <img class="slh" src="/szsrmzf/xhtml/static/2025/images/public/footer_slh.png" alt="">
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/szsrmzf/xhtml/static/2025/js/footer.js?v=3"></script>
+<script src="//gov.govwza.cn/dist/aria.js?appid=3c28999baf2031b67bd890ee8f846e73" charset="utf-8"></script>
+
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?d49455d5666ed7b37e8ff3f76878a277";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+  <!--footer End-->
+ <div class="zdl">
+     
+
+      
+
+  </div>
+  
+      <!-- 弹窗 -->
+      <div id="ww-myModal">
+          <!-- 弹窗内容 -->
+          <div id="ww-modal-content">
+              <!-- 关闭按钮 -->
+              <span class="ww-close" onclick="document.getElementById('ww-myModal').style.display='none'">×</span>
+              <h1 class="ww-title"></h1>
+              <div class="ww-caption"></div>
+          </div>
+      </div>
+        <!-- 气象预警 S -->
+    <div class="section weather-warning" id="weather-warning">
+      <div class="dl-close" onclick="document.getElementById('weather-warning').style.display='none'"></div>
+      <!-- 触发弹窗 -->
+      <div id="ww-myImg">
+          <div class="ww-myImgicons">
+              <div class="bd">
+                  <ul class="wetherList"></ul>
+              </div>
+          </div>
+          <i><img src="/szsrmzf/xhtml/images/ww-qxyjtitle.png" /></i>
+      </div>
+  
+ 
+    </div>
+    <!-- 气象预警 E -->
+  <!-- 右快捷按钮 S -->
+  <div class="quickbar" style=" background: #fff;    padding-left: 5px;padding-right: 5px;    right: 0px">
+    <div class="quickpannel">
+          <dl class="dl-tjsj" style="margin-top:12px;">
+        <dt>
+          <a href="/szsrmzf/datasz/datasz.shtml" title="统计数据" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_tjsj.png" alt=""  style=" width: 19px; margin-bottom: 8px;">
+            <span>统计数据</span>
+          </a>
+        </dt>
+      </dl>
+        <dl class="dl-user">
+        <dt>
+          <a href="/usercenter/index.shtml" title="用户中心" target="_blank" >
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_user.png" alt=""  style=" width: 19px; margin-bottom: 8px;">
+            <span>用户中心</span>
+          </a>
+        </dt>
+      </dl>
+    <dl class="dl-znwd" >
+        <dt>
+          <a href="/ghwd/znwd/index.html" title="智能问答" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_znwd.png" alt="">
+            <span>智能问答</span>
+          </a>
+        </dt>
+      </dl>
+      <dl class="dl-zsk">
+        <dt>
+          <a href="/szsrmzf/dwzsk/dwzsk.shtml" title="答问知识库" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_zsk.png" alt="">
+            <span>答问知识库</span>
+          </a>
+        </dt>
+      </dl>
+      <dl class="dl-hqzc">
+        <dt>
+          <a href="/szsrmzf/hqzcjzd/szhqzcjzd.shtml" title="惠企政策精准达" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_hqzc.png" alt="">
+            <span>惠企政策<br>精准达</span>
+          </a>
+        </dt>
+      </dl>
+            <dl class="dl-hqzc">
+        <dt>
+          <a href="/szsrmzf/hmzcjzd/szhmzcjzdindex.shtml" title="惠民政策精准达" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_hmzc.png" alt="" style="width:20px">
+            <span>惠民政策<br>精准达</span>
+          </a>
+        </dt>
+      </dl>
+      <dl class="dl-weixin">
+        <dt>
+          <a href="javascript:void(0);" title="微信公众号">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_wx.png" alt="">
+            <span>微信公众号</span>
+          </a>         
+        </dt>
+        <dd>
+          <div class="cont"><img src="/szsrmzf/xhtml/static/2023/images/public/ewm_wx.jpg"></div>
+        </dd>
+      </dl>
+      <dl class="dl-sst">
+        <dt>
+          <a href="https://sst.suzhou.gov.cn/" title="苏商通" target="_blank">
+            <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_sst.png" alt="">
+            <span>苏商通</span>
+          </a>         
+        </dt>
+      </dl>
+    </div>
+    <div class="icon-close">
+      <img src="/szsrmzf/xhtml/static/2025/images/public/quickbar_icon_close.png" alt="">
+    </div>
+  </div>
+  <!-- 右快捷按钮 E -->
+  <style>
+  .index-zwyw div.tit.elli-s a {
+    color: #2871af;
+}</style>
+  <script type="text/javascript" src="/szsrmzf/xhtml/static/2025/js/common.js"></script>
+  <script type="text/javascript" src="/szsrmzf/xhtml/static/2025/js/index.js?v=1225"></script>
+</body>
+
+</html>

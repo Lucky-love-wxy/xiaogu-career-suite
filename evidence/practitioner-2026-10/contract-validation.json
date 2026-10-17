@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "jd_fields_unchanged": true,
+  "negative_cases": [
+    {
+      "case": "所有作者导流不能full",
+      "result": "REJECTED"
+    },
+    {
+      "case": "过期作者不能full",
+      "result": "REJECTED"
+    },
+    {
+      "case": "海外不计中国作者",
+      "result": "REJECTED"
+    },
+    {
+      "case": "海外任务证据不得支撑中国指标",
+      "result": "REJECTED"
+    }
+  ],
+  "cards": 170
+}

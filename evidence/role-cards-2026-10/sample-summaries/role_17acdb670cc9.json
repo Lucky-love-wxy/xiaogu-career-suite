@@ -1,0 +1,84 @@
+{
+  "name": [
+    {
+      "text": "店员/营业员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "店员/营业员"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8m5naMZt"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“中药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中药学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8m5naMZt"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“生物科学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "生物科学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8m5naMZt"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "药店营业员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8m5naMZt"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

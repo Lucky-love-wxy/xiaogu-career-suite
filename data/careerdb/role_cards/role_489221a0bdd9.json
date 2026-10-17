@@ -1,0 +1,281 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_489221a0bdd9",
+  "node": "医疗健康 › 其他医疗健康职位 › 医学编辑",
+  "family": "医疗健康",
+  "parent_id": "医疗健康 › 其他医疗健康职位",
+  "tier": "P1",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 9,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "医疗健康 › 其他医疗健康职位 › 医学编辑",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vrU5MaaLa",
+      "type": "recruitment_jd",
+      "title": "医学编辑",
+      "company": "吉林驰业生物医学有限公司",
+      "url": "https://campus.niuqizp.com/job-vrU5MaaLa.html",
+      "date": "2026-09-26",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "医学编辑\n公司介绍\n公司名称\n吉林驰业生物医学有限公司\n长春市高新开发区硅谷大街1198号硅谷大厦10楼1001室",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vrU5MaaLa.html",
+      "cache_sha256": "4113771d0219cd09bbe6aefc89b601bcfaad7997e91d56a106b722ce9e9aa5e6"
+    },
+    {
+      "id": "vsl5ntZNC",
+      "type": "recruitment_jd",
+      "title": "医学编辑",
+      "company": "世界图书出版有限公司",
+      "url": "https://campus.niuqizp.com/job-vsl5ntZNC.html",
+      "date": "2026-09-16",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "【职位描述】\n1.医学专业书和科普书选题的策划与开发。\n2.医学图书的编辑出版工作。\n3.推动图书上市后的媒体宣传和市场营销。\n4.完成部门交办的其他工作。\n【任职资格】\n1.硕士及以上学历，医学相关专业，临床医学优先。\n2.文字功底好，有良好的语言表达能力和英文阅读能力。\n3.喜爱读书和编辑工作，对图书出版领域有一定认知和见解。\n4.责任心强，具备合作精神，有良好的沟通能力和适应能力。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vsl5ntZNC.html",
+      "cache_sha256": "f6d2773000524084685578b16ef131d7ec1a2d091b6bd1a70aa2f419e0e507d2"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前2份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vmm5ZzZMZ",
+      "url": "https://campus.niuqizp.com/job-vmm5ZzZMZ.html",
+      "role": "医学出版中心负责人,医学编辑,综合编辑,发行部负责人,实习生,新媒体实习生",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vmy5NNMta",
+      "url": "https://campus.niuqizp.com/job-vmy5NNMta.html",
+      "role": "医学编辑|生物医学编辑",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vsU5N5nzN",
+      "url": "https://campus.niuqizp.com/job-vsU5N5nzN.html",
+      "role": "生产监查员|医学编辑",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "vw85C5LMt",
+      "url": "https://campus.niuqizp.com/job-vw85C5LMt.html",
+      "role": "药学方向医学编辑|医学编辑",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    },
+    {
+      "id": "manual-role_postings-1",
+      "url": "https://www.zhipin.com/job_detail/5b5dc51d229485a50nV43Nu8FFZV.html",
+      "role": "医学编辑",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings-2",
+      "url": "https://www.zhipin.com/job_detail/2c403d608814813903Jy2t-4FFRT.html",
+      "role": "医学编辑",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    },
+    {
+      "id": "manual-role_postings-3",
+      "url": "https://www.zhipin.com/job_detail/c44b1b77680781b403B72di5GFRT.html",
+      "role": "医学编辑",
+      "reasons": [
+        "人工补证未合并原始正文；且不将社招混入校招分母",
+        "缺可核职责正文"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "医学编辑",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "医学编辑"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "医学编辑",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vrU5MaaLa"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vsl5ntZNC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vrU5MaaLa"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vsl5ntZNC"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "医学编辑",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vrU5MaaLa",
+        "vsl5ntZNC"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

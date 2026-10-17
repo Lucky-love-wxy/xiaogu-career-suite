@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4f0">
+  <title>小谷 · 一点灵动，更大的可能</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="motion.js" defer></script>
+</head>
+<body>
+  <header class="header"><a class="brand" href="#" aria-label="小谷首页"><span class="brand-mark">小谷</span><span class="brand-en">XIAO GU<span>YOUR LITTLE COMPANION</span></span></a><button class="theme-button" id="theme" aria-label="切换夜间场景" aria-pressed="false">夜间场景 <span aria-hidden="true">↗</span></button></header>
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="intro">
+        <div class="eyebrow"><span class="status-light"></span> SMALL FRIEND. BIG POSSIBILITIES.</div>
+        <h1 id="title">一点灵动，<br>更大的<span class="possibility">可能<svg viewBox="0 0 180 14" aria-hidden="true"><path d="M2 9 Q80 -3 178 7 M25 13 Q100 4 161 10"/></svg></span>。</h1>
+        <p class="description">我是小谷，你的灵感搭子。<br>陪你思考，和你创造，<br>也陪你享受什么都不做的片刻。</p>
+        <button class="greet" id="greet">和小谷打个招呼 <span aria-hidden="true">↗</span></button>
+        <div class="mini-note"><span class="note-line"></span> 黑与白之间，是无限的想象。</div>
+      </div>
+      <div class="stage" id="stage" data-mood="idle">
+        <div class="stage-top"><span>MEET XIAO GU</span><span class="live-label"><i></i> LIVE</span></div>
+        <div class="speech" id="speech" aria-live="polite">嗨，今天想一起做点什么？</div>
+        <div class="character-wrap" id="character" role="button" tabindex="0" aria-label="点击小谷，和它打招呼">
+        <svg class="mascot" viewBox="0 0 600 600" role="img" aria-label="头顶小芽的黑白小谷角色">
+          <defs>
+            <radialGradient id="hood" cx="32%" cy="22%" r="80%"><stop stop-color="#555957"/><stop offset=".42" stop-color="#282b29"/><stop offset="1" stop-color="#0e1110"/></radialGradient>
+            <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#eeede9"/><stop offset="1" stop-color="#b7b9b3"/></linearGradient>
+            <radialGradient id="face" cx="38%" cy="30%" r="76%"><stop stop-color="#fffefa"/><stop offset=".7" stop-color="#edece7"/><stop offset="1" stop-color="#c8c9c2"/></radialGradient>
+            <linearGradient id="shoe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4b4f4c"/><stop offset="1" stop-color="#101411"/></linearGradient>
+            <radialGradient id="eye" cx="28%" cy="20%"><stop stop-color="#575b56"/><stop offset=".5" stop-color="#151815"/><stop offset="1" stop-color="#070a08"/></radialGradient>
+            <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#555b54"/><stop offset=".45" stop-color="#242a23"/><stop offset="1" stop-color="#0b100c"/></linearGradient>
+            <linearGradient id="device" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3f3ee"/><stop offset="1" stop-color="#aeb3ac"/></linearGradient>
+            <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+          </defs>
+          <ellipse class="ground-shadow" cx="302" cy="534" rx="130" ry="16" fill="#41463a" opacity=".18" filter="url(#soft)"/>
+          <g class="body-float">
+            <g class="body"><path d="M255 362 Q220 392 222 453 Q226 490 301 490 Q372 490 381 451 Q378 386 345 363Z" fill="url(#hood)"/>
+              <path d="M267 371 Q292 399 319 374 L329 449 Q300 462 272 447Z" fill="url(#rim)"/>
+              <path d="M285 370 L302 384 L320 371 L312 400 Q300 408 287 398Z" fill="#fffdf6"/>
+              <path d="M283 379 Q269 390 284 398 L299 387Z M318 379 Q332 390 318 398 L301 387Z" fill="#fffdf6"/>
+              <g class="arm-left"><path d="M246 381 Q215 387 201 424 Q197 442 213 449 Q234 453 244 429 L261 402Z" fill="url(#hood)"/><ellipse cx="218" cy="432" rx="19" ry="23" fill="url(#shoe)"/></g>
+              <g class="arm-right"><path d="M351 383 Q388 389 401 422 Q407 443 390 450 Q370 450 358 426 L343 400Z" fill="url(#hood)"/><ellipse cx="385" cy="433" rx="19" ry="23" fill="url(#shoe)"/></g>
+              <g class="feet"><path d="M240 453 Q264 437 282 461 Q296 484 278 515 Q254 539 230 516 Q214 494 240 453Z" fill="url(#rim)"/><ellipse cx="252" cy="487" rx="30" ry="41" transform="rotate(-19 252 487)" fill="url(#shoe)"/>
+              <path d="M325 460 Q345 439 370 455 Q396 494 373 521 Q344 540 324 511 Q311 486 325 460Z" fill="url(#rim)"/><ellipse cx="351" cy="488" rx="30" ry="41" transform="rotate(19 351 488)" fill="url(#shoe)"/></g>
+            </g>
+            <g class="head">
+              <g class="sprout"><path d="M316 153 Q322 127 333 112" fill="none" stroke="#202720" stroke-width="9" stroke-linecap="round"/><path d="M324 133 C285 128 274 85 290 79 C310 73 337 107 324 133Z" fill="url(#leaf)"/><path d="M328 132 C330 94 384 86 389 103 C392 123 354 140 328 132Z" fill="url(#leaf)"/><path d="M295 87 Q310 93 318 117" stroke="#7e8579" stroke-width="2" fill="none" opacity=".4"/></g>
+              <path d="M305 130 C407 126 457 207 447 289 C442 360 399 397 303 394 C211 396 163 366 157 289 C149 205 203 137 305 130Z" fill="url(#hood)"/>
+              <path d="M296 162 C371 156 417 213 414 288 C412 347 372 374 299 373 C225 374 182 345 182 284 C179 216 226 167 296 162Z" fill="url(#rim)"/>
+              <path d="M296 179 C361 172 399 221 399 280 C400 335 365 359 298 358 C233 359 197 333 197 280 C194 223 232 182 296 179Z" fill="#242622"/>
+              <path d="M300 207 C352 203 388 238 389 285 C392 331 357 350 299 350 C240 351 205 328 207 284 C208 239 243 211 300 207Z" fill="url(#face)"/>
+              <path d="M207 261 C210 215 244 182 299 180 C352 176 384 213 393 253 C363 237 350 220 337 210 C294 232 249 221 229 242Z" fill="url(#hood)"/>
+              <g class="face-features"><g class="eyes"><g class="eye-left"><ellipse cx="253" cy="277" rx="15" ry="24" fill="url(#eye)"/><ellipse cx="248" cy="267" rx="4" ry="6" fill="#fff" opacity=".8"/></g><g class="eye-right"><ellipse cx="347" cy="277" rx="15" ry="24" fill="url(#eye)"/><ellipse cx="342" cy="267" rx="4" ry="6" fill="#fff" opacity=".8"/></g></g>
+                <g class="happy-eyes"><path d="M239 279 Q253 263 267 279 M333 279 Q347 263 361 279" fill="none" stroke="#222722" stroke-width="6" stroke-linecap="round"/></g>
+                <g class="cheeks" fill="#d9c5b8"><ellipse cx="232" cy="308" rx="14" ry="6"/><ellipse cx="368" cy="308" rx="14" ry="6"/></g>
+                <path class="smile" d="M288 316 Q300 329 313 316" fill="none" stroke="#262b26" stroke-width="4" stroke-linecap="round"/>
+                <ellipse class="open-mouth" cx="301" cy="321" rx="10" ry="12" fill="#272e26"/>
+              </g>
+            </g>
+            <g class="laptop"><path d="M244 395 L353 395 Q360 395 358 403 L340 458 L259 458 L238 402 Q237 395 244 395Z" fill="url(#device)" stroke="#f8f9f2" stroke-width="2"/><path d="M245 457 H352 L362 464 Q300 472 242 464Z" fill="#999f97"/><path d="M298 430 C282 430 280 413 287 414 C295 414 300 424 298 430 M302 430 C301 418 317 414 318 421 C316 430 306 433 302 430" fill="#3d4739"/></g>
+          </g>
+          <g class="thought-dots" fill="#59604e"><circle cx="423" cy="172" r="5"/><circle cx="445" cy="150" r="7"/><circle cx="472" cy="127" r="10"/></g>
+          <g class="sparkles" stroke="#87976a" fill="none" stroke-width="3" stroke-linecap="round"><path d="M151 184 v22 M140 195 h22 M455 337 v26 M442 350 h26 M415 116 v16 M407 124 h16"/><path d="M121 315 l-8 6 M473 215 l10 -3"/></g>
+        </svg>
+        </div>
+        <div class="stage-bottom"><span><span class="mood-dot"></span> <span id="mood-label">自在待机</span></span><span class="hint">移动鼠标，小谷会看向你</span></div>
+      </div>
+    </section>
+    <section class="motion-bar" aria-label="动效控制">
+      <div class="bar-title"><span>小谷的日常</span><small>A LITTLE MOMENT</small></div>
+      <div class="moods" role="group" aria-label="选择小谷状态">
+        <button data-mode="idle" aria-pressed="true"><span class="mode-num">01</span> 待机</button>
+        <button data-mode="happy" aria-pressed="false"><span class="mode-num">02</span> 开心</button>
+        <button data-mode="think" aria-pressed="false"><span class="mode-num">03</span> 思考</button>
+        <button data-mode="focus" aria-pressed="false"><span class="mode-num">04</span> 专注</button>
+        <button data-mode="cheer" aria-pressed="false"><span class="mode-num">05</span> 加油</button>
+      </div>
+      <div class="playback"><button id="speed" aria-label="切换动效速度">1×</button><button id="pause" aria-pressed="false" aria-label="暂停动效">暂停</button></div>
+    </section>
+    <footer><span>用更纯粹的视角，看见更大的可能。</span><span>点击小谷试试看 <span class="footer-arrow" aria-hidden="true">↑</span></span><span>XIAO GU · MOTION STUDY / 2026</span></footer>
+  </main>
+</body>
+</html>

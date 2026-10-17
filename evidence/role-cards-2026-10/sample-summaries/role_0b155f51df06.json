@@ -1,0 +1,622 @@
+{
+  "name": [
+    {
+      "text": "自动化工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "自动化工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 18,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "参与自动化与数字化项目",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYm5CCa5a",
+        "vmy5Catnn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYm5CCa5a",
+          "text": "参与自动化与数字化项目"
+        },
+        {
+          "evidence_id": "vmy5Catnn",
+          "text": "参与自动化与数字化项目"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责电气系统项目设计工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsr55M55C"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsr55M55C",
+          "text": "负责电气系统项目设计工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责PLC编程及相关软件编写",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk855M5M5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk855M5M5",
+          "text": "负责PLC编程及相关软件编写"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责自动化工程施工和设备调试",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vk855M5M5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vk855M5M5",
+          "text": "负责自动化工程施工和设备调试"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助设备厂商安装、调试自动化设备",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885MntCZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885MntCZ",
+          "text": "协助设备厂商安装、调试自动化设备"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "整理设备BOM、维修手册、改善报告",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "v885MntCZ"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "v885MntCZ",
+          "text": "整理设备BOM、维修手册、改善报告"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合完成售前支持及售后服务相关工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsk5NanNC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsk5NanNC",
+          "text": "配合完成售前支持及售后服务相关工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责项目的现场调试及复杂故障分析解决",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vsr55M55C"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vsr55M55C",
+          "text": "负责项目的现场调试及复杂故障分析解决"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "18份保留的校招平台样本中，2份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 2,
+        "denominator": 18,
+        "matched_ids": [
+          "v885MntCZ",
+          "vwy5MLz5a"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，6份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 6,
+        "denominator": 18,
+        "matched_ids": [
+          "v8k5Ct5ZM",
+          "vYm5CCa5a",
+          "vkk5MMtaZ",
+          "vrk5aZ5ML",
+          "vsk5NanNC",
+          "vyr5tLztt"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，7份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 7,
+        "denominator": 18,
+        "matched_ids": [
+          "v8Y5CN5LM",
+          "vk855M5M5",
+          "vkU5aaLaM",
+          "vkr5aZNn5",
+          "vmy5Catnn",
+          "vsr55M55C",
+          "vw85CLNaa"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，3份学历字段为“硕士”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "硕士",
+        "n": 3,
+        "denominator": 18,
+        "matched_ids": [
+          "vlr5n5nZn",
+          "vrl5MZzz5",
+          "vss5CC5Mn"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，3份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 3,
+        "denominator": 18,
+        "matched_ids": [
+          "vkr5aZNn5",
+          "vlr5n5nZn",
+          "vrl5MZzz5"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，4份专业类字段为“机械类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "机械类",
+        "n": 4,
+        "denominator": 18,
+        "matched_ids": [
+          "vkU5aaLaM",
+          "vrk5aZ5ML",
+          "vsk5NanNC",
+          "vwy5MLz5a"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“材料类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "材料类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vrk5aZ5ML"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，8份专业类字段为“电气类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电气类",
+        "n": 8,
+        "denominator": 18,
+        "matched_ids": [
+          "v8Y5CN5LM",
+          "v8k5Ct5ZM",
+          "vkU5aaLaM",
+          "vrk5aZ5ML",
+          "vsk5NanNC",
+          "vsr55M55C",
+          "vss5CC5Mn",
+          "vw85CLNaa"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，4份专业类字段为“自动化类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "自动化类",
+        "n": 4,
+        "denominator": 18,
+        "matched_ids": [
+          "v8Y5CN5LM",
+          "vk855M5M5",
+          "vsk5NanNC",
+          "vsr55M55C"
+        ]
+      }
+    },
+    {
+      "text": "18份保留的校招平台样本中，1份专业类字段为“设计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "设计学类",
+        "n": 1,
+        "denominator": 18,
+        "matched_ids": [
+          "vsk5NanNC"
+        ]
+      }
+    },
+    {
+      "text": "18份保留样本中，4份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "v8k5Ct5ZM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vrl5MZzz5",
+        "vsk5NanNC",
+        "vsr55M55C",
+        "vss5CC5Mn",
+        "vw85CLNaa",
+        "vwy5MLz5a",
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 4,
+        "denominator": 18,
+        "matched_ids": [
+          "v8k5Ct5ZM",
+          "vsk5NanNC",
+          "vsr55M55C",
+          "vw85CLNaa"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "自动化工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v885MntCZ",
+        "v8Y5CN5LM",
+        "vYm5CCa5a",
+        "vk855M5M5",
+        "vkU5aaLaM",
+        "vkk5MMtaZ",
+        "vkr5aZNn5",
+        "vlr5n5nZn",
+        "vmy5Catnn",
+        "vrk5aZ5ML",
+        "vsk5NanNC",
+        "vwy5MLz5a"
+      ],
+      "quotes": [],
+      "count": 12
+    },
+    {
+      "text": "电气与自动化工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vss5CC5Mn",
+        "vw85CLNaa"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "2026招聘自动化工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vyr5tLztt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "电气自动化工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsr55M55C"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "电气自动化工程师（地点 宜昌）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrl5MZzz5"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "自动化工程师（长沙）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8k5Ct5ZM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

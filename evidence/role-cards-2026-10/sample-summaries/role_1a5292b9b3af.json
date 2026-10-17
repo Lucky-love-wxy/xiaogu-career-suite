@@ -1,0 +1,157 @@
+{
+  "name": [
+    {
+      "text": "礼仪/迎宾/接待",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "礼仪/迎宾/接待"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，3份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5NaCz5",
+        "vrU5CZzaM",
+        "vsr5nnNLt",
+        "vws5MNnaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "vmk5NaCz5",
+          "vrU5CZzaM",
+          "vws5MNnaZ"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5NaCz5",
+        "vrU5CZzaM",
+        "vsr5nnNLt",
+        "vws5MNnaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vsr5nnNLt"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5NaCz5",
+        "vrU5CZzaM",
+        "vsr5nnNLt",
+        "vws5MNnaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vmk5NaCz5"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，4份专业类字段为“旅游管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5NaCz5",
+        "vrU5CZzaM",
+        "vsr5nnNLt",
+        "vws5MNnaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "旅游管理类",
+        "n": 4,
+        "denominator": 4,
+        "matched_ids": [
+          "vmk5NaCz5",
+          "vrU5CZzaM",
+          "vsr5nnNLt",
+          "vws5MNnaZ"
+        ]
+      }
+    },
+    {
+      "text": "4份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmk5NaCz5",
+        "vrU5CZzaM",
+        "vsr5nnNLt",
+        "vws5MNnaZ"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vsr5nnNLt"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "前台接待",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmk5NaCz5",
+        "vws5MNnaZ"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "客房接待",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vsr5nnNLt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "行政楼层接待",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrU5CZzaM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

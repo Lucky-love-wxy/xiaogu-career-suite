@@ -11,5 +11,20 @@ profile/candidate-profile.md
 evidence/hypefade-index.js
 evidence/inspect_hypefade.mjs
 
-# Local research evidence
-evidence/
+# 研究证据（evidence/）2026-10-14 起随仓库上传（用户要求小谷相关文件全部上 GitHub，仓库为私有）
+# Office 打开文件时的锁文件、测试缓存
+~$*
+.pytest_cache/
+
+# 本地预览配置
+.claude/
+
+# Web Agent 本地运行日志（含用户原话）
+web/logs/
+
+# 上线平台：本地虚拟环境、数据库、部署密钥
+.venv/
+web/data/
+platform/data/
+platform/logs/
+platform/deploy/*.env

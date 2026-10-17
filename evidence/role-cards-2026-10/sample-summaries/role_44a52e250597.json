@@ -1,0 +1,269 @@
+{
+  "name": [
+    {
+      "text": "通信技术工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "通信技术工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 6,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "开展工程项目数据分析与复盘，优化建设流程，压降建设成本、提升建设效率",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vks5C5Mza"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vks5C5Mza",
+          "text": "开展工程项目数据分析与复盘，优化建设流程，压降建设成本、提升建设效率"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责工程物资、造价、合同、结算资料审核，推进项目按期完工、验收及归档",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vks5C5Mza"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vks5C5Mza",
+          "text": "负责工程物资、造价、合同、结算资料审核，推进项目按期完工、验收及归档"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责全市通信网络、云网、管线等工程项目的统筹立项、进度管控与全过程项目管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vks5C5Mza"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vks5C5Mza",
+          "text": "负责全市通信网络、云网、管线等工程项目的统筹立项、进度管控与全过程项目管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责落实通信网络设备运行维护管理要求，针对网络维护相关的故障、用户申告等问题提供技术支撑，涉及通信基站主设备、传输系统、无线网络及核心网等通信技术类基础设施的维护与管理，重点面向算力建设、交付及维护，为网络运营及日常管理提供基础保障",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmkNLLLCM"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmkNLLLCM",
+          "text": "负责落实通信网络设备运行维护管理要求，针对网络维护相关的故障、用户申告等问题提供技术支撑，涉及通信基站主设备、传输系统、无线网络及核心网等通信技术类基础设施的维护与管理，重点面向算力建设、交付及维护，为网络运营及日常管理提供基础保障"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "6份保留的校招平台样本中，2份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5Ma5Ct",
+        "vUU5nnntt",
+        "vkU5t5CZa",
+        "vks5C5Mza",
+        "vmkNLLLCM",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 2,
+        "denominator": 6,
+        "matched_ids": [
+          "vkU5t5CZa",
+          "vss55Ctnt"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，4份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5Ma5Ct",
+        "vUU5nnntt",
+        "vkU5t5CZa",
+        "vks5C5Mza",
+        "vmkNLLLCM",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 4,
+        "denominator": 6,
+        "matched_ids": [
+          "v8l5Ma5Ct",
+          "vUU5nnntt",
+          "vks5C5Mza",
+          "vmkNLLLCM"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5Ma5Ct",
+        "vUU5nnntt",
+        "vkU5t5CZa",
+        "vks5C5Mza",
+        "vmkNLLLCM",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 6,
+        "matched_ids": [
+          "vks5C5Mza",
+          "vmkNLLLCM"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，2份专业类字段为“电子信息类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5Ma5Ct",
+        "vUU5nnntt",
+        "vkU5t5CZa",
+        "vks5C5Mza",
+        "vmkNLLLCM",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "电子信息类",
+        "n": 2,
+        "denominator": 6,
+        "matched_ids": [
+          "v8l5Ma5Ct",
+          "vUU5nnntt"
+        ]
+      }
+    },
+    {
+      "text": "6份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5Ma5Ct",
+        "vUU5nnntt",
+        "vkU5t5CZa",
+        "vks5C5Mza",
+        "vmkNLLLCM",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vUU5nnntt"
+        ]
+      }
+    },
+    {
+      "text": "6份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8l5Ma5Ct",
+        "vUU5nnntt",
+        "vkU5t5CZa",
+        "vks5C5Mza",
+        "vmkNLLLCM",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 6,
+        "matched_ids": [
+          "vmkNLLLCM"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "信息与通信工程",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkU5t5CZa",
+        "vss55Ctnt"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "南宁分公司-通信工程项目管理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vks5C5Mza"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "通信工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUU5nnntt"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "通信网络技术运营-通信工程类（算力分公司）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmkNLLLCM"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "通信设计（工作地点：总部及其分公司均可）（长春）",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8l5Ma5Ct"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

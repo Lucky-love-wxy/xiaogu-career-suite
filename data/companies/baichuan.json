@@ -1,0 +1,271 @@
+{
+  "type": "startup",
+  "display_name": "百川智能",
+  "legal_name": {
+    "value": [
+      "百川智能科技有限公司（主站页脚）",
+      "北京百川智能科技有限公司（平台文档页脚）"
+    ],
+    "status": "conflict",
+    "source_ids": [
+      "a-id",
+      "a-old-id"
+    ],
+    "note": "两处官方页面名称不一致；工商正文未取得，不替用户判断更名或关联主体。招聘样本使用前者。"
+  },
+  "brand_names": {
+    "value": [
+      "百川智能",
+      "Baichuan"
+    ],
+    "status": "verified",
+    "source_ids": [
+      "a-id",
+      "a-founded"
+    ]
+  },
+  "listing": {
+    "value": {
+      "status": "未上市",
+      "venues": []
+    },
+    "status": "provisional",
+    "source_ids": [
+      "a-plan"
+    ],
+    "note": "2026年1月采访称可能2027年启动上市；截至本轮未找到完成上市披露。意向不等于已申报。"
+  },
+  "main_business": [
+    {
+      "value": "研发大语言模型，并提供面向个人/家庭健康信息服务的百小医、医疗模型和API。官网产品自述不能当独立疗效验证。",
+      "status": "verified",
+      "source_ids": [
+        "a-product",
+        "a-free"
+      ]
+    },
+    {
+      "value": "海纳百川计划为符合准入要求、服务医务工作者的机构免费提供医疗API；使用该API不代表付费。",
+      "status": "verified",
+      "source_ids": [
+        "a-free"
+      ]
+    }
+  ],
+  "revenue_mix": {
+    "value": "未找到",
+    "status": "not_found",
+    "source_ids": [],
+    "note": "未找到官方收入金额或分业务占比；融资金额不是收入。"
+  },
+  "products_customers": {
+    "products": {
+      "value": [
+        "百小医",
+        "Baichuan医疗模型",
+        "海纳百川M3 Plus API"
+      ],
+      "status": "verified",
+      "source_ids": [
+        "a-product",
+        "a-free"
+      ]
+    },
+    "users": {
+      "value": "个人及家庭健康信息用户，及为医务工作者提供服务的机构。",
+      "status": "verified",
+      "source_ids": [
+        "a-product",
+        "a-free"
+      ]
+    },
+    "paying_customers": {
+      "value": "未找到",
+      "status": "not_found",
+      "source_ids": [],
+      "note": "未找到当前产品已付费客户名单或实际收入主体；官网仍有通用模型价格，但不足以证明医疗API/百小医已实现付费。"
+    }
+  },
+  "recent_events": [
+    {
+      "event_date": "2026-01-13",
+      "disclosed_on": "2026-01-14",
+      "claim": {
+        "value": "媒体交流中创始人披露医疗AI方向及可能2027年启动上市的计划；是意向，非融资完成或已上市。",
+        "status": "verified",
+        "source_ids": [
+          "a-plan"
+        ]
+      }
+    }
+  ],
+  "selection": {
+    "posting_ids": [
+      "vyk5CtnNL"
+    ],
+    "founded": {
+      "value": "2023-03-24",
+      "status": "verified",
+      "source_ids": [
+        "a-founded"
+      ]
+    },
+    "public_funding": {
+      "value": "2024-07-25第一财经向公司求证A轮总融资50亿元；早于近12月窗口，仅作初创筛选证据。",
+      "status": "verified",
+      "source_ids": [
+        "a-funding"
+      ]
+    }
+  },
+  "event_search_boundary": "2026-01-10报道回顾2025年初裁员，事件超出12月窗口，未纳入recent_events；数字来自匿名前员工，不能当已核实当前人数。",
+  "id": "baichuan",
+  "schema_version": "company-check-pilot-v1",
+  "as_of": "2026-10-12",
+  "status": "partial_evidence",
+  "scope": "公司公开信息；不等于具体岗位/签约主体核验",
+  "source_levels": {
+    "type": [
+      "未找到/本地记录"
+    ],
+    "display_name": [
+      "未找到/本地记录"
+    ],
+    "legal_name": [
+      "公司官网"
+    ],
+    "brand_names": [
+      "公司官网"
+    ],
+    "listing": [
+      "主流财经媒体原创报道"
+    ],
+    "main_business": [
+      "公司官网"
+    ],
+    "revenue_mix": [
+      "未找到/本地记录"
+    ],
+    "products_customers": [
+      "公司官网"
+    ],
+    "recent_events": [
+      "主流财经媒体原创报道"
+    ],
+    "selection": [
+      "主流财经媒体原创报道",
+      "公司官网"
+    ],
+    "event_search_boundary": [
+      "未找到/本地记录"
+    ],
+    "id": [
+      "未找到/本地记录"
+    ],
+    "schema_version": [
+      "未找到/本地记录"
+    ],
+    "as_of": [
+      "未找到/本地记录"
+    ],
+    "status": [
+      "未找到/本地记录"
+    ],
+    "scope": [
+      "未找到/本地记录"
+    ]
+  },
+  "sources": {
+    "a-founded": {
+      "title": "百川智能官网",
+      "url": "https://www.baichuan-ai.com/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "百川智能成立于2023年3月24日",
+      "locator": "关于我们",
+      "snapshot": "evidence/company-check-2026-10/baichuan-cdp.json",
+      "sha256": "aebd4784e9b5bb68c3fb941a51d97afa7dfb033f86c67847985e11fa6b988aa7",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "baichuan-cdp"
+    },
+    "a-free": {
+      "title": "百川智能官网",
+      "url": "https://www.baichuan-ai.com/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "永久免费调用 Baichuan-M3 Plus API",
+      "locator": "海纳百川计划，需准入审核",
+      "snapshot": "evidence/company-check-2026-10/baichuan-cdp.json",
+      "sha256": "aebd4784e9b5bb68c3fb941a51d97afa7dfb033f86c67847985e11fa6b988aa7",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "baichuan-cdp"
+    },
+    "a-funding": {
+      "title": "第一财经：百川智能完成50亿元A轮融资",
+      "url": "https://www.yicai.com/news/102205958.html",
+      "level": "主流财经媒体原创报道",
+      "access_date": "2026-10-12",
+      "published_date": "2024-07-25",
+      "excerpt": "总融资金额达50亿元人民币",
+      "locator": "记者刘晓洁，2024-07-25",
+      "snapshot": "evidence/company-check-2026-10/baichuan-funding-direct.html",
+      "sha256": "c0391a0b910c23ddf5c10c596b8b380d209a1496725cec5213355345960fa442",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "baichuan-funding-direct"
+    },
+    "a-id": {
+      "title": "百川智能官网",
+      "url": "https://www.baichuan-ai.com/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "百川智能科技有限公司",
+      "locator": "当前页脚",
+      "snapshot": "evidence/company-check-2026-10/baichuan-cdp.json",
+      "sha256": "aebd4784e9b5bb68c3fb941a51d97afa7dfb033f86c67847985e11fa6b988aa7",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "baichuan-cdp"
+    },
+    "a-old-id": {
+      "title": "百川平台医疗文档",
+      "url": "https://platform.baichuan-ai.com/docs/medical-model",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "北京百川智能科技有限公司",
+      "locator": "文档页脚，和主站名称不一致",
+      "snapshot": "evidence/company-check-2026-10/baichuan-direct-2.html",
+      "sha256": "cb7dc50096269dd2a78e27546256dcc2a72e8f0bdd3227e6958b1d007e645127",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "baichuan-direct-2"
+    },
+    "a-plan": {
+      "title": "蓝鲸：王小川谈百川上市计划",
+      "url": "https://www.lanjinger.com/d/1768352405202337182",
+      "level": "主流财经媒体原创报道",
+      "access_date": "2026-10-12",
+      "published_date": "2026-01-14",
+      "excerpt": "2027",
+      "locator": "2026-01-14采访报道，意向并非完成上市",
+      "snapshot": "evidence/company-check-2026-10/baichuan-final-direct-4.html",
+      "sha256": "aad9bdae19d5f4f054dbe86ae28b457bca945709c4d95ee0d6983999bd622a09",
+      "retrieval_layer": "script:urllib",
+      "evidence_id": "baichuan-final-direct-4"
+    },
+    "a-product": {
+      "title": "百川智能官网",
+      "url": "https://www.baichuan-ai.com/",
+      "level": "公司官网",
+      "access_date": "2026-10-12",
+      "published_date": null,
+      "excerpt": "百小医 你的 AI家庭医生",
+      "locator": "首页",
+      "snapshot": "evidence/company-check-2026-10/baichuan-cdp.json",
+      "sha256": "aebd4784e9b5bb68c3fb941a51d97afa7dfb033f86c67847985e11fa6b988aa7",
+      "retrieval_layer": "Chrome CDP public DOM",
+      "evidence_id": "baichuan-cdp"
+    }
+  }
+}

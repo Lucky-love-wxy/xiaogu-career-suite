@@ -1,0 +1,2386 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="baidu-site-verification" content="xVzGM3RS3F">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>广州市天河区人民政府门户网站</title>
+  <meta name="SiteName" content="广州市天河区人民政府门户网站">
+<meta name="SiteDomain" content="www.thnet.gov.cn">
+<meta name="SiteIDCode" content="4401060050">
+<meta name="ColumnName" content="首页">
+<meta name="ColumnDescription" content="提供网站要闻动态、重要信息公开栏目及热门办事服务事项入口。">
+<meta name="ColumnKeywords" content="天河区 网站首页 天河动态 政务公开 政务服务">
+<meta name="ColumnType" content="首页">
+<meta name="Keywords" content="广州市天河区人民政府门户网站,天河区人民政府,天河区,天河" />
+<meta name="description" content="广州市天河区政府门户网站是由广州市天河区人民政府主办、广州市天河区政务服务数据管理局承办的政府门户网站，构建“天河动态”、“走进天河”、“政务服务”、“政务公开”、“营商环境”、“互动交流”、“工作机构”七大内容频道，包含简体版、无障碍版、手机版等平台，是天河区政府及部门政务公开的主平台、政府联系群众的主桥梁、政府服务市民的重要窗口。" /> 
+<script>window.NFCMS_SITE_ID=200005;window.NFCMS_PUB_TYPE="page";window.NFCMS_PAGE_ID="574";</script><script src="//statistics.gd.gov.cn/scripts/s.js?t=1791626158" async></script>
+
+  <link rel="stylesheet" type="text/css" href="/css/common.css?r=1" />
+  <link href="/css/index.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquerySuperSlide2.js"></script>
+  <script src="/global/jquery.xdomainrequest.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="/global/zscd.js"></script>
+  <script>
+    function IsPC() {
+      var userAgentInfo = navigator.userAgent;
+      var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPod"];
+      var flag = true;
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false;
+          break;
+        }
+      }
+      if (window.screen.width >= 768) {
+        flag = true;
+      }
+      return flag;
+    }
+    function GetQueryString(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]); return null;
+    }
+
+    var _jump = GetQueryString("jump") ? GetQueryString("jump") : true;
+    if (!IsPC() && !(_jump == "false")) {
+      window.location.href = "/mindex.html";
+    } else {
+      //window.location.href="/";
+      if (window.location.href.indexOf("?") > -1) {
+        $(document).on('click', 'a', function () {
+          var href = $(this).attr('href');
+          if (href.indexOf("www.thnet.gov.cn") > -1 && href.indexOf("?") <=
+            -1) $(this).attr("href", href + "?jump=false")
+        })
+      }
+    }
+
+  </script>
+  <!-- 置灰 S -->
+  <style type="text/css">
+			/* .header-menu,.header-search,.mainNav,.home_fullSlide,.home_container,.PageCommon,.footer {
+				      filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+				      -webkit-filter: grayscale(100%);
+				  -moz-filter: grayscale(100%);
+				  -ms-filter: grayscale(100%);
+				  -o-filter: grayscale(100%);
+				  filter: grayscale(100%);
+				
+				  }
+          body{background-image:url('/images/2016_bg_bottom_gray.gif');}
+          .header{background-image:url('/images/2016_bg_top_gray.jpg');}
+          .header,.home_body {background:none;} 
+          .header-menu a, .header-menu .ipv6{color:#fff;}
+          .home_body .header{background:url(/global/gq_2024bj.png) no-repeat center top;background-size:100% 100%; }
+          .home_body .header-search .hotKey, .home_body .header-search .hotKey a{color:#fff;}
+          .home_body .header-menu #wza:before{background: url(/global/2024_header_icon_wza.png) no-repeat left center;}
+          .home_body #slh{background:#fff; color:#d41401;}
+           .header-menu{top:128px;}
+          */
+         
+		</style>
+    <!-- 置灰 E -->
+</head>
+
+<body class="home_body">
+<!-- <div class="gqbox" style="text-align: center;margin-bottom: -5px;"><img src="/global/2026cj.png" width="100%"/></div> -->
+  <!--header S-->
+
+  <div class="header">
+   <div class="header-menu">
+      <a id="wza" href="javascript:void(0);" onclick="aria.start()"><span>无障碍阅读</span></a>
+      <a wzades="长者助手" title="长者助手" id="slh" class="slh"  href="javascript:;" onclick="aria.oldFixedStart()">长者助手</a>
+      <a id="jft" href="javascript:void(0);" onclick="ClickObject()">繁体版</a>
+      <a href="http://en.thnet.gov.cn/" target="_blank" class="ywb-pc">英文版</a>
+      <a href="//guangzhou.chinadaily.com.cn/tianhe/" target="_blank" class="ywb-m">EN</a>
+      <a href="//tyrz.gd.gov.cn/pscp/sso/static/?redirect_uri=https%3A%2F%2Fmy.gz.gov.cn%2Fapi-citizen%2Fportal-api%2Flogin%2FprovinceLogin%3FsystemCode%3Dgzsmwy%26forwardUrl%3Dmy.gz.gov.cn%2Fportal-citizen%2Fhome%26params%3Dnull&client_id=gzsmgrwy" id="cniil_dl" target="_blank">登 录</a>
+     <span class="ipv6">网站支持IPV6</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  <div class="container">
+   
+    <div class="logo"><a href=""><img src="/global/2016_logo.png" alt=""></a></div>
+    <div class="header-search">
+      <div class="ss">
+        <form id="searchForm" action="//search.gd.gov.cn/search/local_msg/200005" target="_blank">
+          <input name="keywords" id="txt_search" type="text" class="s-txt" placeholder="请输入关键字搜索" />
+          <input type="button" id="btn-search" value="" class="s-btn" name="btn">
+        </form>
+      </div>
+      <h2 class="hotKey">
+        <span>搜索热词：</span>
+        <a href="//search.gd.gov.cn/search/local_msg/200005?keywords=公共服务" target="_blank">公共服务</a>
+        <a href="//search.gd.gov.cn/search/local_msg/200005?keywords=产业扶持政策" target="_blank">产业扶持政策</a>
+        <a href="//search.gd.gov.cn/search/local_msg/200005?keywords=投资创业" target="_blank">投资创业</a>
+      </h2>
+    </div>
+  </div>
+</div>
+<div class="mainNav">
+  <div class="container">
+    <ul class="clearfix">
+      <li><a href="/"><strong>首页</strong><em>Home</em></a></li>
+      <li>
+                  <a href="http://www.thnet.gov.cn/thdt/index.html">
+            <strong>天河动态</strong>
+            <em>Local News</em>
+          </a>
+              </li>
+      <li>
+                  <a href="http://www.thnet.gov.cn/zjth/index.html">
+            <strong>走进天河</strong>
+            <em>About Tianhe</em>
+          </a>
+              </li>
+      <li>
+                  <a href="http://www.thnet.gov.cn/zwfw/index.html"><strong>政务服务</strong><em>E-services</em></a>
+              </li>
+      <li>
+                  <a href="http://www.thnet.gov.cn/zwgk/index.html">
+            <strong>政务公开</strong>
+            <em>Government Affairs</em>
+          </a>
+              </li>
+      <li>
+                  <a href="http://www.thnet.gov.cn/tzth/index.html">
+            <strong>营商环境</strong>
+            <em>Business & Investment in Tianhe</em>
+          </a>
+              </li>
+      <li>
+                  <a href="http://www.thnet.gov.cn/hdjl/index.html">
+            <strong>互动交流</strong>
+            <em>Enquiries</em>
+          </a>
+              </li>
+      <li class="liEnd">
+                  <a href="http://www.thnet.gov.cn/gzjg/index.html">
+            <strong>工作机构</strong>
+            <em>Government Agencies</em>
+          </a>
+              </li>
+    </ul>
+  </div>
+</div>
+
+<script src="/global/font.js"></script>
+<script src="/js/header.js"></script>
+  <!--header E-->
+  <div class="home_fullSlide">
+    <div class="bd">
+      <ul>
+        				  <li style="background-image:url(http://www.thnet.gov.cn/img/1/1645/1645149/10864393.jpg);"></li>
+								  <li style="background-image:url(http://www.thnet.gov.cn/img/1/1513/1513885/8667599.jpg);"></li>
+								  <li style="background-image:url(http://www.thnet.gov.cn/img/1/1513/1513884/7978739.jpg);"></li>
+								  <li style="background-image:url(http://www.thnet.gov.cn/img/0/138/138153/5955432.jpg);"></li>
+								  <li style="background-image:url(/thxxw/dtlb/201801/6168406519cf4c4eb1aff167e1c4d564/images/ccdb92f61eed4395aff7028ee672dfe4.jpg);"></li>
+								  <li style="background-image:url(/thxxw/dtlb/201801/c248b0d9b1a24ab1a96a59c87679a269/images/b012be2ad7664a76aaf44f2255d64ab7.jpg);"></li>
+				         
+      </ul>
+    </div>
+    <div class="Btn" style="display: none;">
+      <a class="prev" href="javascript:void(0)"></a>
+      <a class="next" href="javascript:void(0)"></a>
+    </div>
+  </div>
+  <!--home_container 开始-->
+  <div class="home_container">
+    <div class="container home_mainbox">
+      <div class="switch switch_up"></div>
+      <!--头条新闻 start-->
+      <div class="ttxw_box container">
+
+                  <div class="tt_title">
+            <a href="http://www.thnet.gov.cn/thdt/ttxw/content/post_11035471.html" target="_blank" title="“探索浩瀚宇宙，发展航天事业”——习近平总书记重要论述引领加快建设航天强国"> “探索浩瀚宇宙，发展航天事业”——习近平总书记重要论述引领加快建设航天强国</a>
+          </div>
+          <div class="tt_zhaiyao">
+            <a href="http://www.thnet.gov.cn/thdt/ttxw/content/post_11035471.html"> 党的十八大以来，以习近平同志为核心的党中央将航天强国建设纳入中华民族伟大复兴战略全局统筹谋划，习近平总书记对实施月球探测、深空探测等航天重大工程作出一系列重要论述和指示批示，为加快建设航天强国、科技强国指明了前进方向，提供了根本遵循 </a>
+          </div>
+        
+      </div>
+      <!--头条新闻 end-->
+      <div class="HomeMain container home-news" >
+        <div class="hd">
+          <ul>
+            <li class="on">
+                              <a class="item-1" target="_blank" href="http://www.thnet.gov.cn/thdt/index.html">天河动态</a>
+                          </li>
+            <li class="">
+                              <a class="item-2" target="_blank" href="http://www.thnet.gov.cn/zjth/index.html">走进天河</a>
+                          </li>
+            <li class="">
+              
+                <a class="item-3" href="http://www.thnet.gov.cn/zwfw/index.html" target="_parent">政务服务</a>
+                          </li>
+            <li>
+                              <a class="item-4" target="_blank" href="http://www.thnet.gov.cn/zwgk/index.html">政务公开</a>
+              
+            </li>
+            <li>
+                              <a class="item-5" target="_blank" href="http://www.thnet.gov.cn/tzth/index.html">营商环境</a>
+              
+            </li>
+            <li>
+                              <a class="item-6" target="_blank" href="http://www.thnet.gov.cn/hdjl/index.html">互动交流</a>
+                          </li>
+            <!-- <li>
+												<a class="item-6" target="_blank" href="http://www.thnet.gov.cn/thdt/rdzt/index.html"></a>
+											</li> -->
+            <li>
+                              <a class="item-7" target="_blank" href="http://www.thnet.gov.cn/gzjg/index.html">工作机构</a>
+                          </li>
+          </ul>
+        </div>
+        <div class="bd">
+          <!--天河动态 start-->
+          <div class="section section1" style="display: none;">
+            <div class="s1Tpxw">
+              <div class="s1Tpxw_bd">
+                <div class="tempWrap" style="overflow:hidden; position:relative; width:438px">
+                  <div class="s1_TPxw"
+                    style="width: 2190px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -876px;">
+
+
+                  </div>
+                </div>
+              </div>
+              <script>
+                //轮播图，取当前栏目，有封面图就显示，没有就不显示
+                var url = "/postmeta/i/19389.json";
+                $.ajax({
+                  type: "get",
+                  url: url,
+                  dataType: "json",
+                  async: false,
+                  success: function (data) {
+                    var len = data.articles.length;
+                    var _in = 0;
+                    for (var i = 0; i <= len; i++) {
+                      var html;
+                      if (_in < 5) {
+                        var tp = data.articles[i];
+                        var _cover = tp.cover;
+                        var str = tp.title;
+                        var len1 = tp.title.length;
+                        if (_cover) {
+                          if (len1 > 22) {
+                            str = str.substr(0, 22) + '...';
+                            html = '<div class="s1Tpxw_nr " style="float: left; width: 438px;">';
+                            html += '<div class="pic"><a href="' + tp.url + '" target="_blank"><img src="' + tp.cover + '"></a></div>';
+                            html += '<div class="txt"><h5><a href="' + tp.url + '" target="_blank" title="' + tp.title + '">' + str + '</a></h5><p>' + tp.abstract + '</p></div></div>';
+                            $('.s1_TPxw').append(html);//首页轮播
+                            _in++;
+                          } else {
+                            html = '<div class="s1Tpxw_nr " style="float: left; width: 438px;">';
+                            html += '<div class="pic"><a href="' + tp.url + '" target="_blank"><img src="' + tp.cover + '"></a></div>';
+                            html += '<div class="txt"><h5><a href="' + tp.url + '" target="_blank" title="' + tp.title + '">' + str + '</a></h5><p>' + tp.abstract + '</p></div></div>';
+                            $('.s1_TPxw').append(html);//首页轮播
+                            _in++;
+                          }
+                        }
+                      } else {
+                        break;
+                      }
+
+                    }
+
+                  }
+                });
+
+              </script>
+              <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+              <a class="s1Tpxw_prev" href="javascript:void(0)"></a>
+              <a class="s1Tpxw_next" href="javascript:void(0)"></a>
+            </div>
+            <div class="s1News home_thdt">
+              <div class="s1NewsHd TitleHd" >
+                <ul>
+                  <li class="on">
+                                          <a href="http://www.thnet.gov.cn/thdt/mtjj/index.html" target="_blank">媒体聚焦</a>
+                                      </li>
+                  <li class="on"><a href="//www.gd.gov.cn/xxts/" target="_blank">政声传递</a>
+                  </li>
+                  <li>
+                                          <a href="http://www.thnet.gov.cn/thdt/thyw/index.html" target="_blank">天河要闻</a>
+                                      </li>
+                  <li>
+                                          <a href="http://www.thnet.gov.cn/thdt/bmjd/index.html" target="_blank">部门街道</a>
+                                      </li>
+                </ul>
+              </div>
+              <div class="s1NewsBd">
+                <ul class="CommonNewsList item-01" style="display: none;">
+
+                                      <li>
+                      <span>2026-10-10</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11034408.html" target="_blank" title="戎装再启新程！天河区自主就业退役士兵共学产业技能">
+                        【南方+】戎装再启新程！天河区自主就业退役士兵共学产业技能 </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-10</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11034404.html" target="_blank" title="广州地铁“运动场”又上新！天河公园站匹克球、网球场启用">
+                        【南方+】广州地铁“运动场”又上新！天河公园站匹克球、网球场... </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-09</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11032159.html" target="_blank" title="中山大学肿瘤医学科学中心（天河院区）配套建设迎新进展">
+                        【南方+】中山大学肿瘤医学科学中心（天河院区）配套建设迎新进... </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-09</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11032158.html" target="_blank" title="营收双位数增长！国庆假期，天河路商圈迎客超1400万人次">
+                        【南方+】营收双位数增长！国庆假期，天河路商圈迎客超1400... </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-02</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11030357.html" target="_blank" title="人机协作错峰保洁，广州天河精细化守护假日城市容颜">
+                        【南方+】人机协作错峰保洁，广州天河精细化守护假日城市容颜 </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-02</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11030345.html" target="_blank" title="情暖羊城，善行天河！羊城慈善月，天河三大慈善项目接力启航">
+                        【南方+】情暖羊城，善行天河！羊城慈善月，天河三大慈善项目接... </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-01</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11030338.html" target="_blank" title="天河区新就业群体变身应急救护员，守护市民生命安全">
+                        【南方+】天河区新就业群体变身应急救护员，守护市民生命安全 </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-30</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11027102.html" target="_blank" title="碧道串珠成链！天河让滨水生态文化“出圈”更“入心”">
+                        【南方+】碧道串珠成链！天河让滨水生态文化“出圈”更“入心” </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-30</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11027096.html" target="_blank" title="奋力冲刺万亿城区！中国共产党广州市天河区第十一次代表大会闭幕">
+                        【南方+】奋力冲刺万亿城区！中国共产党广州市天河区第十一次代... </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-29</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11025015.html" target="_blank" title="AI当“巡查员”！广州天河“门前三包”有了“智慧管家”">
+                        【南方+】AI当“巡查员”！广州天河“门前三包”有了“智慧管... </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-29</span>
+                      <a href="http://www.thnet.gov.cn/thdt/mtjj/content/post_11025010.html" target="_blank" title="中国共产党广州市天河区第十一次代表大会开幕，坚定扛牢经济大区挑大梁责任担当">
+                        【南方+】中国共产党广州市天河区第十一次代表大会开幕，坚定扛... </a>
+                    </li>
+                                  </ul>
+
+                <ul class="CommonNewsList item-01" id="zscd" style="display: none;">
+                  <ul id="zscd_1">
+
+                  </ul>
+                  <ul id="zscd_2">
+
+                  </ul>
+                </ul>
+
+                <ul class="CommonNewsList item-01" style="display: none;">
+
+                                      <li>
+                      <span>2026-01-16</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_10650084.html" target="_blank" title="天河区门户网站2025年度工作报表">
+                        天河区门户网站2025年度工作报表 </a>
+                    </li>
+                                      <li>
+                      <span>2025-03-11</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_10151993.html" target="_blank" title="巡视公告">
+                        巡视公告 </a>
+                    </li>
+                                      <li>
+                      <span>2024-02-01</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_9473977.html" target="_blank" title="关于征集影响营商环境建设问题线索的公告">
+                        关于征集影响营商环境建设问题线索的公告 </a>
+                    </li>
+                                      <li>
+                      <span>2023-07-29</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_9134197.html" target="_blank" title="国务院“互联网+督查”平台公开征集阻碍民营经济发展壮大问题线索">
+                        国务院“互联网+督查”平台公开征集阻碍民营经济发展... </a>
+                    </li>
+                                      <li>
+                      <span>2026-10-09</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_11032308.html" target="_blank" title="营收双位数增长！国庆假期，天河路商圈迎客超1400万人次">
+                        营收双位数增长！国庆假期，天河路商圈迎客超1400... </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-29</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_11025105.html" target="_blank" title="中国共产党广州市天河区第十一次代表大会开幕，坚定扛牢经济大区挑大梁责任担当">
+                        中国共产党广州市天河区第十一次代表大会开幕，坚定扛... </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-22</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_11013990.html" target="_blank" title="区委第一巡察组对国有资产和财政资金使用管理专项巡察反馈情况">
+                        区委第一巡察组对国有资产和财政资金使用管理专项巡察... </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-19</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_11014115.html" target="_blank" title="两业融合，天河破题！广州“服务业第一区”再出发">
+                        两业融合，天河破题！广州“服务业第一区”再出发 </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-08</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_10995771.html" target="_blank" title="天河区人大常委会召开重点督办建议办理工作座谈会">
+                        天河区人大常委会召开重点督办建议办理工作座谈会 </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-08</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_10995767.html" target="_blank" title="天河区十届人大常委会召开第六十七次会议">
+                        天河区十届人大常委会召开第六十七次会议 </a>
+                    </li>
+                                      <li>
+                      <span>2026-09-03</span>
+                      <a href="http://www.thnet.gov.cn/thdt/thyw/content/post_10991379.html" target="_blank" title="从首批到示范，解码国家级数字贸易“天河样本”">
+                        从首批到示范，解码国家级数字贸易“天河样本” </a>
+                    </li>
+                  
+                </ul>
+                <ul class="CommonNewsList item-01" style="display: none;">
+
+                                      <li>
+                      <span>2025-02-19</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_10121585.html" target="_blank" title="中共广州市天河区元岗街道工作委员会关于巡察进展情况的通报">
+                        【元岗街】中共广州市天河区元岗街道工作委员会关于巡察进展情况... </a>
+                    </li>
+
+                                      <li>
+                      <span>2024-09-11</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_9864364.html" target="_blank" title="中共广州市天河区教育局党组关于巡察整改进展情况的通报">
+                        【天河区教育局】中共广州市天河区教育局党组关于巡察整改进展情况的通... </a>
+                    </li>
+
+                                      <li>
+                      <span>2024-08-29</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_9835738.html" target="_blank" title="中共广州市天河区员村街道工作委员会关于巡察进展情况的通报">
+                        【员村街】中共广州市天河区员村街道工作委员会关于巡察进展情况... </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-02-10</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_10683996.html" target="_blank" title="中共广州市天河区沙河街道工作委员会关于巡察整改情况的通报">
+                        【沙河街】中共广州市天河区沙河街道工作委员会关于巡察整改情况... </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-10-10</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11035270.html" target="_blank" title="禁毒宣传“三进”齐发力 筑牢全民防毒墙——沙东街开展系列禁毒宣传活动">
+                        【沙东街】禁毒宣传“三进”齐发力 筑牢全民防毒墙——沙东街开... </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-10-10</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11034180.html" target="_blank" title="沙河街开展防范药物滥用系列禁毒宣传活动">
+                        【沙河街】沙河街开展防范药物滥用系列禁毒宣传活动 </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-10-08</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11031141.html" target="_blank" title="路地联动精准施策，守护双节“零滞留”答卷">
+                        【东站地区管委办】路地联动精准施策，守护双节“零滞留”答卷 </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-10-02</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11029921.html" target="_blank" title="（转发）十届天河区委第十四轮巡察完成反馈">
+                        【廉洁天河】（转发）十届天河区委第十四轮巡察完成反馈 </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-10-01</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11029824.html" target="_blank" title="家国同庆喜结缘・文明婚俗润天河">
+                        【天河区民政局】家国同庆喜结缘・文明婚俗润天河 </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-09-30</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11029044.html" target="_blank" title="缅怀英烈承遗志 关爱烈属显尊崇——天河区退役军人事务局开展“崇尚·传承”红色九月系列活动">
+                        【区退役军人事务局】缅怀英烈承遗志 关爱烈属显尊崇——天河区退役军人事... </a>
+                    </li>
+
+                                      <li>
+                      <span>2026-09-30</span>
+                      <a href="http://www.thnet.gov.cn/thdt/bmjd/content/post_11026500.html" target="_blank" title="兴华街道公共卫生委员会：以宣传“小切口”撬动爱卫“大效能”，筑牢“双节”健康防线">
+                        【兴华街】兴华街道公共卫生委员会：以宣传“小切口”撬动爱卫“... </a>
+                    </li>
+
+                                  </ul>
+              </div>
+              <!--通知公告 start-->
+              <!-- <div class="HomeTzgg">
+							<div class="box">
+															        <a target="_blank" class="more" href="http://www.thnet.gov.cn/ztzl/thqyqfkzt/zyzs/index.html"></a> 
+								
+								<div class="tzgg">
+																		<a href="http://www.thnet.gov.cn/thdt/tzgg/index.html" target="_blank">
+														<img src="/global/2016_home_tzgg_title.gif"></a>
+																	</div>
+
+							
+									<div class="hbdc"> 
+									<div class="hbdc-bd"> 
+									
+																												
+													<a href="http://www.thnet.gov.cn/gkmlpt/index#6260" target="_blank">
+														<img src="http://www.thnet.gov.cn/img/0/30/30244/5631421.jpg" style="height: 60px;width: 146px;"></a>
+										
+																				
+										
+									</div> 
+								</div> 
+								
+								</div>
+							</div> -->
+              <!--通知公告 end-->
+            </div>
+          </div>
+          <!--天河动态 end-->
+          <!--走进天河 start-->
+          <div class="section section2" style="display: none;">
+            <div class="s2Tab">
+              <div class="s2TabHd TitleHd">
+                <ul>
+                  <li>
+                                          <a href="http://www.thnet.gov.cn/zjth/thgk/jbgk/index.html" target="_blank">天河概况</a>
+                                      </li>
+
+                  <!--<li><a target="_blank" href="/cyfczc/index.shtml">投资天河</a></li>-->
+                </ul>
+              </div>
+              <div class="s2TabBd">
+                <!--天河概况-->
+                <div class="s2Thgk" style="display: none;">
+
+                  <!--行政划分图片变成文字-->
+                  <div class="zxhf_wz">
+                    <p>天河区区域范围：东到吉山狮山、前进深涌一带，与黄埔区相连；南到珠江，与海珠区隔江相望；西到广州大道与越秀区相接；北到筲箕窝，与白云区相邻。</p>
+                    <p>天河区行政区域总面积约137.38平方公里，辖有21个行政街：沙河街、五山街、员村街、车陂街、石牌街、天河南街、林和街、沙东街、兴华街、棠下街、天园街、
+                      冼村街、猎德街、元岗街、黄村街、龙洞街、长兴街、凤凰街、前进街、珠吉街、新塘街。</p>
+                  </div>
+                  <ul class="ThgkMenu" >
+                    <li class="li01">
+                                              <a href="http://www.thnet.gov.cn/zjth/thgk/jbgk/index.html" title="基本概况" target="_blank">基本概况</a>
+                                          </li>
+                    <li class="li02">
+                                              <a href="http://www.thnet.gov.cn/zjth/thgk/lswh/index.html" title="历史文化" target="_blank">历史文化</a>
+
+                                          </li>
+                    <li class="li03">
+                                              <a href="http://www.thnet.gov.cn/zjth/thgk/msfq/index.html" title="民俗风情" target="_blank">民俗风情</a>
+
+                                          </li>
+                    <li class="li04">
+                                              <a href="http://www.thnet.gov.cn/zjth/thgk/dssh/index.html" title="都市生活" target="_blank">都市生活</a>
+
+                                          </li>
+                  </ul>
+                </div>
+                <!--投资天河-->
+                <!-- <div class="s2Thgk">
+									<div class="touzith-l touzith_l">
+										<div class="s1NewsHd TitleHd">
+											<ul> 
+												<li class="on">
+																										<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/index.html" target="_blank">投资动态</a>
+																									</li> 
+												<li>
+																										<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/index.html" target="_blank">经济数据</a>
+																									</li> 
+											</ul> 
+										</div>
+
+										<div class="s1NewsBd">
+											<ul class="CommonNewsList">
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11032310.html" target="_blank" title="营收双位数增长！国庆假期，天河路商圈迎客超1400万人次">营收双位数增长！国庆假期，天河路商圈迎客... </a>
+													</li> 
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11031107.html" target="_blank" title="人机协作错峰保洁，广州天河精细化守护假日城市容颜">人机协作错峰保洁，广州天河精细化守护假日... </a>
+													</li> 
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11025111.html" target="_blank" title="中国共产党广州市天河区第十一次代表大会开幕，坚定扛牢经济大区挑大梁责任担当">中国共产党广州市天河区第十一次代表大会开... </a>
+													</li> 
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11025490.html" target="_blank" title="注册成立！修正药业集团“南下落子天河”走向项目实体化运作">注册成立！修正药业集团“南下落子天河”走... </a>
+													</li> 
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11020267.html" target="_blank" title="数科平云广场：筑造天河人工智能产业新地标">数科平云广场：筑造天河人工智能产业新地标 </a>
+													</li> 
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11017768.html" target="_blank" title="超强阵容亮相！天河区数据资源产业联盟上线运行">超强阵容亮相！天河区数据资源产业联盟上线... </a>
+													</li> 
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11015784.html" target="_blank" title="冲刺2027年竣工！天河一大型医疗项目封顶">冲刺2027年竣工！天河一大型医疗项目封... </a>
+													</li> 
+												
+											</ul>
+
+											<ul class="CommonNewsList" style="display: none;">
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10980436.html" target="_blank" title="2026年1-7月广州市天河区主要经济指标">2026年1-7月广州市天河区主要经济指... </a>
+													</li> 
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10915744.html" target="_blank" title="2026年1-6月广州市天河区主要经济指标">2026年1-6月广州市天河区主要经济指... </a>
+													</li> 
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10893788.html" target="_blank" title="2026年1-5月广州市天河区主要经济指标">2026年1-5月广州市天河区主要经济指... </a>
+													</li> 
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10841261.html" target="_blank" title="2026年1-4月广州市天河区主要经济指标">2026年1-4月广州市天河区主要经济指... </a>
+													</li> 
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10783594.html" target="_blank" title="2026年1-3月广州市天河区主要经济指标">2026年1-3月广州市天河区主要经济指... </a>
+													</li> 
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10742657.html" target="_blank" title="2026年1-2月广州市天河区主要经济指标">2026年1-2月广州市天河区主要经济指... </a>
+													</li> 
+
+																									<li>
+														<a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10671160.html" target="_blank" title="2025年1-12月广州市天河区主要经济指标">2025年1-12月广州市天河区主要经济... </a>
+													</li> 
+
+												
+											</ul>
+										</div>
+
+										<ul class="touzi-an"> 
+											<li class="li1">
+																								<a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/index.html" target="_blank">政策专栏</a>
+																							</li> 
+											<li class="li2">
+																								<a href="http://www.thnet.gov.cn/zjth/tzth/tzzn/index.html" target="_blank">投资指南</a>
+												            
+											</li> 
+										</ul> 
+									</div>
+
+									<div class="touzith-r">
+										<div class="qiyebanshi">
+											<h2>企业办事</h2>
+											<ul>
+												<li><a href="http://wsbs.gz.gov.cn/gz/tzsp/ssdj.jsp">商事登记</a></li>
+												<li><a href="http://wsbs.gz.gov.cn/gz/jsgc/gcjs.jsp">立项审批</a></li>
+												<li><a href="http://www.gdzwfw.gov.cn/portal/legal/theme?region=440106&catalogCode=002001002">设立变更</a></li>
+												<li><a href="http://www.gdzwfw.gov.cn/portal/legal/theme?region=440106&catalogCode=002001003">年终年审</a></li>
+											</ul>
+
+											<h2>主题服务</h2>
+											<ul> 
+												<li>
+																										<a href="http://www.thnet.gov.cn/zjth/tzth/zsyz/index.html" target="_blank">招商引资</a>
+													     
+												</li> 
+												<li>
+																										<a href="http://www.thnet.gov.cn/zjth/tzth/qykb/index.html" target="_blank">企业开办</a>
+													    
+												</li> 
+											</ul> 
+										</div>
+
+										<img src="/global/erweima.jpg">
+									</div>
+								</div> -->
+              </div>
+            </div>
+            <div class="s2Right">
+              <h4>
+                                  <a href="http://www.thnet.gov.cn/zjth/yxth/index.html" target="_blank">映象天河</a>
+                              </h4>
+              <div class="pic">
+                                  <a href="http://www.thnet.gov.cn/zjth/yxth/content/post_10864400.html" title="2026一水同舟·车陂端午龙舟盛会" target="_blank"><img src="http://www.thnet.gov.cn/img/1/1645/1645148/10864400.png" alt="2026一水同舟·车陂端午龙舟盛会"></a>
+                              </div>
+
+              <ul>
+                <li>
+                                      <a href="http://www.thnet.gov.cn/zjth/yxth/content/post_10425168.html" title="七夕天河 激情全运" target="_blank"><img src="http://www.thnet.gov.cn/img/1/1487/1487230/10425168.png" alt="七夕天河 激情全运"></a>
+                                  </li>
+                <li style="margin-right: 0px;">
+                                      <a href="http://www.thnet.gov.cn/zjth/yxth/content/post_10298796.html" title="喜迎全运会 走进车陂龙舟景" target="_blank"><img src="http://www.thnet.gov.cn/img/1/1438/1438549/10298796.png" alt="喜迎全运会 走进车陂龙舟景"></a>
+                                  </li>
+                <li>
+                                      <a href="http://www.thnet.gov.cn/zjth/yxth/content/post_10131170.html" title="华南国家植物园" target="_blank"><img src="http://www.thnet.gov.cn/img/1/1376/1376339/10131170.png" alt="华南国家植物园"></a>
+                                  </li>
+                <li style="margin-right: 0px;">
+                                      <a href="http://www.thnet.gov.cn/zjth/yxth/content/post_9701757.html" title="2024一水同舟·车陂端午龙舟盛会" target="_blank"><img src="http://www.thnet.gov.cn/img/1/1212/1212728/9701757.png" alt="2024一水同舟·车陂端午龙舟盛会"></a>
+                                  </li>
+              </ul>
+            </div>
+          </div>
+          <!--天河动态 end-->
+          <!--网上办事 start-->
+          <div class="section section3" style="display: block;">
+            <div class="s3Bsrk home-wsbs">
+              <div class="s3BsrkHd TitleHd">
+                <ul>
+                  <!-- <li><a target="_blank" href="http://www.gdzwfw.gov.cn/portal/personal/theme?region=440106&catalogCode=">个人办事</a></li><li><a target="_blank" href="http://www.gdzwfw.gov.cn/portal/legal/theme?region=440106&catalogCode=">企业办事</a></li>
+<li><a target="_blank" href="http://www.thnet.gov.cn/zwfw/zdfw/">重点服务</a></li> -->
+                  <li><a target="_parent" href="javascript:void(0)">个人办事</a></li>
+                  <li><a target="_parent" href="javascript:void(0)">企业办事</a></li>
+                  <li><a target="_parent" href="javascript:void(0)">重点服务</a></li>
+                </ul>
+              </div>
+              <div class="s3BsrkBd">
+                <ul class="s3Wsbs s3Grbs home_wsbs_btn item-02" style="display: none;">
+                  <li class="li0"><a target="_blank" title="户籍办理"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001012"><s></s>户籍办理</a>
+                  </li>
+                  <li class="li1"><a target="_blank" title="教育科研"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001002"><s></s>教育科研</a>
+                  </li>
+                  <li class="li2" style="padding-right: 0px;"><a target="_blank" title="就业创业"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001005"><s></s>就业创业</a>
+                  </li>
+                  <li class="li3"><a target="_blank" title="社会保障"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001010"><s></s>社会保障</a>
+                  </li>
+                  <li class="li4"><a target="_blank" title="医疗卫生"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001011"><s></s>医疗卫生</a>
+                  </li>
+                  <li class="li5" style="padding-right: 0px;"><a target="_blank" title="养老服务"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001071"><s></s>养老服务</a>
+                  </li>
+                  <li class="li6"><a target="_blank"  title="职业资格"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001009"><s></s>职业资格</a>
+                  </li>
+                  <li class="li7"><a target="_blank"  title="交通出行"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001015"><s></s>交通出行</a>
+                  </li>
+                  <li class="li8" style="padding-right: 0px;"><a target="_blank" title="文化体育"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001003"><s></s>文化体育</a>
+                  </li>
+                  <li class="li9"><a target="_blank"  title="民族宗教"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001059"><s></s>民族宗教</a>
+                  </li>
+                  <li class="li10"><a target="_blank" title="生育收养"
+                      href="//www.gdzwfw.gov.cn/portal/personal/theme?region=440106&amp;catalogCode=001001001"><s></s>生育收养</a>
+                  </li>
+                  <li class="li11" style="padding-right: 0px;"><a target="_blank" title="其他"
+                      href="//www.gdzwfw.gov.cn/portal/v2/personal/hot?region=440106"><s></s>其他</a>
+                  </li>
+                </ul>
+                <ul class="s3Wsbs s3Qybs home_wsbs_btn item-02" style="display: block;">
+                  <li class="li0"><a target="_blank" title="准营准办"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001001"><s></s>准营准办</a>
+                  </li>
+                  <li class="li1"><a target="_blank" title="立项审批"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001023"><s></s>立项审批</a>
+                  </li>
+                  <li class="li2" style="padding-right: 0px;"><a target="_blank" title="设立变更"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001002"><s></s>设立变更</a>
+                  </li>
+                  <li class="li3"><a target="_blank" title="年审年检"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&catalogCode=002001053"><s></s>年审年检</a>
+                  </li>
+                  <li class="li4"><a target="_blank" title="资质认证"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001004"><s></s>资质认证</a>
+                  </li>
+                  <li class="li5" style="padding-right: 0px;"><a target="_blank" title="建设管理"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001014"><s></s>建设管理</a>
+                  </li>
+                  <li class="li6"><a target="_blank" title="医疗卫生"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001027"><s></s>医疗卫生</a>
+                  </li>
+                  <li class="li7"><a target="_blank" title="人力资源"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001016"><s></s>人力资源</a>
+                  </li>
+                  <li class="li8" style="padding-right: 0px;"><a target="_blank" title="安全防护"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001012"><s></s>安全防护</a>
+                  </li>
+                  <li class="li9"><a target="_blank" title="环保绿化"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&amp;catalogCode=002001013"><s></s>环保绿化</a>
+                  </li>
+                  <li class="li10"><a target="_blank" title="投资审批"
+                      href="//www.gdzwfw.gov.cn/portal/legal/theme?region=440106&catalogCode=002001044"><s></s>投资审批</a>
+                  </li>
+                  <li class="li11" style="padding-right: 0px;"><a target="_blank" title="其他"
+                      href="//www.gdzwfw.gov.cn/portal/v2/legal/hot?region=440106"><s></s>其他</a>
+                  </li>
+                </ul>
+                <ul class="s3Wsbs s3ztfw home_wsbs_btn item-02" style="display: none;">
+                  <!-- <li class="li1"><a href="http://www.gdzwfw.gov.cn/portal/personal/theme?region=440106&catalogCode=001001002" target="_blank"><s></s>教育服务</a></li>
+<li class="li2"><a href="http://www.gdzwfw.gov.cn/portal/personal/theme?region=440106&catalogCode=001001010" target="_blank"><s></s>社保服务</a></li>
+<li class="li3"><a href="http://www.gdzwfw.gov.cn/portal/personal/theme?region=440106&catalogCode=001001011" target="_blank"><s></s>医疗服务</a></li>
+<li class="li4"><a href="http://www.gdzwfw.gov.cn/portal/personal/theme?region=440106&catalogCode=001001005" target="_blank"><s></s>就业服务</a></li> -->
+                  <li class="li5"><a href="/zwfw/zdfw/sfzbl/index.html" title="身份证办理"
+                      target="_blank"><s></s>身份证办理</a></li>
+                  <li class="li6"><a href="/zwfw/zdfw/syfw/index.html" title="生育服务"
+                      target="_blank"><s></s>生育服务</a></li>
+                  <li class="li7"><a href="zwfw/zdfw/jzzbl/index.html" title="居住证办理"
+                      target="_blank"><s></s>居住证办理</a></li>
+                  <li class="li8"><a href="/zwfw/zdfw/zcgaqnfz/index.html" title="支持港澳青年发展"
+                      target="_blank"><s></s>支持港澳青年发展</a></li>
+                  <!--<li class="li9"><a href="http://www.gdzwfw.gov.cn/portal/legal/mattersLv2/hot?region=440106&lv2code=9300000004" target="_blank"><s></s>经营纳税</a></li>
+	 -->
+                </ul>
+              </div>
+            </div>
+            <div class="s3Right">
+              <div class="wsbsdt"><a href="//www.gdzwfw.gov.cn/portal/index?region=440106" target="_blank"><img
+                    src="/global/2016_wsbsdt.jpg" alt="广东政务服务网"></a></div>
+              <div class="thzw_box">
+                <a href="http://www.thnet.gov.cn/zwfw/thzw/bsy/lcfb/" target="_blank"><img src="/global/thzw.png" alt="天河政务e"></a>
+                              </div>
+              <div class="s3Sxss">
+
+                <br>
+
+                <a href="http://wsbs.gz.gov.cn/zwzy/projb/findBaseOneObject.action?baseId=4028810756bfa9f90156bfb4a99c0002&host=gz"
+                  target="_blank" style="display:block;"><img src="/global/wb_dtzy.png" alt="大厅指引" width="241" height="42"></a>
+
+                <a href=" https://thzwb.thnet.gov.cn/icity/icity/order/index" target="_blank" style="display:block;"><img
+                    src="/global/wb_yy.png" alt="我要预约" width="241" height="42"></a>
+              </div>
+              <a target="_blank" href="//www.gdzwfw.gov.cn/portal/progress-query" title="事项办理进度查询" class="s3Jdcx"></a>
+
+            </div>
+          </div>
+          <!--网上办事 end-->
+
+          <!--政务公开 start-->
+          <div class="section section4" style="display: none;">
+            <div class="s4Xxgk home-zwgk">
+              <div class="s4XxgkHd TitleHd" >
+                <ul>
+                  <li class="on">>
+
+                    <a href="/gkmlzl.html" title="" target="_blank">政府部门信息公开</a>
+
+                  </li>
+                  <li>>
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/index.html" title="天河区重点领域信息公开专栏" target="_blank">重点领域信息公开</a>
+                                      </li>
+                </ul>
+              </div>
+              <div class="s4XxgkBd">
+                <ul class="list1 item-03">
+
+                  <li><a href="/gkmlpt/index" target="_blank" title="天河区人民政府"> 天河区人民政府 </a></li>
+                  <li><a href="/gzthzyswq/gkmlpt/index" target="_blank" title="天河中央商务区管委会"> 天河中央商务区管委会 </a></li>
+                  <li><a href="/gzththkjy/gkmlpt/index" target="_blank" title="天河科技园管委会"> 天河科技园管委会 </a></li>
+                  <li><a href="/gzthbgs/gkmlpt/index" target="_blank" title="区政府办公室"> 区政府办公室 </a></li>
+                  <li><a href="/gzthfg/gkmlpt/index" target="_blank" title="区发展改革局、区粮食和储备局"> 区发展改革局、区粮食和储..</a></li>
+                  <li><a href="/gzthjy/gkmlpt/index" target="_blank" title="区教育局"> 区教育局 </a></li>
+                  <li><a href="/gzthkgx/gkmlpt/index" target="_blank" title="区科工信局"> 区科工信局 </a></li>
+                  <li><a href="/gzthmz/gkmlpt/index" target="_blank" title="区民政局"> 区民政局 </a></li>
+                  <li><a href="/gzthsf/gkmlpt/index" target="_blank" title="区司法局"> 区司法局 </a></li>
+                  <li><a href="/gzthczgz/gkmlpt/index" target="_blank" title="区财政局，区国资局"> 区财政局，区国资局 </a></li>
+                  <li><a href="/gzthrs/gkmlpt/index" target="_blank" title="区人力资源社会保障局"> 区人力资源社会保障局 </a></li>
+                  <li><a href="/gzthzfylj/gkmlpt/index" target="_blank" title='区住建园林局（区交通运输局）'> 区住建园林局（区交通运...
+                    </a></li>
+                  <li><a href="/gzthsw/gkmlpt/index" target="_blank" title="区水务局"> 区水务局 </a></li>
+                  <li><a href="/gzthnync/gkmlpt/index" target="_blank" title="区农业农村局（区乡村振兴局）"> 区农业农村局（区乡... </a></li>
+                  <li><a href="/gzthswjrly/gkmlpt/index" target="_blank" title="区商务局"> 区商务局</a></li>
+                  <li><a href="/gzthwglt/gkmlpt/index" target="_blank" title="区文化广电旅游体育局"> 区文化广电旅游体育局 </a></li>
+                  <li><a href="/gzthwj/gkmlpt/index" target="_blank" title="区卫生健康局"> 区卫生健康局 </a></li>
+                  <li><a href="/gzthtyjrj/gkmlpt/index" target="_blank" title='区退役军人事务局'> 区退役军人事务局 </a></li>
+                  <li><a href="/gzthyj/gkmlpt/index" target="_blank" title="区应急管理局"> 区应急管理局 </a></li>
+                  <li><a href="/gzthsj/gkmlpt/index" target="_blank" title="区审计局"> 区审计局 </a></li>
+                  <li><a href="/gzthscjg/gkmlpt/index" target="_blank" title=" 区市场监管局 ">  区市场监管局  </a></li>
+                  <li><a href="/gzthtj/gkmlpt/index" target="_blank" title="区统计局"> 区统计局 </a></li>
+                  <li><a href="/gzthcg/gkmlpt/index" target="_blank" title="区城市管理和综合执法局"> 区城市管理和综合执法局 </a></li>
+                  <li><a href="/gzthxfj/gkmlpt/index" target="_blank" title='区信访局'> 区信访局 </a></li>
+                  <li style="border-bottom:#b6b6b6 1px dotted;"><a href="/gzthzs/gkmlpt/index" target="_blank"
+                      title="区政务和数据局">区政务和数据局 </a></li>
+                  <li style="border-bottom:#b6b6b6 1px dotted;"><a href="/gzthga/gkmlpt/index" target="_blank"
+                      title="区公安分局"> 区公安分局 </a></li>
+                  <li style="border-bottom:#b6b6b6 1px dotted;"><a href="/gzthgh/gkmlpt/index" target="_blank"
+                      title="区规划和自然资源分局（区林业局）"> 区规划和自然资源分局（区林业局） </a></li>
+                  <li style="border-bottom: none;"><a href="/gzthhj/gkmlpt/index" target="_blank" title="区生态环境分局">
+                      区生态环境分局 </a></li>
+                </ul>
+                <ul class="list2 home_wsbs_btn item-03" style="display: none;">
+
+                  <li class="li0">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/czyjshsgjfdczxx/index.html" title="财政预决算和“三公”经费等财政信息" target="_blank">
+                        <s></s>财政预决算和“三公”经费等财政信息</a>
+                    
+
+                  </li>
+                  <li class="li1">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/sjjggg/index.html" title="审计结果公告" target="_blank">
+                        <s></s>审计结果公告</a>
+                    
+
+                  </li>
+                  <li class="li2" style="padding-right: 0px;">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/spypaq/index.html" title="食品药品安全" target="_blank">
+                        <s></s>食品药品安全</a>
+                    
+                  </li>
+                  <li class="li3">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/hjbh/index.html" title="环境保护" target="_blank">
+                        <s></s>环境保护</a>
+                    
+                  </li>
+                  <li class="li4">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/aqsc/index.html" title="安全生产" target="_blank">
+                        <s></s>安全生产</a>
+                    
+                  </li>
+                  <li class="li5" style="padding-right: 0px;">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/jghsf/index.html" title="价格和收费" target="_blank">
+                        <s></s>价格和收费</a>
+                    
+                  </li>
+                  <li class="li6">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/zfbz/index.html" title="住房保障" target="_blank">
+                        <s></s>住房保障</a>
+                    
+                  </li>
+                  <li class="li7">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/zdxx/index.html" title="征地信息" target="_blank">
+                        <s></s>征地信息</a>
+                    
+                  </li>
+                  <li class="li8" style="padding-right: 0px;">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/jy/index.html" title="教育" target="_blank">
+                        <s></s>教育</a>
+                    
+                  </li>
+                  <li class="li9">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/ylfw/index.html" title="医疗服务" target="_blank">
+                        <s></s>医疗服务</a>
+                    
+                  </li>
+                  <li class="li10">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/wh/index.html" title="文化" target="_blank">
+                        <s></s>文化</a>
+                    
+                  </li>
+                  <li class="li11" style="padding-right: 0px;">
+                                          <a href="http://www.thnet.gov.cn/thqzdlyxxgkzl/gyqy/index.html" title="国有企业" target="_blank">
+                        <s></s>国有企业</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="s4Right">
+              <ul class="s4Right_list">
+                                  <li class="s4_li9"><a href="http://www.thnet.gov.cn/zwgk/ldzc/qc/cjr/" target="_blank" title="领导之窗">领导之窗</a></li>
+                                <li class="s4_li1"><a href="/gkmlpt/guide" target="_blank" title="信息公开指南">信息公开指南</a></li>
+                <li class="s4_li2"><a href="/gkmlpt/index#6255" target="_blank" title="政府工作报告">政府工作报告</a></li>
+                <li class="s4_li3"><a href="/gkmlpt/policy" target="_blank" title="政策文件">政策文件</a></li>
+                <li class="s4_li4">
+                                      <a href="http://www.thnet.gov.cn/zwgk/zcjd/index.html" target="_blank"
+                      title="政策解读">政策解读</a>
+                                  </li>
+                <li class="s4_li5">
+                  <a target="_blank" href="https://www.thnet.gov.cn/zwgk/zfgb/2026n/2026nd2q/" title="天河区政府公报">天河区政府公报</a>
+                                  </li>
+                <li class="s4_li6">
+                                      <a href="http://www.thnet.gov.cn/zwgk/sjfb/index.html" target="_blank" title="数据发布">数据发布</a>
+                                  </li>
+                <!-- <li class="s4_li7"><a href="http://www.gddata.gov.cn/" target="_blank" title="数据开放平台">数据开放平台</a></li>
+								<li class="s4_li8"><a href="/gkmlpt/index#6260" target="_blank" title="网站年度工作报表">网站年度工作报表</a></li> -->
+              </ul>
+            </div>
+          </div>
+          <!--政务公开 end-->
+          <!--营造环境 start-->
+          <div class="section section5" style="display: none;">
+            <div class="yzhj_l">
+              <div class="yzhj_tzdt">
+                                  <div class="yzhy_hd">
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/index.html">投资动态</a>
+                  </div>
+                                <div class="yzhd_bd">
+                  <ul class="CommonNewsList">
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11032310.html" target="_blank" title="营收双位数增长！国庆假期，天河路商圈迎客超1400万人次">
+                          营收双位数增长！国庆假期，天河路商圈迎客超1400万人次 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11031107.html" target="_blank" title="人机协作错峰保洁，广州天河精细化守护假日城市容颜">
+                          人机协作错峰保洁，广州天河精细化守护假日城市容颜 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11025111.html" target="_blank" title="中国共产党广州市天河区第十一次代表大会开幕，坚定扛牢经济大区挑大梁责任担当">
+                          中国共产党广州市天河区第十一次代表大会开幕，坚定扛牢经济大区挑大梁责任担当 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11025490.html" target="_blank" title="注册成立！修正药业集团“南下落子天河”走向项目实体化运作">
+                          注册成立！修正药业集团“南下落子天河”走向项目实体化运作 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/tzdt/content/post_11020267.html" target="_blank" title="数科平云广场：筑造天河人工智能产业新地标">
+                          数科平云广场：筑造天河人工智能产业新地标 </a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="yzhj_tzdt yzhj_jjsj">
+                                  <div class="yzhy_hd">
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/index.html">经济数据</a>
+                  </div>
+                                <div class="yzhd_bd">
+                  <ul class="CommonNewsList">
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10980436.html" target="_blank" title="2026年1-7月广州市天河区主要经济指标">
+                          2026年1-7月广州市天河区主要经济指标 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10915744.html" target="_blank" title="2026年1-6月广州市天河区主要经济指标">
+                          2026年1-6月广州市天河区主要经济指标 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10893788.html" target="_blank" title="2026年1-5月广州市天河区主要经济指标">
+                          2026年1-5月广州市天河区主要经济指标 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10841261.html" target="_blank" title="2026年1-4月广州市天河区主要经济指标">
+                          2026年1-4月广州市天河区主要经济指标 </a></li>
+                                          <li><a href="http://www.thnet.gov.cn/zjth/tzth/jjsj/content/post_10783594.html" target="_blank" title="2026年1-3月广州市天河区主要经济指标">
+                          2026年1-3月广州市天河区主要经济指标 </a></li>
+                                      </ul>
+                </div>
+              </div>
+            </div>
+            <div class="yzhj_m">
+              <div class="touzith-r">
+                <div class="qiyebanshi">
+                  <h2>主题服务</h2>
+                  <ul>
+                    <li><a href="//thzwb.thnet.gov.cn/policy/#/home" title="政策兑现" target="_blank">政策兑现</a></li>
+                    <li><a href="https://zs.thnet.gov.cn/index" title='天河“政企+”' target="_blank">天河“政企+”</a></li>
+                    <li><a href="//lhsp.gzonline.gov.cn/" title="工程建设联合审批" target="_blank">工程建设联合审批</a></li>
+                    <li><a href="//thzwb.thnet.gov.cn/icity/icity/chain/index" title='"一件事"主题服务' target="_blank">"一件事"主题服务</a></li>
+                  </ul>
+                  <h2>政策指引</h2>
+                  <ul>
+                    <li>
+                                              <a href="http://www.thnet.gov.cn/zjth/tzth/zsyz/index.html" title="招商引资" target="_blank">招商引资</a>
+                                          </li>
+                    <li>
+                                              <a href="http://www.thnet.gov.cn/zjth/tzth/qykb/index.html" title="人才服务" target="_blank">人才服务</a>
+                                          </li>
+                    <li>
+                                              <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/index.html" title="政策文件" target="_blank">政策文件</a>
+                                          </li>
+                    <li>
+                                              <a href="http://www.thnet.gov.cn/zjth/tzth/tzzn/index.html" title="投资指南" target="_blank">投资指南</a>
+                                          </li>
+                  </ul>
+                </div>
+
+                <img src="/global/erweima.jpg" alt="投资天河">
+              </div>
+
+            </div>
+            <div class="yzhj_r">
+                              <div class="zlpt_tt"><a href="http://www.thnet.gov.cn/zjth/tzth/zlpt/index.html">战略平台</a></div>
+                            <div class="zlpt_bd">
+                <ul>
+                                      <li><a href="http://www.thnet.gov.cn/zjth/tzth/zlpt/content/post_9126462.html" target="_blank" title='天河路商圈'>
+                        <img src='http://www.thnet.gov.cn/img/0/973/973380/9126462.png' alt="天河路商圈"/>
+                        <div class="bt">天河路商圈</div>
+                      </a></li>
+                                      <li><a href="http://www.thnet.gov.cn/zjth/tzth/zlpt/content/post_8795050.html" target="_blank" title='天河中央商务区'>
+                        <img src='http://www.thnet.gov.cn/img/0/813/813916/8795050.png' alt="天河中央商务区"/>
+                        <div class="bt">天河中央商务区</div>
+                      </a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--营造环境 end-->
+          <!--互动交流 start-->
+          <div class="section section6" style="display: none;">
+            <div class="s5Left home-hdjl">
+              <div class="s5LeftHd TitleHd">
+                <ul>
+                  <li class="on">
+                                          <a href="http://www.thnet.gov.cn/hdjl/dczj/index.html" target="_blank">调查征集</a>
+
+                                      </li>
+                  <li>
+                                          <a href="http://www.thnet.gov.cn/hdjl/zxft/index.html" target="_blank">在线访谈</a>
+                                      </li>
+                                      <li><a href="http://www.thnet.gov.cn/hdjl/wyxf/index.html" target="_blank">12345政府服务热线</a></li>
+                  
+                </ul>
+              </div>
+              <div class="s5LeftBd">
+
+                <div class="home-dczj item-04">
+                  <div class="dczj_hd">
+                                          <a href="http://www.thnet.gov.cn/hdjl/rdhy/index.html" class="on" target="_blank">热点回应</a>
+
+                    
+
+
+                                          <a href="http://www.thnet.gov.cn/hdjl/dczj/index.html" target="_blank">调查征集</a>
+
+                    
+                                          <a href="http://www.thnet.gov.cn/hdjl/zjqksm/index.html" target="_blank">征集情况说明</a>
+
+                    
+                  </div>
+
+                  <div class="dczj_bd">
+                    <div class="dczi_rdhy item-05" >
+                      <ul class="CommonNewsList">
+                                                  <li>
+                            <span>2026-10-09</span>
+                            <a href="https://mp.weixin.qq.com/s/ihTNSQtZczAMeeS9wkzB8A" target="_blank"
+                              title="注意绕行！广州东站改造，这一路段围蔽施工">注意绕行！广州东站改造，这一路段围蔽施工</a>
+                          </li>
+                                                  <li>
+                            <span>2026-10-09</span>
+                            <a href="https://mp.weixin.qq.com/s/IXW00Arh4MBgwe5VsW4Bpg" target="_blank"
+                              title="天河一家三甲医院配套建设，迎最新进展！">天河一家三甲医院配套建设，迎最新进展！</a>
+                          </li>
+                                                  <li>
+                            <span>2026-10-08</span>
+                            <a href="https://mp.weixin.qq.com/s/pu0A9quaQKEeR7XtRLAfUQ" target="_blank"
+                              title="太超前了！天河商圈业态、消费体验升级">太超前了！天河商圈业态、消费体验升级</a>
+                          </li>
+                                                  <li>
+                            <span>2026-10-07</span>
+                            <a href="https://mp.weixin.qq.com/s/JEq7ihnjsm5Wiz30pv_tgA" target="_blank"
+                              title="水清河畅！天河滨江美景靓出圈">水清河畅！天河滨江美景靓出圈</a>
+                          </li>
+                                                  <li>
+                            <span>2026-10-07</span>
+                            <a href="https://mp.weixin.qq.com/s/al944Ui-BzPoto6vXo4jPw" target="_blank"
+                              title="770兆伏安！世界最大容量柔直变压器到达天河">770兆伏安！世界最大容量柔直变压器到达天河</a>
+                          </li>
+                                                  <li>
+                            <span>2026-09-30</span>
+                            <a href="https://mp.weixin.qq.com/s/DivtI7OWW4iHCp2A7Oaq2w" target="_blank"
+                              title="“天眼”加入巡查！天河智慧管家上线！">“天眼”加入巡查！天河智慧管家上线！</a>
+                          </li>
+                                                  <li>
+                            <span>2026-09-30</span>
+                            <a href="https://mp.weixin.qq.com/s/E6Sf5LzPZpVIf8cacoHbZg" target="_blank"
+                              title="预计11月开放参观！元岗村安置房即将封顶">预计11月开放参观！元岗村安置房即将封顶</a>
+                          </li>
+                                                  <li>
+                            <span>2026-09-29</span>
+                            <a href="https://mp.weixin.qq.com/s/TY867WxTD3wVHmDZCtTA_Q" target="_blank"
+                              title="中国共产党广州市天河区第十一次代表大会胜利闭幕">中国共产党广州市天河区第十一次代表大会胜利闭幕</a>
+                          </li>
+                                                  <li>
+                            <span>2026-09-29</span>
+                            <a href="https://mp.weixin.qq.com/s/fScQxd9DVm78RaGP1ClPsQ" target="_blank"
+                              title="致广大市民朋友的最新提示">致广大市民朋友的最新提示</a>
+                          </li>
+                                                  <li>
+                            <span>2026-09-28</span>
+                            <a href="https://mp.weixin.qq.com/s/yp3zKg-9SuRYoIa62asPMQ" target="_blank"
+                              title="中国共产党广州市天河区第十一次代表大会开幕">中国共产党广州市天河区第十一次代表大会开幕</a>
+                          </li>
+                        
+                      </ul>
+                    </div>
+
+                    <div class="dczi_jgfk item-05" style="display: none;" >
+                      <ul class="CommonNewsList">
+                                                  <li>
+                            <span>2026-09-20</span>
+                            <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/52972" target="_blank"
+                              title="关于公开征求《广州市天河区文化发展“十五五”规划（征求意见稿）》意见的公告">关于公开征求《广州市天河区文化发展“十五五”规划（征求意见稿...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-09-08</span>
+                            <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/52701" target="_blank"
+                              title="关于公开征求《广州国际金融城“十五五”发展规划（征求意见稿）》意见的公告">关于公开征求《广州国际金融城“十五五”发展规划（征求意见稿）...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-08-24</span>
+                            <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/52362" target="_blank"
+                              title="关于公开征集2027年天河区十件民生实事建议的公告">关于公开征集2027年天河区十件民生实事建议的公告</a>
+                          </li>
+                                                  <li>
+                            <span>2026-08-11</span>
+                            <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/52129" target="_blank"
+                              title="关于公开征求《广州市天河区应急管理“十五五”规划（征求意见稿）》意见的公告">关于公开征求《广州市天河区应急管理“十五五”规划（征求意见稿...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-07-01</span>
+                            <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/51324" target="_blank"
+                              title="关于公开征求《广州天河智慧城“十五五”发展规划》社会稳定风险评估工作公众意见的公告">关于公开征求《广州天河智慧城“十五五”发展规划》社会稳定风险...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-07-01</span>
+                            <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/51319" target="_blank"
+                              title="关于公开征求《广州天河智慧城“十五五” 发展规划（征求意见稿）》意见的公告">关于公开征求《广州天河智慧城“十五五” 发展规划（征求意见稿...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-04-29</span>
+                            <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/50093" target="_blank"
+                              title="关于《天河区农村集体资产交易管理实施细则（公开征求意见稿）》对社会公开征求意见的公告">关于《天河区农村集体资产交易管理实施细则（公开征求意见稿）》...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-10-31</span>
+                            <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/47979" target="_blank"
+                              title="关于公开征求《广州市天河区促进文化产业园区和游戏电竞产业高质量发展的若干措施（征求意见稿）》意见的公告">关于公开征求《广州市天河区促进文化产业园区和游戏电竞产业高质...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-10-17</span>
+                            <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/47978" target="_blank"
+                              title="关于广州市天河区河涌水系规划（2024—2035年）（征求意见稿）公开征求意见的公告">关于广州市天河区河涌水系规划（2024—2035年）（征求意...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-10-17</span>
+                            <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/47976" target="_blank"
+                              title="关于《广州市天河区防洪排涝专项规划（2024-2035年）（征求意见稿）》公开征求意见的公告">关于《广州市天河区防洪排涝专项规划（2024-2035年）（...</a>
+                          </li>
+                        
+                      </ul>
+                    </div>
+                    <div class="dczi_jgfk item-05" style="display: none;" >
+                      <ul class="CommonNewsList">
+                                                  <li>
+                            <span>2026-09-18</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_11009828.html" target="_blank"
+                              title="关于公开征求《广州市天河区应急管理“十五五”规划（征求意见稿）》意见的公告的情况说明">关于公开征求《广州市天河区应急管理“十五五”规划（征求意见稿...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-08-24</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10975557.html" target="_blank"
+                              title="关于公开征求《广州天河智慧城“十五五”发展规划》社会稳定风险评估工作公众意见的公告的情况说明">关于公开征求《广州天河智慧城“十五五”发展规划》社会稳定风险...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-08-24</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10975551.html" target="_blank"
+                              title="关于公开征求《广州天河智慧城“十五五” 发展规划（征求意见稿）》意见的公告的情况说明">关于公开征求《广州天河智慧城“十五五” 发展规划（征求意见稿...</a>
+                          </li>
+                                                  <li>
+                            <span>2026-06-01</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10836092.html" target="_blank"
+                              title="关于《天河区农村集体资产交易管理实施细则（公开征求意见稿）》对社会公开征求意见的公告的情况说明">关于《天河区农村集体资产交易管理实施细则（公开征求意见稿）》...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-12-13</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10597492.html" target="_blank"
+                              title="关于《广州市天河区促进文化产业园区和游戏电竞产业高质量发展的若干措施（征求意见稿）》对社会公开征求意见的公告的情况说明">关于《广州市天河区促进文化产业园区和游戏电竞产业高质量发展的...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-11-18</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10597464.html" target="_blank"
+                              title="关于《广州市天河区河涌水系规划（2024—2035年）（征求意见稿）》对社会公开征求意见的公告的情况说明">关于《广州市天河区河涌水系规划（2024—2035年）（征求...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-11-17</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10597430.html" target="_blank"
+                              title="关于《广州市天河区防洪排涝专项规划（2024-2035年）（征求意见稿）》对社会公开征求意见的公告的情况说明">关于《广州市天河区防洪排涝专项规划（2024-2035年）（...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-09-08</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10597372.html" target="_blank"
+                              title="关于《“幸福天河”残疾人服务资助管理办法（修订草案）》对社会公开征求意见的公告的情况说明">关于《“幸福天河”残疾人服务资助管理办法（修订草案）》对社会...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-08-19</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10407463.html" target="_blank"
+                              title="关于《天河区农村集体经济组织财务管理制度（公开征求意见稿）》对社会公开征求意见的公告的情况说明">关于《天河区农村集体经济组织财务管理制度（公开征求意见稿）》...</a>
+                          </li>
+                                                  <li>
+                            <span>2025-06-10</span>
+                            <a href="http://www.thnet.gov.cn/hdjl/zjqksm/content/post_10597303.html" target="_blank"
+                              title="关于《广州市天河区加快推动生物医药与健康产业高质量发展的若干政策措施（征求意见稿）》对社会公开征求意见的公告的情况说明">关于《广州市天河区加快推动生物医药与健康产业高质量发展的若干...</a>
+                          </li>
+                        
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="home_zxft item-04" style="display: none;">
+                  <ul>
+                    
+                      <li>
+                        <span>2026-07-23</span>
+                        <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5813" target="_blank" title="【访谈直播】深化“门前三包”责任制 提升城市精细化治理水平">
+                          【访谈直播】深化“门前三包”责任制 提升城市精细化治理水平 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2026-07-21</span>
+                        <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10944912.html" target="_blank" title="【访谈预告】专访天河区城市管理和综合执法局局长梁业敬">
+                          【访谈预告】专访天河区城市管理和综合执法局局长梁业敬 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2026-06-17</span>
+                        <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5763" target="_blank" title="【访谈直播】多措并举 全方位筑牢安全生产防线">
+                          【访谈直播】多措并举 全方位筑牢安全生产防线 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2026-06-15</span>
+                        <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10862279.html" target="_blank" title="【访谈预告】专访天河区应急管理局党委书记、局长肖敏">
+                          【访谈预告】专访天河区应急管理局党委书记、局长肖敏 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2025-12-25</span>
+                        <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5564" target="_blank" title="【访谈直播】强统筹优服务抓招商 激活楼宇经济新动能">
+                          【访谈直播】强统筹优服务抓招商 激活楼宇经济新动能 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2025-12-23</span>
+                        <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10619114.html" target="_blank" title="【访谈预告】专访天河区沙东街道党工委书记唐德成">
+                          【访谈预告】专访天河区沙东街道党工委书记唐德成 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2025-12-09</span>
+                        <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5506" target="_blank" title="【访谈直播】办赛事就是办城市：提升城市品质 护航十五运">
+                          【访谈直播】办赛事就是办城市：提升城市品质 护航十五运 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2025-12-05</span>
+                        <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10593123.html" target="_blank" title="【访谈预告】专访天河区城市管理和综合执法局局长梁业敬">
+                          【访谈预告】专访天河区城市管理和综合执法局局长梁业敬 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2025-12-01</span>
+                        <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5507" target="_blank" title="【访谈直播】探索“党建+”新路径 赋能企业高质量发展">
+                          【访谈直播】探索“党建+”新路径 赋能企业高质量发展 </a>
+                      </li>
+                    
+                      <li>
+                        <span>2025-11-29</span>
+                        <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10593331.html" target="_blank" title="【访谈预告】专访天河科技园党委副书记、纪委书记冷冰霜">
+                          【访谈预告】专访天河科技园党委副书记、纪委书记冷冰霜 </a>
+                      </li>
+                                      </ul>
+                </div>
+                <div class="home_wsxf item-04" style="display: none;">
+                  <!-- <iframe width="100%" height="100%" src="http://thxf.thnet.gov.cn/mhsy/" frameborder="0" scrolling="no" allowtransparency="true">
+									</iframe> -->
+                  <div class="wyxf_box">
+                    <table class="wsxf_sy_table" id="wsxf_list">
+                      <tr>
+                        <th width="70">类型</th>
+                        <!-- <th width="110">信访编号</th> -->
+                        <th class="wt">标题</th>
+                        <th>留言时间</th>
+                        <th>答复时间</th>
+                      </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_11016022.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-09-22</td>
+                          <td>2026-09-22</td>
+                        </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_11001992.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-09-12</td>
+                          <td>2026-09-12</td>
+                        </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_10964034.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-08-14</td>
+                          <td>2026-08-14</td>
+                        </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_10901217.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-07-14</td>
+                          <td>2026-07-14</td>
+                        </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_10855481.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-06-15</td>
+                          <td>2026-06-15</td>
+                        </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_10820127.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-05-20</td>
+                          <td>2026-05-20</td>
+                        </tr>
+                                              <tr>
+                          <td>咨询 </td>
+                          <!-- <td></td> -->
+                          <td class="wt"><a href="http://www.thnet.gov.cn/hdjl/wyxf/content/post_10790589.html" target="_blank"
+                              title="咨询类"> 咨询类 </a></td>
+                          <td>2026-04-28</td>
+                          <td>2026-04-28</td>
+                        </tr>
+                      
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="s5Right">
+              <h4><a href="//www.gz.gov.cn/gz12345" target="_blank">12345热线互动</a></h4>
+              <div class="cont">
+                <ul class="btn">
+                  <li class="li01"><a target="_blank" href="//www.gz.gov.cn/gz12345/orderInterf/main.do" title="查询">查询</a></li>
+                  <li class="li02"><a target="_blank"
+                      href="//www.gz.gov.cn/gz12345/" title="咨询">咨询</a>
+                  </li>
+                  <li class="li03"><a target="_blank"
+                      href="//www.gz.gov.cn/gz12345/" title="投诉">投诉</a>
+                  </li>
+                  <li class="li04"><a target="_blank"
+                      href="//www.gz.gov.cn/gz12345/" title="求助">求助</a>
+                  </li>
+                </ul>
+                <div class="zzfw_search">
+                                      <h4><a href="http://www.thnet.gov.cn/zwfw/thzw/gtc/lyxd/index.html" target="_blank" title="留言选登">留言选登</a></h4>
+                                  </div>
+              </div>
+            </div>
+          </div>
+          <!--互动交流 end-->
+          <!--热点专题 start-->
+          <!-- <div class="sy-rdzt" id="rdzt-imgs">
+						<div class="rdzt-imgs">
+							<ul>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/wqfwyls/zctll/index.html" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1698/1698706/11029703.png"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/2025thqsjmssswcqka/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1601/1601739/10751149.jpg"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/qsjrdlchy/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1601/1601950/10751020.png"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/zxgzsthqjjlchy/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1600/1600952/10749921.png"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/gxbcyjs/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1575/1575802/10686131.png"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/hqzcdxsx/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1509/1509764/10492840.png"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/bqwgc/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1468/1468786/10375276.png"></a>
+								</li>
+																<li>
+							            <a href="http://www.thnet.gov.cn/ztzl/2024thqsjmssswcqka/index.html" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1389/1389831/10161380.jpg"></a>
+								</li>
+																<li>
+							            <a href="http://www.thnet.gov.cn/ztzl/theqb/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1257/1257640/9816597.jpg"></a>
+								</li>
+															</ul>
+							<ul>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/thqsyzl/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1249/1249158/9795214.png"></a>
+								</li>
+																<li>
+							            <a href="http://www.thnet.gov.cn/ztzl/thq2025ngzlfz/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1369/1369102/10112947.jpg"></a>
+								</li>
+																<li>
+							            <a href="https://www.gov.cn/zhuanti/2025qglh/index.htm" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/1/1398/1398830/9522590.png"></a>
+								</li>
+																<li>
+							            <a href="https://www.thnet.gov.cn/ztzl/bmlsjy/" target="_blank"> 
+							            	<img src="http://www.thnet.gov.cn/img/0/95/95672/5795625.jpg"></a>
+								</li>
+															</ul>
+						</div>
+						<div class="rdzt-spans">
+							<span class="rdzt-prev"></span><span class="rdzt-next"></span>
+						</div>
+					</div> -->
+          <!--热点专题 end-->
+          <!--工作机构 start-->
+          <div class="section section7" style="display: none;">
+            <div class="s7Tab home-gzjg">
+              <div class="s7TabHd TitleHd">
+                <ul>
+                  <li class="on">区委</li>
+                  <li>区人大常委会</li>
+                  <li>区政府</li>
+                  <li>区政协</li>
+                  <li>区纪委监委</li>
+                  <li>法、检两院</li>
+                  <li>街道</li>
+                  <li>群众团体</li>
+                </ul>
+              </div>
+              <div class="s7TabBd">
+                <ul class="item-06">
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwbgs/index.html" target="_blank"
+                        title="区委办公室">区委办公室</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwzzb/index.html" target="_blank"
+                        title="区委组织部">区委组织部</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwxcb/index.html" target="_blank"
+                        title="区委宣传部">区委宣传部</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwtzb/index.html" target="_blank"
+                        title="区委统战部">区委统战部</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwshgzb/index.html" target="_blank"
+                        title="区委社会工作部">区委社会工作部</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwzfw/index.html" target="_blank"
+                        title="区委政法委">区委政法委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwlgbj/index.html" target="_blank"
+                        title="区委老干部局">区委老干部局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwbb/index.html" target="_blank"
+                        title="区委编办">区委编办</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwxcb7/index.html" target="_blank"
+                        title="区委巡察办">区委巡察办</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qzjggw/index.html" target="_blank"
+                        title="区直机关工委">区直机关工委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qtb/index.html" target="_blank"
+                        title="区台办">区台办</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qwdx/index.html" target="_blank"
+                        title="区委党校">区委党校</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/dag/index.html" target="_blank"
+                        title="区国家档案馆">区国家档案馆</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/thb/index.html" target="_blank"
+                        title="区融媒体中心">区融媒体中心</a>
+                    </li>
+                  
+                </ul>
+                <ul style="display: none;" class="item-06">
+
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhbgs/index.html" target="_blank"
+                        title="区人大常委会办公室">区人大常委会办公室</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhfzgw/index.html" target="_blank"
+                        title="区人大常委会法制工委">区人大常委会法制工委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhcjgw/index.html" target="_blank"
+                        title="区人大常委会预算工委">区人大常委会预算工委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhcjhzgw/index.html" target="_blank"
+                        title="区人大常委会城乡建设环境资源工委">区人大常委会城乡建设环境资源工委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhjkwwgw/index.html" target="_blank"
+                        title="区人大常委会教育科学文化卫生工委（区人大常委会华侨外事民族宗教工委）">区人大常委会教育科学文化卫生工委（区人大常委会华侨外事民族宗教工委）</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhngw/index.html" target="_blank"
+                        title="区人大常委会农村农业工委">区人大常委会农村农业工委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhhqwsgw/index.html" target="_blank"
+                        title="区人大常委会社会工委">区人大常委会社会工委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qrdcwh/qrdcwhxlgw/index.html" target="_blank"
+                        title="区人大常委会代表工委">区人大常委会代表工委</a>
+                    </li>
+                  
+                </ul>
+                <ul style="display: none;" class="FourList item-06" >
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/thzyswqgwh/index.html" target="_blank"
+                        title="天河中央商务区管委会">天河中央商务区管委会</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/thkjygwh/index.html" target="_blank"
+                        title="天河科技园管委会">天河科技园管委会</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qzfbgs/index.html" target="_blank"
+                        title="区政府办公室">区政府办公室</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qfzggjqlshcbj/index.html" target="_blank"
+                        title="区发展改革局、区粮食和储备局">区发展改革局、区粮食...</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qkgxj/index.html" target="_blank"
+                        title="区科工信局">区科工信局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qjyj/index.html" target="_blank"
+                        title="区教育局">区教育局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/thqgafj/index.html" target="_blank"
+                        title="天河区公安分局">天河区公安分局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qmzj/index.html" target="_blank"
+                        title="区民政局">区民政局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qsfj/index.html" target="_blank"
+                        title="区司法局">区司法局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qczjqgzj/index.html" target="_blank"
+                        title="区财政局,区国资局">区财政局,区国资局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qrlzyshbzj/index.html" target="_blank"
+                        title="区人力资源社会保障局">区人力资源社会保障局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/sghhzrzyjthqfj/index.html" target="_blank"
+                        title="区规划和自然资源分局（区林业局）">区规划和自然资源分局...</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/ssthjjthqfj/index.html" target="_blank"
+                        title="市生态环境局天河分局">市生态环境局天河分局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qswj/index.html" target="_blank"
+                        title="区水务局">区水务局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qnyncj/index.html" target="_blank"
+                        title="区农业农村局（区乡村振兴局）">区农业农村局（区乡村...</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qswjrj/index.html" target="_blank"
+                        title="区商务局">区商务局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qwhgdlytyj/index.html" target="_blank"
+                        title="区文化广电旅游体育局">区文化广电旅游体育局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qwsjkj/index.html" target="_blank"
+                        title="区卫生健康局">区卫生健康局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qsjj/index.html" target="_blank"
+                        title="区审计局">区审计局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qcsglhzhzfj/index.html" target="_blank"
+                        title="区城市管理和综合执法局">区城市管理和综合执法...</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qyjglj/index.html" target="_blank"
+                        title="区应急管理局">区应急管理局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qscjgj/index.html" target="_blank"
+                        title="区市场监管局">区市场监管局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qzwfwsjglj/index.html" target="_blank"
+                        title="区政务和数据局（区行政审批局）">区政务和数据局（区行...</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qxzb/index.html" target="_blank"
+                        title="区协作办">区协作办</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qjgswj/index.html" target="_blank"
+                        title="区机关事务局">区机关事务局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/dzdqgwb/index.html" target="_blank"
+                        title="东站地区管委办">东站地区管委办</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qgxls/index.html" target="_blank"
+                        title="区供销联社">区供销联社</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qdjj/index.html" target="_blank"
+                        title="区代建局">区代建局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qzb/index.html" target="_blank"
+                        title="区志办">区志办</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qtjj/index.html" target="_blank"
+                        title="区统计局">区统计局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qtyjrswj/index.html" target="_blank"
+                        title="区退役军人事务局">区退役军人事务局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qw/qxfj/index.html" target="_blank"
+                        title="区信访局">区信访局</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzf/qzjylj/index.html" target="_blank"
+                        title="区住建园林局（区交通运输局）">区住建园林局（区交通...</a>
+                    </li>
+                  
+                </ul>
+                <ul style="display: none;" class="item-06">
+
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzx/qzxbgs/index.html" target="_blank"
+                        title="区政协办公室">区政协办公室</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzx/qzxtaw/index.html" target="_blank"
+                        title="区政协提案委">区政协提案委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzx/qzxshfzxxwsw/index.html" target="_blank"
+                        title="区政协社会法制学习文史委">区政协社会法制学习文史委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzx/qzxjjw/index.html" target="_blank"
+                        title="区政协经济委">区政协经济委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qzx/qzxjkwwtw/index.html" target="_blank"
+                        title="区政协教科文卫体委">区政协教科文卫体委</a>
+                    </li>
+                  
+                </ul>
+                <ul style="display: none;" class="item-06">
+
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qjwjw/qwjcw/index.html" target="_blank"
+                        title="区纪委监委">区纪委监委</a>
+                    </li>
+                  
+                </ul>
+                <ul style="display: none;" class="item-06">
+
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/fjly/qfy/index.html" target="_blank"
+                        title="区法院">区法院</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/fjly/qjcy/index.html" target="_blank"
+                        title="区检察院">区检察院</a>
+                    </li>
+                  
+                </ul>
+                <ul class="jdlist item-06" style="display: none;" >
+
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/shj/index.html" target="_blank"
+                        title="沙河街">沙河街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/wsj/index.html" target="_blank"
+                        title="五山街">五山街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/ycj/index.html" target="_blank"
+                        title="员村街">员村街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/czj/index.html" target="_blank"
+                        title="车陂街">车陂街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/spj/index.html" target="_blank"
+                        title="石牌街">石牌街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/thnj/index.html" target="_blank"
+                        title="天河南街">天河南街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/lhj/index.html" target="_blank"
+                        title="林和街">林和街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/sdj/index.html" target="_blank"
+                        title="沙东街">沙东街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/xhj/index.html" target="_blank"
+                        title="兴华街">兴华街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/txj/index.html" target="_blank"
+                        title="棠下街">棠下街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/tyj/index.html" target="_blank"
+                        title="天园街">天园街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/zcj/index.html" target="_blank"
+                        title="冼村街">冼村街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/liedj/index.html" target="_blank"
+                        title="猎德街">猎德街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/ygj/index.html" target="_blank"
+                        title="元岗街">元岗街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/hcj/index.html" target="_blank"
+                        title="黄村街">黄村街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/ldj15/index.html" target="_blank"
+                        title="龙洞街">龙洞街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/cxj/index.html" target="_blank"
+                        title="长兴街">长兴街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/fhj/index.html" target="_blank"
+                        title="凤凰街">凤凰街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/qjj/index.html" target="_blank"
+                        title="前进街">前进街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/zjj/index.html" target="_blank"
+                        title="珠吉街">珠吉街</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/jd/xtj/index.html" target="_blank"
+                        title="新塘街">新塘街</a>
+                    </li>
+                  
+                </ul>
+                <ul style="display: none;" class="item-06">
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qzgh/index.html" target="_blank"
+                        title="区总工会">区总工会</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/tqw/index.html" target="_blank"
+                        title="团区委">团区委</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qfl/index.html" target="_blank"
+                        title="区妇联">区妇联</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qql/index.html" target="_blank"
+                        title="区侨联">区侨联</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qwl/index.html" target="_blank"
+                        title="区文联">区文联</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qkx/index.html" target="_blank"
+                        title="区科协">区科协</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qcl/index.html" target="_blank"
+                        title="区残联">区残联</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qgslqzsh/index.html" target="_blank"
+                        title="区工商联，区总商会">区工商联，区总商会</a>
+                    </li>
+                                      <li>
+                      <a href="http://www.thnet.gov.cn/gzjg/qztt/qmch/index.html" target="_blank"
+                        title="区贸促会">区贸促会</a>
+                    </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+          <!--工作机构 end-->
+        </div>
+
+        <div class="clear"></div>
+     
+        <!--首页新闻列表 开始-->
+        <div class="home_news">
+          <div class="home_news_left home-news1">
+            <div class="TitleHd ">
+              <ul>
+                <li>
+                  <a href="http://www.thnet.gov.cn/thdt/tzgg/index.html" target="_parent">通知公告</a>                </li>
+                <li>
+                  <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/index.html" target="_parent">营商政策</a>                </li>
+                <li>
+                  <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/index.html" target="_parent">政策解读</a>                </li>
+
+              </ul>
+            </div>
+            <div class="NewsBd" >
+              <ul class="CommonNewsList item-07">
+                                  <li>
+                    <span>2014-01-20</span>
+                    <a href="http://www.thnet.gov.cn/thdt/tzgg/qtgg/content/post_10538904.html" target="_blank"
+                      title="关于《天河智慧城功能片区土地利用总体规划（2013-2020年）》成果的公告">关于《天河智慧城功能片区土地利用总体规划（2013-2020...</a>
+                  </li>
+                                  <li>
+                    <span>2017-10-11</span>
+                    <a href="http://www.thnet.gov.cn/thdt/tzgg/qtgg/content/post_8674392.html" target="_blank"
+                      title="天河区国土资源和规划局关于广州市天河智慧城功能片区土地利用总体规划（2013-2020年）调整完善方案的成果公告">天河区国土资源和规划局关于广州市天河智慧城功能片区土地利用总...</a>
+                  </li>
+                                  <li>
+                    <span>2026-10-10</span>
+                    <a href="http://www.thnet.gov.cn/thdt/tzgg/qtgg/content/post_11036135.html" target="_blank"
+                      title="9月天河区居民住宅装修垃圾（临时）堆放点信息汇总表">9月天河区居民住宅装修垃圾（临时）堆放点信息汇总表</a>
+                  </li>
+                                  <li>
+                    <span>2026-10-10</span>
+                    <a href="http://www.thnet.gov.cn/thdt/tzgg/qtgg/content/post_11035323.html" target="_blank"
+                      title="广州市优唱文化娱乐有限公司申请从事娱乐场所经营活动公示">广州市优唱文化娱乐有限公司申请从事娱乐场所经营活动公示</a>
+                  </li>
+                                  <li>
+                    <span>2026-10-10</span>
+                    <a href="http://www.thnet.gov.cn/thdt/tzgg/zbgg/content/post_11035302.html" target="_blank"
+                      title="广州市天河区文化广电旅游体育局关于天河区区级应急广播系统建设项目验收测评服务项目采购公告">广州市天河区文化广电旅游体育局关于天河区区级应急广播系统建设...</a>
+                  </li>
+                                  <li>
+                    <span>2026-10-10</span>
+                    <a href="http://www.thnet.gov.cn/thdt/tzgg/zbgg/content/post_11035278.html" target="_blank"
+                      title="广州市天河区文化广电旅游体育局关于天河区区级应急广播系统建设项目网络安全等级保护测评服务项目采购公告">广州市天河区文化广电旅游体育局关于天河区区级应急广播系统建设...</a>
+                  </li>
+                              </ul>
+              <ul class="CommonNewsList item-07" style="display: none;">
+                                  <li>
+                    <span>2026-09-24</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/sszc/content/post_11021162.html" target="_blank"
+                      title="广州市人民政府关于印发广州市政府投资管理办法的通知">广州市人民政府关于印发广州市政府投资管理办法的通知</a>
+                  </li>
+                                  <li>
+                    <span>2026-09-24</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/gjzc/content/post_11021069.html" target="_blank"
+                      title="国务院办公厅关于加强中小企业回款难问题治理有关工作的通知">国务院办公厅关于加强中小企业回款难问题治理有关工作的通知</a>
+                  </li>
+                                  <li>
+                    <span>2026-06-30</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10893593.html" target="_blank"
+                      title="【音频解读】关于《广州市天河区人民政府关于延长&lt;广州市天河区人民政府关于划定广佛环线广州南站至白云机场段天河区范围线路安全保护区的通告&gt;有效期的通知》的政策解读">【音频解读】关于《广州市天河区人民政府关于延长&lt;广州市...</a>
+                  </li>
+                                  <li>
+                    <span>2026-06-18</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10893592.html" target="_blank"
+                      title="【图文解读+音频解读】关于《广州市天河区科技工业和信息化局关于废止穗天科工信规字〔2025〕1号文件的通知》的政策解读">【图文解读+音频解读】关于《广州市天河区科技工业和信息化局关...</a>
+                  </li>
+                                  <li>
+                    <span>2026-07-13</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/thzc/content/post_10869889.html" target="_blank"
+                      title="天河区营商环境公共服务编目">天河区营商环境公共服务编目</a>
+                  </li>
+                                  <li>
+                    <span>2026-03-27</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/gjzc/content/post_10744887.html" target="_blank"
+                      title="国务院办公厅关于印发《加快培育服务消费新增长点工作方案》的通知">国务院办公厅关于印发《加快培育服务消费新增长点工作方案》的通...</a>
+                  </li>
+                
+              </ul>
+              <ul class="CommonNewsList item-07" style="display: none;">
+                                  <li>
+                    <span>2026-06-30</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10893593.html" target="_blank"
+                      title="【音频解读】关于《广州市天河区人民政府关于延长&lt;广州市天河区人民政府关于划定广佛环线广州南站至白云机场段天河区范围线路安全保护区的通告&gt;有效期的通知》的政策解读">【音频解读】关于《广州市天河区人民政府关于延长&lt;广州市...</a>
+                  </li>
+                                  <li>
+                    <span>2026-06-18</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10893592.html" target="_blank"
+                      title="【图文解读+音频解读】关于《广州市天河区科技工业和信息化局关于废止穗天科工信规字〔2025〕1号文件的通知》的政策解读">【图文解读+音频解读】关于《广州市天河区科技工业和信息化局关...</a>
+                  </li>
+                                  <li>
+                    <span>2026-02-14</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10718501.html" target="_blank"
+                      title="【图文解读+音频解读】关于《广州市天河区科技工业和信息化局关于废止穗天科工信规字〔2025〕2号文件的通知》的政策解读">【图文解读+音频解读】关于《广州市天河区科技工业和信息化局关...</a>
+                  </li>
+                                  <li>
+                    <span>2025-12-29</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10718511.html" target="_blank"
+                      title="【图文解读+音频解读】关于《广州市天河区促进文旅体产业高质量发展的若干政策措施》的政策解读">【图文解读+音频解读】关于《广州市天河区促进文旅体产业高质量...</a>
+                  </li>
+                                  <li>
+                    <span>2025-11-27</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10718510.html" target="_blank"
+                      title="【图文解读+音频解读】关于《广州市天河区大力支持金融资产投资产业高质量发展政策措施》的政策解读">【图文解读+音频解读】关于《广州市天河区大力支持金融资产投资...</a>
+                  </li>
+                                  <li>
+                    <span>2025-10-20</span>
+                    <a href="http://www.thnet.gov.cn/zjth/tzth/tzzc/zcjd/content/post_10718509.html" target="_blank"
+                      title="【图文解读+音频解读】《广州市天河区加快推动低空经济与航空航天高质量发展的若干政策措施》政策解读">【图文解读+音频解读】《广州市天河区加快推动低空经济与航空航...</a>
+                  </li>
+                              </ul>
+
+            </div>
+          </div>
+          <div class="home-news2 home_news_left home_news_right">
+            <div class="TitleHd ">
+              <ul>
+
+                <li>
+                  <a href="http://www.thnet.gov.cn/hdjl/dczj/index.html" target="_parent">调查征集</a>                </li>
+                <li>
+                  <a href="http://www.thnet.gov.cn/hdjl/zxft/index.html" target="_parent">在线访谈</a>                </li>
+                
+              </ul>
+            </div>
+            <div class="NewsBd">
+              <ul class="CommonNewsList item-08">
+                                  <li>
+                    <span>2026-09-20</span>
+                    <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/52972" target="_blank"
+                      title="关于公开征求《广州市天河区文化发展“十五五”规划（征求意见稿）》意见的公告">关于公开征求《广州市天河区文化发展“十五五”规划（征求意见稿...</a>
+                  </li>
+                                  <li>
+                    <span>2026-09-08</span>
+                    <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/52701" target="_blank"
+                      title="关于公开征求《广州国际金融城“十五五”发展规划（征求意见稿）》意见的公告">关于公开征求《广州国际金融城“十五五”发展规划（征求意见稿）...</a>
+                  </li>
+                                  <li>
+                    <span>2026-08-24</span>
+                    <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/52362" target="_blank"
+                      title="关于公开征集2027年天河区十件民生实事建议的公告">关于公开征集2027年天河区十件民生实事建议的公告</a>
+                  </li>
+                                  <li>
+                    <span>2026-08-11</span>
+                    <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/52129" target="_blank"
+                      title="关于公开征求《广州市天河区应急管理“十五五”规划（征求意见稿）》意见的公告">关于公开征求《广州市天河区应急管理“十五五”规划（征求意见稿...</a>
+                  </li>
+                                  <li>
+                    <span>2026-07-01</span>
+                    <a href="https://www.thnet.gov.cn/hdjlpt/yjzj/answer/51324" target="_blank"
+                      title="关于公开征求《广州天河智慧城“十五五”发展规划》社会稳定风险评估工作公众意见的公告">关于公开征求《广州天河智慧城“十五五”发展规划》社会稳定风险...</a>
+                  </li>
+                                  <li>
+                    <span>2026-07-01</span>
+                    <a href="http://www.thnet.gov.cn/hdjlpt/yjzj/answer/51319" target="_blank"
+                      title="关于公开征求《广州天河智慧城“十五五” 发展规划（征求意见稿）》意见的公告">关于公开征求《广州天河智慧城“十五五” 发展规划（征求意见稿...</a>
+                  </li>
+                              </ul>
+              <ul class="CommonNewsList item-08" style="display: none;">
+                                  <li>
+                    <span>2026-07-23</span>
+                    <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5813" target="_blank"
+                      title="【访谈直播】深化“门前三包”责任制 提升城市精细化治理水平">【访谈直播】深化“门前三包”责任制 提升城市精细化治理水平</a>
+                  </li>
+                                  <li>
+                    <span>2026-07-21</span>
+                    <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10944912.html" target="_blank"
+                      title="【访谈预告】专访天河区城市管理和综合执法局局长梁业敬">【访谈预告】专访天河区城市管理和综合执法局局长梁业敬</a>
+                  </li>
+                                  <li>
+                    <span>2026-06-17</span>
+                    <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5763" target="_blank"
+                      title="【访谈直播】多措并举 全方位筑牢安全生产防线">【访谈直播】多措并举 全方位筑牢安全生产防线</a>
+                  </li>
+                                  <li>
+                    <span>2026-06-15</span>
+                    <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10862279.html" target="_blank"
+                      title="【访谈预告】专访天河区应急管理局党委书记、局长肖敏">【访谈预告】专访天河区应急管理局党委书记、局长肖敏</a>
+                  </li>
+                                  <li>
+                    <span>2025-12-25</span>
+                    <a href="http://www.thnet.gov.cn/hdjlpt/live/index.php?pid=5564" target="_blank"
+                      title="【访谈直播】强统筹优服务抓招商 激活楼宇经济新动能">【访谈直播】强统筹优服务抓招商 激活楼宇经济新动能</a>
+                  </li>
+                                  <li>
+                    <span>2025-12-23</span>
+                    <a href="http://www.thnet.gov.cn/hdjl/zxft/content/post_10619114.html" target="_blank"
+                      title="【访谈预告】专访天河区沙东街道党工委书记唐德成">【访谈预告】专访天河区沙东街道党工委书记唐德成</a>
+                  </li>
+                              </ul>
+            
+
+            </div>
+          </div>
+
+        </div>
+        <!--首页新闻列表 结束-->
+        <div class="clear"></div>
+        <div class="home_zt">
+          <ul>
+            <li><a href="//zs.thnet.gov.cn/index" target="_blank"><img
+                  src="/images/thzq_fwpt.jpg" alt="天河政企+服务平台"/></a></li>
+            <li><a href="//www.gz.gov.cn/zt/mlxgzjqswy/" target="_blank"><img
+                  src="/global/index_icon_swy.png" alt="魅力新广州 激情十五运"/></a></li>
+
+            <li><a href="/zwgk/thqzwgksxbzml/index.html" target="_parent"><img
+                  src="/global/zt03.jpg" alt="天河区基层政务公开标准化规范化工作"/></a></li>
+            <!-- <li><a href="https://www.xinyidaigz.com/?t=1589875903574#/" target="_blank"><img
+                  src="/global/zt04.jpg" alt="全国中小企业融资综合信用服务平台"/></a></li> -->
+            <li><a href="https://xyth.thnet.gov.cn/" target="_blank"><img
+                  src="/global/xyth.png" alt="信用天河综合信用服务平台"/></a></li>
+            <li><a href="/gkmlpt/index#6260" target="_parent"><img src="/global/zt06.jpg" alt="网站年度工作报表"/></a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <!--首页底部 热点专题滚动开始-->
+        <div class="rdzt_gdtp">
+          <div class="rdzt_bd bd">
+            <ul>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/wqfwyls/zctll/index.html" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1698/1698706/11029703.png" alt="天河区为侨服务“一类事”"/></div>
+                  </a></li>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/2025thqsjmssswcqka/" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1601/1601739/10751149.jpg" alt="2025年天河区十件民生实事完成情况"/></div>
+                  </a></li>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/qsjrdlchy/" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1601/1601950/10751020.png" alt="广州市天河区第十届人民代表大会第六次会议"/></div>
+                  </a></li>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/zxgzsthqjjlchy/" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1600/1600952/10749921.png" alt="政协广州市天河区九届六次会议"/></div>
+                  </a></li>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/gxbcyjs/" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1575/1575802/10686131.png" alt="天河区“高效办成一件事”明白卡专题"/></div>
+                  </a></li>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/hqzcdxsx/" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1509/1509764/10492840.png" alt="天河区惠企政策（产业高质量发展政策）兑现事项服务包专题"/></div>
+                  </a></li>
+                              <li><a href="https://www.thnet.gov.cn/ztzl/bqwgc/" target="_blank">
+                    <div class="pic"><img src="http://www.thnet.gov.cn/img/1/1468/1468786/10375276.png" alt="“百千万工程”"/></div>
+                  </a></li>
+                          </ul>
+          </div>
+          <a class="home_ztzl_next"></a>
+          <a class="home_ztzl_prev"></a>
+                      <div class="rdzt_more"><a href="http://www.thnet.gov.cn/thdt/rdzt/index.html">更</br>多</a></div>
+                  </div>
+        <!--首页底部 热点专题滚动结束-->
+
+      </div>
+    </div>
+    <!--footer S-->
+    <div class="footer">
+  <div class="container">
+    <div class="footer-copyright">
+      <div class="cr1">
+                  <a href="http://www.thnet.gov.cn/2016qt/db/wzdt/index.html" target="_blank" title="网站地图">网站地图</a>
+                <i class="split">|</i>
+                  <a href="http://www.thnet.gov.cn/2016qt/db/lxwm/index.html" target="_blank" title="联系我们">联系我们</a>
+                <i class="split">|</i>
+                  <a href="http://www.thnet.gov.cn/2016qt/db/yqlj/index.html" target="_blank" title="友情链接">友情链接</a>
+                <i class="split">|</i>
+        <span class="bsm"><a target="_blank" title="网站标识码：4401060050">网站标识码：4401060050</a></span>
+        <span class="siteCounts">您是第
+          <span id="NFCMS-SITE-VISIT-4">-</span><script>setTimeout(function(){var s = document.createElement("script");s.type = "text/javascript";s.src = "//statistics.gd.gov.cn/jsonp/site/sum?site=200005&callback=NFCMS_CB_SITE_VISIT_4&t=" + Math.random().toString(35).substr(2);window.NFCMS_CB_SITE_VISIT_4 = function(data){document.getElementById("NFCMS-SITE-VISIT-4").innerHTML = data.count;document.body.removeChild(s);};document.body.appendChild(s);}, 10);</script>
+            <script>window.NFCMS_SITE_ID=200005;window.NFCMS_PUB_TYPE="page";window.NFCMS_PAGE_ID="1839";</script><script src="//statistics.gd.gov.cn/scripts/s.js?t=1790736277" async></script>
+              位访客
+        </span>
+      </div>
+      <div class="cr2">
+        主办：广州市天河区人民政府 承办：广州市天河区政务服务和数据管理局&nbsp;&nbsp;&nbsp;备案序号：<a title="粤ICP备15016469号-2" target="_blank"
+          href="//beian.miit.gov.cn/#/Integrated/index">粤ICP备15016469号-2</a> &nbsp;<a class="beian"
+          title="粤公网安备 44010602000147号" target="_blank"
+          href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010602000147">粤公网安备 44010602000147号</a>
+      </div>
+    </div>
+    <div class="footer-wzbs">
+      <span id="_wzafw"><img src="/images/wzafw.png" alt="适老化无障碍服务"></span>
+      <script id="_jiucuo_" sitecode='4401060050' src='//zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+      
+      <script defer async type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript  src='//dcs.conac.cn/js/20/296/0909/60073643/CA202960909600736430001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+      
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/global/layer.css">
+<script type="text/javascript" src="/global/layer.js"></script> 
+<script type="text/javascript" src="/global/my_layer.js"></script> 
+<script type="text/javascript" src="/global/slh_tab.js"></script> 
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=dbc25697f9f774e30266abd71399c627" charset="utf-8"></script>
+<!-- <script src="//slhsrv.southcn.com/wza/slh.js?app=www.thnet.gov.cn" referrerpolicy="origin"></script> -->
+<script>
+  // IE8 兼容配置 
+  // window.onload = function () {
+  //   cnillWzaInstance.startInit("//www.thnet.gov.cn/js/cnill_polyfill.swf");
+  // }
+  /*
+  document.getElementById("wza").onclick = function () {
+    // 执行实例的init方法 
+    cnillWzaInstance.init();
+    // cnillWzaInstance为全局变量 
+  }*/
+  	// 适老化
+	// document.getElementById("slh").onclick = function() {
+	// 	// 执行实例的init方法
+	// 	slhInstance.init();  // cnillWzaInstance为全局变量
+	// }
+
+
+</script>
+<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005272" src="//fxsjcj.kaipuyun.cn/count/10005272/10005272.js"></script>
+
+    <!--footer E-->
+  </div>
+  <!--home_container 结束-->
+  <script type="text/javascript" src="//www.thnet.gov.cn/global/common.js"></script>
+
+<div class="PageCommon">
+			<div class="sjb aa"><span style="background:url(/global/sjbtb_icon.png) no-repeat #f5f5f5;background-size:cover; border-bottom: 1px solid #e4e4e4;"></span>
+				<div class="hidebox" style="height:115px;"><img src="/global/sjb_ewm.png" width="" height=""><span style="display:black;width:110px;border:none;height:15px;line-height:15px;text-align:center;color:#333;">手机版</span></div>
+			</div>
+			<!-- <div class="yst aa"><span style="background:url(/global/ysttb_icon.png) no-repeat #f5f5f5;background-size:cover; border-bottom: 1px solid #e4e4e4;"></span>
+				<div class="hidebox" style="height:115px;"><img src="/global/yst.png" width="" height=""><span style="display:black;width:110px;border:none;height:15px;line-height:15px;text-align:center;color:#333;">粤商通</span></div>
+			</div> -->
+			<!-- <div class="19da aa"><a href="http://www.thnet.gov.cn/ztzl/thqxxxcgcsjdjszt/index.html" target="_blank"><span style="background:url(/global/19da.jpg)no-repeat;background-size:cover;"></span></a></div> -->
+			<div class="shb aa"><span style="background:url(/global/shbtb_icon.jpg) no-repeat #f5f5f5;background-size:cover; border-bottom: 1px solid #e4e4e4;"></span>
+				<div class="hidebox" style="height:115px;"><img src="/global/shb_ewm.jpg" width="" height=""><span style="display:black;width:110px;border:none;height:15px;line-height:15px;text-align:center;color:#333;">穗好办</span></div>
+			</div>
+
+			<div class="gz12345 aa" >
+				<a href="//www.gz.gov.cn/hdjl/12345rx/sysm/index.html" target="blank"><img src="/global/gz12345_icon.png" style="display:block; border:#e4e4e4 1px solid;"></a>
+			</div>
+			<!-- <div class="skm aa"><span style="background:url(/global/sk_icon1.png) no-repeat #f5f5f5;background-size:cover; border-bottom: 1px solid #e4e4e4;"></span>
+	<div class="hidebox" style="height:115px;"><img src="/global/skkhm.jpg" width="" height=""><span style="display:black;width:110px;border:none;height:15px;line-height:15px;text-align:center;color:#333;">穗康二维码</span></div>
+		
+</div> -->
+
+			<!-- <div class="wx aa"><span></span>
+	<div class="hidebox" style="height:115px;"><img src="/global/2016_ewm_wx.jpg" width="110" height="100"><span style="display:black;width:110px;border:none;height:15px;line-height:15px;text-align:center;color:#333;">天河发布</span></div>
+</div> -->
+
+			<!-- <div class="wb aa"><span></span><a href="//weibo.com/gztianhefb" target="_blank"><div class="hidebox" style="height:115px;"><img src="/global/2016_ewm_wb.jpg" width="110" height="100"><span style="display:black;width:110px;border:none;height:15px;line-height:15px;text-align:center;color:#333;">天河发布</span></div></a></div>-->
+			<!-- <div class="email aa"><a title="政府邮箱" href="//mail.thnet.gov.cn/" target="_blank"><span></span></a></div> -->
+			<!-- <div class="zhdj aa"><span></span><a href="#" target="_blank"><div class="hidebox"><img src="/global/2016_ewm_zhdj.jpg"></div></a></div> -->
+			<!-- <div class="sjkf aa"><a title="政府公报" href="https://www.thnet.gov.cn/zwgk/zfgb/2026n/2026nd2q/" target="_blank"><span></span></a></div> -->
+			<div class="ljth aa"><span></span><a href="//weibo.com/3670452004/profile?s=6cm7D0" target="_blank"><div class="hidebox"><img src="/images/ljth.png"></div></a></div>
+
+
+			<!--公共服务-->
+			<!-- <div class="ljth ggfw aa"><span></span>
+				<div class="hidebox">
+					<ul>
+						<li><a href="//nc.mofcom.gov.cn/" target="_blank"><img src="/global/ncp.png">农产品销售信息查询</a></li>
+						<li><a href="//www.tqyb.com.cn/gz/weatherForecast/report/" target="_blank"><img src="/global/tqyb.png">气象信息查询</a></li>
+					 <li><a href="//www.zuoche.com/" target="_blank"><img src="/global/jt.png">交通信息查询</a></li>
+						<li><a href="//www.guahao.gov.cn/" target="_blank"><img src="/global/yygh.png" target="_blank">网上预约诊疗挂号</a></li>          
+						
+					</ul>
+				</div>
+			</div> -->
+			<!--公共服务 END-->
+			<!--雙公示-->
+			<!-- <div class="ljth sgs aa"><a href="//www.thnet.gov.cn/ztzl/xythzl/" target="blank"><span></span></a></div> -->
+			<!--雙公示 END-->
+			<div class="more aa"><span></span>
+				<div class="hidebox">
+					<ul>
+						<!-- <li><img src="/global/thcbd.jpg">天河CBD</li> -->
+						<!-- <li><img src="/global/qkjy.jpg">广州高新区天河科技园管委会</li> -->
+						<!-- <li><img src="/global/wmtb.jpg">文明天河</li> -->
+						<!-- <li><img src="/global/tzthgwwx.jpg">投资天河</li> -->
+						<li><img src="/global/thzw.jpg">天河政府网</li>
+						<li><img src="/global/2016_ewm_wb.jpg">广州天河发布微博</li>
+						<!-- <li><img src="/global/bdc.JPG">天河不动产登记</li> -->
+						<li><img src="/global/2016_ewm_wx.jpg">广州天河发布微信</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+
+<!-- 左侧浮窗 S -->
+  <!-- <div id="oImg" class="pc" style="position:fixed; z-index:99999; top:67%; left:0;">
+    <div class="close">
+
+      <a href="javascript:void(0);" onclick="hidead();" style="text-decoration:none;">
+        <img src="/global/msgClose.gif" class="close" width="13" height="13"></a>
+
+    </div>
+    <div class="pc_txt">
+
+      
+    </div>
+  </div>
+  <script>
+  function hidead()
+    {
+      document.getElementById("oImg").style.display="none";
+    }	
+  </script> -->
+  
+<!-- 左侧浮窗 E -->
+
+       <!--首页右侧侧浮动-->
+    <!-- <div class="homeLeft_fd" style="position: fixed; right:0; bottom:20px;z-index: 1000;">
+      <div class="fd_pic"><a href="https://i.mydadui.com/nrgf58" target="_blank"><img src="/global/home_wjdc.png" width="240px"/></a></div>
+      <div class="fd_close" style="position: absolute;right:3px; top:-20px; cursor: pointer;">关闭</div>
+    </div>
+    <script>
+      $(function(){
+        $(".fd_close").click(function(){
+            $(".homeLeft_fd").css("display", "none");
+        });
+    });
+    </script> -->
+    <!--首页右侧侧浮动-->
+
+  <!--首页漂浮图片 start-->
+  <!-- 
+  <script type="text/javascript">
+			$(function(){
+				var ad1=new AdMove("ad1"); ad1.Run();				
+			})	
+		</script>
+   
+  <script src="/js/AdMove.js"></script> -->
+  <!--首页漂浮图片 end-->
+
+   <script type="text/javascript" src="/js/index.js"></script>
+ 
+ <!-- 右下角浮窗 S -->
+    <div class="image-popup" id="imagePopup">
+      <div class="countdown">
+            <i></i> <span id="countdownText"></span>s
+        </div>
+      
+                <a href="http://i.mydadui.com/k4c044" target="_blank"><img src="http://www.thnet.gov.cn/img/1/1694/1694225/11018814.png" width="250px" /></a>
+            <div class="close-btn" id="closeBtn">×</div>
+  </div> 
+ <!-- 右下角浮窗 E -->
+</body>
+
+</html>

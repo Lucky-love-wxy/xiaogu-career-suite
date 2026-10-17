@@ -1,0 +1,383 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_d33b8663929f",
+  "node": "咨询/翻译/法律 › 翻译 › 法语翻译",
+  "family": "咨询/翻译/法律",
+  "parent_id": "咨询/翻译/法律 › 翻译",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 2,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "咨询/翻译/法律 › 翻译 › 法语翻译",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vss5NzMZC",
+      "type": "recruitment_jd",
+      "title": "法语翻译",
+      "company": "北京谛驰供应链管理有限公司",
+      "url": "https://campus.niuqizp.com/job-vss5NzMZC.html",
+      "date": "2025-11-20",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "北京谛驰供应链管理有限公司\n法语翻译\n12K-20K/月 全国 本科及以上\n模拟面试\n薪酬福利：五险一金\n发布时间：2025年11月20日\n职位描述\n岗位职责：\n1、负责公司领导安排的法语翻译任务。\n2、提供口译、笔译服务;\n3、负责商务谈判包括但不限于当地政府部门；\n4、翻译资料的整理收集、管理；\n4、领导安排的其他工作。\n岗位要求：\n1、本科及以上学历，法语专业4级及以上；\n2、法语熟练，听说读写流利，以保证翻译质量；\n3、诚实守信，责任心强，工作细致认真；\n4、逻辑思维能力强，擅于团队合作；\n5、熟练使用word,excel,ppt等办公软件\n6、能接受常驻外派。\n投递说明：\n初筛简历 HR助理初面（可约线上） 人力总监、部门负责人二面 面试通过 录用沟通 确认入职 发放offer\n其他描述：\n岗前培训、带薪年假、节日礼物、年度旅游、年底双薪、岗位晋升、员工旅游\n单位简介\n企业管理；海上、航空、陆路国际货运代理业务；仓储服务，经济贸易查询；货物进出口；技术进出口；代理进出口；会议及展览服务；无船承运。\n提示：在微信扫描关注，可以直接投递简历哟\n北京谛驰供应链管理有限公司\n领域：交通运输、仓储和邮政业\n规模：50-150人",
+      "source_file": "inputs.json",
+      "archived": true,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vss5NzMZC.html",
+      "cache_sha256": "673b70965824e37977429fd3c19875c2c7f9cfbcb1a47334a9c0b75b93c018d8"
+    },
+    {
+      "id": "vwY5Mttt5",
+      "type": "recruitment_jd",
+      "title": "法语翻译",
+      "company": "特变电工2025",
+      "url": "https://campus.niuqizp.com/job-vwY5Mttt5.html",
+      "date": "2026-09-23",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "1.现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景； 2.文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料； 3.外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待； 4.属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进。 1.本科及以上学历； 2.2025-2027年毕业。",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vwY5Mttt5.html",
+      "cache_sha256": "ef486f58d2760e4e9ca2758ff37bb984374a8af7cbb4cb8b4287d9958029a573"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前2份；联网补抓未执行"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "法语翻译",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "法语翻译"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "法语翻译",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：负责商务谈判包括但不限于当地政府部门",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vss5NzMZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vss5NzMZC",
+          "text": "负责商务谈判包括但不限于当地政府部门"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "负责商务谈判包括但不限于当地政府部门",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vss5NzMZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vss5NzMZC",
+          "text": "负责商务谈判包括但不限于当地政府部门"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "文件笔译：完成中法双语翻译，包含工艺设备资料、工程文件、合同规章、当地政策、会议纪要等项目资料"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "负责商务谈判包括但不限于当地政府部门",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vss5NzMZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vss5NzMZC",
+          "text": "负责商务谈判包括但不限于当地政府部门"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "外事对接：对接几内亚海关、劳工、矿业、环保等政府部门，协助项目报批、合规沟通与外事接待"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [
+    {
+      "text": "现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "现场口译：负责中方法技人员与当地政府、监理、属地员工的法语口译，覆盖施工、技术交底、会议谈判、安全检查全场景"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vwY5Mttt5"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vwY5Mttt5",
+          "text": "属地协调：负责属地员工沟通、劳资协调，处理现场涉外沟通问题，保障项目平稳推进"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "entry_for_fresh": [
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vss5NzMZC"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vwY5Mttt5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vwY5Mttt5"
+        ]
+      }
+    },
+    {
+      "text": "2份保留的校招平台样本中，1份专业类字段为“物流管理与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "物流管理与工程类",
+        "n": 1,
+        "denominator": 2,
+        "matched_ids": [
+          "vss5NzMZC"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "法语翻译",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vss5NzMZC",
+        "vwY5Mttt5"
+      ],
+      "quotes": [],
+      "count": 2
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

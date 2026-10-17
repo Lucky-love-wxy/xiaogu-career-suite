@@ -1,0 +1,162 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_e606b31b9b23",
+  "node": "客服/运营 › 高端运营职位 › 运营经理/主管",
+  "family": "客服/运营",
+  "parent_id": "客服/运营 › 高端运营职位",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 1,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "客服/运营 › 高端运营职位 › 运营经理/主管",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "v8k5MMtaz",
+      "type": "recruitment_jd",
+      "title": "项目运营经理",
+      "company": "普洛药业股份有限公司",
+      "url": "https://campus.niuqizp.com/job-v8k5MMtaz.html",
+      "date": "2026-09-29",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "工作职责：1、项目运营管理1) 做好询单的报价工作，及报价时效的跟踪监督，并跟踪定期报价反馈；2) 做好订单管理，做好订单指令的下达及需求的明确；3) 关键物料供应商的选择，议价；4) 做好鉴定结果登记，如属危险品，及时通知工厂并让其采购规定的危包桶；5) 做好项目的成本，范围，进展管控；6) 跟踪技改规划进展，持续推进成本优化工作；7) 及时召开总结会，做好复盘；8) 项目文件资料归档；9) Reach/新化学物质注册管理；2、维护公司与客户之间的良好关系1) 协助做好节假日问候,负责客户来访接待等工作,2) 及时有效地处理项目客户的投诉,并及时给出答复.3) 及时协助完成客户给出的问卷调查.4) 做好客户档案工作5) 有意识地提高服务质量,了解客户需求,提供客户的满意度,提高公司与客户之间的合作空间性3、信息收集1) 了解在产项目市场情况，做好项目的整体规划；2) 为更好完成经营目标，做好每次订单的运营毛利情况，做好分析；3) 更好地对在研项目进行管理，每月统计在研项目个数及完成情况，并分析存在问题；4) 项目完结后，整理毛利情况并分析偏差存在问题；5) 参与预算工作；任职要求：1、熟练运用office等办公软件；2、有较强的英（日）语听、说、读、写能力；有一定的项目管理能力；3、熟悉质量、EHS、注册法规等方面的要求；有一定的数据分析能力；\n公司介绍\n公司名称\n普洛药业股份有限公司\n所属行业\n机械制造/机电/重工\n公司性质\n民营企业\n公司规模\n5000以上\n浙江省金华市",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/v8k5MMtaz.html",
+      "cache_sha256": "415fbb058fef2cd3662254788b404430fef25adcbc5d4805e1669f478c29b9ad"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "未抽出职责句，plain_language与daily_work留空",
+    "招聘正文样本不足3：当前1份；联网补抓未执行",
+    "可核职责少于4条，不凑数"
+  ],
+  "excluded_samples": [],
+  "name": [
+    {
+      "text": "运营经理/主管",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "运营经理/主管"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "项目运营经理",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [],
+  "daily_work": [],
+  "deliverables": [],
+  "collaborators": [],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8k5MMtaz"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“药学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "药学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "v8k5MMtaz"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "项目运营经理",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "v8k5MMtaz"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

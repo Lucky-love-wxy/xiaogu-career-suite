@@ -1,0 +1,272 @@
+{
+  "name": [
+    {
+      "text": "审计",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "审计"
+        }
+      ]
+    }
+  ],
+  "sample_n": 4,
+  "excluded": [],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "4份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vrr5NnNZL"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，3份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 3,
+        "denominator": 4,
+        "matched_ids": [
+          "vYk5aNC5N",
+          "vYm5NaLnz",
+          "vms5aZnCn"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“工商管理类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "工商管理类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYm5NaLnz",
+          "vrr5NnNZL"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“法学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "法学类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vms5aZnCn"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“管理科学与工程类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "管理科学与工程类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vms5aZnCn"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“经济学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "经济学类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYk5aNC5N",
+          "vrr5NnNZL"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“统计学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "统计学类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYm5NaLnz",
+          "vms5aZnCn"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 4,
+        "matched_ids": [
+          "vms5aZnCn"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“财政学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "财政学类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYk5aNC5N",
+          "vYm5NaLnz"
+        ]
+      }
+    },
+    {
+      "text": "4份保留的校招平台样本中，2份专业类字段为“金融学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "金融学类",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYk5aNC5N",
+          "vYm5NaLnz"
+        ]
+      }
+    },
+    {
+      "text": "4份保留样本中，2份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vYk5aNC5N",
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 2,
+        "denominator": 4,
+        "matched_ids": [
+          "vYk5aNC5N",
+          "vYm5NaLnz"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "审计岗",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYm5NaLnz",
+        "vms5aZnCn",
+        "vrr5NnNZL"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "【森大27届校招】西语审计储备",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYk5aNC5N"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

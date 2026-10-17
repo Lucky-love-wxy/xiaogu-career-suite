@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "school_rows": 109,
+  "numeric_rows": 89,
+  "missing_rows": 20,
+  "source_bound_numeric_rows": 89,
+  "schools": 1,
+  "target_majors_with_structure": 5,
+  "pdf_originals": 0,
+  "deterministic_csv": true,
+  "csv_sha256": {
+    "major_destinations.csv": "03a20aee2bc9de89a8f123a1bc21a4cddb5b1cb8a1f1ddefc8c072371e209aad",
+    "role_postings.csv": "d6d806d60dffabaa87d511e0e5538e83a515fb40478d0af01c367893aeda2423",
+    "role_summary.csv": "cfd4d5375f48cefe45e4b81de27ccaa96962206d3c273d530be370c4ef09cab8"
+  },
+  "scope": "补证绑定检查；10校/三档/四省/PDF要求未通过。未改runtime/tests/fixture。"
+}

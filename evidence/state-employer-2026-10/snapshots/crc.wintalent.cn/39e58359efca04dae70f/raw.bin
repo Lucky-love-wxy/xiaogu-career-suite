@@ -1,0 +1,4629 @@
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="renderer" content="webkit">
+<link id="websiteIco" rel="icon" href="" type="image/x-icon" />
+<script type="text/javascript" src="/wt/javascript/web/templates/subfooterStyle.js?vn=490d1b79a382261a345bfd7a272d794a" ></script>
+
+
+
+    <script type="text/javascript" src="/wt/javascript/jquery/jquery-3.1.1.min.js?vn=e071abda8fe61194711cfc2ab99fe104" ></script>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="/wt/styles/web/style300/page.css?vn=3896c97be4f39ff3487ae2ab5a85f724">
+<link rel="stylesheet" href="/wt/styles/web/style300/base.css?vn=20ff039b94e740de19a0cdfd10b2f6c8">
+<link rel="stylesheet" href="/wt/styles/web/style300/zhinan.css?vn=d5f90af157e4155a65b46f1ddb4797e8">
+<link rel="stylesheet" href="/wt/styles/web/style300/list.css?vn=d5ae1d27ec8ccc62ec3878522c48f48e">
+<link rel="stylesheet" href="/wt/styles/web/style300/index.css?vn=7ba45dc83e368ab7b8b396f5202c209b">
+<meta charset="utf-8">
+<title>
+	
+            华润医药招聘
+    
+    
+</title>
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+<script type="text/javascript" src="/wt/javascript/web/compTemplet/slideshow.js?vn=dff2fdad0a5f49fcb99e7ca1523a20cf"></script>
+<script type="text/javascript" src="/wt/javascript/manage/showMessage.js?vn=d12249955dff88e66106344b42e9f3cf"></script>
+<script type="text/javascript" src="/wt/javascript/web/templates/cookie.js?vn=39ef79cd174d0c89a1f9057d9e8f8b35" ></script>
+<script type="text/javascript" src="/wt/javascript/v7/common.js?vn=ebd8086eed62c503d1300fe4d7eacdc9" ></script>
+<script type="text/javascript" src="/wt/javascript/datePicker/WdatePicker.js?vn=2ac1b68db161ae238804c9fc2ff269be"></script>
+<script type="text/javascript" src="/wt/javascript/manage/new.js?vn=52a25de567cd1d6e72fa78911ebba40d"></script>
+<script type="text/javascript" src="/wt/javascript/v7/openDialog.js?vn=d0f94b923528a48d977966590c4ae328" ></script>
+<script language="javascript"  src="/wt/javascript/dialog/Dialog.js?vn=fd3d89015bd95f1d3973913bc959c505" ></script>
+
+<style media="screen">
+      .tru{background-image:url(/wt/images/web/style300/inputRigth.png);background-repeat: no-repeat;background-position:95% 50%;}
+      .fal{border: 1px solid #FF834A;background-image:url(/wt/images/web/style300/inputError.png);background-repeat: no-repeat;background-position:95% 50%;}
+      .ml35{margin-left:35px;}
+      input::-ms-clear{display:none;}
+      /*
+      .postType{
+      	width:706px;
+      	margin-right:15px;
+      }
+      */
+      .showOrgMore a{
+      	color:#333;
+      	display:block;
+        width:8px;
+      	height:19px;
+     	background-image:url(/wt/images/web/style300/zhankaiGray.png);
+      	background-position:right 7px;
+      	background-repeat:no-repeat;
+      	position:relative;
+      }
+      .showOrgMore a:hover{
+      	color:#fe8c56;
+      	display: block;
+	    width: 8px;
+	    height: 19px;
+	    position: relative;
+	    background-image:url(/wt/images/web/style300/zhankaiOrg.png);
+	    background-position:right 7px;
+	    background-repeat:no-repeat;
+      }
+      .showOrgMore{
+      	margin-right:15px;
+      	list-style-type:none;
+      	float: right;
+      }
+      .showOrgMore span{
+      	position: absolute;
+	    width: 28px;
+	    left: -28px;
+	    font-size:12px;
+      }
+      .showOrgLess{
+      	margin-right:15px;
+      	list-style-type:none;
+      	float: right;
+      }
+      .showOrgLess span{
+      	position: absolute;
+	    width: 28px;
+	    left: -28px;
+	    font-size:12px;
+      }
+      .showOrgLess a{
+      	color:#333;
+      	display:block;
+        width:8px;
+      	height:19px;
+     	background-image:url(/wt/images/web/style300/shouqiGray.png);
+      	background-position:right 7px;
+      	background-repeat:no-repeat;
+      	position:relative;
+      }
+      .showOrgLess a:hover{
+      	color:#fe8c56;
+      	display: block;
+	    width: 8px;
+	    height: 19px;
+	    position: relative;
+	    background-image:url(/wt/images/web/style300/shouqiOrg.png);
+	    background-position:right 7px;
+	    background-repeat:no-repeat;
+      }
+      .showOrg{
+      	float:left;
+      }
+      #companyAll{
+      	display:block;
+      	float:left;
+      }
+      .listOrg{
+      	overflow: auto;
+      	padding-right: 20px;
+      	width: 630px;
+      	line-height:18px;
+      }
+      .listOrg a{
+      	margin-bottom:2px;
+      }
+
+      /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+        .listOrg::-webkit-scrollbar
+		{
+		    width: 7px;
+		    height: 12px;
+		    background-color: #F5F5F5;
+		}
+
+		/*定义滚动条轨道 内阴影+圆角*/
+		.listOrg::-webkit-scrollbar-track
+		{
+		    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		    border-radius: 10px;
+		    background-color: #F5F5F5;
+		}
+
+		/*定义滑块 内阴影+圆角*/
+		.listOrg::-webkit-scrollbar-thumb
+		{
+		    border-radius: 10px;
+		    background-color: rgba(153, 153, 153, 0.46);
+		}
+		.bg_btn_colo_extend{
+		     background-color:;
+		     opacity:1.0;
+		     filter:alpha(opacity=100);
+		}
+		.theme_color{
+		    color:;
+		}
+
+		.postColor{
+		    color:;
+		}
+
+		.siteIcon {
+         background-image: url(/wt/images/web/style300/siteIcon.png);
+         background-repeat: no-repeat;
+		}
+
+		.taikangorg #companyAll {
+			display:none;
+			float:left;
+		}
+		.taikangorg a {
+			display:inline-block;
+			padding: 6px 12px;
+			background-color:lightgray;
+			margin-bottom:10px;
+			color:black;
+		}
+		.w80 {
+			width:85px;
+		}
+
+		/*改变搜索框高度*/
+		.h50 {
+			height:40px;
+		}
+		.lh50 {
+			line-height:40px;
+		}
+		.bp10 {
+			background-position:20px -168px;
+		}
+		.border_red {
+			border:1px solid #fd8d56;
+		}
+		.taikangorg {
+			width:700px !important;
+		}
+		/*PM-22391增加2级联动*/
+		.search-bar {
+			margin-top:6px;
+			position:relative;
+			border:1px solid lightgray;
+			overflow: hidden;
+		}
+		.search-bar .sec_title {
+		    float: left;
+   			margin-top: 8px;
+   			margin-left: 8px;
+   			display: inline-block;
+   			padding: 2px 4px;
+   			background: #999;
+   			border-radius: 4px;
+   			color: white;
+   			margin-right: 10px;
+		}
+		.search-bar img {
+			position:absolute;
+			top:6px;
+			right:10px;
+			width:10px;
+		}
+		.search-bar div {
+			padding:5px;
+			box-sizing:border-box;
+
+			overflow:hidden;
+			position:relative;
+			float:left;
+		}
+		.search-bar div span {
+			padding:1px 3px;
+			margin-right:8px;
+			white-space:nowrap;
+			color:#333;
+			float:left;
+			line-height: 25px;
+		}
+		.search-bar div .theme_color {color: #fd8d56;}
+		.search-bar div .cfd8d56{color:#fd8d56;}
+		#rocket {
+			width:50px;
+			height:50px;
+			background-color:#fd8d56;
+			position:fixed;
+			right:10px;
+			bottom:90px;
+			opacity:0;
+			cursor:pointer;
+			transition:all 1s;
+			line-height:50px;
+			text-align:center;
+			color:white;
+		}
+		.hideEle { display: none!important; }
+		.postNameC {
+			width:fit-content !important;
+			/* max-width: 190px !important; */
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+			display: block;
+			margin-top: -5px;
+		}
+
+		.pagenation{
+            width: 94%;
+            height: 40px;
+            line-height: 40px;
+            bottom: 24px;
+            left: 3%;
+            /* border-radius: 3px; */
+            background: #F2F2F2;
+            text-align: center;
+            margin: 20px auto 0;
+            margin-bottom: 24px;
+        }
+        .pagenation span{
+          padding: 5px 11px;
+          color: #777;
+          cursor: pointer;
+          margin:0 5px;
+        }
+
+        .pagenation span:hover{
+          background: #fd8d56;
+            color: #fff !important;
+        }
+
+        .page{
+          color: #333 !important;
+          background: #e9ebed;
+        }
+        .present{
+            background-color: transparent;
+        }
+        
+
+      .chinalife_color{color: #009b62;}
+      #slideContainer{position: relative; height: 250px;}
+      #slidesImgs li{
+          height:250px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      }
+      .slidebar {
+          top: unset;
+          bottom: 20px;
+      }
+      @media screen and (min-width: 1401px ) and (max-width: 1600px ) {
+          #slideContainer, #slidesImgs li{
+              height:210px;
+          }
+      }
+      @media screen and (max-width: 1400px ) {
+          #slideContainer, #slidesImgs li{
+              height:180px;
+          }
+      }
+
+</style>
+
+<style type="text/css">
+    /*新写省份以及市级切换样式*/
+    .content-province-city,.province-city-content{
+        width: 100%;
+        height: auto;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display: flex;
+        flex-direction: row;
+    }
+    .province-title{
+        height: auto;
+        width: 80px;
+    }
+    .province-list,.org-list{
+        height: auto;
+        flex:1;
+        padding-left: 15px;
+    }
+    .province-list-item{
+
+    }
+    .province-list-item-title,.city-list-item-title{
+        min-width: 80px;
+        padding-right: 12px;
+        box-sizing: border-box;
+        height: 34px;
+        text-align: center;
+        cursor: pointer;
+        /*white-space: nowrap;*/
+        font-size: 12px;
+    }
+    .province-list-item-title-active{
+        color:;
+    }
+
+    .province-list-item-title:hover{
+        cursor: pointer;
+    }
+
+    .city-list-item-title-active,.enter_main .main_right .search_category .s_type .next_menu a.hover {
+        color: #ff4611;
+    }
+
+    .city-list{
+        background: #EAEAEA;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+    .city-list-item-title{
+        min-width: 60px;
+        padding: 0 12px;
+       /* font-size: 14px;*/
+    }
+    .city-list-item-title:hover{
+        color: #ff4611;
+        cursor: pointer;
+    }
+
+    .enter_main .main_right .search_category .province-list span.hover {
+        background: ;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .enter_main .main_right .search_category .org-list span.hover {
+        background: ;
+        border-radius: 5px;
+        color: #fff;
+    }
+</style>
+
+<script type="text/javascript">
+
+    var recruitTypeStr = '1';
+
+        function searchPost() {
+            var v_useForm = "";//用工形式
+            var v_trademark = 0;//品牌
+            var v_kw = "";//关键字
+            var v_pn = "";//职位名称
+            var v_p = "";//地点
+            var v_pt = 0;//职位类型
+            var v_t = 0;//招聘时间
+            var v_recruitType = 0;//招聘类型
+            var lanType = 1;//lanuage
+            var brandCode = document.getElementById("brandCode").value;//网站品牌
+            var v_cp = "";
+            var v_scp = "";
+            var v_xj="";
+            var v_st="";
+
+            if(null != document.getElementById("siteId")){
+                v_st = document.getElementById("siteId").value;
+            }
+            if (null != document.getElementById("xuanJiangStr")) {
+                v_xj = document.getElementById("xuanJiangStr").value;
+            }
+            if (null != document.getElementById("useFormV")) {
+                v_useForm = document.getElementById("useFormV").value;//用工形式
+            }
+            if (null != document.getElementById("tradeMarkV")) {
+                v_trademark = document.getElementById("tradeMarkV").value;//品牌
+            }
+            if (null != document.getElementById("keyWordV")) {
+                if (document.getElementById("keyWordV").value != document.getElementById("keyWordV").title) {
+                    v_kw = document.getElementById("keyWordV").value;//关键字
+                }
+            }
+            if (null != document.getElementById("positionNameV")) {
+                if (document.getElementById("positionNameV").value != document.getElementById("positionNameV").title) {
+                    v_pn = document.getElementById("positionNameV").value;//职位名称
+                }
+            }
+            if (null != document.getElementById("workPlaceNameV")) {
+                if (document.getElementById("workPlaceNameV").value != document.getElementById("workPlaceNameV").title) {
+                    v_p = document.getElementById("workPlaceNameV").value;//地点
+                }
+            }
+
+            if (null != document.getElementById("positionTypeV") ) {
+                v_pt = document.getElementById("positionTypeV").value;//职位类型
+            }
+            if (null != document.getElementById("comPartV")) {
+                v_cp = document.getElementById("comPartV").value;//公司部门
+            }
+            if (null != document.getElementById("sicCorpCodeV")) {
+                v_scp = document.getElementById("sicCorpCodeV").value;//corpCode企业名
+            }
+            if (null != document.getElementById("dateV")) {
+                v_t = document.getElementById("dateV").value;//招聘时间
+            }
+            v_recruitType = document.getElementById("recruitType").value;//招聘类型
+            if (typeof (v_recruitType) == "undefined") {
+                v_recruitType = 0;
+            }
+            v_pn = encodeURIComponent(v_pn);
+            v_p = encodeURIComponent(v_p);
+            v_kw = encodeURIComponent(v_kw);
+
+            var surl = "/wt/crpharma/web/json/position/list?operational=4600ccb0d4b1cc000c1051575e586114d3548c5bcccbe179f3509f5a9e5c77fa57a80fd0b74a58d364c6b052c98177b6215ca4e09896a3cc131fd8c4813f8d7c"
+                  + "&positionType=" + v_pt
+                  + "&comPart=" + v_cp
+                  + "&sicCorpCode=" + v_scp
+                  + "&brandCode=" + brandCode
+                  + "&releaseTime=" + v_t
+                  + "&trademark=" + v_trademark
+                  + "&useForm=" + v_useForm
+                  + "&recruitType=" + v_recruitType
+                  + "&projectId="
+                  + "&lanType=" + lanType
+                  + "&positionName=" + encodeURIComponent(v_pn)
+                  + "&workPlace=" + encodeURIComponent(v_p)
+                  + "&keyWord=" + encodeURIComponent(v_kw)
+                  + "&xuanJiangStr="+v_xj
+                  + "&site="+v_st
+                  + "&page=" + _currentPage;
+
+            
+
+            getPostList(surl, _currentPage);
+        }
+
+        function chooseWorkPlaceAll(obj){
+
+        	var children_a = jQuery(obj).parent().children("a");
+            children_a.removeClass("theme_color");
+            children_a.removeClass("cfd8d56");
+            children_a.removeClass("c333");
+            children_a.addClass("c333");
+
+            
+            
+               $(obj).addClass("cfd8d56");
+            
+
+            $(obj).removeClass("c333");
+
+            jQuery("#workPlaceNameV").val("");
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+            _currentPage = 1;
+            searchPost();
+        }
+
+        function chooseWorkPlace(obj){
+
+        	var children_a = jQuery(obj).parent().children("a");
+        	children_a.removeClass("theme_color");
+        	children_a.removeClass("cfd8d56");
+        	children_a.removeClass("c333");
+        	children_a.addClass("c333");
+
+            
+            
+              $(obj).addClass("cfd8d56");
+            
+
+            $(obj).removeClass("c333");
+
+            jQuery("#workPlaceNameV").val(jQuery(obj).attr("data-value"));
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+            _currentPage = 1;
+            searchPost();
+        }
+
+        function chooseSiteAll(_this){
+
+            $("#showSecondSite").hide();
+
+            var $_this = $(_this);
+
+            $_this.parent().children("a").attr("class","c333 mr12");
+            
+            
+                $_this.attr("class","cfd8d56 mr12");
+            
+            $("#siteId").val("");
+            $("#siteIdTemp").val("");
+            _currentPage = 1;
+            searchPost();
+
+        }
+
+        function chooseSite(obj){
+
+            var $_this = $(obj);
+
+            $_this.parent().children("a").attr("class","c333 mr12");
+            
+            
+                $_this.attr("class","cfd8d56 mr12");
+            
+
+            var site = $_this.attr("data-value");
+            $("#siteId").val(site);
+            $("#siteIdTemp").val(site);
+            _currentPage = 1;
+            searchPost();
+
+            var childArea = $_this.find("input");
+            var childSiteTemp = "";
+            $.each(childArea, function (index,_this) {
+
+                childSiteTemp += ('<span style="cursor:pointer;"' + ' onclick="chooseChildSite(this)" data-value="'+_this.id+'">' + _this.value+'</span>');
+
+
+            });
+
+            if(childSiteTemp!=""){
+                $("#showSecondSite span").html($_this.find("span").html());
+                $("#showSecondSite div").html(childSiteTemp);
+                $("#showSecondSite").show();
+            } else {
+                $("#showSecondSite").hide();
+            }
+
+
+        }
+
+        function closeSiteLevel2 (_this){
+
+            var $_this = $(_this);
+            $_this.parent().hide();
+
+            var siteId = $("#siteIdTemp").val();
+            $("#siteId").val(siteId);
+            _currentPage = 1;
+            searchPost();
+        }
+
+
+        function choosePostTypeAll(obj){
+            jQuery(obj).parent().children("a").attr("class","c333 mr12");
+             
+            
+              jQuery(obj).attr("class","cfd8d56 mr12");
+            
+            jQuery("#positionTypeV").val("");
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+            _currentPage = 1;
+            searchPost();
+
+            if($("#showPostType").css("display")=="block"){
+            	$("#showPostType").css("display","none");
+        	}else {
+        		return "";
+        	}
+        }
+
+        function choosePostType(obj){
+            jQuery(obj).parent().children("a").attr("class","c333 mr12");
+             
+            
+              jQuery(obj).attr("class","cfd8d56 mr12");
+            
+            jQuery("#positionTypeV").val(jQuery(obj).attr("data-value"));
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+
+            _currentPage = 1;
+            searchPost();
+            var brandCode = document.getElementById("brandCode").value;
+            var postTypeCode = jQuery(obj).attr("data-value");
+            var url = "/wt/crpharma/web/index/webPositionN300!getPostType?postTypeCode="+postTypeCode+"&brandCode="+brandCode;
+        	$("#showPostType span").html(jQuery(obj).html());
+        	$.ajax({
+        		type:"POST",
+        		dataType:"json",
+        		url:url,
+        		success:function (jsonStr) {
+        			var obj = document.getElementById("showPostType");
+        			if(jsonStr.length!=0){
+        				       obj.style.display= "block";
+        		               var ruleListTemp ="";
+
+        		                $.each(jsonStr, function (n, value) {
+
+        		                   ruleListTemp += ("<span"+" style=\"cursor:pointer;\""+ " onclick=\"chooseChildPostType(this)\" data-value=\""+value.code +"\" href=\"javascript:void(0);\">" + value.name+"</span>");
+
+
+        		               });
+
+        		               // ruleListTemp += "</div>";
+
+        		               $("#showPostType div").html(ruleListTemp);
+        		               set_sec_positions_width();
+        			}else{
+        				obj.style.display= "none";
+        			}
+
+
+        	 }
+        	});
+
+        }
+
+        function closeLevel2 (obj){
+        	if(obj.parent().css("display")=="block"){
+        		obj.parent().css("display","none");
+        	}else {
+        		return "";
+        	}
+
+        	var postType = $("#positionTypeV").val();
+            if(postType!=""){
+                var postTypeArr = postType.split("/");
+                if(postTypeArr.length>3){
+                    postType = postTypeArr[0]+"/"+postTypeArr[1]+"/"+postTypeArr[2];
+                    $("#positionTypeV").val(postType);
+                    _currentPage = 1;
+                    searchPost();
+                }
+            }
+        }
+
+        function set_sec_positions_width() {
+        	var sec_title_width = $(".sec_title").width();
+            var total_width = $(".listPostType").width();
+            $(".search-bar div").width(total_width - sec_title_width - 50);
+        }
+        function set_sec_site_width() {
+            var sec_title_width = $(".sec_title").width();
+            var total_width = $(".listSite").width();
+            $(".search-bar div").width(total_width - sec_title_width - 50);
+        }
+
+        function chooseChildPostType(obj){
+        	jQuery(obj).parent().children("span").attr("class","c333 mr12");
+            
+           
+             jQuery(obj).attr("class","cfd8d56 mr12");
+           
+           jQuery("#positionTypeV").val(jQuery(obj).attr("data-value"));
+           if(null != document.getElementById("xuanJiangStr")){
+               jQuery("#xuanJiangStr").val("");
+           }
+           _currentPage = 1;
+           searchPost();
+        }
+
+        function chooseChildSite(_this){
+
+            var $_this = $(_this);
+
+            $_this.parent().children("span").attr("class","c333 mr12");
+            
+            
+                $_this.attr("class","cfd8d56 mr12");
+            
+            $("#siteId").val($_this.attr("data-value"));
+            _currentPage = 1;
+            searchPost();
+        }
+
+        function chooseCompanyAll(obj){
+        	jQuery(obj).parent().children("a").attr("class","c333 mr12 showOrg");
+            
+            
+              jQuery(obj).attr("class","cfd8d56 mr12 showOrg");
+            
+            jQuery("#comPartV").val("");
+            jQuery("#sicCorpCodeV").val("");
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+            _currentPage = 1;
+            searchPost();
+        }
+
+        function chooseCompany(obj){
+        	jQuery(obj).parent().children("a").attr("class","c333 mr12 showOrg");
+        	
+            
+              jQuery(obj).attr("class","cfd8d56 mr12 showOrg");
+            
+            jQuery("#sicCorpCodeV").val("");
+            jQuery("#comPartV").val(jQuery(obj).attr("data-value"));
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+            _currentPage = 1;
+            searchPost();
+        }
+
+        function chooseCorpCode(obj){
+            jQuery(obj).parent().children("li").attr("class","c333 mr12");
+             
+            
+              jQuery(obj).attr("class","cfd8d56 mr12");
+            
+            jQuery("#comPartV").val("");
+            jQuery("#sicCorpCodeV").val(jQuery(obj).attr("data-value"));
+            if(null != document.getElementById("xuanJiangStr")){
+                jQuery("#xuanJiangStr").val("");
+            }
+            _currentPage = 1;
+            searchPost();
+        }
+
+        function Trim(strValue){
+            return strValue.replace(/^\s*|\s*$/g,"");
+        }
+</script>
+
+<script type="text/javascript">
+var _currentPage = 1;
+var _maxPage;
+var columnId = '1';
+var projectId = '';
+function postDetail(obj){
+	var url = "/wt/crpharma/web/index/webPositionN300!getOnePosition";
+	url += "?postId="+$(obj).attr("data-postId")+"&recruitType="+$(obj).attr("data-recruitType")+"&brandCode=1&columnId=" + columnId;
+    var imPost=$(obj).attr("importPost");
+       if(imPost!=null && imPost!=undefined && imPost!='undefined'){
+		   url+= "&importPost=" +imPost;
+	   }
+
+	if(projectId!=""){
+		url += "&projectId=" + projectId;
+	}
+
+    window.open(url,"_blank");
+}
+
+var url = "/wt/crpharma/web/json/position/list"
+		+ "?positionType="
+        + "&comPart="
+        + "&sicCorpCode="
+        + "&brandCode=1"
+        + "&releaseTime="
+        + "&trademark=1"
+        + "&useForm="
+        + "&recruitType=" + recruitTypeStr
+        + "&projectId="
+        + "&lanType=1"
+        + "&positionName="
+        + "&workPlace="
+        + "&page=1"
+        + "&site=";
+var wholeKeyWord = "";
+if(wholeKeyWord!=null && wholeKeyWord!=""){
+	wholeKeyWord = encodeURIComponent(wholeKeyWord);
+	url += "&keyWord=" + wholeKeyWord;
+}else{
+	url += "&keyWord=";
+}
+
+
+
+function htmlEncode(html) {
+    var temp = document.createElement ("div");
+    (temp.textContent != undefined ) ? (temp.textContent = html) : (temp.innerText = html);
+    var output = temp.innerHTML;
+    temp = null;
+    return output;
+}
+
+
+function getPostList(action,currentPage){
+	$.getJSON(action,function(json){
+		if(json!=null && json!=undefined){
+    		var html = "";
+
+    		var colPoitionName = 'a';
+    		var positionNameLength = '150';
+
+    		var colPositionType = 'b';
+    		var positionTypeLength = '100';
+
+    		var colPositionCompany = 'c';
+    		var postionCompanyLength = '250';
+
+    		var colPostionDeptOrg = '';
+            var positionDeptOrgLength = '';
+
+    		var colPostionRecruit = 'd';
+    		var positionRecruitLength = '120';
+
+    		var colPositionWorkPlace = 'e';
+    		var positionWorkPlaceLength = '100';
+
+    		var colPostionWorkType = '';
+            var positionWorkTypeLength = '';
+
+            var colPostionEndTime = '';
+            var positionEndTimeLength = '';
+
+    		var colPostionReleaseTime = '';
+    		var postionReleaseTimeLength = '';
+
+    		var positionColUseDefault = '1';
+    		var corpCode = 'crpharma';
+            if (json.postList == null || json.postList == "") {
+                //TODO
+                html += '<img src="/wt/images/web/noposition.png" style="display:block;margin:20 auto" valign="top" />';
+                html += '<div style="text-align:center;color:#9A9A9A">暂无岗位，敬请期待！</div>';
+            }
+    		$.each(json.postList,function(i,obj){
+    			var row = "<ul class=\"overhidden c333 mt20 lh24\">";
+    			if(corpCode == "nfh"){
+    				row += "<li class=\"fl ml8 width_270\" style=\"width: 400px\">";
+	    			var positionName = htmlEncode(obj.postName);
+	    			if(positionName.length>18){
+	    				positionName = positionName.substring(0,18)+"...";
+	    			}
+	    			row += "<input type=\"checkbox\" class=\"middle\" value=\""+obj.postId+"\"><span class=\"ml10 middle hand\" data-postId=\""+obj.postId+"\" data-recruitType=\""+obj.recruitType+"\" onclick=\"postDetail(this)\"" + "importPost=\"" + obj.importPost + "\" title=\"" + htmlEncode(obj.postName) + "\">"+positionName+"</span>";
+	    			if (obj.importPost == 1) {
+	      			   row += '<img src="/wt/images/web/import_post.png" title="重要职位" width="18px" height="15px" valign="top" />';
+	      			}
+	    			row += "</li>";
+        			if(obj.workPlace.length>7){
+        				var workPlace = obj.workPlace.substring(0,7)+"...";
+        				row += "<li class=\"fl	 w100 tl\" style=\"width: 200px\" title=\""+obj.workPlace+"\">"+workPlace+"</li>";
+        			}else{
+                        var temp = obj.workPlace;
+                        if(temp==""){
+                             temp = "&nbsp;";
+                        }
+                        row += "<li class=\"fl w100 tl\" style=\"width: 200px\" >"+temp+"</li>";
+                   }
+        			row += "<li class=\"fl w100 tl\" style=\"width: 150px\">"+obj.publishDate+"</li>";
+    			}
+    			else if(positionColUseDefault==0){
+    				row += "<li class=\"fl ml8 width_270\" >";
+	    			var positionName = htmlEncode(obj.postName);
+	    			
+	    			
+	    			  
+	    			  
+	    			     row += "<input type=\"checkbox\" class=\"middle fl\" value=\""+obj.postId+"\"><span class=\"ml10 middle fl hand postNameC cfd8d56 \" data-postId=\""+obj.postId+"\" data-recruitType=\""+obj.recruitType+"\" onclick=\"postDetail(this)\"" + "importPost=\"" + obj.importPost + "\" title=\"" + htmlEncode(obj.postName) + "\" style=\" max-width:220px;\">" + positionName+"</span>";
+	    			  
+	    			
+
+                    if (obj.importPost == 1) {
+                        row += '<img src="/wt/images/web/import_post.png" title="重要职位" width="18px" height="15px" valign="top" />';
+                    }
+
+	    			if(obj.outerRecruit == 0){
+                        row += '<img src="/wt/images/web/bonus.png" title="人才推荐" width="18px" height="15px" valign="top" />';
+	    			}
+
+	    			row += "</li>";
+	    			/*if(obj.recruitNum!=null && obj.recruitNum!=""){
+	    				row += "<li class=\"fl w80 tl\">"+obj.recruitNum+"</li>";
+	    			}else{
+	    				row += "<li class=\"fl w80 tl\">"+'若干'+"</li>";
+	    			}*/
+
+                    row += "<li class=\"fl w80 tl\">"+obj.recruitNum+"</li>";
+
+        			if(obj.postType!=undefined &&obj.postType!=null&&obj.postType.length>8){
+        				var postType = obj.postType.substring(0,8)+"...";
+        				row += "<li class=\"fl w80 tl\" title=\""+obj.postType+"\">"+postType+"</li>";
+        			}else{
+        				row += "<li class=\"fl w80 tl\">"+obj.postType+"</li>";
+        			}
+        			if(obj.workPlace.length>7){
+        				var workPlace = obj.workPlace.substring(0,7)+"...";
+        				row += "<li class=\"fl	 w100 tl\" title=\""+obj.workPlace+"\">"+workPlace+"</li>";
+        			}else{
+                        var temp = obj.workPlace;
+                        if(temp==""){
+                             temp = "&nbsp;";
+                        }
+                        row += "<li class=\"fl w100 tl\">"+temp+"</li>";
+                   }
+        			row += "<li class=\"fl w80 tl\">"+obj.publishDate+"</li>";
+    			}else{
+	    			if(colPoitionName!=null&&colPoitionName!=""){
+	    				if(positionNameLength==""){
+                            positionNameLength = 220;
+                        }
+	    				row += "<li class=\"fl ml8 w220\" style=\"width:"+positionNameLength+"px\">";
+	    			}
+	    			var positionName = htmlEncode(obj.postName);
+	    			
+	    			
+                      
+   			          
+   			             row += "<input type=\"checkbox\" class=\"middle fl\" value=\""+obj.postId+"\"><span class=\"ml10 middle hand fl cfd8d56 postNameC\" data-postId=\""+obj.postId+"\" data-recruitType=\""+obj.recruitType+"\" onclick=\"postDetail(this)\"" + "importPost=\"" + obj.importPost + "\" title=\"" + htmlEncode(obj.postName) + "\" style=\"max-width:" + (positionNameLength-50) + "px;\">"+positionName+"</span>";
+   			          
+	    			
+
+
+
+	    			if (obj.importPost == 1) {
+                        row += '<img src="/wt/images/web/import_post.png" title="重要职位" width="18px" height="15px" valign="top" />';
+	      			}
+
+                    if(obj.outerRecruit == 0){
+                        row += '<img src="/wt/images/web/bonus.png" title="人才推荐" width="18px" height="15px" valign="top" />';
+                    }
+	    			row += "</li>";
+	    			if(colPostionRecruit!=null&&colPostionRecruit!=""){
+		    			/*if(obj.recruitNum!=null && obj.recruitNum!=""){
+		    				row += "<li class=\"fl w80 tl\" style=\"width:"+positionRecruitLength+"px\" >"+obj.recruitNum+"</li>";
+		    			}else{
+		    				row += "<li class=\"fl w80 tl\" style=\"width:"+positionRecruitLength+"px\" >"+'若干'+"</li>";
+		    			}*/
+                        row += "<li class=\"fl w80 tl\" style=\"width:"+positionRecruitLength+"px\" >"+obj.recruitNum+"</li>";
+	    			}
+	    			if(colPositionCompany!=null&&colPositionCompany!=""){
+	    				var orgName = obj.orgName;
+                        row += "<li class=\"fl w100 tl toe\" style=\"width:"+postionCompanyLength+"px\" title=\""+orgName+"\">"+orgName+"</li>";
+	    			}
+	    			if(colPostionDeptOrg!=null&&colPostionDeptOrg!=""){
+                        var deptOrgName = obj.deptOrgName;
+                        row += "<li class=\"fl w100 tl toe\" style=\"width:"+positionDeptOrgLength+"px\" title=\""+deptOrgName+"\">"+deptOrgName+"</li>";
+                    }
+	    			if(colPositionType!=null&&colPositionType!=""){
+	    				var postType = obj.postType;
+		    			row += "<li class=\"fl w100 tl toe\" style=\"width:"+positionTypeLength+"px\" title=\""+postType+"\">"+postType+"</li>";
+	    			}
+	    			if(colPositionWorkPlace!=null&&colPositionWorkPlace!=""){
+	    	              var workPlace = obj.workPlace;
+	    	              if(workPlace==""){
+	    	            	  workPlace = "&nbsp;";
+	    	                   row += "<li class=\"fl w80 tl\" style=\"width:"+positionWorkPlaceLength+"px\">"+workPlace+"</li>";
+	    	              } else {
+	    	            	   row += "<li class=\"fl w100 tl toe\" style=\"width:"+positionWorkPlaceLength+"px\" title=\""+workPlace+"\">"+workPlace+"</li>";
+	    	              }
+	    			}
+	    			if(colPostionWorkType!=null&&colPostionWorkType!=""){
+                        var workType = obj.workType;
+                        if(workType!=null && workType!=""){
+                        	row += "<li class=\"fl w100 tl toe\" style=\"width:"+positionWorkTypeLength+"px\" title=\""+workType+"\">"+workType+"</li>";
+                        }else{
+                        	row += "<li class=\"fl w100 tl toe\" style=\"width:"+positionWorkTypeLength+"px\" title=\""+'全职'+"\">"+'全职'+"</li>";
+                        }
+                    }
+	    			if(colPostionReleaseTime!=null&&colPostionReleaseTime!=""){
+	    				row += "<li class=\"fl w80 tl\" style=\"width:"+postionReleaseTimeLength+"px\" >"+obj.publishDate+"</li>";
+	    			}
+	    			var isLongTermRelease = obj.isLongTermRelease;
+
+                    if(colPostionEndTime!=null&&colPostionEndTime!=""){
+                        if(isLongTermRelease!=null&&isLongTermRelease==0){
+                            row += "<li class=\"fl w80 tl\" style=\"width:"+positionEndTimeLength+"px\" >"+'长期发布'+"</li>";
+                        }else{
+                            if(colPostionEndTime!=null&&colPostionEndTime!=""){
+                                row += "<li class=\"fl w80 tl\" style=\"width:"+positionEndTimeLength+"px\" >"+obj.endDate+"</li>";
+                            }
+
+                        }
+                    }
+    			}
+    			row += "<li class=\"fl\"><a class=\"Clearfix icon bg11 w25 h7\" data-postId=\""+obj.postId+"\" data-recruitType=\""+obj.recruitType+"\" data-orgId=\""+obj.orgId+"\" href=\"javascript:void(0)\" onclick=\"getPostDetail(this)\"></a></li>";
+    			row += "</ul>";
+    			html += row;
+    		})
+
+    		_maxPage = json.pageCount;
+    		$("#_maxPage").val(_maxPage);
+    		$("#currentPage").val(currentPage);
+    		$("#totalPosition").html("共&nbsp;"+json.rowCount+"&nbsp;条");
+    		_currentPage = currentPage;
+    		/**if(currentPage==json.pageCount){
+    			$("#morePostDiv").hide();
+    			$("#allPostDiv").show();
+    		}**/
+    		$("#postList").html(html);
+
+    		$('#tableCheckAll').prop('checked', false);
+
+    		if(_maxPage>1){
+                $(".pagenation").show();
+                pagenationInit(_currentPage,$("#_maxPage").val());
+                $(".page").click(function(){
+                    changePage($(this).html());
+                });
+            } else {
+                $(".pagenation").hide();
+            }
+		}
+	});
+}
+$(function(){
+	getPostList(url,_currentPage);
+});
+
+function getPostDetail(obj){
+	if(undefined!=$("#postList").find("#"+$(obj).attr("data-postId")).html()){
+		//隐藏所有detail
+		$("#postList").find(".kuang").hide();
+
+		if($(obj).attr("class").indexOf("bg12")>-1){
+    		//变更所有向上按钮图片
+    		$("#postList").find(".Clearfix.icon").attr("class","Clearfix icon bg11 w25 h7");
+    		//隐藏自身detail
+			$("#postList").find("#"+$(obj).attr("data-postId")).hide();
+		}else{
+    		//变更所有向上按钮图片
+    		$("#postList").find(".Clearfix.icon").attr("class","Clearfix icon bg11 w25 h7");
+    		//改变自身向下按钮为向上按钮
+    		$(obj).attr("class","Clearfix icon bg12 w25 h7");
+    		//显示自身detail
+    		$("#postList").find("#"+$(obj).attr("data-postId")).show();
+		}
+	}else{
+
+        var orgIntroduction = "";
+
+        var orgUrl = "/wt/crpharma/web/index/webPositionN300!ajaxGetOrgDetailedIntroduction";
+        var dataStr = "orgId=" + $(obj).attr("data-orgid");
+
+        $.ajax({
+            type:"POST",
+            dataType:"text",
+            url:orgUrl,
+            sync:true,
+            data:dataStr,
+            success: function(data){
+                var result = eval("("+data+")");
+                var retCode = result.retCode-0;
+                var retResult = result.retResult;
+
+                if(retCode=="0"){
+                    orgIntroduction = retResult;
+                }
+            }
+        });
+
+    	var url = "/wt/crpharma/web/json/position/detail"+"?recruitType="+$(obj).attr("data-recruitType")+"&postId="+$(obj).attr("data-postId");
+    	$.getJSON(url,function(json){
+    		if(json!=null && json!=undefined){
+    			var html = "<div class=\"kuang p20 pr mt10 ml10 mr10\" id=\""+$(obj).attr("data-postId")+"\">";
+    			html += "<span class=\"Clearfix pa left20 top-8\"><img src=\"/wt/images/web/style300/arrow.jpg\"></span>";
+    			html += "<div class=\"c333 mb10\">"+"职位描述"+"</div>";
+    			html += "<p class=\"lh20 f12 c666\">"+json.postInfo.workConcet+"</p>";
+
+    			if(json.postInfo.serviceCondition){
+                    html += "<div class=\"c333 mt20 mb10\">"+"任职要求"+"</div>";
+                    html += "<p class=\"lh20 f12 c666\">"+json.postInfo.serviceCondition+"</p>";
+                }
+
+    			var corpCode = 'crpharma';
+    			if(json.postInfo.showSiteInfo && json.postInfo.siteStr!=null&&json.postInfo.siteStr!=''&&corpCode!='yutong'){
+    			   html += "<div class=\"c333 mt20 mb10\">"+"招募站点"+"</div>";
+    			   html += "<p class=\"lh20 f12 c666\">"+json.postInfo.siteStr+"</p>";
+    			}
+                if(orgIntroduction!=""){
+                    html += "<div class=\"c333 mt20 mb10\">"+"所属机构"+"</div>";
+                    html += "<p class=\"lh20 f12 c666\">"+orgIntroduction+"</p>";
+                }
+    			html += "<input type='hidden' id='submitUserId_"+json.postInfo.postId+"' class=\"lh20 f12 c666\" value='"+json.postInfo.postIdToken+"'/>";
+    			html += "<div class=\"overhidden mt20 ml100\">";
+
+                if(json.postInfo.hiddenSiteApply==1) {
+
+                    
+                    
+                        html += "<a class=\"bg_btn_orange fl lh38 wp23 tc cfff f16 mrp bg_btn_big\" href=\"javascript:void(0)\" onclick=\"positionRegist(" + $(obj).attr("data-postId") + ")\">" + "投递此职位" + "</a>";
+                    
+
+                }
+
+
+
+
+    			
+    			  
+    			  
+	                
+	                    html += "<a class=\"bg_btn_blue fl lh38 wp23 tc cfff f16 mrp bg_btn_big\" href=\"javascript:void(0)\" onclick=\"addAlternativePost("+$(obj).attr("data-postId")+")\">"+"收藏职位"+"</a>";
+	                
+	                
+    			  
+	            
+    			html += "</div>";
+    			//隐藏所有detail
+    			$("#postList").find(".kuang").hide();
+    			//变更所有向上按钮图片
+    			$("#postList").find(".Clearfix.icon").attr("class","Clearfix icon bg11 w25 h7");
+    			//改变自身向下按钮为向上按钮
+    			$(obj).attr("class","Clearfix icon bg12 w25 h7");
+    			//显示自身detail
+    			$(obj).parent().parent().after(html);
+    		}
+    	});
+	}
+}
+
+</script>
+
+<script type="text/javascript">
+
+	function initApplyPositionInfo(postId){
+	    var url = "/wt/crpharma/web/index/webPositionN300!initApplyPositionInfo?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc59d9e1f59c27de5beab93e530b3292c925e04df1807ad098e19c8a211705a3579fe04381ac2e017f680d2ace542b1004907aa98225f547ec3f12d0b03fbc27e8"
+	    var data = "postId=" + postId;
+	    $.ajax({
+	        type:"GET",
+	        data:data,
+	        url:url
+	    });
+	}
+
+    //隐私声明
+    function checkAcceptPrivacy(postId){
+        //标记acceptPrivacyFlag
+        $("#choosePostId").val(postId);
+        var url = '/wt/crpharma/web/index/webPositionN300!showPrivacyContent?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc59d9e1f59c27de5b6c189cbd89ae64dcfa8bb3c1414d42d88d8c4de2a2d5bc7daa51604176b95eeb7fd401cf7a566ae5daf26f2009821770ee83f5630e280d61';
+        url += "&brandCode=1";
+        url += "&postId=" + postId;
+        //location.href=url;
+        window.showDialog(window, 'pickPrivacyWindow300', 640, 400, url);
+    }
+
+    //立即申请
+    function positionRegist(postId){
+
+        noticeParentIframe();
+
+        setTimeout("checkPositionRegist(" + postId + ")", 1000);
+
+    }
+    function checkPositionRegist(postId){
+
+    	if(isNoticeParentIframeFailed){
+            return;
+        }
+
+        var url = document.getElementById("dispatchRegistForm").action;
+        var submitUserId = document.getElementById("submitUserId_"+postId).value;
+        var recruitType = "1";
+
+        var readedPrivacy = $("#readedPrivacy").val();
+
+        jQuery.post(url,{submitUserId:submitUserId,postId:postId,recruitType:recruitType},
+                function(data){
+                    var dataArray = data.split("_,,_");
+                    var datamsg = dataArray[0];
+                    var msg = dataArray.length>0? dataArray[1]: "";
+                    if(datamsg==1 || datamsg==2){
+                    	initApplyPositionInfo(postId);
+                        showMsg_1(msg);
+                    }else if(datamsg==3){
+                    	initApplyPositionInfo(postId);
+                        showMsg(msg);
+                    }else if(datamsg==4){
+                        showMsg("校园用户不能应聘社会职位！");
+                    }else if(datamsg==5){
+                        showMsg("社会用户不能应聘校园职位！");
+                    }else if(datamsg==7){
+                        showMsg("您初筛或测评已经失败，请不要在投递该职位！");
+                    }else if(datamsg==9 || datamsg==10){
+                        //alert("跳转到选择简历页面");
+                        var url = "/wt/crpharma/web/index/applyPositionN300!chooseResume?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114ebd6386c91285ded4c1dd94a80067c4b0b23234e14fa21622a0e0d012ac497d4ba193b27868338badb085b53b47b0b503d8360a2e29b0bf77fd401cf7a566ae5daf26f2009821770ee83f5630e280d61"
+                            + "&columnId="+'1';
+                        if(readedPrivacy!=""){
+                            url += "&readedPrivacy=" + readedPrivacy;
+                        }
+                        window.location = url;
+
+                    }else if(datamsg==11){
+                        showMsg("对不起，您已经应聘过该职位，不能重复投递！");
+                    }else if(datamsg==32){
+                    	$("#postIdTemp").val(postId);
+                        $(".newUserDia").show();
+                        genNewCode_pwd1();
+                        $("#newUserDialog").show();
+                    }else if(datamsg==33){
+                        if(confirm("请求延迟，请尝试刷新页面再投递。")){
+                            window.location.reload();
+                        }
+                    }else if(datamsg==31){
+                    	showMsg(msg);
+                    }else if(recruitType==1 && datamsg==180001){ 
+
+                        var siteName = "";
+                        if($.trim(msg)==""){
+                            var msg1 = "只允许投递同一个站点下的职位，请重新选择站点";
+                            var msg2 = "已投递站点";
+                            msg = "<div style='text-align: center;'><span style='color:#000;'>"+msg1+"</span>" +
+                                "<br><span style='font-weight: bolder;'>" + msg2 + "：" + siteName + "</span></div>";
+                        }
+                        layer.confirm(msg, {
+                            skin: 'demo-class-confirm', //自定义样式类名
+                            title: '温馨提示',
+                            closeBtn:0,
+                            btn: ['确定'],
+                            offset: '15%',
+                            area: ['auto', 'auto']
+                        }, function(index, layero){
+                            //确认按钮的回调
+                            window.location= "/wt/crpharma/web/index/campus?brandCode=1";
+                        });
+                    }else{
+                        showMsg(msg);
+                    }
+                });
+    }
+
+    function goCreateResume(){
+        var url = "/wt/crpharma/web/index/primaryResumeN300!showPrimaryInputPage?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114b0cd7a14d1403e1aee47894dbdba0f385f4f1d8e8938770cf07a4bdf47ac94772299f1f81afa74dd0c82ac4abecfc0e4db085b53b47b0b503d8360a2e29b0bf77fd401cf7a566ae5daf26f2009821770ee83f5630e280d61"+"&currentPostId="+"&applyPostType=" +"&recruitType=" + recruitTypeStr;
+        window.location.href=url;
+    }
+
+    function hideDiv(id){
+        jQuery("#"+id).hide();
+        $(".newUserDia").hide();
+        //jQuery("#msgDialog .wincontent").hide();
+    }
+
+     function showMsg_1(msg){
+        $(".newUserDia").show();
+        $("#messageP1").html(msg);
+        $("#messageDiv1").show();
+        herf="#loginShow";
+    }
+
+    function closeShowDiv1(id){
+        $(".newUserDia").hide();
+        $("#"+id).hide();
+    }
+
+    function showMsg(msg){
+        $(".tanchuang").attr("style","height:"+document.body.scrollHeight);
+        $("#messageP").html(msg);
+        $(".tanchuang").show();
+        $("#messageDiv").show();
+    }
+
+    function closeShowDiv(id){
+    	$(".tanchuang").hide();
+    	$("#"+id).hide();
+    }
+
+    function chooseAllCheck(obj){
+    	if($(obj)[0].checked){
+	    	$("input[type='checkbox']").attr("checked",true);
+    	}else{
+    		$("input[type='checkbox']").attr("checked",false);
+    	}
+    }
+
+    function trim(str) {
+        return str.replace(/(^\s*)|(\s*$)/g, "");
+    }
+
+    function addAlternativePost(pid){
+    	var anPostList = getCookie("AlternativePostList");
+    	if(anPostList==undefined){
+    		anPostList = "";
+    	}else{
+	    	anPostList = trim(anPostList);
+    	}
+    	pid = pid + "_" + recruitTypeStr;
+    	if(anPostList.indexOf(pid)<0){
+        	anPostList += pid + ",";
+        	showMsg("职位收藏成功！");
+        	setCookie("AlternativePostList",anPostList,1);
+    	}else{
+    		showMsg("请勿重复收藏职位！");
+    	}
+    }
+
+    function addAlternativePostList(){
+    	var anPostList = getCookie("AlternativePostList");
+    	if(anPostList==undefined){
+    		anPostList = "";
+    	}else{
+    		anPostList = trim(anPostList);
+    	}
+    	var pidList = $("#postList input:checked");
+    	if(pidList.length==0){
+            showMsg("请选择职位!");
+            return;
+        }
+
+    	var pidLastPar = "_" + recruitTypeStr;
+    	for ( var i = 0; i < pidList.length; i++) {
+    		var curId = $(pidList[i]).val() + pidLastPar;
+    		if(anPostList.indexOf(curId)<0){
+    			anPostList += curId+",";
+    		} else {
+    			showMsg("部分职位已经被添加，请重新选择!");
+                return;
+    		}
+		}
+
+    	showMsg("职位收藏成功！");
+    	setCookie("AlternativePostList",anPostList,1);
+    }
+
+    function addDataAlternativePost(pid){
+    	pid = pid + "_" + recruitTypeStr;
+    	var action = "/wt/crpharma/web/index/alternativePosition!addAlternativePost";
+		var data = "postIdStr="+pid;
+		$.ajax({
+			type:"POST",
+			url:action,
+			data:data,
+			success:function(_result){
+				if(_result==0){
+					showMsg("职位收藏成功！");
+				}else{
+					showMsg("请勿重复收藏职位！");
+				}
+			}
+		});
+    }
+
+    function addDataAlternativePostList(){
+    	var anPostList = "";
+    	var pidList = $("#postList input:checked");
+    	if(pidList.length==0){
+    		showMsg("请选择职位!");
+    		return;
+    	}
+    	for ( var i = 0; i < pidList.length; i++) {
+    		var curId = $(pidList[i]).val() + "_" + recruitTypeStr;
+    		if(anPostList.indexOf(curId)<0){
+    			anPostList += curId+",";
+    		}
+		}
+
+    	var action = "/wt/crpharma/web/index/alternativePosition!initAlternativePost";
+		var data = "postIdStr="+anPostList;
+		$.ajax({
+			type:"POST",
+			url:action,
+			data:data,
+			success:function(_result){
+				if(_result==0){
+					showMsg("职位收藏成功！");
+				}else{
+					showMsg("部分职位已经被添加，请重新选择!");
+				}
+			}
+		});
+    }
+
+    //clearCookie("AlternativePostList");
+
+</script>
+
+<style media="screen">
+    .listPlace{padding-right: 20px; width: 630px; line-height:18px;}
+    .listPostType{padding-right: 20px; width: 630px; line-height:18px;}
+    .listSite{padding-right: 20px; width: 630px; line-height:18px;}
+    /** 错误（BUG） #28700 start**/
+    
+        .title{width:100%; background-color:#ffffff;}
+	
+	
+		.loginWordColor{color:!important;}
+	
+	/** 错误（BUG） #28700 end**/
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="renderer" content="webkit">
+<link id="websiteIco" rel="icon" href="" type="image/x-icon" />
+<script type="text/javascript" src="/wt/javascript/web/templates/subfooterStyle.js?vn=490d1b79a382261a345bfd7a272d794a" ></script>
+
+
+
+    <script type="text/javascript" src="/wt/javascript/jquery/jquery-3.1.1.min.js?vn=e071abda8fe61194711cfc2ab99fe104" ></script>
+
+
+
+
+
+
+    <link type="text/css" rel="stylesheet" href="/wt/styles/web/style300/theme/newposition/orange.css?vn=5d0c9dd3df1f988933f276e75a559574"/>
+
+
+
+    <link type="text/css" rel="stylesheet" href="/wt/styles/web/style300/theme/newmessage/red.css?vn=20c790b3444cac263ed387f86f55fc9b"/>
+
+
+
+    <link type="text/css" rel="stylesheet" href="/wt/styles/web/style300/theme/hotrecruit/green.css?vn=84af8910b529758ab18372a254a400ac"/>
+
+
+
+    <link type="text/css" rel="stylesheet" href="/wt/styles/web/style300/theme/overseasrecruit/red.css?vn=60881f14baffe52e73ace8d2a9e10301"/>
+
+
+
+<script type="text/javascript">
+    $(function() {
+        
+        
+        $(".title").css("background", "#ffffff");
+        $(".secondDiv").css("background", "#ffffff");
+        
+        
+        $(".present").css("background", "#eeeeee");
+        $(".lanmu").hover(function(){
+            $(this).css("background", "#eeeeee");
+        },function(){
+            $(this).css("background-color","#ffffff");
+            $(".present").css("background", "#eeeeee");
+        });
+        
+        
+        $(".footer").css("background", "#ffffff");
+        
+
+        
+        //$(".title-box a").css("color", "#000000");
+        
+        
+        
+        
+        
+        //$(".s-position-box").css("background-color", "#eeeeee");
+        
+        
+        
+        
+
+        
+        
+        
+        
+    })
+</script>
+
+<style type="text/css">
+
+    
+    .title-box a{color:#000000; }
+    .title-box .list a{color:#000000;}
+    
+
+    
+
+    
+
+    
+    .overSeasThemeColor{color:red;}
+    
+
+    
+
+    body .demo-class-confirm .layui-layer-btn, body .demo-class-confirm .layui-layer-content{
+        text-align: center;
+        min-height:30px !important;
+    }
+    body .pubMsg .layui-layer-content{text-align:left !important;}
+
+    body .demo-class-confirm .layui-layer-btn .layui-layer-btn1{
+        background-color: #f1f1f1;
+        color: #333;
+        border-color:#f1f1f1;
+    }
+
+
+</style>
+<body onload="javascript:showAllMessages();" class="w1200 " style="overflow-x: hidden;">
+<input type='hidden' id='hasErrors' name='hasErrors' value='false'>
+
+<input type='hidden' id='hasMessages' name='hasMessages' value='false'>
+
+<input type="hidden" id="_maxPage" name="_maxPage"  />
+<input type="hidden" id="currentPage" name="currentPage"  />
+<input type="hidden" id="submitUserId" name="submitUserId" value="58ef18b22869575f346b293b9b8d0474be95a1ddc93995f1bac139a97414f9937702aac904821f70" />
+<input type="hidden" id="readedPrivacy" name="readedPrivacy" value="" />
+
+<form id="dispatchRegistForm" action="/wt/crpharma/web/index/webPositionN300!dispatchRegist?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc59d9e1f59c27de5b4deae1714c84ecaf88ddf8b81a32489df55881f44c9df8f1db085b53b47b0b503d8360a2e29b0bf77fd401cf7a566ae5daf26f2009821770ee83f5630e280d61" method="post" onsubmit="return false;">
+<input type="hidden" name="postId" id="choosePostId"/>
+<input type="hidden" name="postIdStr" id="choosePostIdStr"/>
+</form>
+
+<form id="pageform" method="post" action="" onsubmit="return false;" style="min-height: calc(100vh - 60px);">
+<input type="hidden" id="pc.currentPage" name="pc.currentPage" value="1" />
+<input type="hidden" id="pc.rowSize" name="pc.rowSize" value="10" />
+<input type="hidden" id="orgId" name="orgId" value="" />
+<input type="hidden" id="releaseTime" name="releaseTime" value="" />
+<input type="hidden" id="keyWord" name="keyWord" value="" />
+<input type="hidden" id="positionType" name="positionType" value="" />
+<input type="hidden" id="trademark" name="trademark" value="" />
+<input type="hidden" id="workPlace" name="workPlace" value="" />
+<input type="hidden" id="useForm" name="useForm" value="" />
+<input type="hidden" id="positionName" name="positionName" value="" />
+<input type="hidden" id="recruitType" name="recruitType" value="1" />
+<input type="hidden" id="specialRecruitmentId" name="specialRecruitmentId" value="" />
+<input type="hidden" id="brandCode" name="brandCode" value="1" />
+<input type="hidden" id="searchType" name="searchType" value="" />
+<input type="hidden" id="blockType" name="blockType" value="" />
+<input type="hidden" id="contentModuleType" name="contentModuleType" value="" />
+<!-- css add it  -->
+<input type="hidden" id="tagType" name="tagType" value="" />
+<!-- cyxiong add it  -->
+<input type="hidden" id="comPart" name="comPart" value="" />
+<!-- cyxiong add it  -->
+<input type="hidden" id="orderInt" name="orderInt" value="" />
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/wt/styles/web/style300/login.css?vn=13707015cfd857efefcea7693898f52d">
+<link type="text/css" rel="stylesheet" href="/wt/styles/web/iconfont_20190515/iconfont.css?vn=b1ec6972c57624a88830838736e23e0c" />
+
+<script type="text/javascript" src="/wt/javascript/web/templates/cookie.js?vn=39ef79cd174d0c89a1f9057d9e8f8b35" ></script>
+
+<script type="text/javascript" src="/wt/javascript/web/common.js"></script>
+<script src="/wt/v9/static/javascript/crypto/crypto-js.js?vn=af87b6673fb6087b22fb6f6e2303549b" type="text/javascript"></script>
+
+<style media="screen">
+      .tru{background-image:url(/wt/images/web/style300/inputRigth.png);background-repeat: no-repeat;background-position:95% 50%;}
+      .fal{border: 1px solid #FF834A;background-image:url(/wt/images/web/style300/inputError.png);background-repeat: no-repeat;background-position:95% 50%;}
+      .ml35{margin-left:35px;}
+      input::-ms-clear{display:none;}
+      .toparrow{background-color: white;
+        filter:alpha(opacity=0);  /*支持 IE 浏览器*/
+        -moz-opacity:0; /*支持 FireFox 浏览器*/
+        opacity:0;  /*支持 Chrome, Opera, Safari 等浏览器*/}
+      .ulArrow1{
+        position: absolute;
+        margin-left: 56px;
+        margin-top: -8px;
+      }
+      .dividingLine {border-top:1px solid #f4f4f4; margin-top:30px; text-align:center;}
+      .dividingLine p {display:inline-block; margin-top:-10px; padding:0 5px; background-color:#fff;}
+      .dl-img {padding-top:10px; overflow:hidden;}
+      .title-box .dl-img a {float:none;}
+      .dl-img img {margin:0 5px;}
+      body{height:100%;}
+      .changeLogin{display:none;position:absolute;top:10px;right:10px;width:45px;height:45px;z-index: 10;}
+      .QRcode{display:none;}
+      .center{text-align: center;margin-top:40px;}
+      .icon-scan-img{display: inline-block;vertical-align: middle;margin-right: 16px;width:15px;height:15px;background:url(/wt/v9/static/images/scan.png) no-repeat center;}
+	  .register_hint{color:red;margin-top:10px;text-align: center;display:block;height:16px;}
+	  .login_info{color:red;margin-top:10px;text-align: center;display:block;height:auto;line-height:16px;}
+      /*haveListt是弹窗下边的小三角*/
+      .haveListt{position: relative;}
+      .haveListt:before{content: "";display: block;position: absolute;bottom: -26px;left: 50%;margin-left: -11px;border: 11px solid transparent;border-bottom-color: rgba(255,255,255,.8);}
+      .btn_weChart{width: 27px;display: inline-block;margin-top: 17px;margin-left: 10px;}
+      .btn_weChart>img{width: 100%}
+      /*二维码*/
+      .login-QRcode{display:none;width: 176px;background-color: rgba(255,255,255,.88);position:absolute;top: 70px;right: -10px;padding: 10px 23px 20px;border-radius: 5px;z-index: 1; box-shadow: 0px 0px 10px #cccccc;}
+      .QRcodeImg{width: 176px;height: 176px;margin-top: 20px;}
+      .QRcodeImg img{width: 100%;height: 100%;}
+      .login-QRcode .loginBtn{margin-top: 20px;}
+      .login-QRcode .loginBtn button{width: 176px;}
+      .loginBtn{margin-top: 30px;text-align: center}
+      .loginBtn button{height: 40px;width: 250px;line-height: 40px;font-size: 18px;border: 0;outline: 0;border-radius: 3px;background-color: #ff4d1a;color: #fff; cursor: pointer}
+      #mobileArea{ float: left;box-sizing:border-box;width: 78px;height: 36px;color: #999;border: 0px solid #e9e9e9;border-right: 1px solid #f4f4f4;}
+      #nationCode{ float: left;box-sizing:border-box;width: 68px;height: 36px;color: #999;border: 0px solid #e9e9e9;border-right: 1px solid #f4f4f4;}
+      .password-eye+i {
+          float: right;
+          top: 0px;
+          position: absolute;
+          right: 8px;
+          font-size: 16px;
+      }
+      input::-ms-clear{display: none;}
+      input::-ms-reveal{display: none;}
+</style>
+<script type="text/javascript">
+
+//设置标记位，用于判断但用户没有改变用户名时到底给那个标记
+var nochangeValue ="";
+//保存registUserName字段值得变量
+var oldValue = null;
+$(function(){
+	//$("body").bind("click",hideAll);
+    $(document).bind("click",function(e){
+        var target = $(e.target); 
+        if(target.closest("#memberDiv").length == 0 && target.closest(".userNameArea").length == 0){ 
+            $("#memberDiv").hide();
+        } 
+    });
+    $("#registUserEmail").val("");
+    $("#registUserPwd").val("");
+    $("#registReUserPwd").val("");
+    $("#validateCode_regist").val("");
+
+    /*更新公告.*/
+    setTimeout('checkIsShowPubMessage();',1000)
+
+});
+
+function checkIsShowPubMessage() {
+
+    
+}
+var pwdEncryptionType = 1;
+function encrypt(str) {
+    var isSystemTesting = false;
+    if(isSystemTesting){
+        return $.trim(str);
+    }
+    if(pwdEncryptionType==3){
+        return sm4Encrypt_ECB(str,"3588538957232728");
+    }else{
+        var key = CryptoJS.enc.Utf8.parse("3588538957232728");
+        var encrypted = '';
+
+        var srcs = CryptoJS.enc.Utf8.parse(str);
+        encrypted = CryptoJS.AES.encrypt(srcs, key, {
+            mode: CryptoJS.mode.ECB,
+            padding: CryptoJS.pad.Pkcs7
+        });
+        return $.trim(encrypted.ciphertext.toString());
+    }
+}
+
+function hideAll(){
+	$("#loginDiv").hide();
+	$("#registDiv").hide();
+	$("#passwordDiv").hide();
+	$("#passwordMobileDiv").hide();
+
+	
+}
+
+function mouseOver(obj){
+	$(obj).children(".listbox-1").show();
+}
+function mouseOverSelf(obj){
+	$(obj).show();
+}
+function mouseOut(obj){
+	$(obj).children(".listbox-1").hide();
+}
+function mouseOutSelf(obj){
+	$(obj).hide();
+}
+
+function mouseClickLogin(obj){
+    $("#login_info").empty();
+
+    $("#loginDiv").css('left',$('#loginShow').offset().left-$('.always_on_top').offset().left-$("#loginDiv").width()+46+$('#loginShow').width()+'px');
+	$("#loginDiv").toggle();
+	$("#registDiv").hide();
+	$("#passwordDiv").hide();
+
+	
+
+    
+    $("#loginByPhoneDiv").hide();
+    $("#registByMobileDiv").hide();
+    $("#passwordMobileDiv").hide();
+
+	var speed = 200;//滑动的速度
+    $("body").animate({
+        scrollTop : 0
+    }, speed);
+    return false;
+}
+function mouseClickRegist(obj){
+
+    
+    
+    
+        $("#register_hint").empty();
+        $("#loginByPhoneDiv").hide();
+        $("#registByMobileDiv").hide();
+        $("#registDiv").css('left',$('#registShow').offset().left-$('.always_on_top').offset().left-$("#registDiv").width()+46+$('#registShow').width()+'px');
+        $("#registDiv").toggle();
+    
+	$("#loginDiv").hide();
+	$("#passwordDiv").hide();
+	
+	
+    genNewCode_regist();
+	
+
+	var speed = 200;//滑动的速度
+    $("body").animate({
+        scrollTop : 0
+    }, speed);
+    return false;
+}
+function showPwd(){
+    
+    
+        $("#passwordDiv").toggle();
+        $("#loginDiv").hide();
+        $("#loginByPhoneDiv").hide();
+        
+        genNewCode_pwd();
+        
+
+        
+
+        $("#moveDiv").click(function(){
+            $("#passwordDiv").hide();
+        });
+    
+}
+
+function showMemberDiv(obj){
+    $("#memberDiv").css("left",$(obj).position().left+$(obj).width()/4).css("margin-left",10).css("top",$(obj).position().top+65);
+	$("#memberDiv").toggle();
+}
+
+/*$(function(){
+	var userNameValue = getCookie("loginUserName");
+    $("#userName").val(userNameValue);
+    var passwordValue = getCookie("loginUserPassword");
+    $("#userPassword").val(passwordValue);
+    if(passwordValue!="" && passwordValue!=null){
+	    $("#rememberUser").attr("checked",true);
+    }
+});*/
+var baseContextPath = "/wt";
+function genNewCode_login(){
+    var url = "/wt/crpharma/web/index/webValidateCode?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc2c32ce478f7530056c611688a4f946ef8f3556c170834a9ed20d4257657662c14596f933a15273b4";
+    var data = "validateCodeKey=login";
+    $.ajax({
+        type:"POST",
+        dataType:"text",
+        url:url,
+        data:data,
+        success:flushValidateCode_login
+    });
+}
+
+function flushValidateCode_login(newCode){
+    newCode = $.trim(newCode);
+    if(newCode==-1){
+        alertLayer("验证码刷新失败。");
+    }else{
+        document.getElementById("validateImg").src = baseContextPath + "/crpharma/web/index/webUserLogin!genValidateCodeNew?validateCodeKey=login&code2="+Math.random();
+    }
+}
+
+</script>
+
+
+
+<script type="text/javascript" src="/wt/javascript/v7/common.js"></script>
+
+<!-- 登录 start -->
+<script type="text/javascript">
+function focusNextInput(thisInput){
+    var inputs = document.getElementsByTagName("input");
+    for(var i = 0;i<inputs.length;i++){
+     if(thisInput == inputs[i]){
+        inputs[i+1].focus();
+        break;
+      }
+    }
+}
+function loginMessage(message){
+	alertLayer(message);
+}
+$(function() {
+
+    
+
+    
+	    /*$('#validateImg').on('click', genNewCode_login );*/
+        $('#loginclick').on('click', doSubmitByCode );
+    
+    
+});
+
+function validateLoginForm() {
+
+    var $userName = $("#userName");
+    var $userPwd = $("#userPassword");
+
+    /*var inputCode = document.getElementById("validateCode");*/
+
+    if ($.trim($userName.val())=="") {
+    	$("#login_info").html("请输入用户名");
+        $userName[0].focus();
+        return false;
+    }else if ($.trim($userPwd.val())=="") {
+    	$("#login_info").html("请输入密码");
+        $userPwd[0].focus();
+        return false;
+    }else{
+    	userLogin();
+    }
+}
+
+function userLogin(){
+
+    var userName = $("#userName").val();
+    userName = $.trim(userName);
+    var userPwd = $("#userPassword").val();
+    userPwd = $.trim(userPwd);
+
+    
+
+    var actionName = ""; 
+    var submitUserId = document.getElementById("submitSessionId").value;
+
+    var brandCode = '1';
+    if(brandCode == ''){
+        brandCode = 1;
+    }
+    
+    
+        var loginUrl = "/wt/crpharma/web/index/webUserLogin!userLoginForNormal?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc3f54f2787edacc6f3135c8f4c359eb98d6f03367cfd698fb0144d6375b8468888f3556c170834a9ed20d4257657662c14596f933a15273b4";
+    	var data = "submitUserId="+submitUserId+"&userName="+encrypt(userName)
+            +"&password="+encrypt(userPwd)+"&actionName="+actionName+"&brandCode="+brandCode;
+    	$.ajax({
+    		type:"POST",
+    		dataType:"text",
+    		url:loginUrl,
+    		data:data,
+    		success:callBack
+    	});
+    
+}
+
+function callBack(data){
+        	
+	var result = eval("("+data+")");
+    var retCode = result.retCode;
+    
+    if(retCode=="0"){
+
+        alertLayer("登录成功",1500);
+    	
+        initAlternativePost();
+
+        /*var isChecked = $("#rememberUser").attr("checked");
+        if(isChecked!=undefined && isChecked=="checked"){
+            var userName = $("#userName").val();
+            var userPassword = $("#userPassword").val();
+            setCookie("loginUserName",userName,7);
+            setCookie("loginUserPassword",userPassword,7);
+        }else{*/
+            clearCookie("loginUserName");
+            clearCookie("loginUserPassword");
+        /*}*/
+
+        setTimeout(function(){
+            
+
+            var postId = "";
+            var recruitType = "1";
+            if(postId!="" && recruitType!=""){
+                window.location= "/wt/crpharma/web/index/applyPositionN300!chooseResume?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114ebd6386c91285ded4c1dd94a80067c4b0b23234e14fa21622a0e0d012ac497d4ba193b27868338badb085b53b47b0b503d8360a2e29b0bf77fd401cf7a566ae5daf26f2009821770ee83f5630e280d61"
+                    + "&recruitType=" + recruitType + "&postId=" + postId;
+            } else {
+                
+                window.location.href="/wt/crpharma/web/index/primaryResumeN300!listResume?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114b0cd7a14d1403e1aee47894dbdba0f385f4f1d8e8938770cbb8c48cf0ef4836557a21b9611070fe6ccd3e4879a3b70b4c703a81fec7b472740f2d35ef453a33c9f6ae7a0a5fda7e1";
+                
+                
+            }
+        }, 1500);
+
+    } else {
+        
+
+        
+        
+            $("#login_info").html(result.retMsg);
+        
+    }
+        
+}
+
+function initAlternativePost(){
+    var anPostList = getCookie("AlternativePostList");
+    if(anPostList!=undefined && $.trim(anPostList)!=""){
+        var initApostAction = "/wt/crpharma/web/index/alternativePosition!initAlternativePost";
+        var data = "postIdStr="+anPostList;
+        $.ajax({
+            type:"POST",
+            url:initApostAction,
+            data:data,
+            success:function(){
+                clearCookie("AlternativePostList");
+            }
+        });
+    }
+}
+
+function doSubmitByCode() {
+    var loadUrl = '/wt/crpharma/web/img/verificationImage!showVerify';
+    var instance = wtDialog.dialog({
+        id : 'captchaDialog',
+        title : '验证码验证',
+        auto : true,
+        url : loadUrl,
+        padding : 5,
+        data:{},
+        onclose : function() {
+            if (this.returnValue != "") {
+                var o_ret=eval("("+this.returnValue+")");
+                if (o_ret.retCode == 0) {
+                    userLogin();
+                }
+            }
+            instance.remove();
+            instance = null;
+        }
+    }).showModal();
+}
+
+
+</script>
+    <link rel="stylesheet" type="text/css" href="/wt/styles/web/dialog.css?vn=223f72923e3be51ffc78a77e8f5bbb55">
+    <script type="text/javascript" src="/wt/javascript/web/templates/dialog.js?vn=727fe69bb32c73a7543581301f1c20a5"></script>
+<!-- 登录 end -->
+
+<!-- 注册 start -->
+<script type="text/javascript">
+function registMessage(message){
+	alertLayer(message);
+}
+function exsitsData(id){
+	var email      = document.getElementById("registUserEmail");
+    var password   = document.getElementById("registUserPwd");
+    var repassword = document.getElementById("registReUserPwd");
+
+    
+        var vCode	   = document.getElementById("validateCode_regist");
+        if (isEmpty(fTrim(vCode.value)) && id != "validateCode_regist") {
+            $("#btn_regist").off("click");
+            $("#btn_regist").css({"background-color":"Silver"});
+            return ;
+        }
+
+        
+
+	
+
+	if (isEmpty(fTrim(email.value)) && id != "registUserEmail") {
+		$("#btn_regist").off("click");
+		$("#btn_regist").css({"background-color":"Silver"});
+    	return ;
+	}
+	if (isEmpty(fTrim(password.value)) && id != "registUserPwd") {
+		$("#btn_regist").off("click");
+		$("#btn_regist").css({"background-color":"Silver"});
+    	return ;
+	}
+	if (isEmpty(fTrim(repassword.value)) && id != "registReUserPwd") {
+		$("#btn_regist").off("click");
+		$("#btn_regist").css({"background-color":"Silver"});
+    	return ;
+	}
+
+	$("#btn_regist").off("click").on("click",validateRegisterForm);
+
+    
+    
+        $("#btn_regist").css({"background-color":"#FF8349"});
+    
+
+}
+$(function() {
+    $('#btn_regist').on('click', validateRegisterForm );
+    $("#btn_regist").css({"background-color":"Silver"});
+    $('#validateImg_regist').on('click', genNewCode_regist );
+    //genNewCode_regist();
+});
+
+function genNewCode_regist(){
+    
+    
+    var url = "/wt/crpharma/web/index/webValidateCode?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc2c32ce478f7530056c611688a4f946ef8f3556c170834a9ed20d4257657662c14596f933a15273b4";
+    var data = "validateCodeKey=regist";
+    $.ajax({
+        type:"POST",
+        dataType:"text",
+        url:url,
+        data:data,
+        success:flushValidateCode_regist
+    });
+    
+
+}
+function flushValidateCode_regist(newCode){ 
+	newCode = $.trim(newCode);
+	if(newCode==-1){
+		//registMessage("验证码刷新失败。");
+		$("#register_hint").html("验证码刷新失败。");
+	}else{
+        document.getElementById("validateImg_regist").src="/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?validateCodeKey=regist&code1="+newCode+"&code2="+Math.random();
+	}
+}
+
+var registerSetCount = 0;
+function validateRegisterForm() {
+
+    if(registerSetCount>0){
+        return false;
+    }
+
+    var isReadedPrivacy = "";
+    
+        /*隐私声明*/
+        var checked = $("#privacy_checkbox").hasClass("checked");
+        if(!checked){
+            var msg = "请先阅读并同意声明后再操作";
+            $("#register_hint").html(msg);
+            flag = false;
+            return ;
+        }
+        if(checked){
+            isReadedPrivacy = "Y";
+        } else {
+            isReadedPrivacy = "NO";
+        }
+    
+
+
+    var userTypeValue;
+    var userType   = document.getElementsByName("registerUserType");
+    var email      = document.getElementById("registUserEmail");
+    var password   = document.getElementById("registUserPwd");
+    var repassword = document.getElementById("registReUserPwd");
+    
+    var vCode	   = document.getElementById("validateCode_regist");
+    
+
+    var flag = true;
+    
+    
+    
+        userTypeValue = userType[0].value;
+    
+    
+    //邮箱
+    if(isEmpty(fTrim(email.value))){
+       //registMessage("邮箱地址不能为空！");
+        $("#register_hint").html("邮箱地址不能为空！");
+        flag = false;
+        email.focus();
+        return ;
+    }else{
+        if (!isEmail(email.value)) {
+            //registMessage("邮箱地址格式不正确！");
+            $("#register_hint").html("邮箱地址格式不正确！");
+            flag = false;
+            email.focus();
+            return ;
+        }
+    }
+
+    //密码
+    if(isEmpty(fTrim(password.value))){
+        //registMessage("密码不能为空！");
+        $("#register_hint").html("密码不能为空！");
+        flag = false;
+        password.focus();
+        return ;
+    }else{
+        var psd = $.trim(password.value);
+        if (psd.replace(/(^\s*)|(\s*$)/g, "").length<8 || psd.replace(/(^\s*)|(\s*$)/g, "").length>20 || !hasDigits(psd) || !hasLetter(psd)) {
+            //registMessage("密码格式不正确！8-20位，必须包含字母和数字，区分大小写");
+            $("#register_hint").html("密码格式不正确！8-20位，必须包含字母和数字，区分大小写");
+            flag = false;
+            password.focus();
+            return ;
+        }
+    }
+    if(isEmpty(fTrim(repassword.value))){
+       // registMessage("确认密码不能为空！");
+        $("#register_hint").html("确认密码不能为空！");
+        flag = false;
+        return ;
+    }
+    if ($.trim(repassword.value) != $.trim(password.value)) {
+        //registMessage("两次输入密码不一致！");
+        $("#register_hint").html("两次输入密码不一致！");
+        flag = false;
+        return ;
+    }
+    
+    	if (isEmpty(fTrim(vCode.value))) {
+    		//registMessage("请输入验证码");
+    		$("#register_hint").html("请输入验证码");
+        	flag = false;
+        	return ;
+    	}
+    
+    
+    if(!flag){
+        return;
+    }
+    var brandCode = '1';
+    if(brandCode == ''){
+        brandCode = 1;
+    }
+    var submitUserId = document.getElementById("submitSessionId").value;
+    
+    
+    var url = "";
+	var data = "";
+    
+    	url = "/wt/crpharma/web/index/userRegisterTokenVCode?operational=4600ccb0d4b1cc000c1051575e586114c97a53c0feeab4bb19baddf234b26477deb971358f74a9972e0d615c3637aaca1cde47e79e2de07f0398bb2640f297b05f77c478463ec0fb";
+
+        
+
+		data = "submitUserId="+submitUserId
+				+"&password="+encrypt(password.value)+"&email="+encrypt(email.value)+"&validateCode="+encrypt(vCode.value)
+				+"&userType="+userTypeValue+"&brandCode="+brandCode;
+	
+	
+
+    if(isReadedPrivacy!=""){
+        data += "&isReadedPrivacy=" + isReadedPrivacy;
+    }
+
+    registerSetCount++;
+    layer.load(2, {shade:[0.3,'#000']});
+
+	$.ajax({
+		type:"POST",
+		dataType:"text",
+		url:url,
+		data:data,
+		success:registerCallBack
+	});
+    
+}
+function registerCallBack(data){
+
+    registerSetCount = 0;
+    layer.closeAll();
+    	
+	var result = eval("("+data+")");
+    var retCode = result.retCode;
+    
+    if(retCode=="0"){
+    	
+    	initAlternativePost();
+    	
+    	clearCookie("loginUserName");
+		clearCookie("loginUserPassword");
+        var brandCode = '1';
+        if(brandCode == ''){
+            brandCode = 1;
+        }
+
+        
+            var url = "/wt/crpharma/web/index/primaryResumeN300!showPrimaryInputPage?operational=4600ccb0d4b1cc000c1051575e586114b0cd7a14d1403e1aee47894dbdba0f385f4f1d8e8938770cf07a4bdf47ac94772299f1f81afa74dda7dbe515e9dd95561cde47e79e2de07f0398bb2640f297b05f77c478463ec0fb";
+            url = url+"&brandCode="+brandCode;
+            window.location.href=url;
+        
+        
+        
+    } else if(retCode=="1"){
+    	
+    	$("#registDiv").hide();
+        //initAlternativePost(); // 需要邮件激活时，登录信息并未保存.
+        clearCookie("loginUserName");
+        clearCookie("loginUserPassword");
+        alertTimeLayer(result.retMsg);
+        //$("#register_hint").html(result.retMsg);
+    }else if(retCode=="-4"){
+    	mouseClickLogin(null);
+    	$("#login_info").html("账号尚未激活，请先至注册邮箱内根据系统发送的邮件提示激活账号！");
+        $("#validateCode_regist").val("");
+    	
+    		genNewCode_regist();
+		
+    }else if(retCode=="-3"){
+    	$("#loginDiv").css('left',$('#loginShow').offset().left-$('.always_on_top').offset().left-$("#loginDiv").width()+46+$('#loginShow').width()+'px');
+    	$("#loginDiv").toggle();
+    	$("#registDiv").hide();
+    	$("#passwordDiv").hide();
+    	var speed = 200;//滑动的速度
+        $("body").animate({
+            scrollTop : 0
+        }, speed);
+        $("#validateCode_regist").val("");
+        $("#login_info").html("该账号已经存在,请直接登录");
+    	
+    		genNewCode_regist();
+		
+    } else {
+    	$("#validateCode_regist").val("");
+    	
+    		genNewCode_regist();
+		
+    	//registMessage(result.retMsg);
+    	$("#register_hint").html(result.retMsg);
+    }
+}
+
+function isIdNum(userName){
+	var idNum  = /(^(\d{15}|\d{17}[\dxX])$)/;
+	return idNum.test(userName);
+}
+
+</script>
+<!-- 注册 end -->
+
+<script type="text/javascript" src="/wt/javascript/manage/utils.js"></script>
+<script type="text/javascript" src='/wt/javascript/web/md5.js'></script>
+<script type="text/javascript" src="/wt/javascript/date.js?vn=99d90593f9e4c1a7074f27bb100cdee0"></script>
+<!-- start 忘记密码 -->
+<script type="text/javascript">
+function forgetPwdMessage(message){
+	alertLayer(message);
+}
+
+$(function() {
+    $('#btn_resetPwd').on('click', validateGvCode_pwd );
+    $('#validateImg_pwd').on('click', genNewCode_pwd );
+    //
+    //genNewCode_pwd();
+    //
+});
+function genNewCode_pwd(){
+    
+    
+    var url = "/wt/crpharma/web/index/webValidateCode?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc2c32ce478f7530056c611688a4f946ef8f3556c170834a9ed20d4257657662c14596f933a15273b4";
+    var data = "validateCodeKey=";
+    $.ajax({
+        type:"POST",
+        dataType:"text",
+        url:url,
+        data:data,
+        success:flushValidateCode_pwd
+    });
+    
+}
+
+function flushValidateCode_pwd(newCode){ 
+	newCode = $.trim(newCode);
+	if(newCode==-1){
+		forgetPwdMessage("验证码刷新失败。");
+	}else{
+        document.getElementById("validateImg_pwd").src="/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?code2="+Math.random();
+	}
+}
+function validateGvCode_pwd(){
+    var inputCode = document.getElementById("validateCode_pwd").value;
+    if (inputCode.replace(/(^\s*)|(\s*$)/g, "")=='') {
+    	forgetPwdMessage("请输入验证码");
+    	return false;
+    }else{
+    	forgetPwdJs(inputCode);
+    }
+}
+
+function forgetPwdJs(inputCode) {
+    var email= document.getElementById("findPwdEmail");
+    if(isEmpty(fTrim(email.value))){
+    	forgetPwdMessage("邮箱不能为空");
+        return;
+    }else if (!isEmail(email.value)) {
+        forgetPwdMessage("邮箱格式不正确");
+        flag = false;
+        return;
+    }
+    var recruitType = '';
+    var brandCode = '1';
+    if(brandCode == ''){
+        brandCode = 1;
+    }
+    var submitUserId = document.getElementById("submitSessionId").value;
+
+    var url = "/wt/crpharma/web/index/retrievePwdUrlByEmail?operational=4600ccb0d4b1cc000c1051575e586114f9e0ac9e81a7af0eb75fc8a51185ce41e9472d8048ab98c3372ce17900ae7ae1680d2ace542b1004907aa98225f547ec3f12d0b03fbc27e8";
+    var data = "submitUserId="+submitUserId+"&userEmail="+email.value+"&recruitType="+recruitType
+            	+"&validateCodeKey=&inputCode="+inputCode+"&brandCode="+brandCode;
+    
+    layer_loading();
+    
+	$.ajax({
+		type:"POST",
+		dataType:"text",
+		url:url,
+		data:data,
+		success:getPasswordCallBack
+	});
+    
+}
+function getPasswordCallBack(data){
+	
+	layer.closeAll();
+	
+	data = $.trim(data);
+	if(data=="1"){
+		forgetPwdMessage('系统已发出帮助您修改密码的邮件至您的邮箱，请注意查收！');
+		setTimeout('locationReload()',3000);
+    }else if(data=="2"){
+        genNewCode_pwd();
+        
+        forgetPwdMessage('系统已发出帮助您修改密码的邮件至您的邮箱，请注意查收！');
+     }else if(data == "3"){
+         genNewCode_pwd();
+    	 forgetPwdMessage('验证码错误');
+     }else{
+       genNewCode_pwd();
+       forgetPwdMessage(data);
+    } 
+}
+
+function locationReload(){
+	location.reload();
+}
+
+</script>
+<!-- 忘记密码 end -->
+
+
+
+<div class="title">
+	<div class="title-box m0 w h60 pr">
+    	<span class="fl">
+            
+                <a style="height:60px;" target="_blank" href="https://www.crpharm.com/"> <img style="max-width: 150px;height:60px;" src="/wt/crpharma/web/img!viewWebSiteLogo?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114c14e5acd66a58e940a549d8717b4ce890db4fd5950ab8eb01bff0569f5456de6eb661e8bd47881ace8c372a6bc8422b3d5bc5e9dbc9ceeca" /></a>
+            
+            
+        </span>
+        <a class="fl lh60 ml10 mr10 pl15 pr15 lanmu " href="/wt/crpharma/web/index?brandCode=1 " title="首页" >首页</a><div class="fl lh60 ml10 mr10 pl15 pr15 pr lanmu " onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="/wt/crpharma/web/index/social"  title="社会招聘" >社会招聘</a></div><div class="fl lh60 ml10 mr10 pl15 pr15 pr lanmu present" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"><a href="/wt/crpharma/web/index/campus"  title="校园招聘" >校园招聘</a></div>
+        
+        
+            <div class="fr h60 pr always_on_top" id="login_mess">
+                 
+	            
+	             <a target="_blank" style="text-decoration:none;" href="https://www.crpharm.com/" class="fl f14 lh60 loginWordColor">进入官网</a>
+                 <a class="fl f14 lh60 ml15 icon bp26 pl15 loginWordColor" href="/wt/crpharma/web/index/alternativePosition?brandCode=1">收藏职位</a>
+	            
+	            
+                 
+                 
+                     <a class="fl f14 lh60 ml15 icon bp26 pl15 loginWordColor" id="loginShow"  href="javascript:void(0)" onclick="mouseClickLogin(this)" >登录</a>
+                 
+                 <a class="fl f14 lh60 ml15 icon bp26 pl15 loginWordColor" id="registShow" href="javascript:void(0)" onclick="mouseClickRegist(this)" >注册</a>
+	            
+	            
+
+                
+                
+                
+
+                
+                
+
+                
+                
+
+                
+                <div class="w310 bg pa left-165 top55 shadow loginWordColor" style="z-index:1000;display: none;" id="loginDiv" >
+                    <div class="changeLogin">
+                    	<img class="account" style="display:none;cursor:pointer;" src="/wt/v9/static/images/templet300code1.png"  >
+                    	<img class="code" src="/wt/v9/static/images/templet300code2.png" style="cursor:pointer">
+                    </div>
+                        <span class="jiao pa right40 top-7"></span>
+                    <div class="p20 pr account">
+                        <div class=" f24 c333">用户登录</div>
+                        <input class="mt20 lh38 w250 border-kuang c999 f12 pl10 h38 jHolder" type="text"
+                               name="userName" id="userName" autocomplete="off"
+                               onkeypress="if(event.keyCode==13) focusNextInput(this);"
+                               placeholder="注册邮箱">
+                        <div style="position:relative;">
+                            <lable>
+                                <span class=" mt10 lh38 w250 c999 f12 pl10" style="position:absolute; float:left; display:none;">密码</span>
+                                
+                                <input class=" mt10 lh38 w250 border-kuang c999 f12 pl10 h38 jHolder password-eye" type="password"
+                                       name="userPassword" id="userPassword" autocomplete="off"
+                                       onkeypress="if(event.keyCode==13) focusNextInput(this);"
+                                       placeholder="密码">
+                                
+                                
+                                <i class="iconfont icon-eye themecolor" style="top:21px;right:26px;"></i>
+                            </lable>
+                        </div>
+                        
+                        <div class="mt20 overhidden">
+                            
+                            
+                            
+                            
+                                <a class="fl c333 ml185 f14 c666" href="javascript:void(0)" style="margin-left:0 !important;float:right;margin-right: 20px;" onclick="showPwd()">忘记密码?</a>
+                            
+                        </div>
+                        <span class="login_info" id="login_info"></span>
+                        <span class="bg_btn_orange bg_btn_big lh40 w260 tc block mt20 cfff f18" id="loginclick" style="cursor:pointer;">登录</span>
+                       	<!-- 登录页面选择第三方登录start -->
+                        <div class="dividingLine c333 clz_third_login" style="display:none">
+                       		<p>选择第三方登录</p>
+                       		<div class="dl-img">
+                       			<a href="#" style="display:none"><img src="/wt/images/web/style300/qq.png" width="30"/></a>
+                       			<a href="javascript:void(0)" onclick="javascript:toWXScan()"><img src="/wt/images/web/style300/wx.png" width="30"/></a>
+                       			<a href="#" style="display:none"><img src="/wt/images/web/style300/sina.png" width="30"/></a>
+                       		</div>
+                       	</div>
+                       	<!-- 登录页面选择第三方登录end -->
+                    </div>
+                    <div class="p20 QRcode">
+                    	<div class=" f24 c333">扫描登录</div>
+                    	<div class="center">
+                    		<img alt="" src="/wt/v9/static/images/codeImg.png"  class="rqcodeImage">
+                    		<input id="rqcodeImageTime"  type="hidden">
+                    	</div>
+                    	<div class="center">
+                    		<i class="icon-scan-img"></i>微信扫码登录
+                    	</div>
+                    </div>
+                </div>
+
+                <!-- 注册弹窗 -->
+                
+                <div class="w470 bg pa left-265 top55 shadow" style="z-index:1000;display: none;" id="registDiv" >
+                    <div class="p20 pr">
+                        <span class="jiao pa right40 top-7"></span>
+                        <div class=" f24 c333">用户注册</div>
+
+                        
+                        
+				            <input type="hidden" name="registerUserType" value="1"/>
+				            
+						    <div style="display:none;">
+						        <input type="radio" class="verm ml20" name="registerUserType" value="2"/><span id="recruitType_2" class="ml5 c333" data-value="社会招聘">社会招聘</span><input type="radio" class="verm ml20" name="registerUserType" value="1" checked="checked"/><span id="recruitType_1" class="ml5 c333" data-value="校园招聘">校园招聘</span>
+						    </div>
+				        
+
+                        <div class=" mt20">
+                            <span class="c333"><span class="cfd8d56">*</span> 邮箱地址：</span>
+                            <input type="text" id="registUserEmail" autocomplete="off"
+                                   onkeypress="if(event.keyCode==13) focusNextInput(this);"
+                                   onblur="exsitsData(null)" onfocus="exsitsData(this.id)"
+                                   class="verm c999 f12 lh38 w260 border-kuang pl10 ml20 h38 jHolder"
+                                   placeholder="此邮箱将作为接收通知的邮件地址且不可变更">
+                        </div>
+                        <div class=" mt30">
+                            <span class="c333"><span class="cfd8d56">*</span> 密码：</span>
+                            <div class="c999 f12 lh38 w260 pl10 ml48" style="margin-top:-25px;position:relative;">
+                                <lable>
+                                    <span class="verm c999 f12 lh38 w260 pl10 ml48" style="position:absolute; float:left; display:none;">8-20位，必须包含字母和数字，区分大小写</span>
+                                    <input type="password" id="registUserPwd" autocomplete="off" style="padding-right: 20px;"
+                                           onkeypress="if(event.keyCode==13) focusNextInput(this);"
+                                           onblur="exsitsData(null)" onfocus="exsitsData(this.id)"
+                                           class="verm c999 f12 lh38 w260 border-kuang pl10 ml48 h38 jHolder password-eye"
+                                           placeholder="8-20位，必须包含字母和数字，区分大小写">
+                                    <i class="iconfont icon-eye themecolor" style="right:-43px;"></i>
+                                </lable>
+                            </div>
+                        </div>
+                        <div class=" mt30">
+                            <span class="c333"><span class="cfd8d56">*</span> 确认密码：</span>
+                            <div class="c999 f12 lh38 w260 pl10 ml48" style="margin-top:-25px;position:relative;">
+                                <lable>
+                                    <span class="verm c999 f12 lh38 w260 c333 pl10 ml48 " style="position:absolute; float:left; display:none;">重复输入密码</span>
+                                    <input type="password" id="registReUserPwd" autocomplete="off"
+                                           onkeypress="if(event.keyCode==13) focusNextInput(this);"
+                                           onblur="exsitsData(null)" onfocus="exsitsData(this.id)"
+                                           class="verm c999 f12 lh38 w260 border-kuang pl10 ml48 h38 jHolder password-eye"
+                                           placeholder="重复输入密码">
+                                    <i class="iconfont icon-eye themecolor" style="right:-43px;"></i>
+                                </lable>
+                            </div>
+                        </div>
+
+                        
+                            <div class=" mt20">
+                                <span class="c333"><span class="cfd8d56">*</span> 验证码：</span>
+                                <input class="verm c999 f12 lh38 w140 border-kuang c333 pl10 ml35 h38 jHolder" id="validateCode_regist" autocomplete="off"
+                                       onkeypress="if(event.keyCode==13) validateRegisterForm();" onblur="exsitsData(null)"
+                                       onfocus="exsitsData(this.id)" type="text" placeholder="验证码">
+                                <img id="validateImg_regist" class="fr mr65 border-kuang ml10" align="middle"
+                                    src="/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?code2=&validateCodeKey=regist&operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc3f54f2787edacc6f8caf60c976d93f50dd36bd1dbdf4260cd1b7e4f1edc5cd7bdf48f33cc6863cac23bc0ff8296a65b3d3771b8afdb7eda827d9b8325043817c680d2ace542b1004907aa98225f547ec3f12d0b03fbc27e8"
+                                    width="100" height="35" border=0 />
+                            </div>
+                            
+                            
+                        
+
+                        
+                        
+                            <div class="mt20 lh24 f12 c666">
+                                <span id="privacy_checkbox" onclick="changePrivacy(this)" class="privacy_checkbox middle"></span>
+                                <span class="middle c999">本人已阅读并同意</span>
+                                
+                                
+
+                                    <span class="middle c333" style="cursor:pointer;" onclick="showPrivacyByType('privacy_checkbox',true,false,false,0)">
+                                        <span class="privacy_title" style="color:blue;">
+                                            《招聘平台用户隐私政策》
+                                        </span>
+                                    </span>
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                        
+
+                        <span class="register_hint" id="register_hint"></span>
+                        <span class="bg_btn_orange bg_btn_big lh40 w272 tc block mt50 cfff f18 ml105" id="btn_regist" style="cursor:pointer;">注册</span>
+                        <!-- 注册页面选择第三方登录start -->
+	                        <div class="dividingLine c333 clz_third_login" style="display:none">
+	                       		<p>选择第三方登录</p>
+	                       		<div class="dl-img">
+	                       			<a href="javascript:void(0)" onclick="javascript:toWXScan()"><img src="/wt/images/web/style300/wx.png" width="30"/></a>
+	                       			<a href="#" style="display:none"><img src="/wt/images/web/style300/qq.png" width="30"/></a>
+	                       			<a href="#" style="display:none"><img src="/wt/images/web/style300/sina.png" width="30"/></a>
+	                       		</div>
+	                       	</div>
+                       	<!-- 注册页面选择第三方登录end -->
+                    </div>
+                </div>
+                
+
+            </div>
+
+            
+            <div class="w470 bg shadow" style="z-index:1000;display: none;position: absolute;left: 50%;top: 400%;margin-left: -235px;margin-top: -125px;" id="passwordDiv">
+                <div class="p20">
+                    <div class=" f24 c333">忘记密码<span id="moveDiv" style="margin-left: 310px;cursor: pointer;">X</span></div>
+                    <div class=" mt20">
+                        <span class="c333"><span class="cfd8d56">*</span> 邮箱地址：</span>
+                        <input type="text" id="findPwdEmail" autocomplete="off"
+                               class="verm c999 f12 lh38 w272 border-kuang pl10 ml20 h38 jHolder"
+                               placeholder="请填写您注册时的电子邮箱">
+                    </div>
+                    <div class=" mt20 overhidden">
+                        <span class="fl c333 ml14"><span class="cfd8d56">*</span> 验证码：</span>
+                        <div class="fl overhidden ml25">
+                            <input class="fl lh38 w160 border-kuang c999 f12 pl10 h38 jHolder"
+                                   id="validateCode_pwd" name="validateCode_pwd" autocomplete="off"
+                                   type="text" placeholder="验证码">
+                            <img class="fl ml10 border" id="validateImg_pwd" align="middle"
+                                src="/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?code2=&operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc3f54f2787edacc6f8caf60c976d93f50dd36bd1dbdf4260cd1b7e4f1edc5cd7b96a2429f1952d78b1cde47e79e2de07f0398bb2640f297b05f77c478463ec0fb"
+                                width="70" height="35" border=0 />
+                        </div>
+                    </div>
+                    <a class="bg_btn_orange bg_btn_big lh40 w282 tc block mt20 cfff f18 ml105" id="btn_resetPwd" style="cursor:pointer;margin-bottom: 15px;">确定</a>
+                </div>
+            </div>
+
+            
+            
+        
+        <!-- 二维码 -->
+        
+        
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    $(function(){
+        if($("#userInfoName").length>0){
+            var info = $("#userInfoName").attr("title").replace(/\s*/g,"").substr(0,1);
+            $("#userInfoName").html(info);
+        }
+    })
+
+    function showerweima(the){
+
+        var $this = $(the);
+
+        
+        
+        if($(".login-QRcode").is(":visible")){
+            $this.removeClass("haveListt").siblings("a").removeClass("haveListt");
+            $(".login-QRcode").hide();
+        }else{
+            $this.addClass("haveListt").siblings("a").removeClass("haveListt");
+
+            $(".login-QRcode").show();
+        }
+        
+
+    }
+
+    $("#mobileArea").change(function (){
+        if ($(this).val() == "land") {
+            $("#validateTextt_hidden").show();
+        }
+        if ($(this).val() == "gat") {
+            $("#validateTextt_hidden").hide();
+        }
+    });
+    $("#nationCode").change(function (){
+        if ($(this).val() == "0/94023/94024") {
+            $("#validateTextt_hidden").show();
+        } else {
+            $("#validateTextt_hidden").hide();
+        }
+    });
+    $(function() {
+        $('.vrCode_mobile').on('click', genNewCode_mobile );
+    });
+
+    $("#login_mess").on("click", ".icon-eye", function () {
+        $(this).removeClass("icon-eye").addClass("icon-eye-close");
+        $(this).prev()[0].type = "text";
+    });
+
+    $("#login_mess").on("click", ".icon-eye-close", function () {
+        $(this).removeClass("icon-eye-close").addClass("icon-eye");
+        $(this).prev()[0].type = "password";
+    });
+
+    function genNewCode_mobile(){
+        var url = "/wt/crpharma/web/index/webValidateCode?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc2c32ce478f7530056c611688a4f946ef8f3556c170834a9ed20d4257657662c14596f933a15273b4";
+        var data = "validateCodeKey=";
+        $.ajax({
+            type:"POST",
+            dataType:"text",
+            url:url,
+            data:data,
+            success:flushValidateCode_mobile
+        });
+    }
+
+    function flushValidateCode_mobile(newCode){
+        newCode = $.trim(newCode);
+        if(newCode==-1){
+            alertLayer("验证码刷新失败。");
+        }else{
+            $(".vrCode_mobile").attr("src", "/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?code2="+Math.random());
+        }
+    }
+    var regExpForMobile =/^1\d{10}$/;
+
+    
+
+    function resetPwd() {
+        var newPwdMobile = $.trim($("#newPwdMobile").val());
+        var reNewPwdMobile = $.trim($("#reNewPwdMobile").val());
+        var encryptUser = $.trim($("#encryptUser").val());
+        if (newPwdMobile == "") {
+            alertLayer("请先输入密码");
+            return;
+        }
+        if (newPwdMobile.replace(/(^\s*)|(\s*$)/g, "").length<8||newPwdMobile.replace(/(^\s*)|(\s*$)/g, "").length>20 || !hasDigits(newPwdMobile) || !hasLetter(newPwdMobile)) {
+            alertLayer("密码格式不正确，8-20位，必须包含字母和数字，区分大小写");
+            return;
+        }
+        if (reNewPwdMobile == "") {
+            alertLayer("请先输入确认密码");
+            return;
+        }
+        if (newPwdMobile != reNewPwdMobile) {
+            alertLayer("两次输入密码不一致");
+            return;
+        }
+        var submitUserId = $("#submitSessionId").val();
+        var url = "/wt/crpharma/web/index/webUserLogin!resetPwd?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc3f54f2787edacc6ffa26080ef29c34662a41e25f64db66be680d2ace542b1004907aa98225f547ec3f12d0b03fbc27e8";
+        var data = "submitUserId=" + submitUserId
+            + "&password=" + encrypt(newPwdMobile)
+            + "&encryptUser=" + encryptUser
+            + "&brandCode=" + brandCode;
+        $.ajax({
+            type: "POST",
+            dataType: "text",
+            url: url,
+            data: data,
+            success: function (data) {
+                var result = eval("(" + data + ")");
+                var retCode = result.retCode;
+                var retMsg = result.retMsg;
+                var retResult = result.retResult;
+                if (retCode == "0") {
+                    $("#resetPasswordMobileDiv").hide();
+                    $("#passwordMobileDiv").hide();
+                    alertLayer("密码重置成功");
+                }else {
+                    alertLayer(retMsg);
+                }
+                genNewCode_mobile();
+            }
+        });
+    }
+
+    function closeResetPasswordMobileDiv() {
+        $("#resetPasswordMobileDiv").hide();
+    }
+    function resetPwdByMobile() {
+        var mobilePhone = $("#findPwdMobile").val();
+        if ($.trim(mobilePhone) == "") {
+            alertLayer("请先输入手机号码");
+            return;
+        }
+        var validateCode = $("#validateCode_mobile_pwd").val();
+        if ($.trim(validateCode) == "") {
+            alertLayer("请先输入短信验证码！");
+            return;
+        }
+        var submitUserId = $("#submitSessionId").val();
+        var url = "/wt/crpharma/web/index/webUserLogin!resetPwdByMobile?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc3f54f2787edacc6ffa26080ef29c34663790b95c37f0135132e8cc6acdcd77da680d2ace542b1004907aa98225f547ec3f12d0b03fbc27e8";
+        var data = "submitUserId=" + submitUserId
+            + "&mobilePhone=" + encrypt(mobilePhone)
+            + "&validateCode=" + encrypt(validateCode)
+            + "&brandCode=" + brandCode;
+        $.ajax({
+            type: "POST",
+            dataType: "text",
+            url: url,
+            data: data,
+            success: function (data) {
+                var result = eval("(" + data + ")");
+                var retCode = result.retCode;
+                var retMsg = result.retMsg;
+                var retResult = result.retResult;
+                if (retCode == "0") {
+                    $("#resetPasswordMobileDiv").show();
+                    $("#passwordMobileDiv").hide();
+                    $("#encryptUser").val(retResult.encryptUser);
+                }else {
+                    alertLayer(retMsg);
+                }
+                genNewCode_mobile();
+            }
+        });
+    }
+
+    
+
+    
+
+
+    function showMobile() {
+        $("#passwordMobileDiv").hide();
+        $("#loginDiv").hide();
+        $("#registByMobileDiv").hide();
+        $("#login_info_mobile").empty();
+        $("#registDiv").hide();
+        $("#loginByPhoneDiv").css('left', $('#loginShow').offset().left - $('.always_on_top').offset().left - $("#loginByPhoneDiv").width() + 46 + $('#loginShow').width() + 'px');
+        $("#loginByPhoneDiv").toggle();
+    }
+
+    
+
+//start   第三方登录  -------------171113  by xzzuo--------------
+var thirdLoginOpenUrl='/wt/crpharma/web/index/ajaxWebLoginThird';
+var thirdLoginWXUrl='';
+var  isQueryCode=true;
+
+
+function thirdPlatformLogin(){
+	$.ajax({
+		url : thirdLoginOpenUrl,
+		type: "POST",
+		data: "brandCode=1&recruitType=1",
+		async: true,
+		timeout : 30000,
+		//请求成功时调用
+		success : function(ret) { 
+			if(ret==null || ret==''){
+				return;
+			}
+			var jo=JSON.parse(ret);
+			if(jo.retCode==0){//标准
+				$(".clz_third_login").show();
+				thirdLoginWXUrl=jo.retWX;
+				return;
+			}else if(jo.retCode==1){//伪扫
+				//showFakeWxScanLogin(); 
+				$(".changeLogin").show();
+				return;
+			}else{
+				return;
+			}
+	},
+	//请求失败时调用
+	error : function() {}
+  });
+}
+
+var qrCodeImageUrl = '/wt/crpharma/web/index/codeCreate?brandCode=1';
+function doFakeWxScanLogin(){
+	 var t = new Date().getTime();
+	 $(".rqcodeImage").attr("src",qrCodeImageUrl+"?&t="+t)
+	 $("#rqcodeImageTime").val(t);
+	 var flg=true;  
+	 var setInt=setInterval(function(){
+			var t = $("#rqcodeImageTime").val();
+			if(flg){
+			    $.get('/wt/crpharma/web/index/codeQuery?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114167c816464e8f2e6a4243600f806e329b8b0c129067fbb96e8b6031db8e9cd2e680d2ace542b1004907aa98225f547ec3f12d0b03fbc27e8&t='+t,function(ret){
+			    	var jo=JSON.parse(ret);
+				    if(jo.retCode=="0"){
+				        flg=false;
+						window.location.href="/wt/crpharma/web/index/primaryResumeN300!listResume?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114b0cd7a14d1403e1aee47894dbdba0f385f4f1d8e8938770cbb8c48cf0ef4836557a21b9611070fe6ccd3e4879a3b70b4c703a81fec7b472740f2d35ef453a33c9f6ae7a0a5fda7e1";
+				    }else if(jo.retCode=="-1"){
+				    	 clearInterval(setInt);
+				    	 flg=false;
+				    	 alert(jo.retMsg);
+				    }
+			    });
+			}
+		 },2000);
+}
+
+function  toWXScan(){
+	if(thirdLoginWXUrl==""){
+		alert("暂时不能使用微信扫码登录");
+		return;
+	}
+	location.href=thirdLoginWXUrl;
+}
+
+//新添加二维码点击事件
+$(".changeLogin").on("click",function (e){
+ 	if(isQueryCode){
+ 		isQueryCode=false;
+ 		doFakeWxScanLogin();
+ 	}
+	var $this = $(this);
+ 	var $code = $this.find(".code");
+ 	var $account = $this.find(".account");
+ 	if($code.css("display") == "none"){
+ 		$code.show();
+ 		$account.hide();
+ 		$this.siblings(".account").show();
+ 		$this.siblings(".QRcode").hide();
+ 	}else{
+ 		$account.show();
+ 		$code.hide();
+ 		$this.siblings(".account").hide();
+ 		$this.siblings(".QRcode").show();
+ 	}
+ 	//e.stopPropagation(); 
+ }); 
+
+//end  第三方登录  ------------- 171113  by xzzuo  --------------
+
+
+function checkNull(str){
+  if(str.replace(/(^\s*)|(\s*$)/g, "")==''){
+      return false;
+  }
+return true;
+}
+
+function isIdNum(userName){
+  var idNum  = /(^(\d{15}|\d{17}[\dxX])$)/;
+  return idNum.test(userName);
+}
+
+function isPhoneNum(userName){
+	var phoneNum = /^1[3456789]\d{9}$/;
+	return phoneNum.test(userName);
+}
+	
+</script>
+
+<input type="hidden" id="submitSessionId" name="submitSessionId" value="58ef18b22869575f346b293b9b8d0474be95a1ddc93995f1bac139a97414f9937702aac904821f70"/>
+
+
+
+<script type="text/javascript" src="/wt/javascript/layer/layer.js?vn=b0b2f8925c6f948e6c535890f95ffb22"></script>
+
+<script	type="text/javascript" >
+
+
+function alertLayer(retMsg){
+	
+	
+		layer.alert(retMsg, {
+			  skin: 'layui-layer-molv' //样式类名
+			  ,closeBtn: 0
+			  ,offset:'35%'
+			  ,title:'温馨提示'
+		});
+	
+}
+function alertTimeLayer(retMsg){
+	
+	layer.alert(retMsg, {
+		  skin: 'layui-layer-molv' //样式类名
+		  ,closeBtn: 0
+		  ,offset:'35%'
+		  ,title:'温馨提示'
+		  ,time:3000
+	});
+
+}
+function  loadLayer(){
+	//0代表加载的风格，支持0-2
+	var index = layer.load(0, {shade:[0.3,'#000']});
+	
+	//此处默认30秒关闭
+	setTimeout(function(){
+	  layer.closeAll('loading');
+	}, 30000);
+}
+
+function closeLayer(){
+    layer.close();
+}
+
+function layer_loading(type){
+    //加载层
+    if(type==null || type==''){
+        type=0
+    }
+    var index = layer.load(type, {shade: [0.5, '#ffffff']}); //0代表加载的风格，支持0-2
+    return index;
+}
+
+function layer_closeLoading(index){
+    layer.close(index);
+}
+
+function  showMsg1(msg){
+	
+	layer.alert('墨绿风格，点击确认看深蓝', {
+		  skin: 'layui-layer-molv' //样式类名
+		  ,closeBtn: 0
+		}, function(){
+		  layer.alert('偶吧深蓝style', {
+		    skin: 'layui-layer-lan'
+		    ,closeBtn: 0
+		    ,shift: 2 //动画类型
+		  });
+		});
+}
+
+
+function showMsg2(msg){
+	$('#test1').on('click', function(){
+	    layer.msg(msg);
+	});
+}
+
+function loadingType(type){
+	//加载层
+	if(type==null || type==''){
+		type=0
+	}
+	var index = layer.load(type, {shade: false}); //0代表加载的风格，支持0-2
+}
+
+
+
+//关闭所有layer弹出框的源码
+function closeAllLayer(){
+	layer.closeAll = function(){
+		  var layerObj = $('.xubox_layer');
+		  $.each(layerObj, function(){
+		    var i = $(thus).attr('times');
+		    layer.close(i);
+		  });
+		};
+}
+
+</script>
+
+
+
+
+
+    <div class="login_privacy">
+        
+
+
+
+<style type="text/css">
+
+    .privacy_c_gray{color: #afafaf;}
+    .privacy_checkbox{ width: 12px; height: 12px; display: inline-block; border: 1px solid #D3D3D3;}
+    .privacy_checkbox.checked{ background: url(/wt/images/web/style300/check_arrow.png) center center no-repeat; background-size: contain;}
+    .import_privacy_mask{
+        background-image: url(/wt/images/web/style300/bg_04.png);
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 9999;
+        display: none;
+        overflow-y: auto;
+    }
+    .privacy_modal{
+        margin: 70px auto;
+        z-index: 1000;
+        width: 800px;
+        height: 540px;
+        background: #ffffff;
+        position: relative;
+    }
+    .import_privacy_modal_close{
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-image: url(/wt/images/web/style300/close.png);
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .privacy_modal_head{
+        padding: 20px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .privacy_tabitem{
+        font-size: 21px;
+        margin-right: 15px;
+        color: #333333;
+        cursor:pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 300px;
+        display: inline-block;
+    }
+    .privacy_tabitem.current{
+        color:  ;
+    }
+    .privacy_modal_time{
+        font-size: 14px;
+        color: #999999;
+    }
+    .privacy_modal_tabcontent{
+        margin: 0px 10px;
+        padding: 0 30px;
+        height: 338px;
+        overflow-y: scroll;
+    }
+    .privacy_modal_bottom{
+        padding: 20px 0;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-top: 1px solid #dadada;
+        background: #ffffff;
+    }
+    .privacy_confirm_register_btn{
+        background-color: silver;
+        width: 150px;
+        height: 45px;
+        line-height: 45px;
+        margin: 0 auto;
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+    }
+    .privacy_confirm_register_btn span{
+        color: #ffffff;
+    }
+    /*.privacy_confirm_check{
+        margin-left: 25px;
+    }*/
+    .privacy_checked_white{
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border: 1px solid #ffffff;
+        background:  url(/wt/images/web/style300/check_arrow_white.png) center center no-repeat;
+        background-size: contain;
+    }
+    .privacy_tabitem.current{
+        color: #6592d5;
+    }
+
+    .privacy_modal_content{
+        word-break: break-all;
+    }
+    .privacy_modal_wrap p {
+        margin: 0;
+        padding: 0;
+        font-family: '微软雅黑';
+        list-style: none;
+        font-size: 14px;
+        color: #666;
+        border: none;
+    }
+
+    .privacy_modal_tabcontent * {
+        color: unset;
+        font-size: 100%;
+    }
+    .privacy_modal_tabcontent strong {
+        font-weight: bold;
+    }
+    body {
+        font-family: "Microsoft YaHei", "微软雅黑";
+    }
+    .privacy_modal ol, .privacy_modal ul {
+        list-style: revert;
+        padding-left: revert;
+        margin: revert;
+    }
+    .privacy_modal ul li, .privacy_modal ol li {
+        list-style: inherit;
+        float: revert;
+    }
+    .privacy_modal table{
+        border: 0.8px solid rgb(128, 128, 128);
+    }
+    .privacy_modal tbody{
+        border: 0.8px solid rgb(128, 128, 128);
+    }
+    .privacy_modal tr{
+        border: 0.8px solid rgb(128, 128, 128);
+    }
+    .privacy_modal td{
+        border: 0.8px solid rgb(128, 128, 128);
+    }
+    .privacy_modal hr{
+        border: 0.8px solid rgb(128, 128, 128);
+    }
+</style>
+<div class="import_privacy">
+    <div class="import_privacy_mask">
+    <div class="privacy_modal">
+        <div class="privacy_modal_head">
+            <span class="privacy_tabitem" data-index="0"></span>
+            <span class="privacy_tabitem" data-index="1"></span>
+            <span class="privacy_tabitem" data-index="2"></span>
+        </div>
+        <div class="privacy_modal_wrap">
+            <div class="privacy_modal_tabcontent" data-index="0">
+                <div class="privacy_modal_text">
+                    <div class="privacy_modal_content">
+                    </div>
+                </div>
+                <div class="privacy_modal_bottom">
+                    <div data-index="0" class="privacy_confirm_register_btn">
+                        <span>确定</span>
+                    </div>
+                </div>
+            </div>
+            <div class="privacy_modal_tabcontent" data-index="1" style="display: none;">
+                <div class="privacy_modal_text">
+                    <div class="privacy_modal_content">
+                    </div>
+                </div>
+                <div class="privacy_modal_bottom">
+                    <div data-index="1" class="privacy_confirm_register_btn">
+                        <span>确定</span>
+                    </div>
+                </div>
+            </div>
+            <div class="privacy_modal_tabcontent" data-index="2" style="display: none;">
+                <div class="privacy_modal_text">
+                    <div class="privacy_modal_content">
+                        
+                    </div>
+                </div>
+                <div class="privacy_modal_bottom">
+                    <div data-index="2" class="privacy_confirm_register_btn">
+                        <span>确定</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div style="display:none;" id="corpStatementCopyDiv_register">
+    
+</div>
+
+<script>
+
+    $('.login_privacy').on( 'click', function(event){
+
+        if(window.event){
+            window.event.cancelBubble = true
+        } else{
+            event && event.stopPropagation();
+        }
+
+    });
+
+    var langType = "1";
+    if (langType == ''){
+        langType = "1";
+    }
+    var SysStatementUrl ="/wt/jsonp/proact/get"+"?lanType=" + langType;
+    function initPrivacy(){
+
+        var langTypeTemp = langType;
+        if (langTypeTemp !== "2") {
+            langTypeTemp = "1";
+        }
+        var url = SysStatementUrl;
+
+        url = url + "&type=0";
+
+        $.ajax({
+            url: url,
+            type: "get",
+            success: function (result) {
+                if (result && result.code != 0) {
+                    return;
+                }
+                var data = result.msg;
+                data = JSON.parse(data);
+                try {
+                    if (langTypeTemp === "2") {
+                        $(".privacy_modal_tabcontent[data-index='0']").find(".privacy_modal_content").html(data.contentEn);
+                        $(".privacy_tabitem[data-index='0']").text(data.titleEn);
+                        $(".privacy_title").text("\""+data.titleEn+"\"");
+                    } else {
+                        $(".privacy_modal_tabcontent[data-index='0']").find(".privacy_modal_content").html(data.contentCn);
+                        $(".privacy_tabitem[data-index='0']").text(data.titleCn);
+                        $(".privacy_title").text("《"+data.titleCn+"》");
+                    }
+
+                } catch (error) {
+                }
+            }, error: function (XMLHttpRequest, textStatus, errorThrown) {
+            }
+        });
+    }
+
+    function confrimRegisterPrivacy(obj, event) {
+        if(window.event){
+            window.event.cancelBubble = true
+        } else{
+            event && event.stopPropagation();
+        }
+        var $mask = $(obj).parents(".import_privacy_mask");
+        var count = 0, allnum = $(".privacy_tabitem:visible").length
+        $mask.fadeOut(300);
+
+        var $parent = $("#"+ $(".privacy_confirm_register_btn").attr("data-id"));
+        $parent.attr("checked",true).addClass("checked");
+
+        var $parent1 = $(".layui-layer #"+ $(".privacy_confirm_register_btn").attr("data-id"));
+        $parent1.attr("checked",true).addClass("checked");
+
+        var mask1 = $parent.parent().parent().find(".login-logo-mask");
+        if(mask1){
+            $(mask1).hide();
+        }
+        var mask2 = $parent1.parent().parent().find(".login-logo-mask");
+        if(mask2){
+            $(mask2).hide();
+        }
+    }
+    function showPrivacyByType(obj, showTache, showCorpTache, showRegisterTache, defaultShow){
+
+        /*showTache-平台隐私政策，showCorpTache-企业隐私政策，showImport-投递声明*/
+        /*defaultShow 默认展示 0-平台隐私政策，1-企业隐私政策，2-投递声明*/
+        if(showTache){
+            /*let title = "招聘平台用户隐私政策";
+            $(".privacy_tabitem[data-index='0']").text(title);
+            $(".privacy_tabitem[data-index='0']").attr("title", title);*/
+        }
+        if(showCorpTache){
+            let title = "";
+            $(".privacy_tabitem[data-index='1']").text(title);
+            $(".privacy_tabitem[data-index='1']").attr("title", title);
+            $(".privacy_modal_tabcontent[data-index='1']").find(".privacy_modal_content").html($("#corpStatementCopyDiv_register").html());
+        }
+        if(showRegisterTache){
+            let title = "企业隐私声明";
+            $(".privacy_tabitem[data-index='2']").text(title);
+            $(".privacy_tabitem[data-index='2']").attr("title", title);
+        }
+
+        var $mask = $(".import_privacy .import_privacy_mask"), $madal = $(".import_privacy_mask .privacy_modal");
+        var avaiHeight = window.screen.availHeight;
+        var maskHeight = document.body.scrollHeight;
+        if (document.body.scrollHeight && document.documentElement.clientHeight
+        && document.documentElement.clientHeight < avaiHeight && maskHeight < avaiHeight
+        && maskHeight<document.documentElement.clientHeight){
+            maskHeight = document.documentElement.clientHeight;
+        }
+        $mask.css({"height":maskHeight + "px","display":"block"});
+
+        // 两个确定按钮
+        let $_btn = $(".privacy_confirm_register_btn");
+
+        $_btn.css({"background-color":"#ff4d1a"});
+        $_btn.attr({"onclick":"confrimRegisterPrivacy(this)"});
+        // 给按钮附上当前的标识
+        $_btn.removeAttr("data-id");
+        $_btn.attr("data-id", obj);
+
+
+        var pH = parseInt($(".import_privacy_mask .privacy_modal").css("height"));
+        var bH = document.body.clientHeight || document.documentElement.clientHeight;
+        if (document.body.clientHeight && document.documentElement.clientHeight){
+            bH = document.body.clientHeight < document.documentElement.clientHeight ? document.body.clientHeight :document.documentElement.clientHeight;
+        }
+        if (typeof useMaskHeight != "undefined" && useMaskHeight){
+            bH = maskHeight;
+        }
+        bH < pH ? $madal.css("margin-top", "0") : $madal.css("margin-top", (bH - pH)/2 + 'px');
+
+        var createModal = function (index) {
+            $(".privacy_tabitem[data-index='"+index+"']").show();
+        }
+
+        var hideModal = function (index) {
+            $(".privacy_tabitem[data-index='"+index+"']").hide();
+        }
+
+        var switchModal = function (index) {
+
+            $(".privacy_tabitem").removeClass('current');
+            $(".privacy_modal_tabcontent").hide();
+
+            // 选中企业隐私.
+            $(".privacy_tabitem[data-index='"+index+"']").addClass( 'current' );
+            $(".privacy_modal_tabcontent[data-index='"+index+"']").show();
+            $(".privacy_modal_tabcontent[data-index='"+index+"']").scrollTop = 0
+        }
+
+        showTache ? createModal(0) : hideModal(0);
+        showCorpTache ? createModal(1) : hideModal(1);
+        showRegisterTache ? createModal(2) : hideModal(2);
+
+        switchModal(defaultShow);
+
+        $(".privacy_tabitem").off("click.oooo1");
+
+        $(".privacy_tabitem[data-index=0]").on( 'click.oooo1' , function(){
+            showTache && switchModal(0);
+        })
+
+        $(".privacy_tabitem[data-index=1]").on( 'click.oooo1' , function(){
+            showCorpTache && switchModal(1);
+        })
+
+        $(".privacy_tabitem[data-index=2]").on( 'click.oooo1' , function(){
+            showRegisterTache && switchModal(2);
+        })
+
+    }
+    function changePrivacy(o) {
+        $(o).toggleClass("checked");
+
+        var checked = $(o).hasClass("checked");
+        var mask = $(o).parent().parent().find(".login-logo-mask");
+        if(mask){
+            if(checked){
+                $(mask).hide();
+            }else{
+                $(mask).show();
+            }
+        }
+
+    }
+
+</script>
+    </div>
+
+
+<script type="text/javascript">
+    $(function(){
+        initIco();
+    });
+    
+    initPrivacy();
+    
+    function initIco() {
+        var brandCode = "1";
+        var url = "/wt/crpharma/web/index/getIcoConfig?operational=4600ccb0d4b1cc000c1051575e5861143cb34e0a5304ed79c282b2990824f9d4812d0364841e819964c6b052c98177b6215ca4e09896a3cc131fd8c4813f8d7c";
+        $.ajax({
+            type:"post",
+            url:url,
+            data : {
+                "brandCode" : brandCode,
+                "picType":29
+            },
+            cache : false,
+            success : function(data) {
+                if (data.code == 0) {
+                    $('#websiteIco').attr("href",data.icoPath);
+                }
+            }
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    function alertLayer(retMsg){
+        layer.alert(retMsg, {
+            skin: 'demo-class' //自定义样式类名
+            ,closeBtn: 0
+            ,offset:'35%'
+            ,title:'温馨提示'
+            ,btn: ['确定']
+        });
+    }
+</script>
+
+<script type="text/javascript">
+
+    var isNoticeParentIframeFailed = false;
+    function noticeParentIframe(){
+        if(isExitsFunction('doNoticeParentIframe')){
+            doNoticeParentIframe();
+        }else{
+            
+        }
+    }
+    
+    
+    function isExitsFunction(funcName) {
+        try {
+            if (typeof(eval(funcName)) == "function") {
+                return true;
+            }
+        } catch(e) {}
+        return false;
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="comiis_wrapad" id="slideContainer">
+
+        <ul class="slideshow clear" id="slidesImgs">
+        
+            <li style='background-image: url(/wt/crpharma/web/index/webPositionN300!showColumnPic?showPicId=267700015)'>
+                
+            </li>
+        
+        </ul>
+
+            <div class="focus 11">
+                
+                <ul class=" clear" id="slideBar" >
+                    
+                        
+                            <li class="on" data_index="0"></li>
+                        
+                        
+                    
+                </ul>
+               
+            </div>
+    </div>
+
+<div class="m0 w overhidden mt20" >
+
+
+
+ 
+     <div class="w680 fl bg mb20">
+ 
+ 
+      
+    	<div class="mt20 ml20 c999 f12 icon pl20 bp1">校园招聘><span class="ml3">职位列表</span></div>
+      
+        <div class="mt30 wp94 border_red m0 h50 lh50 pr" >
+        	<a class="fl c333 pl20 pr20 border_right" href="javascript:void(0)" id="searchInputTypeArea"></a>
+            <div class="listbox-2" style="display: none">
+                <div class="overhidden border_red" style="background-color:#fff; border-radius:2px;">
+                    <ul class="list">
+                        <li><a href="">社会招聘</a></li>
+                        <li><a href="">海外招聘</a></li>
+                        <li><a href="">实习生招聘</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+                <input type="hidden" id="keyWordV" name="keyWordV" value="" />
+            
+
+            
+                <input class="fl lh50 h50 outline-none f14 wp66 c999 pl10 jHolder" type="text" placeholder="搜索职位名称" title="搜索职位名称" id="positionNameV" name="positionNameV" value=""
+                    >
+            
+            
+
+            <a class="fr f18 cfff pl46 pr20 bg_search icon bp10" style="padding-right: 10px;" href="javascript:void(0)" onclick="searchPost()">职位搜索</a>
+        </div>
+        <div class="m0 wp94 mt20" >
+			
+
+            
+            <input type="hidden" id="workPlaceNameV" name="workPlaceNameV" value="" />
+            
+
+            
+            
+                
+                <input type="hidden" id="positionTypeV" name="positionTypeV" value="" />
+                
+
+                
+                
+                <input type="hidden" id="comPartV" name="comPartV" value="" />
+                <input type="hidden" id="sicCorpCodeV" name="sicCorpCodeV" value="" />
+                
+                <div class="overhidden  mt15 workOrgArea">
+                    <span class="fl icon pl15 f12 bp9 c999">所属公司</span>
+                    <div class="fl f12 c333 ml15 mt0 listOrg">
+                        
+                            <a class="cfd8d56 mr12" id="companyAll" onclick="chooseCompanyAll(this)" href="javascript:void(0)">全部</a>
+                        
+                        
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="0" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润医药集团有限公司
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="578047781" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润江中
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="578135284" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润生物医药
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="578135619" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润堂
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="270900970" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               北京紫竹药业有限公司
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="270918492" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润医药总部
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="270919062" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               中国药研
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="270919620" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润医药商业
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="270972880" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               华润双鹤
+                                          </span>
+                               </a>
+                        
+                               <a class="c333 mr12 showOrg" style="margin-left: 3px;" onclick="chooseCompany(this)"
+                                    data-value="271016923" href="javascript:void(0)">
+                                          <span style="white-space: nowrap;">
+                                          
+                                               东阿阿胶股份公司
+                                          </span>
+                               </a>
+                        
+                        
+
+                    </div>
+                    
+                            <li class="subCompany showOrgMore"><a href="javascript:void(0)"><span >更多</span></a></li>
+                        
+                </div>
+                
+                
+
+                
+                
+
+                
+                <input type="hidden" id="siteId" value="" />
+                
+            
+
+        </div>
+        <div class="mt22 m0 wp94">
+        
+        
+        
+            <ul class="overhidden bgc_f4 lh40 f15 c333">
+            
+                <li class="fl ml8 w220" style="width:150px;">职位名称</li>
+             
+             
+             	<li class="fl w80 tl" style="width:120px;">招聘人数</li>
+             
+             
+             	<li class="fl w100 tl" style="width:250px;">所属机构</li>
+             
+             
+             
+                <li class="fl w100 tl" style="width:100px;">职位类别</li>
+             
+             
+                <li class="fl w100 tl" style="width:100px;">工作地点</li>
+             
+             
+             
+             
+
+            </ul>
+         
+            <div id="postList">
+            </div>
+        </div>
+         <ul class="overhidden c333 mt20 lh24 wp94 m0">
+            <li class="fl ml8 wp55">
+                <input type="checkbox" id="tableCheckAll" class="middle" onclick="chooseAllCheck(this)"><span class="ml10 middle">全选</span>
+            </li>
+            <!-- <li class="fr wp12 mrp"><a class=" Clearfix bg_btn_orange lh25 tc cfff f12 bg_btn_small" href="javascript:void(0)" onclick="batchCheckPositionRegist()">申请职位</a></li> -->
+            
+                <li class="fr wp14 mrp"><a class=" Clearfix bg_btn_blue lh25 tc cfff f12 bg_btn_small" href="javascript:void(0)" onclick="addAlternativePostList()">收藏职位</a></li>
+            
+            
+        </ul>
+        <div class="pagenation">
+            <lable id="totalPosition"></lable>
+            <span id="prev" onclick="changePage(-1);">上一页</span>
+            <span id="next" onclick="changePage(-2);">下一页</span>
+        </div>
+         <!-- <div id="morePostDiv" class=" wp94 m0 mt25 lh30 mb20 tc c333 bg_gray icon" style="cursor:pointer" onclick="morepost()">更多</div>
+         <div id="allPostDiv" class=" wp94 m0 mt25 lh30 mb20 tc c333 bg_gray" style="cursor:pointer;display: none" >已显示所有职位</div>
+          -->
+    </div>
+    
+        
+
+
+
+<div class="w280 fr mb20">
+    
+        <div class="w280 bg pt20">
+            <div class="ml20 c333 f18">校园招聘</div>
+            
+                <div class="ml20 mt10 border_dashed mr20">
+                    
+                        <a class="fl bg_btn_green bg_btn_small f10 lh14 cfff mt8 mr10 w30 tc">校招</a>
+                    
+                    
+                    
+                    
+                    
+                    <a class="c666 lh30" href="/wt/crpharma/web/index/webPositionN300!getOnePosition?postIdEnc=b8e23b433a497b81&brandCode=1&recruitType=1&lanType=1&columnId=1"><font title="研发实习生">研发实习生</font></a>
+                    <div class="f12 c999 overhidden pb10 lh24">
+                        <span class="Clearfix fl mr50 icon bp4 pl10"><font title="成都市-双流区" initialLetter="C">成都市-双流区</font></span>
+                        <span class="Clearfix fl icon bp5 pl15">2026.07.14</span>
+                    </div>
+                </div>
+            
+            
+                <a class="block f12 c999 lh40 tr mr20" href="/wt/crpharma/web/index/campus?brandCode=1">更多职位></a>        
+            
+            
+            
+            
+        </div>
+    
+    
+ </div>
+    
+</div>
+
+<!--消息提示-->
+<div class="tanchuang">
+	<div class="window pb50" id="messageDiv">
+	    <a class="close" href="javascript:void(0)" onclick="closeShowDiv('messageDiv')"></a>
+	    <span class="f16 cfff bg_black block lh40 pl10 icon bg14">提示</span>
+	    <p class="tc mt80 f24 c999 f-italic lh36" id="messageP" style="width: 465px;margin-left: 15px;"></p>
+	    <div class=" mt30 ml185">
+	        <a class="bg_btn_orange bg_btn_big lh40 w120 tc block cfff f16 fl" href="javascript:closeShowDiv('messageDiv');">确定</a>
+	    </div>
+	</div>
+    
+
+    <link type="text/css" rel="stylesheet" href="/wt/styles/web/style300/selectWorkPlace.css?vn=e0a24af9cb9b16e434c12e71ef0fad97" />
+
+    <style type="text/css">
+        
+    </style>
+
+	<div class="window pb10 pr" id="selectWorkPalce" style="display: none;">
+        <a class="close" href="javascript:void(0)" onclick="closeCitySelectDiv('selectWorkPalce')"></a>
+        <span class="f16 cfff bg_black block lh40 pl10 icon bg14">选择工作地点</span>
+        <div class="mt10 ml20 mr20 border overhidden pb5">
+            <a class="fl ml5 bg_btn_orange bg_btn_small cfff lh25 w75 tc chooseDiv" href="javascript:void(0)" data-index="1">全部</a>
+            <a class="fl ml5 bg_btn_orange bg_btn_small cfff lh25 w75 tc chooseDiv" href="javascript:void(0)" data-index="2" id="province" style="disPlay:none;"></a>
+            <a class="fl ml5 bg_btn_orange bg_btn_small cfff lh25 w75 tc chooseDiv" href="javascript:void(0)" data-index="3" id="cityEle" style="disPlay:none;"></a>
+            <span class="fr mr10" id="currentCity" style="disPlay:none;" data-value=""></span>
+        </div>
+        <div style="display: none;">
+                
+        </div>
+        <div class="ml20 mr20 overhidden border pNavContent-1 mb10" data-index="1">
+            <div class="ml30 mb10" id="provinceList" style="max-height: 120px; overflow-x: hidden;"></div>
+        </div>
+        <div class="ml20 mr20 overhidden border pNavContent-2" data-index="2">
+            <div class="ml30 mb10" id="cityByProvince">
+            </div>
+        </div>
+        <div class="ml20 mr20 overhidden border pNavContent-3" data-index="3">
+            <div class="ml30 mb10" id="countyTownByCity">
+            </div>
+        </div>
+        <div class="mt10 ml170">
+            <a class="bg_btn_orange bg_btn_big lh30 w75 tc block cfff f16 fl" href="javascript:selectPositionByCity();">确定</a>
+            <a class="bg_btn_gray bg_btn_big lh30 w75 tc block cfff f16 fl ml20" href="javascript:closeCitySelectDiv('selectWorkPalce');">取消</a>
+        </div>
+    </div>
+
+<script type="text/javascript">
+
+    var getProvinceAciton = "/wt/crpharma/web/index/webPositionN300!getProvince";
+    var getCityInfoByProvinceAction = "/wt/crpharma/web/index/webPositionN300!getCityInfoByProvince";
+    var getworkPlaceInfoByCode = "/wt/crpharma/web/index/webPosition210!getworkPlaceInfoByCode";
+
+    $(document).ready(function() {
+
+        $(".chooseDiv").click(function() {
+            var _this = $(this);
+            var index = _this.attr("data-index");
+            $(".chooseDiv").removeClass("cfff").addClass("c333");
+            _this.removeClass("c333").addClass("cfff");
+            $(".pNavContent-1").hide();
+            $(".pNavContent-2").hide();
+            $(".pNavContent-3").hide();
+            $(".pNavContent-"+index).show();
+
+            if (index==1) {
+
+                $("#province").hide();
+                $("#cityEle").hide();
+
+                $("#currentCity").hide();
+                $("#currentCity").html("");
+                $("#currentCity").attr("data-value", "");
+
+                var provinceList = $(".provinceList");
+                $.each(provinceList,function(){
+                    this.style="";
+                });
+
+            } else if(index==2){
+
+                $("#cityEle").hide();
+
+                $("#currentCity").show();
+                $("#currentCity").html("当前选择" + "：" + _this.html());
+                $("#currentCity").attr("data-value", _this.attr("data-value"));
+            }
+
+        });
+        $(".chooseDiv").eq(0).click();
+
+        $(".LocalDataUIC").mouseover(function(event){
+            event.stopPropagation();
+        });
+    });
+
+</script>
+    
+</div>
+<!--消息提示 end-->
+<div class="newUserDia" style="width: 100%;height: 100%;background: #000;position: fixed;z-index: 998;opacity: 0.3;top: 0;display: none"></div>
+<div class="window pb50" style="z-index: 999" id="messageDiv1">
+     <a class="close" href="javascript:void(0)" onclick="closeShowDiv1('messageDiv1')"></a>
+     <span class="f16 cfff bg_black block lh40 pl10 icon bg14">提示</span>
+     <p class="tc mt80 f24 c999 lh36" id="messageP1" style="width: 465px;margin-left: 15px;"></p>
+     <div class=" mt50 ml185">
+         <a class="bg_btn_orange bg_btn_big lh40 w120 tc block cfff f16" href="javascript:closeShowDiv1('messageDiv1');" onclick="mouseClickLogin(this)">去登录</a>
+     </div>
+     <div>
+        <p class="tc mt50">
+          <a href="javascript:closeShowDiv1('messageDiv1');" onclick="mouseClickRegist(this)" style="color: #fd8d56;">没有登录账号？→注册一个</a>
+        </p>
+     </div>
+</div>
+
+     <div class="window pb50" style="z-index: 999" id="messageDiv2">
+         <a class="close" href="javascript:void(0)" onclick="closeShowDiv1('messageDiv2')"></a>
+         <span class="f16 cfff bg_black block lh40 pl10 icon bg14">提示</span>
+         <p class="tc mt80 f24 c999 lh36" id="messageP1" style="width: 465px;margin-left: 15px;">推荐该职位需要您在网站先注册或登录,编辑完成简历后,重新推荐职位！</p>
+         <div class=" mt50 ml185">
+             <a class="bg_btn_orange bg_btn_big lh40 w120 tc block cfff f16" href="javascript:closeShowDiv1('messageDiv2');" onclick="mouseClickLogin(this)">去登录</a>
+         </div>
+         <div>
+             <p class="tc mt50">
+                 <a href="javascript:closeShowDiv1('messageDiv2');" onclick="mouseClickRegist(this)" style="color: #fd8d56;">没有登录账号？→注册一个</a>
+             </p>
+         </div>
+     </div>
+
+<!-- Tips：没有对应类型简历. -->
+<div class="window pb50" style="z-index: 999" id="noResumeDiv">
+    <a class="close" href="javascript:void(0)" onclick="closeShowDiv1('noResumeDiv')"></a>
+    <span class="f16 cfff bg_black block lh40 pl10 icon bg14">提示</span>
+    <p class="tc mt80 f24 c999 lh36" id="noResumeDivTip" style="width: 465px;margin-left: 15px;"></p>
+    <div class=" mt50 ml185">
+        <a class="bg_btn_orange bg_btn_big lh40 w120 tc block cfff f16" href="javascript:void(0);" onclick="goCreateResume();">立即创建</a>
+    </div>
+</div>
+
+<!--新建用户对话框 -->
+
+
+
+
+<!--新建用户对话框 -->
+<input type="hidden" id="postIdTemp" value="" />
+<div class="window pb30 " style="z-index: 999;display:none;"  id="newUserDialog">
+    <a class="close" href="javascript:void(0)" onclick="hideDiv('newUserDialog');"></a>
+    <span class="f16 cfff bg_black block lh40 pl10">请填写您的个人信息</span>
+    <div class="mt15">
+        <span class="ml ml88  c333 lh30"><span class="cfd8d56 mr5">*</span>姓名：</span>
+        <input class="w250 ml10-2 lh30 border-3 h30" type="text" name='name' id='name'>
+    </div>
+    <div class="mt15">
+        <span class="ml ml88  c333 lh30"><span class="cfd8d56 mr5">*</span>性别：</span>
+        <input type="radio" class="verm ml10" name='gender' checked="checked" value="0"><span class="ml5 c333 lh30">男</span>
+        <input type="radio" class="verm ml30" name='gender' value="1"><span class="ml5 c333 lh30">女</span>
+    </div>
+    <div class="mt15">
+        <span class="ml ml60  c333 lh30"><span class="cfd8d56 mr7">&nbsp;</span>出生日期：</span>
+        <input class="w250 ml10-2 lh30 border-3 h30" type="text" name='birthday' id='birthday' onClick="javascript:WdatePicker({lang:'zh-cn'});">
+    </div>
+    <div class="mt15">
+        <span class="ml ml60  c333 lh30"><span class="cfd8d56 mr5">*</span>电子邮箱：</span>
+        <input class="w250 ml10-2 lh30 border-3 h30" type="text" name='email' id='email'>
+    </div>
+    <div class="mt15">
+        <span class="ml ml60  c333 lh30"><span class="cfd8d56 mr5">*</span>验证码：</span>
+        <input class="w220 ml10-2 lh30 border-3 h30" id="validateCode_pwd_extend" type="text" placeholder='请输入验证码' />
+    <span class="captchaImg" style="height: 35px;">
+				<img class="validateImg" id="validateImg_pwd1" align="middle" onclick="genNewCode_pwd1();"
+                     style="height: 35px;"
+                     src="/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?&validateCodeKey=webValidateCode&operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc3f54f2787edacc6f8caf60c976d93f50dd36bd1dbdf4260c55a759ec0c81d00cb2671f5127c963a9667081bdbc73144d0a33d5e5e0656a5f03481a722d5f0671c703a81fec7b472740f2d35ef453a33c9f6ae7a0a5fda7e1" />
+			</span>
+    </div>
+
+    
+    
+        <div class="mt20 lh24 f12 c666 pl20 pr20">
+            <span id="privacy_checkbox_1" onclick="changePrivacy(this)" class="privacy_checkbox middle"></span>
+            <span class="middle c999">本人已阅读并同意</span>
+            
+            
+                <span class="middle c333" style="cursor:pointer;" onclick="showPrivacyByType('privacy_checkbox_1',true,false,false,0)">
+                    <span style="color:blue;">
+                        《招聘平台用户隐私政策》
+                    </span>
+                </span>
+            
+            
+            
+            
+            
+            <span class="middle c999">
+                ，同意针对相关工作机会提供简历及后续招聘进程中所需的个人信息。
+            </span>
+        </div>
+    
+    
+
+    <div class=" mt30 ml155">
+        <a class="bg_btn_orange bg_btn_big lh40 w120 tc block cfff f16 fl" href="javascript:void(0);" onclick="saveUser();">确定</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function genNewCode_pwd1(){
+        var url = "/wt/crpharma/web/index/webValidateCode?operational=4600ccb0d4b1cc000c1051575e586114a82cbb192bb1a4bc2c32ce478f7530056c611688a4f946ef8f3556c170834a9ed20d4257657662c14596f933a15273b4";
+        var data = "validateCodeKey=webValidateCode";
+        $.ajax({
+            type:"POST",
+            dataType:"text",
+            url:url,
+            data:data,
+            //async: false,//同步请求.
+            success:flushValidateCode_pwd1
+        });
+    }
+    function flushValidateCode_pwd1(newCode){
+        newCode = $.trim(newCode);
+        if(newCode==-1){
+            alert("验证码刷新失败。");
+        }else{
+            $("#validateImg_pwd1").attr('src',"/wt/crpharma/web/index/webUserLogin!genValidateCodeNew?code2="+Math.random())
+        }
+    }
+
+
+    function saveUser(){
+
+        var isReadedPrivacy = "";
+        
+            /*隐私声明*/
+            var checked = $("#privacy_checkbox_1").hasClass("checked");
+            if(!checked){
+                var msg = "请先阅读并同意声明后再操作";
+                alertLayer(msg);
+                return false;
+            }
+            if(checked){
+                isReadedPrivacy = "Y";
+            } else {
+                isReadedPrivacy = "NO";
+            }
+        
+
+        var currentPostId = "";
+        if($("#postIdTemp").val()!=""){
+            currentPostId = $("#postIdTemp").val();
+        } else {
+            currentPostId = "";
+        }
+
+        var name=$("#name").val();
+        if(name==""||name==null){
+            alertLayer("姓名不能为空！");
+            return false;
+        }
+
+        var genderArray = document.getElementsByName("gender");
+        var gender = "";
+        for(var i=0;i<genderArray.length;i++){
+            if(genderArray[i].checked == true){
+                gender = genderArray[i].value;
+                break;
+            }
+        }
+        if(gender==""||gender==null){
+            alertLayer("性别不能为空!");
+            return false;
+        }
+        var inputCode = document.getElementById("validateCode_pwd_extend").value;
+        if (inputCode.replace(/(^\s*)|(\s*$)/g, "")=='') {
+            alertLayer("请输入验证码");
+            return false;
+        }
+
+        var birthday=document.getElementsByName("birthday")[0].value;
+        /**
+         if(birthday==""||birthday==null){
+  			alert("出生日期不能为空!");
+  			return false;
+  		}*/
+
+        var email=$("#email").val();
+        if(email==""||email==null){
+            alertLayer("邮箱不能为空");
+            return false;
+        }
+        if(!isEmail(email)){
+            alertLayer("邮箱格式不正确！");
+            return false;
+        }
+
+        var recruitType=$("#recruitType").val();
+        var brandCode=$("#brandCode").val();
+        var url="/wt/crpharma/web/index/applyFlowAction3!saveUserForAjax?operational=4600ccb0d4b1cc000c1051575e586114ebd6386c91285ded3a62e09ce33f44796091a9cfb57eaf0f899f98415597d64367756bd22fc0aed3c703a81fec7b472740f2d35ef453a33c9f6ae7a0a5fda7e1";
+        var data="2="+encodeURIComponent(name)+"&20="+gender+"&21="+birthday+"&37="+encodeURIComponent(email)
+            +"&recruitType="+recruitType+"&brandCode="+brandCode+"&currentPostId="+currentPostId+"&validateCode="+inputCode;
+
+        if(isReadedPrivacy!=""){
+            data += "&isReadedPrivacy" + isReadedPrivacy;
+        }
+
+        $.ajax({
+            type:"POST",
+            url:url,
+            data:data,
+            dataType:"text",
+            success : function(data){
+                if(data=="0"){
+                    alertLayer("系统已为您自动注册账号,账号密码已发送您填写的邮箱请注意查看！");
+                    $("#newUserDialog").hide();
+
+                    window.location= "/wt/crpharma/web/index/applyPositionN300!chooseResume?brandCode=1&operational=4600ccb0d4b1cc000c1051575e586114ebd6386c91285ded4c1dd94a80067c4b0b23234e14fa21622a0e0d012ac497d4ba193b27868338badb085b53b47b0b503d8360a2e29b0bf77fd401cf7a566ae5daf26f2009821770ee83f5630e280d61"
+                        + "&postId=" + currentPostId + "&recruitType=" + recruitType;
+                    return true;
+                } else if(data=="1"){
+                    alertLayer("注册失败!");
+                } else if(data=="2"){
+                    alertLayer('对不起，此邮件地址已被注册！请更改邮件地址或登录后投递！');
+                } else if(data=="3"){
+                    alertLayer("恭喜注册成功！系统已发送激活邮件至您的邮箱，请注意查收！");
+                    $("#newUserDialog").hide();
+                    $(".newUserDia").hide();
+                    $("#postIdTemp").val("");
+                    return true;
+                }else if(data=="4"){
+                    alertLayer("验证码输入错误！");
+                    $("#validateCode_pwd_extend").val("");
+                }
+                genNewCode_pwd1();
+            }
+
+
+        });
+
+    }
+
+</script>
+
+</form>
+    
+
+
+
+
+<div class="footer f12 c999">
+    <div class="text-info" style="padding-top: 4px;">
+        <span>已通过ISO27001:2013 信息安全认证
+        
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102007416" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                <img src="/wt/images/web/gongan.png" style="float:left;margin-top: 5px;"/>
+                <p style="float:left;height:20px;line-height:20px;margin: 6px 0px 0px 5px; color:#939393;">沪公网安备 31010102007416号</p>
+            </a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a style="color:#999;" href="https://beian.miit.gov.cn/" target="_blank">沪ICP备10000326号-6</a></span>
+        
+        
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span style="cursor: pointer">
+                <a href="/wt/crpharma/web/index/privacyPolicy" target="_blank" style="color: unset">隐私政策</a>
+            </span>
+        
+    </div>
+    <div class="text-info" style="margin-top: -8px;">
+    	<span>WinTalent 招聘管理系统 &copy; 2007-2026大易科技.</span>
+    </div>
+</div>
+
+
+<form id="xinfuliLoginForm" action='' method="get" target="_blank">
+  <input type="hidden" name="corpId">
+  <input type="hidden" name="timeStamp">
+  <input type="hidden" name="nonce">
+  <input type="hidden" name="encryptMsg">
+  <input type="hidden" name="signature">
+  <input type="hidden" name="action">
+</form>
+
+
+	<div id="rocket">Top</div>
+
+</body>
+
+<script type="text/javascript">
+
+    function changePage(objvalue){
+    	if(objvalue==-1){
+    		if($("#currentPage").val()<=1){
+    			_currentPage = 1;
+                searchPost();
+    		}else{
+    			var pageUp = parseInt($("#currentPage").val())-1;
+    			_currentPage = pageUp;
+                searchPost();
+    		}
+    	}else if(objvalue==-2){
+    			if($("#_maxPage").val()==$("#currentPage").val()){
+    				_currentPage = $("#_maxPage").val();
+                    searchPost();
+    			}else{
+    				var pageDown = parseInt($("#currentPage").val())+1;
+    				_currentPage = pageDown;
+                    searchPost(pageDown);
+    			}
+    	}else{
+    		_currentPage = parseInt(objvalue);
+            searchPost();
+        }
+
+    }
+
+    $(function(){
+    	initSearchInputTypeName();
+    });
+
+    $(function(){
+
+    	var btnWorkPlace=$("li.workplace");
+        btnWorkPlace.click(function(){
+             var placeArr = $(".hidePlaceEle");
+             if(placeArr.hasClass("hideEle")){
+                 placeArr.removeClass("hideEle");
+                 $('.workplace.showOrgMore a span').text("收起");
+                 $('.listPlace').css("height","auto");
+                 $('.workplace.showOrgMore').removeClass("showOrgMore").addClass("showOrgLess");
+             }else{
+                 placeArr.addClass("hideEle");
+                 $('.workplace.showOrgLess a span').text("更多");
+                 $('.listPlace').css("height","auto");
+                 $('.workplace.showOrgLess').removeClass("showOrgLess").addClass("showOrgMore");
+             }
+        });
+
+        var siteNum = '5';
+        var $categorySite=$('div.workSiteArea a:gt('+ siteNum +'):not(:last)');
+          $categorySite.hide();
+          var $toggleBtnSite=$("li.workSite > a");
+          $toggleBtnSite.click(function(){
+             if($categorySite.is(":visible")){
+                 $categorySite.hide();
+                 $('.workSite.showOrgLess a span').text("更多");
+                 $('.listSite').css("height","auto");
+                 $('.workSite.showOrgLess').removeClass("showOrgLess").addClass("showOrgMore");
+             } else{
+                 $categorySite.show();
+                 $('.workSite.showOrgMore a span').text("收起");
+                 $('.listSite').css("height","auto");
+                 $('.workSite.showOrgMore').removeClass("showOrgMore").addClass("showOrgLess");
+             }
+        });
+
+        var postTypeNum = '5';
+        var $categoryPostType=$('div.postTypeArea a:gt('+ postTypeNum +'):not(:last)');
+          $categoryPostType.hide();
+          var $toggleBtnPostType=$("li.postType > a");
+          $toggleBtnPostType.click(function(){
+             if($categoryPostType.is(":visible")){
+                 $categoryPostType.hide();
+                 $('.postType.showOrgLess a span').text("更多");
+                 $('.listPostType').css("height","auto");
+                 $('.postType.showOrgLess').removeClass("showOrgLess").addClass("showOrgMore");
+             } else{
+                 $categoryPostType.show();
+                 $('.postType.showOrgMore a span').text("收起");
+                 $('.listPostType').css("height","auto");
+                 $('.postType.showOrgMore').removeClass("showOrgMore").addClass("showOrgLess");
+             }
+        });
+
+    	var workOrgNum = '5';
+    	var $categoryOrg=$('div.workOrgArea a:gt('+workOrgNum+'):not(:last)');
+		  $categoryOrg.hide();
+		  var $toggleBtnOrg=$("li.subCompany > a");
+		  $toggleBtnOrg.click(function(){
+			 if($categoryOrg.is(":visible")){
+				 $categoryOrg.hide();
+				 $('.subCompany.showOrgLess a span').text("更多");
+				 $('.listOrg').css("height","auto");
+				 $('.subCompany.showOrgLess').removeClass("showOrgLess").addClass("showOrgMore");
+			 } else{
+				 $categoryOrg.show();
+				 $('.subCompany.showOrgMore a span').text("收起");
+				 $('.listOrg').css("height","auto");
+				 $('.subCompany.showOrgMore').removeClass("showOrgMore").addClass("showOrgLess");
+			 }
+		  });
+
+        
+    });
+
+    $(function () {
+        var showLoginType = getQueryString("showLoginType");
+        if(showLoginType == "login"){
+            mouseClickLogin();
+        }else if(showLoginType == "regist"){
+            mouseClickRegist();
+        }
+    });
+
+    /***js获取请求参数***/
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+    function initSearchInputTypeName(){
+    	var recruitType = $("#recruitType").val();
+    	var userType = document.getElementsByName("registerUserType");
+    	$.each(userType, function(index){
+    		if(this.value == recruitType){
+    			var dest = $("#searchInputTypeArea");
+    			var source = $("#recruitType_"+ recruitType +"");
+    			if(typeof (source) != 'undefined' && typeof (source.attr("data-value")) != 'undefined'){
+                    if(source.attr("data-value").length>6){
+                        var	typeName = source.attr("data-value").substring(0,6)+"...";
+                        dest.text(typeName);
+                    }else{
+                        dest.text(source.attr("data-value"));
+                    }
+                    dest.attr("title",source.attr("data-value"));
+                }
+    			return false;
+    		}
+    	});
+    }
+    $(".taikangorg a").eq(1).css({
+		"background-color":"orange",
+		"color":"white"
+	});
+    $(".taikangorg a").click(function(){
+		$(".taikangorg a").css({
+			"background-color":"lightgray",
+			"color":"black"
+		});
+		$(this).css({
+			"background-color":"orange",
+			"color":"white"
+		});
+		if($(this).attr("data-value")=="100162"){ // 泰康资产.
+			$(this).attr({
+				"href":"http://taikangamc.zhiye.com/",
+				"target":"_blank"
+			});
+		} else if($(this).attr("data-value")=="100164"){ // 泰康健投.
+            $(this).attr({
+                "href":"http://tkhealthcare.zhiye.com/",
+                "target":"_blank"
+            });
+        }
+	});
+
+    $(window).scroll(function(){
+    	if($(window).scrollTop()>=250) {
+    		$("#rocket").css("opacity","1");
+    	}else {
+    		$("#rocket").css("opacity","0");
+    	}
+    });
+    $("#rocket").click(function(){
+		$("html,body").animate({scrollTop: '0px'}, 800);
+
+    });
+    $(window).scroll(function () {
+
+        var scrollTop = $(this).scrollTop();
+        var scrollHeight = $(document).height();
+        var windowHeight = $(this).height();
+        if ((scrollTop + windowHeight) >= (scrollHeight - 50)) {
+
+       //此处是滚动条到底部时候触发的事件，在这里写要加载的数据，或者是拉动滚动条的操作
+        //morepost();
+
+        }
+      });
+</script>
+<!-- 111222-->
+<script type="text/javascript" src="/wt/javascript/web/templates/templates300/selectWorkPlace.js?vn=723d89203e2356b4c34f6c3a959d0f0e" ></script>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        
+
+        
+
+    });
+
+    function bindOnclickForFirstLevel(type, url){
+
+        var eleId = "";
+        if(type=="workPlaceNameV"){
+            eleId = "province-list";
+        }else if(type=="comPartV"){
+            eleId = "org-list";
+        }
+
+        if(eleId==""){
+            return false;
+        }
+
+        $("#"+eleId+"").on("click", ".province-list-item-title", function(e) {
+
+            var index = $(this).index();
+            var parent = $(this).parent();
+            var children_len = parent.find('a.province-list-item-title').length;
+            $(".city-list").remove();
+
+            var dataVal = $(this).attr("data-value");
+
+            $(this).parent().children().removeClass("province-list-item-title-active");
+
+            if(dataVal==undefined || dataVal=="") {
+                $(this).addClass("hover");
+                $(this).addClass("province-list-item-title-active");
+            } else {
+                $(this).parent().children("span").removeClass("hover");
+                $(this).addClass("province-list-item-title-active");
+            }
+
+            _currentPage = 1;
+            $("#"+type+"").val(dataVal);
+            searchPost();
+
+            if(index !=0) {
+
+                // 取到省级下属市级应插入的位置下标
+                var lastindex = getProvinceRowLastIndex(index, type);
+                var dom = null;
+                if( lastindex != null && lastindex != children_len){
+                    dom = parent.find('a.province-list-item-title').eq(lastindex).get(0);
+                }
+
+                var cityCode = $(this).attr("data-value");
+                var data = [];
+
+                if (cityCode) {
+
+                    var dataStr = "";
+                    if(type=="workPlaceNameV"){
+                        dataStr = "workPlaceCode=" + cityCode;
+                        
+                    }else if(type=="comPartV"){
+                        dataStr = "orgId=" + cityCode;
+                        
+                    }
+                    if(dataStr==""){
+                        return false;
+                    }
+
+                    $.ajax({
+                        url: url,
+                        data: dataStr,
+                        async: false,
+                        dataType: "JSON",
+                        success: function (o) {
+
+                            data = o;
+                        }
+                    })
+                }
+
+                var citysdom = document.createElement('div');
+                citysdom.setAttribute('class', 'city-list');
+                citysdom.setAttribute('id', 'city-list');
+
+                for (var i = 0, l = data.length; i < l; i++) {
+                    var citydom = document.createElement('span');
+                    citydom.setAttribute('class', 'city-list-item-title');
+                    citydom.setAttribute('onclick','chooseConditionByFirstLevel(this,\''+type+'\')');
+                    if(type=="comPartV"){
+                        citydom.setAttribute('data-value', data[i].uniqueKey);
+                        citydom.innerHTML = data[i].exName;
+                    } else {
+                        citydom.setAttribute('data-value', data[i].code);
+                        citydom.innerHTML = data[i].name;
+                    }
+                    citysdom.appendChild(citydom);
+                }
+                try {
+                    if(type=="workPlaceNameV"){
+                        document.getElementById("province-list").insertBefore(citysdom, dom);
+                    }else if(type=="comPartV"){
+                        document.getElementById("org-list").insertBefore(citysdom, dom);
+                    }
+                } catch (e) {
+
+                }
+            }
+        });
+    }
+
+
+    function getProvinceRowLastIndex(index,type) {
+
+        var rowIndexObject = getProvinceRowIndexObject(type);
+        var lastIndex = null;
+        for( var key in rowIndexObject){
+            var array = rowIndexObject[ key ];
+
+            if( $.inArray( index, array ) > -1 ){
+                lastIndex = key;
+            }
+        }
+        return lastIndex;
+    }
+
+    // 取到每行省级块的长度
+    function getProvinceRowIndexObject(type) {
+
+        var eleId = "";
+        if(type=="workPlaceNameV"){
+            eleId = "province-list";
+        }else if(type=="comPartV"){
+            eleId = "org-list";
+        }
+
+        var parent = $("#"+eleId+"");
+        var $targetEle = parent.find(".province-list-item-title");
+
+        var parentWidth = parent.outerWidth() - 50;
+
+        // 每行的元素所有下标数组以及最后一个元素的下标对象
+        var rowIndexObject = {};
+
+        var rowWidth = 0,indexArray = [],totalLen = $targetEle.length;
+        $targetEle.each(function (index) {
+
+            var width = $(this).outerWidth();
+
+            rowWidth += width;
+            if( rowWidth <= parentWidth ){
+                indexArray.push(index);
+                if( index == totalLen - 1){
+                    rowIndexObject[totalLen] = indexArray;
+                    indexArray = [];
+                }
+
+            }else{
+                rowWidth = width;
+                rowIndexObject[index] = indexArray;
+                indexArray = [];
+                indexArray.push(index);
+            }
+
+        });
+        return rowIndexObject;
+    }
+
+    function chooseConditionByFirstLevel(_this, id) {
+        _currentPage = 1;
+        $(_this).parent().find("span").removeClass("city-list-item-title-active");
+        $(_this).addClass("city-list-item-title-active");
+        $("#"+id+"").val($(_this).attr("data-value"));
+        searchPost();
+    }
+
+    function choosePositionAllByCondition(_this,id){
+
+        if(id == "positionTypeV"){
+            closeSecondTypeDiv();
+        }
+
+        _currentPage = 1;
+
+        $(_this).parent().children('li').removeClass("hover");
+        $(_this).addClass("hover");
+
+        $("#"+id+"").val("");
+        searchPost();
+    }
+
+</script>
+
+<script type="text/javascript">
+
+    
+    SlideShow(4000)
+    function SlideShow(c) {
+        var a = document.getElementById("slideContainer"),
+            f = document.getElementById("slidesImgs").getElementsByTagName("li"),
+            h = document.getElementById("slideBar"),
+            n = h.getElementsByTagName("li"),
+            d = f.length, c = c || 3000, e = lastI = 0, j, m;
+
+        function b() {
+            m = setInterval(function () {
+                e = e + 1 >= d ? e + 1 - d : e + 1;
+                g();
+            }, c);
+        }
+        function k() {
+            clearInterval(m)
+        }
+        function g() {
+            f[lastI].style.display = "none";
+            n[lastI].className = "";
+            f[e].style.display = "block";
+            n[e].className = "on";
+            lastI = e ;
+        }
+        f[e].style.display = "block";
+        a.onmouseover = k;
+        a.onmouseout = b;
+        h.onmouseover = function (i) {
+            j = i ? i.target : window.event.srcElement;
+            if (j.nodeName === "IMG" ){
+                if( j.attributes["data_index"].nodeValue ){
+                    e = parseInt( j.attributes["data_index"].nodeValue, 10);
+                    g();
+                }
+            }else if (j.nodeName === "LI") {
+                e = parseInt( j.attributes["data_index"].nodeValue, 10) ;
+                g();
+            }
+        };
+        b();
+    };
+
+</script>
+
+</html>
+
+

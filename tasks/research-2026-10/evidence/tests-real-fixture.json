@@ -1,0 +1,8 @@
+{
+  "command": "python3 -m unittest discover -s tests",
+  "result": "PASS",
+  "tests": 70,
+  "elapsed_seconds": 7.588,
+  "actual_api_calls": false,
+  "note": "首次沙箱运行67项：新增测试date不符renderer格式，已只将展示date规范至YYYY-MM-DD；两现有HTTP stub监听EPERM。工具批准沙箱外后70项通过；ResourceWarning本地stub socket未关闭，非真实网络调用。"
+}

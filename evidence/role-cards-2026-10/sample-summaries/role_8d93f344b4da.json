@@ -1,0 +1,128 @@
+{
+  "name": [
+    {
+      "text": "系统工程师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "系统工程师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 1,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "进行人体SPECT/CT系统调试和测试工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vU85ZzLtn",
+          "text": "进行人体SPECT/CT系统调试和测试工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "进行人体SPECT/CT系统成像性能优化工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vU85ZzLtn",
+          "text": "进行人体SPECT/CT系统成像性能优化工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "进行基于SPECT/CT的剂量计算方法开发工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vU85ZzLtn",
+          "text": "进行基于SPECT/CT的剂量计算方法开发工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "进行人体SPECT/CT系统相关论文和专利撰写工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vU85ZzLtn",
+          "text": "进行人体SPECT/CT系统相关论文和专利撰写工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vU85ZzLtn"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“临床医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "临床医学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vU85ZzLtn"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "医学物理系统工程师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vU85ZzLtn"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

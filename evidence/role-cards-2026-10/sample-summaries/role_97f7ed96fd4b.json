@@ -1,0 +1,130 @@
+{
+  "name": [
+    {
+      "text": "数据采集",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "数据采集"
+        }
+      ]
+    }
+  ],
+  "sample_n": 3,
+  "excluded": [
+    {
+      "id": "vsU5ZaZtC",
+      "url": "https://campus.niuqizp.com/job-vsU5ZaZtC.html",
+      "role": "具身智能数据采集员|数据质检员|数据处理员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "daily_work": [],
+  "entry_counts": [
+    {
+      "text": "3份保留的校招平台样本中，2份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkUNL5tCM",
+          "vsU5nNzCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vrl5ztLtn"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，2份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 2,
+        "denominator": 3,
+        "matched_ids": [
+          "vkUNL5tCM",
+          "vsU5nNzCC"
+        ]
+      }
+    },
+    {
+      "text": "3份保留的校招平台样本中，1份专业类字段为“计算机类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vkUNL5tCM",
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "计算机类",
+        "n": 1,
+        "denominator": 3,
+        "matched_ids": [
+          "vrl5ztLtn"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "数据采集师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrl5ztLtn",
+        "vsU5nNzCC"
+      ],
+      "quotes": [],
+      "count": 2
+    },
+    {
+      "text": "具身AI数据采集",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vkUNL5tCM"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}

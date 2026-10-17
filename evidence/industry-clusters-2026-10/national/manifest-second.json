@@ -1,0 +1,31 @@
+[
+  {
+    "file": "advanced-2022-gov.html",
+    "url": "https://www.gov.cn/xinwen/2022-11/30/content_5729722.htm",
+    "sha256": "d29612c637cdfb156a03df84de8b58c0b3ca36177d77e83716a28e0587e884cf",
+    "bytes": 25932,
+    "layer": "Python requests static",
+    "access_date": "2026-10-11"
+  },
+  {
+    "file": "innovation-2021-cumulative.pdf",
+    "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202103/P020210311662149536169.pdf",
+    "error": "412 Client Error: Precondition Failed for url: https://kjt.hubei.gov.cn/kjdt/tzgg/202103/P020210311662149536169.pdf"
+  },
+  {
+    "file": "innovation-confirm-2022.html",
+    "url": "https://www.most.gov.cn/dfkj/hub/zxdt/202303/t20230316_185131.html",
+    "sha256": "84a0fd55b90e3e0e8de045636598f1dc85dffd0676e694f720544901bdc875b1",
+    "bytes": 10260,
+    "layer": "Python requests static",
+    "access_date": "2026-10-11"
+  },
+  {
+    "file": "sme-2025-hebei.html",
+    "url": "https://gxt.hebei.gov.cn/main/policy/zxzcdetail?id=a64da019-3a6a-4cf7-9d61-ca2b12ebb78b",
+    "sha256": "ffcf0aadb41907f288e40ecceaf5bec35735a89759f4d8ba9d662a189e9c3f3f",
+    "bytes": 34906,
+    "layer": "Python requests static",
+    "access_date": "2026-10-11"
+  }
+]

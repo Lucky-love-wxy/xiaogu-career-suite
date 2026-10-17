@@ -1,0 +1,289 @@
+{
+  "schema_version": "role-cards-research-v1",
+  "id": "role_a3c2c87e3f83",
+  "node": "人力/行政/法务 › 行政 › 文员",
+  "family": "人力/行政/法务",
+  "parent_id": "人力/行政/法务 › 行政",
+  "tier": "P3",
+  "pilot": false,
+  "evidence_level": "partial",
+  "completion_stage": "jd_only_draft",
+  "sample_n": 1,
+  "upstream_sample_n": 2,
+  "practitioner_author_n": 0,
+  "evidence": [
+    {
+      "id": "Q",
+      "type": "queue_metadata",
+      "title": "research_queue.csv 冻结节点",
+      "url": null,
+      "date": "2026-10-06",
+      "scope": "标准名称和分类元数据；不是岗位工作事实",
+      "text": "人力/行政/法务 › 行政 › 文员",
+      "source_file": "inputs.json"
+    },
+    {
+      "id": "vmY5ZztZC",
+      "type": "recruitment_jd",
+      "title": "文员",
+      "company": "广东省人民医院神经外科",
+      "url": "https://campus.niuqizp.com/job-vmY5ZztZC.html",
+      "date": "2026-03-28",
+      "accessed_at": null,
+      "snapshot_at": "2026-10-06",
+      "scope": "仅该雇主该招聘说明；校招平台样本不等于允许零经验",
+      "text": "03-27广东省人民医院神经外科文员招聘公告\n2026年3月28日\n广东省人民医院神经外科因临床业务需要，现面向社会公开招聘文员1名，具体招聘要求如下：\n一、岗位名称\n文员\n二、招聘条件\n1.大学本科及以上学历，具有临床医学、基础医学、生命科学、护理学等医学相关专业背景；\n2.大学英语四级及以上英文水平，熟练应用office办公软件操作；\n3.年龄35岁以下，身体健康，工作积极主动、执行能力强；\n4.具有较强的学习创新能力、沟通协调能力、团队协作精神；\n5.具有责任心、敬业精神，能按时完成工作任务。\n三、岗位职责\n1.协助临床医师完成日常病历书写、病历管理、病人资料整理等工作；\n2.负责患者入院安排、手术预约协调及相关事务性工作；\n3.协助科室完成临床数据、资料采集，整理与归档管理；\n4.完成科室交办的其他文书类、事务类辅助工作。\n四、用工形式及薪酬待遇\n1.用工形式：劳务派遣制；\n2.薪酬福利：薪酬标准按《劳务派遣协议书》及医院相关岗位薪酬管理规定执行，医院按国家规定统一缴纳五险一金。\n五、应聘方式\n；\n邮编：510080\n附件：个人简历模板\n个人简历模板.docx\n人事处\n2026年3月27日\n公告附件\n个人简历模板.docx",
+      "source_file": "inputs.json",
+      "archived": false,
+      "cache_path": "evidence/careerdb-2026-10-05/niuqi/job/vmY5ZztZC.html",
+      "cache_sha256": "5e3ae3f175ac71b1022d8d3f66ece6c081a4705729f858cb4062dd48ac264085"
+    }
+  ],
+  "missing": [
+    "从业者一手分享：未找到可入卡的已核正文，缺2名不同作者",
+    "日常体验、考核指标、发展路径与条件化风险：缺从业者证据，不用招聘宣传补齐",
+    "招聘正文样本不足3：当前1份；联网补抓未执行"
+  ],
+  "excluded_samples": [
+    {
+      "id": "vlY5NMCMC",
+      "url": "https://campus.niuqizp.com/job-vlY5NMCMC.html",
+      "role": "执业药师|行政文员",
+      "reasons": [
+        "多岗位标题，未作段落角色分离"
+      ]
+    }
+  ],
+  "name": [
+    {
+      "text": "文员",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "文员"
+        }
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "text": "文员",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "plain_language": [
+    {
+      "text": "样本雇主列出的工作包括：完成科室交办的其他文书类、事务类辅助工作",
+      "kind": "jd_summary",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "完成科室交办的其他文书类、事务类辅助工作"
+        }
+      ],
+      "scope": "招聘职责摘要，实际体验待核实"
+    }
+  ],
+  "daily_work": [
+    {
+      "text": "完成科室交办的其他文书类、事务类辅助工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "完成科室交办的其他文书类、事务类辅助工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助科室完成临床数据、资料采集，整理与归档管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "协助科室完成临床数据、资料采集，整理与归档管理"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "负责患者入院安排、手术预约协调及相关事务性工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "负责患者入院安排、手术预约协调及相关事务性工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "协助临床医师完成日常病历书写、病历管理、病人资料整理等工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "协助临床医师完成日常病历书写、病历管理、病人资料整理等工作"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "deliverables": [
+    {
+      "text": "协助临床医师完成日常病历书写、病历管理、病人资料整理等工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "协助临床医师完成日常病历书写、病历管理、病人资料整理等工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    },
+    {
+      "text": "协助科室完成临床数据、资料采集，整理与归档管理",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "协助科室完成临床数据、资料采集，整理与归档管理"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "collaborators": [
+    {
+      "text": "负责患者入院安排、手术预约协调及相关事务性工作",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5ZztZC",
+          "text": "负责患者入院安排、手术预约协调及相关事务性工作"
+        }
+      ],
+      "scope": "原句包含该字段线索；不补未写的工作地点/频次"
+    }
+  ],
+  "work_setting": [],
+  "entry_for_fresh": [
+    {
+      "text": "1份保留的校招平台样本中，1份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmY5ZztZC"
+        ]
+      }
+    },
+    {
+      "text": "1份保留的校招平台样本中，1份专业类字段为“护理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "护理学类",
+        "n": 1,
+        "denominator": 1,
+        "matched_ids": [
+          "vmY5ZztZC"
+        ]
+      }
+    }
+  ],
+  "metrics": [],
+  "growth": [],
+  "risks": [],
+  "misconceptions": [],
+  "questions": [
+    {
+      "text": "这个岗位实际每天做哪些事，各占多少时间？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "工作地点、服务对象和协作分工是什么，是否涉及驻点或出差？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    },
+    {
+      "text": "是否接受本届无全职经验的应届生，必需学历、专业、证书和培训安排是什么？",
+      "kind": "suggested_question",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "rationale": "招聘职责/校招渠道不足以确定实际体验与入职门槛"
+    }
+  ],
+  "search_keywords": [
+    {
+      "text": "文员",
+      "kind": "suggested_keyword",
+      "evidence_ids": [
+        "vmY5ZztZC"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ],
+  "entry_for_fresh_note": "专业为上游专业类归类；学历为上游结构字段归一值，非正文统一门槛；校招渠道不证明无经验可入职。"
+}

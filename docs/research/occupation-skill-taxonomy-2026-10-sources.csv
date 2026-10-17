@@ -1,0 +1,13 @@
+﻿url,标题,发布方,版本/日期,访问日期,支撑哪条结论
+https://isco.ilo.org/en/isco-08/,ISCO-08 structure and definitions,ILO,ISCO-08,2026-10-08,四层与官方Excel/CSV入口；本地实际计数来自ESCO内嵌表，原ILO下载未成功
+https://esco.ec.europa.eu/en/about-esco/faq?page=1,Frequently Asked Questions,European Commission,访问时版本,2026-10-07,分类数据2011/833/EU复用条件；API软件许可不能替代分类许可
+https://esco.ec.europa.eu/en/use-esco,Use ESCO：语言与当前版本,European Commission,28语言/1.2.1，2025-12-10,2026-10-08,官方语言清单不含中文，页脚当前版本；本地raw/esco-languages与official-body-readback
+https://esco.ec.europa.eu/en/use-esco/download,Download ESCO,European Commission,实际分析1.2.0；网站最新1.2.1,2026-10-07,公开CSV包、URI、职业技能关系；实际包保存在raw
+https://www.onetcenter.org/database.html,O*NET Database,USDOL/ETA,31.0 2026-08,2026-10-07,数据下载与版本；本地包及用户Excel已核验
+https://www.onetcenter.org/license_db.html,O*NET Database Content License,USDOL/ETA,31.0 CC BY4.0,2026-10-07,数据许可、署名、修改声明
+local:evidence/taxonomy-2026-10/raw/onet-2024-method.pdf,O*NET 2024 方法报告,O*NET Resource Center,2024,2026-10-07,数据来源方法，当前下载原URL未落盘；保留本地PDF，远端来源绑定待补
+https://www.onetcenter.org/crosswalks/esco/ESCO_to_ONET-SOC.xlsx,ESCO to O*NET-SOC Crosswalk,O*NET Resource Center,本次取得文件,2026-10-07,官方crosswalk；未计算双向覆盖率
+https://www.ndrc.gov.cn/fggz/jyysr/jysrsbxf/202210/t20221031_1340470_ext.html,新版职业分类大典净增158个新职业,国家发改委,2022-10-31,2026-10-08,正式版1639职业、97数字/134绿色/23交叉；非原包计数
+https://legal.lightcast.io/lightcast-legal/open-terms-of-use,Open Terms of Use,Lightcast,2026-10-01,2026-10-08,公开数据非商业使用与商业合同条件
+https://docs.lightcast.io/lightcast-api/docs/api-access,Access Options to Skills,Lightcast,访问时版本,2026-10-08,商业/生产需商业许可，公益免费须批准
+https://www.linkedin.com/blog/engineering/data/building-maintaining-the-skills-taxonomy-that-powers-linkedins-skills-graph,Building and maintaining the skills taxonomy,LinkedIn,历史官方工程文章,2026-10-08,可读结构设计，不等于公开可下载/可商用全量图

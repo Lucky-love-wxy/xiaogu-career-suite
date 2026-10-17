@@ -1,0 +1,432 @@
+{
+  "name": [
+    {
+      "text": "理疗师",
+      "kind": "metadata",
+      "evidence_ids": [
+        "Q"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "Q",
+          "text": "理疗师"
+        }
+      ]
+    }
+  ],
+  "sample_n": 10,
+  "excluded": [],
+  "daily_work": [
+    {
+      "text": "负责给客户讲解康复类知识，并合理运用公司产品帮助客户解决相关问题",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vYk5NnNaM",
+        "vyk5tNNaC"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vYk5NnNaM",
+          "text": "负责给客户讲解康复类知识，并合理运用公司产品帮助客户解决相关问题"
+        },
+        {
+          "evidence_id": "vyk5tNNaC",
+          "text": "负责给客户讲解康复类知识，并合理运用公司产品帮助客户解决相关问题"
+        }
+      ],
+      "count": 2,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "维护理疗过程的安全性与服务质量",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5aMNML"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5aMNML",
+          "text": "维护理疗过程的安全性与服务质量"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "运用理疗技术进行日常调理与康复支持",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5aMNML"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5aMNML",
+          "text": "运用理疗技术进行日常调理与康复支持"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "配合健康管理团队完成相关记录与反馈",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vUr5aMNML"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vUr5aMNML",
+          "text": "配合健康管理团队完成相关记录与反馈"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "理疗操作实施：进行按摩、推拿等手法治疗，调整身体状况",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5NLCaN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5NLCaN",
+          "text": "理疗操作实施：进行按摩、推拿等手法治疗，调整身体状况"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    },
+    {
+      "text": "运用物理因子等技术为患者进行治疗，以缓解疼痛、改善血液循环、促进组织修复等",
+      "kind": "jd_requirement",
+      "evidence_ids": [
+        "vmY5NLCaN"
+      ],
+      "quotes": [
+        {
+          "evidence_id": "vmY5NLCaN",
+          "text": "运用物理因子等技术为患者进行治疗，以缓解疼痛、改善血液循环、促进组织修复等"
+        }
+      ],
+      "count": 1,
+      "scope": "样本雇主写的职责，非从业者体验"
+    }
+  ],
+  "entry_counts": [
+    {
+      "text": "10份保留的校招平台样本中，3份学历字段为“大专”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "大专",
+        "n": 3,
+        "denominator": 10,
+        "matched_ids": [
+          "vkk5NLtnL",
+          "vrm5zzNnL",
+          "vsU5nt5NZ"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，6份学历字段为“未写”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "未写",
+        "n": 6,
+        "denominator": 10,
+        "matched_ids": [
+          "vUr5aMNML",
+          "vYk5NnNaM",
+          "vmY5NLCaN",
+          "vws5Nt5z5",
+          "vyU5ztzML",
+          "vyk5tNNaC"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，1份学历字段为“本科”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "education",
+        "value": "本科",
+        "n": 1,
+        "denominator": 10,
+        "matched_ids": [
+          "vls5MtaaC"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，1份专业类字段为“不限专业”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "不限专业",
+        "n": 1,
+        "denominator": 10,
+        "matched_ids": [
+          "vls5MtaaC"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，1份专业类字段为“中医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "中医学类",
+        "n": 1,
+        "denominator": 10,
+        "matched_ids": [
+          "vkk5NLtnL"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，2份专业类字段为“医学技术类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "医学技术类",
+        "n": 2,
+        "denominator": 10,
+        "matched_ids": [
+          "vkk5NLtnL",
+          "vsU5nt5NZ"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，1份专业类字段为“基础医学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "基础医学类",
+        "n": 1,
+        "denominator": 10,
+        "matched_ids": [
+          "vyU5ztzML"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，1份专业类字段为“护理学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "护理学类",
+        "n": 1,
+        "denominator": 10,
+        "matched_ids": [
+          "vkk5NLtnL"
+        ]
+      }
+    },
+    {
+      "text": "10份保留的校招平台样本中，3份专业类字段为“社会学类”",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "major_classes",
+        "value": "社会学类",
+        "n": 3,
+        "denominator": 10,
+        "matched_ids": [
+          "vYk5NnNaM",
+          "vmY5NLCaN",
+          "vws5Nt5z5"
+        ]
+      }
+    },
+    {
+      "text": "10份保留样本中，1份明确出现应届/实习字样",
+      "kind": "sample_count",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vYk5NnNaM",
+        "vkk5NLtnL",
+        "vls5MtaaC",
+        "vmY5NLCaN",
+        "vrm5zzNnL",
+        "vsU5nt5NZ",
+        "vws5Nt5z5",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "stat": {
+        "field": "regex",
+        "value": "应届|毕业生|实习",
+        "n": 1,
+        "denominator": 10,
+        "matched_ids": [
+          "vrm5zzNnL"
+        ]
+      }
+    }
+  ],
+  "titles": [
+    {
+      "text": "康复理疗师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vYk5NnNaM",
+        "vmY5NLCaN",
+        "vsU5nt5NZ",
+        "vyU5ztzML",
+        "vyk5tNNaC"
+      ],
+      "quotes": [],
+      "count": 5
+    },
+    {
+      "text": "理疗师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vUr5aMNML",
+        "vkk5NLtnL",
+        "vws5Nt5z5"
+      ],
+      "quotes": [],
+      "count": 3
+    },
+    {
+      "text": "中医康复理疗师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vls5MtaaC"
+      ],
+      "quotes": [],
+      "count": 1
+    },
+    {
+      "text": "中医理疗师",
+      "kind": "sample_title",
+      "evidence_ids": [
+        "vrm5zzNnL"
+      ],
+      "quotes": [],
+      "count": 1
+    }
+  ]
+}
